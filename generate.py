@@ -320,16 +320,21 @@ def edgar_8k_last_days(cik, days=3):
     return out
 
 
-def biotech_section():
+def biotech_alerts():
+    """Alerts feed like the app: price/volume spikes, 8-K filings, news."""
     cfg_path = os.path.join(BASE_DIR, "biotech_config.json")
     try:
-        with open(cfg_path, encoding="utf-8") as f:
-            watchlist = json.load(f)["watchlist"]
+        cfg = json.load(open(cfg_path, encoding="utf-8"))
+        watchlist = cfg["watchlist"]
     except Exception as e:
         fail("biotech", f"config unreadable: {e}")
         return []
-    rows = []
-    today_iso = datetime.now(timezone.utc).date().isoformat()
+    p_spike = cfg.get("price_spike_pct", 8.0)
+    p_crit = cfg.get("price_critical_pct", 15.0)
+    v_mult = cfg.get("volume_mult", 3.0)
+    v_crit = cfg.get("volume_critical_mult", 5.0)
+    alerts = []
+    today = datetime.now(timezone.utc).date().isoformat()
     for w in watchlist:
         ticker, name, cik = w.get("ticker"), w.get("name", ""), w.get("cik", "")
         closes, vols = chart_closes_volumes(ticker)
@@ -339,17 +344,24 @@ def biotech_section():
         vol_avg = sum(vols[-21:-1]) / 20.0 if len(vols) >= 22 else 0.0
         vol_mult = (vols[-1] / vol_avg) if vol_avg > 0 else 0.0
         filings = edgar_8k_last_days(cik, days=3) if cik else []
-        notable = abs(chg) >= 5.0 or vol_mult >= 2.0 or bool(filings)
-        if not notable:
-            continue
-        newest = filings[0]["date"] if filings else today_iso
-        rows.append({
-            "ticker": ticker, "name": name, "chg": chg,
-            "vol_mult": vol_mult, "filings": filings, "newest": newest,
-        })
+        if abs(chg) >= p_spike or vol_mult >= v_mult:
+            sev = "crit" if (abs(chg) >= p_crit or vol_mult >= v_crit) else "warn"
+            direction = "זינוק" if chg >= 0 else "צלילה"
+            alerts.append({"sev": sev, "kind": "price", "ticker": ticker,
+                           "date": today,
+                           "text": f"{direction} של {chg:+.1f}% · מחזור \u00d7{vol_mult:.1f} מהממוצע"})
+        for f in filings:
+            alerts.append({"sev": "warn", "kind": "sec", "ticker": ticker,
+                           "date": f["date"],
+                           "text": "דיווח 8-K חדש" + (f" · סעיפים {f['items']}" if f["items"] else "")})
+        if abs(chg) >= p_spike or vol_mult >= v_mult or filings:
+            for h in news_headlines(ticker + " stock", n=2):
+                alerts.append({"sev": "info", "kind": "news", "ticker": ticker,
+                               "date": today, "text": h})
         time.sleep(0.15)  # be polite to EDGAR
-    rows.sort(key=lambda r: r["newest"], reverse=True)
-    return rows
+    alerts.sort(key=lambda a: a["date"], reverse=True)
+    alerts.sort(key=lambda a: {"crit": 0, "warn": 1, "info": 2}[a["sev"]])
+    return alerts
 
 
 # ---------------------------------------------------------------- HTML
@@ -385,6 +397,21 @@ direction:rtl;padding:12px;max-width:720px;margin:0 auto}
 border-radius:20px;padding:2px 10px;margin:2px 4px 2px 0}
 .empty{color:#8b949e;text-align:center;padding:14px;font-size:.88rem}
 .ftr{color:#6e7681;font-size:.72rem;text-align:center;padding:16px 4px}
+.tabs{position:sticky;top:0;z-index:10;display:flex;gap:8px;background:#0d1117;padding:10px 0}
+.tab{flex:1;padding:11px 4px;border:1px solid #30363d;border-radius:10px;background:#161b22;
+color:#e6edf3;font-size:.92rem;font-weight:700;cursor:pointer;font-family:inherit}
+.tab.active{background:#1f6feb;border-color:#1f6feb;color:#fff}
+.pane{display:none}
+.pane.active{display:block}
+.alert{border:1px solid #30363d;border-radius:10px;padding:10px;margin:8px 0;
+background:#0d1117;border-right:4px solid #8b949e}
+.alert.warn{border-right-color:#d29922}
+.alert.crit{border-right-color:#f85149}
+.alert.info{border-right-color:#58a6ff}
+.a-top{display:flex;align-items:center;gap:8px;margin-bottom:4px;flex-wrap:wrap}
+.a-top .tick{font-weight:800;font-size:1rem}
+.a-date{margin-right:auto;color:#8b949e;font-size:.75rem}
+.a-text{font-size:.88rem;color:#e6edf3}
 """
 
 STATUS_COLORS = {
@@ -396,7 +423,7 @@ STATUS_COLORS = {
 }
 
 
-def build_html(mh, dips, bios, updated):
+def build_html(mh, dips, alerts, updated):
     parts = [f"""<!DOCTYPE html>
 <html lang="he" dir="rtl">
 <head>
@@ -409,10 +436,26 @@ def build_html(mh, dips, bios, updated):
 <div class="hdr">
 <h1>📊 סורקי הבורסה</h1>
 <div class="ts">עודכן: {esc(updated.strftime('%H:%M'))} (שעון ישראל) · {esc(updated.strftime('%d/%m/%Y'))}</div>
-</div>"""]
+<div class="sub">רענון אוטומטי כל 15 דקות</div>
+</div>
+<div class="tabs">
+<button class="tab active" data-t="mh">בריאות שוק</button>
+<button class="tab" data-t="dip">דיפים</button>
+<button class="tab" data-t="bio">ביוטק</button>
+</div>
+""" + """
+<script>
+document.querySelectorAll('.tab').forEach(function(b){b.addEventListener('click',function(){
+document.querySelectorAll('.tab').forEach(function(x){x.classList.remove('active')});
+document.querySelectorAll('.pane').forEach(function(x){x.classList.remove('active')});
+b.classList.add('active');
+document.getElementById('pane-'+b.dataset.t).classList.add('active');
+window.scrollTo(0,0);});});
+</script>
+"""]
 
     # ---- market health
-    parts.append('<div class="card"><h2>בריאות שוק ארה״ב</h2>')
+    parts.append('<div class="pane active" id="pane-mh"><div class="card"><h2>בריאות שוק ארה״ב</h2>')
     if mh and mh["score"] is not None:
         col = STATUS_COLORS.get(mh["status"], "#e6edf3")
         parts.append(
@@ -428,10 +471,10 @@ def build_html(mh, dips, bios, updated):
                 f'<div class="v">{esc(c["value"])}</div></div>')
     else:
         parts.append('<div class="empty">אין מספיק נתונים כרגע</div>')
-    parts.append("</div>")
+    parts.append("</div></div>")
 
     # ---- dips
-    parts.append('<div class="card"><h2>סורק דיפים (S&amp;P 500)</h2>')
+    parts.append('<div class="pane" id="pane-dip"><div class="card"><h2>סורק דיפים (S&amp;P 500)</h2>')
     if dips:
         for c in dips:
             hls = "".join(f"<li>{esc(h)}</li>" for h in c["headlines"])
@@ -443,28 +486,22 @@ def build_html(mh, dips, bios, updated):
                 + (f'<ul class="hl">{hls}</ul>' if hls else "") + "</div>")
     else:
         parts.append('<div class="empty">אין מניות שעומדות כרגע בכל תנאי הדיפ</div>')
-    parts.append("</div>")
+    parts.append("</div></div>")
 
-    # ---- biotech
-    parts.append('<div class="card"><h2>סורק ביוטק</h2>')
-    if bios:
-        for b in bios:
-            cls = "up" if b["chg"] >= 0 else "down"
-            sign = "+" if b["chg"] >= 0 else ""
-            badges = "".join(
-                f'<span class="badge">8-K · {esc(f["date"])}'
-                + (f' · סעיפים {esc(f["items"])}' if f["items"] else "")
-                + "</span>" for f in b["filings"])
+    # ---- biotech alerts feed
+    parts.append('<div class="pane" id="pane-bio"><div class="card"><h2>סורק ביוטק · התראות</h2>')
+    if alerts:
+        kind_he = {"price": "תנועת מחיר", "sec": "דיווח SEC", "news": "חדשות"}
+        for a in alerts:
             parts.append(
-                f'<div class="bio"><span class="tick">{esc(b["ticker"])}</span> '
-                f'<span class="{cls}">{sign}{b["chg"]:.1f}%</span>'
-                f'<div class="sub">{esc(b["name"])}</div>'
-                f'<div class="meta" style="font-size:.82rem;color:#c9d1d9">'
-                f'מחזור ×{b["vol_mult"]:.1f} מהממוצע</div>'
-                f'{badges}</div>')
+                f'<div class="alert {esc(a["sev"])}"><div class="a-top">'
+                f'<span class="tick">{esc(a["ticker"])}</span> '
+                f'<span class="badge">{kind_he.get(a["kind"], "")}</span>'
+                f'<span class="a-date">{esc(a["date"])}</span></div>'
+                f'<div class="a-text">{esc(a["text"])}</div></div>')
     else:
-        parts.append('<div class="empty">אין תנועות חריגות או דיווחי 8-K חדשים כרגע</div>')
-    parts.append("</div>")
+        parts.append('<div class="empty">אין התראות חדשות כרגע</div>')
+    parts.append("</div></div>")
 
     parts.append(
         '<div class="ftr">נתונים: Yahoo Finance · SEC EDGAR · Google News · '
@@ -478,11 +515,11 @@ def main():
 
     mh = market_health_section()
     dips = dip_scan_section()
-    bios = biotech_section()
+    alerts = biotech_alerts()
 
     updated = datetime.now(JER)
     with open(OUT_FILE, "w", encoding="utf-8") as f:
-        f.write(build_html(mh, dips, bios, updated))
+        f.write(build_html(mh, dips, alerts, updated))
     dt = time.time() - t0
 
     print(f"WROTE {OUT_FILE} ({os.path.getsize(OUT_FILE)} bytes) in {dt:.0f}s")
@@ -490,8 +527,7 @@ def main():
         print(f"MARKET score={mh['score']} status={mh['status']}")
     print(f"DIPS candidates={len(dips)}" +
           (f" top={[c['ticker'] for c in dips[:5]]}" if dips else ""))
-    print(f"BIOTECH notable={len(bios)}" +
-          (f" tickers={[b['ticker'] for b in bios]}" if bios else ""))
+    print(f"BIOTECH alerts={len(alerts)}")
     print(f"SP500 missing series: {stats['sp500_missing']}, "
           f"biotech missing: {stats['biotech_missing']}, "
           f"SEC failures: {stats['sec_failed']}, news failures: {stats['news_failed']}")
