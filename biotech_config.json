@@ -1,0 +1,207 @@
+{
+ "price_check_seconds": 60,
+ "edgar_check_seconds": 300,
+ "news_check_seconds": 900,
+ "price_spike_pct": 8.0,
+ "price_critical_pct": 15.0,
+ "volume_mult": 3.0,
+ "volume_critical_mult": 5.0,
+ "sound": true,
+ "quiet_hours": {
+  "enabled": true,
+  "start": 0,
+  "end": 8
+ },
+ "telegram": {
+  "enabled": false,
+  "bot_token": "",
+  "chat_id": ""
+ },
+ "watchlist": [
+  {
+   "ticker": "ABOS",
+   "name": "Acumen Pharmaceuticals, Inc.",
+   "cik": "0001576885"
+  },
+  {
+   "ticker": "ACRV",
+   "name": "Acrivon Therapeutics, Inc.",
+   "cik": "0001781174"
+  },
+  {
+   "ticker": "AGIO",
+   "name": "AGIOS PHARMACEUTICALS, INC.",
+   "cik": "0001439222"
+  },
+  {
+   "ticker": "ANNX",
+   "name": "Annexon, Inc.",
+   "cik": "0001528115"
+  },
+  {
+   "ticker": "CAPR",
+   "name": "CAPRICOR THERAPEUTICS, INC.",
+   "cik": "0001133869"
+  },
+  {
+   "ticker": "CMPX",
+   "name": "Compass Therapeutics, Inc.",
+   "cik": "0001738021"
+  },
+  {
+   "ticker": "COGT",
+   "name": "Cogent Biosciences, Inc.",
+   "cik": "0001622229"
+  },
+  {
+   "ticker": "ENGN",
+   "name": "enGene Therapeutics Inc.",
+   "cik": "0001980845"
+  },
+  {
+   "ticker": "EYPT",
+   "name": "EyePoint, Inc.",
+   "cik": "0001314102"
+  },
+  {
+   "ticker": "FTH",
+   "name": "Faeth Therapeutics, Inc.",
+   "cik": "0001829802"
+  },
+  {
+   "ticker": "GNLX",
+   "name": "GENELUX Corp",
+   "cik": "0001231457"
+  },
+  {
+   "ticker": "HELP",
+   "name": "CYBIN INC.",
+   "cik": "0001833141"
+  },
+  {
+   "ticker": "IDYA",
+   "name": "IDEAYA Biosciences, Inc.",
+   "cik": "0001676725"
+  },
+  {
+   "ticker": "IMTX",
+   "name": "Immatics N.V.",
+   "cik": "0001809196"
+  },
+  {
+   "ticker": "IMUX",
+   "name": "IMMUNIC, INC.",
+   "cik": "0001280776"
+  },
+  {
+   "ticker": "INO",
+   "name": "INOVIO PHARMACEUTICALS, INC.",
+   "cik": "0001055726"
+  },
+  {
+   "ticker": "IRON",
+   "name": "Disc Medicine, Inc.",
+   "cik": "0001816736"
+  },
+  {
+   "ticker": "IVA",
+   "name": "Inventiva S.A.",
+   "cik": "0001756594"
+  },
+  {
+   "ticker": "KOD",
+   "name": "Kodiak Sciences Inc.",
+   "cik": "0001468748"
+  },
+  {
+   "ticker": "LSTA",
+   "name": "LISATA THERAPEUTICS, INC.",
+   "cik": "0000320017"
+  },
+  {
+   "ticker": "MLYS",
+   "name": "Mineralys Therapeutics, Inc.",
+   "cik": "0001933414"
+  },
+  {
+   "ticker": "MRNA",
+   "name": "Moderna, Inc.",
+   "cik": "0001682852"
+  },
+  {
+   "ticker": "NBP",
+   "name": "NovaBridge Biosciences",
+   "cik": "0001778016"
+  },
+  {
+   "ticker": "OSTX",
+   "name": "OS Therapies Inc",
+   "cik": "0001795091"
+  },
+  {
+   "ticker": "PHAR",
+   "name": "Pharming Group N.V.",
+   "cik": "0001828316"
+  },
+  {
+   "ticker": "PMVP",
+   "name": "PMV Pharmaceuticals, Inc.",
+   "cik": "0001699382"
+  },
+  {
+   "ticker": "PRAX",
+   "name": "Praxis Precision Medicines, Inc.",
+   "cik": "0001689548"
+  },
+  {
+   "ticker": "PYPD",
+   "name": "PolyPid Ltd.",
+   "cik": "0001611842"
+  },
+  {
+   "ticker": "RAPP",
+   "name": "Rapport Therapeutics, Inc.",
+   "cik": "0002012593"
+  },
+  {
+   "ticker": "RGNX",
+   "name": "REGENXBIO Inc.",
+   "cik": "0001590877"
+  },
+  {
+   "ticker": "SLS",
+   "name": "SELLAS Life Sciences Group, Inc.",
+   "cik": "0001390478"
+  },
+  {
+   "ticker": "SVRA",
+   "name": "Savara Inc",
+   "cik": "0001160308"
+  },
+  {
+   "ticker": "TYRA",
+   "name": "Tyra Biosciences, Inc.",
+   "cik": "0001863127"
+  },
+  {
+   "ticker": "VIR",
+   "name": "Vir Biotechnology, Inc.",
+   "cik": "0001706431"
+  },
+  {
+   "ticker": "VNDA",
+   "name": "Vanda Pharmaceuticals Inc.",
+   "cik": "0001347178"
+  },
+  {
+   "ticker": "XNCR",
+   "name": "Xencor Inc",
+   "cik": "0001326732"
+  },
+  {
+   "ticker": "ZNTL",
+   "name": "Zentalis Pharmaceuticals, Inc.",
+   "cik": "0001725160"
+  }
+ ]
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>סורקי הבורסה</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#0d1117;color:#e6edf3;font-family:-apple-system,'Segoe UI',Arial,sans-serif;
+direction:rtl;padding:12px;max-width:720px;margin:0 auto}
+.hdr{text-align:center;padding:14px 6px 10px}
+.hdr h1{font-size:1.35rem;margin-bottom:6px}
+.hdr .ts{color:#8b949e;font-size:.85rem}
+.card{background:#161b22;border:1px solid #30363d;border-radius:12px;padding:14px;margin:12px 0}
+.card h2{font-size:1.05rem;margin-bottom:10px;color:#f0f3f6}
+.score-wrap{display:flex;align-items:center;gap:16px}
+.score{font-size:3rem;font-weight:800;min-width:96px;text-align:center}
+.status{font-size:1.05rem;font-weight:700}
+.sub{color:#8b949e;font-size:.8rem;margin-top:4px}
+.chk{display:flex;align-items:flex-start;gap:10px;padding:9px 2px;border-top:1px solid #21262d}
+.chk:first-of-type{border-top:none}
+.dot{width:12px;height:12px;border-radius:50%;margin-top:4px;flex-shrink:0}
+.dot.pass{background:#3fb950}.dot.warn{background:#d29922}.dot.fail{background:#f85149}
+.chk .t{flex:1}.chk .t b{display:block;font-size:.92rem}.chk .t span{color:#8b949e;font-size:.78rem}
+.chk .v{font-size:.85rem;color:#c9d1d9;white-space:nowrap}
+.dip{border:1px solid #30363d;border-radius:10px;padding:10px;margin:8px 0;background:#0d1117}
+.dip .tick{font-size:1.05rem;font-weight:800;color:#58a6ff}
+.dip .meta{font-size:.82rem;color:#c9d1d9;margin:4px 0}
+.dip .hl{font-size:.78rem;color:#8b949e;margin-top:6px}
+.dip .hl li{margin:3px 0;list-style:none}
+.dip .hl li::before{content:"📰 "}
+.bio{border:1px solid #30363d;border-radius:10px;padding:10px;margin:8px 0;background:#0d1117}
+.bio .tick{font-weight:800;font-size:1rem}
+.up{color:#3fb950}.down{color:#f85149}
+.badge{display:inline-block;background:#1f6feb;color:#fff;font-size:.72rem;
+border-radius:20px;padding:2px 10px;margin:2px 4px 2px 0}
+.empty{color:#8b949e;text-align:center;padding:14px;font-size:.88rem}
+.ftr{color:#6e7681;font-size:.72rem;text-align:center;padding:16px 4px}
+</style>
+</head>
+<body>
+<div class="hdr">
+<h1>📊 סורקי הבורסה</h1>
+<div class="ts">עודכן: 00:45 (שעון ישראל) · 11/10/2026</div>
+</div>
+<div class="card"><h2>בריאות שוק ארה״ב</h2>
+<div class="score-wrap"><div class="score" style="color:#d29922">62</div><div><div class="status" style="color:#d29922">שיפור</div><div class="sub">ציון 0–100 לפי 8 בדיקות</div></div></div>
+<div class="chk"><span class="dot warn"></span><div class="t"><b>רוחב שוק: מניות מעל ממוצע 50 יום</b><span>מעט מדי מניות מעל ממוצע 50 יום (רוחב שוק חלש)</span></div><div class="v">35.1%</div></div>
+<div class="chk"><span class="dot warn"></span><div class="t"><b>רוחב שוק: מניות מעל ממוצע 200 יום</b><span>מעט מדי מניות מעל ממוצע 200 יום</span></div><div class="v">47.6%</div></div>
+<div class="chk"><span class="dot pass"></span><div class="t"><b>מגמה: המדד מעל ממוצע 50 יום</b><span>המדד מתחת לממוצע 50 הימים שלו</span></div><div class="v">7,812 מול ממוצע 7,697</div></div>
+<div class="chk"><span class="dot pass"></span><div class="t"><b>מגמה: המדד מעל ממוצע 200 יום</b><span>המדד מתחת לממוצע 200 הימים שלו</span></div><div class="v">7,812 מול ממוצע 7,251</div></div>
+<div class="chk"><span class="dot pass"></span><div class="t"><b>מדד הפחד (VIX)</b><span>תנודתיות גבוהה</span></div><div class="v">14.84</div></div>
+<div class="chk"><span class="dot fail"></span><div class="t"><b>תשואת אג״ח 10 שנים</b><span>תשואת אגח 10 שנים גבוהה או עולה מהר</span></div><div class="v">5.24% (3 ימים: -3bp)</div></div>
+<div class="chk"><span class="dot warn"></span><div class="t"><b>נפט ברנט</b><span>מחיר נפט ברנט גבוה או עולה מהר</span></div><div class="v">$104.72 (3 ימים: +4.1%)</div></div>
+<div class="chk"><span class="dot warn"></span><div class="t"><b>נפט WTI</b><span>מחיר נפט WTI גבוה או עולה מהר</span></div><div class="v">$91.85 (3 ימים: +2.7%)</div></div>
+</div>
+<div class="card"><h2>סורק דיפים (S&amp;P 500)</h2>
+<div class="empty">אין מניות שעומדות כרגע בכל תנאי הדיפ</div>
+</div>
+<div class="card"><h2>סורק ביוטק</h2>
+<div class="bio"><span class="tick">HELP</span> <span class="up">+10.1%</span><div class="sub">CYBIN INC.</div><div class="meta" style="font-size:.82rem;color:#c9d1d9">מחזור ×1.0 מהממוצע</div></div>
+<div class="bio"><span class="tick">IMUX</span> <span class="up">+8.3%</span><div class="sub">IMMUNIC, INC.</div><div class="meta" style="font-size:.82rem;color:#c9d1d9">מחזור ×1.1 מהממוצע</div></div>
+<div class="bio"><span class="tick">INO</span> <span class="up">+5.5%</span><div class="sub">INOVIO PHARMACEUTICALS, INC.</div><div class="meta" style="font-size:.82rem;color:#c9d1d9">מחזור ×1.1 מהממוצע</div></div>
+<div class="bio"><span class="tick">KOD</span> <span class="up">+6.0%</span><div class="sub">Kodiak Sciences Inc.</div><div class="meta" style="font-size:.82rem;color:#c9d1d9">מחזור ×0.5 מהממוצע</div></div>
+<div class="bio"><span class="tick">LSTA</span> <span class="down">-11.7%</span><div class="sub">LISATA THERAPEUTICS, INC.</div><div class="meta" style="font-size:.82rem;color:#c9d1d9">מחזור ×1.0 מהממוצע</div></div>
+<div class="bio"><span class="tick">MRNA</span> <span class="up">+14.2%</span><div class="sub">Moderna, Inc.</div><div class="meta" style="font-size:.82rem;color:#c9d1d9">מחזור ×1.7 מהממוצע</div></div>
+<div class="bio"><span class="tick">ZNTL</span> <span class="up">+5.2%</span><div class="sub">Zentalis Pharmaceuticals, Inc.</div><div class="meta" style="font-size:.82rem;color:#c9d1d9">מחזור ×0.4 מהממוצע</div></div>
+<div class="bio"><span class="tick">VIR</span> <span class="up">+5.2%</span><div class="sub">Vir Biotechnology, Inc.</div><div class="meta" style="font-size:.82rem;color:#c9d1d9">מחזור ×0.8 מהממוצע</div><span class="badge">8-K · 2026-10-08 · סעיפים 8.01,9.01</span></div>
+</div>
+<div class="ftr">נתונים: Yahoo Finance · SEC EDGAR · Google News · מקורות חינמיים בלבד · לא ייעוץ השקעות</div></body></html>
