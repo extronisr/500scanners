@@ -86,11 +86,11 @@ def market_health_section():
         if key == "spx50":
             if d["spx"] is None or d["dma50"] is None:
                 return "לא זמין"
-            return f"{d['spx']:,.0f} מול ממוצע {d['dma50']:,.0f}"
+            return f"{d['spx']:,.0f} / {d['dma50']:,.0f}"
         if key == "spx200":
             if d["spx"] is None or d["dma200"] is None:
                 return "לא זמין"
-            return f"{d['spx']:,.0f} מול ממוצע {d['dma200']:,.0f}"
+            return f"{d['spx']:,.0f} / {d['dma200']:,.0f}"
         if key == "vix":
             return "לא זמין" if d["vix"] is None else f"{d['vix']:.2f}"
         if key == "tnx":
@@ -123,12 +123,23 @@ def market_health_section():
     for key in ["s5fi", "s5th", "spx50", "spx200", "vix", "tnx", "brent", "wti"]:
         state = states.get(key, "fail") if states else "fail"
         checks.append({
-            "label": CHECK_LABELS[key],
+            "label": CHECK_LABELS[key][0],
+            "desc": CHECK_LABELS[key][1],
             "value": val(key),
             "state": state,
             "explain": m.CHECK_EXPLANATIONS.get(key, ""),
         })
-    return {"score": score, "status": status, "checks": checks}
+    # S&P 500 daily change for the hero line
+    spx_chg = None
+    try:
+        spx_s = m.yahoo_close_series("^GSPC", "5d")
+        if spx_s and len(spx_s) >= 2 and spx_s[-2]:
+            spx_chg = (spx_s[-1] / spx_s[-2] - 1.0) * 100.0
+    except Exception:
+        pass
+    n_pressure = sum(1 for c in checks if c["state"] == "fail")
+    return {"score": score, "status": status, "checks": checks,
+            "spx": d.get("spx"), "spx_chg": spx_chg, "n_pressure": n_pressure}
 
 
 # ---------------------------------------------------------------- dip scanner
@@ -198,7 +209,11 @@ def news_headlines(query, n=2):
         for item in root.iter("item"):
             t = item.findtext("title")
             if t:
-                heads.append(t.strip())
+                heads.append({
+                    "title": t.strip(),
+                    "link": (item.findtext("link") or "").strip(),
+                    "pub": (item.findtext("pubDate") or "").strip(),
+                })
             if len(heads) >= n:
                 break
         return heads
@@ -206,6 +221,16 @@ def news_headlines(query, n=2):
         stats["news_failed"] += 1
         fail("dip", f"news RSS failed for {query!r}: {e}")
         return []
+
+
+def fmt_pub(pub):
+    """'Sat, 11 Oct 2026 02:08:00 GMT' -> '2:08, 11.10.2026' (best effort)."""
+    try:
+        from email.utils import parsedate_to_datetime
+        dt = parsedate_to_datetime(pub)
+        return f"{dt.hour}:{dt.minute:02d}, {dt.day}.{dt.month}.{dt.year}"
+    except Exception:
+        return ""
 
 
 def dip_scan_section():
@@ -346,18 +371,36 @@ def biotech_alerts():
         filings = edgar_8k_last_days(cik, days=3) if cik else []
         if abs(chg) >= p_spike or vol_mult >= v_mult:
             sev = "crit" if (abs(chg) >= p_crit or vol_mult >= v_crit) else "warn"
-            direction = "זינוק" if chg >= 0 else "צלילה"
+            direction = "עלייה חדה" if chg >= 0 else "ירידה חדה"
+            price = closes[-1]
+            vol_txt = f"מחזור ×{vol_mult:.1f} מהממוצע" if vol_avg > 0 else "מחזור לא זמין"
             alerts.append({"sev": sev, "kind": "price", "ticker": ticker,
-                           "date": today,
-                           "text": f"{direction} של {chg:+.1f}% · מחזור \u00d7{vol_mult:.1f} מהממוצע"})
+                           "name": name, "date": today,
+                           "head": f"{ticker}: {direction} {chg:+.1f}%",
+                           "sub": f"מחיר {price:.2f} · {vol_txt}",
+                           "link": f"https://finance.yahoo.com/quote/{ticker}",
+                           "source": "Yahoo Finance"})
         for f in filings:
+            try:
+                cik_num = str(int(cik))
+            except Exception:
+                cik_num = (cik or "").lstrip("0") or "0"
+            acc = f["accession"].replace("-", "")
+            doc_url = (f"https://www.sec.gov/Archives/edgar/data/{cik_num}/{acc}/{f['doc']}"
+                       if f.get("doc") else
+                       f"https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK={cik}&type=8-K")
             alerts.append({"sev": "warn", "kind": "sec", "ticker": ticker,
-                           "date": f["date"],
-                           "text": "דיווח 8-K חדש" + (f" · סעיפים {f['items']}" if f["items"] else "")})
+                           "name": name, "date": f["date"],
+                           "head": f"{ticker}: דיווח 8-K חדש" + (f" · סעיפים {f['items']}" if f["items"] else ""),
+                           "sub": name,
+                           "link": doc_url, "source": "SEC EDGAR"})
         if abs(chg) >= p_spike or vol_mult >= v_mult or filings:
             for h in news_headlines(ticker + " stock", n=2):
+                pub = fmt_pub(h["pub"]) or today
                 alerts.append({"sev": "info", "kind": "news", "ticker": ticker,
-                               "date": today, "text": h})
+                               "name": name, "date": pub,
+                               "head": h["title"], "sub": name,
+                               "link": h["link"], "source": "Google News RSS"})
         time.sleep(0.15)  # be polite to EDGAR
     alerts.sort(key=lambda a: a["date"], reverse=True)
     alerts.sort(key=lambda a: {"crit": 0, "warn": 1, "info": 2}[a["sev"]])
@@ -367,53 +410,71 @@ def biotech_alerts():
 # ---------------------------------------------------------------- HTML
 CSS = """
 *{box-sizing:border-box;margin:0;padding:0}
-body{background:#0d1117;color:#e6edf3;font-family:-apple-system,'Segoe UI',Arial,sans-serif;
-direction:rtl;padding:12px;max-width:720px;margin:0 auto}
-.hdr{text-align:center;padding:14px 6px 10px}
-.hdr h1{font-size:1.35rem;margin-bottom:6px}
-.hdr .ts{color:#8b949e;font-size:.85rem}
-.card{background:#161b22;border:1px solid #30363d;border-radius:12px;padding:14px;margin:12px 0}
-.card h2{font-size:1.05rem;margin-bottom:10px;color:#f0f3f6}
-.score-wrap{display:flex;align-items:center;gap:16px}
-.score{font-size:3rem;font-weight:800;min-width:96px;text-align:center}
-.status{font-size:1.05rem;font-weight:700}
-.sub{color:#8b949e;font-size:.8rem;margin-top:4px}
-.chk{display:flex;align-items:flex-start;gap:10px;padding:9px 2px;border-top:1px solid #21262d}
-.chk:first-of-type{border-top:none}
-.dot{width:12px;height:12px;border-radius:50%;margin-top:4px;flex-shrink:0}
-.dot.pass{background:#3fb950}.dot.warn{background:#d29922}.dot.fail{background:#f85149}
-.chk .t{flex:1}.chk .t b{display:block;font-size:.92rem}.chk .t span{color:#8b949e;font-size:.78rem}
-.chk .v{font-size:.85rem;color:#c9d1d9;white-space:nowrap}
-.dip{border:1px solid #30363d;border-radius:10px;padding:10px;margin:8px 0;background:#0d1117}
-.dip .tick{font-size:1.05rem;font-weight:800;color:#58a6ff}
-.dip .meta{font-size:.82rem;color:#c9d1d9;margin:4px 0}
-.dip .hl{font-size:.78rem;color:#8b949e;margin-top:6px}
-.dip .hl li{margin:3px 0;list-style:none}
-.dip .hl li::before{content:"📰 "}
-.bio{border:1px solid #30363d;border-radius:10px;padding:10px;margin:8px 0;background:#0d1117}
-.bio .tick{font-weight:800;font-size:1rem}
-.up{color:#3fb950}.down{color:#f85149}
-.badge{display:inline-block;background:#1f6feb;color:#fff;font-size:.72rem;
-border-radius:20px;padding:2px 10px;margin:2px 4px 2px 0}
-.empty{color:#8b949e;text-align:center;padding:14px;font-size:.88rem}
-.ftr{color:#6e7681;font-size:.72rem;text-align:center;padding:16px 4px}
-.tabs{position:sticky;top:0;z-index:10;display:flex;gap:8px;background:#0d1117;padding:10px 0}
-.tab{flex:1;padding:11px 4px;border:1px solid #30363d;border-radius:10px;background:#161b22;
-color:#e6edf3;font-size:.92rem;font-weight:700;cursor:pointer;font-family:inherit}
-.tab.active{background:#1f6feb;border-color:#1f6feb;color:#fff}
+body{background:#f1f2f4;color:#1f2937;font-family:-apple-system,'Segoe UI',Arial,sans-serif;
+direction:rtl;padding:12px 12px 96px;max-width:720px;margin:0 auto}
+.hdr{display:flex;align-items:flex-start;justify-content:space-between;padding:6px 2px 12px;gap:10px}
+.hdr h1{font-size:1.65rem;font-weight:800}
+.hdr .ts{color:#6b7280;font-size:.78rem;margin-top:4px}
+.refresh-btn{background:#16202e;color:#fff;border:none;border-radius:10px;padding:10px 18px;
+font-weight:700;font-size:.9rem;cursor:pointer;font-family:inherit;white-space:nowrap}
+.hero{background:#16202e;color:#fff;border-radius:20px;padding:22px 20px;display:flex;
+align-items:center;gap:20px;margin-bottom:12px}
+.hero .hinfo{flex:1;display:flex;flex-direction:column;gap:10px;align-items:flex-start}
+.status-badge{display:inline-block;font-weight:800;font-size:.8rem;border-radius:8px;padding:4px 14px}
+.hero .pressure{font-size:1.12rem;font-weight:700}
+.hero .note{color:#9ca3af;font-size:.78rem}
+.hero .spx{font-size:.95rem;font-weight:700}
+.hero .spx .up{color:#4ade80}.hero .spx .down{color:#f87171}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.chk{background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:12px 10px;
+display:flex;align-items:flex-start;gap:8px}
+.chk .dot{width:11px;height:11px;border-radius:50%;margin-top:5px;flex-shrink:0}
+.dot.pass{background:#22c55e}.dot.warn{background:#f59e0b}.dot.fail{background:#ef4444}
+.chk .ct{flex:1;min-width:0}
+.chk .ct b{display:block;font-size:.88rem}
+.chk .ct span{display:block;color:#6b7280;font-size:.72rem;margin-top:2px}
+.chk .v{font-weight:800;font-size:1rem;white-space:nowrap}
+details.how{background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:12px;margin-top:10px}
+details.how summary{font-weight:700;cursor:pointer;font-size:.92rem}
+details.how .ex{padding:8px 2px;border-top:1px solid #f3f4f6;font-size:.82rem;color:#4b5563}
+details.how .ex b{color:#1f2937}
+.stats{display:flex;gap:10px;margin-bottom:12px}
+.stat{flex:1;background:#fff;border:1px solid #e5e7eb;border-radius:12px;text-align:center;padding:12px 6px}
+.stat b{font-size:1.35rem;display:block}
+.stat span{color:#6b7280;font-size:.75rem}
+.biorow{display:flex;align-items:center;justify-content:space-between;margin:2px 2px 10px}
+.linklike{color:#0e7c8c;font-weight:700;font-size:.88rem;text-decoration:none;cursor:pointer;background:none;border:none;font-family:inherit}
+.biorow select{border:1px solid #d1d5db;border-radius:8px;padding:6px 10px;font-family:inherit;background:#fff}
+.alert{background:#fff;border:1px solid #e5e7eb;border-right:4px solid #f59e0b;border-radius:12px;
+padding:12px;margin:10px 0}
+.alert.crit{border-right-color:#ef4444}
+.alert.warn{border-right-color:#f59e0b}
+.alert.info{border-right-color:#f59e0b}
+.a-top{display:flex;align-items:center;gap:6px;margin-bottom:6px}
+.newbadge{background:#0e7c8c;color:#fff;font-size:.72rem;font-weight:700;border-radius:6px;padding:3px 10px}
+.kbadge{background:#fef3c7;color:#b45309;font-size:.72rem;font-weight:700;border-radius:6px;padding:3px 10px}
+.a-top .tick{font-weight:800;font-size:.95rem}
+.a-top .sp{flex:1}
+.a-head{font-weight:700;font-size:.95rem;margin-bottom:4px}
+.a-comp{color:#6b7280;font-size:.8rem}
+.a-bot{display:flex;align-items:center;justify-content:space-between;margin-top:8px}
+.src-link{color:#0e7c8c;font-weight:700;font-size:.85rem;text-decoration:none}
+.a-src{color:#9ca3af;font-size:.75rem}
+.empty{background:#fff;border:1px solid #e5e7eb;color:#6b7280;text-align:center;
+padding:22px;border-radius:12px;font-size:.9rem}
+.tabbar{position:fixed;bottom:12px;left:50%;transform:translateX(-50%);
+width:min(680px,calc(100% - 24px));background:#16202e;border-radius:18px;
+display:flex;padding:8px;gap:6px;z-index:50;box-shadow:0 4px 20px rgba(0,0,0,.25)}
+.tabbar button{flex:1;background:transparent;color:#cbd5e1;border:none;border-radius:12px;
+padding:12px 4px;font-size:.92rem;font-weight:700;cursor:pointer;position:relative;font-family:inherit}
+.tabbar button.active{background:#fff;color:#16202e}
+.count-badge{position:absolute;top:4px;inset-inline-end:14px;background:#dc2626;color:#fff;
+font-size:.68rem;font-weight:800;min-width:20px;height:20px;border-radius:10px;
+display:flex;align-items:center;justify-content:center;padding:0 5px}
 .pane{display:none}
 .pane.active{display:block}
-.alert{border:1px solid #30363d;border-radius:10px;padding:10px;margin:8px 0;
-background:#0d1117;border-right:4px solid #8b949e}
-.alert.warn{border-right-color:#d29922}
-.alert.crit{border-right-color:#f85149}
-.alert.info{border-right-color:#58a6ff}
-.a-top{display:flex;align-items:center;gap:8px;margin-bottom:4px;flex-wrap:wrap}
-.a-top .tick{font-weight:800;font-size:1rem}
-.a-date{margin-right:auto;color:#8b949e;font-size:.75rem}
-.a-text{font-size:.88rem;color:#e6edf3}
+.ftr{color:#9ca3af;font-size:.72rem;text-align:center;padding:14px 4px}
 """
-
 STATUS_COLORS = {
     "מתייצב": "#3fb950",
     "שיפור": "#d29922",
@@ -424,88 +485,170 @@ STATUS_COLORS = {
 
 
 def build_html(mh, dips, alerts, updated):
-    parts = [f"""<!DOCTYPE html>
-<html lang="he" dir="rtl">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>סורקי הבורסה</title>
-<style>{CSS}</style>
-</head>
-<body>
-<div class="hdr">
-<h1>📊 סורקי הבורסה</h1>
-<div class="ts">עודכן: {esc(updated.strftime('%H:%M'))} (שעון ישראל) · {esc(updated.strftime('%d/%m/%Y'))}</div>
-<div class="sub">רענון אוטומטי כל 15 דקות</div>
-</div>
-<div class="tabs">
-<button class="tab active" data-t="mh">בריאות שוק</button>
-<button class="tab" data-t="dip">דיפים</button>
-<button class="tab" data-t="bio">ביוטק</button>
-</div>
-""" + """
-<script>
-document.querySelectorAll('.tab').forEach(function(b){b.addEventListener('click',function(){
-document.querySelectorAll('.tab').forEach(function(x){x.classList.remove('active')});
+    ts = esc(updated.strftime("%-d.%-m.%Y, %-H:%M"))
+    n_alerts = len(alerts)
+    n_news = sum(1 for a in alerts if a["kind"] == "news")
+    parts = ["<!DOCTYPE html>",
+             '<html lang="he" dir="rtl">',
+             "<head>",
+             '<meta charset="utf-8">',
+             '<meta name="viewport" content="width=device-width,initial-scale=1">',
+             "<title>סורקי הבורסה</title>",
+             "<style>" + CSS + "</style>",
+             "</head>",
+             "<body>"]
+
+    # ================= market health pane =================
+    parts.append('<div class="pane active" id="pane-mh">')
+    parts.append(
+        '<div class="hdr"><div><h1>בריאות השוק</h1>'
+        f'<div class="ts">עדכון {ts} · רענון אוטומטי כל 15 דקות</div></div>'
+        '<button class="refresh-btn" onclick="location.reload()">עדכן עכשיו</button></div>')
+    if mh and mh["score"] is not None:
+        score = mh["score"]
+        col = STATUS_COLORS.get(mh["status"], "#e6edf3")
+        ring_col = {"#3fb950": "#22c55e", "#d29922": "#f59e0b",
+                    "#f85149": "#ef4444"}.get(col, "#f59e0b")
+        circ = 2 * 3.14159 * 48
+        dash = score / 100.0 * circ
+        spx = mh.get("spx")
+        spx_chg = mh.get("spx_chg")
+        if spx:
+            chg_txt = ""
+            if spx_chg is not None:
+                cls = "up" if spx_chg >= 0 else "down"
+                chg_txt = f' (<span class="{cls}">{spx_chg:+.2f}%</span>)'
+            spx_line = f'<div class="spx">S&P 500: {spx:,.0f}{chg_txt}</div>'
+        else:
+            spx_line = ""
+        n_p = mh.get("n_pressure", 0)
+        ptxt = "נקודת לחץ אחת דורשת תשומת לב" if n_p == 1 else f"{n_p} נקודות לחץ דורשות תשומת לב"
+        parts.append(
+            '<div class="hero">'
+            f'<svg width="112" height="112" viewBox="0 0 112 112">'
+            f'<circle cx="56" cy="56" r="48" fill="none" stroke="#374151" stroke-width="10"/>'
+            f'<circle cx="56" cy="56" r="48" fill="none" stroke="{ring_col}" stroke-width="10" '
+            f'stroke-dasharray="{dash:.1f} {circ:.1f}" stroke-linecap="round" transform="rotate(-90 56 56)"/>'
+            f'<text x="56" y="60" text-anchor="middle" fill="#fff" font-size="30" font-weight="800">{score}</text>'
+            f'<text x="56" y="78" text-anchor="middle" fill="#9ca3af" font-size="11">/100</text>'
+            "</svg>"
+            '<div class="hinfo">'
+            f'<span class="status-badge" style="background:{ring_col}">{esc(mh["status"])}</span>'
+            f'<div class="pressure">{ptxt}</div>'
+            f"{spx_line}"
+            '<div class="note">הציון הוא צילום מצב של שמונה בדיקות, לא תחזית ולא איתות מסחר.</div>'
+            "</div></div>")
+        parts.append('<div class="grid2">')
+        for c in mh["checks"]:
+            parts.append(
+                f'<div class="chk"><span class="dot {esc(c["state"])}"></span>'
+                f'<div class="ct"><b>{esc(c["label"])}</b><span>{esc(c["desc"])}</span></div>'
+                f'<div class="v">{esc(c["value"])}</div></div>')
+        parts.append("</div>")
+        parts.append('<details class="how"><summary>איך נקבע הציון? &#9664;</summary>')
+        for c in mh["checks"]:
+            if c.get("explain"):
+                parts.append(f'<div class="ex"><b>{esc(c["label"])}:</b> {esc(c["explain"])}</div>')
+        parts.append("</details>")
+    else:
+        parts.append('<div class="empty">אין מספיק נתונים כרגע</div>')
+    parts.append("</div>")
+
+    # ================= dips pane =================
+    parts.append('<div class="pane" id="pane-dip">')
+    parts.append(
+        '<div class="hdr"><div><h1>סורק דיפים</h1>'
+        f'<div class="ts">עדכון {ts} · רענון אוטומטי כל 15 דקות</div></div>'
+        '<button class="refresh-btn" onclick="location.reload()">עדכן עכשיו</button></div>')
+    if dips:
+        for c in dips:
+            links = "".join(
+                f'<div style="margin-top:6px"><a class="src-link" href="{esc(h["link"])}" '
+                f'target="_blank" rel="noopener">פתח מקור</a> '
+                f'<span class="a-src">{esc(h["title"][:90])}</span></div>'
+                for h in c["headlines"][:2] if h.get("link"))
+            parts.append(
+                f'<div class="alert warn" data-kind="dip">'
+                f'<div class="a-top"><span class="newbadge">חדש</span><span class="sp"></span>'
+                f'<span class="kbadge">דיפ</span><span class="tick">{esc(c["ticker"])}</span></div>'
+                f'<div class="a-head">עומק הדיפ: {c["depth"]:.1f}% מהשיא · מעל השפל: {c["above_low_pct"]:.1f}%</div>'
+                f'<div class="a-comp">RSI(14): {c["rsi"]:.0f} · מחזור ×{c["vol_mult"]:.1f} מהממוצע</div>'
+                f"{links}</div>")
+    else:
+        parts.append('<div class="empty">אין מניות שעומדות כרגע בכל תנאי הדיפ</div>')
+    parts.append("</div>")
+
+    # ================= biotech pane =================
+    kind_he = {"price": "מחיר", "sec": "דיווח", "news": "חדשות"}
+    parts.append('<div class="pane" id="pane-bio">')
+    parts.append(
+        '<div class="hdr"><div><h1>התראות ביוטק</h1>'
+        f'<div class="ts">עדכון {ts} · רענון אוטומטי כל 15 דקות</div></div>'
+        '<button class="refresh-btn" onclick="location.reload()">עדכן עכשיו</button></div>')
+    parts.append(
+        '<div class="stats">'
+        '<div class="stat"><b>37</b><span>חברות במעקב</span></div>'
+        f'<div class="stat"><b>{n_alerts}</b><span>פריטים חדשים</span></div>'
+        f'<div class="stat"><b>{n_news}</b><span>חדשות בסריקה</span></div>'
+        "</div>")
+    parts.append(
+        '<div class="biorow">'
+        '<button class="linklike" id="markread">סמן הכל כנקרא</button>'
+        '<label style="font-size:.85rem;color:#4b5563">הצג: '
+        '<select id="kindfilter">'
+        '<option value="">הכל</option><option value="news">חדשות</option>'
+        '<option value="price">מחיר</option><option value="sec">דיווח</option>'
+        "</select></label></div>")
+    if alerts:
+        for a in alerts:
+            link_html = (f'<a class="src-link" href="{esc(a["link"])}" target="_blank" '
+                         f'rel="noopener">פתח מקור</a>' if a.get("link") else "")
+            parts.append(
+                f'<div class="alert {esc(a["sev"])}" data-kind="{esc(a["kind"])}">'
+                f'<div class="a-top"><span class="newbadge">חדש</span><span class="sp"></span>'
+                f'<span class="kbadge">ביוטק</span>'
+                f'<span class="kbadge">{kind_he.get(a["kind"], "")}</span>'
+                f'<span class="tick">{esc(a["ticker"])}</span></div>'
+                f'<div class="a-head">{esc(a["head"])}</div>'
+                f'<div class="a-comp">{esc(a.get("sub", ""))}</div>'
+                f'<div class="a-bot">{link_html}'
+                f'<span class="a-src">{esc(a["date"])} · {esc(a.get("source", ""))}</span></div>'
+                "</div>")
+    else:
+        parts.append('<div class="empty">אין התראות חדשות כרגע</div>')
+    parts.append("</div>")
+
+    # ================= bottom tab bar =================
+    badge = (f'<span class="count-badge">{n_alerts}</span>' if n_alerts else "")
+    parts.append(
+        '<div class="tabbar">'
+        '<button class="active" data-t="mh">בריאות השוק</button>'
+        f'<button data-t="bio">ביוטק{badge}</button>'
+        '<button data-t="dip">דיפים</button>'
+        "</div>")
+
+    # ================= JS =================
+    parts.append("""<script>
+document.querySelectorAll('.tabbar button').forEach(function(b){
+b.addEventListener('click',function(){
+document.querySelectorAll('.tabbar button').forEach(function(x){x.classList.remove('active')});
 document.querySelectorAll('.pane').forEach(function(x){x.classList.remove('active')});
 b.classList.add('active');
 document.getElementById('pane-'+b.dataset.t).classList.add('active');
 window.scrollTo(0,0);});});
-</script>
-"""]
-
-    # ---- market health
-    parts.append('<div class="pane active" id="pane-mh"><div class="card"><h2>בריאות שוק ארה״ב</h2>')
-    if mh and mh["score"] is not None:
-        col = STATUS_COLORS.get(mh["status"], "#e6edf3")
-        parts.append(
-            f'<div class="score-wrap"><div class="score" style="color:{col}">'
-            f'{mh["score"]}</div>'
-            f'<div><div class="status" style="color:{col}">{esc(mh["status"])}</div>'
-            f'<div class="sub">ציון 0–100 לפי 8 בדיקות</div></div></div>')
-        for c in mh["checks"]:
-            parts.append(
-                f'<div class="chk"><span class="dot {esc(c["state"])}"></span>'
-                f'<div class="t"><b>{esc(c["label"])}</b>'
-                f'<span>{esc(c["explain"])}</span></div>'
-                f'<div class="v">{esc(c["value"])}</div></div>')
-    else:
-        parts.append('<div class="empty">אין מספיק נתונים כרגע</div>')
-    parts.append("</div></div>")
-
-    # ---- dips
-    parts.append('<div class="pane" id="pane-dip"><div class="card"><h2>סורק דיפים (S&amp;P 500)</h2>')
-    if dips:
-        for c in dips:
-            hls = "".join(f"<li>{esc(h)}</li>" for h in c["headlines"])
-            parts.append(
-                f'<div class="dip"><span class="tick">{esc(c["ticker"])}</span>'
-                f'<div class="meta">עומק הדיפ: <b>{c["depth"]:.1f}%</b> מהשיא · '
-                f'מעל השפל: {c["above_low_pct"]:.1f}% · '
-                f'RSI(14): {c["rsi"]:.0f} · מחזור ×{c["vol_mult"]:.1f}</div>'
-                + (f'<ul class="hl">{hls}</ul>' if hls else "") + "</div>")
-    else:
-        parts.append('<div class="empty">אין מניות שעומדות כרגע בכל תנאי הדיפ</div>')
-    parts.append("</div></div>")
-
-    # ---- biotech alerts feed
-    parts.append('<div class="pane" id="pane-bio"><div class="card"><h2>סורק ביוטק · התראות</h2>')
-    if alerts:
-        kind_he = {"price": "תנועת מחיר", "sec": "דיווח SEC", "news": "חדשות"}
-        for a in alerts:
-            parts.append(
-                f'<div class="alert {esc(a["sev"])}"><div class="a-top">'
-                f'<span class="tick">{esc(a["ticker"])}</span> '
-                f'<span class="badge">{kind_he.get(a["kind"], "")}</span>'
-                f'<span class="a-date">{esc(a["date"])}</span></div>'
-                f'<div class="a-text">{esc(a["text"])}</div></div>')
-    else:
-        parts.append('<div class="empty">אין התראות חדשות כרגע</div>')
-    parts.append("</div></div>")
+var kf=document.getElementById('kindfilter');
+if(kf){kf.addEventListener('change',function(){
+var v=this.value;
+document.querySelectorAll('#pane-bio .alert').forEach(function(c){
+c.style.display=(!v||c.dataset.kind===v)?'':'none';});});}
+var mr=document.getElementById('markread');
+if(mr){mr.addEventListener('click',function(){
+document.querySelectorAll('.newbadge').forEach(function(b){b.style.display='none';});});}
+</script>""")
 
     parts.append(
         '<div class="ftr">נתונים: Yahoo Finance · SEC EDGAR · Google News · '
-        'מקורות חינמיים בלבד · לא ייעוץ השקעות</div></body></html>')
+        "מקורות חינמיים בלבד · לא ייעוץ השקעות</div></body></html>")
     return "\n".join(parts)
 
 
