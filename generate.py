@@ -58,14 +58,14 @@ def esc(s):
 
 # ---------------------------------------------------------------- market health
 CHECK_LABELS = {
-    "s5fi": "רוחב שוק: מניות מעל ממוצע 50 יום",
-    "s5th": "רוחב שוק: מניות מעל ממוצע 200 יום",
-    "spx50": "מגמה: המדד מעל ממוצע 50 יום",
-    "spx200": "מגמה: המדד מעל ממוצע 200 יום",
-    "vix": "מדד הפחד (VIX)",
-    "tnx": "תשואת אג״ח 10 שנים",
-    "brent": "נפט ברנט",
-    "wti": "נפט WTI",
+    "s5fi": ("רוחב שוק · 50 יום", "אחוז מניות S&P 500 מעל ממוצע 50 יום"),
+    "s5th": ("רוחב שוק · 200 יום", "אחוז מניות S&P 500 מעל ממוצע 200 יום"),
+    "spx50": ("S&P 500 מול 50DMA", "מגמת הטווח הבינוני"),
+    "spx200": ("S&P 500 מול 200DMA", "מגמת הטווח הארוך"),
+    "vix": ("VIX", "מתחת 20 רגוע · 20–30 אזהרה · 30+ לחץ"),
+    "tnx": ("אג״ח ארה״ב · 10 שנים", "גם הרמה וגם קפיצה בשלושה ימים משפיעות"),
+    "brent": ("נפט Brent", "מחיר וקפיצה באחוזים בשלושה ימים"),
+    "wti": ("נפט WTI", "מחיר וקפיצה באחוזים בשלושה ימים"),
 }
 
 
@@ -94,29 +94,11 @@ def market_health_section():
         if key == "vix":
             return "לא זמין" if d["vix"] is None else f"{d['vix']:.2f}"
         if key == "tnx":
-            if d["tnx"] is None:
-                return "לא זמין"
-            s = f"{d['tnx']:.2f}%"
-            if d["tnx_3d"] is not None:
-                bp = d["tnx_3d"] * 100
-                s += f" (3 ימים: {'+' if bp >= 0 else ''}{bp:.0f}bp)"
-            return s
+            return "לא זמין" if d["tnx"] is None else f"{d['tnx']:.2f}%"
         if key == "brent":
-            if d["brent"] is None:
-                return "לא זמין"
-            s = f"${d['brent']:.2f}"
-            if d["brent_3d_pct"] is not None:
-                p = d["brent_3d_pct"]
-                s += f" (3 ימים: {'+' if p >= 0 else ''}{p:.1f}%)"
-            return s
+            return "לא זמין" if d["brent"] is None else f"${d['brent']:.2f}"
         if key == "wti":
-            if d["wti"] is None:
-                return "לא זמין"
-            s = f"${d['wti']:.2f}"
-            if d["wti_3d_pct"] is not None:
-                p = d["wti_3d_pct"]
-                s += f" (3 ימים: {'+' if p >= 0 else ''}{p:.1f}%)"
-            return s
+            return "לא זמין" if d["wti"] is None else f"${d['wti']:.2f}"
         return "לא זמין"
 
     checks = []
@@ -516,15 +498,19 @@ align-items:center;gap:20px;margin-bottom:12px}
 .hero .note{color:#9ca3af;font-size:.78rem}
 .hero .spx{font-size:.95rem;font-weight:700}
 .hero .spx .up{color:#4ade80}.hero .spx .down{color:#f87171}
-.grid2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
-.chk{background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:12px 10px;
-display:flex;align-items:flex-start;gap:8px}
-.chk .dot{width:11px;height:11px;border-radius:50%;margin-top:5px;flex-shrink:0}
+.grid2{display:flex;flex-direction:column;gap:10px}
+.chk{background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:13px 12px;
+display:flex;align-items:center;gap:10px}
+.chk .dot{width:11px;height:11px;border-radius:50%;flex-shrink:0}
 .dot.pass{background:#22c55e}.dot.warn{background:#f59e0b}.dot.fail{background:#ef4444}
 .chk .ct{flex:1;min-width:0}
-.chk .ct b{display:block;font-size:.88rem}
-.chk .ct span{display:block;color:#6b7280;font-size:.72rem;margin-top:2px}
-.chk .v{font-weight:800;font-size:1rem;white-space:nowrap}
+.chk .ct b{display:block;font-size:.92rem}
+.chk .ct span{display:block;color:#6b7280;font-size:.75rem;margin-top:2px}
+.chk .v{font-weight:800;font-size:1.05rem;white-space:nowrap}
+.chk.spxrow{background:#16202e;color:#fff;border-color:#16202e}
+.chk.spxrow .ct b{color:#fff}
+.chk.spxrow .ct span{color:#9ca3af}
+.chk.spxrow .v{color:#fff}
 details.how{background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:12px;margin-top:10px}
 details.how summary{font-weight:700;cursor:pointer;font-size:.92rem}
 details.how .ex{padding:8px 2px;border-top:1px solid #f3f4f6;font-size:.82rem;color:#4b5563}
@@ -609,16 +595,6 @@ def build_html(mh, dips, alerts, bo, updated):
                     "#f85149": "#ef4444"}.get(col, "#f59e0b")
         circ = 2 * 3.14159 * 48
         dash = score / 100.0 * circ
-        spx = mh.get("spx")
-        spx_chg = mh.get("spx_chg")
-        if spx:
-            chg_txt = ""
-            if spx_chg is not None:
-                cls = "up" if spx_chg >= 0 else "down"
-                chg_txt = f' (<span class="{cls}">{spx_chg:+.2f}%</span>)'
-            spx_line = f'<div class="spx">S&P 500: {spx:,.0f}{chg_txt}</div>'
-        else:
-            spx_line = ""
         n_p = mh.get("n_pressure", 0)
         ptxt = "נקודת לחץ אחת דורשת תשומת לב" if n_p == 1 else f"{n_p} נקודות לחץ דורשות תשומת לב"
         parts.append(
@@ -633,15 +609,26 @@ def build_html(mh, dips, alerts, bo, updated):
             '<div class="hinfo">'
             f'<span class="status-badge" style="background:{ring_col}">{esc(mh["status"])}</span>'
             f'<div class="pressure">{ptxt}</div>'
-            f"{spx_line}"
             '<div class="note">הציון הוא צילום מצב של שמונה בדיקות, לא תחזית ולא איתות מסחר.</div>'
             "</div></div>")
         parts.append('<div class="grid2">')
+        spx = mh.get("spx")
+        spx_chg = mh.get("spx_chg")
+        if spx:
+            if spx_chg is not None:
+                cls = "up" if spx_chg >= 0 else "down"
+                chg_html = f' <span class="{cls}" dir="ltr">{spx_chg:+.2f}%</span>'
+            else:
+                chg_html = ""
+            parts.append(
+                f'<div class="chk spxrow"><span class="dot pass"></span>'
+                f'<div class="ct"><b>S&P 500</b><span>ערך המדד כעת</span></div>'
+                f'<div class="v"><span dir="ltr">{spx:,.0f}</span>{chg_html}</div></div>')
         for c in mh["checks"]:
             parts.append(
                 f'<div class="chk"><span class="dot {esc(c["state"])}"></span>'
                 f'<div class="ct"><b>{esc(c["label"])}</b><span>{esc(c["desc"])}</span></div>'
-                f'<div class="v">{esc(c["value"])}</div></div>')
+                f'<div class="v" dir="ltr">{esc(c["value"])}</div></div>')
         parts.append("</div>")
         parts.append('<details class="how"><summary>איך נקבע הציון? &#9664;</summary>')
         for c in mh["checks"]:
