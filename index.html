@@ -36,14 +36,45 @@ direction:rtl;padding:12px;max-width:720px;margin:0 auto}
 border-radius:20px;padding:2px 10px;margin:2px 4px 2px 0}
 .empty{color:#8b949e;text-align:center;padding:14px;font-size:.88rem}
 .ftr{color:#6e7681;font-size:.72rem;text-align:center;padding:16px 4px}
+.tabs{position:sticky;top:0;z-index:10;display:flex;gap:8px;background:#0d1117;padding:10px 0}
+.tab{flex:1;padding:11px 4px;border:1px solid #30363d;border-radius:10px;background:#161b22;
+color:#e6edf3;font-size:.92rem;font-weight:700;cursor:pointer;font-family:inherit}
+.tab.active{background:#1f6feb;border-color:#1f6feb;color:#fff}
+.pane{display:none}
+.pane.active{display:block}
+.alert{border:1px solid #30363d;border-radius:10px;padding:10px;margin:8px 0;
+background:#0d1117;border-right:4px solid #8b949e}
+.alert.warn{border-right-color:#d29922}
+.alert.crit{border-right-color:#f85149}
+.alert.info{border-right-color:#58a6ff}
+.a-top{display:flex;align-items:center;gap:8px;margin-bottom:4px;flex-wrap:wrap}
+.a-top .tick{font-weight:800;font-size:1rem}
+.a-date{margin-right:auto;color:#8b949e;font-size:.75rem}
+.a-text{font-size:.88rem;color:#e6edf3}
 </style>
 </head>
 <body>
 <div class="hdr">
 <h1>📊 סורקי הבורסה</h1>
-<div class="ts">עודכן: 00:45 (שעון ישראל) · 11/10/2026</div>
+<div class="ts">עודכן: 03:40 (שעון ישראל) · 11/10/2026</div>
+<div class="sub">רענון אוטומטי כל 15 דקות</div>
 </div>
-<div class="card"><h2>בריאות שוק ארה״ב</h2>
+<div class="tabs">
+<button class="tab active" data-t="mh">בריאות שוק</button>
+<button class="tab" data-t="dip">דיפים</button>
+<button class="tab" data-t="bio">ביוטק</button>
+</div>
+
+<script>
+document.querySelectorAll('.tab').forEach(function(b){b.addEventListener('click',function(){
+document.querySelectorAll('.tab').forEach(function(x){x.classList.remove('active')});
+document.querySelectorAll('.pane').forEach(function(x){x.classList.remove('active')});
+b.classList.add('active');
+document.getElementById('pane-'+b.dataset.t).classList.add('active');
+window.scrollTo(0,0);});});
+</script>
+
+<div class="pane active" id="pane-mh"><div class="card"><h2>בריאות שוק ארה״ב</h2>
 <div class="score-wrap"><div class="score" style="color:#d29922">62</div><div><div class="status" style="color:#d29922">שיפור</div><div class="sub">ציון 0–100 לפי 8 בדיקות</div></div></div>
 <div class="chk"><span class="dot warn"></span><div class="t"><b>רוחב שוק: מניות מעל ממוצע 50 יום</b><span>מעט מדי מניות מעל ממוצע 50 יום (רוחב שוק חלש)</span></div><div class="v">35.1%</div></div>
 <div class="chk"><span class="dot warn"></span><div class="t"><b>רוחב שוק: מניות מעל ממוצע 200 יום</b><span>מעט מדי מניות מעל ממוצע 200 יום</span></div><div class="v">47.6%</div></div>
@@ -53,18 +84,25 @@ border-radius:20px;padding:2px 10px;margin:2px 4px 2px 0}
 <div class="chk"><span class="dot fail"></span><div class="t"><b>תשואת אג״ח 10 שנים</b><span>תשואת אגח 10 שנים גבוהה או עולה מהר</span></div><div class="v">5.24% (3 ימים: -3bp)</div></div>
 <div class="chk"><span class="dot warn"></span><div class="t"><b>נפט ברנט</b><span>מחיר נפט ברנט גבוה או עולה מהר</span></div><div class="v">$104.72 (3 ימים: +4.1%)</div></div>
 <div class="chk"><span class="dot warn"></span><div class="t"><b>נפט WTI</b><span>מחיר נפט WTI גבוה או עולה מהר</span></div><div class="v">$91.85 (3 ימים: +2.7%)</div></div>
-</div>
-<div class="card"><h2>סורק דיפים (S&amp;P 500)</h2>
+</div></div>
+<div class="pane" id="pane-dip"><div class="card"><h2>סורק דיפים (S&amp;P 500)</h2>
 <div class="empty">אין מניות שעומדות כרגע בכל תנאי הדיפ</div>
-</div>
-<div class="card"><h2>סורק ביוטק</h2>
-<div class="bio"><span class="tick">HELP</span> <span class="up">+10.1%</span><div class="sub">CYBIN INC.</div><div class="meta" style="font-size:.82rem;color:#c9d1d9">מחזור ×1.0 מהממוצע</div></div>
-<div class="bio"><span class="tick">IMUX</span> <span class="up">+8.3%</span><div class="sub">IMMUNIC, INC.</div><div class="meta" style="font-size:.82rem;color:#c9d1d9">מחזור ×1.1 מהממוצע</div></div>
-<div class="bio"><span class="tick">INO</span> <span class="up">+5.5%</span><div class="sub">INOVIO PHARMACEUTICALS, INC.</div><div class="meta" style="font-size:.82rem;color:#c9d1d9">מחזור ×1.1 מהממוצע</div></div>
-<div class="bio"><span class="tick">KOD</span> <span class="up">+6.0%</span><div class="sub">Kodiak Sciences Inc.</div><div class="meta" style="font-size:.82rem;color:#c9d1d9">מחזור ×0.5 מהממוצע</div></div>
-<div class="bio"><span class="tick">LSTA</span> <span class="down">-11.7%</span><div class="sub">LISATA THERAPEUTICS, INC.</div><div class="meta" style="font-size:.82rem;color:#c9d1d9">מחזור ×1.0 מהממוצע</div></div>
-<div class="bio"><span class="tick">MRNA</span> <span class="up">+14.2%</span><div class="sub">Moderna, Inc.</div><div class="meta" style="font-size:.82rem;color:#c9d1d9">מחזור ×1.7 מהממוצע</div></div>
-<div class="bio"><span class="tick">ZNTL</span> <span class="up">+5.2%</span><div class="sub">Zentalis Pharmaceuticals, Inc.</div><div class="meta" style="font-size:.82rem;color:#c9d1d9">מחזור ×0.4 מהממוצע</div></div>
-<div class="bio"><span class="tick">VIR</span> <span class="up">+5.2%</span><div class="sub">Vir Biotechnology, Inc.</div><div class="meta" style="font-size:.82rem;color:#c9d1d9">מחזור ×0.8 מהממוצע</div><span class="badge">8-K · 2026-10-08 · סעיפים 8.01,9.01</span></div>
-</div>
+</div></div>
+<div class="pane" id="pane-bio"><div class="card"><h2>סורק ביוטק · התראות</h2>
+<div class="alert warn"><div class="a-top"><span class="tick">HELP</span> <span class="badge">תנועת מחיר</span><span class="a-date">2026-10-11</span></div><div class="a-text">זינוק של +10.1% · מחזור ×1.0 מהממוצע</div></div>
+<div class="alert warn"><div class="a-top"><span class="tick">IMUX</span> <span class="badge">תנועת מחיר</span><span class="a-date">2026-10-11</span></div><div class="a-text">זינוק של +8.3% · מחזור ×1.1 מהממוצע</div></div>
+<div class="alert warn"><div class="a-top"><span class="tick">LSTA</span> <span class="badge">תנועת מחיר</span><span class="a-date">2026-10-11</span></div><div class="a-text">צלילה של -11.7% · מחזור ×1.0 מהממוצע</div></div>
+<div class="alert warn"><div class="a-top"><span class="tick">MRNA</span> <span class="badge">תנועת מחיר</span><span class="a-date">2026-10-11</span></div><div class="a-text">זינוק של +14.2% · מחזור ×1.7 מהממוצע</div></div>
+<div class="alert warn"><div class="a-top"><span class="tick">VIR</span> <span class="badge">דיווח SEC</span><span class="a-date">2026-10-08</span></div><div class="a-text">דיווח 8-K חדש · סעיפים 8.01,9.01</div></div>
+<div class="alert info"><div class="a-top"><span class="tick">HELP</span> <span class="badge">חדשות</span><span class="a-date">2026-10-11</span></div><div class="a-text">Starbucks Is Mulling Acquiring Chipotle. Can Joining 2 Stumbling Stocks Help Either - 24/7 Wall St.</div></div>
+<div class="alert info"><div class="a-top"><span class="tick">HELP</span> <span class="badge">חדשות</span><span class="a-date">2026-10-11</span></div><div class="a-text">Midtown Motors food drive helps stock local soup kitchen - Times Observer</div></div>
+<div class="alert info"><div class="a-top"><span class="tick">IMUX</span> <span class="badge">חדשות</span><span class="a-date">2026-10-11</span></div><div class="a-text">Immunic, Inc. Announces 1-for-10 Reverse Stock Split - PR Newswire</div></div>
+<div class="alert info"><div class="a-top"><span class="tick">IMUX</span> <span class="badge">חדשות</span><span class="a-date">2026-10-11</span></div><div class="a-text">Director at Immunic (IMUX) gets options at $10.12 a share - Stock Titan</div></div>
+<div class="alert info"><div class="a-top"><span class="tick">LSTA</span> <span class="badge">חדשות</span><span class="a-date">2026-10-11</span></div><div class="a-text">Lisata Therapeutics, Inc. (LSTA) Stock Price, News, Quote &amp; History - Yahoo! Finance Canada</div></div>
+<div class="alert info"><div class="a-top"><span class="tick">LSTA</span> <span class="badge">חדשות</span><span class="a-date">2026-10-11</span></div><div class="a-text">A new cancer-treatment patent adds market exclusivity into 2043, Lisata says. - Stock Titan</div></div>
+<div class="alert info"><div class="a-top"><span class="tick">MRNA</span> <span class="badge">חדשות</span><span class="a-date">2026-10-11</span></div><div class="a-text">MRNA Stock Sets New 52-Week High As Nasdaq-100 Reentry Meets NIH Cancer-Vaccine Push - Yahoo Finance</div></div>
+<div class="alert info"><div class="a-top"><span class="tick">MRNA</span> <span class="badge">חדשות</span><span class="a-date">2026-10-11</span></div><div class="a-text">Moderna Now Trades 61% Above Wall Street&#x27;s Average Price Target. Should You Sell? - The Globe and Mail</div></div>
+<div class="alert info"><div class="a-top"><span class="tick">VIR</span> <span class="badge">חדשות</span><span class="a-date">2026-10-11</span></div><div class="a-text">Is Vir Biotechnology (VIR) Cheap On Fast Track News And SOLSTICE Data Hopes? - Simply Wall Street</div></div>
+<div class="alert info"><div class="a-top"><span class="tick">VIR</span> <span class="badge">חדשות</span><span class="a-date">2026-10-11</span></div><div class="a-text">FDA grants experimental prostate cancer drug a designation meant to speed review. Phase 3 trials are expected in 2027. - Stock Titan</div></div>
+</div></div>
 <div class="ftr">נתונים: Yahoo Finance · SEC EDGAR · Google News · מקורות חינמיים בלבד · לא ייעוץ השקעות</div></body></html>
