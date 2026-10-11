@@ -407,6 +407,97 @@ def biotech_alerts():
     return alerts
 
 
+def breakout_section():
+    """Run the vendored breakout scanner. Returns groups + recovery learning history."""
+    import numpy as np
+    import breakout_lib as b
+
+    S = b.S
+    try:
+        state, expected_d, tfrac = b.market_state()
+    except SystemExit:
+        fail("breakout", "market_state: no tzdata")
+        return None
+    except Exception as e:
+        fail("breakout", f"market_state: {e}")
+        return None
+    intraday = state == "OPEN"
+    expected = expected_d.isoformat()
+    vfrac = max(float(np.interp(tfrac, b.VOL_CURVE_T, b.VOL_CURVE_V)), 0.05) if intraday else 1.0
+
+    try:
+        tickers = b.load_universe()
+    except Exception as e:
+        fail("breakout", f"load_universe: {e}")
+        return None
+    try:
+        data, failed = b.download_all(tickers)
+    except Exception as e:
+        fail("breakout", f"download_all: {e}")
+        return None
+
+    hits, price_map = [], {}
+    for t, df in data.items():
+        try:
+            x = b.analyze(df, vfrac, expected)
+        except Exception:
+            continue
+        if isinstance(x, dict):
+            hits.append((t, x))
+        try:
+            price_map[t] = float(df["Close"].iloc[-1])
+        except Exception:
+            pass
+
+    groups = {}
+    for st in b.GROUP_ORDER:
+        rows = sorted([(t, x) for t, x in hits if x["status"] == st],
+                      key=lambda r: -r[1]["score"])
+        groups[st] = rows[:int(S["max_results_per_group"])]
+
+    # ---- recovery learning history (persists in repo, committed by workflow)
+    hist_path = os.path.join(BASE_DIR, "recovery_history.json")
+    try:
+        hist = json.load(open(hist_path, encoding="utf-8"))
+        sigs = hist.get("signals", [])
+    except Exception:
+        sigs = []
+    seen_keys = {(s["ticker"], s["date"]) for s in sigs}
+    today_dm = expected_d.strftime("%d/%m")
+    for t, x in groups.get("RECOVERY", []):
+        key = (t, x["date"])
+        if key not in seen_keys:
+            sigs.append({"ticker": t, "date": x["date"],
+                         "signal_price": round(x["close"], 2),
+                         "pivot": round(x["level"], 2),
+                         "target": round(x.get("target") or 0, 2),
+                         "stop": round(x["stop"], 2)})
+            seen_keys.add(key)
+    # annotate with current performance
+    history = []
+    for s in sigs:
+        cur = price_map.get(s["ticker"])
+        if cur:
+            pct = (cur / s["signal_price"] - 1) * 100 if s["signal_price"] else 0
+            tgt_hit = bool(s["target"] and cur >= s["target"])
+        else:
+            pct, tgt_hit = None, False
+        history.append({**s, "current": round(cur, 2) if cur else None,
+                        "pct": round(pct, 1) if pct is not None else None,
+                        "target_hit": tgt_hit})
+    history.sort(key=lambda s: (s["pct"] is None, -(s["pct"] or 0)))
+    try:
+        json.dump({"signals": sigs}, open(hist_path, "w", encoding="utf-8"),
+                  ensure_ascii=False, indent=1)
+    except Exception as e:
+        fail("breakout", f"history save: {e}")
+
+    return {"groups": groups, "history": history, "intraday": intraday,
+            "scanned": len(tickers), "failed": len(failed), "today_dm": today_dm}
+
+
+
+
 # ---------------------------------------------------------------- HTML
 CSS = """
 *{box-sizing:border-box;margin:0;padding:0}
@@ -473,6 +564,13 @@ font-size:.68rem;font-weight:800;min-width:20px;height:20px;border-radius:10px;
 display:flex;align-items:center;justify-content:center;padding:0 5px}
 .pane{display:none}
 .pane.active{display:block}
+h3.sec{font-size:1.05rem;font-weight:800;margin:16px 2px 4px}
+.tbl-wrap{overflow-x:auto;background:#fff;border:1px solid #e5e7eb;border-radius:12px}
+table.htable{border-collapse:collapse;width:100%;font-size:.82rem;min-width:560px}
+table.htable th,table.htable td{border-bottom:1px solid #f3f4f6;padding:9px 8px;text-align:right;white-space:nowrap}
+table.htable th{background:#f9fafb;color:#6b7280;font-size:.75rem}
+table.htable td.num{font-weight:700}
+.up{color:#16a34a;font-weight:700}.down{color:#dc2626;font-weight:700}
 .ftr{color:#9ca3af;font-size:.72rem;text-align:center;padding:14px 4px}
 """
 STATUS_COLORS = {
@@ -484,7 +582,7 @@ STATUS_COLORS = {
 }
 
 
-def build_html(mh, dips, alerts, updated):
+def build_html(mh, dips, alerts, bo, updated):
     ts = esc(updated.strftime("%-d.%-m.%Y, %-H:%M"))
     n_alerts = len(alerts)
     n_news = sum(1 for a in alerts if a["kind"] == "news")
@@ -618,6 +716,100 @@ def build_html(mh, dips, alerts, updated):
         parts.append('<div class="empty">אין התראות חדשות כרגע</div>')
     parts.append("</div>")
 
+    # ================= breakout pane =================
+    parts.append('<div class="pane" id="pane-bo">')
+    parts.append(
+        '<div class="hdr"><div><h1>סורק פריצות</h1>'
+        f'<div class="ts">עדכון {ts} · רענון אוטומטי כל 15 דקות</div></div>'
+        '<button class="refresh-btn" onclick="location.reload()">עדכן עכשיו</button></div>')
+    if bo and bo.get("groups") is not None:
+        groups = bo["groups"]
+        total = sum(len(v) for v in groups.values())
+        parts.append(
+            '<div class="stats">'
+            f'<div class="stat"><b>{bo.get("scanned", 0)}</b><span>מניות נסרקו</span></div>'
+            f'<div class="stat"><b>{total}</b><span>איתותים פעילים</span></div>'
+            f'<div class="stat"><b>{len(bo.get("history", []))}</b><span>התאוששויות במעקב</span></div>'
+            "</div>")
+        if bo.get("intraday"):
+            parts.append('<div class="alert info"><div class="a-text">'
+                         "⏳ השוק פתוח — הנר עוד לא נסגר, המחזור הוא הערכה.</div></div>")
+        ginfo = [("BREAKOUT", "🚀 תחילת פריצה", "פריצה"),
+                 ("RECOVERY", "↗️ התאוששות", "התאוששות"),
+                 ("EXTENDED", "🔥 פריצה חזקה — לא לרדוף", "רחוקה"),
+                 ("SETUP", "🎯 על סף פריצה", "על סף")]
+        for gkey, gtitle, gkind in ginfo:
+            rows = groups.get(gkey, [])
+            parts.append(f'<h3 class="sec">{gtitle} ({len(rows)})</h3>')
+            if not rows:
+                parts.append('<div class="empty">אין מניות כרגע.</div>')
+            for t, x in rows:
+                is_new = x.get("cross_date") and x["cross_date"] == bo.get("today_dm")
+                new_b = '<span class="newbadge">חדש</span>' if is_new else ""
+                flags = "<br>".join(x.get("flags") or [])
+                if gkey == "RECOVERY":
+                    head = (f'{t}: {x["from_high_pct"]:.0f}% מתחת לשיא · '
+                            f'חצתה {x["level"]:.2f} ב-{x["cross_date"]} (+{x["dist_pct"]:.1f}%)')
+                    comp = (f'מחיר {x["close"]:.2f} · מחזור ×{x["vol_ratio"]:.1f} · '
+                            f'RSI {x["rsi"]:.0f} · סטופ {x["stop"]:.2f} ({x["risk_pct"]:.1f}%) · '
+                            f'יעד {x["target"]:.2f} (+{x["upside_pct"]:.0f}%)')
+                elif gkey == "SETUP":
+                    head = (f'{t}: {abs(x["dist_pct"]):.1f}% מתחת להתנגדות {x["level"]:.2f}')
+                    comp = (f'מחיר {x["close"]:.2f} · {x["touches"]} נגיעות · בסיס {x["base_days"]} ימים · '
+                            f'RSI {x["rsi"]:.0f} · סטופ {x["stop"]:.2f}')
+                elif gkey == "EXTENDED":
+                    head = (f'{t}: חצתה {x["level"]:.2f} ב-{x["cross_date"]} '
+                            f'וכבר +{x["dist_pct"]:.1f}% מעליו')
+                    comp = (f'מחיר {x["close"]:.2f} · כניסה בחזרה: {x["level"]:.2f}–{x["entry_top"]:.2f} · '
+                            f'סטופ {x["stop"]:.2f}')
+                else:
+                    head = (f'{t} {x["close"]:.2f} | חצתה {x["level"]:.2f} ב-{x["cross_date"]} '
+                            f'(+{x["dist_pct"]:.1f}%)')
+                    comp = (f'מחזור ×{x["vol_ratio"]:.1f} · RSI {x["rsi"]:.0f} · '
+                            f'סטופ {x["stop"]:.2f} ({x["risk_pct"]:.1f}%)')
+                parts.append(
+                    f'<div class="alert warn" data-kind="breakout">'
+                    f'<div class="a-top">{new_b}<span class="sp"></span>'
+                    f'<span class="kbadge">פריצות</span><span class="kbadge">{gkind}</span>'
+                    f'<span class="tick">{esc(t)}</span></div>'
+                    f'<div class="a-head">{esc(head)}</div>'
+                    f'<div class="a-comp">{esc(comp)}</div>'
+                    + (f'<div class="a-comp" style="color:#b45309">{esc(flags)}</div>' if flags else "")
+                    + f'<div class="a-bot"><a class="src-link" '
+                    f'href="https://finance.yahoo.com/quote/{esc(t)}" target="_blank" '
+                    f'rel="noopener">פתח גרף</a>'
+                    f'<span class="a-src">{esc(x.get("cross_date") or "")}</span></div>'
+                    "</div>")
+        # ---- recovery learning history ----
+        hist = bo.get("history", [])
+        parts.append('<h3 class="sec">📚 מעקב התאוששויות — מי טסה בלעדיך</h3>')
+        if hist:
+            rows_h = []
+            for s in hist[:30]:
+                if s["pct"] is None:
+                    pct_txt, cls = "—", ""
+                else:
+                    cls = "up" if s["pct"] >= 0 else "down"
+                    pct_txt = f'{s["pct"]:+.1f}%'
+                status = "🎯 הגיע ליעד" if s["target_hit"] else "⏳ במעקב"
+                cur_cell = (f'<td class="num">{s["current"]:.2f}</td>' if s["current"]
+                            else "<td>—</td>")
+                rows_h.append(
+                    f'<tr><td><b>{esc(s["ticker"])}</b></td><td>{esc(s["date"])}</td>'
+                    f'<td class="num">{s["signal_price"]:.2f}</td>'
+                    f'{cur_cell}'
+                    f'<td class="{cls}">{pct_txt}</td>'
+                    f'<td class="num">{s["target"]:.2f}</td><td>{status}</td></tr>')
+            parts.append('<div class="tbl-wrap"><table class="htable">'
+                         "<tr><th>מניה</th><th>תאריך איתות</th><th>מחיר איתות</th>"
+                         "<th>מחיר נוכחי</th><th>שינוי מאז</th><th>יעד</th><th>סטטוס</th></tr>"
+                         + "".join(rows_h) + "</table></div>")
+        else:
+            parts.append('<div class="empty">עדיין אין היסטוריית התאוששויות — היא תצטבר מהריצות הבאות.</div>')
+    else:
+        parts.append('<div class="empty">סורק הפריצות לא הצליח לרוץ כרגע.</div>')
+    parts.append("</div>")
+
     # ================= bottom tab bar =================
     badge = (f'<span class="count-badge">{n_alerts}</span>' if n_alerts else "")
     parts.append(
@@ -625,6 +817,7 @@ def build_html(mh, dips, alerts, updated):
         '<button class="active" data-t="mh">בריאות השוק</button>'
         f'<button data-t="bio">ביוטק{badge}</button>'
         '<button data-t="dip">דיפים</button>'
+        '<button data-t="bo">פריצות</button>'
         "</div>")
 
     # ================= JS =================
@@ -659,10 +852,11 @@ def main():
     mh = market_health_section()
     dips = dip_scan_section()
     alerts = biotech_alerts()
+    bo = breakout_section()
 
     updated = datetime.now(JER)
     with open(OUT_FILE, "w", encoding="utf-8") as f:
-        f.write(build_html(mh, dips, alerts, updated))
+        f.write(build_html(mh, dips, alerts, bo, updated))
     dt = time.time() - t0
 
     print(f"WROTE {OUT_FILE} ({os.path.getsize(OUT_FILE)} bytes) in {dt:.0f}s")
@@ -671,6 +865,11 @@ def main():
     print(f"DIPS candidates={len(dips)}" +
           (f" top={[c['ticker'] for c in dips[:5]]}" if dips else ""))
     print(f"BIOTECH alerts={len(alerts)}")
+    if bo:
+        for st, rows in bo["groups"].items():
+            print(f"BREAKOUT {st}={len(rows)}" +
+                  (f" tickers={[t for t, _ in rows[:5]]}" if rows else ""))
+        print(f"RECOVERY history signals={len(bo['history'])}")
     print(f"SP500 missing series: {stats['sp500_missing']}, "
           f"biotech missing: {stats['biotech_missing']}, "
           f"SEC failures: {stats['sec_failed']}, news failures: {stats['news_failed']}")

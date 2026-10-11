@@ -1,0 +1,28 @@
+{
+ "signals": [
+  {
+   "ticker": "ULS",
+   "date": "2026-10-09",
+   "signal_price": 69.99,
+   "pivot": 69.49,
+   "target": 75.81,
+   "stop": 67.41
+  },
+  {
+   "ticker": "VNOM",
+   "date": "2026-10-09",
+   "signal_price": 42.99,
+   "pivot": 41.85,
+   "target": 43.93,
+   "stop": 40.59
+  },
+  {
+   "ticker": "RBA",
+   "date": "2026-10-09",
+   "signal_price": 85.84,
+   "pivot": 83.11,
+   "target": 88.17,
+   "stop": 80.62
+  }
+ ]
+}

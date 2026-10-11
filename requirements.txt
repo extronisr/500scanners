@@ -1,1 +1,5 @@
-# stdlib only (urllib, json, datetime, zoneinfo) — no third-party packages needed.
+# stdlib covers the 3 core scanners; the breakout scanner needs these:
+yfinance
+pandas
+numpy
+lxml
