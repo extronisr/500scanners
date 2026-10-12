@@ -23,6 +23,14 @@
    "pivot": 83.11,
    "target": 88.17,
    "stop": 80.62
+  },
+  {
+   "ticker": "ACI",
+   "date": "2026-10-12",
+   "signal_price": 12.54,
+   "pivot": 12.36,
+   "target": 13.33,
+   "stop": 11.99
   }
  ]
 }
