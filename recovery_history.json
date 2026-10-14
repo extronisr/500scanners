@@ -47,6 +47,14 @@
    "pivot": 12.36,
    "target": 13.33,
    "stop": 11.99
+  },
+  {
+   "ticker": "OTIS",
+   "date": "2026-10-14",
+   "signal_price": 68.96,
+   "pivot": 66.75,
+   "target": 69.92,
+   "stop": 64.75
   }
  ]
 }
