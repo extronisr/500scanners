@@ -55,6 +55,14 @@
    "pivot": 66.75,
    "target": 69.92,
    "stop": 64.75
+  },
+  {
+   "ticker": "ULS",
+   "date": "2026-10-15",
+   "signal_price": 74.39,
+   "pivot": 72.23,
+   "target": 81.29,
+   "stop": 70.06
   }
  ]
 }
