@@ -63,6 +63,14 @@
    "pivot": 72.23,
    "target": 81.29,
    "stop": 70.06
+  },
+  {
+   "ticker": "FCN",
+   "date": "2026-10-15",
+   "signal_price": 146.24,
+   "pivot": 144.6,
+   "target": 160.08,
+   "stop": 140.26
   }
  ]
 }
