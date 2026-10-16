@@ -95,6 +95,14 @@
    "pivot": 207.0,
    "target": 224.23,
    "stop": 200.79
+  },
+  {
+   "ticker": "EXE",
+   "date": "2026-10-16",
+   "signal_price": 93.41,
+   "pivot": 92.9,
+   "target": 102.55,
+   "stop": 90.11
   }
  ]
 }
