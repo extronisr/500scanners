@@ -71,6 +71,30 @@
    "pivot": 144.6,
    "target": 160.08,
    "stop": 140.26
+  },
+  {
+   "ticker": "ULS",
+   "date": "2026-10-16",
+   "signal_price": 73.87,
+   "pivot": 72.23,
+   "target": 81.29,
+   "stop": 70.06
+  },
+  {
+   "ticker": "FCN",
+   "date": "2026-10-16",
+   "signal_price": 146.23,
+   "pivot": 144.6,
+   "target": 160.08,
+   "stop": 140.26
+  },
+  {
+   "ticker": "APPF",
+   "date": "2026-10-16",
+   "signal_price": 213.52,
+   "pivot": 207.0,
+   "target": 224.23,
+   "stop": 200.79
   }
  ]
 }
