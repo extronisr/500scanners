@@ -103,6 +103,30 @@
    "pivot": 92.9,
    "target": 102.55,
    "stop": 90.11
+  },
+  {
+   "ticker": "WFRD",
+   "date": "2026-10-23",
+   "signal_price": 86.85,
+   "pivot": 86.42,
+   "target": 100.44,
+   "stop": 83.83
+  },
+  {
+   "ticker": "CMCSA",
+   "date": "2026-10-23",
+   "signal_price": 22.69,
+   "pivot": 22.41,
+   "target": 24.34,
+   "stop": 21.74
+  },
+  {
+   "ticker": "NEE",
+   "date": "2026-10-23",
+   "signal_price": 82.1,
+   "pivot": 80.27,
+   "target": 86.13,
+   "stop": 77.86
   }
  ]
 }
