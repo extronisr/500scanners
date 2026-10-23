@@ -5,9 +5,13 @@ on:
   workflow_dispatch:
 permissions:
   contents: write
+concurrency:
+  group: refresh
+  cancel-in-progress: false
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -18,7 +22,8 @@ jobs:
       - run: |
           git config user.name "scanners-bot"
           git config user.email "scanners-bot@localhost"
-          git add index.html recovery_history.json
+          git add index.html recovery_history.json sp500_tickers_cache.json
+          [ -f sp500_names_cache.json ] && git add sp500_names_cache.json || true
           git diff --cached --quiet || git commit -m "refresh $(date -u +%Y-%m-%dT%H:%M)"
-          git pull --rebase
+          git pull --rebase --autostash
           git push
