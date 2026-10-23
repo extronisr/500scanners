@@ -1,5 +1,6 @@
-# stdlib covers the 3 core scanners; the breakout scanner needs these:
-yfinance
-pandas
-numpy
-lxml
+# Versions below were validated together (full run + tests) on Python 3.10; CI (tests.yml) runs them on 3.12.
+yfinance==1.7.0
+pandas==2.3.3
+numpy==2.2.6
+lxml==6.1.3
+exchange_calendars==4.13.2

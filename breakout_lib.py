@@ -159,7 +159,16 @@ S = load_ms_settings()
 
 # ---------- כלים ----------
 def market_state():
-    """(state, expected_date, time_fraction) לפי שעון ניו יורק. חגים בארה"ב אינם מזוהים."""
+    """(state, expected_date, time_fraction). Uses the NYSE exchange calendar (holidays and
+    early closes) when exchange_calendars is installed; otherwise falls back to weekdays only."""
+    try:
+        import scan_utils
+        r = scan_utils.market_state()
+        if r is not None:
+            st, d, frac = r
+            return st, d, (max(frac, 0.05) if st == "OPEN" else 1.0)
+    except Exception:
+        pass
     try:
         from zoneinfo import ZoneInfo
         ny = dt.datetime.now(ZoneInfo("America/New_York"))

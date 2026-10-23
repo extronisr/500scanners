@@ -39,6 +39,7 @@ USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrom
 
 CACHE_DIR = os.path.dirname(os.path.abspath(__file__))
 TICKER_CACHE_FILE = os.path.join(CACHE_DIR, "sp500_tickers_cache.json")
+NAMES_CACHE_FILE = os.path.join(CACHE_DIR, "sp500_names_cache.json")
 TICKER_CACHE_DAYS = 7
 BREADTH_TTL_SECONDS = 6 * 3600  # breadth is a daily indicator; recompute at most every 6h
 SPARK_BATCH_SIZE = 20           # Yahoo spark endpoint rejects more than ~20 symbols per call
@@ -165,6 +166,46 @@ def load_sp500_tickers():
     return None
 
 
+def load_sp500_names():
+    """{symbol: company name} from the same Wikipedia table, cached for TICKER_CACHE_DAYS.
+    Used to check that news headlines are about the right company. {} if unavailable."""
+    try:
+        with open(NAMES_CACHE_FILE, "r", encoding="utf-8") as f:
+            cached = json.load(f)
+        if time.time() - cached.get("ts", 0) < TICKER_CACHE_DAYS * 86400 and len(cached.get("names", {})) > 400:
+            return cached["names"]
+    except Exception:
+        pass
+    try:
+        req = urllib.request.Request(
+            "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+            headers={"User-Agent": USER_AGENT},
+        )
+        with urllib.request.urlopen(req, timeout=20) as response:
+            html = response.read().decode("utf-8", errors="ignore")
+        start = html.find('class="wikitable')
+        table = html[start:html.find("</table>", start)]
+        names = {}
+        for row in re.findall(r"<tr[^>]*>(.*?)</tr>", table, re.S)[1:]:
+            cells = re.findall(r"<t[dh][^>]*>(.*?)</t[dh]>", row, re.S)
+            if len(cells) < 2:
+                continue
+            sym = re.sub(r"<[^>]+>", "", cells[0]).strip().replace(".", "-")
+            nm = re.sub(r"<[^>]+>", "", cells[1]).strip()
+            if sym and nm and re.fullmatch(r"[A-Z0-9\-]+", sym):
+                names[sym] = nm
+        if len(names) > 400:
+            try:
+                with open(NAMES_CACHE_FILE, "w", encoding="utf-8") as f:
+                    json.dump({"ts": time.time(), "names": names}, f, ensure_ascii=False)
+            except Exception:
+                pass
+            return names
+    except Exception:
+        pass
+    return {}
+
+
 def spark_closes_batch(symbols):
     """Fetch 1y daily closes for up to SPARK_BATCH_SIZE symbols in one Yahoo call."""
     params = urllib.parse.urlencode({"symbols": ",".join(symbols), "range": "1y", "interval": "1d"})
@@ -286,9 +327,9 @@ def calculate_score(d):
     checks = {
         "s5fi": zone_low(d["s5fi"], 55.0, 25.0),
         "s5th": zone_low(d["s5th"], 60.0, 40.0),
-        "spx50": bin_check(d["spx"] >= d["dma50"],
+        "spx50": bin_check(d["spx"] is not None and d["dma50"] is not None and d["spx"] >= d["dma50"],
                            d["spx"] is not None and d["dma50"] is not None),
-        "spx200": bin_check(d["spx"] >= d["dma200"],
+        "spx200": bin_check(d["spx"] is not None and d["dma200"] is not None and d["spx"] >= d["dma200"],
                             d["spx"] is not None and d["dma200"] is not None),
         "vix": zone_high(d["vix"], 20.0, 30.0),
         "tnx": both(zone_high(d["tnx"], 4.25, 5.0),

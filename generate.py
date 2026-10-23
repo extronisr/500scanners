@@ -16,11 +16,14 @@ import os
 import re
 import sys
 import time
+import urllib.error
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
 from zoneinfo import ZoneInfo
+
+import scan_utils
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 # BIOTECH_DIR removed: config lives next to this script
@@ -30,11 +33,16 @@ OUT_FILE = os.path.join(OUT_DIR, "index.html")
 sys.path.insert(0, BASE_DIR)
 
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/142 Safari/537.36"
-SEC_UA = "ScannersSiteDashboard/1.0 contact@example.com"
+# SEC asks for a real contact address. Left unchanged; may be overridden via the SEC_USER_AGENT env var.
+SEC_UA = os.environ.get("SEC_USER_AGENT", "ScannersSiteDashboard/1.0 contact@example.com")
 JER = ZoneInfo("Asia/Jerusalem")
 
 failures = []          # list of (section, detail) for the run report
-stats = {"sp500_missing": 0, "biotech_missing": 0, "sec_failed": 0, "news_failed": 0}
+stats = {"sp500_missing": 0, "biotech_missing": 0, "sec_failed": 0, "news_failed": 0,
+         "sec_ok": 0, "bio_total": 0, "sp500_total": 0, "news_stale": 0}
+NEWS_MAX_AGE_DAYS = 3    # news older than this (or undated) is not shown as a current alert
+dip_meta = {"coverage_ok": True, "vfrac": None}
+MIN_COVERAGE = 0.90   # below this share of data fetched, "no results" is not trustworthy
 
 
 def fail(section, detail):
@@ -47,9 +55,21 @@ def http_get(url, timeout=20, ua=UA, accept="*/*"):
         return r.read()
 
 
-def http_get_json(url, timeout=20, ua=UA):
-    return json.loads(http_get(url, timeout=timeout, ua=ua,
-                               accept="application/json").decode("utf-8"))
+def http_get_json(url, timeout=20, ua=UA, retries=2):
+    """GET + parse JSON. Bounded retries (max `retries` extra tries) only for
+    transient errors: timeouts, network errors, HTTP 429 and 5xx. 4xx such as
+    403/404 fail immediately."""
+    for attempt in range(retries + 1):
+        try:
+            return json.loads(http_get(url, timeout=timeout, ua=ua,
+                                       accept="application/json").decode("utf-8"))
+        except urllib.error.HTTPError as e:
+            if attempt >= retries or not (e.code == 429 or e.code >= 500):
+                raise
+        except (urllib.error.URLError, TimeoutError, ConnectionError):
+            if attempt >= retries:
+                raise
+        time.sleep(1.5 * (attempt + 1))
 
 
 def esc(s):
@@ -180,7 +200,7 @@ def load_sp500_tickers():
     return tickers or []
 
 
-def news_headlines(query, n=2):
+def news_headlines(query, n=2, ticker=None, name=None):
     q = urllib.parse.quote(query)
     url = (f"https://news.google.com/rss/search?q={q}"
            f"&hl=en-US&gl=US&ceid=US:en")
@@ -190,11 +210,22 @@ def news_headlines(query, n=2):
         heads = []
         for item in root.iter("item"):
             t = item.findtext("title")
+            # only keep headlines that are really about this issuer (ticker collisions are common)
+            if t and ticker and not scan_utils.headline_matches(t, ticker, name):
+                continue
+            # current alerts only: dated within the recent window, and event news, not
+            # evergreen quote / forecast / historical-data pages
+            pub_dt = scan_utils.parse_pub(item.findtext("pubDate"))
+            if t and (not scan_utils.is_recent(pub_dt, max_age_days=NEWS_MAX_AGE_DAYS)
+                      or scan_utils.is_evergreen(t)):
+                stats["news_stale"] += 1
+                continue
             if t:
                 heads.append({
                     "title": t.strip(),
                     "link": (item.findtext("link") or "").strip(),
                     "pub": (item.findtext("pubDate") or "").strip(),
+                    "pub_ts": pub_dt.timestamp() if pub_dt else None,
                 })
             if len(heads) >= n:
                 break
@@ -209,10 +240,23 @@ def fmt_pub(pub):
     """'Sat, 11 Oct 2026 02:08:00 GMT' -> '2:08, 11.10.2026' (best effort)."""
     try:
         from email.utils import parsedate_to_datetime
-        dt = parsedate_to_datetime(pub)
-        return f"{dt.hour}:{dt.minute:02d}, {dt.day}.{dt.month}.{dt.year}"
+        dt = parsedate_to_datetime(pub).astimezone(JER)    # show Israel time
+        return f"{dt.day}.{dt.month}.{dt.year}, {dt.hour}:{dt.minute:02d}"
     except Exception:
         return ""
+
+
+def _dip_vfrac():
+    """Fraction of the daily volume normally traded by now (None when the US market is closed)."""
+    try:
+        import numpy as np
+        import breakout_lib as b
+        state, _, tfrac = b.market_state()      # uses the NYSE calendar (holidays, early closes)
+        if state != "OPEN":
+            return None
+        return max(float(np.interp(tfrac, b.VOL_CURVE_T, b.VOL_CURVE_V)), 0.05)
+    except Exception:
+        return None
 
 
 def dip_scan_section():
@@ -224,7 +268,11 @@ def dip_scan_section():
     for i in range(0, len(tickers), 20):
         closes_map.update(spark_closes(tickers[i:i + 20]))
         time.sleep(0.2)
+    stats["sp500_total"] = len(tickers)
     stats["sp500_missing"] = len(tickers) - len(closes_map)
+    dip_meta["coverage_ok"] = len(closes_map) >= MIN_COVERAGE * len(tickers)
+    if not dip_meta["coverage_ok"]:
+        fail("dip", f"only {len(closes_map)}/{len(tickers)} tickers fetched; dip results unreliable")
     # price-based pre-filter on closes only (volume comes later, per candidate)
     prelim = []
     for sym, closes in closes_map.items():
@@ -247,17 +295,18 @@ def dip_scan_section():
             continue
         prelim.append((sym, depth, ref_low, r, last))
     cands = []
+    vfrac_now = _dip_vfrac()
+    dip_meta["vfrac"] = vfrac_now
     for sym, depth, ref_low, r, last in prelim:
         closes, vols = chart_closes_volumes(sym, "3mo")
         if not vols or len(vols) < 22:
             continue
-        vol_avg = sum(vols[-21:-1]) / 20.0
-        if vol_avg <= 0:
-            continue
-        vol_mult = vols[-1] / vol_avg
-        if vol_mult <= 1.5:
+        vc = scan_utils.volume_context(vols, vfrac_now)
+        tier, vol_mult = scan_utils.volume_signal(vc, 1.5, strict=True)
+        if tier is None:
             continue
         cands.append({
+            "vol_tier": tier,
             "ticker": sym,
             "depth": depth,
             "above_low_pct": (last - ref_low) / ref_low * 100.0,
@@ -268,8 +317,15 @@ def dip_scan_section():
         time.sleep(0.15)
     cands.sort(key=lambda c: c["depth"], reverse=True)
     cands = cands[:20]
+    try:
+        import market_lib as _m
+        sp_names = _m.load_sp500_names()
+    except Exception:
+        sp_names = {}
     for c in cands:
-        c["headlines"] = news_headlines(c["ticker"] + " stock")
+        nm = sp_names.get(c["ticker"])
+        c["headlines"] = news_headlines(f'"{nm}" {c["ticker"]}' if nm else c["ticker"] + " stock",
+                                        ticker=c["ticker"], name=nm)
         time.sleep(0.2)
     return cands
 
@@ -303,6 +359,7 @@ def edgar_8k_last_days(cik, days=3):
     url = f"https://data.sec.gov/submissions/CIK{cik10}.json"
     try:
         data = http_get_json(url, timeout=20, ua=SEC_UA)
+        stats["sec_ok"] += 1
     except Exception as e:
         stats["sec_failed"] += 1
         fail("biotech", f"EDGAR failed for CIK {cik10}: {e}")
@@ -341,6 +398,8 @@ def biotech_alerts():
     v_mult = cfg.get("volume_mult", 3.0)
     v_crit = cfg.get("volume_critical_mult", 5.0)
     alerts = []
+    stats["bio_total"] = len(watchlist)
+    vfrac_now = _dip_vfrac()
     today = datetime.now(timezone.utc).date().isoformat()
     for w in watchlist:
         ticker, name, cik = w.get("ticker"), w.get("name", ""), w.get("cik", "")
@@ -348,16 +407,22 @@ def biotech_alerts():
         if not closes or len(closes) < 22:
             continue
         chg = (closes[-1] / closes[-2] - 1.0) * 100.0 if closes[-2] else 0.0
-        vol_avg = sum(vols[-21:-1]) / 20.0 if len(vols) >= 22 else 0.0
-        vol_mult = (vols[-1] / vol_avg) if vol_avg > 0 else 0.0
+        vc = scan_utils.volume_context(vols, vfrac_now)
+        v_tier, v_val = scan_utils.volume_signal(vc, v_mult, strict=False)
+        shown = v_val if v_tier else (vc["confirmed"] if vc and vc["confirmed"] is not None else (vc or {}).get("estimate"))
+        vol_avg = 1.0 if shown is not None else 0.0
+        vol_val = shown or 0.0
+        vol_hit = v_tier is not None
+        vol_crit_hit = scan_utils.volume_signal(vc, v_crit, strict=False)[0] is not None
         filings = edgar_8k_last_days(cik, days=3) if cik else []
-        if abs(chg) >= p_spike or vol_mult >= v_mult:
-            sev = "crit" if (abs(chg) >= p_crit or vol_mult >= v_crit) else "warn"
+        if abs(chg) >= p_spike or vol_hit:
+            sev = "crit" if (abs(chg) >= p_crit or vol_crit_hit) else "warn"
             direction = "עלייה חדה" if chg >= 0 else "ירידה חדה"
             price = closes[-1]
-            vol_txt = f"מחזור ×{vol_mult:.1f} מהממוצע" if vol_avg > 0 else "מחזור לא זמין"
+            vol_txt = (scan_utils.volume_text(v_tier or "confirmed", vol_val, vfrac_now)
+                       if vol_avg > 0 else "מחזור לא זמין")
             alerts.append({"sev": sev, "kind": "price", "ticker": ticker,
-                           "name": name, "date": today,
+                           "name": name, "date": today, "ts": time.time(),
                            "head": f"{ticker}: {direction} {chg:+.1f}%",
                            "sub": f"מחיר {price:.2f} · {vol_txt}",
                            "link": f"https://finance.yahoo.com/quote/{ticker}",
@@ -373,18 +438,19 @@ def biotech_alerts():
                        f"https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK={cik}&type=8-K")
             alerts.append({"sev": "warn", "kind": "sec", "ticker": ticker,
                            "name": name, "date": f["date"],
+                           "ts": datetime.fromisoformat(f["date"]).replace(tzinfo=timezone.utc).timestamp(),
                            "head": f"{ticker}: דיווח 8-K חדש" + (f" · סעיפים {f['items']}" if f["items"] else ""),
                            "sub": name,
                            "link": doc_url, "source": "SEC EDGAR"})
-        if abs(chg) >= p_spike or vol_mult >= v_mult or filings:
-            for h in news_headlines(ticker + " stock", n=2):
+        if abs(chg) >= p_spike or vol_hit or filings:
+            for h in news_headlines(f'"{name}" {ticker}' if name else ticker + " stock", n=2, ticker=ticker, name=name):
                 pub = fmt_pub(h["pub"]) or today
                 alerts.append({"sev": "info", "kind": "news", "ticker": ticker,
-                               "name": name, "date": pub,
+                               "name": name, "date": pub, "ts": h.get("pub_ts"),
                                "head": h["title"], "sub": name,
                                "link": h["link"], "source": "Google News RSS"})
         time.sleep(0.15)  # be polite to EDGAR
-    alerts.sort(key=lambda a: a["date"], reverse=True)
+    alerts.sort(key=lambda a: a.get("ts") or 0, reverse=True)   # newest first, by real timestamp
     alerts.sort(key=lambda a: {"crit": 0, "warn": 1, "info": 2}[a["sev"]])
     return alerts
 
@@ -475,7 +541,7 @@ def breakout_section():
         fail("breakout", f"history save: {e}")
 
     return {"groups": groups, "history": history, "intraday": intraday,
-            "scanned": len(tickers), "failed": len(failed), "today_dm": today_dm}
+            "scanned": len(data), "universe": len(tickers), "failed": len(failed), "today_dm": today_dm}
 
 
 
@@ -537,6 +603,7 @@ padding:12px;margin:10px 0}
 .a-bot{display:flex;align-items:center;justify-content:space-between;margin-top:8px}
 .src-link{color:#0e7c8c;font-weight:700;font-size:.85rem;text-decoration:none}
 .a-src{color:#9ca3af;font-size:.75rem}
+.warnbox{background:#fff7ed!important;border-color:#fdba74!important;color:#9a3412!important}
 .empty{background:#fff;border:1px solid #e5e7eb;color:#6b7280;text-align:center;
 padding:22px;border-radius:12px;font-size:.9rem}
 .tabbar{position:fixed;bottom:12px;left:50%;transform:translateX(-50%);
@@ -566,6 +633,14 @@ STATUS_COLORS = {
     "תנאי סיכון פעילים": "#f85149",
     "אין מספיק נתונים": "#8b949e",
 }
+
+
+def fresh_badge(a):
+    """'New' only for items from the last 24 hours (by real timestamp)."""
+    ts = a.get("ts")
+    if ts and time.time() - ts <= 24 * 3600:
+        return '<span class="newbadge">חדש</span>'
+    return ""
 
 
 def build_html(mh, dips, alerts, bo, updated):
@@ -657,10 +732,16 @@ def build_html(mh, dips, alerts, bo, updated):
                 f'<div class="a-top"><span class="newbadge">חדש</span><span class="sp"></span>'
                 f'<span class="kbadge">דיפ</span><span class="tick">{esc(c["ticker"])}</span></div>'
                 f'<div class="a-head">עומק הדיפ: {c["depth"]:.1f}% מהשיא · מעל השפל: {c["above_low_pct"]:.1f}%</div>'
-                f'<div class="a-comp">RSI(14): {c["rsi"]:.0f} · מחזור ×{c["vol_mult"]:.1f} מהממוצע</div>'
+                f'<div class="a-comp">RSI(14): {c["rsi"]:.0f} · {esc(scan_utils.volume_text(c["vol_tier"], c["vol_mult"], dip_meta["vfrac"]))}</div>'
                 f"{links}</div>")
+    elif not dip_meta["coverage_ok"]:
+        parts.append('<div class="empty warnbox">לא ניתן לסמוך על התוצאה: חסרים נתונים '
+                     f'({stats["sp500_total"] - stats["sp500_missing"]}/{stats["sp500_total"]} מניות נטענו)</div>')
     else:
-        parts.append('<div class="empty">אין מניות שעומדות כרגע בכל תנאי הדיפ</div>')
+        parts.append('<div class="empty">אין מניות שעומדות כרגע בכל תנאי הדיפ '
+                     f'(נסרקו {stats["sp500_total"] - stats["sp500_missing"]}/{stats["sp500_total"]})</div>')
+    if dips and stats["sp500_missing"]:
+        parts.append(f'<div class="ts">כיסוי נתונים: {stats["sp500_total"] - stats["sp500_missing"]}/{stats["sp500_total"]} מניות</div>')
     parts.append("</div>")
 
     # ================= biotech pane =================
@@ -672,7 +753,7 @@ def build_html(mh, dips, alerts, bo, updated):
         '<button class="refresh-btn" onclick="location.reload()">עדכן עכשיו</button></div>')
     parts.append(
         '<div class="stats">'
-        '<div class="stat"><b>37</b><span>חברות במעקב</span></div>'
+        f'<div class="stat"><b>{stats["bio_total"]}</b><span>חברות במעקב</span></div>'
         f'<div class="stat"><b>{n_alerts}</b><span>פריטים חדשים</span></div>'
         f'<div class="stat"><b>{n_news}</b><span>חדשות בסריקה</span></div>'
         "</div>")
@@ -684,13 +765,22 @@ def build_html(mh, dips, alerts, bo, updated):
         '<option value="">הכל</option><option value="news">חדשות</option>'
         '<option value="price">מחיר</option><option value="sec">דיווח</option>'
         "</select></label></div>")
+    sec_bad = stats["sec_failed"]
+    if sec_bad or stats["biotech_missing"]:
+        parts.append(
+            '<div class="empty warnbox">⚠️ תקלת נתונים: '
+            f'SEC EDGAR נבדק עבור {stats["sec_ok"]}/{stats["bio_total"]} חברות · '
+            f'נתוני מחיר חסרים: {stats["biotech_missing"]}. '
+            'היעדר דיווחי 8-K בעמוד אינו אומר שלא היו כאלה.</div>')
+    else:
+        parts.append(f'<div class="ts">SEC EDGAR נבדק עבור {stats["sec_ok"]}/{stats["bio_total"]} חברות</div>')
     if alerts:
         for a in alerts:
             link_html = (f'<a class="src-link" href="{esc(a["link"])}" target="_blank" '
                          f'rel="noopener">פתח מקור</a>' if a.get("link") else "")
             parts.append(
                 f'<div class="alert {esc(a["sev"])}" data-kind="{esc(a["kind"])}">'
-                f'<div class="a-top"><span class="newbadge">חדש</span><span class="sp"></span>'
+                f'<div class="a-top">{fresh_badge(a)}<span class="sp"></span>'
                 f'<span class="kbadge">ביוטק</span>'
                 f'<span class="kbadge">{kind_he.get(a["kind"], "")}</span>'
                 f'<span class="tick">{esc(a["ticker"])}</span></div>'
@@ -714,10 +804,13 @@ def build_html(mh, dips, alerts, bo, updated):
         total = sum(len(v) for v in groups.values())
         parts.append(
             '<div class="stats">'
-            f'<div class="stat"><b>{bo.get("scanned", 0)}</b><span>מניות נסרקו</span></div>'
+            f'<div class="stat"><b>{bo.get("scanned", 0)}</b><span>מניות נסרקו מתוך {bo.get("universe", 0)}</span></div>'
             f'<div class="stat"><b>{total}</b><span>איתותים פעילים</span></div>'
             f'<div class="stat"><b>{len(bo.get("history", []))}</b><span>התאוששויות במעקב</span></div>'
             "</div>")
+        if bo.get("universe") and bo.get("failed", 0) > 0.1 * bo["universe"]:
+            parts.append('<div class="empty warnbox">⚠️ חסרים נתונים עבור '
+                         f'{bo["failed"]} מניות מתוך {bo["universe"]} - התוצאות חלקיות.</div>')
         if bo.get("intraday"):
             parts.append('<div class="alert info"><div class="a-text">'
                          "⏳ השוק פתוח — הנר עוד לא נסגר, המחזור הוא הערכה.</div></div>")
@@ -827,7 +920,7 @@ document.querySelectorAll('.newbadge').forEach(function(b){b.style.display='none
 </script>""")
 
     parts.append(
-        '<div class="ftr">נתונים: Yahoo Finance · SEC EDGAR · Google News · '
+        '<div class="ftr">מחזור מסומן "הערכה תוך-יומית" הוא הקרנה של מחזור חלקי ליום מלא - לא מחזור שנצפה, והמחזור הרגיל אינו אחיד לאורך היום. · נתונים: Yahoo Finance · SEC EDGAR · Google News · '
         "מקורות חינמיים בלבד · לא ייעוץ השקעות</div></body></html>")
     return "\n".join(parts)
 
@@ -859,7 +952,7 @@ def main():
         print(f"RECOVERY history signals={len(bo['history'])}")
     print(f"SP500 missing series: {stats['sp500_missing']}, "
           f"biotech missing: {stats['biotech_missing']}, "
-          f"SEC failures: {stats['sec_failed']}, news failures: {stats['news_failed']}")
+          f"SEC ok/failed: {stats['sec_ok']}/{stats['sec_failed']}, news failures: {stats['news_failed']}")
     if failures:
         print("FAILURES:")
         for sec, det in failures[:20]:
