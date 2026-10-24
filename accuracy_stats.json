@@ -1,0 +1,55 @@
+{
+ "computed_at": "2026-10-24",
+ "window": "אוקטובר 2022 – ספטמבר 2026",
+ "tickers": 916,
+ "total_signals": 8044,
+ "breakout": {
+  "n": 1900,
+  "false5": 47.5,
+  "above10": 64.3,
+  "base_false5": 57.5
+ },
+ "extended": {
+  "n": 848,
+  "false5": 16.4,
+  "above10": 84.3
+ },
+ "setup": {
+  "n": 4615,
+  "breaks10": 62.3,
+  "base_breaks10": 66.7
+ },
+ "recovery": {
+  "n": 681,
+  "stop10": 31.3,
+  "target20": 32.0
+ },
+ "volfinding": {
+  "n": 338,
+  "false5": 42.9,
+  "above10": 67.8,
+  "confirm_false5": 41.4,
+  "confirm_all_false5": 51.6
+ },
+ "dipfindings": {
+  "rules": "תיקון 10%–30% מהשיא, קרבה של עד 3% לשפל 126 ימים, RSI<30, מחזור ×1.5",
+  "fire_today": 5,
+  "universe": 916,
+  "rsi_only": 48,
+  "n": 1239,
+  "still_falling": 23.2,
+  "base_still_falling": 25.8,
+  "pos20": 62.5,
+  "base_pos20": 53.6,
+  "confirm_pos20": 59.2,
+  "confirm_base": 51.7
+ },
+ "pullback_stats": {
+  "hist_n": 5367,
+  "pos20": 55.0,
+  "base_pos20": 53.6,
+  "confirm_pos20": 52.3,
+  "confirm_base": 51.7,
+  "window": "אוקטובר 2022 עד ספטמבר 2026"
+ }
+}

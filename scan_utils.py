@@ -154,3 +154,64 @@ def headline_matches(title, ticker, name=None):
     before = re.sub(r"[^\w\s&.\-]", " ", t[:m.start()]).split()[-4:]
     # some other issuer name stands right before the ticker -> reject; nothing before it -> accept
     return not before
+
+
+# ---------------------------------------------------------------- new sections (live site)
+MATERIAL_8K_ITEMS = {"1.01", "1.02", "7.01", "8.01"}
+
+# form -> (severity, Hebrew label). severities: 3 = material, 2 = dilution warning, 1 = info
+SEC_FORM_SEVERITY = {
+    "8-K": (3, "8-K"),
+    "424B5": (2, "הנפקה 424B5"),
+    "S-3": (2, "מדף S-3"),
+    "S-3ASR": (2, "מדף S-3"),
+    "S-1": (2, "רישום S-1"),
+    "4": (1, "Form 4 · insiders"),
+    "10-Q": (1, "דוח רבעוני 10-Q"),
+    "10-K": (1, "דוח שנתי 10-K"),
+}
+
+
+def sec_form_severity(form, items=""):
+    """(severity, label) for an EDGAR form. An 8-K is material only when it
+    carries one of the material item numbers; otherwise it is informational."""
+    form = (form or "").strip()
+    if form == "8-K":
+        nums = {p.strip().rstrip(",") for p in (items or "").split() if p.strip()}
+        if nums & MATERIAL_8K_ITEMS:
+            return 3, "8-K מהותי"
+        return 1, "8-K"
+    return SEC_FORM_SEVERITY.get(form, (1, form or "דיווח"))
+
+
+def is_pullback_uptrend(closes, rsi_val, dd_min=10.0, dd_max=30.0, rsi_max=40.0):
+    """Pullback-in-uptrend category (observation, not a bottom signal):
+    10-30% below the 52-week high, still above the 200-day average, RSI below 40."""
+    if len(closes) < 210 or rsi_val is None:
+        return None
+    last = closes[-1]
+    high52 = max(closes[-252:])
+    sma200 = sum(closes[-200:]) / 200.0
+    low126 = min(closes[-126:])
+    if high52 <= 0 or low126 <= 0:
+        return None
+    dd = (1.0 - last / high52) * 100.0
+    # small tolerance: binary floats put exact boundaries (e.g. 10%) a hair below the limit
+    if not (dd_min - 0.05 <= dd <= dd_max + 0.05):
+        return None
+    if last <= sma200 or rsi_val >= rsi_max:
+        return None
+    return {"dd": round(dd, 1), "above200": round((last / sma200 - 1.0) * 100.0, 1),
+            "above_low": round((last / low126 - 1.0) * 100.0, 1)}
+
+
+def catalyst_bucket(days, approx=False):
+    """Countdown tier: 'imminent' (<=7d), 'approaching' (<=21d), else 'watch'.
+    Approx (quarter-window) events never rank above 'approaching'."""
+    if days is None:
+        return "watch"
+    if days <= 7 and not approx:
+        return "imminent"
+    if days <= 21:
+        return "approaching"
+    return "watch"

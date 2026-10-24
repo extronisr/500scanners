@@ -1,0 +1,28 @@
+{
+ "score": 21,
+ "rating": "Extreme Fear",
+ "previous": [
+  {
+   "label": "סגירה קודמת",
+   "value": 19,
+   "rating": "Extreme Fear"
+  },
+  {
+   "label": "לפני שבוע",
+   "value": 22,
+   "rating": "Extreme Fear"
+  },
+  {
+   "label": "לפני חודש",
+   "value": 32,
+   "rating": "Fear"
+  },
+  {
+   "label": "לפני שנה",
+   "value": 27,
+   "rating": "Fear"
+  }
+ ],
+ "timestamp": "2026-10-23T23:59:44+00:00",
+ "source": "https://www.cnn.com/markets/fear-and-greed"
+}

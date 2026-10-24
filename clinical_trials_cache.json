@@ -1,0 +1,208 @@
+{
+ "fetched_at": "2026-10-24",
+ "studies": {
+  "NCT04229979": {
+   "ticker": "SLS",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "enrollment": 127,
+   "primary_completion": "2025-12",
+   "last_update": "2025-10-01"
+  },
+  "NCT04585750": {
+   "ticker": "PMVP",
+   "status": "RECRUITING",
+   "enrollment": 300,
+   "primary_completion": "2026-12-15",
+   "last_update": "2026-10-02"
+  },
+  "NCT05548296": {
+   "ticker": "ACRV",
+   "status": "RECRUITING",
+   "enrollment": 350,
+   "primary_completion": "2027-05-30",
+   "last_update": "2026-08-21"
+  },
+  "NCT06667141": {
+   "ticker": "ACRV",
+   "status": "RECRUITING",
+   "enrollment": 100,
+   "primary_completion": "2027-08-12",
+   "last_update": "2026-09-23"
+  },
+  "NCT06995677": {
+   "ticker": "TYRA",
+   "status": "RECRUITING",
+   "enrollment": 90,
+   "primary_completion": "2028-02",
+   "last_update": "2026-09-29"
+  },
+  "NCT06842355": {
+   "ticker": "TYRA",
+   "status": "RECRUITING",
+   "enrollment": 92,
+   "primary_completion": "2030-01",
+   "last_update": "2026-10-01"
+  },
+  "NCT07432295": {
+   "ticker": "NBP",
+   "status": "RECRUITING",
+   "enrollment": 180,
+   "primary_completion": "2030-03",
+   "last_update": "2026-05-14"
+  },
+  "NCT04974008": {
+   "ticker": "OSTX",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "enrollment": 39,
+   "primary_completion": "2023-09-21",
+   "last_update": "2025-01-22"
+  },
+  "NCT05987332": {
+   "ticker": "IDYA",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "enrollment": 420,
+   "primary_completion": "2027-01-15",
+   "last_update": "2026-02-17"
+  },
+  "NCT05128825": {
+   "ticker": "ZNTL",
+   "status": "RECRUITING",
+   "enrollment": 310,
+   "primary_completion": "2026-12-01",
+   "last_update": "2026-09-29"
+  },
+  "NCT06743126": {
+   "ticker": "IMTX",
+   "status": "RECRUITING",
+   "enrollment": 360,
+   "primary_completion": "2028-01",
+   "last_update": "2026-08-18"
+  },
+  "NCT05933577": {
+   "ticker": "MRNA",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "enrollment": 1089,
+   "primary_completion": "2029-10-26",
+   "last_update": "2025-09-24"
+  },
+  "NCT06307431": {
+   "ticker": "MRNA",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "enrollment": 272,
+   "primary_completion": "2028-01-08",
+   "last_update": "2026-07-13"
+  },
+  "NCT06077760": {
+   "ticker": "MRNA",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "enrollment": 868,
+   "primary_completion": "2030-06-25",
+   "last_update": "2026-09-18"
+  },
+  "NCT04398433": {
+   "ticker": "INO",
+   "status": "COMPLETED",
+   "enrollment": 32,
+   "primary_completion": "2022-12-15",
+   "last_update": "2026-04-14"
+  },
+  "NCT05126758": {
+   "ticker": "CAPR",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "enrollment": 106,
+   "primary_completion": "2025-06-18",
+   "last_update": "2026-08-28"
+  },
+  "NCT04544293": {
+   "ticker": "SVRA",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "enrollment": 164,
+   "primary_completion": "2023-11-30",
+   "last_update": "2026-08-26"
+  },
+  "NCT06153693": {
+   "ticker": "MLYS",
+   "status": "COMPLETED",
+   "enrollment": 1083,
+   "primary_completion": "2024-12-10",
+   "last_update": "2026-05-01"
+  },
+  "NCT05769608": {
+   "ticker": "MLYS",
+   "status": "COMPLETED",
+   "enrollment": 285,
+   "primary_completion": "2025-01-15",
+   "last_update": "2026-01-20"
+  },
+  "NCT06683742": {
+   "ticker": "EYPT",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "enrollment": 400,
+   "primary_completion": "2026-10",
+   "last_update": "2026-09-03"
+  },
+  "NCT06668064": {
+   "ticker": "EYPT",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "enrollment": 400,
+   "primary_completion": "2026-07-13",
+   "last_update": "2026-09-03"
+  },
+  "NCT06510816": {
+   "ticker": "ANNX",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "enrollment": 659,
+   "primary_completion": "2027-07-31",
+   "last_update": "2026-10-06"
+  },
+  "NCT04849728": {
+   "ticker": "IVA",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "enrollment": 1000,
+   "primary_completion": "2027-09-30",
+   "last_update": "2026-07-02"
+  },
+  "NCT06990399": {
+   "ticker": "KOD",
+   "status": "RECRUITING",
+   "enrollment": 600,
+   "primary_completion": "2027-04",
+   "last_update": "2026-05-18"
+  },
+  "NCT06335173": {
+   "ticker": "ABOS",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "enrollment": 542,
+   "primary_completion": "2026-10",
+   "last_update": "2025-10-27"
+  },
+  "NCT06903338": {
+   "ticker": "VIR",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "enrollment": 124,
+   "primary_completion": "2026-12-31",
+   "last_update": "2026-04-08"
+  },
+  "NCT07128550": {
+   "ticker": "VIR",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "enrollment": 150,
+   "primary_completion": "2026-12",
+   "last_update": "2026-07-13"
+  },
+  "NCT05506943": {
+   "ticker": "CMPX",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "enrollment": 168,
+   "primary_completion": "2027-08-31",
+   "last_update": "2026-09-02"
+  },
+  "NCT05433142": {
+   "ticker": "XNCR",
+   "status": "RECRUITING",
+   "enrollment": 307,
+   "primary_completion": "2027-02",
+   "last_update": "2026-08-03"
+  }
+ }
+}

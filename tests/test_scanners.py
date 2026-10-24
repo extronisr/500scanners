@@ -231,3 +231,37 @@ def test_conflicting_issuer_rejected_even_with_ticker_in_brackets():
 def test_ticker_in_brackets_accepted_when_nothing_conflicts():
     assert su.headline_matches("(GNLX) trial update", "GNLX", "Genelux Corp")
     assert su.headline_matches("Genelux Corporation (GNLX) trial update", "GNLX", "Genelux Corp")
+
+
+# ---- new live-site sections (scan_utils helpers)
+def test_sec_form_severity_material_8k():
+    sev, _ = su.sec_form_severity("8-K", "1.01 2.02 8.01")
+    assert sev == 3
+
+
+def test_sec_form_severity_routine_8k_is_info():
+    sev, _ = su.sec_form_severity("8-K", "5.07")
+    assert sev == 1
+
+
+def test_sec_form_severity_dilution():
+    assert su.sec_form_severity("424B5")[0] == 2
+    assert su.sec_form_severity("S-3ASR")[0] == 2
+    assert su.sec_form_severity("4")[0] == 1
+
+
+def test_pullback_requires_uptrend_and_rsi():
+    closes = [100.0] * 150 + [88.0] * 60     # 12% below high, still above sma200? no: sma200 ~ 96.4
+    assert su.is_pullback_uptrend(closes, 35) is None
+    closes = [80.0] * 150 + [100.0] * 55 + [90.0] * 5   # dd 10%, sma200 ~ 86.3, last above it
+    r = su.is_pullback_uptrend(closes, 35)
+    assert r is not None and abs(r["dd"] - 10.0) < 0.2
+    assert su.is_pullback_uptrend(closes, 45) is None   # RSI too high
+
+
+def test_catalyst_bucket_tiers_and_approx():
+    assert su.catalyst_bucket(3) == "imminent"
+    assert su.catalyst_bucket(3, approx=True) == "approaching"   # quarter estimate never imminent
+    assert su.catalyst_bucket(14) == "approaching"
+    assert su.catalyst_bucket(60) == "watch"
+    assert su.catalyst_bucket(None) == "watch"

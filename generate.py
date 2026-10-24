@@ -34,7 +34,7 @@ sys.path.insert(0, BASE_DIR)
 
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/142 Safari/537.36"
 # SEC asks for a real contact address. Left unchanged; may be overridden via the SEC_USER_AGENT env var.
-SEC_UA = os.environ.get("SEC_USER_AGENT", "ScannersSiteDashboard/1.0 contact@example.com")
+SEC_UA = os.environ.get("SEC_USER_AGENT", "ScannersSiteDashboard/1.0 (contact: extronisr@gmail.com)")
 JER = ZoneInfo("Asia/Jerusalem")
 
 failures = []          # list of (section, detail) for the run report
@@ -385,19 +385,21 @@ def edgar_8k_last_days(cik, days=3):
 
 
 def biotech_alerts():
-    """Alerts feed like the app: price/volume spikes, 8-K filings, news."""
+    """Alerts feed like the app: price/volume spikes, 8-K filings, news.
+    Also returns a full-watchlist radar (price, change, volume, severity, why)."""
     cfg_path = os.path.join(BASE_DIR, "biotech_config.json")
     try:
         cfg = json.load(open(cfg_path, encoding="utf-8"))
         watchlist = cfg["watchlist"]
     except Exception as e:
         fail("biotech", f"config unreadable: {e}")
-        return []
+        return {"alerts": [], "radar": []}
     p_spike = cfg.get("price_spike_pct", 8.0)
     p_crit = cfg.get("price_critical_pct", 15.0)
     v_mult = cfg.get("volume_mult", 3.0)
     v_crit = cfg.get("volume_critical_mult", 5.0)
     alerts = []
+    radar = []
     stats["bio_total"] = len(watchlist)
     vfrac_now = _dip_vfrac()
     today = datetime.now(timezone.utc).date().isoformat()
@@ -415,6 +417,15 @@ def biotech_alerts():
         vol_hit = v_tier is not None
         vol_crit_hit = scan_utils.volume_signal(vc, v_crit, strict=False)[0] is not None
         filings = edgar_8k_last_days(cik, days=3) if cik else []
+        rsev = 0
+        if abs(chg) >= p_crit or vol_crit_hit:
+            rsev = 3
+        elif abs(chg) >= p_spike or vol_hit:
+            rsev = 2
+        elif abs(chg) >= 2.0 and (shown is not None and shown >= 2.5):
+            rsev = 1   # early move: +2% on >=2.5x volume (approved trial addition)
+        radar.append({"ticker": ticker, "name": name, "chg": chg,
+                      "close": closes[-1], "vol_mult": shown, "sev": rsev, "why": ""})
         if abs(chg) >= p_spike or vol_hit:
             sev = "crit" if (abs(chg) >= p_crit or vol_crit_hit) else "warn"
             direction = "עלייה חדה" if chg >= 0 else "ירידה חדה"
@@ -444,6 +455,8 @@ def biotech_alerts():
                            "link": doc_url, "source": "SEC EDGAR"})
         if abs(chg) >= p_spike or vol_hit or filings:
             for h in news_headlines(f'"{name}" {ticker}' if name else ticker + " stock", n=2, ticker=ticker, name=name):
+                if radar and radar[-1]["ticker"] == ticker and not radar[-1]["why"]:
+                    radar[-1]["why"] = h["title"]
                 pub = fmt_pub(h["pub"]) or today
                 alerts.append({"sev": "info", "kind": "news", "ticker": ticker,
                                "name": name, "date": pub, "ts": h.get("pub_ts"),
@@ -452,7 +465,8 @@ def biotech_alerts():
         time.sleep(0.15)  # be polite to EDGAR
     alerts.sort(key=lambda a: a.get("ts") or 0, reverse=True)   # newest first, by real timestamp
     alerts.sort(key=lambda a: {"crit": 0, "warn": 1, "info": 2}[a["sev"]])
-    return alerts
+    radar.sort(key=lambda r: (-r["sev"], -abs(r["chg"])))
+    return {"alerts": alerts, "radar": radar}
 
 
 def breakout_section():
@@ -540,10 +554,332 @@ def breakout_section():
     except Exception as e:
         fail("breakout", f"history save: {e}")
 
+    try:
+        pullback = pullback_section(data)
+    except Exception as e:
+        fail("pullback", f"pullback scan: {e}")
+        pullback = []
+
     return {"groups": groups, "history": history, "intraday": intraday,
-            "scanned": len(data), "universe": len(tickers), "failed": len(failed), "today_dm": today_dm}
+            "scanned": len(data), "universe": len(tickers), "failed": len(failed),
+            "today_dm": today_dm, "pullback": pullback}
 
 
+
+
+
+# ---------------------------------------------------------------- market overview
+INDEX_SYMBOLS = [("^GSPC", "S&P 500"), ("^IXIC", "Nasdaq Composite"),
+                 ("^DJI", "Dow Jones"), ("^RUT", "Russell 2000")]
+SECTOR_SYMBOLS = [("XLK", "טכנולוגיה"), ("XLF", "פיננסים"), ("XLV", "בריאות"),
+                  ("XLE", "אנרגיה"), ("XLY", "צריכה מחזורית"), ("XLP", "צריכה בסיסית"),
+                  ("XLI", "תעשייה"), ("XLU", "תשתיות ציבוריות"), ("XLRE", "נדל״ן"),
+                  ("XLB", "חומרי גלם"), ("XLC", "תקשורת")]
+CHANGE3_SYMBOLS = [("^VIX", "VIX", "נקודות", False), ("^TNX", "US 10Y", "נקודות אחוז", False),
+                   ("BZ=F", "Brent", "דולר", True), ("CL=F", "WTI", "דולר", True)]
+
+
+def market_overview_section():
+    """Indices, sector heatmap and the 3-trading-day card. One spark batch (20 symbols)."""
+    syms = ([s for s, _ in INDEX_SYMBOLS] + [s for s, _ in SECTOR_SYMBOLS]
+            + ["SMH"] + [s for s, _, _, _ in CHANGE3_SYMBOLS])
+    data = spark_closes(syms)
+    if not data:
+        fail("overview", "spark batch failed for market overview")
+        return None
+    out = {"indices": [], "sectors": [], "change3": [], "smh": None}
+    for sym, name in INDEX_SYMBOLS:
+        cl = data.get(sym)
+        if not cl or len(cl) < 60:
+            continue
+        sma50 = sum(cl[-50:]) / 50.0
+        sma200 = sum(cl[-200:]) / 200.0 if len(cl) >= 200 else None
+        out["indices"].append({
+            "sym": sym, "name": name, "value": cl[-1],
+            "day_pct": (cl[-1] / cl[-2] - 1.0) * 100.0 if len(cl) >= 2 and cl[-2] else None,
+            "above50": cl[-1] >= sma50,
+            "above200": (cl[-1] >= sma200) if sma200 else None,
+            "spark": cl[-20:]})
+    def _chg3(sym):
+        cl = data.get(sym)
+        if not cl or len(cl) < 4:
+            return None, None
+        abs3 = cl[-1] - cl[-4]
+        pct3 = (cl[-1] / cl[-4] - 1.0) * 100.0 if cl[-4] else None
+        return abs3, pct3
+    for sym, name in SECTOR_SYMBOLS + [("SMH", "סמיקונדקטורס")]:
+        cl = data.get(sym)
+        if not cl or len(cl) < 4:
+            continue
+        day = (cl[-1] / cl[-2] - 1.0) * 100.0 if cl[-2] else None
+        _, pct3 = _chg3(sym)
+        row = {"sym": sym, "name": name, "day_pct": day, "pct3": pct3}
+        if sym == "SMH":
+            out["smh"] = row
+        else:
+            out["sectors"].append(row)
+    for sym, name, unit, show_pct in CHANGE3_SYMBOLS:
+        abs3, pct3 = _chg3(sym)
+        if abs3 is None:
+            continue
+        out["change3"].append({"sym": sym, "name": name, "unit": unit,
+                               "abs3": abs3, "pct3": pct3 if show_pct else None})
+    if not out["indices"] and not out["sectors"]:
+        return None
+    return out
+
+
+# ---------------------------------------------------------------- CNN Fear & Greed
+CNN_URL = "https://production.dataviz.cnn.io/public/fear-and-greed/graph"
+CNN_SNAPSHOT = os.path.join(BASE_DIR, "cnn_snapshot.json")
+RATING_HE = {"extreme fear": "פחד קיצוני", "fear": "פחד", "neutral": "נייטרלי",
+             "greed": "חמדנות", "extreme greed": "חמדנות קיצונית"}
+
+
+def cnn_section():
+    """Try the live CNN feed; fall back to the bundled snapshot with its own
+    timestamp. The snapshot is only rewritten after a successful live fetch."""
+    data, live = None, False
+    try:
+        raw = http_get_json(CNN_URL, timeout=8, retries=0)
+        fg = raw.get("fear_and_greed", {}) if isinstance(raw, dict) else {}
+        if fg.get("score") is not None:
+            def _prev(val, label):
+                v = val if not isinstance(val, dict) else val.get("score")
+                return {"label": label, "value": round(v)} if v is not None else None
+            prev = [p for p in [_prev(fg.get("previous_close"), "סגירה קודמת"),
+                                _prev(fg.get("previous_1_week"), "לפני שבוע"),
+                                _prev(fg.get("previous_1_month"), "לפני חודש"),
+                                _prev(fg.get("previous_1_year"), "לפני שנה")] if p]
+            data = {"score": round(float(fg["score"])), "rating": fg.get("rating", ""),
+                    "previous": prev, "source": "https://www.cnn.com/markets/fear-and-greed",
+                    "timestamp": datetime.now(timezone.utc).isoformat(timespec="seconds")}
+            live = True
+    except Exception as e:
+        fail("cnn", f"CNN fetch failed: {e}")
+    if live:
+        try:
+            json.dump(data, open(CNN_SNAPSHOT, "w", encoding="utf-8"),
+                      ensure_ascii=False, indent=1)
+        except Exception as e:
+            fail("cnn", f"snapshot save: {e}")
+    else:
+        try:
+            data = json.load(open(CNN_SNAPSHOT, encoding="utf-8"))
+        except Exception as e:
+            fail("cnn", f"snapshot unreadable: {e}")
+            return None
+    data["live"] = live
+    try:
+        age_h = (datetime.now(timezone.utc)
+                 - datetime.fromisoformat(data["timestamp"])).total_seconds() / 3600.0
+    except Exception:
+        age_h = None
+    data["age_hours"] = age_h
+    return data
+
+
+# ---------------------------------------------------------------- pullback in uptrend
+def pullback_section(data_map):
+    """Pullback-in-uptrend category over the breakout universe (observation,
+    not a validated bottom signal). Computed from the same 1y data the scanner uses."""
+    out = []
+    for t, df in (data_map or {}).items():
+        try:
+            closes = [float(x) for x in df["Close"].tolist()]
+        except Exception:
+            continue
+        r = rsi14(closes)
+        pb = scan_utils.is_pullback_uptrend(closes, r)
+        if not pb:
+            continue
+        volr = None
+        try:
+            vols = [float(x) for x in df["Volume"].tolist()]
+            base = sum(vols[-51:-1]) / 50.0
+            volr = vols[-1] / base if base > 0 else None
+        except Exception:
+            pass
+        chg = (closes[-1] / closes[-2] - 1.0) * 100.0 if len(closes) >= 2 and closes[-2] else 0.0
+        out.append({"ticker": t, "close": closes[-1], "chg": chg,
+                    "rsi": r, "volr": volr, **pb})
+    out.sort(key=lambda x: -x["dd"])
+    return out[:24]
+
+
+# ---------------------------------------------------------------- catalysts
+def _expected_to_date(exp):
+    """ISO date stays exact; 'Q4 2026'/'2H 2026' become a mid-window estimate."""
+    exp = (exp or "").strip()
+    try:
+        return datetime.strptime(exp, "%Y-%m-%d").date(), False
+    except ValueError:
+        pass
+    m = re.match(r"^Q([1-4])\s+(\d{4})$", exp)
+    if m:
+        q, y = int(m.group(1)), int(m.group(2))
+        return datetime(y, q * 3 - 1, 15).date(), True
+    m = re.match(r"^2H\s+(\d{4})$", exp)
+    if m:
+        return datetime(int(m.group(1)), 11, 1).date(), True
+    return None, True
+
+
+def catalyst_section():
+    path = os.path.join(BASE_DIR, "biotech_catalysts.json")
+    try:
+        cfg = json.load(open(path, encoding="utf-8"))
+    except Exception as e:
+        fail("catalysts", f"config unreadable: {e}")
+        return None
+    today = datetime.now(JER).date()
+    upcoming, passed = [], []
+    for c in cfg.get("events", []):
+        d, approx = _expected_to_date(c.get("expected"))
+        days = (d - today).days if d else None
+        item = dict(c)
+        item.update({"days": days, "approx": approx or bool(c.get("approx")),
+                     "bucket": scan_utils.catalyst_bucket(days, approx or bool(c.get("approx")))})
+        if days is None or days >= 0:
+            upcoming.append(item)
+        else:
+            passed.append(item)
+    upcoming.sort(key=lambda x: (x["days"] is None, x["days"] or 9999))
+    passed.sort(key=lambda x: -(x["days"] or -9999))
+    return {"upcoming": upcoming, "passed": passed, "asof": cfg.get("asof", "")}
+
+
+# ---------------------------------------------------------------- clinical trials
+CT_STATUS_HE = {
+    "RECRUITING": "מגייס", "ACTIVE_NOT_RECRUITING": "פעיל, גיוס הושלם",
+    "NOT_YET_RECRUITING": "טרם גיוס", "COMPLETED": "הושלם",
+    "ENROLLING_BY_INVITATION": "גיוס בהזמנה", "SUSPENDED": "מושהה",
+    "TERMINATED": "הופסק", "WITHDRAWN": "בוטל", "UNKNOWN": "לא ידוע",
+}
+TRIALS_CACHE = os.path.join(BASE_DIR, "clinical_trials_cache.json")
+
+
+def _ct_one(nct, ticker):
+    url = f"https://clinicaltrials.gov/api/v2/studies/{nct}"
+    data = http_get_json(url, timeout=15)
+    ps = data.get("protocolSection", {})
+    st = ps.get("statusModule", {})
+    de = ps.get("designModule", {})
+    return {"ticker": ticker, "status": st.get("overallStatus", ""),
+            "enrollment": (de.get("enrollmentInfo") or {}).get("count"),
+            "primary_completion": (st.get("primaryCompletionDateStruct") or {}).get("date", ""),
+            "last_update": (st.get("lastUpdatePostDateStruct") or {}).get("date", "")}
+
+
+def trials_section():
+    """Live ClinicalTrials.gov baseline for the NCT ids in biotech_trials.json.
+    On fetch trouble the bundled cache is shown with a staleness note."""
+    try:
+        cfg = json.load(open(os.path.join(BASE_DIR, "biotech_trials.json"), encoding="utf-8"))
+        nct_map = cfg["nct_by_ticker"]
+    except Exception as e:
+        fail("trials", f"config unreadable: {e}")
+        return None
+    try:
+        cache = json.load(open(TRIALS_CACHE, encoding="utf-8"))
+    except Exception:
+        cache = {"fetched_at": "", "studies": {}}
+    pairs = [(nct, t) for t, ncts in nct_map.items() for nct in ncts]
+    studies, errors = {}, []
+    for nct, t in pairs:
+        try:
+            studies[nct] = _ct_one(nct, t)
+        except Exception as e:
+            errors.append(nct)
+            fail("trials", f"{nct}: {e}")
+        time.sleep(0.35)   # polite rate
+    changed = []
+    if studies:
+        old = cache.get("studies", {})
+        for nct, s in studies.items():
+            o = old.get(nct)
+            if o and (o.get("status") != s["status"]
+                      or o.get("primary_completion") != s["primary_completion"]
+                      or str(o.get("enrollment")) != str(s["enrollment"])):
+                changed.append(nct)
+        cache = {"fetched_at": datetime.now(JER).date().isoformat(), "studies": studies}
+        try:
+            json.dump(cache, open(TRIALS_CACHE, "w", encoding="utf-8"),
+                      ensure_ascii=False, indent=1)
+        except Exception as e:
+            fail("trials", f"cache save: {e}")
+    shown = studies or cache.get("studies", {})
+    rows = []
+    for nct, t in pairs:
+        s = shown.get(nct)
+        if not s:
+            continue
+        rows.append({"nct": nct, "ticker": s.get("ticker", t),
+                     "status": s.get("status", ""),
+                     "status_he": CT_STATUS_HE.get(s.get("status", ""), s.get("status", "")),
+                     "enrollment": s.get("enrollment"),
+                     "primary_completion": s.get("primary_completion") or "—",
+                     "last_update": s.get("last_update") or "—",
+                     "changed": nct in changed,
+                     "bad": s.get("status") in ("TERMINATED", "WITHDRAWN", "SUSPENDED")})
+    return {"rows": rows, "live": bool(studies), "fetched_at": cache.get("fetched_at", ""),
+            "errors": errors, "total": len(pairs)}
+
+
+# ---------------------------------------------------------------- SEC watcher (broad)
+def edgar_recent(cik, days=5):
+    """All notable filings in the last `days` days via EDGAR submissions JSON,
+    with severity per form type (material 8-K items, dilution, insider, periodic)."""
+    cik10 = str(cik).strip().zfill(10)
+    url = f"https://data.sec.gov/submissions/CIK{cik10}.json"
+    data = http_get_json(url, timeout=20, ua=SEC_UA)
+    cutoff = (datetime.now(timezone.utc) - timedelta(days=days)).date().isoformat()
+    recent = data.get("filings", {}).get("recent", {})
+    forms = recent.get("form", [])
+    out = []
+    for i in range(len(forms)):
+        fdate = (recent.get("filingDate") or [""])[i]
+        if not fdate or fdate < cutoff:
+            continue
+        form = forms[i]
+        if form not in scan_utils.SEC_FORM_SEVERITY:
+            continue
+        items = ""
+        try:
+            items = recent.get("items", [""])[i] or ""
+        except Exception:
+            pass
+        sev, label = scan_utils.sec_form_severity(form, items)
+        out.append({"date": fdate, "form": form, "items": items, "sev": sev, "label": label,
+                    "doc": (recent.get("primaryDocument") or [""])[i],
+                    "accession": (recent.get("accessionNumber") or [""])[i]})
+    return out
+
+
+def sec_watch_section(watchlist):
+    """One submissions call per company; returns broadened watcher events and errors."""
+    events, errors = [], []
+    for w in watchlist:
+        ticker, cik = w.get("ticker"), w.get("cik", "")
+        if not cik:
+            continue
+        try:
+            for f in edgar_recent(cik, days=5):
+                try:
+                    cik_num = str(int(cik))
+                except Exception:
+                    cik_num = (cik or "").lstrip("0") or "0"
+                acc = f["accession"].replace("-", "")
+                url = (f"https://www.sec.gov/Archives/edgar/data/{cik_num}/{acc}/{f['doc']}"
+                       if f.get("doc") else
+                       f"https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK={cik}")
+                events.append({**f, "ticker": ticker, "url": url})
+        except Exception as e:
+            errors.append(ticker)
+            fail("secwatch", f"{ticker}: {e}")
+        time.sleep(0.35)   # declared UA, well under 2 req/s
+    events.sort(key=lambda e: (e["date"], -e["sev"]), reverse=True)
+    return {"events": events, "errors": errors, "lookback_days": 5}
 
 
 # ---------------------------------------------------------------- HTML
@@ -625,6 +961,86 @@ table.htable th{background:#f9fafb;color:#6b7280;font-size:.75rem}
 table.htable td.num{font-weight:700}
 .up{color:#16a34a;font-weight:700}.down{color:#dc2626;font-weight:700}
 .ftr{color:#9ca3af;font-size:.72rem;text-align:center;padding:14px 4px}
+.idxgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin:8px 0}
+.idxcard{background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:12px;display:flex;
+flex-direction:column;gap:4px;color:#1f2937}
+.idxcard .idxname{font-size:.8rem;color:#6b7280}
+.idxcard b{font-size:1.25rem}
+.idxcard small{color:#9ca3af;font-size:.72rem}
+.hmap{display:grid;grid-template-columns:repeat(3,1fr);gap:7px;background:#161c23;
+border-radius:12px;padding:9px;margin:8px 0}
+.tile{min-height:92px;text-align:center;padding:10px 6px;border-radius:6px;display:flex;
+flex-direction:column;justify-content:center;gap:4px;border:1px solid}
+.tile span{font-size:.72rem}
+.tile b{font-size:1.15rem}
+.tile small{font-size:.68rem;opacity:.85}
+.tile.pos{background:color-mix(in srgb,#204f40 calc(30% + var(--i)*60%),#17251e);color:#b9f1d4;border-color:#426b59}
+.tile.neg{background:color-mix(in srgb,#733039 calc(30% + var(--i)*60%),#2c1e24);color:#ffc6cd;border-color:#71424c}
+.smhrow{display:flex;justify-content:space-between;align-items:center;gap:14px;background:#fff;
+border:1px solid #e5e7eb;border-radius:12px;padding:12px;margin:4px 0}
+.smhrow small{display:block;color:#9ca3af;font-size:.72rem}
+.chg3{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;background:#fff;
+border:1px solid #e5e7eb;border-radius:12px;padding:14px;text-align:center;margin:8px 0}
+.chg3>div{display:flex;flex-direction:column;gap:3px}
+.chg3 span{font-size:.78rem;color:#6b7280}
+.chg3 b{font-size:1.2rem}
+.chg3 small{font-size:.7rem;color:#9ca3af}
+.cnnwrap{display:flex;gap:18px;align-items:center;background:#fff;border:1px solid #e5e7eb;
+border-radius:12px;padding:16px;margin:8px 0;flex-wrap:wrap}
+.gaugebox{text-align:center}
+.cnnrating{font-weight:800;font-size:.9rem;margin-top:2px}
+.cnnhist{flex:1;min-width:140px}
+.cnnrow{display:flex;justify-content:space-between;border-bottom:1px solid #f3f4f6;
+padding:7px 0;font-size:.82rem}
+.cnnrow b{border:1px solid #e5e7eb;border-radius:50%;width:30px;height:30px;display:grid;
+place-items:center;font-size:.78rem}
+.finding{background:#f4f8f6;border-right:3px solid #0e7c8c;border-radius:8px;
+padding:12px 14px;margin:10px 0;font-size:.85rem}
+.finding.warn{background:#fdf7ee;border-right-color:#c08a3e}
+.finding p{margin-top:4px;line-height:1.75;color:#374151}
+.pbgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin:8px 0}
+.pbcard{background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:12px}
+.pbcard header{display:flex;justify-content:space-between;align-items:baseline}
+.pbcard header b{font-size:1rem}
+.pbcard header strong{font-size:.95rem;text-align:left}
+.pbcard header strong small{display:block;font-size:.65rem;font-weight:400;color:#9ca3af}
+.pbbody{display:flex;flex-direction:column;gap:2px;margin-top:6px;font-size:.76rem;color:#6b7280}
+.accgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin:8px 0}
+.acccard{background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:12px}
+.acccard header b{font-size:.9rem}
+.accrow{display:flex;justify-content:space-between;gap:8px;padding:6px 0;
+border-bottom:1px solid #f3f4f6;font-size:.78rem}
+.accrow span{color:#6b7280}
+.accrow.good b{color:#16a34a}.accrow.bad b{color:#dc2626}
+.catitem{display:grid;grid-template-columns:84px 1fr;gap:10px;background:#fff;
+border:1px solid #e5e7eb;border-radius:12px;padding:10px;margin:8px 0;align-items:start}
+.catitem.past{opacity:.65}
+.catdays{font-size:.74rem;font-weight:700;padding:6px 4px;border-radius:8px;
+background:#f3f4f6;text-align:center;line-height:1.4}
+.catdays.soon{background:#fee2e2;color:#b91c1c}
+.catdays.approach{background:#fef3c7;color:#92400e}
+.catdays .approx{display:block;font-size:.62rem;font-weight:400;color:#9ca3af;margin-top:2px}
+.catbody header{display:flex;gap:8px;align-items:baseline;flex-wrap:wrap}
+.catbody header b{font-size:.92rem}
+.catbody header span{font-size:.82rem}
+.catbody small{display:block;color:#9ca3af;font-size:.72rem;margin:2px 0}
+.catbody details{font-size:.76rem;color:#6b7280}
+.catbody details p{margin:4px 0;line-height:1.7}
+.trialgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin:8px 0}
+.trialcard{background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:10px}
+.trialcard header{display:flex;gap:6px;align-items:center;flex-wrap:wrap}
+.trialcard header b{font-size:.92rem}
+.tstat{font-size:.68rem;font-weight:700;padding:2px 8px;border-radius:10px;
+background:#e0f2f1;color:#0e7c8c}
+.tstat.bad{background:#fee2e2;color:#b91c1c}
+.trialbody{display:flex;flex-direction:column;gap:2px;margin:6px 0;font-size:.72rem;color:#6b7280}
+.secrow{display:grid;grid-template-columns:80px 52px 1fr auto;gap:8px;align-items:center;
+padding:8px 4px;border-bottom:1px solid #f3f4f6;font-size:.78rem}
+.secrow.hot{background:#fdf6ee}
+.secdate{color:#9ca3af;font-size:.72rem}
+.a-comp.why{color:#1f2937;border-top:1px dashed #e5e7eb;margin-top:6px;padding-top:6px}
+@media(max-width:480px){.idxgrid,.pbgrid,.accgrid,.trialgrid{grid-template-columns:1fr}
+.hmap{grid-template-columns:repeat(2,1fr)}.chg3{grid-template-columns:repeat(2,1fr)}}
 """
 STATUS_COLORS = {
     "מתייצב": "#3fb950",
@@ -643,7 +1059,26 @@ def fresh_badge(a):
     return ""
 
 
-def build_html(mh, dips, alerts, bo, updated):
+def build_html(mh, dips, alerts, bo, updated, extra=None):
+    extra = extra or {}
+
+    def pct2(v, d=2):
+        cls = "up" if v >= 0 else "down"
+        return f'<span class="{cls}" dir="ltr">{v:+.{d}f}%</span>'
+
+    def ltr(v):
+        return f'<span dir="ltr">{v}</span>'
+
+    def sparkline(vals, w=90, h=26):
+        if not vals or len(vals) < 2:
+            return ""
+        mn, mx = min(vals), max(vals)
+        rng = (mx - mn) or 1.0
+        pts = " ".join(f"{i * w / (len(vals) - 1):.1f},{h - 2 - (v - mn) / rng * (h - 4):.1f}"
+                       for i, v in enumerate(vals))
+        return (f'<svg dir="ltr" width="{w}" height="{h}" viewBox="0 0 {w} {h}" '
+                f'aria-hidden="true"><polyline points="{pts}" fill="none" '
+                f'stroke="currentColor" stroke-width="1.6"/></svg>')
     ts = esc(updated.strftime("%-d.%-m.%Y, %-H:%M"))
     n_alerts = len(alerts)
     n_news = sum(1 for a in alerts if a["kind"] == "news")
@@ -712,6 +1147,243 @@ def build_html(mh, dips, alerts, bo, updated):
         parts.append("</details>")
     else:
         parts.append('<div class="empty">אין מספיק נתונים כרגע</div>')
+
+    ov = extra.get("overview")
+    if ov:
+        parts.append('<h3 class="sec">המבט הרחב · מדדים</h3>')
+        parts.append('<div class="idxgrid">')
+        for ix in ov["indices"]:
+            day = ix["day_pct"]
+            day_html = pct2(day) if day is not None else ""
+            a50 = "מעל" if ix["above50"] else "מתחת ל־"
+            trend = f"{a50} ממוצע 50"
+            if ix["above200"] is not None:
+                trend += " · " + ("מעל" if ix["above200"] else "מתחת ל־") + " 200"
+            val_s = f"{ix['value']:,.2f}"
+            parts.append(
+                '<div class="idxcard">'
+                f'<span class="idxname">{esc(ix["name"])}</span>'
+                f'<b>{ltr(val_s)}</b>'
+                f'{day_html}<small>מול סגירה קודמת</small>'
+                f'{sparkline(ix["spark"])}'
+                f'<small>{esc(trend)}</small>'
+                "</div>")
+        parts.append("</div>")
+        if ov["sectors"]:
+            parts.append('<h3 class="sec">מפת המגזרים · יום אחרון (ושינוי ב-3 ימי מסחר)</h3>')
+            parts.append('<div class="hmap">')
+            for s in ov["sectors"]:
+                d1 = s["day_pct"] or 0.0
+                inten = min(abs(d1) / 3.0, 1.0)
+                cls = "pos" if d1 >= 0 else "neg"
+                p3 = pct2(s["pct3"]) if s["pct3"] is not None else ""
+                parts.append(
+                    f'<div class="tile {cls}" style="--i:{inten:.2f}">'
+                    f'<span><b>{esc(s["sym"])}</b> · {esc(s["name"])}</span>'
+                    f'<b dir="ltr">{d1:+.2f}%</b>'
+                    f"<small>3 ימים: {p3}</small></div>")
+            parts.append("</div>")
+            smh = ov.get("smh")
+            if smh and smh["day_pct"] is not None:
+                parts.append(
+                    '<div class="smhrow"><span><b>סמיקונדקטורס · SMH</b> '
+                    "<small>פירוט נוסף, לא מגזר במפה</small></span>"
+                    f"{pct2(smh['day_pct'])}</div>")
+            parts.append('<div class="ts">11 מגזרי S&P 500 באמצעות קרנות סל ענפיות · Yahoo Finance</div>')
+        if ov["change3"]:
+            parts.append('<h3 class="sec">שינוי ב-3 ימי מסחר</h3>')
+            parts.append('<div class="chg3">')
+            for c in ov["change3"]:
+                dec = 3 if c["sym"] == "^TNX" else 2
+                cls = "up" if c["abs3"] >= 0 else "down"
+                p3 = (" · " + pct2(c["pct3"])) if c.get("pct3") is not None else ""
+                parts.append(
+                    f"<div><span>{esc(c['name'])}</span>"
+                    f'<b class="{cls}" dir="ltr">{c["abs3"]:+.{dec}f}</b>'
+                    f"<small>{esc(c['unit'])}{p3}</small></div>")
+            parts.append("</div>")
+            parts.append('<div class="ts">שלושה מרווחי מסחר אחרונים, לא שלושה ימים קלנדריים · Yahoo Finance</div>')
+
+    cn = extra.get("cnn")
+    if cn:
+        score = cn["score"]
+        rating_he = RATING_HE.get((cn.get("rating") or "").lower(), cn.get("rating") or "")
+        ang = 3.14159 * (1 - max(0, min(100, score)) / 100.0)
+        import math as _m
+        nx, ny = 100 - 62 * _m.cos(ang), 92 - 62 * _m.sin(ang)
+        arcs = ' '.join(
+            f'<path d="M{100 - 80 * _m.cos(3.14159 * a / 100):.1f},{92 - 80 * _m.sin(3.14159 * a / 100):.1f} '
+            f'A80,80 0 0 1 {100 - 80 * _m.cos(3.14159 * b / 100):.1f},{92 - 80 * _m.sin(3.14159 * b / 100):.1f}" '
+            f'stroke="{c}" stroke-width="20" fill="none"/>'
+            for a, b, c in [(0.5, 19.5, "#f8b4b4"), (20.5, 39.5, "#f4d3a8"), (40.5, 59.5, "#e5e7eb"),
+                            (60.5, 79.5, "#d2e5dc"), (80.5, 99.5, "#90c7ad")])
+        hist = "".join(
+            f'<div class="cnnrow"><span>{esc(p["label"])}</span><b dir="ltr">{p["value"]}</b></div>'
+            for p in cn.get("previous", []))
+        try:
+            ts_dt = datetime.fromisoformat(cn["timestamp"]).astimezone(JER)
+            ts_txt = f"{ts_dt.day}.{ts_dt.month}.{ts_dt.year}, {ts_dt.hour}:{ts_dt.minute:02d}"
+        except Exception:
+            ts_txt = ""
+        if cn.get("live"):
+            src_txt = f"עודכן חי מ-CNN בריצה זו · {ts_txt}"
+        else:
+            src_txt = f"צילום שמור מ-{ts_txt} · המקור לא היה זמין בריצה זו, והמספר אינו של היום"
+        age = cn.get("age_hours")
+        stale = ('<div class="empty warnbox">⚠️ צילום ה-CNN ישן (מעל 72 שעות) — להתייחס בזהירות.</div>'
+                 if age is not None and age > 72 else "")
+        parts.append('<h3 class="sec">סנטימנט · CNN Fear & Greed</h3>')
+        parts.append(
+            '<div class="cnnwrap"><div class="gaugebox">'
+            f'<svg dir="ltr" viewBox="0 0 200 120" width="200" height="120">{arcs}'
+            f'<line x1="100" y1="92" x2="{nx:.1f}" y2="{ny:.1f}" stroke="#242424" stroke-width="3.5"/>'
+            f'<circle cx="100" cy="92" r="18" fill="#fff"/>'
+            f'<text x="100" y="97" text-anchor="middle" font-size="20" font-weight="800" fill="#222">{score}</text>'
+            f"</svg>"
+            f'<div class="cnnrating">{esc(rating_he)}</div></div>'
+            f'<div class="cnnhist">{hist}</div></div>'
+            f'<div class="ts">{esc(src_txt)} · <a class="src-link" href="{esc(cn.get("source", ""))}" target="_blank" rel="noopener">מקור</a></div>'
+            + stale)
+    parts.append("</div>")
+
+    # ================= breakout pane =================
+    parts.append('<div class="pane" id="pane-bo">')
+    parts.append(
+        '<div class="hdr"><div><h1>סורק פריצות</h1>'
+        f'<div class="ts">עדכון {ts} · רענון אוטומטי כל 15 דקות</div></div>'
+        '<button class="refresh-btn" onclick="location.reload()">עדכן עכשיו</button></div>')
+    if bo and bo.get("groups") is not None:
+        groups = bo["groups"]
+        total = sum(len(v) for v in groups.values())
+        parts.append(
+            '<div class="stats">'
+            f'<div class="stat"><b>{bo.get("scanned", 0)}</b><span>מניות נסרקו מתוך {bo.get("universe", 0)}</span></div>'
+            f'<div class="stat"><b>{total}</b><span>איתותים פעילים</span></div>'
+            f'<div class="stat"><b>{len(bo.get("history", []))}</b><span>התאוששויות במעקב</span></div>'
+            "</div>")
+        if bo.get("universe") and bo.get("failed", 0) > 0.1 * bo["universe"]:
+            parts.append('<div class="empty warnbox">⚠️ חסרים נתונים עבור '
+                         f'{bo["failed"]} מניות מתוך {bo["universe"]} - התוצאות חלקיות.</div>')
+        if bo.get("intraday"):
+            parts.append('<div class="alert info"><div class="a-text">'
+                         "⏳ השוק פתוח — הנר עוד לא נסגר, המחזור הוא הערכה.</div></div>")
+        ginfo = [("BREAKOUT", "🚀 תחילת פריצה", "פריצה"),
+                 ("RECOVERY", "↗️ התאוששות", "התאוששות"),
+                 ("EXTENDED", "🔥 פריצה חזקה — לא לרדוף", "רחוקה"),
+                 ("SETUP", "🎯 על סף פריצה", "על סף")]
+        for gkey, gtitle, gkind in ginfo:
+            rows = groups.get(gkey, [])
+            parts.append(f'<h3 class="sec">{gtitle} ({len(rows)})</h3>')
+            if not rows:
+                parts.append('<div class="empty">אין מניות כרגע.</div>')
+            for t, x in rows:
+                is_new = x.get("cross_date") and x["cross_date"] == bo.get("today_dm")
+                new_b = '<span class="newbadge">חדש</span>' if is_new else ""
+                flags = "<br>".join(esc(fl) for fl in (x.get("flags") or []))
+                if gkey == "RECOVERY":
+                    head = (f'{t}: {x["from_high_pct"]:.0f}% מתחת לשיא · '
+                            f'חצתה {x["level"]:.2f} ב-{x["cross_date"]} (+{x["dist_pct"]:.1f}%)')
+                    comp = (f'מחיר {x["close"]:.2f} · מחזור ×{x["vol_ratio"]:.1f} · '
+                            f'RSI {x["rsi"]:.0f} · סטופ {x["stop"]:.2f} ({x["risk_pct"]:.1f}%) · '
+                            f'יעד {x["target"]:.2f} (+{x["upside_pct"]:.0f}%)')
+                elif gkey == "SETUP":
+                    head = (f'{t}: {abs(x["dist_pct"]):.1f}% מתחת להתנגדות {x["level"]:.2f}')
+                    comp = (f'מחיר {x["close"]:.2f} · {x["touches"]} נגיעות · בסיס {x["base_days"]} ימים · '
+                            f'RSI {x["rsi"]:.0f} · סטופ {x["stop"]:.2f}')
+                elif gkey == "EXTENDED":
+                    head = (f'{t}: חצתה {x["level"]:.2f} ב-{x["cross_date"]} '
+                            f'וכבר +{x["dist_pct"]:.1f}% מעליו')
+                    comp = (f'מחיר {x["close"]:.2f} · כניסה בחזרה: {x["level"]:.2f}–{x["entry_top"]:.2f} · '
+                            f'סטופ {x["stop"]:.2f}')
+                else:
+                    head = (f'{t} {x["close"]:.2f} | חצתה {x["level"]:.2f} ב-{x["cross_date"]} '
+                            f'(+{x["dist_pct"]:.1f}%)')
+                    comp = (f'מחזור ×{x["vol_ratio"]:.1f} · RSI {x["rsi"]:.0f} · '
+                            f'סטופ {x["stop"]:.2f} ({x["risk_pct"]:.1f}%)')
+                parts.append(
+                    f'<div class="alert warn" data-kind="breakout">'
+                    f'<div class="a-top">{new_b}<span class="sp"></span>'
+                    f'<span class="kbadge">פריצות</span><span class="kbadge">{gkind}</span>'
+                    f'<span class="tick">{esc(t)}</span></div>'
+                    f'<div class="a-head">{esc(head)}</div>'
+                    f'<div class="a-comp">{esc(comp)}</div>'
+                    + (f'<div class="a-comp" style="color:#b45309">{flags}</div>' if flags else "")
+                    + f'<div class="a-bot"><a class="src-link" '
+                    f'href="https://finance.yahoo.com/quote/{esc(t)}" target="_blank" '
+                    f'rel="noopener">פתח גרף</a>'
+                    f'<span class="a-src">{esc(x.get("cross_date") or "")}</span></div>'
+                    "</div>")
+        # ---- recovery learning history ----
+        hist = bo.get("history", [])
+        parts.append('<h3 class="sec">📚 מעקב התאוששויות — מי טסה בלעדיך</h3>')
+        if hist:
+            rows_h = []
+            for s in hist[:30]:
+                if s["pct"] is None:
+                    pct_txt, cls = "—", ""
+                else:
+                    cls = "up" if s["pct"] >= 0 else "down"
+                    pct_txt = f'{s["pct"]:+.1f}%'
+                status = "🎯 הגיע ליעד" if s["target_hit"] else "⏳ במעקב"
+                cur_cell = (f'<td class="num">{s["current"]:.2f}</td>' if s["current"]
+                            else "<td>—</td>")
+                rows_h.append(
+                    f'<tr><td><b>{esc(s["ticker"])}</b></td><td>{esc(s["date"])}</td>'
+                    f'<td class="num">{s["signal_price"]:.2f}</td>'
+                    f'{cur_cell}'
+                    f'<td class="{cls}">{pct_txt}</td>'
+                    f'<td class="num">{s["target"]:.2f}</td><td>{status}</td></tr>')
+            parts.append('<div class="tbl-wrap"><table class="htable">'
+                         "<tr><th>מניה</th><th>תאריך איתות</th><th>מחיר איתות</th>"
+                         "<th>מחיר נוכחי</th><th>שינוי מאז</th><th>יעד</th><th>סטטוס</th></tr>"
+                         + "".join(rows_h) + "</table></div>")
+        else:
+            parts.append('<div class="empty">עדיין אין היסטוריית התאוששויות — היא תצטבר מהריצות הבאות.</div>')
+    else:
+        parts.append('<div class="empty">סורק הפריצות לא הצליח לרוץ כרגע.</div>')
+    acc = extra.get("acc")
+    if acc:
+        def acc_card(title, rows):
+            body = "".join(
+                f'<div class="accrow {cls}"><span>{esc(k)}</span><b>{ltr(v)}</b></div>'
+                for k, v, cls in rows)
+            return f'<div class="acccard"><header><b>{esc(title)}</b></header>{body}</div>'
+        tot_s = f"{acc['total_signals']:,}"
+        b, x, s, r = acc["breakout"], acc["extended"], acc["setup"], acc["recovery"]
+        parts.append('<h3 class="sec">דיוק הזיהוי · מדידה היסטורית</h3>')
+        parts.append(
+            f'<p class="ts">כמה האיתותים צדקו בעבר: שחזור הסורק כמו שהוא על {ltr(acc["tickers"])} מניות לאורך '
+            f'{esc(acc["window"])} ({ltr(tot_s)} איתותים), ובדיקה מה קרה 5, 10 ו-20 ימי מסחר אחרי. '
+            'מדד לאיכות הזיהוי ולקריאת המגמה, לא הבטחה ולא מערכת מסחר.</p>')
+        parts.append('<div class="accgrid">')
+        parts.append(acc_card("🚀 תחילת פריצה", [
+            (f'איתותים: {b["n"]:,}', "", ""),
+            ("חזרה מתחת לקו תוך 5 ימים (פריצת שווא)", f'{b["false5"]}%', "bad"),
+            ("עדיין מעל הקו ביום ה-10", f'{b["above10"]}%', "good"),
+            ("פריצת שווא בלי סינון (קו בסיס)", f'{b["base_false5"]}%', "")]))
+        parts.append(acc_card("🔥 פריצה חזקה", [
+            (f'איתותים: {x["n"]:,}', "", ""),
+            ("חזרה מתחת לקו תוך 5 ימים", f'{x["false5"]}%', "good"),
+            ("עדיין מעל הקו ביום ה-10", f'{x["above10"]}%', "good")]))
+        parts.append(acc_card("🎯 על סף פריצה", [
+            (f'איתותים: {s["n"]:,}', "", ""),
+            ("פרצה את הקו תוך 10 ימים", f'{s["breaks10"]}%', ""),
+            ("קו בסיס: כל מניה 2% מתחת לשיא", f'{s["base_breaks10"]}%', "bad")]))
+        parts.append(acc_card("↗️ התאוששות", [
+            (f'איתותים: {r["n"]:,}', "", ""),
+            ("פגיעה בסטופ תוך 10 ימים", f'{r["stop10"]}%', "bad"),
+            ("הגעה ליעד תוך 20 יום", f'{r["target20"]}%', "good")]))
+        parts.append('</div>')
+        vf = acc.get("volfinding")
+        if vf:
+            parts.append(
+                '<div class="finding"><b>ממצא מרכזי · מחזור הוא המסנן החזק</b>'
+                f'<p>בפריצות עם מחזור ×2.5 ומעלה, שיעור פריצת השווא ירד מ-{ltr("47.5%")} ל-{ltr(str(vf["false5"])+"%")} '
+                f'וההחזקה מעל הקו עלתה ל-{ltr(str(vf["above10"])+"%")}. בחלון האישור הנפרד: {ltr(str(vf["confirm_false5"])+"%")} '
+                f'מול {ltr(str(vf["confirm_all_false5"])+"%")} — היתרון נשמר מחוץ למדגם. '
+                'מוצג כמידע בלבד; שינוי כללים רק באישור.</p></div>')
+        parts.append(f'<div class="ts">מדידה מ-{esc(acc.get("computed_at", ""))} · שחזור אומת מול קוד הסורק החי · '
+                     'המדדים מתייחסים לזיהוי ולהמשכיות, ואינם תחזית תשואה</div>')
     parts.append("</div>")
 
     # ================= dips pane =================
@@ -742,6 +1414,44 @@ def build_html(mh, dips, alerts, bo, updated):
                      f'(נסרקו {stats["sp500_total"] - stats["sp500_missing"]}/{stats["sp500_total"]})</div>')
     if dips and stats["sp500_missing"]:
         parts.append(f'<div class="ts">כיסוי נתונים: {stats["sp500_total"] - stats["sp500_missing"]}/{stats["sp500_total"]} מניות</div>')
+
+    acc = extra.get("acc")
+    dfp = (acc or {}).get("dipfindings")
+    if dfp:
+        n_s = f"{dfp['n']:,}"
+        parts.append('<h3 class="sec">למה הסורק שקט · ומה המדידה מצאה</h3>')
+        parts.append(
+            '<div class="finding"><b>התנאים דורשים בו-זמנית תיקון רדוד וקריסה טרייה</b>'
+            f'<p>במדידה מ-{esc((acc or {}).get("computed_at", ""))}: רק {ltr(dfp["fire_today"])} מתוך {ltr(dfp["universe"])} '
+            f'המניות עמדו בכל התנאים בסריקה האחרונה, ורק {ltr(dfp["rsi_only"])} היו עם RSI מתחת ל־30. '
+            f'וכשהוא כן מזהה — הזיהוי טוב: על {ltr(n_s)} איתותים בארבע שנים, '
+            f'{ltr(str(dfp["pos20"])+"%")} היו חיוביים 20 ימים אחרי מול {ltr(str(dfp["base_pos20"])+"%")} בקו הבסיס, '
+            f'ובחלון האישור {ltr(str(dfp["confirm_pos20"])+"%")} מול {ltr(str(dfp["confirm_base"])+"%")}. '
+            'המדדים מתייחסים לזיהוי התייצבות, לא תחזית תשואה.</p></div>')
+
+    pb = (bo or {}).get("pullback") if bo else None
+    if pb:
+        pbs = (acc or {}).get("pullback_stats") or {}
+        parts.append('<h3 class="sec">תיקון במגמת עלייה · קטגוריית זיהוי, לא איתות תחתית</h3>')
+        parts.append(
+            '<div class="finding warn"><b>זו קטגוריית זיהוי נוספת, לא איתות קנייה</b>'
+            f'<p>מניה שירדה 10%–30% מתחת לשיא 52 השבועות, עדיין מעל ממוצע 200, עם RSI מתחת ל־40. '
+            f'במדידה על {esc(pbs.get("window", ""))}: התייצבות אצל תיקונים כאלה '
+            f'{ltr(str(pbs.get("pos20", ""))+"%")} מול {ltr(str(pbs.get("base_pos20", ""))+"%")} ביום אקראי — הפרש זעים. '
+            'הקטגוריה מסמנת מצב תיקון במגמה, לא נקודת קנייה.</p></div>')
+        parts.append('<div class="pbgrid">')
+        for r in pb:
+            vol = f' · מחזור {ltr("x" + format(r["volr"], ".1f"))}' if r.get("volr") else ""
+            parts.append(
+                '<div class="pbcard">'
+                f'<header><b>{esc(r["ticker"])}</b><strong class="down">{ltr("-" + format(r["dd"], ".1f") + "%")}'
+                '<small>מתחת לשיא</small></strong></header>'
+                f'<div class="pbbody"><span>סגירה {ltr(format(r["close"], ".2f"))} · {pct2(r["chg"])} ביום האחרון</span>'
+                f'<span>RSI {ltr(format(r["rsi"], ".0f"))}{vol}</span>'
+                f'<span>{ltr("+" + format(r["above200"], ".1f") + "%")} מעל ממוצע 200 · '
+                f'{ltr("+" + format(r["above_low"], ".1f") + "%")} מעל שפל 126 יום</span></div></div>')
+        parts.append('</div>')
+        parts.append(f'<div class="ts">{ltr(len(pb))} מניות זוהו · הסריקה רצה על כל היקף הסורק, בלי שינוי כללים בסורק הדיפים עצמו</div>')
     parts.append("</div>")
 
     # ================= biotech pane =================
@@ -791,113 +1501,120 @@ def build_html(mh, dips, alerts, bo, updated):
                 "</div>")
     else:
         parts.append('<div class="empty">אין התראות חדשות כרגע</div>')
-    parts.append("</div>")
 
-    # ================= breakout pane =================
-    parts.append('<div class="pane" id="pane-bo">')
-    parts.append(
-        '<div class="hdr"><div><h1>סורק פריצות</h1>'
-        f'<div class="ts">עדכון {ts} · רענון אוטומטי כל 15 דקות</div></div>'
-        '<button class="refresh-btn" onclick="location.reload()">עדכן עכשיו</button></div>')
-    if bo and bo.get("groups") is not None:
-        groups = bo["groups"]
-        total = sum(len(v) for v in groups.values())
-        parts.append(
-            '<div class="stats">'
-            f'<div class="stat"><b>{bo.get("scanned", 0)}</b><span>מניות נסרקו מתוך {bo.get("universe", 0)}</span></div>'
-            f'<div class="stat"><b>{total}</b><span>איתותים פעילים</span></div>'
-            f'<div class="stat"><b>{len(bo.get("history", []))}</b><span>התאוששויות במעקב</span></div>'
-            "</div>")
-        if bo.get("universe") and bo.get("failed", 0) > 0.1 * bo["universe"]:
-            parts.append('<div class="empty warnbox">⚠️ חסרים נתונים עבור '
-                         f'{bo["failed"]} מניות מתוך {bo["universe"]} - התוצאות חלקיות.</div>')
-        if bo.get("intraday"):
-            parts.append('<div class="alert info"><div class="a-text">'
-                         "⏳ השוק פתוח — הנר עוד לא נסגר, המחזור הוא הערכה.</div></div>")
-        ginfo = [("BREAKOUT", "🚀 תחילת פריצה", "פריצה"),
-                 ("RECOVERY", "↗️ התאוששות", "התאוששות"),
-                 ("EXTENDED", "🔥 פריצה חזקה — לא לרדוף", "רחוקה"),
-                 ("SETUP", "🎯 על סף פריצה", "על סף")]
-        for gkey, gtitle, gkind in ginfo:
-            rows = groups.get(gkey, [])
-            parts.append(f'<h3 class="sec">{gtitle} ({len(rows)})</h3>')
-            if not rows:
-                parts.append('<div class="empty">אין מניות כרגע.</div>')
-            for t, x in rows:
-                is_new = x.get("cross_date") and x["cross_date"] == bo.get("today_dm")
-                new_b = '<span class="newbadge">חדש</span>' if is_new else ""
-                flags = "<br>".join(x.get("flags") or [])
-                if gkey == "RECOVERY":
-                    head = (f'{t}: {x["from_high_pct"]:.0f}% מתחת לשיא · '
-                            f'חצתה {x["level"]:.2f} ב-{x["cross_date"]} (+{x["dist_pct"]:.1f}%)')
-                    comp = (f'מחיר {x["close"]:.2f} · מחזור ×{x["vol_ratio"]:.1f} · '
-                            f'RSI {x["rsi"]:.0f} · סטופ {x["stop"]:.2f} ({x["risk_pct"]:.1f}%) · '
-                            f'יעד {x["target"]:.2f} (+{x["upside_pct"]:.0f}%)')
-                elif gkey == "SETUP":
-                    head = (f'{t}: {abs(x["dist_pct"]):.1f}% מתחת להתנגדות {x["level"]:.2f}')
-                    comp = (f'מחיר {x["close"]:.2f} · {x["touches"]} נגיעות · בסיס {x["base_days"]} ימים · '
-                            f'RSI {x["rsi"]:.0f} · סטופ {x["stop"]:.2f}')
-                elif gkey == "EXTENDED":
-                    head = (f'{t}: חצתה {x["level"]:.2f} ב-{x["cross_date"]} '
-                            f'וכבר +{x["dist_pct"]:.1f}% מעליו')
-                    comp = (f'מחיר {x["close"]:.2f} · כניסה בחזרה: {x["level"]:.2f}–{x["entry_top"]:.2f} · '
-                            f'סטופ {x["stop"]:.2f}')
-                else:
-                    head = (f'{t} {x["close"]:.2f} | חצתה {x["level"]:.2f} ב-{x["cross_date"]} '
-                            f'(+{x["dist_pct"]:.1f}%)')
-                    comp = (f'מחזור ×{x["vol_ratio"]:.1f} · RSI {x["rsi"]:.0f} · '
-                            f'סטופ {x["stop"]:.2f} ({x["risk_pct"]:.1f}%)')
+    radar = extra.get("radar") or []
+    if radar:
+        flagged = [r for r in radar if r["sev"] >= 1]
+        parts.append('<h3 class="sec">רדאר תזוזות · כל הרשימה</h3>')
+        if flagged:
+            for r in flagged:
+                sev_badge = {3: "קריטי", 2: "תזוזה חדה", 1: "תחילת תזוזה"}[r["sev"]]
+                vol = f' · מחזור {ltr("x" + format(r["vol_mult"], ".1f"))}' if r.get("vol_mult") else ""
+                why = f'<div class="a-comp why"><b>למה: </b>{esc(r["why"])}</div>' if r.get("why") else ""
                 parts.append(
-                    f'<div class="alert warn" data-kind="breakout">'
-                    f'<div class="a-top">{new_b}<span class="sp"></span>'
-                    f'<span class="kbadge">פריצות</span><span class="kbadge">{gkind}</span>'
-                    f'<span class="tick">{esc(t)}</span></div>'
-                    f'<div class="a-head">{esc(head)}</div>'
-                    f'<div class="a-comp">{esc(comp)}</div>'
-                    + (f'<div class="a-comp" style="color:#b45309">{esc(flags)}</div>' if flags else "")
-                    + f'<div class="a-bot"><a class="src-link" '
-                    f'href="https://finance.yahoo.com/quote/{esc(t)}" target="_blank" '
-                    f'rel="noopener">פתח גרף</a>'
-                    f'<span class="a-src">{esc(x.get("cross_date") or "")}</span></div>'
-                    "</div>")
-        # ---- recovery learning history ----
-        hist = bo.get("history", [])
-        parts.append('<h3 class="sec">📚 מעקב התאוששויות — מי טסה בלעדיך</h3>')
-        if hist:
-            rows_h = []
-            for s in hist[:30]:
-                if s["pct"] is None:
-                    pct_txt, cls = "—", ""
-                else:
-                    cls = "up" if s["pct"] >= 0 else "down"
-                    pct_txt = f'{s["pct"]:+.1f}%'
-                status = "🎯 הגיע ליעד" if s["target_hit"] else "⏳ במעקב"
-                cur_cell = (f'<td class="num">{s["current"]:.2f}</td>' if s["current"]
-                            else "<td>—</td>")
-                rows_h.append(
-                    f'<tr><td><b>{esc(s["ticker"])}</b></td><td>{esc(s["date"])}</td>'
-                    f'<td class="num">{s["signal_price"]:.2f}</td>'
-                    f'{cur_cell}'
-                    f'<td class="{cls}">{pct_txt}</td>'
-                    f'<td class="num">{s["target"]:.2f}</td><td>{status}</td></tr>')
-            parts.append('<div class="tbl-wrap"><table class="htable">'
-                         "<tr><th>מניה</th><th>תאריך איתות</th><th>מחיר איתות</th>"
-                         "<th>מחיר נוכחי</th><th>שינוי מאז</th><th>יעד</th><th>סטטוס</th></tr>"
-                         + "".join(rows_h) + "</table></div>")
+                    f'<div class="alert {"crit" if r["sev"] == 3 else "warn" if r["sev"] == 2 else "info"}">'
+                    f'<div class="a-top"><span class="sp"></span><span class="kbadge">{sev_badge}</span>'
+                    f'<span class="tick">{esc(r["ticker"])}</span></div>'
+                    f'<div class="a-head">{esc(r["ticker"])}: {pct2(r["chg"], 1)} · מחיר {ltr(format(r["close"], ".2f"))}{vol}</div>'
+                    f'{why}</div>')
         else:
-            parts.append('<div class="empty">עדיין אין היסטוריית התאוששויות — היא תצטבר מהריצות הבאות.</div>')
-    else:
-        parts.append('<div class="empty">סורק הפריצות לא הצליח לרוץ כרגע.</div>')
+            parts.append('<div class="empty">אין תזוזות חריגות כרגע.</div>')
+        rows = "".join(
+            f'<tr><td><b>{esc(r["ticker"])}</b></td><td class="num" dir="ltr">{r["close"]:.2f}</td>'
+            f'<td class="{"up" if r["chg"] >= 0 else "down"}" dir="ltr">{r["chg"]:+.1f}%</td>'
+            f'<td class="num" dir="ltr">{"x" + format(r["vol_mult"], ".1f") if r.get("vol_mult") else "—"}</td></tr>'
+            for r in radar)
+        parts.append(
+            '<details class="how"><summary>כל הרשימה · מחיר, שינוי ומחזור &#9664;</summary>'
+            '<div class="tbl-wrap"><table class="htable" style="min-width:0">'
+            '<tr><th>מניה</th><th>מחיר</th><th>שינוי</th><th>מחזור</th></tr>'
+            f'{rows}</table></div></details>')
+        parts.append('<div class="ts">ספי גרסה 2: תזוזה חדה 8% · קריטי 15% · מחזור חריג ×3 · חריג מאוד ×5 · '
+                     'תחילת תזוזה: 2% במחזור ×2.5 · שורת "למה": חדשה מ-48 השעות או דיווח SEC אחרון</div>')
+
+    cats = extra.get("cats")
+    if cats and cats.get("upcoming"):
+        parts.append('<h3 class="sec">קטליזטורים · ספירה לאחור</h3>')
+        for c in cats["upcoming"]:
+            if c["days"] is None:
+                days_txt, cls = "ללא תאריך", ""
+            elif c["days"] == 0:
+                days_txt, cls = "היום", "soon"
+            elif c["days"] == 1:
+                days_txt, cls = "מחר", "soon"
+            else:
+                days_txt = f'בעוד {c["days"]} ימים'
+                cls = "soon" if c["bucket"] == "imminent" else "approach" if c["bucket"] == "approaching" else ""
+            approx = '<small class="approx">הערכת טווח, לא תאריך מדויק</small>' if c.get("approx") else ""
+            parts.append(
+                f'<div class="catitem"><span class="catdays {cls}">{esc(days_txt)}{approx}</span>'
+                f'<div class="catbody"><header><b>{esc(c["ticker"])}</b><span>{esc(c["event"])}</span></header>'
+                f'<small>{esc(c.get("trial", ""))} · צפי: {esc(c.get("expected", ""))}</small>'
+                + (f'<details><summary>הערת רקע</summary><p>{esc(c.get("note", ""))}</p></details>' if c.get("note") else "")
+                + "</div></div>")
+        if cats.get("passed"):
+            rows = "".join(
+                f'<div class="catitem past"><span class="catdays">לפני {-c["days"]} ימים</span>'
+                f'<div class="catbody"><header><b>{esc(c["ticker"])}</b><span>{esc(c["event"])}</span></header></div></div>'
+                for c in cats["passed"][:10])
+            parts.append(f'<details class="how"><summary>אירועים שכבר עברו ({len(cats["passed"])}) &#9664;</summary>{rows}</details>')
+        parts.append(f'<div class="ts">מקור הרשימה: קובץ הביוטק המקומי, עודכן {esc(cats.get("asof", ""))} · '
+                     'הדגשה מ-21 יום, הדגשה חזקה בשבוע האחרון · ציפיות רבעון/חציון מסומנות כהערכה</div>')
+
+    tr = extra.get("trials")
+    if tr and tr.get("rows"):
+        if not tr.get("live"):
+            state_txt = f'⚠️ הרשומה לא הייתה זמינה בריצה זו — מוצג צילום שמור מ-{esc(tr.get("fetched_at", ""))}'
+            parts.append(f'<div class="empty warnbox">{state_txt}</div>')
+        parts.append('<h3 class="sec">ניסויים קליניים · מצב הרשומה</h3>')
+        parts.append('<div class="trialgrid">')
+        for t in tr["rows"]:
+            chg_b = '<span class="newbadge">עודכן</span>' if t.get("changed") else ""
+            parts.append(
+                f'<div class="trialcard"><header><b>{esc(t["ticker"])}</b>'
+                f'<span class="tstat {"bad" if t["bad"] else ""}">{esc(t["status_he"])}</span>{chg_b}</header>'
+                f'<div class="trialbody"><span>משתתפים: {ltr(t["enrollment"] or "—")}</span>'
+                f'<span>סיום ראשי: {ltr(t["primary_completion"])}</span>'
+                f'<span>עודכן ברשומה: {ltr(t["last_update"])}</span></div>'
+                f'<a class="src-link" href="https://clinicaltrials.gov/study/{esc(t["nct"])}" target="_blank" rel="noopener">{ltr(t["nct"])} ↗</a>'
+                "</div>")
+        parts.append("</div>")
+        note = (f'ClinicalTrials.gov · {ltr(len(tr["rows"]))} ניסויים · נשלף חי בריצה זו'
+                if tr.get("live") else "ClinicalTrials.gov · צילום שמור")
+        if tr.get("errors"):
+            note += f' · ⚠️ {ltr(len(tr["errors"]))} ניסויים נכשלו בקריאה'
+        parts.append(f'<div class="ts">{note} · סימון "עודכן": שינוי מול הצילום השמור (סטטוס, סיום ראשי או משתתפים)</div>')
+
+    sw = extra.get("secw")
+    if sw:
+        parts.append('<h3 class="sec">צופה דיווחי SEC · 5 ימים אחורה</h3>')
+        if sw.get("errors"):
+            parts.append('<div class="empty warnbox">⚠️ קריאת EDGAR נכשלה עבור: '
+                         f'{esc(", ".join(sw["errors"]))} — ייתכן שחסרים דיווחים שלהם.</div>')
+        if sw["events"]:
+            for e in sw["events"][:40]:
+                items = f' · סעיפים {ltr(e["items"])}' if e.get("items") and e["form"] == "8-K" else ""
+                parts.append(
+                    f'<div class="secrow {"hot" if e["sev"] == 3 else ""}">'
+                    f'<span class="secdate" dir="ltr">{esc(e["date"])}</span>'
+                    f'<b>{esc(e["ticker"])}</b>'
+                    f'<span>{esc(e["label"])}{items}</span>'
+                    f'<a class="src-link" href="{esc(e["url"])}" target="_blank" rel="noopener">לדיווח ↗</a></div>')
+        else:
+            parts.append('<div class="empty">אין דיווחים בחלון.</div>')
+        parts.append('<div class="ts">8-K מסומן "מהותי" רק עם סעיפים <span dir="ltr">1.01 / 1.02 / 7.01 / 8.01</span> '
+                     '· הנפקות (<span dir="ltr">424B5 / S-3 / S-1</span>) = אזהרת דילול · '
+                     'זיהוי מוצהר ל-SEC · קצב מתחת ל-2 בקשות לשנייה</div>')
     parts.append("</div>")
 
     # ================= bottom tab bar =================
     badge = (f'<span class="count-badge">{n_alerts}</span>' if n_alerts else "")
     parts.append(
         '<div class="tabbar">'
-        '<button class="active" data-t="mh">בריאות השוק</button>'
+        '<button class="active" data-t="mh">תמונת שוק</button>'
+        '<button data-t="bo">פריצות ומגמה</button>'
+        '<button data-t="dip">דיפים ותיקונים</button>'
         f'<button data-t="bio">ביוטק{badge}</button>'
-        '<button data-t="dip">דיפים</button>'
-        '<button data-t="bo">פריצות</button>'
         "</div>")
 
     # ================= JS =================
@@ -931,12 +1648,40 @@ def main():
 
     mh = market_health_section()
     dips = dip_scan_section()
-    alerts = biotech_alerts()
+    bio = biotech_alerts()
     bo = breakout_section()
+    overview = market_overview_section()
+    cnn = cnn_section()
+    cats = catalyst_section()
+    trials = trials_section()
+    try:
+        watchlist = json.load(open(os.path.join(BASE_DIR, "biotech_config.json"),
+                                   encoding="utf-8")).get("watchlist", [])
+    except Exception:
+        watchlist = []
+    secw = sec_watch_section(watchlist) if watchlist else None
+    # SEC-based "why" for flagged radar rows that have no news headline
+    if secw and bio.get("radar"):
+        recent_by_ticker = {}
+        for ev in secw["events"]:
+            recent_by_ticker.setdefault(ev["ticker"], ev)
+        for r in bio["radar"]:
+            if r["sev"] >= 1 and not r["why"]:
+                ev = recent_by_ticker.get(r["ticker"])
+                if ev:
+                    r["why"] = f"דיווח SEC · {ev['label']} · {ev['date']}"
+    try:
+        acc = json.load(open(os.path.join(BASE_DIR, "accuracy_stats.json"), encoding="utf-8"))
+    except Exception as e:
+        fail("accuracy", f"stats unreadable: {e}")
+        acc = None
+    extra = {"overview": overview, "cnn": cnn, "cats": cats, "trials": trials,
+             "secw": secw, "radar": bio.get("radar", []), "acc": acc}
+    alerts = bio.get("alerts", [])
 
     updated = datetime.now(JER)
     with open(OUT_FILE, "w", encoding="utf-8") as f:
-        f.write(build_html(mh, dips, alerts, bo, updated))
+        f.write(build_html(mh, dips, alerts, bo, updated, extra))
     dt = time.time() - t0
 
     print(f"WROTE {OUT_FILE} ({os.path.getsize(OUT_FILE)} bytes) in {dt:.0f}s")
