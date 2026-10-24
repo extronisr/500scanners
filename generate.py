@@ -882,6 +882,221 @@ def sec_watch_section(watchlist):
     return {"events": events, "errors": errors, "lookback_days": 5}
 
 
+# ---------------------------------------------------------------- biotech breakthroughs (market-wide)
+BT_CACHE = os.path.join(BASE_DIR, "biotech_breakthroughs_cache.json")
+BT_LOOKBACK_DAYS = 14
+BT_NEWS_QUERIES = [
+    '"phase 3" (results OR data OR readout OR topline) (biotech OR pharma OR drug OR trial)',
+    'FDA (approves OR approval OR rejects OR "complete response letter") (drug OR therapy OR vaccine)',
+    '("breakthrough therapy designation" OR "priority review" OR "fast track") (biotech OR pharma OR drug)',
+    '(ESMO OR ASCO OR ASH OR AACR OR AHA) (pivotal OR "phase 3" OR "phase 2") (data OR results OR readout)',
+]
+BT_MAIN_MAX = 10
+BT_MORE_MAX = 15
+BT_YAHOO_RESOLVE_MAX = 8
+
+
+def _bt_rss(url, source, n):
+    raw = http_get(url, timeout=15, accept="application/rss+xml")
+    root = ET.fromstring(raw)
+    out = []
+    for item in root.iter("item"):
+        t = (item.findtext("title") or "").strip()
+        if not t:
+            continue
+        pub_dt = scan_utils.parse_pub(item.findtext("pubDate"))
+        out.append({"title": t, "link": (item.findtext("link") or "").strip(),
+                    "pub_ts": pub_dt.timestamp() if pub_dt else None,
+                    "date": fmt_pub(item.findtext("pubDate") or ""),
+                    "source": source})
+        if len(out) >= n:
+            break
+    return out
+
+
+def _bt_news_items(errors):
+    out = []
+    for q in BT_NEWS_QUERIES:
+        url = (f"https://news.google.com/rss/search?q={urllib.parse.quote(q)}"
+               f"&hl=en-US&gl=US&ceid=US:en")
+        try:
+            out += _bt_rss(url, "Google News", 25)
+        except Exception as e:
+            errors.append("Google News")
+            fail("breakthroughs", f"news query {q!r}: {e}")
+        time.sleep(0.7)   # polite pacing, ~1.4 req/s like the SEC watcher
+    return out
+
+
+def _bt_fda_items(errors):
+    url = "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/press-releases/rss.xml"
+    try:
+        return _bt_rss(url, "FDA", 40)
+    except Exception as e:
+        errors.append("FDA")
+        fail("breakthroughs", f"FDA RSS: {e}")
+        return []
+
+
+def _bt_ctgov_items(errors):
+    """Industry Phase 2/3 studies whose results were first posted in the lookback window."""
+    end = datetime.now(timezone.utc).date()
+    start = end - timedelta(days=BT_LOOKBACK_DAYS)
+    adv = ("(AREA[Phase]PHASE2 OR AREA[Phase]PHASE3) AND AREA[LeadSponsorClass]INDUSTRY "
+           f"AND AREA[ResultsFirstPostDate]RANGE[{start.isoformat()},{end.isoformat()}]")
+    url = ("https://clinicaltrials.gov/api/v2/studies?filter.advanced="
+           + urllib.parse.quote(adv) + "&pageSize=100")
+    try:
+        data = http_get_json(url, timeout=25)
+    except Exception as e:
+        errors.append("ClinicalTrials.gov")
+        fail("breakthroughs", f"ClinicalTrials.gov: {e}")
+        return []
+    out = []
+    for s in data.get("studies", []):
+        ps = s.get("protocolSection", {})
+        idm, stm = ps.get("identificationModule", {}), ps.get("statusModule", {})
+        sp = ps.get("sponsorCollaboratorsModule", {})
+        phases = (ps.get("designModule", {}) or {}).get("phases") or []
+        nct = idm.get("nctId", "")
+        date = (stm.get("resultsFirstPostDateStruct") or {}).get("date", "")
+        ts = None
+        if date:
+            try:
+                ts = datetime.fromisoformat(date).replace(tzinfo=timezone.utc).timestamp()
+            except Exception:
+                pass
+        sponsors = [sp.get("leadSponsor", {}).get("name", "")]
+        sponsors += [c.get("name", "") for c in sp.get("collaborators", [])]
+        out.append({"title": idm.get("briefTitle", ""), "link": f"https://clinicaltrials.gov/study/{nct}",
+                    "pub_ts": ts, "date": date, "source": "ClinicalTrials.gov",
+                    "nct": nct, "phases": phases,
+                    "sponsors": [x for x in sponsors if x]})
+    return out
+
+
+def _bt_yahoo_ticker(query):
+    """Best-effort US-listed ticker for a company name (Yahoo search, free endpoint)."""
+    q = urllib.parse.quote(query)
+    url = (f"https://query1.finance.yahoo.com/v1/finance/search?q={q}"
+           f"&quotesCount=4&newsCount=0&listsCount=0")
+    try:
+        data = http_get_json(url, timeout=10)
+    except Exception:
+        return None
+    qtok = set((scan_utils._bt_norm_name(query) or "").split())
+    for qt in data.get("quotes", []):
+        if (qt.get("exchDisp") or "") not in ("NASDAQ", "NYSE", "NYSE American", "AMEX"):
+            continue
+        name = qt.get("shortname") or qt.get("longname") or ""
+        ntok = set((scan_utils._bt_norm_name(name) or "").split())
+        if qtok and ntok and qtok & ntok:
+            return qt.get("symbol") or None
+    return None
+
+
+def breakthrough_section():
+    """Market-wide biotech breakthrough scan: Google News queries, FDA press RSS and the
+    ClinicalTrials.gov results feed. NOT limited to the watchlist: הסורק סורק הכל.
+    A failed run keeps showing the last good snapshot (biotech_breakthroughs_cache.json)."""
+    try:
+        cache = json.load(open(BT_CACHE, encoding="utf-8"))
+    except Exception:
+        cache = {"fetched_at": "", "items": []}
+    names = {}
+    try:
+        cfg = json.load(open(os.path.join(BASE_DIR, "biotech_config.json"), encoding="utf-8"))
+        for w in cfg.get("watchlist", []):
+            if w.get("ticker"):
+                names[w["ticker"]] = w.get("name", "")
+    except Exception:
+        pass
+    try:
+        names.update(json.load(open(os.path.join(BASE_DIR, "sp500_names_cache.json"),
+                                    encoding="utf-8")).get("names", {}))
+    except Exception:
+        pass
+    lexicon = scan_utils.build_bt_lexicon(names)
+
+    errors = []
+    raw = _bt_news_items(errors) + _bt_fda_items(errors)
+    cutoff = time.time() - BT_LOOKBACK_DAYS * 86400
+    items = []
+    for r in raw:
+        cls = scan_utils.classify_breakthrough(r["title"])
+        if not cls:
+            continue
+        if r["pub_ts"] and r["pub_ts"] < cutoff:
+            continue
+        items.append({**r, "cat": cls["cat"], "sev": cls["sev"], "dir": cls["dir"],
+                      "tickers": scan_utils.extract_tickers(r["title"]),
+                      "companies": scan_utils.companies_in_text(r["title"], lexicon)})
+    for r in _bt_ctgov_items(errors):
+        cat = "phase3" if "PHASE3" in r["phases"] else "phase2"
+        comps = []
+        for sp in r["sponsors"]:
+            for t in scan_utils.companies_in_text(sp, lexicon):
+                if t not in comps:
+                    comps.append(t)
+        items.append({**r, "cat": cat, "sev": 2 if cat == "phase3" else 1,
+                      "dir": 0, "tickers": [], "companies": comps})
+
+    # best-effort ticker resolution for unmatched CT sponsors (bounded requests)
+    resolved = 0
+    for it in items:
+        if resolved >= BT_YAHOO_RESOLVE_MAX:
+            break
+        if it.get("nct") and not it["companies"] and it["sev"] >= 2 and it.get("sponsors"):
+            tk = _bt_yahoo_ticker(it["sponsors"][0])
+            resolved += 1
+            if tk:
+                it["companies"] = [tk]
+            time.sleep(0.7)
+
+    clusters = scan_utils.cluster_breakthroughs(items)
+    stale = False
+    if clusters:
+        cache = {"fetched_at": datetime.now(JER).strftime("%-d.%-m.%Y, %-H:%M"),
+                 "items": clusters}
+        try:
+            json.dump(cache, open(BT_CACHE, "w", encoding="utf-8"),
+                      ensure_ascii=False, indent=1)
+        except Exception as e:
+            fail("breakthroughs", f"cache save: {e}")
+    elif cache.get("items"):
+        clusters = cache["items"]
+        stale = True
+    srcs = sorted({s["source"] for c in clusters for s in c.get("sources", [])})
+    return {"items": clusters[:BT_MAIN_MAX], "more": clusters[BT_MAIN_MAX:BT_MAIN_MAX + BT_MORE_MAX],
+            "stale": stale, "failed": not clusters, "errors": sorted(set(errors)),
+            "fetched_at": cache.get("fetched_at", ""), "sources": srcs,
+            "window": BT_LOOKBACK_DAYS, "scanned": len(items)}
+
+
+def _bt_card(c, fresh_badge, ltr):
+    dir_cls = {1: "btpos", -1: "btneg"}.get(c.get("dir", 0), "btneu")
+    dir_badge = {1: '<span class="kbadge pos">חיובי</span>',
+                 -1: '<span class="kbadge neg">שלילי</span>'}.get(c.get("dir", 0), "")
+    cat_he = scan_utils.BT_CATEGORY_HE.get(c.get("cat", ""), c.get("cat", ""))
+    disp = list(dict.fromkeys(list(c.get("tickers") or []) + list(c.get("companies") or [])))[:4]
+    tick_line = " ".join(f'<span class="tick">{esc(t)}</span>' for t in disp)
+    fresh = fresh_badge({"ts": c.get("pub_ts")})
+    srcs = c.get("sources") or [{"source": "", "link": c.get("link", "")}]
+    links = " · ".join(
+        f'<a class="src-link" href="{esc(s["link"])}" target="_blank" rel="noopener">{esc(s["source"] or "מקור")} ↗</a>'
+        for s in srcs if s.get("link"))
+    ncts = " ".join(
+        f'<a class="src-link" href="https://clinicaltrials.gov/study/{esc(n)}" target="_blank" rel="noopener">{ltr(n)} ↗</a>'
+        for n in c.get("ncts", [])[:3])
+    return (f'<div class="alert {dir_cls}" data-kind="bt">'
+            f'<div class="a-top">{fresh}<span class="sp"></span>'
+            f'<span class="kbadge">{esc(cat_he)}</span>{dir_badge}{tick_line}</div>'
+            f'<div class="a-head">{esc(c.get("title", ""))}</div>'
+            + (f'<div class="a-comp">{ncts}</div>' if ncts else "")
+            + f'<div class="a-bot">{links}'
+              f'<span class="a-src">{esc(c.get("date", ""))}</span></div></div>')
+
+
 # ---------------------------------------------------------------- HTML
 CSS = """
 *{box-sizing:border-box;margin:0;padding:0}
@@ -941,6 +1156,11 @@ padding:12px;margin:10px 0}
 .a-bot{display:flex;align-items:center;justify-content:space-between;margin-top:8px}
 .src-link{color:#0e7c8c;font-weight:700;font-size:.85rem;text-decoration:none}
 .a-src{color:#9ca3af;font-size:.75rem}
+.alert.btpos{border-right-color:#16a34a}
+.alert.btneg{border-right-color:#ef4444}
+.alert.btneu{border-right-color:#f59e0b}
+.kbadge.pos{background:#dcfce7;color:#15803d}
+.kbadge.neg{background:#fee2e2;color:#b91c1c}
 .warnbox{background:#fff7ed!important;border-color:#fdba74!important;color:#9a3412!important}
 .empty{background:#fff;border:1px solid #e5e7eb;color:#6b7280;text-align:center;
 padding:22px;border-radius:12px;font-size:.9rem}
@@ -1484,6 +1704,29 @@ def build_html(mh, dips, alerts, bo, updated, extra=None):
         '<option value="">הכל</option><option value="news">חדשות</option>'
         '<option value="price">מחיר</option><option value="sec">דיווח</option>'
         "</select></label></div>")
+    bt = extra.get("bt")
+    if bt:
+        parts.append('<h3 class="sec">פריצות דרך ביוטק · סריקה כלל-שוקית</h3>')
+        if bt.get("failed"):
+            parts.append('<div class="empty warnbox">⚠️ סריקת פריצות הדרך נכשלה בריצה זו ואין צילום שמור זמין. '
+                         'הרענון הבא ינסה שוב.</div>')
+        else:
+            if bt.get("stale"):
+                parts.append('<div class="empty warnbox">⚠️ סריקת פריצות הדרך לא הייתה זמינה בריצה זו — '
+                             f'מוצג צילום שמור מ-{esc(bt.get("fetched_at", ""))}</div>')
+            elif bt.get("errors"):
+                parts.append('<div class="empty warnbox">⚠️ חלק מהמקורות לא זמינים כרגע '
+                             f'({esc(" / ".join(bt["errors"]))}) — הרשימה עשויה להיות חלקית.</div>')
+            for c in bt.get("items", []):
+                parts.append(_bt_card(c, fresh_badge, ltr))
+            more = bt.get("more") or []
+            if more:
+                rows = "".join(_bt_card(c, fresh_badge, ltr) for c in more)
+                parts.append(f'<details class="how"><summary>אירועים נוספים בחלון ({len(more)}) &#9664;</summary>{rows}</details>')
+            src_note = " · ".join(esc(x) for x in bt.get("sources", []))
+            parts.append(
+                f'<div class="ts">סריקה כלל-שוקית (לא רשימת המעקב): כל אירוע ביוטק מהותי בשוק · חלון {bt.get("window", 14)} ימים · '
+                f'מקורות: {src_note} · עודכן {esc(bt.get("fetched_at", ""))} · דירוג חומרה אוטומטי מהכותרות, לא המלצה</div>')
     sec_bad = stats["sec_failed"]
     if sec_bad or stats["biotech_missing"]:
         parts.append(
@@ -1493,6 +1736,8 @@ def build_html(mh, dips, alerts, bo, updated, extra=None):
             'היעדר דיווחי 8-K בעמוד אינו אומר שלא היו כאלה.</div>')
     else:
         parts.append(f'<div class="ts">SEC EDGAR נבדק עבור {stats["sec_ok"]}/{stats["bio_total"]} חברות</div>')
+    parts.append('<h3 class="sec">התראות רשימת המעקב</h3>')
+    parts.append('<div id="bioalerts">')
     if alerts:
         for a in alerts:
             link_html = (f'<a class="src-link" href="{esc(a["link"])}" target="_blank" '
@@ -1510,6 +1755,7 @@ def build_html(mh, dips, alerts, bo, updated, extra=None):
                 "</div>")
     else:
         parts.append('<div class="empty">אין התראות חדשות כרגע</div>')
+    parts.append("</div>")
 
     radar = extra.get("radar") or []
     if radar:
@@ -1639,7 +1885,7 @@ window.scrollTo(0,0);});});
 var kf=document.getElementById('kindfilter');
 if(kf){kf.addEventListener('change',function(){
 var v=this.value;
-document.querySelectorAll('#pane-bio .alert').forEach(function(c){
+document.querySelectorAll('#bioalerts .alert').forEach(function(c){
 c.style.display=(!v||c.dataset.kind===v)?'':'none';});});}
 var mr=document.getElementById('markread');
 if(mr){mr.addEventListener('click',function(){
@@ -1664,6 +1910,7 @@ def main():
     cnn = cnn_section()
     cats = catalyst_section()
     trials = trials_section()
+    bt = breakthrough_section()
     try:
         watchlist = json.load(open(os.path.join(BASE_DIR, "biotech_config.json"),
                                    encoding="utf-8")).get("watchlist", [])
@@ -1686,7 +1933,7 @@ def main():
         fail("accuracy", f"stats unreadable: {e}")
         acc = None
     extra = {"overview": overview, "cnn": cnn, "cats": cats, "trials": trials,
-             "secw": secw, "radar": bio.get("radar", []), "acc": acc}
+             "secw": secw, "radar": bio.get("radar", []), "acc": acc, "bt": bt}
     alerts = bio.get("alerts", [])
 
     updated = datetime.now(JER)
@@ -1700,6 +1947,7 @@ def main():
     print(f"DIPS candidates={len(dips)}" +
           (f" top={[c['ticker'] for c in dips[:5]]}" if dips else ""))
     print(f"BIOTECH alerts={len(alerts)}")
+    print(f"BREAKTHROUGHS items={len(bt['items'])} more={len(bt['more'])} scanned={bt['scanned']} stale={bt['stale']}")
     if bo:
         for st, rows in bo["groups"].items():
             print(f"BREAKOUT {st}={len(rows)}" +

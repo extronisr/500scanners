@@ -215,3 +215,341 @@ def catalyst_bucket(days, approx=False):
     if days <= 21:
         return "approaching"
     return "watch"
+
+
+# ----------------------------------------------------------------- biotech breakthroughs (market-wide)
+# Pure logic for the "פריצות דרך ביוטק" layer: classification, severity, ticker
+# extraction and event clustering. No network code here, so it is unit-tested.
+
+# Recognition-only lexicon: helps tag well-known companies in headlines.
+# It never limits which stories surface (the scanner scans everything).
+BT_COMPANY_ALIASES = {
+    "moderna": "MRNA", "merck": "MRK", "merck sharp": "MRK", "pfizer": "PFE",
+    "eli lilly": "LLY", "lilly": "LLY", "abbvie": "ABBV",
+    "bristol-myers": "BMY", "bristol myers": "BMY", "bms": "BMY",
+    "amgen": "AMGN", "gilead": "GILD", "vertex": "VRTX", "regeneron": "REGN",
+    "biogen": "BIIB", "biomarin": "BMRN", "novartis": "NVS", "roche": "RHHBY",
+    "hoffmann-la roche": "RHHBY", "genentech": "RHHBY", "astrazeneca": "AZN",
+    "gsk": "GSK", "glaxosmithkline": "GSK", "sanofi": "SNY",
+    "johnson & johnson": "JNJ", "j&j": "JNJ", "novo nordisk": "NVO",
+    "biontech": "BNTX", "crispr therapeutics": "CRSP", "intellia": "NTLA",
+    "editas": "EDIT", "sarepta": "SRPT", "alnylam": "ALNY", "ionis": "IONS",
+    "ultragenyx": "RARE", "argenx": "ARGX", "takeda": "TAK", "bayer": "BAYRY",
+    "daiichi sankyo": "DSNKY", "incyte": "INCY", "neurocrine": "NBIX",
+    "seagen": "PFE", "immunogen": "ABBV", "mirati": "BMY", "karuna": "BMY",
+    "cerevel": "ABBV", "prometheus": "MRK", "chiasma": "ENTA",
+    "acadia": "ACAD", "disc medicine": "DISC", "veradermics": "",
+}
+
+BT_CATEGORY_HE = {
+    "fda": "אישור FDA",
+    "crl": "דחיית FDA",
+    "phase3": "תוצאות שלב 3",
+    "phase2": "תוצאות שלב 2",
+    "btd": "אירוע רגולטורי",
+    "hold": "עצירה קלינית",
+}
+
+_BT_SKIP = re.compile(
+    r"price\s+target|\banalyst|upgrad|downgrad|initiates?\s+coverage|\betf\b|"
+    r"stocks?\s+to\s+(buy|watch)|top\s+\d+\s+biotech|earnings?\s+(preview|recap|call)|"
+    r"short\s+interest|insider\s+(buying|selling)|\b13f\b|hedge\s+fund|"
+    r"historical prices|\b\d+\.\d{2,4}\s*(?:call|put)\b|options?\s+chain|"
+    r"interactive stock chart|stock price,\s*quote",
+    re.I)
+
+_BT_OPS = re.compile(
+    r"\b(?:doses?|dosing)\s+(?:the\s+)?first\s+patient|first\s+patient\s+dosed|"
+    r"\b(?:initiates?|launches?|begins?|starts?|opens?)\s+(?:a\s+|its\s+|the\s+)?(?:phase|pivotal|clinical)|"
+    r"\b(?:enrol?s?|enrolling|enrollment)\s+(?:of|in|begins)|"
+    r"\b(?:expands?|expansion of)\s+(?:its\s+)?(?:phase|trial|study)\b|"
+    r"\b(?:to|will|set\s+to)\s+present\b|\bto\s+be\s+presented\b",
+    re.I)
+
+_BT_READOUT = re.compile(
+    r"results?|data|readout|top[\s-]?line|meets?|\bmet\b|fails?|misses?|wins?\b|"
+    r"endpoint|announces?|posts?\b|reports?|cuts?|reduces?|reduction|"
+    r"overall survival|progression-free|recurrence-free|\bpfs\b|\borr\b|\bos\b|"
+    r"response rate|efficacy",
+    re.I)
+
+_BT_APPROVAL = re.compile(
+    r"\bfda\s+(?:approves?|oks?|okay?s?|clears?|authorizes?|"
+    r"grants?\s+(?:accelerated\s+|full\s+|traditional\s+)?(?:approval|clearance|authorization))\b|"
+    r"\b(?:wins?|gets?|receives?|secures?|earns?|lands?|snags?)\s+(?:the\s+)?(?:fda|u\.?s\.?)\s*(?:regulatory\s+)?approval|"
+    r"\bfda\s+(?:green\s*light|greenlight)|\bapproved\s+by\s+(?:the\s+)?fda\b",
+    re.I)
+
+_BT_CRL = re.compile(
+    r"complete\s+response\s+letter|\bcrl\b|"
+    r"\bfda\s+(?:rejects?|rejection|turns?\s+down|snubs?|refuses?|denies|declines)\b|"
+    r"\brejected\s+by\s+(?:the\s+)?fda\b",
+    re.I)
+
+_BT_HOLD = re.compile(
+    r"clinical\s+hold|(?:placed|put)\s+on\s+(?:clinical\s+)?hold|"
+    r"\bhalts?\s+(?:the\s+|its\s+)?(?:trial|study|phase)\b|\bdiscontinues?\s+(?:the\s+)?(?:trial|study|program)\b",
+    re.I)
+
+_BT_PHASE3 = re.compile(r"\bphase\s*(?:3|iii)\b|\bpivotal\s+(?:trial|study|data|results|win)", re.I)
+_BT_PHASE2 = re.compile(r"\bphase\s*(?:2|ii)\b(?!i)", re.I)
+
+_BT_BTD = re.compile(
+    r"breakthrough\s+therapy\s+designation|priority\s+review|"
+    r"fast[\s-]?track\s+(?:designation|status)|\brmat\b|"
+    r"regenerative\s+medicine\s+advanced\s+therapy|orphan\s+drug\s+designation|"
+    r"\bpdufa\b|advisory\s+committee|\badcom\b",
+    re.I)
+
+_BT_POSITIVE = re.compile(
+    r"\bapproves?|approved|approval|meets?|met\b|positive|overwhelmingly|"
+    r"\bwins?\b|succeeds?|successful|success\b|cuts?\b|reduces?|reduction|"
+    r"superior(?:ity)?|statistically\s+significant|significant(?:ly)?\s+(?:improve|benefit)|"
+    r"stops?\s+trial\s+early|breakthrough\s+data|\bhits?\b|\bbeats?\b",
+    re.I)
+
+_BT_NEGATIVE = re.compile(
+    r"\bfails?|failed|flunks?|misses?|missed|rejects?|rejection|"
+    r"complete\s+response\s+letter|\bcrl\b|disappoint|setback|\bhalts?\b|\bpauses?\b|"
+    r"falls?\s+short|\bdents?\b|safety\s+(?:concern|issue|signal)|\bstumbles?\b",
+    re.I)
+
+# Tickers that are also ordinary English words (from the user's desktop monitor):
+# exchange-style mentions stay valid, but a bare "(EDIT)" is treated as prose.
+BT_COMMON_WORD_TICKERS = {"IRON", "HELP", "VIR", "CURE", "EDIT", "BEAM", "FATE", "BLUE",
+                          "GOLD", "ARROW", "FOLD", "WAVE", "TIDE", "RARE", "AURA"}
+
+# Acronyms that look like parenthesized tickers but are not
+_BT_TICKER_STOP = {
+    "FDA", "EMA", "MHRA", "CRL", "BTD", "RMAT", "PDUFA", "NDA", "BLA", "ANDA",
+    "ESMO", "ASCO", "ASH", "AHA", "EHA", "AACR", "NYSE", "NASDAQ", "AMEX",
+    "CEO", "CFO", "COO", "CMO", "USA", "ETF", "IPO", "HIV", "DNA", "RNA",
+    "MRNA", "EBITDA", "ADHD", "PTSD", "NASH", "MASH", "NSCLC", "SMA", "RSI",
+    "IT", "US", "UK", "EU", "PH", "II", "III", "IV",
+}
+
+
+_BT_SPECULATIVE = re.compile(
+    r"\bcould\s+(?:get|win|receive|gain|secure|land)|\bmight\s+(?:get|win|receive)|"
+    r"\bmay\s+(?:get|win|receive)|poised\s+to\s+(?:win|get|receive)|"
+    r"expected\s+to\s+(?:win|get|receive)|seeks?\s+(?:fda\s+)?(?:approval|clearance)|"
+    r"files?\s+for\s+(?:fda\s+)?(?:approval|clearance)",
+    re.I)
+
+_BT_FAIL_MEET = re.compile(
+    r"(?:fails?|does\s+not|did\s+not|do\s+not)\s+(?:to\s+)?meet|"
+    r"miss(?:es|ed)?\s+(?:the\s+|its\s+)?(?:key\s+|primary\s+|main\s+)?endpoint|"
+    r"f(?:ails?|ell)\s+(?:its\s+|the\s+)?(?:primary\s+)?endpoint|fell\s+short",
+    re.I)
+
+
+def breakthrough_direction(title):
+    """1 = positive readout/approval, -1 = failure/rejection, 0 = unclear."""
+    t = title or ""
+    t2 = _BT_FAIL_MEET.sub(" ", t)        # 'fails to meet' is not a positive 'meet'
+    pos = bool(_BT_POSITIVE.search(t2))
+    neg = bool(_BT_NEGATIVE.search(t)) or t2 != t
+    if pos and not neg:
+        return 1
+    if neg and not pos:
+        return -1
+    return 0
+
+
+def classify_breakthrough(title):
+    """Classify one headline as a biotech breakthrough event.
+    Returns {"cat", "sev", "dir"} or None when the headline is not a serious
+    event (early phase, trial ops, analyst noise, evergreen).
+
+    Severity: 4 = practice-changing (FDA approval, positive phase 3),
+              3 = major (phase 3 readout of any direction, CRL),
+              2 = notable (positive phase 2, regulatory designations),
+              1 = minor (phase 2 readout without a clear positive result)."""
+    t = (title or "").strip()
+    if not t or is_evergreen(t) or _BT_SKIP.search(t):
+        return None
+    if _BT_CRL.search(t):
+        return {"cat": "crl", "sev": 3, "dir": -1}
+    if _BT_HOLD.search(t):
+        return {"cat": "hold", "sev": 3, "dir": -1}
+    if _BT_APPROVAL.search(t):
+        if _BT_SPECULATIVE.search(t) or re.search(r"\bgeneric\b", t, re.I):
+            return {"cat": "fda", "sev": 2, "dir": 1}
+        return {"cat": "fda", "sev": 4, "dir": 1}
+    if _BT_PHASE3.search(t) and _BT_READOUT.search(t) and not _BT_OPS.search(t):
+        d = breakthrough_direction(t)
+        return {"cat": "phase3", "sev": 4 if d == 1 else 3, "dir": d}
+    if _BT_PHASE2.search(t) and _BT_READOUT.search(t) and not _BT_OPS.search(t):
+        d = breakthrough_direction(t)
+        return {"cat": "phase2", "sev": 2 if d == 1 else 1, "dir": d}
+    if _BT_BTD.search(t):
+        return {"cat": "btd", "sev": 2, "dir": 1}
+    return None
+
+
+def extract_tickers(text):
+    """Exchange-style tickers from a headline: '(NASDAQ: MRNA)', '(NYSE: MRK)'
+    or a bare parenthesized '(MRNA)'. Acronyms (FDA, ESMO, ...) never match."""
+    t = text or ""
+    out = []
+    # Exchange-prefixed mentions are always tickers, even when the symbol is
+    # also an acronym or common word ("NASDAQ: MRNA" is Moderna, not mRNA).
+    for m in re.finditer(
+            r"(?:\(\s*)?(?i:NASDAQ|NYSE\s*American|NYSEARCA|NYSE|AMEX|ENXT[A-Z]{2}|EPA|ETR|LSE|SWX|TSE|TSX)\s*:\s*([A-Z][A-Z0-9.\-]{0,6})(?:\s*\))?", t):
+        if m.group(1) not in out:
+            out.append(m.group(1))
+    for m in re.finditer(r"\(\s*([A-Z]{2,5})\s*\)", t):
+        tk = m.group(1)
+        if tk not in _BT_TICKER_STOP and tk not in BT_COMMON_WORD_TICKERS and tk not in out:
+            out.append(tk)
+    return out
+
+
+def _bt_norm_name(name):
+    n = re.sub(r"[^a-z0-9 &\-]+", " ", (name or "").lower())
+    n = re.sub(r"\b(inc|corp|corporation|co|ltd|plc|llc|lp|sa|ag|nv|se|spa|asa|ab|oyj)\b", " ", n)
+    return re.sub(r"\s+", " ", n).strip()
+
+
+def _bt_first_word(name):
+    toks = [t for t in re.split(r"[^A-Za-z0-9&\-]+", name or "") if t]
+    skip = {"the", "inc", "corp", "ltd", "plc", "llc"}
+    for t in toks:
+        if t.lower() not in skip:
+            return t.lower()
+    return ""
+
+
+def build_bt_lexicon(ticker_names=None):
+    """alias(lowercase) -> ticker. Curated aliases first; then each {ticker: name}
+    map (S&P 500 cache, biotech watchlist) contributes its normalized full name
+    and its first distinctive word. Tickers with an empty-string alias are known
+    to be private/unlisted and resolve to nothing on purpose."""
+    lex = {k: v for k, v in BT_COMPANY_ALIASES.items() if v}
+    for ticker, name in (ticker_names or {}).items():
+        norm = _bt_norm_name(name)
+        if norm and len(norm) >= 4:
+            lex.setdefault(norm, ticker.upper())
+        first = _bt_first_word(name)
+        if len(first) >= 5 and first not in BT_ALIAS_STOP:
+            lex.setdefault(first, ticker.upper())
+    return lex
+
+
+def companies_in_text(text, lexicon):
+    """Tickers of lexicon companies mentioned in text, longest aliases first."""
+    t = " " + re.sub(r"[^A-Za-z0-9&\- ]+", " ", (text or "").lower()) + " "
+    found = []
+    for alias in sorted(lexicon, key=len, reverse=True):
+        if not alias or len(alias) < 3:
+            continue
+        if re.search(r"(?<![a-z0-9&\-])" + re.escape(alias) + r"(?![a-z0-9\-])", t):
+            tk = lexicon[alias]
+            if tk and tk not in found:
+                found.append(tk)
+    return found
+
+
+_BT_COMMON_NEWS = {"approval", "approves", "approved", "treatment", "hepatitis",
+                   "cancer", "results", "announces", "patients", "therapy",
+                   "chronic", "disease", "receives", "positive", "negative",
+                   "melanoma", "prostate", "leukemia", "lymphoma", "myeloma",
+                   "diabetes", "alzheimers", "oncology", "vaccine", "antibody"}
+
+# Generic English words that are also the first word of a company name
+# ("First Solar" -> "first"): never a reliable company mention on their own.
+BT_ALIAS_STOP = {"first", "global", "general", "united", "american", "national",
+                 "advanced", "modern", "central", "western", "eastern", "southern",
+                 "northern", "group", "holdings", "capital", "royal", "pacific"}
+
+
+_BT_TITLE_STOP = {"the", "a", "an", "and", "or", "of", "in", "on", "for", "to",
+                  "with", "by", "as", "at", "from", "after", "over", "its", "his",
+                  "says", "new", "early", "posts", "post", "amid", "what", "why",
+                  "how", "first", "early", "leak"}
+
+
+def _bt_title_tokens(title):
+    t = (title or "").lower()
+    t = re.sub(r"^\s*[^:]{0,25}:\s", " ", t)          # drop outlet prefix like "ESMO:"
+    toks = set(re.findall(r"[a-z0-9]{3,}", t))
+    return {x for x in toks if x not in _BT_TITLE_STOP}
+
+
+def cluster_breakthroughs(items):
+    """Merge items about the same event. Two items merge when they share the
+    category AND (a ticker, a company ticker, or >=60% token overlap of the
+    smaller title). The cluster keeps the highest-severity title (ties: newest),
+    unions tickers/companies, and collects up to 3 distinct sources.
+
+    items: [{title, link, pub_ts, source, cat, sev, dir, tickers, companies, nct?}]
+    Returns clusters sorted by severity then recency."""
+    items = sorted(items, key=lambda x: -(x.get("pub_ts") or 0))
+    # distinctive tokens: uncommon across this batch (drug names like 'hibsago')
+    # merge same-category items even when outlet wording differs.
+    df = {}
+    toks_per = []
+    for it in items:
+        tk = _bt_title_tokens(it.get("title", ""))
+        toks_per.append(tk)
+        for t in tk:
+            df[t] = df.get(t, 0) + 1
+    n = max(1, len(items))
+    distinctive = {t for t, c in df.items()
+                   if len(t) >= 6 and c <= 2 and t not in _BT_COMMON_NEWS}
+    clusters = []
+    for it in items:
+        if not it.get("title") or not it.get("cat"):
+            continue
+        toks = _bt_title_tokens(it["title"])
+        placed = None
+        for c in clusters:
+            if c["cat"] != it["cat"]:
+                continue
+            if set(c["tickers"]) & set(it.get("tickers") or []):
+                placed = c
+                break
+            if set(c["companies"]) & set(it.get("companies") or []):
+                placed = c
+                break
+            ct = c["_toks"]
+            ft, fct = toks - _BT_COMMON_NEWS, ct - _BT_COMMON_NEWS
+            if ft and fct:
+                inter = ft & fct
+                if inter & distinctive or len(inter) / min(len(ft), len(fct)) >= 0.5:
+                    placed = c
+                    break
+        if placed is None:
+            placed = {"title": it["title"], "link": it.get("link", ""),
+                      "pub_ts": it.get("pub_ts"), "date": it.get("date", ""),
+                      "cat": it["cat"], "sev": it["sev"], "dir": it["dir"],
+                      "tickers": list(it.get("tickers") or []),
+                      "companies": list(it.get("companies") or []),
+                      "sources": [], "ncts": [], "_toks": set(toks)}
+            clusters.append(placed)
+        else:
+            placed["_toks"] |= toks
+            if it["sev"] > placed["sev"]:
+                placed.update({"title": it["title"], "link": it.get("link", ""),
+                               "pub_ts": it.get("pub_ts"), "date": it.get("date", ""),
+                               "sev": it["sev"], "dir": it["dir"]})
+            if placed["dir"] == 0 and it["dir"]:
+                placed["dir"] = it["dir"]
+        for t in (it.get("tickers") or []):
+            if t not in placed["tickers"]:
+                placed["tickers"].append(t)
+        for t in (it.get("companies") or []):
+            if t not in placed["companies"]:
+                placed["companies"].append(t)
+        src = {"source": it.get("source", ""), "link": it.get("link", "")}
+        if src["source"] and all(s["link"] != src["link"] for s in placed["sources"]):
+            if len(placed["sources"]) < 3:
+                placed["sources"].append(src)
+        if it.get("nct") and it["nct"] not in placed["ncts"]:
+            placed["ncts"].append(it["nct"])
+    for c in clusters:
+        if not c["date"] and c.get("pub_ts"):
+            c["date"] = dt.datetime.fromtimestamp(c["pub_ts"], dt.timezone.utc).date().isoformat()
+        c.pop("_toks", None)
+    clusters.sort(key=lambda c: (-c["sev"], -(c["pub_ts"] or 0)))
+    return clusters
