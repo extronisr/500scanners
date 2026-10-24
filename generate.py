@@ -887,9 +887,11 @@ CSS = """
 *{box-sizing:border-box;margin:0;padding:0}
 body{background:#f1f2f4;color:#1f2937;font-family:-apple-system,'Segoe UI',Arial,sans-serif;
 direction:rtl;padding:12px 12px 96px;max-width:720px;margin:0 auto}
-.hdr{display:flex;align-items:flex-start;justify-content:space-between;padding:6px 2px 12px;gap:10px}
+.hdr{display:flex;align-items:flex-start;justify-content:space-between;padding:6px 2px 12px;gap:10px;position:relative}
 .hdr h1{font-size:1.65rem;font-weight:800}
 .hdr .ts{color:#6b7280;font-size:.78rem;margin-top:4px}
+.brand{position:absolute;left:50%;top:11px;transform:translateX(-50%);
+font-weight:800;font-size:1.05rem;color:#16202e;white-space:nowrap}
 .refresh-btn{background:#16202e;color:#fff;border:none;border-radius:10px;padding:10px 18px;
 font-weight:700;font-size:.9rem;cursor:pointer;font-family:inherit;white-space:nowrap}
 .hero{background:#16202e;color:#fff;border-radius:20px;padding:22px 20px;display:flex;
@@ -948,6 +950,9 @@ display:flex;padding:8px;gap:6px;z-index:50;box-shadow:0 4px 20px rgba(0,0,0,.25
 .tabbar button{flex:1;background:transparent;color:#cbd5e1;border:none;border-radius:12px;
 padding:12px 4px;font-size:.92rem;font-weight:700;cursor:pointer;position:relative;font-family:inherit}
 .tabbar button.active{background:#fff;color:#16202e}
+.tabbar a.tablink{flex:1;display:flex;align-items:center;justify-content:center;background:transparent;
+color:#cbd5e1;border-radius:12px;padding:12px 4px;font-size:.92rem;font-weight:700;
+text-decoration:none;font-family:inherit;position:relative}
 .count-badge{position:absolute;top:4px;inset-inline-end:14px;background:#dc2626;color:#fff;
 font-size:.68rem;font-weight:800;min-width:20px;height:20px;border-radius:10px;
 display:flex;align-items:center;justify-content:center;padding:0 5px}
@@ -1041,6 +1046,10 @@ padding:8px 4px;border-bottom:1px solid #f3f4f6;font-size:.78rem}
 .a-comp.why{color:#1f2937;border-top:1px dashed #e5e7eb;margin-top:6px;padding-top:6px}
 @media(max-width:480px){.idxgrid,.pbgrid,.accgrid,.trialgrid{grid-template-columns:1fr}
 .hmap{grid-template-columns:repeat(2,1fr)}.chg3{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:480px){.hdr h1{font-size:1.35rem}.brand{font-size:.9rem;top:13px}
+.tabbar button,.tabbar a.tablink{font-size:.78rem;padding:10px 2px}}
+@media(max-width:380px){.brand{position:static;transform:none;align-self:flex-start;margin-top:4px;font-size:.85rem}
+.hdr h1{font-size:1.15rem;white-space:nowrap}}
 """
 STATUS_COLORS = {
     "מתייצב": "#3fb950",
@@ -1097,7 +1106,7 @@ def build_html(mh, dips, alerts, bo, updated, extra=None):
     parts.append(
         '<div class="hdr"><div><h1>בריאות השוק</h1>'
         f'<div class="ts">עדכון {ts} · רענון אוטומטי כל 15 דקות</div></div>'
-        '<button class="refresh-btn" onclick="location.reload()">עדכן עכשיו</button></div>')
+        '<div class="brand">Erez-Stocks</div><button class="refresh-btn" onclick="location.reload()">עדכן עכשיו</button></div>')
     if mh and mh["score"] is not None:
         score = mh["score"]
         col = STATUS_COLORS.get(mh["status"], "#e6edf3")
@@ -1251,7 +1260,7 @@ def build_html(mh, dips, alerts, bo, updated, extra=None):
     parts.append(
         '<div class="hdr"><div><h1>סורק פריצות</h1>'
         f'<div class="ts">עדכון {ts} · רענון אוטומטי כל 15 דקות</div></div>'
-        '<button class="refresh-btn" onclick="location.reload()">עדכן עכשיו</button></div>')
+        '<div class="brand">Erez-Stocks</div><button class="refresh-btn" onclick="location.reload()">עדכן עכשיו</button></div>')
     if bo and bo.get("groups") is not None:
         groups = bo["groups"]
         total = sum(len(v) for v in groups.values())
@@ -1391,7 +1400,7 @@ def build_html(mh, dips, alerts, bo, updated, extra=None):
     parts.append(
         '<div class="hdr"><div><h1>סורק דיפים</h1>'
         f'<div class="ts">עדכון {ts} · רענון אוטומטי כל 15 דקות</div></div>'
-        '<button class="refresh-btn" onclick="location.reload()">עדכן עכשיו</button></div>')
+        '<div class="brand">Erez-Stocks</div><button class="refresh-btn" onclick="location.reload()">עדכן עכשיו</button></div>')
     if dips:
         for c in dips:
             links = "".join(
@@ -1460,7 +1469,7 @@ def build_html(mh, dips, alerts, bo, updated, extra=None):
     parts.append(
         '<div class="hdr"><div><h1>התראות ביוטק</h1>'
         f'<div class="ts">עדכון {ts} · רענון אוטומטי כל 15 דקות</div></div>'
-        '<button class="refresh-btn" onclick="location.reload()">עדכן עכשיו</button></div>')
+        '<div class="brand">Erez-Stocks</div><button class="refresh-btn" onclick="location.reload()">עדכן עכשיו</button></div>')
     parts.append(
         '<div class="stats">'
         f'<div class="stat"><b>{stats["bio_total"]}</b><span>חברות במעקב</span></div>'
@@ -1615,6 +1624,7 @@ def build_html(mh, dips, alerts, bo, updated, extra=None):
         '<button data-t="bo">פריצות ומגמה</button>'
         '<button data-t="dip">דיפים ותיקונים</button>'
         f'<button data-t="bio">ביוטק{badge}</button>'
+        '<a class="tablink" href="concepts.html">מושגים</a>'
         "</div>")
 
     # ================= JS =================

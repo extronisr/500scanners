@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>מושגים | סורקי הבורסה</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Secular+One&family=IBM+Plex+Sans+Hebrew:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;600&display=swap">
+<style>
+/* מושגים — דף לימוד בשפת הסורקים. פלטה ומרכיבים תואמים לאתר הסורקים, עם אסתטיקת דף המילימטר המקורית */
+:root{
+  --bg:#f1f2f4; --surface:#FFFFFF; --ink:#1f2937; --muted:#6b7280; --line:#e5e7eb; --grid:#edf0f4;
+  --navy:#16202e; --accent:#0e7c8c; --accent-soft:rgba(14,124,140,.10);
+  --bull:#16a34a; --bull-soft:rgba(22,163,74,.12); --bear:#dc2626; --bear-soft:rgba(220,38,38,.10);
+  --warn:#f59e0b; --warn-soft:rgba(245,158,11,.14);
+  --f-display:"Secular One","Arial Hebrew",Arial,sans-serif;
+  --f-body:"IBM Plex Sans Hebrew","Segoe UI","Arial Hebrew",Arial,sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.65;margin:0}
+.wrap{max-width:1060px;margin:0 auto;padding-inline:14px;padding-block:18px 72px}
+h1,h2,h3{font-family:var(--f-display);font-weight:400;text-wrap:balance;margin:0;line-height:1.25}
+h1{font-size:clamp(26px,5vw,36px);font-weight:800}
+h2{font-size:22px}
+h3{font-size:19px}
+p{margin:0}
+a{color:var(--accent)}
+.mono{font-family:var(--f-mono);font-variant-numeric:tabular-nums}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+/* header — כמו באתר הסורקים */
+.hdr{display:flex;align-items:flex-start;justify-content:space-between;gap:10px;padding:6px 2px 10px}
+.hdr .ts{color:var(--muted);font-size:.8rem;margin-top:4px}
+.back{display:inline-block;background:var(--navy);color:#fff;text-decoration:none;border-radius:10px;
+  padding:9px 16px;font-weight:700;font-size:.85rem;white-space:nowrap}
+.lede{color:var(--muted);max-width:64ch;margin-bottom:6px}
+.lede b{color:var(--ink)}
+
+/* sticky filter bar */
+.bar{position:sticky;top:0;z-index:5;background:var(--bg);padding-block:10px;border-bottom:1px solid var(--line);
+  display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;justify-content:space-between;margin-bottom:8px}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{font:inherit;font-size:13px;font-weight:600;border:1px solid var(--line);background:var(--surface);
+  color:var(--ink);padding:6px 13px;border-radius:999px;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--navy);color:#fff;border-color:var(--navy)}
+.progress{display:flex;align-items:center;gap:10px;font-size:13px;color:var(--muted)}
+.meter{width:130px;height:8px;background:#e2e5ea;border-radius:4px;overflow:hidden}
+.meter span{display:block;height:100%;width:0;background:var(--bull);transition:width .3s}
+
+/* group headers */
+.ghead{grid-column:1/-1;display:flex;align-items:baseline;gap:10px;margin:30px 2px 12px;flex-wrap:wrap}
+.ghead:first-child{margin-top:10px}
+.ghead h2{flex-shrink:0}
+.ghead span{color:var(--muted);font-size:.85rem}
+
+/* cards */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,330px),1fr));gap:14px;align-items:start}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px;display:grid;gap:11px;min-width:0}
+.card.done{border-color:color-mix(in srgb,var(--bull) 45%,var(--line))}
+.card-head{display:flex;gap:12px;align-items:flex-start;justify-content:space-between}
+.num{font-family:var(--f-mono);font-size:12px;color:var(--muted)}
+.en{font-family:var(--f-mono);font-size:11.5px;color:var(--muted);direction:ltr;unicode-bidi:isolate;text-align:right}
+.tag{font-size:11px;font-weight:700;letter-spacing:.03em;padding:3px 9px;border-radius:6px;
+  background:var(--accent-soft);color:var(--accent);white-space:nowrap}
+.def{font-size:15px}
+.why{display:flex;gap:8px;align-items:flex-start;background:var(--accent-soft);border-radius:8px;
+  padding:8px 10px;font-size:13.5px;line-height:1.55}
+.why b{color:var(--accent);white-space:nowrap;flex-shrink:0}
+figure{margin:0;border:1px solid var(--line);border-radius:10px;overflow:hidden;
+  background-color:#fbfcfe;
+  background-image:linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);
+  background-size:20px 20px}
+figure svg{display:block;width:100%;height:auto;direction:ltr}
+svg text{font-family:var(--f-mono);font-size:9px;fill:var(--muted)}
+svg text.he{font-family:var(--f-body);font-size:10px}
+svg .p{fill:none;stroke:var(--ink);stroke-width:2;stroke-linejoin:round;stroke-linecap:round}
+svg .p.bull{stroke:var(--bull)} svg .p.bear{stroke:var(--bear)}
+svg .lvl{stroke-width:1.5;stroke-dasharray:5 4;fill:none}
+svg .s-bull{stroke:var(--bull)} svg .s-bear{stroke:var(--bear)} svg .s-ink{stroke:var(--ink)}
+svg .s-muted{stroke:var(--muted)} svg .s-acc{stroke:var(--accent)} svg .s-warn{stroke:var(--warn)}
+svg .f-bull{fill:var(--bull)} svg .f-bear{fill:var(--bear)} svg .f-muted{fill:var(--muted);opacity:.45}
+svg .f-acc{fill:var(--accent)} svg .f-warn{fill:var(--warn)}
+svg .z-bull{fill:var(--bull-soft)} svg .z-bear{fill:var(--bear-soft)} svg .z-warn{fill:var(--warn-soft)}
+svg text.t-bull{fill:var(--bull)} svg text.t-bear{fill:var(--bear)}
+svg text.t-acc{fill:var(--accent);font-weight:600} svg text.t-ink{fill:var(--ink)} svg text.t-warn{fill:var(--warn)}
+svg .dot-bull{fill:var(--bull)} svg .dot-bear{fill:var(--bear)}
+svg .ring{fill:none;stroke:var(--bear);stroke-width:1.6}
+
+details{border-top:1px solid var(--line);padding-top:10px}
+summary{cursor:pointer;font-weight:600;font-size:14px;color:var(--accent);list-style:none;display:flex;align-items:center;gap:6px}
+summary::-webkit-details-marker{display:none}
+summary::before{content:"+";font-family:var(--f-mono);width:14px}
+details[open] summary::before{content:"−"}
+.deep{display:grid;gap:10px;margin-top:10px}
+.deep h4{margin:0 0 2px;font-size:13px;font-weight:700;color:var(--muted);letter-spacing:.02em}
+.deep .warn h4{color:var(--bear)}
+.deep .ours{background:var(--accent-soft);border-radius:8px;padding:8px 10px}
+.deep .ours h4{color:var(--accent)}
+.learned{display:flex;align-items:center;gap:8px;font-size:13px;color:var(--muted);cursor:pointer;user-select:none}
+.learned input{accent-color:var(--bull);width:16px;height:16px}
+.empty{color:var(--muted);padding:24px 0}
+
+/* tools sections */
+section.block{margin-top:42px;display:grid;gap:12px}
+.sub{color:var(--muted);max-width:65ch}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px}
+.check{display:grid;gap:6px;counter-reset:c}
+.check label{display:grid;grid-template-columns:auto 1fr;gap:10px;align-items:start;padding:8px 10px;border-radius:8px;cursor:pointer}
+.check label:hover{background:var(--bg)}
+.check input{accent-color:var(--bull);width:18px;height:18px;margin-top:3px}
+.check b{font-weight:700}
+.check small{display:block;color:var(--muted);font-size:13px}
+.verdict{font-weight:700;padding:10px 12px;border-radius:8px;background:var(--bg)}
+.verdict.go{background:var(--bull-soft);color:var(--bull)}
+
+.calc{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:16px}
+@media (max-width:720px){.calc{grid-template-columns:1fr}}
+.fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;align-content:start}
+.fields label{display:grid;gap:4px;font-size:13px;color:var(--muted)}
+.fields input{font:inherit;font-family:var(--f-mono);font-size:15px;padding:8px 10px;border:1px solid var(--line);
+  border-radius:8px;background:var(--bg);color:var(--ink);direction:ltr;text-align:left;width:100%}
+.out{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;align-content:start}
+.stat{border:1px solid var(--line);border-radius:10px;padding:10px 12px;display:grid;gap:2px}
+.stat span{font-size:12px;color:var(--muted)}
+.stat strong{font-family:var(--f-mono);font-size:20px;font-weight:600;font-variant-numeric:tabular-nums;direction:ltr;text-align:right}
+.stat.hl{border-color:var(--accent);background:var(--accent-soft)}
+.note{grid-column:1/-1;font-size:13px;color:var(--muted)}
+.note.bad{color:var(--bear)}
+
+.gloss{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,240px),1fr));gap:8px}
+.term{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px 12px;min-width:0}
+.term b{font-family:var(--f-mono);font-size:13.5px;direction:ltr;unicode-bidi:isolate;color:var(--accent)}
+.term p{font-size:14px;color:var(--muted)}
+footer{margin-top:44px;color:#9ca3af;font-size:.8rem;text-align:center;display:grid;gap:4px}
+@media (prefers-reduced-motion:reduce){.meter span{transition:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="hdr">
+    <div><h1>מושגים</h1><div class="ts">המדריך לכל מה שרואים בסורקים, בשפה פשוטה</div></div>
+    <a class="back" href="./"><span dir="ltr">→</span> חזרה לסורקים</a>
+  </header>
+  <p class="lede">כל מושג באתר מוסבר כאן מאפס: <b>תמונת השוק</b> (בריאות השוק, VIX, תשואת אג״ח, מפת המגזרים), <b>אותות הסורק</b> (פריצות, התאוששות, נסיגות), <b>יסודות קריאת גרף</b> ו<b>מכפילים ופונדמנטלים</b> (P/E, צמיחה, חוב). לכל מושג: הסבר קצר, תרשים ושורת ״למה זה משנה״. בסוף הדף: צ׳קליסט כניסה, מחשבון גודל פוזיציה ומילון מונחים.</p>
+
+  <div class="bar">
+    <div class="chips" role="group" aria-label="סינון מושגים">
+      <button class="chip" data-f="all" aria-pressed="true">הכל</button>
+      <button class="chip" data-f="market" aria-pressed="false">תמונת השוק</button>
+      <button class="chip" data-f="base" aria-pressed="false">יסודות הגרף</button>
+      <button class="chip" data-f="signals" aria-pressed="false">אותות הסורק</button>
+      <button class="chip" data-f="fund" aria-pressed="false">מכפילים ופונדמנטלים</button>
+      <button class="chip" data-f="mgmt" aria-pressed="false">ניהול</button>
+      <button class="chip" data-f="todo" aria-pressed="false">עוד לא למדתי</button>
+    </div>
+    <div class="progress"><span id="pText" class="mono">0/0</span><div class="meter" aria-hidden="true"><span id="pBar"></span></div><span>נלמדו</span></div>
+  </div>
+
+  <main id="cards" class="grid"></main>
+
+  <section class="block" id="checklist">
+    <h2>צ׳קליסט לפני כניסה</h2>
+    <p class="sub">כל המושגים מתחברים להחלטה אחת. סמנו רק מה שבאמת מתקיים בגרף שמולכם.</p>
+    <div class="panel check" id="checkPanel"></div>
+  </section>
+
+  <section class="block" id="calc">
+    <h2>מחשבון גודל פוזיציה</h2>
+    <p class="sub">הסדר הנכון: קודם סטופ, אחר כך סיכון, ורק אז כמות. הדוגמה מולאה בנתוני הפריצה של CRDO מ-25/9.</p>
+    <div class="panel calc">
+      <div class="fields">
+        <label for="acc">גודל תיק ($)<input id="acc" inputmode="decimal" value="20000"></label>
+        <label for="rp">סיכון לעסקה (%)<input id="rp" inputmode="decimal" value="1"></label>
+        <label for="en">מחיר כניסה<input id="en" inputmode="decimal" value="210.97"></label>
+        <label for="sl">סטופ<input id="sl" inputmode="decimal" value="200"></label>
+        <label for="tp">יעד (לא חובה)<input id="tp" inputmode="decimal" value="240"></label>
+      </div>
+      <div class="out">
+        <div class="stat hl"><span>כמות מניות</span><strong id="oQty">–</strong></div>
+        <div class="stat"><span>סכום בסיכון</span><strong id="oRisk">–</strong></div>
+        <div class="stat"><span>שווי פוזיציה</span><strong id="oVal">–</strong></div>
+        <div class="stat"><span>יחס סיכוי:סיכון</span><strong id="oRR">–</strong></div>
+        <p class="note" id="oNote"></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="glossary">
+    <h2>מילון מונחים</h2>
+    <div class="gloss" id="gloss"></div>
+  </section>
+
+  <footer>
+    <span>חומר לימודי בלבד, לא המלצת השקעה. הסורקים והמדדים מתייחסים לזיהוי דפוסים, לא לתחזית תשואה.</span>
+    <span><a href="./">חזרה לסורקי הבורסה</a></span>
+  </footer>
+</div>
+
+<script>
+const V='viewBox="0 0 240 120"';
+const C=[
+{id:1,g:'market',t:'בריאות השוק',en:'Health Score',nw:1,
+ def:'ציון מ-0 עד 100 שמרכז שמונה בדיקות פשוטות על השוק: המדד מול הממוצעים שלו, רוחב השוק, ה-VIX, תשואת האג״ח ומחירי הנפט. לכל בדיקה נקודה: ירוק תקין, כתום אזהרה, אדום לחץ.',
+ why:'זו שאלת הפתיחה של כל יום מסחר: האם התנאים מאפשרים לקחת סיכון, או שעדיף לחכות בצד.',
+ svg:`<svg ${V} role="img" aria-label="מד בריאות שוק עם נקודות סטטוס">
+ <circle cx="88" cy="60" r="36" fill="none" style="stroke:var(--line)" stroke-width="11"/>
+ <circle cx="88" cy="60" r="36" fill="none" class="s-bull" stroke-width="11" stroke-linecap="round" stroke-dasharray="162.8 226.2" transform="rotate(-90 88 60)"/>
+ <text x="88" y="64" text-anchor="middle" class="t-ink" style="font-size:20px;font-weight:700">72</text>
+ <text x="88" y="78" text-anchor="middle">/100</text>
+ <circle cx="170" cy="32" r="5" class="f-bull"/><text x="160" y="36" text-anchor="end" class="he">תקין</text>
+ <circle cx="170" cy="60" r="5" class="f-warn"/><text x="160" y="64" text-anchor="end" class="he">אזהרה</text>
+ <circle cx="170" cy="88" r="5" class="f-bear"/><text x="160" y="92" text-anchor="end" class="he">לחץ</text></svg>`,
+ howL:'איפה רואים בסורק',
+ how:'הכרטיס הכהה בראש לשונית ״תמונת שוק״, ומתחתיו פירוט שמונה הבדיקות עם הנקודות. הציון הוא צילום מצב של הרגע, לא תחזית ולא איתות קנייה או מכירה.',
+ mis:'לקרוא ציון נמוך כ״אות מכירה״. הוא אומר שהתנאים קשים יותר ופריצות נכשלות בתדירות גבוהה יותר, לא שהשוק חייב לרדת.',},
+{id:2,g:'market',t:'מדדים',en:'Indexes',nw:1,
+ def:'מדד הוא סל מניות שמייצג חלק מהשוק. S&P 500 עוקב אחרי 500 החברות הגדולות בארה״ב, נאסד״ק בעיקר אחרי טכנולוגיה, דאו ג׳ונס אחרי 30 ענקיות ותיקות, וראסל 2000 אחרי חברות קטנות.',
+ why:'כשאומרים ״השוק עלה היום״ מתכוונים למדד. המדד הוא הרקע שמולו כל מניה בודדת נסחרת.',
+ svg:`<svg ${V} role="img" aria-label="ארבעה קווי מדדים זעירים">
+ <polyline class="p bull" style="stroke-width:1.6" points="12,44 32,36 52,40 72,28 92,32 112,20"/>
+ <text x="62" y="58" text-anchor="middle">S&P 500</text>
+ <polyline class="p bear" style="stroke-width:1.6" points="132,22 152,30 172,26 192,38 212,34 232,44"/>
+ <text x="182" y="58" text-anchor="middle">Nasdaq</text>
+ <polyline class="p" style="stroke-width:1.6" points="12,84 32,80 52,88 72,74 92,78 112,68"/>
+ <text x="62" y="106" text-anchor="middle">Dow Jones</text>
+ <polyline class="p bear" style="stroke-width:1.6" points="132,72 152,84 172,78 192,92 212,88 232,98"/>
+ <text x="182" y="112" text-anchor="middle">Russell 2000</text></svg>`,
+ howL:'איפה רואים בסורק',
+ how:'ארבעת הכרטיסים תחת ״המבט הרחב״ בלשונית תמונת שוק. לכל אחד קו זעיר (sparkline) של הימים האחרונים ושורת מיקום מול ממוצעי 50 ו-200.',
+ mis:'להסיק ממדד אחד על כולם. קורה שה-S&P 500 ירוק והראסל 2000 אדום: הגדולות מחזיקות את המדד בזמן שהקטנות סובלות.',},
+{id:3,g:'market',t:'ממוצע נע',en:'Moving Average (SMA / DMA)',nw:1,
+ def:'ממוצע מחירי הסגירה של X הימים האחרונים, שזז קדימה כל יום. ממוצע 50 יום מראה את המגמה הבינונית וממוצע 200 יום את הארוכה. מחיר מעל הממוצע נחשב חזק, מתחתיו חלש.',
+ why:'זה הקו הנצפה ביותר בשוק. כשהמדד מתחת לממוצע 200, רוב הכסף המקצועי נהיה זהיר.',
+ svg:`<svg ${V} role="img" aria-label="קו מחיר עם ממוצע 50 וממוצע 200">
+ <polyline class="p" points="10,80 28,60 46,72 64,48 82,58 100,38 118,50 136,32 154,44 172,28 190,38 210,24 232,30"/>
+ <polyline points="10,86 40,72 70,64 100,54 130,47 160,40 190,34 232,30" fill="none" class="s-acc" stroke-width="1.8"/>
+ <polyline points="10,98 60,88 110,76 170,62 232,48" fill="none" class="s-muted" stroke-width="1.8"/>
+ <text x="236" y="24" text-anchor="end" class="t-acc">50</text><text x="236" y="46" text-anchor="end">200</text></svg>`,
+ howL:'איפה רואים בסורק',
+ how:'בלשונית תמונת שוק: הבדיקות ״S&P 500 מול 50DMA״ ו״מול 200DMA״, ושורת המיקום בכל כרטיס מדד. בסורקי האיתותים, מניה מתחת ל-SMA 200 מסומנת באזהרה מפורשת.',
+ mis:'להתייחס לממוצע כחומה. הוא אזור, לא קו מדויק: המחיר חוצה אותו לשני הכיוונים כל הזמן, ומה שחשוב הוא הצד שבו הוא נסגר.',},
+{id:4,g:'market',t:'רוחב שוק',en:'Market Breadth',nw:1,
+ def:'כמה אחוזים מהמניות במדד נסחרות מעל הממוצע שלהן. מדד יכול לעלות על גבן של כמה ענקיות בלבד; רוחב השוק מגלה אם רוב המניות באמת משתתפות בעלייה.',
+ why:'עלייה ברוחב נמוך היא בית על יסודות רעועים. זו הבדיקה שמסתכלת מתחת לפני השטח.',
+ svg:`<svg ${V} role="img" aria-label="רוחב שוק חזק מול חלש">
+ <text x="10" y="24" class="he">חזק · 80%</text>
+ ${[0,1,2,3,4,5,6,7].map(i=>`<rect x="${10+21*i}" y="30" width="17" height="14" rx="2" class="f-bull" style="opacity:.85"/>`).join('')}${[8,9].map(i=>`<rect x="${10+21*i}" y="30" width="17" height="14" rx="2" class="f-bear" style="opacity:.85"/>`).join('')}
+ <text x="10" y="72" class="he">חלש · 40%</text>
+ ${[0,1,2,3].map(i=>`<rect x="${10+21*i}" y="78" width="17" height="14" rx="2" class="f-bull" style="opacity:.85"/>`).join('')}${[4,5,6,7,8,9].map(i=>`<rect x="${10+21*i}" y="78" width="17" height="14" rx="2" class="f-bear" style="opacity:.85"/>`).join('')}
+ <text x="10" y="112" class="he t-ink">כל ריבוע: 10% מהמניות במדד. ירוק = מעל הממוצע</text></svg>`,
+ howL:'איפה רואים בסורק',
+ how:'שתי הבדיקות ״רוחב שוק · 50 יום״ ו״רוחב שוק · 200 יום״ בלשונית תמונת שוק. סביב 50% ומטה נחשב חלש: פחות ממחצית המניות מעל הממוצע שלהן.',
+ mis:'להסתכל רק על המדד. בתקופות רבות בהיסטוריה המדד עשה שיאים בזמן שרוב המניות כבר ירדו, והרוחב התריע מראש.',},
+{id:5,g:'market',t:'VIX',en:'מדד התנודתיות',nw:1,
+ def:'מדד שמחשב כמה תנודתיות הסוחרים מצפים לראות בחודש הקרוב, מתוך מחירי אופציות. מתחת ל-20 שוק רגוע, 20–30 אזהרה, מעל 30 לחץ. בגלל שהוא קופץ בזמני פחד, קוראים לו ״מדד הפחד״.',
+ why:'VIX גבוה אומר ימים של תנועות חדות במדד. גודל הפוזיציה והסטופים צריכים להתאים לרעש הזה.',
+ svg:`<svg ${V} role="img" aria-label="קו VIX עם קפיצה מעל אזור הלחץ">
+ <rect x="6" y="10" width="228" height="40" class="z-bear"/>
+ <line x1="6" y1="50" x2="234" y2="50" class="lvl s-bear"/><line x1="6" y1="70" x2="234" y2="70" class="lvl s-warn"/>
+ <polyline class="p" points="10,84 40,80 70,86 100,78 122,62 136,22 152,56 172,74 200,80 232,78"/>
+ <text x="232" y="46" text-anchor="end" class="t-bear">30 · לחץ</text><text x="232" y="66" text-anchor="end" class="t-warn">20 · אזהרה</text>
+ <text x="140" y="14" text-anchor="middle" class="he t-bear">קפיצה</text></svg>`,
+ howL:'איפה רואים בסורק',
+ how:'בדיקת ה-VIX בלשונית תמונת שוק, עם ספי האזהרה בכיתוב. ברצועת ״שינוי ב-3 ימי מסחר״ רואים גם את קצב השינוי שלו.',
+ mis:'לחשוב ש-VIX גבוה אומר שהשוק ירד. הוא מודד תנודתיות צפויה, לא כיוון. שיא VIX היה לא פעם בדיוק התחתית.',},
+{id:6,g:'market',t:'תשואת אג״ח 10 שנים',en:'10Y Yield',nw:1,
+ def:'הריבית שממשלת ארה״ב משלמת למי שמלווה לה כסף ל-10 שנים. זו הריבית הבסיסית של העולם. כשהיא עולה, השקעה ״בטוחה״ נראית אטרקטיבית יותר מול מניות.',
+ why:'תשואה גבוהה או קופצת לוחצת על מניות, בעיקר טכנולוגיה וצמיחה, כי הרווחים העתידיות שלהן נחתכות בריבית גבוהה יותר.',
+ svg:`<svg ${V} role="img" aria-label="תשואה עולה ומניות יורדות">
+ <polyline class="p bear" points="10,95 55,82 100,64 150,48 200,32 232,24"/>
+ <polyline class="p bull" style="opacity:.55" points="10,25 55,38 100,56 150,72 200,86 232,94"/>
+ <text x="230" y="16" text-anchor="end" class="he t-bear">תשואת 10Y</text>
+ <text x="230" y="108" text-anchor="end" class="he t-bull">מניות</text></svg>`,
+ howL:'איפה רואים בסורק',
+ how:'הבדיקה ״אג״ח ארה״ב · 10 שנים״ בלשונית תמונת שוק. גם הרמה עצמה וגם קפיצה מהירה בשלושה ימים נספרות כנקודת לחץ.',
+ mis:'להתעלם כי ״זה רק אג״ח״. קפיצה של 0.2 נקודות אחוז בשלושה ימים מזיזה את כל שוק המניות.',},
+{id:7,g:'market',t:'נפט',en:'Oil · Brent & WTI',nw:1,
+ def:'מחירי שני סוגי הנפט העיקריים בעולם. נפט יקר מייקר תחבורה, ייצור ומשלוחים, ומאיץ אינפלציה שמעכבת הורדת ריבית.',
+ why:'קפיצת נפט חדה לוחצת כמעט על כל המגזרים. היוצא דופן: מניות אנרגיה, שדווקא מרוויחות ממנו.',
+ svg:`<svg ${V} role="img" aria-label="מחיר נפט שובר את רף הלחץ">
+ <rect x="6" y="10" width="228" height="42" class="z-bear"/>
+ <line x1="6" y1="52" x2="234" y2="52" class="lvl s-bear"/>
+ <polyline class="p" points="10,86 50,82 90,87 120,80 145,74 168,40 198,30 232,26"/>
+ <text x="232" y="48" text-anchor="end" class="he t-bear">רף לחץ</text>
+ <text x="14" y="104" class="he">שקט</text><text x="226" y="104" text-anchor="end" class="he t-bear">קפיצה ב-3 ימים</text></svg>`,
+ howL:'איפה רואים בסורק',
+ how:'שתי בדיקות הנפט (Brent ו-WTI) בלשונית תמונת שוק, והשינוי ב-3 ימים ברצועה. כשהנפט אדום שם, כדאי להציץ במפת המגזרים: לרוב אנרגיה (XLE) תהיה הירוקה היחידה.',
+ mis:'לקנות מניות אנרגיה אחרי שהנפט כבר קפץ. הקשר עובד, אבל המהלך מתומחר מהר מאוד.',},
+{id:8,g:'market',t:'מפת מגזרים',en:'Sector Heatmap',nw:1,
+ def:'השוק מחולק ל-11 מגזרים: טכנולוגיה, פיננסים, אנרגיה, בריאות ועוד. המפה צובעת כל מגזר ירוק או אדום לפי ביצועי היום, ועוצמת הצבע לפי גודל התנועה. המדידה דרך קרנות סל ענפיות (ETF) כמו XLK לטכנולוגיה.',
+ why:'מניה נסחרת עם המגזר שלה. קנייה במגזר חזק היא שייט עם הזרם; קנייה במגזר חלש היא שחייה נגדו.',
+ svg:`<svg ${V} role="img" aria-label="מפת חום של תשעה מגזרים">
+ ${[['+2.6',9,.9],['+0.9',9,.45],['-1.8',0,.8],['+1.7',9,.7],['-0.4',0,.25],['-2.2',0,.95],['+0.3',9,.2],['-1.1',0,.5],['+1.2',9,.55]].map((t,i)=>{const x=10+(i%3)*77,y=8+Math.floor(i/3)*38,c=t[1]?['z-bull','t-bull']:['z-bear','t-bear'];return `<rect x="${x}" y="${y}" width="71" height="32" rx="4" class="${c[0]}" style="opacity:${.35+t[2]*.65}"/><text x="${x+35.5}" y="${y+20}" text-anchor="middle" class="${c[1]}" style="font-weight:700">${t[0]}%</text>`}).join('')}
+ <text x="120" y="117" text-anchor="middle" class="he">עוצמת הצבע = גודל התנועה</text></svg>`,
+ howL:'איפה רואים בסורק',
+ how:'״מפת המגזרים״ בלשונית תמונת שוק: שינוי יומי ובשלושה ימים לכל מגזר, ושורת סמיקונדקטורס (SMH) בנפרד.',
+ mis:'לפרש יום ירוק אחד כמגמה. מסתכלים גם על עמודת שלושת הימים: מגזר ירוק בשניהם הוא מגזר שמתחזק.',},
+{id:9,g:'market',t:'פחד ותאווה',en:'CNN Fear & Greed',nw:1,
+ def:'מדד סנטימנט של CNN, מ-0 עד 100, שמרכיב שבעה מדדי התנהגות של סוחרים. 0–25 פחד קיצוני, 75–100 תאווה קיצונית.',
+ why:'הקצוות מעניינים: פחד קיצוני ליווה פעמים רבות תחתיות, ותאווה קיצונית ליוותה שיאים. זה מדד קונטרה, לא מדד עוקב.',
+ svg:`<svg ${V} role="img" aria-label="מד פחד ותאווה עם מחט באזור הפחד">
+ <path d="M60,95 A60,60 0 0 1 71.5,59.7" stroke="#f8b4b4" stroke-width="13" fill="none"/>
+ <path d="M72.5,58.2 A60,60 0 0 1 100.5,37.5" stroke="#f4d3a8" stroke-width="13" fill="none"/>
+ <path d="M103,36.5 A60,60 0 0 1 137,36.5" stroke="#e5e7eb" stroke-width="13" fill="none"/>
+ <path d="M139.5,37.5 A60,60 0 0 1 167.5,58.2" stroke="#d2e5dc" stroke-width="13" fill="none"/>
+ <path d="M168.5,59.7 A60,60 0 0 1 180,95" stroke="#90c7ad" stroke-width="13" fill="none"/>
+ <line x1="120" y1="93" x2="84.5" y2="67.4" style="stroke:var(--ink)" stroke-width="2.5"/>
+ <circle cx="120" cy="93" r="13" fill="#fff" style="stroke:var(--line)"/>
+ <text x="120" y="97" text-anchor="middle" class="t-ink" style="font-weight:700">21</text>
+ <text x="58" y="112" text-anchor="middle" class="he t-bear">פחד</text><text x="182" y="112" text-anchor="middle" class="he t-bull">תאווה</text></svg>`,
+ howL:'איפה רואים בסורק',
+ how:'״סנטימנט · CNN Fear & Greed״ בתחתית לשונית תמונת שוק, עם השוואה לסגירה הקודמת, לשבוע, לחודש ולשנה אחורה.',
+ mis:'לקנות רק כי המדד בפחד קיצוני. פחד יכול להעמיק שבועות. משתמשים בו כרקע ומחכים לאישור בגרף.',},
+{id:10,g:'base',t:'מבנה השוק',en:'Market Structure',
+ def:'הסדר של שיאים ושפלים בגרף. במגמת עלייה: שיאים גבוהים יותר (HH) ושפלים גבוהים יותר (HL). במגמת ירידה: שיאים נמוכים יותר (LH) ושפלים נמוכים יותר (LL).',
+ why:'בלי לדעת אם השוק עולה, יורד או מדשדש, כל שאר הכלים עובדים בכיוון הלא נכון.',
+ svg:`<svg ${V} role="img" aria-label="מבנה עולה ומבנה יורד">
+ <line x1="120" y1="6" x2="120" y2="114" class="lvl s-muted" style="stroke-dasharray:2 4"/>
+ <polyline class="p bull" points="8,100 30,70 45,85 70,50 85,65 110,30"/>
+ <polyline class="p bear" points="130,30 150,60 165,45 190,80 205,65 232,100"/>
+ <text x="70" y="43" text-anchor="middle" class="t-bull">HH</text><text x="110" y="23" text-anchor="middle" class="t-bull">HH</text>
+ <text x="45" y="98" text-anchor="middle" class="t-bull">HL</text><text x="85" y="78" text-anchor="middle" class="t-bull">HL</text>
+ <text x="165" y="38" text-anchor="middle" class="t-bear">LH</text><text x="205" y="58" text-anchor="middle" class="t-bear">LH</text>
+ <text x="190" y="93" text-anchor="middle" class="t-bear">LL</text><text x="226" y="113" text-anchor="middle" class="t-bear">LL</text></svg>`,
+ how:'מסמנים את 3–4 נקודות המפנה האחרונות בגרף היומי. אם כל שפל גבוה מקודמו, המבנה עולה. כשאין סדר ברור, השוק מדשדש, וכלים של מגמה עובדים שם פחות טוב.',
+ mis:'לסמן כל תנודה קטנה כשיא או שפל. נקודת מפנה משמעותית היא כזו שהמחיר התרחק ממנה בבירור, לאורך כמה נרות.',},
+{id:11,g:'base',t:'מגמה',en:'Trend',
+ def:'הכיוון הכללי של המחיר לאורך זמן. סוחרים עם המגמה ולא נגדה: בעלייה מחפשים קנייה, בירידה נמנעים או מוכרים.',
+ why:'רוב הכסף נעשה עם המגמה. מסחר נגדה הוא משחק של מקצוענים עם תוצאות גרועות לרוב האחרים.',
+ svg:`<svg ${V} role="img" aria-label="מגמה עולה עם קו מגמה">
+ <line x1="10" y1="105" x2="232" y2="19.5" class="lvl s-acc"/>
+ <polyline class="p bull" points="10,105 40,75 55,88 90,55 105,68 140,38 155,50 200,14"/>
+ <circle cx="55" cy="88" r="3" class="dot-bull"/><circle cx="105" cy="68" r="3" class="dot-bull"/><circle cx="155" cy="50" r="3" class="dot-bull"/>
+ <text x="236" y="40" text-anchor="end" class="he t-acc">קו מגמה</text></svg>`,
+ how:'מגמה עולה: מבנה של HH ו-HL, ומחיר מעל ממוצע נע עולה (למשל 50 יום). קו מגמה מחבר את השפלים העולים. מאשרים את הכיוון בגרף השבועי לפני כניסה לפי היומי.',
+ mis:'לנחש תחתית במניה שיורדת. מחיר זול יכול להמשיך לרדת. מחכים לשינוי מבנה (CHOCH ואחריו HL) לפני קנייה.',},
+{id:12,g:'base',t:'נרות יפניים',en:'Candlesticks',
+ def:'כל נר מראה פתיחה, סגירה, שיא ושפל של תקופה. הגוף הוא הטווח בין הפתיחה לסגירה, והפתילים הם הקצוות שהמחיר ביקר בהם ונדחה מהם.',
+ why:'הנר הוא היחידה הבסיסית של הגרף. מי שלמד לקרוא נר אחד, מבין כל גרף בעולם.',
+ svg:`<svg ${V} role="img" aria-label="נר שורי, נר דובי, דוג׳י ואנטומיה של נר">
+ <line x1="22" y1="26" x2="22" y2="96" class="s-bull" stroke-width="1.5"/><rect x="14" y="40" width="16" height="38" rx="1" class="f-bull"/>
+ <line x1="62" y1="24" x2="62" y2="100" class="s-bear" stroke-width="1.5"/><rect x="54" y="38" width="16" height="44" rx="1" class="f-bear"/>
+ <line x1="102" y1="28" x2="102" y2="94" class="s-ink" stroke-width="1.5"/><rect x="94" y="60" width="16" height="2" style="fill:var(--ink)"/>
+ <text x="22" y="114" text-anchor="middle" class="he t-bull">שורי</text><text x="62" y="114" text-anchor="middle" class="he t-bear">דובי</text><text x="102" y="114" text-anchor="middle" class="he t-ink">דוג׳י</text>
+ <line x1="206" y1="12" x2="206" y2="106" class="s-muted" stroke-width="1.5"/><rect x="196" y="38" width="20" height="44" rx="1" fill="none" class="s-acc" stroke-width="2"/>
+ <line x1="190" y1="24" x2="204" y2="24" class="s-muted"/><line x1="190" y1="60" x2="195" y2="60" class="s-muted"/><line x1="190" y1="96" x2="204" y2="96" class="s-muted"/>
+ <text x="187" y="27" text-anchor="end" class="he">פתיל עליון</text><text x="187" y="63" text-anchor="end" class="he t-acc">גוף</text><text x="187" y="99" text-anchor="end" class="he">פתיל תחתון</text></svg>`,
+ how:'גוף ארוך אומר שצד אחד שלט בבירור. פתיל ארוך אומר שהמחיר נדחה. דוג׳י, עם גוף כמעט אפסי, מראה התלבטות, ויש לו משמעות בעיקר ליד רמה.',
+ mis:'לקרוא נר בודד בלי הקשר. אותו נר פטיש אומר הרבה בתמיכה חשובה, וכמעט כלום באמצע טווח.',
+ ours:'CRDO: אחרי גאפ דוחות, ה-RSI נראה רגיל (כ-54) ושינוי 20 הימים יצא שלילי, למרות עלייה של 40% בשמונה ימים. הנרות הראו את המהלך לפני שהאינדיקטורים הראו אותו.',},
+{id:13,g:'base',t:'תמיכה והתנגדות',en:'Support & Resistance',
+ def:'רמות מחיר שבהן המחיר הגיב בעבר: עצר, הסתובב או האט. תמיכה נמצאת מתחת למחיר, התנגדות מעליו.',
+ why:'כל איתות בסורק מתחיל ברמה: הפריצה היא מעל התנגדות, והסטופ מתחת לתמיכה.',
+ svg:`<svg ${V} role="img" aria-label="מחיר נע בין תמיכה להתנגדות">
+ <line x1="6" y1="30" x2="234" y2="30" class="lvl s-bear"/><line x1="6" y1="95" x2="234" y2="95" class="lvl s-bull"/>
+ <polyline class="p" points="10,80 35,32 60,93 90,32 120,93 150,32 180,93 210,55"/>
+ <circle cx="35" cy="32" r="3" class="dot-bear"/><circle cx="90" cy="32" r="3" class="dot-bear"/><circle cx="150" cy="32" r="3" class="dot-bear"/>
+ <circle cx="60" cy="93" r="3" class="dot-bull"/><circle cx="120" cy="93" r="3" class="dot-bull"/><circle cx="180" cy="93" r="3" class="dot-bull"/>
+ <text x="234" y="22" text-anchor="end" class="he t-bear">התנגדות</text><text x="234" y="111" text-anchor="end" class="he t-bull">תמיכה</text></svg>`,
+ how:'מחפשים רמה שהמחיר נגע בה לפחות פעמיים והגיב. ככל שיש יותר נגיעות ויותר זמן, הרמה חשובה יותר. מתייחסים אליה כאזור של כאחוז אחד, לא כקו מדויק.',
+ mis:'להניח שהרמה תחזיק לנצח. כל נגיעה שוחקת את הקונים או המוכרים שם, ולכן רמה שנבדקה ארבע או חמש פעמים נוטה להישבר.',
+ ours:'סורק הפריצות מתייחס לרמה כקו פריצה רק אחרי לפחות 2 נגיעות ו-15 ימי בסיס.',},
+{id:14,g:'base',t:'היצע וביקוש',en:'Supply & Demand',
+ def:'אזורים שמהם המחיר זז בחדות בעבר. באזור ביקוש הקונים גברו, ובאזור היצע המוכרים גברו. מחפשים קנייה באזור ביקוש ומכירה באזור היצע.',
+ why:'האזורים האלה מסבירים למה מחיר ״נתקע״ או ״מזנק״ דווקא שם, ונותנים נקודת כניסה עם סטופ קרוב.',
+ svg:`<svg ${V} role="img" aria-label="אזורי היצע וביקוש">
+ <rect x="6" y="16" width="228" height="18" class="z-bear"/><rect x="6" y="86" width="228" height="18" class="z-bull"/>
+ <polyline class="p" points="10,70 40,94 75,26 110,94 150,28 190,92 232,58"/>
+ <text x="234" y="12" text-anchor="end" class="he t-bear">אזור היצע</text><text x="234" y="116" text-anchor="end" class="he t-bull">אזור ביקוש</text></svg>`,
+ how:'מוצאים את נקודת היציאה של תנועה חזקה, כמה נרות ארוכים ברצף. האזור הוא הבסיס שממנו יצאה התנועה. אזור טרי שעוד לא נבדק חזק יותר.',
+ mis:'לסמן אזורים רחבים מדי. אזור שמכסה 10% מהמחיר לא נותן נקודת כניסה ולא מקום לסטופ.',},
+{id:15,g:'base',t:'נזילות',en:'Liquidity',
+ def:'אזורים שבהם מצטברות פקודות סטופ: מעל שיאים שווים ומתחת לשפלים שווים. המחיר נמשך אליהם, כי שם יש פקודות שממלאות עסקאות גדולות.',
+ why:'מי שמבין איפה יושבים הסטופים של כולם, מפסיק להיות אחד מהם.',
+ svg:`<svg ${V} role="img" aria-label="שיא שווה וציד נזילות">
+ <line x1="40" y1="31" x2="200" y2="31" class="lvl s-bear"/>
+ <polyline class="p" points="10,90 50,31 80,70 120,31 150,66 175,14 195,58 232,100"/>
+ <text x="70" y="25" text-anchor="middle" class="t-bear">× × ×</text><text x="100" y="18" text-anchor="middle" class="he t-bear">סטופים</text>
+ <text x="6" y="22" class="he t-bear">שיא שווה</text>
+ <circle cx="175" cy="14" r="6" class="ring"/><text x="186" y="12" class="he t-acc">ציד נזילות</text></svg>`,
+ how:'שיאים או שפלים שווים, או רמה ברורה מדי, הם המקום שבו רוב הסוחרים שמים סטופ. תנועה חדה מעבר לרמה וחזרה מיידית היא ציד נזילות (sweep).',
+ mis:'לשים סטופ בדיוק מתחת לשפל הברור, יחד עם כולם. משאירים מרווח, למשל חצי ATR, מתחת לרמה.',},
+{id:16,g:'signals',t:'מחזור מסחר',en:'Volume',
+ def:'כמה מניות החליפו ידיים, ביחס לממוצע של אותה מניה. הסורק כותב ״מחזור ×2.5״: פי שתיים וחצי מהרגיל. הנפח מראה כמה כסף אמיתי עומד מאחורי תנועה.',
+ why:'נפח הוא ההוכחה שתנועה אמיתית. פריצה בלי נפח היא חשודה, ופריצה בנפח כפול היא סיפור אחר לגמרי.',
+ svg:`<svg ${V} role="img" aria-label="נפח גבוה בנקודת הפריצה">
+ <polyline class="p" points="10,60 40,55 70,62 100,50 130,56 160,48 190,28 215,22 232,26"/>
+ ${[10,8,12,9,11,8,10,9,12,10,9,11,36,26,18].map((h,i)=>`<rect x="${6+15*i}" y="${114-h}" width="9" height="${h}" class="${i==12?'f-acc':'f-muted'}"/>`).join('')}
+ <line x1="6" y1="104" x2="234" y2="104" class="lvl s-muted" style="stroke-dasharray:2 3"/>
+ <text x="8" y="100" class="he">ממוצע</text><text x="176" y="72" text-anchor="end" class="t-acc">x2.4</text></svg>`,
+ how:'משווים לנפח הממוצע של 20 או 50 יום. פריצה בנפח של פי 1.5 ומעלה מראה השתתפות רחבה. ירידה בנפח בזמן תיקון מראה שהמוכרים חלשים.',
+ mis:'להסתכל על נפח במספרים מוחלטים. 2 מיליון מניות זה הרבה במניה קטנה ומעט במניה גדולה. תמיד משווים לממוצע של אותה מניה.',
+ ours:'בסורק הפריצות מחזור ×2.5 ומעלה הוא המסנן החזק: שיעור פריצות השווא ירד מ-47.5% ל-42.9% וההחזקה מעל הקו עלתה ל-67.8%. היתרון נשמר גם בחלון האישור.',},
+{id:17,g:'signals',t:'פריצה',en:'Breakout',
+ def:'המחיר עובר רמת מפתח, לרוב התנגדות, ונסגר מעבר לה. הצד השני לא הצליח לעצור אותו. זה האיתות המרכזי של הסורק.',
+ why:'הפריצה היא הרגע שבו הקונים מנצחים סוף סוף את הרמה שעצרה אותם, ולרוב משם המהלך רק מתחיל.',
+ svg:`<svg ${V} role="img" aria-label="פריצה עם סגירה מעל ההתנגדות ונפח גבוה">
+ <line x1="6" y1="45" x2="234" y2="45" class="lvl s-bear"/>
+ <polyline class="p" points="10,90 35,47 60,82 90,47 115,78 140,47 165,72"/>
+ <line x1="185" y1="22" x2="185" y2="74" class="s-bull" stroke-width="1.5"/><rect x="177" y="28" width="16" height="42" rx="1" class="f-bull"/>
+ ${[6,8,5,9,7,6,8].map((h,i)=>`<rect x="${16+25*i}" y="${116-h}" width="8" height="${h}" class="f-muted"/>`).join('')}<rect x="181" y="98" width="8" height="18" class="f-acc"/>
+ <text x="8" y="40" class="he t-bear">התנגדות</text><text x="196" y="112" class="t-acc">x1.7</text><text x="198" y="36" class="he t-bull">סגירה</text></svg>`,
+ how:'שלושה תנאים: סגירה מעבר לרמה ולא רק פתיל, מחזור גבוה מהממוצע, ובסיס שקדם לפריצה. פריצה בלי מחזור חשודה.',
+ mis:'לקנות פתיל שחצה את הרמה באמצע היום. הרבה פריצות נכשלות וחוזרות מתחת לרמה עד הסגירה. זו פריצת שווא.',
+ ours:'סורק הפריצות סימן את CRDO ב-25/9 כפריצה מאושרת: סגירה ב-210.97 מעל 200, מחזור פי 1.74 מהממוצע, RSI 58.',},
+{id:18,g:'signals',t:'התאוששות',en:'Recovery',nw:1,
+ def:'מניה שנפלה חזק מהשיא ומתחילה לחזור: היא חוצה רמת מפתח בדרך חזרה למעלה, אבל עדיין רחוקה מהשיא ולעיתים מתחת לממוצע 200.',
+ why:'זה האיתות המוקדם: נכנסים בשלב ההתאוששות ולא אחרי שהמניה כבר חזרה לשיא. המחיר של המוקדם הוא סיכון גבוה יותר.',
+ svg:`<svg ${V} role="img" aria-label="מניה מתאוששת ממפולת וחוצה רמה">
+ <line x1="6" y1="18" x2="234" y2="18" class="lvl s-muted"/>
+ <text x="232" y="12" text-anchor="end" class="he">שיא 52 שבועות</text>
+ <line x1="120" y1="58" x2="234" y2="58" class="lvl s-acc"/>
+ <polyline class="p" points="10,20 30,48 50,86 70,96 92,88 112,92 132,80 152,70 172,52 195,38 222,30"/>
+ <circle cx="172" cy="52" r="6" class="ring" style="stroke:var(--accent)"/>
+ <text x="126" y="70" class="he t-acc">רמת פריצה</text>
+ <text x="172" y="112" text-anchor="middle" class="he">עוד 40% עד השיא</text></svg>`,
+ howL:'איפה רואים בסורק',
+ how:'בלשונית ״פריצות ומגמה״, כרטיסים עם תגית ״התאוששות״: מופיע המרחק מהשיא (למשל ״23% מתחת לשיא״), הרמה שנחצתה, יעד וסטופ.',
+ mis:'להתבלבל ולחשוב שהתאוששות היא מגמה עולה מאושרת. הסורק מסמן ״מתחת ל-SMA 200, המגמה הארוכה עדיין יורדת, להקטין פוזיציה״ בדיוק בשביל זה.',},
+{id:19,g:'signals',t:'נסיגה',en:'Pullback / דיפ',nw:1,
+ def:'ירידה זמנית בתוך מגמה עולה. המחיר ״לוקח אוויר״, יורד לעבר ממוצע או רמה, ואם המגמה בריאה הוא ממשיך משם למעלה.',
+ why:'הנסיגה היא נקודת הכניסה הנוחה: במקום לרדוף אחרי מניה שטסה, קונים אותה קרוב לתמיכה עם סטופ צמוד.',
+ svg:`<svg ${V} role="img" aria-label="נסיגה אל הממוצע בתוך מגמה עולה">
+ <polyline points="10,108 60,84 110,66 160,50 232,32" fill="none" class="s-muted" stroke-width="1.5" style="stroke-dasharray:4 3"/>
+ <polyline class="p bull" points="10,102 45,62 72,88 100,48 128,72 158,32 186,58 220,16"/>
+ <circle cx="128" cy="72" r="8" class="ring" style="stroke:var(--accent)"/>
+ <text x="128" y="92" text-anchor="middle" class="he t-acc">נסיגה</text>
+ <text x="232" y="26" text-anchor="end">ממוצע</text></svg>`,
+ howL:'איפה רואים בסורק',
+ how:'לשונית ״דיפים ותיקונים״ מחפשת בדיוק את זה: תיקון רדוד אחרי קריסה טרייה, לעיתים עם RSI מתחת ל-30. זה סורק תובעני: בסריקה אחת רק 5 מתוך 916 מניות עמדו בכל התנאים.',
+ mis:'לקנות כל ירידה כאילו היא נסיגה. ירידה במגמה יורדת היא לא נסיגה, היא המשך ירידה. התנאי הוא מבנה עולה לפני הירידה.',},
+{id:20,g:'signals',t:'בדיקה חוזרת',en:'Retest',
+ def:'אחרי פריצה המחיר חוזר לבדוק את הרמה שנפרצה. התנגדות ישנה הופכת לתמיכה, ובשבירה כלפי מטה תמיכה הופכת להתנגדות.',
+ why:'ההזדמנות השנייה: מי שלא נכנס בפריצה מקבל כניסה נוספת, עם סטופ ברור מתחת לרמה.',
+ svg:`<svg ${V} role="img" aria-label="בדיקה חוזרת של רמה שנפרצה">
+ <line x1="6" y1="60" x2="234" y2="60" class="lvl s-acc"/>
+ <polyline class="p bull" points="10,95 35,62 55,85 80,62 105,38 125,26 150,58 175,32 215,12"/>
+ <circle cx="150" cy="58" r="8" class="ring"/><text x="150" y="80" text-anchor="middle" class="he t-bear">בדיקה חוזרת</text>
+ <text x="8" y="112" class="he t-acc">התנגדות שהפכה לתמיכה</text></svg>`,
+ how:'מחכים שהמחיר יחזור לאזור הרמה, ייעצר שם ויציג נר דחייה: פתיל תחתון ארוך או נר שורי. כניסה כאן מאפשרת סטופ צמוד, קצת מתחת לרמה.',
+ mis:'להניח שתמיד תהיה בדיקה חוזרת. פריצות חזקות במיוחד, למשל על חדשות, לפעמים לא חוזרות. זה בסדר לפספס אותן.',
+ ours:'בסורק: מניה שפרצה וכבר רחוקה מהרמה מסומנת ״רחוקה״, עם טווח ״כניסה בחזרה״ וסטופ. זו בדיוק הבדיקה החוזרת.',},
+{id:21,g:'signals',t:'RSI',en:'Relative Strength Index',nw:1,
+ def:'מדד מומנטום בין 0 ל-100 שמשווה את גודל העליות לגודל הירידות ב-14 הימים האחרונים. מעל 70 המניה ״חמה״, מתחת 30 היא ״קרה״ ומכורה ביתר.',
+ why:'ה-RSI עונה על שאלה אחת: עד כמה המהלך האחרון חריג. זה עוזר להבין אם קונים חוזק או הנחה.',
+ svg:`<svg ${V} role="img" aria-label="מתנד RSI בין אזורי 30 ו-70">
+ <rect x="6" y="10" width="228" height="24" class="z-bear"/><rect x="6" y="86" width="228" height="24" class="z-bull"/>
+ <line x1="6" y1="34" x2="234" y2="34" class="lvl s-bear"/><line x1="6" y1="86" x2="234" y2="86" class="lvl s-bull"/>
+ <line x1="6" y1="60" x2="234" y2="60" class="lvl s-muted" style="stroke-dasharray:2 3"/>
+ <polyline class="p" points="10,72 30,52 50,78 70,40 90,64 110,26 130,58 150,80 170,46 190,70 210,38 232,62"/>
+ <text x="232" y="30" text-anchor="end" class="t-bear">70 · חם</text><text x="232" y="82" text-anchor="end" class="t-bull">30 · קר</text></svg>`,
+ howL:'איפה רואים בסורק',
+ how:'בכל איתות בסורק מופיע ה-RSI של יום האיתות. פריצה עם RSI סביב 55–65 נחשבת בריאה; מעל 77 המחיר כבר רחוק מהרמה. בסורק הדיפים RSI מתחת ל-30 הוא חלק מההגדרה.',
+ mis:'למכור אוטומטית ב-70 ולקנות אוטומטית ב-30. במגמה חזקה ה-RSI יכול להישאר מעל 70 שבועות ולהמשיך לעלות.',},
+{id:22,g:'signals',t:'שבירת מבנה ושינוי אופי',en:'BOS & CHOCH',
+ def:'שבירת מבנה (BOS) היא שיא חדש מעל הקודם במגמה עולה: המגמה מאושרת. שינוי אופי (CHOCH) הוא שבירה של השפל האחרון: האזהרה הראשונה שהמגמה עלולה להתהפך.',
+ why:'השניים האלה הם ההבדל בין ״להישאר בפוזיציה״ ל״לצאת בזמן״. אחד מאשר, השני מזהיר.',
+ svg:`<svg ${V} role="img" aria-label="שבירת מבנה ושינוי אופי">
+ <line x1="120" y1="6" x2="120" y2="114" class="lvl s-muted" style="stroke-dasharray:2 4"/>
+ <line x1="75" y1="45" x2="116" y2="45" class="lvl s-bull"/>
+ <polyline class="p bull" points="8,100 30,62 50,80 75,45 95,72 112,28"/>
+ <circle cx="104" cy="45" r="3" class="f-bull"/><text x="60" y="20" class="t-bull" style="font-weight:700">BOS</text>
+ <line x1="168" y1="80" x2="236" y2="80" class="lvl s-bear"/>
+ <polyline class="p bear" points="130,100 150,60 168,80 190,42 208,62 232,104"/>
+ <circle cx="218" cy="80" r="3" class="f-bear"/><text x="200" y="20" class="t-bear" style="font-weight:700">CHOCH</text>
+ <text x="60" y="114" class="he">אישור המשך</text><text x="200" y="114" text-anchor="middle" class="he">אזהרת היפוך</text></svg>`,
+ how:'מסמנים בגרף את השיאים והשפלים האחרונים. סגירה מעל השיא הקודם היא BOS. סגירה מתחת לשפל האחרון היא CHOCH.',
+ mis:'להפוך פוזיציה מיד על CHOCH ראשון. זו אזהרה בלבד, ומחכים לשיא נמוך (LH) שיאשר את הכיוון החדש.',},
+{id:23,g:'mgmt',t:'ניהול סיכונים',en:'Risk Management',
+ def:'קובעים מראש כמה מותר להפסיד בעסקה, בדרך כלל 1–2% מהתיק, ומזה גוזרים את גודל הפוזיציה. לא בוחרים כמות ואז מקווים לטוב.',
+ why:'זה הדבר היחיד שבשליטה מלאה שלך. ניתוח טוב בלי ניהול סיכון מסתיים באותה צורה בדיוק.',
+ svg:`<svg ${V} role="img" aria-label="כניסה, סטופ ויעד ביחס 1 ל-2">
+ <rect x="30" y="12" width="160" height="48" class="z-bull"/><rect x="30" y="60" width="160" height="24" class="z-bear"/>
+ <line x1="30" y1="60" x2="190" y2="60" class="s-ink" stroke-width="2"/>
+ <line x1="30" y1="12" x2="190" y2="12" class="s-bull" stroke-width="1.5"/><line x1="30" y1="84" x2="190" y2="84" class="s-bear" stroke-width="1.5"/>
+ <text x="196" y="16" class="t-bull">+2R</text><text x="196" y="63" class="he t-ink">כניסה</text><text x="196" y="88" class="t-bear">−1R</text>
+ <text x="110" y="40" text-anchor="middle" class="he t-bull">יעד</text><text x="110" y="76" text-anchor="middle" class="he t-bear">סטופ</text>
+ <text x="110" y="108" text-anchor="middle" class="he">סיכון של 1% מהתיק לעסקה</text></svg>`,
+ how:'גודל פוזיציה = (תיק × אחוז סיכון) ÷ (כניסה − סטופ). מחפשים יחס סיכוי:סיכון של 1:2 לפחות. אפשר לחשב במחשבון בהמשך העמוד.',
+ mis:'לבחור קודם כמה מניות ״מרגיש נכון״ ורק אחר כך סטופ. הסדר הפוך: סטופ, סיכון, כמות.',
+ ours:'בביוטק בינארי סטופ לא מגן מפני גאפ. KOD קפצה 178% בלילה אחד, וכישלון יכול להפיל מניה ב-70% באותה מהירות. לפני אירוע כזה קובעים גודל לפי ההפסד המלא האפשרי, לא לפי הסטופ.',},
+{id:24,g:'mgmt',t:'דיוק הסורק',en:'Accuracy Metrics',nw:1,
+ def:'הסורק מודד את עצמו: כמה אחוזים מהאיתותים היו חיוביים 20 יום אחרי (שיעור פגיעה), מול קו בסיס, כלומר מה שקרה למניה ממוצעת באותה תקופה. הבדיקה חוזרת על חלון אישור: תקופה שלא שימשה לכיול הכללים.',
+ why:'המספרים האלה אומרים כמה לסמוך על סוג איתות. הם לא מבטיחים דבר על האיתות הבא בנפרד.',
+ svg:`<svg ${V} role="img" aria-label="שיעור פגיעה מול קו בסיס">
+ <line x1="20" y1="100" x2="220" y2="100" class="s-muted"/>
+ <rect x="50" y="34" width="34" height="66" rx="2" class="f-acc"/><rect x="90" y="46" width="34" height="54" rx="2" class="f-muted"/>
+ <rect x="150" y="42" width="34" height="58" rx="2" class="f-acc"/><rect x="190" y="52" width="30" height="48" rx="2" class="f-muted"/>
+ <text x="67" y="28" text-anchor="middle" class="t-acc">62.5%</text><text x="107" y="40" text-anchor="middle">53.6%</text>
+ <text x="167" y="36" text-anchor="middle" class="t-acc">59.2%</text><text x="205" y="46" text-anchor="middle">51.7%</text>
+ <text x="87" y="112" text-anchor="middle" class="he">היסטוריה</text><text x="185" y="112" text-anchor="middle" class="he">חלון אישור</text></svg>`,
+ howL:'איפה רואים בסורק',
+ how:'תיבות ״ממצא מרכזי״ בלשוניות הפריצות והדיפים. שימו לב לניסוח: המדדים מתייחסים לזיהוי ולהמשכיות, ואינם תחזית תשואה.',
+ mis:'לקרוא ״62.5% חיוביים״ כ״כל איתות שני מצליח״. זה ממוצע על מאות איתותים היסטוריים; בכל עסקה בודדת הסיכון מנוהל בסטופ.',},
+{id:25,g:'mgmt',t:'פסיכולוגיית מסחר',en:'Trading Psychology',
+ def:'סבלנות, משמעת ושליטה ברגשות. רוב ההפסדים הגדולים באים מחריגה מהתוכנית, לא מניתוח שגוי.',
+ why:'הפער בין תוכנית טובה לתוצאה טובה הוא ההתנהגות שלך בין הכניסה ליציאה.',
+ svg:`<svg ${V} role="img" aria-label="עקומת תיק עם תוכנית ובלי תוכנית">
+ <polyline class="p bull" points="10,90 40,85 70,80 100,82 130,70 160,66 190,58 230,44"/>
+ <polyline class="p bear" style="stroke-dasharray:4 3" points="10,90 30,70 50,95 70,60 90,100 110,75 130,108 160,98 230,112"/>
+ <text x="234" y="36" text-anchor="end" class="he t-bull">עם תוכנית</text><text x="70" y="52" text-anchor="middle" class="he t-bear">בלי תוכנית</text></svg>`,
+ how:'לפני כל עסקה כותבים כניסה, סטופ, יעד וסיבה. קובעים הפסד יומי מקסימלי ומפסיקים כשמגיעים אליו. מנהלים יומן עסקאות.',
+ mis:'לרדוף אחרי מניה שכבר עלתה (FOMO), או להגדיל פוזיציה אחרי הפסד כדי להחזיר אותו.',
+ ours:'פספוס כמו KOD הוא חלק מהמשחק. מה שמגן הוא תהליך, כלומר התראות ורשימת מעקב, ולא כניסה מאוחרת בכל מחיר.',},
+{id:26,g:'fund',t:'מכפיל רווח',en:'P/E + Forward P/E',nw:1,
+ def:'כמה דולרים משלמים היום על כל דולר רווח שנתי של החברה. מחיר מניה 100$ ורווח למניה 5$ נותנים מכפיל 20: משלמים מראש על 20 שנות רווח. המכפיל העתידי (FWD P/E) עושה אותו חישוב על הרווח הצפוי בשנה הבאה, ולכן בחברה צומחת הוא נמוך יותר.',
+ why:'הדרך המהירה לענות אם מניה יקרה או זולה ביחס לרווחים שלה, ולהשוות חברות מאותו מגזר.',
+ svg:`<svg ${V} role="img" aria-label="מחיר מניה חלקי רווח למניה שווה מכפיל עשרים">
+ <rect x="14" y="24" width="24" height="76" rx="2" class="f-acc" style="opacity:.8"/>
+ <rect x="50" y="81" width="24" height="19" rx="2" class="f-bull"/>
+ <text x="26" y="112" text-anchor="middle">$100</text><text x="26" y="18" text-anchor="middle" class="he">מחיר</text>
+ <text x="62" y="112" text-anchor="middle">$5</text><text x="62" y="73" text-anchor="middle" class="he">רווח למניה</text>
+ <text x="100" y="66" text-anchor="middle" style="font-size:16px">÷</text><text x="100" y="86" text-anchor="middle" style="font-size:16px">=</text>
+ <text x="172" y="58" text-anchor="middle" class="t-ink" style="font-size:26px;font-weight:700">P/E 20</text>
+ <text x="172" y="80" text-anchor="middle" class="he">20 שנות רווח מראש</text></svg>`,
+ howL:'איך משתמשים',
+ how:'משווים מכפיל לחברות מאותו מגזר, לא לשוק כולו. מכפיל 25 בטכנולוגיה יכול להיות זול, ומכפיל 15 בבנק יכול להיות יקר. כשהמכפיל העתידי נמוך בהרבה מהשוטף, השוק מתמחר צמיחה.',
+ mis:'מכפיל נמוך אינו ״מציאה״ אוטומטית. לפעמים הוא נמוך כי הרווחים עומדים ליפול, וזו מלכודת ערך.'},
+{id:27,g:'fund',t:'PEG',en:'P/E to Growth',nw:1,
+ def:'מכפיל הרווח חלקי קצב הצמיחה השנתי של הרווח באחוזים. מכפיל 30 עם צמיחה של 15% נותן PEG של 2. סביב 1 נחשב מאוזן: המחיר מתאים לקצב הצמיחה.',
+ why:'מתקן את החולשה של המכפיל הרגיל: חברה שצומחת מהר ראויה למכפיל גבוה יותר, וה-PEG אומר כמה יותר.',
+ svg:`<svg ${V} role="img" aria-label="סולם PEG מאפס עד שלוש עם סמן על שתיים">
+ <rect x="20" y="52" width="66" height="14" rx="7" class="z-bull"/>
+ <rect x="86" y="52" width="66" height="14" rx="0" class="z-warn"/>
+ <rect x="152" y="52" width="68" height="14" rx="7" class="z-bear"/>
+ <path d="M179,44 l7,-12 l7,12 z" class="f-bear"/>
+ <text x="20" y="78" text-anchor="middle">0</text><text x="86" y="78" text-anchor="middle">1</text>
+ <text x="152" y="78" text-anchor="middle">2</text><text x="218" y="78" text-anchor="middle">3</text>
+ <text x="190" y="24" text-anchor="middle" class="t-bear" style="font-weight:700">PEG 2.0</text>
+ <text x="20" y="104" class="he">P/E 30 ÷ צמיחה 15%</text></svg>`,
+ howL:'איך משתמשים',
+ how:'PEG מתחת ל-1 מסמן שהצמיחה זולה ביחס למחיר, ומעל 2 שהמחיר כבר מתמחר צמיחה מרשימה. משתמשים בו רק בחברות שבאמת צומחות בקצב יציב.',
+ mis:'להשתמש ב-PEG בחברה בלי צמיחה או עם קפיצה חד פעמית ברווח. המספר מניח שהקצב יימשך שנים.'},
+{id:28,g:'fund',t:'מכפיל הון',en:'P/B · Price to Book',nw:1,
+ def:'מחיר החברה בבורסה חלקי שווי הנכסים נטו במאזן (ההון העצמי). P/B של 2 אומר שמשלמים שני דולרים על כל דולר של נכסים נטו.',
+ why:'עוגן לחברות עם נכסים ממשיים כמו בנקים ותעשייה: מתחת ל-1 משלמים פחות מערך הנכסים.',
+ svg:`<svg ${V} role="img" aria-label="שווי בבורסה מול שווי נכסים במאזן, יחס שתיים">
+ <rect x="30" y="20" width="42" height="84" rx="3" class="f-acc" style="opacity:.8"/>
+ <rect x="86" y="62" width="42" height="42" rx="3" class="f-muted" style="opacity:.7"/>
+ <text x="51" y="115" text-anchor="middle" class="he">שווי בבורסה</text>
+ <text x="107" y="115" text-anchor="middle" class="he">נכסים נטו</text>
+ <text x="180" y="62" text-anchor="middle" class="t-ink" style="font-size:22px;font-weight:700">P/B 2</text></svg>`,
+ howL:'איך משתמשים',
+ how:'שימושי בעיקר לבנקים, ביטוח ותעשייה. בחברות תוכנה, שהנכס שלהן הוא קוד ומותג, המאזן לא מכסה את הערך האמיתי והמכפיל גבוה מטבעו.',
+ mis:'לדרוש P/B נמוך מחברת תוכנה. הנכסים החשובים שלה בכלל לא נמצאים במאזן.'},
+{id:29,g:'fund',t:'EV/EBITDA',en:'Enterprise Value Multiple',nw:1,
+ def:'מכפיל שלוקח את שווי החברה כולל החוב שלה (EV) ומחלק ברווח התפעולי לפני ריבית, מס, פחת ופיחות (EBITDA). בניגוד למכפיל הרווח, הוא לא מתעלם מהחוב.',
+ why:'שתי חברות עם אותו רווח נטו יכולות להיות שונות לחלוטין אם לאחת חוב ענק. המכפיל הזה רואה את התמונה המלאה.',
+ svg:`<svg ${V} role="img" aria-label="שווי מניות ועוד חוב שווה שווי חברה, חלקי רווח תפעולי">
+ <rect x="14" y="56" width="46" height="44" rx="3" class="f-acc" style="opacity:.8"/>
+ <rect x="14" y="26" width="46" height="26" rx="3" class="f-bear" style="opacity:.7"/>
+ <text x="37" y="83" text-anchor="middle" class="he" style="font-size:9px">מניות</text>
+ <text x="37" y="43" text-anchor="middle" class="he" style="font-size:9px">חוב</text>
+ <text x="74" y="66" text-anchor="middle" style="font-size:14px">=</text>
+ <text x="106" y="66" text-anchor="middle" class="t-ink" style="font-size:15px;font-weight:700">EV</text>
+ <text x="128" y="66" text-anchor="middle" style="font-size:14px">÷</text>
+ <text x="162" y="62" text-anchor="middle" class="he" style="font-size:10px">רווח</text>
+ <text x="162" y="74" text-anchor="middle" class="he" style="font-size:10px">תפעולי</text>
+ <text x="206" y="66" text-anchor="middle" class="t-ink" style="font-size:17px;font-weight:700">×10</text>
+ <text x="120" y="108" text-anchor="middle" class="he">כולל את החוב, לא רק את המניות</text></svg>`,
+ howL:'איך משתמשים',
+ how:'ערכים נפוצים: 8–14 בחברות יציבות, יותר בצמיחה. טוב במיוחד להשוואה בין חברות עם רמות חוב שונות.',
+ mis:'לשכוח שה-EBITDA אינו תזרים אמיתי. הוא לא מוריד השקעות בציוד, וחברות עתירות ציוד נראות בו טוב מדי.'},
+{id:30,g:'fund',t:'יחס חוב להון',en:'Debt / Equity',nw:1,
+ def:'כמה חוב יש לחברה על כל דולר של הון עצמי. יחס של 1 אומר שהחוב שווה להון, ויחס של 3 אומר שהחוב פי שלושה.',
+ why:'חוב גדול הופך עסק טוב לשברירי: כשהמכירות יורדות, הריבית ממשיכה לרוץ.',
+ svg:`<svg ${V} role="img" aria-label="חוב פי שניים מההון העצמי">
+ <rect x="40" y="60" width="44" height="44" rx="3" class="f-bull" style="opacity:.75"/>
+ <rect x="98" y="16" width="44" height="88" rx="3" class="f-bear" style="opacity:.7"/>
+ <text x="62" y="115" text-anchor="middle" class="he">הון עצמי</text>
+ <text x="120" y="115" text-anchor="middle" class="he">חוב</text>
+ <text x="186" y="62" text-anchor="middle" class="t-ink" style="font-size:20px;font-weight:700">D/E 2</text></svg>`,
+ howL:'איך משתמשים',
+ how:'משווים בתוך המגזר: בנקים ותשתיות חיים על חוב מטבעם, חברות תוכנה אמורות להיות כמעט בלי. בחברה עם חוב גבוה בודקים גם שהרווח מכסה את הריבית בנוחות.',
+ mis:'לברוח מכל חוב. חוב זול שמממן צמיחה רווחית הוא כלי לגיטימי. השאלה היא הגודל.'},
+{id:31,g:'fund',t:'שולי רווח נטו',en:'Net Margin',nw:1,
+ def:'כמה אחוזים מכל שקל מכירות נשאר כרווח נטו אחרי כל ההוצאות והמיסים. שוליים של 20% אומרים שמכל 100 ש״ח מכירות נשארו 20 ש״ח רווח.',
+ why:'השוליים הם חוזק העסק: חברה עם שוליים רחבים שורדת ירידת מכירות, וחברה עם שוליים דקים נמחקת בה.',
+ svg:`<svg ${V} role="img" aria-label="מאה שקל מכירות שמתוכם עשרים שקל רווח">
+ <rect x="40" y="16" width="52" height="64" rx="3" class="f-muted" style="opacity:.55"/>
+ <rect x="40" y="67" width="52" height="13" rx="3" class="f-bull"/>
+ <text x="66" y="98" text-anchor="middle" class="he">100 ש״ח מכירות</text>
+ <path d="M92,72 C130,72 130,46 158,46" fill="none" class="s-bull" stroke-width="1.5"/>
+ <text x="190" y="42" text-anchor="middle" class="t-bull" style="font-size:17px;font-weight:700">20%</text>
+ <text x="190" y="58" text-anchor="middle" class="he">רווח נטו</text></svg>`,
+ howL:'איך משתמשים',
+ how:'השוליים משתנים בין מגזרים: תוכנה 20–30%, סופרמרקטים 1–3%. הכיוון חשוב כמו הרמה: שוליים שמתרחבים משנה לשנה הם סימן מצוין.',
+ mis:'להשוות שוליים בין מגזרים שונים. שוליים של 2% בסופרמרקט הם נורמליים, לא חולשה.'},
+{id:32,g:'fund',t:'תשואה על ההון',en:'ROE · Return on Equity',nw:1,
+ def:'כמה רווח מייצרת החברה בשנה על כל דולר של הון עצמי. ROE של 20% אומר שהחברה הגדילה את כסף הבעלים ב-20% בשנה. מדד קרוב, ROIC, מודד אותו דבר על כל ההון כולל חוב.',
+ why:'זה מבחן היכולת של ההנהלה: חברה שמייצרת ROE גבוה בעקביות יודעת להפוך כסף לעוד כסף.',
+ svg:`<svg ${V} role="img" aria-label="הון של מאה מייצר רווח של עשרים">
+ <rect x="24" y="60" width="48" height="44" rx="3" class="f-acc" style="opacity:.8"/>
+ <text x="48" y="115" text-anchor="middle" class="he">הון 100</text>
+ <path d="M76,76 C108,76 104,40 134,40" fill="none" class="s-bull" stroke-width="1.5"/>
+ <path d="M128,34 l12,6 l-12,6 z" class="f-bull"/>
+ <rect x="140" y="24" width="52" height="30" rx="3" class="f-bull" style="opacity:.8"/>
+ <text x="166" y="43" text-anchor="middle" style="fill:#fff;font-weight:700">+20</text>
+ <text x="166" y="70" text-anchor="middle" class="he">רווח בשנה</text>
+ <text x="166" y="98" text-anchor="middle" class="t-bull" style="font-size:15px;font-weight:700">ROE 20%</text></svg>`,
+ howL:'איך משתמשים',
+ how:'מחפשים ROE של 15% ומעלה בעקביות לאורך שנים. זהירות: חוב גבוה מנפח את ה-ROE מלאכותית, ולכן בודקים אותו תמיד יחד עם יחס החוב להון.',
+ mis:'להתרשם מ-ROE של 40% בלי לבדוק חוב. לעיתים קרובות זה מינוף, לא גאונות.'},
+{id:33,g:'fund',t:'צמיחה ברווח ובמכירות',en:'EPS & Revenue Growth',nw:1,
+ def:'בכמה אחוזים גדלו הרווח למניה (EPS) והמכירות בשנה האחרונה, ומה הצפי לשנה הבאה. מכירות שצומחות בלי שהרווח צומח אומרות שהגדילה לא משתלמת.',
+ why:'המכפילים אומרים כמה משלמים, והצמיחה אומרת מה מקבלים. יחד הם רוב הסיפור של מניית צמיחה.',
+ svg:`<svg ${V} role="img" aria-label="ארבעה עמודות רווח עולות ברבע אחוזים בשנה">
+ <rect x="30" y="84" width="30" height="20" rx="2" class="f-muted" style="opacity:.6"/>
+ <rect x="74" y="72" width="30" height="32" rx="2" class="f-muted" style="opacity:.7"/>
+ <rect x="118" y="56" width="30" height="48" rx="2" class="f-acc" style="opacity:.7"/>
+ <rect x="162" y="34" width="30" height="70" rx="2" class="f-acc" style="opacity:.9"/>
+ <text x="177" y="26" text-anchor="middle" class="t-acc" style="font-weight:700">+25%</text>
+ <text x="120" y="114" text-anchor="middle" class="he">רווח למניה בשנה</text></svg>`,
+ howL:'איך משתמשים',
+ how:'מחפשים מכירות ורווח למניה שצומחים יחד. מכירות צומחות עם רווח יורד מסמנות שהחברה ״קונה״ גדילה בהנחות ובמבצעים.',
+ mis:'לשלם על צמיחת עבר כאילו היא צמיחת עתיד. המחיר מתמחר את מה שצפוי, לא את מה שכבר קרה.'},
+{id:34,g:'fund',t:'תשואת תזרים חופשי',en:'FCF Yield',nw:1,
+ def:'התזרים החופשי השנתי (המזומן שנשאר אחרי כל ההוצאות וההשקעות) חלקי שווי החברה. תשואה של 5% אומרת שהחברה מייצרת בשנה מזומן בשווי 5% מהמחיר שלה.',
+ why:'רווח אפשר לייפות בחשבונאות, מזומן הרבה יותר קשה לזייף. זו הבדיקה שהרווח אמיתי.',
+ svg:`<svg ${V} role="img" aria-label="תזרים חופשי של חמישה אחוזים משווי החברה">
+ <rect x="26" y="28" width="64" height="76" rx="4" fill="none" class="s-muted" stroke-width="2"/>
+ <rect x="26" y="85" width="64" height="19" rx="4" class="f-bull" style="opacity:.85"/>
+ <text x="58" y="60" text-anchor="middle" class="he" style="font-size:9px">שווי החברה</text>
+ <text x="58" y="118" text-anchor="middle" class="he">5$ מזומן בשנה</text>
+ <text x="168" y="62" text-anchor="middle" class="t-bull" style="font-size:21px;font-weight:700">5%</text>
+ <text x="168" y="80" text-anchor="middle" class="he">תשואת תזרים</text></svg>`,
+ howL:'איך משתמשים',
+ how:'משווים לתשואת האג״ח: אם ה-10Y נותן 4.5% ותשואת התזרים 2%, משלמים יקר על הצמיחה. תזרים שלילי בחברה צעירה נורמלי; בחברה מבוססת זה דגל אדום.',
+ mis:'להתעלם מתזרים שלילי מתמשך. חברה ששורפת מזומן חייבת לגייס עוד, והגיוס מדלל את הבעלים.'},
+{id:35,g:'fund',t:'תשואת דיבידנד',en:'Dividend Yield',nw:1,
+ def:'הדיבידנד השנתי חלקי מחיר המניה. תשואה של 3% על מניה של 100$ אומרת 3$ בשנה במזומן, בלי קשר לתנועת המחיר.',
+ why:'הדיבידנד הוא החלק היחיד בתשואה שמגיע גם כשהמחיר לא זז, אבל תשואה גבוהה מדי היא לפעמים מלכודת.',
+ svg:`<svg ${V} role="img" aria-label="מניה של מאה דולר מחזירה שלושה דולר בשנה דיבידנד">
+ <circle cx="60" cy="60" r="34" fill="none" class="s-acc" stroke-width="14" style="opacity:.55"/>
+ <path d="M60,26 A34,34 0 0 1 92.4,51.7" fill="none" class="s-bull" stroke-width="14"/>
+ <text x="60" y="64" text-anchor="middle" class="t-ink" style="font-size:15px;font-weight:700">3%</text>
+ <text x="160" y="52" text-anchor="middle" class="he">3$ בשנה</text>
+ <text x="160" y="68" text-anchor="middle" class="he">על כל 100$</text></svg>`,
+ howL:'איך משתמשים',
+ how:'בודקים שהתזרים מכסה את הדיבידנד ושיחס החלוקה משאיר רווח לצמיחה. תשואה של 8% לרוב אומרת שהמחיר ירד והשוק לא מאמין שהדיבידנד יחזיק מעמד.',
+ mis:'לרדוף אחרי התשואה הגבוהה ביותר ברשימה. דיבידנד שממומן מחוב או ממכירת נכסים לא ישרוד.'}
+];
+const GN={market:'תמונת השוק',base:'יסודות הגרף',signals:'אותות הסורק',fund:'מכפילים ופונדמנטלים',mgmt:'ניהול'};
+const GS={market:'מה שרואים בלשונית תמונת שוק, ומה זה אומר על תנאי המסחר',
+ base:'איך קוראים גרף: מבנה, מגמה, נרות ורמות',
+ signals:'איך הסורקים מזהים פריצות, התאוששויות ונסיגות, ואיך קוראים את הכרטיסים',
+ fund:'כמה החברה שווה ביחס למה שהיא מרוויחה: המספרים שבודקים לפני שקונים',
+ mgmt:'איך שומרים על הכסף, ואיך הסורק מודד את עצמו'};
+const ORDER=['market','base','signals','fund','mgmt'];
+
+let learned=new Set();
+try{learned=new Set(JSON.parse(localStorage.getItem('concepts-learned')||'[]'))}catch(e){}
+const save=()=>{try{localStorage.setItem('concepts-learned',JSON.stringify([...learned]))}catch(e){}};
+let filter='all';
+
+function card(c){
+  const el=document.createElement('article');el.className='card';el.dataset.id=c.id;
+  el.innerHTML=`<div class="card-head"><div><div class="num">${String(c.id).padStart(2,'0')} · ${GN[c.g]}</div><h3>${c.t}</h3><div class="en">${c.en}</div></div>${c.nw?'<span class="tag">חדש</span>':''}</div>
+  <p class="def">${c.def}</p>
+  <div class="why"><b>למה זה משנה</b><span>${c.why}</span></div>
+  <figure>${c.svg}</figure>
+  <details><summary>להעמיק</summary><div class="deep">
+   <div><h4>${c.howL||'איך מזהים'}</h4><p>${c.how}</p></div>
+   <div class="warn"><h4>טעות נפוצה</h4><p>${c.mis}</p></div>
+   ${c.ours?`<div class="ours"><h4>מהסורקים שלנו</h4><p>${c.ours}</p></div>`:''}
+  </div></details>
+  <label class="learned"><input type="checkbox" id="l${c.id}" ${learned.has(c.id)?'checked':''}> סמן כנלמד</label>`;
+  el.querySelector('input').addEventListener('change',e=>{
+    e.target.checked?learned.add(c.id):learned.delete(c.id);save();render();
+  });
+  if(learned.has(c.id)) el.classList.add('done');
+  return el;
+}
+function render(){
+  const box=document.getElementById('cards');
+  const open=new Set([...box.querySelectorAll('details[open]')].map(d=>d.closest('.card').dataset.id+':'+[...d.parentNode.querySelectorAll('details')].indexOf(d)));
+  box.innerHTML='';
+  const put=c=>{const el=card(c);el.querySelectorAll('details').forEach((d,i)=>{if(open.has(c.id+':'+i))d.open=true});box.appendChild(el)};
+  if(filter==='all'){
+    ORDER.forEach(g=>{
+      const list=C.filter(c=>c.g===g);
+      if(!list.length)return;
+      const h=document.createElement('div');h.className='ghead';h.innerHTML=`<h2>${GN[g]}</h2><span>${GS[g]}</span>`;box.appendChild(h);
+      list.forEach(put);
+    });
+  }else{
+    const list=C.filter(c=>filter==='todo'?!learned.has(c.id):c.g===filter);
+    list.forEach(put);
+    if(!list.length)box.innerHTML='<p class="empty">למדת את כל המושגים בקטגוריה הזו. אפשר לחזור ל״הכל״ ולתרגל שוב.</p>';
+  }
+  const n=learned.size;document.getElementById('pText').textContent=`${n}/${C.length}`;
+  document.getElementById('pBar').style.width=(n/C.length*100)+'%';
+}
+document.querySelectorAll('.chip').forEach(b=>b.addEventListener('click',()=>{
+  filter=b.dataset.f;document.querySelectorAll('.chip').forEach(x=>x.setAttribute('aria-pressed',x===b));render();
+}));
+render();
+
+/* checklist */
+const CK=[
+ ['מגמה','הגרף השבועי והיומי באותו כיוון (מבנה השוק · מגמה)'],
+ ['רמה','יש רמה או אזור ברורים עם שתי נגיעות לפחות (תמיכה והתנגדות · היצע וביקוש)'],
+ ['אות','פריצה בסגירה, התאוששות, נסיגה או בדיקה חוזרת — לא ניחוש (אותות הסורק)'],
+ ['מחזור','המחזור ביום האות גבוה מהממוצע, רצוי ×1.5 ומעלה (מחזור מסחר)'],
+ ['שוק','בריאות השוק לא באזור לחץ, והמגזר של המניה לא אדום (תמונת השוק)'],
+ ['סטופ','הסטופ מתחת למבנה, במרחק מהרמה הברורה שכולם רואים (נזילות)'],
+ ['גודל','הכמות חושבה לפי 1–2% סיכון במחשבון למטה (ניהול סיכונים)'],
+ ['יחס','היעד רחוק לפחות פי 2 מהסטופ (R:R)'],
+ ['אירוע','אין לפני המניה אירוע בינארי (דוח, נתוני ניסוי, FDA), או שהגודל הותאם אליו (ביוטק)']
+];
+const cp=document.getElementById('checkPanel');
+cp.innerHTML=CK.map((k,i)=>`<label for="ck${i}"><input type="checkbox" id="ck${i}"><span><b>${k[0]}</b><small>${k[1]}</small></span></label>`).join('')+'<p class="verdict" id="verdict"></p>';
+function verdict(){
+  const n=cp.querySelectorAll('input:checked').length,v=document.getElementById('verdict');
+  v.className='verdict'+(n===CK.length?' go':'');
+  v.textContent=n===CK.length?'כל התנאים מתקיימים. העסקה עומדת בכללים.':`${n} מתוך ${CK.length} תנאים. חסר: ${CK.filter((k,i)=>!document.getElementById('ck'+i).checked).map(k=>k[0]).join(', ')}.`;
+}
+cp.addEventListener('change',verdict);verdict();
+
+/* calculator */
+const $=id=>document.getElementById(id);
+const num=id=>parseFloat(String($(id).value).replace(/,/g,''));
+const fmt=(x,d=0)=>x.toLocaleString('en-US',{maximumFractionDigits:d,minimumFractionDigits:d});
+function calc(){
+  const acc=num('acc'),rp=num('rp'),en=num('en'),sl=num('sl'),tp=num('tp');
+  const note=$('oNote');note.className='note';
+  if(!(acc>0&&rp>0&&en>0&&sl>0)||en===sl){['oQty','oRisk','oVal','oRR'].forEach(i=>$(i).textContent='–');note.textContent='מלאו גודל תיק, אחוז סיכון, כניסה וסטופ.';return}
+  const riskAmt=acc*rp/100,per=Math.abs(en-sl),qty=Math.floor(riskAmt/per),val=qty*en,side=en>sl?1:-1;
+  $('oQty').textContent=fmt(qty);$('oRisk').textContent='$'+fmt(qty*per,2);$('oVal').textContent='$'+fmt(val);
+  let msg=`${side>0?'קנייה':'מכירה בחסר'}: סיכון של $${fmt(per,2)} למניה. הפוזיציה היא ${fmt(val/acc*100,1)}% מהתיק.`;
+  if(tp>0){const rew=(tp-en)*side;$('oRR').textContent=rew>0?'1 : '+fmt(rew/per,2):'–';
+    if(rew<=0){msg+=' היעד בצד הלא נכון של הכניסה.';note.className='note bad'}
+    else if(rew/per<2){msg+=' היחס נמוך מ-1:2.';note.className='note bad'}}
+  else $('oRR').textContent='–';
+  if(rp>2){msg+=' סיכון מעל 2% לעסקה.';note.className='note bad'}
+  if(val>acc){msg+=' שווי הפוזיציה גדול מהתיק, צריך מינוף.';note.className='note bad'}
+  if(qty<1){msg='הסטופ רחוק מדי ביחס לסכום הסיכון, אי אפשר לקנות אפילו מניה אחת.';note.className='note bad'}
+  note.textContent=msg;
+}
+['acc','rp','en','sl','tp'].forEach(i=>$(i).addEventListener('input',calc));calc();
+
+/* glossary */
+const GL=[['HH / HL','Higher High / Higher Low: שיא גבוה יותר / שפל גבוה יותר. מבנה של מגמה עולה.'],
+['LH / LL','Lower High / Lower Low: שיא נמוך יותר / שפל נמוך יותר. מבנה של מגמה יורדת.'],
+['BOS','Break of Structure: שבירת שיא או שפל בכיוון המגמה. אישור המשך.'],
+['CHOCH','Change of Character: שבירה נגד המגמה. האזהרה הראשונה להיפוך.'],
+['SMA / DMA','Simple Moving Average: ממוצע נע. 50 יום למגמה בינונית, 200 יום לארוכה.'],
+['רוחב שוק','Breadth: אחוז המניות במדד שנסחרות מעל הממוצע שלהן. מודד השתתפות.'],
+['VIX','מדד התנודתיות הצפויה, ״מדד הפחד״. מתחת 20 רגוע, מעל 30 לחץ.'],
+['10Y','תשואת אג״ח ארה״ב ל-10 שנים. הריבית הבסיסית של השוק העולמי.'],
+['ETF','קרן סל: סל ניירות שנסחר כמו מניה אחת. XLK למשל הוא מגזר הטכנולוגיה.'],
+['Fear & Greed','מדד סנטימנט 0–100 של CNN. מתחת 25 פחד קיצוני, מעל 75 תאווה קיצונית.'],
+['RSI','Relative Strength Index: מומנטום בין 0 ל-100. מעל 70 חם, מתחת 30 קר.'],
+['SL / TP','Stop Loss / Take Profit: מחיר היציאה בהפסד / ברווח.'],
+['R','יחידת סיכון: המרחק מהכניסה לסטופ. 2R = רווח כפול מהסיכון.'],
+['R:R','Risk:Reward. יחס הסיכון לסיכוי. יעד מינימלי 1:2.'],
+['ATR','Average True Range: התנודה היומית הממוצעת. עוזר לקבוע מרווח לסטופ.'],
+['Doji','נר עם פתיחה וסגירה כמעט זהות. התלבטות.'],
+['Gap','פער בין סגירה לפתיחה הבאה. סטופ לא מגן מפניו.'],
+['Sweep','ציד נזילות: קפיצה קצרה מעבר לרמה שאוספת סטופים וחוזרת.'],
+['שיא 52 שבועות','המחיר הגבוה בשנה האחרונה. ההתאוששות נמדדת במרחק ממנו.'],
+['התאוששות','Recovery: חזרה של מניה ממפולת, עוד לפני שהגיעה לשיא.'],
+['נסיגה','Pullback: ירידה זמנית בתוך מגמה עולה, לעבר ממוצע או רמה.'],
+['שיעור פגיעה','Hit Rate: אחוז האיתותים שהיו חיוביים 20 יום אחרי.'],
+['קו בסיס','Baseline: הביצוע הממוצע של מניה כלשהי באותה תקופה, להשוואה.'],
+['חלון אישור','Validation: תקופה שלא שימשה לכיול הכללים. בדיקה הוגנת יותר.'],
+['FOMO','Fear Of Missing Out: כניסה מאוחרת מפחד לפספס.'],
+['שווי שוק','Market Cap: מחיר המניה כפול מספר המניות. גודל החברה בבורסה.'],
+['P/E','מכפיל רווח: מחיר חלקי רווח שנתי למניה. כמה משלמים על כל דולר רווח.'],
+['FWD P/E','מכפיל רווח עתידי: אותו חישוב על הרווח הצפוי בשנה הבאה.'],
+['PEG','מכפיל הרווח חלקי קצב הצמיחה. סביב 1 נחשב מאוזן.'],
+['P/B','מכפיל הון: שווי החברה חלקי שווי הנכסים נטו במאזן.'],
+['EV / EBITDA','שווי החברה כולל חוב חלקי הרווח התפעולי. מכפיל שלא מתעלם מחוב.'],
+['EBITDA','רווח תפעולי לפני ריבית, מס, פחת ופיחות. קירוב לתזרים התפעולי.'],
+['Debt/Equity','יחס חוב להון: כמה חוב יש על כל דולר של הון עצמי.'],
+['שולי רווח','Net Margin: אחוז הרווח הנטו מכל שקל מכירות.'],
+['ROE','Return on Equity: תשואה על ההון העצמי. כמה רווח מייצר כל דולר של הבעלים.'],
+['EPS','Earnings Per Share: הרווח השנתי חלקי מספר המניות.'],
+['תזרים חופשי','Free Cash Flow: המזומן שנשאר אחרי כל ההשקעות. הרווח הקשה לזיוף.'],
+['FCF Yield','תשואת תזרים: התזרים החופשי חלקי שווי החברה.'],
+['Div Yield','תשואת דיבידנד: הדיבידנד השנתי חלקי מחיר המניה.'],
+['דיבידנד','חלוקת רווח למשקיעים במזומן, לרוב רבעונית.']];
+document.getElementById('gloss').innerHTML=GL.map(g=>`<div class="term"><b>${g[0]}</b><p>${g[1]}</p></div>`).join('');
+</script>
+</body>
+</html>
