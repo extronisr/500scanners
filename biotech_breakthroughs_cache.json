@@ -1,5 +1,5 @@
 {
- "fetched_at": "24.10.2026, 20:30",
+ "fetched_at": "24.10.2026, 21:51",
  "items": [
   {
    "title": "argenx (ENXTBR:ARGX) Reports Positive Phase 3 Data In Autoimmune Myositis - Yahoo Finance",
@@ -62,6 +62,24 @@
    "ncts": []
   },
   {
+   "title": "Upacicalcet Meets Primary Endpoints in Phase 3 Trials for Secondary Hyperparathyroidism - The Clinical Trial Vanguard",
+   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNd0JnQmlvQ3BVTmNaRHJ1YlhXUGdxQ09aTFRhUlAzdkVBa2FWZVplblB0M0tRTlVYMXlpbVRDZ0ZrbkxFSlFqNndpTjdBWlpEVTBEVkJBQW5PckNsS2t4NS1GY19HVnVlTDNYdlN3aUNZbF9kOVlCSDNxcy1JWVlRSWRhb1ltYmZ2M0tLWElYVVJUUmMza0NHMVdQS3FjeElzcmZId3VzenVXRHlTQnhtYmlfUXdQMkEyOXRJb0xNdEttT3I2VGU3c2FUQQ?oc=5",
+   "pub_ts": 1792823973.0,
+   "date": "24.10.2026, 9:39",
+   "cat": "phase3",
+   "sev": 4,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNd0JnQmlvQ3BVTmNaRHJ1YlhXUGdxQ09aTFRhUlAzdkVBa2FWZVplblB0M0tRTlVYMXlpbVRDZ0ZrbkxFSlFqNndpTjdBWlpEVTBEVkJBQW5PckNsS2t4NS1GY19HVnVlTDNYdlN3aUNZbF9kOVlCSDNxcy1JWVlRSWRhb1ltYmZ2M0tLWElYVVJUUmMza0NHMVdQS3FjeElzcmZId3VzenVXRHlTQnhtYmlfUXdQMkEyOXRJb0xNdEttT3I2VGU3c2FUQQ?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
    "title": "FDA Approves Subcutaneous Induction for Skyrizi in Crohn's Disease - Pharmaceutical Executive",
    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbGlVUTlrdGdydEJkOTRHUksxQm8wLVFvVV9YX3FVd3RTR1pPM1ZBdWFacWN2LWNxZG9aX0JhcnRhNmhDTFhtd3RWdHhTUEJKLUtkU2VUN0JRYzA1TThyTlNOME0zdkdjaVA2SXY1X3ZfOXJ0WVdBZWRkcjBvMjY2Q2lhSVctdUNxMzY4OC1sdUo2Slk?oc=5",
    "pub_ts": 1792786786.0,
@@ -70,7 +88,9 @@
    "sev": 4,
    "dir": 1,
    "tickers": [],
-   "companies": [],
+   "companies": [
+    "GSK"
+   ],
    "sources": [
     {
      "source": "Google News",
@@ -81,8 +101,8 @@
      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOenRJLTJkZDlnbjVUSTlZQ1JFMEZDYW4yMXpUNHJJSmNTR2kwb093bzV0UXJxZEJ5NERzcldaZXY3eUljSVE3c2JreDVyRzBnQnZwUldJN09pTWF1ZXM5WFp0cy14VlVUdGFZcE0xbHVSdWNHSkNqeE56YU1KSC0zbUJZVmRJanFMLWdhUA?oc=5"
     },
     {
-     "source": "FDA",
-     "link": "http://www.fda.gov/news-events/press-announcements/fda-approves-first-its-kind-chronic-hepatitis-b-treatment"
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221276"
     }
    ],
    "ncts": []
@@ -125,10 +145,6 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNanYxQ2tteXo1dDJrLTZmdXdKWTdYMktvb1dGa190OXA4OGpOZnJhaW9hVVU1WVlZOWVRR0ZuMmo0Qm9XNkxVejZIVkdHNUNIWTNHVzhSeGdCTFkxWnZxeHM2ZDBFOTNFczlYTzY5TVJrSDAxOFdzUFlfQW9vSDhUR0dmQ0NBTVBfSUhVdTZLZXFvZ0NQdWFBWm94Q00yNTB1cHVycFVoWjVLOU5DaFNCXzlWVk5jeXdxT0pocFpfaWR4ZFU?oc=5"
-    },
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQQUkyem94X29yZ1dvSm40Tm91Q3BsbGZ0cy02SGd5Vk1uZk5MZmdMdTEtaHFJUUtaRkpEckItVnR0N1VvSEt2azY5d0swZFpKVXdjc3B6dmVHUlN3RjZrT0w1VXR0b016c29lb3c1LXZtYlVYeHJCMXNPOW5NdGtQSGRReU1ISFJpQ21lcXBDU04tdWtHZ0lxSkNhWThJclRtWG1SbVBIMnlBeGQ4WjM5ZjNRNUdoM0U1VlBGdENsU0I5WGtIYjh2eG1lblI?oc=5"
     }
    ],
    "ncts": []
@@ -152,6 +168,32 @@
     }
    ],
    "ncts": []
+  },
+  {
+   "title": "Roche puts numbers behind phase 3 kidney disease win amid blockbuster ambitions - Fierce Biotech",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNT1VhLWlDMTJiVHpNMHVHbHRqMmRlekdLNEZWWXFkYldlZUVEZGZmY2VZZTBnYVJZZmJGMWdJOURTV0duWHlFUmFDRW1kZXZ6ck1HRXlqTXptTnRucVE1b3dpazd3eWNBYUhaM0ZOcGkxbmljZm5sT1ZXa1ZxVDZVUXFUZzRBeTZ4cG4xTVBqRHRyR0laQXd4WlN3?oc=5",
+   "pub_ts": 1792776600.0,
+   "date": "23.10.2026, 20:30",
+   "cat": "phase3",
+   "sev": 4,
+   "dir": 1,
+   "tickers": [],
+   "companies": [
+    "RHHBY"
+   ],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNT1VhLWlDMTJiVHpNMHVHbHRqMmRlekdLNEZWWXFkYldlZUVEZGZmY2VZZTBnYVJZZmJGMWdJOURTV0duWHlFUmFDRW1kZXZ6ck1HRXlqTXptTnRucVE1b3dpazd3eWNBYUhaM0ZOcGkxbmljZm5sT1ZXa1ZxVDZVUXFUZzRBeTZ4cG4xTVBqRHRyR0laQXd4WlN3?oc=5"
+    },
+    {
+     "source": "ClinicalTrials.gov",
+     "link": "https://clinicaltrials.gov/study/NCT05627557"
+    }
+   ],
+   "ncts": [
+    "NCT05627557"
+   ]
   },
   {
    "title": "Hibsago Receives FDA Approval for Chronic HBV Treatment - Infectious Disease Advisor",
@@ -198,34 +240,16 @@
     },
     {
      "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNSU51UVhyYWRJS1BmVXQ4d0ZwMDdJTnRiRkt3MGZYSnVfNFB0dDR4eUtqc2Y5NEVRM0dQeHkxMzA1VXFqOXFXdkhqbnREb0d1Mi1FcnkyVzhmWUJaQzhnN3VWNkotUWhZNWdqbWRtRWh2U3dJNmw1ZDlWb2NIMXFJOFltQ1hoSVpvQUVvZVpaWjhwdWFYd1ZUdUR3OGtNM1J2WXVBWlE3angtQU5QSEJ2U245YnVURHRiejgyeGVn?oc=5"
+     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPSEVYVkdkSzZldU9vU2QzZGhYSmF1blgzR2RGRy1BY1RTejJTTmZOLVltQVhRQkx1RkZpNEQ1UkhMNmFQOUJTS1UxYjdWUXo2ZTBubjFrelZpd0pzRkItaVU0R0VxV0RUSWcwc0ExVlFUZkJQbEVWQVFoQ3JuZXU1QURtOXVnZC0yS18tc3BFTFEtNkZsTEJlZUxiWDJSU21CanBWQlhBZTh5ZS1XWkR2UGRfdFFUQjgtM2JtS0l0LXZ2d0hteUFhbWtDdFk0ejJBVWNfaQ?oc=5"
     }
    ],
    "ncts": []
   },
   {
-   "title": "Lutikizumab Meets Primary End Point in Phase 3 HS Trial - Dermatology Times",
-   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxORGRodTJKMF9HUHJiMHQ0LWdsa0xLZjh4aExveEMwdUxJT3d6Mnc4UUlFaTVZbjVRak9aTW1IY3dpTnB6blpmV21Ka2VWajhHSXAtQ2l3c3BWT0lwQzNLZ05RNmY4VjZMc09YYnR6eWdUNTlJelh1RDZpNzdSNUdoN3VUZEV3NFdnV1M5VU9WNXFpa2hLdWc4NA?oc=5",
-   "pub_ts": 1792682217.0,
-   "date": "22.10.2026, 18:16",
-   "cat": "phase3",
-   "sev": 4,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxORGRodTJKMF9HUHJiMHQ0LWdsa0xLZjh4aExveEMwdUxJT3d6Mnc4UUlFaTVZbjVRak9aTW1IY3dpTnB6blpmV21Ka2VWajhHSXAtQ2l3c3BWT0lwQzNLZ05RNmY4VjZMc09YYnR6eWdUNTlJelh1RDZpNzdSNUdoN3VUZEV3NFdnV1M5VU9WNXFpa2hLdWc4NA?oc=5"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "FDA Approves Immunotherapy That May Allow Certain Patients with Rectal Cancer to Avoid Chemotherapy, Radiation and Surgery",
-   "link": "http://www.fda.gov/news-events/press-announcements/fda-approves-immunotherapy-may-allow-certain-patients-rectal-cancer-avoid-chemotherapy-radiation-and",
-   "pub_ts": 1792426778.0,
-   "date": "19.10.2026, 19:19",
+   "title": "FDA approves Cienby (Fresenius Medcl Care)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219455",
+   "pub_ts": 1792368000.0,
+   "date": "19.10.2026",
    "cat": "fda",
    "sev": 4,
    "dir": 1,
@@ -233,17 +257,21 @@
    "companies": [],
    "sources": [
     {
-     "source": "FDA",
-     "link": "http://www.fda.gov/news-events/press-announcements/fda-approves-immunotherapy-may-allow-certain-patients-rectal-cancer-avoid-chemotherapy-radiation-and"
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219455"
+    },
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219456"
     }
    ],
    "ncts": []
   },
   {
-   "title": "FDA Approves First Treatment for Certain People With BCG-Unresponsive Bladder Cancer",
-   "link": "http://www.fda.gov/news-events/press-announcements/fda-approves-first-treatment-certain-people-bcg-unresponsive-bladder-cancer",
-   "pub_ts": 1791990891.0,
-   "date": "14.10.2026, 18:14",
+   "title": "FDA approves Yulzety (Rosemont Pharms)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221033",
+   "pub_ts": 1792108800.0,
+   "date": "16.10.2026",
    "cat": "fda",
    "sev": 4,
    "dir": 1,
@@ -251,8 +279,34 @@
    "companies": [],
    "sources": [
     {
-     "source": "FDA",
-     "link": "http://www.fda.gov/news-events/press-announcements/fda-approves-first-treatment-certain-people-bcg-unresponsive-bladder-cancer"
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221301"
+    },
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220407"
+    },
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220783"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA approves Brytly (Alcon Laboratories, Inc.)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220341",
+   "pub_ts": 1792108800.0,
+   "date": "16.10.2026",
+   "cat": "fda",
+   "sev": 4,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220341"
     }
    ],
    "ncts": []
@@ -470,10 +524,6 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQRVRvVUhvRGZBTW1wdWE1LWxSNzd4SDQ4ZUluU0VFbGpqbTQyLWdIYUJkOUdnWU1MWmRfSmJUdG5aV3psRzEtZnFKVnhUSTFEWi15aWo2RURqV3cyY1kxbXdZS0VESklvMmtmX3FneXRDM2V4Zy1pUUdwSVFTdk1wazkta3pIa2NISHl2X180UDVfZ2xZNWlHNTdTRFc?oc=5"
-    },
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOcEN0amRhYmpJMjlQOVdTbHBfUGFtVEYzc1FHZk1XTTdMV1d3WVF0NU4yZEZKQ0M1azQyeWtfR2JXb08ySDVHYkxzaFJNYWtTREhVZENSWG1UeVhvaVVZOFhwZVlSUFBZNFI1RnBqNWxSNURULWFSTXJHaGgwbVlGYjgwVk9SbzZnNTBXR1lHeFRuQ3FYRV96UzhNR19EMF9JMjlOd2M3VFJMZlJyb3pvY1k3VVQ1S25uM0Q1U3JwY1N1ai1ERmU5OS1nNlRsRU0?oc=5"
     }
    ],
    "ncts": []
@@ -506,22 +556,16 @@
    "dir": 0,
    "tickers": [],
    "companies": [
-    "GILD",
-    "RHHBY"
+    "GILD"
    ],
    "sources": [
     {
      "source": "ClinicalTrials.gov",
      "link": "https://clinicaltrials.gov/study/NCT05502341"
-    },
-    {
-     "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT05627557"
     }
    ],
    "ncts": [
-    "NCT05502341",
-    "NCT05627557"
+    "NCT05502341"
    ]
   },
   {
@@ -567,6 +611,50 @@
    ]
   },
   {
+   "title": "FDA approves generic Tofacitinib Citrate (Ajanta Pharma Ltd)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219542",
+   "pub_ts": 1792368000.0,
+   "date": "19.10.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219542"
+    },
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219628"
+    },
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220432"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA approves generic Eribulin Mesylate (Kindos)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=218930",
+   "pub_ts": 1792368000.0,
+   "date": "19.10.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=218930"
+    }
+   ],
+   "ncts": []
+  },
+  {
    "title": "A Study of Rusfertide in Adults With Polycythemia Vera (PV)",
    "link": "https://clinicaltrials.gov/study/NCT05210790",
    "pub_ts": 1792368000.0,
@@ -587,6 +675,42 @@
    "ncts": [
     "NCT05210790"
    ]
+  },
+  {
+   "title": "FDA approves generic Progesterone (Novast Labs)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219588",
+   "pub_ts": 1792108800.0,
+   "date": "16.10.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219588"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA approves generic Cabozantinib S-Malate (Cipla)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=217870",
+   "pub_ts": 1792108800.0,
+   "date": "16.10.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=217870"
+    }
+   ],
+   "ncts": []
   },
   {
    "title": "A Study of Orforglipron (LY3502970) Compared With Dapagliflozin in Adult Participants With Type 2 Diabetes and Inadequate Glycemic Control With Metformin",
@@ -614,6 +738,64 @@
     "NCT06192108",
     "NCT06280716"
    ]
+  },
+  {
+   "title": "FDA approves generic Ciprofloxacin And Dexamethasone (Alembic)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=217723",
+   "pub_ts": 1792022400.0,
+   "date": "15.10.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=217723"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA approves generic Sodium Phosphates (Amneal)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=218274",
+   "pub_ts": 1792022400.0,
+   "date": "15.10.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=218274"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA approves generic Buprenorphine Hydrochloride (Gland)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221145",
+   "pub_ts": 1792022400.0,
+   "date": "15.10.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221145"
+    },
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=208359"
+    }
+   ],
+   "ncts": []
   },
   {
    "title": "Study of Carbetocin Nasal Spray for the Treatment of Hyperphagia in Prader-Willi Syndrome",
@@ -687,6 +869,24 @@
    "ncts": [
     "NCT04701983"
    ]
+  },
+  {
+   "title": "FDA approves generic Lubiprostone (Humanwell Puracap)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221049",
+   "pub_ts": 1791936000.0,
+   "date": "14.10.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221049"
+    }
+   ],
+   "ncts": []
   },
   {
    "title": "A Study of Adeno-Associated Virus Serotype 8-Mediated Gene Transfer of Glucose-6-Phosphatase in Patients With Glycogen Storage Disease Type Ia (GSDIa)",
