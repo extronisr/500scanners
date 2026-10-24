@@ -368,10 +368,12 @@ def test_cluster_breakthroughs_merges_same_story():
 
 
 def test_breakthrough_speculative_and_generic_approvals_capped():
+    # an expectation of approval is not an approval event: own category, no direction
     c = su.classify_breakthrough("MDMA-assisted therapy could get FDA approval as soon as January")
-    assert c["cat"] == "fda" and c["sev"] == 2
+    assert c == {"cat": "spec", "sev": 2, "dir": 0}
+    # a generic approval is a real approval, capped severity
     c = su.classify_breakthrough("FDA Approves First Generic Hormone Therapy Patch")
-    assert c["cat"] == "fda" and c["sev"] == 2
+    assert c["cat"] == "fda" and c["sev"] == 2 and c["dir"] == 1
 
 
 def test_breakthrough_death_as_endpoint_stays_positive():
@@ -490,3 +492,299 @@ def test_fda_items_falls_back_to_openfda(monkeypatch):
     assert items == [{"title": "FDA approves X"}] and errs == []
     monkeypatch.setattr(g, "_bt_openfda_items", lambda: (_ for _ in ()).throw(RuntimeError("down too")))
     assert g._bt_fda_items(errs) == [] and errs == ["FDA"]
+
+
+def test_cluster_does_not_merge_same_outlet_different_events():
+    items = [
+        {"title": "FDA Approves Subcutaneous Induction for Skyrizi in Crohn's Disease - Pharmaceutical Executive",
+         "cat": "fda", "tickers": [], "companies": [], "sev": 4, "dir": 1,
+         "source": "Google News", "link": "https://sky", "pub_ts": 300},
+        {"title": "FDA Approves Hibsago (Bepirovirsen) for Chronic Hepatitis B - Pharmaceutical Executive",
+         "cat": "fda", "tickers": [], "companies": [], "sev": 4, "dir": 1,
+         "source": "Google News", "link": "https://hib", "pub_ts": 200},
+        {"title": "FDA approves Hibsago (Glaxosmithkline Llc)",
+         "cat": "fda", "tickers": [], "companies": ["GSK"], "sev": 4, "dir": 1,
+         "source": "FDA · openFDA", "link": "https://fda", "pub_ts": 100},
+    ]
+    out = su.cluster_breakthroughs(items)
+    assert len(out) == 2                            # Skyrizi and Hibsago stay separate
+    sky = [c for c in out if "Skyrizi" in c["title"]][0]
+    assert sky["companies"] == []                   # no GSK chip on AbbVie's drug
+    hib = [c for c in out if "Hibsago" in c["title"]][0]
+    assert hib["companies"] == ["GSK"]              # openFDA item joins its own event
+    assert any(s["source"] == "FDA · openFDA" for s in hib["sources"])
+
+
+def test_cluster_bare_fda_approvals_of_different_drugs_do_not_merge():
+    items = [
+        {"title": "FDA approves DrugAlpha", "cat": "fda", "tickers": [], "companies": [],
+         "sev": 4, "dir": 1, "source": "A", "link": "https://a", "pub_ts": 200},
+        {"title": "FDA approves DrugBeta", "cat": "fda", "tickers": [], "companies": [],
+         "sev": 4, "dir": 1, "source": "B", "link": "https://b", "pub_ts": 100},
+    ]
+    assert len(su.cluster_breakthroughs(items)) == 2
+
+
+# ------------------------------------------------------- audit 2026-10-24 regressions
+
+def test_disc_medicine_alias_is_iron():
+    assert su.BT_COMPANY_ALIASES["disc medicine"] == "IRON"
+    assert su.build_bt_lexicon({}).get("disc medicine") == "IRON"
+
+
+def test_her2_subtype_is_not_a_positive_readout():
+    # "HER2-positive" names the cancer subtype, not the trial result
+    c = su.classify_breakthrough("BioX reports phase 3 data in HER2-positive gastroesophageal cancer")
+    assert c is not None and c["dir"] != 1 and c["sev"] <= 3
+    assert su.breakthrough_direction("Phase 3 data in HER2-positive breast cancer") == 0
+
+
+def test_fresh_positive_readout_outranks_historical_crl():
+    c = su.classify_breakthrough("Disc Medicine spins past FDA rejection with overwhelmingly positive phase 3 data")
+    assert c["cat"] == "phase3" and c["dir"] == 1 and c["sev"] == 4
+
+
+def test_actual_crl_headline_still_crl():
+    for t in ("FDA rejects Disc Medicine drug, issues complete response letter",
+              "Company receives CRL from FDA for its lead candidate"):
+        c = su.classify_breakthrough(t)
+        assert c == {"cat": "crl", "sev": 3, "dir": -1}, t
+
+
+def _bt(title, cat="phase3", sev=3, dir=1, tickers=None, companies=None, nct=None, ts=0):
+    return {"title": title, "link": title[:10], "pub_ts": ts, "source": "s",
+            "cat": cat, "sev": sev, "dir": dir, "date": "2026-10-24",
+            "tickers": tickers or [], "companies": companies or [], "nct": nct}
+
+
+def test_cluster_conflicting_nct_blocks_merge():
+    items = [_bt("Pfizer announces positive phase 3 results for drugA in lung cancer",
+                 sev=4, tickers=["PFE"], companies=["PFE"], nct="NCT111", ts=1000),
+             _bt("Pfizer phase 3 trial of drugB in heart failure fails primary endpoint",
+                 sev=3, dir=-1, tickers=["PFE"], companies=["PFE"], nct="NCT222", ts=2000)]
+    cl = su.cluster_breakthroughs(items)
+    assert len(cl) == 2  # the failure keeps its own representation
+
+
+def test_cluster_same_company_needs_token_evidence():
+    # same company + same category but nothing else shared: no merge
+    items = [_bt("Pfizer announces positive phase 3 results for drugA in lung cancer",
+                 sev=4, tickers=["PFE"], companies=["PFE"], ts=1000),
+             _bt("Pfizer phase 3 win for drugB in heart failure",
+                 sev=4, tickers=["PFE"], companies=["PFE"], ts=2000)]
+    assert len(su.cluster_breakthroughs(items)) == 2
+
+
+def test_cluster_same_event_shared_drug_still_merges():
+    items = [_bt("FDA approves Pfizer xarelto for atrial fibrillation",
+                 sev=4, tickers=["PFE"], companies=["PFE"], ts=1000),
+             _bt("Pfizer wins FDA nod as xarelto cleared for atrial fibrillation",
+                 sev=4, tickers=["PFE"], companies=["PFE"], ts=2000)]
+    assert len(su.cluster_breakthroughs(items)) == 1
+
+
+def test_cluster_cross_company_medical_term_no_merge():
+    items = [_bt("Acme reports phase 3 results in pulmonary hypertension",
+                 tickers=["ACME"], companies=["ACME"], ts=1000),
+             _bt("Zebra therapeutics phase 3 data in pulmonary fibrosis",
+                 dir=-1, tickers=["ZBRA"], companies=["ZBRA"], ts=2000)]
+    assert len(su.cluster_breakthroughs(items)) == 2
+
+
+def test_cluster_cross_outlet_same_event_still_merges():
+    items = [_bt("Hibsago wins FDA approval for chronic hepatitis B",
+                 cat="fda", sev=4, companies=["GSK"], ts=1000),
+             _bt("GSK's Hibsago hepatitis B vaccine approved by FDA",
+                 cat="fda", sev=4, tickers=["GSK"], ts=2000)]
+    cl = su.cluster_breakthroughs(items)
+    assert len(cl) == 1 and len(cl[0]["sources"]) == 2
+
+
+def test_risk_pct_is_relative_to_entry():
+    import breakout_lib as b
+    assert b.risk_pct(100, 90) == 10.0
+    assert abs(b.risk_pct(110, 99) - 10.0) < 1e-9
+
+
+def test_chart_closes_volumes_keep_pairs():
+    import generate as g
+    orig = g.http_get_json
+    g.http_get_json = lambda *a, **k: {"chart": {"result": [
+        {"indicators": {"quote": [{"close": [10.0, 11.0, None, 12.0],
+                                   "volume": [100, 200, 999, 400]}]}}]}}
+    try:
+        closes, vols = g.chart_closes_volumes("TEST")
+    finally:
+        g.http_get_json = orig
+    assert closes == [10.0, 11.0, 12.0]
+    assert vols == [100.0, 200.0, 400.0]  # the null bar's volume dropped with it
+
+
+def test_expected_to_date_window_end():
+    import generate as g
+    import datetime as _dt
+    d, approx, wend = g._expected_to_date("Q4 2026")
+    assert d == _dt.date(2026, 10, 1) and approx and wend == _dt.date(2026, 12, 31)
+    d, approx, wend = g._expected_to_date("2H 2026")
+    assert d == _dt.date(2026, 7, 1) and approx and wend == _dt.date(2026, 12, 31)
+    d, approx, wend = g._expected_to_date("1H 2027")
+    assert d == _dt.date(2027, 1, 1) and approx and wend == _dt.date(2027, 6, 30)
+    d, approx, wend = g._expected_to_date("2026-11-05")
+    assert not approx and wend == d
+
+
+def test_catalyst_today_first_and_approx_window(tmp_path, monkeypatch):
+    import generate as g
+    import datetime as _dt
+    from zoneinfo import ZoneInfo
+    today = _dt.datetime.now(ZoneInfo("Asia/Jerusalem")).date()
+    q = (today.month - 1) // 3 + 1
+    cfg = {"asof": "x", "events": [
+        {"ticker": "FAR", "event": "far future", "expected": (today + _dt.timedelta(days=158)).isoformat()},
+        {"ticker": "TODAY", "event": "happens today", "expected": today.isoformat()},
+        {"ticker": "QNOW", "event": "this quarter", "expected": f"Q{q} {today.year}"},
+        {"ticker": "OLD", "event": "long past", "expected": "Q1 2020"},
+    ]}
+    (tmp_path / "biotech_catalysts.json").write_text(
+        __import__("json").dumps(cfg), encoding="utf-8")
+    monkeypatch.setattr(g, "BASE_DIR", str(tmp_path))
+    res = g.catalyst_section()
+    tick_order = [c["ticker"] for c in res["upcoming"]]
+    assert tick_order[0] == "TODAY"                     # day 0 is not 9999
+    assert "QNOW" in tick_order                         # open window is not "past"
+    assert [c["ticker"] for c in res["passed"]] == ["OLD"]
+
+
+def test_breadth_coverage_floor(monkeypatch):
+    import market_lib as m
+    tickers = [f"T{i:03d}" for i in range(500)]
+    monkeypatch.setattr(m, "spark_closes_batch",
+                        lambda batch: {batch[0]: [1.0] * 260} if batch else {})
+    out = m.compute_breadth_yahoo(tickers)
+    assert out["s5fi"] is None and out["s5th"] is None   # 1/500 is not 100%
+    # 100-day series: enough for MA50, never for MA200
+    monkeypatch.setattr(m, "spark_closes_batch",
+                        lambda batch: {t: [1.0] * 100 for t in batch})
+    out = m.compute_breadth_yahoo(tickers)
+    assert out["s5fi"] == 100.0 and out["s5th"] is None  # MA200 coverage tracked separately
+
+
+def test_pullback_rejects_stale_series(monkeypatch):
+    import pandas as pd
+    import generate as g
+    monkeypatch.setattr(su, "is_pullback_uptrend", lambda closes, r: {"dd": 5.0})
+    fresh = pd.DataFrame({"Close": [100 + i * 0.1 for i in range(60)],
+                          "Volume": [1e6] * 60},
+                         index=pd.date_range("2026-08-25", periods=60, freq="B"))
+    stale = pd.DataFrame({"Close": [100 + i * 0.1 for i in range(60)],
+                          "Volume": [1e6] * 60},
+                         index=pd.date_range("2021-01-04", periods=60, freq="B"))
+    out = g.pullback_section({"FRESH": fresh, "STALE": stale}, expected="2026-10-23")
+    assert [x["ticker"] for x in out] == ["FRESH"]
+
+
+def test_recovery_path_first_touch():
+    import pandas as pd
+    import generate as g
+    idx = pd.to_datetime(["2026-10-20", "2026-10-21", "2026-10-22", "2026-10-23"])
+    df = pd.DataFrame({"High": [100, 113, 100, 100], "Low": [99, 100, 89, 99],
+                       "Close": [100, 110, 95, 105]}, index=idx)
+    sig = {"ticker": "X", "date": "20/10", "target": 110.0, "stop": 95.0}
+    tgt, stp = g._recovery_path({"X": df}, sig)
+    assert tgt == idx[1] and stp == idx[2]          # target hit a day before the stop
+    df2 = pd.DataFrame({"High": [100, 100, 115, 100], "Low": [99, 89, 100, 99],
+                        "Close": [100, 90, 110, 105]}, index=idx)
+    tgt, stp = g._recovery_path({"X": df2}, sig)
+    assert stp == idx[1] and tgt == idx[2]          # stop hit first
+    df3 = pd.DataFrame({"High": [100, 120, 100, 100], "Low": [99, 80, 99, 99],
+                        "Close": [100, 100, 100, 100]}, index=idx)
+    tgt, stp = g._recovery_path({"X": df3}, sig)
+    assert tgt == idx[1] and stp == idx[1]          # same bar -> order unknown
+
+
+def test_cluster_opposite_directions_never_merge():
+    # same company, same distinctive drug token, no NCTs - but approval vs
+    # rejection are different events; a failure must not vanish into a success
+    items = [
+        {"title": "FDA approves Zynthexa for rare anemia", "cat": "fda", "sev": 4,
+         "dir": 1, "tickers": ["ARGX"], "companies": [], "nct": None,
+         "link": "l1", "pub_ts": 200.0, "date": "24.10.2026, 10:00", "source": "A"},
+        {"title": "FDA rejects Zynthexa for rare anemia", "cat": "fda", "sev": 4,
+         "dir": -1, "tickers": ["ARGX"], "companies": [], "nct": None,
+         "link": "l2", "pub_ts": 100.0, "date": "23.10.2026, 10:00", "source": "B"},
+    ]
+    cl = su.cluster_breakthroughs(items)
+    assert len(cl) == 2
+    dirs = sorted(c["dir"] for c in cl)
+    assert dirs == [-1, 1]
+    assert any("rejects" in c["title"] for c in cl)
+
+
+def test_universe_json_persistence_and_per_index_floor(tmp_path, monkeypatch):
+    import breakout_lib as bl
+    monkeypatch.setattr(bl, "UNIVERSE", tmp_path / "u.csv")
+    monkeypatch.setattr(bl, "UNIVERSE_JSON", tmp_path / "u.json")
+    monkeypatch.setitem(bl.S, "universe", ["sp500", "sp400", "nasdaq100"])
+    monkeypatch.setitem(bl.S, "universe_refresh_days", 7)
+    monkeypatch.setitem(bl.S, "extra_tickers", [])
+    fake = {"sp500": [f"SP{i}" for i in range(500)],
+            "sp400": [f"MD{i}" for i in range(400)],
+            "nasdaq100": [f"ND{i}" for i in range(100)]}
+    monkeypatch.setattr(bl, "_fetch_index", lambda url: fake[[k for k, v in bl.SOURCES.items() if v == url][0]])
+    out = bl.load_universe()
+    assert len(out) == 1000
+    import json as _j
+    meta = _j.loads((tmp_path / "u.json").read_text(encoding="utf-8"))
+    assert len(meta["indexes"]["sp500"]["tickers"]) == 500
+    assert meta["indexes"]["sp500"]["fetched_at"]
+    sp500_stamp = meta["indexes"]["sp500"]["fetched_at"]
+    # fresh checkout WITH the seeded file + one index down + one too short:
+    # failed index keeps its cached bucket AND its old fetched_at (not advanced)
+    def broken(url):
+        if "S%26P_500" in url:
+            raise RuntimeError("down")
+        if "Nasdaq-100" in url:
+            return ["ONLY3"]  # below the per-index minimum
+        return [f"MD{i}" for i in range(400)]
+    monkeypatch.setattr(bl, "_fetch_index", broken)
+    monkeypatch.setitem(bl.S, "universe_refresh_days", 0)  # force refresh attempt
+    out2 = bl.load_universe()
+    got = set(out2)
+    assert {f"SP{i}" for i in range(500)} <= got   # cached sp500 kept
+    assert {f"MD{i}" for i in range(400)} <= got   # sp400 refetched
+    assert {f"ND{i}" for i in range(100)} <= got  # short ndx rejected, cache kept
+    meta2 = _j.loads((tmp_path / "u.json").read_text(encoding="utf-8"))
+    assert meta2["indexes"]["sp500"]["fetched_at"] == sp500_stamp  # NOT advanced
+    meta_ndx = meta2["indexes"]["nasdaq100"]
+    assert meta_ndx["tickers"][0] == "ND0"  # cached bucket, not the fallback
+
+
+
+def test_universe_fresh_checkout_without_cache_failed_index(tmp_path, monkeypatch):
+    # second simulation: fresh runner, no cache at all, non-fallback index down
+    import breakout_lib as bl
+    monkeypatch.setattr(bl, "UNIVERSE", tmp_path / "none.csv")
+    monkeypatch.setattr(bl, "UNIVERSE_JSON", tmp_path / "none.json")
+    monkeypatch.setitem(bl.S, "universe", ["sp500", "sp400", "nasdaq100"])
+    monkeypatch.setitem(bl.S, "universe_refresh_days", 7)
+    monkeypatch.setitem(bl.S, "extra_tickers", [])
+    def broken(url):
+        if "S%26P_500" in url:
+            raise RuntimeError("down")
+        if "Nasdaq-100" in url:
+            raise RuntimeError("down")
+        return [f"MD{i}" for i in range(400)]
+    monkeypatch.setattr(bl, "_fetch_index", broken)
+    out = bl.load_universe()
+    got = set(out)
+    assert {f"MD{i}" for i in range(400)} <= got
+    assert "ASML" in got and "ARM" in got and "MELI" in got  # ndx fallback covers
+    assert not [t for t in got if t.startswith("SP") and t[2:].isdigit()]  # sp500 honestly absent
+
+
+def test_header_honest_about_cadence():
+    import generate as g
+    from datetime import datetime as _dt
+    html = g.build_html(None, [], [], None, _dt.now(g.JER), {})
+    assert "עלולה להתעכב שעות" in html
+    assert "רענון אוטומטי כל 15 דקות" not in html
