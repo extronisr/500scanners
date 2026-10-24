@@ -933,9 +933,57 @@ def _bt_fda_items(errors):
     try:
         return _bt_rss(url, "FDA", 40)
     except Exception as e:
-        errors.append("FDA")
         fail("breakthroughs", f"FDA RSS: {e}")
+    # fda.gov sits behind Akamai and often refuses datacenter IPs (GitHub
+    # runners included), sometimes with an HTML challenge page that fails XML
+    # parsing. Fall back to the openFDA approvals API - different infra, and
+    # the Google News queries keep covering FDA headlines either way.
+    try:
+        items = _bt_openfda_items()
+        if items:
+            return items
+        raise RuntimeError("openFDA returned no items")
+    except Exception as e:
+        errors.append("FDA")
+        fail("breakthroughs", f"openFDA fallback: {e}")
         return []
+
+
+def _bt_openfda_items():
+    """Recent original NDA/BLA approvals via openFDA drugsfda (fallback source).
+    ANDA originals are generic approvals - titled as such so the generic cap
+    keeps them at severity 2."""
+    end = datetime.now(timezone.utc).date()
+    start = end - timedelta(days=BT_LOOKBACK_DAYS)
+    lo, hi = start.strftime("%Y%m%d"), end.strftime("%Y%m%d")
+    q = ("https://api.fda.gov/drug/drugsfda.json?search="
+         f"submissions.submission_status_date:[{lo}+TO+{hi}]"
+         "+AND+submissions.submission_status:%22AP%22&limit=100")
+    data = json.loads(http_get(q, timeout=15, accept="application/json"))
+    out = []
+    for r in data.get("results", []):
+        an = r.get("application_number", "") or ""
+        generic = an.startswith("ANDA")
+        brand = ((r.get("products") or [{}])[0].get("brand_name") or "").strip().title()
+        sponsor = (r.get("sponsor_name") or "").strip().title()
+        recents = [x for x in r.get("submissions", [])
+                   if x.get("submission_status") == "AP"
+                   and x.get("submission_type") == "ORIG"
+                   and lo <= (x.get("submission_status_date") or "") <= hi]
+        if not brand or not recents:
+            continue
+        d = max(x["submission_status_date"] for x in recents)
+        pub = datetime.strptime(d, "%Y%m%d").replace(tzinfo=timezone.utc)
+        title = (f"FDA approves generic {brand} ({sponsor})" if generic
+                 else f"FDA approves {brand} ({sponsor})")
+        out.append({"title": title,
+                    "link": ("https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm"
+                             f"?event=overview.process&ApplNo={re.sub(r'^[A-Z]+', '', an)}"),
+                    "pub_ts": pub.timestamp(),
+                    "date": pub.astimezone(JER).strftime("%d.%m.%Y").lstrip("0"),
+                    "source": "FDA · openFDA"})
+    out.sort(key=lambda x: -(x["pub_ts"] or 0))
+    return out[:40]
 
 
 def _bt_ctgov_items(errors):
@@ -1696,14 +1744,6 @@ def build_html(mh, dips, alerts, bo, updated, extra=None):
         f'<div class="stat"><b>{n_alerts}</b><span>פריטים חדשים</span></div>'
         f'<div class="stat"><b>{n_news}</b><span>חדשות בסריקה</span></div>'
         "</div>")
-    parts.append(
-        '<div class="biorow">'
-        '<button class="linklike" id="markread">סמן הכל כנקרא</button>'
-        '<label style="font-size:.85rem;color:#4b5563">הצג: '
-        '<select id="kindfilter">'
-        '<option value="">הכל</option><option value="news">חדשות</option>'
-        '<option value="price">מחיר</option><option value="sec">דיווח</option>'
-        "</select></label></div>")
     bt = extra.get("bt")
     if bt:
         parts.append('<h3 class="sec">פריצות דרך ביוטק · סריקה כלל-שוקית</h3>')
@@ -1737,6 +1777,14 @@ def build_html(mh, dips, alerts, bo, updated, extra=None):
     else:
         parts.append(f'<div class="ts">SEC EDGAR נבדק עבור {stats["sec_ok"]}/{stats["bio_total"]} חברות</div>')
     parts.append('<h3 class="sec">התראות רשימת המעקב</h3>')
+    parts.append(
+        '<div class="biorow">'
+        '<button class="linklike" id="markread">סמן הכל כנקרא</button>'
+        '<label style="font-size:.85rem;color:#4b5563">הצג: '
+        '<select id="kindfilter">'
+        '<option value="">הכל</option><option value="news">חדשות</option>'
+        '<option value="price">מחיר</option><option value="sec">דיווח</option>'
+        "</select></label></div>")
     parts.append('<div id="bioalerts">')
     if alerts:
         for a in alerts:
@@ -1886,7 +1934,9 @@ var kf=document.getElementById('kindfilter');
 if(kf){kf.addEventListener('change',function(){
 var v=this.value;
 document.querySelectorAll('#bioalerts .alert').forEach(function(c){
-c.style.display=(!v||c.dataset.kind===v)?'':'none';});});}
+c.style.display=(!v||c.dataset.kind===v)?'':'none';});
+var ba=document.getElementById('bioalerts');
+if(ba){ba.scrollIntoView({behavior:'smooth',block:'start'});}});}
 var mr=document.getElementById('markread');
 if(mr){mr.addEventListener('click',function(){
 document.querySelectorAll('.newbadge').forEach(function(b){b.style.display='none';});});}

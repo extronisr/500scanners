@@ -428,3 +428,65 @@ def test_cluster_breakthroughs_does_not_merge_shared_condition():
          "source": "C", "link": "https://c", "pub_ts": 100},
     ]
     assert len(su.cluster_breakthroughs(items)) == 3
+
+
+# ---- breakthrough layer: layout + FDA fallback (post-deploy fixes)
+
+def test_kindfilter_sits_above_watchlist_alerts_not_above_breakthroughs():
+    import generate as g
+    from datetime import datetime
+    extra = {"overview": None, "cnn": None, "cats": None, "trials": None,
+             "secw": None, "radar": [], "acc": None, "bt": None}
+    html = g.build_html(None, [], [], None, datetime.now(g.JER), extra)
+    i_h3 = html.find("התראות רשימת המעקב")
+    i_kf = html.find('id="kindfilter"')
+    i_ba = html.find('id="bioalerts"')
+    assert -1 < i_h3 < i_kf < i_ba          # filter row moved next to the cards it filters
+    assert html.find("scrollIntoView") > 0  # change scrolls the list into view on mobile
+
+
+def test_openfda_fallback_parses_approvals(monkeypatch):
+    import generate as g
+    from datetime import datetime, timedelta, timezone
+    recent = (datetime.now(timezone.utc).date() - timedelta(days=2)).strftime("%Y%m%d")
+    recent2 = (datetime.now(timezone.utc).date() - timedelta(days=5)).strftime("%Y%m%d")
+    payload = {"results": [
+        {"application_number": "NDA021449",
+         "sponsor_name": "ASTRAZENECA AB",
+         "products": [{"brand_name": "BREZTRI AEROSPHERE"}],
+         "submissions": [
+             {"submission_status": "AP", "submission_type": "ORIG",
+              "submission_status_date": recent},
+             {"submission_status": "AP", "submission_type": "SUPPL",
+              "submission_status_date": recent2}]},
+        {"application_number": "ANDA214455",
+         "sponsor_name": "AJANTA PHARMA LTD",
+         "products": [{"brand_name": "TOFACITINIB CITRATE"}],
+         "submissions": [{"submission_status": "AP", "submission_type": "ORIG",
+                          "submission_status_date": recent}]},
+        {"application_number": "NDA999999",       # outside the window: dropped
+         "sponsor_name": "X", "products": [{"brand_name": "OLDDRUG"}],
+         "submissions": [{"submission_status": "AP", "submission_type": "ORIG",
+                          "submission_status_date": "20200101"}]},
+    ]}
+    monkeypatch.setattr(g, "http_get", lambda *a, **k: __import__("json").dumps(payload))
+    items = g._bt_openfda_items()
+    assert len(items) == 2
+    nda = [i for i in items if "Breztri" in i["title"]][0]
+    assert nda["title"] == "FDA approves Breztri Aerosphere (Astrazeneca Ab)"
+    assert "ApplNo=021449" in nda["link"]
+    anda = [i for i in items if "Tofacitinib" in i["title"]][0]
+    assert "generic" in anda["title"]               # ANDA flagged for the severity cap
+    assert su.classify_breakthrough(anda["title"])["sev"] == 2
+    assert su.classify_breakthrough(nda["title"])["sev"] == 4
+
+
+def test_fda_items_falls_back_to_openfda(monkeypatch):
+    import generate as g
+    monkeypatch.setattr(g, "_bt_rss", lambda *a, **k: (_ for _ in ()).throw(RuntimeError("blocked")))
+    monkeypatch.setattr(g, "_bt_openfda_items", lambda: [{"title": "FDA approves X"}])
+    errs = []
+    items = g._bt_fda_items(errs)
+    assert items == [{"title": "FDA approves X"}] and errs == []
+    monkeypatch.setattr(g, "_bt_openfda_items", lambda: (_ for _ in ()).throw(RuntimeError("down too")))
+    assert g._bt_fda_items(errs) == [] and errs == ["FDA"]
