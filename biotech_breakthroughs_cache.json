@@ -1,5 +1,5 @@
 {
- "fetched_at": "24.10.2026, 21:51",
+ "fetched_at": "24.10.2026, 22:26",
  "items": [
   {
    "title": "argenx (ENXTBR:ARGX) Reports Positive Phase 3 Data In Autoimmune Myositis - Yahoo Finance",
@@ -88,21 +88,11 @@
    "sev": 4,
    "dir": 1,
    "tickers": [],
-   "companies": [
-    "GSK"
-   ],
+   "companies": [],
    "sources": [
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbGlVUTlrdGdydEJkOTRHUksxQm8wLVFvVV9YX3FVd3RTR1pPM1ZBdWFacWN2LWNxZG9aX0JhcnRhNmhDTFhtd3RWdHhTUEJKLUtkU2VUN0JRYzA1TThyTlNOME0zdkdjaVA2SXY1X3ZfOXJ0WVdBZWRkcjBvMjY2Q2lhSVctdUNxMzY4OC1sdUo2Slk?oc=5"
-    },
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOenRJLTJkZDlnbjVUSTlZQ1JFMEZDYW4yMXpUNHJJSmNTR2kwb093bzV0UXJxZEJ5NERzcldaZXY3eUljSVE3c2JreDVyRzBnQnZwUldJN09pTWF1ZXM5WFp0cy14VlVUdGFZcE0xbHVSdWNHSkNqeE56YU1KSC0zbUJZVmRJanFMLWdhUA?oc=5"
-    },
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221276"
     }
    ],
    "ncts": []
@@ -145,6 +135,10 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNanYxQ2tteXo1dDJrLTZmdXdKWTdYMktvb1dGa190OXA4OGpOZnJhaW9hVVU1WVlZOWVRR0ZuMmo0Qm9XNkxVejZIVkdHNUNIWTNHVzhSeGdCTFkxWnZxeHM2ZDBFOTNFczlYTzY5TVJrSDAxOFdzUFlfQW9vSDhUR0dmQ0NBTVBfSUhVdTZLZXFvZ0NQdWFBWm94Q00yNTB1cHVycFVoWjVLOU5DaFNCXzlWVk5jeXdxT0pocFpfaWR4ZFU?oc=5"
+    },
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221276"
     }
    ],
    "ncts": []
@@ -213,6 +207,10 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNOHhhSU1RVkZHOHQyZ3lOMDNXNmNzSlJfY2pBQ2VqZC1NQ2FmWVYwV2ZxbkRHOXBpM3JXMVd1dWlINTh1LTZlZTkySlo5WU9uZ0lGaDVvN29Ia29TWnFBZDk0cDZkY0h0T2NyY1Z6SWpULWFjVEVZWTBZMEFFci15aDBUcUZWb3hRYkxGRVNQWHFwQURkRFRWVjBBXy1ZN0xMdFhNZ3hncVk?oc=5"
+    },
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOenRJLTJkZDlnbjVUSTlZQ1JFMEZDYW4yMXpUNHJJSmNTR2kwb093bzV0UXJxZEJ5NERzcldaZXY3eUljSVE3c2JreDVyRzBnQnZwUldJN09pTWF1ZXM5WFp0cy14VlVUdGFZcE0xbHVSdWNHSkNqeE56YU1KSC0zbUJZVmRJanFMLWdhUA?oc=5"
     }
    ],
    "ncts": []
@@ -237,10 +235,6 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPemFUamJjbkE0NXF5OGE3eENBeEh5ajh2WTRQSUFlb215RGg2RGpZMk83QTQ4TFJ6MmwtZmdfZ2lwamNOb2k4ZDdheXV2LWNTT0JiLXZQQjN1eE50OUhPeWFabkc3c1NwN0ZkUFU1LWtra1FjdkxHM29pVERZR3BfZlNtZEJSVWFQRzZOVGQtUFVDMjNib283NkNUUkZSdUJ2M0taMnY3R08tcl9WZGpjQk4yS1RVQjBvcjZR?oc=5"
-    },
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPSEVYVkdkSzZldU9vU2QzZGhYSmF1blgzR2RGRy1BY1RTejJTTmZOLVltQVhRQkx1RkZpNEQ1UkhMNmFQOUJTS1UxYjdWUXo2ZTBubjFrelZpd0pzRkItaVU0R0VxV0RUSWcwc0ExVlFUZkJQbEVWQVFoQ3JuZXU1QURtOXVnZC0yS18tc3BFTFEtNkZsTEJlZUxiWDJSU21CanBWQlhBZTh5ZS1XWkR2UGRfdFFUQjgtM2JtS0l0LXZ2d0hteUFhbWtDdFk0ejJBVWNfaQ?oc=5"
     }
    ],
    "ncts": []
@@ -268,32 +262,6 @@
    "ncts": []
   },
   {
-   "title": "FDA approves Yulzety (Rosemont Pharms)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221033",
-   "pub_ts": 1792108800.0,
-   "date": "16.10.2026",
-   "cat": "fda",
-   "sev": 4,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221301"
-    },
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220407"
-    },
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220783"
-    }
-   ],
-   "ncts": []
-  },
-  {
    "title": "FDA approves Brytly (Alcon Laboratories, Inc.)",
    "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220341",
    "pub_ts": 1792108800.0,
@@ -312,6 +280,42 @@
    "ncts": []
   },
   {
+   "title": "FDA approves Yulzety (Rosemont Pharms)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221033",
+   "pub_ts": 1792108800.0,
+   "date": "16.10.2026",
+   "cat": "fda",
+   "sev": 4,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221033"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA approves Evoxac (Cosette Pharms Nc)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221183",
+   "pub_ts": 1792022400.0,
+   "date": "15.10.2026",
+   "cat": "fda",
+   "sev": 4,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221183"
+    }
+   ],
+   "ncts": []
+  },
+  {
    "title": "Late-Breaking Phase 3 Data Headline ESMO 2026 Presidential Symposium I - Targeted Oncology",
    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZmNPMnBXejBRc0pvZmhGWWVIYU1mbEhsXzJpbXdfYTBhc0hnRFZqdG1uZUpzY05oaHc3U3BFVTJMVktmbzJTR05odkxvVUF4alZSc1I3cDBaa200M1VwcFkzYmxoc0MxT2VZVmg2THA2cHduamdneFY5czVzd2Y1STlSZ3dwdUFob1NIMzNaX2g?oc=5",
    "pub_ts": 1792860411.0,
@@ -320,30 +324,7 @@
    "sev": 3,
    "dir": 0,
    "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZmNPMnBXejBRc0pvZmhGWWVIYU1mbEhsXzJpbXdfYTBhc0hnRFZqdG1uZUpzY05oaHc3U3BFVTJMVktmbzJTR05odkxvVUF4alZSc1I3cDBaa200M1VwcFkzYmxoc0MxT2VZVmg2THA2cHduamdneFY5czVzd2Y1STlSZ3dwdUFob1NIMzNaX2g?oc=5"
-    },
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNemJjR2NOVlZ4LVhiWmU0azNkR2k0cjF3a2xRVndabUFTNlFxbGN0NS1Vc0tGUnBGNk9WQTlPRFF0STZVa2FHaXQ2aVlnUkk0QTBtcE85Y0xvWjk0blAxTE9qOURiU3ZUMWwyRWd2bk5VaVlRMGpKMVg1dWd2aGtKRW9ha1lXSE1YSEp3NE5XWmQ3M0RGRjdkRmU0NjFuWVpUb084UTExM0p1UlNLdTE00gGvAUFVX3lxTE16YmNHY05WVngtWGJaZTRrM2RHaTRyMXdrbFFWd1ptQVM2UXFsY3Q1LVVzS0ZScEY2T1ZBOU9EUXRJNlVrYUdpdDZpWWdSSTRBMG1wTzljTG9aOTRuUDFMT2o5RGJTdlQxbDJFZ3ZuTlVpWVEwakoxWDV1Z3Zoa0pFb2FrWVdITVhISnc0TldaZDczREZGN2RGZTQ2MW5ZWlRvTzhRMTEzSnVSU0t1MTQ?oc=5"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "ESMO: GSK cancer R&D chief says mo-rez data ‘reinforces our belief’ in ADC as phase 3 push ramps up - Fierce Biotech",
-   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZUtEdnhwX21RTmI5LVh2c3pBWWV2Y19ySDhoV2Jpc1I3NDVDaFhvV1o0a2JHZ3VHNV9FR0ZkRkIxQUJtcjBRMGJDemdiQkF1N1RfSWlfZ0VsQ0QzZTdna3FnVllVUVdyYTNGVG02U2xpVXhHejlubmF6c3U1Q0UtYlYzM01fRWVBeC1CU3pJZ25hUTRpYXljcVVoQ211QktmUEpwVEpmazVDQWlSMWc?oc=5",
-   "pub_ts": 1792793100.0,
-   "date": "24.10.2026, 1:05",
-   "cat": "phase3",
-   "sev": 3,
-   "dir": 0,
-   "tickers": [],
    "companies": [
-    "GSK",
     "MRNA",
     "MRK",
     "NKTR"
@@ -351,7 +332,7 @@
    "sources": [
     {
      "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZUtEdnhwX21RTmI5LVh2c3pBWWV2Y19ySDhoV2Jpc1I3NDVDaFhvV1o0a2JHZ3VHNV9FR0ZkRkIxQUJtcjBRMGJDemdiQkF1N1RfSWlfZ0VsQ0QzZTdna3FnVllVUVdyYTNGVG02U2xpVXhHejlubmF6c3U1Q0UtYlYzM01fRWVBeC1CU3pJZ25hUTRpYXljcVVoQ211QktmUEpwVEpmazVDQWlSMWc?oc=5"
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZmNPMnBXejBRc0pvZmhGWWVIYU1mbEhsXzJpbXdfYTBhc0hnRFZqdG1uZUpzY05oaHc3U3BFVTJMVktmbzJTR05odkxvVUF4alZSc1I3cDBaa200M1VwcFkzYmxoc0MxT2VZVmg2THA2cHduamdneFY5czVzd2Y1STlSZ3dwdUFob1NIMzNaX2g?oc=5"
     },
     {
      "source": "Google News",
@@ -366,6 +347,26 @@
     "NCT03036488",
     "NCT05664217"
    ]
+  },
+  {
+   "title": "ESMO: GSK cancer R&D chief says mo-rez data ‘reinforces our belief’ in ADC as phase 3 push ramps up - Fierce Biotech",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZUtEdnhwX21RTmI5LVh2c3pBWWV2Y19ySDhoV2Jpc1I3NDVDaFhvV1o0a2JHZ3VHNV9FR0ZkRkIxQUJtcjBRMGJDemdiQkF1N1RfSWlfZ0VsQ0QzZTdna3FnVllVUVdyYTNGVG02U2xpVXhHejlubmF6c3U1Q0UtYlYzM01fRWVBeC1CU3pJZ25hUTRpYXljcVVoQ211QktmUEpwVEpmazVDQWlSMWc?oc=5",
+   "pub_ts": 1792793100.0,
+   "date": "24.10.2026, 1:05",
+   "cat": "phase3",
+   "sev": 3,
+   "dir": 0,
+   "tickers": [],
+   "companies": [
+    "GSK"
+   ],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZUtEdnhwX21RTmI5LVh2c3pBWWV2Y19ySDhoV2Jpc1I3NDVDaFhvV1o0a2JHZ3VHNV9FR0ZkRkIxQUJtcjBRMGJDemdiQkF1N1RfSWlfZ0VsQ0QzZTdna3FnVllVUVdyYTNGVG02U2xpVXhHejlubmF6c3U1Q0UtYlYzM01fRWVBeC1CU3pJZ25hUTRpYXljcVVoQ211QktmUEpwVEpmazVDQWlSMWc?oc=5"
+    }
+   ],
+   "ncts": []
   },
   {
    "title": "Merck/Moderna's Melanoma Combination Therapy Delivers Promising Phase 3 Trial Results - Seeking Alpha",
@@ -591,6 +592,32 @@
    ]
   },
   {
+   "title": "FDA approves generic Brivaracetam (Zydus Lifesciences)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221301",
+   "pub_ts": 1792454400.0,
+   "date": "20.10.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221301"
+    },
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220407"
+    },
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220783"
+    }
+   ],
+   "ncts": []
+  },
+  {
    "title": "A Study of Ustekinumab in Pediatric Participants With Moderately to Severely Active Ulcerative Colitis (UC)",
    "link": "https://clinicaltrials.gov/study/NCT04630028",
    "pub_ts": 1792454400.0,
@@ -627,11 +654,29 @@
     },
     {
      "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219628"
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=218866"
     },
     {
      "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220432"
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220010"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA approves generic Deflazacort (Teva Pharms Inc)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=217103",
+   "pub_ts": 1792368000.0,
+   "date": "19.10.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=217103"
     }
    ],
    "ncts": []
@@ -690,6 +735,28 @@
     {
      "source": "FDA · openFDA",
      "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219588"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA approves generic Atropine Sulfate (Sentiss Pharma)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219628",
+   "pub_ts": 1792108800.0,
+   "date": "16.10.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219628"
+    },
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220432"
     }
    ],
    "ncts": []
