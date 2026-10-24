@@ -1,17 +1,23 @@
 {
- "fetched_at": "25.10.2026, 0:47",
+ "fetched_at": "25.10.2026, 1:48",
  "items": [
   {
-   "title": "Personalized mRNA Melanoma Vaccine Cut Recurrence or Death Risk 42% in Phase 3 Trial, but Survival Data Pending - Medical Daily",
-   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOT0h3amNjX0tyMHdLQXZiX1pjS01PMk1Dcl8yaFU1dW5CN3YyNmhDVUpQMDFhdEItWW9yVXZZT0w1SjRzTERjMlJUUHBYb3RJY0IxZGFDMWxEVVI0M3pCQ2MxZzNBZWpSMGJ1MUtjc0tKbjg4QzVjUDdud2owUS1ONjEwbTAyTDgwV3JKbDBqTmVOclBYUHNZOQ?oc=5",
-   "pub_ts": 1792857764.0,
-   "date": "24.10.2026, 19:02",
+   "title": "Moderna Melanoma Therapy Cuts Recurrence Risk 42% in Phase 3 Trial - Yahoo Finance",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNXzhaSldkdHYtaHFxWS00NVhDVzRrQXpCRWFwOXpzYVBZbi1iNTlNWHFueUFnVDhEMExBVjRBVkZ0YzdwZmdzV1JfTjFienBnV3lBNFp5b1VDbk9JMnk5Tm91WjE3RXVXbkxxclQyOW5XVHpYb2lOdC0wM3BJa0lpbE9Tb2dSVGtmY18tN2Ezb0hBNGdlOG4xQ1RHMkZ6c1ktck1V?oc=5",
+   "pub_ts": 1792879323.0,
+   "date": "25.10.2026, 1:02",
    "cat": "phase3",
    "sev": 4,
    "dir": 1,
    "tickers": [],
-   "companies": [],
+   "companies": [
+    "MRNA"
+   ],
    "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNXzhaSldkdHYtaHFxWS00NVhDVzRrQXpCRWFwOXpzYVBZbi1iNTlNWHFueUFnVDhEMExBVjRBVkZ0YzdwZmdzV1JfTjFienBnV3lBNFp5b1VDbk9JMnk5Tm91WjE3RXVXbkxxclQyOW5XVHpYb2lOdC0wM3BJa0lpbE9Tb2dSVGtmY18tN2Ezb0hBNGdlOG4xQ1RHMkZ6c1ktck1V?oc=5"
+    },
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOT0h3amNjX0tyMHdLQXZiX1pjS01PMk1Dcl8yaFU1dW5CN3YyNmhDVUpQMDFhdEItWW9yVXZZT0w1SjRzTERjMlJUUHBYb3RJY0IxZGFDMWxEVVI0M3pCQ2MxZzNBZWpSMGJ1MUtjc0tKbjg4QzVjUDdud2owUS1ONjEwbTAyTDgwV3JKbDBqTmVOclBYUHNZOQ?oc=5"
@@ -193,10 +199,6 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPemFUamJjbkE0NXF5OGE3eENBeEh5ajh2WTRQSUFlb215RGg2RGpZMk83QTQ4TFJ6MmwtZmdfZ2lwamNOb2k4ZDdheXV2LWNTT0JiLXZQQjN1eE50OUhPeWFabkc3c1NwN0ZkUFU1LWtra1FjdkxHM29pVERZR3BfZlNtZEJSVWFQRzZOVGQtUFVDMjNib283NkNUUkZSdUJ2M0taMnY3R08tcl9WZGpjQk4yS1RVQjBvcjZR?oc=5"
-    },
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPSEVYVkdkSzZldU9vU2QzZGhYSmF1blgzR2RGRy1BY1RTejJTTmZOLVltQVhRQkx1RkZpNEQ1UkhMNmFQOUJTS1UxYjdWUXo2ZTBubjFrelZpd0pzRkItaVU0R0VxV0RUSWcwc0ExVlFUZkJQbEVWQVFoQ3JuZXU1QURtOXVnZC0yS18tc3BFTFEtNkZsTEJlZUxiWDJSU21CanBWQlhBZTh5ZS1XWkR2UGRfdFFUQjgtM2JtS0l0LXZ2d0hteUFhbWtDdFk0ejJBVWNfaQ?oc=5"
     }
    ],
    "ncts": []
@@ -365,6 +367,26 @@
     {
      "source": "FDA · openFDA",
      "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221183"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "What Does Palvella Therapeutics (PVLA) NDA Progress Mean After Its Phase 3 Data? - Yahoo Finance",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOb0ZxSG1wQ3oyZDFvampfMHdZLTdoM2RMOW90bUdzeEZyVE5VdjhLYWc2YUNxaVZsQ2dabDVhLTFkWkQxYWJTMkFMcDBfNGxTR3hqYkNfTEhneVBQSVF4ZjBLYXBHbGdNS3dfbjVaQi02WnN6NlFvWmEySFN5QVAxSWZLQ2hGU3ZLX0FueE1RaS1DMmlySVRGZVE2eFo?oc=5",
+   "pub_ts": 1792876092.0,
+   "date": "25.10.2026, 0:08",
+   "cat": "phase3",
+   "sev": 3,
+   "dir": 0,
+   "tickers": [
+    "PVLA"
+   ],
+   "companies": [],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOb0ZxSG1wQ3oyZDFvampfMHdZLTdoM2RMOW90bUdzeEZyVE5VdjhLYWc2YUNxaVZsQ2dabDVhLTFkWkQxYWJTMkFMcDBfNGxTR3hqYkNfTEhneVBQSVF4ZjBLYXBHbGdNS3dfbjVaQi02WnN6NlFvWmEySFN5QVAxSWZLQ2hGU3ZLX0FueE1RaS1DMmlySVRGZVE2eFo?oc=5"
     }
    ],
    "ncts": []
