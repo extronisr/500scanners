@@ -1,5 +1,5 @@
 {
- "fetched_at": "24.10.2026, 23:19",
+ "fetched_at": "25.10.2026, 0:47",
  "items": [
   {
    "title": "Personalized mRNA Melanoma Vaccine Cut Recurrence or Death Risk 42% in Phase 3 Trial, but Survival Data Pending - Medical Daily",
@@ -202,24 +202,6 @@
    "ncts": []
   },
   {
-   "title": "Lutikizumab Meets Primary End Point in Phase 3 HS Trial - Dermatology Times",
-   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxORGRodTJKMF9HUHJiMHQ0LWdsa0xLZjh4aExveEMwdUxJT3d6Mnc4UUlFaTVZbjVRak9aTW1IY3dpTnB6blpmV21Ka2VWajhHSXAtQ2l3c3BWT0lwQzNLZ05RNmY4VjZMc09YYnR6eWdUNTlJelh1RDZpNzdSNUdoN3VUZEV3NFdnV1M5VU9WNXFpa2hLdWc4NA?oc=5",
-   "pub_ts": 1792682217.0,
-   "date": "22.10.2026, 18:16",
-   "cat": "phase3",
-   "sev": 4,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxORGRodTJKMF9HUHJiMHQ0LWdsa0xLZjh4aExveEMwdUxJT3d6Mnc4UUlFaTVZbjVRak9aTW1IY3dpTnB6blpmV21Ka2VWajhHSXAtQ2l3c3BWT0lwQzNLZ05RNmY4VjZMc09YYnR6eWdUNTlJelh1RDZpNzdSNUdoN3VUZEV3NFdnV1M5VU9WNXFpa2hLdWc4NA?oc=5"
-    }
-   ],
-   "ncts": []
-  },
-  {
    "title": "FDA Approves Hibsago to Treat Certain Chronic HBV Patients - Medscape",
    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNOHhhSU1RVkZHOHQyZ3lOMDNXNmNzSlJfY2pBQ2VqZC1NQ2FmWVYwV2ZxbkRHOXBpM3JXMVd1dWlINTh1LTZlZTkySlo5WU9uZ0lGaDVvN29Ia29TWnFBZDk0cDZkY0h0T2NyY1Z6SWpULWFjVEVZWTBZMEFFci15aDBUcUZWb3hRYkxGRVNQWHFwQURkRFRWVjBBXy1ZN0xMdFhNZ3hncVk?oc=5",
    "pub_ts": 1792660555.0,
@@ -233,6 +215,24 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNOHhhSU1RVkZHOHQyZ3lOMDNXNmNzSlJfY2pBQ2VqZC1NQ2FmWVYwV2ZxbkRHOXBpM3JXMVd1dWlINTh1LTZlZTkySlo5WU9uZ0lGaDVvN29Ia29TWnFBZDk0cDZkY0h0T2NyY1Z6SWpULWFjVEVZWTBZMEFFci15aDBUcUZWb3hRYkxGRVNQWHFwQURkRFRWVjBBXy1ZN0xMdFhNZ3hncVk?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA Approves Hibsago | PharmExec - Pharmaceutical Executive",
+   "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1HN0FYbmczUXRSTm5NQzVHZXZ3RTNZUV92TThyVmdzaFBMU3hPLVcxRTZVMGZ4QVBoaWZ6cFBFNjFLa21kZTNEemFsQ0o1dXFweGhkbllRNy02WlVMTHpsZXI1c0owQWVR?oc=5",
+   "pub_ts": 1792608709.0,
+   "date": "21.10.2026, 21:51",
+   "cat": "fda",
+   "sev": 4,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1HN0FYbmczUXRSTm5NQzVHZXZ3RTNZUV92TThyVmdzaFBMU3hPLVcxRTZVMGZ4QVBoaWZ6cFBFNjFLa21kZTNEemFsQ0o1dXFweGhkbllRNy02WlVMTHpsZXI1c0owQWVR?oc=5"
     }
    ],
    "ncts": []
@@ -745,24 +745,6 @@
    "ncts": [
     "NCT04404283"
    ]
-  },
-  {
-   "title": "Positive Topline Results From Phase 2 Trial of RAP-219 for the Treatment of Bipolar Mania - Psychiatric Times",
-   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPeXl0d0N0UXE4UlgxSTRBNkhNWjFwOU43M29ER19EelNjWWtiWk91MjcxNWdCYjFjcmt0bmJnbEl3QWctbmZaN3ZDT2Y1ZGpFZC1tR2ptT0RPOHh5NjR5RVdldUJtRXhCX1c5N3FtXzlVaWlxQVpJdEpxd2FhTWdlaDdXWkt3OVR1SzBHWnl1aHBId0xZMjVzR2tvNnRkUWpkV0pNVkExMW5QeElFWkp1c0l4YzNDS3ZmVTVVc0NVUklybUotZkE?oc=5",
-   "pub_ts": 1792514527.0,
-   "date": "20.10.2026, 19:42",
-   "cat": "phase2",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPeXl0d0N0UXE4UlgxSTRBNkhNWjFwOU43M29ER19EelNjWWtiWk91MjcxNWdCYjFjcmt0bmJnbEl3QWctbmZaN3ZDT2Y1ZGpFZC1tR2ptT0RPOHh5NjR5RVdldUJtRXhCX1c5N3FtXzlVaWlxQVpJdEpxd2FhTWdlaDdXWkt3OVR1SzBHWnl1aHBId0xZMjVzR2tvNnRkUWpkV0pNVkExMW5QeElFWkp1c0l4YzNDS3ZmVTVVc0NVUklybUotZkE?oc=5"
-    }
-   ],
-   "ncts": []
   },
   {
    "title": "FDA approves generic Brivaracetam (Zydus Lifesciences)",
