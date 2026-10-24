@@ -450,7 +450,7 @@ def companies_in_text(text, lexicon):
     return found
 
 
-_BT_COMMON_NEWS = {"approval", "approves", "approved", "treatment", "hepatitis",
+_BT_COMMON_NEWS = {"fda", "approval", "approves", "approved", "treatment", "hepatitis",
                    "cancer", "results", "announces", "patients", "therapy",
                    "chronic", "disease", "receives", "positive", "negative",
                    "melanoma", "prostate", "leukemia", "lymphoma", "myeloma",
@@ -472,6 +472,10 @@ _BT_TITLE_STOP = {"the", "a", "an", "and", "or", "of", "in", "on", "for", "to",
 def _bt_title_tokens(title):
     t = (title or "").lower()
     t = re.sub(r"^\s*[^:]{0,25}:\s", " ", t)          # drop outlet prefix like "ESMO:"
+    # drop outlet suffix like " - Pharmaceutical Executive": Google News appends
+    # the source name, and those tokens otherwise dominate the overlap rule and
+    # merge different events from the same outlet.
+    t = re.sub(r"\s+[-–—|]\s+\S[^-–—|]{0,50}$", " ", t)
     toks = set(re.findall(r"[a-z0-9]{3,}", t))
     return {x for x in toks if x not in _BT_TITLE_STOP}
 
