@@ -245,8 +245,11 @@ def compute_breadth_yahoo(tickers):
             n200 += 1
             if closes[-1] >= sum(closes[-200:]) / 200:
                 above200 += 1
-    s5fi = round(100.0 * above50 / n50, 1) if n50 else None
-    s5th = round(100.0 * above200 / n200, 1) if n200 else None
+    # coverage floor: publishing 100% from a handful of loaded tickers is
+    # worse than admitting the data is unavailable (60% minimum coverage)
+    min_cov = 0.6 * len(tickers) if tickers else 0
+    s5fi = round(100.0 * above50 / n50, 1) if (n50 and n50 >= min_cov) else None
+    s5th = round(100.0 * above200 / n200, 1) if (n200 and n200 >= min_cov) else None
     return {"s5fi": s5fi, "s5th": s5th, "n": n50}
 
 

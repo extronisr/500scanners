@@ -11,6 +11,7 @@ Sections:
 Headless, stdlib only, free sources only. Writes index.html next to this script.
 """
 import html as htmlmod
+import calendar
 import json
 import os
 import re
@@ -123,7 +124,8 @@ def market_health_section():
 
     checks = []
     for key in ["s5fi", "s5th", "spx50", "spx200", "vix", "tnx", "brent", "wti"]:
-        state = states.get(key, "fail") if states else "fail"
+        # missing data must render as "unavailable", never as a red failure
+        state = states.get(key, "na") if states else "na"
         checks.append({
             "label": CHECK_LABELS[key][0],
             "desc": CHECK_LABELS[key][1],
@@ -339,13 +341,11 @@ def chart_closes_volumes(symbol, range_value="3mo"):
         data = http_get_json(url)
         result = data["chart"]["result"][0]
         q = result["indicators"]["quote"][0]
-        closes = [float(x) for x in (q.get("close") or []) if x is not None]
-        vols = [float(x) if x is not None else 0.0 for x in (q.get("volume") or [])]
-        # align: volume list may be longer/shorter; pad with zeros on the left
-        if len(vols) < len(closes):
-            vols = [0.0] * (len(closes) - len(vols)) + vols
-        else:
-            vols = vols[-len(closes):] if closes else []
+        # a null close drops the WHOLE bar - close and volume stay paired
+        pairs = [(c, v) for c, v in zip(q.get("close") or [], q.get("volume") or [])
+                 if c is not None]
+        closes = [float(c) for c, v in pairs]
+        vols = [float(v) if v is not None else 0.0 for c, v in pairs]
         return closes, vols
     except Exception as e:
         stats["biotech_missing"] += 1
@@ -353,12 +353,22 @@ def chart_closes_volumes(symbol, range_value="3mo"):
         return None, None
 
 
+_EDGAR_SUBS = {}
+
+
+def _edgar_submissions(cik10):
+    """One submissions fetch per CIK per run, shared by every EDGAR reader."""
+    if cik10 not in _EDGAR_SUBS:
+        url = f"https://data.sec.gov/submissions/CIK{cik10}.json"
+        _EDGAR_SUBS[cik10] = http_get_json(url, timeout=20, ua=SEC_UA)
+    return _EDGAR_SUBS[cik10]
+
+
 def edgar_8k_last_days(cik, days=3):
     """8-K filings in the last `days` days via EDGAR submissions JSON (no auth)."""
     cik10 = str(cik).strip().zfill(10)
-    url = f"https://data.sec.gov/submissions/CIK{cik10}.json"
     try:
-        data = http_get_json(url, timeout=20, ua=SEC_UA)
+        data = _edgar_submissions(cik10)
         stats["sec_ok"] += 1
     except Exception as e:
         stats["sec_failed"] += 1
@@ -469,6 +479,39 @@ def biotech_alerts():
     return {"alerts": alerts, "radar": radar}
 
 
+def _recovery_path(data, sig):
+    """First touch of target vs stop since the signal bar, from the 1y data
+    already in memory. Signal dates are %d/%m; the most recent match is used."""
+    df = data.get(sig["ticker"])
+    if df is None:
+        return None, None
+    try:
+        d0 = sig.get("date", "")
+        idx = []
+        try:
+            sig_d = datetime.strptime(d0, "%Y-%m-%d").date()
+            # first bar on or after the signal day
+            idx = [i for i, dte in enumerate(df.index) if dte.date() >= sig_d][:1]
+        except ValueError:
+            # legacy %d/%m rows: most recent matching calendar day
+            idx = [i for i, dte in enumerate(df.index)
+                   if dte.strftime("%d/%m") == d0][-1:]
+        if not idx:
+            return None, None
+        path = df.iloc[idx[0]:]
+        tgt_day = stop_day = None
+        for dte, row in path.iterrows():
+            if tgt_day is None and sig.get("target") and float(row["High"]) >= sig["target"]:
+                tgt_day = dte
+            if stop_day is None and sig.get("stop") and float(row["Low"]) <= sig["stop"]:
+                stop_day = dte
+            if tgt_day is not None and stop_day is not None:
+                break
+        return tgt_day, stop_day
+    except Exception:
+        return None, None
+
+
 def breakout_section():
     """Run the vendored breakout scanner. Returns groups + recovery learning history."""
     import numpy as np
@@ -485,13 +528,15 @@ def breakout_section():
         return None
     intraday = state == "OPEN"
     expected = expected_d.isoformat()
-    vfrac = max(float(np.interp(tfrac, b.VOL_CURVE_T, b.VOL_CURVE_V)), 0.05) if intraday else 1.0
+    vfrac = max(float(np.interp(tfrac, b.VOL_CURVE_T, b.VOL_CURVE_V)), 0.25) if intraday else 1.0
 
     try:
         tickers = b.load_universe()
     except Exception as e:
         fail("breakout", f"load_universe: {e}")
         return None
+    if len(tickers) < 800:
+        fail("breakout", f"universe only {len(tickers)} tickers - expected ~900; scan coverage degraded")
     try:
         data, failed = b.download_all(tickers)
     except Exception as e:
@@ -519,43 +564,70 @@ def breakout_section():
 
     # ---- recovery learning history (persists in repo, committed by workflow)
     hist_path = os.path.join(BASE_DIR, "recovery_history.json")
+    hist_ok = True
     try:
         hist = json.load(open(hist_path, encoding="utf-8"))
         sigs = hist.get("signals", [])
+        # legacy files may hold the same event twice; keep one row per event
+        dedup = {}
+        for s in sigs:
+            dedup[(s["ticker"], s.get("pivot"), s.get("target"))] = s
+        sigs = list(dedup.values())
     except Exception:
-        sigs = []
-    seen_keys = {(s["ticker"], s["date"]) for s in sigs}
+        # never overwrite a history we failed to read
+        sigs, hist_ok = [], False
+        fail("breakout", "recovery history unreadable - left untouched")
+    seen_keys = {(s["ticker"], s.get("pivot"), s.get("target")) for s in sigs}
     today_dm = expected_d.strftime("%d/%m")
-    for t, x in groups.get("RECOVERY", []):
-        key = (t, x["date"])
-        if key not in seen_keys:
-            sigs.append({"ticker": t, "date": x["date"],
-                         "signal_price": round(x["close"], 2),
-                         "pivot": round(x["level"], 2),
-                         "target": round(x.get("target") or 0, 2),
-                         "stop": round(x["stop"], 2)})
-            seen_keys.add(key)
-    # annotate with current performance
+    # RECOVERY is a closed-bar signal: intraday occurrences are provisional and
+    # are not logged, and the same event (ticker + pivot + target) logs once
+    if hist_ok and state == "CLOSED":
+        for t, x in groups.get("RECOVERY", []):
+            key = (t, round(x["level"], 2), round(x.get("target") or 0, 2))
+            if key not in seen_keys:
+                sigs.append({"ticker": t, "date": x["date"],
+                             "signal_price": round(x["close"], 2),
+                             "pivot": round(x["level"], 2),
+                             "target": round(x.get("target") or 0, 2),
+                             "stop": round(x["stop"], 2)})
+                seen_keys.add(key)
+    # annotate with the price path since the signal: which came first, the
+    # target or the stop - the current price alone cannot answer that
     history = []
     for s in sigs:
         cur = price_map.get(s["ticker"])
-        if cur:
-            pct = (cur / s["signal_price"] - 1) * 100 if s["signal_price"] else 0
-            tgt_hit = bool(s["target"] and cur >= s["target"])
+        pct = (cur / s["signal_price"] - 1) * 100 if (cur and s["signal_price"]) else None
+        tgt_day, stop_day = _recovery_path(data, s)
+        if not s.get("target") and not s.get("stop"):
+            outcome, tgt_day, stop_day = "untracked", None, None
+        elif tgt_day is not None and stop_day is not None:
+            outcome = ("target" if tgt_day < stop_day
+                       else "stopped" if stop_day < tgt_day else "unknown")
+        elif tgt_day is not None:
+            outcome = "target"
+        elif stop_day is not None:
+            outcome = "stopped"
         else:
-            pct, tgt_hit = None, False
+            outcome = "open"
+        hit_day = (tgt_day if outcome == "target"
+                   else stop_day if outcome == "stopped" else None)
         history.append({**s, "current": round(cur, 2) if cur else None,
                         "pct": round(pct, 1) if pct is not None else None,
-                        "target_hit": tgt_hit})
+                        "outcome": outcome,
+                        "outcome_date": hit_day.strftime("%d/%m/%y") if hit_day else "",
+                        "target_hit": outcome == "target"})
     history.sort(key=lambda s: (s["pct"] is None, -(s["pct"] or 0)))
-    try:
-        json.dump({"signals": sigs}, open(hist_path, "w", encoding="utf-8"),
-                  ensure_ascii=False, indent=1)
-    except Exception as e:
-        fail("breakout", f"history save: {e}")
+    if hist_ok:
+        try:
+            tmp_path = hist_path + ".tmp"
+            with open(tmp_path, "w", encoding="utf-8") as fh:
+                json.dump({"signals": sigs}, fh, ensure_ascii=False, indent=1)
+            os.replace(tmp_path, hist_path)
+        except Exception as e:
+            fail("breakout", f"history save: {e}")
 
     try:
-        pullback = pullback_section(data)
+        pullback = pullback_section(data, expected)
     except Exception as e:
         fail("pullback", f"pullback scan: {e}")
         pullback = []
@@ -659,8 +731,10 @@ def cnn_section():
         fail("cnn", f"CNN fetch failed: {e}")
     if live:
         try:
-            json.dump(data, open(CNN_SNAPSHOT, "w", encoding="utf-8"),
-                      ensure_ascii=False, indent=1)
+            tmp_path = CNN_SNAPSHOT + ".tmp"
+            with open(tmp_path, "w", encoding="utf-8") as fh:
+                json.dump(data, fh, ensure_ascii=False, indent=1)
+            os.replace(tmp_path, CNN_SNAPSHOT)
         except Exception as e:
             fail("cnn", f"snapshot save: {e}")
     else:
@@ -680,11 +754,17 @@ def cnn_section():
 
 
 # ---------------------------------------------------------------- pullback in uptrend
-def pullback_section(data_map):
+def pullback_section(data_map, expected=None):
     """Pullback-in-uptrend category over the breakout universe (observation,
     not a validated bottom signal). Computed from the same 1y data the scanner uses."""
     out = []
     for t, df in (data_map or {}).items():
+        if expected:
+            try:
+                if df.index[-1].date().isoformat() < expected:
+                    continue   # a stale series (delisted/halted) is not a candidate
+            except Exception:
+                continue
         try:
             closes = [float(x) for x in df["Close"].tolist()]
         except Exception:
@@ -709,20 +789,30 @@ def pullback_section(data_map):
 
 # ---------------------------------------------------------------- catalysts
 def _expected_to_date(exp):
-    """ISO date stays exact; 'Q4 2026'/'2H 2026' become a mid-window estimate."""
+    """ISO date stays exact; 'Q4 2026'/'2H 2026' are windows, not dates.
+    Returns (window_start, approx, window_end): while today is inside the
+    window the event is an OPEN expectation (no fake countdown); the countdown
+    before the window starts runs to the window start; an approximate event
+    counts as 'past' only after its whole window ends."""
     exp = (exp or "").strip()
     try:
-        return datetime.strptime(exp, "%Y-%m-%d").date(), False
+        d = datetime.strptime(exp, "%Y-%m-%d").date()
+        return d, False, d
     except ValueError:
         pass
     m = re.match(r"^Q([1-4])\s+(\d{4})$", exp)
     if m:
         q, y = int(m.group(1)), int(m.group(2))
-        return datetime(y, q * 3 - 1, 15).date(), True
-    m = re.match(r"^2H\s+(\d{4})$", exp)
+        start = datetime(y, (q - 1) * 3 + 1, 1).date()
+        end = datetime(y, q * 3, calendar.monthrange(y, q * 3)[1]).date()
+        return start, True, end
+    m = re.match(r"^([12])H\s+(\d{4})$", exp)
     if m:
-        return datetime(int(m.group(1)), 11, 1).date(), True
-    return None, True
+        h, y = int(m.group(1)), int(m.group(2))
+        start = datetime(y, 1 if h == 1 else 7, 1).date()
+        end = datetime(y, 6 if h == 1 else 12, 30 if h == 1 else 31).date()
+        return start, True, end
+    return None, True, None
 
 
 def catalyst_section():
@@ -735,16 +825,18 @@ def catalyst_section():
     today = datetime.now(JER).date()
     upcoming, passed = [], []
     for c in cfg.get("events", []):
-        d, approx = _expected_to_date(c.get("expected"))
+        d, approx, wend = _expected_to_date(c.get("expected"))
         days = (d - today).days if d else None
         item = dict(c)
         item.update({"days": days, "approx": approx or bool(c.get("approx")),
                      "bucket": scan_utils.catalyst_bucket(days, approx or bool(c.get("approx")))})
-        if days is None or days >= 0:
+        if days is None or wend is None or wend >= today:
             upcoming.append(item)
         else:
             passed.append(item)
-    upcoming.sort(key=lambda x: (x["days"] is None, x["days"] or 9999))
+    # days == 0 (today) is a real value, not a missing one - sort explicitly
+    upcoming.sort(key=lambda x: (x["days"] is None,
+                                 9999 if x["days"] is None else max(x["days"], 0)))
     passed.sort(key=lambda x: -(x["days"] or -9999))
     return {"upcoming": upcoming, "passed": passed, "asof": cfg.get("asof", "")}
 
@@ -802,13 +894,19 @@ def trials_section():
                       or o.get("primary_completion") != s["primary_completion"]
                       or str(o.get("enrollment")) != str(s["enrollment"])):
                 changed.append(nct)
-        cache = {"fetched_at": datetime.now(JER).date().isoformat(), "studies": studies}
+        # failed trials keep their last good record - update per study,
+        # never drop a study just because this run could not fetch it
+        merged = dict(cache.get("studies", {}))
+        merged.update(studies)
+        cache = {"fetched_at": datetime.now(JER).date().isoformat(), "studies": merged}
         try:
-            json.dump(cache, open(TRIALS_CACHE, "w", encoding="utf-8"),
-                      ensure_ascii=False, indent=1)
+            tmp_path = TRIALS_CACHE + ".tmp"
+            with open(tmp_path, "w", encoding="utf-8") as fh:
+                json.dump(cache, fh, ensure_ascii=False, indent=1)
+            os.replace(tmp_path, TRIALS_CACHE)
         except Exception as e:
             fail("trials", f"cache save: {e}")
-    shown = studies or cache.get("studies", {})
+    shown = cache.get("studies", {})
     rows = []
     for nct, t in pairs:
         s = shown.get(nct)
@@ -831,8 +929,7 @@ def edgar_recent(cik, days=5):
     """All notable filings in the last `days` days via EDGAR submissions JSON,
     with severity per form type (material 8-K items, dilution, insider, periodic)."""
     cik10 = str(cik).strip().zfill(10)
-    url = f"https://data.sec.gov/submissions/CIK{cik10}.json"
-    data = http_get_json(url, timeout=20, ua=SEC_UA)
+    data = _edgar_submissions(cik10)
     cutoff = (datetime.now(timezone.utc) - timedelta(days=days)).date().isoformat()
     recent = data.get("filings", {}).get("recent", {})
     forms = recent.get("form", [])
@@ -1107,8 +1204,10 @@ def breakthrough_section():
         cache = {"fetched_at": datetime.now(JER).strftime("%-d.%-m.%Y, %-H:%M"),
                  "items": clusters}
         try:
-            json.dump(cache, open(BT_CACHE, "w", encoding="utf-8"),
-                      ensure_ascii=False, indent=1)
+            tmp_path = BT_CACHE + ".tmp"
+            with open(tmp_path, "w", encoding="utf-8") as fh:
+                json.dump(cache, fh, ensure_ascii=False, indent=1)
+            os.replace(tmp_path, BT_CACHE)
         except Exception as e:
             fail("breakthroughs", f"cache save: {e}")
     elif cache.get("items"):
@@ -1169,7 +1268,7 @@ align-items:center;gap:20px;margin-bottom:12px}
 .chk{background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:13px 12px;
 display:flex;align-items:center;gap:10px}
 .chk .dot{width:11px;height:11px;border-radius:50%;flex-shrink:0}
-.dot.pass{background:#22c55e}.dot.warn{background:#f59e0b}.dot.fail{background:#ef4444}
+.dot.pass{background:#22c55e}.dot.warn{background:#f59e0b}.dot.fail{background:#ef4444}.dot.na{background:#9ca3af}
 .chk .ct{flex:1;min-width:0}
 .chk .ct b{display:block;font-size:.92rem}
 .chk .ct span{display:block;color:#6b7280;font-size:.75rem;margin-top:2px}
@@ -1228,6 +1327,8 @@ display:flex;align-items:center;justify-content:center;padding:0 5px}
 .pane.active{display:block}
 h3.sec{font-size:1.05rem;font-weight:800;margin:16px 2px 4px}
 .tbl-wrap{overflow-x:auto;background:#fff;border:1px solid #e5e7eb;border-radius:12px}
+.tblhint{display:none;color:#8a94a6;font-size:.78rem;margin:6px 2px 0}
+@media(max-width:480px){.tblhint{display:block}}
 table.htable{border-collapse:collapse;width:100%;font-size:.82rem;min-width:560px}
 table.htable th,table.htable td{border-bottom:1px solid #f3f4f6;padding:9px 8px;text-align:right;white-space:nowrap}
 table.htable th{background:#f9fafb;color:#6b7280;font-size:.75rem}
@@ -1329,10 +1430,11 @@ STATUS_COLORS = {
 
 
 def fresh_badge(a):
-    """'New' only for items from the last 24 hours (by real timestamp)."""
+    """'New' only for items from the last 24 hours (by real timestamp).
+    data-ts lets the mark-all-read choice persist across reloads."""
     ts = a.get("ts")
     if ts and time.time() - ts <= 24 * 3600:
-        return '<span class="newbadge">חדש</span>'
+        return f'<span class="newbadge" data-ts="{int(ts * 1000)}">חדש</span>'
     return ""
 
 
@@ -1340,6 +1442,8 @@ def build_html(mh, dips, alerts, bo, updated, extra=None):
     extra = extra or {}
 
     def pct2(v, d=2):
+        if round(v, d) == 0:
+            v = 0.0
         cls = "up" if v >= 0 else "down"
         return f'<span class="{cls}" dir="ltr">{v:+.{d}f}%</span>'
 
@@ -1373,7 +1477,7 @@ def build_html(mh, dips, alerts, bo, updated, extra=None):
     parts.append('<div class="pane active" id="pane-mh">')
     parts.append(
         '<div class="hdr"><div><h1>בריאות השוק</h1>'
-        f'<div class="ts">עדכון {ts} · רענון אוטומטי כל 15 דקות</div></div>'
+        f'<div class="ts">עדכון {ts} · סריקה מתוזמנת כל 15 דקות, בפועל עלולה להתעכב שעות</div></div>'
         '<div class="brand">Erez-Stocks</div><button class="refresh-btn" onclick="location.reload()">עדכן עכשיו</button></div>')
     if mh and mh["score"] is not None:
         score = mh["score"]
@@ -1487,13 +1591,13 @@ def build_html(mh, dips, alerts, bo, updated, extra=None):
         rating_he = RATING_HE.get((cn.get("rating") or "").lower(), cn.get("rating") or "")
         ang = 3.14159 * (1 - max(0, min(100, score)) / 100.0)
         import math as _m
-        nx, ny = 100 - 62 * _m.cos(ang), 92 - 62 * _m.sin(ang)
+        nx, ny = 100 + 62 * _m.cos(ang), 92 - 62 * _m.sin(ang)
         arcs = ' '.join(
             f'<path d="M{100 - 80 * _m.cos(3.14159 * a / 100):.1f},{92 - 80 * _m.sin(3.14159 * a / 100):.1f} '
             f'A80,80 0 0 1 {100 - 80 * _m.cos(3.14159 * b / 100):.1f},{92 - 80 * _m.sin(3.14159 * b / 100):.1f}" '
             f'stroke="{c}" stroke-width="20" fill="none"/>'
-            for a, b, c in [(0.5, 19.5, "#f8b4b4"), (20.5, 39.5, "#f4d3a8"), (40.5, 59.5, "#e5e7eb"),
-                            (60.5, 79.5, "#d2e5dc"), (80.5, 99.5, "#90c7ad")])
+            for a, b, c in [(0.5, 24.5, "#f8b4b4"), (25.5, 44.5, "#f4d3a8"), (45.5, 54.5, "#e5e7eb"),
+                            (55.5, 74.5, "#d2e5dc"), (75.5, 99.5, "#90c7ad")])
         hist = "".join(
             f'<div class="cnnrow"><span>{esc(p["label"])}</span><b dir="ltr">{p["value"]}</b></div>'
             for p in cn.get("previous", []))
@@ -1527,7 +1631,7 @@ def build_html(mh, dips, alerts, bo, updated, extra=None):
     parts.append('<div class="pane" id="pane-bo">')
     parts.append(
         '<div class="hdr"><div><h1>סורק פריצות</h1>'
-        f'<div class="ts">עדכון {ts} · רענון אוטומטי כל 15 דקות</div></div>'
+        f'<div class="ts">עדכון {ts} · סריקה מתוזמנת כל 15 דקות, בפועל עלולה להתעכב שעות</div></div>'
         '<div class="brand">Erez-Stocks</div><button class="refresh-btn" onclick="location.reload()">עדכן עכשיו</button></div>')
     if bo and bo.get("groups") is not None:
         groups = bo["groups"]
@@ -1555,7 +1659,8 @@ def build_html(mh, dips, alerts, bo, updated, extra=None):
                 parts.append('<div class="empty">אין מניות כרגע.</div>')
             for t, x in rows:
                 is_new = x.get("cross_date") and x["cross_date"] == bo.get("today_dm")
-                new_b = '<span class="newbadge">חדש</span>' if is_new else ""
+                new_b = (f'<span class="newbadge" data-ts="{int(updated.timestamp() * 1000)}">חדש</span>'
+                         if is_new else "")
                 flags = "<br>".join(esc(fl) for fl in (x.get("flags") or []))
                 if gkey == "RECOVERY":
                     head = (f'{t}: {x["from_high_pct"]:.0f}% מתחת לשיא · '
@@ -1601,7 +1706,12 @@ def build_html(mh, dips, alerts, bo, updated, extra=None):
                 else:
                     cls = "up" if s["pct"] >= 0 else "down"
                     pct_txt = f'{s["pct"]:+.1f}%'
-                status = "🎯 הגיע ליעד" if s["target_hit"] else "⏳ במעקב"
+                oc = s.get("outcome") or ("target" if s["target_hit"] else "open")
+                od = f' ({s["outcome_date"]})' if s.get("outcome_date") else ""
+                status = {"target": "🎯 הגיע ליעד" + od,
+                          "stopped": "🛑 נעצר בסטופ" + od,
+                          "untracked": "📋 ללא יעד/סטופ מתועד — מעקב בלבד",
+                          "unknown": "⚠️ סטופ ויעד באותו יום — סדר לא ידוע"}.get(oc, "⏳ במעקב")
                 cur_cell = (f'<td class="num">{s["current"]:.2f}</td>' if s["current"]
                             else "<td>—</td>")
                 rows_h.append(
@@ -1610,7 +1720,7 @@ def build_html(mh, dips, alerts, bo, updated, extra=None):
                     f'{cur_cell}'
                     f'<td class="{cls}">{pct_txt}</td>'
                     f'<td class="num">{s["target"]:.2f}</td><td>{status}</td></tr>')
-            parts.append('<div class="tbl-wrap"><table class="htable">'
+            parts.append('<div class="tblhint">⇦ הטבלה נגללת אופקית</div><div class="tbl-wrap"><table class="htable">'
                          "<tr><th>מניה</th><th>תאריך איתות</th><th>מחיר איתות</th>"
                          "<th>מחיר נוכחי</th><th>שינוי מאז</th><th>יעד</th><th>סטטוס</th></tr>"
                          + "".join(rows_h) + "</table></div>")
@@ -1629,7 +1739,7 @@ def build_html(mh, dips, alerts, bo, updated, extra=None):
         b, x, s, r = acc["breakout"], acc["extended"], acc["setup"], acc["recovery"]
         parts.append('<h3 class="sec">דיוק הזיהוי · מדידה היסטורית</h3>')
         parts.append(
-            f'<p class="ts">כמה האיתותים צדקו בעבר: שחזור הסורק כמו שהוא על {ltr(acc["tickers"])} מניות לאורך '
+            f'<p class="ts">כמה האיתותים צדקו בעבר: שחזור הסורק כמו שהוא על {ltr(acc["tickers"])} מניות (יקום היסטורי: S&P 500 + S&P 400 + Nasdaq-100) לאורך '
             f'{esc(acc["window"])} ({ltr(tot_s)} איתותים), ובדיקה מה קרה 5, 10 ו-20 ימי מסחר אחרי. '
             'מדד לאיכות הזיהוי ולקריאת המגמה, לא הבטחה ולא מערכת מסחר.</p>')
         parts.append('<div class="accgrid">')
@@ -1659,7 +1769,7 @@ def build_html(mh, dips, alerts, bo, updated, extra=None):
                 f'וההחזקה מעל הקו עלתה ל-{ltr(str(vf["above10"])+"%")}. בחלון האישור הנפרד: {ltr(str(vf["confirm_false5"])+"%")} '
                 f'מול {ltr(str(vf["confirm_all_false5"])+"%")} — היתרון נשמר מחוץ למדגם. '
                 'מוצג כמידע בלבד; שינוי כללים רק באישור.</p></div>')
-        parts.append(f'<div class="ts">מדידה מ-{esc(acc.get("computed_at", ""))} · שחזור אומת מול קוד הסורק החי · '
+        parts.append(f'<div class="ts">מדידה מ-{esc(acc.get("computed_at", ""))} · הסיכום נטען מקובץ accuracy_stats.json (קוד השחזור אינו חלק מהמאגר) · '
                      'המדדים מתייחסים לזיהוי ולהמשכיות, ואינם תחזית תשואה</div>')
     parts.append("</div>")
 
@@ -1667,7 +1777,7 @@ def build_html(mh, dips, alerts, bo, updated, extra=None):
     parts.append('<div class="pane" id="pane-dip">')
     parts.append(
         '<div class="hdr"><div><h1>סורק דיפים</h1>'
-        f'<div class="ts">עדכון {ts} · רענון אוטומטי כל 15 דקות</div></div>'
+        f'<div class="ts">עדכון {ts} · סריקה מתוזמנת כל 15 דקות, בפועל עלולה להתעכב שעות</div></div>'
         '<div class="brand">Erez-Stocks</div><button class="refresh-btn" onclick="location.reload()">עדכן עכשיו</button></div>')
     if dips:
         for c in dips:
@@ -1681,7 +1791,7 @@ def build_html(mh, dips, alerts, bo, updated, extra=None):
                 f'<div class="a-top"><span class="newbadge">חדש</span><span class="sp"></span>'
                 f'<span class="kbadge">דיפ</span><span class="tick">{esc(c["ticker"])}</span></div>'
                 f'<div class="a-head">עומק הדיפ: {c["depth"]:.1f}% מהשיא · מעל השפל: {c["above_low_pct"]:.1f}%</div>'
-                f'<div class="a-comp">RSI(14): {c["rsi"]:.0f} · {esc(scan_utils.volume_text(c["vol_tier"], c["vol_mult"], dip_meta["vfrac"]))}</div>'
+                f'<div class="a-comp">RSI פשוט(14): {c["rsi"]:.0f} · {esc(scan_utils.volume_text(c["vol_tier"], c["vol_mult"], dip_meta["vfrac"]))}</div>'
                 f"{links}</div>")
     elif not dip_meta["coverage_ok"]:
         parts.append('<div class="empty warnbox">לא ניתן לסמוך על התוצאה: חסרים נתונים '
@@ -1700,7 +1810,7 @@ def build_html(mh, dips, alerts, bo, updated, extra=None):
         parts.append(
             '<div class="finding"><b>התנאים דורשים בו-זמנית תיקון רדוד וקריסה טרייה</b>'
             f'<p>במדידה מ-{esc((acc or {}).get("computed_at", ""))}: רק {ltr(dfp["fire_today"])} מתוך {ltr(dfp["universe"])} '
-            f'המניות עמדו בכל התנאים בסריקה האחרונה, ורק {ltr(dfp["rsi_only"])} היו עם RSI מתחת ל־30. '
+            f'המניות עמדו בכל התנאים בסריקה האחרונה, ורק {ltr(dfp["rsi_only"])} היו עם RSI פשוט(14) מתחת ל־30 (בסורק הפריצות מוצג RSI ויילדר הסטנדרטי). '
             f'וכשהוא כן מזהה — הזיהוי טוב: על {ltr(n_s)} איתותים בארבע שנים, '
             f'{ltr(str(dfp["pos20"])+"%")} היו חיוביים 20 ימים אחרי מול {ltr(str(dfp["base_pos20"])+"%")} בקו הבסיס, '
             f'ובחלון האישור {ltr(str(dfp["confirm_pos20"])+"%")} מול {ltr(str(dfp["confirm_base"])+"%")}. '
@@ -1712,7 +1822,7 @@ def build_html(mh, dips, alerts, bo, updated, extra=None):
         parts.append('<h3 class="sec">תיקון במגמת עלייה · קטגוריית זיהוי, לא איתות תחתית</h3>')
         parts.append(
             '<div class="finding warn"><b>זו קטגוריית זיהוי נוספת, לא איתות קנייה</b>'
-            f'<p>מניה שירדה 10%–30% מתחת לשיא 52 השבועות, עדיין מעל ממוצע 200, עם RSI מתחת ל־40. '
+            f'<p>מניה שירדה 10%–30% מתחת לשיא 52 השבועות, עדיין מעל ממוצע 200, עם RSI פשוט(14) מתחת ל־40. '
             f'במדידה על {esc(pbs.get("window", ""))}: התייצבות אצל תיקונים כאלה '
             f'{ltr(str(pbs.get("pos20", ""))+"%")} מול {ltr(str(pbs.get("base_pos20", ""))+"%")} ביום אקראי — הפרש זעים. '
             'הקטגוריה מסמנת מצב תיקון במגמה, לא נקודת קנייה.</p></div>')
@@ -1724,7 +1834,7 @@ def build_html(mh, dips, alerts, bo, updated, extra=None):
                 f'<header><b>{esc(r["ticker"])}</b><strong class="down">{ltr("-" + format(r["dd"], ".1f") + "%")}'
                 '<small>מתחת לשיא</small></strong></header>'
                 f'<div class="pbbody"><span>סגירה {ltr(format(r["close"], ".2f"))} · {pct2(r["chg"])} ביום האחרון</span>'
-                f'<span>RSI {ltr(format(r["rsi"], ".0f"))}{vol}</span>'
+                f'<span>RSI פשוט {ltr(format(r["rsi"], ".0f"))}{vol}</span>'
                 f'<span>{ltr("+" + format(r["above200"], ".1f") + "%")} מעל ממוצע 200 · '
                 f'{ltr("+" + format(r["above_low"], ".1f") + "%")} מעל שפל 126 יום</span></div></div>')
         parts.append('</div>')
@@ -1736,7 +1846,7 @@ def build_html(mh, dips, alerts, bo, updated, extra=None):
     parts.append('<div class="pane" id="pane-bio">')
     parts.append(
         '<div class="hdr"><div><h1>התראות ביוטק</h1>'
-        f'<div class="ts">עדכון {ts} · רענון אוטומטי כל 15 דקות</div></div>'
+        f'<div class="ts">עדכון {ts} · סריקה מתוזמנת כל 15 דקות, בפועל עלולה להתעכב שעות</div></div>'
         '<div class="brand">Erez-Stocks</div><button class="refresh-btn" onclick="location.reload()">עדכן עכשיו</button></div>')
     parts.append(
         '<div class="stats">'
@@ -1841,6 +1951,8 @@ def build_html(mh, dips, alerts, bo, updated, extra=None):
         for c in cats["upcoming"]:
             if c["days"] is None:
                 days_txt, cls = "ללא תאריך", ""
+            elif c["days"] < 0 and c.get("approx"):
+                days_txt, cls = "חלון הצפי פתוח", "soon"
             elif c["days"] == 0:
                 days_txt, cls = "היום", "soon"
             elif c["days"] == 1:
@@ -1937,8 +2049,13 @@ document.querySelectorAll('#bioalerts .alert').forEach(function(c){
 c.style.display=(!v||c.dataset.kind===v)?'':'none';});
 var ba=document.getElementById('bioalerts');
 if(ba){ba.scrollIntoView({behavior:'smooth',block:'start'});}});}
+var MRK='mr_read_at';
+(function(){var mr=+localStorage.getItem(MRK)||0;if(!mr)return;
+document.querySelectorAll('.newbadge').forEach(function(b){
+var t=+b.dataset.ts||0;if(t&&t<=mr)b.style.display='none';});})();
 var mr=document.getElementById('markread');
 if(mr){mr.addEventListener('click',function(){
+localStorage.setItem(MRK,String(Date.now()));
 document.querySelectorAll('.newbadge').forEach(function(b){b.style.display='none';});});}
 </script>""")
 

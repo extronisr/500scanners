@@ -109,6 +109,13 @@ SOURCES = {
     "nasdaq100": "https://en.wikipedia.org/wiki/Nasdaq-100",
 }
 
+# Wikipedia removed the Nasdaq-100 constituents table (Oct 2026). When the live
+# fetch fails, fall back to this snapshot (taken 2026-10-24) so Nasdaq-only
+# names like ASML/ARM/MELI are not silently dropped from the scan universe.
+FALLBACK_NASDAQ100 = ['AAPL', 'ABNB', 'ADBE', 'ADI', 'ADP', 'ADSK', 'AEP', 'ALAB', 'ALNY', 'AMAT', 'AMD', 'AMGN', 'AMZN', 'APP', 'ARM', 'ASML', 'AVGO', 'AXON', 'BKNG', 'BKR', 'CCEP', 'CDNS', 'CEG', 'CMCSA', 'COST', 'CPRT', 'CRWD', 'CRWV', 'CSCO', 'CSX', 'CTAS', 'DASH', 'DDOG', 'DXCM', 'EXC', 'FANG', 'FAST', 'FER', 'FTNT', 'GEHC', 'GILD', 'GOOG', 'GOOGL', 'HON', 'HONA', 'IDXX', 'INTC', 'INTU', 'ISRG', 'KDP', 'KLAC', 'LIN', 'LITE', 'LRCX', 'MAR', 'MCHP', 'MDLZ', 'MELI', 'META', 'MNST', 'MPWR', 'MRNA', 'MRVL', 'MSFT', 'MSTR', 'MU', 'NBIS', 'NFLX', 'NVDA', 'NXPI', 'ODFL', 'ORLY', 'PANW', 'PAYX', 'PCAR', 'PDD', 'PEP', 'PLTR', 'PYPL', 'QCOM', 'REGN', 'RKLB', 'ROP', 'ROST', 'SBUX', 'SHOP', 'SNDK', 'SNPS', 'SPCX', 'STX', 'TER', 'TMUS', 'TRI', 'TSLA', 'TTWO', 'TXN', 'VRTX', 'WDAY', 'WDC', 'WMT', 'XEL']
+
+
+
 # חלק מהמחזור היומי שנסחר עד נקודת זמן ביום (צורת U: פתיחה וסגירה ערות במיוחד)
 VOL_CURVE_T = [0.0, 0.077, 0.154, 0.308, 0.500, 0.692, 0.846, 0.923, 1.0]
 VOL_CURVE_V = [0.0, 0.140, 0.220, 0.340, 0.470, 0.600, 0.730, 0.820, 1.0]
@@ -222,29 +229,82 @@ def _fetch_index(url):
     raise ValueError("לא נמצאה טבלת רכיבי מדד בעמוד")
 
 
+# chosen safety minimums per index (a default we picked, not a sourced
+# standard): below this the source is treated as failed so an entire index
+# can never silently drop out of the scan universe
+INDEX_MIN_COUNT = {"sp500": 400, "sp400": 300, "nasdaq100": 80}
+UNIVERSE_JSON = BASE / "market_scanner_universe.json"
+
+
+def _idx_fresh(entry):
+    try:
+        age = (time.time() - dt.datetime.fromisoformat(entry["fetched_at"]).timestamp()) / 86400
+        return age <= S["universe_refresh_days"]
+    except Exception:
+        return False
+
+
 def load_universe():
-    cached, age = [], None
-    if UNIVERSE.exists():
-        cached = pd.read_csv(UNIVERSE)["ticker"].dropna().astype(str).tolist()
-        age = (time.time() - UNIVERSE.stat().st_mtime) / 86400
+    # per-index cache with per-index fetched_at: staleness never comes from
+    # file mtime (a fresh git checkout rewrites it), and a failed index keeps
+    # its OLD fetched_at so it is retried on the next run instead of looking fresh
+    cached, cached_legacy = {}, []
+    if UNIVERSE_JSON.exists():
+        try:
+            meta = json.loads(UNIVERSE_JSON.read_text(encoding="utf-8"))
+            cached = meta.get("indexes", {}) or {}
+            cached_legacy = meta.get("legacy", []) or []
+        except Exception:
+            cached, cached_legacy = {}, []
+    if not cached and not cached_legacy and UNIVERSE.exists():
+        cached_legacy = pd.read_csv(UNIVERSE)["ticker"].dropna().astype(str).tolist()
 
-    tickers = set(cached)
-    if not cached or age > S["universe_refresh_days"]:
-        fetched, errors = set(), []
-        for idx in S["universe"]:
-            try:
-                fetched |= set(_fetch_index(SOURCES[idx]))
-            except Exception as e:
-                errors.append(f"{idx}: {type(e).__name__}: {e}")
-        if fetched:
-            tickers = fetched if not errors else fetched | set(cached)
-            pd.DataFrame({"ticker": sorted(tickers)}).to_csv(UNIVERSE, index=False)
-            print(f"רשימת המניות עודכנה: {len(tickers)} מניות")
-        for e in errors:
-            print(f"⚠️  עדכון רשימה נכשל — {e}")
-        if not tickers:
-            print("⚠️  אין רשימת מניות ואין גיבוי. סורק רק את extra_tickers.")
+    indexes = {}
+    errors = []
+    for idx in S["universe"]:
+        entry = cached.get(idx)
+        if entry and entry.get("tickers") and _idx_fresh(entry):
+            indexes[idx] = entry
+            continue
+        try:
+            syms = _fetch_index(SOURCES[idx])
+            if len(syms) < INDEX_MIN_COUNT.get(idx, 0):
+                raise ValueError(
+                    f"רק {len(syms)} רשומות (מינימום {INDEX_MIN_COUNT[idx]})")
+            indexes[idx] = {"tickers": sorted(set(syms)),
+                            "fetched_at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")}
+        except Exception as e:
+            if idx == "nasdaq100" and not (entry and entry.get("tickers")):
+                # in-repo static snapshot: full coverage, stamped now
+                indexes[idx] = {"tickers": sorted(set(FALLBACK_NASDAQ100)),
+                                "fetched_at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")}
+                errors.append(f"{idx}: {type(e).__name__}: {e} (fallback snapshot used)")
+            elif entry and entry.get("tickers"):
+                indexes[idx] = entry   # keeps its original fetched_at
+                errors.append(f"{idx}: {type(e).__name__}: {e} (נשמרה הרשימה השמורה)")
+            else:
+                errors.append(f"{idx}: {type(e).__name__}: {e} (אין רשימה שמורה!)")
 
+    # the legacy CSV/one-time import covers an index only until that index has
+    # its own entry; it is never a substitute once per-index entries exist
+    legacy = [] if len(indexes) == len(S["universe"]) else list(cached_legacy)
+    for e in errors:
+        print(f"⚠️  עדכון רשימה נכשל — {e}")
+    if not any(v.get("tickers") for v in indexes.values()) and not legacy:
+        print("⚠️  אין רשימת מניות ואין גיבוי. סורק רק את extra_tickers.")
+
+    if indexes != cached or legacy != cached_legacy:
+        payload = {"indexes": indexes}
+        if legacy:
+            payload["legacy"] = legacy
+        UNIVERSE_JSON.write_text(json.dumps(payload, ensure_ascii=False), encoding="utf-8")
+        merged = sorted({t for v in indexes.values() for t in v["tickers"]} | set(legacy))
+        pd.DataFrame({"ticker": merged}).to_csv(UNIVERSE, index=False)
+        sizes = ", ".join(f"{k}:{len(v['tickers'])}" for k, v in sorted(indexes.items()))
+        print(f"רשימת המניות עודכנה: {len(merged)} מניות ({sizes}"
+              + (f", legacy:{len(legacy)}" if legacy else "") + ")")
+
+    tickers = {t for v in indexes.values() for t in v["tickers"]} | set(legacy)
     tickers |= {t.strip().upper() for t in S["extra_tickers"] if t.strip()}
     return sorted(tickers)
 
@@ -297,6 +357,11 @@ def _touches(highs, level, tol, sep):
     return clusters, len(highs) - idx[0]
 
 
+def risk_pct(entry, stop):
+    """Relative loss from entry to stop, as % of the ENTRY price."""
+    return (entry - stop) / entry * 100
+
+
 def _recovery(df, c, h, l, v, vfrac, base, r):
     """↗️ התאוששות: 15%-40% מתחת לשיא, שפל עולה בתוך בסיס, וחצייה של הגבוה של הבסיס במחזור."""
     close = base["close"]
@@ -345,7 +410,7 @@ def _recovery(df, c, h, l, v, vfrac, base, r):
         bottom_pos = b
         win = hi
         stop = max(recent_low * 0.99, P * 0.97)
-        risk = (close / stop - 1) * 100
+        risk = risk_pct(close, stop)
         # יעד ראשון: "מהלך נמדד" של תבנית W — גובה הבסיס מעל הפיבוט, ולא מעבר לשיא 52 השבועות
         target = min(P + (P - bottom), base["high52"])
         upside = (target / close - 1) * 100
@@ -710,7 +775,7 @@ def main():
     state, expected_d, tfrac = market_state()
     intraday = state == "OPEN"
     expected = expected_d.isoformat()
-    vfrac = max(float(np.interp(tfrac, VOL_CURVE_T, VOL_CURVE_V)), 0.05) if intraday else 1.0
+    vfrac = max(float(np.interp(tfrac, VOL_CURVE_T, VOL_CURVE_V)), 0.25) if intraday else 1.0
 
     now = dt.datetime.now()
     stamp = now.strftime("%Y-%m-%d %H:%M")

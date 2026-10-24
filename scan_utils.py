@@ -238,11 +238,12 @@ BT_COMPANY_ALIASES = {
     "daiichi sankyo": "DSNKY", "incyte": "INCY", "neurocrine": "NBIX",
     "seagen": "PFE", "immunogen": "ABBV", "mirati": "BMY", "karuna": "BMY",
     "cerevel": "ABBV", "prometheus": "MRK", "chiasma": "ENTA",
-    "acadia": "ACAD", "disc medicine": "DISC", "veradermics": "",
+    "acadia": "ACAD", "disc medicine": "IRON", "veradermics": "",
 }
 
 BT_CATEGORY_HE = {
     "fda": "אישור FDA",
+    "spec": "ציפייה לאישור FDA",
     "crl": "דחיית FDA",
     "phase3": "תוצאות שלב 3",
     "phase2": "תוצאות שלב 2",
@@ -314,6 +315,15 @@ _BT_NEGATIVE = re.compile(
     r"falls?\s+short|\bdents?\b|safety\s+(?:concern|issue|signal)|\bstumbles?\b",
     re.I)
 
+# Rejection framed as overcome background ("spins past FDA rejection",
+# "bounces back from CRL", "despite FDA rejection"): the rejection is history,
+# not the current event - it must not count as negative evidence.
+_BT_HISTORICAL_REJECTION = re.compile(
+    r"(?:spins?\s+past|bounces?\s+back\s+(?:from|after)|overcomes?|despite|"
+    r"after|following|moves?\s+past|shrugs?\s+off)"
+    r"[^.]{0,45}?(?:rejection|rejects|complete\s+response\s+letter|\bcrl\b)",
+    re.I)
+
 # Tickers that are also ordinary English words (from the user's desktop monitor):
 # exchange-style mentions stay valid, but a bare "(EDIT)" is treated as prose.
 BT_COMMON_WORD_TICKERS = {"IRON", "HELP", "VIR", "CURE", "EDIT", "BEAM", "FATE", "BLUE",
@@ -346,9 +356,13 @@ _BT_FAIL_MEET = re.compile(
 def breakthrough_direction(title):
     """1 = positive readout/approval, -1 = failure/rejection, 0 = unclear."""
     t = title or ""
+    # 'HER2-positive' / 'PD-L1-negative' name the disease subtype, not the
+    # readout direction; drop hyphenated subtype mentions before scoring words.
+    t = re.sub(r"\b[A-Za-z0-9]+-(?:positive|negative)\b", " ", t, flags=re.I)
     t2 = _BT_FAIL_MEET.sub(" ", t)        # 'fails to meet' is not a positive 'meet'
-    pos = bool(_BT_POSITIVE.search(t2))
-    neg = bool(_BT_NEGATIVE.search(t)) or t2 != t
+    th = _BT_HISTORICAL_REJECTION.sub(" ", t2)   # drop overcome-history rejections
+    pos = bool(_BT_POSITIVE.search(th))
+    neg = bool(_BT_NEGATIVE.search(th)) or t2 != t
     if pos and not neg:
         return 1
     if neg and not pos:
@@ -368,20 +382,33 @@ def classify_breakthrough(title):
     t = (title or "").strip()
     if not t or is_evergreen(t) or _BT_SKIP.search(t):
         return None
-    if _BT_CRL.search(t):
-        return {"cat": "crl", "sev": 3, "dir": -1}
     if _BT_HOLD.search(t):
         return {"cat": "hold", "sev": 3, "dir": -1}
     if _BT_APPROVAL.search(t):
-        if _BT_SPECULATIVE.search(t) or re.search(r"\bgeneric\b", t, re.I):
+        if _BT_SPECULATIVE.search(t):
+            # expecting a future approval is not an approval event
+            return {"cat": "spec", "sev": 2, "dir": 0}
+        if re.search(r"\bgeneric\b", t, re.I):
+            # a generic approval is a real approval, just lower-impact
             return {"cat": "fda", "sev": 2, "dir": 1}
         return {"cat": "fda", "sev": 4, "dir": 1}
+    # A fresh readout with a clear direction outranks a historical CRL mention
+    # ("spins past FDA rejection with positive phase 3 data"). A real new
+    # rejection headline carries no positive readout, so it still falls to CRL.
     if _BT_PHASE3.search(t) and _BT_READOUT.search(t) and not _BT_OPS.search(t):
         d = breakthrough_direction(t)
-        return {"cat": "phase3", "sev": 4 if d == 1 else 3, "dir": d}
+        if d:
+            return {"cat": "phase3", "sev": 4 if d == 1 else 3, "dir": d}
     if _BT_PHASE2.search(t) and _BT_READOUT.search(t) and not _BT_OPS.search(t):
         d = breakthrough_direction(t)
-        return {"cat": "phase2", "sev": 2 if d == 1 else 1, "dir": d}
+        if d:
+            return {"cat": "phase2", "sev": 2 if d == 1 else 1, "dir": d}
+    if _BT_CRL.search(t):
+        return {"cat": "crl", "sev": 3, "dir": -1}
+    if _BT_PHASE3.search(t) and _BT_READOUT.search(t) and not _BT_OPS.search(t):
+        return {"cat": "phase3", "sev": 3, "dir": 0}
+    if _BT_PHASE2.search(t) and _BT_READOUT.search(t) and not _BT_OPS.search(t):
+        return {"cat": "phase2", "sev": 1, "dir": 0}
     if _BT_BTD.search(t):
         return {"cat": "btd", "sev": 2, "dir": 1}
     return None
@@ -454,7 +481,8 @@ _BT_COMMON_NEWS = {"fda", "approval", "approves", "approved", "treatment", "hepa
                    "cancer", "results", "announces", "patients", "therapy",
                    "chronic", "disease", "receives", "positive", "negative",
                    "melanoma", "prostate", "leukemia", "lymphoma", "myeloma",
-                   "diabetes", "alzheimers", "oncology", "vaccine", "antibody"}
+                   "diabetes", "alzheimers", "oncology", "vaccine", "antibody",
+                   "phase", "trial", "study", "data"}
 
 # Generic English words that are also the first word of a company name
 # ("First Solar" -> "first"): never a reliable company mention on their own.
@@ -489,6 +517,11 @@ def cluster_breakthroughs(items):
     items: [{title, link, pub_ts, source, cat, sev, dir, tickers, companies, nct?}]
     Returns clusters sorted by severity then recency."""
     items = sorted(items, key=lambda x: -(x.get("pub_ts") or 0))
+    # company-name words are identity, not event evidence: never let the
+    # shared company name itself justify a merge
+    co_words = set()
+    for _a in BT_COMPANY_ALIASES:
+        co_words.update(_a.split())
     # distinctive tokens: uncommon across this batch (drug names like 'hibsago')
     # merge same-category items even when outlet wording differs.
     df = {}
@@ -510,19 +543,33 @@ def cluster_breakthroughs(items):
         for c in clusters:
             if c["cat"] != it["cat"]:
                 continue
-            if set(c["tickers"]) & set(it.get("tickers") or []):
-                placed = c
-                break
-            if set(c["companies"]) & set(it.get("companies") or []):
-                placed = c
-                break
+            # A conflicting trial id blocks the merge: same company + same
+            # category is not proof of the same event.
+            if c["ncts"] and it.get("nct") and it["nct"] not in c["ncts"]:
+                continue
+            # opposite directions (approval vs rejection) are different events:
+            # a failure must never disappear into a success cluster
+            if c["dir"] and it.get("dir") and c["dir"] != it["dir"]:
+                continue
             ct = c["_toks"]
-            ft, fct = toks - _BT_COMMON_NEWS, ct - _BT_COMMON_NEWS
-            if ft and fct:
-                inter = ft & fct
-                if inter & distinctive or len(inter) / min(len(ft), len(fct)) >= 0.5:
+            co_here = {t.lower() for t in c["tickers"] + (it.get("tickers") or [])}
+            ft = toks - _BT_COMMON_NEWS - co_words - co_here
+            fct = ct - _BT_COMMON_NEWS - co_words - co_here
+            inter = (ft & fct) if (ft and fct) else set()
+            shared_co = bool(set(c["tickers"]) & set(it.get("tickers") or [])) \
+                     or bool(set(c["companies"]) & set(it.get("companies") or []))
+            if shared_co:
+                # same company + same category still needs token evidence of
+                # the same drug/event; the company name alone is not enough
+                if inter:
                     placed = c
                     break
+            elif (inter and (inter & distinctive)
+                    and len(inter) / min(len(ft), len(fct)) >= 0.5):
+                # cross-company merge needs BOTH a batch-distinctive shared
+                # token AND high overlap - a lone medical term is not an event
+                placed = c
+                break
         if placed is None:
             placed = {"title": it["title"], "link": it.get("link", ""),
                       "pub_ts": it.get("pub_ts"), "date": it.get("date", ""),
