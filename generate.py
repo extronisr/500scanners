@@ -1256,6 +1256,15 @@ direction:rtl;padding:12px 12px 96px;max-width:720px;margin:0 auto}
 font-weight:800;font-size:1.05rem;color:#16202e;white-space:nowrap}
 .refresh-btn{background:#16202e;color:#fff;border:none;border-radius:10px;padding:10px 18px;
 font-weight:700;font-size:.9rem;cursor:pointer;font-family:inherit;white-space:nowrap}
+.refresh-btn[disabled]{opacity:.55;cursor:default}
+.rf-wrap{display:flex;flex-direction:column;gap:6px;align-items:stretch}
+.rf-gear{background:transparent;border:1px solid #cbd5e1;border-radius:10px;color:#16202e;
+font-size:.85rem;padding:4px 0;cursor:pointer;font-family:inherit}
+.rf-status{position:fixed;bottom:110px;left:50%;transform:translateX(-50%);background:#16202e;color:#fff;
+padding:12px 18px;border-radius:12px;font-size:.9rem;z-index:99;box-shadow:0 6px 20px rgba(0,0,0,.35);
+max-width:88vw;text-align:center;line-height:1.5}
+.rf-status.ok{background:#14532d}
+.rf-status.err{background:#7f1d1d}
 .hero{background:#16202e;color:#fff;border-radius:20px;padding:22px 20px;display:flex;
 align-items:center;gap:20px;margin-bottom:12px}
 .hero .hinfo{flex:1;display:flex;flex-direction:column;gap:10px;align-items:flex-start}
@@ -1438,6 +1447,16 @@ def fresh_badge(a):
     return ""
 
 
+
+def _hdr(title, ts):
+    return (
+        f'<div class="hdr"><div><h1>{title}</h1>'
+        f'<div class="ts">עדכון {ts} · מתעדכן אוטומטית כל חצי שעה</div></div>'
+        f'<div class="brand">Erez-Stocks</div>'
+        f'<button class="refresh-btn" type="button">עדכן עכשיו</button></div>'
+    )
+
+
 def build_html(mh, dips, alerts, bo, updated, extra=None):
     extra = extra or {}
 
@@ -1476,9 +1495,7 @@ def build_html(mh, dips, alerts, bo, updated, extra=None):
     # ================= market health pane =================
     parts.append('<div class="pane active" id="pane-mh">')
     parts.append(
-        '<div class="hdr"><div><h1>בריאות השוק</h1>'
-        f'<div class="ts">עדכון {ts} · סריקה מתוזמנת כל 15 דקות, בפועל עלולה להתעכב שעות</div></div>'
-        '<div class="brand">Erez-Stocks</div><button class="refresh-btn" onclick="location.reload()">עדכן עכשיו</button></div>')
+        _hdr('בריאות השוק', ts))
     if mh and mh["score"] is not None:
         score = mh["score"]
         col = STATUS_COLORS.get(mh["status"], "#e6edf3")
@@ -1630,9 +1647,7 @@ def build_html(mh, dips, alerts, bo, updated, extra=None):
     # ================= breakout pane =================
     parts.append('<div class="pane" id="pane-bo">')
     parts.append(
-        '<div class="hdr"><div><h1>סורק פריצות</h1>'
-        f'<div class="ts">עדכון {ts} · סריקה מתוזמנת כל 15 דקות, בפועל עלולה להתעכב שעות</div></div>'
-        '<div class="brand">Erez-Stocks</div><button class="refresh-btn" onclick="location.reload()">עדכן עכשיו</button></div>')
+        _hdr('סורק פריצות', ts))
     if bo and bo.get("groups") is not None:
         groups = bo["groups"]
         total = sum(len(v) for v in groups.values())
@@ -1776,9 +1791,7 @@ def build_html(mh, dips, alerts, bo, updated, extra=None):
     # ================= dips pane =================
     parts.append('<div class="pane" id="pane-dip">')
     parts.append(
-        '<div class="hdr"><div><h1>סורק דיפים</h1>'
-        f'<div class="ts">עדכון {ts} · סריקה מתוזמנת כל 15 דקות, בפועל עלולה להתעכב שעות</div></div>'
-        '<div class="brand">Erez-Stocks</div><button class="refresh-btn" onclick="location.reload()">עדכן עכשיו</button></div>')
+        _hdr('סורק דיפים', ts))
     if dips:
         for c in dips:
             links = "".join(
@@ -1845,9 +1858,7 @@ def build_html(mh, dips, alerts, bo, updated, extra=None):
     kind_he = {"price": "מחיר", "sec": "דיווח", "news": "חדשות"}
     parts.append('<div class="pane" id="pane-bio">')
     parts.append(
-        '<div class="hdr"><div><h1>התראות ביוטק</h1>'
-        f'<div class="ts">עדכון {ts} · סריקה מתוזמנת כל 15 דקות, בפועל עלולה להתעכב שעות</div></div>'
-        '<div class="brand">Erez-Stocks</div><button class="refresh-btn" onclick="location.reload()">עדכן עכשיו</button></div>')
+        _hdr('התראות ביוטק', ts))
     parts.append(
         '<div class="stats">'
         f'<div class="stat"><b>{stats["bio_total"]}</b><span>חברות במעקב</span></div>'
@@ -2059,9 +2070,38 @@ localStorage.setItem(MRK,String(Date.now()));
 document.querySelectorAll('.newbadge').forEach(function(b){b.style.display='none';});});}
 </script>""")
 
+    parts.append("""<script>
+(function(){
+var WORKER='https://scanner-refresh.extronisr.workers.dev';
+var st=document.getElementById('rfStatus');
+var watching=false, since=0;
+function show(m,c){st.textContent=m;st.className='rf-status'+(c?' '+c:'');st.hidden=false;}
+function busy(b){document.querySelectorAll('.refresh-btn').forEach(function(x){x.disabled=b;});}
+function vpoll(){
+fetch('version.json?cb='+Date.now(),{cache:'no-store'}).then(function(r){return r.json();}).then(function(v){
+if(v.epoch && v.epoch*1000>=since-2000){
+var partial=(v.failures&&v.failures.length)?' · חלק מהמקורות לא היו זמינים':'';
+show('עודכן ✓'+partial,'ok');
+setTimeout(function(){location.reload();},2500);
+return;}
+next();}).catch(function(){next();});}
+function next(){
+if(Date.now()-since>12*60*1000){show('העדכון לוקח זמן רב מהרגיל - בדוק את חלון העדכון','err');busy(false);watching=false;return;}
+setTimeout(vpoll,10000);}
+function trigger(){
+if(watching)return;
+var w=window.open(WORKER+'/go','erezrefresh','width=420,height=560');
+if(!w){show('הדפדפן חסם את חלון העדכון - אשר חלונות קופצים לאתר זה ונסה שוב','err');return;}
+since=Date.now();busy(true);watching=true;
+show('חלון העדכון נפתח - הסריקה מתבצעת, כ־3 דקות…');
+setTimeout(vpoll,15000);}
+document.querySelectorAll('.refresh-btn').forEach(function(b){b.addEventListener('click',trigger);});
+})();
+</script>""")
+
     parts.append(
         '<div class="ftr">מחזור מסומן "הערכה תוך-יומית" הוא הקרנה של מחזור חלקי ליום מלא - לא מחזור שנצפה, והמחזור הרגיל אינו אחיד לאורך היום. · נתונים: Yahoo Finance · SEC EDGAR · Google News · '
-        "מקורות חינמיים בלבד · לא ייעוץ השקעות</div></body></html>")
+        "מקורות חינמיים בלבד · לא ייעוץ השקעות</div><div class='rf-status' id='rfStatus' hidden></div></body></html>")
     return "\n".join(parts)
 
 
@@ -2104,9 +2144,17 @@ def main():
     alerts = bio.get("alerts", [])
 
     updated = datetime.now(JER)
-    with open(OUT_FILE, "w", encoding="utf-8") as f:
+    html_tmp = OUT_FILE + ".tmp"
+    with open(html_tmp, "w", encoding="utf-8") as f:
         f.write(build_html(mh, dips, alerts, bo, updated, extra))
+    os.replace(html_tmp, OUT_FILE)
     dt = time.time() - t0
+    ver = {"generated_at": updated.isoformat(), "epoch": int(updated.timestamp()),
+           "failures": sorted({s for s, _ in failures}), "duration_sec": round(dt)}
+    ver_tmp = os.path.join(OUT_DIR, "version.json.tmp")
+    with open(ver_tmp, "w", encoding="utf-8") as f:
+        json.dump(ver, f, ensure_ascii=False)
+    os.replace(ver_tmp, os.path.join(OUT_DIR, "version.json"))
 
     print(f"WROTE {OUT_FILE} ({os.path.getsize(OUT_FILE)} bytes) in {dt:.0f}s")
     if mh:
