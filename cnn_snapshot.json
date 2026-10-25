@@ -1,28 +1,24 @@
 {
  "score": 21,
- "rating": "Extreme Fear",
+ "rating": "extreme fear",
  "previous": [
   {
    "label": "סגירה קודמת",
-   "value": 19,
-   "rating": "Extreme Fear"
+   "value": 20
   },
   {
    "label": "לפני שבוע",
-   "value": 22,
-   "rating": "Extreme Fear"
+   "value": 22
   },
   {
    "label": "לפני חודש",
-   "value": 32,
-   "rating": "Fear"
+   "value": 33
   },
   {
    "label": "לפני שנה",
-   "value": 27,
-   "rating": "Fear"
+   "value": 28
   }
  ],
- "timestamp": "2026-10-23T23:59:44+00:00",
- "source": "https://www.cnn.com/markets/fear-and-greed"
+ "source": "https://www.cnn.com/markets/fear-and-greed",
+ "timestamp": "2026-10-23T23:59:44+00:00"
 }
