@@ -1,5 +1,5 @@
 {
- "fetched_at": "25.10.2026, 17:47",
+ "fetched_at": "25.10.2026, 18:03",
  "items": [
   {
    "title": "‘Infinite potential’: Akeso CEO looks for more ivonescimab combos amid AstraZeneca investment, new phase 3 win - Fierce Pharma",
@@ -193,6 +193,14 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNanYxQ2tteXo1dDJrLTZmdXdKWTdYMktvb1dGa190OXA4OGpOZnJhaW9hVVU1WVlZOWVRR0ZuMmo0Qm9XNkxVejZIVkdHNUNIWTNHVzhSeGdCTFkxWnZxeHM2ZDBFOTNFczlYTzY5TVJrSDAxOFdzUFlfQW9vSDhUR0dmQ0NBTVBfSUhVdTZLZXFvZ0NQdWFBWm94Q00yNTB1cHVycFVoWjVLOU5DaFNCXzlWVk5jeXdxT0pocFpfaWR4ZFU?oc=5"
+    },
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPNTFOT3Y1U3dud3E1T1l1bG9JTnlXSFlvNkRCM3M1NEZCb0V3WjhGbzMxM0h4bF9pNW9wRVM0UnlTV0Q1STY1UDZBOW9CUkY0LU8tTmlabU9KWUlBUVdJUlpHMGdpUjVKa3ljc0Z3S3pLWDRRWDBYZHpzV1htakdodXBoVEoyeEh5QWdpUm92QXhKOXI4QXpVSFgzb2lRc3NsOWx1aGlYX1N5WEFHU3pOUnVkMjlCMnNXOUFiN2s2QmhFQQ?oc=5"
+    },
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221276"
     }
    ],
    "ncts": []
@@ -267,26 +275,6 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOenRJLTJkZDlnbjVUSTlZQ1JFMEZDYW4yMXpUNHJJSmNTR2kwb093bzV0UXJxZEJ5NERzcldaZXY3eUljSVE3c2JreDVyRzBnQnZwUldJN09pTWF1ZXM5WFp0cy14VlVUdGFZcE0xbHVSdWNHSkNqeE56YU1KSC0zbUJZVmRJanFMLWdhUA?oc=5"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "FDA approves Hibsago (Glaxosmithkline Llc)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221276",
-   "pub_ts": 1792454400.0,
-   "date": "20.10.2026",
-   "cat": "fda",
-   "sev": 4,
-   "dir": 1,
-   "tickers": [],
-   "companies": [
-    "GSK"
-   ],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221276"
     }
    ],
    "ncts": []
@@ -654,10 +642,24 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMV9tRWdjajZORzF2S3NyZFRzSVJsTk9Qb2lCekIyV0g0Wm5VczkwVnptdkJuc29iNzlPN1RYMWkxOWtSREpSRlkwQnp3SW5sS1FNX19yUEFyNmU0MFlkejBZbzFMVl80eVZ4RjFMWEVSbkMySzVJZ1pPeHBTUkNoTWVMUHpJRXdNM19yaWtINkNEYlZWby0zUzBpUTg5bXhETXZ3Ng?oc=5"
-    },
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "Key facts: ARGX Q3 Sales $1.7B; FDA Priority Review for VYVGART Hytrulo - TradingView",
+   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNN0hFcm1mZ2lHbm5YY3A0eDVzNl9JM0V5TkFHRWdxNkN5S2E4M2tOTWlNRllHc0tDdVVOWTVtajY2MVBaSVdEaXVxUERUcTlwS1duQ0YzZGtTSWN2Nkx6el96R0dSTGxSNWNINUpzT1VHSmtWbmNGc0V4alVQRXIxTnpYZ3IxdzU5aEpjQUMzX0xCbzRSZFJxcjFIbnk4amdfTTJpVzNkTUdPSmtmbFo3NUU1MHVpWmhqeEpJVTZ3SEdpdkZaSWw0eERR?oc=5",
+   "pub_ts": 1792652400.0,
+   "date": "22.10.2026, 10:00",
+   "cat": "btd",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
     {
      "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQRVRvVUhvRGZBTW1wdWE1LWxSNzd4SDQ4ZUluU0VFbGpqbTQyLWdIYUJkOUdnWU1MWmRfSmJUdG5aV3psRzEtZnFKVnhUSTFEWi15aWo2RURqV3cyY1kxbXdZS0VESklvMmtmX3FneXRDM2V4Zy1pUUdwSVFTdk1wazkta3pIa2NISHl2X180UDVfZ2xZNWlHNTdTRFc?oc=5"
+     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNN0hFcm1mZ2lHbm5YY3A0eDVzNl9JM0V5TkFHRWdxNkN5S2E4M2tOTWlNRllHc0tDdVVOWTVtajY2MVBaSVdEaXVxUERUcTlwS1duQ0YzZGtTSWN2Nkx6el96R0dSTGxSNWNINUpzT1VHSmtWbmNGc0V4alVQRXIxTnpYZ3IxdzU5aEpjQUMzX0xCbzRSZFJxcjFIbnk4amdfTTJpVzNkTUdPSmtmbFo3NUU1MHVpWmhqeEpJVTZ3SEdpdkZaSWw0eERR?oc=5"
     }
    ],
    "ncts": []
@@ -683,46 +685,6 @@
    "ncts": [
     "NCT03036488"
    ]
-  },
-  {
-   "title": "Ascentage Pharma Group Says Lisaftoclax Granted Breakthrough Therapy Designation In China - TradingView",
-   "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOVHNvT0c1YXZJMWxqYXRfRTVlaUowYW9QQjZQc2tBalAybGlRa3p6cU1kNk5Kd1F1bWtYQWVXSHZzTXRad0RSN3QzbEVPc0p1NEs5alF2c0JVelhxM3RmM3Vwd0ZVUnRFS211ZEhLZEdfQVROVldxMzRxcFcxaEF3N2xLWHN6OEEyTURWNWc4dXRJTktaTU4xajNwNjhaSnpxUTlVUW05MHVFWVhpdkYzTFhJMGZGYy1UbXRwTi1nMnpiNERvS0JkekkzRHl6RG9UcElPTVZhV01VbHNobmNucDZ2VzlhQkVZcEQ2U1p1WGw?oc=5",
-   "pub_ts": 1792545420.0,
-   "date": "21.10.2026, 4:17",
-   "cat": "btd",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOVHNvT0c1YXZJMWxqYXRfRTVlaUowYW9QQjZQc2tBalAybGlRa3p6cU1kNk5Kd1F1bWtYQWVXSHZzTXRad0RSN3QzbEVPc0p1NEs5alF2c0JVelhxM3RmM3Vwd0ZVUnRFS211ZEhLZEdfQVROVldxMzRxcFcxaEF3N2xLWHN6OEEyTURWNWc4dXRJTktaTU4xajNwNjhaSnpxUTlVUW05MHVFWVhpdkYzTFhJMGZGYy1UbXRwTi1nMnpiNERvS0JkekkzRHl6RG9UcElPTVZhV01VbHNobmNucDZ2VzlhQkVZcEQ2U1p1WGw?oc=5"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "Samsung Bioepis' First Novel Drug Candidate SBE303 Wins FDA Fast Track Designation - BigGo Finance",
-   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9xeURJUjdPcGtBRkpZbFlYVzdZUy1sYkhzMkFjRkZNZEdTY19MR05SSnBPQ3BudWY1dlBuNlFPOUJnb2F5WV9ibWZXTjNJTFNDM3BRQnpNWC13RjNVTXV3WTNwMzhUZHVWNmg3Q3JRTmpfOUZmLVE?oc=5",
-   "pub_ts": 1792544700.0,
-   "date": "21.10.2026, 4:05",
-   "cat": "btd",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9xeURJUjdPcGtBRkpZbFlYVzdZUy1sYkhzMkFjRkZNZEdTY19MR05SSnBPQ3BudWY1dlBuNlFPOUJnb2F5WV9ibWZXTjNJTFNDM3BRQnpNWC13RjNVTXV3WTNwMzhUZHVWNmg3Q3JRTmpfOUZmLVE?oc=5"
-    },
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1lVzJGOHNwZXpqXzU2VU4xSXRzLUdiSlhxVktIR0Z0STl1c1BOb2xJb3ViWTdOdVRFbnp1WDYtcjlGM3dybDhiT0JIMFV2NHBDSGlTSUNUUmhJWjFhcC1PUHBaZ3g1Q3NrT0diZWZB?oc=5"
-    }
-   ],
-   "ncts": []
   },
   {
    "title": "Study to Compare Bictegravir/Lenacapavir Versus Current Therapy in People With HIV-1 Who Are Successfully Treated With a Complicated Regimen (ARTISTRY-1)",
@@ -769,11 +731,11 @@
    ]
   },
   {
-   "title": "Fast Track Status Could Be A Key Moment For Astellas Pharma Stock (TSE:4503) - Simply Wall Street",
-   "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPMXVyWVp4U2htREwtR0xIcWVqdUVib1V6MUJjWVNMeEN6MGR1YUtOWHc1TTFVcEU3bS1BLUo4SHhlb25wdEJ0SDN3QXpicUxrR3lsS0JNSXZoQzlYNkdkZHc2MzRFQWQ2eTNoOE5mMFN3ZVFzaDVyVHc4N1F3NXVRTHhOeEFvNVRZZ1J6T1E5ekFlLUdESldYaHEwYk96bHBYOUdNSDBBRWc5Mk1jenBRbHlwWkxuYkl0RWxzZmdZV0IyT1AwWkhXYWpnRkYxbDFtNXZXcUltWTJwbVlkelBPalE0NFdTR2vSAewBQVVfeXFMUFRGYzN6el9vRy1IYXRRcE0tUEhGVG5BbkdZcmdHODJtcmtMMVR6NFREQ1c4cGl0RWFJalVCdkYzX3RtY0xuQTNfT2FrRjVsY3gtRFdyMnZvbGJ3cEhiYUJxaGl2T1B6MXh4SC1mZG5Kb0kwdVVSTWNFekpmRjNVNUlJdWRFN2R3Y0lpYU0yR0FZa1dtbXBXWUhNUkctdEUtS05oUkF0aTdvSWxfV1ZpNFl4QkgwaUpGTFIwaUw0X3lMN0wzTW1RcWZGQ1EwcTlZYVkyaEE0NDZoMmRHRmJHMXJ6U25XNkt1ZW5FbDg?oc=5",
-   "pub_ts": 1792529319.0,
-   "date": "20.10.2026, 23:48",
-   "cat": "btd",
+   "title": "FDA Approves First Generic for Climara Pro Hormone Therapy Patch - Drug Topics",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQRVRvVUhvRGZBTW1wdWE1LWxSNzd4SDQ4ZUluU0VFbGpqbTQyLWdIYUJkOUdnWU1MWmRfSmJUdG5aV3psRzEtZnFKVnhUSTFEWi15aWo2RURqV3cyY1kxbXdZS0VESklvMmtmX3FneXRDM2V4Zy1pUUdwSVFTdk1wazkta3pIa2NISHl2X180UDVfZ2xZNWlHNTdTRFc?oc=5",
+   "pub_ts": 1792524104.0,
+   "date": "20.10.2026, 22:21",
+   "cat": "fda",
    "sev": 2,
    "dir": 1,
    "tickers": [],
@@ -781,7 +743,25 @@
    "sources": [
     {
      "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPMXVyWVp4U2htREwtR0xIcWVqdUVib1V6MUJjWVNMeEN6MGR1YUtOWHc1TTFVcEU3bS1BLUo4SHhlb25wdEJ0SDN3QXpicUxrR3lsS0JNSXZoQzlYNkdkZHc2MzRFQWQ2eTNoOE5mMFN3ZVFzaDVyVHc4N1F3NXVRTHhOeEFvNVRZZ1J6T1E5ekFlLUdESldYaHEwYk96bHBYOUdNSDBBRWc5Mk1jenBRbHlwWkxuYkl0RWxzZmdZV0IyT1AwWkhXYWpnRkYxbDFtNXZXcUltWTJwbVlkelBPalE0NFdTR2vSAewBQVVfeXFMUFRGYzN6el9vRy1IYXRRcE0tUEhGVG5BbkdZcmdHODJtcmtMMVR6NFREQ1c4cGl0RWFJalVCdkYzX3RtY0xuQTNfT2FrRjVsY3gtRFdyMnZvbGJ3cEhiYUJxaGl2T1B6MXh4SC1mZG5Kb0kwdVVSTWNFekpmRjNVNUlJdWRFN2R3Y0lpYU0yR0FZa1dtbXBXWUhNUkctdEUtS05oUkF0aTdvSWxfV1ZpNFl4QkgwaUpGTFIwaUw0X3lMN0wzTW1RcWZGQ1EwcTlZYVkyaEE0NDZoMmRHRmJHMXJ6U25XNkt1ZW5FbDg?oc=5"
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQRVRvVUhvRGZBTW1wdWE1LWxSNzd4SDQ4ZUluU0VFbGpqbTQyLWdIYUJkOUdnWU1MWmRfSmJUdG5aV3psRzEtZnFKVnhUSTFEWi15aWo2RURqV3cyY1kxbXdZS0VESklvMmtmX3FneXRDM2V4Zy1pUUdwSVFTdk1wazkta3pIa2NISHl2X180UDVfZ2xZNWlHNTdTRFc?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA Approves Once-Weekly Generic Hormone Therapy Patch For Women - TradingView",
+   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOcEN0amRhYmpJMjlQOVdTbHBfUGFtVEYzc1FHZk1XTTdMV1d3WVF0NU4yZEZKQ0M1azQyeWtfR2JXb08ySDVHYkxzaFJNYWtTREhVZENSWG1UeVhvaVVZOFhwZVlSUFBZNFI1RnBqNWxSNURULWFSTXJHaGgwbVlGYjgwVk9SbzZnNTBXR1lHeFRuQ3FYRV96UzhNR19EMF9JMjlOd2M3VFJMZlJyb3pvY1k3VVQ1S25uM0Q1U3JwY1N1ai1ERmU5OS1nNlRsRU0?oc=5",
+   "pub_ts": 1792512368.0,
+   "date": "20.10.2026, 19:06",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOcEN0amRhYmpJMjlQOVdTbHBfUGFtVEYzc1FHZk1XTTdMV1d3WVF0NU4yZEZKQ0M1azQyeWtfR2JXb08ySDVHYkxzaFJNYWtTREhVZENSWG1UeVhvaVVZOFhwZVlSUFBZNFI1RnBqNWxSNURULWFSTXJHaGgwbVlGYjgwVk9SbzZnNTBXR1lHeFRuQ3FYRV96UzhNR19EMF9JMjlOd2M3VFJMZlJyb3pvY1k3VVQ1S25uM0Q1U3JwY1N1ai1ERmU5OS1nNlRsRU0?oc=5"
     }
    ],
    "ncts": []
