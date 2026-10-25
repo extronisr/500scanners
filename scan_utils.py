@@ -249,6 +249,7 @@ BT_CATEGORY_HE = {
     "phase2": "תוצאות שלב 2",
     "btd": "אירוע רגולטורי",
     "hold": "עצירה קלינית",
+    "readout": "תוצאות קליניות",
 }
 
 _BT_SKIP = re.compile(
@@ -293,6 +294,22 @@ _BT_HOLD = re.compile(
     re.I)
 
 _BT_PHASE3 = re.compile(r"\bphase\s*(?:3|iii)\b|\bpivotal\s+(?:trial|study|data|results|win)", re.I)
+
+# A major readout whose headline does not say the phase ("Demonstrates Overall
+# Survival Superiority in First-Line Biliary Tract Cancer"). Requires a strong
+# efficacy term AND a biotech context word, so sports/business headlines stay out.
+_BT_STRONG_READOUT = re.compile(
+    r"overall survival|progression-free|event-free|recurrence-free|disease-free|"
+    r"pathologic complete response|complete response rate|overall response|"
+    r"primary endpoint|superiority|\bsuperior\b|statistically significant|"
+    r"survival\s+(?:win|wins|benefit|advantage|improvement)",
+    re.I)
+
+_BT_BIO_CONTEXT = re.compile(
+    r"cancer|tumou?r|carcinoma|leukemi[ao]|lymphoma|myeloma|melanoma|oncolog|"
+    r"\btrial\b|\bstudy\b|\bpatients?\b|\btherapy\b|\btherapeutic|\bdrug\b|"
+    r"\bdose[sd]?\b|dosing|antibod|vaccine|biotech|pharma|clinical",
+    re.I)
 _BT_PHASE2 = re.compile(r"\bphase\s*(?:2|ii)\b(?!i)", re.I)
 
 _BT_BTD = re.compile(
@@ -304,7 +321,7 @@ _BT_BTD = re.compile(
 
 _BT_POSITIVE = re.compile(
     r"\bapproves?|approved|approval|meets?|met\b|positive|overwhelmingly|"
-    r"\bwins?\b|succeeds?|successful|success\b|cuts?\b|reduces?|reduction|"
+    r"\bwins?\b|succeeds?|successful|success\b|cuts?\b|reduces?|reduction|pathologic complete response|no evidence of disease|"
     r"superior(?:ity)?|statistically\s+significant|significant(?:ly)?\s+(?:improve|benefit)|"
     r"stops?\s+trial\s+early|breakthrough\s+data|\bhits?\b|\bbeats?\b",
     re.I)
@@ -409,6 +426,11 @@ def classify_breakthrough(title):
         return {"cat": "phase3", "sev": 3, "dir": 0}
     if _BT_PHASE2.search(t) and _BT_READOUT.search(t) and not _BT_OPS.search(t):
         return {"cat": "phase2", "sev": 1, "dir": 0}
+    if _BT_STRONG_READOUT.search(t) and _BT_BIO_CONTEXT.search(t) and not _BT_OPS.search(t):
+        # the phase is unknown from the headline, so this can rank "major"
+        # (3) at most - never the proven-phase-3/approval tier (4)
+        d = breakthrough_direction(t)
+        return {"cat": "readout", "sev": 3 if d else 2, "dir": d}
     if _BT_BTD.search(t):
         return {"cat": "btd", "sev": 2, "dir": 1}
     return None
@@ -461,6 +483,70 @@ def build_bt_lexicon(ticker_names=None):
         if len(first) >= 5 and first not in BT_ALIAS_STOP:
             lex.setdefault(first, ticker.upper())
     return lex
+
+
+# Ordinary-English words that appear as the first word of a company name in the
+# full-biotech universe (~750 names). A bare-word alias for these would tag
+# everyday headlines ("climate summit"), so universe aliases skip them. The
+# 37-name watchlist lexicon keeps its existing behavior.
+BT_ALIAS_STOP_UNIVERSE = {
+    "acumen", "actuate", "adaptive", "arrowhead", "assembly", "atrium", "bicycle",
+    "boundless", "bright", "cardio", "century", "champions", "compass", "connect",
+    "context", "creative", "crescent", "denali", "design", "dogwood", "electra",
+    "emergent", "foghorn", "fortress", "fulcrum", "generate", "generation",
+    "gossamer", "greenland", "harmony", "impact", "insight", "integer",
+    "intensity", "jaguar", "journey", "jupiter", "lantern", "legend", "lexicon",
+    "milestone", "molecular", "mustang", "nature", "obsidian", "ocular",
+    "odyssey", "outlook", "outset", "passage", "perspective", "prelude",
+    "prestige", "protagonist", "purple", "quantum", "revelation", "revolution",
+    "rhythm", "rocket", "royalty", "scholar", "serina", "silence", "solana",
+    "spruce", "stablecoin", "structure", "summit", "sunshine", "tectonic",
+    "tempest", "trinity", "universe", "upstream", "viking", "voyager", "werewolf",
+}
+
+
+def add_bt_name_aliases(lexicon, ticker_names):
+    """Extend a breakthrough lexicon with a large company universe. Full
+    normalized names always; first-word aliases only when long and not a common
+    English word - with ~750 companies, bare-word matches must stay conservative."""
+    for ticker, name in (ticker_names or {}).items():
+        norm = _bt_norm_name(name)
+        if norm and len(norm) >= 4:
+            lexicon.setdefault(norm, ticker.upper())
+        first = _bt_first_word(name)
+        if (len(first) >= 6 and first not in BT_ALIAS_STOP
+                and first not in BT_ALIAS_STOP_UNIVERSE):
+            lexicon.setdefault(first, ticker.upper())
+    return lexicon
+
+
+def biotech_universe_from_screener(rows):
+    """Nasdaq screener rows -> {ticker: company name} for US biotech common
+    equity (Health Care sector, Biotechnology industry, positive market cap).
+    Units, warrants, rights and preferred shares are not scannable equity."""
+    out = {}
+    for r in rows or []:
+        try:
+            if (r.get("sector") or "") != "Health Care":
+                continue
+            if not (r.get("industry") or "").startswith("Biotechnology"):
+                continue
+            if float(r.get("marketCap") or 0) <= 0:
+                continue
+            sym = (r.get("symbol") or "").strip().upper().replace("/", "-")
+            if not sym or not sym.replace("-", "").isalpha() or len(sym) > 6:
+                continue
+            raw_name = (r.get("name") or "").strip()
+            if re.search(r"\b(warrants?|units?|rights?|preferred)\b|%|notes? due",
+                         raw_name, re.I):
+                continue
+            name = re.sub(
+                r"\s+(Common Stock|Ordinary Shares|American Depositary.*|Class [A-Z].*)$",
+                "", raw_name)
+            out[sym] = name
+        except Exception:
+            continue
+    return out
 
 
 def companies_in_text(text, lexicon):

@@ -6,7 +6,7 @@ Static Hebrew (RTL) mobile-friendly dashboard generator.
 Sections:
   1. US market health  - reuses market_health_monitor_FINAL_v2 (score 0-100, 8 checks)
   2. Dip scanner       - S&P 500 dip screener (technical) + Google News headlines
-  3. Biotech           - watchlist movers + fresh SEC 8-K filings
+  3. Biotech           - whole-sector movers + fresh SEC 8-K filings
 
 Headless, stdlib only, free sources only. Writes index.html next to this script.
 """
@@ -336,6 +336,108 @@ def dip_scan_section():
     return cands
 
 
+# ---------------------------------------------------------------- biotech universe (whole US sector)
+BIO_UNIVERSE = os.path.join(BASE_DIR, "biotech_universe.json")
+BIO_UNIVERSE_REFRESH_DAYS = 7
+BIO_UNIVERSE_MIN = 500
+BIO_NEWS_MAX_TICKERS = 25    # bounded per-run news lookups for flagged names
+BIO_SEC_EXTRA_MAX = 15       # bounded EDGAR checks for flagged non-watchlist names
+NASDAQ_SCREENER_URL = ("https://api.nasdaq.com/api/screener/stocks?tableonly=true"
+                       "&limit=10000&offset=0&download=true&industry=Biotechnology")
+_BIO_UNI = None
+
+
+def load_biotech_universe():
+    """{ticker: name} for the whole US biotech sector (Nasdaq screener snapshot).
+    Refreshed every few days; a failed refresh keeps the last good snapshot so
+    coverage never silently shrinks (same policy as the breakout universe)."""
+    global _BIO_UNI
+    if _BIO_UNI is not None:
+        return _BIO_UNI
+    cached, age_days = {}, None
+    try:
+        meta = json.load(open(BIO_UNIVERSE, encoding="utf-8"))
+        cached = meta.get("tickers") or {}
+        age_days = (time.time() - datetime.fromisoformat(
+            meta["fetched_at"].replace("Z", "+00:00")).timestamp()) / 86400
+    except Exception:
+        cached, age_days = {}, None
+    result = cached
+    if not (cached and age_days is not None and age_days <= BIO_UNIVERSE_REFRESH_DAYS):
+        try:
+            filt = getattr(scan_utils, "biotech_universe_from_screener", None)
+            if filt is None:
+                raise RuntimeError("scan_utils.py is an older version without biotech_universe_from_screener")
+            data = http_get_json(NASDAQ_SCREENER_URL, timeout=30)
+            fresh = filt((data.get("data") or {}).get("rows"))
+            if len(fresh) < BIO_UNIVERSE_MIN:
+                raise ValueError(f"screener returned only {len(fresh)} biotech rows")
+            tmp_path = BIO_UNIVERSE + ".tmp"
+            with open(tmp_path, "w", encoding="utf-8") as fh:
+                json.dump({"fetched_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+                           "tickers": fresh}, fh, ensure_ascii=False, indent=1)
+            os.replace(tmp_path, BIO_UNIVERSE)
+            result = fresh
+        except Exception as e:
+            # a stale snapshot is fine (the sector barely changes week to week);
+            # only a total absence of any universe is a section failure
+            print(f"⚠️  רענון יקום הביוטק נכשל — {type(e).__name__}: {e}")
+            if not cached:
+                fail("biotech", f"universe unavailable: {e}")
+                result = {}
+    _BIO_UNI = result
+    return result
+
+
+_SEC_TICKER_CIK = None
+
+
+def sec_ticker_cik(ticker):
+    """CIK for any US ticker via the SEC's official bulk map (once per run)."""
+    global _SEC_TICKER_CIK
+    if _SEC_TICKER_CIK is None:
+        _SEC_TICKER_CIK = {}
+        data = http_get_json("https://www.sec.gov/files/company_tickers.json",
+                             timeout=20, ua=SEC_UA)
+        for row in data.values():
+            t = (row.get("ticker") or "").strip().upper()
+            if t:
+                _SEC_TICKER_CIK[t] = str(row.get("cik_str"))
+    return _SEC_TICKER_CIK.get((ticker or "").upper())
+
+
+def _bio_download(tickers):
+    """3mo daily bars for many tickers in yfinance batches, like the breakout scan.
+    Returns {ticker: (closes, volumes)}."""
+    import pandas as pd
+    import yfinance as yf
+    out = {}
+    size = 50
+    for i in range(0, len(tickers), size):
+        chunk = tickers[i:i + size]
+        df = None
+        for attempt in range(3):
+            try:
+                df = yf.download(chunk, period="3mo", interval="1d", group_by="ticker",
+                                 auto_adjust=False, threads=True, progress=False)
+                break
+            except Exception:
+                time.sleep(5 * (attempt + 1))
+        if df is None or getattr(df, "empty", True):
+            continue
+        for t in chunk:
+            try:
+                sub = df[t] if isinstance(df.columns, pd.MultiIndex) else df
+                sub = sub.dropna(subset=["Close"])
+                if len(sub) >= 22:
+                    out[t] = ([float(x) for x in sub["Close"].tolist()],
+                              [float(x) if x == x else 0.0 for x in sub["Volume"].tolist()])
+            except Exception:
+                continue
+        time.sleep(1)
+    return out
+
+
 # ---------------------------------------------------------------- biotech
 def chart_closes_volumes(symbol, range_value="3mo"):
     encoded = urllib.parse.quote(symbol, safe="")
@@ -399,30 +501,52 @@ def edgar_8k_last_days(cik, days=3):
 
 
 def biotech_alerts():
-    """Alerts feed like the app: price/volume spikes, 8-K filings, news.
-    Also returns a full-watchlist radar (price, change, volume, severity, why)."""
+    """Sector-wide radar: the full US biotech universe (Nasdaq screener) plus the
+    hand-maintained watchlist. Price/volume spikes for everything; 8-K filings
+    and news lookups only for the watchlist and the names that actually moved,
+    which keeps the run bounded."""
     cfg_path = os.path.join(BASE_DIR, "biotech_config.json")
     try:
         cfg = json.load(open(cfg_path, encoding="utf-8"))
         watchlist = cfg["watchlist"]
     except Exception as e:
         fail("biotech", f"config unreadable: {e}")
-        return {"alerts": [], "radar": []}
+        return {"alerts": [], "radar": [], "flagged_extra": []}
     p_spike = cfg.get("price_spike_pct", 8.0)
     p_crit = cfg.get("price_critical_pct", 15.0)
     v_mult = cfg.get("volume_mult", 3.0)
     v_crit = cfg.get("volume_critical_mult", 5.0)
-    alerts = []
-    radar = []
-    stats["bio_total"] = len(watchlist)
+
+    wl_tickers = {w.get("ticker") for w in watchlist if w.get("ticker")}
+    names = dict(load_biotech_universe())
+    for w in watchlist:                      # curated watchlist names win
+        if w.get("ticker"):
+            names[w["ticker"]] = w.get("name", "")
+    tickers = sorted(names)
+    stats["bio_total"] = len(tickers)
+
+    series = _bio_download(tickers)
+    # the hand-maintained watchlist must never silently drop out of the radar:
+    # retry its missing names one by one through the chart endpoint
+    for t in sorted(wl_tickers - set(series)):
+        closes, vols = chart_closes_volumes(t)
+        if closes:
+            series[t] = (closes, vols)
+        time.sleep(0.15)
+    stats["biotech_missing"] = len(tickers) - len(series)
+
     vfrac_now = _dip_vfrac()
     today = datetime.now(timezone.utc).date().isoformat()
-    for w in watchlist:
-        ticker, name, cik = w.get("ticker"), w.get("name", ""), w.get("cik", "")
-        closes, vols = chart_closes_volumes(ticker)
-        if not closes or len(closes) < 22:
+    alerts = []
+    radar = []
+    radar_by_ticker = {}
+    moved = {}       # ticker -> (v_tier, v_val) when the price/volume spike rule fired
+    for t in tickers:
+        got = series.get(t)
+        if not got:
             continue
-        chg = (closes[-1] / closes[-2] - 1.0) * 100.0 if closes[-2] else 0.0
+        closes, vols = got
+        chg = (closes[-1] / closes[-2] - 1.0) * 100.0 if len(closes) >= 2 and closes[-2] else 0.0
         vc = scan_utils.volume_context(vols, vfrac_now)
         v_tier, v_val = scan_utils.volume_signal(vc, v_mult, strict=False)
         shown = v_val if v_tier else (vc["confirmed"] if vc and vc["confirmed"] is not None else (vc or {}).get("estimate"))
@@ -430,7 +554,6 @@ def biotech_alerts():
         vol_val = shown or 0.0
         vol_hit = v_tier is not None
         vol_crit_hit = scan_utils.volume_signal(vc, v_crit, strict=False)[0] is not None
-        filings = edgar_8k_last_days(cik, days=3) if cik else []
         rsev = 0
         if abs(chg) >= p_crit or vol_crit_hit:
             rsev = 3
@@ -438,21 +561,61 @@ def biotech_alerts():
             rsev = 2
         elif abs(chg) >= 2.0 and (shown is not None and shown >= 2.5):
             rsev = 1   # early move: +2% on >=2.5x volume (approved trial addition)
-        radar.append({"ticker": ticker, "name": name, "chg": chg,
-                      "close": closes[-1], "vol_mult": shown, "sev": rsev, "why": ""})
+        row = {"ticker": t, "name": names.get(t, ""), "chg": chg,
+               "close": closes[-1], "vol_mult": shown, "sev": rsev, "why": ""}
+        radar.append(row)
+        radar_by_ticker[t] = row
         if abs(chg) >= p_spike or vol_hit:
-            sev = "crit" if (abs(chg) >= p_crit or vol_crit_hit) else "warn"
+            moved[t] = (v_tier, vol_val, vol_avg)
+
+    # 8-K filings: the watchlist always; flagged non-watchlist names bounded per run
+    filings_by_ticker = {}
+    for w in watchlist:
+        t, cik = w.get("ticker"), w.get("cik", "")
+        if not cik:
+            continue
+        filings_by_ticker[t] = edgar_8k_last_days(cik, days=3)
+        time.sleep(0.15)  # be polite to EDGAR
+    flagged_extra = []
+    extra = [r for r in radar if r["sev"] >= 2 and r["ticker"] not in wl_tickers]
+    extra.sort(key=lambda r: (-r["sev"], -abs(r["chg"])))
+    for r in extra[:BIO_SEC_EXTRA_MAX]:
+        t = r["ticker"]
+        try:
+            cik = sec_ticker_cik(t)
+        except Exception as e:
+            fail("biotech", f"SEC ticker map: {e}")
+            break
+        if not cik:
+            continue
+        filings_by_ticker[t] = edgar_8k_last_days(cik, days=3)
+        flagged_extra.append({"ticker": t, "name": names.get(t, ""), "cik": cik})
+        time.sleep(0.35)
+
+    # alerts: price spikes, filings, and news for the names that moved (bounded)
+    news_tickers = set(moved) | {t for t, fs in filings_by_ticker.items() if fs}
+    news_order = sorted(news_tickers,
+                        key=lambda t: (-(radar_by_ticker.get(t) or {}).get("sev", 0),
+                                       -abs((radar_by_ticker.get(t) or {}).get("chg", 0))))
+    for t in tickers:
+        name = names.get(t, "")
+        if t in moved:
+            v_tier, vol_val, vol_avg = moved[t]
+            row = radar_by_ticker[t]
+            chg, price = row["chg"], row["close"]
+            sev = "crit" if row["sev"] == 3 else "warn"
             direction = "עלייה חדה" if chg >= 0 else "ירידה חדה"
-            price = closes[-1]
             vol_txt = (scan_utils.volume_text(v_tier or "confirmed", vol_val, vfrac_now)
                        if vol_avg > 0 else "מחזור לא זמין")
-            alerts.append({"sev": sev, "kind": "price", "ticker": ticker,
+            alerts.append({"sev": sev, "kind": "price", "ticker": t,
                            "name": name, "date": today, "ts": time.time(),
-                           "head": f"{ticker}: {direction} {chg:+.1f}%",
+                           "head": f"{t}: {direction} {chg:+.1f}%",
                            "sub": f"מחיר {price:.2f} · {vol_txt}",
-                           "link": f"https://finance.yahoo.com/quote/{ticker}",
+                           "link": f"https://finance.yahoo.com/quote/{t}",
                            "source": "Yahoo Finance"})
-        for f in filings:
+        for f in filings_by_ticker.get(t) or []:
+            cik = (sec_ticker_cik(t) or "") if t not in wl_tickers else \
+                  next((w.get("cik", "") for w in watchlist if w.get("ticker") == t), "")
             try:
                 cik_num = str(int(cik))
             except Exception:
@@ -461,26 +624,28 @@ def biotech_alerts():
             doc_url = (f"https://www.sec.gov/Archives/edgar/data/{cik_num}/{acc}/{f['doc']}"
                        if f.get("doc") else
                        f"https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK={cik}&type=8-K")
-            alerts.append({"sev": "warn", "kind": "sec", "ticker": ticker,
+            alerts.append({"sev": "warn", "kind": "sec", "ticker": t,
                            "name": name, "date": f["date"],
                            "ts": datetime.fromisoformat(f["date"]).replace(tzinfo=timezone.utc).timestamp(),
-                           "head": f"{ticker}: דיווח 8-K חדש" + (f" · סעיפים {f['items']}" if f["items"] else ""),
+                           "head": f"{t}: דיווח 8-K חדש" + (f" · סעיפים {f['items']}" if f["items"] else ""),
                            "sub": name,
                            "link": doc_url, "source": "SEC EDGAR"})
-        if abs(chg) >= p_spike or vol_hit or filings:
-            for h in news_headlines(f'"{name}" {ticker}' if name else ticker + " stock", n=2, ticker=ticker, name=name):
-                if radar and radar[-1]["ticker"] == ticker and not radar[-1]["why"]:
-                    radar[-1]["why"] = h["title"]
-                pub = fmt_pub(h["pub"]) or today
-                alerts.append({"sev": "info", "kind": "news", "ticker": ticker,
-                               "name": name, "date": pub, "ts": h.get("pub_ts"),
-                               "head": h["title"], "sub": name,
-                               "link": h["link"], "source": "Google News RSS"})
-        time.sleep(0.15)  # be polite to EDGAR
+    for t in news_order[:BIO_NEWS_MAX_TICKERS]:
+        name = names.get(t, "")
+        for h in news_headlines(f'"{name}" {t}' if name else t + " stock", n=2, ticker=t, name=name):
+            row = radar_by_ticker.get(t)
+            if row is not None and not row["why"]:
+                row["why"] = h["title"]
+            pub = fmt_pub(h["pub"]) or today
+            alerts.append({"sev": "info", "kind": "news", "ticker": t,
+                           "name": name, "date": pub, "ts": h.get("pub_ts"),
+                           "head": h["title"], "sub": name,
+                           "link": h["link"], "source": "Google News RSS"})
+        time.sleep(0.2)
     alerts.sort(key=lambda a: a.get("ts") or 0, reverse=True)   # newest first, by real timestamp
     alerts.sort(key=lambda a: {"crit": 0, "warn": 1, "info": 2}[a["sev"]])
     radar.sort(key=lambda r: (-r["sev"], -abs(r["chg"])))
-    return {"alerts": alerts, "radar": radar}
+    return {"alerts": alerts, "radar": radar, "flagged_extra": flagged_extra}
 
 
 def _recovery_path(data, sig):
@@ -994,9 +1159,10 @@ BT_NEWS_QUERIES = [
     'FDA (approves OR approval OR rejects OR "complete response letter") (drug OR therapy OR vaccine)',
     '("breakthrough therapy designation" OR "priority review" OR "fast track") (biotech OR pharma OR drug)',
     '(ESMO OR ASCO OR ASH OR AACR OR AHA) (pivotal OR "phase 3" OR "phase 2") (data OR results OR readout)',
+    '"phase 2" (results OR data OR readout OR topline OR "primary endpoint") (trial OR study) (cancer OR tumor OR drug OR biotech OR pharma)',
 ]
 BT_MAIN_MAX = 10
-BT_MORE_MAX = 15
+BT_MORE_MAX = 60   # busy windows (conference weekends) overflowed the old cap; "more" is a collapsed section
 BT_YAHOO_RESOLVE_MAX = 8
 
 
@@ -1024,7 +1190,7 @@ def _bt_news_items(errors):
         url = (f"https://news.google.com/rss/search?q={urllib.parse.quote(q)}"
                f"&hl=en-US&gl=US&ceid=US:en")
         try:
-            out += _bt_rss(url, "Google News", 25)
+            out += _bt_rss(url, "Google News", 50)
         except Exception as e:
             errors.append("Google News")
             fail("breakthroughs", f"news query {q!r}: {e}")
@@ -1169,6 +1335,12 @@ def breakthrough_section():
     except Exception:
         pass
     lexicon = scan_utils.build_bt_lexicon(names)
+    add_alias = getattr(scan_utils, "add_bt_name_aliases", None)
+    if add_alias:
+        try:
+            add_alias(lexicon, load_biotech_universe())
+        except Exception:
+            pass
 
     errors = []
     raw = _bt_news_items(errors) + _bt_fda_items(errors)
@@ -1868,7 +2040,7 @@ def build_html(mh, dips, alerts, bo, updated, extra=None):
         _hdr('התראות ביוטק', ts))
     parts.append(
         '<div class="stats">'
-        f'<div class="stat"><b>{stats["bio_total"]}</b><span>חברות במעקב</span></div>'
+        f'<div class="stat"><b>{stats["bio_total"]}</b><span>חברות בסריקה</span></div>'
         f'<div class="stat"><b>{n_alerts}</b><span>פריטים חדשים</span></div>'
         f'<div class="stat"><b>{n_news}</b><span>חדשות בסריקה</span></div>'
         "</div>")
@@ -1896,15 +2068,19 @@ def build_html(mh, dips, alerts, bo, updated, extra=None):
                 f'<div class="ts">סריקה כלל-שוקית (לא רשימת המעקב): כל אירוע ביוטק מהותי בשוק · חלון {bt.get("window", 14)} ימים · '
                 f'מקורות: {src_note} · עודכן {esc(bt.get("fetched_at", ""))} · דירוג חומרה אוטומטי מהכותרות, לא המלצה</div>')
     sec_bad = stats["sec_failed"]
-    if sec_bad or stats["biotech_missing"]:
+    sec_checked = stats["sec_ok"] + sec_bad
+    price_gap = stats["biotech_missing"] > max(3, 0.10 * max(stats["bio_total"], 1))
+    if sec_bad or price_gap:
         parts.append(
             '<div class="empty warnbox">⚠️ תקלת נתונים: '
-            f'SEC EDGAR נבדק עבור {stats["sec_ok"]}/{stats["bio_total"]} חברות · '
-            f'נתוני מחיר חסרים: {stats["biotech_missing"]}. '
+            f'דיווחי SEC נכשלו עבור {sec_bad} חברות · '
+            f'נתוני מחיר חסרים: {stats["biotech_missing"]}/{stats["bio_total"]}. '
             'היעדר דיווחי 8-K בעמוד אינו אומר שלא היו כאלה.</div>')
     else:
-        parts.append(f'<div class="ts">SEC EDGAR נבדק עבור {stats["sec_ok"]}/{stats["bio_total"]} חברות</div>')
-    parts.append('<h3 class="sec">התראות רשימת המעקב</h3>')
+        parts.append(f'<div class="ts">דיווחי SEC EDGAR נסרקים ברשימת המעקב הידנית ובכל מניה שהרדאר מסמן — '
+                     f'{sec_checked} חברות בריצה זו · מחירים נסרקו עבור '
+                     f'{stats["bio_total"] - stats["biotech_missing"]}/{stats["bio_total"]} חברות</div>')
+    parts.append('<h3 class="sec">התראות רשימת המעקב והסריקה הכלל-ביוטקית · מחיר, דיווח וחדשות</h3>')
     parts.append(
         '<div class="biorow">'
         '<button class="linklike" id="markread">סמן הכל כנקרא</button>'
@@ -1936,9 +2112,9 @@ def build_html(mh, dips, alerts, bo, updated, extra=None):
     radar = extra.get("radar") or []
     if radar:
         flagged = [r for r in radar if r["sev"] >= 1]
-        parts.append('<h3 class="sec">רדאר תזוזות · כל הרשימה</h3>')
+        parts.append('<h3 class="sec">רדאר תזוזות · כל הביוטק האמריקאי</h3>')
         if flagged:
-            for r in flagged:
+            for r in flagged[:30]:
                 sev_badge = {3: "קריטי", 2: "תזוזה חדה", 1: "תחילת תזוזה"}[r["sev"]]
                 vol = f' · מחזור {ltr("x" + format(r["vol_mult"], ".1f"))}' if r.get("vol_mult") else ""
                 why = f'<div class="a-comp why"><b>למה: </b>{esc(r["why"])}</div>' if r.get("why") else ""
@@ -1948,19 +2124,23 @@ def build_html(mh, dips, alerts, bo, updated, extra=None):
                     f'<span class="tick">{esc(r["ticker"])}</span></div>'
                     f'<div class="a-head">{esc(r["ticker"])}: {pct2(r["chg"], 1)} · מחיר {ltr(format(r["close"], ".2f"))}{vol}</div>'
                     f'{why}</div>')
+            if len(flagged) > 30:
+                parts.append(f'<div class="ts">עוד {len(flagged) - 30} סימונים נוספים בטבלה המלאה למטה.</div>')
         else:
             parts.append('<div class="empty">אין תזוזות חריגות כרגע.</div>')
+        top = sorted(radar, key=lambda r: -abs(r["chg"]))[:150]
         rows = "".join(
             f'<tr><td><b>{esc(r["ticker"])}</b></td><td class="num" dir="ltr">{r["close"]:.2f}</td>'
             f'<td class="{"up" if r["chg"] >= 0 else "down"}" dir="ltr">{r["chg"]:+.1f}%</td>'
             f'<td class="num" dir="ltr">{"x" + format(r["vol_mult"], ".1f") if r.get("vol_mult") else "—"}</td></tr>'
-            for r in radar)
+            for r in top)
         parts.append(
-            '<details class="how"><summary>כל הרשימה · מחיר, שינוי ומחזור &#9664;</summary>'
+            f'<details class="how"><summary>כל הביוטק · {len(top)} התזוזות הגדולות · מחיר, שינוי ומחזור &#9664;</summary>'
             '<div class="tbl-wrap"><table class="htable" style="min-width:0">'
             '<tr><th>מניה</th><th>מחיר</th><th>שינוי</th><th>מחזור</th></tr>'
             f'{rows}</table></div></details>')
-        parts.append('<div class="ts">ספי גרסה 2: תזוזה חדה 8% · קריטי 15% · מחזור חריג ×3 · חריג מאוד ×5 · '
+        parts.append(f'<div class="ts">הסריקה מכסה {stats["bio_total"]} חברות ביוטק אמריקאיות (יקום Nasdaq מלא) ואת רשימת המעקב הידנית · '
+                     'ספי גרסה 2: תזוזה חדה 8% · קריטי 15% · מחזור חריג ×3 · חריג מאוד ×5 · '
                      'תחילת תזוזה: 2% במחזור ×2.5 · שורת "למה": חדשה מ-48 השעות או דיווח SEC אחרון</div>')
 
     cats = extra.get("cats")
@@ -2130,7 +2310,12 @@ def main():
                                    encoding="utf-8")).get("watchlist", [])
     except Exception:
         watchlist = []
-    secw = sec_watch_section(watchlist) if watchlist else None
+    secw_watch = list(watchlist)
+    seen_cik = {str(w.get("cik", "")) for w in watchlist}
+    for fe in bio.get("flagged_extra", []):
+        if fe.get("cik") and str(fe["cik"]) not in seen_cik:
+            secw_watch.append(fe)
+    secw = sec_watch_section(secw_watch) if secw_watch else None
     # SEC-based "why" for flagged radar rows that have no news headline
     if secw and bio.get("radar"):
         recent_by_ticker = {}
