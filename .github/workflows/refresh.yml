@@ -30,6 +30,7 @@ jobs:
           [ -f cnn_snapshot.json ] && git add cnn_snapshot.json || true
           [ -f clinical_trials_cache.json ] && git add clinical_trials_cache.json || true
           [ -f biotech_breakthroughs_cache.json ] && git add biotech_breakthroughs_cache.json || true
+          [ -f biotech_universe.json ] && git add biotech_universe.json || true
           [ -f sp500_names_cache.json ] && git add sp500_names_cache.json || true
           git diff --cached --quiet || git commit -m "refresh $(date -u +%Y-%m-%dT%H:%M)"
           git pull --rebase --autostash
