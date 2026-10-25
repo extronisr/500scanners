@@ -791,3 +791,42 @@ def test_header_honest_about_cadence():
     assert 'onclick="location.reload()"' not in html
     assert html.count('class="refresh-btn"') == 4
     assert "id='rfStatus'" in html
+
+
+# ---- CNN Fear & Greed source
+def _cnn_payload():
+    return {"fear_and_greed": {"score": 20.98, "rating": "extreme fear",
+            "timestamp": "2026-10-23T23:59:44+00:00", "previous_close": 19.8,
+            "previous_1_week": 22.1, "previous_1_month": 32.5, "previous_1_year": 27.6}}
+
+
+def test_cnn_live_fetch_uses_current_endpoint_with_referer(monkeypatch, tmp_path):
+    import generate as g
+    calls = {}
+    monkeypatch.setattr(g, "http_get_json",
+        lambda url, **kw: (calls.update(url=url, headers=kw.get("extra_headers")) or _cnn_payload()))
+    monkeypatch.setattr(g, "CNN_SNAPSHOT", str(tmp_path / "snap.json"))
+    cn = g.cnn_section()
+    assert calls["url"] == "https://production.dataviz.cnn.io/index/fearandgreed/graphdata"
+    assert calls["headers"] == {"Referer": "https://www.cnn.com/markets/fear-and-greed"}
+    assert cn["live"] is True and cn["score"] == 21
+
+
+def test_cnn_live_value_carries_cnn_timestamp_not_fetch_time(monkeypatch, tmp_path):
+    import generate as g
+    monkeypatch.setattr(g, "http_get_json", lambda *a, **k: _cnn_payload())
+    monkeypatch.setattr(g, "CNN_SNAPSHOT", str(tmp_path / "snap.json"))
+    cn = g.cnn_section()
+    assert cn["timestamp"] == "2026-10-23T23:59:44+00:00"
+    assert cn["age_hours"] > 0
+
+
+def test_cnn_live_display_labels_asof_not_today(monkeypatch, tmp_path):
+    import generate as g
+    from datetime import datetime as _dt
+    monkeypatch.setattr(g, "http_get_json", lambda *a, **k: _cnn_payload())
+    monkeypatch.setattr(g, "CNN_SNAPSHOT", str(tmp_path / "snap.json"))
+    cn = g.cnn_section()
+    html = g.build_html(None, [], [], None, _dt.now(g.JER), {"cnn": cn})
+    assert "מ-CNN · נכון ל-" in html
+    assert "עודכן חי מ-CNN בריצה זו" not in html
