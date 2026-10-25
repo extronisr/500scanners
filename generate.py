@@ -50,20 +50,24 @@ def fail(section, detail):
     failures.append((section, detail))
 
 
-def http_get(url, timeout=20, ua=UA, accept="*/*"):
-    req = urllib.request.Request(url, headers={"User-Agent": ua, "Accept": accept})
+def http_get(url, timeout=20, ua=UA, accept="*/*", extra_headers=None):
+    headers = {"User-Agent": ua, "Accept": accept}
+    if extra_headers:
+        headers.update(extra_headers)
+    req = urllib.request.Request(url, headers=headers)
     with urllib.request.urlopen(req, timeout=timeout) as r:
         return r.read()
 
 
-def http_get_json(url, timeout=20, ua=UA, retries=2):
+def http_get_json(url, timeout=20, ua=UA, retries=2, extra_headers=None):
     """GET + parse JSON. Bounded retries (max `retries` extra tries) only for
     transient errors: timeouts, network errors, HTTP 429 and 5xx. 4xx such as
     403/404 fail immediately."""
     for attempt in range(retries + 1):
         try:
             return json.loads(http_get(url, timeout=timeout, ua=ua,
-                                       accept="application/json").decode("utf-8"))
+                                       accept="application/json",
+                                       extra_headers=extra_headers).decode("utf-8"))
         except urllib.error.HTTPError as e:
             if attempt >= retries or not (e.code == 429 or e.code >= 500):
                 raise
@@ -702,7 +706,8 @@ def market_overview_section():
 
 
 # ---------------------------------------------------------------- CNN Fear & Greed
-CNN_URL = "https://production.dataviz.cnn.io/public/fear-and-greed/graph"
+CNN_URL = "https://production.dataviz.cnn.io/index/fearandgreed/graphdata"
+CNN_HEADERS = {"Referer": "https://www.cnn.com/markets/fear-and-greed"}
 CNN_SNAPSHOT = os.path.join(BASE_DIR, "cnn_snapshot.json")
 RATING_HE = {"extreme fear": "פחד קיצוני", "fear": "פחד", "neutral": "נייטרלי",
              "greed": "חמדנות", "extreme greed": "חמדנות קיצונית"}
@@ -713,7 +718,7 @@ def cnn_section():
     timestamp. The snapshot is only rewritten after a successful live fetch."""
     data, live = None, False
     try:
-        raw = http_get_json(CNN_URL, timeout=8, retries=0)
+        raw = http_get_json(CNN_URL, timeout=8, retries=0, extra_headers=CNN_HEADERS)
         fg = raw.get("fear_and_greed", {}) if isinstance(raw, dict) else {}
         if fg.get("score") is not None:
             def _prev(val, label):
@@ -723,9 +728,11 @@ def cnn_section():
                                 _prev(fg.get("previous_1_week"), "לפני שבוע"),
                                 _prev(fg.get("previous_1_month"), "לפני חודש"),
                                 _prev(fg.get("previous_1_year"), "לפני שנה")] if p]
+            # the value belongs to CNN's own as-of timestamp, not our fetch time
+            ts_cnn = fg.get("timestamp") or datetime.now(timezone.utc).isoformat(timespec="seconds")
             data = {"score": round(float(fg["score"])), "rating": fg.get("rating", ""),
                     "previous": prev, "source": "https://www.cnn.com/markets/fear-and-greed",
-                    "timestamp": datetime.now(timezone.utc).isoformat(timespec="seconds")}
+                    "timestamp": ts_cnn}
             live = True
     except Exception as e:
         fail("cnn", f"CNN fetch failed: {e}")
@@ -1624,7 +1631,7 @@ def build_html(mh, dips, alerts, bo, updated, extra=None):
         except Exception:
             ts_txt = ""
         if cn.get("live"):
-            src_txt = f"עודכן חי מ-CNN בריצה זו · {ts_txt}"
+            src_txt = f"מ-CNN · נכון ל-{ts_txt}"
         else:
             src_txt = f"צילום שמור מ-{ts_txt} · המקור לא היה זמין בריצה זו, והמספר אינו של היום"
         age = cn.get("age_hours")
