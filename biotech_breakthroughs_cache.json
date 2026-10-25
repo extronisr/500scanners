@@ -1,6 +1,30 @@
 {
- "fetched_at": "25.10.2026, 17:12",
+ "fetched_at": "25.10.2026, 17:33",
  "items": [
+  {
+   "title": "ESMO: Roche touts ‘convincing’ phase 3 KRAS data after win over rivals - Fierce Biotech",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOS0RuRWNjdE5wMUluaWxTTUU5SFFkeE1LV0JVd2k3ZlhOQ3M5Nk5qWjhMZXZSUkoxNHJyUWx5Q3NyS3dKbTl5UTVqc0QxQk5pS2tTTG9QeFJJWGRDOTNCMWZ6Sk1sVVlnYV92UU5NRVFWNlhKTGREZ3FiQll1MzFYZFE4MWRqaHFIQ2dvS2JyM0ptWHRobEJMSTVxTGxiZHF2Z3VUaFJ3Y1U4SmhZX1lpUHNlenJfM0VlQzNQQzkzV3AxNGc?oc=5",
+   "pub_ts": 1792942200.0,
+   "date": "25.10.2026, 17:30",
+   "cat": "phase3",
+   "sev": 4,
+   "dir": 1,
+   "tickers": [],
+   "companies": [
+    "RHHBY"
+   ],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOS0RuRWNjdE5wMUluaWxTTUU5SFFkeE1LV0JVd2k3ZlhOQ3M5Nk5qWjhMZXZSUkoxNHJyUWx5Q3NyS3dKbTl5UTVqc0QxQk5pS2tTTG9QeFJJWGRDOTNCMWZ6Sk1sVVlnYV92UU5NRVFWNlhKTGREZ3FiQll1MzFYZFE4MWRqaHFIQ2dvS2JyM0ptWHRobEJMSTVxTGxiZHF2Z3VUaFJ3Y1U4SmhZX1lpUHNlenJfM0VlQzNQQzkzV3AxNGc?oc=5"
+    },
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNT1VhLWlDMTJiVHpNMHVHbHRqMmRlekdLNEZWWXFkYldlZUVEZGZmY2VZZTBnYVJZZmJGMWdJOURTV0duWHlFUmFDRW1kZXZ6ck1HRXlqTXptTnRucVE1b3dpazd3eWNBYUhaM0ZOcGkxbmljZm5sT1ZXa1ZxVDZVUXFUZzRBeTZ4cG4xTVBqRHRyR0laQXd4WlN3?oc=5"
+    }
+   ],
+   "ncts": []
+  },
   {
    "title": "Personalized mRNA Melanoma Vaccine Cut Recurrence or Death Risk 42% in Phase 3 Trial, but Survival Data Pending - Medical Daily",
    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOT0h3amNjX0tyMHdLQXZiX1pjS01PMk1Dcl8yaFU1dW5CN3YyNmhDVUpQMDFhdEItWW9yVXZZT0w1SjRzTERjMlJUUHBYb3RJY0IxZGFDMWxEVVI0M3pCQ2MxZzNBZWpSMGJ1MUtjc0tKbjg4QzVjUDdud2owUS1ONjEwbTAyTDgwV3JKbDBqTmVOclBYUHNZOQ?oc=5",
@@ -116,26 +140,6 @@
    "ncts": []
   },
   {
-   "title": "Roche puts numbers behind phase 3 kidney disease win amid blockbuster ambitions - Fierce Biotech",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNT1VhLWlDMTJiVHpNMHVHbHRqMmRlekdLNEZWWXFkYldlZUVEZGZmY2VZZTBnYVJZZmJGMWdJOURTV0duWHlFUmFDRW1kZXZ6ck1HRXlqTXptTnRucVE1b3dpazd3eWNBYUhaM0ZOcGkxbmljZm5sT1ZXa1ZxVDZVUXFUZzRBeTZ4cG4xTVBqRHRyR0laQXd4WlN3?oc=5",
-   "pub_ts": 1792776600.0,
-   "date": "23.10.2026, 20:30",
-   "cat": "phase3",
-   "sev": 4,
-   "dir": 1,
-   "tickers": [],
-   "companies": [
-    "RHHBY"
-   ],
-   "sources": [
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNT1VhLWlDMTJiVHpNMHVHbHRqMmRlekdLNEZWWXFkYldlZUVEZGZmY2VZZTBnYVJZZmJGMWdJOURTV0duWHlFUmFDRW1kZXZ6ck1HRXlqTXptTnRucVE1b3dpazd3eWNBYUhaM0ZOcGkxbmljZm5sT1ZXa1ZxVDZVUXFUZzRBeTZ4cG4xTVBqRHRyR0laQXd4WlN3?oc=5"
-    }
-   ],
-   "ncts": []
-  },
-  {
    "title": "Hibsago Receives FDA Approval for Chronic HBV Treatment - Infectious Disease Advisor",
    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRDlfcjljT1R5c1lKaUVNTXZSUW45SV9ySU5uZ01BSWxZRWFMdm52VW9qdFdiY01iRzVZVDJWQ3VIZjhRNTZQY1dxZnN6ZDNtSU5RalVlY0REX1JFWHBYNDd4cnRDbE14cVowVGU1LUI3QURMMHZkQ0JNbnpWUlRGbHUySWE1NlFjZnFYM2w3TC1EeTR3Q3NCaFBrUXBnaVdPdHc?oc=5",
    "pub_ts": 1792728000.0,
@@ -207,6 +211,24 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNOHhhSU1RVkZHOHQyZ3lOMDNXNmNzSlJfY2pBQ2VqZC1NQ2FmWVYwV2ZxbkRHOXBpM3JXMVd1dWlINTh1LTZlZTkySlo5WU9uZ0lGaDVvN29Ia29TWnFBZDk0cDZkY0h0T2NyY1Z6SWpULWFjVEVZWTBZMEFFci15aDBUcUZWb3hRYkxGRVNQWHFwQURkRFRWVjBBXy1ZN0xMdFhNZ3hncVk?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA Approves Hibsago | PharmExec - Pharmaceutical Executive",
+   "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1HN0FYbmczUXRSTm5NQzVHZXZ3RTNZUV92TThyVmdzaFBMU3hPLVcxRTZVMGZ4QVBoaWZ6cFBFNjFLa21kZTNEemFsQ0o1dXFweGhkbllRNy02WlVMTHpsZXI1c0owQWVR?oc=5",
+   "pub_ts": 1792608709.0,
+   "date": "21.10.2026, 21:51",
+   "cat": "fda",
+   "sev": 4,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1HN0FYbmczUXRSTm5NQzVHZXZ3RTNZUV92TThyVmdzaFBMU3hPLVcxRTZVMGZ4QVBoaWZ6cFBFNjFLa21kZTNEemFsQ0o1dXFweGhkbllRNy02WlVMTHpsZXI1c0owQWVR?oc=5"
     }
    ],
    "ncts": []
