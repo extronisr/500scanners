@@ -22,7 +22,7 @@ jobs:
       - run: |
           git config user.name "scanners-bot"
           git config user.email "scanners-bot@localhost"
-          git add index.html recovery_history.json sp500_tickers_cache.json
+          git add index.html version.json recovery_history.json sp500_tickers_cache.json
           [ -f market_scanner_universe.json ] && git add market_scanner_universe.json || true
           [ -f market_scanner_universe.csv ] && git add market_scanner_universe.csv || true
           [ -f cnn_snapshot.json ] && git add cnn_snapshot.json || true
