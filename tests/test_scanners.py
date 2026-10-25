@@ -786,5 +786,8 @@ def test_header_honest_about_cadence():
     import generate as g
     from datetime import datetime as _dt
     html = g.build_html(None, [], [], None, _dt.now(g.JER), {})
-    assert "עלולה להתעכב שעות" in html
-    assert "רענון אוטומטי כל 15 דקות" not in html
+    assert "מתעדכן אוטומטית כל חצי שעה" in html
+    assert "עלולה להתעכב שעות" not in html
+    assert 'onclick="location.reload()"' not in html
+    assert html.count('class="refresh-btn"') == 4
+    assert "id='rfStatus'" in html
