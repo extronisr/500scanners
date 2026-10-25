@@ -1,23 +1,17 @@
 {
- "fetched_at": "25.10.2026, 5:17",
+ "fetched_at": "25.10.2026, 10:40",
  "items": [
   {
-   "title": "Moderna Melanoma Therapy Cuts Recurrence Risk 42% in Phase 3 Trial - Yahoo Finance",
-   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNXzhaSldkdHYtaHFxWS00NVhDVzRrQXpCRWFwOXpzYVBZbi1iNTlNWHFueUFnVDhEMExBVjRBVkZ0YzdwZmdzV1JfTjFienBnV3lBNFp5b1VDbk9JMnk5Tm91WjE3RXVXbkxxclQyOW5XVHpYb2lOdC0wM3BJa0lpbE9Tb2dSVGtmY18tN2Ezb0hBNGdlOG4xQ1RHMkZ6c1ktck1V?oc=5",
-   "pub_ts": 1792879323.0,
-   "date": "25.10.2026, 1:02",
+   "title": "Personalized mRNA Melanoma Vaccine Cut Recurrence or Death Risk 42% in Phase 3 Trial, but Survival Data Pending - Medical Daily",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOT0h3amNjX0tyMHdLQXZiX1pjS01PMk1Dcl8yaFU1dW5CN3YyNmhDVUpQMDFhdEItWW9yVXZZT0w1SjRzTERjMlJUUHBYb3RJY0IxZGFDMWxEVVI0M3pCQ2MxZzNBZWpSMGJ1MUtjc0tKbjg4QzVjUDdud2owUS1ONjEwbTAyTDgwV3JKbDBqTmVOclBYUHNZOQ?oc=5",
+   "pub_ts": 1792857764.0,
+   "date": "24.10.2026, 19:02",
    "cat": "phase3",
    "sev": 4,
    "dir": 1,
    "tickers": [],
-   "companies": [
-    "MRNA"
-   ],
+   "companies": [],
    "sources": [
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNXzhaSldkdHYtaHFxWS00NVhDVzRrQXpCRWFwOXpzYVBZbi1iNTlNWHFueUFnVDhEMExBVjRBVkZ0YzdwZmdzV1JfTjFienBnV3lBNFp5b1VDbk9JMnk5Tm91WjE3RXVXbkxxclQyOW5XVHpYb2lOdC0wM3BJa0lpbE9Tb2dSVGtmY18tN2Ezb0hBNGdlOG4xQ1RHMkZ6c1ktck1V?oc=5"
-    },
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOT0h3amNjX0tyMHdLQXZiX1pjS01PMk1Dcl8yaFU1dW5CN3YyNmhDVUpQMDFhdEItWW9yVXZZT0w1SjRzTERjMlJUUHBYb3RJY0IxZGFDMWxEVVI0M3pCQ2MxZzNBZWpSMGJ1MUtjc0tKbjg4QzVjUDdud2owUS1ONjEwbTAyTDgwV3JKbDBqTmVOclBYUHNZOQ?oc=5"
@@ -198,7 +192,7 @@
     },
     {
      "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPSEVYVkdkSzZldU9vU2QzZGhYSmF1blgzR2RGRy1BY1RTejJTTmZOLVltQVhRQkx1RkZpNEQ1UkhMNmFQOUJTS1UxYjdWUXo2ZTBubjFrelZpd0pzRkItaVU0R0VxV0RUSWcwc0ExVlFUZkJQbEVWQVFoQ3JuZXU1QURtOXVnZC0yS18tc3BFTFEtNkZsTEJlZUxiWDJSU21CanBWQlhBZTh5ZS1XWkR2UGRfdFFUQjgtM2JtS0l0LXZ2d0hteUFhbWtDdFk0ejJBVWNfaQ?oc=5"
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNSU51UVhyYWRJS1BmVXQ4d0ZwMDdJTnRiRkt3MGZYSnVfNFB0dDR4eUtqc2Y5NEVRM0dQeHkxMzA1VXFqOXFXdkhqbnREb0d1Mi1FcnkyVzhmWUJaQzhnN3VWNkotUWhZNWdqbWRtRWh2U3dJNmw1ZDlWb2NIMXFJOFltQ1hoSVpvQUVvZVpaWjhwdWFYd1ZUdUR3OGtNM1J2WXVBWlE3angtQU5QSEJ2U245YnVURHRiejgyeGVn?oc=5"
     }
    ],
    "ncts": []
@@ -217,24 +211,6 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNOHhhSU1RVkZHOHQyZ3lOMDNXNmNzSlJfY2pBQ2VqZC1NQ2FmWVYwV2ZxbkRHOXBpM3JXMVd1dWlINTh1LTZlZTkySlo5WU9uZ0lGaDVvN29Ia29TWnFBZDk0cDZkY0h0T2NyY1Z6SWpULWFjVEVZWTBZMEFFci15aDBUcUZWb3hRYkxGRVNQWHFwQURkRFRWVjBBXy1ZN0xMdFhNZ3hncVk?oc=5"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "FDA Approves Hibsago | PharmExec - Pharmaceutical Executive",
-   "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1HN0FYbmczUXRSTm5NQzVHZXZ3RTNZUV92TThyVmdzaFBMU3hPLVcxRTZVMGZ4QVBoaWZ6cFBFNjFLa21kZTNEemFsQ0o1dXFweGhkbllRNy02WlVMTHpsZXI1c0owQWVR?oc=5",
-   "pub_ts": 1792608709.0,
-   "date": "21.10.2026, 21:51",
-   "cat": "fda",
-   "sev": 4,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1HN0FYbmczUXRSTm5NQzVHZXZ3RTNZUV92TThyVmdzaFBMU3hPLVcxRTZVMGZ4QVBoaWZ6cFBFNjFLa21kZTNEemFsQ0o1dXFweGhkbllRNy02WlVMTHpsZXI1c0owQWVR?oc=5"
     }
    ],
    "ncts": []
@@ -585,6 +561,26 @@
    "ncts": []
   },
   {
+   "title": "Merck Showcases First-Time Pivotal Phase 3 Results From Oncology Pipeline and Continued Innovative Potential of Existing Portfolio at ESMO 2026 - Yahoo Finance",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQWVXNlhvOEdJb3RGVmlWREZ1TlFMV25oMXZORlc4NVFQajdBUHp4NEZ2LU9YTzRSRkhobFBGd1BrcXRDa2NFekNSRTVKcnVvM1Nsc3ZIU1ZNTUdCa3hRSUhTdnl3dGphNXV1R280cG1wV1pldkQwX0d5MS1UT2JSR2tqTUt3R3NKc1Axalp3MGFhWFBESGNXS3BGRQ?oc=5",
+   "pub_ts": 1791874800.0,
+   "date": "13.10.2026, 10:00",
+   "cat": "phase3",
+   "sev": 3,
+   "dir": 0,
+   "tickers": [],
+   "companies": [
+    "MRK"
+   ],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQWVXNlhvOEdJb3RGVmlWREZ1TlFMV25oMXZORlc4NVFQajdBUHp4NEZ2LU9YTzRSRkhobFBGd1BrcXRDa2NFekNSRTVKcnVvM1Nsc3ZIU1ZNTUdCa3hRSUhTdnl3dGphNXV1R280cG1wV1pldkQwX0d5MS1UT2JSR2tqTUt3R3NKc1Axalp3MGFhWFBESGNXS3BGRQ?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
    "title": "Exclusive | MDMA-assisted therapy could get FDA approval as soon as January: advocate - New York Post",
    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOenlQYTdQS2pueklXNUc1VFBuNm1oak1MZ2paRUZUakhZaFlCdFd0a2JUY0pjVXowTy1PX3JfdjlVZnZid28xa29mNHZUTzdOdVBhVGlvTmF5dzN6cHhlSExvZmQ3N3ZDVzNsNjdtd0l0WG92NEtlQy1sMklrWFE5WG5mbThOQTFEUE5zeU84MFQwZ1FaRDVJdUxIYVE0TWZ1VDgxMkMta2RmRlZwZ1BB?oc=5",
    "pub_ts": 1792780560.0,
@@ -603,19 +599,21 @@
    "ncts": []
   },
   {
-   "title": "Rockville’s Ascentage Pharma Receives Breakthrough Therapy Designation in China for Lisaftoclax in First-Line CLL/SLL - BioBuzz",
-   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNWEgwdFVtRnc3LUpNcGZTcDJQVGRpNXRaRDd4WXc5dkRTRXZlUW5SMTU3MmhNRHRNYk94NFNNdWJKbExQUVhBbDRvOUdsTmYwZ0dobVhMdmQxazlqdGtxUUNNM3FBcG9qZ1NYUDVWZHpXUWxWVTgxeUFOWlhnS0pHRTFwdlJSVHQ0dTZDU29BZTBLQmNySlJaVHlSUmJhYzZqU1dMMFZrakNYZWNHSkRSdEZuZnBqdGVBTklSczhpYlVQeHJuWmRqR0NKQmNLOG1zY2Q3UmZEVUo?oc=5",
-   "pub_ts": 1792758037.0,
-   "date": "23.10.2026, 15:20",
+   "title": "Ionis Pharmaceuticals Secures FDA Orphan Drug Designation For Rare Epilepsy Treatment - Yahoo Finance",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPQWRQZDI1eDRPX1ItN2dtNFhkQVhCWTdsLUxRV01uTTZQUTlaWVlDLVNLNW03cEJTaDk1c2J6SXp6a2Zva0JTUDNxX2l1LV95S1NuV3RnNjRGNnRPS3NnMGFKb1B6WkdxYzlCc1lKUktyWEF5Si1BOTlwOGdrS2FTUjlCcDlqbGZYNGFnVWRROVZCVnl0andCTUhxdS1TLXJRRmRR?oc=5",
+   "pub_ts": 1792692044.0,
+   "date": "22.10.2026, 21:00",
    "cat": "btd",
    "sev": 2,
    "dir": 1,
    "tickers": [],
-   "companies": [],
+   "companies": [
+    "IONS"
+   ],
    "sources": [
     {
      "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNWEgwdFVtRnc3LUpNcGZTcDJQVGRpNXRaRDd4WXc5dkRTRXZlUW5SMTU3MmhNRHRNYk94NFNNdWJKbExQUVhBbDRvOUdsTmYwZ0dobVhMdmQxazlqdGtxUUNNM3FBcG9qZ1NYUDVWZHpXUWxWVTgxeUFOWlhnS0pHRTFwdlJSVHQ0dTZDU29BZTBLQmNySlJaVHlSUmJhYzZqU1dMMFZrakNYZWNHSkRSdEZuZnBqdGVBTklSczhpYlVQeHJuWmRqR0NKQmNLOG1zY2Q3UmZEVUo?oc=5"
+     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPQWRQZDI1eDRPX1ItN2dtNFhkQVhCWTdsLUxRV01uTTZQUTlaWVlDLVNLNW03cEJTaDk1c2J6SXp6a2Zva0JTUDNxX2l1LV95S1NuV3RnNjRGNnRPS3NnMGFKb1B6WkdxYzlCc1lKUktyWEF5Si1BOTlwOGdrS2FTUjlCcDlqbGZYNGFnVWRROVZCVnl0andCTUhxdS1TLXJRRmRR?oc=5"
     }
    ],
    "ncts": []
@@ -678,10 +676,6 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOVHNvT0c1YXZJMWxqYXRfRTVlaUowYW9QQjZQc2tBalAybGlRa3p6cU1kNk5Kd1F1bWtYQWVXSHZzTXRad0RSN3QzbEVPc0p1NEs5alF2c0JVelhxM3RmM3Vwd0ZVUnRFS211ZEhLZEdfQVROVldxMzRxcFcxaEF3N2xLWHN6OEEyTURWNWc4dXRJTktaTU4xajNwNjhaSnpxUTlVUW05MHVFWVhpdkYzTFhJMGZGYy1UbXRwTi1nMnpiNERvS0JkekkzRHl6RG9UcElPTVZhV01VbHNobmNucDZ2VzlhQkVZcEQ2U1p1WGw?oc=5"
-    },
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNZ3hERWJRUkpUOTFTUmhwRVM0YUVQN1hYVnpaN3VOOGh3OVUzSDFMYzRQYVk5R2xfVlE0ME85SmQ0WDVlTnV2ZVJRYVY0YjRrdmdxbmE5aC1NaU5naTl0Q2dUWEdxY1BURkM2b1haNHFRREMyclI0ek1wTk1mVW5SVWNtbkFybFhwZ3lqUWMxV0ZfSkVVbmJBVEJETi1GeDZ4dnhEUlBsbXRRT3g4MkZKZ1dpQWpuREF5QjQwaHZHVXpobVdyd0JiVXFiM3VDMkpGR0NfVFlKZWxYcVZMS1NHQk9xRjZ4Vk02bkNVY24wVnY5TVRueThjaTRhTWVIYzhnVFZuMjFIazRxWE5qRkd4N3NxNA?oc=5"
     }
    ],
    "ncts": []
@@ -1364,6 +1358,24 @@
    "ncts": [
     "NCT07136766"
    ]
+  },
+  {
+   "title": "2026 ESMO | Innovent Announcement Phase 2 Data Presentation for IBI354 (HER2 ADC) In First-line Treatment of Breast Cancer - The Manila Times",
+   "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNYngzbk5mUEtkREdxUzVrOTRVcl8ySnJaa0o3UHJFbHpoTzA3MEhFTFRGZUJnVkRmWHc0aDRGeHhIbWFxb1dBMUN0YTBkRUtLSUgyMU11aXRmazJZZmxBbmRwbWlpY09ZU0ZOX2Z1U2d2U2xySHVPcHhPVHByZXFhd1VhdFZlLW9wS1dHRGIxYTY2djdlbjA5Wk50cGkzWWF3dGNUZXpIczlSdElkRnE4NklsV2xIakNENHhOQmJRWndYazV3b0E2ek9hX3NtRzdFazFsMFpUX3ctdk9sWFVGZW9FZnM3VXZweUZ2TlNuRFZqN3ZTNllGdzcwalA4N3FmUjhXY0k1a3lNUWEtUEhHZ2JzNFRPUDZUd1HSAZ8CQVVfeXFMTmluN2hxMG9XUXNaQ2xXMHoyNDd0eS1MZzRQNHR5alU2WEs0TXB3akljUTIwU3BqdGxFdnZydHplNldHSHlXcjJ4S1RpVEpvNmZwS0R0cXg1Qm1NS3hYTkRfUzZYZWZ0QmVxWWFHeEotVzZ1TVhHOVE2TVpBME93b1hlNkFSTlQyZktxM3VtU1pXTGJ3Uzd5NFhwSEdfVzZ6RUw3WnhCQXJpYk8xS284eDlEZDR5UWtBUklYUDcweFBqQjRSb2dYY3FWdUZXcllFNkNqenV4aWtMeXloenNNVHQ0eDVqNXlFYVNnZUh6bk9RRGdHb1hFOGFfRTFVekRhZC1tb0d3OWVqUm9sUnRMbVNmZlZYSnJrVlB3bUVKcW8?oc=5",
+   "pub_ts": 1792916967.0,
+   "date": "25.10.2026, 10:29",
+   "cat": "phase2",
+   "sev": 1,
+   "dir": 0,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNYngzbk5mUEtkREdxUzVrOTRVcl8ySnJaa0o3UHJFbHpoTzA3MEhFTFRGZUJnVkRmWHc0aDRGeHhIbWFxb1dBMUN0YTBkRUtLSUgyMU11aXRmazJZZmxBbmRwbWlpY09ZU0ZOX2Z1U2d2U2xySHVPcHhPVHByZXFhd1VhdFZlLW9wS1dHRGIxYTY2djdlbjA5Wk50cGkzWWF3dGNUZXpIczlSdElkRnE4NklsV2xIakNENHhOQmJRWndYazV3b0E2ek9hX3NtRzdFazFsMFpUX3ctdk9sWFVGZW9FZnM3VXZweUZ2TlNuRFZqN3ZTNllGdzcwalA4N3FmUjhXY0k1a3lNUWEtUEhHZ2JzNFRPUDZUd1HSAZ8CQVVfeXFMTmluN2hxMG9XUXNaQ2xXMHoyNDd0eS1MZzRQNHR5alU2WEs0TXB3akljUTIwU3BqdGxFdnZydHplNldHSHlXcjJ4S1RpVEpvNmZwS0R0cXg1Qm1NS3hYTkRfUzZYZWZ0QmVxWWFHeEotVzZ1TVhHOVE2TVpBME93b1hlNkFSTlQyZktxM3VtU1pXTGJ3Uzd5NFhwSEdfVzZ6RUw3WnhCQXJpYk8xS284eDlEZDR5UWtBUklYUDcweFBqQjRSb2dYY3FWdUZXcllFNkNqenV4aWtMeXloenNNVHQ0eDVqNXlFYVNnZUh6bk9RRGdHb1hFOGFfRTFVekRhZC1tb0d3OWVqUm9sUnRMbVNmZlZYSnJrVlB3bUVKcW8?oc=5"
+    }
+   ],
+   "ncts": []
   },
   {
    "title": "Marengo Therapeutics Presents Phase 2 STARt-001 Results at ESMO 2026 Demonstrating Tissue-Agnostic Single-Agent Activity of Invikafusp Alfa in TMB-H Solid Tumors Mostly Unresponsive to Immune Checkpoint Blockade - AOL.com",
