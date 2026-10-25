@@ -440,7 +440,7 @@ def test_kindfilter_sits_above_watchlist_alerts_not_above_breakthroughs():
     extra = {"overview": None, "cnn": None, "cats": None, "trials": None,
              "secw": None, "radar": [], "acc": None, "bt": None}
     html = g.build_html(None, [], [], None, datetime.now(g.JER), extra)
-    i_h3 = html.find("התראות רשימת המעקב")
+    i_h3 = html.find("התראות רשימת המעקב והסריקה הכלל-ביוטקית")
     i_kf = html.find('id="kindfilter"')
     i_ba = html.find('id="bioalerts"')
     assert -1 < i_h3 < i_kf < i_ba          # filter row moved next to the cards it filters
@@ -830,3 +830,87 @@ def test_cnn_live_display_labels_asof_not_today(monkeypatch, tmp_path):
     html = g.build_html(None, [], [], None, _dt.now(g.JER), {"cnn": cn})
     assert "מ-CNN · נכון ל-" in html
     assert "עודכן חי מ-CNN בריצה זו" not in html
+
+
+# ---- whole-sector biotech universe + readout classification (SMMT/AGEN misses)
+def test_breakthrough_strong_readout_without_phase_word():
+    # the HARMONi-GI1 biliary-cancer OS win headline never says "phase 3"
+    c = su.classify_breakthrough(
+        "Ivonescimab Plus Chemotherapy Demonstrates Overall Survival Superiority "
+        "Compared to Durvalumab Plus Chemotherapy in First-Line Biliary Tract Cancer")
+    assert c == {"cat": "readout", "sev": 3, "dir": 1}
+    c = su.classify_breakthrough("Summit Therapeutics reports biliary-cancer survival win")
+    assert c["cat"] == "readout" and c["dir"] == 1 and c["sev"] == 3
+    # phase unknown from the headline -> never the proven phase-3/approval tier
+    assert su.classify_breakthrough(
+        "Ivonescimab Demonstrates Overall Survival Superiority in Biliary Tract Cancer")["sev"] < 4
+
+
+def test_breakthrough_strong_readout_needs_biotech_context_and_not_ops():
+    assert su.classify_breakthrough("Team demonstrates superiority in league finals") is None
+    assert su.classify_breakthrough("Company to present overall survival data at ESMO") is None
+    assert su.classify_breakthrough("Small biotech reports positive phase 1 safety data") is None
+
+
+def test_breakthrough_agen_neoasis_style_title():
+    c = su.classify_breakthrough(
+        "Agenus Reports 72% Pathologic Complete Response Rate with BOT+BAL "
+        "in Phase 2 NEOASIS Trial at ESMO 2026")
+    assert c is not None and c["cat"] == "phase2" and c["sev"] >= 1
+
+
+def test_biotech_universe_from_screener_rows():
+    rows = [
+        {"symbol": "AGEN", "name": "Agenus Inc. Common Stock", "sector": "Health Care",
+         "industry": "Biotechnology: Pharmaceutical Preparations", "marketCap": "150000000"},
+        {"symbol": "A", "name": "Agilent Technologies Inc. Common Stock",
+         "sector": "Industrials",
+         "industry": "Biotechnology: Laboratory Analytical Instruments",
+         "marketCap": "49024608422"},
+        {"symbol": "XXY", "name": "Some Bio Warrant", "sector": "Health Care",
+         "industry": "Biotechnology: Pharmaceutical Preparations", "marketCap": "100"},
+        {"symbol": "ZZZ", "name": "No Cap Bio", "sector": "Health Care",
+         "industry": "Biotechnology: Pharmaceutical Preparations", "marketCap": "0"},
+        {"symbol": "BAD^", "name": "Odd Symbol Bio", "sector": "Health Care",
+         "industry": "Biotechnology: Pharmaceutical Preparations", "marketCap": "100"},
+    ]
+    assert su.biotech_universe_from_screener(rows) == {"AGEN": "Agenus Inc."}
+
+
+def test_universe_aliases_tag_real_names_safely():
+    lex = su.build_bt_lexicon({})
+    su.add_bt_name_aliases(lex, {"AGEN": "Agenus Inc.",
+                                 "SMMT": "Summit Therapeutics Inc.",
+                                 "PPBT": "Purple Biotech Ltd."})
+    assert su.companies_in_text("Agenus reports phase 2 data", lex) == ["AGEN"]
+    assert su.companies_in_text("Summit Therapeutics reports survival win", lex) == ["SMMT"]
+    assert su.companies_in_text("Leaders meet at climate summit", lex) == []
+    assert su.companies_in_text("The purple dinosaur sings", lex) == []
+
+
+
+def test_breakthrough_pcr_headline_is_positive():
+    c = su.classify_breakthrough(
+        "Agenus Reports 72% Pathologic Complete Response Rate with BOT+BAL "
+        "in Phase 2 NEOASIS Trial at ESMO 2026")
+    assert c["cat"] == "phase2" and c["sev"] == 2 and c["dir"] == 1
+
+
+
+def test_biotech_universe_loader_survives_older_scan_utils(tmp_path, monkeypatch):
+    # staggered upload: new generate.py may briefly run with the previous
+    # scan_utils.py - it must fall back to the committed snapshot, not crash
+    import generate as g
+    snap = tmp_path / "biotech_universe.json"
+    import json as _json
+    from datetime import datetime, timezone
+    snap.write_text(_json.dumps({
+        "fetched_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+        "tickers": {"SMMT": "Summit Therapeutics Inc.", "AGEN": "Agenus Inc."}}))
+    monkeypatch.setattr(g, "BIO_UNIVERSE", str(snap))
+    monkeypatch.setattr(g, "_BIO_UNI", None)
+    monkeypatch.delattr(su, "biotech_universe_from_screener")
+    u = g.load_biotech_universe()
+    assert u["SMMT"].startswith("Summit") and u["AGEN"].startswith("Agenus")
+    monkeypatch.undo()
+    monkeypatch.setattr(g, "_BIO_UNI", None)
