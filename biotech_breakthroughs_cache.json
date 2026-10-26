@@ -1,5 +1,5 @@
 {
- "fetched_at": "27.10.2026, 0:34",
+ "fetched_at": "27.10.2026, 1:04",
  "items": [
   {
    "title": "FDA approves at-home subcutaneous induction for AbbVie’s Skyrizi in Crohn’s disease - The Pharmaletter",
@@ -1621,8 +1621,8 @@
   {
    "title": "Merck drug extends survival in endometrial cancer trial, wins US priority review - Reuters",
    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxONEdIZ0VwaGxubUJfcXBfUGhJTnliUTV0ZUU0SFNKdmlqd0VKdFBOSUdqZUFmLWRvT3N3Q0ZGZGd2a2FoejlrLXZXX3NOaThwX2RnbzFTcUREQ2FjOTdnQ2dlQzZQWUg0R1U3ejZJSTBudGNOWWxWY2pEanpuYllLZUlDNXlmX0VqLXJyZnBHSF9kRTktZlpVbmpMUk5zNzA3ZlBrZkZiaHVvYko0YTJGWl9iV0NLVWhhRkZMWDYtS0gwODhkV3NFYU13UWVhNEdwT1AzQkxxTEw?oc=5",
-   "pub_ts": 1793032203.0,
-   "date": "26.10.2026, 18:30",
+   "pub_ts": 1793054245.0,
+   "date": "27.10.2026, 0:37",
    "cat": "btd",
    "sev": 2,
    "dir": 1,
@@ -2168,6 +2168,26 @@
    "ncts": []
   },
   {
+   "title": "A Study of Ustekinumab in Pediatric Participants With Moderately to Severely Active Ulcerative Colitis (UC)",
+   "link": "https://clinicaltrials.gov/study/NCT04630028",
+   "pub_ts": 1792454400.0,
+   "date": "2026-10-20",
+   "cat": "phase3",
+   "sev": 2,
+   "dir": 0,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "ClinicalTrials.gov",
+     "link": "https://clinicaltrials.gov/study/NCT04630028"
+    }
+   ],
+   "ncts": [
+    "NCT04630028"
+   ]
+  },
+  {
    "title": "FDA approves generic Brivaracetam (Zydus Lifesciences)",
    "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221301",
    "pub_ts": 1792454400.0,
@@ -2194,26 +2214,6 @@
    "ncts": []
   },
   {
-   "title": "A Study of Ustekinumab in Pediatric Participants With Moderately to Severely Active Ulcerative Colitis (UC)",
-   "link": "https://clinicaltrials.gov/study/NCT04630028",
-   "pub_ts": 1792454400.0,
-   "date": "2026-10-20",
-   "cat": "phase3",
-   "sev": 2,
-   "dir": 0,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT04630028"
-    }
-   ],
-   "ncts": [
-    "NCT04630028"
-   ]
-  },
-  {
    "title": "CorMedix Therapeutics Announces FDA Acceptance and Priority Review of REZZAYO sNDA for Prophylaxis of Invasive Fungal Disease - Quiver Quantitative",
    "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPWUdFcmJSZV9xNVZOcnNKbHVMNFBQWnVLYjNKbXhHNWQ2VVdMR2N4T3N4X0lMbzhrRWF4cWNlY0NxanVxQlRtLUxNb2phRy1zU1ZfbHliNEx2bHNZd1JySExySTJpOHgxT1doRU9ZbkhuemVjT0YtTlpuRGE2VzYtSk9MWjlWLUdPbWtJbFpuQXNCSHFvZVUxMzc1YmhyS3ZjZ0tyR180c3RGX0VNdlRJM21xbldTM3hRVWlnVHVFTF9UdHBYTFNPcXhPMGNkUWRpTUdqWnZxSE43cURaeTZzV3Z6Um0xaWNkRnhDNFBtTQ?oc=5",
    "pub_ts": 1792410060.0,
@@ -2229,6 +2229,24 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPWUdFcmJSZV9xNVZOcnNKbHVMNFBQWnVLYjNKbXhHNWQ2VVdMR2N4T3N4X0lMbzhrRWF4cWNlY0NxanVxQlRtLUxNb2phRy1zU1ZfbHliNEx2bHNZd1JySExySTJpOHgxT1doRU9ZbkhuemVjT0YtTlpuRGE2VzYtSk9MWjlWLUdPbWtJbFpuQXNCSHFvZVUxMzc1YmhyS3ZjZ0tyR180c3RGX0VNdlRJM21xbldTM3hRVWlnVHVFTF9UdHBYTFNPcXhPMGNkUWRpTUdqWnZxSE43cURaeTZzV3Z6Um0xaWNkRnhDNFBtTQ?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA approves generic Eribulin Mesylate (Kindos)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=218930",
+   "pub_ts": 1792368000.0,
+   "date": "19.10.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=218930"
     }
    ],
    "ncts": []
@@ -2309,24 +2327,6 @@
     {
      "source": "FDA · openFDA",
      "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=217103"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "FDA approves generic Eribulin Mesylate (Kindos)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=218930",
-   "pub_ts": 1792368000.0,
-   "date": "19.10.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=218930"
     }
    ],
    "ncts": []
@@ -2430,24 +2430,6 @@
    "ncts": []
   },
   {
-   "title": "FDA approves generic Upadacitinib (Aurobindo Pharma Ltd)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=218866",
-   "pub_ts": 1792108800.0,
-   "date": "16.10.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=218866"
-    }
-   ],
-   "ncts": []
-  },
-  {
    "title": "A Study of Orforglipron (LY3502970) Compared With Dapagliflozin in Adult Participants With Type 2 Diabetes and Inadequate Glycemic Control With Metformin",
    "link": "https://clinicaltrials.gov/study/NCT06192108",
    "pub_ts": 1792108800.0,
@@ -2514,6 +2496,24 @@
    ]
   },
   {
+   "title": "FDA approves generic Upadacitinib (Aurobindo Pharma Ltd)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=218866",
+   "pub_ts": 1792108800.0,
+   "date": "16.10.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=218866"
+    }
+   ],
+   "ncts": []
+  },
+  {
    "title": "FDA approves generic Ciprofloxacin And Dexamethasone (Alembic)",
    "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=217723",
    "pub_ts": 1792022400.0,
@@ -2547,50 +2547,6 @@
     {
      "source": "FDA · openFDA",
      "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=218274"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "FDA approves generic Buprenorphine Hydrochloride (Gland)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221145",
-   "pub_ts": 1792022400.0,
-   "date": "15.10.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221145"
-    },
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=208359"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "FDA approves generic Meloxicam (Novitium Pharma)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220010",
-   "pub_ts": 1792022400.0,
-   "date": "15.10.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220010"
-    },
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=216758"
     }
    ],
    "ncts": []
@@ -2685,10 +2641,10 @@
    ]
   },
   {
-   "title": "FDA approves generic Lubiprostone (Humanwell Puracap)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221049",
-   "pub_ts": 1791936000.0,
-   "date": "14.10.2026",
+   "title": "FDA approves generic Buprenorphine Hydrochloride (Gland)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221145",
+   "pub_ts": 1792022400.0,
+   "date": "15.10.2026",
    "cat": "fda",
    "sev": 2,
    "dir": 1,
@@ -2697,14 +2653,40 @@
    "sources": [
     {
      "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221049"
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221145"
+    },
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=208359"
     }
    ],
    "ncts": []
   },
   {
-   "title": "FDA approves generic Sucralfate (Novitium Pharma)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=216758",
+   "title": "FDA approves generic Meloxicam (Novitium Pharma)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220010",
+   "pub_ts": 1792022400.0,
+   "date": "15.10.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220010"
+    },
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=216758"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA approves generic Amphotericin B (Qilu Pharm Hainan)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220139",
    "pub_ts": 1791936000.0,
    "date": "14.10.2026",
    "cat": "fda",
@@ -2715,7 +2697,7 @@
    "sources": [
     {
      "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=216758"
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220139"
     }
    ],
    "ncts": []
@@ -2763,6 +2745,42 @@
    "ncts": [
     "NCT05139316"
    ]
+  },
+  {
+   "title": "FDA approves generic Lubiprostone (Humanwell Puracap)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221049",
+   "pub_ts": 1791936000.0,
+   "date": "14.10.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221049"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA approves generic Sucralfate (Novitium Pharma)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=216758",
+   "pub_ts": 1791936000.0,
+   "date": "14.10.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=216758"
+    }
+   ],
+   "ncts": []
   },
   {
    "title": "Will Fast Track Status Change Astellas Pharma Stock Narrative - Simply Wall Street",
