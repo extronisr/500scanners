@@ -1,5 +1,5 @@
 {
- "fetched_at": "26.10.2026, 1:35",
+ "fetched_at": "26.10.2026, 2:05",
  "items": [
   {
    "title": "FDA approves GSK's functional cure for hepatitis B - Drug Discovery News",
@@ -398,6 +398,26 @@
     {
      "source": "FDA · openFDA",
      "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219456"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "Roche Secures FDA Approval for First At-Home Thyroid Eye Disease Therapy - Yahoo Finance",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdnRKTWNmOTVxT3ZlaEdoSjI1XzJCclY4RW1xUUtkV2Z4TjFmSk55UllWdURTbjJkblBSRW9OdWlMY1VDWVc2cDNNUFNGZ1VyWm1yVW1tb25yWmZVRF9MaUhmSERnM3BYMGtYUkNYejlaYTV3U3EzcnFtanl5S1BVdEVBZVM5eVduSndCeGgwTlZXajdpbmhETA?oc=5",
+   "pub_ts": 1792159979.0,
+   "date": "16.10.2026, 17:12",
+   "cat": "fda",
+   "sev": 4,
+   "dir": 1,
+   "tickers": [],
+   "companies": [
+    "RHHBY"
+   ],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdnRKTWNmOTVxT3ZlaEdoSjI1XzJCclY4RW1xUUtkV2Z4TjFmSk55UllWdURTbjJkblBSRW9OdWlMY1VDWVc2cDNNUFNGZ1VyWm1yVW1tb25yWmZVRF9MaUhmSERnM3BYMGtYUkNYejlaYTV3U3EzcnFtanl5S1BVdEVBZVM5eVduSndCeGgwTlZXajdpbmhETA?oc=5"
     }
    ],
    "ncts": []
@@ -882,26 +902,6 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQRVRvVUhvRGZBTW1wdWE1LWxSNzd4SDQ4ZUluU0VFbGpqbTQyLWdIYUJkOUdnWU1MWmRfSmJUdG5aV3psRzEtZnFKVnhUSTFEWi15aWo2RURqV3cyY1kxbXdZS0VESklvMmtmX3FneXRDM2V4Zy1pUUdwSVFTdk1wazkta3pIa2NISHl2X180UDVfZ2xZNWlHNTdTRFc?oc=5"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "Unicycive Therapeutics Announces FDA Acceptance of Oxylanthanum Carbonate New Drug Application Resubmission and PDUFA Date of March 25, 2027 - TechBullion",
-   "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQN1JjSWYzQzlIUTVOVkZzMHlYMUtTbTJWVGpMT0Y0SVdhSnFCT1FZelB4TEprMWViWGlBOUt3dzN5SU9oN2FiMXlPcUYwWEpJSkNpWTZFeXhkNmRRM2FvZjRjMUFfOEYxd0NmY1RzNXRRLXpua2UwckdsSlBzcHBrN0lxNWwzXy1VVnE1eUpGeDZROV94WE1pVWZ2bHc3Nklfd1g4RENlLWVuWG9yRFBVazZ5Wk1CYkFpQTBWLXVfNnA5SmhMNnRWRTZvd1hZR05JZjJBOEdOT1luNWxiWUlUcXRsOWVmelBmSV8tYTBkeUozZlU1TXZZ?oc=5",
-   "pub_ts": 1792679109.0,
-   "date": "22.10.2026, 17:25",
-   "cat": "btd",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [
-    "UNCY"
-   ],
-   "sources": [
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQN1JjSWYzQzlIUTVOVkZzMHlYMUtTbTJWVGpMT0Y0SVdhSnFCT1FZelB4TEprMWViWGlBOUt3dzN5SU9oN2FiMXlPcUYwWEpJSkNpWTZFeXhkNmRRM2FvZjRjMUFfOEYxd0NmY1RzNXRRLXpua2UwckdsSlBzcHBrN0lxNWwzXy1VVnE1eUpGeDZROV94WE1pVWZ2bHc3Nklfd1g4RENlLWVuWG9yRFBVazZ5Wk1CYkFpQTBWLXVfNnA5SmhMNnRWRTZvd1hZR05JZjJBOEdOT1luNWxiWUlUcXRsOWVmelBmSV8tYTBkeUozZlU1TXZZ?oc=5"
     }
    ],
    "ncts": []
