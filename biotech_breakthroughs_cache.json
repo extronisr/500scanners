@@ -1,5 +1,5 @@
 {
- "fetched_at": "26.10.2026, 15:04",
+ "fetched_at": "26.10.2026, 15:35",
  "items": [
   {
    "title": "AL-S Pharma Reports New AP-101 Phase 2 Weight Data and Outlines Phase 3 Clinical Trial in ALS at 2026 NEALS Annual Meeting - BioSpace",
@@ -1382,6 +1382,37 @@
    "ncts": []
   },
   {
+   "title": "Corcept Therapeutics (NASDAQ:CORT) Reports Positive Phase 2 BELLA Ovarian Cancer Data - Kalkine",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxONlduTWZKcmRsUHZNcDlRWnJTU2NPU3JzeXh5dkZMaWdqRmE5dmlDMVBMR1JxUlJhTHVwTnJxYm5uQXRMcXZuWWEwaFNfZlJneFNlQjQxaFRsTTJrSEtOZ3NUZmlHel8xQnByMDVhLWVmekNvR0NjV2MzTmdCOUt5cW9lQzdXTzRvTjZtQjZQbVpFNklNaHM4SzVXWGVHb05XeTFkS0xaRmNTdW9IMGJuYl8tNUdMckxiLWpZQTB3?oc=5",
+   "pub_ts": 1793021100.0,
+   "date": "26.10.2026, 15:25",
+   "cat": "phase2",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [
+    "CORT"
+   ],
+   "companies": [
+    "CORT",
+    "NDAQ"
+   ],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxONlduTWZKcmRsUHZNcDlRWnJTU2NPU3JzeXh5dkZMaWdqRmE5dmlDMVBMR1JxUlJhTHVwTnJxYm5uQXRMcXZuWWEwaFNfZlJneFNlQjQxaFRsTTJrSEtOZ3NUZmlHel8xQnByMDVhLWVmekNvR0NjV2MzTmdCOUt5cW9lQzdXTzRvTjZtQjZQbVpFNklNaHM4SzVXWGVHb05XeTFkS0xaRmNTdW9IMGJuYl8tNUdMckxiLWpZQTB3?oc=5"
+    },
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPTTBXMmZKRFg3R0ZiNm1wQXBKTks2T0IzVlBtOXVDTE84Znd3U1NRMEh5YTNPWVBDaFpIWlFjMDI4b2hLdlV5Ri1EV1h0YWVKRkY3YnJPY1N4RzFaY01PXzdSb2k0N0lRbW10Y20yZl9HUnJxT2phd0RzNDNBZzVrUGtUcUY3OHVfZ3g4OW93Mlc3WXBiakZrQlhYa0tvcnMzSWh0WHM1S3hpYTR3SWpIY0EwQlZvQXhoR3c?oc=5"
+    },
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVzVHaFhwb2hVYUNDMlRwQWIzdVkwM1ZfWFVJdHBDcTljN19hV3lTYjNTTFMwcDBRbVl5XzZWRU9FVm5nYlRCTnVxODNoaV9YM1JpRE84UldXMEVvV1F5Rm9aSEJGZzRsR3p6Ulk4MkVCVHE3dVFUbXFsRzBtUjdlMkVaTHdRb0lPb3diRWtuSXlDTDc1MW9xdTFtZDNXU0E4MVNoa0k3NFZYY2JqeDBxQ0NWdERGeFBaa05mOF95TQ?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
    "title": "CytoDyn reports positive Phase 2 data for leron... - Pluang",
    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQalI1ckZzb0twN3N2WUFmT1BaWU9tX1NwZGk4cFhxNnRRSTd1Mkk3Zm55eWlteVJnaUEzNkRtWUdBQzBQb3pBbTRiRThIQzhZa3B1ZnVucFNXOWtjUG1oWUw4MVlDdUpRODZsM0UzTVJGRS1kc2tOa0gyTVBJQmxJZUU2UjBUdHV4YXpHbGszcm9HejBEYXJhelRxbE9lYUE?oc=5",
    "pub_ts": 1793018664.0,
@@ -2590,30 +2621,6 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPd2lnSW1hbTZIM0lLNFR3Z25RX3JTUXdFc3pBM05RYXBrUkg1dFdpeGlEUzNreTE0UnptN0RfSHJlLXVPM2hydndvblBwUWxPbWJ1ZlBJYm1uaFVrYUV5ZkpOa3VDdWNxTEo0UmFRR2NfNm5hWjNSOURSemtncGRtUFhqdUZ3cXZ6RlFpWEZJaHNRc2RwQVpiU01KQllkU29fb1czUGFHVnVTd0RSZEhVV0pwb1Jydkl0akthV0NB?oc=5"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "Corcept reports phase 2 trial results for ovarian cancer drug - Investing.com",
-   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPTTBXMmZKRFg3R0ZiNm1wQXBKTks2T0IzVlBtOXVDTE84Znd3U1NRMEh5YTNPWVBDaFpIWlFjMDI4b2hLdlV5Ri1EV1h0YWVKRkY3YnJPY1N4RzFaY01PXzdSb2k0N0lRbW10Y20yZl9HUnJxT2phd0RzNDNBZzVrUGtUcUY3OHVfZ3g4OW93Mlc3WXBiakZrQlhYa0tvcnMzSWh0WHM1S3hpYTR3SWpIY0EwQlZvQXhoR3c?oc=5",
-   "pub_ts": 1793017348.0,
-   "date": "26.10.2026, 14:22",
-   "cat": "phase2",
-   "sev": 1,
-   "dir": 0,
-   "tickers": [],
-   "companies": [
-    "CORT"
-   ],
-   "sources": [
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPTTBXMmZKRFg3R0ZiNm1wQXBKTks2T0IzVlBtOXVDTE84Znd3U1NRMEh5YTNPWVBDaFpIWlFjMDI4b2hLdlV5Ri1EV1h0YWVKRkY3YnJPY1N4RzFaY01PXzdSb2k0N0lRbW10Y20yZl9HUnJxT2phd0RzNDNBZzVrUGtUcUY3OHVfZ3g4OW93Mlc3WXBiakZrQlhYa0tvcnMzSWh0WHM1S3hpYTR3SWpIY0EwQlZvQXhoR3c?oc=5"
-    },
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVzVHaFhwb2hVYUNDMlRwQWIzdVkwM1ZfWFVJdHBDcTljN19hV3lTYjNTTFMwcDBRbVl5XzZWRU9FVm5nYlRCTnVxODNoaV9YM1JpRE84UldXMEVvV1F5Rm9aSEJGZzRsR3p6Ulk4MkVCVHE3dVFUbXFsRzBtUjdlMkVaTHdRb0lPb3diRWtuSXlDTDc1MW9xdTFtZDNXU0E4MVNoa0k3NFZYY2JqeDBxQ0NWdERGeFBaa05mOF95TQ?oc=5"
     }
    ],
    "ncts": []
