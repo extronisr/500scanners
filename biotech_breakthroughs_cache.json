@@ -1,5 +1,5 @@
 {
- "fetched_at": "26.10.2026, 6:34",
+ "fetched_at": "26.10.2026, 7:05",
  "items": [
   {
    "title": "ESMO: Roche touts ‘convincing’ phase 3 KRAS data after win over rivals - Fierce Biotech",
@@ -160,10 +160,10 @@
    "ncts": []
   },
   {
-   "title": "Genmab stock surges 9% following positive phase 3 ovarian cancer trial results - Investing.com",
-   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQMFVHR3FYTDB0eGpqd3hCZkdSdzNkSWNjWDh5R0c5M2s2cE5TT1ZXd09EaXpCNjFGbnJMMUUxVV9FelZPMWZzdWs0S1I5WDFpangtMFlOVnBRdHlTX1lYUjN4cjQ0alozZ19EOWhxZ250Uzk3QjFkcVJQRTRVZExic21oRkdtRzFuMnRqMUhHS003VXVnTkUydHhDa1hIdHAtaFlZeTM5djU5bDN3Tm8wSXRNZ1RKYlZ2a3NyV09uYWhDWkNSWGdmUTFfellUS1E?oc=5",
-   "pub_ts": 1792780639.0,
-   "date": "23.10.2026, 21:37",
+   "title": "Genmab stock surges 9% following positive phase 3 ovarian cancer trial results - StreetInsider",
+   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNUHRvZlV4UC1fZWZCdWhqTlUzZVQwUlV6cV9aQXhLMlBtODFGMnZPVXpUNHNfM3pyYU1MZXVIZXlrSDlqOWc2am9URTRTd21WT3lubUk0aE5Cdlp3ZmtwdnFZaktJVlBPVUFieS1idm1ELWxPdkp3MEtWZU56UDkzeXdSNEhoSDRtbzM5RmdYMlNzLURpeVhHVXhUVUlRa0N5TEdQUkt6N3M5WmFrMWo5ZWFVekdEVENPU09UQ1BVWmt4OUd1Q2Qwb3Mzb2Vxa2l4TUQ4?oc=5",
+   "pub_ts": 1792779185.0,
+   "date": "23.10.2026, 21:13",
    "cat": "phase3",
    "sev": 4,
    "dir": 1,
@@ -172,10 +172,6 @@
     "GMAB"
    ],
    "sources": [
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQMFVHR3FYTDB0eGpqd3hCZkdSdzNkSWNjWDh5R0c5M2s2cE5TT1ZXd09EaXpCNjFGbnJMMUUxVV9FelZPMWZzdWs0S1I5WDFpangtMFlOVnBRdHlTX1lYUjN4cjQ0alozZ19EOWhxZ250Uzk3QjFkcVJQRTRVZExic21oRkdtRzFuMnRqMUhHS003VXVnTkUydHhDa1hIdHAtaFlZeTM5djU5bDN3Tm8wSXRNZ1RKYlZ2a3NyV09uYWhDWkNSWGdmUTFfellUS1E?oc=5"
-    },
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNUHRvZlV4UC1fZWZCdWhqTlUzZVQwUlV6cV9aQXhLMlBtODFGMnZPVXpUNHNfM3pyYU1MZXVIZXlrSDlqOWc2am9URTRTd21WT3lubUk0aE5Cdlp3ZmtwdnFZaktJVlBPVUFieS1idm1ELWxPdkp3MEtWZU56UDkzeXdSNEhoSDRtbzM5RmdYMlNzLURpeVhHVXhUVUlRa0N5TEdQUkt6N3M5WmFrMWo5ZWFVekdEVENPU09UQ1BVWmt4OUd1Q2Qwb3Mzb2Vxa2l4TUQ4?oc=5"
@@ -448,6 +444,24 @@
     {
      "source": "FDA · openFDA",
      "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221183"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "Phase 3 RAINIER Results Supporting Best-in-Class Potential of Povetacicept in IgA Nephropathy Published in the New England Journal of Medicine and Presented at the American Society of Nephrology Kidney Week 2026 - BioSpace",
+   "link": "https://news.google.com/rss/articles/CBMi6wJBVV95cUxOTmNKM3pNMlhUVmMwU1lLX0NiSDB6akVaZDNNRG1sRVBKR2hBOEZHY0FNVXViY08wb3RZeEhsbS1XRTNBb2diNHVqYWJGNGtlY1l3bXN6ZUwtbW5pTWNmTTZDS1NsWm0yNnVha3hwN3BHZlo0RmF5TFlXbWNkcXJYSWJlLWE0T3ZkWFlGenliWjNQU1JNWWxvQWZSTzVvN09OS1BFaUJQTXdCdlNnR0RXNHM3S3FxbnUxNEhOVHd2d0d1d0VwdVFudXNTX0dUZXVrTmd6RE5faGlOSmFyTERsLTA5d1k5dElvNGhfNWxvV0tSelNjSXY0U2lpMFZzbXlFcDI3VXAySnlpZUk2QkxQTmpjT3BZZGxyT3EzRU1sOFc4Rk1ya1pKTDJfN1J4TU9PN1YzLWRGZkVYM0YzZjVoc29jSEgtb2d4MWNOdGpsNURaMk83dHlDeG5LeWxQazdwZFdEVnVNTkRLNDg?oc=5",
+   "pub_ts": 1792988807.0,
+   "date": "26.10.2026, 6:26",
+   "cat": "phase3",
+   "sev": 3,
+   "dir": 0,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMi6wJBVV95cUxOTmNKM3pNMlhUVmMwU1lLX0NiSDB6akVaZDNNRG1sRVBKR2hBOEZHY0FNVXViY08wb3RZeEhsbS1XRTNBb2diNHVqYWJGNGtlY1l3bXN6ZUwtbW5pTWNmTTZDS1NsWm0yNnVha3hwN3BHZlo0RmF5TFlXbWNkcXJYSWJlLWE0T3ZkWFlGenliWjNQU1JNWWxvQWZSTzVvN09OS1BFaUJQTXdCdlNnR0RXNHM3S3FxbnUxNEhOVHd2d0d1d0VwdVFudXNTX0dUZXVrTmd6RE5faGlOSmFyTERsLTA5d1k5dElvNGhfNWxvV0tSelNjSXY0U2lpMFZzbXlFcDI3VXAySnlpZUk2QkxQTmpjT3BZZGxyT3EzRU1sOFc4Rk1ya1pKTDJfN1J4TU9PN1YzLWRGZkVYM0YzZjVoc29jSEgtb2d4MWNOdGpsNURaMk83dHlDeG5LeWxQazdwZFdEVnVNTkRLNDg?oc=5"
     }
    ],
    "ncts": []
@@ -801,6 +815,24 @@
    "ncts": []
   },
   {
+   "title": "Phase 3 EMT2 trial demonstrates survival benefit for high-dose EPA - News-Medical",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSW9JM3lON2VBX3pvaUd1dHNZOXdteUJYaXFZbEYzcGI3Y1RyVFNMUkQwRnhWaWhjWXVvNHlNeDZLeGJiRlc1OWRMOElnN1ZuazY5ZFpVS2wtLTVwaXBDQU80UkRPWGpHNlNvTl9NWFJjUEVNU3prX05GcjNVVEFDRkpKNGVRNjdoaGVqdllnMGtSbXcyNjNOTEZzZGk1M1BwbWg3SDBxbDdycUo3NEk4Q0hRLWE?oc=5",
+   "pub_ts": 1792990020.0,
+   "date": "26.10.2026, 6:47",
+   "cat": "readout",
+   "sev": 2,
+   "dir": 0,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSW9JM3lON2VBX3pvaUd1dHNZOXdteUJYaXFZbEYzcGI3Y1RyVFNMUkQwRnhWaWhjWXVvNHlNeDZLeGJiRlc1OWRMOElnN1ZuazY5ZFpVS2wtLTVwaXBDQU80UkRPWGpHNlNvTl9NWFJjUEVNU3prX05GcjNVVEFDRkpKNGVRNjdoaGVqdllnMGtSbXcyNjNOTEZzZGk1M1BwbWg3SDBxbDdycUo3NEk4Q0hRLWE?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
    "title": "Camupepimut did not improve disease-free survival versus observation in pancreatic cancer in the randomized phase 2 AMPLIFY-7P trial - 2 Minute Medicine",
    "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPazNiSnp0am9xMGN6OXpxOEc0SEZ5U1RIMWIxSHlUN2ZUT2xTV0dqVkZnbE5scllDblh2blQ3aGl4bUMzNUgwMWthNTF1N2NDaHlFTThtekJEblZSQ2JzRmF5OV9vRjk4bHY1bmNUNTBMLXRNalJLcnFVcGNLdTFTQXprTG1kQzdjM05RbGpQOTBrTFBsWTk2WGdYak9VbDJGNUQwNG9wY29MUmZoUDFDWF9nS1RxYkhlRmxDVlFEdEZDMl9nQVpxMko1M0J2bVRacURQSWQwYXVVa0ROeV9lNDFOMEdqVHJ6Vjktbm0yV0l6OWRPWjA2UA?oc=5",
    "pub_ts": 1792984950.0,
@@ -877,6 +909,34 @@
    "ncts": []
   },
   {
+   "title": "Rockville’s Ascentage Pharma Receives Breakthrough Therapy Designation in China for Lisaftoclax in First-Line CLL/SLL - BioBuzz",
+   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNWEgwdFVtRnc3LUpNcGZTcDJQVGRpNXRaRDd4WXc5dkRTRXZlUW5SMTU3MmhNRHRNYk94NFNNdWJKbExQUVhBbDRvOUdsTmYwZ0dobVhMdmQxazlqdGtxUUNNM3FBcG9qZ1NYUDVWZHpXUWxWVTgxeUFOWlhnS0pHRTFwdlJSVHQ0dTZDU29BZTBLQmNySlJaVHlSUmJhYzZqU1dMMFZrakNYZWNHSkRSdEZuZnBqdGVBTklSczhpYlVQeHJuWmRqR0NKQmNLOG1zY2Q3UmZEVUo?oc=5",
+   "pub_ts": 1792758037.0,
+   "date": "23.10.2026, 15:20",
+   "cat": "btd",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [
+    "AAPG"
+   ],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNWEgwdFVtRnc3LUpNcGZTcDJQVGRpNXRaRDd4WXc5dkRTRXZlUW5SMTU3MmhNRHRNYk94NFNNdWJKbExQUVhBbDRvOUdsTmYwZ0dobVhMdmQxazlqdGtxUUNNM3FBcG9qZ1NYUDVWZHpXUWxWVTgxeUFOWlhnS0pHRTFwdlJSVHQ0dTZDU29BZTBLQmNySlJaVHlSUmJhYzZqU1dMMFZrakNYZWNHSkRSdEZuZnBqdGVBTklSczhpYlVQeHJuWmRqR0NKQmNLOG1zY2Q3UmZEVUo?oc=5"
+    },
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOVHNvT0c1YXZJMWxqYXRfRTVlaUowYW9QQjZQc2tBalAybGlRa3p6cU1kNk5Kd1F1bWtYQWVXSHZzTXRad0RSN3QzbEVPc0p1NEs5alF2c0JVelhxM3RmM3Vwd0ZVUnRFS211ZEhLZEdfQVROVldxMzRxcFcxaEF3N2xLWHN6OEEyTURWNWc4dXRJTktaTU4xajNwNjhaSnpxUTlVUW05MHVFWVhpdkYzTFhJMGZGYy1UbXRwTi1nMnpiNERvS0JkekkzRHl6RG9UcElPTVZhV01VbHNobmNucDZ2VzlhQkVZcEQ2U1p1WGw?oc=5"
+    },
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNZ3hERWJRUkpUOTFTUmhwRVM0YUVQN1hYVnpaN3VOOGh3OVUzSDFMYzRQYVk5R2xfVlE0ME85SmQ0WDVlTnV2ZVJRYVY0YjRrdmdxbmE5aC1NaU5naTl0Q2dUWEdxY1BURkM2b1haNHFRREMyclI0ek1wTk1mVW5SVWNtbkFybFhwZ3lqUWMxV0ZfSkVVbmJBVEJETi1GeDZ4dnhEUlBsbXRRT3g4MkZKZ1dpQWpuREF5QjQwaHZHVXpobVdyd0JiVXFiM3VDMkpGR0NfVFlKZWxYcVZMS1NHQk9xRjZ4Vk02bkNVY24wVnY5TVRueThjaTRhTWVIYzhnVFZuMjFIazRxWE5qRkd4N3NxNA?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
    "title": "Ionis Pharmaceuticals Secures FDA Orphan Drug Designation For Rare Epilepsy Treatment - Yahoo Finance",
    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPQWRQZDI1eDRPX1ItN2dtNFhkQVhCWTdsLUxRV01uTTZQUTlaWVlDLVNLNW03cEJTaDk1c2J6SXp6a2Zva0JTUDNxX2l1LV95S1NuV3RnNjRGNnRPS3NnMGFKb1B6WkdxYzlCc1lKUktyWEF5Si1BOTlwOGdrS2FTUjlCcDlqbGZYNGFnVWRROVZCVnl0andCTUhxdS1TLXJRRmRR?oc=5",
    "pub_ts": 1792692044.0,
@@ -935,26 +995,6 @@
    "ncts": [
     "NCT03036488"
    ]
-  },
-  {
-   "title": "Ascentage Pharma Group Says Lisaftoclax Granted Breakthrough Therapy Designation In China - TradingView",
-   "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOVHNvT0c1YXZJMWxqYXRfRTVlaUowYW9QQjZQc2tBalAybGlRa3p6cU1kNk5Kd1F1bWtYQWVXSHZzTXRad0RSN3QzbEVPc0p1NEs5alF2c0JVelhxM3RmM3Vwd0ZVUnRFS211ZEhLZEdfQVROVldxMzRxcFcxaEF3N2xLWHN6OEEyTURWNWc4dXRJTktaTU4xajNwNjhaSnpxUTlVUW05MHVFWVhpdkYzTFhJMGZGYy1UbXRwTi1nMnpiNERvS0JkekkzRHl6RG9UcElPTVZhV01VbHNobmNucDZ2VzlhQkVZcEQ2U1p1WGw?oc=5",
-   "pub_ts": 1792545420.0,
-   "date": "21.10.2026, 4:17",
-   "cat": "btd",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [
-    "AAPG"
-   ],
-   "sources": [
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOVHNvT0c1YXZJMWxqYXRfRTVlaUowYW9QQjZQc2tBalAybGlRa3p6cU1kNk5Kd1F1bWtYQWVXSHZzTXRad0RSN3QzbEVPc0p1NEs5alF2c0JVelhxM3RmM3Vwd0ZVUnRFS211ZEhLZEdfQVROVldxMzRxcFcxaEF3N2xLWHN6OEEyTURWNWc4dXRJTktaTU4xajNwNjhaSnpxUTlVUW05MHVFWVhpdkYzTFhJMGZGYy1UbXRwTi1nMnpiNERvS0JkekkzRHl6RG9UcElPTVZhV01VbHNobmNucDZ2VzlhQkVZcEQ2U1p1WGw?oc=5"
-    }
-   ],
-   "ncts": []
   },
   {
    "title": "Samsung Bioepis' First Novel Drug Candidate SBE303 Wins FDA Fast Track Designation - BigGo Finance",
