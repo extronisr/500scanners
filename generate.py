@@ -1850,6 +1850,62 @@ def build_html(mh, dips, alerts, bo, updated, extra=None):
     else:
         parts.append('<div class="empty">אין מספיק נתונים כרגע</div>')
 
+    ov = extra.get("overview")
+    if ov:
+        if ov["sectors"]:
+            parts.append('<h3 class="sec">מפת המגזרים · יום אחרון (ושינוי ב-3 ימי מסחר)</h3>')
+            parts.append('<div class="hmap">')
+            for s in ov["sectors"]:
+                d1 = s["day_pct"] or 0.0
+                inten = min(abs(d1) / 3.0, 1.0)
+                cls = "pos" if d1 >= 0 else "neg"
+                p3 = pct2(s["pct3"]) if s["pct3"] is not None else ""
+                parts.append(
+                    f'<div class="tile {cls}" style="--i:{inten:.2f}">'
+                    f'<span><b>{esc(s["sym"])}</b> · {esc(s["name"])}</span>'
+                    f'<b dir="ltr">{d1:+.2f}%</b>'
+                    f"<small>3 ימים: {p3}</small></div>")
+            parts.append("</div>")
+            smh = ov.get("smh")
+            if smh and smh["day_pct"] is not None:
+                parts.append(
+                    '<div class="smhrow"><span><b>סמיקונדקטורס · SMH</b> '
+                    "<small>פירוט נוסף, לא מגזר במפה</small></span>"
+                    f"{pct2(smh['day_pct'])}</div>")
+            parts.append('<div class="ts">11 מגזרי S&P 500 באמצעות קרנות סל ענפיות · Yahoo Finance</div>')
+        if ov["change3"]:
+            parts.append('<h3 class="sec">שינוי ב-3 ימי מסחר</h3>')
+            parts.append('<div class="chg3">')
+            for c in ov["change3"]:
+                dec = 3 if c["sym"] == "^TNX" else 2
+                cls = "up" if c["abs3"] >= 0 else "down"
+                p3 = (" · " + pct2(c["pct3"])) if c.get("pct3") is not None else ""
+                parts.append(
+                    f"<div><span>{esc(c['name'])}</span>"
+                    f'<b class="{cls}" dir="ltr">{c["abs3"]:+.{dec}f}</b>'
+                    f"<small>{esc(c['unit'])}{p3}</small></div>")
+            parts.append("</div>")
+            parts.append('<div class="ts">שלושה מרווחי מסחר אחרונים, לא שלושה ימים קלנדריים · Yahoo Finance</div>')
+        parts.append('<h3 class="sec">המבט הרחב · מדדים</h3>')
+        parts.append('<div class="idxgrid">')
+        for ix in ov["indices"]:
+            day = ix["day_pct"]
+            day_html = pct2(day) if day is not None else ""
+            a50 = "מעל" if ix["above50"] else "מתחת ל־"
+            trend = f"{a50} ממוצע 50"
+            if ix["above200"] is not None:
+                trend += " · " + ("מעל" if ix["above200"] else "מתחת ל־") + " 200"
+            val_s = f"{ix['value']:,.2f}"
+            parts.append(
+                '<div class="idxcard">'
+                f'<span class="idxname">{esc(ix["name"])}</span>'
+                f'<b>{ltr(val_s)}</b>'
+                f'{day_html}<small>מול סגירה קודמת</small>'
+                f'{sparkline(ix["spark"])}'
+                f'<small>{esc(trend)}</small>'
+                "</div>")
+        parts.append("</div>")
+
     pm = extra.get("pm")
     session = (pm or {}).get("session") or _futures_session_context()[0]
     parts.append(f'<h3 class="sec">חוזים עתידיים ו-VIX · {esc(session)}</h3>')
@@ -1900,62 +1956,6 @@ def build_html(mh, dips, alerts, bo, updated, extra=None):
             f'<div class="ts">חוזים עתידיים{venues_txt} ומדד ה-VIX, דרך Yahoo Finance · '
             'שעת הציטוט מופיעה בכל כרטיס · נמשך בריצה זו · שאר הדף מציג נתוני סגירה רשמיים · '
             f'<a class="src-link" href="{FUTURES_SOURCE_URL}" target="_blank" rel="noopener">מקור</a></div>')
-
-    ov = extra.get("overview")
-    if ov:
-        parts.append('<h3 class="sec">המבט הרחב · מדדים</h3>')
-        parts.append('<div class="idxgrid">')
-        for ix in ov["indices"]:
-            day = ix["day_pct"]
-            day_html = pct2(day) if day is not None else ""
-            a50 = "מעל" if ix["above50"] else "מתחת ל־"
-            trend = f"{a50} ממוצע 50"
-            if ix["above200"] is not None:
-                trend += " · " + ("מעל" if ix["above200"] else "מתחת ל־") + " 200"
-            val_s = f"{ix['value']:,.2f}"
-            parts.append(
-                '<div class="idxcard">'
-                f'<span class="idxname">{esc(ix["name"])}</span>'
-                f'<b>{ltr(val_s)}</b>'
-                f'{day_html}<small>מול סגירה קודמת</small>'
-                f'{sparkline(ix["spark"])}'
-                f'<small>{esc(trend)}</small>'
-                "</div>")
-        parts.append("</div>")
-        if ov["sectors"]:
-            parts.append('<h3 class="sec">מפת המגזרים · יום אחרון (ושינוי ב-3 ימי מסחר)</h3>')
-            parts.append('<div class="hmap">')
-            for s in ov["sectors"]:
-                d1 = s["day_pct"] or 0.0
-                inten = min(abs(d1) / 3.0, 1.0)
-                cls = "pos" if d1 >= 0 else "neg"
-                p3 = pct2(s["pct3"]) if s["pct3"] is not None else ""
-                parts.append(
-                    f'<div class="tile {cls}" style="--i:{inten:.2f}">'
-                    f'<span><b>{esc(s["sym"])}</b> · {esc(s["name"])}</span>'
-                    f'<b dir="ltr">{d1:+.2f}%</b>'
-                    f"<small>3 ימים: {p3}</small></div>")
-            parts.append("</div>")
-            smh = ov.get("smh")
-            if smh and smh["day_pct"] is not None:
-                parts.append(
-                    '<div class="smhrow"><span><b>סמיקונדקטורס · SMH</b> '
-                    "<small>פירוט נוסף, לא מגזר במפה</small></span>"
-                    f"{pct2(smh['day_pct'])}</div>")
-            parts.append('<div class="ts">11 מגזרי S&P 500 באמצעות קרנות סל ענפיות · Yahoo Finance</div>')
-        if ov["change3"]:
-            parts.append('<h3 class="sec">שינוי ב-3 ימי מסחר</h3>')
-            parts.append('<div class="chg3">')
-            for c in ov["change3"]:
-                dec = 3 if c["sym"] == "^TNX" else 2
-                cls = "up" if c["abs3"] >= 0 else "down"
-                p3 = (" · " + pct2(c["pct3"])) if c.get("pct3") is not None else ""
-                parts.append(
-                    f"<div><span>{esc(c['name'])}</span>"
-                    f'<b class="{cls}" dir="ltr">{c["abs3"]:+.{dec}f}</b>'
-                    f"<small>{esc(c['unit'])}{p3}</small></div>")
-            parts.append("</div>")
-            parts.append('<div class="ts">שלושה מרווחי מסחר אחרונים, לא שלושה ימים קלנדריים · Yahoo Finance</div>')
 
     cn = extra.get("cnn")
     if cn:
