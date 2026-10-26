@@ -594,6 +594,12 @@ def _bt_title_tokens(title):
     return {x for x in toks if x not in _BT_TITLE_STOP}
 
 
+def _bt_norm_title(t):
+    """Lowercase, collapse non-alnum: identifies the same article across
+    republishes, independent of batch composition."""
+    return re.sub(r"\W+", " ", (t or "").lower()).strip()
+
+
 def cluster_breakthroughs(items):
     """Merge items about the same event. Two items merge when they share the
     category AND (a ticker, a company ticker, or >=60% token overlap of the
@@ -637,6 +643,12 @@ def cluster_breakthroughs(items):
             # a failure must never disappear into a success cluster
             if c["dir"] and it.get("dir") and c["dir"] != it["dir"]:
                 continue
+            # the same article title is the same event regardless of how often
+            # it appears in this batch (distinctive-token stats are
+            # batch-frequency-sensitive and fail on accumulated caches)
+            if _bt_norm_title(it["title"]) == c["_norm"]:
+                placed = c
+                break
             ct = c["_toks"]
             co_here = {t.lower() for t in c["tickers"] + (it.get("tickers") or [])}
             ft = toks - _BT_COMMON_NEWS - co_words - co_here
@@ -662,7 +674,8 @@ def cluster_breakthroughs(items):
                       "cat": it["cat"], "sev": it["sev"], "dir": it["dir"],
                       "tickers": list(it.get("tickers") or []),
                       "companies": list(it.get("companies") or []),
-                      "sources": [], "ncts": [], "_toks": set(toks)}
+                      "sources": [], "ncts": [], "_toks": set(toks),
+                      "_norm": _bt_norm_title(it["title"])}
             clusters.append(placed)
         else:
             placed["_toks"] |= toks
@@ -688,5 +701,6 @@ def cluster_breakthroughs(items):
         if not c["date"] and c.get("pub_ts"):
             c["date"] = dt.datetime.fromtimestamp(c["pub_ts"], dt.timezone.utc).date().isoformat()
         c.pop("_toks", None)
+        c.pop("_norm", None)
     clusters.sort(key=lambda c: (-c["sev"], -(c["pub_ts"] or 0)))
     return clusters

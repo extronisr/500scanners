@@ -925,6 +925,106 @@ def cnn_section():
     return data
 
 
+# ---------------------------------------------------------------- pre-market futures
+FUTURES_SYMBOLS = [("ES=F", "S&P 500"), ("NQ=F", "נאסדק 100"),
+                   ("YM=F", "דאו ג'ונס"), ("RTY=F", "ראסל 2000"),
+                   ("^VIX", "VIX")]
+FUTURES_SOURCE_URL = "https://finance.yahoo.com/quote/ES%3DF"
+NY_TZ = ZoneInfo("America/New_York")
+STALE_QUOTE_SEC = 12 * 3600   # a quote this far behind the section's freshest is marked
+
+
+def _fut_row_from_chart(sym, name, payload):
+    """One Yahoo v8 chart payload -> quote row. In a daily series the last close
+    is the latest quote and the one before it is the previous close, so the change
+    is vs the previous close - nothing here claims CME settlement semantics.
+    Venue/instrument labels come from the payload's own meta. Raises on missing
+    data."""
+    res = payload["chart"]["result"][0]
+    meta = res.get("meta") or {}
+    closes = [float(c) for c in (res["indicators"]["quote"][0].get("close") or [])
+              if c is not None]
+    price = meta.get("regularMarketPrice")
+    if price is None and closes:
+        price = closes[-1]
+    if price is None or len(closes) < 2 or not closes[-2]:
+        raise ValueError("missing price or history")
+    prev = closes[-2]
+    return {"sym": sym, "name": name, "price": float(price),
+            "chg": (float(price) / prev - 1.0) * 100.0,
+            "ts": meta.get("regularMarketTime"),
+            "venue": meta.get("fullExchangeName") or meta.get("exchangeName") or ""}
+
+
+def _futures_session_context(now=None):
+    """(label, read-suffix) from US Eastern time, so the section never says
+    'before the open' during or after the session."""
+    now = (now or datetime.now(timezone.utc)).astimezone(NY_TZ)
+    hm = now.hour * 60 + now.minute
+    if now.weekday() >= 5:
+        return "סוף שבוע", "לקראת המסחר הבא"
+    if 4 * 60 <= hm < 9 * 60 + 30:
+        return "מסחר מוקדם · לפני הפתיחה", "לקראת הפתיחה"
+    if 9 * 60 + 30 <= hm < 16 * 60:
+        return "במהלך המסחר הרגיל", "במהלך המסחר"
+    if 16 * 60 <= hm < 20 * 60:
+        return "אחרי הסגירה", "אחרי הסגירה"
+    return "מסחר לילי", "לקראת המסחר הבא"
+
+
+def _premarket_read(chgs, suffix):
+    """Plain-language read from the non-stale index futures' changes. Needs at
+    least 3 of the 4 index quotes; 0.3% is the noise band."""
+    if len(chgs) < 3:
+        return None
+    avg = sum(chgs) / len(chgs)
+    if avg >= 0.3:
+        return f"נטייה חיובית {suffix}"
+    if avg <= -0.3:
+        return f"נטייה שלילית {suffix}"
+    return f"תמונה מעורבת או שקטה {suffix}"
+
+
+def premarket_section(now=None):
+    """Index futures quotes (via Yahoo) as an early indication, distinct from
+    official closes: every card carries its own quote time, stale quotes are
+    marked and excluded from the read, and VIX is colored inversely (up = more
+    uncertainty). Outside VIX trading hours it shows its last close with that
+    close's date."""
+    rows = []
+    for sym, name in FUTURES_SYMBOLS:
+        try:
+            url = ("https://query1.finance.yahoo.com/v8/finance/chart/"
+                   + urllib.parse.quote(sym, safe="") + "?range=5d&interval=1d")
+            payload = http_get_json(url, timeout=10, retries=1)
+            rows.append(_fut_row_from_chart(sym, name, payload))
+        except Exception as e:
+            fail("premarket", f"{sym}: {e}")
+            rows.append({"sym": sym, "name": name, "price": None,
+                         "chg": None, "ts": None, "venue": ""})
+    if all(r["price"] is None for r in rows):
+        return None
+    times = [r["ts"] for r in rows if r.get("ts")]
+    latest = max(times) if times else None
+    for r in rows:
+        r["stale"] = bool(r.get("ts") and latest and latest - r["ts"] > STALE_QUOTE_SEC)
+    label, suffix = _futures_session_context(now)
+    chgs = [r["chg"] for r in rows
+            if r["sym"] != "^VIX" and r["chg"] is not None and not r["stale"]]
+    venues = sorted({r["venue"] for r in rows if r.get("venue")})
+    read = _premarket_read(chgs, suffix)
+    if read and latest:
+        # absolute-age guard: when even the freshest quote is hours old
+        # (weekend, source outage), the read must not sound current
+        now_utc = now or datetime.now(timezone.utc)
+        now_utc = now_utc if now_utc.tzinfo else now_utc.replace(tzinfo=timezone.utc)
+        if now_utc.timestamp() - latest > 3 * 3600:
+            d_lq = datetime.fromtimestamp(latest, timezone.utc).astimezone(JER)
+            read = f"לפי ציטוטים מ-{d_lq.day}.{d_lq.month}: " + read
+    return {"rows": rows, "latest": latest, "session": label, "venues": venues,
+            "read": read}
+
+
 # ---------------------------------------------------------------- pullback in uptrend
 def pullback_section(data_map, expected=None):
     """Pullback-in-uptrend category over the breakout universe (observation,
@@ -1313,6 +1413,29 @@ def _bt_yahoo_ticker(query):
     return None
 
 
+def _bt_cache_items_for_merge(cached_items, cutoff):
+    """Still-in-window cached clusters -> item dicts, so the normal clustering
+    pass dedups them against fresh items with the same tested semantics. Without
+    this merge a story that falls out of one run's Google News results vanishes
+    within the hour although the section promises a BT_LOOKBACK_DAYS window.
+    Undated or out-of-window cache entries are dropped."""
+    out = []
+    for c in cached_items or []:
+        pts = c.get("pub_ts")
+        if not pts or pts < cutoff or not c.get("title") or not c.get("cat"):
+            continue
+        srcs = c.get("sources") or [{"source": "", "link": c.get("link", "")}]
+        for s in srcs[:3]:
+            out.append({"title": c["title"], "link": s.get("link") or c.get("link", ""),
+                        "pub_ts": pts, "date": c.get("date", ""),
+                        "cat": c["cat"], "sev": c.get("sev", 1), "dir": c.get("dir", 0),
+                        "tickers": list(c.get("tickers") or []),
+                        "companies": list(c.get("companies") or []),
+                        "source": s.get("source", ""),
+                        "nct": (c.get("ncts") or [None])[0]})
+    return out
+
+
 def breakthrough_section():
     """Market-wide biotech breakthrough scan: Google News queries, FDA press RSS and the
     ClinicalTrials.gov results feed. NOT limited to the watchlist: הסורק סורק הכל.
@@ -1377,9 +1500,11 @@ def breakthrough_section():
                 it["companies"] = [tk]
             time.sleep(0.7)
 
-    clusters = scan_utils.cluster_breakthroughs(items)
+    fresh = scan_utils.cluster_breakthroughs(items)
     stale = False
-    if clusters:
+    if fresh:
+        clusters = scan_utils.cluster_breakthroughs(
+            items + _bt_cache_items_for_merge(cache.get("items"), cutoff))
         cache = {"fetched_at": datetime.now(JER).strftime("%-d.%-m.%Y, %-H:%M"),
                  "items": clusters}
         try:
@@ -1724,6 +1849,57 @@ def build_html(mh, dips, alerts, bo, updated, extra=None):
         parts.append("</details>")
     else:
         parts.append('<div class="empty">אין מספיק נתונים כרגע</div>')
+
+    pm = extra.get("pm")
+    session = (pm or {}).get("session") or _futures_session_context()[0]
+    parts.append(f'<h3 class="sec">חוזים עתידיים ו-VIX · {esc(session)}</h3>')
+    if pm is None:
+        parts.append('<div class="empty">ציטוטי החוזים לא היו זמינים בריצה זו — יוצגו ברענון הבא.</div>')
+    else:
+        parts.append('<div class="idxgrid">')
+        run_date = updated.astimezone(JER).date() if updated.tzinfo else updated.date()
+        for r in pm["rows"]:
+            if r["price"] is None:
+                parts.append(
+                    '<div class="idxcard">'
+                    f'<span class="idxname">{esc(r["name"])}</span><b>—</b>'
+                    '<small>לא זמין בריצה זו</small></div>')
+                continue
+            chg = r["chg"]
+            if chg is None:
+                chg_html = ""
+            elif r["sym"] == "^VIX":
+                # VIX is inverse-risk: up means more uncertainty, so red
+                cls = "down" if chg >= 0 else "up"
+                chg_html = f'<span class="{cls}" dir="ltr">{chg:+.2f}%</span>'
+            else:
+                chg_html = pct2(chg)
+            when = ""
+            if r.get("ts"):
+                d_q = datetime.fromtimestamp(r["ts"], timezone.utc).astimezone(JER)
+                when = (f"{d_q.hour}:{d_q.minute:02d}" if d_q.date() == run_date
+                        else f"{d_q.day}.{d_q.month}, {d_q.hour}:{d_q.minute:02d}")
+            small = "מול הסגירה הקודמת" + (f" · ציטוט {when}" if when else "")
+            vix_hint = ('<small>עלייה ב-VIX = עלייה בחוסר ודאות</small>'
+                        if r["sym"] == "^VIX" else "")
+            val_s = f"{r['price']:,.2f}"
+            parts.append(
+                '<div class="idxcard">'
+                f'<span class="idxname">{esc(r["name"])}</span>'
+                f'<b>{ltr(val_s)}</b>'
+                f'{chg_html}<small>{small}</small>{vix_hint}'
+                "</div>")
+        parts.append("</div>")
+        if pm.get("read"):
+            parts.append(
+                f'<div class="finding">קריאה: <b>{esc(pm["read"])}</b> · '
+                'אינדיקציה בלבד, לא תחזית.</div>')
+        venues = ", ".join(pm.get("venues") or [])
+        venues_txt = f" ({esc(venues)})" if venues else ""
+        parts.append(
+            f'<div class="ts">חוזים עתידיים{venues_txt} ומדד ה-VIX, דרך Yahoo Finance · '
+            'שעת הציטוט מופיעה בכל כרטיס · נמשך בריצה זו · שאר הדף מציג נתוני סגירה רשמיים · '
+            f'<a class="src-link" href="{FUTURES_SOURCE_URL}" target="_blank" rel="noopener">מקור</a></div>')
 
     ov = extra.get("overview")
     if ov:
@@ -2302,6 +2478,7 @@ def main():
     bo = breakout_section()
     overview = market_overview_section()
     cnn = cnn_section()
+    pm = premarket_section()
     cats = catalyst_section()
     trials = trials_section()
     bt = breakthrough_section()
@@ -2331,7 +2508,7 @@ def main():
     except Exception as e:
         fail("accuracy", f"stats unreadable: {e}")
         acc = None
-    extra = {"overview": overview, "cnn": cnn, "cats": cats, "trials": trials,
+    extra = {"overview": overview, "cnn": cnn, "pm": pm, "cats": cats, "trials": trials,
              "secw": secw, "radar": bio.get("radar", []), "acc": acc, "bt": bt}
     alerts = bio.get("alerts", [])
 
