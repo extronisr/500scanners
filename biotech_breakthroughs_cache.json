@@ -1,6 +1,34 @@
 {
- "fetched_at": "26.10.2026, 8:04",
+ "fetched_at": "26.10.2026, 7:49",
  "items": [
+  {
+   "title": "FDA approves GSK's functional cure for hepatitis B - Drug Discovery News",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOU3NoNXQwQjNWYWFzSWF0WjZFSF9Hd21EVnZLNWNBZ1ZnSDRGbUY5c2dLMDluM3ZpNUhicTBtS0NFNzZwLXVvQnctX3ZLcUdPWmxwazlDSnpqNWlWOHNJbHVaRWF3NlRyQS1CZERWcXNJQjBRZzRMMWRBMTNGV3Y3b0dlWHRsUmNsVnpHVGRpRXljMXB0?oc=5",
+   "pub_ts": 1792962526.0,
+   "date": "25.10.2026, 23:08",
+   "cat": "fda",
+   "sev": 4,
+   "dir": 1,
+   "tickers": [],
+   "companies": [
+    "GSK"
+   ],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOU3NoNXQwQjNWYWFzSWF0WjZFSF9Hd21EVnZLNWNBZ1ZnSDRGbUY5c2dLMDluM3ZpNUhicTBtS0NFNzZwLXVvQnctX3ZLcUdPWmxwazlDSnpqNWlWOHNJbHVaRWF3NlRyQS1CZERWcXNJQjBRZzRMMWRBMTNGV3Y3b0dlWHRsUmNsVnpHVGRpRXljMXB0?oc=5"
+    },
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNanYxQ2tteXo1dDJrLTZmdXdKWTdYMktvb1dGa190OXA4OGpOZnJhaW9hVVU1WVlZOWVRR0ZuMmo0Qm9XNkxVejZIVkdHNUNIWTNHVzhSeGdCTFkxWnZxeHM2ZDBFOTNFczlYTzY5TVJrSDAxOFdzUFlfQW9vSDhUR0dmQ0NBTVBfSUhVdTZLZXFvZ0NQdWFBWm94Q00yNTB1cHVycFVoWjVLOU5DaFNCXzlWVk5jeXdxT0pocFpfaWR4ZFU?oc=5"
+    },
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221276"
+    }
+   ],
+   "ncts": []
+  },
   {
    "title": "ESMO: Roche touts ‘convincing’ phase 3 KRAS data after win over rivals - Fierce Biotech",
    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOS0RuRWNjdE5wMUluaWxTTUU5SFFkeE1LV0JVd2k3ZlhOQ3M5Nk5qWjhMZXZSUkoxNHJyUWx5Q3NyS3dKbTl5UTVqc0QxQk5pS2tTTG9QeFJJWGRDOTNCMWZ6Sk1sVVlnYV92UU5NRVFWNlhKTGREZ3FiQll1MzFYZFE4MWRqaHFIQ2dvS2JyM0ptWHRobEJMSTVxTGxiZHF2Z3VUaFJ3Y1U4SmhZX1lpUHNlenJfM0VlQzNQQzkzV3AxNGc?oc=5",
@@ -21,9 +49,15 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNT1VhLWlDMTJiVHpNMHVHbHRqMmRlekdLNEZWWXFkYldlZUVEZGZmY2VZZTBnYVJZZmJGMWdJOURTV0duWHlFUmFDRW1kZXZ6ck1HRXlqTXptTnRucVE1b3dpazd3eWNBYUhaM0ZOcGkxbmljZm5sT1ZXa1ZxVDZVUXFUZzRBeTZ4cG4xTVBqRHRyR0laQXd4WlN3?oc=5"
+    },
+    {
+     "source": "ClinicalTrials.gov",
+     "link": "https://clinicaltrials.gov/study/NCT05627557"
     }
    ],
-   "ncts": []
+   "ncts": [
+    "NCT05627557"
+   ]
   },
   {
    "title": "‘Infinite potential’: Akeso CEO looks for more ivonescimab combos amid AstraZeneca investment, new phase 3 win - Fierce Pharma",
@@ -41,6 +75,52 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQcXl3TS1VWm5WOXA4Nk9ySXRTUmFPZUItaEpzVGNtNkhwdG1PSHBSNnpESlY5OVhnNUtGS3lfM0lyY3VpZ2JMZmxVTUlSVU9MM2piZE5vY0pzWHZMTkxNa3Rad1Z0YTM3Nll1Sk5pUEd4dkhMZ3YyV0l2NUNMbmtRdHNuZlRvVmNFN1lVckl0OGc4M3lXMm1BSlNzY21aV0tURFRHVEhndXFVRW9QZHlqazYyQnM0U1FULVp3?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "Moderna Melanoma Therapy Cuts Recurrence Risk 42% in Phase 3 Trial - Yahoo Finance",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNXzhaSldkdHYtaHFxWS00NVhDVzRrQXpCRWFwOXpzYVBZbi1iNTlNWHFueUFnVDhEMExBVjRBVkZ0YzdwZmdzV1JfTjFienBnV3lBNFp5b1VDbk9JMnk5Tm91WjE3RXVXbkxxclQyOW5XVHpYb2lOdC0wM3BJa0lpbE9Tb2dSVGtmY18tN2Ezb0hBNGdlOG4xQ1RHMkZ6c1ktck1V?oc=5",
+   "pub_ts": 1792879323.0,
+   "date": "25.10.2026, 1:02",
+   "cat": "phase3",
+   "sev": 4,
+   "dir": 1,
+   "tickers": [],
+   "companies": [
+    "MRNA"
+   ],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNXzhaSldkdHYtaHFxWS00NVhDVzRrQXpCRWFwOXpzYVBZbi1iNTlNWHFueUFnVDhEMExBVjRBVkZ0YzdwZmdzV1JfTjFienBnV3lBNFp5b1VDbk9JMnk5Tm91WjE3RXVXbkxxclQyOW5XVHpYb2lOdC0wM3BJa0lpbE9Tb2dSVGtmY18tN2Ezb0hBNGdlOG4xQ1RHMkZ6c1ktck1V?oc=5"
+    },
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOT0h3amNjX0tyMHdLQXZiX1pjS01PMk1Dcl8yaFU1dW5CN3YyNmhDVUpQMDFhdEItWW9yVXZZT0w1SjRzTERjMlJUUHBYb3RJY0IxZGFDMWxEVVI0M3pCQ2MxZzNBZWpSMGJ1MUtjc0tKbjg4QzVjUDdud2owUS1ONjEwbTAyTDgwV3JKbDBqTmVOclBYUHNZOQ?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "argenx (ENXTBR:ARGX) Reports Positive Phase 3 Data In Autoimmune Myositis - Yahoo Finance",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPWFZzb19vTS1XVGlTem9LVzk0S2JyR1NuS1A0ZnFwTHVzcE1QYThEWG5OUk9YelJCNzA3SDFiVHY1MkdLamJXTHBKMnZNVk9RNUlDMldxRi1MR1k1ajgzYmFwaGpRRTVIRE5WeGVzeXJVSHRiWjRUOVItdFpxTGdVVk1ONjI0YTBZU0lTMjNaVkNTMXFhMTFOTlNibks?oc=5",
+   "pub_ts": 1792858523.0,
+   "date": "24.10.2026, 19:15",
+   "cat": "phase3",
+   "sev": 4,
+   "dir": 1,
+   "tickers": [
+    "ARGX"
+   ],
+   "companies": [
+    "ARGX"
+   ],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPWFZzb19vTS1XVGlTem9LVzk0S2JyR1NuS1A0ZnFwTHVzcE1QYThEWG5OUk9YelJCNzA3SDFiVHY1MkdLamJXTHBKMnZNVk9RNUlDMldxRi1MR1k1ajgzYmFwaGpRRTVIRE5WeGVzeXJVSHRiWjRUOVItdFpxTGdVVk1ONjI0YTBZU0lTMjNaVkNTMXFhMTFOTlNibks?oc=5"
     }
    ],
    "ncts": []
@@ -110,31 +190,21 @@
    "sev": 4,
    "dir": 1,
    "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbGlVUTlrdGdydEJkOTRHUksxQm8wLVFvVV9YX3FVd3RTR1pPM1ZBdWFacWN2LWNxZG9aX0JhcnRhNmhDTFhtd3RWdHhTUEJKLUtkU2VUN0JRYzA1TThyTlNOME0zdkdjaVA2SXY1X3ZfOXJ0WVdBZWRkcjBvMjY2Q2lhSVctdUNxMzY4OC1sdUo2Slk?oc=5"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "FDA approves GSK's functional cure for hepatitis B - Drug Discovery News",
-   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOU3NoNXQwQjNWYWFzSWF0WjZFSF9Hd21EVnZLNWNBZ1ZnSDRGbUY5c2dLMDluM3ZpNUhicTBtS0NFNzZwLXVvQnctX3ZLcUdPWmxwazlDSnpqNWlWOHNJbHVaRWF3NlRyQS1CZERWcXNJQjBRZzRMMWRBMTNGV3Y3b0dlWHRsUmNsVnpHVGRpRXljMXB0?oc=5",
-   "pub_ts": 1792784165.0,
-   "date": "23.10.2026, 22:36",
-   "cat": "fda",
-   "sev": 4,
-   "dir": 1,
-   "tickers": [],
    "companies": [
     "GSK"
    ],
    "sources": [
     {
      "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOU3NoNXQwQjNWYWFzSWF0WjZFSF9Hd21EVnZLNWNBZ1ZnSDRGbUY5c2dLMDluM3ZpNUhicTBtS0NFNzZwLXVvQnctX3ZLcUdPWmxwazlDSnpqNWlWOHNJbHVaRWF3NlRyQS1CZERWcXNJQjBRZzRMMWRBMTNGV3Y3b0dlWHRsUmNsVnpHVGRpRXljMXB0?oc=5"
+     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbGlVUTlrdGdydEJkOTRHUksxQm8wLVFvVV9YX3FVd3RTR1pPM1ZBdWFacWN2LWNxZG9aX0JhcnRhNmhDTFhtd3RWdHhTUEJKLUtkU2VUN0JRYzA1TThyTlNOME0zdkdjaVA2SXY1X3ZfOXJ0WVdBZWRkcjBvMjY2Q2lhSVctdUNxMzY4OC1sdUo2Slk?oc=5"
+    },
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOenRJLTJkZDlnbjVUSTlZQ1JFMEZDYW4yMXpUNHJJSmNTR2kwb093bzV0UXJxZEJ5NERzcldaZXY3eUljSVE3c2JreDVyRzBnQnZwUldJN09pTWF1ZXM5WFp0cy14VlVUdGFZcE0xbHVSdWNHSkNqeE56YU1KSC0zbUJZVmRJanFMLWdhUA?oc=5"
+    },
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221276"
     }
    ],
    "ncts": []
@@ -160,10 +230,10 @@
    "ncts": []
   },
   {
-   "title": "Genmab stock surges 9% following positive phase 3 ovarian cancer trial results - StreetInsider",
-   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNUHRvZlV4UC1fZWZCdWhqTlUzZVQwUlV6cV9aQXhLMlBtODFGMnZPVXpUNHNfM3pyYU1MZXVIZXlrSDlqOWc2am9URTRTd21WT3lubUk0aE5Cdlp3ZmtwdnFZaktJVlBPVUFieS1idm1ELWxPdkp3MEtWZU56UDkzeXdSNEhoSDRtbzM5RmdYMlNzLURpeVhHVXhUVUlRa0N5TEdQUkt6N3M5WmFrMWo5ZWFVekdEVENPU09UQ1BVWmt4OUd1Q2Qwb3Mzb2Vxa2l4TUQ4?oc=5",
-   "pub_ts": 1792779185.0,
-   "date": "23.10.2026, 21:13",
+   "title": "Genmab stock surges 9% following positive phase 3 ovarian cancer trial results - Investing.com",
+   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQMFVHR3FYTDB0eGpqd3hCZkdSdzNkSWNjWDh5R0c5M2s2cE5TT1ZXd09EaXpCNjFGbnJMMUUxVV9FelZPMWZzdWs0S1I5WDFpangtMFlOVnBRdHlTX1lYUjN4cjQ0alozZ19EOWhxZ250Uzk3QjFkcVJQRTRVZExic21oRkdtRzFuMnRqMUhHS003VXVnTkUydHhDa1hIdHAtaFlZeTM5djU5bDN3Tm8wSXRNZ1RKYlZ2a3NyV09uYWhDWkNSWGdmUTFfellUS1E?oc=5",
+   "pub_ts": 1792780639.0,
+   "date": "23.10.2026, 21:37",
    "cat": "phase3",
    "sev": 4,
    "dir": 1,
@@ -172,6 +242,10 @@
     "GMAB"
    ],
    "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQMFVHR3FYTDB0eGpqd3hCZkdSdzNkSWNjWDh5R0c5M2s2cE5TT1ZXd09EaXpCNjFGbnJMMUUxVV9FelZPMWZzdWs0S1I5WDFpangtMFlOVnBRdHlTX1lYUjN4cjQ0alozZ19EOWhxZ250Uzk3QjFkcVJQRTRVZExic21oRkdtRzFuMnRqMUhHS003VXVnTkUydHhDa1hIdHAtaFlZeTM5djU5bDN3Tm8wSXRNZ1RKYlZ2a3NyV09uYWhDWkNSWGdmUTFfellUS1E?oc=5"
+    },
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNUHRvZlV4UC1fZWZCdWhqTlUzZVQwUlV6cV9aQXhLMlBtODFGMnZPVXpUNHNfM3pyYU1MZXVIZXlrSDlqOWc2am9URTRTd21WT3lubUk0aE5Cdlp3ZmtwdnFZaktJVlBPVUFieS1idm1ELWxPdkp3MEtWZU56UDkzeXdSNEhoSDRtbzM5RmdYMlNzLURpeVhHVXhUVUlRa0N5TEdQUkt6N3M5WmFrMWo5ZWFVekdEVENPU09UQ1BVWmt4OUd1Q2Qwb3Mzb2Vxa2l4TUQ4?oc=5"
@@ -233,6 +307,32 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRDlfcjljT1R5c1lKaUVNTXZSUW45SV9ySU5uZ01BSWxZRWFMdm52VW9qdFdiY01iRzVZVDJWQ3VIZjhRNTZQY1dxZnN6ZDNtSU5RalVlY0REX1JFWHBYNDd4cnRDbE14cVowVGU1LUI3QURMMHZkQ0JNbnpWUlRGbHUySWE1NlFjZnFYM2w3TC1EeTR3Q3NCaFBrUXBnaVdPdHc?oc=5"
+    },
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNOHhhSU1RVkZHOHQyZ3lOMDNXNmNzSlJfY2pBQ2VqZC1NQ2FmWVYwV2ZxbkRHOXBpM3JXMVd1dWlINTh1LTZlZTkySlo5WU9uZ0lGaDVvN29Ia29TWnFBZDk0cDZkY0h0T2NyY1Z6SWpULWFjVEVZWTBZMEFFci15aDBUcUZWb3hRYkxGRVNQWHFwQURkRFRWVjBBXy1ZN0xMdFhNZ3hncVk?oc=5"
+    },
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOenRJLTJkZDlnbjVUSTlZQ1JFMEZDYW4yMXpUNHJJSmNTR2kwb093bzV0UXJxZEJ5NERzcldaZXY3eUljSVE3c2JreDVyRzBnQnZwUldJN09pTWF1ZXM5WFp0cy14VlVUdGFZcE0xbHVSdWNHSkNqeE56YU1KSC0zbUJZVmRJanFMLWdhUA?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA Approves Pembrolizumab in Metastatic TMB-H Solid Tumors - CancerNetwork",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOOEZma1VaQUVzT3N6VHMwNFE5SENfMXVNY05rZkk4VXdQbzJ2enNxV3hGeUNjcUdaTHFVbVd1WTVWUGk0Z3NvZXNrblkzOXJjZkdpN2Z3MWM2cVhLdkJuVnRqN0dsMko2cnBfaEI3bXBjOVowX0NpVExRenNHU2pCQlhBQnJwVFhJLUltOW9reElBeHVwRVI2NGNB?oc=5",
+   "pub_ts": 1792698436.0,
+   "date": "22.10.2026, 22:47",
+   "cat": "fda",
+   "sev": 4,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOOEZma1VaQUVzT3N6VHMwNFE5SENfMXVNY05rZkk4VXdQbzJ2enNxV3hGeUNjcUdaTHFVbVd1WTVWUGk0Z3NvZXNrblkzOXJjZkdpN2Z3MWM2cVhLdkJuVnRqN0dsMko2cnBfaEI3bXBjOVowX0NpVExRenNHU2pCQlhBQnJwVFhJLUltOW9reElBeHVwRVI2NGNB?oc=5"
     }
    ],
    "ncts": []
@@ -254,6 +354,14 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNanYxQ2tteXo1dDJrLTZmdXdKWTdYMktvb1dGa190OXA4OGpOZnJhaW9hVVU1WVlZOWVRR0ZuMmo0Qm9XNkxVejZIVkdHNUNIWTNHVzhSeGdCTFkxWnZxeHM2ZDBFOTNFczlYTzY5TVJrSDAxOFdzUFlfQW9vSDhUR0dmQ0NBTVBfSUhVdTZLZXFvZ0NQdWFBWm94Q00yNTB1cHVycFVoWjVLOU5DaFNCXzlWVk5jeXdxT0pocFpfaWR4ZFU?oc=5"
+    },
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPNTFOT3Y1U3dud3E1T1l1bG9JTnlXSFlvNkRCM3M1NEZCb0V3WjhGbzMxM0h4bF9pNW9wRVM0UnlTV0Q1STY1UDZBOW9CUkY0LU8tTmlabU9KWUlBUVdJUlpHMGdpUjVKa3ljc0Z3S3pLWDRRWDBYZHpzV1htakdodXBoVEoyeEh5QWdpUm92QXhKOXI4QXpVSFgzb2lRc3NsOWx1aGlYX1N5WEFHU3pOUnVkMjlCMnNXOUFiN2s2QmhFQQ?oc=5"
+    },
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221276"
     }
    ],
    "ncts": []
@@ -274,6 +382,56 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNUGpqanV4cTNtMHFsWkNwb2lXeUVRTFJWLXZBai03ZXpLTC1HRnR3VkRjTE40UWRwMDljdE5tTHp4NFJFZWZHNHFoOE56UHRqTUJ1c2UtZVpjbmYzQ25zWmNzcFZsSGREYkxwanljelhaZ2NlWGRMYXNyZVVhRnAySVdpWHltcDNfaXVrLS1UYVN2Z0pYZ0UyeWdQSEp6YnJtY3p3T0Z6Xy1ydklxWUR3N2xlYUtGcDcwd0d6b010WDhGaDdxYVBaU3ZnWmVGdw?oc=5"
+    },
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPSEVYVkdkSzZldU9vU2QzZGhYSmF1blgzR2RGRy1BY1RTejJTTmZOLVltQVhRQkx1RkZpNEQ1UkhMNmFQOUJTS1UxYjdWUXo2ZTBubjFrelZpd0pzRkItaVU0R0VxV0RUSWcwc0ExVlFUZkJQbEVWQVFoQ3JuZXU1QURtOXVnZC0yS18tc3BFTFEtNkZsTEJlZUxiWDJSU21CanBWQlhBZTh5ZS1XWkR2UGRfdFFUQjgtM2JtS0l0LXZ2d0hteUFhbWtDdFk0ejJBVWNfaQ?oc=5"
+    },
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNSU51UVhyYWRJS1BmVXQ4d0ZwMDdJTnRiRkt3MGZYSnVfNFB0dDR4eUtqc2Y5NEVRM0dQeHkxMzA1VXFqOXFXdkhqbnREb0d1Mi1FcnkyVzhmWUJaQzhnN3VWNkotUWhZNWdqbWRtRWh2U3dJNmw1ZDlWb2NIMXFJOFltQ1hoSVpvQUVvZVpaWjhwdWFYd1ZUdUR3OGtNM1J2WXVBWlE3angtQU5QSEJ2U245YnVURHRiejgyeGVn?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "AbbVie Announces Topline Results from the Phase 3 INTREPID Trial Showing Lutikizumab Significantly Improved Signs and Symptoms of Disease in Patients with Hidradenitis Suppurativa - Investing News Network",
+   "link": "https://news.google.com/rss/articles/CBMirwJBVV95cUxQWVRiaUU3VHNDUHM2d1Q5NjJiejZsblpmWjMyb014T0xTbDMyVUhlTEFtQlpGcy1SQ2R2SHNzN3FudWRvUlh4SDVnMlhYVmFpeFRyQmZOV0xZRVJUMTFlaDdHRFlLMGpwY0U0ZG9KZGdHWVNlQlUxQ2NoUFdQZUthZS1YVXQwUlJrMk9GS01CWUdpdFlvTmp2Vnk2VkFxSS1yZUE1bEJfT0MtbjcydDRIQXBRczFHXzBwcTlVY0VSSjkzSWwzUW1rNmVWcGtmVE5jalN4VlB2cEpyU0RhMkxmanVzaTlNckp2bF9tQWtuUzIxSnh5YjRGeVZDRWJfQjRWbE9nLVVHWVZEOUd2WFlGSFRnVXlEaGtCVVpsLVI3V2YyakdJWFVJQi0tNzdGQ2s?oc=5",
+   "pub_ts": 1792682985.0,
+   "date": "22.10.2026, 18:29",
+   "cat": "phase3",
+   "sev": 4,
+   "dir": 1,
+   "tickers": [],
+   "companies": [
+    "ABBV"
+   ],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMirwJBVV95cUxQWVRiaUU3VHNDUHM2d1Q5NjJiejZsblpmWjMyb014T0xTbDMyVUhlTEFtQlpGcy1SQ2R2SHNzN3FudWRvUlh4SDVnMlhYVmFpeFRyQmZOV0xZRVJUMTFlaDdHRFlLMGpwY0U0ZG9KZGdHWVNlQlUxQ2NoUFdQZUthZS1YVXQwUlJrMk9GS01CWUdpdFlvTmp2Vnk2VkFxSS1yZUE1bEJfT0MtbjcydDRIQXBRczFHXzBwcTlVY0VSSjkzSWwzUW1rNmVWcGtmVE5jalN4VlB2cEpyU0RhMkxmanVzaTlNckp2bF9tQWtuUzIxSnh5YjRGeVZDRWJfQjRWbE9nLVVHWVZEOUd2WFlGSFRnVXlEaGtCVVpsLVI3V2YyakdJWFVJQi0tNzdGQ2s?oc=5"
+    },
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQLXhMQXVtVTduRXhNVVlEbnNDbGptdUpMQVdYUkVhQTZlc21tWm5hQWN3UHJTNmJ5UzhvU0ZtVGtzcERvaHZDb3Q2bmxrMnhnazU0eTFVdURzN2lZZ3BNNl9uWFJQYlo4bWVIYVpkbWtCUVB0ZTltbVhXMEhTTWJzNDIzc3J0NWpPY3g4MXZPQ3FMSlRfTGNlMTlFcmRyc2t2bVZDS1oteHBodEFGX2VEdlFla2loa3JGaE92RA?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "Lutikizumab Meets Primary End Point in Phase 3 HS Trial - Dermatology Times",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxORGRodTJKMF9HUHJiMHQ0LWdsa0xLZjh4aExveEMwdUxJT3d6Mnc4UUlFaTVZbjVRak9aTW1IY3dpTnB6blpmV21Ka2VWajhHSXAtQ2l3c3BWT0lwQzNLZ05RNmY4VjZMc09YYnR6eWdUNTlJelh1RDZpNzdSNUdoN3VUZEV3NFdnV1M5VU9WNXFpa2hLdWc4NA?oc=5",
+   "pub_ts": 1792682217.0,
+   "date": "22.10.2026, 18:16",
+   "cat": "phase3",
+   "sev": 4,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxORGRodTJKMF9HUHJiMHQ0LWdsa0xLZjh4aExveEMwdUxJT3d6Mnc4UUlFaTVZbjVRak9aTW1IY3dpTnB6blpmV21Ka2VWajhHSXAtQ2l3c3BWT0lwQzNLZ05RNmY4VjZMc09YYnR6eWdUNTlJelh1RDZpNzdSNUdoN3VUZEV3NFdnV1M5VU9WNXFpa2hLdWc4NA?oc=5"
     }
    ],
    "ncts": []
@@ -297,10 +455,10 @@
    "ncts": []
   },
   {
-   "title": "FDA Approves Hibsago (Bepirovirsen) for Chronic Hepatitis B - Pharmaceutical Executive",
-   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOenRJLTJkZDlnbjVUSTlZQ1JFMEZDYW4yMXpUNHJJSmNTR2kwb093bzV0UXJxZEJ5NERzcldaZXY3eUljSVE3c2JreDVyRzBnQnZwUldJN09pTWF1ZXM5WFp0cy14VlVUdGFZcE0xbHVSdWNHSkNqeE56YU1KSC0zbUJZVmRJanFMLWdhUA?oc=5",
-   "pub_ts": 1792594761.0,
-   "date": "21.10.2026, 17:59",
+   "title": "FDA Approves Hibsago | PharmExec - Pharmaceutical Executive",
+   "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1HN0FYbmczUXRSTm5NQzVHZXZ3RTNZUV92TThyVmdzaFBMU3hPLVcxRTZVMGZ4QVBoaWZ6cFBFNjFLa21kZTNEemFsQ0o1dXFweGhkbllRNy02WlVMTHpsZXI1c0owQWVR?oc=5",
+   "pub_ts": 1792608709.0,
+   "date": "21.10.2026, 21:51",
    "cat": "fda",
    "sev": 4,
    "dir": 1,
@@ -309,16 +467,16 @@
    "sources": [
     {
      "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOenRJLTJkZDlnbjVUSTlZQ1JFMEZDYW4yMXpUNHJJSmNTR2kwb093bzV0UXJxZEJ5NERzcldaZXY3eUljSVE3c2JreDVyRzBnQnZwUldJN09pTWF1ZXM5WFp0cy14VlVUdGFZcE0xbHVSdWNHSkNqeE56YU1KSC0zbUJZVmRJanFMLWdhUA?oc=5"
+     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1HN0FYbmczUXRSTm5NQzVHZXZ3RTNZUV92TThyVmdzaFBMU3hPLVcxRTZVMGZ4QVBoaWZ6cFBFNjFLa21kZTNEemFsQ0o1dXFweGhkbllRNy02WlVMTHpsZXI1c0owQWVR?oc=5"
     }
    ],
    "ncts": []
   },
   {
-   "title": "FDA approves Hibsago (Glaxosmithkline Llc)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221276",
-   "pub_ts": 1792454400.0,
-   "date": "20.10.2026",
+   "title": "FDA Approves Hibsago (Bepirovirsen) for Chronic Hepatitis B - Pharmaceutical Executive",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOenRJLTJkZDlnbjVUSTlZQ1JFMEZDYW4yMXpUNHJJSmNTR2kwb093bzV0UXJxZEJ5NERzcldaZXY3eUljSVE3c2JreDVyRzBnQnZwUldJN09pTWF1ZXM5WFp0cy14VlVUdGFZcE0xbHVSdWNHSkNqeE56YU1KSC0zbUJZVmRJanFMLWdhUA?oc=5",
+   "pub_ts": 1792594761.0,
+   "date": "21.10.2026, 17:59",
    "cat": "fda",
    "sev": 4,
    "dir": 1,
@@ -328,8 +486,30 @@
    ],
    "sources": [
     {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOenRJLTJkZDlnbjVUSTlZQ1JFMEZDYW4yMXpUNHJJSmNTR2kwb093bzV0UXJxZEJ5NERzcldaZXY3eUljSVE3c2JreDVyRzBnQnZwUldJN09pTWF1ZXM5WFp0cy14VlVUdGFZcE0xbHVSdWNHSkNqeE56YU1KSC0zbUJZVmRJanFMLWdhUA?oc=5"
+    },
+    {
      "source": "FDA · openFDA",
      "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221276"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA Approves Immunotherapy That May Allow Certain Patients with Rectal Cancer to Avoid Chemotherapy, Radiation and Surgery",
+   "link": "http://www.fda.gov/news-events/press-announcements/fda-approves-immunotherapy-may-allow-certain-patients-rectal-cancer-avoid-chemotherapy-radiation-and",
+   "pub_ts": 1792426778.0,
+   "date": "19.10.2026, 19:19",
+   "cat": "fda",
+   "sev": 4,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA",
+     "link": "http://www.fda.gov/news-events/press-announcements/fda-approves-immunotherapy-may-allow-certain-patients-rectal-cancer-avoid-chemotherapy-radiation-and"
     }
    ],
    "ncts": []
@@ -367,6 +547,24 @@
      "source": "FDA · openFDA",
      "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219455"
     },
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219456"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA approves Calrezdy (Fresenius Medcl Care)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219456",
+   "pub_ts": 1792368000.0,
+   "date": "19.10.2026",
+   "cat": "fda",
+   "sev": 4,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
     {
      "source": "FDA · openFDA",
      "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219456"
@@ -426,6 +624,14 @@
     {
      "source": "FDA · openFDA",
      "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221033"
+    },
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221301"
+    },
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220407"
     }
    ],
    "ncts": []
@@ -444,6 +650,24 @@
     {
      "source": "FDA · openFDA",
      "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221183"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA Approves First Treatment for Certain People With BCG-Unresponsive Bladder Cancer",
+   "link": "http://www.fda.gov/news-events/press-announcements/fda-approves-first-treatment-certain-people-bcg-unresponsive-bladder-cancer",
+   "pub_ts": 1791990891.0,
+   "date": "14.10.2026, 18:14",
+   "cat": "fda",
+   "sev": 4,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA",
+     "link": "http://www.fda.gov/news-events/press-announcements/fda-approves-first-treatment-certain-people-bcg-unresponsive-bladder-cancer"
     }
    ],
    "ncts": []
@@ -480,6 +704,26 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNUjlUcFZZSEVaZWd0WVR2Rk5pbTlpWGx4U0ZtRmlZX1NwVmJFWk5lQkgzR0RzN1VNbFZLOWwzdHpSSFVxSkdlNDFsTzRoMmdEWjBzT2JPRlA4WkVoNTNySS1mcXJXX3QxOG4zM2xVR0ZsclpBWkZWYURTOTc4Q0hlRjZVWHZtQzlNYkdUbXdjTkRCUlMzSy00T3hISllGMXNsRmh0YVZFM3A3X2F0dUJ6d2FlZ2xSV2FkT0M4U2ZHR2xjdmZzWEJVTjI0R1ZsdWtGOG94OGIxaENHZlhtNnlCN2IzUE9ocENh?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "Summit Therapeutics reports biliary-cancer survival win - Mugglehead Investment Magazine",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNbDVPUzBXZXdsMzdlZms0bUpOa1Zlc0E0ZldmSzE1dEh2OFAzdGVGNUYxS1A4YVQ1VENONVU4bmZjX2hyNVlyek81WFhuRGphRmQ3Q0w3T3VWSDhJN1k5N2tULUV0LV9tUzhzOFhSRVNXZ1M2MG11LWQ2SzJ1MDgyOUUtbkJDUHBTNDhKemV3?oc=5",
+   "pub_ts": 1792945035.0,
+   "date": "25.10.2026, 18:17",
+   "cat": "readout",
+   "sev": 3,
+   "dir": 1,
+   "tickers": [],
+   "companies": [
+    "SMMT"
+   ],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNbDVPUzBXZXdsMzdlZms0bUpOa1Zlc0E0ZldmSzE1dEh2OFAzdGVGNUYxS1A4YVQ1VENONVU4bmZjX2hyNVlyek81WFhuRGphRmQ3Q0w3T3VWSDhJN1k5N2tULUV0LV9tUzhzOFhSRVNXZ1M2MG11LWQ2SzJ1MDgyOUUtbkJDUHBTNDhKemV3?oc=5"
     }
    ],
    "ncts": []
@@ -553,50 +797,28 @@
    "sev": 3,
    "dir": 0,
    "tickers": [],
-   "companies": [],
+   "companies": [
+    "MRNA",
+    "MRK",
+    "NKTR"
+   ],
    "sources": [
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZmNPMnBXejBRc0pvZmhGWWVIYU1mbEhsXzJpbXdfYTBhc0hnRFZqdG1uZUpzY05oaHc3U3BFVTJMVktmbzJTR05odkxvVUF4alZSc1I3cDBaa200M1VwcFkzYmxoc0MxT2VZVmg2THA2cHduamdneFY5czVzd2Y1STlSZ3dwdUFob1NIMzNaX2g?oc=5"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "Late-Breaking Phase 3 Data Headline ESMO 2026 Presidential Symposium I - Targeted Oncology",
-   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZmNPMnBXejBRc0pvZmhGWWVIYU1mbEhsXzJpbXdfYTBhc0hnRFZqdG1uZUpzY05oaHc3U3BFVTJMVktmbzJTR05odkxvVUF4alZSc1I3cDBaa200M1VwcFkzYmxoc0MxT2VZVmg2THA2cHduamdneFY5czVzd2Y1STlSZ3dwdUFob1NIMzNaX2g?oc=5",
-   "pub_ts": 1792860411.0,
-   "date": "24.10.2026, 19:46",
-   "cat": "phase3",
-   "sev": 3,
-   "dir": 0,
-   "tickers": [],
-   "companies": [],
-   "sources": [
+    },
     {
      "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZmNPMnBXejBRc0pvZmhGWWVIYU1mbEhsXzJpbXdfYTBhc0hnRFZqdG1uZUpzY05oaHc3U3BFVTJMVktmbzJTR05odkxvVUF4alZSc1I3cDBaa200M1VwcFkzYmxoc0MxT2VZVmg2THA2cHduamdneFY5czVzd2Y1STlSZ3dwdUFob1NIMzNaX2g?oc=5"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "Late-Breaking Phase 3 Data Headline ESMO 2026 Presidential Symposium I - Targeted Oncology",
-   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZmNPMnBXejBRc0pvZmhGWWVIYU1mbEhsXzJpbXdfYTBhc0hnRFZqdG1uZUpzY05oaHc3U3BFVTJMVktmbzJTR05odkxvVUF4alZSc1I3cDBaa200M1VwcFkzYmxoc0MxT2VZVmg2THA2cHduamdneFY5czVzd2Y1STlSZ3dwdUFob1NIMzNaX2g?oc=5",
-   "pub_ts": 1792860411.0,
-   "date": "24.10.2026, 19:46",
-   "cat": "phase3",
-   "sev": 3,
-   "dir": 0,
-   "tickers": [],
-   "companies": [],
-   "sources": [
+     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQLWNXOEVpSWw4cHJ1cWVRRV9vWl95cGpIVnMyeUNLZXRTQzRNNDUxTnNNUTY5dU5FSl9iV2RVVlozZFJhbWNoME02NmNMMnhITjNIREM3S0FFejYtT0JHUWJQZkhoR3dqbUhfdkRMcDZMU2NWUHN1X0FxcDBkWkJidTlPZkRhZ0lfYTMyNmhLWXFiRWFiTFE?oc=5"
+    },
     {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZmNPMnBXejBRc0pvZmhGWWVIYU1mbEhsXzJpbXdfYTBhc0hnRFZqdG1uZUpzY05oaHc3U3BFVTJMVktmbzJTR05odkxvVUF4alZSc1I3cDBaa200M1VwcFkzYmxoc0MxT2VZVmg2THA2cHduamdneFY5czVzd2Y1STlSZ3dwdUFob1NIMzNaX2g?oc=5"
+     "source": "ClinicalTrials.gov",
+     "link": "https://clinicaltrials.gov/study/NCT03036488"
     }
    ],
-   "ncts": []
+   "ncts": [
+    "NCT03036488"
+   ]
   },
   {
    "title": "ESMO: GSK cancer R&D chief says mo-rez data ‘reinforces our belief’ in ADC as phase 3 push ramps up - Fierce Biotech",
@@ -608,12 +830,43 @@
    "dir": 0,
    "tickers": [],
    "companies": [
-    "GSK"
+    "GSK",
+    "MRNA",
+    "MRK",
+    "NKTR"
    ],
    "sources": [
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZUtEdnhwX21RTmI5LVh2c3pBWWV2Y19ySDhoV2Jpc1I3NDVDaFhvV1o0a2JHZ3VHNV9FR0ZkRkIxQUJtcjBRMGJDemdiQkF1N1RfSWlfZ0VsQ0QzZTdna3FnVllVUVdyYTNGVG02U2xpVXhHejlubmF6c3U1Q0UtYlYzM01fRWVBeC1CU3pJZ25hUTRpYXljcVVoQ211QktmUEpwVEpmazVDQWlSMWc?oc=5"
+    },
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQLWNXOEVpSWw4cHJ1cWVRRV9vWl95cGpIVnMyeUNLZXRTQzRNNDUxTnNNUTY5dU5FSl9iV2RVVlozZFJhbWNoME02NmNMMnhITjNIREM3S0FFejYtT0JHUWJQZkhoR3dqbUhfdkRMcDZMU2NWUHN1X0FxcDBkWkJidTlPZkRhZ0lfYTMyNmhLWXFiRWFiTFE?oc=5"
+    },
+    {
+     "source": "ClinicalTrials.gov",
+     "link": "https://clinicaltrials.gov/study/NCT03036488"
+    }
+   ],
+   "ncts": [
+    "NCT03036488"
+   ]
+  },
+  {
+   "title": "BeOne Medicines Presents New Phase 3 Data in HER2-Positive Gastroesophageal Cancer at ESMO 2026 - Oncodaily",
+   "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4xNnJLYUZqTFcxV19JdThKRThxOTA2Qk5ELVJmUnJURExsb3ktc01ZbUp4ZGEtRmUzaHNlQzFOZFNjVEp2RnZqSXFKeG40WlR6M3JpdExyYkRKZy1YTDZXcERVSQ?oc=5",
+   "pub_ts": 1792786713.0,
+   "date": "23.10.2026, 23:18",
+   "cat": "phase3",
+   "sev": 3,
+   "dir": 0,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4xNnJLYUZqTFcxV19JdThKRThxOTA2Qk5ELVJmUnJURExsb3ktc01ZbUp4ZGEtRmUzaHNlQzFOZFNjVEp2RnZqSXFKeG40WlR6M3JpdExyYkRKZy1YTDZXcERVSQ?oc=5"
     }
    ],
    "ncts": []
@@ -640,19 +893,41 @@
    "ncts": []
   },
   {
-   "title": "ESMO 2026: Tango trips on sinking response rates in pancreatic cancer but will move to Phase 3 - BioSpace",
-   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPU2Q2aUttMlRDVnFIM3czd3RCQXBaUmhIUlFtZ09oaDZhazl3NWlKajR2TXBsdjROZFNrMUVSZXItbzVyVkR1RG4xT2MzTXBGVlNXS3lfWHFiX2xwS0d4SGFMZUlrdVZER0tQdWdvbVhkRF9OSFFIYl9OajN6RzliOTFnM0oybDJVanVqNDVUQjRUb2FFV25RaURDbnRGTUlUWjk4ejJtZmd3VVM2OC1KNEg4ekhneHpNX1VsQU5zZ2ZMNnlUeFBWcmhWSFFwZllr?oc=5",
-   "pub_ts": 1792769654.0,
-   "date": "23.10.2026, 18:34",
+   "title": "Overall Survival Data from the Phase 3 postMONARCH Trial at ESMO 2026 - Lilly Oncology Medical - Oncodaily",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5lZlpJUVdxaDZjSVlWb2ZEU2RLbHlId3ZpX0lJcGZYSmlwMVpZYUsyZ2xKTDl1YzFwRlBaaXpZdTZkZmRUcENhbjFkZUxJeVhMVFlwelY1Y3BKNWlrRFV4NWI5cDVzOUdiMEUtc3N3?oc=5",
+   "pub_ts": 1792780072.0,
+   "date": "23.10.2026, 21:27",
    "cat": "phase3",
    "sev": 3,
    "dir": 0,
    "tickers": [],
-   "companies": [],
+   "companies": [
+    "LLY"
+   ],
    "sources": [
     {
      "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPU2Q2aUttMlRDVnFIM3czd3RCQXBaUmhIUlFtZ09oaDZhazl3NWlKajR2TXBsdjROZFNrMUVSZXItbzVyVkR1RG4xT2MzTXBGVlNXS3lfWHFiX2xwS0d4SGFMZUlrdVZER0tQdWdvbVhkRF9OSFFIYl9OajN6RzliOTFnM0oybDJVanVqNDVUQjRUb2FFV25RaURDbnRGTUlUWjk4ejJtZmd3VVM2OC1KNEg4ekhneHpNX1VsQU5zZ2ZMNnlUeFBWcmhWSFFwZllr?oc=5"
+     "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5lZlpJUVdxaDZjSVlWb2ZEU2RLbHlId3ZpX0lJcGZYSmlwMVpZYUsyZ2xKTDl1YzFwRlBaaXpZdTZkZmRUcENhbjFkZUxJeVhMVFlwelY1Y3BKNWlrRFV4NWI5cDVzOUdiMEUtc3N3?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "Genmab Announces Rinatabart Sesutecan (Rina-S®) Demonstrates Statistically Significant Improvement in Progression-Free Survival and Overall Survival in Patients with Platinum-Resistant Ovarian Cancer - Business Wire",
+   "link": "https://news.google.com/rss/articles/CBMi7gJBVV95cUxNTDZJZlJyOWdXOHAwbmE0MlA1ZTZsdHFDbzlLVlp0blFQRzZKd0IzNEZ5aDFkM0xSRnV4Q0xoaEZUQmFuNWhyMjBxQzNia2lRQkZiMFZhRTFKaEtaNFVndXF3YVdLekZlWFpkV0F5NlliUnV3VmpFN1lEN0VRLWlBV3l0V28wYXp5MXBWYjhndmYtMFl2RnhkWTV0TjlEX2JWQ0FIWTFjTFgzUlNYNC1LNWxtUTRlSXUwdFZnYTBDNmxGTWZrdzJHNGFud2JlN1NyMXpUeFU0SHFrRG1jMmhrZHl2T3c3R1dKWWVVNFdCZkJreG12STJuZ05uXzlsUDBILTNVVFdLN1hfcG1iYl9NeWJHWjVBbDNKVHdRX0tuQXZNT3NuRlZjY2lZcmJEQkZfOWE3ZmR3dHJjWUQ2Q3B1RFh4LWFST3ZTelU0NEozaWxYUlBrNVA0TmFVR01GZUVxNWIxSTRXcGxZcF95NXc?oc=5",
+   "pub_ts": 1792770960.0,
+   "date": "23.10.2026, 18:56",
+   "cat": "readout",
+   "sev": 3,
+   "dir": 1,
+   "tickers": [],
+   "companies": [
+    "GMAB"
+   ],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMi7gJBVV95cUxNTDZJZlJyOWdXOHAwbmE0MlA1ZTZsdHFDbzlLVlp0blFQRzZKd0IzNEZ5aDFkM0xSRnV4Q0xoaEZUQmFuNWhyMjBxQzNia2lRQkZiMFZhRTFKaEtaNFVndXF3YVdLekZlWFpkV0F5NlliUnV3VmpFN1lEN0VRLWlBV3l0V28wYXp5MXBWYjhndmYtMFl2RnhkWTV0TjlEX2JWQ0FIWTFjTFgzUlNYNC1LNWxtUTRlSXUwdFZnYTBDNmxGTWZrdzJHNGFud2JlN1NyMXpUeFU0SHFrRG1jMmhrZHl2T3c3R1dKWWVVNFdCZkJreG12STJuZ05uXzlsUDBILTNVVFdLN1hfcG1iYl9NeWJHWjVBbDNKVHdRX0tuQXZNT3NuRlZjY2lZcmJEQkZfOWE3ZmR3dHJjWUQ2Q3B1RFh4LWFST3ZTelU0NEozaWxYUlBrNVA0TmFVR01GZUVxNWIxSTRXcGxZcF95NXc?oc=5"
     }
    ],
    "ncts": []
@@ -676,10 +951,10 @@
    "ncts": []
   },
   {
-   "title": "ESMO 2026: Tango trips on sinking response rates in pancreatic cancer but will move to Phase 3 - BioSpace",
-   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPU2Q2aUttMlRDVnFIM3czd3RCQXBaUmhIUlFtZ09oaDZhazl3NWlKajR2TXBsdjROZFNrMUVSZXItbzVyVkR1RG4xT2MzTXBGVlNXS3lfWHFiX2xwS0d4SGFMZUlrdVZER0tQdWdvbVhkRF9OSFFIYl9OajN6RzliOTFnM0oybDJVanVqNDVUQjRUb2FFV25RaURDbnRGTUlUWjk4ejJtZmd3VVM2OC1KNEg4ekhneHpNX1VsQU5zZ2ZMNnlUeFBWcmhWSFFwZllr?oc=5",
-   "pub_ts": 1792769654.0,
-   "date": "23.10.2026, 18:34",
+   "title": "MRNA Tanks as Positive Phase III Cancer Therapy Data Fails to Impress - Yahoo Finance",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNZzctLVItbVRQYTNvdkU4UHFnWS1ub2YzQUl0YUQ2X3V5bzNTRUJnNzhvWlRfVGo1MllIRzZtUkdxdHVHLVhUMHM4YWNjcVZXM2pYUWZPalptWWVlTzdxTUNJZkx5RmN4NHlUSlNSN0Y2aDBKVEZOMDMyRWVvTHpqU0dmNHBPd05WZThKTnYyVVdCY3pQ?oc=5",
+   "pub_ts": 1792768080.0,
+   "date": "23.10.2026, 18:08",
    "cat": "phase3",
    "sev": 3,
    "dir": 0,
@@ -688,7 +963,43 @@
    "sources": [
     {
      "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPU2Q2aUttMlRDVnFIM3czd3RCQXBaUmhIUlFtZ09oaDZhazl3NWlKajR2TXBsdjROZFNrMUVSZXItbzVyVkR1RG4xT2MzTXBGVlNXS3lfWHFiX2xwS0d4SGFMZUlrdVZER0tQdWdvbVhkRF9OSFFIYl9OajN6RzliOTFnM0oybDJVanVqNDVUQjRUb2FFV25RaURDbnRGTUlUWjk4ejJtZmd3VVM2OC1KNEg4ekhneHpNX1VsQU5zZ2ZMNnlUeFBWcmhWSFFwZllr?oc=5"
+     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNZzctLVItbVRQYTNvdkU4UHFnWS1ub2YzQUl0YUQ2X3V5bzNTRUJnNzhvWlRfVGo1MllIRzZtUkdxdHVHLVhUMHM4YWNjcVZXM2pYUWZPalptWWVlTzdxTUNJZkx5RmN4NHlUSlNSN0Y2aDBKVEZOMDMyRWVvTHpqU0dmNHBPd05WZThKTnYyVVdCY3pQ?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "Otsuka Presents Landmark Final Phase 3 VISIONARY Results at ASN Demonstrating VOYXACT® (sibeprenlimab-szsi) Stabilized Kidney Function and Reduced Risk of Disease Progression and Kidney Failure, Redefining Treatment Paradigm in IgA Nephrop - BioSpace",
+   "link": "https://news.google.com/rss/articles/CBMikANBVV95cUxQOGNuU3Z5ZFdEQlBKYXdHd3F5TElmTmhCWEZtbzBmSmd3TndpTmk3QlV3cEw4RnUycmViTFFOZ0ZSQ0hGMHZ4b19pS0FIcWtORFBlbmwzZUw2azNnQ0tad0wzbWM5aXMwaHRrbEVPakhZY19rVXJDeVBEWUJxRktyYnUtb0U4ME5GN3ltT2NBd2tfUVFuVHVrTENvRVRncGZmMmJ6LUtaSmVLLUZsY21yMDJjT250ZC1uM2NUb0tMQTI5dW5LcWpoRUt2TWZBMFVfUzUxaG1KZFdUTVBfNVpyeUxZWURhSHhjNTdEVmJJNVNhRTBYcHQ4cW14cU1ZMGVtRVV6VG5qcUx1RmpSYUlybVVFZ3pSemlyZFZGNUpiVG16aDluT2xCdTBvZDFnM3BPcEJQcVh0SWZLcTlFNG9nWTBuM0lfVnplWjRiZzVKazY4bHpGNk9aX1lDRExwNHNGS25vdlpiTzRnbktSQ3UzSi1HQ3cwWGhRS2R0eExacXVPang5NHVXSVlFMVBTUHJX?oc=5",
+   "pub_ts": 1792733351.0,
+   "date": "23.10.2026, 8:29",
+   "cat": "phase3",
+   "sev": 3,
+   "dir": 0,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMikANBVV95cUxQOGNuU3Z5ZFdEQlBKYXdHd3F5TElmTmhCWEZtbzBmSmd3TndpTmk3QlV3cEw4RnUycmViTFFOZ0ZSQ0hGMHZ4b19pS0FIcWtORFBlbmwzZUw2azNnQ0tad0wzbWM5aXMwaHRrbEVPakhZY19rVXJDeVBEWUJxRktyYnUtb0U4ME5GN3ltT2NBd2tfUVFuVHVrTENvRVRncGZmMmJ6LUtaSmVLLUZsY21yMDJjT250ZC1uM2NUb0tMQTI5dW5LcWpoRUt2TWZBMFVfUzUxaG1KZFdUTVBfNVpyeUxZWURhSHhjNTdEVmJJNVNhRTBYcHQ4cW14cU1ZMGVtRVV6VG5qcUx1RmpSYUlybVVFZ3pSemlyZFZGNUpiVG16aDluT2xCdTBvZDFnM3BPcEJQcVh0SWZLcTlFNG9nWTBuM0lfVnplWjRiZzVKazY4bHpGNk9aX1lDRExwNHNGS25vdlpiTzRnbktSQ3UzSi1HQ3cwWGhRS2R0eExacXVPang5NHVXSVlFMVBTUHJX?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "Vorolanib Insert Phase 3 Trial Does Not Meet nAMD Endpoint - Ophthalmology Advisor",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQNmhwLXRkVmRoUFpLQ3NWSHVPMkVmX08wOW02eFAxNFhRNWVaRWR4ek90TEVrdC11bFdvUGR3V2d3R0ZDcWZXM1VlNTJOQkxXcW0tLUJ2UmU1THFFald1YkZHa29mT0JKb0tzWGRxdm9JbzZjdklBWUM1MG03d0RtMm5JRTY5Q3pXLUFtMWg0aWxjaFVNeWM1V3dGQQ?oc=5",
+   "pub_ts": 1792728000.0,
+   "date": "23.10.2026, 7:00",
+   "cat": "phase3",
+   "sev": 3,
+   "dir": -1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQNmhwLXRkVmRoUFpLQ3NWSHVPMkVmX08wOW02eFAxNFhRNWVaRWR4ek90TEVrdC11bFdvUGR3V2d3R0ZDcWZXM1VlNTJOQkxXcW0tLUJ2UmU1THFFald1YkZHa29mT0JKb0tzWGRxdm9JbzZjdklBWUM1MG03d0RtMm5JRTY5Q3pXLUFtMWg0aWxjaFVNeWM1V3dGQQ?oc=5"
     }
    ],
    "ncts": []
@@ -715,63 +1026,21 @@
    "ncts": []
   },
   {
-   "title": "ESMO: After leak, Merck and Moderna post phase 3 cancer vaccine data early - Fierce Biotech",
-   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQLWNXOEVpSWw4cHJ1cWVRRV9vWl95cGpIVnMyeUNLZXRTQzRNNDUxTnNNUTY5dU5FSl9iV2RVVlozZFJhbWNoME02NmNMMnhITjNIREM3S0FFejYtT0JHUWJQZkhoR3dqbUhfdkRMcDZMU2NWUHN1X0FxcDBkWkJidTlPZkRhZ0lfYTMyNmhLWXFiRWFiTFE?oc=5",
-   "pub_ts": 1792701900.0,
-   "date": "22.10.2026, 23:45",
+   "title": "AstraZeneca to unveil pivotal cancer survival data from four Phase III trials at ESMO 2026 - Indian Pharma Post",
+   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNaDVHcFVWTWpTVlJWdjJjRzFVN3dEaHVYZWRYSDViYjlfZDVKOUVwVTdsTTJhdkVjaUpUU2RVSlE3UW5lcDhnOVFxdVVIM3l4aHdQS0hTN191eXprRHpkSEl5U1kxVnFzRzVYSmN3YnA1ZklzOEZzaXEtRFZIbUZjNTVrRFEyVF9PcTNDNUdIWWJxalNmbHhnY3ZJOHE2TFY2d0xyMkpEWWxTcXl6RmpURDhWOUN6ZTFTMHAzSFJuU1BPaFdFVDRfR0l6TnFmM0hPcUxvSlZ1TXdRZ0JyMUHSAeQBQVVfeXFMTTMtWTdHOS1WdnZOWUxtU1lrMjNfMDkwd0xLQ0VaaE5NZm56Um0tMVhkcW9UcGw1OVRJVmlTdHc5VER5ZWFXZ2xsYmg5ZGFvT3B2VkZUUzM1LTVnQ0hMbkRTZmgzS1lFWVN1RWpiRUJJbDJZTG1JNlh3M2xxR2JXUVZ0b2hINkN2NjFfcHBhbko4MGRmWjJuZ1F1U25RUmhxZ09mN3NhTElsTjhITXJaNVRVaGc4S0c1ck9jNmVBeGxEWXhjR3NEYnpMMmdtZTZlUlZWV253SGZYMHUySmUwQ2I4ZTBs?oc=5",
+   "pub_ts": 1792610114.0,
+   "date": "21.10.2026, 22:15",
    "cat": "phase3",
    "sev": 3,
    "dir": 0,
    "tickers": [],
    "companies": [
-    "MRNA",
-    "MRK"
+    "AZN"
    ],
    "sources": [
     {
      "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQLWNXOEVpSWw4cHJ1cWVRRV9vWl95cGpIVnMyeUNLZXRTQzRNNDUxTnNNUTY5dU5FSl9iV2RVVlozZFJhbWNoME02NmNMMnhITjNIREM3S0FFejYtT0JHUWJQZkhoR3dqbUhfdkRMcDZMU2NWUHN1X0FxcDBkWkJidTlPZkRhZ0lfYTMyNmhLWXFiRWFiTFE?oc=5"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "ESMO: After leak, Merck and Moderna post phase 3 cancer vaccine data early - Fierce Biotech",
-   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQLWNXOEVpSWw4cHJ1cWVRRV9vWl95cGpIVnMyeUNLZXRTQzRNNDUxTnNNUTY5dU5FSl9iV2RVVlozZFJhbWNoME02NmNMMnhITjNIREM3S0FFejYtT0JHUWJQZkhoR3dqbUhfdkRMcDZMU2NWUHN1X0FxcDBkWkJidTlPZkRhZ0lfYTMyNmhLWXFiRWFiTFE?oc=5",
-   "pub_ts": 1792701900.0,
-   "date": "22.10.2026, 23:45",
-   "cat": "phase3",
-   "sev": 3,
-   "dir": 0,
-   "tickers": [],
-   "companies": [
-    "MRNA",
-    "MRK"
-   ],
-   "sources": [
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQLWNXOEVpSWw4cHJ1cWVRRV9vWl95cGpIVnMyeUNLZXRTQzRNNDUxTnNNUTY5dU5FSl9iV2RVVlozZFJhbWNoME02NmNMMnhITjNIREM3S0FFejYtT0JHUWJQZkhoR3dqbUhfdkRMcDZMU2NWUHN1X0FxcDBkWkJidTlPZkRhZ0lfYTMyNmhLWXFiRWFiTFE?oc=5"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "AbbVie scratches out phase 3 hidradenitis suppurativa win but falls short of expectations - Fierce Biotech",
-   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQLXhMQXVtVTduRXhNVVlEbnNDbGptdUpMQVdYUkVhQTZlc21tWm5hQWN3UHJTNmJ5UzhvU0ZtVGtzcERvaHZDb3Q2bmxrMnhnazU0eTFVdURzN2lZZ3BNNl9uWFJQYlo4bWVIYVpkbWtCUVB0ZTltbVhXMEhTTWJzNDIzc3J0NWpPY3g4MXZPQ3FMSlRfTGNlMTlFcmRyc2t2bVZDS1oteHBodEFGX2VEdlFla2loa3JGaE92RA?oc=5",
-   "pub_ts": 1792679968.0,
-   "date": "22.10.2026, 17:39",
-   "cat": "phase3",
-   "sev": 3,
-   "dir": 0,
-   "tickers": [],
-   "companies": [
-    "ABBV"
-   ],
-   "sources": [
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQLXhMQXVtVTduRXhNVVlEbnNDbGptdUpMQVdYUkVhQTZlc21tWm5hQWN3UHJTNmJ5UzhvU0ZtVGtzcERvaHZDb3Q2bmxrMnhnazU0eTFVdURzN2lZZ3BNNl9uWFJQYlo4bWVIYVpkbWtCUVB0ZTltbVhXMEhTTWJzNDIzc3J0NWpPY3g4MXZPQ3FMSlRfTGNlMTlFcmRyc2t2bVZDS1oteHBodEFGX2VEdlFla2loa3JGaE92RA?oc=5"
+     "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNaDVHcFVWTWpTVlJWdjJjRzFVN3dEaHVYZWRYSDViYjlfZDVKOUVwVTdsTTJhdkVjaUpUU2RVSlE3UW5lcDhnOVFxdVVIM3l4aHdQS0hTN191eXprRHpkSEl5U1kxVnFzRzVYSmN3YnA1ZklzOEZzaXEtRFZIbUZjNTVrRFEyVF9PcTNDNUdIWWJxalNmbHhnY3ZJOHE2TFY2d0xyMkpEWWxTcXl6RmpURDhWOUN6ZTFTMHAzSFJuU1BPaFdFVDRfR0l6TnFmM0hPcUxvSlZ1TXdRZ0JyMUHSAeQBQVVfeXFMTTMtWTdHOS1WdnZOWUxtU1lrMjNfMDkwd0xLQ0VaaE5NZm56Um0tMVhkcW9UcGw1OVRJVmlTdHc5VER5ZWFXZ2xsYmg5ZGFvT3B2VkZUUzM1LTVnQ0hMbkRTZmgzS1lFWVN1RWpiRUJJbDJZTG1JNlh3M2xxR2JXUVZ0b2hINkN2NjFfcHBhbko4MGRmWjJuZ1F1U25RUmhxZ09mN3NhTElsTjhITXJaNVRVaGc4S0c1ck9jNmVBeGxEWXhjR3NEYnpMMmdtZTZlUlZWV253SGZYMHUySmUwQ2I4ZTBs?oc=5"
     }
    ],
    "ncts": []
@@ -790,6 +1059,44 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQRzZFZ2kyaGQ4RHE0OEJUcFlaVFJuNVpxSmVhaHYwam1iemtnNGJWS3BpcHlnY3dPV2FfVDdYNi1jaGhtQ0pZdGtOY3UtYzFyT01XM0xnUU9QSTc5SF9HSjdNM29lV0lsLXJ6ejljd2t2QUg5N0QxSmhQc21sZFFRVWxEM09JT2s3WmZ1U2dzVC1qUUtKcnpPNUtNdlF3bk1IZFVvUDJiREc5cTVxUmN2aGZUdUk3NEw3OWpYa0M5V2dyRWc?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "Dana-Farber Presents Phase 3 Lung Cancer Data in ESMO Presidential Symposium | Newswise - Newswise",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNemJjR2NOVlZ4LVhiWmU0azNkR2k0cjF3a2xRVndabUFTNlFxbGN0NS1Vc0tGUnBGNk9WQTlPRFF0STZVa2FHaXQ2aVlnUkk0QTBtcE85Y0xvWjk0blAxTE9qOURiU3ZUMWwyRWd2bk5VaVlRMGpKMVg1dWd2aGtKRW9ha1lXSE1YSEp3NE5XWmQ3M0RGRjdkRmU0NjFuWVpUb084UTExM0p1UlNLdTE00gGvAUFVX3lxTE16YmNHY05WVngtWGJaZTRrM2RHaTRyMXdrbFFWd1ptQVM2UXFsY3Q1LVVzS0ZScEY2T1ZBOU9EUXRJNlVrYUdpdDZpWWdSSTRBMG1wTzljTG9aOTRuUDFMT2o5RGJTdlQxbDJFZ3ZuTlVpWVEwakoxWDV1Z3Zoa0pFb2FrWVdITVhISnc0TldaZDczREZGN2RGZTQ2MW5ZWlRvTzhRMTEzSnVSU0t1MTQ?oc=5",
+   "pub_ts": 1792538700.0,
+   "date": "21.10.2026, 2:25",
+   "cat": "phase3",
+   "sev": 3,
+   "dir": 0,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNemJjR2NOVlZ4LVhiWmU0azNkR2k0cjF3a2xRVndabUFTNlFxbGN0NS1Vc0tGUnBGNk9WQTlPRFF0STZVa2FHaXQ2aVlnUkk0QTBtcE85Y0xvWjk0blAxTE9qOURiU3ZUMWwyRWd2bk5VaVlRMGpKMVg1dWd2aGtKRW9ha1lXSE1YSEp3NE5XWmQ3M0RGRjdkRmU0NjFuWVpUb084UTExM0p1UlNLdTE00gGvAUFVX3lxTE16YmNHY05WVngtWGJaZTRrM2RHaTRyMXdrbFFWd1ptQVM2UXFsY3Q1LVVzS0ZScEY2T1ZBOU9EUXRJNlVrYUdpdDZpWWdSSTRBMG1wTzljTG9aOTRuUDFMT2o5RGJTdlQxbDJFZ3ZuTlVpWVEwakoxWDV1Z3Zoa0pFb2FrWVdITVhISnc0TldaZDczREZGN2RGZTQ2MW5ZWlRvTzhRMTEzSnVSU0t1MTQ?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "EyePoint Announces Topline Results from LUCIA, the Second Pivotal Phase 3 Clinical Trial of DURAVYU™ in Wet AMD - Yahoo Finance",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZWg0YWdYYl9memhvMHBZdTZfcmV0U2hFT1lWb2NCUmREX1VmYnhjTzBvdEFFR3Q1ajFpUUNsSXZhaWZkenFRN3lNQ2lLZlk0RFhUUTZfZDdBRnRnWUdTV0hwYkNjVjJzYXFIbkFaa0xCcEtKaUxGZ3hyNjJVaFpFS3FHamJNbnlRcWhNRnBLZEE5dW1yTUY4Znl5c2pwQzJ2NFYw?oc=5",
+   "pub_ts": 1792407600.0,
+   "date": "19.10.2026, 14:00",
+   "cat": "phase3",
+   "sev": 3,
+   "dir": 0,
+   "tickers": [],
+   "companies": [
+    "EYPT"
+   ],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZWg0YWdYYl9memhvMHBZdTZfcmV0U2hFT1lWb2NCUmREX1VmYnhjTzBvdEFFR3Q1ajFpUUNsSXZhaWZkenFRN3lNQ2lLZlk0RFhUUTZfZDdBRnRnWUdTV0hwYkNjVjJzYXFIbkFaa0xCcEtKaUxGZ3hyNjJVaFpFS3FHamJNbnlRcWhNRnBLZEE5dW1yTUY4Znl5c2pwQzJ2NFYw?oc=5"
     }
    ],
    "ncts": []
@@ -871,6 +1178,24 @@
    "ncts": []
   },
   {
+   "title": "Eclipse reports positive phase 2 topline data on DME steroid implant - Glance by Eyes On Eyecare",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPcDkxSzdRMjVMZjYwbmdqMGxLU2cyZkR4eXFBc2E3c3k1WWhHcFVyM3lzZG1lUUxNdmIyOXpEcUtHaFlrdi1xc0ItZHp6dGJjS3FmUDNQVkZLcnhMUVI0YmZRMkRsOWdyUlNMVlFXTjNxUUx3X05NZFkyYV9jeWlWYkh5RE84NFZnN3d3cnNwWGhHcnJCSmoyc2lpQldVZ2tUb0VNenJydzdFc0d4Y0R4ZDQ2RUxZVHFoNXlqYXJn?oc=5",
+   "pub_ts": 1792789513.0,
+   "date": "24.10.2026, 0:05",
+   "cat": "phase2",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPcDkxSzdRMjVMZjYwbmdqMGxLU2cyZkR4eXFBc2E3c3k1WWhHcFVyM3lzZG1lUUxNdmIyOXpEcUtHaFlrdi1xc0ItZHp6dGJjS3FmUDNQVkZLcnhMUVI0YmZRMkRsOWdyUlNMVlFXTjNxUUx3X05NZFkyYV9jeWlWYkh5RE84NFZnN3d3cnNwWGhHcnJCSmoyc2lpQldVZ2tUb0VNenJydzdFc0d4Y0R4ZDQ2RUxZVHFoNXlqYXJn?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
    "title": "Exclusive | MDMA-assisted therapy could get FDA approval as soon as January: advocate - New York Post",
    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOenlQYTdQS2pueklXNUc1VFBuNm1oak1MZ2paRUZUakhZaFlCdFd0a2JUY0pjVXowTy1PX3JfdjlVZnZid28xa29mNHZUTzdOdVBhVGlvTmF5dzN6cHhlSExvZmQ3N3ZDVzNsNjdtd0l0WG92NEtlQy1sMklrWFE5WG5mbThOQTFEUE5zeU84MFQwZ1FaRDVJdUxIYVE0TWZ1VDgxMkMta2RmRlZwZ1BB?oc=5",
    "pub_ts": 1792780560.0,
@@ -908,6 +1233,10 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOVHNvT0c1YXZJMWxqYXRfRTVlaUowYW9QQjZQc2tBalAybGlRa3p6cU1kNk5Kd1F1bWtYQWVXSHZzTXRad0RSN3QzbEVPc0p1NEs5alF2c0JVelhxM3RmM3Vwd0ZVUnRFS211ZEhLZEdfQVROVldxMzRxcFcxaEF3N2xLWHN6OEEyTURWNWc4dXRJTktaTU4xajNwNjhaSnpxUTlVUW05MHVFWVhpdkYzTFhJMGZGYy1UbXRwTi1nMnpiNERvS0JkekkzRHl6RG9UcElPTVZhV01VbHNobmNucDZ2VzlhQkVZcEQ2U1p1WGw?oc=5"
+    },
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNZ3hERWJRUkpUOTFTUmhwRVM0YUVQN1hYVnpaN3VOOGh3OVUzSDFMYzRQYVk5R2xfVlE0ME85SmQ0WDVlTnV2ZVJRYVY0YjRrdmdxbmE5aC1NaU5naTl0Q2dUWEdxY1BURkM2b1haNHFRREMyclI0ek1wTk1mVW5SVWNtbkFybFhwZ3lqUWMxV0ZfSkVVbmJBVEJETi1GeDZ4dnhEUlBsbXRRT3g4MkZKZ1dpQWpuREF5QjQwaHZHVXpobVdyd0JiVXFiM3VDMkpGR0NfVFlKZWxYcVZMS1NHQk9xRjZ4Vk02bkNVY24wVnY5TVRueThjaTRhTWVIYzhnVFZuMjFIazRxWE5qRkd4N3NxNA?oc=5"
     }
    ],
    "ncts": []
@@ -946,6 +1275,52 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMV9tRWdjajZORzF2S3NyZFRzSVJsTk9Qb2lCekIyV0g0Wm5VczkwVnptdkJuc29iNzlPN1RYMWkxOWtSREpSRlkwQnp3SW5sS1FNX19yUEFyNmU0MFlkejBZbzFMVl80eVZ4RjFMWEVSbkMySzVJZ1pPeHBTUkNoTWVMUHpJRXdNM19yaWtINkNEYlZWby0zUzBpUTg5bXhETXZ3Ng?oc=5"
+    },
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQRVRvVUhvRGZBTW1wdWE1LWxSNzd4SDQ4ZUluU0VFbGpqbTQyLWdIYUJkOUdnWU1MWmRfSmJUdG5aV3psRzEtZnFKVnhUSTFEWi15aWo2RURqV3cyY1kxbXdZS0VESklvMmtmX3FneXRDM2V4Zy1pUUdwSVFTdk1wazkta3pIa2NISHl2X180UDVfZ2xZNWlHNTdTRFc?oc=5"
+    },
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOcEN0amRhYmpJMjlQOVdTbHBfUGFtVEYzc1FHZk1XTTdMV1d3WVF0NU4yZEZKQ0M1azQyeWtfR2JXb08ySDVHYkxzaFJNYWtTREhVZENSWG1UeVhvaVVZOFhwZVlSUFBZNFI1RnBqNWxSNURULWFSTXJHaGgwbVlGYjgwVk9SbzZnNTBXR1lHeFRuQ3FYRV96UzhNR19EMF9JMjlOd2M3VFJMZlJyb3pvY1k3VVQ1S25uM0Q1U3JwY1N1ai1ERmU5OS1nNlRsRU0?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "Unicycive Therapeutics Announces FDA Acceptance of Oxylanthanum Carbonate New Drug Application Resubmission and PDUFA Date of March 25, 2027 - TechBullion",
+   "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQN1JjSWYzQzlIUTVOVkZzMHlYMUtTbTJWVGpMT0Y0SVdhSnFCT1FZelB4TEprMWViWGlBOUt3dzN5SU9oN2FiMXlPcUYwWEpJSkNpWTZFeXhkNmRRM2FvZjRjMUFfOEYxd0NmY1RzNXRRLXpua2UwckdsSlBzcHBrN0lxNWwzXy1VVnE1eUpGeDZROV94WE1pVWZ2bHc3Nklfd1g4RENlLWVuWG9yRFBVazZ5Wk1CYkFpQTBWLXVfNnA5SmhMNnRWRTZvd1hZR05JZjJBOEdOT1luNWxiWUlUcXRsOWVmelBmSV8tYTBkeUozZlU1TXZZ?oc=5",
+   "pub_ts": 1792679109.0,
+   "date": "22.10.2026, 17:25",
+   "cat": "btd",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [
+    "UNCY"
+   ],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQN1JjSWYzQzlIUTVOVkZzMHlYMUtTbTJWVGpMT0Y0SVdhSnFCT1FZelB4TEprMWViWGlBOUt3dzN5SU9oN2FiMXlPcUYwWEpJSkNpWTZFeXhkNmRRM2FvZjRjMUFfOEYxd0NmY1RzNXRRLXpua2UwckdsSlBzcHBrN0lxNWwzXy1VVnE1eUpGeDZROV94WE1pVWZ2bHc3Nklfd1g4RENlLWVuWG9yRFBVazZ5Wk1CYkFpQTBWLXVfNnA5SmhMNnRWRTZvd1hZR05JZjJBOEdOT1luNWxiWUlUcXRsOWVmelBmSV8tYTBkeUozZlU1TXZZ?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "Key facts: ARGX Q3 Sales $1.7B; FDA Priority Review for VYVGART Hytrulo - TradingView",
+   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNN0hFcm1mZ2lHbm5YY3A0eDVzNl9JM0V5TkFHRWdxNkN5S2E4M2tOTWlNRllHc0tDdVVOWTVtajY2MVBaSVdEaXVxUERUcTlwS1duQ0YzZGtTSWN2Nkx6el96R0dSTGxSNWNINUpzT1VHSmtWbmNGc0V4alVQRXIxTnpYZ3IxdzU5aEpjQUMzX0xCbzRSZFJxcjFIbnk4amdfTTJpVzNkTUdPSmtmbFo3NUU1MHVpWmhqeEpJVTZ3SEdpdkZaSWw0eERR?oc=5",
+   "pub_ts": 1792652400.0,
+   "date": "22.10.2026, 10:00",
+   "cat": "btd",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNN0hFcm1mZ2lHbm5YY3A0eDVzNl9JM0V5TkFHRWdxNkN5S2E4M2tOTWlNRllHc0tDdVVOWTVtajY2MVBaSVdEaXVxUERUcTlwS1duQ0YzZGtTSWN2Nkx6el96R0dSTGxSNWNINUpzT1VHSmtWbmNGc0V4alVQRXIxTnpYZ3IxdzU5aEpjQUMzX0xCbzRSZFJxcjFIbnk4amdfTTJpVzNkTUdPSmtmbFo3NUU1MHVpWmhqeEpJVTZ3SEdpdkZaSWw0eERR?oc=5"
     }
    ],
    "ncts": []
@@ -971,6 +1346,28 @@
    "ncts": [
     "NCT03036488"
    ]
+  },
+  {
+   "title": "RAP-219 hits primary endpoint in Phase 2 bipolar mania trial - The Clinical Trial Vanguard",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObGFTMWhnblktVW9VVk04S1JQbmZ0dVJaLTdYWS12THUzd3l5ZEEzc2ZxdExQMWhBMF9xQU5YVkx0VEVHdG9IbTQ1Z2J0amZPcGV6aWdyellhT010a2luRFFyUXJtODNxYU0zTUR3bk9fMXR1MWEzMm16LTZjT0ZhTk8xTzZIM0Q2a2kzYmxkd0Joa1JnNTFuM25tbU14WGc0c1pTUGpITQ?oc=5",
+   "pub_ts": 1792564886.0,
+   "date": "21.10.2026, 9:41",
+   "cat": "phase2",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObGFTMWhnblktVW9VVk04S1JQbmZ0dVJaLTdYWS12THUzd3l5ZEEzc2ZxdExQMWhBMF9xQU5YVkx0VEVHdG9IbTQ1Z2J0amZPcGV6aWdyellhT010a2luRFFyUXJtODNxYU0zTUR3bk9fMXR1MWEzMm16LTZjT0ZhTk8xTzZIM0Q2a2kzYmxkd0Joa1JnNTFuM25tbU14WGc0c1pTUGpITQ?oc=5"
+    },
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPeXl0d0N0UXE4UlgxSTRBNkhNWjFwOU43M29ER19EelNjWWtiWk91MjcxNWdCYjFjcmt0bmJnbEl3QWctbmZaN3ZDT2Y1ZGpFZC1tR2ptT0RPOHh5NjR5RVdldUJtRXhCX1c5N3FtXzlVaWlxQVpJdEpxd2FhTWdlaDdXWkt3OVR1SzBHWnl1aHBId0xZMjVzR2tvNnRkUWpkV0pNVkExMW5QeElFWkp1c0l4YzNDS3ZmVTVVc0NVUklybUotZkE?oc=5"
+    }
+   ],
+   "ncts": []
   },
   {
    "title": "Samsung Bioepis' First Novel Drug Candidate SBE303 Wins FDA Fast Track Designation - BigGo Finance",
@@ -1039,6 +1436,24 @@
    ]
   },
   {
+   "title": "Samsung Bioepis' first ADC drug candidate wins US FDA Fast Track designation - 머니투데이",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1lVzJGOHNwZXpqXzU2VU4xSXRzLUdiSlhxVktIR0Z0STl1c1BOb2xJb3ViWTdOdVRFbnp1WDYtcjlGM3dybDhiT0JIMFV2NHBDSGlTSUNUUmhJWjFhcC1PUHBaZ3g1Q3NrT0diZWZB?oc=5",
+   "pub_ts": 1792537942.0,
+   "date": "21.10.2026, 2:12",
+   "cat": "btd",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1lVzJGOHNwZXpqXzU2VU4xSXRzLUdiSlhxVktIR0Z0STl1c1BOb2xJb3ViWTdOdVRFbnp1WDYtcjlGM3dybDhiT0JIMFV2NHBDSGlTSUNUUmhJWjFhcC1PUHBaZ3g1Q3NrT0diZWZB?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
    "title": "Fast Track Status Could Be A Key Moment For Astellas Pharma Stock (TSE:4503) - Simply Wall Street",
    "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPMXVyWVp4U2htREwtR0xIcWVqdUVib1V6MUJjWVNMeEN6MGR1YUtOWHc1TTFVcEU3bS1BLUo4SHhlb25wdEJ0SDN3QXpicUxrR3lsS0JNSXZoQzlYNkdkZHc2MzRFQWQ2eTNoOE5mMFN3ZVFzaDVyVHc4N1F3NXVRTHhOeEFvNVRZZ1J6T1E5ekFlLUdESldYaHEwYk96bHBYOUdNSDBBRWc5Mk1jenBRbHlwWkxuYkl0RWxzZmdZV0IyT1AwWkhXYWpnRkYxbDFtNXZXcUltWTJwbVlkelBPalE0NFdTR2vSAewBQVVfeXFMUFRGYzN6el9vRy1IYXRRcE0tUEhGVG5BbkdZcmdHODJtcmtMMVR6NFREQ1c4cGl0RWFJalVCdkYzX3RtY0xuQTNfT2FrRjVsY3gtRFdyMnZvbGJ3cEhiYUJxaGl2T1B6MXh4SC1mZG5Kb0kwdVVSTWNFekpmRjNVNUlJdWRFN2R3Y0lpYU0yR0FZa1dtbXBXWUhNUkctdEUtS05oUkF0aTdvSWxfV1ZpNFl4QkgwaUpGTFIwaUw0X3lMN0wzTW1RcWZGQ1EwcTlZYVkyaEE0NDZoMmRHRmJHMXJ6U25XNkt1ZW5FbDg?oc=5",
    "pub_ts": 1792529319.0,
@@ -1061,6 +1476,24 @@
    "ncts": []
   },
   {
+   "title": "FDA Approves First Generic for Climara Pro Hormone Therapy Patch - Drug Topics",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQRVRvVUhvRGZBTW1wdWE1LWxSNzd4SDQ4ZUluU0VFbGpqbTQyLWdIYUJkOUdnWU1MWmRfSmJUdG5aV3psRzEtZnFKVnhUSTFEWi15aWo2RURqV3cyY1kxbXdZS0VESklvMmtmX3FneXRDM2V4Zy1pUUdwSVFTdk1wazkta3pIa2NISHl2X180UDVfZ2xZNWlHNTdTRFc?oc=5",
+   "pub_ts": 1792524104.0,
+   "date": "20.10.2026, 22:21",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQRVRvVUhvRGZBTW1wdWE1LWxSNzd4SDQ4ZUluU0VFbGpqbTQyLWdIYUJkOUdnWU1MWmRfSmJUdG5aV3psRzEtZnFKVnhUSTFEWi15aWo2RURqV3cyY1kxbXdZS0VESklvMmtmX3FneXRDM2V4Zy1pUUdwSVFTdk1wazkta3pIa2NISHl2X180UDVfZ2xZNWlHNTdTRFc?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
    "title": "Positive Topline Results From Phase 2 Trial of RAP-219 for the Treatment of Bipolar Mania - Psychiatric Times",
    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPeXl0d0N0UXE4UlgxSTRBNkhNWjFwOU43M29ER19EelNjWWtiWk91MjcxNWdCYjFjcmt0bmJnbEl3QWctbmZaN3ZDT2Y1ZGpFZC1tR2ptT0RPOHh5NjR5RVdldUJtRXhCX1c5N3FtXzlVaWlxQVpJdEpxd2FhTWdlaDdXWkt3OVR1SzBHWnl1aHBId0xZMjVzR2tvNnRkUWpkV0pNVkExMW5QeElFWkp1c0l4YzNDS3ZmVTVVc0NVUklybUotZkE?oc=5",
    "pub_ts": 1792514527.0,
@@ -1069,11 +1502,35 @@
    "sev": 2,
    "dir": 1,
    "tickers": [],
-   "companies": [],
+   "companies": [
+    "RAPP"
+   ],
    "sources": [
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPeXl0d0N0UXE4UlgxSTRBNkhNWjFwOU43M29ER19EelNjWWtiWk91MjcxNWdCYjFjcmt0bmJnbEl3QWctbmZaN3ZDT2Y1ZGpFZC1tR2ptT0RPOHh5NjR5RVdldUJtRXhCX1c5N3FtXzlVaWlxQVpJdEpxd2FhTWdlaDdXWkt3OVR1SzBHWnl1aHBId0xZMjVzR2tvNnRkUWpkV0pNVkExMW5QeElFWkp1c0l4YzNDS3ZmVTVVc0NVUklybUotZkE?oc=5"
+    },
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQdlk2NXZhMk50a1o5SDJocHh6UkxuNkgyWmFfMHhIdWotMXdGaVZkMHdfcWhlamRWdTJsTkJ3alBmM3VXZVhJdVNISE0tTmdkLW1GWVQtSWJfc0xhXzhTQXNUN1BsZEQ0WlhvSmJSWUs3b01kRWd3WWRsaHZGZ2s0ODBCWFJnYlZkTUczdXRWZEJORER2RS16d0ZOZHJkVnNUT1lSRk91Z0prTzk0?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA Approves Once-Weekly Generic Hormone Therapy Patch For Women - TradingView",
+   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOcEN0amRhYmpJMjlQOVdTbHBfUGFtVEYzc1FHZk1XTTdMV1d3WVF0NU4yZEZKQ0M1azQyeWtfR2JXb08ySDVHYkxzaFJNYWtTREhVZENSWG1UeVhvaVVZOFhwZVlSUFBZNFI1RnBqNWxSNURULWFSTXJHaGgwbVlGYjgwVk9SbzZnNTBXR1lHeFRuQ3FYRV96UzhNR19EMF9JMjlOd2M3VFJMZlJyb3pvY1k3VVQ1S25uM0Q1U3JwY1N1ai1ERmU5OS1nNlRsRU0?oc=5",
+   "pub_ts": 1792512368.0,
+   "date": "20.10.2026, 19:06",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOcEN0amRhYmpJMjlQOVdTbHBfUGFtVEYzc1FHZk1XTTdMV1d3WVF0NU4yZEZKQ0M1azQyeWtfR2JXb08ySDVHYkxzaFJNYWtTREhVZENSWG1UeVhvaVVZOFhwZVlSUFBZNFI1RnBqNWxSNURULWFSTXJHaGgwbVlGYjgwVk9SbzZnNTBXR1lHeFRuQ3FYRV96UzhNR19EMF9JMjlOd2M3VFJMZlJyb3pvY1k3VVQ1S25uM0Q1U3JwY1N1ai1ERmU5OS1nNlRsRU0?oc=5"
     }
    ],
    "ncts": []
@@ -1092,6 +1549,14 @@
     {
      "source": "FDA · openFDA",
      "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221301"
+    },
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220407"
+    },
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220783"
     }
    ],
    "ncts": []
@@ -1117,6 +1582,26 @@
    ]
   },
   {
+   "title": "CorMedix Therapeutics Announces FDA Acceptance and Priority Review of REZZAYO sNDA for Prophylaxis of Invasive Fungal Disease - Quiver Quantitative",
+   "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPWUdFcmJSZV9xNVZOcnNKbHVMNFBQWnVLYjNKbXhHNWQ2VVdMR2N4T3N4X0lMbzhrRWF4cWNlY0NxanVxQlRtLUxNb2phRy1zU1ZfbHliNEx2bHNZd1JySExySTJpOHgxT1doRU9ZbkhuemVjT0YtTlpuRGE2VzYtSk9MWjlWLUdPbWtJbFpuQXNCSHFvZVUxMzc1YmhyS3ZjZ0tyR180c3RGX0VNdlRJM21xbldTM3hRVWlnVHVFTF9UdHBYTFNPcXhPMGNkUWRpTUdqWnZxSE43cURaeTZzV3Z6Um0xaWNkRnhDNFBtTQ?oc=5",
+   "pub_ts": 1792410060.0,
+   "date": "19.10.2026, 14:41",
+   "cat": "btd",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [
+    "CRMD"
+   ],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPWUdFcmJSZV9xNVZOcnNKbHVMNFBQWnVLYjNKbXhHNWQ2VVdMR2N4T3N4X0lMbzhrRWF4cWNlY0NxanVxQlRtLUxNb2phRy1zU1ZfbHliNEx2bHNZd1JySExySTJpOHgxT1doRU9ZbkhuemVjT0YtTlpuRGE2VzYtSk9MWjlWLUdPbWtJbFpuQXNCSHFvZVUxMzc1YmhyS3ZjZ0tyR180c3RGX0VNdlRJM21xbldTM3hRVWlnVHVFTF9UdHBYTFNPcXhPMGNkUWRpTUdqWnZxSE43cURaeTZzV3Z6Um0xaWNkRnhDNFBtTQ?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
    "title": "FDA approves generic Tofacitinib Citrate (Ajanta Pharma Ltd)",
    "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219542",
    "pub_ts": 1792368000.0,
@@ -1130,6 +1615,14 @@
     {
      "source": "FDA · openFDA",
      "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219542"
+    },
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=218866"
+    },
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220010"
     }
    ],
    "ncts": []
@@ -1260,6 +1753,10 @@
     {
      "source": "FDA · openFDA",
      "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219628"
+    },
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220432"
     }
    ],
    "ncts": []
@@ -1574,6 +2071,24 @@
    "ncts": []
   },
   {
+   "title": "FDA approves generic Sucralfate (Novitium Pharma)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=216758",
+   "pub_ts": 1791936000.0,
+   "date": "14.10.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=216758"
+    }
+   ],
+   "ncts": []
+  },
+  {
    "title": "A Study to Evaluate the Efficacy and Safety of Obinutuzumab Versus MMF in Participants With Childhood Onset Idiopathic Nephrotic Syndrome",
    "link": "https://clinicaltrials.gov/study/NCT05627557",
    "pub_ts": 1791936000.0,
@@ -1618,6 +2133,24 @@
    ]
   },
   {
+   "title": "Will Fast Track Status Change Astellas Pharma Stock Narrative - Simply Wall Street",
+   "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOUnhuM2tKNExtSV8tVU5ZeUdCNzB4OVpFbEsxUFFQTEJoTE12bFRacWwxd29XTGg4ekxEX0lEYWtmcC1EcU8tQ2xjemRiZHo2MWp1YnhrZ1hmX1Z2b0JxczRhTUlGanNlRXllbjNjQURPMEZSUGZ5cHpOZHltYXdLTFZwRlRvWUhBeVJaakZuVENnMlNFUktKSjQ4NjRMcEhKQ1JvU2ZjR3BrZDg0VWFPUzJqYXFNbnhvbjhSelF0eGJ3bnRJd2d6U25WZF9SdWNHOWxUckJHaE9WUFc1SHlXM1Q1SC10VnNj0gHuAUFVX3lxTFBoLW1fTmJ6RElhMDduRGxuQS00c3M5YTYzM2FhSFExRktqcklwU0UyV2cyZ3piWmlzenpNQ3oyTmR1Sjk4NzBTMlV0cDhhamExdmw1X0wtQnR6bzdKa2hlQnU0Rk5USzBvTUVZTEM1NnJDSE5MZWlQb3JkWEstclNJWk5WNXJ4SmN5NVZCSm1RUzF5YlF2X0ppTUJrRlNpTVhUUlRmd3A2Vks0a2NQel9HUllyZmlOc195YW5xZEl4bnRzUlJIb0VNMk9TSEllNHZBcGhJU3V0VmNjVVUyMVczZWhDN2FXTnpHcHlYWHc?oc=5",
+   "pub_ts": 1791922398.0,
+   "date": "13.10.2026, 23:13",
+   "cat": "btd",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOUnhuM2tKNExtSV8tVU5ZeUdCNzB4OVpFbEsxUFFQTEJoTE12bFRacWwxd29XTGg4ekxEX0lEYWtmcC1EcU8tQ2xjemRiZHo2MWp1YnhrZ1hmX1Z2b0JxczRhTUlGanNlRXllbjNjQURPMEZSUGZ5cHpOZHltYXdLTFZwRlRvWUhBeVJaakZuVENnMlNFUktKSjQ4NjRMcEhKQ1JvU2ZjR3BrZDg0VWFPUzJqYXFNbnhvbjhSelF0eGJ3bnRJd2d6U25WZF9SdWNHOWxUckJHaE9WUFc1SHlXM1Q1SC10VnNj0gHuAUFVX3lxTFBoLW1fTmJ6RElhMDduRGxuQS00c3M5YTYzM2FhSFExRktqcklwU0UyV2cyZ3piWmlzenpNQ3oyTmR1Sjk4NzBTMlV0cDhhamExdmw1X0wtQnR6bzdKa2hlQnU0Rk5USzBvTUVZTEM1NnJDSE5MZWlQb3JkWEstclNJWk5WNXJ4SmN5NVZCSm1RUzF5YlF2X0ppTUJrRlNpTVhUUlRmd3A2Vks0a2NQel9HUllyZmlOc195YW5xZEl4bnRzUlJIb0VNMk9TSEllNHZBcGhJU3V0VmNjVVUyMVczZWhDN2FXTnpHcHlYWHc?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
    "title": "FDA approves generic Mesalamine (Sciegen Pharms)",
    "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=217736",
    "pub_ts": 1791849600.0,
@@ -1631,6 +2164,24 @@
     {
      "source": "FDA · openFDA",
      "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=217736"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA approves generic Memantine Hydrochloride And Donepezil Hydrochloride (Strides Pharma Intl)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=208359",
+   "pub_ts": 1791849600.0,
+   "date": "13.10.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=208359"
     }
    ],
    "ncts": []
@@ -1698,10 +2249,10 @@
    "ncts": []
   },
   {
-   "title": "Genmab reports phase 2 trial data for colorectal cancer drug - Investing.com",
-   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUTlPWlBRT0pnUndRcnZCUlY2RmdSMTdtM2s1UUd3R1NVMFAzZThpN2FrbjRjam53SzY4NU9mN0E0UThPclY4OUEwMVdMQ3dSM0NtZHprd25TRnlhRXloc2hSdFUzOEtzRnM5M1pzbEtCcmF6b1dJZ2htenFJTTFGUEVkNUhTS0VacE9OWE14T05ycm1PVWs3NElTNGROQVJqUURDUk1kQkpFbFJfNU9FTmg2bUtaZHlz?oc=5",
-   "pub_ts": 1792927601.0,
-   "date": "25.10.2026, 13:26",
+   "title": "Genmab reports phase 2 trial data for colorectal cancer drug By Investing.com - Investing.com India",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPd2lnSW1hbTZIM0lLNFR3Z25RX3JTUXdFc3pBM05RYXBrUkg1dFdpeGlEUzNreTE0UnptN0RfSHJlLXVPM2hydndvblBwUWxPbWJ1ZlBJYm1uaFVrYUV5ZkpOa3VDdWNxTEo0UmFRR2NfNm5hWjNSOURSemtncGRtUFhqdUZ3cXZ6RlFpWEZJaHNRc2RwQVpiU01KQllkU29fb1czUGFHVnVTd0RSZEhVV0pwb1Jydkl0akthV0NB?oc=5",
+   "pub_ts": 1792930095.0,
+   "date": "25.10.2026, 14:08",
    "cat": "phase2",
    "sev": 1,
    "dir": 0,
@@ -1712,11 +2263,37 @@
    "sources": [
     {
      "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUTlPWlBRT0pnUndRcnZCUlY2RmdSMTdtM2s1UUd3R1NVMFAzZThpN2FrbjRjam53SzY4NU9mN0E0UThPclY4OUEwMVdMQ3dSM0NtZHprd25TRnlhRXloc2hSdFUzOEtzRnM5M1pzbEtCcmF6b1dJZ2htenFJTTFGUEVkNUhTS0VacE9OWE14T05ycm1PVWs3NElTNGROQVJqUURDUk1kQkpFbFJfNU9FTmg2bUtaZHlz?oc=5"
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPd2lnSW1hbTZIM0lLNFR3Z25RX3JTUXdFc3pBM05RYXBrUkg1dFdpeGlEUzNreTE0UnptN0RfSHJlLXVPM2hydndvblBwUWxPbWJ1ZlBJYm1uaFVrYUV5ZkpOa3VDdWNxTEo0UmFRR2NfNm5hWjNSOURSemtncGRtUFhqdUZ3cXZ6RlFpWEZJaHNRc2RwQVpiU01KQllkU29fb1czUGFHVnVTd0RSZEhVV0pwb1Jydkl0akthV0NB?oc=5"
     },
     {
      "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMizgJBVV95cUxNTlc5ZHNzcXNOYjR4aTV1RVBITFI3YjRJamNGVWNlYlBMVjMyUDZtQlpHa0xRUE1aaUdXUWxTenRNQWFCaERBYUxLbXliZlhqWGY4RFFHMUtNVGItejQ3blg4UWU3MlVSNlViVFNONDV3YjhJTkpEbjZiU2prMktTQWFxREtIc2lwQWcxMUV0UktIbG9PclhGMUpXeXB0aVZCdmRIZmtzTk9YeWQxUFZzYUxQaHVIVEpGT3A4OG1PaU5kSGZINlFlclpsZVJCTmgxVTBzQVJqZlM3UGFWM0ltTG9LZkxsUnhaMF9aRnhnc21LN2piUnZGQlg5dkpSYktRM0ZON0ltQkc5azBpQkJDeVBpZTlidWs0eXhIY20wX2NmMHV2ZzFJZ0V3Z3J5YkQ4RlgxV09zT3dpSUhld1lBNGhISGNTN1Y4RVVCM1JB?oc=5"
+     "link": "https://news.google.com/rss/articles/CBMi4gJBVV95cUxObXMxWE9yY1FURTdhWGQzbWJkNlhQbmpvM21MRThSalNsdi03azZZVlA0R1Z0ZHI3Q3hkQ1N0YUdiVng3QkgxbWR1Yjk2ZnFKV09fWV9qS2R0c0hSLTBJODFjUlVMNVNCeklkOGY3bGI5bXQ3RTFDMTNSb29wbUJBSTc2YUJvaHpLdTgtQ3dRLU0tam5KLTE3M0YtSWdMNHdEWHNuYi05enJheHZSTXVJckd4ZXpZazhMVDBmQUFpRW01UzFyYkcwQ1dONXhOS294b0FxMTZ5TWFLZnRIVFdzOVk5MkZPd3dsbmxlQVd5bGVyUVBJLWhoRzJWWHhsY0d6RU13YWtrUmVuSWJCOThZd0JHNUc0Nm1iVjZEaS13MEdNdGRyUElqaVY0WTFSTks4ZWpGRW5UUjBWQXljYkp5ZFN5TXBMbEdXdVhBSVdESWpoaDF2SDF3UlJTMUdKM3lGNUE?oc=5"
+    },
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUTlPWlBRT0pnUndRcnZCUlY2RmdSMTdtM2s1UUd3R1NVMFAzZThpN2FrbjRjam53SzY4NU9mN0E0UThPclY4OUEwMVdMQ3dSM0NtZHprd25TRnlhRXloc2hSdFUzOEtzRnM5M1pzbEtCcmF6b1dJZ2htenFJTTFGUEVkNUhTS0VacE9OWE14T05ycm1PVWs3NElTNGROQVJqUURDUk1kQkpFbFJfNU9FTmg2bUtaZHlz?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "2026 ESMO | Innovent Announcement Phase 2 Data Presentation for IBI354 (HER2 ADC) In First-line Treatment of Breast Cancer - The Manila Times",
+   "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNYngzbk5mUEtkREdxUzVrOTRVcl8ySnJaa0o3UHJFbHpoTzA3MEhFTFRGZUJnVkRmWHc0aDRGeHhIbWFxb1dBMUN0YTBkRUtLSUgyMU11aXRmazJZZmxBbmRwbWlpY09ZU0ZOX2Z1U2d2U2xySHVPcHhPVHByZXFhd1VhdFZlLW9wS1dHRGIxYTY2djdlbjA5Wk50cGkzWWF3dGNUZXpIczlSdElkRnE4NklsV2xIakNENHhOQmJRWndYazV3b0E2ek9hX3NtRzdFazFsMFpUX3ctdk9sWFVGZW9FZnM3VXZweUZ2TlNuRFZqN3ZTNllGdzcwalA4N3FmUjhXY0k1a3lNUWEtUEhHZ2JzNFRPUDZUd1HSAZ8CQVVfeXFMTmluN2hxMG9XUXNaQ2xXMHoyNDd0eS1MZzRQNHR5alU2WEs0TXB3akljUTIwU3BqdGxFdnZydHplNldHSHlXcjJ4S1RpVEpvNmZwS0R0cXg1Qm1NS3hYTkRfUzZYZWZ0QmVxWWFHeEotVzZ1TVhHOVE2TVpBME93b1hlNkFSTlQyZktxM3VtU1pXTGJ3Uzd5NFhwSEdfVzZ6RUw3WnhCQXJpYk8xS284eDlEZDR5UWtBUklYUDcweFBqQjRSb2dYY3FWdUZXcllFNkNqenV4aWtMeXloenNNVHQ0eDVqNXlFYVNnZUh6bk9RRGdHb1hFOGFfRTFVekRhZC1tb0d3OWVqUm9sUnRMbVNmZlZYSnJrVlB3bUVKcW8?oc=5",
+   "pub_ts": 1792916967.0,
+   "date": "25.10.2026, 10:29",
+   "cat": "phase2",
+   "sev": 1,
+   "dir": 0,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNYngzbk5mUEtkREdxUzVrOTRVcl8ySnJaa0o3UHJFbHpoTzA3MEhFTFRGZUJnVkRmWHc0aDRGeHhIbWFxb1dBMUN0YTBkRUtLSUgyMU11aXRmazJZZmxBbmRwbWlpY09ZU0ZOX2Z1U2d2U2xySHVPcHhPVHByZXFhd1VhdFZlLW9wS1dHRGIxYTY2djdlbjA5Wk50cGkzWWF3dGNUZXpIczlSdElkRnE4NklsV2xIakNENHhOQmJRWndYazV3b0E2ek9hX3NtRzdFazFsMFpUX3ctdk9sWFVGZW9FZnM3VXZweUZ2TlNuRFZqN3ZTNllGdzcwalA4N3FmUjhXY0k1a3lNUWEtUEhHZ2JzNFRPUDZUd1HSAZ8CQVVfeXFMTmluN2hxMG9XUXNaQ2xXMHoyNDd0eS1MZzRQNHR5alU2WEs0TXB3akljUTIwU3BqdGxFdnZydHplNldHSHlXcjJ4S1RpVEpvNmZwS0R0cXg1Qm1NS3hYTkRfUzZYZWZ0QmVxWWFHeEotVzZ1TVhHOVE2TVpBME93b1hlNkFSTlQyZktxM3VtU1pXTGJ3Uzd5NFhwSEdfVzZ6RUw3WnhCQXJpYk8xS284eDlEZDR5UWtBUklYUDcweFBqQjRSb2dYY3FWdUZXcllFNkNqenV4aWtMeXloenNNVHQ0eDVqNXlFYVNnZUh6bk9RRGdHb1hFOGFfRTFVekRhZC1tb0d3OWVqUm9sUnRMbVNmZlZYSnJrVlB3bUVKcW8?oc=5"
+    },
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMinwJBVV95cUxOaW43aHEwb1dRc1pDbFcwejI0N3R5LUxnNFA0dHlqVTZYSzRNcHdqSWNRMjBTcGp0bEV2dnJ0emU2V0dIeVdyMnhLVGlUSm82ZnBLRHRxeDVCbU1LeFhORF9TNlhlZnRCZXFZYUd4Si1XNnVNWEc5UTZNWkEwT3dvWGU2QVJOVDJmS3EzdW1TWldMYndTN3k0WHBIR19XNnpFTDdaeEJBcmliTzFLbzh4OURkNHlRa0FSSVhQNzB4UGpCNFJvZ1hjcVZ1RldyWUU2Q2p6dXhpa0x5eWh6c01UdDR4NWo1eUVhU2dlSHpuT1FEZ0dvWEU4YV9FMVV6RGFkLW1vR3c5ZWpSb2xSdExtU2ZmVlhKcmtWUHdtRUpxb9IBnwJBVV95cUxOaW43aHEwb1dRc1pDbFcwejI0N3R5LUxnNFA0dHlqVTZYSzRNcHdqSWNRMjBTcGp0bEV2dnJ0emU2V0dIeVdyMnhLVGlUSm82ZnBLRHRxeDVCbU1LeFhORF9TNlhlZnRCZXFZYUd4Si1XNnVNWEc5UTZNWkEwT3dvWGU2QVJOVDJmS3EzdW1TWldMYndTN3k0WHBIR19XNnpFTDdaeEJBcmliTzFLbzh4OURkNHlRa0FSSVhQNzB4UGpCNFJvZ1hjcVZ1RldyWUU2Q2p6dXhpa0x5eWh6c01UdDR4NWo1eUVhU2dlSHpuT1FEZ0dvWEU4YV9FMVV6RGFkLW1vR3c5ZWpSb2xSdExtU2ZmVlhKcmtWUHdtRUpxbw?oc=5"
     }
    ],
    "ncts": []
@@ -1767,6 +2344,24 @@
    "ncts": []
   },
   {
+   "title": "Palleon Pharmaceuticals Presents Phase 2 Results for HLX79/E-602 in Primary Membranous Nephropathy at ASN Kidney Week 2026 - Business Wire",
+   "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxOanhkanMzdmVoUDB1MVRoU0tHU0p4a1RsVGlEWEVKcjNmMW45RThUakduUmZpdUdEQWdkV2c2VTVINENiTFNwTlhUWmVjWk10dlQtSngxemFzdmRrclQxdXBLVldha1dDN0hDWmtxT0t1aTlpeEdDZlN4UkY1V3llU1FYRlAwZFF0X3piME1RR096Ujhqa3ozMUt6aHdJNENBam0wWGlJeW9xcFdseFV2aGR5WWlBaGNsc3UxT0hKRmlQYk45NjhMMXdXWTFLYnNLQzFBWkFYVjZsYVlld19sbWRXUWVhTC1BSDZNV2tVSVJFQ09NbEZ5Q3h6SE9zOGpWYVdnQjhjUnAwdw?oc=5",
+   "pub_ts": 1792774800.0,
+   "date": "23.10.2026, 20:00",
+   "cat": "phase2",
+   "sev": 1,
+   "dir": 0,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxOanhkanMzdmVoUDB1MVRoU0tHU0p4a1RsVGlEWEVKcjNmMW45RThUakduUmZpdUdEQWdkV2c2VTVINENiTFNwTlhUWmVjWk10dlQtSngxemFzdmRrclQxdXBLVldha1dDN0hDWmtxT0t1aTlpeEdDZlN4UkY1V3llU1FYRlAwZFF0X3piME1RR096Ujhqa3ozMUt6aHdJNENBam0wWGlJeW9xcFdseFV2aGR5WWlBaGNsc3UxT0hKRmlQYk45NjhMMXdXWTFLYnNLQzFBWkFYVjZsYVlld19sbWRXUWVhTC1BSDZNV2tVSVJFQ09NbEZ5Q3h6SE9zOGpWYVdnQjhjUnAwdw?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
    "title": "Elicio Therapeutics Presents Late-Breaking Phase 2 AMPLIFY-7P Results at ESMO Congress 2026 and Announces Simultaneous Publication in Nature Medicine - GlobeNewswire",
    "link": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxQdDZwZU5mZjRsLTZqTDZmYk5oZ01WQk1YX3FjczRvYmpUYjY3QjBfemJDRFpCZm5ZWXdmVDFGNUd4RV9aRExfdGtjMUdBMjZMa1Z2QmhVU0hjOTI4SGh2cE44TVBkVFVScF91dTNGZExFeHpYRGduUjBnbi1RQm44U2x6dUZ4eWJ4bmNOTWZiakhFT1Q2Ym5oVEhGTlpNN1FWSl9wbWNlcHotTE1sSkpLMEN1RE1lZDMxckRQYUkydm40M09Xc3hhWXgwX2hIY29nN1NXa0RQcnh3aGpRNGYxWmk3VC1TWUUtd1dPejlKYTNJQ05aWjlRU3N0bUZxeGtjMHBDNnN5NVgyRU1XdmxwMVJQcGgwRjNfcWItdHo1Wi1manVvYm5tdDUweEh0b2NsbnVqVi1oYk1haEFhMzNnVTNIMA?oc=5",
    "pub_ts": 1792760400.0,
@@ -1795,14 +2390,29 @@
    "sev": 1,
    "dir": 0,
    "tickers": [],
-   "companies": [],
+   "companies": [
+    "TAK",
+    "ABBV",
+    "BMY",
+    "MRK"
+   ],
    "sources": [
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPZUIzQlk5STRMQW1KakwyQVBSdEtEd0MtSXFZLXNtMXpUeU44SXYyZXFJTVZEYVJFN1RqQjNYZU4yMW1haG1tSDlnM2pPSktaVHVtZzJSOWxpNVB4ZndnY2JQYVRtRFEwTnZRaDREWFZOa0ZqVjdueDM4VmZVbzhta0x3dGZQclNB?oc=5"
+    },
+    {
+     "source": "ClinicalTrials.gov",
+     "link": "https://clinicaltrials.gov/study/NCT04420884"
+    },
+    {
+     "source": "ClinicalTrials.gov",
+     "link": "https://clinicaltrials.gov/study/NCT05105841"
     }
    ],
-   "ncts": []
+   "ncts": [
+    "NCT04420884"
+   ]
   },
   {
    "title": "The Symptomatic Cerebral Cavernous Malformation Trial of REC-994",
@@ -1824,28 +2434,6 @@
    ],
    "ncts": [
     "NCT05085561"
-   ]
-  },
-  {
-   "title": "A Study of Dazostinag as Single Agent and Dazostinag in Combination With Pembrolizumab in Adults With Advanced or Metastatic Solid Tumors",
-   "link": "https://clinicaltrials.gov/study/NCT04420884",
-   "pub_ts": 1792627200.0,
-   "date": "2026-10-22",
-   "cat": "phase2",
-   "sev": 1,
-   "dir": 0,
-   "tickers": [],
-   "companies": [
-    "TAK"
-   ],
-   "sources": [
-    {
-     "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT04420884"
-    }
-   ],
-   "ncts": [
-    "NCT04420884"
    ]
   },
   {
