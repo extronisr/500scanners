@@ -1,6 +1,26 @@
 {
- "fetched_at": "26.10.2026, 10:05",
+ "fetched_at": "26.10.2026, 10:34",
  "items": [
+  {
+   "title": "HUTCHMED SAFFRON Phase 3 Cuts Death Risk by 32% - grafa.com",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRkJ3Y1Y4cThxRGVlbFI1RVhKU1l6ZHdXTjl1NzFPWXlzMVpRdjRkcWhWRzFJRl9kMnhJSUg3WFZILU92T05qZHR3WXNNenR0TWlpSVdXamtGTFVOM29mNkhxTmxka3lMZ1JRdkxCTlI3M25fSWNHenFIQjRuS013T3VGTFpiekRKZnlyNEtUX00tbUwwQmNENw?oc=5",
+   "pub_ts": 1793001969.0,
+   "date": "26.10.2026, 10:06",
+   "cat": "phase3",
+   "sev": 4,
+   "dir": 1,
+   "tickers": [],
+   "companies": [
+    "HCM"
+   ],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRkJ3Y1Y4cThxRGVlbFI1RVhKU1l6ZHdXTjl1NzFPWXlzMVpRdjRkcWhWRzFJRl9kMnhJSUg3WFZILU92T05qZHR3WXNNenR0TWlpSVdXamtGTFVOM29mNkhxTmxka3lMZ1JRdkxCTlI3M25fSWNHenFIQjRuS013T3VGTFpiekRKZnlyNEtUX00tbUwwQmNENw?oc=5"
+    }
+   ],
+   "ncts": []
+  },
   {
    "title": "FDA approves GSK's functional cure for hepatitis B - Drug Discovery News",
    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOU3NoNXQwQjNWYWFzSWF0WjZFSF9Hd21EVnZLNWNBZ1ZnSDRGbUY5c2dLMDluM3ZpNUhicTBtS0NFNzZwLXVvQnctX3ZLcUdPWmxwazlDSnpqNWlWOHNJbHVaRWF3NlRyQS1CZERWcXNJQjBRZzRMMWRBMTNGV3Y3b0dlWHRsUmNsVnpHVGRpRXljMXB0?oc=5",
@@ -2754,6 +2774,28 @@
    ],
    "ncts": [
     "NCT04572906"
+   ]
+  },
+  {
+   "title": "A Study of Nivolumab and Relatlimab in Combination With Bevacizumab in Advanced Liver Cancer",
+   "link": "https://clinicaltrials.gov/study/NCT05337137",
+   "pub_ts": 1791936000.0,
+   "date": "2026-10-14",
+   "cat": "phase2",
+   "sev": 1,
+   "dir": 0,
+   "tickers": [],
+   "companies": [
+    "BMY"
+   ],
+   "sources": [
+    {
+     "source": "ClinicalTrials.gov",
+     "link": "https://clinicaltrials.gov/study/NCT05337137"
+    }
+   ],
+   "ncts": [
+    "NCT05337137"
    ]
   },
   {
