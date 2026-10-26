@@ -1,5 +1,5 @@
 {
- "fetched_at": "26.10.2026, 19:58",
+ "fetched_at": "26.10.2026, 20:34",
  "items": [
   {
    "title": "FDA Approves Talazoparib/Enzalutamide for HRR Gene-Altered Metastatic Prostate Cancer - CancerNetwork",
@@ -15,6 +15,31 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNWXltM3ZRenh1M3FIaEtzQjlPZXVSOFZjUERfU1lhcDF1d2MzZlUyeVYzQmNWekpVblk2WE9jVlVISFFkU0ZjNGJUWkxBanJtSGZXajg4RmNRa08xR2VZWW1EdnItVGZTU0ZieFlCTU93Mk1BT2hMM0EtcWpCbWhiZ0RJNXlEUlJzN2ZSdWhXc21XeTNib1lZZ1k3ZkVtX2MyMHRMbm9JeDJxZTRRZHZBcGxUMkhKZXJFQ08xdg?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "Recon: FDA approves Edwards’ tricuspid valve repair device; Bayer wins Chinese approval for blood thinner asundexian - RAPS",
+   "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPRDNYa2FhZXItTVRWSW54TkZJSXFKZ0hPZTNWaURpQ29OVGZ2RUtqbWlWWVk2TDJfck9fNHoxaXR1WnRPQktxakItTV91enJ5SUpXUG5Lc1Q2cjBtSVFZay14SlBoMThubkNlM1Y0V09LZU5lNVlqeWxiVTVNUUkwNTdPSXI4QmE5eUJFZnRKX01TZDZkektXWlZCazkwS1Z6clZ5a0Voam9Jc3FNVWlUdEg5d3ZqOG5VYWVhU0RHZmZQekMzaW5GZl85ZkRjMldQVzZZMXpRX3pRa0V0YWVob2JB?oc=5",
+   "pub_ts": 1793034540.0,
+   "date": "26.10.2026, 19:09",
+   "cat": "fda",
+   "sev": 4,
+   "dir": 1,
+   "tickers": [],
+   "companies": [
+    "EW",
+    "BAYRY"
+   ],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPRDNYa2FhZXItTVRWSW54TkZJSXFKZ0hPZTNWaURpQ29OVGZ2RUtqbWlWWVk2TDJfck9fNHoxaXR1WnRPQktxakItTV91enJ5SUpXUG5Lc1Q2cjBtSVFZay14SlBoMThubkNlM1Y0V09LZU5lNVlqeWxiVTVNUUkwNTdPSXI4QmE5eUJFZnRKX01TZDZkektXWlZCazkwS1Z6clZ5a0Voam9Jc3FNVWlUdEg5d3ZqOG5VYWVhU0RHZmZQekMzaW5GZl85ZkRjMldQVzZZMXpRX3pRa0V0YWVob2JB?oc=5"
+    },
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPeVRxMF9yWHBWQklqc1Frdzk0ZlFBbi1hUW1IVmNxUGMtQWV5dGJGX1ZGNzJKejh4WndjVC1jOW9fNXd1LVVrZzQ1Vk1SS01RMmptZ0dTdGR3YlY2b2cyODZGWDgxVGs1WFcwSzIwU2dpVzFCR1N0cEpBSmo3UEtWcEtPeWlKQ0Y1NjNEYXdWZVRMQlNSV08xREVNc0ZGWmYzSVE?oc=5"
     }
    ],
    "ncts": []
@@ -367,26 +392,6 @@
     {
      "source": "FDA · openFDA",
      "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221276"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "Edwards wins FDA approval for tricuspid valve repair device - MedTech Dive",
-   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPeVRxMF9yWHBWQklqc1Frdzk0ZlFBbi1hUW1IVmNxUGMtQWV5dGJGX1ZGNzJKejh4WndjVC1jOW9fNXd1LVVrZzQ1Vk1SS01RMmptZ0dTdGR3YlY2b2cyODZGWDgxVGs1WFcwSzIwU2dpVzFCR1N0cEpBSmo3UEtWcEtPeWlKQ0Y1NjNEYXdWZVRMQlNSV08xREVNc0ZGWmYzSVE?oc=5",
-   "pub_ts": 1792782671.0,
-   "date": "23.10.2026, 22:11",
-   "cat": "fda",
-   "sev": 4,
-   "dir": 1,
-   "tickers": [],
-   "companies": [
-    "EW"
-   ],
-   "sources": [
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPeVRxMF9yWHBWQklqc1Frdzk0ZlFBbi1hUW1IVmNxUGMtQWV5dGJGX1ZGNzJKejh4WndjVC1jOW9fNXd1LVVrZzQ1Vk1SS01RMmptZ0dTdGR3YlY2b2cyODZGWDgxVGs1WFcwSzIwU2dpVzFCR1N0cEpBSmo3UEtWcEtPeWlKQ0Y1NjNEYXdWZVRMQlNSV08xREVNc0ZGWmYzSVE?oc=5"
     }
    ],
    "ncts": []
