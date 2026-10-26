@@ -1,26 +1,6 @@
 {
- "fetched_at": "26.10.2026, 2:26",
+ "fetched_at": "26.10.2026, 3:05",
  "items": [
-  {
-   "title": "FDA approves GSK's functional cure for hepatitis B - Drug Discovery News",
-   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOU3NoNXQwQjNWYWFzSWF0WjZFSF9Hd21EVnZLNWNBZ1ZnSDRGbUY5c2dLMDluM3ZpNUhicTBtS0NFNzZwLXVvQnctX3ZLcUdPWmxwazlDSnpqNWlWOHNJbHVaRWF3NlRyQS1CZERWcXNJQjBRZzRMMWRBMTNGV3Y3b0dlWHRsUmNsVnpHVGRpRXljMXB0?oc=5",
-   "pub_ts": 1792962526.0,
-   "date": "25.10.2026, 23:08",
-   "cat": "fda",
-   "sev": 4,
-   "dir": 1,
-   "tickers": [],
-   "companies": [
-    "GSK"
-   ],
-   "sources": [
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOU3NoNXQwQjNWYWFzSWF0WjZFSF9Hd21EVnZLNWNBZ1ZnSDRGbUY5c2dLMDluM3ZpNUhicTBtS0NFNzZwLXVvQnctX3ZLcUdPWmxwazlDSnpqNWlWOHNJbHVaRWF3NlRyQS1CZERWcXNJQjBRZzRMMWRBMTNGV3Y3b0dlWHRsUmNsVnpHVGRpRXljMXB0?oc=5"
-    }
-   ],
-   "ncts": []
-  },
   {
    "title": "ESMO: Roche touts ‘convincing’ phase 3 KRAS data after win over rivals - Fierce Biotech",
    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOS0RuRWNjdE5wMUluaWxTTUU5SFFkeE1LV0JVd2k3ZlhOQ3M5Nk5qWjhMZXZSUkoxNHJyUWx5Q3NyS3dKbTl5UTVqc0QxQk5pS2tTTG9QeFJJWGRDOTNCMWZ6Sk1sVVlnYV92UU5NRVFWNlhKTGREZ3FiQll1MzFYZFE4MWRqaHFIQ2dvS2JyM0ptWHRobEJMSTVxTGxiZHF2Z3VUaFJ3Y1U4SmhZX1lpUHNlenJfM0VlQzNQQzkzV3AxNGc?oc=5",
@@ -135,6 +115,26 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbGlVUTlrdGdydEJkOTRHUksxQm8wLVFvVV9YX3FVd3RTR1pPM1ZBdWFacWN2LWNxZG9aX0JhcnRhNmhDTFhtd3RWdHhTUEJKLUtkU2VUN0JRYzA1TThyTlNOME0zdkdjaVA2SXY1X3ZfOXJ0WVdBZWRkcjBvMjY2Q2lhSVctdUNxMzY4OC1sdUo2Slk?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA approves GSK's functional cure for hepatitis B - Drug Discovery News",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOU3NoNXQwQjNWYWFzSWF0WjZFSF9Hd21EVnZLNWNBZ1ZnSDRGbUY5c2dLMDluM3ZpNUhicTBtS0NFNzZwLXVvQnctX3ZLcUdPWmxwazlDSnpqNWlWOHNJbHVaRWF3NlRyQS1CZERWcXNJQjBRZzRMMWRBMTNGV3Y3b0dlWHRsUmNsVnpHVGRpRXljMXB0?oc=5",
+   "pub_ts": 1792784165.0,
+   "date": "23.10.2026, 22:36",
+   "cat": "fda",
+   "sev": 4,
+   "dir": 1,
+   "tickers": [],
+   "companies": [
+    "GSK"
+   ],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOU3NoNXQwQjNWYWFzSWF0WjZFSF9Hd21EVnZLNWNBZ1ZnSDRGbUY5c2dLMDluM3ZpNUhicTBtS0NFNzZwLXVvQnctX3ZLcUdPWmxwazlDSnpqNWlWOHNJbHVaRWF3NlRyQS1CZERWcXNJQjBRZzRMMWRBMTNGV3Y3b0dlWHRsUmNsVnpHVGRpRXljMXB0?oc=5"
     }
    ],
    "ncts": []
@@ -283,30 +283,6 @@
    "ncts": []
   },
   {
-   "title": "AbbVie Announces Topline Results from the Phase 3 INTREPID Trial Showing Lutikizumab Significantly Improved Signs and Symptoms of Disease in Patients with Hidradenitis Suppurativa - Investing News Network",
-   "link": "https://news.google.com/rss/articles/CBMirwJBVV95cUxQWVRiaUU3VHNDUHM2d1Q5NjJiejZsblpmWjMyb014T0xTbDMyVUhlTEFtQlpGcy1SQ2R2SHNzN3FudWRvUlh4SDVnMlhYVmFpeFRyQmZOV0xZRVJUMTFlaDdHRFlLMGpwY0U0ZG9KZGdHWVNlQlUxQ2NoUFdQZUthZS1YVXQwUlJrMk9GS01CWUdpdFlvTmp2Vnk2VkFxSS1yZUE1bEJfT0MtbjcydDRIQXBRczFHXzBwcTlVY0VSSjkzSWwzUW1rNmVWcGtmVE5jalN4VlB2cEpyU0RhMkxmanVzaTlNckp2bF9tQWtuUzIxSnh5YjRGeVZDRWJfQjRWbE9nLVVHWVZEOUd2WFlGSFRnVXlEaGtCVVpsLVI3V2YyakdJWFVJQi0tNzdGQ2s?oc=5",
-   "pub_ts": 1792682985.0,
-   "date": "22.10.2026, 18:29",
-   "cat": "phase3",
-   "sev": 4,
-   "dir": 1,
-   "tickers": [],
-   "companies": [
-    "ABBV"
-   ],
-   "sources": [
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMirwJBVV95cUxQWVRiaUU3VHNDUHM2d1Q5NjJiejZsblpmWjMyb014T0xTbDMyVUhlTEFtQlpGcy1SQ2R2SHNzN3FudWRvUlh4SDVnMlhYVmFpeFRyQmZOV0xZRVJUMTFlaDdHRFlLMGpwY0U0ZG9KZGdHWVNlQlUxQ2NoUFdQZUthZS1YVXQwUlJrMk9GS01CWUdpdFlvTmp2Vnk2VkFxSS1yZUE1bEJfT0MtbjcydDRIQXBRczFHXzBwcTlVY0VSSjkzSWwzUW1rNmVWcGtmVE5jalN4VlB2cEpyU0RhMkxmanVzaTlNckp2bF9tQWtuUzIxSnh5YjRGeVZDRWJfQjRWbE9nLVVHWVZEOUd2WFlGSFRnVXlEaGtCVVpsLVI3V2YyakdJWFVJQi0tNzdGQ2s?oc=5"
-    },
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQLXhMQXVtVTduRXhNVVlEbnNDbGptdUpMQVdYUkVhQTZlc21tWm5hQWN3UHJTNmJ5UzhvU0ZtVGtzcERvaHZDb3Q2bmxrMnhnazU0eTFVdURzN2lZZ3BNNl9uWFJQYlo4bWVIYVpkbWtCUVB0ZTltbVhXMEhTTWJzNDIzc3J0NWpPY3g4MXZPQ3FMSlRfTGNlMTlFcmRyc2t2bVZDS1oteHBodEFGX2VEdlFla2loa3JGaE92RA?oc=5"
-    }
-   ],
-   "ncts": []
-  },
-  {
    "title": "FDA Approves Hibsago to Treat Certain Chronic HBV Patients - Medscape",
    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNOHhhSU1RVkZHOHQyZ3lOMDNXNmNzSlJfY2pBQ2VqZC1NQ2FmWVYwV2ZxbkRHOXBpM3JXMVd1dWlINTh1LTZlZTkySlo5WU9uZ0lGaDVvN29Ia29TWnFBZDk0cDZkY0h0T2NyY1Z6SWpULWFjVEVZWTBZMEFFci15aDBUcUZWb3hRYkxGRVNQWHFwQURkRFRWVjBBXy1ZN0xMdFhNZ3hncVk?oc=5",
    "pub_ts": 1792660555.0,
@@ -398,6 +374,26 @@
     {
      "source": "FDA · openFDA",
      "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219456"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "Roche Secures FDA Approval for First At-Home Thyroid Eye Disease Therapy - Yahoo Finance",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdnRKTWNmOTVxT3ZlaEdoSjI1XzJCclY4RW1xUUtkV2Z4TjFmSk55UllWdURTbjJkblBSRW9OdWlMY1VDWVc2cDNNUFNGZ1VyWm1yVW1tb25yWmZVRF9MaUhmSERnM3BYMGtYUkNYejlaYTV3U3EzcnFtanl5S1BVdEVBZVM5eVduSndCeGgwTlZXajdpbmhETA?oc=5",
+   "pub_ts": 1792159979.0,
+   "date": "16.10.2026, 17:12",
+   "cat": "fda",
+   "sev": 4,
+   "dir": 1,
+   "tickers": [],
+   "companies": [
+    "RHHBY"
+   ],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdnRKTWNmOTVxT3ZlaEdoSjI1XzJCclY4RW1xUUtkV2Z4TjFmSk55UllWdURTbjJkblBSRW9OdWlMY1VDWVc2cDNNUFNGZ1VyWm1yVW1tb25yWmZVRF9MaUhmSERnM3BYMGtYUkNYejlaYTV3U3EzcnFtanl5S1BVdEVBZVM5eVduSndCeGgwTlZXajdpbmhETA?oc=5"
     }
    ],
    "ncts": []
@@ -594,26 +590,6 @@
    "ncts": []
   },
   {
-   "title": "Overall Survival Data from the Phase 3 postMONARCH Trial at ESMO 2026 - Lilly Oncology Medical - Oncodaily",
-   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5lZlpJUVdxaDZjSVlWb2ZEU2RLbHlId3ZpX0lJcGZYSmlwMVpZYUsyZ2xKTDl1YzFwRlBaaXpZdTZkZmRUcENhbjFkZUxJeVhMVFlwelY1Y3BKNWlrRFV4NWI5cDVzOUdiMEUtc3N3?oc=5",
-   "pub_ts": 1792780072.0,
-   "date": "23.10.2026, 21:27",
-   "cat": "phase3",
-   "sev": 3,
-   "dir": 0,
-   "tickers": [],
-   "companies": [
-    "LLY"
-   ],
-   "sources": [
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5lZlpJUVdxaDZjSVlWb2ZEU2RLbHlId3ZpX0lJcGZYSmlwMVpZYUsyZ2xKTDl1YzFwRlBaaXpZdTZkZmRUcENhbjFkZUxJeVhMVFlwelY1Y3BKNWlrRFV4NWI5cDVzOUdiMEUtc3N3?oc=5"
-    }
-   ],
-   "ncts": []
-  },
-  {
    "title": "ESMO 2026: Tango trips on sinking response rates in pancreatic cancer but will move to Phase 3 - BioSpace",
    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPU2Q2aUttMlRDVnFIM3czd3RCQXBaUmhIUlFtZ09oaDZhazl3NWlKajR2TXBsdjROZFNrMUVSZXItbzVyVkR1RG4xT2MzTXBGVlNXS3lfWHFiX2xwS0d4SGFMZUlrdVZER0tQdWdvbVhkRF9OSFFIYl9OajN6RzliOTFnM0oybDJVanVqNDVUQjRUb2FFV25RaURDbnRGTUlUWjk4ejJtZmd3VVM2OC1KNEg4ekhneHpNX1VsQU5zZ2ZMNnlUeFBWcmhWSFFwZllr?oc=5",
    "pub_ts": 1792769654.0,
@@ -726,6 +702,26 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQLWNXOEVpSWw4cHJ1cWVRRV9vWl95cGpIVnMyeUNLZXRTQzRNNDUxTnNNUTY5dU5FSl9iV2RVVlozZFJhbWNoME02NmNMMnhITjNIREM3S0FFejYtT0JHUWJQZkhoR3dqbUhfdkRMcDZMU2NWUHN1X0FxcDBkWkJidTlPZkRhZ0lfYTMyNmhLWXFiRWFiTFE?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "AbbVie scratches out phase 3 hidradenitis suppurativa win but falls short of expectations - Fierce Biotech",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQLXhMQXVtVTduRXhNVVlEbnNDbGptdUpMQVdYUkVhQTZlc21tWm5hQWN3UHJTNmJ5UzhvU0ZtVGtzcERvaHZDb3Q2bmxrMnhnazU0eTFVdURzN2lZZ3BNNl9uWFJQYlo4bWVIYVpkbWtCUVB0ZTltbVhXMEhTTWJzNDIzc3J0NWpPY3g4MXZPQ3FMSlRfTGNlMTlFcmRyc2t2bVZDS1oteHBodEFGX2VEdlFla2loa3JGaE92RA?oc=5",
+   "pub_ts": 1792679968.0,
+   "date": "22.10.2026, 17:39",
+   "cat": "phase3",
+   "sev": 3,
+   "dir": 0,
+   "tickers": [],
+   "companies": [
+    "ABBV"
+   ],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQLXhMQXVtVTduRXhNVVlEbnNDbGptdUpMQVdYUkVhQTZlc21tWm5hQWN3UHJTNmJ5UzhvU0ZtVGtzcERvaHZDb3Q2bmxrMnhnazU0eTFVdURzN2lZZ3BNNl9uWFJQYlo4bWVIYVpkbWtCUVB0ZTltbVhXMEhTTWJzNDIzc3J0NWpPY3g4MXZPQ3FMSlRfTGNlMTlFcmRyc2t2bVZDS1oteHBodEFGX2VEdlFla2loa3JGaE92RA?oc=5"
     }
    ],
    "ncts": []
@@ -882,26 +878,6 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQRVRvVUhvRGZBTW1wdWE1LWxSNzd4SDQ4ZUluU0VFbGpqbTQyLWdIYUJkOUdnWU1MWmRfSmJUdG5aV3psRzEtZnFKVnhUSTFEWi15aWo2RURqV3cyY1kxbXdZS0VESklvMmtmX3FneXRDM2V4Zy1pUUdwSVFTdk1wazkta3pIa2NISHl2X180UDVfZ2xZNWlHNTdTRFc?oc=5"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "Unicycive Therapeutics Announces FDA Acceptance of Oxylanthanum Carbonate New Drug Application Resubmission and PDUFA Date of March 25, 2027 - TechBullion",
-   "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQN1JjSWYzQzlIUTVOVkZzMHlYMUtTbTJWVGpMT0Y0SVdhSnFCT1FZelB4TEprMWViWGlBOUt3dzN5SU9oN2FiMXlPcUYwWEpJSkNpWTZFeXhkNmRRM2FvZjRjMUFfOEYxd0NmY1RzNXRRLXpua2UwckdsSlBzcHBrN0lxNWwzXy1VVnE1eUpGeDZROV94WE1pVWZ2bHc3Nklfd1g4RENlLWVuWG9yRFBVazZ5Wk1CYkFpQTBWLXVfNnA5SmhMNnRWRTZvd1hZR05JZjJBOEdOT1luNWxiWUlUcXRsOWVmelBmSV8tYTBkeUozZlU1TXZZ?oc=5",
-   "pub_ts": 1792679109.0,
-   "date": "22.10.2026, 17:25",
-   "cat": "btd",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [
-    "UNCY"
-   ],
-   "sources": [
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQN1JjSWYzQzlIUTVOVkZzMHlYMUtTbTJWVGpMT0Y0SVdhSnFCT1FZelB4TEprMWViWGlBOUt3dzN5SU9oN2FiMXlPcUYwWEpJSkNpWTZFeXhkNmRRM2FvZjRjMUFfOEYxd0NmY1RzNXRRLXpua2UwckdsSlBzcHBrN0lxNWwzXy1VVnE1eUpGeDZROV94WE1pVWZ2bHc3Nklfd1g4RENlLWVuWG9yRFBVazZ5Wk1CYkFpQTBWLXVfNnA5SmhMNnRWRTZvd1hZR05JZjJBOEdOT1luNWxiWUlUcXRsOWVmelBmSV8tYTBkeUozZlU1TXZZ?oc=5"
     }
    ],
    "ncts": []
