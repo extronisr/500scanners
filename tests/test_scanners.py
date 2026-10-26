@@ -914,3 +914,223 @@ def test_biotech_universe_loader_survives_older_scan_utils(tmp_path, monkeypatch
     assert u["SMMT"].startswith("Summit") and u["AGEN"].startswith("Agenus")
     monkeypatch.undo()
     monkeypatch.setattr(g, "_BIO_UNI", None)
+
+
+# ---- pre-market futures section
+def _chart_payload(price, closes, ts=1792991133, venue="CME"):
+    return {"chart": {"result": [{"meta": {"regularMarketPrice": price,
+                                           "regularMarketTime": ts,
+                                           "fullExchangeName": venue},
+                                  "indicators": {"quote": [{"close": closes}]}}]}}
+
+
+def test_fut_row_change_vs_previous_close():
+    import generate as g
+    row = g._fut_row_from_chart("ES=F", "S&P 500",
+                                _chart_payload(7683.25, [7800.25, 7704.5, 7659.75, 7683.25]))
+    # change is vs the previous close in the series (7659.75), not the range start
+    assert abs(row["chg"] - (7683.25 / 7659.75 - 1) * 100) < 1e-9
+    assert row["price"] == 7683.25 and row["ts"] == 1792991133 and row["venue"] == "CME"
+
+
+def test_fut_row_falls_back_to_last_close_and_skips_none():
+    import generate as g
+    row = g._fut_row_from_chart("^VIX", "VIX", _chart_payload(None, [19.03, None, 19.45]))
+    assert row["price"] == 19.45 and abs(row["chg"] - (19.45 / 19.03 - 1) * 100) < 1e-9
+
+
+def test_fut_row_rejects_missing_history():
+    import generate as g
+    for bad in [_chart_payload(None, []), _chart_payload(10.0, [10.0]),
+                _chart_payload(None, [None, None]), {"chart": {"result": []}}]:
+        try:
+            g._fut_row_from_chart("X", "X", bad)
+            assert False, f"should have raised: {bad}"
+        except Exception:
+            pass
+
+
+def test_futures_session_context_bands():
+    import generate as g
+    # Mon 2026-10-26, ET is UTC-4 (DST ends 2026-11-01)
+    assert g._futures_session_context(dt.datetime(2026, 10, 26, 8, 0, tzinfo=UTC))[0] == "\u05de\u05e1\u05d7\u05e8 \u05de\u05d5\u05e7\u05d3\u05dd \u00b7 \u05dc\u05e4\u05e0\u05d9 \u05d4\u05e4\u05ea\u05d9\u05d7\u05d4"   # 04:00 ET
+    assert g._futures_session_context(dt.datetime(2026, 10, 26, 14, 0, tzinfo=UTC))[0] == "\u05d1\u05de\u05d4\u05dc\u05da \u05d4\u05de\u05e1\u05d7\u05e8 \u05d4\u05e8\u05d2\u05d9\u05dc"  # 10:00 ET
+    assert g._futures_session_context(dt.datetime(2026, 10, 26, 21, 0, tzinfo=UTC))[0] == "\u05d0\u05d7\u05e8\u05d9 \u05d4\u05e1\u05d2\u05d9\u05e8\u05d4"   # 17:00 ET
+    assert g._futures_session_context(dt.datetime(2026, 10, 26, 5, 0, tzinfo=UTC))[0] == "\u05de\u05e1\u05d7\u05e8 \u05dc\u05d9\u05dc\u05d9"  # 01:00 ET
+    assert g._futures_session_context(dt.datetime(2026, 10, 25, 15, 0, tzinfo=UTC))[0] == "\u05e1\u05d5\u05e3 \u05e9\u05d1\u05d5\u05e2"  # Sunday
+
+
+def test_premarket_read_thresholds_and_minimum():
+    import generate as g
+    S = "\u05dc\u05e7\u05e8\u05d0\u05ea \u05d4\u05e4\u05ea\u05d9\u05d7\u05d4"
+    assert g._premarket_read([0.29, 0.29, 0.29, 0.29], S) == "\u05ea\u05de\u05d5\u05e0\u05d4 \u05de\u05e2\u05d5\u05e8\u05d1\u05ea \u05d0\u05d5 \u05e9\u05e7\u05d8\u05d4 " + S
+    assert g._premarket_read([0.5, 0.4, -0.1, 0.4], S) == "\u05e0\u05d8\u05d9\u05d9\u05d4 \u05d7\u05d9\u05d5\u05d1\u05d9\u05ea " + S
+    assert g._premarket_read([-0.4, -0.5, 0.1, -0.4], S) == "\u05e0\u05d8\u05d9\u05d9\u05d4 \u05e9\u05dc\u05d9\u05dc\u05d9\u05ea " + S
+    assert g._premarket_read([1.5, -1.2], S) is None      # fewer than 3 index quotes
+    assert g._premarket_read([], S) is None
+
+
+def _pm_rows(latest=1792991133):
+    return [{"sym": "ES=F", "name": "S&P 500", "price": 7683.25, "chg": 0.31,
+             "ts": latest, "venue": "CME", "stale": False},
+            {"sym": "^VIX", "name": "VIX", "price": 19.45, "chg": 2.21,
+             "ts": latest - 13 * 3600, "venue": "Cboe Indices", "stale": True}]
+
+
+def test_build_html_renders_premarket_section():
+    import generate as g
+    pm = {"rows": _pm_rows(), "latest": 1792991133, "session": "X",
+          "venues": ["CME", "Cboe Indices"], "read": g._premarket_read([0.5, 0.4, 0.4], "\u05dc\u05e7\u05e8\u05d0\u05ea \u05d4\u05e4\u05ea\u05d9\u05d7\u05d4")}
+    page = g.build_html(None, [], [], None, dt.datetime(2026, 10, 26, 7, 24), {"pm": pm})
+    assert "\u05d7\u05d5\u05d6\u05d9\u05dd \u05e2\u05ea\u05d9\u05d3\u05d9\u05d9\u05dd \u05d5-VIX \u00b7 X" in page
+    assert "7,683.25" in page and "+0.31%" in page
+    assert "\u05e0\u05d8\u05d9\u05d9\u05d4 \u05d7\u05d9\u05d5\u05d1\u05d9\u05ea \u05dc\u05e7\u05e8\u05d0\u05ea \u05d4\u05e4\u05ea\u05d9\u05d7\u05d4" in page
+    assert "\u05e6\u05d9\u05d8\u05d5\u05d8" in page                       # per-card quote time present
+    assert "finance.yahoo.com/quote/ES%3DF" in page                       # usable source link
+
+
+def test_build_html_vix_inverse_color_and_hint():
+    import generate as g
+    pm = {"rows": _pm_rows(), "latest": 1792991133, "session": "X", "venues": [], "read": None}
+    page = g.build_html(None, [], [], None, dt.datetime(2026, 10, 26, 7, 24), {"pm": pm})
+    # VIX +2.21% must be red (down), not green: rising VIX = rising uncertainty
+    assert '<span class="down" dir="ltr">+2.21%</span>' in page
+    assert "\u05e2\u05dc\u05d9\u05d9\u05d4 \u05d1-VIX = \u05e2\u05dc\u05d9\u05d9\u05d4 \u05d1\u05d7\u05d5\u05e1\u05e8 \u05d5\u05d3\u05d0\u05d5\u05ea" in page
+
+
+def test_build_html_stale_quote_shows_date():
+    import generate as g
+    pm = {"rows": _pm_rows(), "latest": 1792991133, "session": "X", "venues": [], "read": None}
+    page = g.build_html(None, [], [], None, dt.datetime(2026, 10, 26, 7, 24), {"pm": pm})
+    # the fresh row shows a clock time, the 13h-old VIX row shows a date
+    fresh = g.datetime.fromtimestamp(1792991133, g.timezone.utc).astimezone(g.JER)
+    assert f"\u05e6\u05d9\u05d8\u05d5\u05d8 {fresh.hour}:{fresh.minute:02d}" in page
+    old = g.datetime.fromtimestamp(1792991133 - 13 * 3600, g.timezone.utc).astimezone(g.JER)
+    assert f"\u05e6\u05d9\u05d8\u05d5\u05d8 {old.day}.{old.month}," in page
+
+
+def test_build_html_premarket_failure_note():
+    import generate as g
+    page = g.build_html(None, [], [], None, dt.datetime(2026, 10, 26, 7, 0), {"pm": None})
+    assert "\u05e6\u05d9\u05d8\u05d5\u05d8\u05d9 \u05d4\u05d7\u05d5\u05d6\u05d9\u05dd \u05dc\u05d0 \u05d4\u05d9\u05d5 \u05d6\u05de\u05d9\u05e0\u05d9\u05dd" in page
+
+
+def test_premarket_section_marks_stale_and_excludes_from_read(monkeypatch):
+    import generate as g
+    import urllib.parse
+    latest = 1792991133
+    by_sym = {"ES=F": _chart_payload(100.5, [100.0, 100.5], ts=latest),
+              "NQ=F": _chart_payload(100.5, [100.0, 100.5], ts=latest),
+              "YM=F": _chart_payload(100.5, [100.0, 100.5], ts=latest),
+              "RTY=F": _chart_payload(50.0, [100.0, 50.0], ts=latest - 20 * 3600),  # stale, -50%
+              "^VIX": _chart_payload(19.0, [18.0, 19.0], ts=latest - 20 * 3600)}
+    monkeypatch.setattr(g, "http_get_json",
+                        lambda url, **k: by_sym[urllib.parse.unquote(url.split("/chart/")[1].split("?")[0])])
+    pm = g.premarket_section(now=dt.datetime(2026, 10, 26, 5, 0, tzinfo=UTC))
+    by = {r["sym"]: r for r in pm["rows"]}
+    assert by["RTY=F"]["stale"] is True and by["ES=F"]["stale"] is False
+    # without the stale RTY (-50%) the read is positive; a stale crash must not panic it
+    assert pm["read"] == "\u05e0\u05d8\u05d9\u05d9\u05d4 \u05d7\u05d9\u05d5\u05d1\u05d9\u05ea \u05dc\u05e7\u05e8\u05d0\u05ea \u05d4\u05de\u05e1\u05d7\u05e8 \u05d4\u05d1\u05d0"
+    assert pm["venues"] == ["CME"]
+
+
+# ---- breakthroughs cache retention (SMMT disappeared 40 min after showing, 2026-10-25)
+def _bt_cluster(title, pub_ts, companies=None, link="http://a", cat="readout", sev=3, d=1):
+    return {"title": title, "link": link, "pub_ts": pub_ts, "date": "25.10.2026",
+            "cat": cat, "sev": sev, "dir": d, "tickers": [], "companies": companies or [],
+            "sources": [{"source": "Google News", "link": link}], "ncts": []}
+
+
+def test_bt_cache_items_for_merge_window_and_undated():
+    import generate as g
+    cutoff = 1000
+    items = [_bt_cluster("old", 999), _bt_cluster("kept", 1001), _bt_cluster("undated", None)]
+    out = g._bt_cache_items_for_merge(items, cutoff)
+    assert [i["title"] for i in out] == ["kept"]
+    assert g._bt_cache_items_for_merge(None, cutoff) == []
+
+
+def test_bt_cache_merge_keeps_story_that_fell_out_of_fresh_results():
+    import time
+    import generate as g
+    now = time.time()
+    cached = [_bt_cluster("Summit Therapeutics reports biliary-cancer survival win",
+                          now - 3600, companies=["SMMT"], link="http://smmt")]
+    fresh_items = [{"title": "Acme Bio wins FDA nod for new antibiotic",
+                    "link": "http://acme", "pub_ts": now - 60, "date": "26.10.2026",
+                    "cat": "approval", "sev": 3, "dir": 1, "tickers": ["ACME"],
+                    "companies": [], "source": "Google News", "nct": None}]
+    cutoff = now - g.BT_LOOKBACK_DAYS * 86400
+    merged = su.cluster_breakthroughs(fresh_items + g._bt_cache_items_for_merge(cached, cutoff))
+    titles = [c["title"] for c in merged]
+    assert any("Summit" in t for t in titles), "cached in-window story must survive"
+    assert any("Acme" in t for t in titles)
+
+
+def test_bt_cache_merge_does_not_duplicate_same_event():
+    import time
+    import generate as g
+    now = time.time()
+    cached = [_bt_cluster("Summit Therapeutics reports biliary-cancer survival win",
+                          now - 3600, companies=["SMMT"], link="http://smmt")]
+    fresh_items = [{"title": "Summit biliary-cancer survival win impresses analysts",
+                    "link": "http://smmt2", "pub_ts": now - 60, "date": "26.10.2026",
+                    "cat": "readout", "sev": 2, "dir": 1, "tickers": [],
+                    "companies": ["SMMT"], "source": "Google News", "nct": None}]
+    cutoff = now - g.BT_LOOKBACK_DAYS * 86400
+    merged = su.cluster_breakthroughs(fresh_items + g._bt_cache_items_for_merge(cached, cutoff))
+    smmt = [c for c in merged if "SMMT" in c["companies"]]
+    assert len(smmt) == 1, "same event must stay one cluster"
+    assert len(smmt[0]["sources"]) == 2
+
+
+def test_bt_identical_title_merges_regardless_of_batch_size():
+    # accumulation bug: a persisted company-less story exploded to per-source
+    # items must stay ONE cluster, not split because tokens lost distinctiveness
+    import time
+    now = time.time()
+    items = [{"title": "BioCo wins FDA nod for new antibiotic", "link": f"http://s{i}",
+              "pub_ts": now - i * 60, "date": "25.10.2026", "cat": "approval",
+              "sev": 3, "dir": 1, "tickers": [], "companies": [], "source": f"S{i}",
+              "nct": None} for i in range(6)]
+    merged = su.cluster_breakthroughs(items)
+    assert len(merged) == 1 and len(merged[0]["sources"]) == 3   # capped at 3
+
+
+def test_bt_cache_roundtrip_keeps_companyless_cluster_single():
+    import time
+    import generate as g
+    now = time.time()
+    cached = [_bt_cluster("BioCo wins FDA nod for new antibiotic", now - 3600,
+                          companies=[], link="http://s0", cat="approval")]
+    cached[0]["sources"] = [{"source": f"S{i}", "link": f"http://s{i}"} for i in range(3)]
+    cutoff = now - g.BT_LOOKBACK_DAYS * 86400
+    merged = su.cluster_breakthroughs(g._bt_cache_items_for_merge(cached, cutoff))
+    assert len(merged) == 1 and len(merged[0]["sources"]) == 3
+
+
+def test_premarket_read_qualified_when_freshest_quote_is_old(monkeypatch):
+    import generate as g
+    import urllib.parse
+    now = dt.datetime(2026, 10, 25, 12, 0, tzinfo=UTC)   # Saturday, all quotes from Friday
+    old_ts = now.timestamp() - 30 * 3600
+    by_sym = {s: _chart_payload(100.5, [100.0, 100.5], ts=old_ts)
+              for s in ["ES=F", "NQ=F", "YM=F", "RTY=F", "^VIX"]}
+    monkeypatch.setattr(g, "http_get_json",
+                        lambda url, **k: by_sym[urllib.parse.unquote(url.split("/chart/")[1].split("?")[0])])
+    pm = g.premarket_section(now=now)
+    assert pm["read"].startswith("\u05dc\u05e4\u05d9 \u05e6\u05d9\u05d8\u05d5\u05d8\u05d9\u05dd \u05de-"), pm["read"]
+    assert "\u05dc\u05e7\u05e8\u05d0\u05ea \u05d4\u05de\u05e1\u05d7\u05e8 \u05d4\u05d1\u05d0" in pm["read"]
+
+
+def test_premarket_read_not_qualified_when_quotes_fresh(monkeypatch):
+    import generate as g
+    import urllib.parse
+    now = dt.datetime(2026, 10, 26, 5, 0, tzinfo=UTC)
+    fresh_ts = now.timestamp() - 600
+    by_sym = {s: _chart_payload(100.5, [100.0, 100.5], ts=fresh_ts)
+              for s in ["ES=F", "NQ=F", "YM=F", "RTY=F", "^VIX"]}
+    monkeypatch.setattr(g, "http_get_json",
+                        lambda url, **k: by_sym[urllib.parse.unquote(url.split("/chart/")[1].split("?")[0])])
+    pm = g.premarket_section(now=now)
+    assert pm["read"] == "\u05e0\u05d8\u05d9\u05d9\u05d4 \u05d7\u05d9\u05d5\u05d1\u05d9\u05ea \u05dc\u05e7\u05e8\u05d0\u05ea \u05d4\u05de\u05e1\u05d7\u05e8 \u05d4\u05d1\u05d0"
