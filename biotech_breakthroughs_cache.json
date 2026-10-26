@@ -1,5 +1,5 @@
 {
- "fetched_at": "26.10.2026, 14:34",
+ "fetched_at": "26.10.2026, 15:04",
  "items": [
   {
    "title": "AL-S Pharma Reports New AP-101 Phase 2 Weight Data and Outlines Phase 3 Clinical Trial in ALS at 2026 NEALS Annual Meeting - BioSpace",
@@ -769,6 +769,44 @@
    "ncts": []
   },
   {
+   "title": "Ambros Therapeutics Announces Planned Interim Analysis of Phase 3 Clinical Trial Following FDA Feedback - The Manila Times",
+   "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPdUJHLVg1eDdLNDlZR0d6dzBITkxESFYxNVJJeEoyczJRY2tmTHNfblRHSFNDRVRCRG1mWHRORldOWkhtQ3ZzRHo3akZyUTY3aG5CQURtTmNUb0twMmFpNDU2aGs2RlhMRUVpaHlKV0VET3l1OEViN21SOVIxZVpkXy15YlluUWdESktnN2ltX0JCYjRMWHNKbzNUbFZ6aDl6dXVneVBVaEdyTWNkQmhoSnhBeEtJS0lZY182cWRncjhMdHNhVWwxTU9YWjZRUzhTMTZ4V013cE81SEhlNGpsV2IwTGE5ZTk1X2E0dTNqcjVWaHlPbVBDekpjY251UWxYYm9NZG55TjfSAY4CQVVfeXFMUFNWa0dpazVZZWpycWdwVnFQWXhLc2ZQQ0RWWEFrTU5rQ0Y0UllaRk1CT2hrLXFQZVNXdnRBbzRqZ2RaSkVqVThKbXJBY3lQcEpreVY2Q1ppWXM0cHV0QzFpckR6ZXZFYTJ3RlphOXhGZTZMSC1FMFZTYXhkNjhjLW0tVEpQUVpWVDg3ZWRsbGYwZ0Y1WE5nSEo2WFV3bmhLbHdUWk4zMTZ6UndSaHJFRjZ0cTZYekJyREU0M0tWQkd4SHhvZkRXaHpIa1RqSzJsNGdRSEhmU1hkeUs0dEJDT0NOemZuRjBLRGRZOVktM3ozVjhweWNEczIxV1hUaVpaN292eWNoMk1rTzlfMFl3?oc=5",
+   "pub_ts": 1793018652.0,
+   "date": "26.10.2026, 14:44",
+   "cat": "phase3",
+   "sev": 3,
+   "dir": 0,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPdUJHLVg1eDdLNDlZR0d6dzBITkxESFYxNVJJeEoyczJRY2tmTHNfblRHSFNDRVRCRG1mWHRORldOWkhtQ3ZzRHo3akZyUTY3aG5CQURtTmNUb0twMmFpNDU2aGs2RlhMRUVpaHlKV0VET3l1OEViN21SOVIxZVpkXy15YlluUWdESktnN2ltX0JCYjRMWHNKbzNUbFZ6aDl6dXVneVBVaEdyTWNkQmhoSnhBeEtJS0lZY182cWRncjhMdHNhVWwxTU9YWjZRUzhTMTZ4V013cE81SEhlNGpsV2IwTGE5ZTk1X2E0dTNqcjVWaHlPbVBDekpjY251UWxYYm9NZG55TjfSAY4CQVVfeXFMUFNWa0dpazVZZWpycWdwVnFQWXhLc2ZQQ0RWWEFrTU5rQ0Y0UllaRk1CT2hrLXFQZVNXdnRBbzRqZ2RaSkVqVThKbXJBY3lQcEpreVY2Q1ppWXM0cHV0QzFpckR6ZXZFYTJ3RlphOXhGZTZMSC1FMFZTYXhkNjhjLW0tVEpQUVpWVDg3ZWRsbGYwZ0Y1WE5nSEo2WFV3bmhLbHdUWk4zMTZ6UndSaHJFRjZ0cTZYekJyREU0M0tWQkd4SHhvZkRXaHpIa1RqSzJsNGdRSEhmU1hkeUs0dEJDT0NOemZuRjBLRGRZOVktM3ozVjhweWNEczIxV1hUaVpaN292eWNoMk1rTzlfMFl3?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "BioNTech sees ‘limited’ benefit to ADC after phase 3 reveals modest efficacy, ILD cases - Fierce Biotech",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOai0tWnN5MkdoLW9qNXI5ZnROdkNLX1IxRGxZUmUtRE11VmYtVzFJdEFjaW1zeXNPTzloU09lR3dRNjRGdWkxMHBTZDNDOE96aHNmdWRiUEJ4WXdtX0RIRkhPcmFGb1VEZmdjOGgwRUktY0ZTSzhnY3gyNlE3eGhmSl9ybDdmaHlaTFR2UncwU1c4VG9rMFl1NVg0b1ZZTVpNc0pCWGVQQjB1bUd4OEx5X3NqU2JWZTlPS0tN?oc=5",
+   "pub_ts": 1793018344.0,
+   "date": "26.10.2026, 14:39",
+   "cat": "phase3",
+   "sev": 3,
+   "dir": 0,
+   "tickers": [],
+   "companies": [
+    "BNTX"
+   ],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOai0tWnN5MkdoLW9qNXI5ZnROdkNLX1IxRGxZUmUtRE11VmYtVzFJdEFjaW1zeXNPTzloU09lR3dRNjRGdWkxMHBTZDNDOE96aHNmdWRiUEJ4WXdtX0RIRkhPcmFGb1VEZmdjOGgwRUktY0ZTSzhnY3gyNlE3eGhmSl9ybDdmaHlaTFR2UncwU1c4VG9rMFl1NVg0b1ZZTVpNc0pCWGVQQjB1bUd4OEx5X3NqU2JWZTlPS0tN?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
    "title": "Izalontamab Brengitecan (Iza-Bren) Doubles Median Progression-Free Survival in Patients with Previously-Treated EGFR-Mutated Non-Small Cell Lung Cancer Compared to Chemotherapy in the Phase 3 PANKU-Lung01 Study - BioSpace",
    "link": "https://news.google.com/rss/articles/CBMi5wJBVV95cUxNS2hIcDNxOVhxeDdlX3hRbkRTMWJCNEswM1N6VWVzWDlaQm9Xa1JuUzdXNTc0bkVRajhWQUhJdGhKMV9xSVlPYkxGMS1QeThtbHRoYS05aDVmSVA3SWtDaDNQMENqS2hDNnJMWnBGNXg4RXFqSnR5dllsLUpyMW53VWk0MVdfOEs3Z0RBR0pZNFZfRkdXQTdldjV6Ym5SOXRXRUZFendPUi0tVlJRX1A2c1ZQNjNHM3dBaWxjVFRIQ0JkQmFNV1B0SFFvbXJGLXZIN1RvM0VUSmRIRkxMV2stTzg5ckZwdEZCU210WE84anphcmdHdkY5dV8tRGV6SXdoRGRmUXZEcDJTTjhDVUJZZGJlT2d2WDJkS1p3dF9tNlBSbmpPRnc4elVESHg5RTVkaUNuWW1hdHhMWTNTb1QyVm1NSDJWOV95RkJGM0V3Z1BFNFJHWlpmYnBfRlgzS0FiS1N3ZEY1UQ?oc=5",
    "pub_ts": 1793015383.0,
@@ -1339,6 +1377,24 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZWg0YWdYYl9memhvMHBZdTZfcmV0U2hFT1lWb2NCUmREX1VmYnhjTzBvdEFFR3Q1ajFpUUNsSXZhaWZkenFRN3lNQ2lLZlk0RFhUUTZfZDdBRnRnWUdTV0hwYkNjVjJzYXFIbkFaa0xCcEtKaUxGZ3hyNjJVaFpFS3FHamJNbnlRcWhNRnBLZEE5dW1yTUY4Znl5c2pwQzJ2NFYw?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "CytoDyn reports positive Phase 2 data for leron... - Pluang",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQalI1ckZzb0twN3N2WUFmT1BaWU9tX1NwZGk4cFhxNnRRSTd1Mkk3Zm55eWlteVJnaUEzNkRtWUdBQzBQb3pBbTRiRThIQzhZa3B1ZnVucFNXOWtjUG1oWUw4MVlDdUpRODZsM0UzTVJGRS1kc2tOa0gyTVBJQmxJZUU2UjBUdHV4YXpHbGszcm9HejBEYXJhelRxbE9lYUE?oc=5",
+   "pub_ts": 1793018664.0,
+   "date": "26.10.2026, 14:44",
+   "cat": "phase2",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQalI1ckZzb0twN3N2WUFmT1BaWU9tX1NwZGk4cFhxNnRRSTd1Mkk3Zm55eWlteVJnaUEzNkRtWUdBQzBQb3pBbTRiRThIQzhZa3B1ZnVucFNXOWtjUG1oWUw4MVlDdUpRODZsM0UzTVJGRS1kc2tOa0gyTVBJQmxJZUU2UjBUdHV4YXpHbGszcm9HejBEYXJhelRxbE9lYUE?oc=5"
     }
    ],
    "ncts": []
@@ -2511,6 +2567,34 @@
    ]
   },
   {
+   "title": "Genmab presents updated phase 2 data for petosemtamab in head and neck cancer - MedWatch",
+   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5NdFRRNUpETWpHdmhxNFBuSGhuamJJU1lZRFlvT1hCSnRuRUlXemRKTHFyNVFLOHRjUU5qblBwUGNzZnR3NFJwUVFHUjlpdHJRNFF3SU5ibVg5VVRUdmx2d0U5YlFpMXRDVzAxVFI2Yw?oc=5",
+   "pub_ts": 1793017984.0,
+   "date": "26.10.2026, 14:33",
+   "cat": "phase2",
+   "sev": 1,
+   "dir": 0,
+   "tickers": [],
+   "companies": [
+    "GMAB"
+   ],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5NdFRRNUpETWpHdmhxNFBuSGhuamJJU1lZRFlvT1hCSnRuRUlXemRKTHFyNVFLOHRjUU5qblBwUGNzZnR3NFJwUVFHUjlpdHJRNFF3SU5ibVg5VVRUdmx2d0U5YlFpMXRDVzAxVFI2Yw?oc=5"
+    },
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPS3JlY3MzSVVMS2dSekxzbnM2OFZ3Zk9jS3ZmUmhkZlNkdzVfX0psamx4OUlyUnNaTUNXSTQ0cTJYbmF2NzZ0alFaWXBJVnR6YVRDT0UwZVFYSTAxdVFlM0tIRE8xSmtGcDJrVXBULTZHRTVJZ21hWEUtSVJZU0VFU29Ib1c4bVhCN25pMXduRmZmeVEzSC1hUw?oc=5"
+    },
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPd2lnSW1hbTZIM0lLNFR3Z25RX3JTUXdFc3pBM05RYXBrUkg1dFdpeGlEUzNreTE0UnptN0RfSHJlLXVPM2hydndvblBwUWxPbWJ1ZlBJYm1uaFVrYUV5ZkpOa3VDdWNxTEo0UmFRR2NfNm5hWjNSOURSemtncGRtUFhqdUZ3cXZ6RlFpWEZJaHNRc2RwQVpiU01KQllkU29fb1czUGFHVnVTd0RSZEhVV0pwb1Jydkl0akthV0NB?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
    "title": "Corcept reports phase 2 trial results for ovarian cancer drug - Investing.com",
    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPTTBXMmZKRFg3R0ZiNm1wQXBKTks2T0IzVlBtOXVDTE84Znd3U1NRMEh5YTNPWVBDaFpIWlFjMDI4b2hLdlV5Ri1EV1h0YWVKRkY3YnJPY1N4RzFaY01PXzdSb2k0N0lRbW10Y20yZl9HUnJxT2phd0RzNDNBZzVrUGtUcUY3OHVfZ3g4OW93Mlc3WXBiakZrQlhYa0tvcnMzSWh0WHM1S3hpYTR3SWpIY0EwQlZvQXhoR3c?oc=5",
    "pub_ts": 1793017348.0,
@@ -2526,34 +2610,10 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPTTBXMmZKRFg3R0ZiNm1wQXBKTks2T0IzVlBtOXVDTE84Znd3U1NRMEh5YTNPWVBDaFpIWlFjMDI4b2hLdlV5Ri1EV1h0YWVKRkY3YnJPY1N4RzFaY01PXzdSb2k0N0lRbW10Y20yZl9HUnJxT2phd0RzNDNBZzVrUGtUcUY3OHVfZ3g4OW93Mlc3WXBiakZrQlhYa0tvcnMzSWh0WHM1S3hpYTR3SWpIY0EwQlZvQXhoR3c?oc=5"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "Genmab Phase 2 Trial Reports 28.2-Month Cancer Survival - grafa.com",
-   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPS3JlY3MzSVVMS2dSekxzbnM2OFZ3Zk9jS3ZmUmhkZlNkdzVfX0psamx4OUlyUnNaTUNXSTQ0cTJYbmF2NzZ0alFaWXBJVnR6YVRDT0UwZVFYSTAxdVFlM0tIRE8xSmtGcDJrVXBULTZHRTVJZ21hWEUtSVJZU0VFU29Ib1c4bVhCN25pMXduRmZmeVEzSC1hUw?oc=5",
-   "pub_ts": 1793013968.0,
-   "date": "26.10.2026, 13:26",
-   "cat": "phase2",
-   "sev": 1,
-   "dir": 0,
-   "tickers": [],
-   "companies": [
-    "GMAB"
-   ],
-   "sources": [
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPS3JlY3MzSVVMS2dSekxzbnM2OFZ3Zk9jS3ZmUmhkZlNkdzVfX0psamx4OUlyUnNaTUNXSTQ0cTJYbmF2NzZ0alFaWXBJVnR6YVRDT0UwZVFYSTAxdVFlM0tIRE8xSmtGcDJrVXBULTZHRTVJZ21hWEUtSVJZU0VFU29Ib1c4bVhCN25pMXduRmZmeVEzSC1hUw?oc=5"
     },
     {
      "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPd2lnSW1hbTZIM0lLNFR3Z25RX3JTUXdFc3pBM05RYXBrUkg1dFdpeGlEUzNreTE0UnptN0RfSHJlLXVPM2hydndvblBwUWxPbWJ1ZlBJYm1uaFVrYUV5ZkpOa3VDdWNxTEo0UmFRR2NfNm5hWjNSOURSemtncGRtUFhqdUZ3cXZ6RlFpWEZJaHNRc2RwQVpiU01KQllkU29fb1czUGFHVnVTd0RSZEhVV0pwb1Jydkl0akthV0NB?oc=5"
-    },
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMi4gJBVV95cUxObXMxWE9yY1FURTdhWGQzbWJkNlhQbmpvM21MRThSalNsdi03azZZVlA0R1Z0ZHI3Q3hkQ1N0YUdiVng3QkgxbWR1Yjk2ZnFKV09fWV9qS2R0c0hSLTBJODFjUlVMNVNCeklkOGY3bGI5bXQ3RTFDMTNSb29wbUJBSTc2YUJvaHpLdTgtQ3dRLU0tam5KLTE3M0YtSWdMNHdEWHNuYi05enJheHZSTXVJckd4ZXpZazhMVDBmQUFpRW01UzFyYkcwQ1dONXhOS294b0FxMTZ5TWFLZnRIVFdzOVk5MkZPd3dsbmxlQVd5bGVyUVBJLWhoRzJWWHhsY0d6RU13YWtrUmVuSWJCOThZd0JHNUc0Nm1iVjZEaS13MEdNdGRyUElqaVY0WTFSTks4ZWpGRW5UUjBWQXljYkp5ZFN5TXBMbEdXdVhBSVdESWpoaDF2SDF3UlJTMUdKM3lGNUE?oc=5"
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVzVHaFhwb2hVYUNDMlRwQWIzdVkwM1ZfWFVJdHBDcTljN19hV3lTYjNTTFMwcDBRbVl5XzZWRU9FVm5nYlRCTnVxODNoaV9YM1JpRE84UldXMEVvV1F5Rm9aSEJGZzRsR3p6Ulk4MkVCVHE3dVFUbXFsRzBtUjdlMkVaTHdRb0lPb3diRWtuSXlDTDc1MW9xdTFtZDNXU0E4MVNoa0k3NFZYY2JqeDBxQ0NWdERGeFBaa05mOF95TQ?oc=5"
     }
    ],
    "ncts": []
