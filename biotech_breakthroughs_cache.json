@@ -1,5 +1,5 @@
 {
- "fetched_at": "26.10.2026, 5:04",
+ "fetched_at": "26.10.2026, 5:35",
  "items": [
   {
    "title": "ESMO: Roche touts ‘convincing’ phase 3 KRAS data after win over rivals - Fierce Biotech",
@@ -160,10 +160,10 @@
    "ncts": []
   },
   {
-   "title": "Genmab stock surges 9% following positive phase 3 ovarian cancer trial results - Investing.com",
-   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQMFVHR3FYTDB0eGpqd3hCZkdSdzNkSWNjWDh5R0c5M2s2cE5TT1ZXd09EaXpCNjFGbnJMMUUxVV9FelZPMWZzdWs0S1I5WDFpangtMFlOVnBRdHlTX1lYUjN4cjQ0alozZ19EOWhxZ250Uzk3QjFkcVJQRTRVZExic21oRkdtRzFuMnRqMUhHS003VXVnTkUydHhDa1hIdHAtaFlZeTM5djU5bDN3Tm8wSXRNZ1RKYlZ2a3NyV09uYWhDWkNSWGdmUTFfellUS1E?oc=5",
-   "pub_ts": 1792780639.0,
-   "date": "23.10.2026, 21:37",
+   "title": "Genmab stock surges 9% following positive phase 3 ovarian cancer trial results - StreetInsider",
+   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNUHRvZlV4UC1fZWZCdWhqTlUzZVQwUlV6cV9aQXhLMlBtODFGMnZPVXpUNHNfM3pyYU1MZXVIZXlrSDlqOWc2am9URTRTd21WT3lubUk0aE5Cdlp3ZmtwdnFZaktJVlBPVUFieS1idm1ELWxPdkp3MEtWZU56UDkzeXdSNEhoSDRtbzM5RmdYMlNzLURpeVhHVXhUVUlRa0N5TEdQUkt6N3M5WmFrMWo5ZWFVekdEVENPU09UQ1BVWmt4OUd1Q2Qwb3Mzb2Vxa2l4TUQ4?oc=5",
+   "pub_ts": 1792779185.0,
+   "date": "23.10.2026, 21:13",
    "cat": "phase3",
    "sev": 4,
    "dir": 1,
@@ -172,10 +172,6 @@
     "GMAB"
    ],
    "sources": [
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQMFVHR3FYTDB0eGpqd3hCZkdSdzNkSWNjWDh5R0c5M2s2cE5TT1ZXd09EaXpCNjFGbnJMMUUxVV9FelZPMWZzdWs0S1I5WDFpangtMFlOVnBRdHlTX1lYUjN4cjQ0alozZ19EOWhxZ250Uzk3QjFkcVJQRTRVZExic21oRkdtRzFuMnRqMUhHS003VXVnTkUydHhDa1hIdHAtaFlZeTM5djU5bDN3Tm8wSXRNZ1RKYlZ2a3NyV09uYWhDWkNSWGdmUTFfellUS1E?oc=5"
-    },
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNUHRvZlV4UC1fZWZCdWhqTlUzZVQwUlV6cV9aQXhLMlBtODFGMnZPVXpUNHNfM3pyYU1MZXVIZXlrSDlqOWc2am9URTRTd21WT3lubUk0aE5Cdlp3ZmtwdnFZaktJVlBPVUFieS1idm1ELWxPdkp3MEtWZU56UDkzeXdSNEhoSDRtbzM5RmdYMlNzLURpeVhHVXhUVUlRa0N5TEdQUkt6N3M5WmFrMWo5ZWFVekdEVENPU09UQ1BVWmt4OUd1Q2Qwb3Mzb2Vxa2l4TUQ4?oc=5"
@@ -448,6 +444,24 @@
     {
      "source": "FDA · openFDA",
      "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221183"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "Sacituzumab tirumotecan improved overall survival versus platinum chemotherapy in company-reported final phase 3 results - 2 Minute Medicine",
+   "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNUjlUcFZZSEVaZWd0WVR2Rk5pbTlpWGx4U0ZtRmlZX1NwVmJFWk5lQkgzR0RzN1VNbFZLOWwzdHpSSFVxSkdlNDFsTzRoMmdEWjBzT2JPRlA4WkVoNTNySS1mcXJXX3QxOG4zM2xVR0ZsclpBWkZWYURTOTc4Q0hlRjZVWHZtQzlNYkdUbXdjTkRCUlMzSy00T3hISllGMXNsRmh0YVZFM3A3X2F0dUJ6d2FlZ2xSV2FkT0M4U2ZHR2xjdmZzWEJVTjI0R1ZsdWtGOG94OGIxaENHZlhtNnlCN2IzUE9ocENh?oc=5",
+   "pub_ts": 1792980371.0,
+   "date": "26.10.2026, 4:06",
+   "cat": "phase3",
+   "sev": 3,
+   "dir": 0,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNUjlUcFZZSEVaZWd0WVR2Rk5pbTlpWGx4U0ZtRmlZX1NwVmJFWk5lQkgzR0RzN1VNbFZLOWwzdHpSSFVxSkdlNDFsTzRoMmdEWjBzT2JPRlA4WkVoNTNySS1mcXJXX3QxOG4zM2xVR0ZsclpBWkZWYURTOTc4Q0hlRjZVWHZtQzlNYkdUbXdjTkRCUlMzSy00T3hISllGMXNsRmh0YVZFM3A3X2F0dUJ6d2FlZ2xSV2FkT0M4U2ZHR2xjdmZzWEJVTjI0R1ZsdWtGOG94OGIxaENHZlhtNnlCN2IzUE9ocENh?oc=5"
     }
    ],
    "ncts": []
@@ -783,6 +797,24 @@
    "ncts": []
   },
   {
+   "title": "Camupepimut did not improve disease-free survival versus observation in pancreatic cancer in the randomized phase 2 AMPLIFY-7P trial - 2 Minute Medicine",
+   "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPazNiSnp0am9xMGN6OXpxOEc0SEZ5U1RIMWIxSHlUN2ZUT2xTV0dqVkZnbE5scllDblh2blQ3aGl4bUMzNUgwMWthNTF1N2NDaHlFTThtekJEblZSQ2JzRmF5OV9vRjk4bHY1bmNUNTBMLXRNalJLcnFVcGNLdTFTQXprTG1kQzdjM05RbGpQOTBrTFBsWTk2WGdYak9VbDJGNUQwNG9wY29MUmZoUDFDWF9nS1RxYkhlRmxDVlFEdEZDMl9nQVpxMko1M0J2bVRacURQSWQwYXVVa0ROeV9lNDFOMEdqVHJ6Vjktbm0yV0l6OWRPWjA2UA?oc=5",
+   "pub_ts": 1792984950.0,
+   "date": "26.10.2026, 5:22",
+   "cat": "readout",
+   "sev": 2,
+   "dir": 0,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPazNiSnp0am9xMGN6OXpxOEc0SEZ5U1RIMWIxSHlUN2ZUT2xTV0dqVkZnbE5scllDblh2blQ3aGl4bUMzNUgwMWthNTF1N2NDaHlFTThtekJEblZSQ2JzRmF5OV9vRjk4bHY1bmNUNTBMLXRNalJLcnFVcGNLdTFTQXprTG1kQzdjM05RbGpQOTBrTFBsWTk2WGdYak9VbDJGNUQwNG9wY29MUmZoUDFDWF9nS1RxYkhlRmxDVlFEdEZDMl9nQVpxMko1M0J2bVRacURQSWQwYXVVa0ROeV9lNDFOMEdqVHJ6Vjktbm0yV0l6OWRPWjA2UA?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
    "title": "Agenus Reports 72% Pathologic Complete Response Rate with BOT+BAL in Phase 2 NEOASIS Trial at ESMO 2026 - Oncodaily",
    "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5HOEVHV0RLWVVUcC0yY19ueXhUakJmNnJSR0xqREN4eElxZkJTdURncVhOMDM2X2NCb1pMenp6endpdy1OajQ4eV90dkI5N2F2SXJ0dXBnZw?oc=5",
    "pub_ts": 1792947015.0,
@@ -901,28 +933,6 @@
    ]
   },
   {
-   "title": "RAP-219 hits primary endpoint in Phase 2 bipolar mania trial - The Clinical Trial Vanguard",
-   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObGFTMWhnblktVW9VVk04S1JQbmZ0dVJaLTdYWS12THUzd3l5ZEEzc2ZxdExQMWhBMF9xQU5YVkx0VEVHdG9IbTQ1Z2J0amZPcGV6aWdyellhT010a2luRFFyUXJtODNxYU0zTUR3bk9fMXR1MWEzMm16LTZjT0ZhTk8xTzZIM0Q2a2kzYmxkd0Joa1JnNTFuM25tbU14WGc0c1pTUGpITQ?oc=5",
-   "pub_ts": 1792564886.0,
-   "date": "21.10.2026, 9:41",
-   "cat": "phase2",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObGFTMWhnblktVW9VVk04S1JQbmZ0dVJaLTdYWS12THUzd3l5ZEEzc2ZxdExQMWhBMF9xQU5YVkx0VEVHdG9IbTQ1Z2J0amZPcGV6aWdyellhT010a2luRFFyUXJtODNxYU0zTUR3bk9fMXR1MWEzMm16LTZjT0ZhTk8xTzZIM0Q2a2kzYmxkd0Joa1JnNTFuM25tbU14WGc0c1pTUGpITQ?oc=5"
-    },
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPeXl0d0N0UXE4UlgxSTRBNkhNWjFwOU43M29ER19EelNjWWtiWk91MjcxNWdCYjFjcmt0bmJnbEl3QWctbmZaN3ZDT2Y1ZGpFZC1tR2ptT0RPOHh5NjR5RVdldUJtRXhCX1c5N3FtXzlVaWlxQVpJdEpxd2FhTWdlaDdXWkt3OVR1SzBHWnl1aHBId0xZMjVzR2tvNnRkUWpkV0pNVkExMW5QeElFWkp1c0l4YzNDS3ZmVTVVc0NVUklybUotZkE?oc=5"
-    }
-   ],
-   "ncts": []
-  },
-  {
    "title": "Ascentage Pharma Group Says Lisaftoclax Granted Breakthrough Therapy Designation In China - TradingView",
    "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOVHNvT0c1YXZJMWxqYXRfRTVlaUowYW9QQjZQc2tBalAybGlRa3p6cU1kNk5Kd1F1bWtYQWVXSHZzTXRad0RSN3QzbEVPc0p1NEs5alF2c0JVelhxM3RmM3Vwd0ZVUnRFS211ZEhLZEdfQVROVldxMzRxcFcxaEF3N2xLWHN6OEEyTURWNWc4dXRJTktaTU4xajNwNjhaSnpxUTlVUW05MHVFWVhpdkYzTFhJMGZGYy1UbXRwTi1nMnpiNERvS0JkekkzRHl6RG9UcElPTVZhV01VbHNobmNucDZ2VzlhQkVZcEQ2U1p1WGw?oc=5",
    "pub_ts": 1792545420.0,
@@ -1026,6 +1036,24 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOUnhuM2tKNExtSV8tVU5ZeUdCNzB4OVpFbEsxUFFQTEJoTE12bFRacWwxd29XTGg4ekxEX0lEYWtmcC1EcU8tQ2xjemRiZHo2MWp1YnhrZ1hmX1Z2b0JxczRhTUlGanNlRXllbjNjQURPMEZSUGZ5cHpOZHltYXdLTFZwRlRvWUhBeVJaakZuVENnMlNFUktKSjQ4NjRMcEhKQ1JvU2ZjR3BrZDg0VWFPUzJqYXFNbnhvbjhSelF0eGJ3bnRJd2d6U25WZF9SdWNHOWxUckJHaE9WUFc1SHlXM1Q1SC10VnNj0gHuAUFVX3lxTFBoLW1fTmJ6RElhMDduRGxuQS00c3M5YTYzM2FhSFExRktqcklwU0UyV2cyZ3piWmlzenpNQ3oyTmR1Sjk4NzBTMlV0cDhhamExdmw1X0wtQnR6bzdKa2hlQnU0Rk5USzBvTUVZTEM1NnJDSE5MZWlQb3JkWEstclNJWk5WNXJ4SmN5NVZCSm1RUzF5YlF2X0ppTUJrRlNpTVhUUlRmd3A2Vks0a2NQel9HUllyZmlOc195YW5xZEl4bnRzUlJIb0VNMk9TSEllNHZBcGhJU3V0VmNjVVUyMVczZWhDN2FXTnpHcHlYWHc?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "Positive Topline Results From Phase 2 Trial of RAP-219 for the Treatment of Bipolar Mania - Psychiatric Times",
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPeXl0d0N0UXE4UlgxSTRBNkhNWjFwOU43M29ER19EelNjWWtiWk91MjcxNWdCYjFjcmt0bmJnbEl3QWctbmZaN3ZDT2Y1ZGpFZC1tR2ptT0RPOHh5NjR5RVdldUJtRXhCX1c5N3FtXzlVaWlxQVpJdEpxd2FhTWdlaDdXWkt3OVR1SzBHWnl1aHBId0xZMjVzR2tvNnRkUWpkV0pNVkExMW5QeElFWkp1c0l4YzNDS3ZmVTVVc0NVUklybUotZkE?oc=5",
+   "pub_ts": 1792514527.0,
+   "date": "20.10.2026, 19:42",
+   "cat": "phase2",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPeXl0d0N0UXE4UlgxSTRBNkhNWjFwOU43M29ER19EelNjWWtiWk91MjcxNWdCYjFjcmt0bmJnbEl3QWctbmZaN3ZDT2Y1ZGpFZC1tR2ptT0RPOHh5NjR5RVdldUJtRXhCX1c5N3FtXzlVaWlxQVpJdEpxd2FhTWdlaDdXWkt3OVR1SzBHWnl1aHBId0xZMjVzR2tvNnRkUWpkV0pNVkExMW5QeElFWkp1c0l4YzNDS3ZmVTVVc0NVUklybUotZkE?oc=5"
     }
    ],
    "ncts": []
