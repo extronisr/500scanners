@@ -1,5 +1,5 @@
 {
- "fetched_at": "27.10.2026, 1:04",
+ "fetched_at": "27.10.2026, 1:35",
  "items": [
   {
    "title": "FDA approves at-home subcutaneous induction for AbbVie’s Skyrizi in Crohn’s disease - The Pharmaletter",
@@ -944,6 +944,26 @@
    "ncts": []
   },
   {
+   "title": "Tarlatamab plus durvalumab improved survival versus durvalumab alone in extensive-stage small cell lung cancer, Amgen reports in interim phase 3 results - 2 Minute Medicine",
+   "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxOZGlndHZyMUM4VHM4b2pNM01MZDF0bFYwcnBtN0tJOWhoOU1qRk5aMy11X09uemlfWXZXXzFzVzRwNGpOb0Q0dTdmVFFldUN4VGNOQnRTNFk4bTRVSmtsNG9BdXpKSzZ2bzV4RDVLVWdiWUNERjdfaG1KMExYNUpJd2N4cWl1OXN3MTR1NUdQdE5DZElKREdzUUV1bW03LVFSRFpRWTZOZ0lEd1doc0dQODdNWGN3MnVDdkY2dEYxT3JfcGVRc09Pc0tweWdxS3c3bWF2N0Q0TXRtM3ZiSUdXMFgzYVNMYVN0T2t3SDlqVXo5X1ZfbWxCVWRUdHBsQUFzMGNCMmhHNHI4bjlRYkttMEF3?oc=5",
+   "pub_ts": 1793033866.0,
+   "date": "26.10.2026, 18:57",
+   "cat": "phase3",
+   "sev": 3,
+   "dir": 0,
+   "tickers": [],
+   "companies": [
+    "AMGN"
+   ],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxOZGlndHZyMUM4VHM4b2pNM01MZDF0bFYwcnBtN0tJOWhoOU1qRk5aMy11X09uemlfWXZXXzFzVzRwNGpOb0Q0dTdmVFFldUN4VGNOQnRTNFk4bTRVSmtsNG9BdXpKSzZ2bzV4RDVLVWdiWUNERjdfaG1KMExYNUpJd2N4cWl1OXN3MTR1NUdQdE5DZElKREdzUUV1bW03LVFSRFpRWTZOZ0lEd1doc0dQODdNWGN3MnVDdkY2dEYxT3JfcGVRc09Pc0tweWdxS3c3bWF2N0Q0TXRtM3ZiSUdXMFgzYVNMYVN0T2t3SDlqVXo5X1ZfbWxCVWRUdHBsQUFzMGNCMmhHNHI4bjlRYkttMEF3?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
    "title": "Aakash Desai: First Phase 3 Readout of A Bispecific ADC After Third-Gen EGFR TKI Failure - Oncodaily",
    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB1OFZGaC02RlFQN0lxY3VySzRfalMzUFFUeC1UQUJzcTg1SHdJbXVzcXJCYXhUMHh0OHA1V0lBczU5MDloUGxoX0dlWnNQb0gtOHpJUWJfb29vNVFfNTZnaHhPNTQ0MGlVbFFkTHVR?oc=5",
    "pub_ts": 1793033147.0,
@@ -1101,26 +1121,6 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQS3BfR29MYzI5eVEwSG1ad1RBUWhwdURkS0pqVVdEQjZmaW1jVGYxVlF0Yy1HM1VXTHZpMGJrLUstUjJaX1ljSWJyRVFpeHBOdVQzSF94clNsQ0stc3dmT0V3LXZKZEpIa1R5MDdKejZJUDA0UTM4NjNIR2RQclVhS2NxbFlvbDMxcGZlbGI2TQ?oc=5"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "Tarlatamab plus durvalumab improved survival versus durvalumab alone in extensive-stage small cell lung cancer, Amgen reports in interim phase 3 results - 2 Minute Medicine",
-   "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxOZGlndHZyMUM4VHM4b2pNM01MZDF0bFYwcnBtN0tJOWhoOU1qRk5aMy11X09uemlfWXZXXzFzVzRwNGpOb0Q0dTdmVFFldUN4VGNOQnRTNFk4bTRVSmtsNG9BdXpKSzZ2bzV4RDVLVWdiWUNERjdfaG1KMExYNUpJd2N4cWl1OXN3MTR1NUdQdE5DZElKREdzUUV1bW03LVFSRFpRWTZOZ0lEd1doc0dQODdNWGN3MnVDdkY2dEYxT3JfcGVRc09Pc0tweWdxS3c3bWF2N0Q0TXRtM3ZiSUdXMFgzYVNMYVN0T2t3SDlqVXo5X1ZfbWxCVWRUdHBsQUFzMGNCMmhHNHI4bjlRYkttMEF3?oc=5",
-   "pub_ts": 1793009553.0,
-   "date": "26.10.2026, 12:12",
-   "cat": "phase3",
-   "sev": 3,
-   "dir": 0,
-   "tickers": [],
-   "companies": [
-    "AMGN"
-   ],
-   "sources": [
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxOZGlndHZyMUM4VHM4b2pNM01MZDF0bFYwcnBtN0tJOWhoOU1qRk5aMy11X09uemlfWXZXXzFzVzRwNGpOb0Q0dTdmVFFldUN4VGNOQnRTNFk4bTRVSmtsNG9BdXpKSzZ2bzV4RDVLVWdiWUNERjdfaG1KMExYNUpJd2N4cWl1OXN3MTR1NUdQdE5DZElKREdzUUV1bW03LVFSRFpRWTZOZ0lEd1doc0dQODdNWGN3MnVDdkY2dEYxT3JfcGVRc09Pc0tweWdxS3c3bWF2N0Q0TXRtM3ZiSUdXMFgzYVNMYVN0T2t3SDlqVXo5X1ZfbWxCVWRUdHBsQUFzMGNCMmhHNHI4bjlRYkttMEF3?oc=5"
     }
    ],
    "ncts": []
