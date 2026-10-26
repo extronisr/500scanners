@@ -1,5 +1,5 @@
 {
- "fetched_at": "26.10.2026, 15:35",
+ "fetched_at": "26.10.2026, 16:04",
  "items": [
   {
    "title": "AL-S Pharma Reports New AP-101 Phase 2 Weight Data and Outlines Phase 3 Clinical Trial in ALS at 2026 NEALS Annual Meeting - BioSpace",
@@ -825,6 +825,26 @@
    "ncts": []
   },
   {
+   "title": "Bristol Myers Iza-Bren Phase 3 PFS Reaches 11.1 Months - grafa.com",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQS3BfR29MYzI5eVEwSG1ad1RBUWhwdURkS0pqVVdEQjZmaW1jVGYxVlF0Yy1HM1VXTHZpMGJrLUstUjJaX1ljSWJyRVFpeHBOdVQzSF94clNsQ0stc3dmT0V3LXZKZEpIa1R5MDdKejZJUDA0UTM4NjNIR2RQclVhS2NxbFlvbDMxcGZlbGI2TQ?oc=5",
+   "pub_ts": 1793014980.0,
+   "date": "26.10.2026, 13:43",
+   "cat": "phase3",
+   "sev": 3,
+   "dir": 0,
+   "tickers": [],
+   "companies": [
+    "BMY"
+   ],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQS3BfR29MYzI5eVEwSG1ad1RBUWhwdURkS0pqVVdEQjZmaW1jVGYxVlF0Yy1HM1VXTHZpMGJrLUstUjJaX1ljSWJyRVFpeHBOdVQzSF94clNsQ0stc3dmT0V3LXZKZEpIa1R5MDdKejZJUDA0UTM4NjNIR2RQclVhS2NxbFlvbDMxcGZlbGI2TQ?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
    "title": "Tarlatamab plus durvalumab improved survival versus durvalumab alone in extensive-stage small cell lung cancer, Amgen reports in interim phase 3 results - 2 Minute Medicine",
    "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxOZGlndHZyMUM4VHM4b2pNM01MZDF0bFYwcnBtN0tJOWhoOU1qRk5aMy11X09uemlfWXZXXzFzVzRwNGpOb0Q0dTdmVFFldUN4VGNOQnRTNFk4bTRVSmtsNG9BdXpKSzZ2bzV4RDVLVWdiWUNERjdfaG1KMExYNUpJd2N4cWl1OXN3MTR1NUdQdE5DZElKREdzUUV1bW03LVFSRFpRWTZOZ0lEd1doc0dQODdNWGN3MnVDdkY2dEYxT3JfcGVRc09Pc0tweWdxS3c3bWF2N0Q0TXRtM3ZiSUdXMFgzYVNMYVN0T2t3SDlqVXo5X1ZfbWxCVWRUdHBsQUFzMGNCMmhHNHI4bjlRYkttMEF3?oc=5",
    "pub_ts": 1793009553.0,
@@ -888,26 +908,6 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxORktLOW52Y3VxVlFXWHdQZ1NvNHpnNEdwRkdfTzBrOFR3Z3JZN2dJd2hsUGc5MWoyeE1aUjgyMm1oOUY0bXVJV3ZSSndadFByUGF5aUF1VHRINnlDR3ZSODN4dmgxVzMzZDhiQjVLcUJRRWFwOTJTcGM1YzBsYkZ0ZzRsYmYtajVPWFdLU1ppOHR5eEt4MEFTU3NiX2NNZw?oc=5"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "Bristol Myers Iza-Bren Phase 3 PFS Reaches 11.1 Months - grafa.com",
-   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQS3BfR29MYzI5eVEwSG1ad1RBUWhwdURkS0pqVVdEQjZmaW1jVGYxVlF0Yy1HM1VXTHZpMGJrLUstUjJaX1ljSWJyRVFpeHBOdVQzSF94clNsQ0stc3dmT0V3LXZKZEpIa1R5MDdKejZJUDA0UTM4NjNIR2RQclVhS2NxbFlvbDMxcGZlbGI2TQ?oc=5",
-   "pub_ts": 1793001075.0,
-   "date": "26.10.2026, 9:51",
-   "cat": "phase3",
-   "sev": 3,
-   "dir": 0,
-   "tickers": [],
-   "companies": [
-    "BMY"
-   ],
-   "sources": [
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQS3BfR29MYzI5eVEwSG1ad1RBUWhwdURkS0pqVVdEQjZmaW1jVGYxVlF0Yy1HM1VXTHZpMGJrLUstUjJaX1ljSWJyRVFpeHBOdVQzSF94clNsQ0stc3dmT0V3LXZKZEpIa1R5MDdKejZJUDA0UTM4NjNIR2RQclVhS2NxbFlvbDMxcGZlbGI2TQ?oc=5"
     }
    ],
    "ncts": []
