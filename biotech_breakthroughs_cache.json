@@ -1,5 +1,5 @@
 {
- "fetched_at": "26.10.2026, 14:05",
+ "fetched_at": "26.10.2026, 14:34",
  "items": [
   {
    "title": "AL-S Pharma Reports New AP-101 Phase 2 Weight Data and Outlines Phase 3 Clinical Trial in ALS at 2026 NEALS Annual Meeting - BioSpace",
@@ -1344,6 +1344,24 @@
    "ncts": []
   },
   {
+   "title": "Sumitomo Pharma America Announces Enzomenib (DSP-5336) Receives FDA Breakthrough Therapy Designation for Treatment of R/R KMT2A-Rearranged Acute Leukemia - Business Wire",
+   "link": "https://news.google.com/rss/articles/CBMisAJBVV95cUxOajdFSi1Rcll2aFAzTFNqNC1oUUZqUlFxM0xoZWgxaWVFbks2X1A5U2pWakdKMjJCNFdKRVVNaTg3Mi1OQjhCdlVpeTVuWFdKUzhFTENmY2tKdWhTQ1BIYV9wM3JIb25Xa0x4NkpxTXJYcHdCX0RqOWI3WHg4SzYxeGxtUzdMVDdJZWEycHJ5WmxGWUpXcEVXbHFuUlA1bXQ4WHNxOWlhUHROeGxMbmZ5RTBNdl9qc2RHWmZKQmJZSm5ha205OThYUEsxRjRNcm5uM01KbElwMzB5UldOR29ROWZuaDVJTjQza1NkVHhjU1kteUJjQUZDVVBxZGhGME1VSElfYmJoQW9XcUNmamh4Y0lKeFozU1ZTOVV0d1EyY0YyV08wak1aaHNtYy1YTS1f?oc=5",
+   "pub_ts": 1793016000.0,
+   "date": "26.10.2026, 14:00",
+   "cat": "btd",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMisAJBVV95cUxOajdFSi1Rcll2aFAzTFNqNC1oUUZqUlFxM0xoZWgxaWVFbks2X1A5U2pWakdKMjJCNFdKRVVNaTg3Mi1OQjhCdlVpeTVuWFdKUzhFTENmY2tKdWhTQ1BIYV9wM3JIb25Xa0x4NkpxTXJYcHdCX0RqOWI3WHg4SzYxeGxtUzdMVDdJZWEycHJ5WmxGWUpXcEVXbHFuUlA1bXQ4WHNxOWlhUHROeGxMbmZ5RTBNdl9qc2RHWmZKQmJZSm5ha205OThYUEsxRjRNcm5uM01KbElwMzB5UldOR29ROWZuaDVJTjQza1NkVHhjU1kteUJjQUZDVVBxZGhGME1VSElfYmJoQW9XcUNmamh4Y0lKeFozU1ZTOVV0d1EyY0YyV08wak1aaHNtYy1YTS1f?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
    "title": "GSK Reports Positive Interim Results from Phase 2 Trial of Rectal Cancer Drug - marketscreener.com",
    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQYVVnNmhvY3IyX2w3bWE1MDRkN0ZaNkF2cnlZRGJscFdrZGUxa2xVNjR5a2pnSEYwLUpTcGZSVFFvTjFhZFFTWW9UUloxb1FYVzU2OWsyci16enNXRG9ZWFBoSjY5WHdfRlluZ1dVMDlrUmZjLWxxZ1kzcWd1QXNYbksySVFVTmtqRTBNR1RMTkVseGtHRE1fejNzODY5QnpjX1l4eGExVmk2X2JGZzN5WkF1dkVHa0xoS2RhenRXLVFrRF9EdlNPRnlB?oc=5",
    "pub_ts": 1792999544.0,
@@ -2491,6 +2509,26 @@
    "ncts": [
     "NCT07136766"
    ]
+  },
+  {
+   "title": "Corcept reports phase 2 trial results for ovarian cancer drug - Investing.com",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPTTBXMmZKRFg3R0ZiNm1wQXBKTks2T0IzVlBtOXVDTE84Znd3U1NRMEh5YTNPWVBDaFpIWlFjMDI4b2hLdlV5Ri1EV1h0YWVKRkY3YnJPY1N4RzFaY01PXzdSb2k0N0lRbW10Y20yZl9HUnJxT2phd0RzNDNBZzVrUGtUcUY3OHVfZ3g4OW93Mlc3WXBiakZrQlhYa0tvcnMzSWh0WHM1S3hpYTR3SWpIY0EwQlZvQXhoR3c?oc=5",
+   "pub_ts": 1793017348.0,
+   "date": "26.10.2026, 14:22",
+   "cat": "phase2",
+   "sev": 1,
+   "dir": 0,
+   "tickers": [],
+   "companies": [
+    "CORT"
+   ],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPTTBXMmZKRFg3R0ZiNm1wQXBKTks2T0IzVlBtOXVDTE84Znd3U1NRMEh5YTNPWVBDaFpIWlFjMDI4b2hLdlV5Ri1EV1h0YWVKRkY3YnJPY1N4RzFaY01PXzdSb2k0N0lRbW10Y20yZl9HUnJxT2phd0RzNDNBZzVrUGtUcUY3OHVfZ3g4OW93Mlc3WXBiakZrQlhYa0tvcnMzSWh0WHM1S3hpYTR3SWpIY0EwQlZvQXhoR3c?oc=5"
+    }
+   ],
+   "ncts": []
   },
   {
    "title": "Genmab Phase 2 Trial Reports 28.2-Month Cancer Survival - grafa.com",
