@@ -1,6 +1,24 @@
 {
- "fetched_at": "26.10.2026, 19:05",
+ "fetched_at": "26.10.2026, 19:27",
  "items": [
+  {
+   "title": "FDA Approves Talazoparib/Enzalutamide for HRR Gene-Altered Metastatic Prostate Cancer - CancerNetwork",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNWXltM3ZRenh1M3FIaEtzQjlPZXVSOFZjUERfU1lhcDF1d2MzZlUyeVYzQmNWekpVblk2WE9jVlVISFFkU0ZjNGJUWkxBanJtSGZXajg4RmNRa08xR2VZWW1EdnItVGZTU0ZieFlCTU93Mk1BT2hMM0EtcWpCbWhiZ0RJNXlEUlJzN2ZSdWhXc21XeTNib1lZZ1k3ZkVtX2MyMHRMbm9JeDJxZTRRZHZBcGxUMkhKZXJFQ08xdg?oc=5",
+   "pub_ts": 1793034791.0,
+   "date": "26.10.2026, 19:13",
+   "cat": "fda",
+   "sev": 4,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNWXltM3ZRenh1M3FIaEtzQjlPZXVSOFZjUERfU1lhcDF1d2MzZlUyeVYzQmNWekpVblk2WE9jVlVISFFkU0ZjNGJUWkxBanJtSGZXajg4RmNRa08xR2VZWW1EdnItVGZTU0ZieFlCTU93Mk1BT2hMM0EtcWpCbWhiZ0RJNXlEUlJzN2ZSdWhXc21XeTNib1lZZ1k3ZkVtX2MyMHRMbm9JeDJxZTRRZHZBcGxUMkhKZXJFQ08xdg?oc=5"
+    }
+   ],
+   "ncts": []
+  },
   {
    "title": "ESMO: In sac-TMT’s first global phase 3 win, Merck sees ‘pretty consistent’ data with China - Fierce Pharma",
    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPV2tKSXlPZUVkbGxNbjl1OXhQNy1yaGlFNUlKSnNDLUlLcGRzU1YtQS12bHNEYXJIZllOZldvVzJoMU5selAtYWlDbWl2dmhpWXhUbHNZLTVDMTQtMDJaNENyQzQxZDB6QUNYYlQzU3VsVzEyWkRhQ0dkbzh0WE96TVU3ZXhxYkpUdW9UZmhRYkh0QVlsV0JBMjlXeHlKTE9LZDhlMmU2bGZEWkk5?oc=5",
@@ -993,6 +1011,30 @@
    "ncts": []
   },
   {
+   "title": "Biontech And Dualitybio Announce Topline Results Of Global Phase 3 Clinical Trial for Breast Cancer - TradingView",
+   "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPTlJBeWJwbVBhbGlnNWJoS0RzVnFqOVphZTlWaUFoTzNSeEV6QVZlc01NZDJMYzN0cmRCTmNSTkt0cUdwdEYyYUVfeUVwMUZUM2hOd0NrTjFKQmlZdXJyQ250MjFVVUFmSmZLQ1ladUx2Yno1cWY4VldXVWFsZXJkUExYZVk3aVJvUHJQNVJsdG5CS0hRMkZCR1JGUVFCeV9kLUs1Yi1xelZsaDhZVTZfT1VzcVgxdUNveDlPVDROUWdTNnl0aGVyREJVSGlFbDhGMjhDaHV6emxzazI5c19jY0NPZ1E5cnJ4dmdKVWhOS2xBNV9hYk9SQWRTQm9GZw?oc=5",
+   "pub_ts": 1793005717.0,
+   "date": "26.10.2026, 11:08",
+   "cat": "phase3",
+   "sev": 3,
+   "dir": 0,
+   "tickers": [],
+   "companies": [
+    "BNTX"
+   ],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPTlJBeWJwbVBhbGlnNWJoS0RzVnFqOVphZTlWaUFoTzNSeEV6QVZlc01NZDJMYzN0cmRCTmNSTkt0cUdwdEYyYUVfeUVwMUZUM2hOd0NrTjFKQmlZdXJyQ250MjFVVUFmSmZLQ1ladUx2Yno1cWY4VldXVWFsZXJkUExYZVk3aVJvUHJQNVJsdG5CS0hRMkZCR1JGUVFCeV9kLUs1Yi1xelZsaDhZVTZfT1VzcVgxdUNveDlPVDROUWdTNnl0aGVyREJVSGlFbDhGMjhDaHV6emxzazI5c19jY0NPZ1E5cnJ4dmdKVWhOS2xBNV9hYk9SQWRTQm9GZw?oc=5"
+    },
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPanZDM0RXZFAwNW1BMFRfM2MyWWJiWDZqRWg3cTlTVlpMV1lJOFRhMEs0NXRGaFdtd1dfSXhIMnZidGw3U19lQnFibDZFYkxGN1c2U3NRbE55SURqRnhHRjNUdU1xM29ZUDlqbTVYb3o0ZXJ4enJZZVBwUGd1UnV5WnZHZFk0VzlfV3BQVWN4WFBhWnlockhBMHVCX2ZvWEJBZWpHNzJJVkJkc2xQRWJRQnY1UXlVSkU?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
    "title": "Final OS Analysis Results from Phase III OptiTROP-Lung04 Study of Sacituzumab Tirumotecan (sac-TMT) Presented at 2026 ESMO - BioSpace",
    "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxObWh0aGZna20wMV9IWW1fWnl5bGFKQ1lsUGFqT3lRdWNwNG0tM0w3VU9mTVVuQ1ZubFNNd3ZaOVRPM1VzZk1ONlhOQjFZaHdBR2oyb0VMeVZSWUNOa2pLeUc3RGMxVGR0ZjY1R25SMlZRaGlzZUhGRWJVdnBTWFZhNk51NkNNaUpDN0c1VW54YTYwdkFIdUI1SWxYOWNHV3V1MU5PTDRXNkVWMnlYempacXFfTzIya0JxVWF4bnBWVWd2QzVSbG4zc2JUU1k1Mm9YVWp0dmNrbmQ2LXRaSVFvc0RUeXZQQ3c3SDM0dl9ESXRXUQ?oc=5",
    "pub_ts": 1792996378.0,
@@ -1464,8 +1506,8 @@
   {
    "title": "Merck drug extends survival in endometrial cancer trial, wins US priority review - Reuters",
    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxONEdIZ0VwaGxubUJfcXBfUGhJTnliUTV0ZUU0SFNKdmlqd0VKdFBOSUdqZUFmLWRvT3N3Q0ZGZGd2a2FoejlrLXZXX3NOaThwX2RnbzFTcUREQ2FjOTdnQ2dlQzZQWUg0R1U3ejZJSTBudGNOWWxWY2pEanpuYllLZUlDNXlmX0VqLXJyZnBHSF9kRTktZlpVbmpMUk5zNzA3ZlBrZkZiaHVvYko0YTJGWl9iV0NLVWhhRkZMWDYtS0gwODhkV3NFYU13UWVhNEdwT1AzQkxxTEw?oc=5",
-   "pub_ts": 1793030742.0,
-   "date": "26.10.2026, 18:05",
+   "pub_ts": 1793032203.0,
+   "date": "26.10.2026, 18:30",
    "cat": "btd",
    "sev": 2,
    "dir": 1,
