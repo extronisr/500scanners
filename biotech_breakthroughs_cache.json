@@ -1,5 +1,5 @@
 {
- "fetched_at": "27.10.2026, 1:35",
+ "fetched_at": "27.10.2026, 2:04",
  "items": [
   {
    "title": "FDA approves at-home subcutaneous induction for AbbVie’s Skyrizi in Crohn’s disease - The Pharmaletter",
@@ -1599,6 +1599,26 @@
    "ncts": []
   },
   {
+   "title": "Roche Presents Pivotal Data At ESMO 2026 Showcasing Advances Across Its Lung And Breast Cancer Late-Stage Portfolio - marketscreener.com",
+   "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNbzF3N1pRTEplaGgwZ1hENVVJOXBUTjJIUnAtaWg3YzlhaWRlaHBRczVUZ2Z2cWdFeTRLZVppejBMeW9IWjNJQ3JSeGExelBzc3dsdkk4VmNpYzF2QlRtSkVNSFRIUEpiSzlGN2hZYVlObENXcy1tVTl2THAzZXJBSk5OM2FUTXdEVF9TSHAyM3Rnek80eXNHWWJrX0ZPQUV3ZTNUTVJrVjlKRFZzTFJSODhlallOMkxVR3hYV3hqQ2dYQm02R0hMWDE0ZXFXR250U2loTVZCc29KRV9QXzNnaTY4Yi1kLWc?oc=5",
+   "pub_ts": 1792426593.0,
+   "date": "19.10.2026, 19:16",
+   "cat": "phase3",
+   "sev": 3,
+   "dir": 0,
+   "tickers": [],
+   "companies": [
+    "RHHBY"
+   ],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNbzF3N1pRTEplaGgwZ1hENVVJOXBUTjJIUnAtaWg3YzlhaWRlaHBRczVUZ2Z2cWdFeTRLZVppejBMeW9IWjNJQ3JSeGExelBzc3dsdkk4VmNpYzF2QlRtSkVNSFRIUEpiSzlGN2hZYVlObENXcy1tVTl2THAzZXJBSk5OM2FUTXdEVF9TSHAyM3Rnek80eXNHWWJrX0ZPQUV3ZTNUTVJrVjlKRFZzTFJSODhlallOMkxVR3hYV3hqQ2dYQm02R0hMWDE0ZXFXR250U2loTVZCc29KRV9QXzNnaTY4Yi1kLWc?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
    "title": "EyePoint Announces Topline Results from LUCIA, the Second Pivotal Phase 3 Clinical Trial of DURAVYU™ in Wet AMD - Yahoo Finance",
    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZWg0YWdYYl9memhvMHBZdTZfcmV0U2hFT1lWb2NCUmREX1VmYnhjTzBvdEFFR3Q1ajFpUUNsSXZhaWZkenFRN3lNQ2lLZlk0RFhUUTZfZDdBRnRnWUdTV0hwYkNjVjJzYXFIbkFaa0xCcEtKaUxGZ3hyNjJVaFpFS3FHamJNbnlRcWhNRnBLZEE5dW1yTUY4Znl5c2pwQzJ2NFYw?oc=5",
    "pub_ts": 1792407600.0,
@@ -2796,42 +2816,6 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOUnhuM2tKNExtSV8tVU5ZeUdCNzB4OVpFbEsxUFFQTEJoTE12bFRacWwxd29XTGg4ekxEX0lEYWtmcC1EcU8tQ2xjemRiZHo2MWp1YnhrZ1hmX1Z2b0JxczRhTUlGanNlRXllbjNjQURPMEZSUGZ5cHpOZHltYXdLTFZwRlRvWUhBeVJaakZuVENnMlNFUktKSjQ4NjRMcEhKQ1JvU2ZjR3BrZDg0VWFPUzJqYXFNbnhvbjhSelF0eGJ3bnRJd2d6U25WZF9SdWNHOWxUckJHaE9WUFc1SHlXM1Q1SC10VnNj0gHuAUFVX3lxTFBoLW1fTmJ6RElhMDduRGxuQS00c3M5YTYzM2FhSFExRktqcklwU0UyV2cyZ3piWmlzenpNQ3oyTmR1Sjk4NzBTMlV0cDhhamExdmw1X0wtQnR6bzdKa2hlQnU0Rk5USzBvTUVZTEM1NnJDSE5MZWlQb3JkWEstclNJWk5WNXJ4SmN5NVZCSm1RUzF5YlF2X0ppTUJrRlNpTVhUUlRmd3A2Vks0a2NQel9HUllyZmlOc195YW5xZEl4bnRzUlJIb0VNMk9TSEllNHZBcGhJU3V0VmNjVVUyMVczZWhDN2FXTnpHcHlYWHc?oc=5"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "FDA approves generic Mesalamine (Sciegen Pharms)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=217736",
-   "pub_ts": 1791849600.0,
-   "date": "13.10.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=217736"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "FDA approves generic Memantine Hydrochloride And Donepezil Hydrochloride (Strides Pharma Intl)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=208359",
-   "pub_ts": 1791849600.0,
-   "date": "13.10.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=208359"
     }
    ],
    "ncts": []
