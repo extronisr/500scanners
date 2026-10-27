@@ -1,5 +1,5 @@
 {
- "fetched_at": "27.10.2026, 2:04",
+ "fetched_at": "27.10.2026, 2:34",
  "items": [
   {
    "title": "FDA approves at-home subcutaneous induction for AbbVie’s Skyrizi in Crohn’s disease - The Pharmaletter",
@@ -17,6 +17,24 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOY0VwRVhZNWxEV0tXamtVdFlRcWdQSVJqZmVpNlpYNVVNc2ZfSXlucEdRSFVIeXA5bWhhNE92S19iLV9kanpiNTI0dkdiUll0M0VHbzVCd0NxZ1NQYmdrY1p6QWYzZFVPQ3R2NmpNSllNdmIyeVdUbnR6QlMyUmZqbndoWS1CaUlrTWgxN2twMThlTkVPRnRlbDV1eWJLS09jWVpoN25JTHpjRll2bWkwUVhQR2dCN05vZGdhNW00LWphb1AydjBJ?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA Approves Talazoparib With Enzalutamide for Certain Metastatic HRR-Mutated Prostate Cancers - The ASCO Post",
+   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNVnlwemk4T2Iyb2oyQUQwNlJoNDRkb2JFV1Z6Y1pfNjN6SmVTMnlnNzJBMkNlOXBOTXlnUlF2bUpRYVJrOXJhc1ZIRHN6Ym1ZYWZRenNZblltWXV1a3VDb2FORkNHblRTNVBjWUpUMVc5YUNNa21GOHB5UE1RQ1BHakZvcGUtVFlhLXAzeWdmeHdfVFJDbzBUWmJiUTJHX2RWNmdvUmZWbGg4ODFUQTdlOHZSTkhwWUNTcl9xeDFsZUFXcWhsYnlxT2VkZ1RUTms?oc=5",
+   "pub_ts": 1793036142.0,
+   "date": "26.10.2026, 19:35",
+   "cat": "fda",
+   "sev": 4,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNVnlwemk4T2Iyb2oyQUQwNlJoNDRkb2JFV1Z6Y1pfNjN6SmVTMnlnNzJBMkNlOXBOTXlnUlF2bUpRYVJrOXJhc1ZIRHN6Ym1ZYWZRenNZblltWXV1a3VDb2FORkNHblRTNVBjWUpUMVc5YUNNa21GOHB5UE1RQ1BHakZvcGUtVFlhLXAzeWdmeHdfVFJDbzBUWmJiUTJHX2RWNmdvUmZWbGg4ODFUQTdlOHZSTkhwWUNTcl9xeDFsZUFXcWhsYnlxT2VkZ1RUTms?oc=5"
     }
    ],
    "ncts": []
