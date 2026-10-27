@@ -1,5 +1,5 @@
 {
- "fetched_at": "27.10.2026, 14:34",
+ "fetched_at": "27.10.2026, 14:38",
  "items": [
   {
    "title": "GSK’s B7-H3 ADC drives 67% cancer risk reduction in Hansoh's phase 3 China trial - Fierce Biotech",
@@ -2963,6 +2963,24 @@
    "ncts": [
     "NCT07136766"
    ]
+  },
+  {
+   "title": "Rinatabart Sesutecan for Patients With Platinum-Resistant Ovarian Cancer: First Efficacy and Safety Results From the Phase 2 Cohort of the RAINFOL-01 Study - OncLive",
+   "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPMnJEaE00SzdDdmhwQVZHallpRTF0eHVTVmZZWnFoV3lRb2ZfMDZMS1N6QmpucUdIVnhGYzBQTnlEQk14d2NzcFlOWkU1bFNndW9YZVBCaVdvQ1VoWlhZSXJBb2d2SHZtZzhLNFF1UEY5SjhvSThydVpQWjNwZGdjbzRhNDVMZW1IZWZKN0JNR1lvWEVmd3ZOTFlxMWxSNHZRSEtkYk5qQ3pwX1ZXeFhERFhNdHdueW9sMDZ2RWllbHQzcFUxTDRCUEt4aGljOUhkdGpkZU84MUQzQW5TbTRxNTdRZGptUDV2T3A3a215TFE3MTN4a0xBcjFhWENSaHJ2Mm5EZVl0NW50NnB6TVlvMg?oc=5",
+   "pub_ts": 1793104389.0,
+   "date": "27.10.2026, 14:33",
+   "cat": "phase2",
+   "sev": 1,
+   "dir": 0,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPMnJEaE00SzdDdmhwQVZHallpRTF0eHVTVmZZWnFoV3lRb2ZfMDZMS1N6QmpucUdIVnhGYzBQTnlEQk14d2NzcFlOWkU1bFNndW9YZVBCaVdvQ1VoWlhZSXJBb2d2SHZtZzhLNFF1UEY5SjhvSThydVpQWjNwZGdjbzRhNDVMZW1IZWZKN0JNR1lvWEVmd3ZOTFlxMWxSNHZRSEtkYk5qQ3pwX1ZXeFhERFhNdHdueW9sMDZ2RWllbHQzcFUxTDRCUEt4aGljOUhkdGpkZU84MUQzQW5TbTRxNTdRZGptUDV2T3A3a215TFE3MTN4a0xBcjFhWENSaHJ2Mm5EZVl0NW50NnB6TVlvMg?oc=5"
+    }
+   ],
+   "ncts": []
   },
   {
    "title": "MDT-BRIDGE Phase 2 Data Signals a Protocol-Driven Model for Adaptive Resectability Assessment in Neoadjuvant NSCLC - The Clinical Trial Vanguard",
