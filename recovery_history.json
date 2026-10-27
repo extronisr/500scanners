@@ -95,6 +95,14 @@
    "pivot": 80.27,
    "target": 86.13,
    "stop": 77.86
+  },
+  {
+   "ticker": "EQT",
+   "date": "2026-10-27",
+   "signal_price": 56.32,
+   "pivot": 56.07,
+   "target": 63.97,
+   "stop": 54.39
   }
  ]
 }
