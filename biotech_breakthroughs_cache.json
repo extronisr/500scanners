@@ -1,6 +1,39 @@
 {
- "fetched_at": "27.10.2026, 10:34",
+ "fetched_at": "27.10.2026, 11:04",
  "items": [
+  {
+   "title": "GSK’s B7-H3 ADC drives 67% cancer risk reduction in Hansoh's phase 3 China trial - Fierce Biotech",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOcFBjdG02QV9jYjVQZlV2ZHdIeWFJTF93elFaVnF3Vm5xUzlvdktvempjWkFQTVltcGEyM3l3LXl4LUotb1JvUk9oRFR5SXBOWnVLS05fQ2JvWkhycURJZlh1MFpyYURra0RXZnNOMjBUODNMcHpBbTM3Y19DVUlyUi05NzA2SU1QdGY1RWVvR3Z6TGJjT0o4?oc=5",
+   "pub_ts": 1793086118.0,
+   "date": "27.10.2026, 9:28",
+   "cat": "phase3",
+   "sev": 4,
+   "dir": 1,
+   "tickers": [],
+   "companies": [
+    "GSK",
+    "MRNA",
+    "MRK",
+    "NKTR"
+   ],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOcFBjdG02QV9jYjVQZlV2ZHdIeWFJTF93elFaVnF3Vm5xUzlvdktvempjWkFQTVltcGEyM3l3LXl4LUotb1JvUk9oRFR5SXBOWnVLS05fQ2JvWkhycURJZlh1MFpyYURra0RXZnNOMjBUODNMcHpBbTM3Y19DVUlyUi05NzA2SU1QdGY1RWVvR3Z6TGJjT0o4?oc=5"
+    },
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZUtEdnhwX21RTmI5LVh2c3pBWWV2Y19ySDhoV2Jpc1I3NDVDaFhvV1o0a2JHZ3VHNV9FR0ZkRkIxQUJtcjBRMGJDemdiQkF1N1RfSWlfZ0VsQ0QzZTdna3FnVllVUVdyYTNGVG02U2xpVXhHejlubmF6c3U1Q0UtYlYzM01fRWVBeC1CU3pJZ25hUTRpYXljcVVoQ211QktmUEpwVEpmazVDQWlSMWc?oc=5"
+    },
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQLWNXOEVpSWw4cHJ1cWVRRV9vWl95cGpIVnMyeUNLZXRTQzRNNDUxTnNNUTY5dU5FSl9iV2RVVlozZFJhbWNoME02NmNMMnhITjNIREM3S0FFejYtT0JHUWJQZkhoR3dqbUhfdkRMcDZMU2NWUHN1X0FxcDBkWkJidTlPZkRhZ0lfYTMyNmhLWXFiRWFiTFE?oc=5"
+    }
+   ],
+   "ncts": [
+    "NCT03036488"
+   ]
+  },
   {
    "title": "FDA Approves New Weight Loss Drug: Understanding Its Role and Distinctions - BusinessWorld Online",
    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPWVg5WXdXVEw1Z3B3V1MtZ3dBWUd0S1c3WE96OGJVeTEwbkxXSEJvTzVLajlqYk14dWtjQWltSEl6Mk5DanN3UklFM3pTaVlYZ1Z0ekxtUGMtbkdzb3NFcnV0VEt2QUp2Ym1DTGdDN1ZFSEZuSGFqQUJwajdfSmptZnY3R0hCQQ?oc=5",
@@ -58,8 +91,8 @@
   {
    "title": "FDA approves at-home subcutaneous induction for AbbVie’s Skyrizi in Crohn’s disease - The Pharmaletter",
    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOY0VwRVhZNWxEV0tXamtVdFlRcWdQSVJqZmVpNlpYNVVNc2ZfSXlucEdRSFVIeXA5bWhhNE92S19iLV9kanpiNTI0dkdiUll0M0VHbzVCd0NxZ1NQYmdrY1p6QWYzZFVPQ3R2NmpNSllNdmIyeVdUbnR6QlMyUmZqbndoWS1CaUlrTWgxN2twMThlTkVPRnRlbDV1eWJLS09jWVpoN25JTHpjRll2bWkwUVhQR2dCN05vZGdhNW00LWphb1AydjBJ?oc=5",
-   "pub_ts": 1793050425.0,
-   "date": "26.10.2026, 23:33",
+   "pub_ts": 1793050619.0,
+   "date": "26.10.2026, 23:36",
    "cat": "fda",
    "sev": 4,
    "dir": 1,
@@ -1445,39 +1478,6 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZmNPMnBXejBRc0pvZmhGWWVIYU1mbEhsXzJpbXdfYTBhc0hnRFZqdG1uZUpzY05oaHc3U3BFVTJMVktmbzJTR05odkxvVUF4alZSc1I3cDBaa200M1VwcFkzYmxoc0MxT2VZVmg2THA2cHduamdneFY5czVzd2Y1STlSZ3dwdUFob1NIMzNaX2g?oc=5"
-    },
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQLWNXOEVpSWw4cHJ1cWVRRV9vWl95cGpIVnMyeUNLZXRTQzRNNDUxTnNNUTY5dU5FSl9iV2RVVlozZFJhbWNoME02NmNMMnhITjNIREM3S0FFejYtT0JHUWJQZkhoR3dqbUhfdkRMcDZMU2NWUHN1X0FxcDBkWkJidTlPZkRhZ0lfYTMyNmhLWXFiRWFiTFE?oc=5"
-    },
-    {
-     "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT03036488"
-    }
-   ],
-   "ncts": [
-    "NCT03036488"
-   ]
-  },
-  {
-   "title": "ESMO: GSK cancer R&D chief says mo-rez data ‘reinforces our belief’ in ADC as phase 3 push ramps up - Fierce Biotech",
-   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZUtEdnhwX21RTmI5LVh2c3pBWWV2Y19ySDhoV2Jpc1I3NDVDaFhvV1o0a2JHZ3VHNV9FR0ZkRkIxQUJtcjBRMGJDemdiQkF1N1RfSWlfZ0VsQ0QzZTdna3FnVllVUVdyYTNGVG02U2xpVXhHejlubmF6c3U1Q0UtYlYzM01fRWVBeC1CU3pJZ25hUTRpYXljcVVoQ211QktmUEpwVEpmazVDQWlSMWc?oc=5",
-   "pub_ts": 1792793100.0,
-   "date": "24.10.2026, 1:05",
-   "cat": "phase3",
-   "sev": 3,
-   "dir": 0,
-   "tickers": [],
-   "companies": [
-    "GSK",
-    "MRNA",
-    "MRK",
-    "NKTR"
-   ],
-   "sources": [
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZUtEdnhwX21RTmI5LVh2c3pBWWV2Y19ySDhoV2Jpc1I3NDVDaFhvV1o0a2JHZ3VHNV9FR0ZkRkIxQUJtcjBRMGJDemdiQkF1N1RfSWlfZ0VsQ0QzZTdna3FnVllVUVdyYTNGVG02U2xpVXhHejlubmF6c3U1Q0UtYlYzM01fRWVBeC1CU3pJZ25hUTRpYXljcVVoQ211QktmUEpwVEpmazVDQWlSMWc?oc=5"
     },
     {
      "source": "Google News",
@@ -2981,6 +2981,24 @@
    "ncts": [
     "NCT07136766"
    ]
+  },
+  {
+   "title": "MDT-BRIDGE Phase 2 Data Signals a Protocol-Driven Model for Adaptive Resectability Assessment in Neoadjuvant NSCLC - The Clinical Trial Vanguard",
+   "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNQnlLZ2lVN0JSNHlIcFA5OGRLdkQ5c1E3RVI1OGM1ajNKell0ZG55cHAwdldxQU9OdmdYLVZFQzZXRlgxdE1QVzI1cTF3MUVxSTZ5TG1ZcHpSd2hXNjVOTHBfX3NWdDJNXzhoTlB6YmJPNExSQm50X01oZ3ZNNGkyWnc5SVlwLVFrcjNRYW5JcWdraFFUWDNyOUVBMFdFV0c2MFRnY0Y0VkJ6elE4UlcxWmNsOVZqQW5Pd0dWb0JESW8yNThvSWQxWW1FY1VfQmlQWUdmbUNuQ2F1NEJub3J6cGxJbEcwYUxEWVlENTZGdVh5UWc?oc=5",
+   "pub_ts": 1793090289.0,
+   "date": "27.10.2026, 10:38",
+   "cat": "phase2",
+   "sev": 1,
+   "dir": 0,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNQnlLZ2lVN0JSNHlIcFA5OGRLdkQ5c1E3RVI1OGM1ajNKell0ZG55cHAwdldxQU9OdmdYLVZFQzZXRlgxdE1QVzI1cTF3MUVxSTZ5TG1ZcHpSd2hXNjVOTHBfX3NWdDJNXzhoTlB6YmJPNExSQm50X01oZ3ZNNGkyWnc5SVlwLVFrcjNRYW5JcWdraFFUWDNyOUVBMFdFV0c2MFRnY0Y0VkJ6elE4UlcxWmNsOVZqQW5Pd0dWb0JESW8yNThvSWQxWW1FY1VfQmlQWUdmbUNuQ2F1NEJub3J6cGxJbEcwYUxEWVlENTZGdVh5UWc?oc=5"
+    }
+   ],
+   "ncts": []
   },
   {
    "title": "BPGbio Presents Phase 2 Glioblastoma Data Update at ESMO Congress 2026, Highlighting Median Overall Survival of 19.9 Months in MGMT-Unmethylated Patients - BioSpace",
