@@ -1,5 +1,5 @@
 {
- "fetched_at": "27.10.2026, 20:35",
+ "fetched_at": "27.10.2026, 21:04",
  "items": [
   {
    "title": "Pfizer's ELREXFIO meets primary endpoint in Phase 3 MagnetisMM-32 myeloma trial - Dealroom",
@@ -919,24 +919,6 @@
    "ncts": []
   },
   {
-   "title": "FDA approves Calrezdy (Fresenius Medcl Care)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219456",
-   "pub_ts": 1792368000.0,
-   "date": "19.10.2026",
-   "cat": "fda",
-   "sev": 4,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219456"
-    }
-   ],
-   "ncts": []
-  },
-  {
    "title": "FDA approves Cienby (Fresenius Medcl Care)",
    "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219455",
    "pub_ts": 1792368000.0,
@@ -951,6 +933,24 @@
      "source": "FDA · openFDA",
      "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219455"
     },
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219456"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA approves Calrezdy (Fresenius Medcl Care)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219456",
+   "pub_ts": 1792368000.0,
+   "date": "19.10.2026",
+   "cat": "fda",
+   "sev": 4,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
     {
      "source": "FDA · openFDA",
      "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219456"
@@ -979,6 +979,24 @@
    "ncts": []
   },
   {
+   "title": "FDA approves Brytly (Alcon Laboratories, Inc.)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220341",
+   "pub_ts": 1792108800.0,
+   "date": "16.10.2026",
+   "cat": "fda",
+   "sev": 4,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220341"
+    }
+   ],
+   "ncts": []
+  },
+  {
    "title": "FDA approves Yulzety (Rosemont Pharms)",
    "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221033",
    "pub_ts": 1792108800.0,
@@ -1000,24 +1018,6 @@
     {
      "source": "FDA · openFDA",
      "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220407"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "FDA approves Brytly (Alcon Laboratories, Inc.)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220341",
-   "pub_ts": 1792108800.0,
-   "date": "16.10.2026",
-   "cat": "fda",
-   "sev": 4,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220341"
     }
    ],
    "ncts": []
@@ -2444,8 +2444,8 @@
    "ncts": []
   },
   {
-   "title": "FDA approves generic Deflazacort (Teva Pharms Inc)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=217103",
+   "title": "FDA approves generic Estradiol And Levonorgestrel (Zydus Pharms)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220407",
    "pub_ts": 1792368000.0,
    "date": "19.10.2026",
    "cat": "fda",
@@ -2456,7 +2456,7 @@
    "sources": [
     {
      "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=217103"
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220407"
     }
    ],
    "ncts": []
@@ -2480,6 +2480,24 @@
    "ncts": []
   },
   {
+   "title": "FDA approves generic Deflazacort (Teva Pharms Inc)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=217103",
+   "pub_ts": 1792368000.0,
+   "date": "19.10.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=217103"
+    }
+   ],
+   "ncts": []
+  },
+  {
    "title": "FDA approves generic Eribulin Mesylate (Kindos)",
    "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=218930",
    "pub_ts": 1792368000.0,
@@ -2493,50 +2511,6 @@
     {
      "source": "FDA · openFDA",
      "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=218930"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "FDA approves generic Tofacitinib Citrate (Ajanta Pharma Ltd)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219542",
-   "pub_ts": 1792368000.0,
-   "date": "19.10.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219542"
-    },
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=218866"
-    },
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220010"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "FDA approves generic Estradiol And Levonorgestrel (Zydus Pharms)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220407",
-   "pub_ts": 1792368000.0,
-   "date": "19.10.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220407"
     }
    ],
    "ncts": []
@@ -2564,10 +2538,10 @@
    ]
   },
   {
-   "title": "FDA approves generic Cabozantinib S-Malate (Cipla)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=217870",
-   "pub_ts": 1792108800.0,
-   "date": "16.10.2026",
+   "title": "FDA approves generic Tofacitinib Citrate (Ajanta Pharma Ltd)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219542",
+   "pub_ts": 1792368000.0,
+   "date": "19.10.2026",
    "cat": "fda",
    "sev": 2,
    "dir": 1,
@@ -2576,25 +2550,15 @@
    "sources": [
     {
      "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=217870"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "FDA approves generic Upadacitinib (Aurobindo Pharma Ltd)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=218866",
-   "pub_ts": 1792108800.0,
-   "date": "16.10.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219542"
+    },
     {
      "source": "FDA · openFDA",
      "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=218866"
+    },
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220010"
     }
    ],
    "ncts": []
@@ -2653,6 +2617,42 @@
     {
      "source": "FDA · openFDA",
      "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220432"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA approves generic Cabozantinib S-Malate (Cipla)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=217870",
+   "pub_ts": 1792108800.0,
+   "date": "16.10.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=217870"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA approves generic Upadacitinib (Aurobindo Pharma Ltd)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=218866",
+   "pub_ts": 1792108800.0,
+   "date": "16.10.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=218866"
     }
    ],
    "ncts": []
@@ -2724,6 +2724,44 @@
    ]
   },
   {
+   "title": "FDA approves generic Ciprofloxacin And Dexamethasone (Alembic)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=217723",
+   "pub_ts": 1792022400.0,
+   "date": "15.10.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=217723"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA approves generic Sodium Phosphates (Amneal)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=218274",
+   "pub_ts": 1792022400.0,
+   "date": "15.10.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [
+    "AMRX"
+   ],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=218274"
+    }
+   ],
+   "ncts": []
+  },
+  {
    "title": "FDA approves generic Buprenorphine Hydrochloride (Gland)",
    "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221145",
    "pub_ts": 1792022400.0,
@@ -2763,24 +2801,6 @@
     {
      "source": "FDA · openFDA",
      "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=216758"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "FDA approves generic Ciprofloxacin And Dexamethasone (Alembic)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=217723",
-   "pub_ts": 1792022400.0,
-   "date": "15.10.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=217723"
     }
    ],
    "ncts": []
@@ -2875,26 +2895,6 @@
    ]
   },
   {
-   "title": "FDA approves generic Sodium Phosphates (Amneal)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=218274",
-   "pub_ts": 1792022400.0,
-   "date": "15.10.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [
-    "AMRX"
-   ],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=218274"
-    }
-   ],
-   "ncts": []
-  },
-  {
    "title": "FDA approves generic Lubiprostone (Humanwell Puracap)",
    "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221049",
    "pub_ts": 1791936000.0,
@@ -2926,24 +2926,6 @@
     {
      "source": "FDA · openFDA",
      "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=216758"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "FDA approves generic Amphotericin B (Qilu Pharm Hainan)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220139",
-   "pub_ts": 1791936000.0,
-   "date": "14.10.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220139"
     }
    ],
    "ncts": []
@@ -2991,6 +2973,24 @@
    "ncts": [
     "NCT05139316"
    ]
+  },
+  {
+   "title": "FDA approves generic Amphotericin B (Qilu Pharm Hainan)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220139",
+   "pub_ts": 1791936000.0,
+   "date": "14.10.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220139"
+    }
+   ],
+   "ncts": []
   },
   {
    "title": "Will Fast Track Status Change Astellas Pharma Stock Narrative - Simply Wall Street",
