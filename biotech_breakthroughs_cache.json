@@ -1,5 +1,5 @@
 {
- "fetched_at": "27.10.2026, 16:04",
+ "fetched_at": "27.10.2026, 16:34",
  "items": [
   {
    "title": "Tradipitant Cuts Semaglutide-Induced Vomiting in Phase 3 Trial - HCPLive",
@@ -144,6 +144,28 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOY0VwRVhZNWxEV0tXamtVdFlRcWdQSVJqZmVpNlpYNVVNc2ZfSXlucEdRSFVIeXA5bWhhNE92S19iLV9kanpiNTI0dkdiUll0M0VHbzVCd0NxZ1NQYmdrY1p6QWYzZFVPQ3R2NmpNSllNdmIyeVdUbnR6QlMyUmZqbndoWS1CaUlrTWgxN2twMThlTkVPRnRlbDV1eWJLS09jWVpoN25JTHpjRll2bWkwUVhQR2dCN05vZGdhNW00LWphb1AydjBJ?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA Approves At-Home Subcutaneous Induction for Risankizumab in Crohn Disease - The American Journal of Managed Care",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQcTNybjUzR0N4eDBmay12R3FtV0RBUzh6NUFhZzdQSGFZUTBWMjJrNVZZNG5vdF9uTFBOVUNrcXN2UmFETUtCYUZRVmNZZXdaUUkwQ2NLSk81YnNtR093RmFDTFRlbk1WVG9QaTg0WFhha0FULVE1eGNybHhjSEFqN0ZFdzBOV1NMbnBuMFR6SWZ0d19VaFpWT1kyWHhIdzlHTUx5YUJ3?oc=5",
+   "pub_ts": 1793043292.0,
+   "date": "26.10.2026, 21:34",
+   "cat": "fda",
+   "sev": 4,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQcTNybjUzR0N4eDBmay12R3FtV0RBUzh6NUFhZzdQSGFZUTBWMjJrNVZZNG5vdF9uTFBOVUNrcXN2UmFETUtCYUZRVmNZZXdaUUkwQ2NLSk81YnNtR093RmFDTFRlbk1WVG9QaTg0WFhha0FULVE1eGNybHhjSEFqN0ZFdzBOV1NMbnBuMFR6SWZ0d19VaFpWT1kyWHhIdzlHTUx5YUJ3?oc=5"
+    },
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNd2tENmhQbjBpdHdoTHptR1Y4TjIzejRtUWtWRkxaUjhybzhadTB4MjBTLVZLeEVTV2NwSk0yTVhqU2JaU0J0UXFIcVI0NzF4MG5BcHdYNUlfaXREUjJsSUdGV2NMMUtCSW1jakp0X3JadllsR0lZQWp5MEZVaEY4Vkc2ZUR4WExFdHc?oc=5"
     }
    ],
    "ncts": []
@@ -521,24 +543,6 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNd0JnQmlvQ3BVTmNaRHJ1YlhXUGdxQ09aTFRhUlAzdkVBa2FWZVplblB0M0tRTlVYMXlpbVRDZ0ZrbkxFSlFqNndpTjdBWlpEVTBEVkJBQW5PckNsS2t4NS1GY19HVnVlTDNYdlN3aUNZbF9kOVlCSDNxcy1JWVlRSWRhb1ltYmZ2M0tLWElYVVJUUmMza0NHMVdQS3FjeElzcmZId3VzenVXRHlTQnhtYmlfUXdQMkEyOXRJb0xNdEttT3I2VGU3c2FUQQ?oc=5"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "FDA Approves Subcutaneous Risankizumab Induction for Crohn’s Disease - HCPLive",
-   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNd2tENmhQbjBpdHdoTHptR1Y4TjIzejRtUWtWRkxaUjhybzhadTB4MjBTLVZLeEVTV2NwSk0yTVhqU2JaU0J0UXFIcVI0NzF4MG5BcHdYNUlfaXREUjJsSUdGV2NMMUtCSW1jakp0X3JadllsR0lZQWp5MEZVaEY4Vkc2ZUR4WExFdHc?oc=5",
-   "pub_ts": 1792787238.0,
-   "date": "23.10.2026, 23:27",
-   "cat": "fda",
-   "sev": 4,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNd2tENmhQbjBpdHdoTHptR1Y4TjIzejRtUWtWRkxaUjhybzhadTB4MjBTLVZLeEVTV2NwSk0yTVhqU2JaU0J0UXFIcVI0NzF4MG5BcHdYNUlfaXREUjJsSUdGV2NMMUtCSW1jakp0X3JadllsR0lZQWp5MEZVaEY4Vkc2ZUR4WExFdHc?oc=5"
     }
    ],
    "ncts": []
@@ -1804,7 +1808,7 @@
   },
   {
    "title": "Corcept Reports Positive Results from Phase 2 BELLA Trial of Lifyorli® Combined with Nab-Paclitaxel and Bevacizumab in Patients with Platinum-Resistant Ovarian Cancer - BioSpace",
-   "link": "https://news.google.com/rss/articles/CBMirgJBVV95cUxPYWhobHVtSHNJY2ttdmlEMHB6c2NLNnlUaFRqU3lFcFNER3dfRFJGeFlzVjJnaVdmSmp3UU1iLXFESmV2MGNQdGtSMjRBVkczVERZMmdTeWxPRExOeHNRWnc3QXZpQ3NPdkJkczUybkJ2MElmcGVreVVsY2VkdGRtTDU3T0M5bG1ULUZrX1Z1elpFYVFka2hDTnN3dlRHemJHYXNMWTZNU1N3RzlZYjZzOTVleVJjWUUzSExlY0lUTkJ0dWhwUS1fclh4WmpUemVQVHJfWm5JTU8xM3JpYU5IajcwcTZsYWRjSTFMcF9nODMyallDTVBDSHg1OHZJVFdkXzBqYkQxQXBQR2ljcU1SQjZjWkd4QmtXUkR6VWN0YmdfRndINUhGODM5dFVndw?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQd0VZMzJyVkIydTlVTFI2NkNyT2EteVhNSTVnSGNhOUZCTFlZSnA1Q1BhZUVEQUFiZ2t5RWtSeG5TTV9hTE5KX0MzSmJ5VlVkc1RvczV0YnZWYjhWd3NaSGwtS2RlSkxzZ3EtZkNrVlVjLXg1RmVKdzNIWE9lTTVXNkdtLWF4cFNJQUhWRm94RW1IVmZ1dXllc2pwVHJCTDhQeU5OV1Ezam5RMGJMUXpmaWJIZlAxWk0zc3Y2eDVPZkVQYkxzQzNUMjJiSjhXdWE0Q0s0a2FTTFJkN1pa?oc=5",
    "pub_ts": 1793026693.0,
    "date": "26.10.2026, 16:58",
    "cat": "phase2",
