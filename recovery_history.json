@@ -103,6 +103,22 @@
    "pivot": 56.07,
    "target": 63.97,
    "stop": 54.39
+  },
+  {
+   "ticker": "ECHO",
+   "date": "2026-10-28",
+   "signal_price": 94.3,
+   "pivot": 93.98,
+   "target": 105.23,
+   "stop": 91.16
+  },
+  {
+   "ticker": "TXRH",
+   "date": "2026-10-28",
+   "signal_price": 174.75,
+   "pivot": 172.94,
+   "target": 191.31,
+   "stop": 167.75
   }
  ]
 }
