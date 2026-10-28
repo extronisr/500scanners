@@ -1,5 +1,5 @@
 {
- "fetched_at": "28.10.2026, 1:35",
+ "fetched_at": "28.10.2026, 2:04",
  "items": [
   {
    "title": "Vanda eyes GLP-1 nausea indication with Nereus phase 3 win in hand - Fierce Pharma",
@@ -2977,42 +2977,6 @@
    ]
   },
   {
-   "title": "FDA approves generic Lubiprostone (Humanwell Puracap)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221049",
-   "pub_ts": 1791936000.0,
-   "date": "14.10.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221049"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "FDA approves generic Sucralfate (Novitium Pharma)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=216758",
-   "pub_ts": 1791936000.0,
-   "date": "14.10.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=216758"
-    }
-   ],
-   "ncts": []
-  },
-  {
    "title": "A Study to Evaluate the Efficacy and Safety of Obinutuzumab Versus MMF in Participants With Childhood Onset Idiopathic Nephrotic Syndrome",
    "link": "https://clinicaltrials.gov/study/NCT05627557",
    "pub_ts": 1791936000.0,
@@ -3054,64 +3018,6 @@
    ],
    "ncts": [
     "NCT05139316"
-   ]
-  },
-  {
-   "title": "FDA approves generic Amphotericin B (Qilu Pharm Hainan)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220139",
-   "pub_ts": 1791936000.0,
-   "date": "14.10.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220139"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "Efficacy and Safety of Ciprofloxacin Plus Fluocinolone Acetonide Otic Solution in the Treatment of Acute Otitis Externa",
-   "link": "https://clinicaltrials.gov/study/NCT04636957",
-   "pub_ts": 1791849600.0,
-   "date": "2026-10-13",
-   "cat": "phase3",
-   "sev": 2,
-   "dir": 0,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT04636957"
-    }
-   ],
-   "ncts": [
-    "NCT04636957"
-   ]
-  },
-  {
-   "title": "An 18-week Study to Evaluate a Test Product With a Marketed Prescription Product",
-   "link": "https://clinicaltrials.gov/study/NCT07136766",
-   "pub_ts": 1791849600.0,
-   "date": "2026-10-13",
-   "cat": "phase3",
-   "sev": 2,
-   "dir": 0,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT07136766"
-    }
-   ],
-   "ncts": [
-    "NCT07136766"
    ]
   },
   {
@@ -3924,48 +3830,6 @@
    ],
    "ncts": [
     "NCT05617313"
-   ]
-  },
-  {
-   "title": "Luveltamab Tazevibulin (STRO-002) in Infants and Children < 12 Years of Age With Relapsed/Refractory CBFA2T3::GLIS2 AML",
-   "link": "https://clinicaltrials.gov/study/NCT06679582",
-   "pub_ts": 1791849600.0,
-   "date": "2026-10-13",
-   "cat": "phase2",
-   "sev": 1,
-   "dir": 0,
-   "tickers": [],
-   "companies": [
-    "STRO"
-   ],
-   "sources": [
-    {
-     "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT06679582"
-    }
-   ],
-   "ncts": [
-    "NCT06679582"
-   ]
-  },
-  {
-   "title": "Evaluation of Safety, Tolerability, and Efficacy of INZ-701 in Adults With ABCC6 Deficiency Causing PXE",
-   "link": "https://clinicaltrials.gov/study/NCT05030831",
-   "pub_ts": 1791849600.0,
-   "date": "2026-10-13",
-   "cat": "phase2",
-   "sev": 1,
-   "dir": 0,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT05030831"
-    }
-   ],
-   "ncts": [
-    "NCT05030831"
    ]
   }
  ]
