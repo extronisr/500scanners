@@ -1,5 +1,5 @@
 {
- "fetched_at": "28.10.2026, 8:35",
+ "fetched_at": "28.10.2026, 9:04",
  "items": [
   {
    "title": "SLS Stock Gets A BlackRock Spotlight Ahead Of Phase 3 AML Data — Bulls Spot 2027 European GPS Approval Forecast - TradingView",
@@ -1132,24 +1132,6 @@
     {
      "source": "FDA",
      "link": "http://www.fda.gov/news-events/press-announcements/fda-approves-first-treatment-certain-people-bcg-unresponsive-bladder-cancer"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "Tezepelumab Meets Co-Primary End Points in Phase 3 CROSSING Trial in EoE - HCPLive",
-   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPT2lXYlJtNFJFVUpKc2NWalU4SXNsNVBsaWJxUFZjTUcyeDVQb1VKYkxGRjVNdl9VU0NqY3pRVkpZSkJvUk0tRGt2dEI3ZGRXbzlXdGpxUDVlc09ZUVRORUZMWDllRmFDMGx1Vlg0RzZJZHVVU1BkZUlPWE9HZEg4bnhzNU0teEJpckVpXzM0LW96WGxrSVJxNGRCTWJCbTVfYlNJ?oc=5",
-   "pub_ts": 1791961200.0,
-   "date": "14.10.2026, 10:00",
-   "cat": "phase3",
-   "sev": 4,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPT2lXYlJtNFJFVUpKc2NWalU4SXNsNVBsaWJxUFZjTUcyeDVQb1VKYkxGRjVNdl9VU0NqY3pRVkpZSkJvUk0tRGt2dEI3ZGRXbzlXdGpxUDVlc09ZUVRORUZMWDllRmFDMGx1Vlg0RzZJZHVVU1BkZUlPWE9HZEg4bnhzNU0teEJpckVpXzM0LW96WGxrSVJxNGRCTWJCbTVfYlNJ?oc=5"
     }
    ],
    "ncts": []
@@ -2564,6 +2546,32 @@
    "ncts": []
   },
   {
+   "title": "FDA approves generic Tofacitinib Citrate (Ajanta Pharma Ltd)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219542",
+   "pub_ts": 1792368000.0,
+   "date": "19.10.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219542"
+    },
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=218866"
+    },
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220010"
+    }
+   ],
+   "ncts": []
+  },
+  {
    "title": "FDA approves generic Estradiol And Levonorgestrel (Zydus Pharms)",
    "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220407",
    "pub_ts": 1792368000.0,
@@ -2618,24 +2626,6 @@
    "ncts": []
   },
   {
-   "title": "FDA approves generic Eribulin Mesylate (Kindos)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=218930",
-   "pub_ts": 1792368000.0,
-   "date": "19.10.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=218930"
-    }
-   ],
-   "ncts": []
-  },
-  {
    "title": "A Study of Rusfertide in Adults With Polycythemia Vera (PV)",
    "link": "https://clinicaltrials.gov/study/NCT05210790",
    "pub_ts": 1792368000.0,
@@ -2658,8 +2648,8 @@
    ]
   },
   {
-   "title": "FDA approves generic Tofacitinib Citrate (Ajanta Pharma Ltd)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219542",
+   "title": "FDA approves generic Eribulin Mesylate (Kindos)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=218930",
    "pub_ts": 1792368000.0,
    "date": "19.10.2026",
    "cat": "fda",
@@ -2670,15 +2660,7 @@
    "sources": [
     {
      "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219542"
-    },
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=218866"
-    },
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220010"
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=218930"
     }
    ],
    "ncts": []
