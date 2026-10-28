@@ -151,6 +151,14 @@
    "pivot": 136.02,
    "target": 147.62,
    "stop": 131.94
+  },
+  {
+   "ticker": "AON",
+   "date": "2026-10-28",
+   "signal_price": 315.72,
+   "pivot": 307.67,
+   "target": 349.01,
+   "stop": 298.44
   }
  ]
 }
