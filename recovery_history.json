@@ -119,6 +119,38 @@
    "pivot": 172.94,
    "target": 191.31,
    "stop": 167.75
+  },
+  {
+   "ticker": "BC",
+   "date": "2026-10-28",
+   "signal_price": 68.85,
+   "pivot": 68.33,
+   "target": 75.46,
+   "stop": 66.28
+  },
+  {
+   "ticker": "TNL",
+   "date": "2026-10-28",
+   "signal_price": 68.38,
+   "pivot": 67.78,
+   "target": 74.58,
+   "stop": 65.75
+  },
+  {
+   "ticker": "HLI",
+   "date": "2026-10-28",
+   "signal_price": 137.38,
+   "pivot": 134.65,
+   "target": 147.41,
+   "stop": 130.61
+  },
+  {
+   "ticker": "OSK",
+   "date": "2026-10-28",
+   "signal_price": 137.93,
+   "pivot": 136.02,
+   "target": 147.62,
+   "stop": 131.94
   }
  ]
 }
