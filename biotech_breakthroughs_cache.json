@@ -1,5 +1,5 @@
 {
- "fetched_at": "28.10.2026, 17:05",
+ "fetched_at": "28.10.2026, 17:35",
  "items": [
   {
    "title": "Personalized mRNA Vaccine Reduces Melanoma Recurrence Risk in Phase 3 Trial - Oncology News Central",
@@ -1166,19 +1166,27 @@
    "ncts": []
   },
   {
-   "title": "FDA Approves First Treatment for Certain People With BCG-Unresponsive Bladder Cancer",
-   "link": "http://www.fda.gov/news-events/press-announcements/fda-approves-first-treatment-certain-people-bcg-unresponsive-bladder-cancer",
-   "pub_ts": 1791990891.0,
-   "date": "14.10.2026, 18:14",
-   "cat": "fda",
-   "sev": 4,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
+   "title": "Sellas Sinks 18% as Phase 3 Leukemia Trial Reaches “Critical Milestone” Ahead of Final Data - TIKR.com",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOYlVZc21WSXRkR3I0U21UNnhhMHRlVWNBUTdXSEljSC1CY3NvWl95N2hzd3YxYzZIN3BFWVhlZWxReE9hZWxCak5PNTh1NXVYNDRzdGV4eFg4OV9nRTBwTDRRR1p2dzhpQVd1V2xybm9MSXFyUXMyVDNPaGZBNW4tUXE5VzR0NG9MSU15alJjWW4zWFVpVm8wX2ZRcWstR3JDVHBkVnJVck9lcUJmMzFZbUFrNzcyQQ?oc=5",
+   "pub_ts": 1793200950.0,
+   "date": "28.10.2026, 17:22",
+   "cat": "phase3",
+   "sev": 3,
+   "dir": 0,
+   "tickers": [
+    "GPS"
+   ],
+   "companies": [
+    "SLS"
+   ],
    "sources": [
     {
-     "source": "FDA",
-     "link": "http://www.fda.gov/news-events/press-announcements/fda-approves-first-treatment-certain-people-bcg-unresponsive-bladder-cancer"
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOYlVZc21WSXRkR3I0U21UNnhhMHRlVWNBUTdXSEljSC1CY3NvWl95N2hzd3YxYzZIN3BFWVhlZWxReE9hZWxCak5PNTh1NXVYNDRzdGV4eFg4OV9nRTBwTDRRR1p2dzhpQVd1V2xybm9MSXFyUXMyVDNPaGZBNW4tUXE5VzR0NG9MSU15alJjWW4zWFVpVm8wX2ZRcWstR3JDVHBkVnJVck9lcUJmMzFZbUFrNzcyQQ?oc=5"
+    },
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZ04wdl9yUlB1RVpsOFF6VHIyMExvYWxyYWtMVFdhcW1LOUdDNmJIcG9pX3JzQzNYMXNEbGZqM0N6XzhMSEljM3JQdDcyLTB2YVplU1hNdlRYV0ticWdnYV9BMmowaTJ5Snktc2hqZVhOdlhiM29hTkRfUGRwekFqUFhFLWktQ2NaS25ZLWs5Qld5YWFFR05mQXNR?oc=5"
     }
    ],
    "ncts": []
@@ -1197,28 +1205,6 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQMm1XbThSOENuR2JGSV9nNGNQV2ZrcUlGT2pFXzNjU3lLTU9oMEFoVUxuTDF1ODFFQTl3cVpqcWpWMzZjZjl2Qk1nRlJWYVFaRHpUaklaQWQ5U2pwM2FncHA2TmlvNkdnZTN2ZVlVMUJkRzF1X3Ntd2dSRUxEYUlhRHFfZTVhWDY1VVNjT05KV0lBbExTV0hCNG5pSk1SMUhqT3FpUEJTYUtQRTB2M2pRYXRWYWZaOFdaVElmaWg0X2M1Wk5Kem9nZnFhMU9EUWdQ?oc=5"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "SELLAS Life Sciences Reaches 80th Event in Phase 3 REGAL Trial of Galinpepimut-S (GPS) in Acute Myeloid Leukemia - Yahoo Finance",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZ04wdl9yUlB1RVpsOFF6VHIyMExvYWxyYWtMVFdhcW1LOUdDNmJIcG9pX3JzQzNYMXNEbGZqM0N6XzhMSEljM3JQdDcyLTB2YVplU1hNdlRYV0ticWdnYV9BMmowaTJ5Snktc2hqZVhOdlhiM29hTkRfUGRwekFqUFhFLWktQ2NaS25ZLWs5Qld5YWFFR05mQXNR?oc=5",
-   "pub_ts": 1793190900.0,
-   "date": "28.10.2026, 14:35",
-   "cat": "phase3",
-   "sev": 3,
-   "dir": 0,
-   "tickers": [
-    "GPS"
-   ],
-   "companies": [
-    "SLS"
-   ],
-   "sources": [
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZ04wdl9yUlB1RVpsOFF6VHIyMExvYWxyYWtMVFdhcW1LOUdDNmJIcG9pX3JzQzNYMXNEbGZqM0N6XzhMSEljM3JQdDcyLTB2YVplU1hNdlRYV0ticWdnYV9BMmowaTJ5Snktc2hqZVhOdlhiM29hTkRfUGRwekFqUFhFLWktQ2NaS25ZLWs5Qld5YWFFR05mQXNR?oc=5"
     }
    ],
    "ncts": []
