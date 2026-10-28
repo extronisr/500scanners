@@ -1,5 +1,5 @@
 {
- "fetched_at": "28.10.2026, 16:23",
+ "fetched_at": "28.10.2026, 16:35",
  "items": [
   {
    "title": "Endometrial Cancer Drug Reduced Death Risk by 32% in Phase 3 Trial - Technology Networks",
@@ -461,10 +461,14 @@
    "dir": 1,
    "tickers": [],
    "companies": [
-    "NDAQ",
-    "GMAB"
+    "GMAB",
+    "NDAQ"
    ],
    "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBnM0dHaE50dDJreDRNVzRObWpNRkgtTDZTN3NuUkE1azFzN1l5TVBmbTZQbVhpN2NoUWY4UzdhWFE2cE45ZXRrTERKZ0hRUmx3cWs4bEhQUFhPV1VIaHNYNl9PZUlEeGN6dk1zTmNKeWF6a3V2RE81OEVn?oc=5"
+    },
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPV3o3V0xZZWhpdmxCdFRhS01NR29LU09EdjFJUHZleUlKT0JncHhYVHB3aUhDS1MxOEdjN2hUYkFYTlRiYVdxWmlZZ1NqV2QyY3J4UzRSY2pxM29WWXlicXZSZzd2THd6WTVDME9Ya1Ntb0stUVBpQlQ1bmlFYWFnSy14aUtNWXJLTUE?oc=5"
@@ -472,10 +476,6 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQW5wU1hOWjhKTmFIWldBUzV4OTYyQUg3elpKQjhsMzJGaDNNWjIxbXZ5b042U3BkVE5PdDh4bDhRTUdEU3RFRllqVkMwQW1qLVk0a3NNQ3FPOXpVX3FYLWFCTVR3VndReWJKOC1OYm9kTFhsbG9ZWGlOb25PRGVhaEpaNjhEeXMxV1MtSWI5RXctaFJrSjAzMGYzd25lcDBmX05RZEd0cXNVRVpXcGZSN1NjZUlUcEx2?oc=5"
-    },
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQMFVHR3FYTDB0eGpqd3hCZkdSdzNkSWNjWDh5R0c5M2s2cE5TT1ZXd09EaXpCNjFGbnJMMUUxVV9FelZPMWZzdWs0S1I5WDFpangtMFlOVnBRdHlTX1lYUjN4cjQ0alozZ19EOWhxZ250Uzk3QjFkcVJQRTRVZExic21oRkdtRzFuMnRqMUhHS003VXVnTkUydHhDa1hIdHAtaFlZeTM5djU5bDN3Tm8wSXRNZ1RKYlZ2a3NyV09uYWhDWkNSWGdmUTFfellUS1E?oc=5"
     }
    ],
    "ncts": []
