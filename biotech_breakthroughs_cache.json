@@ -1,5 +1,5 @@
 {
- "fetched_at": "29.10.2026, 2:04",
+ "fetched_at": "29.10.2026, 2:35",
  "items": [
   {
    "title": "FDA Approves Rasonque for Previously Treated Advanced Pancreatic Cancer - Denkstrom",
@@ -2112,6 +2112,26 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZWg0YWdYYl9memhvMHBZdTZfcmV0U2hFT1lWb2NCUmREX1VmYnhjTzBvdEFFR3Q1ajFpUUNsSXZhaWZkenFRN3lNQ2lLZlk0RFhUUTZfZDdBRnRnWUdTV0hwYkNjVjJzYXFIbkFaa0xCcEtKaUxGZ3hyNjJVaFpFS3FHamJNbnlRcWhNRnBLZEE5dW1yTUY4Znl5c2pwQzJ2NFYw?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "HUTCHMED Announces FDA Orphan Drug Designation for Sovleplenib in Primary Immune Thrombocytopenia - Quiver Quantitative",
+   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPQTJkbG01ZFNMcjdWeVlKejZpZk1FNTJOVmxZbGNZNVEyNUNsdXFtODNSOVc4V05wdko0QkpMZF9pc2N6cnNlNDkzVV93SHVZVk04NVUycklRek1mU0tDODR0V1JJTzVCTU95R3dyZHBHTHdQQTZQTFhuNkM3U1E1YlFSczFsN3JFN1ZGNkxHX0plMGZ3NVBuWGpmNTVjbW5Cc3RYR3gxOERjTHZ3Y2ZvZGVtSFVGVUlOdWdFUE5RR1VtZDVZazE0WXVn?oc=5",
+   "pub_ts": 1793232600.0,
+   "date": "29.10.2026, 2:10",
+   "cat": "btd",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [
+    "HCM"
+   ],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPQTJkbG01ZFNMcjdWeVlKejZpZk1FNTJOVmxZbGNZNVEyNUNsdXFtODNSOVc4V05wdko0QkpMZF9pc2N6cnNlNDkzVV93SHVZVk04NVUycklRek1mU0tDODR0V1JJTzVCTU95R3dyZHBHTHdQQTZQTFhuNkM3U1E1YlFSczFsN3JFN1ZGNkxHX0plMGZ3NVBuWGpmNTVjbW5Cc3RYR3gxOERjTHZ3Y2ZvZGVtSFVGVUlOdWdFUE5RR1VtZDVZazE0WXVn?oc=5"
     }
    ],
    "ncts": []
