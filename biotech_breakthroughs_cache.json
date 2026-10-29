@@ -1,5 +1,5 @@
 {
- "fetched_at": "29.10.2026, 5:00",
+ "fetched_at": "29.10.2026, 5:34",
  "items": [
   {
    "title": "FDA Approves Rasonque for Previously Treated Advanced Pancreatic Cancer - Denkstrom",
@@ -1517,7 +1517,7 @@
   },
   {
    "title": "Novartis' Rhapsido touts solid efficacy with industry-best safety data in RMS phase 3 reveal - Fierce Pharma",
-   "link": "https://clinicaltrials.gov/study/NCT03832998",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNY0V6SzMwR1doeENaZFJzYXp2eUlMbDJkdExVcGI4d3BYUTB0OW41bUl0bXNVNHNndzdLX1p6X05yM3JGdHhsUTQwellqTmhJR1RmaVN2NzBzV0V5eWEyMTJ3ZEdtbTJqZTVGTWU1S1lSYzRpN0FoV2liRUpYQVdLVUY1aW9mQzg3Yjh3S3RfOWpmdDNnYnFSX0VyZHZQNDdXaFRfU05qMW5KdE9INHVNSkdQNk5CVXpaZG5r?oc=5",
    "pub_ts": 1793027135.0,
    "date": "26.10.2026, 17:05",
    "cat": "phase3",
@@ -3376,6 +3376,24 @@
    "ncts": [
     "NCT05882357"
    ]
+  },
+  {
+   "title": "Ono Pharma Announces Results From Five Phase 2 Clinical Studies of ONO-1110, an Endocannabinoid Modulator - Business Wire",
+   "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQN1dnV0gta2VDdU1pcUJpSXF4RTJqMUMtRkh6MV9yQVhZdzF5TUZ3OGJUV2N4ZHlhZkliaTNJQ05zaVZTeUNNMzBmSkxuOHdSNFpWWDRXbDMtSmxScHRrTnhBTU1FNW1vUkVtSWZmWVdFREVzcU5TZVRFN2dUVk9jZ1M5MW9RUG8wTV9yQy02d0JTWWwyMG1IRWJiN2dtVVE5M0VpNER2WGQzazVXLVBhWFkyNVdZZkFpYUVhTV95Y0xPVFBKMmpPT3RGWTFDdzdmVWhVYUFyR0VvWkYxZC1UbUZNOFNJUU9ZekVsVmhCVXN4Vjg?oc=5",
+   "pub_ts": 1793242800.0,
+   "date": "29.10.2026, 5:00",
+   "cat": "phase2",
+   "sev": 1,
+   "dir": 0,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQN1dnV0gta2VDdU1pcUJpSXF4RTJqMUMtRkh6MV9yQVhZdzF5TUZ3OGJUV2N4ZHlhZkliaTNJQ05zaVZTeUNNMzBmSkxuOHdSNFpWWDRXbDMtSmxScHRrTnhBTU1FNW1vUkVtSWZmWVdFREVzcU5TZVRFN2dUVk9jZ1M5MW9RUG8wTV9yQy02d0JTWWwyMG1IRWJiN2dtVVE5M0VpNER2WGQzazVXLVBhWFkyNVdZZkFpYUVhTV95Y0xPVFBKMmpPT3RGWTFDdzdmVWhVYUFyR0VvWkYxZC1UbUZNOFNJUU9ZekVsVmhCVXN4Vjg?oc=5"
+    }
+   ],
+   "ncts": []
   },
   {
    "title": "Mineralys Therapeutics Announces Publication of Phase 2 Explore-CKD Trial Results for Lorundrostat in Kidney International - Yahoo Finance",
