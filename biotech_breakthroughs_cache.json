@@ -1,5 +1,5 @@
 {
- "fetched_at": "29.10.2026, 5:34",
+ "fetched_at": "29.10.2026, 6:05",
  "items": [
   {
    "title": "FDA Approves Rasonque for Previously Treated Advanced Pancreatic Cancer - Denkstrom",
@@ -3376,6 +3376,24 @@
    "ncts": [
     "NCT05882357"
    ]
+  },
+  {
+   "title": "Ono Pharma Announces Results From Five Phase 2 Clinical Studies of ONO-1110, an Endocannabinoid Modulator - Yahoo Finance",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxObTRFblk0YXJLTWxuZ1U3RlNZdkZQTUR3bGY0YXU5ZGJ5Qm14WkFWd0dPbFpFbWtjQ3E4UmIzOGplZDNpQi1KSnJmNEtZOG1MSXNudlMycEZ6RFNsNzZXbGI4dTgwSDVMOGg5bnBXU1Q2UE1fUHRtd1dUcVBYcXFTdmJIOC1uX0gzUGxnYzA2VW5CMXdsNDZLWHJB?oc=5",
+   "pub_ts": 1793242800.0,
+   "date": "29.10.2026, 5:00",
+   "cat": "phase2",
+   "sev": 1,
+   "dir": 0,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxObTRFblk0YXJLTWxuZ1U3RlNZdkZQTUR3bGY0YXU5ZGJ5Qm14WkFWd0dPbFpFbWtjQ3E4UmIzOGplZDNpQi1KSnJmNEtZOG1MSXNudlMycEZ6RFNsNzZXbGI4dTgwSDVMOGg5bnBXU1Q2UE1fUHRtd1dUcVBYcXFTdmJIOC1uX0gzUGxnYzA2VW5CMXdsNDZLWHJB?oc=5"
+    }
+   ],
+   "ncts": []
   },
   {
    "title": "Ono Pharma Announces Results From Five Phase 2 Clinical Studies of ONO-1110, an Endocannabinoid Modulator - Business Wire",
