@@ -1,5 +1,5 @@
 {
- "fetched_at": "29.10.2026, 6:05",
+ "fetched_at": "29.10.2026, 6:34",
  "items": [
   {
    "title": "FDA Approves Rasonque for Previously Treated Advanced Pancreatic Cancer - Denkstrom",
@@ -125,8 +125,8 @@
    "ncts": []
   },
   {
-   "title": "SLS Stock Gets A BlackRock Spotlight Ahead Of Phase 3 AML Data — Bulls Spot 2027 European GPS Approval Forecast - Yahoo Finance",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOMUJkdVJJQmFBc1BqN3Y0U0JHZmk3TWYyR0Q5YU51VXlSX29HX3UxcG9JQzVfRXZpVEFjS2tHMTZybUdDNVlLaXRRazg0S1NGUkF3VXhIYVRrMUlqcHJoY2RXOWptcmFDUGV2XzE2V0hkMmtyaHdSd29qYkh6a0Q1NUd5SXZqdFdDSVMwbmZrT3V2cmN0dTUzZXYzbw?oc=5",
+   "title": "SLS Stock Gets A BlackRock Spotlight Ahead Of Phase 3 AML Data — Bulls Spot 2027 European GPS Approval Forecast - TradingView",
+   "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQdHNkM1I1dmZYVXBWaC1ZTTB4bTdmc2hqd3NuU0RleW82NU13d0pwYkduN2p6R3hHS1VTNlM2RGxxWFZQTTZQU0lZTWd6Q1E1RVFubGFSQTFLa1ppVm0yQXE0bWwzZzZuaUdTeGw3QkJKbUtxWVJIMDFlNzhVUlFhVzFJV2RacERuNzl4YjJ4cHhrZzExVWlLM2NEVVVraXhtTDlhcW1aQy1jZ3FIWGQtTUdVRndJRVJmek1LLU1obmlJc3Uta2JncUpRVlRNLWdFREVzZTdzNEFtUFJjNXNuNjRaYkVGbTBPQzB3Qzc1MW55bTlSdkh5MWhrbFRjMHM?oc=5",
    "pub_ts": 1793165400.0,
    "date": "28.10.2026, 7:30",
    "cat": "phase3",
@@ -139,11 +139,11 @@
    "sources": [
     {
      "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOMUJkdVJJQmFBc1BqN3Y0U0JHZmk3TWYyR0Q5YU51VXlSX29HX3UxcG9JQzVfRXZpVEFjS2tHMTZybUdDNVlLaXRRazg0S1NGUkF3VXhIYVRrMUlqcHJoY2RXOWptcmFDUGV2XzE2V0hkMmtyaHdSd29qYkh6a0Q1NUd5SXZqdFdDSVMwbmZrT3V2cmN0dTUzZXYzbw?oc=5"
+     "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQdHNkM1I1dmZYVXBWaC1ZTTB4bTdmc2hqd3NuU0RleW82NU13d0pwYkduN2p6R3hHS1VTNlM2RGxxWFZQTTZQU0lZTWd6Q1E1RVFubGFSQTFLa1ppVm0yQXE0bWwzZzZuaUdTeGw3QkJKbUtxWVJIMDFlNzhVUlFhVzFJV2RacERuNzl4YjJ4cHhrZzExVWlLM2NEVVVraXhtTDlhcW1aQy1jZ3FIWGQtTUdVRndJRVJmek1LLU1obmlJc3Uta2JncUpRVlRNLWdFREVzZTdzNEFtUFJjNXNuNjRaYkVGbTBPQzB3Qzc1MW55bTlSdkh5MWhrbFRjMHM?oc=5"
     },
     {
      "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQdHNkM1I1dmZYVXBWaC1ZTTB4bTdmc2hqd3NuU0RleW82NU13d0pwYkduN2p6R3hHS1VTNlM2RGxxWFZQTTZQU0lZTWd6Q1E1RVFubGFSQTFLa1ppVm0yQXE0bWwzZzZuaUdTeGw3QkJKbUtxWVJIMDFlNzhVUlFhVzFJV2RacERuNzl4YjJ4cHhrZzExVWlLM2NEVVVraXhtTDlhcW1aQy1jZ3FIWGQtTUdVRndJRVJmek1LLU1obmlJc3Uta2JncUpRVlRNLWdFREVzZTdzNEFtUFJjNXNuNjRaYkVGbTBPQzB3Qzc1MW55bTlSdkh5MWhrbFRjMHM?oc=5"
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOMUJkdVJJQmFBc1BqN3Y0U0JHZmk3TWYyR0Q5YU51VXlSX29HX3UxcG9JQzVfRXZpVEFjS2tHMTZybUdDNVlLaXRRazg0S1NGUkF3VXhIYVRrMUlqcHJoY2RXOWptcmFDUGV2XzE2V0hkMmtyaHdSd29qYkh6a0Q1NUd5SXZqdFdDSVMwbmZrT3V2cmN0dTUzZXYzbw?oc=5"
     }
    ],
    "ncts": []
@@ -2987,6 +2987,26 @@
    "ncts": [
     "NCT04630028"
    ]
+  },
+  {
+   "title": "Gilead ‘sitting on a foundational asset’ after oral UC drug's phase 2 win - Fierce Biotech",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQk1pcThrdzdkZXd3d1RCOFZ1czZRdmc3TFU0STJ1bHNkUmZWZFZDcVJoTEdPRjRFVEhoVW43a3duNkxOMDdtMkUwbjhBSTQ1anZtR012TDRuTWJxNThQRi1WQ0xvTTJaeGV6Vzh3SzhCbFI0c3V6VnR0QklBNmx4b0RwWGI4SWtlVWlqQ1BMQkxBbXcza2Mtd0hzQ1AxMEpSVjNfa2s2WjlKcHpKUUE?oc=5",
+   "pub_ts": 1792417591.0,
+   "date": "19.10.2026, 16:46",
+   "cat": "phase2",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [
+    "GILD"
+   ],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQk1pcThrdzdkZXd3d1RCOFZ1czZRdmc3TFU0STJ1bHNkUmZWZFZDcVJoTEdPRjRFVEhoVW43a3duNkxOMDdtMkUwbjhBSTQ1anZtR012TDRuTWJxNThQRi1WQ0xvTTJaeGV6Vzh3SzhCbFI0c3V6VnR0QklBNmx4b0RwWGI4SWtlVWlqQ1BMQkxBbXcza2Mtd0hzQ1AxMEpSVjNfa2s2WjlKcHpKUUE?oc=5"
+    }
+   ],
+   "ncts": []
   },
   {
    "title": "CorMedix Therapeutics Announces FDA Acceptance and Priority Review of REZZAYO sNDA for Prophylaxis of Invasive Fungal Disease - Quiver Quantitative",
