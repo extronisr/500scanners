@@ -1,5 +1,5 @@
 {
- "fetched_at": "29.10.2026, 16:05",
+ "fetched_at": "29.10.2026, 16:34",
  "items": [
   {
    "title": "FDA approves dostarlimab (Jemperli) for certain patients with locally advanced rectal cancer - 2 Minute Medicine",
@@ -1319,6 +1319,26 @@
    "ncts": []
   },
   {
+   "title": "aTyr Pharma Announces Publication of Results from the Phase 3 EFZO-FIT™ Study of Efzofitimod in Pulmonary Sarcoidosis in The Lancet Respiratory Medicine - Yahoo Finance",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNS0o5T2Vzb2UwZ3B6YkxTVURuSXdFUm9KZ05KWlFVdFNxdTk5OTVvRXlIQnNYWHhqVHVZRHdGWlI3UF9QZmVQeUVHSU1NcHNTLTFmbmpVYjRTZTBpbTcyUWRFbGdCQ0hZb2hqdldyelJSVFRwS0N0U2Jjbmg4YnU2RE9SQ29BNGdkeEVLa0h4UXJHVjZuY0NwaHNHZHZmZGNmUF9Kaw?oc=5",
+   "pub_ts": 1793275200.0,
+   "date": "29.10.2026, 14:00",
+   "cat": "phase3",
+   "sev": 3,
+   "dir": 0,
+   "tickers": [],
+   "companies": [
+    "ATYR"
+   ],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNS0o5T2Vzb2UwZ3B6YkxTVURuSXdFUm9KZ05KWlFVdFNxdTk5OTVvRXlIQnNYWHhqVHVZRHdGWlI3UF9QZmVQeUVHSU1NcHNTLTFmbmpVYjRTZTBpbTcyUWRFbGdCQ0hZb2hqdldyelJSVFRwS0N0U2Jjbmg4YnU2RE9SQ29BNGdkeEVLa0h4UXJHVjZuY0NwaHNHZHZmZGNmUF9Kaw?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
    "title": "BioNTech's Cancer Portfolio: A Statistically Significant Win That the Sponsors Themselves Won't Over - ad-hoc-news.de",
    "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQblI4cTZmSXk3a3BnN3l3RzFHa1RtdS1PVkVCbkgyS1RsSXhjc1EyaXAxNnZIUTRLd3FDQVlHWk1idmVmY3lJU1JOd2JaY0RiRkFzdEVteW9oYVdJVWFtazluN1I5dkJjQ2FLalN3Z0I5Z2FiWklhWFlnV2xnbEdENDdSZ01OQWwwVkxEN1JDTWxNUG1DRVluRk1Ta09rSHlZcXNiNG5iV01DeERtbUZPdFVsLWRZSlZmUWRZRDYtVGp5M19aRDhZQ2hrUE9GYTI3WjcwMzFXbXhUNVFVRU1pQVB4d2M4dU1mYXRwMVFjZzU3RXd0amJHNWJB?oc=5",
    "pub_ts": 1793269871.0,
@@ -1358,9 +1378,9 @@
   },
   {
    "title": "Sellas Sinks 18% as Phase 3 Leukemia Trial Reaches “Critical Milestone” Ahead of Final Data - TIKR.com",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOYlVZc21WSXRkR3I0U21UNnhhMHRlVWNBUTdXSEljSC1CY3NvWl95N2hzd3YxYzZIN3BFWVhlZWxReE9hZWxCak5PNTh1NXVYNDRzdGV4eFg4OV9nRTBwTDRRR1p2dzhpQVd1V2xybm9MSXFyUXMyVDNPaGZBNW4tUXE5VzR0NG9MSU15alJjWW4zWFVpVm8wX2ZRcWstR3JDVHBkVnJVck9lcUJmMzFZbUFrNzcyQQ?oc=5",
-   "pub_ts": 1793200950.0,
-   "date": "28.10.2026, 17:22",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQM1FBVzR5Q1Q4T2FSODdHMnpxUkVPN3d5SGFTS3BwZXZ1YzFFYnNKMkw2QW42QjRLb1UyWXhmWkJwMnYtclI1b2xqNFowRk9tSGFSOEtiS0gwQ0NQNHBnNTU4dDdQZ1Jja3FWV09HWXVHYllPQW95SzRsQkVzamNhSDBRNG1qWHhnY0hzYWlwR1UxaHVqYlJjWUNROFlvLTJkYmdxemdRTHNHV0tNRl94eG1DeXM?oc=5",
+   "pub_ts": 1793201891.0,
+   "date": "28.10.2026, 17:38",
    "cat": "phase3",
    "sev": 3,
    "dir": 0,
@@ -1371,6 +1391,10 @@
     "SLS"
    ],
    "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQM1FBVzR5Q1Q4T2FSODdHMnpxUkVPN3d5SGFTS3BwZXZ1YzFFYnNKMkw2QW42QjRLb1UyWXhmWkJwMnYtclI1b2xqNFowRk9tSGFSOEtiS0gwQ0NQNHBnNTU4dDdQZ1Jja3FWV09HWXVHYllPQW95SzRsQkVzamNhSDBRNG1qWHhnY0hzYWlwR1UxaHVqYlJjWUNROFlvLTJkYmdxemdRTHNHV0tNRl94eG1DeXM?oc=5"
+    },
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOYlVZc21WSXRkR3I0U21UNnhhMHRlVWNBUTdXSEljSC1CY3NvWl95N2hzd3YxYzZIN3BFWVhlZWxReE9hZWxCak5PNTh1NXVYNDRzdGV4eFg4OV9nRTBwTDRRR1p2dzhpQVd1V2xybm9MSXFyUXMyVDNPaGZBNW4tUXE5VzR0NG9MSU15alJjWW4zWFVpVm8wX2ZRcWstR3JDVHBkVnJVck9lcUJmMzFZbUFrNzcyQQ?oc=5"
