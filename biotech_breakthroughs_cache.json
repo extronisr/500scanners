@@ -1,6 +1,30 @@
 {
- "fetched_at": "29.10.2026, 21:35",
+ "fetched_at": "29.10.2026, 22:05",
  "items": [
+  {
+   "title": "Recon: FDA approves Stada’s Lucentis biosimilar; Lilly says ‘triple-G’ candidate bests Ozempic in diabetes - RAPS",
+   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOcDlfZEhYbnA4ZFQwUjBzUmF5ZHlEYnZlaUIxcjlDNTRsS0I4WWRRZVVwdW9zTnBEbDVTOWNYSld6ODVRZlpaaUZqXzkwRkh5ckt5RVFETWlxcXBjcy0xQzczNVIyODJvVGZ1T3YxZ3JldmhEWExpbzFKR3JzVENUaTN1NGNHWWVzV0xQcEJ5eV9uUjBqNG5hdlN2SXc3T0xvSkI4ZEdGRUtjUHJIRFo5d2VxQnY0Nmkyc0Q0aHVIaWE3RWNOQlJrX0FaX01MV2ZJMXZv?oc=5",
+   "pub_ts": 1793302200.0,
+   "date": "29.10.2026, 21:30",
+   "cat": "fda",
+   "sev": 4,
+   "dir": 1,
+   "tickers": [],
+   "companies": [
+    "LLY"
+   ],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOcDlfZEhYbnA4ZFQwUjBzUmF5ZHlEYnZlaUIxcjlDNTRsS0I4WWRRZVVwdW9zTnBEbDVTOWNYSld6ODVRZlpaaUZqXzkwRkh5ckt5RVFETWlxcXBjcy0xQzczNVIyODJvVGZ1T3YxZ3JldmhEWExpbzFKR3JzVENUaTN1NGNHWWVzV0xQcEJ5eV9uUjBqNG5hdlN2SXc3T0xvSkI4ZEdGRUtjUHJIRFo5d2VxQnY0Nmkyc0Q0aHVIaWE3RWNOQlJrX0FaX01MV2ZJMXZv?oc=5"
+    },
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVXlpZDlrelNCNVpQQVM4OVczTFhCWEIxbVZPcHlEdDFkYzA3WG56dm5jY2pDVXRzSGItVjdlVGZLRENUaVc1VGZvd21RbUNqQVVOVHphQkYyTFRwSWFLNmI3YWlnR3NhUDJFcXh0T1MzbTdvTnZRWFNwYmxleFBKTVNNeFNPeDZ0SUZ2TUtzZHliSzdSbm5la05ja1hKX1Vsc0dITDVtTk04S2daQ1E?oc=5"
+    }
+   ],
+   "ncts": []
+  },
   {
    "title": "After 30 Years, FDA Approves First-Ever Drug For a Rare Neurological Disorder - ScienceAlert",
    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQVjlhRjZMOG1uaGgxeDhCTk1sdnY3bGk2RHdjN2RRMkc1bG9aWTNmWUEtaVJrQTBzTm9KNExUTHgtdWRxNnd5VUdabGRZMkdTbl9QNC00WjJsdDJRbHFoS3VDbnltWm9xX0hQRWJyanpybFhudDFHSnBKc2VpTGxYTi1zZmMyNmxwb3B2eWN1WWVEZXpiZHdJeWFIOF9UTlRnS0QyOUR0b1o?oc=5",
@@ -284,24 +308,6 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOWFVWbzZnbE8taDNFRXhMM3FyRTZseHdGZEM5enJKMEwxYmJMOEotekRtdTZqMGliYmxlbWl0bFhTZnUydFA5V0dDV2w3SThlN1ZLNFJUenNXR0tGblVtNjBhUzhsNkYtMDNiaEFtMXdEaFF5cnBSbVpxeGcwd1B1Y0JKVTYzRUJqSkhKOWFxYTZqWUw5M0JYbXpsN3hENG1UaTlrMFpB?oc=5"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "FDA approves Lucamzi™ - biosimilar to Lucentis® - TradingView",
-   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVXlpZDlrelNCNVpQQVM4OVczTFhCWEIxbVZPcHlEdDFkYzA3WG56dm5jY2pDVXRzSGItVjdlVGZLRENUaVc1VGZvd21RbUNqQVVOVHphQkYyTFRwSWFLNmI3YWlnR3NhUDJFcXh0T1MzbTdvTnZRWFNwYmxleFBKTVNNeFNPeDZ0SUZ2TUtzZHliSzdSbm5la05ja1hKX1Vsc0dITDVtTk04S2daQ1E?oc=5",
-   "pub_ts": 1793112000.0,
-   "date": "27.10.2026, 16:40",
-   "cat": "fda",
-   "sev": 4,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVXlpZDlrelNCNVpQQVM4OVczTFhCWEIxbVZPcHlEdDFkYzA3WG56dm5jY2pDVXRzSGItVjdlVGZLRENUaVc1VGZvd21RbUNqQVVOVHphQkYyTFRwSWFLNmI3YWlnR3NhUDJFcXh0T1MzbTdvTnZRWFNwYmxleFBKTVNNeFNPeDZ0SUZ2TUtzZHliSzdSbm5la05ja1hKX1Vsc0dITDVtTk04S2daQ1E?oc=5"
     }
    ],
    "ncts": []
@@ -3713,8 +3719,8 @@
    ]
   },
   {
-   "title": "Iovance plummets on new phase 2 Amtagvi data for non-small-cell lung cancer - TradingView",
-   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOa2VDRmtsZUtENkcyZjhKdkl4RGVGVmViUmlMTXM1ZFUtTzZ3RFRHZ3BVTzB1RjV4OWU5ZktaYmgtNGlQM0tlMERaSkFoYmdMa1U1QTdrRzVTVjYzemFjQnJueHVWbWx3WkJoU01PS1NDdUJYUzdKWGxmdXpXazJwNXZ6cFpSSmQtU1NLZF9yaG5iQVhuWU5Xd09MN0lFeTZBNWZ4SGhwMHhsN3VWZHh3dWZWMUZLQV9sZ1BiU2hHU2NlQW5zMlF3RFcwakJ2Uzh5M1lEWg?oc=5",
+   "title": "Iovance plummets on new phase 2 Amtagvi data for non-small-cell lung cancer - Seeking Alpha",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxObzJwaVI1OWk3RHUySEM5aFNnSnhBMjUzWnJhWmJJRmJuVndzVWNiQTRZeUNJeWNiR1pPaG9YN25jZVJ2WG9aQkYwdU1lZE5yMUlnQUFsZDczdlpKX3p6SExqU19ZS2RIMEZGZENqNE1GVU12cVhPeTlSdEdWeGE0bWFHWFNZUldYVlVoWTJwYlA1VVc2UWdwRE1MaXU5SnJXS0h1SjBVdWRoUQ?oc=5",
    "pub_ts": 1793301090.0,
    "date": "29.10.2026, 21:11",
    "cat": "phase2",
@@ -3725,6 +3731,10 @@
     "IOVA"
    ],
    "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxObzJwaVI1OWk3RHUySEM5aFNnSnhBMjUzWnJhWmJJRmJuVndzVWNiQTRZeUNJeWNiR1pPaG9YN25jZVJ2WG9aQkYwdU1lZE5yMUlnQUFsZDczdlpKX3p6SExqU19ZS2RIMEZGZENqNE1GVU12cVhPeTlSdEdWeGE0bWFHWFNZUldYVlVoWTJwYlA1VVc2UWdwRE1MaXU5SnJXS0h1SjBVdWRoUQ?oc=5"
+    },
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOa2VDRmtsZUtENkcyZjhKdkl4RGVGVmViUmlMTXM1ZFUtTzZ3RFRHZ3BVTzB1RjV4OWU5ZktaYmgtNGlQM0tlMERaSkFoYmdMa1U1QTdrRzVTVjYzemFjQnJueHVWbWx3WkJoU01PS1NDdUJYUzdKWGxmdXpXazJwNXZ6cFpSSmQtU1NLZF9yaG5iQVhuWU5Xd09MN0lFeTZBNWZ4SGhwMHhsN3VWZHh3dWZWMUZLQV9sZ1BiU2hHU2NlQW5zMlF3RFcwakJ2Uzh5M1lEWg?oc=5"
@@ -3817,6 +3827,30 @@
    "ncts": [
     "NCT06341712"
    ]
+  },
+  {
+   "title": "Rockville's MacroGenics Reports Encouraging Phase 2 Cancer Results as LINNET Trial Advances After Safety Hold - BioBuzz",
+   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNSVFOaTlpeEVlNmk5X3VkUmRDT05tWGlFRUdQYnNVcDBLT2k4Q2VRZW9PRTItMC1GT2pZby1PMzl6SWZzYVp4aWsxU043Y2tVZXhuX3VjbGI0MzlRbldMNU1DN2RfWHdjQzVXTFlXM1lMWXBDVEdsM1dPcGFJRVpiLXVNNjlRVUh0dnJORlp4Zndha2NsUlpPRFZvY1pNRHZCR0w2ZUFnMTBmb29vdDRNOFFMZkxkWE5DUWZMd3l6cW5zZHZiLXJhcVhZcXhWUQ?oc=5",
+   "pub_ts": 1793213772.0,
+   "date": "28.10.2026, 20:56",
+   "cat": "phase2",
+   "sev": 1,
+   "dir": 0,
+   "tickers": [],
+   "companies": [
+    "MGNX"
+   ],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNSVFOaTlpeEVlNmk5X3VkUmRDT05tWGlFRUdQYnNVcDBLT2k4Q2VRZW9PRTItMC1GT2pZby1PMzl6SWZzYVp4aWsxU043Y2tVZXhuX3VjbGI0MzlRbldMNU1DN2RfWHdjQzVXTFlXM1lMWXBDVEdsM1dPcGFJRVpiLXVNNjlRVUh0dnJORlp4Zndha2NsUlpPRFZvY1pNRHZCR0w2ZUFnMTBmb29vdDRNOFFMZkxkWE5DUWZMd3l6cW5zZHZiLXJhcVhZcXhWUQ?oc=5"
+    },
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOZ25ROGtYRFNWWmgxVlhTekF2ci1WYnhsdE9oa3hMc1VzT1lXWWViejAxRi05RHYxUElqdzVfMVk1cHI4TlVtM2s0SHFwQkREV1V1NWxHZzFueF9rRXJRelFCaTJBZmptOTcxZFo0ckJRVlFYLWxPSWRKdDVyTFlYVTY1VjNSdVRQZUtzVHZmVnN0MGNQVkUxY0x4bXA5Ny0yNkV4X25tTlo4UGRfLXgwNElWdWlfSEtmcFNsWk5MV3ZNMmR6cm1ZaVUyTFd1VW9wZmx4azdOUFR3UQ?oc=5"
+    }
+   ],
+   "ncts": []
   },
   {
    "title": "Mineralys Therapeutics Announces Publication of Phase 2 Explore-CKD Trial Results for Lorundrostat in Kidney International - Yahoo Finance",
@@ -4091,26 +4125,6 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPd2lnSW1hbTZIM0lLNFR3Z25RX3JTUXdFc3pBM05RYXBrUkg1dFdpeGlEUzNreTE0UnptN0RfSHJlLXVPM2hydndvblBwUWxPbWJ1ZlBJYm1uaFVrYUV5ZkpOa3VDdWNxTEo0UmFRR2NfNm5hWjNSOURSemtncGRtUFhqdUZ3cXZ6RlFpWEZJaHNRc2RwQVpiU01KQllkU29fb1czUGFHVnVTd0RSZEhVV0pwb1Jydkl0akthV0NB?oc=5"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "MacroGenics Reports Encouraging Interim Phase 2 LINNET Data for Lorigerlimab in Clear Cell Gynecologic Cancer - Quiver Quantitative",
-   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOZ25ROGtYRFNWWmgxVlhTekF2ci1WYnhsdE9oa3hMc1VzT1lXWWViejAxRi05RHYxUElqdzVfMVk1cHI4TlVtM2s0SHFwQkREV1V1NWxHZzFueF9rRXJRelFCaTJBZmptOTcxZFo0ckJRVlFYLWxPSWRKdDVyTFlYVTY1VjNSdVRQZUtzVHZmVnN0MGNQVkUxY0x4bXA5Ny0yNkV4X25tTlo4UGRfLXgwNElWdWlfSEtmcFNsWk5MV3ZNMmR6cm1ZaVUyTFd1VW9wZmx4azdOUFR3UQ?oc=5",
-   "pub_ts": 1793013600.0,
-   "date": "26.10.2026, 13:20",
-   "cat": "phase2",
-   "sev": 1,
-   "dir": 0,
-   "tickers": [],
-   "companies": [
-    "MGNX"
-   ],
-   "sources": [
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOZ25ROGtYRFNWWmgxVlhTekF2ci1WYnhsdE9oa3hMc1VzT1lXWWViejAxRi05RHYxUElqdzVfMVk1cHI4TlVtM2s0SHFwQkREV1V1NWxHZzFueF9rRXJRelFCaTJBZmptOTcxZFo0ckJRVlFYLWxPSWRKdDVyTFlYVTY1VjNSdVRQZUtzVHZmVnN0MGNQVkUxY0x4bXA5Ny0yNkV4X25tTlo4UGRfLXgwNElWdWlfSEtmcFNsWk5MV3ZNMmR6cm1ZaVUyTFd1VW9wZmx4azdOUFR3UQ?oc=5"
     }
    ],
    "ncts": []

@@ -159,6 +159,30 @@
    "pivot": 307.67,
    "target": 349.01,
    "stop": 298.44
+  },
+  {
+   "ticker": "AOS",
+   "date": "2026-10-29",
+   "signal_price": 63.51,
+   "pivot": 62.62,
+   "target": 70.69,
+   "stop": 60.74
+  },
+  {
+   "ticker": "DVA",
+   "date": "2026-10-29",
+   "signal_price": 193.83,
+   "pivot": 188.37,
+   "target": 205.65,
+   "stop": 182.72
+  },
+  {
+   "ticker": "MLM",
+   "date": "2026-10-29",
+   "signal_price": 534.38,
+   "pivot": 518.66,
+   "target": 572.4,
+   "stop": 503.1
   }
  ]
 }
