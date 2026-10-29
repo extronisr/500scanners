@@ -183,6 +183,14 @@
    "pivot": 518.66,
    "target": 572.4,
    "stop": 503.1
+  },
+  {
+   "ticker": "HR",
+   "date": "2026-10-29",
+   "signal_price": 18.13,
+   "pivot": 18.07,
+   "target": 19.31,
+   "stop": 17.53
   }
  ]
 }
