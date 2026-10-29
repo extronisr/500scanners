@@ -1,5 +1,5 @@
 {
- "fetched_at": "29.10.2026, 17:34",
+ "fetched_at": "29.10.2026, 18:04",
  "items": [
   {
    "title": "FDA approves dostarlimab (Jemperli) for certain patients with locally advanced rectal cancer - 2 Minute Medicine",
@@ -1249,6 +1249,26 @@
     {
      "source": "FDA · openFDA",
      "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220341"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "Geron Halts Phase 3 Imetelstat Trial in Relapsed/Refractory Myelofibrosis - Targeted Oncology",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZUN3WXB4Uzh0VjFtWm5oVERoZzBPTUx6YzdMVEE1M3BibnNvRTJ3Z0tWaFJLNU0wMTFPbDM0MWZEUTFGRXhjYW1RU0ZCZU1VUHB1NTl2NWpWZVY5SXJlWG90YlNDWF9RLTFvOEF2UktZeHVDWXhpQ3lpWEFTNkJ0dFladXZRQmxjTnI5Smt5N1JrQ2dSbU5IaGFZdUd3NER0WU9jWnhRUW9qZw?oc=5",
+   "pub_ts": 1793288758.0,
+   "date": "29.10.2026, 17:45",
+   "cat": "hold",
+   "sev": 3,
+   "dir": -1,
+   "tickers": [],
+   "companies": [
+    "GERN"
+   ],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZUN3WXB4Uzh0VjFtWm5oVERoZzBPTUx6YzdMVEE1M3BibnNvRTJ3Z0tWaFJLNU0wMTFPbDM0MWZEUTFGRXhjYW1RU0ZCZU1VUHB1NTl2NWpWZVY5SXJlWG90YlNDWF9RLTFvOEF2UktZeHVDWXhpQ3lpWEFTNkJ0dFladXZRQmxjTnI5Smt5N1JrQ2dSbU5IaGFZdUd3NER0WU9jWnhRUW9qZw?oc=5"
     }
    ],
    "ncts": []
