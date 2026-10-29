@@ -1,5 +1,5 @@
 {
- "fetched_at": "29.10.2026, 8:05",
+ "fetched_at": "29.10.2026, 8:35",
  "items": [
   {
    "title": "FDA Approves Rasonque for Previously Treated Advanced Pancreatic Cancer - Denkstrom",
@@ -1184,24 +1184,6 @@
    "ncts": []
   },
   {
-   "title": "FDA approves Brytly (Alcon Labs Inc)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220341",
-   "pub_ts": 1792108800.0,
-   "date": "16.10.2026",
-   "cat": "fda",
-   "sev": 4,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220341"
-    }
-   ],
-   "ncts": []
-  },
-  {
    "title": "FDA approves Yulzety (Rosemont Pharms)",
    "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221033",
    "pub_ts": 1792108800.0,
@@ -1223,6 +1205,24 @@
     {
      "source": "FDA · openFDA",
      "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220407"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA approves Brytly (Alcon Labs Inc)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220341",
+   "pub_ts": 1792108800.0,
+   "date": "16.10.2026",
+   "cat": "fda",
+   "sev": 4,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220341"
     }
    ],
    "ncts": []
@@ -2577,24 +2577,6 @@
    "ncts": []
   },
   {
-   "title": "FDA approves generic Teriparatide (Dr Reddys)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=214412",
-   "pub_ts": 1792713600.0,
-   "date": "23.10.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=214412"
-    }
-   ],
-   "ncts": []
-  },
-  {
    "title": "FDA approves generic Trimethoprim (Bionpharma)",
    "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221194",
    "pub_ts": 1792713600.0,
@@ -2608,6 +2590,24 @@
     {
      "source": "FDA · openFDA",
      "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221194"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA approves generic Teriparatide (Dr Reddys)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=214412",
+   "pub_ts": 1792713600.0,
+   "date": "23.10.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=214412"
     }
    ],
    "ncts": []
@@ -2763,24 +2763,6 @@
    "ncts": []
   },
   {
-   "title": "FDA approves generic Afatinib Dimaleate (Msn)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=210804",
-   "pub_ts": 1792540800.0,
-   "date": "21.10.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=210804"
-    }
-   ],
-   "ncts": []
-  },
-  {
    "title": "FDA approves generic Amlodipine Besylate And Valsartan (Cadila Pharms Ltd)",
    "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=205797",
    "pub_ts": 1792540800.0,
@@ -2794,6 +2776,24 @@
     {
      "source": "FDA · openFDA",
      "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=205797"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA approves generic Afatinib Dimaleate (Msn)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=210804",
+   "pub_ts": 1792540800.0,
+   "date": "21.10.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=210804"
     }
    ],
    "ncts": []
@@ -3029,24 +3029,6 @@
    "ncts": []
   },
   {
-   "title": "FDA approves generic Estradiol And Levonorgestrel (Zydus Pharms)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220407",
-   "pub_ts": 1792368000.0,
-   "date": "19.10.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220407"
-    }
-   ],
-   "ncts": []
-  },
-  {
    "title": "FDA approves generic Romidepsin (Zydus Pharms)",
    "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220783",
    "pub_ts": 1792368000.0,
@@ -3149,10 +3131,10 @@
    ]
   },
   {
-   "title": "FDA approves generic Progesterone (Novast Labs)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219588",
-   "pub_ts": 1792108800.0,
-   "date": "16.10.2026",
+   "title": "FDA approves generic Estradiol And Levonorgestrel (Zydus Pharms)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220407",
+   "pub_ts": 1792368000.0,
+   "date": "19.10.2026",
    "cat": "fda",
    "sev": 2,
    "dir": 1,
@@ -3161,29 +3143,7 @@
    "sources": [
     {
      "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219588"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "FDA approves generic Atropine Sulfate (Sentiss Pharma)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219628",
-   "pub_ts": 1792108800.0,
-   "date": "16.10.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219628"
-    },
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220432"
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220407"
     }
    ],
    "ncts": []
@@ -3238,6 +3198,46 @@
     {
      "source": "FDA · openFDA",
      "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=218866"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA approves generic Progesterone (Novast Labs)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219588",
+   "pub_ts": 1792108800.0,
+   "date": "16.10.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219588"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA approves generic Atropine Sulfate (Sentiss Pharma)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219628",
+   "pub_ts": 1792108800.0,
+   "date": "16.10.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219628"
+    },
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220432"
     }
    ],
    "ncts": []
