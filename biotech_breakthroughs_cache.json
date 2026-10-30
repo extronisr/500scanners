@@ -1,5 +1,5 @@
 {
- "fetched_at": "30.10.2026, 12:34",
+ "fetched_at": "30.10.2026, 12:50",
  "items": [
   {
    "title": "Sun Pharma stock in focus after US FDA approves drug for psoriatic arthritis - Business Today",
@@ -1289,6 +1289,24 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdnRKTWNmOTVxT3ZlaEdoSjI1XzJCclY4RW1xUUtkV2Z4TjFmSk55UllWdURTbjJkblBSRW9OdWlMY1VDWVc2cDNNUFNGZ1VyWm1yVW1tb25yWmZVRF9MaUhmSERnM3BYMGtYUkNYejlaYTV3U3EzcnFtanl5S1BVdEVBZVM5eVduSndCeGgwTlZXajdpbmhETA?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "In late-breaking phase 3 results, pozdeutinurad lowered serum urate through 12 months in patients with uncontrolled gout - 2 Minute Medicine",
+   "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPMnRLQy1pc011aHpzX1JEdEhhRVZSc1JwTnJDNndyaWdSVmtYRlZWMmpxZy01eHFRT3YwMUg3YmwyVy0tUGVnWTJpSVFlVF9TUERCWlNUVHFMUTlhTUhZUXMzQW1BNDVOM0xNWWpSWE5QMGZVd2dGNHV3cmpvZmF3U2JDbEpwV0lFb2tMODRHVHhEVjcwMGJFQ3Q0RHN4OFZZM1hTNXpnZXlqalpycjRBeFFuOXJBeEdpZFJDcjYyWEQ5dS01WDJqRzNoOEE2M2V3XzJmNDg3Q1FyQ2tCeEdPOVctSG1fT1E?oc=5",
+   "pub_ts": 1793356875.0,
+   "date": "30.10.2026, 12:41",
+   "cat": "phase3",
+   "sev": 3,
+   "dir": 0,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPMnRLQy1pc011aHpzX1JEdEhhRVZSc1JwTnJDNndyaWdSVmtYRlZWMmpxZy01eHFRT3YwMUg3YmwyVy0tUGVnWTJpSVFlVF9TUERCWlNUVHFMUTlhTUhZUXMzQW1BNDVOM0xNWWpSWE5QMGZVd2dGNHV3cmpvZmF3U2JDbEpwV0lFb2tMODRHVHhEVjcwMGJFQ3Q0RHN4OFZZM1hTNXpnZXlqalpycjRBeFFuOXJBeEdpZFJDcjYyWEQ5dS01WDJqRzNoOEE2M2V3XzJmNDg3Q1FyQ2tCeEdPOVctSG1fT1E?oc=5"
     }
    ],
    "ncts": []
