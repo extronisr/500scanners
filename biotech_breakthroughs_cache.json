@@ -1,5 +1,5 @@
 {
- "fetched_at": "30.10.2026, 20:35",
+ "fetched_at": "30.10.2026, 21:05",
  "items": [
   {
    "title": "NRx Pharmaceuticals receives FDA approval for ketamine drug By Investing.com - Investing.com Canada",
@@ -2963,6 +2963,24 @@
    "ncts": []
   },
   {
+   "title": "FDA approves generic Propranolol Hydrochloride (Senores Pharms)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=216072",
+   "pub_ts": 1792972800.0,
+   "date": "26.10.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=216072"
+    }
+   ],
+   "ncts": []
+  },
+  {
    "title": "FDA approves generic Epinephrine (Gland)",
    "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220400",
    "pub_ts": 1792972800.0,
@@ -3275,6 +3293,42 @@
    "ncts": []
   },
   {
+   "title": "FDA approves generic Afatinib Dimaleate (Msn)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=210804",
+   "pub_ts": 1792540800.0,
+   "date": "21.10.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=210804"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA approves generic Amlodipine Besylate And Valsartan (Cadila Pharms Ltd)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=205797",
+   "pub_ts": 1792540800.0,
+   "date": "21.10.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=205797"
+    }
+   ],
+   "ncts": []
+  },
+  {
    "title": "Brentuximab Vedotin Plus Lenalidomide and Rituximab for the Treatment of Relapsed/Refractory DLBCL",
    "link": "https://clinicaltrials.gov/study/NCT04404283",
    "pub_ts": 1792540800.0,
@@ -3317,42 +3371,6 @@
    "ncts": [
     "NCT05502341"
    ]
-  },
-  {
-   "title": "FDA approves generic Afatinib Dimaleate (Msn)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=210804",
-   "pub_ts": 1792540800.0,
-   "date": "21.10.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=210804"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "FDA approves generic Amlodipine Besylate And Valsartan (Cadila Pharms Ltd)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=205797",
-   "pub_ts": 1792540800.0,
-   "date": "21.10.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=205797"
-    }
-   ],
-   "ncts": []
   },
   {
    "title": "Samsung Bioepis' first ADC drug candidate wins US FDA Fast Track designation - 머니투데이",
@@ -3473,26 +3491,6 @@
    "ncts": []
   },
   {
-   "title": "A Study of Ustekinumab in Pediatric Participants With Moderately to Severely Active Ulcerative Colitis (UC)",
-   "link": "https://clinicaltrials.gov/study/NCT04630028",
-   "pub_ts": 1792454400.0,
-   "date": "2026-10-20",
-   "cat": "phase3",
-   "sev": 2,
-   "dir": 0,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT04630028"
-    }
-   ],
-   "ncts": [
-    "NCT04630028"
-   ]
-  },
-  {
    "title": "FDA approves generic Brivaracetam (Zydus Lifesciences)",
    "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221301",
    "pub_ts": 1792454400.0,
@@ -3517,6 +3515,26 @@
     }
    ],
    "ncts": []
+  },
+  {
+   "title": "A Study of Ustekinumab in Pediatric Participants With Moderately to Severely Active Ulcerative Colitis (UC)",
+   "link": "https://clinicaltrials.gov/study/NCT04630028",
+   "pub_ts": 1792454400.0,
+   "date": "2026-10-20",
+   "cat": "phase3",
+   "sev": 2,
+   "dir": 0,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "ClinicalTrials.gov",
+     "link": "https://clinicaltrials.gov/study/NCT04630028"
+    }
+   ],
+   "ncts": [
+    "NCT04630028"
+   ]
   },
   {
    "title": "Gilead ‘sitting on a foundational asset’ after oral UC drug's phase 2 win - Fierce Biotech",
@@ -3557,28 +3575,6 @@
     }
    ],
    "ncts": []
-  },
-  {
-   "title": "A Study of Rusfertide in Adults With Polycythemia Vera (PV)",
-   "link": "https://clinicaltrials.gov/study/NCT05210790",
-   "pub_ts": 1792368000.0,
-   "date": "2026-10-19",
-   "cat": "phase3",
-   "sev": 2,
-   "dir": 0,
-   "tickers": [],
-   "companies": [
-    "PTGX"
-   ],
-   "sources": [
-    {
-     "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT05210790"
-    }
-   ],
-   "ncts": [
-    "NCT05210790"
-   ]
   },
   {
    "title": "FDA approves generic Romidepsin (Zydus Pharms)",
@@ -3677,6 +3673,28 @@
     }
    ],
    "ncts": []
+  },
+  {
+   "title": "A Study of Rusfertide in Adults With Polycythemia Vera (PV)",
+   "link": "https://clinicaltrials.gov/study/NCT05210790",
+   "pub_ts": 1792368000.0,
+   "date": "2026-10-19",
+   "cat": "phase3",
+   "sev": 2,
+   "dir": 0,
+   "tickers": [],
+   "companies": [
+    "PTGX"
+   ],
+   "sources": [
+    {
+     "source": "ClinicalTrials.gov",
+     "link": "https://clinicaltrials.gov/study/NCT05210790"
+    }
+   ],
+   "ncts": [
+    "NCT05210790"
+   ]
   },
   {
    "title": "A Study of Orforglipron (LY3502970) Compared With Dapagliflozin in Adult Participants With Type 2 Diabetes and Inadequate Glycemic Control With Metformin",
