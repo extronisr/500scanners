@@ -191,6 +191,14 @@
    "pivot": 18.07,
    "target": 19.31,
    "stop": 17.53
+  },
+  {
+   "ticker": "CRH",
+   "date": "2026-10-30",
+   "signal_price": 89.9,
+   "pivot": 86.9,
+   "target": 95.18,
+   "stop": 84.29
   }
  ]
 }
