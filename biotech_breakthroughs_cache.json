@@ -1,5 +1,5 @@
 {
- "fetched_at": "30.10.2026, 20:04",
+ "fetched_at": "30.10.2026, 20:35",
  "items": [
   {
    "title": "NRx Pharmaceuticals receives FDA approval for ketamine drug By Investing.com - Investing.com Canada",
@@ -2954,21 +2954,7 @@
     {
      "source": "FDA · openFDA",
      "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=217267"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "FDA approves generic Propranolol Hydrochloride (Senores Pharms)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=216072",
-   "pub_ts": 1792972800.0,
-   "date": "26.10.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
+    },
     {
      "source": "FDA · openFDA",
      "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=216072"
@@ -3289,42 +3275,6 @@
    "ncts": []
   },
   {
-   "title": "FDA approves generic Afatinib Dimaleate (Msn)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=210804",
-   "pub_ts": 1792540800.0,
-   "date": "21.10.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=210804"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "FDA approves generic Amlodipine Besylate And Valsartan (Cadila Pharms Ltd)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=205797",
-   "pub_ts": 1792540800.0,
-   "date": "21.10.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=205797"
-    }
-   ],
-   "ncts": []
-  },
-  {
    "title": "Brentuximab Vedotin Plus Lenalidomide and Rituximab for the Treatment of Relapsed/Refractory DLBCL",
    "link": "https://clinicaltrials.gov/study/NCT04404283",
    "pub_ts": 1792540800.0,
@@ -3367,6 +3317,42 @@
    "ncts": [
     "NCT05502341"
    ]
+  },
+  {
+   "title": "FDA approves generic Afatinib Dimaleate (Msn)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=210804",
+   "pub_ts": 1792540800.0,
+   "date": "21.10.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=210804"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA approves generic Amlodipine Besylate And Valsartan (Cadila Pharms Ltd)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=205797",
+   "pub_ts": 1792540800.0,
+   "date": "21.10.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=205797"
+    }
+   ],
+   "ncts": []
   },
   {
    "title": "Samsung Bioepis' first ADC drug candidate wins US FDA Fast Track designation - 머니투데이",
@@ -3487,6 +3473,26 @@
    "ncts": []
   },
   {
+   "title": "A Study of Ustekinumab in Pediatric Participants With Moderately to Severely Active Ulcerative Colitis (UC)",
+   "link": "https://clinicaltrials.gov/study/NCT04630028",
+   "pub_ts": 1792454400.0,
+   "date": "2026-10-20",
+   "cat": "phase3",
+   "sev": 2,
+   "dir": 0,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "ClinicalTrials.gov",
+     "link": "https://clinicaltrials.gov/study/NCT04630028"
+    }
+   ],
+   "ncts": [
+    "NCT04630028"
+   ]
+  },
+  {
    "title": "FDA approves generic Brivaracetam (Zydus Lifesciences)",
    "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221301",
    "pub_ts": 1792454400.0,
@@ -3511,26 +3517,6 @@
     }
    ],
    "ncts": []
-  },
-  {
-   "title": "A Study of Ustekinumab in Pediatric Participants With Moderately to Severely Active Ulcerative Colitis (UC)",
-   "link": "https://clinicaltrials.gov/study/NCT04630028",
-   "pub_ts": 1792454400.0,
-   "date": "2026-10-20",
-   "cat": "phase3",
-   "sev": 2,
-   "dir": 0,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT04630028"
-    }
-   ],
-   "ncts": [
-    "NCT04630028"
-   ]
   },
   {
    "title": "Gilead ‘sitting on a foundational asset’ after oral UC drug's phase 2 win - Fierce Biotech",
@@ -3571,6 +3557,28 @@
     }
    ],
    "ncts": []
+  },
+  {
+   "title": "A Study of Rusfertide in Adults With Polycythemia Vera (PV)",
+   "link": "https://clinicaltrials.gov/study/NCT05210790",
+   "pub_ts": 1792368000.0,
+   "date": "2026-10-19",
+   "cat": "phase3",
+   "sev": 2,
+   "dir": 0,
+   "tickers": [],
+   "companies": [
+    "PTGX"
+   ],
+   "sources": [
+    {
+     "source": "ClinicalTrials.gov",
+     "link": "https://clinicaltrials.gov/study/NCT05210790"
+    }
+   ],
+   "ncts": [
+    "NCT05210790"
+   ]
   },
   {
    "title": "FDA approves generic Romidepsin (Zydus Pharms)",
@@ -3671,28 +3679,6 @@
    "ncts": []
   },
   {
-   "title": "A Study of Rusfertide in Adults With Polycythemia Vera (PV)",
-   "link": "https://clinicaltrials.gov/study/NCT05210790",
-   "pub_ts": 1792368000.0,
-   "date": "2026-10-19",
-   "cat": "phase3",
-   "sev": 2,
-   "dir": 0,
-   "tickers": [],
-   "companies": [
-    "PTGX"
-   ],
-   "sources": [
-    {
-     "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT05210790"
-    }
-   ],
-   "ncts": [
-    "NCT05210790"
-   ]
-  },
-  {
    "title": "A Study of Orforglipron (LY3502970) Compared With Dapagliflozin in Adult Participants With Type 2 Diabetes and Inadequate Glycemic Control With Metformin",
    "link": "https://clinicaltrials.gov/study/NCT06192108",
    "pub_ts": 1792108800.0,
@@ -3781,8 +3767,8 @@
   {
    "title": "Acumen halts Alzheimer’s drug after phase 2 trial fails By Investing.com - Investing.com India",
    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNT0FQMThBR3JPLXBNREtGZUNCZFB0ai1QZGxoaWd6S05lY2w1SWJMX0Z2RkQ1d0ZQYlRlX2o2STc5R0picGJJaDY5VmpabUFOUzlXejl1MEt6X2QxRHl1SHhfNHJrdUpQUC1iYkVXZUdJOHRnQWdqM3ZVcmdRaDNOMzloUm5xNk55bWMwRXRuaWQ2eVlkaG5HVlZGYl9scjRWTHdYdG9keGJwYlRXZXZ5a2RQWHZEUQ?oc=5",
-   "pub_ts": 1793358892.0,
-   "date": "30.10.2026, 13:14",
+   "pub_ts": 1793359675.0,
+   "date": "30.10.2026, 13:27",
    "cat": "phase2",
    "sev": 1,
    "dir": -1,
@@ -4341,7 +4327,7 @@
   },
   {
    "title": "2026 ESMO | Innovent Announcement Phase 2 Data Presentation for IBI354 (HER2 ADC) In First-line Treatment of Breast Cancer - The Manila Times",
-   "link": "https://news.google.com/rss/articles/CBMinwJBVV95cUxOaW43aHEwb1dRc1pDbFcwejI0N3R5LUxnNFA0dHlqVTZYSzRNcHdqSWNRMjBTcGp0bEV2dnJ0emU2V0dIeVdyMnhLVGlUSm82ZnBLRHRxeDVCbU1LeFhORF9TNlhlZnRCZXFZYUd4Si1XNnVNWEc5UTZNWkEwT3dvWGU2QVJOVDJmS3EzdW1TWldMYndTN3k0WHBIR19XNnpFTDdaeEJBcmliTzFLbzh4OURkNHlRa0FSSVhQNzB4UGpCNFJvZ1hjcVZ1RldyWUU2Q2p6dXhpa0x5eWh6c01UdDR4NWo1eUVhU2dlSHpuT1FEZ0dvWEU4YV9FMVV6RGFkLW1vR3c5ZWpSb2xSdExtU2ZmVlhKcmtWUHdtRUpxb9IBnwJBVV95cUxOaW43aHEwb1dRc1pDbFcwejI0N3R5LUxnNFA0dHlqVTZYSzRNcHdqSWNRMjBTcGp0bEV2dnJ0emU2V0dIeVdyMnhLVGlUSm82ZnBLRHRxeDVCbU1LeFhORF9TNlhlZnRCZXFZYUd4Si1XNnVNWEc5UTZNWkEwT3dvWGU2QVJOVDJmS3EzdW1TWldMYndTN3k0WHBIR19XNnpFTDdaeEJBcmliTzFLbzh4OURkNHlRa0FSSVhQNzB4UGpCNFJvZ1hjcVZ1RldyWUU2Q2p6dXhpa0x5eWh6c01UdDR4NWo1eUVhU2dlSHpuT1FEZ0dvWEU4YV9FMVV6RGFkLW1vR3c5ZWpSb2xSdExtU2ZmVlhKcmtWUHdtRUpxbw?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNYngzbk5mUEtkREdxUzVrOTRVcl8ySnJaa0o3UHJFbHpoTzA3MEhFTFRGZUJnVkRmWHc0aDRGeHhIbWFxb1dBMUN0YTBkRUtLSUgyMU11aXRmazJZZmxBbmRwbWlpY09ZU0ZOX2Z1U2d2U2xySHVPcHhPVHByZXFhd1VhdFZlLW9wS1dHRGIxYTY2djdlbjA5Wk50cGkzWWF3dGNUZXpIczlSdElkRnE4NklsV2xIakNENHhOQmJRWndYazV3b0E2ek9hX3NtRzdFazFsMFpUX3ctdk9sWFVGZW9FZnM3VXZweUZ2TlNuRFZqN3ZTNllGdzcwalA4N3FmUjhXY0k1a3lNUWEtUEhHZ2JzNFRPUDZUd1HSAZ8CQVVfeXFMTmluN2hxMG9XUXNaQ2xXMHoyNDd0eS1MZzRQNHR5alU2WEs0TXB3akljUTIwU3BqdGxFdnZydHplNldHSHlXcjJ4S1RpVEpvNmZwS0R0cXg1Qm1NS3hYTkRfUzZYZWZ0QmVxWWFHeEotVzZ1TVhHOVE2TVpBME93b1hlNkFSTlQyZktxM3VtU1pXTGJ3Uzd5NFhwSEdfVzZ6RUw3WnhCQXJpYk8xS284eDlEZDR5UWtBUklYUDcweFBqQjRSb2dYY3FWdUZXcllFNkNqenV4aWtMeXloenNNVHQ0eDVqNXlFYVNnZUh6bk9RRGdHb1hFOGFfRTFVekRhZC1tb0d3OWVqUm9sUnRMbVNmZlZYSnJrVlB3bUVKcW8?oc=5",
    "pub_ts": 1792916967.0,
    "date": "25.10.2026, 10:29",
    "cat": "phase2",
@@ -4352,11 +4338,11 @@
    "sources": [
     {
      "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMinwJBVV95cUxOaW43aHEwb1dRc1pDbFcwejI0N3R5LUxnNFA0dHlqVTZYSzRNcHdqSWNRMjBTcGp0bEV2dnJ0emU2V0dIeVdyMnhLVGlUSm82ZnBLRHRxeDVCbU1LeFhORF9TNlhlZnRCZXFZYUd4Si1XNnVNWEc5UTZNWkEwT3dvWGU2QVJOVDJmS3EzdW1TWldMYndTN3k0WHBIR19XNnpFTDdaeEJBcmliTzFLbzh4OURkNHlRa0FSSVhQNzB4UGpCNFJvZ1hjcVZ1RldyWUU2Q2p6dXhpa0x5eWh6c01UdDR4NWo1eUVhU2dlSHpuT1FEZ0dvWEU4YV9FMVV6RGFkLW1vR3c5ZWpSb2xSdExtU2ZmVlhKcmtWUHdtRUpxb9IBnwJBVV95cUxOaW43aHEwb1dRc1pDbFcwejI0N3R5LUxnNFA0dHlqVTZYSzRNcHdqSWNRMjBTcGp0bEV2dnJ0emU2V0dIeVdyMnhLVGlUSm82ZnBLRHRxeDVCbU1LeFhORF9TNlhlZnRCZXFZYUd4Si1XNnVNWEc5UTZNWkEwT3dvWGU2QVJOVDJmS3EzdW1TWldMYndTN3k0WHBIR19XNnpFTDdaeEJBcmliTzFLbzh4OURkNHlRa0FSSVhQNzB4UGpCNFJvZ1hjcVZ1RldyWUU2Q2p6dXhpa0x5eWh6c01UdDR4NWo1eUVhU2dlSHpuT1FEZ0dvWEU4YV9FMVV6RGFkLW1vR3c5ZWpSb2xSdExtU2ZmVlhKcmtWUHdtRUpxbw?oc=5"
+     "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNYngzbk5mUEtkREdxUzVrOTRVcl8ySnJaa0o3UHJFbHpoTzA3MEhFTFRGZUJnVkRmWHc0aDRGeHhIbWFxb1dBMUN0YTBkRUtLSUgyMU11aXRmazJZZmxBbmRwbWlpY09ZU0ZOX2Z1U2d2U2xySHVPcHhPVHByZXFhd1VhdFZlLW9wS1dHRGIxYTY2djdlbjA5Wk50cGkzWWF3dGNUZXpIczlSdElkRnE4NklsV2xIakNENHhOQmJRWndYazV3b0E2ek9hX3NtRzdFazFsMFpUX3ctdk9sWFVGZW9FZnM3VXZweUZ2TlNuRFZqN3ZTNllGdzcwalA4N3FmUjhXY0k1a3lNUWEtUEhHZ2JzNFRPUDZUd1HSAZ8CQVVfeXFMTmluN2hxMG9XUXNaQ2xXMHoyNDd0eS1MZzRQNHR5alU2WEs0TXB3akljUTIwU3BqdGxFdnZydHplNldHSHlXcjJ4S1RpVEpvNmZwS0R0cXg1Qm1NS3hYTkRfUzZYZWZ0QmVxWWFHeEotVzZ1TVhHOVE2TVpBME93b1hlNkFSTlQyZktxM3VtU1pXTGJ3Uzd5NFhwSEdfVzZ6RUw3WnhCQXJpYk8xS284eDlEZDR5UWtBUklYUDcweFBqQjRSb2dYY3FWdUZXcllFNkNqenV4aWtMeXloenNNVHQ0eDVqNXlFYVNnZUh6bk9RRGdHb1hFOGFfRTFVekRhZC1tb0d3OWVqUm9sUnRMbVNmZlZYSnJrVlB3bUVKcW8?oc=5"
     },
     {
      "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNYngzbk5mUEtkREdxUzVrOTRVcl8ySnJaa0o3UHJFbHpoTzA3MEhFTFRGZUJnVkRmWHc0aDRGeHhIbWFxb1dBMUN0YTBkRUtLSUgyMU11aXRmazJZZmxBbmRwbWlpY09ZU0ZOX2Z1U2d2U2xySHVPcHhPVHByZXFhd1VhdFZlLW9wS1dHRGIxYTY2djdlbjA5Wk50cGkzWWF3dGNUZXpIczlSdElkRnE4NklsV2xIakNENHhOQmJRWndYazV3b0E2ek9hX3NtRzdFazFsMFpUX3ctdk9sWFVGZW9FZnM3VXZweUZ2TlNuRFZqN3ZTNllGdzcwalA4N3FmUjhXY0k1a3lNUWEtUEhHZ2JzNFRPUDZUd1HSAZ8CQVVfeXFMTmluN2hxMG9XUXNaQ2xXMHoyNDd0eS1MZzRQNHR5alU2WEs0TXB3akljUTIwU3BqdGxFdnZydHplNldHSHlXcjJ4S1RpVEpvNmZwS0R0cXg1Qm1NS3hYTkRfUzZYZWZ0QmVxWWFHeEotVzZ1TVhHOVE2TVpBME93b1hlNkFSTlQyZktxM3VtU1pXTGJ3Uzd5NFhwSEdfVzZ6RUw3WnhCQXJpYk8xS284eDlEZDR5UWtBUklYUDcweFBqQjRSb2dYY3FWdUZXcllFNkNqenV4aWtMeXloenNNVHQ0eDVqNXlFYVNnZUh6bk9RRGdHb1hFOGFfRTFVekRhZC1tb0d3OWVqUm9sUnRMbVNmZlZYSnJrVlB3bUVKcW8?oc=5"
+     "link": "https://news.google.com/rss/articles/CBMinwJBVV95cUxOaW43aHEwb1dRc1pDbFcwejI0N3R5LUxnNFA0dHlqVTZYSzRNcHdqSWNRMjBTcGp0bEV2dnJ0emU2V0dIeVdyMnhLVGlUSm82ZnBLRHRxeDVCbU1LeFhORF9TNlhlZnRCZXFZYUd4Si1XNnVNWEc5UTZNWkEwT3dvWGU2QVJOVDJmS3EzdW1TWldMYndTN3k0WHBIR19XNnpFTDdaeEJBcmliTzFLbzh4OURkNHlRa0FSSVhQNzB4UGpCNFJvZ1hjcVZ1RldyWUU2Q2p6dXhpa0x5eWh6c01UdDR4NWo1eUVhU2dlSHpuT1FEZ0dvWEU4YV9FMVV6RGFkLW1vR3c5ZWpSb2xSdExtU2ZmVlhKcmtWUHdtRUpxb9IBnwJBVV95cUxOaW43aHEwb1dRc1pDbFcwejI0N3R5LUxnNFA0dHlqVTZYSzRNcHdqSWNRMjBTcGp0bEV2dnJ0emU2V0dIeVdyMnhLVGlUSm82ZnBLRHRxeDVCbU1LeFhORF9TNlhlZnRCZXFZYUd4Si1XNnVNWEc5UTZNWkEwT3dvWGU2QVJOVDJmS3EzdW1TWldMYndTN3k0WHBIR19XNnpFTDdaeEJBcmliTzFLbzh4OURkNHlRa0FSSVhQNzB4UGpCNFJvZ1hjcVZ1RldyWUU2Q2p6dXhpa0x5eWh6c01UdDR4NWo1eUVhU2dlSHpuT1FEZ0dvWEU4YV9FMVV6RGFkLW1vR3c5ZWpSb2xSdExtU2ZmVlhKcmtWUHdtRUpxbw?oc=5"
     }
    ],
    "ncts": []
