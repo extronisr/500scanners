@@ -1,5 +1,5 @@
 {
- "fetched_at": "30.10.2026, 1:34",
+ "fetched_at": "30.10.2026, 2:05",
  "items": [
   {
    "title": "FDA approves Zanvastro, 1st drug directly targeting Alexander disease - NewsBytes",
@@ -1252,50 +1252,6 @@
    "ncts": []
   },
   {
-   "title": "FDA approves Yulzety (Rosemont Pharms)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221033",
-   "pub_ts": 1792108800.0,
-   "date": "16.10.2026",
-   "cat": "fda",
-   "sev": 4,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221033"
-    },
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221301"
-    },
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220407"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "FDA approves Brytly (Alcon Labs Inc)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220341",
-   "pub_ts": 1792108800.0,
-   "date": "16.10.2026",
-   "cat": "fda",
-   "sev": 4,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220341"
-    }
-   ],
-   "ncts": []
-  },
-  {
    "title": "0% Above Fair Value? AbbVie (ABBV) On Fresh Qulipta Phase 3 Data - Simply Wall St",
    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOeEJCOVN1WXFTZFhjRnpKREJNTHc1Z2NiSV9JRWpJNjVwaU9mSUVjQ21yakw0TkFJN0ttSkVJVGpsLVM0bUJsbFZRdUV0dXdjMjRmRVgtSTRVdlI2UVhFdFFlSmk2STRYU0FtbU4xOXNsYm5Ba19Fc0xudWxMNEMxa0pOYzItVkpBOHVmRG5tSG1lVGVIV2pITFUzMVFOQ3c3TXpKbThNOWtHOVBMdkZHZlp4blcyeUdJRU1Qdnh3cEd1R01OT1F5bTctVVZZR2ZxTTA4WtIB2gFBVV95cUxOU2wwNWJIVldMQ2hqamVZN1BZTlhXUmpPVGZ5aWFFa1VzQ3RGT0NzV3NBaTExSmJIUWljeTVYQlgyaTB0VHNpeHhFejRRekFtaElUbmkxOXZiLUoweEhTWldTbGtJdzRjb3JxWnRtXy1kMFktT0gydlc2emhfenluazktLW1JOGt0dFFGRFdwWnZpUHdUSng2SGR5NXJhLUJDZXMxZmlDVVFsZTVmVWdzSXpYLS1yQkpQWk0yUzM4dTEwUVh3Ymdfem54VnlZTER4cVR1em0yVTFGQQ?oc=5",
    "pub_ts": 1793298976.0,
@@ -1418,6 +1374,24 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNS0o5T2Vzb2UwZ3B6YkxTVURuSXdFUm9KZ05KWlFVdFNxdTk5OTVvRXlIQnNYWHhqVHVZRHdGWlI3UF9QZmVQeUVHSU1NcHNTLTFmbmpVYjRTZTBpbTcyUWRFbGdCQ0hZb2hqdldyelJSVFRwS0N0U2Jjbmg4YnU2RE9SQ29BNGdkeEVLa0h4UXJHVjZuY0NwaHNHZHZmZGNmUF9Kaw?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "Junshi Biosciences Announces the Completion of First Patient Dosing in the Phase 3 Clinical Trial of JS207 in Combination with JS007 for the First-Line Treatment of Advanced Hepatocellular Carcinoma - The Manila Times",
+   "link": "https://news.google.com/rss/articles/CBMihwNBVV95cUxONnFoV21OYlJoSnpSX1N6dXpxbzJtVVlWY2FMSFh6VmhNOVE5a1M4d0NHVXk4enpFS1d4OHd1UUloMHBHY19JN0RKcDBSTGd0Nm91ZVBVRVpBb1JsZjZMc214cTRSMHdpMjJPZGRwY3JjeDJoOUw3ckdfZmR1TWlPZEhsX283ZjEtdi16QTVZdmphSEdLaHZJUXlkUmhKOGxGOWZhLVR2NjhVWUdhM2hDS3ktazg4UUg1SDVGSkpWR0lIMHRjU0NsZXpZTTU2U2U4eWM1YTkzVC1GN3hxdl95OUR3VV82MzNvRDNqN2dCVF9Cd0xiSXp1MmF2UFFoTGoyWGdfeGU4b2NuN2xVVWdKbktiLWpUM0xTV002cUNBbVZTU3kxMS1FNTJ5cVZTQmdrM2ZocElqcUFuV0JvQW0zYmJleFl0WWtST1U5b3dRNXViU2FyQlhLVDNoUDljaW5KXy1WNDctLW5aWWk2WTF6dTRiWWRsRDVZWTR1aTZSUVVvWXozRmRz0gGMA0FVX3lxTE01S3p5bGwxZ2xwNnhXdmszSHdJOGxfVUxmWWdna241Mk90LTExbnNHNXRzU1paS2twejhqb3p5bzJabjcycXl2U052VktFR25ySGlpS2s0Y3puTm5wOTNPMHk5Q09RTUJKcGpESTd0cDQ2NmxoTUwydE5nTTI3WFRFTUhFMVJ5N2pzaE5OMW50ZlY3VGtBVDJxdzdLeDVtckNYSG54bTloMkc3YnE2M3gxRVdWSWtXdFZFdjNyZDgxN1VOWFVZc0dQNGNRS1pDSERvRk9rd0VvamNia1RNSUdLaDg5bWd1VkR5QndTNkhDLU03SmNHWlg0V1dMemdId1d3dkhQbEdOckNPTHIzaGhoMjNETFp4bmtXZ0E3bm0yN2xqa1JCdlZ2OXRQVm41YkEwQTF1MlA1b2VoVjlRZ0cyVzFLYzh6cW5NczkxQm9sT1JYV1p1akdJbnQwM0hlcFQzX3RoYjllQzRVWDNROXk4Q3ZHYjBoM3huaFB5aFFkVDVnRFhpUmVFREZKQQ?oc=5",
+   "pub_ts": 1793272693.0,
+   "date": "29.10.2026, 13:18",
+   "cat": "phase3",
+   "sev": 3,
+   "dir": 0,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMihwNBVV95cUxONnFoV21OYlJoSnpSX1N6dXpxbzJtVVlWY2FMSFh6VmhNOVE5a1M4d0NHVXk4enpFS1d4OHd1UUloMHBHY19JN0RKcDBSTGd0Nm91ZVBVRVpBb1JsZjZMc214cTRSMHdpMjJPZGRwY3JjeDJoOUw3ckdfZmR1TWlPZEhsX283ZjEtdi16QTVZdmphSEdLaHZJUXlkUmhKOGxGOWZhLVR2NjhVWUdhM2hDS3ktazg4UUg1SDVGSkpWR0lIMHRjU0NsZXpZTTU2U2U4eWM1YTkzVC1GN3hxdl95OUR3VV82MzNvRDNqN2dCVF9Cd0xiSXp1MmF2UFFoTGoyWGdfeGU4b2NuN2xVVWdKbktiLWpUM0xTV002cUNBbVZTU3kxMS1FNTJ5cVZTQmdrM2ZocElqcUFuV0JvQW0zYmJleFl0WWtST1U5b3dRNXViU2FyQlhLVDNoUDljaW5KXy1WNDctLW5aWWk2WTF6dTRiWWRsRDVZWTR1aTZSUVVvWXozRmRz0gGMA0FVX3lxTE01S3p5bGwxZ2xwNnhXdmszSHdJOGxfVUxmWWdna241Mk90LTExbnNHNXRzU1paS2twejhqb3p5bzJabjcycXl2U052VktFR25ySGlpS2s0Y3puTm5wOTNPMHk5Q09RTUJKcGpESTd0cDQ2NmxoTUwydE5nTTI3WFRFTUhFMVJ5N2pzaE5OMW50ZlY3VGtBVDJxdzdLeDVtckNYSG54bTloMkc3YnE2M3gxRVdWSWtXdFZFdjNyZDgxN1VOWFVZc0dQNGNRS1pDSERvRk9rd0VvamNia1RNSUdLaDg5bWd1VkR5QndTNkhDLU03SmNHWlg0V1dMemdId1d3dkhQbEdOckNPTHIzaGhoMjNETFp4bmtXZ0E3bm0yN2xqa1JCdlZ2OXRQVm41YkEwQTF1MlA1b2VoVjlRZ0cyVzFLYzh6cW5NczkxQm9sT1JYV1p1akdJbnQwM0hlcFQzX3RoYjllQzRVWDNROXk4Q3ZHYjBoM3huaFB5aFFkVDVnRFhpUmVFREZKQQ?oc=5"
     }
    ],
    "ncts": []
@@ -3448,6 +3422,24 @@
    "ncts": []
   },
   {
+   "title": "FDA approves generic Estradiol And Levonorgestrel (Zydus Pharms)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220407",
+   "pub_ts": 1792368000.0,
+   "date": "19.10.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220407"
+    }
+   ],
+   "ncts": []
+  },
+  {
    "title": "A Study of Rusfertide in Adults With Polycythemia Vera (PV)",
    "link": "https://clinicaltrials.gov/study/NCT05210790",
    "pub_ts": 1792368000.0,
@@ -3468,118 +3460,6 @@
    "ncts": [
     "NCT05210790"
    ]
-  },
-  {
-   "title": "FDA approves generic Estradiol And Levonorgestrel (Zydus Pharms)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220407",
-   "pub_ts": 1792368000.0,
-   "date": "19.10.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220407"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "FDA approves generic Loratadine And Pseudoephedrine Sulfate (Dr Reddys)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220432",
-   "pub_ts": 1792108800.0,
-   "date": "16.10.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220432"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "FDA approves generic Cabozantinib S-Malate (Cipla)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=217870",
-   "pub_ts": 1792108800.0,
-   "date": "16.10.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=217870"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "FDA approves generic Upadacitinib (Aurobindo Pharma Ltd)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=218866",
-   "pub_ts": 1792108800.0,
-   "date": "16.10.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=218866"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "FDA approves generic Progesterone (Novast Labs)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219588",
-   "pub_ts": 1792108800.0,
-   "date": "16.10.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219588"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "FDA approves generic Atropine Sulfate (Sentiss Pharma)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219628",
-   "pub_ts": 1792108800.0,
-   "date": "16.10.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219628"
-    },
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220432"
-    }
-   ],
-   "ncts": []
   },
   {
    "title": "A Study of Lebrikizumab (LY3650150) With/Without Topical Corticosteroid Treatment in Participants With Moderate-to-Severe Atopic Dermatitis",
@@ -3645,95 +3525,6 @@
    ],
    "ncts": [
     "NCT05664217"
-   ]
-  },
-  {
-   "title": "Study to Assess the Efficacy, Safety, and Tolerability of SAR440340/REGN3500/Itepekimab in Chronic Obstructive Pulmonary Disease (COPD)",
-   "link": "https://clinicaltrials.gov/study/NCT04701983",
-   "pub_ts": 1792022400.0,
-   "date": "2026-10-15",
-   "cat": "phase3",
-   "sev": 2,
-   "dir": 0,
-   "tickers": [],
-   "companies": [
-    "SNY",
-    "REGN"
-   ],
-   "sources": [
-    {
-     "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT04701983"
-    }
-   ],
-   "ncts": [
-    "NCT04701983"
-   ]
-  },
-  {
-   "title": "Study of Carbetocin Nasal Spray for the Treatment of Hyperphagia in Prader-Willi Syndrome",
-   "link": "https://clinicaltrials.gov/study/NCT06173531",
-   "pub_ts": 1792022400.0,
-   "date": "2026-10-15",
-   "cat": "phase3",
-   "sev": 2,
-   "dir": 0,
-   "tickers": [],
-   "companies": [
-    "ACAD"
-   ],
-   "sources": [
-    {
-     "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT06173531"
-    }
-   ],
-   "ncts": [
-    "NCT06173531"
-   ]
-  },
-  {
-   "title": "Multinational Study of Efficacy and Safety of Inhaled Treprostinil in Subjects With Idiopathic Pulmonary Fibrosis",
-   "link": "https://clinicaltrials.gov/study/NCT05255991",
-   "pub_ts": 1792022400.0,
-   "date": "2026-10-15",
-   "cat": "phase3",
-   "sev": 2,
-   "dir": 0,
-   "tickers": [],
-   "companies": [
-    "UTHR"
-   ],
-   "sources": [
-    {
-     "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT05255991"
-    }
-   ],
-   "ncts": [
-    "NCT05255991"
-   ]
-  },
-  {
-   "title": "Evaluation of Elexacaftor/Tezacaftor/Ivacaftor (ELX/TEZ/IVA) in Cystic Fibrosis (CF) Participants 12 to Less Than 24 Months of Age",
-   "link": "https://clinicaltrials.gov/study/NCT05882357",
-   "pub_ts": 1792022400.0,
-   "date": "2026-10-15",
-   "cat": "phase3",
-   "sev": 2,
-   "dir": 0,
-   "tickers": [],
-   "companies": [
-    "VRTX"
-   ],
-   "sources": [
-    {
-     "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT05882357"
-    }
-   ],
-   "ncts": [
-    "NCT05882357"
    ]
   },
   {
@@ -4661,26 +4452,6 @@
    ],
    "ncts": [
     "NCT05037929"
-   ]
-  },
-  {
-   "title": "Safety and Efficacy of NTX-001 Compared to SOC in Acute Single Peripheral Nerve Injuries",
-   "link": "https://clinicaltrials.gov/study/NCT04572906",
-   "pub_ts": 1792022400.0,
-   "date": "2026-10-15",
-   "cat": "phase2",
-   "sev": 1,
-   "dir": 0,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT04572906"
-    }
-   ],
-   "ncts": [
-    "NCT04572906"
    ]
   }
  ]
