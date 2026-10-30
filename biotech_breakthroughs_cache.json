@@ -1,5 +1,5 @@
 {
- "fetched_at": "30.10.2026, 3:35",
+ "fetched_at": "30.10.2026, 4:04",
  "items": [
   {
    "title": "FDA Approves GSK’s Hibsago for Chronic Hepatitis B - MyChesCo",
@@ -85,6 +85,26 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQVjlhRjZMOG1uaGgxeDhCTk1sdnY3bGk2RHdjN2RRMkc1bG9aWTNmWUEtaVJrQTBzTm9KNExUTHgtdWRxNnd5VUdabGRZMkdTbl9QNC00WjJsdDJRbHFoS3VDbnltWm9xX0hQRWJyanpybFhudDFHSnBKc2VpTGxYTi1zZmMyNmxwb3B2eWN1WWVEZXpiZHdJeWFIOF9UTlRnS0QyOUR0b1o?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "Geron Ends Phase 3 Imetelstat Myelofibrosis Trial After Independent Monitors Say Survival Goal Is Unlikely to Be Met - Medical Daily",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPeF9ucGVXUEc2VmppME5uc2ZhTlN4a3pKTWt5RXUzZnVsa2tadERfVkNIQXBNVm53LTdTWkVvV2dad3BZZl92MjRpTlhfQ1oyUjFid082d005blRpSlZMWVVOM042dXoxcmd0SXE2SHBlZHJlcHlNVXZPcUllakdPZlFuQUxYZE5FZWZDSmJ2OA?oc=5",
+   "pub_ts": 1793280687.0,
+   "date": "29.10.2026, 15:31",
+   "cat": "phase3",
+   "sev": 4,
+   "dir": 1,
+   "tickers": [],
+   "companies": [
+    "GERN"
+   ],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPeF9ucGVXUEc2VmppME5uc2ZhTlN4a3pKTWt5RXUzZnVsa2tadERfVkNIQXBNVm53LTdTWkVvV2dad3BZZl92MjRpTlhfQ1oyUjFid082d005blRpSlZMWVVOM042dXoxcmd0SXE2SHBlZHJlcHlNVXZPcUllakdPZlFuQUxYZE5FZWZDSmJ2OA?oc=5"
     }
    ],
    "ncts": []
