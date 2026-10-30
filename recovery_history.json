@@ -199,6 +199,14 @@
    "pivot": 86.9,
    "target": 95.18,
    "stop": 84.29
+  },
+  {
+   "ticker": "WY",
+   "date": "2026-10-30",
+   "signal_price": 20.35,
+   "pivot": 19.86,
+   "target": 21.46,
+   "stop": 19.26
   }
  ]
 }

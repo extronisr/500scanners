@@ -1,5 +1,5 @@
 {
- "fetched_at": "30.10.2026, 22:05",
+ "fetched_at": "30.10.2026, 22:34",
  "items": [
   {
    "title": "NRx Pharmaceuticals receives FDA approval for ketamine drug By Investing.com - Investing.com Canada",
@@ -1217,6 +1217,24 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1HN0FYbmczUXRSTm5NQzVHZXZ3RTNZUV92TThyVmdzaFBMU3hPLVcxRTZVMGZ4QVBoaWZ6cFBFNjFLa21kZTNEemFsQ0o1dXFweGhkbllRNy02WlVMTHpsZXI1c0owQWVR?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA Approves First-of-Its-Kind Chronic Hepatitis B Treatment",
+   "link": "http://www.fda.gov/news-events/press-announcements/fda-approves-first-its-kind-chronic-hepatitis-b-treatment",
+   "pub_ts": 1792525238.0,
+   "date": "20.10.2026, 22:40",
+   "cat": "fda",
+   "sev": 4,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA",
+     "link": "http://www.fda.gov/news-events/press-announcements/fda-approves-first-its-kind-chronic-hepatitis-b-treatment"
     }
    ],
    "ncts": []
@@ -3293,42 +3311,6 @@
    "ncts": []
   },
   {
-   "title": "FDA approves generic Afatinib Dimaleate (Msn)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=210804",
-   "pub_ts": 1792540800.0,
-   "date": "21.10.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=210804"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "FDA approves generic Amlodipine Besylate And Valsartan (Cadila Pharms Ltd)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=205797",
-   "pub_ts": 1792540800.0,
-   "date": "21.10.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=205797"
-    }
-   ],
-   "ncts": []
-  },
-  {
    "title": "Brentuximab Vedotin Plus Lenalidomide and Rituximab for the Treatment of Relapsed/Refractory DLBCL",
    "link": "https://clinicaltrials.gov/study/NCT04404283",
    "pub_ts": 1792540800.0,
@@ -3371,6 +3353,42 @@
    "ncts": [
     "NCT05502341"
    ]
+  },
+  {
+   "title": "FDA approves generic Afatinib Dimaleate (Msn)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=210804",
+   "pub_ts": 1792540800.0,
+   "date": "21.10.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=210804"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA approves generic Amlodipine Besylate And Valsartan (Cadila Pharms Ltd)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=205797",
+   "pub_ts": 1792540800.0,
+   "date": "21.10.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=205797"
+    }
+   ],
+   "ncts": []
   },
   {
    "title": "Samsung Bioepis' first ADC drug candidate wins US FDA Fast Track designation - 머니투데이",
@@ -3468,6 +3486,10 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOcEN0amRhYmpJMjlQOVdTbHBfUGFtVEYzc1FHZk1XTTdMV1d3WVF0NU4yZEZKQ0M1azQyeWtfR2JXb08ySDVHYkxzaFJNYWtTREhVZENSWG1UeVhvaVVZOFhwZVlSUFBZNFI1RnBqNWxSNURULWFSTXJHaGgwbVlGYjgwVk9SbzZnNTBXR1lHeFRuQ3FYRV96UzhNR19EMF9JMjlOd2M3VFJMZlJyb3pvY1k3VVQ1S25uM0Q1U3JwY1N1ai1ERmU5OS1nNlRsRU0?oc=5"
+    },
+    {
+     "source": "FDA",
+     "link": "http://www.fda.gov/news-events/press-announcements/fda-approves-once-weekly-generic-hormone-therapy-patch-women"
     }
    ],
    "ncts": []
@@ -3489,6 +3511,26 @@
     }
    ],
    "ncts": []
+  },
+  {
+   "title": "A Study of Ustekinumab in Pediatric Participants With Moderately to Severely Active Ulcerative Colitis (UC)",
+   "link": "https://clinicaltrials.gov/study/NCT04630028",
+   "pub_ts": 1792454400.0,
+   "date": "2026-10-20",
+   "cat": "phase3",
+   "sev": 2,
+   "dir": 0,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "ClinicalTrials.gov",
+     "link": "https://clinicaltrials.gov/study/NCT04630028"
+    }
+   ],
+   "ncts": [
+    "NCT04630028"
+   ]
   },
   {
    "title": "FDA approves generic Brivaracetam (Zydus Lifesciences)",
@@ -3515,26 +3557,6 @@
     }
    ],
    "ncts": []
-  },
-  {
-   "title": "A Study of Ustekinumab in Pediatric Participants With Moderately to Severely Active Ulcerative Colitis (UC)",
-   "link": "https://clinicaltrials.gov/study/NCT04630028",
-   "pub_ts": 1792454400.0,
-   "date": "2026-10-20",
-   "cat": "phase3",
-   "sev": 2,
-   "dir": 0,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT04630028"
-    }
-   ],
-   "ncts": [
-    "NCT04630028"
-   ]
   },
   {
    "title": "Gilead ‘sitting on a foundational asset’ after oral UC drug's phase 2 win - Fierce Biotech",
@@ -3575,6 +3597,28 @@
     }
    ],
    "ncts": []
+  },
+  {
+   "title": "A Study of Rusfertide in Adults With Polycythemia Vera (PV)",
+   "link": "https://clinicaltrials.gov/study/NCT05210790",
+   "pub_ts": 1792368000.0,
+   "date": "2026-10-19",
+   "cat": "phase3",
+   "sev": 2,
+   "dir": 0,
+   "tickers": [],
+   "companies": [
+    "PTGX"
+   ],
+   "sources": [
+    {
+     "source": "ClinicalTrials.gov",
+     "link": "https://clinicaltrials.gov/study/NCT05210790"
+    }
+   ],
+   "ncts": [
+    "NCT05210790"
+   ]
   },
   {
    "title": "FDA approves generic Romidepsin (Zydus Pharms)",
@@ -3673,28 +3717,6 @@
     }
    ],
    "ncts": []
-  },
-  {
-   "title": "A Study of Rusfertide in Adults With Polycythemia Vera (PV)",
-   "link": "https://clinicaltrials.gov/study/NCT05210790",
-   "pub_ts": 1792368000.0,
-   "date": "2026-10-19",
-   "cat": "phase3",
-   "sev": 2,
-   "dir": 0,
-   "tickers": [],
-   "companies": [
-    "PTGX"
-   ],
-   "sources": [
-    {
-     "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT05210790"
-    }
-   ],
-   "ncts": [
-    "NCT05210790"
-   ]
   },
   {
    "title": "A Study of Orforglipron (LY3502970) Compared With Dapagliflozin in Adult Participants With Type 2 Diabetes and Inadequate Glycemic Control With Metformin",
@@ -4502,6 +4524,24 @@
    "ncts": [
     "NCT04420884"
    ]
+  },
+  {
+   "title": "Marengo Therapeutics Presents Phase 2 STARt-001 Results at ESMO 2026 Demonstrating Tissue-Agnostic Single-Agent Activity of Invikafusp Alfa in TMB-H Solid Tumors Mostly Unresponsive to Immune Checkpoint Blockade - PR Newswire",
+   "link": "https://news.google.com/rss/articles/CBMigANBVV95cUxPSy0taVQ2NGZtNjZmSDdNSmhfTm4tU1VUUy0zY3BmZnR1ZGdvYzBTMnhZOHBsd1R3c3pfcTBTVHBkRzRfUjBfajlCb0dvUUVLOGo2cXdncGYxNlpmTkxVYmt3ajdMZDJFSHVnTHZzWm9MQzRCRnRMc0F1ZU9FaFNrbnh2Q3YzRkxOQ29RVGU4c1o2TEJjWEhJR2V2eXlncTNaQy1nRXA4OXk5S2ltdkd5TE13cGRZNXlTT0tnSXdGUnR4WHhmLVNVaXQzN09jdDNTbWZHUnotTE02QTNmMlVHcWZ5QTBGUC1MYWNjQ01hME40bE1WNVlrZ1NXUjhvZmJ5RHZadk5pQ3UyQjVfTDFYZlJMSE1nd2lEbkc1RTh0RzM5X0czRUxNLVF4cW5xOWpfLTFsTjNLTlBBSXpHRnVXSFVBYUlsTW1vOXJ4YTVqZ1ppZEV1SHFOYlVJWWtxNEhSdHhPMUJsOTN4amctQklHQ0ZJaGMwRU5xNjhxcm01UVM?oc=5",
+   "pub_ts": 1792755000.0,
+   "date": "23.10.2026, 14:30",
+   "cat": "phase2",
+   "sev": 1,
+   "dir": 0,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMigANBVV95cUxPSy0taVQ2NGZtNjZmSDdNSmhfTm4tU1VUUy0zY3BmZnR1ZGdvYzBTMnhZOHBsd1R3c3pfcTBTVHBkRzRfUjBfajlCb0dvUUVLOGo2cXdncGYxNlpmTkxVYmt3ajdMZDJFSHVnTHZzWm9MQzRCRnRMc0F1ZU9FaFNrbnh2Q3YzRkxOQ29RVGU4c1o2TEJjWEhJR2V2eXlncTNaQy1nRXA4OXk5S2ltdkd5TE13cGRZNXlTT0tnSXdGUnR4WHhmLVNVaXQzN09jdDNTbWZHUnotTE02QTNmMlVHcWZ5QTBGUC1MYWNjQ01hME40bE1WNVlrZ1NXUjhvZmJ5RHZadk5pQ3UyQjVfTDFYZlJMSE1nd2lEbkc1RTh0RzM5X0czRUxNLVF4cW5xOWpfLTFsTjNLTlBBSXpHRnVXSFVBYUlsTW1vOXJ4YTVqZ1ppZEV1SHFOYlVJWWtxNEhSdHhPMUJsOTN4amctQklHQ0ZJaGMwRU5xNjhxcm01UVM?oc=5"
+    }
+   ],
+   "ncts": []
   },
   {
    "title": "Marengo Therapeutics Presents Phase 2 STARt-001 Results at ESMO 2026 Demonstrating Tissue-Agnostic Single-Agent Activity of Invikafusp Alfa in TMB-H Solid Tumors Mostly Unresponsive to Immune Checkpoint Blockade - Yahoo Finance",
