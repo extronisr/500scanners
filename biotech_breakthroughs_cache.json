@@ -1,5 +1,5 @@
 {
- "fetched_at": "30.10.2026, 13:34",
+ "fetched_at": "30.10.2026, 14:05",
  "items": [
   {
    "title": "NRx Pharmaceuticals receives FDA approval for ketamine drug By Investing.com - Investing.com Canada",
@@ -2437,6 +2437,28 @@
    "ncts": []
   },
   {
+   "title": "A Study Evaluating the Efficacy, Safety, Pharmacokinetics and Pharmacodynamics of Crovalimab in Adult and Adolescent Participants With Atypical Hemolytic Uremic Syndrome (aHUS)",
+   "link": "https://clinicaltrials.gov/study/NCT04861259",
+   "pub_ts": 1793318400.0,
+   "date": "2026-10-30",
+   "cat": "phase3",
+   "sev": 2,
+   "dir": 0,
+   "tickers": [],
+   "companies": [
+    "RHHBY"
+   ],
+   "sources": [
+    {
+     "source": "ClinicalTrials.gov",
+     "link": "https://clinicaltrials.gov/study/NCT04861259"
+    }
+   ],
+   "ncts": [
+    "NCT04861259"
+   ]
+  },
+  {
    "title": "OSE Immunotherapeutics Reports Additional Positive Results of Combi-TED Phase 2 Randomized Trial with Tedopi® (OSE2101) in metastatic Non-Small Cell Lung Cancer - The Manila Times",
    "link": "https://news.google.com/rss/articles/CBMi0AJBVV95cUxPcW5yQldIcFlPai0welBzNkd6R2JFQXVKWXhET1BYekRLMC1pTmZtaEs0OWhKbU1CTS0ta1RST1A1NzJ5aWViN1YxdE02UzV5YkNzVElSNFgwYzEzMHo5NlR1V1BlNDBybktFNmVjcG9FV2Q1S2pqd3c0dEVsckM0eTMycmFhRTFScFZUbXFpQTMyVFNXZm1lemxTSXY1YlB1eXZuYk05aXZpSWVhNE03d3Y3Zk5RQ21XLU0yUkNTWVgydnVJTlQtY1dGd29HYU9zekpwVW4tRlhYWGpQS3hHMVRxY01vRDlYTzNrSnI3YURqQXZMcUgtZE5RNG9IWTJYRU5tSTVEb2tRNmVLMFMtdHlPUXlySnYxWG5tMmZhZlVVSkZHVWtXUDF0OUs0RlVFdHpPU1N1WjdOZ250T3BSWHlaV1FVSVlvMmZwTnBGNFnSAdYCQVVfeXFMTWd5aVU3MlVjck03VzdzRzFzNkJoQU5EYWt2OFp0cC11THIwWTRlZjR5WmFMWFhWcldYSGFfTmVkUUVFMEE5WklkRWp0Uk4zcDhYUDF0TVg1cFZKS1RBM0hjUTJxOFo3dkRaTTRfWDFibU9kZ0d1ODZtMkNfU2Z1S0FyeFBzYjhrQnBRM2pQNy05MXVqWmhYZjBsdkdyd3RoeWVLYlJjaUc2RHR0eVlJX2Jfb0VCSlVmNzVheUtfc1hYc1hHNEFZZXhXcUl6MWV0Sm9RM1Z0WWJPZnRLNnJWOUlvY0NVbGhqaTU2QmdzUVlKTlpSWGR3R1dULTRrNm5hV3JsVVJJNnBqS3M1eGlmdDBpN1Q4NDhkN0tYSFFQc2tNOFhQTXV0eWpaTFpmRFMteHVDQ2Nxa2o0OFJieU9NMDlHbHJ0TW94S3VDRjFMMU1peFNtOXhB?oc=5",
    "pub_ts": 1793296179.0,
@@ -2451,6 +2473,24 @@
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMi0AJBVV95cUxPcW5yQldIcFlPai0welBzNkd6R2JFQXVKWXhET1BYekRLMC1pTmZtaEs0OWhKbU1CTS0ta1RST1A1NzJ5aWViN1YxdE02UzV5YkNzVElSNFgwYzEzMHo5NlR1V1BlNDBybktFNmVjcG9FV2Q1S2pqd3c0dEVsckM0eTMycmFhRTFScFZUbXFpQTMyVFNXZm1lemxTSXY1YlB1eXZuYk05aXZpSWVhNE03d3Y3Zk5RQ21XLU0yUkNTWVgydnVJTlQtY1dGd29HYU9zekpwVW4tRlhYWGpQS3hHMVRxY01vRDlYTzNrSnI3YURqQXZMcUgtZE5RNG9IWTJYRU5tSTVEb2tRNmVLMFMtdHlPUXlySnYxWG5tMmZhZlVVSkZHVWtXUDF0OUs0RlVFdHpPU1N1WjdOZ250T3BSWHlaV1FVSVlvMmZwTnBGNFnSAdYCQVVfeXFMTWd5aVU3MlVjck03VzdzRzFzNkJoQU5EYWt2OFp0cC11THIwWTRlZjR5WmFMWFhWcldYSGFfTmVkUUVFMEE5WklkRWp0Uk4zcDhYUDF0TVg1cFZKS1RBM0hjUTJxOFo3dkRaTTRfWDFibU9kZ0d1ODZtMkNfU2Z1S0FyeFBzYjhrQnBRM2pQNy05MXVqWmhYZjBsdkdyd3RoeWVLYlJjaUc2RHR0eVlJX2Jfb0VCSlVmNzVheUtfc1hYc1hHNEFZZXhXcUl6MWV0Sm9RM1Z0WWJPZnRLNnJWOUlvY0NVbGhqaTU2QmdzUVlKTlpSWGR3R1dULTRrNm5hV3JsVVJJNnBqS3M1eGlmdDBpN1Q4NDhkN0tYSFFQc2tNOFhQTXV0eWpaTFpmRFMteHVDQ2Nxa2o0OFJieU9NMDlHbHJ0TW94S3VDRjFMMU1peFNtOXhB?oc=5"
     },
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMizgJBVV95cUxPajg3a0x1OGNWZGlqOW4wcFFqYU4wV0JrY1MycldkSkdBN3ZJQVhaUzRoaTJudE5CTFExM3ZqdTBfWmZnY1hHMWxHZ2JVTElfZ053eWJHZXJqaC1sYU1hdzZvVzRiaHcyblFWLUNDVGpXc2pRZERUcUYzR0oxVVBrekx1TXd2SkVCcG1SQWpZTnZVQWY5MHdJZmxxUG1ITDVmWF9kMk5wUEExY2wtQUE3OXJneFNCSThHLWI2VFhtU1Faa2R6Y3RDZW1nVXNDdzdTaTF0NFctMjY5X2lJSThqX0dhRVp5WkZIZFI1Q1VNT2U5Yk01N0RRLTJ5UnI4YS12R0t1VkI4Z2dyWmNXcnVFQ2o0eG0yOHdlbVV4TE9UWDRSQ1ZqdWpQZTFLWWRNRDBqZGJFRGhXLUtGNjlNd3lPS01PelJISm5NY3llaDFn?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "OSE Immunotherapeutics Reports Additional Positive Results of Combi-TED Phase 2 Randomized Trial with Tedopi® (OSE2101) in metastatic Non-Small Cell Lung Cancer - GlobeNewswire",
+   "link": "https://news.google.com/rss/articles/CBMizgJBVV95cUxPajg3a0x1OGNWZGlqOW4wcFFqYU4wV0JrY1MycldkSkdBN3ZJQVhaUzRoaTJudE5CTFExM3ZqdTBfWmZnY1hHMWxHZ2JVTElfZ053eWJHZXJqaC1sYU1hdzZvVzRiaHcyblFWLUNDVGpXc2pRZERUcUYzR0oxVVBrekx1TXd2SkVCcG1SQWpZTnZVQWY5MHdJZmxxUG1ITDVmWF9kMk5wUEExY2wtQUE3OXJneFNCSThHLWI2VFhtU1Faa2R6Y3RDZW1nVXNDdzdTaTF0NFctMjY5X2lJSThqX0dhRVp5WkZIZFI1Q1VNT2U5Yk01N0RRLTJ5UnI4YS12R0t1VkI4Z2dyWmNXcnVFQ2o0eG0yOHdlbVV4TE9UWDRSQ1ZqdWpQZTFLWWRNRDBqZGJFRGhXLUtGNjlNd3lPS01PelJISm5NY3llaDFn?oc=5",
+   "pub_ts": 1793295000.0,
+   "date": "29.10.2026, 19:30",
+   "cat": "phase2",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMizgJBVV95cUxPajg3a0x1OGNWZGlqOW4wcFFqYU4wV0JrY1MycldkSkdBN3ZJQVhaUzRoaTJudE5CTFExM3ZqdTBfWmZnY1hHMWxHZ2JVTElfZ053eWJHZXJqaC1sYU1hdzZvVzRiaHcyblFWLUNDVGpXc2pRZERUcUYzR0oxVVBrekx1TXd2SkVCcG1SQWpZTnZVQWY5MHdJZmxxUG1ITDVmWF9kMk5wUEExY2wtQUE3OXJneFNCSThHLWI2VFhtU1Faa2R6Y3RDZW1nVXNDdzdTaTF0NFctMjY5X2lJSThqX0dhRVp5WkZIZFI1Q1VNT2U5Yk01N0RRLTJ5UnI4YS12R0t1VkI4Z2dyWmNXcnVFQ2o0eG0yOHdlbVV4TE9UWDRSQ1ZqdWpQZTFLWWRNRDBqZGJFRGhXLUtGNjlNd3lPS01PelJISm5NY3llaDFn?oc=5"
@@ -2584,6 +2624,48 @@
    "ncts": []
   },
   {
+   "title": "An Extension Study to Evaluate the Long-term Safety and Efficacy of Pegcetacoplan (APL-2) in Subjects With Geographic Atrophy Secondary to AMD",
+   "link": "https://clinicaltrials.gov/study/NCT04770545",
+   "pub_ts": 1793145600.0,
+   "date": "2026-10-28",
+   "cat": "phase3",
+   "sev": 2,
+   "dir": 0,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "ClinicalTrials.gov",
+     "link": "https://clinicaltrials.gov/study/NCT04770545"
+    }
+   ],
+   "ncts": [
+    "NCT04770545"
+   ]
+  },
+  {
+   "title": "Evaluation of Rifaximin SSD for Delaying Encephalopathy Decompensation in Patients With Cirrhosis",
+   "link": "https://clinicaltrials.gov/study/NCT05297448",
+   "pub_ts": 1793145600.0,
+   "date": "2026-10-28",
+   "cat": "phase3",
+   "sev": 2,
+   "dir": 0,
+   "tickers": [],
+   "companies": [
+    "BHC"
+   ],
+   "sources": [
+    {
+     "source": "ClinicalTrials.gov",
+     "link": "https://clinicaltrials.gov/study/NCT05297448"
+    }
+   ],
+   "ncts": [
+    "NCT05297448"
+   ]
+  },
+  {
    "title": "A Study to Evaluate Astegolimab in Participants With Chronic Obstructive Pulmonary Disease",
    "link": "https://clinicaltrials.gov/study/NCT05595642",
    "pub_ts": 1793145600.0,
@@ -2625,48 +2707,6 @@
    ],
    "ncts": [
     "NCT03859700"
-   ]
-  },
-  {
-   "title": "Evaluation of Rifaximin SSD for Delaying Encephalopathy Decompensation in Patients With Cirrhosis",
-   "link": "https://clinicaltrials.gov/study/NCT05297448",
-   "pub_ts": 1793145600.0,
-   "date": "2026-10-28",
-   "cat": "phase3",
-   "sev": 2,
-   "dir": 0,
-   "tickers": [],
-   "companies": [
-    "BHC"
-   ],
-   "sources": [
-    {
-     "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT05297448"
-    }
-   ],
-   "ncts": [
-    "NCT05297448"
-   ]
-  },
-  {
-   "title": "An Extension Study to Evaluate the Long-term Safety and Efficacy of Pegcetacoplan (APL-2) in Subjects With Geographic Atrophy Secondary to AMD",
-   "link": "https://clinicaltrials.gov/study/NCT04770545",
-   "pub_ts": 1793145600.0,
-   "date": "2026-10-28",
-   "cat": "phase3",
-   "sev": 2,
-   "dir": 0,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT04770545"
-    }
-   ],
-   "ncts": [
-    "NCT04770545"
    ]
   },
   {
@@ -3261,28 +3301,6 @@
    "ncts": []
   },
   {
-   "title": "Study to Compare Bictegravir/Lenacapavir Versus Current Therapy in People With HIV-1 Who Are Successfully Treated With a Complicated Regimen (ARTISTRY-1)",
-   "link": "https://clinicaltrials.gov/study/NCT05502341",
-   "pub_ts": 1792540800.0,
-   "date": "2026-10-21",
-   "cat": "phase3",
-   "sev": 2,
-   "dir": 0,
-   "tickers": [],
-   "companies": [
-    "GILD"
-   ],
-   "sources": [
-    {
-     "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT05502341"
-    }
-   ],
-   "ncts": [
-    "NCT05502341"
-   ]
-  },
-  {
    "title": "Brentuximab Vedotin Plus Lenalidomide and Rituximab for the Treatment of Relapsed/Refractory DLBCL",
    "link": "https://clinicaltrials.gov/study/NCT04404283",
    "pub_ts": 1792540800.0,
@@ -3302,6 +3320,28 @@
    ],
    "ncts": [
     "NCT04404283"
+   ]
+  },
+  {
+   "title": "Study to Compare Bictegravir/Lenacapavir Versus Current Therapy in People With HIV-1 Who Are Successfully Treated With a Complicated Regimen (ARTISTRY-1)",
+   "link": "https://clinicaltrials.gov/study/NCT05502341",
+   "pub_ts": 1792540800.0,
+   "date": "2026-10-21",
+   "cat": "phase3",
+   "sev": 2,
+   "dir": 0,
+   "tickers": [],
+   "companies": [
+    "GILD"
+   ],
+   "sources": [
+    {
+     "source": "ClinicalTrials.gov",
+     "link": "https://clinicaltrials.gov/study/NCT05502341"
+    }
+   ],
+   "ncts": [
+    "NCT05502341"
    ]
   },
   {
@@ -3629,28 +3669,6 @@
    ]
   },
   {
-   "title": "A Study of Lebrikizumab (LY3650150) With/Without Topical Corticosteroid Treatment in Participants With Moderate-to-Severe Atopic Dermatitis",
-   "link": "https://clinicaltrials.gov/study/NCT06280716",
-   "pub_ts": 1792108800.0,
-   "date": "2026-10-16",
-   "cat": "phase3",
-   "sev": 2,
-   "dir": 0,
-   "tickers": [],
-   "companies": [
-    "LLY"
-   ],
-   "sources": [
-    {
-     "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT06280716"
-    }
-   ],
-   "ncts": [
-    "NCT06280716"
-   ]
-  },
-  {
    "title": "A Study of Orforglipron (LY3502970) Compared With Dapagliflozin in Adult Participants With Type 2 Diabetes and Inadequate Glycemic Control With Metformin",
    "link": "https://clinicaltrials.gov/study/NCT06192108",
    "pub_ts": 1792108800.0,
@@ -3695,10 +3713,32 @@
    ]
   },
   {
-   "title": "Acumen halts Alzheimer’s drug after phase 2 trial fails By Investing.com - Investing.com Canada",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTGZNY1IwYkFUMEZvNWEzM05yMENqc2xHQzNHNml6X3VBajhEeEU4M2JEUFFka25MOHNiTHphekgxM2pUekhMd2NsQ2FIQWczM3U5WDBESnRfTDNJOS1EU2hMQXJBRDllakl3dXNxWlZFc2NBVndGRkhxYzhEeXZwNW1KeXIwTFlZN0VXeVJla2E4UVppU0RCejJfcmhhTl9oa2o2SGZXMGFWelNvSmYwTUFGNlpCUQ?oc=5",
-   "pub_ts": 1793358753.0,
-   "date": "30.10.2026, 13:12",
+   "title": "A Study of Lebrikizumab (LY3650150) With/Without Topical Corticosteroid Treatment in Participants With Moderate-to-Severe Atopic Dermatitis",
+   "link": "https://clinicaltrials.gov/study/NCT06280716",
+   "pub_ts": 1792108800.0,
+   "date": "2026-10-16",
+   "cat": "phase3",
+   "sev": 2,
+   "dir": 0,
+   "tickers": [],
+   "companies": [
+    "LLY"
+   ],
+   "sources": [
+    {
+     "source": "ClinicalTrials.gov",
+     "link": "https://clinicaltrials.gov/study/NCT06280716"
+    }
+   ],
+   "ncts": [
+    "NCT06280716"
+   ]
+  },
+  {
+   "title": "Acumen halts Alzheimer’s drug after phase 2 trial fails By Investing.com - Investing.com India",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNT0FQMThBR3JPLXBNREtGZUNCZFB0ai1QZGxoaWd6S05lY2w1SWJMX0Z2RkQ1d0ZQYlRlX2o2STc5R0picGJJaDY5VmpabUFOUzlXejl1MEt6X2QxRHl1SHhfNHJrdUpQUC1iYkVXZUdJOHRnQWdqM3ZVcmdRaDNOMzloUm5xNk55bWMwRXRuaWQ2eVlkaG5HVlZGYl9scjRWTHdYdG9keGJwYlRXZXZ5a2RQWHZEUQ?oc=5",
+   "pub_ts": 1793358892.0,
+   "date": "30.10.2026, 13:14",
    "cat": "phase2",
    "sev": 1,
    "dir": -1,
@@ -3709,10 +3749,56 @@
    "sources": [
     {
      "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNT0FQMThBR3JPLXBNREtGZUNCZFB0ai1QZGxoaWd6S05lY2w1SWJMX0Z2RkQ1d0ZQYlRlX2o2STc5R0picGJJaDY5VmpabUFOUzlXejl1MEt6X2QxRHl1SHhfNHJrdUpQUC1iYkVXZUdJOHRnQWdqM3ZVcmdRaDNOMzloUm5xNk55bWMwRXRuaWQ2eVlkaG5HVlZGYl9scjRWTHdYdG9keGJwYlRXZXZ5a2RQWHZEUQ?oc=5"
+    },
+    {
+     "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTGZNY1IwYkFUMEZvNWEzM05yMENqc2xHQzNHNml6X3VBajhEeEU4M2JEUFFka25MOHNiTHphekgxM2pUekhMd2NsQ2FIQWczM3U5WDBESnRfTDNJOS1EU2hMQXJBRDllakl3dXNxWlZFc2NBVndGRkhxYzhEeXZwNW1KeXIwTFlZN0VXeVJla2E4UVppU0RCejJfcmhhTl9oa2o2SGZXMGFWelNvSmYwTUFGNlpCUQ?oc=5"
     }
    ],
    "ncts": []
+  },
+  {
+   "title": "A Study to Assess Efficacy and Safety of LB54640 in Patients With Hypothalamic Obesity",
+   "link": "https://clinicaltrials.gov/study/NCT06046443",
+   "pub_ts": 1793318400.0,
+   "date": "2026-10-30",
+   "cat": "phase2",
+   "sev": 1,
+   "dir": 0,
+   "tickers": [],
+   "companies": [
+    "RYTM"
+   ],
+   "sources": [
+    {
+     "source": "ClinicalTrials.gov",
+     "link": "https://clinicaltrials.gov/study/NCT06046443"
+    }
+   ],
+   "ncts": [
+    "NCT06046443"
+   ]
+  },
+  {
+   "title": "An Evaluation of the Safety and Efficacy of Methylone for the Treatment of PTSD",
+   "link": "https://clinicaltrials.gov/study/NCT06215261",
+   "pub_ts": 1793318400.0,
+   "date": "2026-10-30",
+   "cat": "phase2",
+   "sev": 1,
+   "dir": 0,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "ClinicalTrials.gov",
+     "link": "https://clinicaltrials.gov/study/NCT06215261"
+    }
+   ],
+   "ncts": [
+    "NCT06215261"
+   ]
   },
   {
    "title": "Iovance plummets on new phase 2 Amtagvi data for non-small-cell lung cancer - Seeking Alpha",
@@ -3783,6 +3869,26 @@
    ]
   },
   {
+   "title": "Effects of Maintenance Cabozantinib+BSC Versus BSC in Children and AYA With Osteosarcoma",
+   "link": "https://clinicaltrials.gov/study/NCT06341712",
+   "pub_ts": 1793232000.0,
+   "date": "2026-10-29",
+   "cat": "phase2",
+   "sev": 1,
+   "dir": 0,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "ClinicalTrials.gov",
+     "link": "https://clinicaltrials.gov/study/NCT06341712"
+    }
+   ],
+   "ncts": [
+    "NCT06341712"
+   ]
+  },
+  {
    "title": "PRO1107 in Patients With Advanced Solid Tumors",
    "link": "https://clinicaltrials.gov/study/NCT06171789",
    "pub_ts": 1793232000.0,
@@ -3802,26 +3908,6 @@
    ],
    "ncts": [
     "NCT06171789"
-   ]
-  },
-  {
-   "title": "Effects of Maintenance Cabozantinib+BSC Versus BSC in Children and AYA With Osteosarcoma",
-   "link": "https://clinicaltrials.gov/study/NCT06341712",
-   "pub_ts": 1793232000.0,
-   "date": "2026-10-29",
-   "cat": "phase2",
-   "sev": 1,
-   "dir": 0,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT06341712"
-    }
-   ],
-   "ncts": [
-    "NCT06341712"
    ]
   },
   {
@@ -3870,25 +3956,23 @@
    "ncts": []
   },
   {
-   "title": "Pegzilarginase and Pembrolizumab for Extensive Disease Small Cell Lung Cancer",
-   "link": "https://clinicaltrials.gov/study/NCT03371979",
+   "title": "A Study to Assess Long-term Safety of Tazemetostat in Adult Participants of All Ages With Any Disease Treated With Tazemetostat in a Previous Clinical Study",
+   "link": "https://clinicaltrials.gov/study/NCT02875548",
    "pub_ts": 1793145600.0,
    "date": "2026-10-28",
    "cat": "phase2",
    "sev": 1,
    "dir": 0,
    "tickers": [],
-   "companies": [
-    "MRK"
-   ],
+   "companies": [],
    "sources": [
     {
      "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT03371979"
+     "link": "https://clinicaltrials.gov/study/NCT02875548"
     }
    ],
    "ncts": [
-    "NCT03371979"
+    "NCT02875548"
    ]
   },
   {
@@ -3914,26 +3998,6 @@
    ]
   },
   {
-   "title": "A Study to Assess Long-term Safety of Tazemetostat in Adult Participants of All Ages With Any Disease Treated With Tazemetostat in a Previous Clinical Study",
-   "link": "https://clinicaltrials.gov/study/NCT02875548",
-   "pub_ts": 1793145600.0,
-   "date": "2026-10-28",
-   "cat": "phase2",
-   "sev": 1,
-   "dir": 0,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT02875548"
-    }
-   ],
-   "ncts": [
-    "NCT02875548"
-   ]
-  },
-  {
    "title": "A Study of CT-868 in Type 1 Diabetes Mellitus",
    "link": "https://clinicaltrials.gov/study/NCT06062069",
    "pub_ts": 1793145600.0,
@@ -3951,6 +4015,28 @@
    ],
    "ncts": [
     "NCT06062069"
+   ]
+  },
+  {
+   "title": "Pegzilarginase and Pembrolizumab for Extensive Disease Small Cell Lung Cancer",
+   "link": "https://clinicaltrials.gov/study/NCT03371979",
+   "pub_ts": 1793145600.0,
+   "date": "2026-10-28",
+   "cat": "phase2",
+   "sev": 1,
+   "dir": 0,
+   "tickers": [],
+   "companies": [
+    "MRK"
+   ],
+   "sources": [
+    {
+     "source": "ClinicalTrials.gov",
+     "link": "https://clinicaltrials.gov/study/NCT03371979"
+    }
+   ],
+   "ncts": [
+    "NCT03371979"
    ]
   },
   {
@@ -3988,28 +4074,6 @@
     }
    ],
    "ncts": []
-  },
-  {
-   "title": "Dose Exploration Study of GSK4532990 in. Participants With NASH or Suspected NASH",
-   "link": "https://clinicaltrials.gov/study/NCT06104319",
-   "pub_ts": 1793059200.0,
-   "date": "2026-10-27",
-   "cat": "phase2",
-   "sev": 1,
-   "dir": 0,
-   "tickers": [],
-   "companies": [
-    "GSK"
-   ],
-   "sources": [
-    {
-     "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT06104319"
-    }
-   ],
-   "ncts": [
-    "NCT06104319"
-   ]
   },
   {
    "title": "Evaluation of Safety, Tolerability, and Efficacy of INZ-701 in Adults With ENPP1 Deficiency",
@@ -4051,6 +4115,28 @@
    ],
    "ncts": [
     "NCT03955211"
+   ]
+  },
+  {
+   "title": "Dose Exploration Study of GSK4532990 in. Participants With NASH or Suspected NASH",
+   "link": "https://clinicaltrials.gov/study/NCT06104319",
+   "pub_ts": 1793059200.0,
+   "date": "2026-10-27",
+   "cat": "phase2",
+   "sev": 1,
+   "dir": 0,
+   "tickers": [],
+   "companies": [
+    "GSK"
+   ],
+   "sources": [
+    {
+     "source": "ClinicalTrials.gov",
+     "link": "https://clinicaltrials.gov/study/NCT06104319"
+    }
+   ],
+   "ncts": [
+    "NCT06104319"
    ]
   },
   {
@@ -4432,26 +4518,6 @@
    ]
   },
   {
-   "title": "A Study to Evaluate the Efficacy and Safety of CBL-514 in Participants With EFP; Cellulite (Stage 1)",
-   "link": "https://clinicaltrials.gov/study/NCT05632926",
-   "pub_ts": 1792540800.0,
-   "date": "2026-10-21",
-   "cat": "phase2",
-   "sev": 1,
-   "dir": 0,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT05632926"
-    }
-   ],
-   "ncts": [
-    "NCT05632926"
-   ]
-  },
-  {
    "title": "To Assess the Safety and Tolerability of Tafasitamab Alone or in Combination With Other Drugs in Japanese Participants With Non-Hodgkins Lymphoma (NHL)",
    "link": "https://clinicaltrials.gov/study/NCT04661007",
    "pub_ts": 1792540800.0,
@@ -4493,6 +4559,26 @@
    ],
    "ncts": [
     "NCT04656561"
+   ]
+  },
+  {
+   "title": "A Study to Evaluate the Efficacy and Safety of CBL-514 in Participants With EFP; Cellulite (Stage 1)",
+   "link": "https://clinicaltrials.gov/study/NCT05632926",
+   "pub_ts": 1792540800.0,
+   "date": "2026-10-21",
+   "cat": "phase2",
+   "sev": 1,
+   "dir": 0,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "ClinicalTrials.gov",
+     "link": "https://clinicaltrials.gov/study/NCT05632926"
+    }
+   ],
+   "ncts": [
+    "NCT05632926"
    ]
   },
   {
@@ -4538,6 +4624,26 @@
    "ncts": []
   },
   {
+   "title": "Phase 2B Study Assessing Pain Relief After Replacement of the Knee",
+   "link": "https://clinicaltrials.gov/study/NCT06799845",
+   "pub_ts": 1792368000.0,
+   "date": "2026-10-19",
+   "cat": "phase2",
+   "sev": 1,
+   "dir": 0,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "ClinicalTrials.gov",
+     "link": "https://clinicaltrials.gov/study/NCT06799845"
+    }
+   ],
+   "ncts": [
+    "NCT06799845"
+   ]
+  },
+  {
    "title": "Study With Afuresertib and Paclitaxel in Platinum Resistant Ovarian",
    "link": "https://clinicaltrials.gov/study/NCT04374630",
    "pub_ts": 1792368000.0,
@@ -4555,28 +4661,6 @@
    ],
    "ncts": [
     "NCT04374630"
-   ]
-  },
-  {
-   "title": "A Study to Investigate Natural Killer Cell Engager (SAR443579) With Different Agents in Participants With Hematological Malignancies",
-   "link": "https://clinicaltrials.gov/study/NCT06508489",
-   "pub_ts": 1792368000.0,
-   "date": "2026-10-19",
-   "cat": "phase2",
-   "sev": 1,
-   "dir": 0,
-   "tickers": [],
-   "companies": [
-    "SNY"
-   ],
-   "sources": [
-    {
-     "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT06508489"
-    }
-   ],
-   "ncts": [
-    "NCT06508489"
    ]
   },
   {
@@ -4600,23 +4684,25 @@
    ]
   },
   {
-   "title": "Phase 2B Study Assessing Pain Relief After Replacement of the Knee",
-   "link": "https://clinicaltrials.gov/study/NCT06799845",
+   "title": "A Study to Investigate Natural Killer Cell Engager (SAR443579) With Different Agents in Participants With Hematological Malignancies",
+   "link": "https://clinicaltrials.gov/study/NCT06508489",
    "pub_ts": 1792368000.0,
    "date": "2026-10-19",
    "cat": "phase2",
    "sev": 1,
    "dir": 0,
    "tickers": [],
-   "companies": [],
+   "companies": [
+    "SNY"
+   ],
    "sources": [
     {
      "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT06799845"
+     "link": "https://clinicaltrials.gov/study/NCT06508489"
     }
    ],
    "ncts": [
-    "NCT06799845"
+    "NCT06508489"
    ]
   },
   {
