@@ -1,5 +1,5 @@
 {
- "fetched_at": "30.10.2026, 16:04",
+ "fetched_at": "30.10.2026, 16:30",
  "items": [
   {
    "title": "NRx Pharmaceuticals receives FDA approval for ketamine drug By Investing.com - Investing.com India",
@@ -1293,26 +1293,6 @@
     {
      "source": "FDA · openFDA",
      "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219456"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "Roche Secures FDA Approval for First At-Home Thyroid Eye Disease Therapy - Yahoo Finance",
-   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdnRKTWNmOTVxT3ZlaEdoSjI1XzJCclY4RW1xUUtkV2Z4TjFmSk55UllWdURTbjJkblBSRW9OdWlMY1VDWVc2cDNNUFNGZ1VyWm1yVW1tb25yWmZVRF9MaUhmSERnM3BYMGtYUkNYejlaYTV3U3EzcnFtanl5S1BVdEVBZVM5eVduSndCeGgwTlZXajdpbmhETA?oc=5",
-   "pub_ts": 1792159979.0,
-   "date": "16.10.2026, 17:12",
-   "cat": "fda",
-   "sev": 4,
-   "dir": 1,
-   "tickers": [],
-   "companies": [
-    "RHHBY"
-   ],
-   "sources": [
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdnRKTWNmOTVxT3ZlaEdoSjI1XzJCclY4RW1xUUtkV2Z4TjFmSk55UllWdURTbjJkblBSRW9OdWlMY1VDWVc2cDNNUFNGZ1VyWm1yVW1tb25yWmZVRF9MaUhmSERnM3BYMGtYUkNYejlaYTV3U3EzcnFtanl5S1BVdEVBZVM5eVduSndCeGgwTlZXajdpbmhETA?oc=5"
     }
    ],
    "ncts": []
