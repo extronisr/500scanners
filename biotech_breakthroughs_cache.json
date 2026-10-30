@@ -1,5 +1,5 @@
 {
- "fetched_at": "30.10.2026, 12:04",
+ "fetched_at": "30.10.2026, 12:34",
  "items": [
   {
    "title": "Sun Pharma stock in focus after US FDA approves drug for psoriatic arthritis - Business Today",
@@ -1294,6 +1294,33 @@
    "ncts": []
   },
   {
+   "title": "aTyr Pharma (NASDAQ:ATYR): Efzofitimod Phase 3 Data Published in The Lancet, Supports Continued Development in Lung Disease - Kalkine",
+   "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPNmh3czVDZGJnS2ZiM0tYMkR2VnpRXzBhU1dLZERaUmxVWkdUWS12QmtyLTJiUGpxQmU1X1VjVmdpUGNsZzQ3R3Jtc1JtRG16aVFvamkzTUtiTFNEejhhY3U4dEVnM3pFNlBLamRscE5XUDB6aFBVczVZVllOVzF2QzhpbEpXQXpfUGUzMk9hNWFjY0VidS1qb2lwdzctVU1CUEJVQXdCQXhKX0N6X1NobkFyZFJabkFLN2VMV1hCanNxaHBmZWMwYkxCVGdVek4xNXpSQlVXT3hIUk9vdE1Ydy1tSjRkMlBiZXBOQnVVMzhUOE9qWW1aZGtjaw?oc=5",
+   "pub_ts": 1793355360.0,
+   "date": "30.10.2026, 12:16",
+   "cat": "phase3",
+   "sev": 3,
+   "dir": 0,
+   "tickers": [
+    "ATYR"
+   ],
+   "companies": [
+    "ATYR",
+    "NDAQ"
+   ],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPNmh3czVDZGJnS2ZiM0tYMkR2VnpRXzBhU1dLZERaUmxVWkdUWS12QmtyLTJiUGpxQmU1X1VjVmdpUGNsZzQ3R3Jtc1JtRG16aVFvamkzTUtiTFNEejhhY3U4dEVnM3pFNlBLamRscE5XUDB6aFBVczVZVllOVzF2QzhpbEpXQXpfUGUzMk9hNWFjY0VidS1qb2lwdzctVU1CUEJVQXdCQXhKX0N6X1NobkFyZFJabkFLN2VMV1hCanNxaHBmZWMwYkxCVGdVek4xNXpSQlVXT3hIUk9vdE1Ydy1tSjRkMlBiZXBOQnVVMzhUOE9qWW1aZGtjaw?oc=5"
+    },
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNS0o5T2Vzb2UwZ3B6YkxTVURuSXdFUm9KZ05KWlFVdFNxdTk5OTVvRXlIQnNYWHhqVHVZRHdGWlI3UF9QZmVQeUVHSU1NcHNTLTFmbmpVYjRTZTBpbTcyUWRFbGdCQ0hZb2hqdldyelJSVFRwS0N0U2Jjbmg4YnU2RE9SQ29BNGdkeEVLa0h4UXJHVjZuY0NwaHNHZHZmZGNmUF9Kaw?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
    "title": "Hansoh Pharma stock: Phase 3 data strengthen oncology pipeline - ad-hoc-news.de",
    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPaHl2aHFNbHRXQnBFZzV2YTBGTFh3WVA4eWZjSG5DcUdpNzIwQ1hmTmdTOEMxUndiZE5SLUVHTEJxeWNaNG1KakFnOUN2cTAxU2lqZXQ5VkxyRFhrZVBNNHkyU0hnTDEzbWNmMVE0WTB1anJDTFNmNHhzdmM3NXQyeGVSSUdiMmdSQm5pek9aZDhHYTRLOVAxNGxYeUdtVklpRDMzVk1VcHZtbkxDLW82aDMzTndwRXZPYXVjSA?oc=5",
    "pub_ts": 1793322699.0,
@@ -1414,26 +1441,6 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMihwNBVV95cUxONnFoV21OYlJoSnpSX1N6dXpxbzJtVVlWY2FMSFh6VmhNOVE5a1M4d0NHVXk4enpFS1d4OHd1UUloMHBHY19JN0RKcDBSTGd0Nm91ZVBVRVpBb1JsZjZMc214cTRSMHdpMjJPZGRwY3JjeDJoOUw3ckdfZmR1TWlPZEhsX283ZjEtdi16QTVZdmphSEdLaHZJUXlkUmhKOGxGOWZhLVR2NjhVWUdhM2hDS3ktazg4UUg1SDVGSkpWR0lIMHRjU0NsZXpZTTU2U2U4eWM1YTkzVC1GN3hxdl95OUR3VV82MzNvRDNqN2dCVF9Cd0xiSXp1MmF2UFFoTGoyWGdfeGU4b2NuN2xVVWdKbktiLWpUM0xTV002cUNBbVZTU3kxMS1FNTJ5cVZTQmdrM2ZocElqcUFuV0JvQW0zYmJleFl0WWtST1U5b3dRNXViU2FyQlhLVDNoUDljaW5KXy1WNDctLW5aWWk2WTF6dTRiWWRsRDVZWTR1aTZSUVVvWXozRmRz0gGMA0FVX3lxTE01S3p5bGwxZ2xwNnhXdmszSHdJOGxfVUxmWWdna241Mk90LTExbnNHNXRzU1paS2twejhqb3p5bzJabjcycXl2U052VktFR25ySGlpS2s0Y3puTm5wOTNPMHk5Q09RTUJKcGpESTd0cDQ2NmxoTUwydE5nTTI3WFRFTUhFMVJ5N2pzaE5OMW50ZlY3VGtBVDJxdzdLeDVtckNYSG54bTloMkc3YnE2M3gxRVdWSWtXdFZFdjNyZDgxN1VOWFVZc0dQNGNRS1pDSERvRk9rd0VvamNia1RNSUdLaDg5bWd1VkR5QndTNkhDLU03SmNHWlg0V1dMemdId1d3dkhQbEdOckNPTHIzaGhoMjNETFp4bmtXZ0E3bm0yN2xqa1JCdlZ2OXRQVm41YkEwQTF1MlA1b2VoVjlRZ0cyVzFLYzh6cW5NczkxQm9sT1JYV1p1akdJbnQwM0hlcFQzX3RoYjllQzRVWDNROXk4Q3ZHYjBoM3huaFB5aFFkVDVnRFhpUmVFREZKQQ?oc=5"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "aTyr Pharma Announces Publication of Results from the Phase 3 EFZO-FIT™ Study of Efzofitimod in Pulmonary Sarcoidosis in The Lancet Respiratory Medicine - Yahoo Finance",
-   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNS0o5T2Vzb2UwZ3B6YkxTVURuSXdFUm9KZ05KWlFVdFNxdTk5OTVvRXlIQnNYWHhqVHVZRHdGWlI3UF9QZmVQeUVHSU1NcHNTLTFmbmpVYjRTZTBpbTcyUWRFbGdCQ0hZb2hqdldyelJSVFRwS0N0U2Jjbmg4YnU2RE9SQ29BNGdkeEVLa0h4UXJHVjZuY0NwaHNHZHZmZGNmUF9Kaw?oc=5",
-   "pub_ts": 1793275200.0,
-   "date": "29.10.2026, 14:00",
-   "cat": "phase3",
-   "sev": 3,
-   "dir": 0,
-   "tickers": [],
-   "companies": [
-    "ATYR"
-   ],
-   "sources": [
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNS0o5T2Vzb2UwZ3B6YkxTVURuSXdFUm9KZ05KWlFVdFNxdTk5OTVvRXlIQnNYWHhqVHVZRHdGWlI3UF9QZmVQeUVHSU1NcHNTLTFmbmpVYjRTZTBpbTcyUWRFbGdCQ0hZb2hqdldyelJSVFRwS0N0U2Jjbmg4YnU2RE9SQ29BNGdkeEVLa0h4UXJHVjZuY0NwaHNHZHZmZGNmUF9Kaw?oc=5"
     }
    ],
    "ncts": []
