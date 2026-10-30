@@ -1,5 +1,5 @@
 {
- "fetched_at": "30.10.2026, 18:34",
+ "fetched_at": "30.10.2026, 19:04",
  "items": [
   {
    "title": "NRx Pharmaceuticals receives FDA approval for ketamine drug By Investing.com - Investing.com India",
@@ -1340,8 +1340,8 @@
   {
    "title": "In late-breaking phase 3 results, pozdeutinurad lowered serum urate through 12 months in patients with uncontrolled gout - 2 Minute Medicine",
    "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPMnRLQy1pc011aHpzX1JEdEhhRVZSc1JwTnJDNndyaWdSVmtYRlZWMmpxZy01eHFRT3YwMUg3YmwyVy0tUGVnWTJpSVFlVF9TUERCWlNUVHFMUTlhTUhZUXMzQW1BNDVOM0xNWWpSWE5QMGZVd2dGNHV3cmpvZmF3U2JDbEpwV0lFb2tMODRHVHhEVjcwMGJFQ3Q0RHN4OFZZM1hTNXpnZXlqalpycjRBeFFuOXJBeEdpZFJDcjYyWEQ5dS01WDJqRzNoOEE2M2V3XzJmNDg3Q1FyQ2tCeEdPOVctSG1fT1E?oc=5",
-   "pub_ts": 1793356875.0,
-   "date": "30.10.2026, 12:41",
+   "pub_ts": 1793356933.0,
+   "date": "30.10.2026, 12:42",
    "cat": "phase3",
    "sev": 3,
    "dir": 0,
@@ -3757,6 +3757,26 @@
    "ncts": [
     "NCT06280716"
    ]
+  },
+  {
+   "title": "Pfizer Reports Strong Phase 2 Data for 25-Valent Pediatric PCV - Drug Topics",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQU3NXbHU3U0hlbmx2ZElVQl9sRTNPcG52TmtRSHpTOWIweWlRODFrWjlhRXJpMHhhUGRTQnl4LVlNODkwa3U3cXFjblJXWUZBY2lQUU5wRWhPLWRtbkJ5aE9JQk03bm5EcHdWWjk1LTNOQVlPV0VFcGFMT3NVTFBOY3VaclhxcjlTOFlGemZ1ZXdlQ3JtN0dKTHpB?oc=5",
+   "pub_ts": 1793378842.0,
+   "date": "30.10.2026, 18:47",
+   "cat": "phase2",
+   "sev": 1,
+   "dir": 0,
+   "tickers": [],
+   "companies": [
+    "PFE"
+   ],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQU3NXbHU3U0hlbmx2ZElVQl9sRTNPcG52TmtRSHpTOWIweWlRODFrWjlhRXJpMHhhUGRTQnl4LVlNODkwa3U3cXFjblJXWUZBY2lQUU5wRWhPLWRtbkJ5aE9JQk03bm5EcHdWWjk1LTNOQVlPV0VFcGFMT3NVTFBOY3VaclhxcjlTOFlGemZ1ZXdlQ3JtN0dKTHpB?oc=5"
+    }
+   ],
+   "ncts": []
   },
   {
    "title": "Acumen halts Alzheimer’s drug after phase 2 trial fails By Investing.com - Investing.com India",
