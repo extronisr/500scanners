@@ -1,6 +1,26 @@
 {
- "fetched_at": "30.10.2026, 22:34",
+ "fetched_at": "30.10.2026, 23:04",
  "items": [
+  {
+   "title": "US FDA approves Inovio's treatment for rare throat disease; shares surge - Reuters",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNSmdHX0xYU2FPbm1sVkNPVVRMdk5kR2F3ZXdQamlrNUxnNjROR1ZSQjF1SGRZbEpESGxwLUgwNE95NnJmZTlOTUFWcGkzNmN6c1RQS1cxWkxpV2FacVVBdzYxYi1iRWZJeDUzdm9WU0c2YVV1LXJhbWhvbjFpRHphTENVX09lUEZ0MTFpeVVmSXZuaGkwRmo3bmhJOVNaSDRFakVQbTNnc3V6dw?oc=5",
+   "pub_ts": 1793393111.0,
+   "date": "30.10.2026, 22:45",
+   "cat": "fda",
+   "sev": 4,
+   "dir": 1,
+   "tickers": [],
+   "companies": [
+    "INO"
+   ],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNSmdHX0xYU2FPbm1sVkNPVVRMdk5kR2F3ZXdQamlrNUxnNjROR1ZSQjF1SGRZbEpESGxwLUgwNE95NnJmZTlOTUFWcGkzNmN6c1RQS1cxWkxpV2FacVVBdzYxYi1iRWZJeDUzdm9WU0c2YVV1LXJhbWhvbjFpRHphTENVX09lUEZ0MTFpeVVmSXZuaGkwRmo3bmhJOVNaSDRFakVQbTNnc3V6dw?oc=5"
+    }
+   ],
+   "ncts": []
+  },
   {
    "title": "NRx Pharmaceuticals receives FDA approval for ketamine drug By Investing.com - Investing.com Canada",
    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNbzJQR21yUmZEdmlMZy0wdmdKbGw5YTB6NXhhRHNxLUFyMVZuNWNQN2o3WDlmMEFpMXBObTZsc1Q5NHFlckVnLTE1WEY0bXgwWGxXeGFZdjRYUFdUM3dQMUJSVi1GZTkxMDNzYnB3ZlF0T19OZjNPcnVvVy1wZ1pPZzBUZDJEa3VmSGZXLVlkMzkxYng2QzJ2VUVBUlROVU9XbEx1aDAtd2xJUHh1V0xPSkM0SXVqWUtVN3oxbA?oc=5",
@@ -1148,6 +1168,26 @@
    "ncts": []
   },
   {
+   "title": "FDA approves Pavblu (Amgen Inc)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761298",
+   "pub_ts": 1792627200.0,
+   "date": "22.10.2026",
+   "cat": "fda",
+   "sev": 4,
+   "dir": 1,
+   "tickers": [],
+   "companies": [
+    "AMGN"
+   ],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761298"
+    }
+   ],
+   "ncts": []
+  },
+  {
    "title": "FDA approves Ahzantive (Formycon Ag)",
    "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761378",
    "pub_ts": 1792627200.0,
@@ -1179,26 +1219,6 @@
     {
      "source": "FDA · openFDA",
      "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761382"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "FDA approves Pavblu (Amgen Inc)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761298",
-   "pub_ts": 1792627200.0,
-   "date": "22.10.2026",
-   "cat": "fda",
-   "sev": 4,
-   "dir": 1,
-   "tickers": [],
-   "companies": [
-    "AMGN"
-   ],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761298"
     }
    ],
    "ncts": []
@@ -2790,6 +2810,42 @@
    "ncts": []
   },
   {
+   "title": "FDA approves generic Rivaroxaban (Teva Pharms Usa)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=212247",
+   "pub_ts": 1793059200.0,
+   "date": "27.10.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=212247"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA approves generic Tranexamic Acid (Zydus Lifesciences)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221213",
+   "pub_ts": 1793059200.0,
+   "date": "27.10.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221213"
+    }
+   ],
+   "ncts": []
+  },
+  {
    "title": "A Study to Learn How Well the Study Treatment Finerenone Works and How Safe it is in People With Long-term Decrease in the Kidneys' Ability to Work Properly (Chronic Kidney Disease) Together With Type 1 Diabetes",
    "link": "https://clinicaltrials.gov/study/NCT05901831",
    "pub_ts": 1793059200.0,
@@ -3125,24 +3181,6 @@
    "ncts": []
   },
   {
-   "title": "FDA approves generic Trimethoprim (Bionpharma)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221194",
-   "pub_ts": 1792713600.0,
-   "date": "23.10.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221194"
-    }
-   ],
-   "ncts": []
-  },
-  {
    "title": "FDA approves generic Teriparatide (Dr Reddys)",
    "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=214412",
    "pub_ts": 1792713600.0,
@@ -3156,6 +3194,24 @@
     {
      "source": "FDA · openFDA",
      "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=214412"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA approves generic Trimethoprim (Bionpharma)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221194",
+   "pub_ts": 1792713600.0,
+   "date": "23.10.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221194"
     }
    ],
    "ncts": []
@@ -3311,6 +3367,42 @@
    "ncts": []
   },
   {
+   "title": "FDA approves generic Afatinib Dimaleate (Msn)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=210804",
+   "pub_ts": 1792540800.0,
+   "date": "21.10.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=210804"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA approves generic Amlodipine Besylate And Valsartan (Cadila Pharms Ltd)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=205797",
+   "pub_ts": 1792540800.0,
+   "date": "21.10.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=205797"
+    }
+   ],
+   "ncts": []
+  },
+  {
    "title": "Brentuximab Vedotin Plus Lenalidomide and Rituximab for the Treatment of Relapsed/Refractory DLBCL",
    "link": "https://clinicaltrials.gov/study/NCT04404283",
    "pub_ts": 1792540800.0,
@@ -3353,42 +3445,6 @@
    "ncts": [
     "NCT05502341"
    ]
-  },
-  {
-   "title": "FDA approves generic Afatinib Dimaleate (Msn)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=210804",
-   "pub_ts": 1792540800.0,
-   "date": "21.10.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=210804"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "FDA approves generic Amlodipine Besylate And Valsartan (Cadila Pharms Ltd)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=205797",
-   "pub_ts": 1792540800.0,
-   "date": "21.10.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=205797"
-    }
-   ],
-   "ncts": []
   },
   {
    "title": "Samsung Bioepis' first ADC drug candidate wins US FDA Fast Track designation - 머니투데이",
@@ -3513,26 +3569,6 @@
    "ncts": []
   },
   {
-   "title": "A Study of Ustekinumab in Pediatric Participants With Moderately to Severely Active Ulcerative Colitis (UC)",
-   "link": "https://clinicaltrials.gov/study/NCT04630028",
-   "pub_ts": 1792454400.0,
-   "date": "2026-10-20",
-   "cat": "phase3",
-   "sev": 2,
-   "dir": 0,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT04630028"
-    }
-   ],
-   "ncts": [
-    "NCT04630028"
-   ]
-  },
-  {
    "title": "FDA approves generic Brivaracetam (Zydus Lifesciences)",
    "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221301",
    "pub_ts": 1792454400.0,
@@ -3557,6 +3593,26 @@
     }
    ],
    "ncts": []
+  },
+  {
+   "title": "A Study of Ustekinumab in Pediatric Participants With Moderately to Severely Active Ulcerative Colitis (UC)",
+   "link": "https://clinicaltrials.gov/study/NCT04630028",
+   "pub_ts": 1792454400.0,
+   "date": "2026-10-20",
+   "cat": "phase3",
+   "sev": 2,
+   "dir": 0,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "ClinicalTrials.gov",
+     "link": "https://clinicaltrials.gov/study/NCT04630028"
+    }
+   ],
+   "ncts": [
+    "NCT04630028"
+   ]
   },
   {
    "title": "Gilead ‘sitting on a foundational asset’ after oral UC drug's phase 2 win - Fierce Biotech",
@@ -3594,82 +3650,6 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPWUdFcmJSZV9xNVZOcnNKbHVMNFBQWnVLYjNKbXhHNWQ2VVdMR2N4T3N4X0lMbzhrRWF4cWNlY0NxanVxQlRtLUxNb2phRy1zU1ZfbHliNEx2bHNZd1JySExySTJpOHgxT1doRU9ZbkhuemVjT0YtTlpuRGE2VzYtSk9MWjlWLUdPbWtJbFpuQXNCSHFvZVUxMzc1YmhyS3ZjZ0tyR180c3RGX0VNdlRJM21xbldTM3hRVWlnVHVFTF9UdHBYTFNPcXhPMGNkUWRpTUdqWnZxSE43cURaeTZzV3Z6Um0xaWNkRnhDNFBtTQ?oc=5"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "A Study of Rusfertide in Adults With Polycythemia Vera (PV)",
-   "link": "https://clinicaltrials.gov/study/NCT05210790",
-   "pub_ts": 1792368000.0,
-   "date": "2026-10-19",
-   "cat": "phase3",
-   "sev": 2,
-   "dir": 0,
-   "tickers": [],
-   "companies": [
-    "PTGX"
-   ],
-   "sources": [
-    {
-     "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT05210790"
-    }
-   ],
-   "ncts": [
-    "NCT05210790"
-   ]
-  },
-  {
-   "title": "FDA approves generic Romidepsin (Zydus Pharms)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220783",
-   "pub_ts": 1792368000.0,
-   "date": "19.10.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220783"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "FDA approves generic Deflazacort (Teva Pharms Inc)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=217103",
-   "pub_ts": 1792368000.0,
-   "date": "19.10.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=217103"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "FDA approves generic Eribulin Mesylate (Kindos)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=218930",
-   "pub_ts": 1792368000.0,
-   "date": "19.10.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=218930"
     }
    ],
    "ncts": []
@@ -3714,6 +3694,82 @@
     {
      "source": "FDA · openFDA",
      "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220407"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA approves generic Romidepsin (Zydus Pharms)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220783",
+   "pub_ts": 1792368000.0,
+   "date": "19.10.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220783"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA approves generic Deflazacort (Teva Pharms Inc)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=217103",
+   "pub_ts": 1792368000.0,
+   "date": "19.10.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=217103"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "A Study of Rusfertide in Adults With Polycythemia Vera (PV)",
+   "link": "https://clinicaltrials.gov/study/NCT05210790",
+   "pub_ts": 1792368000.0,
+   "date": "2026-10-19",
+   "cat": "phase3",
+   "sev": 2,
+   "dir": 0,
+   "tickers": [],
+   "companies": [
+    "PTGX"
+   ],
+   "sources": [
+    {
+     "source": "ClinicalTrials.gov",
+     "link": "https://clinicaltrials.gov/study/NCT05210790"
+    }
+   ],
+   "ncts": [
+    "NCT05210790"
+   ]
+  },
+  {
+   "title": "FDA approves generic Eribulin Mesylate (Kindos)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=218930",
+   "pub_ts": 1792368000.0,
+   "date": "19.10.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=218930"
     }
    ],
    "ncts": []
