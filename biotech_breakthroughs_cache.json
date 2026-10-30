@@ -1,5 +1,5 @@
 {
- "fetched_at": "30.10.2026, 6:35",
+ "fetched_at": "30.10.2026, 7:04",
  "items": [
   {
    "title": "Sun Pharma stock in focus after US FDA approves drug for psoriatic arthritis - Business Today",
@@ -2842,6 +2842,42 @@
    "ncts": []
   },
   {
+   "title": "FDA approves generic Propranolol Hydrochloride (Senores Pharms)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=216072",
+   "pub_ts": 1792972800.0,
+   "date": "26.10.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=216072"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA approves generic Epinephrine (Gland)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220400",
+   "pub_ts": 1792972800.0,
+   "date": "26.10.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220400"
+    }
+   ],
+   "ncts": []
+  },
+  {
    "title": "Agenus Reports 72% Pathologic Complete Response Rate with BOT+BAL in Phase 2 NEOASIS Trial at ESMO 2026 - Oncodaily",
    "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5HOEVHV0RLWVVUcC0yY19ueXhUakJmNnJSR0xqREN4eElxZkJTdURncVhOMDM2X2NCb1pMenp6endpdy1OajQ4eV90dkI5N2F2SXJ0dXBnZw?oc=5",
    "pub_ts": 1792947015.0,
@@ -2950,24 +2986,6 @@
    "ncts": []
   },
   {
-   "title": "FDA approves generic Trimethoprim (Bionpharma)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221194",
-   "pub_ts": 1792713600.0,
-   "date": "23.10.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221194"
-    }
-   ],
-   "ncts": []
-  },
-  {
    "title": "FDA approves generic Teriparatide (Dr Reddys)",
    "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=214412",
    "pub_ts": 1792713600.0,
@@ -2981,6 +2999,24 @@
     {
      "source": "FDA · openFDA",
      "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=214412"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA approves generic Trimethoprim (Bionpharma)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221194",
+   "pub_ts": 1792713600.0,
+   "date": "23.10.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221194"
     }
    ],
    "ncts": []
@@ -3136,24 +3172,6 @@
    "ncts": []
   },
   {
-   "title": "FDA approves generic Amlodipine Besylate And Valsartan (Cadila Pharms Ltd)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=205797",
-   "pub_ts": 1792540800.0,
-   "date": "21.10.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=205797"
-    }
-   ],
-   "ncts": []
-  },
-  {
    "title": "FDA approves generic Afatinib Dimaleate (Msn)",
    "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=210804",
    "pub_ts": 1792540800.0,
@@ -3167,6 +3185,24 @@
     {
      "source": "FDA · openFDA",
      "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=210804"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA approves generic Amlodipine Besylate And Valsartan (Cadila Pharms Ltd)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=205797",
+   "pub_ts": 1792540800.0,
+   "date": "21.10.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=205797"
     }
    ],
    "ncts": []
@@ -3420,6 +3456,50 @@
    "ncts": []
   },
   {
+   "title": "FDA approves generic Tofacitinib Citrate (Ajanta Pharma Ltd)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219542",
+   "pub_ts": 1792368000.0,
+   "date": "19.10.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219542"
+    },
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=218866"
+    },
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220010"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA approves generic Estradiol And Levonorgestrel (Zydus Pharms)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220407",
+   "pub_ts": 1792368000.0,
+   "date": "19.10.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220407"
+    }
+   ],
+   "ncts": []
+  },
+  {
    "title": "FDA approves generic Romidepsin (Zydus Pharms)",
    "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220783",
    "pub_ts": 1792368000.0,
@@ -3469,50 +3549,6 @@
     {
      "source": "FDA · openFDA",
      "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=218930"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "FDA approves generic Tofacitinib Citrate (Ajanta Pharma Ltd)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219542",
-   "pub_ts": 1792368000.0,
-   "date": "19.10.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219542"
-    },
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=218866"
-    },
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220010"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "FDA approves generic Estradiol And Levonorgestrel (Zydus Pharms)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220407",
-   "pub_ts": 1792368000.0,
-   "date": "19.10.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220407"
     }
    ],
    "ncts": []
