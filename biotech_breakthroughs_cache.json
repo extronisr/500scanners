@@ -1,6 +1,34 @@
 {
- "fetched_at": "30.10.2026, 2:05",
+ "fetched_at": "30.10.2026, 2:34",
  "items": [
+  {
+   "title": "FDA Approves GSK’s Hibsago for Chronic Hepatitis B - MyChesCo",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQZ0hNR243TDBqckxUWXV4Nkl0ZUdLOWZOTVVacFhudjg3VTllYXlIclN0elRDSTliM3dNMTlpM1BqYWxJSzA2ODg5c1hQaXE3NjV4QmxkMEFPa2pXU0hwOUEtVFYyRmJlUG5kYWVkNmdlb2hDMFpFWk5BcUJfT19iNmVWSWlXQVh5XzZYQ2hsSzBMeDV5cGc?oc=5",
+   "pub_ts": 1793318653.0,
+   "date": "30.10.2026, 2:04",
+   "cat": "fda",
+   "sev": 4,
+   "dir": 1,
+   "tickers": [],
+   "companies": [
+    "GSK"
+   ],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQZ0hNR243TDBqckxUWXV4Nkl0ZUdLOWZOTVVacFhudjg3VTllYXlIclN0elRDSTliM3dNMTlpM1BqYWxJSzA2ODg5c1hQaXE3NjV4QmxkMEFPa2pXU0hwOUEtVFYyRmJlUG5kYWVkNmdlb2hDMFpFWk5BcUJfT19iNmVWSWlXQVh5XzZYQ2hsSzBMeDV5cGc?oc=5"
+    },
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOenRJLTJkZDlnbjVUSTlZQ1JFMEZDYW4yMXpUNHJJSmNTR2kwb093bzV0UXJxZEJ5NERzcldaZXY3eUljSVE3c2JreDVyRzBnQnZwUldJN09pTWF1ZXM5WFp0cy14VlVUdGFZcE0xbHVSdWNHSkNqeE56YU1KSC0zbUJZVmRJanFMLWdhUA?oc=5"
+    },
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221276"
+    }
+   ],
+   "ncts": []
+  },
   {
    "title": "FDA approves Zanvastro, 1st drug directly targeting Alexander disease - NewsBytes",
    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOenprMUJ4NFhRZFdocHZ6WXhEamE3c3AtR2xoajYzRE5zOTVVZXRBQ3ZRZWU5OGMwWjUwMnBiV2NRLTVtUjhzamU4cUE0WDNydVNha1JkcU43MDR4ZW1nU0tpWk9Lc1I0MnYzZVU5cURfMFdUNnRkVnBKMnFzNEZQcngzcnZxTmkteGhIUUJvUTZob1ZldmtFOU5Vbi1vQkhHUkxmSzdQS3hBaUppSERKNjh0dy1Udw?oc=5",
@@ -1127,30 +1155,6 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1HN0FYbmczUXRSTm5NQzVHZXZ3RTNZUV92TThyVmdzaFBMU3hPLVcxRTZVMGZ4QVBoaWZ6cFBFNjFLa21kZTNEemFsQ0o1dXFweGhkbllRNy02WlVMTHpsZXI1c0owQWVR?oc=5"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "FDA Approves Hibsago (Bepirovirsen) for Chronic Hepatitis B - Pharmaceutical Executive",
-   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOenRJLTJkZDlnbjVUSTlZQ1JFMEZDYW4yMXpUNHJJSmNTR2kwb093bzV0UXJxZEJ5NERzcldaZXY3eUljSVE3c2JreDVyRzBnQnZwUldJN09pTWF1ZXM5WFp0cy14VlVUdGFZcE0xbHVSdWNHSkNqeE56YU1KSC0zbUJZVmRJanFMLWdhUA?oc=5",
-   "pub_ts": 1792594761.0,
-   "date": "21.10.2026, 17:59",
-   "cat": "fda",
-   "sev": 4,
-   "dir": 1,
-   "tickers": [],
-   "companies": [
-    "GSK"
-   ],
-   "sources": [
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOenRJLTJkZDlnbjVUSTlZQ1JFMEZDYW4yMXpUNHJJSmNTR2kwb093bzV0UXJxZEJ5NERzcldaZXY3eUljSVE3c2JreDVyRzBnQnZwUldJN09pTWF1ZXM5WFp0cy14VlVUdGFZcE0xbHVSdWNHSkNqeE56YU1KSC0zbUJZVmRJanFMLWdhUA?oc=5"
-    },
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221276"
     }
    ],
    "ncts": []
