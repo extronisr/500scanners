@@ -789,7 +789,7 @@ def test_header_honest_about_cadence():
     assert "מתעדכן אוטומטית כל חצי שעה" in html
     assert "עלולה להתעכב שעות" not in html
     assert 'onclick="location.reload()"' not in html
-    assert html.count('class="refresh-btn"') == 4
+    assert html.count('class="refresh-btn"') == 5
     assert "id='rfStatus'" in html
 
 
@@ -973,6 +973,8 @@ def test_premarket_read_thresholds_and_minimum():
 def _pm_rows(latest=1792991133):
     return [{"sym": "ES=F", "name": "S&P 500", "price": 7683.25, "chg": 0.31,
              "ts": latest, "venue": "CME", "stale": False},
+            {"sym": "NQ=F", "name": "NASDAQ 100", "price": 25437.0, "chg": -0.5,
+             "ts": latest - 13 * 3600, "venue": "CME", "stale": True},
             {"sym": "^VIX", "name": "VIX", "price": 19.45, "chg": 2.21,
              "ts": latest - 13 * 3600, "venue": "Cboe Indices", "stale": True}]
 
@@ -982,20 +984,20 @@ def test_build_html_renders_premarket_section():
     pm = {"rows": _pm_rows(), "latest": 1792991133, "session": "X",
           "venues": ["CME", "Cboe Indices"], "read": g._premarket_read([0.5, 0.4, 0.4], "\u05dc\u05e7\u05e8\u05d0\u05ea \u05d4\u05e4\u05ea\u05d9\u05d7\u05d4")}
     page = g.build_html(None, [], [], None, dt.datetime(2026, 10, 26, 7, 24), {"pm": pm})
-    assert "\u05d7\u05d5\u05d6\u05d9\u05dd \u05e2\u05ea\u05d9\u05d3\u05d9\u05d9\u05dd \u05d5-VIX \u00b7 X" in page
+    assert "\u05d7\u05d5\u05d6\u05d9\u05dd \u05e2\u05ea\u05d9\u05d3\u05d9\u05d9\u05dd \u00b7 X" in page
     assert "7,683.25" in page and "+0.31%" in page
     assert "\u05e0\u05d8\u05d9\u05d9\u05d4 \u05d7\u05d9\u05d5\u05d1\u05d9\u05ea \u05dc\u05e7\u05e8\u05d0\u05ea \u05d4\u05e4\u05ea\u05d9\u05d7\u05d4" in page
     assert "\u05e6\u05d9\u05d8\u05d5\u05d8" in page                       # per-card quote time present
     assert "finance.yahoo.com/quote/ES%3DF" in page                       # usable source link
 
 
-def test_build_html_vix_inverse_color_and_hint():
+def test_build_html_vix_not_in_futures():
     import generate as g
     pm = {"rows": _pm_rows(), "latest": 1792991133, "session": "X", "venues": [], "read": None}
     page = g.build_html(None, [], [], None, dt.datetime(2026, 10, 26, 7, 24), {"pm": pm})
-    # VIX +2.21% must be red (down), not green: rising VIX = rising uncertainty
-    assert '<span class="down" dir="ltr">+2.21%</span>' in page
-    assert "\u05e2\u05dc\u05d9\u05d9\u05d4 \u05d1-VIX = \u05e2\u05dc\u05d9\u05d9\u05d4 \u05d1\u05d7\u05d5\u05e1\u05e8 \u05d5\u05d3\u05d0\u05d5\u05ea" in page
+    # VIX card removed from the futures area per user request 2026-10-28 ("זה כבר מופיע")
+    assert "+2.21%" not in page
+    assert "\u05e2\u05dc\u05d9\u05d9\u05d4 \u05d1-VIX = \u05e2\u05dc\u05d9\u05d9\u05d4 \u05d1\u05d7\u05d5\u05e1\u05e8 \u05d5\u05d3\u05d0\u05d5\u05ea" not in page
 
 
 def test_build_html_stale_quote_shows_date():
