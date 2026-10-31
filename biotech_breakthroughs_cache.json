@@ -1,5 +1,5 @@
 {
- "fetched_at": "31.10.2026, 14:34",
+ "fetched_at": "31.10.2026, 15:04",
  "items": [
   {
    "title": "FDA Approves First DNA Immunotherapy for RRP - Voice of Healthcare",
@@ -2568,6 +2568,39 @@
    "ncts": []
   },
   {
+   "title": "Bristol Myers Squibb (BMY) Reports Positive Phase 2 Pumitamig Lung Cancer Data - Yahoo Finance",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQNE10QzBLZXlIcU5Qal9jU3RGd1pWWW82VkF2Z0tTUmlPRHMzUXd3enNzTFhRRVRFa3RHU3N2TTllblY2ZTdqaEF1dDFDQU94YUFZaXFLaW90Ty1lV0xBeDFXSGZsV1dPYlhOQ01jVzd1eGtlYkRjVFdXYkVlUklRbW9QYlVOMl91ampwYlBJRzl4ZWU5UUp1ZA?oc=5",
+   "pub_ts": 1793448762.0,
+   "date": "31.10.2026, 14:12",
+   "cat": "phase2",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [
+    "BMY"
+   ],
+   "companies": [
+    "BMY",
+    "BNTX"
+   ],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQNE10QzBLZXlIcU5Qal9jU3RGd1pWWW82VkF2Z0tTUmlPRHMzUXd3enNzTFhRRVRFa3RHU3N2TTllblY2ZTdqaEF1dDFDQU94YUFZaXFLaW90Ty1lV0xBeDFXSGZsV1dPYlhOQ01jVzd1eGtlYkRjVFdXYkVlUklRbW9QYlVOMl91ampwYlBJRzl4ZWU5UUp1ZA?oc=5"
+    },
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQMzlWdTVoN2FKcXdyUnZDamtRUUN3N2tCWnF2bkFLaW9fNTZPdzJELXZXSEZoc0NsbjM3U2NQSnp5NTFVbXVVMXI4TDItOTV6SG9Wak5IdGxhTFpuQkhpZ3laX1lCU1FNcl95R2lNVElnSTcxczVDc2tZcl9VVHBkek05dkRWTnNPVk5OUkU0STVuUW85cXZYTm1IUFRKRE5UV2t1ck5tQVRKckcyNkJFb1ZfbFhNcUY5aks4bWtGUWdZOTd5RTZPY2s3T2daQVM4Y2JUcW9mMHJqMU5HdXRXMVlCbm0xTHg4VXdGa1RRakdPRTZZd2ZUOUJHMHBDdmFFMThyVmpyQnhHY00?oc=5"
+    },
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOU2w0NU1xbDVrWm1lRWJoOU5Ialc4T2xQbW1EcTlTNFRyVmxDckNlVHRUdmxEREY0eDNMNTZsUVRLMUdrZ3lHLWFyTWRkY0NuMlgwLVNISVgzb1ViVkdCaXBFdXNhTEFMZ0drdVNFX3Jfc3FWcG1wdlRsN2VSMlo1ajgzTGkwaVJTUkZ3NnRrOXRzb3dKdEpBLXd5YWhmY2xSdk5TMjFBZWRVdVB0YjlvblVvUUpnYmM?oc=5"
+    }
+   ],
+   "ncts": [
+    "NCT05337137"
+   ]
+  },
+  {
    "title": "Hengrui Pharma Gets China Priority Review for Breast Cancer Drug - marketscreener.com",
    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNaXo5RWFYdEJYYWhCekhwZll6Z1JHTjgwRFVzWlZ2cG9rLXNUTjBWaVVLWXA3TGU5M1o2QnhtS1RaX2lKajBOSmhVWDJDREdoZjFYa3lrby02RzJNMEJjWXkwNXBjX21vRHhmeTNFeUFxS1YzcFV3VFdYT1ppNzlIWk9oQUZOMGwwb0dFY3dKNmdsSWxqS2F2ejc1SU1TeG1kY2VhbXZvQkx6UXFQMUR4VDFSYVplalBH?oc=5",
    "pub_ts": 1793329402.0,
@@ -4499,37 +4532,6 @@
     }
    ],
    "ncts": []
-  },
-  {
-   "title": "BioNTech and Bristol Myers Squibb Report Encouraging Phase 2 Results for Pumitamig Plus Docetaxel in Previously Treated Non-Small Cell Lung Cancer - Quiver Quantitative",
-   "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQMzlWdTVoN2FKcXdyUnZDamtRUUN3N2tCWnF2bkFLaW9fNTZPdzJELXZXSEZoc0NsbjM3U2NQSnp5NTFVbXVVMXI4TDItOTV6SG9Wak5IdGxhTFpuQkhpZ3laX1lCU1FNcl95R2lNVElnSTcxczVDc2tZcl9VVHBkek05dkRWTnNPVk5OUkU0STVuUW85cXZYTm1IUFRKRE5UV2t1ck5tQVRKckcyNkJFb1ZfbFhNcUY5aks4bWtGUWdZOTd5RTZPY2s3T2daQVM4Y2JUcW9mMHJqMU5HdXRXMVlCbm0xTHg4VXdGa1RRakdPRTZZd2ZUOUJHMHBDdmFFMThyVmpyQnhHY00?oc=5",
-   "pub_ts": 1792914000.0,
-   "date": "25.10.2026, 9:40",
-   "cat": "phase2",
-   "sev": 1,
-   "dir": 0,
-   "tickers": [],
-   "companies": [
-    "BMY",
-    "BNTX"
-   ],
-   "sources": [
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQMzlWdTVoN2FKcXdyUnZDamtRUUN3N2tCWnF2bkFLaW9fNTZPdzJELXZXSEZoc0NsbjM3U2NQSnp5NTFVbXVVMXI4TDItOTV6SG9Wak5IdGxhTFpuQkhpZ3laX1lCU1FNcl95R2lNVElnSTcxczVDc2tZcl9VVHBkek05dkRWTnNPVk5OUkU0STVuUW85cXZYTm1IUFRKRE5UV2t1ck5tQVRKckcyNkJFb1ZfbFhNcUY5aks4bWtGUWdZOTd5RTZPY2s3T2daQVM4Y2JUcW9mMHJqMU5HdXRXMVlCbm0xTHg4VXdGa1RRakdPRTZZd2ZUOUJHMHBDdmFFMThyVmpyQnhHY00?oc=5"
-    },
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOU2w0NU1xbDVrWm1lRWJoOU5Ialc4T2xQbW1EcTlTNFRyVmxDckNlVHRUdmxEREY0eDNMNTZsUVRLMUdrZ3lHLWFyTWRkY0NuMlgwLVNISVgzb1ViVkdCaXBFdXNhTEFMZ0drdVNFX3Jfc3FWcG1wdlRsN2VSMlo1ajgzTGkwaVJTUkZ3NnRrOXRzb3dKdEpBLXd5YWhmY2xSdk5TMjFBZWRVdVB0YjlvblVvUUpnYmM?oc=5"
-    },
-    {
-     "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT05337137"
-    }
-   ],
-   "ncts": [
-    "NCT05337137"
-   ]
   },
   {
    "title": "2026 ESMO | Innovent Announcement Phase 2 Data Presentation for IBI354 (HER2 ADC) In First-line Treatment of Breast Cancer - Banning Record Gazette",
