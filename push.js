@@ -46,16 +46,19 @@ function pollHot(init){
   }).catch(function(){});
 }
 pollHot(true); setInterval(pollHot,5*60*1000);
-// route to the pane of the last received push (covers OSes that drop the URL)
-if(window.caches){caches.open('bio-push-v1').then(function(c){return c.match('/last-target');}).then(function(r){
+// route ONLY after an actual notification tap: the click handler records
+// /last-click before opening; if the OS dropped the URL we route once here
+// and clear the entry. A push that was never tapped changes nothing, and a
+// stale entry (older than 2 min) is ignored and cleared.
+if(window.caches){caches.open('bio-push-v1').then(function(c){return c.match('/last-click');}).then(function(r){
   if(!r) return;
   r.json().then(function(j){
-    if(j&&j.url&&Date.now()-j.at<30*60*1000){
+    if(j&&j.url&&Date.now()-j.at<2*60*1000){
       var m=/#([a-z]+)/.exec(j.url);
       var b=m&&document.querySelector('.tabbar button[data-t="'+m[1]+'"]');
       if(b) b.click();
     }
-    caches.open('bio-push-v1').then(function(c){c.delete('/last-target');});
+    caches.open('bio-push-v1').then(function(c){c.delete('/last-click');});
   });
 }).catch(function(){});}
 navigator.serviceWorker&&navigator.serviceWorker.addEventListener('message',function(e){

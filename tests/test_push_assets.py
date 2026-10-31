@@ -67,17 +67,23 @@ def test_icons_exist():
 
 
 
-def test_sw_push_target_store_and_click_fallbacks():
+def test_sw_records_tap_at_click_time_not_push_time():
     sw = open(os.path.join(BASE, "sw.js"), encoding="utf-8").read()
-    # tap target persisted at push time (iOS may drop the URL at click time)
-    assert "last-target" in sw and "caches.open" in sw
+    push_body = sw[sw.index("addEventListener('push'"):sw.index("addEventListener('notificationclick'")]
+    click_body = sw[sw.index("addEventListener('notificationclick'"):]
+    # a push that is never tapped must not persist anything (no hijack of the next plain open)
+    assert "caches.open" not in push_body
+    # the tap is recorded at click time, before opening (covers WebKit 263687 dropped URLs)
+    assert "'/last-click'" in click_body and "caches.open" in click_body
     # declarative payloads parsed via data.notification fallback
     assert "data.notification" in sw
-    # click resolves an absolute URL and never depends on notification.data
+    # click resolves an absolute URL and never depends on notification.data surviving
     assert "self.registration.scope" in sw and "openWindow" in sw
 
 
-def test_push_js_routes_to_push_target_pane():
+def test_push_js_routes_only_after_click_and_consumes():
     js = open(os.path.join(BASE, "push.js"), encoding="utf-8").read()
-    assert "bio-push-v1" in js and "last-target" in js
+    assert "bio-push-v1" in js and "last-click" in js and "last-target" not in js
     assert "tabbar button" in js  # switches to the pushed pane on load
+    assert "2*60*1000" in js      # stale tap entries are ignored
+    assert "delete('/last-click')" in js  # entry consumed on read
