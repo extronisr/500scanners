@@ -87,3 +87,11 @@ def test_push_js_routes_only_after_click_and_consumes():
     assert "tabbar button" in js  # switches to the pushed pane on load
     assert "2*60*1000" in js      # stale tap entries are ignored
     assert "delete('/last-click')" in js  # entry consumed on read
+
+
+def test_push_js_reconcile_failure_visible():
+    js = open(os.path.join(BASE, "push.js"), encoding="utf-8").read()
+    # self-heal re-registers an existing browser subscription on load
+    assert "reconcile" in js and "/push/subscribe" in js
+    # a failed server upsert must be surfaced, never a silent false 'active'
+    assert "הרישום בשרת נכשל" in js and "throw new Error('reconcile failed')" in js

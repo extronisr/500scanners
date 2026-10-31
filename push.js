@@ -87,7 +87,8 @@ regP.then(function(reg){return reg.pushManager.getSubscription();}).then(functio
   // (idempotent upsert keyed by the endpoint hash) so a lost server record
   // self-heals silently on the next app open
   fetch(WORKER+'/push/subscribe',{method:'POST',headers:{'Content-Type':'application/json'},
-    body:JSON.stringify(sub)}).catch(function(){});
+    body:JSON.stringify(sub)}).then(function(r){ if(!r.ok) throw new Error('reconcile failed'); })
+    .catch(function(){ say('ההתראות פעילות במכשיר אך הרישום בשרת נכשל - כבה והפעל שוב'); });
 });
 enableBtn.addEventListener('click',function(){
   enableBtn.disabled=true; say('מפעיל…');
