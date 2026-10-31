@@ -154,25 +154,31 @@ def market_health_section():
 def spark_closes(symbols):
     """Yahoo spark endpoint: up to ~20 symbols per call. Returns
     {symbol: [closes]}. NOTE: spark quote carries no volume series,
-    so volumes are fetched separately (v8 chart) for shortlisted tickers."""
-    params = urllib.parse.urlencode(
-        {"symbols": ",".join(symbols), "range": "1y", "interval": "1d"})
-    url = "https://query1.finance.yahoo.com/v7/finance/spark?" + params
-    try:
-        data = http_get_json(url, timeout=30)
-    except Exception as e:
-        fail("dip", f"spark batch failed ({len(symbols)} syms): {e}")
-        return {}
+    so volumes are fetched separately (v8 chart) for shortlisted tickers.
+    Larger requests are chunked automatically (the endpoint 400s above ~20)."""
     out = {}
-    for item in data.get("spark", {}).get("result", []):
+    symbols = list(symbols)
+    for i in range(0, len(symbols), 20):
+        chunk = symbols[i:i + 20]
+        params = urllib.parse.urlencode(
+            {"symbols": ",".join(chunk), "range": "1y", "interval": "1d"})
+        url = "https://query1.finance.yahoo.com/v7/finance/spark?" + params
         try:
-            sym = item.get("symbol")
-            q = item["response"][0]["indicators"]["quote"][0]
-            closes = [float(c) for c in (q.get("close") or []) if c is not None]
-            if closes:
-                out[sym] = closes
-        except Exception:
+            data = http_get_json(url, timeout=30)
+        except Exception as e:
+            fail("dip", f"spark batch failed ({len(chunk)} syms): {e}")
             continue
+        for item in data.get("spark", {}).get("result", []):
+            try:
+                sym = item.get("symbol")
+                q = item["response"][0]["indicators"]["quote"][0]
+                closes = [float(c) for c in (q.get("close") or []) if c is not None]
+                if closes:
+                    out[sym] = closes
+            except Exception:
+                continue
+        if i + 20 < len(symbols):
+            time.sleep(0.5)
     return out
 
 
@@ -816,6 +822,11 @@ SECTOR_SYMBOLS = [("XLK", "טכנולוגיה"), ("XLF", "פיננסים"), ("XL
                   ("XLE", "אנרגיה"), ("XLY", "צריכה מחזורית"), ("XLP", "צריכה בסיסית"),
                   ("XLI", "תעשייה"), ("XLU", "תשתיות ציבוריות"), ("XLRE", "נדל״ן"),
                   ("XLB", "חומרי גלם"), ("XLC", "תקשורת")]
+# Extra ETF rows under the heatmap (requested 2026-10-28): same style as the SMH row.
+EXTRA_ETF_ROWS = [("SMH", "סמיקונדקטורס"), ("DRAM", "זיכרון"),
+                  ("SOXX", "סמיקונדקטורס"), ("IGV", "תוכנה")]
+EXTRA_ETF_NAMES = {s for s, _ in EXTRA_ETF_ROWS}
+
 CHANGE3_SYMBOLS = [("^VIX", "VIX", "נקודות", False), ("^TNX", "US 10Y", "נקודות אחוז", False),
                    ("BZ=F", "Brent", "דולר", True), ("CL=F", "WTI", "דולר", True)]
 
@@ -823,12 +834,12 @@ CHANGE3_SYMBOLS = [("^VIX", "VIX", "נקודות", False), ("^TNX", "US 10Y", "�
 def market_overview_section():
     """Indices, sector heatmap and the 3-trading-day card. One spark batch (20 symbols)."""
     syms = ([s for s, _ in INDEX_SYMBOLS] + [s for s, _ in SECTOR_SYMBOLS]
-            + ["SMH"] + [s for s, _, _, _ in CHANGE3_SYMBOLS])
+            + [s for s, _ in EXTRA_ETF_ROWS] + [s for s, _, _, _ in CHANGE3_SYMBOLS])
     data = spark_closes(syms)
     if not data:
         fail("overview", "spark batch failed for market overview")
         return None
-    out = {"indices": [], "sectors": [], "change3": [], "smh": None}
+    out = {"indices": [], "sectors": [], "change3": [], "smh": None, "extra_rows": []}
     for sym, name in INDEX_SYMBOLS:
         cl = data.get(sym)
         if not cl or len(cl) < 60:
@@ -848,15 +859,17 @@ def market_overview_section():
         abs3 = cl[-1] - cl[-4]
         pct3 = (cl[-1] / cl[-4] - 1.0) * 100.0 if cl[-4] else None
         return abs3, pct3
-    for sym, name in SECTOR_SYMBOLS + [("SMH", "סמיקונדקטורס")]:
+    for sym, name in SECTOR_SYMBOLS + EXTRA_ETF_ROWS:
         cl = data.get(sym)
         if not cl or len(cl) < 4:
             continue
         day = (cl[-1] / cl[-2] - 1.0) * 100.0 if cl[-2] else None
         _, pct3 = _chg3(sym)
         row = {"sym": sym, "name": name, "day_pct": day, "pct3": pct3}
-        if sym == "SMH":
-            out["smh"] = row
+        if sym in EXTRA_ETF_NAMES:
+            out["extra_rows"].append(row)
+            if sym == "SMH":
+                out["smh"] = row
         else:
             out["sectors"].append(row)
     for sym, name, unit, show_pct in CHANGE3_SYMBOLS:
@@ -927,8 +940,9 @@ def cnn_section():
 
 # ---------------------------------------------------------------- pre-market futures
 FUTURES_SYMBOLS = [("ES=F", "S&P 500"), ("NQ=F", "נאסדק 100"),
-                   ("YM=F", "דאו ג'ונס"), ("RTY=F", "ראסל 2000"),
-                   ("^VIX", "VIX")]
+                   ("YM=F", "דאו ג'ונס"), ("RTY=F", "ראסל 2000")]
+# VIX is intentionally not a futures card (requested 2026-10-28: "זה כבר מופיע") -
+# it stays in market health and in the 3-trading-day row.
 FUTURES_SOURCE_URL = "https://finance.yahoo.com/quote/ES%3DF"
 NY_TZ = ZoneInfo("America/New_York")
 STALE_QUOTE_SEC = 12 * 3600   # a quote this far behind the section's freshest is marked
@@ -1866,12 +1880,14 @@ def build_html(mh, dips, alerts, bo, updated, extra=None):
                     f'<b dir="ltr">{d1:+.2f}%</b>'
                     f"<small>3 ימים: {p3}</small></div>")
             parts.append("</div>")
-            smh = ov.get("smh")
-            if smh and smh["day_pct"] is not None:
+            for xr in ov.get("extra_rows") or []:
+                if xr["day_pct"] is None:
+                    continue
                 parts.append(
-                    '<div class="smhrow"><span><b>סמיקונדקטורס · SMH</b> '
+                    '<div class="smhrow"><span><b>'
+                    + esc(xr["name"]) + " · " + esc(xr["sym"]) + "</b> "
                     "<small>פירוט נוסף, לא מגזר במפה</small></span>"
-                    f"{pct2(smh['day_pct'])}</div>")
+                    f"{pct2(xr['day_pct'])}</div>")
             parts.append('<div class="ts">11 מגזרי S&P 500 באמצעות קרנות סל ענפיות · Yahoo Finance</div>')
         if ov["change3"]:
             parts.append('<h3 class="sec">שינוי ב-3 ימי מסחר</h3>')
@@ -1908,13 +1924,13 @@ def build_html(mh, dips, alerts, bo, updated, extra=None):
 
     pm = extra.get("pm")
     session = (pm or {}).get("session") or _futures_session_context()[0]
-    parts.append(f'<h3 class="sec">חוזים עתידיים ו-VIX · {esc(session)}</h3>')
+    parts.append(f'<h3 class="sec">חוזים עתידיים · {esc(session)}</h3>')
     if pm is None:
         parts.append('<div class="empty">ציטוטי החוזים לא היו זמינים בריצה זו — יוצגו ברענון הבא.</div>')
     else:
         parts.append('<div class="idxgrid">')
         run_date = updated.astimezone(JER).date() if updated.tzinfo else updated.date()
-        for r in pm["rows"]:
+        for r in [r for r in pm["rows"] if r["sym"] != "^VIX"]:
             if r["price"] is None:
                 parts.append(
                     '<div class="idxcard">'
@@ -1953,7 +1969,7 @@ def build_html(mh, dips, alerts, bo, updated, extra=None):
         venues = ", ".join(pm.get("venues") or [])
         venues_txt = f" ({esc(venues)})" if venues else ""
         parts.append(
-            f'<div class="ts">חוזים עתידיים{venues_txt} ומדד ה-VIX, דרך Yahoo Finance · '
+            f'<div class="ts">חוזים עתידיים{venues_txt}, דרך Yahoo Finance · '
             'שעת הציטוט מופיעה בכל כרטיס · נמשך בריצה זו · שאר הדף מציג נתוני סגירה רשמיים · '
             f'<a class="src-link" href="{FUTURES_SOURCE_URL}" target="_blank" rel="noopener">מקור</a></div>')
 
@@ -2396,6 +2412,134 @@ def build_html(mh, dips, alerts, bo, updated, extra=None):
                      'זיהוי מוצהר ל-SEC · קצב מתחת ל-2 בקשות לשנייה</div>')
     parts.append("</div>")
 
+    # ================= market pulse pane (סקירת שוק יומית) =================
+    pulse = extra.get("pulse")
+    parts.append('<div class="pane" id="pane-pulse">')
+    if not pulse:
+        parts.append(
+            '<div class="hdr"><div><h1>סקירת שוק יומית</h1>'
+            '<div class="ts">מתעדכן פעמיים ביום: 10:00 ו-18:00</div></div>'
+            '<button class="refresh-btn" type="button">עדכן עכשיו</button></div>')
+        parts.append('<div class="empty">הסקירה הראשונה תפורסם בעדכון הקרוב (10:00 / 18:00).</div>')
+    else:
+        try:
+            _gen = datetime.fromisoformat(pulse["generated_at"])
+            _gen = _gen.astimezone(JER) if _gen.tzinfo else _gen.replace(tzinfo=JER)
+            gen_s = f"{_gen.day}.{_gen.month} {_gen.hour}:{_gen.minute:02d}"
+        except Exception:
+            gen_s = ""
+        parts.append(
+            '<div class="hdr"><div><h1>סקירת שוק יומית</h1>'
+            f'<div class="ts">סריקה: {gen_s} · חלון: 24-48 שעות אחרונות · מתעדכן 10:00 ו-18:00</div></div>'
+            '<button class="refresh-btn" type="button">עדכן עכשיו</button></div>')
+        if pulse.get("intro"):
+            parts.append(f'<div class="finding">{esc(pulse["intro"])}</div>')
+        idx = pulse.get("indices") or []
+        if idx:
+            parts.append('<h3 class="sec">סקירת שוק</h3>')
+            parts.append('<div class="idxgrid">')
+            for ix in idx:
+                day = pct2(ix["day_pct"]) if ix.get("day_pct") is not None else ""
+                wk = (f'<small>שבוע: {ix["week_pct"]:+.2f}%</small>'
+                      if ix.get("week_pct") is not None else "")
+                val_s = f"{ix['value']:,.2f}" if ix.get("value") is not None else "—"
+                parts.append(
+                    '<div class="idxcard">'
+                    f'<span class="idxname">{esc(ix["name"])}</span>'
+                    f'<b>{ltr(val_s)}</b>{day}<small>מול סגירה קודמת</small>{wk}'
+                    "</div>")
+            parts.append("</div>")
+            asof = next((i.get("asof") for i in idx if i.get("asof")), None)
+            if asof:
+                parts.append(f'<div class="ts">סגירות נכונות ל-{esc(asof)} · Yahoo Finance</div>')
+        sent = pulse.get("sentiment") or {}
+        fgp = pulse.get("fear_greed")
+        if sent or fgp:
+            parts.append('<h3 class="sec">סנטימנט כללי</h3>')
+        if sent:
+            label = sent.get("label") or ""
+            badge_col = {"שורי": "#22c55e", "דובי": "#ef4444", "נייטרלי": "#f59e0b"}.get(label, "#9ca3af")
+            score_s = f" · {sent['score']}/100" if isinstance(sent.get("score"), int) else ""
+            est = " <small>(הערכה)</small>" if sent.get("estimated") else ""
+            row = (f'<div class="finding">סנטימנט: <span class="status-badge" '
+                   f'style="background:{badge_col}">{esc(label)}</span>{esc(score_s)}{est}')
+            if sent.get("driver"):
+                row += f'<p>{esc(sent["driver"])}</p>'
+            parts.append(row + "</div>")
+        if fgp:
+            prev = (f' <small>אתמול: {fgp["prev_close"]}</small>' if fgp.get("prev_close") is not None else "")
+            parts.append(
+                f'<div class="smhrow"><span><b>מדד הפחד והחמדה · CNN</b>{prev}</span>'
+                f'<b dir="ltr">{fgp["score"]}/100</b></div>')
+        stories = pulse.get("stories") or []
+        if stories:
+            parts.append('<h3 class="sec">הסיפורים המובילים</h3>')
+            imp_col = {"חיובית": "#22c55e", "שלילית": "#ef4444", "מעורבת": "#f59e0b"}
+            for s in stories:
+                chip = (f'<span class="status-badge" style="background:'
+                        f'{imp_col.get(s.get("impact"), "#9ca3af")}">{esc(s.get("impact") or "")}</span>')
+                summ = f'<p>{esc(s["summary"])}</p>' if s.get("summary") else ""
+                aff = f'<small>מושפעים: {esc(s["affected"])}</small>' if s.get("affected") else ""
+                srcl = ""
+                if s.get("source_url"):
+                    srcl = (f' <a class="src-link" href="{esc(s["source_url"])}" '
+                            'target="_blank" rel="noopener">מקור ↗</a>')
+                parts.append(f'<div class="finding">{chip} <b>{esc(s.get("title") or "")}</b>{srcl}{summ}{aff}</div>')
+        stocks = pulse.get("stocks") or []
+        if stocks:
+            parts.append('<h3 class="sec">המניות המדוברות ביותר</h3>')
+            for s in stocks:
+                men = ""
+                if s.get("mentions") is not None:
+                    men = f'אזכורים: {s["mentions"]}'
+                    if s.get("mentions_prev") is not None:
+                        men += f' (אתמול {s["mentions_prev"]})'
+                day = pct2(s["day_pct"]) if s.get("day_pct") is not None else ""
+                reason = f'<small>{esc(s["reason"])}</small>' if s.get("reason") else ""
+                cat = ""
+                if s.get("catalyst") and s.get("catalyst") != "אין נתונים אמינים":
+                    cat = f'<small>קטליזטור: {esc(s["catalyst"])}</small>'
+                parts.append('<div class="smhrow"><span><b>' + esc(s["ticker"])
+                             + f'</b> <small>{men}</small>{reason}{cat}</span>{day}</div>')
+            parts.append('<div class="ts">דירוג לפי נפח וקצב דיון (wallstreetbets + Stocktwits) · לא המלצה</div>')
+        parts.append('<h3 class="sec">סנטימנט ומומנטום</h3>')
+        parts.append('<div class="chg3">')
+        retail = pulse.get("retail") or {}
+        rb = ""
+        if retail.get("bulls") is not None and retail.get("bears") is not None:
+            rb = f'<small>Stocktwits: {retail["bulls"]} שוריים / {retail["bears"]} דוביים</small>'
+        parts.append(f"<div><span>קמעונאים</span><b>{esc(retail.get('label') or 'אין נתונים')}</b>{rb}</div>")
+        parts.append("<div><span>מוסדיים</span><b>אין נתונים אמינים</b></div>")
+        parts.append(f"<div><span>רמת הייפ</span><b>{esc(pulse.get('hype') or 'אין נתונים')}</b><small>קצב אזכורים מול היום הקודם</small></div>")
+        _m_now = sum(s.get("mentions") or 0 for s in (pulse.get("stocks") or []))
+        _m_prev = sum(s.get("mentions_prev") or 0 for s in (pulse.get("stocks") or []))
+        if _m_now and _m_prev:
+            _vel = (_m_now - _m_prev) / _m_prev * 100
+            _mom = f"{_vel:+.0f}% מול אתמול"
+        else:
+            _mom = "אין נתונים"
+        parts.append(f"<div><span>קצב אזכורים</span><b>{esc(_mom)}</b><small>wallstreetbets, 5 המדוברות</small></div>")
+        parts.append("</div>")
+        if pulse.get("sentiment_basis"):
+            parts.append(f'<div class="ts">{esc(pulse["sentiment_basis"])}</div>')
+        alerts = pulse.get("alerts") or []
+        if alerts:
+            parts.append('<h3 class="sec">התראות שוק</h3>')
+            for a in alerts:
+                srcl = (f' <a class="src-link" href="{esc(a["source_url"])}" target="_blank" rel="noopener">מקור ↗</a>'
+                        if a.get("source_url") else "")
+                parts.append(f'<div class="finding warn">⚠️ {esc(a.get("text") or "")}{srcl}</div>')
+        wl = pulse.get("watchlist") or []
+        if wl:
+            parts.append('<h3 class="sec">רשימת מעקב</h3>')
+            for w in wl:
+                parts.append(f'<div class="smhrow"><span><b>{esc(w["ticker"])}</b> '
+                             f'<small>{esc(w.get("why") or "")}</small></span></div>')
+        if pulse.get("weekly"):
+            parts.append(f'<h3 class="sec">סנטימנט שבועי</h3><div class="finding">{esc(pulse["weekly"])}</div>')
+
+    parts.append("</div>")
+
     # ================= bottom tab bar =================
     badge = (f'<span class="count-badge">{n_alerts}</span>' if n_alerts else "")
     parts.append(
@@ -2404,6 +2548,7 @@ def build_html(mh, dips, alerts, bo, updated, extra=None):
         '<button data-t="bo">פריצות ומגמה</button>'
         '<button data-t="dip">דיפים ותיקונים</button>'
         f'<button data-t="bio">ביוטק{badge}</button>'
+        '<button data-t="pulse">סקירת שוק</button>'
         '<a class="tablink" href="concepts.html">מושגים</a>'
         "</div>")
 
@@ -2415,6 +2560,7 @@ document.querySelectorAll('.tabbar button').forEach(function(x){x.classList.remo
 document.querySelectorAll('.pane').forEach(function(x){x.classList.remove('active')});
 b.classList.add('active');
 document.getElementById('pane-'+b.dataset.t).classList.add('active');
+var _f=document.querySelector('.ftr');if(_f){_f.style.display=(b.dataset.t==='pulse')?'none':'';}
 window.scrollTo(0,0);});});
 var kf=document.getElementById('kindfilter');
 if(kf){kf.addEventListener('change',function(){
@@ -2504,12 +2650,17 @@ def main():
                 if ev:
                     r["why"] = f"דיווח SEC · {ev['label']} · {ev['date']}"
     try:
+        pulse = json.load(open(os.path.join(BASE_DIR, "pulse_latest.json"), encoding="utf-8"))
+    except Exception:
+        pulse = None
+    try:
         acc = json.load(open(os.path.join(BASE_DIR, "accuracy_stats.json"), encoding="utf-8"))
     except Exception as e:
         fail("accuracy", f"stats unreadable: {e}")
         acc = None
     extra = {"overview": overview, "cnn": cnn, "pm": pm, "cats": cats, "trials": trials,
-             "secw": secw, "radar": bio.get("radar", []), "acc": acc, "bt": bt}
+             "secw": secw, "radar": bio.get("radar", []), "acc": acc, "bt": bt,
+             "pulse": pulse}
     alerts = bio.get("alerts", [])
 
     updated = datetime.now(JER)

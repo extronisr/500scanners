@@ -14,23 +14,25 @@ jobs:
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
-        with:
-          ref: main
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
       - run: pip install -r requirements.txt
+      - name: Daily market review (10:00 / 18:00 Israel slots; manual button always rescans)
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+        run: python market_pulse.py ${{ github.event_name == 'workflow_dispatch' && '--force' || '' }}
       - run: python generate.py
       - run: |
           git config user.name "scanners-bot"
           git config user.email "scanners-bot@localhost"
-          git add index.html version.json recovery_history.json sp500_tickers_cache.json
-          [ -f market_scanner_universe.json ] && git add market_scanner_universe.json || true
-          [ -f market_scanner_universe.csv ] && git add market_scanner_universe.csv || true
+          git add index.html recovery_history.json sp500_tickers_cache.json
+          [ -f pulse_latest.json ] && git add pulse_latest.json || true
+          [ -f pulse_history.json ] && git add pulse_history.json || true
           [ -f cnn_snapshot.json ] && git add cnn_snapshot.json || true
           [ -f clinical_trials_cache.json ] && git add clinical_trials_cache.json || true
           [ -f biotech_breakthroughs_cache.json ] && git add biotech_breakthroughs_cache.json || true
-          [ -f biotech_universe.json ] && git add biotech_universe.json || true
           [ -f sp500_names_cache.json ] && git add sp500_names_cache.json || true
           git diff --cached --quiet || git commit -m "refresh $(date -u +%Y-%m-%dT%H:%M)"
           git pull --rebase --autostash

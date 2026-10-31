@@ -1,0 +1,119 @@
+{
+ "version": 1,
+ "slot": "2026-10-31T18:00",
+ "generated_at": "2026-10-31T19:29:05.156565+02:00",
+ "window_hours": 48,
+ "mode": "full",
+ "intro": "יום שישי היה יום קשה בוול סטריט: אינטל צנחה וגררה את מגזר השבבים, והספק שההשקעות הענקיות ב-AI יחזירו את עצמן פגע בענקיות הטכנולוגיה. המסחר סגור עד יום שני.",
+ "stories": [
+  {
+   "title": "אינטל: הירידה היומית הגרועה מאז 1974",
+   "summary": "אינטל פרסמה ביום חמישי אחרי הסגירה תחזית הכנסות חלשה לרבעון הרביעי, הרחק מתחת לציפיות וול סטריט, על רקע חולשה במכירות מחשבים - וביום שישי המניה צנחה כמעט 30% ונסגרה בירידה של 28.6%. זו הירידה היומית הגדולה ביותר של החברה מאז 1974.",
+   "impact": "שלילית",
+   "affected": "Intel (INTC) ומגזר השבבים",
+   "news_refs": [
+    "N15",
+    "N14"
+   ],
+   "source_url": "https://finance.yahoo.com/markets/article/intel-stock-plunges-nearly-30-on-pace-for-its-worst-day-since-1974-135850305.html",
+   "source_name": "Yahoo Finance",
+   "published": "2026-10-30"
+  },
+  {
+   "title": "השוק דורש הוכחות שההשקעה ב-AI משתלמת",
+   "summary": "אלפבית (גוגל) אכזבה בדוח שפורסם בסוף יום רביעי והציגה תזרים מזומנים חופשי שלילי של 9.1 מיליארד דולר מול צפי ל-3.5 מיליארד; המניה צנחה מעל 10% ביום חמישי. אמזון, שדיווחה ביום חמישי אחרי הסגירה, ירדה 2.2% ביום שישי. המסר מהשוק: משקיעים כבר לא מתגמלים הוצאות AI ענקיות בלי הוכחת תשואה.",
+   "impact": "שלילית",
+   "affected": "Alphabet (GOOGL), Amazon (AMZN)",
+   "news_refs": [
+    "N29",
+    "N30",
+    "N3",
+    "N25"
+   ],
+   "source_url": "https://finance.yahoo.com/markets/stocks/article/google-stock-gets-shredded-after-earningsheres-2-reasons-why-investors-hated-the-quarter-090019155.html",
+   "source_name": "Yahoo Finance",
+   "published": "2026-10-30"
+  },
+  {
+   "title": "Reddit: הירידה החדה ביותר מאז ההנפקה",
+   "summary": "רדיט דיווחה ביום חמישי אחרי הסגירה תחזית הכנסות חלשה לרבעון הרביעי וירידה בתנועה מחיפוש גוגל, וביום שישי המניה צנחה כ-29% - הירידה החדה ביותר מאז ההנפקה ב-2024. אנליסטים הורידו יעדי מחיר בחשש שחיפוש ה-AI של גוגל פוגע בצמיחה שלה.",
+   "impact": "שלילית",
+   "affected": "Reddit (RDDT)",
+   "news_refs": [
+    "N16",
+    "N18",
+    "N9"
+   ],
+   "source_url": "https://finance.yahoo.com/markets/stocks/articles/rddt-stock-track-worst-single-133209984.html",
+   "source_name": "Yahoo Finance",
+   "published": "2026-10-30"
+  },
+  {
+   "title": "מכירה רחבה בשרשרת השבבים וה-AI",
+   "summary": "המכירה נגעה בכל שרשרת תשתיות ה-AI בעקבות הדוח של אינטל: Nvidia ירדה כ-4.2% ביום שישי, SanDisk צנחה 13.5%, ומדד השבבים (SOX) איבד 7.2%.",
+   "impact": "שלילית",
+   "affected": "Nvidia (NVDA), SanDisk (SNDK), מדד SOX",
+   "news_refs": [
+    "N20",
+    "N19"
+   ],
+   "source_url": "https://www.fool.com/investing/2026/10/30/why-nvidia-stock-took-a-dive-today",
+   "source_name": "Motley Fool",
+   "published": "2026-10-30"
+  },
+  {
+   "title": "גיאופוליטיקה: מגעים לסיום המלחמה עם איראן",
+   "summary": "איראן: ארבעה טנקרים עלו באש לאחר שפגעו במוקשים במצר הורמוז, ובמקביל שר החוץ אראג'צ'י אמר שטהראן בחנה מכתב מסגן הנשיא ואנס וכינה את ניסיון הדיאלוג האמריקאי \"צעד חיובי\" (אל ג'זירה, 31.10). ב-28.10 קטאר העבירה לאיראן הצעה חדשה לסיום המלחמה (רויטרס). משמעות אפשרית לשוק: נפט ואנרגיה.",
+   "impact": "מעורבת",
+   "affected": "נפט, אנרגיה, שילוח",
+   "news_refs": [
+    "GEO1",
+    "GEO2"
+   ],
+   "source_url": "https://www.aljazeera.com/news/liveblog/2026/10/31/iran-war-live-oil-tankers-hit-in-hormuz-trump-says-conflict-will-end-soon",
+   "source_name": "Al Jazeera",
+   "published": "2026-10-31"
+  }
+ ],
+ "alerts": [
+  {
+   "text": "יום שני 2.11: Apple מדווחת תוצאות רבעון 4 אחרי סגירת המסחר",
+   "source_url": "https://investor.apple.com/investor-relations/event-details/2026/FY-26-Fourth-Quarter-Results/default.aspx"
+  },
+  {
+   "text": "יום שני 2.11: Palantir מדווחת תוצאות אחרי סגירת המסחר",
+   "source_url": "https://earnings-watcher.com/wiki/pltr-earnings-options"
+  },
+  {
+   "text": "יום שלישי 3.11: בחירות האמצע בארה\"ב",
+   "source_url": "https://www.reuters.com/commentary/reuters-open-interest/biggest-market-impact-us-midterms-may-be-2028-countdown-mike-dolan-2026-10-29"
+  },
+  {
+   "text": "יום שלישי 3.11: AMD מדווחת תוצאות - מבחן לביקוש לשבבי AI",
+   "source_url": "https://www.barchart.com/story/news/8515066/dear-amd-stock-fans-mark-your-calendar-for-november-3"
+  },
+  {
+   "text": "יום שישי 6.11: דוח התעסוקה האמריקאי לאוקטובר",
+   "source_url": "https://www.bls.gov/schedule/news_release/empsit.htm"
+  }
+ ],
+ "watchlist": [
+  {
+   "ticker": "AAPL",
+   "why": "דוח רבעוני ב-2.11 אחרי הסגירה"
+  },
+  {
+   "ticker": "AMD",
+   "why": "דוח ב-3.11, אחרי ירידות חדות במגזר"
+  },
+  {
+   "ticker": "PLTR",
+   "why": "דוח ב-2.11 אחרי הסגירה, מבחן להערכות השווי של מניות AI"
+  },
+  {
+   "ticker": "INTC",
+   "why": "האם המניה מתייצבת אחרי הצניחה"
+  }
+ ],
+ "weekly": "הסנטימנט התדרדר השבוע: הספק שההוצאות הענקיות על AI יחזירו את עצמן התפשט מענקיות הענן לכל שרשרת השבבים, ויום שישי היה יום המכירה החד ביותר. הנאסד\"ק איבד כ-2.9% ביום שישי."
+}
