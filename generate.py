@@ -2502,25 +2502,28 @@ def build_html(mh, dips, alerts, bo, updated, extra=None):
                 parts.append('<div class="smhrow"><span><b>' + esc(s["ticker"])
                              + f'</b> <small>{men}</small>{reason}{cat}</span>{day}</div>')
             parts.append('<div class="ts">דירוג לפי נפח וקצב דיון (wallstreetbets + Stocktwits) · לא המלצה</div>')
-        parts.append('<h3 class="sec">סנטימנט ומומנטום</h3>')
-        parts.append('<div class="chg3">')
         retail = pulse.get("retail") or {}
-        rb = ""
-        if retail.get("bulls") is not None and retail.get("bears") is not None:
-            rb = f'<small>Stocktwits: {retail["bulls"]} שוריים / {retail["bears"]} דוביים</small>'
-        parts.append(f"<div><span>קמעונאים</span><b>{esc(retail.get('label') or 'אין נתונים')}</b>{rb}</div>")
-        parts.append("<div><span>מוסדיים</span><b>אין נתונים אמינים</b></div>")
-        parts.append(f"<div><span>רמת הייפ</span><b>{esc(pulse.get('hype') or 'אין נתונים')}</b><small>קצב אזכורים מול היום הקודם</small></div>")
-        _m_now = sum(s.get("mentions") or 0 for s in (pulse.get("stocks") or []))
-        _m_prev = sum(s.get("mentions_prev") or 0 for s in (pulse.get("stocks") or []))
-        if _m_now and _m_prev:
-            _vel = (_m_now - _m_prev) / _m_prev * 100
-            _mom = f"{_vel:+.0f}% מול אתמול"
-        else:
-            _mom = "אין נתונים"
-        parts.append(f"<div><span>קצב אזכורים</span><b>{esc(_mom)}</b><small>wallstreetbets, 5 המדוברות</small></div>")
-        parts.append("</div>")
-        if pulse.get("sentiment_basis"):
+        _has_sent = bool(retail.get("label") or retail.get("bulls") is not None
+                         or pulse.get("hype") or (pulse.get("stocks") or []))
+        if _has_sent:
+            parts.append('<h3 class="sec">סנטימנט ומומנטום</h3>')
+            parts.append('<div class="chg3">')
+            rb = ""
+            if retail.get("bulls") is not None and retail.get("bears") is not None:
+                rb = f'<small>Stocktwits: {retail["bulls"]} שוריים / {retail["bears"]} דוביים</small>'
+            parts.append(f"<div><span>קמעונאים</span><b>{esc(retail.get('label') or 'אין נתונים')}</b>{rb}</div>")
+            parts.append("<div><span>מוסדיים</span><b>אין נתונים אמינים</b></div>")
+            parts.append(f"<div><span>רמת הייפ</span><b>{esc(pulse.get('hype') or 'אין נתונים')}</b><small>קצב אזכורים מול היום הקודם</small></div>")
+            _m_now = sum(s.get("mentions") or 0 for s in (pulse.get("stocks") or []))
+            _m_prev = sum(s.get("mentions_prev") or 0 for s in (pulse.get("stocks") or []))
+            if _m_now and _m_prev:
+                _vel = (_m_now - _m_prev) / _m_prev * 100
+                _mom = f"{_vel:+.0f}% מול אתמול"
+            else:
+                _mom = "אין נתונים"
+            parts.append(f"<div><span>קצב אזכורים</span><b>{esc(_mom)}</b><small>wallstreetbets, 5 המדוברות</small></div>")
+            parts.append("</div>")
+        if _has_sent and pulse.get("sentiment_basis"):
             parts.append(f'<div class="ts">{esc(pulse["sentiment_basis"])}</div>')
         alerts = pulse.get("alerts") or []
         if alerts:
