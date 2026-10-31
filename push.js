@@ -81,7 +81,13 @@ function showActive(sub){
   card.dataset.endpoint=sub.endpoint;
 }
 regP.then(function(reg){return reg.pushManager.getSubscription();}).then(function(sub){
-  if(sub) showActive(sub);
+  if(!sub) return;
+  showActive(sub);
+  // reconcile: re-register an existing browser subscription with the worker
+  // (idempotent upsert keyed by the endpoint hash) so a lost server record
+  // self-heals silently on the next app open
+  fetch(WORKER+'/push/subscribe',{method:'POST',headers:{'Content-Type':'application/json'},
+    body:JSON.stringify(sub)}).catch(function(){});
 });
 enableBtn.addEventListener('click',function(){
   enableBtn.disabled=true; say('מפעיל…');
