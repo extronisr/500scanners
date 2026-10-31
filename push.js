@@ -5,7 +5,7 @@ var WORKER='https://scanner-refresh.extronisr.workers.dev';
 var SEEN='bio_hot_seen';
 var $=function(id){return document.getElementById(id);};
 var card=$('pushCard'), enableBtn=$('pushEnable'), testBtn=$('pushTest'),
-    offBtn=$('pushOff'), statusEl=$('pushStatus');
+    testCloseBtn=$('pushTestClose'), offBtn=$('pushOff'), statusEl=$('pushStatus');
 function say(t){ if(statusEl) statusEl.textContent=t; }
 function b64ToBuf(b64){
   var s=b64.replace(/-/g,'+').replace(/_/g,'/');
@@ -74,7 +74,7 @@ if(isIOS&&!standalone){
 var regP=navigator.serviceWorker.register('sw.js');
 function showActive(sub){
   say('ההתראות פעילות ✓');
-  enableBtn.hidden=true; testBtn.hidden=false; offBtn.hidden=false;
+  enableBtn.hidden=true; testBtn.hidden=false; testCloseBtn.hidden=false; offBtn.hidden=false;
   card.dataset.endpoint=sub.endpoint;
 }
 regP.then(function(reg){return reg.pushManager.getSubscription();}).then(function(sub){
@@ -104,6 +104,15 @@ testBtn.addEventListener('click',function(){
     say(t.ok?'נשלחה התראת בדיקה ✓':'השליחה נכשלה - נסה להפעיל מחדש'); testBtn.disabled=false;
   }).catch(function(){ say('השליחה נכשלה - בדוק חיבור'); testBtn.disabled=false; });
 });
+testCloseBtn.addEventListener('click',function(){
+  testCloseBtn.disabled=true;
+  fetch(WORKER+'/push/test',{method:'POST',headers:{'Content-Type':'application/json'},
+    body:JSON.stringify({endpoint:card.dataset.endpoint,delay_sec:15})}).then(function(r){return r.json();}).then(function(t){
+    if(t.ok){ say('סגור את האפליקציה עכשיו - ההתראה תגיע בעוד כ-15 שניות'); }
+    else { say('השליחה נכשלה - נסה שוב'); }
+    testCloseBtn.disabled=false;
+  }).catch(function(){ say('השליחה נכשלה - בדוק חיבור'); testCloseBtn.disabled=false; });
+});
 offBtn.addEventListener('click',function(){
   regP.then(function(reg){return reg.pushManager.getSubscription();}).then(function(sub){
     var p=sub?sub.unsubscribe():Promise.resolve();
@@ -113,7 +122,7 @@ offBtn.addEventListener('click',function(){
     });
   }).then(function(){
     say('ההתראות כבויות'); enableBtn.hidden=false; enableBtn.disabled=false;
-    testBtn.hidden=true; offBtn.hidden=true;
+    testBtn.hidden=true; testCloseBtn.hidden=true; offBtn.hidden=true;
   });
 });
 })();

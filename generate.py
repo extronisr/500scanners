@@ -2411,6 +2411,7 @@ def build_html(mh, dips, alerts, bo, updated, extra=None):
         '<div class="biorow">'
         '<button class="linklike" id="pushEnable">הפעל התראות</button>'
         '<button class="linklike" id="pushTest" hidden>שלח התראת בדיקה</button>'
+        '<button class="linklike" id="pushTestClose" hidden>בדיקה עם סגירת האפליקציה</button>'
         '<button class="linklike" id="pushOff" hidden>כבה</button>'
         '</div></div>')
     if bt:
