@@ -41,6 +41,11 @@ UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/142 Sa
 SLOT_HOURS = [10, 18]            # Asia/Jerusalem
 STALE_HOURS = 6                  # older review regenerates on any run (incl. button)
 WINDOW_HOURS = 48                # news freshness window
+# Non-editorial sources are never citable in the review: every claim must trace
+# to a dated editorial source. Live blogs are NOT blocked as a class - their
+# usability is decided by the freshness check, not their URL shape.
+BLOCKED_DOMAINS = {"youtube.com", "youtu.be", "facebook.com", "fb.com",
+                   "instagram.com", "tiktok.com", "x.com", "twitter.com"}
 GROQ_MODEL = os.environ.get("GROQ_MODEL", "openai/gpt-oss-120b")
 MAX_WORDS = 650                  # visible Hebrew budget guard (spec: ~500)
 NEWS_QUERIES = [
@@ -287,6 +292,8 @@ def get_news(api_key, tickers):
             url = r.get("url", "")
             if not url or url in seen:
                 continue
+            if urllib.parse.urlparse(url).netloc.replace("www.", "") in BLOCKED_DOMAINS:
+                continue  # deterministic source-quality gate (retrieval layer)
             seen.add(url)
             pub = (r.get("published_date") or "")[:10] or None
             if pub:
@@ -323,14 +330,19 @@ def get_news(api_key, tickers):
         if d and kind in ("url", "title"):
             it["published"] = d.isoformat()
         # unverified-kind dates are intentionally NOT written to published
-    # freshness classification
-    today = datetime.now(JER).date()
+    # freshness classification. Sources carry dates only (no time), so credit
+    # each item with the OLDEST moment of its date: (today - d) full days plus
+    # the hours already gone today. A date-granular "days * 24 <= window" let a
+    # 68-hour-old item pass as fresh on a 48h window (seen 2026-10-31: stale
+    # Oct-29 live blogs cited on Oct-31 evening).
+    now = datetime.now(JER)
+    today = now.date()
     for it in items:
         it["fresh"] = None
         if it["published"]:
             try:
                 d = date_from_iso(it["published"])
-                it["fresh"] = (today - d).days * 24 <= WINDOW_HOURS
+                it["fresh"] = (today - d).days * 24 + now.hour <= WINDOW_HOURS
             except Exception:
                 it["published"] = None
     # Body enrichment: full text only for fresh in-window anchor candidates.
