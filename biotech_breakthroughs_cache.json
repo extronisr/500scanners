@@ -1,5 +1,5 @@
 {
- "fetched_at": "31.10.2026, 1:34",
+ "fetched_at": "31.10.2026, 2:04",
  "items": [
   {
    "title": "PGEN Stock Craters 27% After-Hours After Rival Inovio's Rare Disease Drug Receives FDA Approval - Stocktwits",
@@ -3743,6 +3743,24 @@
    "ncts": []
   },
   {
+   "title": "FDA approves generic Eribulin Mesylate (Kindos)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=218930",
+   "pub_ts": 1792368000.0,
+   "date": "19.10.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=218930"
+    }
+   ],
+   "ncts": []
+  },
+  {
    "title": "A Study of Rusfertide in Adults With Polycythemia Vera (PV)",
    "link": "https://clinicaltrials.gov/study/NCT05210790",
    "pub_ts": 1792368000.0,
@@ -3765,88 +3783,22 @@
    ]
   },
   {
-   "title": "FDA approves generic Eribulin Mesylate (Kindos)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=218930",
-   "pub_ts": 1792368000.0,
-   "date": "19.10.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
+   "title": "Sabirnetug Misses Primary Endpoint in Phase 2 Alzheimer Disease Trial - Psychiatric Times",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTGVQQ0Rvd0JIODFwRlZYYnpmWGtLdGFaQWhVVTBKUHJsbEJTbmMxVk9rN1FZeEw1cmwzVkpfa3F0YjB5SlZIR2J1R1JsaVNyaVhvcmxlMmg1MzlMOG1EbG5IdkU5Z1k1c0NmVHVfNmJnQlpnWURndWRyRzlaQ2JQZHdYbTZNeTJxYm5oRGxRcDJPWlR4bEVmX05KRGdDanVhQkJMNTd2Zm5nTGs?oc=5",
+   "pub_ts": 1793380965.0,
+   "date": "30.10.2026, 19:22",
+   "cat": "phase2",
+   "sev": 1,
+   "dir": -1,
    "tickers": [],
    "companies": [],
    "sources": [
     {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=218930"
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTGVQQ0Rvd0JIODFwRlZYYnpmWGtLdGFaQWhVVTBKUHJsbEJTbmMxVk9rN1FZeEw1cmwzVkpfa3F0YjB5SlZIR2J1R1JsaVNyaVhvcmxlMmg1MzlMOG1EbG5IdkU5Z1k1c0NmVHVfNmJnQlpnWURndWRyRzlaQ2JQZHdYbTZNeTJxYm5oRGxRcDJPWlR4bEVmX05KRGdDanVhQkJMNTd2Zm5nTGs?oc=5"
     }
    ],
    "ncts": []
-  },
-  {
-   "title": "A Study of Orforglipron (LY3502970) Compared With Dapagliflozin in Adult Participants With Type 2 Diabetes and Inadequate Glycemic Control With Metformin",
-   "link": "https://clinicaltrials.gov/study/NCT06192108",
-   "pub_ts": 1792108800.0,
-   "date": "2026-10-16",
-   "cat": "phase3",
-   "sev": 2,
-   "dir": 0,
-   "tickers": [],
-   "companies": [
-    "LLY"
-   ],
-   "sources": [
-    {
-     "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT06192108"
-    }
-   ],
-   "ncts": [
-    "NCT06192108"
-   ]
-  },
-  {
-   "title": "NKTR-255 vs Placebo Following CD19-directed CAR-T Therapy in Patients With Relapsed/Refractory Large B-cell Lymphoma",
-   "link": "https://clinicaltrials.gov/study/NCT05664217",
-   "pub_ts": 1792108800.0,
-   "date": "2026-10-16",
-   "cat": "phase3",
-   "sev": 2,
-   "dir": 0,
-   "tickers": [],
-   "companies": [
-    "NKTR"
-   ],
-   "sources": [
-    {
-     "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT05664217"
-    }
-   ],
-   "ncts": [
-    "NCT05664217"
-   ]
-  },
-  {
-   "title": "A Study of Lebrikizumab (LY3650150) With/Without Topical Corticosteroid Treatment in Participants With Moderate-to-Severe Atopic Dermatitis",
-   "link": "https://clinicaltrials.gov/study/NCT06280716",
-   "pub_ts": 1792108800.0,
-   "date": "2026-10-16",
-   "cat": "phase3",
-   "sev": 2,
-   "dir": 0,
-   "tickers": [],
-   "companies": [
-    "LLY"
-   ],
-   "sources": [
-    {
-     "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT06280716"
-    }
-   ],
-   "ncts": [
-    "NCT06280716"
-   ]
   },
   {
    "title": "Pfizer Reports Strong Phase 2 Data for 25-Valent Pediatric PCV - Drug Topics",
@@ -4855,28 +4807,6 @@
    ],
    "ncts": [
     "NCT06508489"
-   ]
-  },
-  {
-   "title": "A Study to Evaluate the Efficacy and Safety of Astegolimab in Participants With Chronic Obstructive Pulmonary Disease",
-   "link": "https://clinicaltrials.gov/study/NCT05037929",
-   "pub_ts": 1792108800.0,
-   "date": "2026-10-16",
-   "cat": "phase2",
-   "sev": 1,
-   "dir": 0,
-   "tickers": [],
-   "companies": [
-    "RHHBY"
-   ],
-   "sources": [
-    {
-     "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT05037929"
-    }
-   ],
-   "ncts": [
-    "NCT05037929"
    ]
   }
  ]
