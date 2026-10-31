@@ -10,6 +10,7 @@ Sections:
 
 Headless, stdlib only, free sources only. Writes index.html next to this script.
 """
+import hashlib
 import html as htmlmod
 import calendar
 import json
@@ -607,6 +608,24 @@ def select_bio_hot(alerts, bt, n=5):
                or max(group, key=lambda g: sev_rank.get(g["sev"], 0)))
         out.append(rep)
     return out
+
+
+LAST_BIO_HOT = {}
+
+
+def bio_hot_payload(hot_reps, updated):
+    """Push/toast feed of the current hot set. The key is stable per
+    (ticker, headline) so the worker cron and the onsite toast dedup
+    without repeats and never re-alert an unchanged story."""
+    items = []
+    for a in hot_reps:
+        head = a.get("head", "")
+        key = hashlib.sha1((a.get("ticker", "") + "|" + head)
+                           .encode("utf-8")).hexdigest()[:12]
+        items.append({"key": key, "ticker": a.get("ticker", ""), "head": head,
+                      "date": a.get("date", ""), "link": a.get("link", "")})
+    return {"generated_at": updated.isoformat(),
+            "epoch": int(updated.timestamp()), "hot": items}
 
 
 def biotech_alerts():
@@ -1915,6 +1934,9 @@ def build_html(mh, dips, alerts, bo, updated, extra=None):
              "<head>",
              '<meta charset="utf-8">',
              '<meta name="viewport" content="width=device-width,initial-scale=1">',
+             '<meta name="theme-color" content="#0d1117">',
+             '<link rel="manifest" href="manifest.webmanifest">',
+             '<link rel="apple-touch-icon" href="icon-180.png">',
              "<title>סורקי הבורסה</title>",
              "<style>" + CSS + "</style>",
              "</head>",
@@ -2374,11 +2396,23 @@ def build_html(mh, dips, alerts, bo, updated, extra=None):
 
     hot_reps = select_bio_hot(alerts, bt)
     hot_ids = {id(a) for a in hot_reps}
+    LAST_BIO_HOT.clear()
+    LAST_BIO_HOT.update(bio_hot_payload(hot_reps, updated))
     verified_fda = extra.get("verified_fda") or {}
     if hot_reps:
         parts.append('<h3 class="sec">ההתראות החמות</h3>')
         for a in hot_reps:
             parts.append(_bio_alert_card(a))
+    parts.append(
+        '<div class="alert info" id="pushCard">'
+        '<div class="a-top"><span class="kbadge">🔔 התראה על אירוע חם חדש</span>'
+        '<span class="sp"></span>'
+        '<span class="a-src" id="pushStatus"></span></div>'
+        '<div class="biorow">'
+        '<button class="linklike" id="pushEnable">הפעל התראות</button>'
+        '<button class="linklike" id="pushTest" hidden>שלח התראת בדיקה</button>'
+        '<button class="linklike" id="pushOff" hidden>כבה</button>'
+        '</div></div>')
     if bt:
         parts.append('<h3 class="sec">פריצות דרך ביוטק · סריקה כלל-שוקית</h3>')
         if bt.get("failed"):
@@ -2697,6 +2731,7 @@ b.classList.add('active');
 document.getElementById('pane-'+b.dataset.t).classList.add('active');
 var _f=document.querySelector('.ftr');if(_f){_f.style.display=(b.dataset.t==='pulse')?'none':'';}
 window.scrollTo(0,0);});});
+if(location.hash){var hb=document.querySelector('.tabbar button[data-t="'+location.hash.slice(1)+'"]');if(hb)hb.click();}
 var kf=document.getElementById('kindfilter');
 if(kf){kf.addEventListener('change',function(){
 var v=this.value;
@@ -2743,6 +2778,7 @@ document.querySelectorAll('.refresh-btn').forEach(function(b){b.addEventListener
 })();
 </script>""")
 
+    parts.append('<script src="push.js" defer></script>')
     parts.append(
         '<div class="ftr">מחזור מסומן "הערכה תוך-יומית" הוא הקרנה של מחזור חלקי ליום מלא - לא מחזור שנצפה, והמחזור הרגיל אינו אחיד לאורך היום. · נתונים: Yahoo Finance · SEC EDGAR · Google News · '
         "מקורות חינמיים בלבד · לא ייעוץ השקעות</div><div class='rf-status' id='rfStatus' hidden></div></body></html>")
@@ -2810,6 +2846,11 @@ def main():
     with open(ver_tmp, "w", encoding="utf-8") as f:
         json.dump(ver, f, ensure_ascii=False)
     os.replace(ver_tmp, os.path.join(OUT_DIR, "version.json"))
+
+    hot_tmp = os.path.join(OUT_DIR, "bio_hot.json.tmp")
+    with open(hot_tmp, "w", encoding="utf-8") as f:
+        json.dump(LAST_BIO_HOT, f, ensure_ascii=False)
+    os.replace(hot_tmp, os.path.join(OUT_DIR, "bio_hot.json"))
 
     print(f"WROTE {OUT_FILE} ({os.path.getsize(OUT_FILE)} bytes) in {dt:.0f}s")
     if mh:
