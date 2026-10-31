@@ -1,5 +1,5 @@
 {
- "fetched_at": "31.10.2026, 3:04",
+ "fetched_at": "31.10.2026, 3:34",
  "items": [
   {
    "title": "PGEN Stock Craters 27% After-Hours After Rival Inovio's Rare Disease Drug Receives FDA Approval - Stocktwits",
@@ -1263,6 +1263,26 @@
     {
      "source": "FDA",
      "link": "http://www.fda.gov/news-events/press-announcements/fda-approves-first-its-kind-chronic-hepatitis-b-treatment"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "Veradermics' hot streak continues with another phase 3 win in hair loss - Fierce Pharma",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPcXVtVkxocXRiTmNMMXFlZXMwTGQ5ZDZFWGpjT0VYTDM0Wk5pS3JhMXZvZHg0QnJvQ3FkMERuekRMcFdmYnVyWU9QTGl0TXdRRi0zRV94aEIzZm9iYUtFZ196T05JaDRyU3BidC16NFRuSzRXUV9rcFlXekUwNzNXckFSR0xKaEtvUEpvdTBjeDlqdVpmS01qVk1WMjB0enJqc2NuNjhnT0o?oc=5",
+   "pub_ts": 1792479600.0,
+   "date": "20.10.2026, 10:00",
+   "cat": "phase3",
+   "sev": 4,
+   "dir": 1,
+   "tickers": [],
+   "companies": [
+    "MANE"
+   ],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPcXVtVkxocXRiTmNMMXFlZXMwTGQ5ZDZFWGpjT0VYTDM0Wk5pS3JhMXZvZHg0QnJvQ3FkMERuekRMcFdmYnVyWU9QTGl0TXdRRi0zRV94aEIzZm9iYUtFZ196T05JaDRyU3BidC16NFRuSzRXUV9rcFlXekUwNzNXckFSR0xKaEtvUEpvdTBjeDlqdVpmS01qVk1WMjB0enJqc2NuNjhnT0o?oc=5"
     }
    ],
    "ncts": []
