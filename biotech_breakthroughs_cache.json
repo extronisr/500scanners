@@ -1,5 +1,5 @@
 {
- "fetched_at": "31.10.2026, 7:04",
+ "fetched_at": "31.10.2026, 7:35",
  "items": [
   {
    "title": "FDA approves ILUMYA for adults with psoriatic arthritis — News-Medical - UA.NEWS",
@@ -20,18 +20,23 @@
    "ncts": []
   },
   {
-   "title": "PGEN Stock Craters 27% After-Hours After Rival Inovio's Rare Disease Drug Receives FDA Approval - Asianet Newsable",
-   "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQSGZpSWw0bGlyb2t6blNfYUFaWGhjZEx1d3dlNXM0dUdUaGxmYi1XWF85c0F0cERzMmFtazJ0X3VUeV82LU5OU0ctWmRxSFJsbFB3X2pkWS01QnlNWUJFdDJwcG9XMGtYdVFxMnB6dzBXVjBUTkhFRXN4MEM2Ylg4aUF0dTdKY3M1UWcxbEU0d1RfSUptdEZ5bXh1MF9IX3BCUnZ2UzZkb0k1SGVWQzZvYlgyaUdZMDBFQXcwS042anNpb0xoZ2x5cGc2MHB5c2d3bWgwVnc2MTctcW54aE9wR0RIYTJmdklaNGgw0gHwAUFVX3lxTE5yc2RFQ1VnNUVvQXE2RUU3NVpqOVJCTjlkYlMya1hKZEdKdjZmLVlKQzRZRy1fSUJ0enF3eWtPSzNKY1dLT29oR05CUXNOMW9DWUxsTWppY1ZuVUJYYkxNMjJkd3FsazJGTEFXMFVvZ1JYQTBHZnFJa1MtcnBaRHpRNVp1RDV2QUJyY2t4aDkzT2lveXBWNkpaekVsdC1zdVQ1dVB2Z3Q4d3daX2hCaVpxb2c2NTVEWkhoOUJyQmNVblhFeFhPRkh1Y2RwbjhXTGNaWXpoeUlWc1FEa3JncTRTRkxlUUpET0hGd1Bha3NPQQ?oc=5",
-   "pub_ts": 1793399407.0,
-   "date": "31.10.2026, 0:30",
+   "title": "FDA Grants Accelerated Approval to Inovio's DNA Immunotherapy Voceryq; Precigen Shares Plunge 27% After Hours - BigGo Finance",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAzcDFndUtOMURWUXh0M3FGWDdreXdlQVRBX3dXNnUxNnhmSno4S0dMbzNkZ01zRW5LMDB3M1MzR3FTSlVHbVNXX1dmWEJMQWYwa21FWXg5SGFJX2JMclBHWnhDTkZDTmcybmhtV0dOY1pXUlJEalE?oc=5",
+   "pub_ts": 1793402700.0,
+   "date": "31.10.2026, 1:25",
    "cat": "fda",
    "sev": 4,
    "dir": 1,
    "tickers": [],
    "companies": [
+    "PGEN",
     "INO"
    ],
    "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAzcDFndUtOMURWUXh0M3FGWDdreXdlQVRBX3dXNnUxNnhmSno4S0dMbzNkZ01zRW5LMDB3M1MzR3FTSlVHbVNXX1dmWEJMQWYwa21FWXg5SGFJX2JMclBHWnhDTkZDTmcybmhtV0dOY1pXUlJEalE?oc=5"
+    },
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQSGZpSWw0bGlyb2t6blNfYUFaWGhjZEx1d3dlNXM0dUdUaGxmYi1XWF85c0F0cERzMmFtazJ0X3VUeV82LU5OU0ctWmRxSFJsbFB3X2pkWS01QnlNWUJFdDJwcG9XMGtYdVFxMnB6dzBXVjBUTkhFRXN4MEM2Ylg4aUF0dTdKY3M1UWcxbEU0d1RfSUptdEZ5bXh1MF9IX3BCUnZ2UzZkb0k1SGVWQzZvYlgyaUdZMDBFQXcwS042anNpb0xoZ2x5cGc2MHB5c2d3bWgwVnc2MTctcW54aE9wR0RIYTJmdklaNGgw0gHwAUFVX3lxTE5yc2RFQ1VnNUVvQXE2RUU3NVpqOVJCTjlkYlMya1hKZEdKdjZmLVlKQzRZRy1fSUJ0enF3eWtPSzNKY1dLT29oR05CUXNOMW9DWUxsTWppY1ZuVUJYYkxNMjJkd3FsazJGTEFXMFVvZ1JYQTBHZnFJa1MtcnBaRHpRNVp1RDV2QUJyY2t4aDkzT2lveXBWNkpaekVsdC1zdVQ1dVB2Z3Q4d3daX2hCaVpxb2c2NTVEWkhoOUJyQmNVblhFeFhPRkh1Y2RwbjhXTGNaWXpoeUlWc1FEa3JncTRTRkxlUUpET0hGd1Bha3NPQQ?oc=5"
@@ -39,10 +44,6 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPUGMtSWpudWo0VW5sNml3Uy0xaFVfSUpabW0zREFHcENpbVk2SHEwMm5JS1QtS09DelVYazdveEtlbEJSdnE0RjFKR3FyMDJpTGtnaWtYQUhkNmJPdnR3U18weWtWaF9Md0Zzd0UwXzFTdG9yU1Voc1lTN1o0RzZ6ZnFpMFVPT01LWjdBdUV6ZF9TSHR3VVBSTHpGaWRDLTJKUHhYYWRyTEtnU0dHVE1oMjJCNWtTekx5WlR6djVkUHpJRGk2SVNBSWpKVnpXdWNoYS1YZ3lnaUxCd2NjUlVjb1p2aHNQeFdMTHQ4RXhJbw?oc=5"
-    },
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNSmdHX0xYU2FPbm1sVkNPVVRMdk5kR2F3ZXdQamlrNUxnNjROR1ZSQjF1SGRZbEpESGxwLUgwNE95NnJmZTlOTUFWcGkzNmN6c1RQS1cxWkxpV2FacVVBdzYxYi1iRWZJeDUzdm9WU0c2YVV1LXJhbWhvbjFpRHphTENVX09lUEZ0MTFpeVVmSXZuaGkwRmo3bmhJOVNaSDRFakVQbTNnc3V6dw?oc=5"
     }
    ],
    "ncts": []
