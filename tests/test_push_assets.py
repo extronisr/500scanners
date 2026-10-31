@@ -64,3 +64,20 @@ def test_push_js_no_retroactive_blast_and_ios_guidance():
 def test_icons_exist():
     for name in ("icon-180.png", "icon-192.png", "icon-512.png"):
         assert os.path.getsize(os.path.join(BASE, name)) > 500
+
+
+
+def test_sw_push_target_store_and_click_fallbacks():
+    sw = open(os.path.join(BASE, "sw.js"), encoding="utf-8").read()
+    # tap target persisted at push time (iOS may drop the URL at click time)
+    assert "last-target" in sw and "caches.open" in sw
+    # declarative payloads parsed via data.notification fallback
+    assert "data.notification" in sw
+    # click resolves an absolute URL and never depends on notification.data
+    assert "self.registration.scope" in sw and "openWindow" in sw
+
+
+def test_push_js_routes_to_push_target_pane():
+    js = open(os.path.join(BASE, "push.js"), encoding="utf-8").read()
+    assert "bio-push-v1" in js and "last-target" in js
+    assert "tabbar button" in js  # switches to the pushed pane on load

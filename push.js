@@ -46,6 +46,18 @@ function pollHot(init){
   }).catch(function(){});
 }
 pollHot(true); setInterval(pollHot,5*60*1000);
+// route to the pane of the last received push (covers OSes that drop the URL)
+if(window.caches){caches.open('bio-push-v1').then(function(c){return c.match('/last-target');}).then(function(r){
+  if(!r) return;
+  r.json().then(function(j){
+    if(j&&j.url&&Date.now()-j.at<30*60*1000){
+      var m=/#([a-z]+)/.exec(j.url);
+      var b=m&&document.querySelector('.tabbar button[data-t="'+m[1]+'"]');
+      if(b) b.click();
+    }
+    caches.open('bio-push-v1').then(function(c){c.delete('/last-target');});
+  });
+}).catch(function(){});}
 navigator.serviceWorker&&navigator.serviceWorker.addEventListener('message',function(e){
   if(e.data&&e.data.type==='push'){ showToast([{ticker:'',head:(e.data.title+' - '+e.data.body)}]); }
 });
