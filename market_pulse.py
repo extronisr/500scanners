@@ -1164,4 +1164,8 @@ def run(now=None, force=False):
 
 if __name__ == "__main__":
     force = "--force" in sys.argv
-    sys.exit(0 if run(force=force) in ("skip", "no-keys", "generated") else 1)
+    # "kept-full" is a soft outcome: generation failed (e.g. Groq quota) and the
+    # last-good review was preserved on purpose. It must NOT fail the workflow -
+    # generate.py and the publish steps still run so market data and the button
+    # keep working with the existing review.
+    sys.exit(0 if run(force=force) in ("skip", "no-keys", "generated", "kept-full") else 1)
