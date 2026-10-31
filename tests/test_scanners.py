@@ -613,7 +613,8 @@ def test_chart_closes_volumes_keep_pairs():
         {"indicators": {"quote": [{"close": [10.0, 11.0, None, 12.0],
                                    "volume": [100, 200, 999, 400]}]}}]}}
     try:
-        closes, vols = g.chart_closes_volumes("TEST")
+        closes, vols, last_d = g.chart_closes_volumes("TEST")
+        assert last_d is None or len(last_d) == 10
     finally:
         g.http_get_json = orig
     assert closes == [10.0, 11.0, 12.0]

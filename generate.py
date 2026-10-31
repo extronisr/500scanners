@@ -24,14 +24,16 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
 from zoneinfo import ZoneInfo
 
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+# this directory must win before importing scan_utils: a stale fixture copy
+# lives under tests/ and must never shadow the real module
+sys.path.insert(0, BASE_DIR)
+
 import scan_utils
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 # BIOTECH_DIR removed: config lives next to this script
 OUT_DIR = os.path.dirname(os.path.abspath(__file__))
 OUT_FILE = os.path.join(OUT_DIR, "index.html")
-
-sys.path.insert(0, BASE_DIR)
 
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/142 Safari/537.36"
 # SEC asks for a real contact address. Left unchanged; may be overridden via the SEC_USER_AGENT env var.
@@ -310,7 +312,7 @@ def dip_scan_section():
     vfrac_now = _dip_vfrac()
     dip_meta["vfrac"] = vfrac_now
     for sym, depth, ref_low, r, last in prelim:
-        closes, vols = chart_closes_volumes(sym, "3mo")
+        closes, vols, _last_d = chart_closes_volumes(sym, "3mo")
         if not vols or len(vols) < 22:
             continue
         vc = scan_utils.volume_context(vols, vfrac_now)
@@ -425,7 +427,7 @@ def _bio_download(tickers):
         for attempt in range(3):
             try:
                 df = yf.download(chunk, period="3mo", interval="1d", group_by="ticker",
-                                 auto_adjust=False, threads=True, progress=False)
+                                 auto_adjust=True, threads=True, progress=False)
                 break
             except Exception:
                 time.sleep(5 * (attempt + 1))
@@ -437,7 +439,8 @@ def _bio_download(tickers):
                 sub = sub.dropna(subset=["Close"])
                 if len(sub) >= 22:
                     out[t] = ([float(x) for x in sub["Close"].tolist()],
-                              [float(x) if x == x else 0.0 for x in sub["Volume"].tolist()])
+                              [float(x) if x == x else 0.0 for x in sub["Volume"].tolist()],
+                              sub.index[-1].date().isoformat())
             except Exception:
                 continue
         time.sleep(1)
@@ -454,15 +457,22 @@ def chart_closes_volumes(symbol, range_value="3mo"):
         result = data["chart"]["result"][0]
         q = result["indicators"]["quote"][0]
         # a null close drops the WHOLE bar - close and volume stay paired
-        pairs = [(c, v) for c, v in zip(q.get("close") or [], q.get("volume") or [])
+        ts = result.get("timestamp") or []
+        pairs = [(c, v, t) for c, v, t in
+                 zip(q.get("close") or [], q.get("volume") or [], ts + [None] * (len(q.get("close") or []) - len(ts)))
                  if c is not None]
-        closes = [float(c) for c, v in pairs]
-        vols = [float(v) if v is not None else 0.0 for c, v in pairs]
-        return closes, vols
+        closes = [float(c) for c, v, t in pairs]
+        vols = [float(v) if v == v else 0.0 for c, v, t in pairs]
+        # the alert's date is the last TRADING day in the series, never the
+        # fetch date (a Saturday scan shows Friday's date)
+        last_ts = next((t for c, v, t in reversed(pairs) if t), None)
+        last_d = (datetime.fromtimestamp(last_ts, tz=timezone.utc).date().isoformat()
+                  if last_ts else None)
+        return closes, vols, last_d
     except Exception as e:
         stats["biotech_missing"] += 1
         fail("biotech", f"chart failed for {symbol}: {e}")
-        return None, None
+        return None, None, None
 
 
 _EDGAR_SUBS = {}
@@ -506,6 +516,99 @@ def edgar_8k_last_days(cik, days=3):
     return out
 
 
+BIO_MAX_DAILY_CHG_PCT = 500.0   # beyond this a daily move is a split/data artifact, not a tradable move
+BIO_MATERIAL_ITEMS = {"1.01", "1.02", "7.01", "8.01"}  # the site's declared material 8-K items
+
+
+def plausible_daily_chg(chg):
+    """Split/data artifacts can survive price adjustment; a >500% day-over-day
+    move is treated as bad data, never as the day's hottest alert."""
+    return abs(chg) <= BIO_MAX_DAILY_CHG_PCT
+
+
+def _sec_items(alert):
+    m = re.search(r"סעיפים ([0-9][0-9\., ]*)", alert.get("head", ""))
+    return {x.strip() for x in m.group(1).split(",") if x.strip()} if m else set()
+
+
+def fda_claim_unconfirmed(alert):
+    """A news card asserting an FDA approval/clearance whose own link is not
+    fda.gov is a reported (often issuer) claim, not an FDA-confirmed event."""
+    head = alert.get("head", "")
+    if alert.get("kind") != "news":
+        return False
+    if not re.search(r"FDA", head) or not re.search(r"approv|clearance|אישור", head, re.I):
+        return False
+    dom = urllib.parse.urlparse(alert.get("link") or "").netloc.lower()
+    return "fda.gov" not in dom
+
+
+_BIO_EVENT_RE = re.compile(
+    r"FDA|approv|clearance|merger|acqui|delist|halt|offering|bankrupt|court|judgment|"
+    r"endpoint|phase ?[123]|readout|topline|top-line|launch|recall|warning letter|"
+    r"complete response|\bCRL\b|termination|ends? .{0,40}(program|development|trial)|"
+    r"fails?|failure|success|מיזוג|אישור", re.I)
+
+
+def _event_news(alert):
+    """A news card corroborates only when its headline reports an actual event.
+    Content-farm filler (seasonal charts, balance-sheet reposts, earnings-date
+    notes) is displayed in the feed but never promotes a ticker to 'hot'."""
+    return alert.get("kind") == "news" and bool(_BIO_EVENT_RE.search(alert.get("head", "")))
+
+
+def fda_gov_source_for(ticker, bt):
+    """Official fda.gov link covering this ticker's approval event, when the
+    market-wide breakthrough scan already carries one (e.g. openFDA)."""
+    for c in (bt or {}).get("items", []):
+        if ticker not in (c.get("tickers") or []):
+            continue
+        for s in (c.get("sources") or [{"source": "", "link": c.get("link", "")}]):
+            if "fda.gov" in (s.get("link") or ""):
+                return s["link"]
+    return None
+
+
+def select_bio_hot(alerts, bt, n=5):
+    """Hottest biotech alerts: corroborated material events first.
+
+    A ticker is hot when several EXISTING signal types point at it (price
+    severity the scanner already assigns, an 8-K carrying the site's declared
+    material items, a dated news/catalyst card, a market-wide breakthrough
+    event), or when it made a verified critical move on its own. One card per
+    ticker: the material SEC card, else a news card, else the strongest card.
+    """
+    bt_tickers = {t for c in (bt or {}).get("items", []) for t in (c.get("tickers") or [])}
+    sev_rank = {"crit": 3, "warn": 2, "info": 1}
+    by_t = {}
+    for a in alerts:
+        if a.get("ticker"):
+            by_t.setdefault(a["ticker"], []).append(a)
+    scored = []
+    for t, group in by_t.items():
+        sev_best = max(sev_rank.get(g["sev"], 0) for g in group)
+        # quality-weighted signal types: SEC filings and price severity count as
+        # they are; news counts only when it reports an actual event
+        kinds = {("news" if _event_news(g) else g["kind"]) for g in group if
+                 g["kind"] != "news" or _event_news(g)}
+        material_sec = any(g["kind"] == "sec" and _sec_items(g) & BIO_MATERIAL_ITEMS for g in group)
+        corroboration = len(kinds) + (1 if t in bt_tickers else 0)
+        if corroboration < 2:
+            continue  # a naked price move or a lone weak signal is not "hottest"
+        score = (corroboration, sev_best, 1 if material_sec else 0,
+                 max(g.get("ts") or 0 for g in group))
+        scored.append((score, t, group))
+    scored.sort(key=lambda x: x[0], reverse=True)
+    out = []
+    for _score, t, group in scored[:n]:
+        rep = (next((g for g in group if _event_news(g)), None)
+               or next((g for g in group if g["kind"] == "sec" and _sec_items(g) & BIO_MATERIAL_ITEMS), None)
+               or next((g for g in group if g["kind"] == "news"), None)
+               or max(group, key=lambda g: sev_rank.get(g["sev"], 0)))
+        out.append(rep)
+    return out
+
+
 def biotech_alerts():
     """Sector-wide radar: the full US biotech universe (Nasdaq screener) plus the
     hand-maintained watchlist. Price/volume spikes for everything; 8-K filings
@@ -515,6 +618,7 @@ def biotech_alerts():
     try:
         cfg = json.load(open(cfg_path, encoding="utf-8"))
         watchlist = cfg["watchlist"]
+        verified_fda = cfg.get("verified_fda_links", {})
     except Exception as e:
         fail("biotech", f"config unreadable: {e}")
         return {"alerts": [], "radar": [], "flagged_extra": []}
@@ -535,9 +639,9 @@ def biotech_alerts():
     # the hand-maintained watchlist must never silently drop out of the radar:
     # retry its missing names one by one through the chart endpoint
     for t in sorted(wl_tickers - set(series)):
-        closes, vols = chart_closes_volumes(t)
+        closes, vols, last_d = chart_closes_volumes(t)
         if closes:
-            series[t] = (closes, vols)
+            series[t] = (closes, vols, last_d)
         time.sleep(0.15)
     stats["biotech_missing"] = len(tickers) - len(series)
 
@@ -551,8 +655,12 @@ def biotech_alerts():
         got = series.get(t)
         if not got:
             continue
-        closes, vols = got
+        closes, vols, bar_date = got
         chg = (closes[-1] / closes[-2] - 1.0) * 100.0 if len(closes) >= 2 and closes[-2] else 0.0
+        if not plausible_daily_chg(chg):
+            stats["bio_split_artifacts"] = stats.get("bio_split_artifacts", 0) + 1
+            fail("biotech", f"{t}: {chg:+.0f}% day move looks like a split/data artifact - excluded")
+            continue
         vc = scan_utils.volume_context(vols, vfrac_now)
         v_tier, v_val = scan_utils.volume_signal(vc, v_mult, strict=False)
         shown = v_val if v_tier else (vc["confirmed"] if vc and vc["confirmed"] is not None else (vc or {}).get("estimate"))
@@ -568,7 +676,8 @@ def biotech_alerts():
         elif abs(chg) >= 2.0 and (shown is not None and shown >= 2.5):
             rsev = 1   # early move: +2% on >=2.5x volume (approved trial addition)
         row = {"ticker": t, "name": names.get(t, ""), "chg": chg,
-               "close": closes[-1], "vol_mult": shown, "sev": rsev, "why": ""}
+               "close": closes[-1], "vol_mult": shown, "sev": rsev, "why": "",
+               "date": bar_date or today}
         radar.append(row)
         radar_by_ticker[t] = row
         if abs(chg) >= p_spike or vol_hit:
@@ -614,7 +723,7 @@ def biotech_alerts():
             vol_txt = (scan_utils.volume_text(v_tier or "confirmed", vol_val, vfrac_now)
                        if vol_avg > 0 else "מחזור לא זמין")
             alerts.append({"sev": sev, "kind": "price", "ticker": t,
-                           "name": name, "date": today, "ts": time.time(),
+                           "name": name, "date": row.get("date") or today, "ts": time.time(),
                            "head": f"{t}: {direction} {chg:+.1f}%",
                            "sub": f"מחיר {price:.2f} · {vol_txt}",
                            "link": f"https://finance.yahoo.com/quote/{t}",
@@ -651,7 +760,8 @@ def biotech_alerts():
     alerts.sort(key=lambda a: a.get("ts") or 0, reverse=True)   # newest first, by real timestamp
     alerts.sort(key=lambda a: {"crit": 0, "warn": 1, "info": 2}[a["sev"]])
     radar.sort(key=lambda r: (-r["sev"], -abs(r["chg"])))
-    return {"alerts": alerts, "radar": radar, "flagged_extra": flagged_extra}
+    return {"alerts": alerts, "radar": radar, "flagged_extra": flagged_extra,
+            "verified_fda": verified_fda}
 
 
 def _recovery_path(data, sig):
@@ -2237,6 +2347,38 @@ def build_html(mh, dips, alerts, bo, updated, extra=None):
         f'<div class="stat"><b>{n_news}</b><span>חדשות בסריקה</span></div>'
         "</div>")
     bt = extra.get("bt")
+
+    def _bio_alert_card(a):
+        link = a.get("link") or ""
+        fda_tag = ""
+        if fda_claim_unconfirmed(a):
+            official = (fda_gov_source_for(a.get("ticker"), bt)
+                        or verified_fda.get(a.get("ticker")))
+            if official:
+                link = official
+                fda_tag = '<span class="kbadge pos">אומת: הודעת FDA רשמית</span>'
+            else:
+                fda_tag = '<span class="kbadge">דיווח - לא אומת מול FDA</span>'
+        link_html = (f'<a class="src-link" href="{esc(link)}" target="_blank" '
+                     f'rel="noopener">פתח מקור</a>' if link else "")
+        return (f'<div class="alert {esc(a["sev"])}" data-kind="{esc(a["kind"])}">'
+                f'<div class="a-top">{fresh_badge(a)}<span class="sp"></span>'
+                f'<span class="kbadge">ביוטק</span>'
+                f'<span class="kbadge">{kind_he.get(a["kind"], "")}</span>{fda_tag}'
+                f'<span class="tick">{esc(a["ticker"])}</span></div>'
+                f'<div class="a-head">{esc(a["head"])}</div>'
+                f'<div class="a-comp">{esc(a.get("sub", ""))}</div>'
+                f'<div class="a-bot">{link_html}'
+                f'<span class="a-src">{esc(a["date"])} · {esc(a.get("source", ""))}</span></div>'
+                "</div>")
+
+    hot_reps = select_bio_hot(alerts, bt)
+    hot_ids = {id(a) for a in hot_reps}
+    verified_fda = extra.get("verified_fda") or {}
+    if hot_reps:
+        parts.append('<h3 class="sec">ההתראות החמות</h3>')
+        for a in hot_reps:
+            parts.append(_bio_alert_card(a))
     if bt:
         parts.append('<h3 class="sec">פריצות דרך ביוטק · סריקה כלל-שוקית</h3>')
         if bt.get("failed"):
@@ -2284,19 +2426,9 @@ def build_html(mh, dips, alerts, bo, updated, extra=None):
     parts.append('<div id="bioalerts">')
     if alerts:
         for a in alerts:
-            link_html = (f'<a class="src-link" href="{esc(a["link"])}" target="_blank" '
-                         f'rel="noopener">פתח מקור</a>' if a.get("link") else "")
-            parts.append(
-                f'<div class="alert {esc(a["sev"])}" data-kind="{esc(a["kind"])}">'
-                f'<div class="a-top">{fresh_badge(a)}<span class="sp"></span>'
-                f'<span class="kbadge">ביוטק</span>'
-                f'<span class="kbadge">{kind_he.get(a["kind"], "")}</span>'
-                f'<span class="tick">{esc(a["ticker"])}</span></div>'
-                f'<div class="a-head">{esc(a["head"])}</div>'
-                f'<div class="a-comp">{esc(a.get("sub", ""))}</div>'
-                f'<div class="a-bot">{link_html}'
-                f'<span class="a-src">{esc(a["date"])} · {esc(a.get("source", ""))}</span></div>'
-                "</div>")
+            if id(a) in hot_ids:
+                continue  # already shown in the hot section (no duplicate cards)
+            parts.append(_bio_alert_card(a))
     else:
         parts.append('<div class="empty">אין התראות חדשות כרגע</div>')
     parts.append("</div>")
@@ -2663,7 +2795,7 @@ def main():
         acc = None
     extra = {"overview": overview, "cnn": cnn, "pm": pm, "cats": cats, "trials": trials,
              "secw": secw, "radar": bio.get("radar", []), "acc": acc, "bt": bt,
-             "pulse": pulse}
+             "pulse": pulse, "verified_fda": bio.get("verified_fda") or {}}
     alerts = bio.get("alerts", [])
 
     updated = datetime.now(JER)

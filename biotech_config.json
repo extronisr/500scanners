@@ -203,5 +203,8 @@
    "name": "Zentalis Pharmaceuticals, Inc.",
    "cik": "0001725160"
   }
- ]
+ ],
+ "verified_fda_links": {
+  "INO": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-plasmid-dna-based-immunotherapy-adults-recurrent-respiratory-papillomatosis"
+ }
 }
