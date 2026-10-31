@@ -1,5 +1,5 @@
 {
- "fetched_at": "31.10.2026, 10:05",
+ "fetched_at": "31.10.2026, 10:34",
  "items": [
   {
    "title": "FDA approves ILUMYA for adults with psoriatic arthritis — News-Medical - UA.NEWS",
@@ -3842,6 +3842,24 @@
    "ncts": [
     "NCT05210790"
    ]
+  },
+  {
+   "title": "OSE Immunotherapeutics Reports Positive Topline Results of Combi-TED Phase 2 Randomized Trial with Tedopi® (OSE2101) in metastatic Non-Small Cell Lung Cancer - Yahoo Finance UK",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOVkV1bWlTb0RMZC1zZWxhRjJ5eGxuTmY5dzNXRzlVdkN3VV9hNDFyLU1Ka0RxUEdWc0lSay1lNk9nSThMdzM1d2RXeDNmdXBpSUhraXJvdjBGaFdYeUNUR0VFVjd6UGFTdjlGZTYyMHUxSkttdW1mNzRSeW5idzlUMm9RRVduN3Z1U3MtNVRhSGdlSVoxdW1CZTFXQ3c?oc=5",
+   "pub_ts": 1792306800.0,
+   "date": "18.10.2026, 10:00",
+   "cat": "phase2",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOVkV1bWlTb0RMZC1zZWxhRjJ5eGxuTmY5dzNXRzlVdkN3VV9hNDFyLU1Ka0RxUEdWc0lSay1lNk9nSThMdzM1d2RXeDNmdXBpSUhraXJvdjBGaFdYeUNUR0VFVjd6UGFTdjlGZTYyMHUxSkttdW1mNzRSeW5idzlUMm9RRVduN3Z1U3MtNVRhSGdlSVoxdW1CZTFXQ3c?oc=5"
+    }
+   ],
+   "ncts": []
   },
   {
    "title": "Sabirnetug Misses Primary Endpoint in Phase 2 Alzheimer Disease Trial - Psychiatric Times",
