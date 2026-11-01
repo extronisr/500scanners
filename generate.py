@@ -313,7 +313,7 @@ def dip_scan_section():
     vfrac_now = _dip_vfrac()
     dip_meta["vfrac"] = vfrac_now
     for sym, depth, ref_low, r, last in prelim:
-        closes, vols, _last_d = chart_closes_volumes(sym, "3mo")
+        closes, vols, _last_d, adj = chart_closes_volumes(sym, "3mo")
         if not vols or len(vols) < 22:
             continue
         vc = scan_utils.volume_context(vols, vfrac_now)
@@ -321,6 +321,7 @@ def dip_scan_section():
         if tier is None:
             continue
         cands.append({
+            "tdr": scan_utils.three_day_marker(adj or closes, exclude_last=(vfrac_now is not None)),
             "vol_tier": tier,
             "ticker": sym,
             "depth": depth,
@@ -457,23 +458,30 @@ def chart_closes_volumes(symbol, range_value="3mo"):
         data = http_get_json(url)
         result = data["chart"]["result"][0]
         q = result["indicators"]["quote"][0]
+        adj_raw = (result["indicators"].get("adjclose") or [{}])[0].get("adjclose") or []
         # a null close drops the WHOLE bar - close and volume stay paired
         ts = result.get("timestamp") or []
-        pairs = [(c, v, t) for c, v, t in
-                 zip(q.get("close") or [], q.get("volume") or [], ts + [None] * (len(q.get("close") or []) - len(ts)))
+        raw_c = q.get("close") or []
+        pad = len(raw_c) - len(ts)
+        adj_pad = len(raw_c) - len(adj_raw)
+        pairs = [(c, v, t, a) for c, v, t, a in
+                 zip(raw_c, q.get("volume") or [],
+                     ts + [None] * pad,
+                     adj_raw + [None] * max(adj_pad, 0))
                  if c is not None]
-        closes = [float(c) for c, v, t in pairs]
-        vols = [float(v) if v == v else 0.0 for c, v, t in pairs]
+        closes = [float(c) for c, v, t, a in pairs]
+        vols = [float(v) if v == v else 0.0 for c, v, t, a in pairs]
+        adj = [float(a) if a is not None and a == a else c for c, v, t, a in pairs]
         # the alert's date is the last TRADING day in the series, never the
         # fetch date (a Saturday scan shows Friday's date)
-        last_ts = next((t for c, v, t in reversed(pairs) if t), None)
+        last_ts = next((t for c, v, t, a in reversed(pairs) if t), None)
         last_d = (datetime.fromtimestamp(last_ts, tz=timezone.utc).date().isoformat()
                   if last_ts else None)
-        return closes, vols, last_d
+        return closes, vols, last_d, adj
     except Exception as e:
         stats["biotech_missing"] += 1
         fail("biotech", f"chart failed for {symbol}: {e}")
-        return None, None, None
+        return None, None, None, None
 
 
 _EDGAR_SUBS = {}
@@ -658,7 +666,7 @@ def biotech_alerts():
     # the hand-maintained watchlist must never silently drop out of the radar:
     # retry its missing names one by one through the chart endpoint
     for t in sorted(wl_tickers - set(series)):
-        closes, vols, last_d = chart_closes_volumes(t)
+        closes, vols, last_d, _adj = chart_closes_volumes(t)
         if closes:
             series[t] = (closes, vols, last_d)
         time.sleep(0.15)
@@ -1904,6 +1912,22 @@ def _hdr(title, ts):
     )
 
 
+def tdr_chip(t):
+    """Render the 3-day-rule timing chip for a dip card (None when the rule is not triggered)."""
+    if not t:
+        return ""
+    base = (f'חוק 3 הימים: {t["days_since"]}/3 ימי מסחר מאז הירידה החדה '
+            f'({t["drop_pct"]:.1f}%)')
+    if t["ok"]:
+        done = (f'חוק 3 הימים: עברו {t["days_since"]} ימי מסחר מאז הירידה החדה '
+                f'({t["drop_pct"]:.1f}%) · תקופת ההמתנה לפי הכלל הסתיימה')
+        return (f'<div class="a-comp" title="כלל אצבע לתזמון בלבד, לא איתות קנייה">'
+                f'{esc(done)}</div>')
+    return (f'<div class="a-comp" style="color:#b45309" '
+            f'title="כלל אצבע לתזמון בלבד, לא איתות קנייה">'
+            f'{esc(base)} · הכלל מציע להמתין</div>')
+
+
 def build_html(mh, dips, alerts, bo, updated, extra=None):
     extra = extra or {}
 
@@ -2308,6 +2332,7 @@ def build_html(mh, dips, alerts, bo, updated, extra=None):
                 f'<span class="kbadge">דיפ</span><span class="tick">{esc(c["ticker"])}</span></div>'
                 f'<div class="a-head">עומק הדיפ: {c["depth"]:.1f}% מהשיא · מעל השפל: {c["above_low_pct"]:.1f}%</div>'
                 f'<div class="a-comp">RSI פשוט(14): {c["rsi"]:.0f} · {esc(scan_utils.volume_text(c["vol_tier"], c["vol_mult"], dip_meta["vfrac"]))}</div>'
+                f'{tdr_chip(c.get("tdr"))}'
                 f"{links}</div>")
     elif not dip_meta["coverage_ok"]:
         parts.append('<div class="empty warnbox">לא ניתן לסמוך על התוצאה: חסרים נתונים '

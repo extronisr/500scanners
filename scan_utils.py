@@ -704,3 +704,38 @@ def cluster_breakthroughs(items):
         c.pop("_norm", None)
     clusters.sort(key=lambda c: (-c["sev"], -(c["pub_ts"] or 0)))
     return clusters
+
+
+def three_day_marker(closes, window=15, crash_thresh=-4.0, exclude_last=False):
+    """'3-day rule' timing marker for dip candidates.
+
+    Trader heuristic: after a crash/extreme down day, wait 3 full trading
+    sessions before considering entry. We anchor on the MOST RECENT session in
+    the window whose daily drop was at least crash_thresh percent, and count
+    full sessions since it. Pass split-ADJUSTED closes so a split is not
+    mistaken for a crash. exclude_last=True drops the final bar (a partial,
+    still-forming live session): only completed sessions count.
+
+    Returns None when no crash day exists in the window (rule not triggered),
+    else {"days_since": int, "drop_pct": float, "ok": days_since >= 3}.
+    Informational timing signal only - not a buy signal.
+    """
+    if not closes or len(closes) < 6:
+        return None
+    if exclude_last:
+        closes = closes[:-1]
+    if len(closes) < 6:
+        return None
+    seg = closes[-(window + 1):]
+    last_i, last_r = None, 0.0
+    for i in range(1, len(seg)):
+        prev = seg[i - 1]
+        if prev <= 0:
+            continue
+        r = (seg[i] - prev) / prev * 100.0
+        if r <= crash_thresh:
+            last_i, last_r = i, r
+    if last_i is None:
+        return None
+    days_since = len(seg) - 1 - last_i
+    return {"days_since": days_since, "drop_pct": last_r, "ok": days_since >= 3}

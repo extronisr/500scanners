@@ -611,14 +611,16 @@ def test_chart_closes_volumes_keep_pairs():
     orig = g.http_get_json
     g.http_get_json = lambda *a, **k: {"chart": {"result": [
         {"indicators": {"quote": [{"close": [10.0, 11.0, None, 12.0],
-                                   "volume": [100, 200, 999, 400]}]}}]}}
+                                   "volume": [100, 200, 999, 400]}],
+                        "adjclose": [{"adjclose": [9.0, 9.9, None, 10.8]}]}}]}}
     try:
-        closes, vols, last_d = g.chart_closes_volumes("TEST")
+        closes, vols, last_d, adj = g.chart_closes_volumes("TEST")
         assert last_d is None or len(last_d) == 10
     finally:
         g.http_get_json = orig
     assert closes == [10.0, 11.0, 12.0]
     assert vols == [100.0, 200.0, 400.0]  # the null bar's volume dropped with it
+    assert adj == [9.0, 9.9, 10.8]  # adjusted series stays paired with the same bars
 
 
 def test_expected_to_date_window_end():
