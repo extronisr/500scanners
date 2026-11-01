@@ -28,8 +28,9 @@ toast.addEventListener('click',function(){
 });
 function showToast(items){
   var tickers=[]; items.forEach(function(i){ if(i.ticker&&tickers.indexOf(i.ticker)<0) tickers.push(i.ticker); });
+  var fdaNote=(items[0]&&items[0].fda_unverified)?' · דיווח - לא אומת מול FDA':'';
   toast.innerHTML='<b>🔥 התראה חמה חדשה: '+tickers.join(', ')+'</b><div style="font-size:.85rem;color:#7c2d12">'+
-    (items[0].head||'').replace(/[<>&]/g,'').slice(0,110)+'</div>';
+    (items[0].head||'').replace(/[<>&]/g,'').slice(0,110)+fdaNote+'</div>';
   toast.style.display='block';
   clearTimeout(showToast._t); showToast._t=setTimeout(function(){toast.style.display='none';},12000);
 }

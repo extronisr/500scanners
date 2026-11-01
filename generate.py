@@ -621,17 +621,29 @@ def select_bio_hot(alerts, bt, n=5):
 LAST_BIO_HOT = {}
 
 
-def bio_hot_payload(hot_reps, updated):
+def bio_hot_payload(hot_reps, updated, bt=None, verified_fda=None):
     """Push/toast feed of the current hot set. The key is stable per
     (ticker, headline) so the worker cron and the onsite toast dedup
-    without repeats and never re-alert an unchanged story."""
+    without repeats and never re-alert an unchanged story. An issuer
+    FDA-approval claim with no official fda.gov backing is flagged
+    fda_unverified so the toast and OS push carry the same
+    'דיווח - לא אומת מול FDA' qualifier as the alert card."""
+    verified_fda = verified_fda or {}
     items = []
     for a in hot_reps:
         head = a.get("head", "")
         key = hashlib.sha1((a.get("ticker", "") + "|" + head)
                            .encode("utf-8")).hexdigest()[:12]
-        items.append({"key": key, "ticker": a.get("ticker", ""), "head": head,
-                      "date": a.get("date", ""), "link": a.get("link", "")})
+        item = {"key": key, "ticker": a.get("ticker", ""), "head": head,
+                "date": a.get("date", ""), "link": a.get("link", "")}
+        if fda_claim_unconfirmed(a):
+            official = (fda_gov_source_for(a.get("ticker"), bt)
+                        or verified_fda.get(a.get("ticker")))
+            if official:
+                item["link"] = official
+            else:
+                item["fda_unverified"] = True
+        items.append(item)
     return {"generated_at": updated.isoformat(),
             "epoch": int(updated.timestamp()), "hot": items}
 
@@ -2421,9 +2433,9 @@ def build_html(mh, dips, alerts, bo, updated, extra=None):
 
     hot_reps = select_bio_hot(alerts, bt)
     hot_ids = {id(a) for a in hot_reps}
-    LAST_BIO_HOT.clear()
-    LAST_BIO_HOT.update(bio_hot_payload(hot_reps, updated))
     verified_fda = extra.get("verified_fda") or {}
+    LAST_BIO_HOT.clear()
+    LAST_BIO_HOT.update(bio_hot_payload(hot_reps, updated, bt, verified_fda))
     if hot_reps:
         parts.append('<h3 class="sec">ההתראות החמות</h3>')
         for a in hot_reps:

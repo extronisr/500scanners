@@ -95,3 +95,41 @@ def test_push_js_reconcile_failure_visible():
     assert "reconcile" in js and "/push/subscribe" in js
     # a failed server upsert must be surfaced, never a silent false 'active'
     assert "הרישום בשרת נכשל" in js and "throw new Error('reconcile failed')" in js
+
+
+def _news_alert(ticker, head, link):
+    return {"sev": "info", "kind": "news", "ticker": ticker, "name": ticker,
+            "date": "01.11.2026, 00:30", "ts": 1.0, "head": head, "sub": "",
+            "link": link, "source": "T"}
+
+
+def test_bio_hot_payload_flags_unverified_issuer_fda_claim():
+    issuer = _news_alert("NRXP", "NRx Receives FDA Approval of Preservative-Free Ketamine",
+                         "https://news.google.com/rss/articles/x")
+    item = g.bio_hot_payload([issuer], _DT())["hot"][0]
+    assert item.get("fda_unverified") is True
+
+
+def test_bio_hot_payload_no_flag_when_official_backing():
+    issuer = _news_alert("NRXP", "NRx Receives FDA Approval of Preservative-Free Ketamine",
+                         "https://news.google.com/rss/articles/x")
+    verified = {"NRXP": "https://www.fda.gov/drugs/news-events/announcement"}
+    item = g.bio_hot_payload([issuer], _DT(), None, verified)["hot"][0]
+    assert "fda_unverified" not in item
+    assert item["link"] == verified["NRXP"]  # notification links the official source
+    fda_gov = _news_alert("INO", "FDA Approves First DNA Immunotherapy",
+                          "https://www.fda.gov/news-events/press-announcements/x")
+    item2 = g.bio_hot_payload([fda_gov], _DT())["hot"][0]
+    assert "fda_unverified" not in item2
+
+
+def test_bio_hot_payload_no_flag_for_non_fda_news():
+    plain = _news_alert("X", "Company reports quarterly results", "https://example.com/x")
+    item = g.bio_hot_payload([plain], _DT())["hot"][0]
+    assert "fda_unverified" not in item
+
+
+def test_toast_and_payload_qualifier_strings_present():
+    js = open(os.path.join(BASE, "push.js"), encoding="utf-8").read()
+    assert "fda_unverified" in js
+    assert "דיווח - לא אומת מול FDA" in js  # same wording as the alert card badge
