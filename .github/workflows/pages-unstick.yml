@@ -2,15 +2,14 @@ name: Unstick Pages deployment (one-shot maintenance)
 on:
   workflow_dispatch:
 permissions:
-  deployments: write
+  pages: write
+  id-token: write
 jobs:
   cancel-stuck:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - name: Mark wedged deployment 7470373852 inactive then delete it
+      - name: Cancel wedged Pages deployment by sha (deploy-pages internal route)
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          gh api -X POST "repos/${{ github.repository }}/deployments/7470373852/statuses" -f state=inactive -f environment=github-pages -f description="Unsticking wedged Pages queue"
-          gh api -X DELETE "repos/${{ github.repository }}/deployments/7470373852"
+        run: gh api -X POST "repos/${{ github.repository }}/pages/deployment/cancel/eab80366aa1090baa85055b39f090756594cfaba"
