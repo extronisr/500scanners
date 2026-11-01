@@ -1,18 +1,18 @@
 {
  "version": 1,
  "slot": "2026-11-01T10:00",
- "generated_at": "2026-11-01T11:30:58.881205+02:00",
+ "generated_at": "2026-11-01T12:00:56.261789+02:00",
  "window_hours": 48,
  "mode": "full",
- "intro": "השוק חווה שינוי פתאומי אחרי שבוע של תחזיות חיוביות, כאשר מכירות חזקות של מניות טכנולוגיה משנות את המצב.",
+ "intro": "היום נרשמה תנודתיות משמעותית במגזר הטכנולוגיה לאחר סדרת דוחות משקיעים.",
  "stories": [
   {
-   "title": "מכירות טכנולוגיה אחרי דוחות מאכזבים",
-   "summary": "היום נרשמה ירידה חדה במניות הטכנולוגיה לאחר דוחות רווחים של חברות גדולות שהיו מתחת לציפיות, כולל אמזון ואינטל. הירידה נגרמה מחשש להוצאות גבוהות יותר מהמתוכנן בתחום הבינה המלאכותית.",
+   "title": "דוחות טכנולוגיה מאכזבים משנים את האווירה",
+   "summary": "חברות טכנולוגיה פרסמו דוחות רווחים מתחת לציפיות, מה שהוביל למכירות נרחבות במניות הקשורות לבינה מלאכותית ולשבבים. המשקיעים נרתעים מהעלויות הגבוהות של פיתוח AI, והמעבר למניות בטוחות יותר מתחזק.",
    "impact": "שלילית",
-   "affected": "מניות טכנולוגיה – AMZN, INTC",
+   "affected": "טכנולוגיה – חברות AI, שבבים וסטארטאפים בתחום",
    "news_refs": [
-    "N14"
+    "N15"
    ],
    "source_url": "https://www.cnbc.com/investingclub/2026/10/31/stocks-started-the-week-with-promise-but-ended-in-despair.html",
    "source_name": "cnbc.com",
@@ -20,40 +20,31 @@
   }
  ],
  "alerts": [],
- "watchlist": [
-  {
-   "ticker": "AMZN",
-   "why": "דוח רווחים מאכזב והוצאות AI גבוהות"
-  },
-  {
-   "ticker": "INTC",
-   "why": "אזהרת הוצאות מזיקות והפחתת תחזיות"
-  }
- ],
+ "watchlist": [],
  "sources": [
   {
-   "name": "cnbc.com",
-   "url": "https://www.cnbc.com/2026/10/27/stock-market-today-live-updates.html"
+   "name": "finance.yahoo.com",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-oct-26-134626728.html"
   },
   {
    "name": "finance.yahoo.com",
-   "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-30-dow-sp-500-nasdaq-amazon-intel-131609630.html"
+   "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-oct-29-134623155.html"
+  },
+  {
+   "name": "bloomberg.com",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-29/stock-market-today-dow-s-p-live-updates"
   },
   {
    "name": "finance.yahoo.com",
-   "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-30-dow-sp-500-nasdaq-amazon-intel-ai-sell-off-191429143.html"
+   "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-p-500-open-060417566.html"
   },
   {
-   "name": "marketwatch.com",
-   "url": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-amazon-intel-financial-earnings-us-treasurys"
+   "name": "reuters.com",
+   "url": "https://www.reuters.com/world/asia-pacific/nasdaq-futures-rise-sk-hynix-boosts-chips-before-fed-decision-earnings-2026-10-28"
   },
   {
-   "name": "nyse.com",
-   "url": "https://www.nyse.com/index"
-  },
-  {
-   "name": "barrons.com",
-   "url": "https://www.barrons.com/livecoverage/stock-market-news-today-103026"
+   "name": "reuters.com",
+   "url": "https://www.reuters.com/business/nasdaq-futures-tumble-amazon-intel-results-deepen-ai-spending-woes-2026-10-30"
   },
   {
    "name": "cryptoticker.io",
