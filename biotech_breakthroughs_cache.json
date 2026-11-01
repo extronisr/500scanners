@@ -1,5 +1,5 @@
 {
- "fetched_at": "1.11.2026, 16:04",
+ "fetched_at": "1.11.2026, 16:34",
  "items": [
   {
    "title": "FDA Approves First DNA Immunotherapy for RRP - Voice of Healthcare",
@@ -3479,6 +3479,24 @@
    "ncts": [
     "NCT03036488"
    ]
+  },
+  {
+   "title": "Samsung Bioepis' first in-house drug candidate wins FDA fast track designation - 헤럴드경제",
+   "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9EMV9PT09sU3RWelVxYzNoQ0JjQlI4UE41TjRrc0lXeXlQSS0yeEo4S3d6WkhNUGFpbk5DVU9La3RsWFR3T1E5YkRGRkFXVXZiVkJNeTZEVQ?oc=5",
+   "pub_ts": 1792566000.0,
+   "date": "21.10.2026, 10:00",
+   "cat": "btd",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9EMV9PT09sU3RWelVxYzNoQ0JjQlI4UE41TjRrc0lXeXlQSS0yeEo4S3d6WkhNUGFpbk5DVU9La3RsWFR3T1E5YkRGRkFXVXZiVkJNeTZEVQ?oc=5"
+    }
+   ],
+   "ncts": []
   },
   {
    "title": "RAP-219 hits primary endpoint in Phase 2 bipolar mania trial - The Clinical Trial Vanguard",
