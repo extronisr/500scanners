@@ -2034,6 +2034,19 @@ def build_html(mh, dips, alerts, bo, updated, extra=None):
 
     ov = extra.get("overview")
     if ov:
+        if ov["change3"]:
+            parts.append('<h3 class="sec">שינוי ב-3 ימי מסחר</h3>')
+            parts.append('<div class="chg3">')
+            for c in ov["change3"]:
+                dec = 3 if c["sym"] == "^TNX" else 2
+                cls = "up" if c["abs3"] >= 0 else "down"
+                p3 = (" · " + pct2(c["pct3"])) if c.get("pct3") is not None else ""
+                parts.append(
+                    f"<div><span>{esc(c['name'])}</span>"
+                    f'<b class="{cls}" dir="ltr">{c["abs3"]:+.{dec}f}</b>'
+                    f"<small>{esc(c['unit'])}{p3}</small></div>")
+            parts.append("</div>")
+            parts.append('<div class="ts">שלושה מרווחי מסחר אחרונים, לא שלושה ימים קלנדריים · Yahoo Finance</div>')
         if ov["sectors"]:
             parts.append('<h3 class="sec">מפת המגזרים · יום אחרון (ושינוי ב-3 ימי מסחר)</h3>')
             parts.append('<div class="hmap">')
@@ -2057,19 +2070,6 @@ def build_html(mh, dips, alerts, bo, updated, extra=None):
                     "<small>פירוט נוסף, לא מגזר במפה</small></span>"
                     f"{pct2(xr['day_pct'])}</div>")
             parts.append('<div class="ts">11 מגזרי S&P 500 באמצעות קרנות סל ענפיות · Yahoo Finance</div>')
-        if ov["change3"]:
-            parts.append('<h3 class="sec">שינוי ב-3 ימי מסחר</h3>')
-            parts.append('<div class="chg3">')
-            for c in ov["change3"]:
-                dec = 3 if c["sym"] == "^TNX" else 2
-                cls = "up" if c["abs3"] >= 0 else "down"
-                p3 = (" · " + pct2(c["pct3"])) if c.get("pct3") is not None else ""
-                parts.append(
-                    f"<div><span>{esc(c['name'])}</span>"
-                    f'<b class="{cls}" dir="ltr">{c["abs3"]:+.{dec}f}</b>'
-                    f"<small>{esc(c['unit'])}{p3}</small></div>")
-            parts.append("</div>")
-            parts.append('<div class="ts">שלושה מרווחי מסחר אחרונים, לא שלושה ימים קלנדריים · Yahoo Finance</div>')
         parts.append('<h3 class="sec">המבט הרחב · מדדים</h3>')
         parts.append('<div class="idxgrid">')
         for ix in ov["indices"]:
