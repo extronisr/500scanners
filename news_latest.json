@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-02T23:01:07.090017+02:00",
+ "generated_at": "2026-11-03T00:01:09.756174+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -9,117 +9,117 @@
  "sections": {
   "us": [
    {
+    "title": "Dow Jones Futures: AI Trade Dives As Apple Slides On Earnings; Midterm Elections Next",
+    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNUFhSS0pDcDhxY3pENzBPOFQxQ3p4VkctbjFUT1Jfb1o0OUVoRVpLYUtFS0VqcnVkZGJGbnZwN1pSUGhaZ010dU9sSGw3SUJ0TUl4czk4a3VRc2pMbk10UGozZ1FWZ19pX3VScTZfVlBocmQ1ZDMwVWZHTjkxSHNBbHJiWHRwcHVXTTRqTHJwNjZpVWM2c1ZCNnNlVnFMUjdPa0dBSFFlM2xpS0w2bGE5OFQ1NWNudkw3ZWI2b1YwQ2l5SmJSS0J2Skl0VGJoaEUycFRIanYybTZ6MkFzU0pvSA?oc=5",
+    "source": "Investor's Business Daily",
+    "published": "2026-11-02T21:53:00+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Wall Street’s most hated stocks are faring far better than its favorites",
+    "url": "https://www.marketwatch.com/story/wall-streets-most-hated-stocks-are-faring-far-better-than-its-favorites-4c1d6c68?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-02T21:45:00+00:00",
+    "lede": "The thrashing that Wall Street’s artificial-intelligence darlings have taken over the past few months has led to an unusual situation in the U.S. stock market.",
+    "lang": "en"
+   },
+   {
+    "title": "רבעון ראשון למנכ\"ל אפל החדש ג'ון טרנוס: מכה את התחזיות, מאכזבת באייפד ובסין",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001561660#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-02T21:42:00+00:00",
+    "lede": "אפל עקפה את תחזיות האנליסטים בשורה העליונה והתחתונה, עם הכנסות בגובה של 114.48 מיליארד דולר שמשקפות צמיחה של 12%",
+    "lang": "he"
+   },
+   {
+    "title": "Stifel Declares Quarterly Common Stock Cash Dividend and Declares Preferred Stock Cash Dividend",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOWjg5amV6TXFGUTJRb3U1RHRvTEozMWxtQ05nbkNENVRxaWxOcGhhZ1RVOUFzeVE4UlkxM0hwV1N1d2x0MlkwazFmSzZjb3ozV0JmRUwwVF9sWTVCSVlkQk80WGZaVkdiSjBYTFVGRGdmVkZlVUxITkNwZWd4LWpqeWJYcDFDdzZJMmlCcjBURlR2bjd6dUFJUkZvZ0RDZnhEdGN6Szl3?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-02T21:30:00+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Dell Technologies Inc. Cl C stock falls Monday, underperforms market",
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQWFJXcUozRE5EM2I3YkFKYzBkTm5BeV9JdFJ6bmV1MlFmdnJrVzB4c1VydTJHSUNtb2lVTGZwZ3puWElKRGthUXZUVFludDEtbVVIVHlOVzJaVjZiWmNBYzlGWlpQRUxzSy1GelZnQk1lU0xVcnBEQmJ3VWRoSlp2dDZRQjEtYzVwSkhYSTN4QmVFeDR6U2Y3SkNGSjlxVWhfZnhXSWlmU19qMVFId3RzaU4yT05YdFVvSHFPRG9NdXYtc1FK?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-11-02T21:30:00+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "The stock market has gone nowhere for the past 5 months. It’s now looking like a bargain.",
+    "url": "https://www.marketwatch.com/story/the-stock-market-has-gone-nowhere-for-the-past-5-months-its-now-looking-like-a-bargain-150914c2?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-02T21:29:00+00:00",
+    "lede": "The S&P 500’s forward price-to-earnings ratio is below its five-year and 10-year averages.",
+    "lang": "en"
+   },
+   {
+    "title": "בזכות ה-AI: ההכנסות של פלנטיר זינקו בכמעט 100% ליותר מ-2 מיליארד דולר ברבעון",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001561741#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-02T21:19:00+00:00",
+    "lede": "חברת ה-AI עקפה את תחזיות האנליסטים בשורה העליונה והתחתונה, עם הכנסות בגובה 2.31 מיליארד דולר",
+    "lang": "he"
+   },
+   {
+    "title": "Texas governor race tightens in prediction markets, but Abbott remains favored",
+    "url": "https://www.cnbc.com/2026/11/02/texas-governor-prediction-markets-abbott-hinojosa.html",
+    "source": "CNBC",
+    "published": "2026-11-02T21:13:43+00:00",
+    "lede": "Prediction markets still show the Republican incumbent favored to win a fourth term, but the odds have narrowed in recent weeks.",
+    "lang": "en"
+   },
+   {
+    "title": "Oracle files to sell $20 billion in new stock, bonds to finance AI buildout",
+    "url": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html",
+    "source": "CNBC",
+    "published": "2026-11-02T21:10:34+00:00",
+    "lede": "Oracle filed plans on Monday to issue new shares and more debt to finance its artificial intelligence buildout.",
+    "lang": "en"
+   },
+   {
     "title": "I bonds now pay 5.51% — but there are trade-offs. What to know before buying",
     "url": "https://www.cnbc.com/2026/11/02/i-bonds-rate.html",
     "source": "CNBC",
     "published": "2026-11-02T20:57:50+00:00",
     "lede": "I bonds are now paying 5.51%. Here are some key things to know before investing, according to financial experts.",
     "lang": "en"
-   },
-   {
-    "title": "Marriott, Stock Of The Day, Breaks Out As Earnings Accelerate Again",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQaXY2MHU4VFZGOVJXa2wtSFhydVFudWp6VWxrcTB1V1RLSVZvbGVoOEVkcDZLN3cxZThSNDltQWs0UjNUdm0tRjJhaDFuVjVZSE45alpET1I4Y0NROV9ydEZuSnFuYUVYZFgzRkJuUVgxT2tKZ1ppSTZadXM5SS1qMTZzTzhwRGJJejB6c2RMMlBBV0IwVUZLSTBvOTB0bjJnMkZ1bA?oc=5",
-    "source": "Investor's Business Daily",
-    "published": "2026-11-02T20:49:00+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Prediction market traders now see nearly 75% chance of Democrats winning the Senate",
-    "url": "https://www.cnbc.com/2026/11/02/prediction-market-traders-now-see-nearly-75percent-chance-of-democrats-winning-the-senate.html",
-    "source": "CNBC",
-    "published": "2026-11-02T20:48:21+00:00",
-    "lede": "Just a day before the midterms, Kalshi traders give Democrats a 74% chance of controlling the Senate.",
-    "lang": "en"
-   },
-   {
-    "title": "The Intel stock collapse is getting worse — and the $3.5 trillion chip rout is spreading",
-    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOQVcyRUhyVlBfYVd2dVB4ZkdtWndTS0tNX3pNNWVfaVhlRlZhWmw2U2F2dWtlSktXNmVCZ1VXVEtYc1JSQVlla010VHJrb25BU3UwRWtWZXpLaHVCSG9fTlZVSFRCMjFxMGp4cUtQNzVQNzRkOTF5TVR3SWR0R1VEQlpIUld6U0NzTnFEbzZJOF9DcktCSjQtdWM2SDBseEJITG1UcWw4ZnZHenQzcUNnZS1nUl9IdFM4QTRjYjFmT1kxZDdNb3YtTWpGTS1GX1JvbVpvMXludGl4Zw?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-02T20:41:39+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Costco Wholesale Stock Is Trading Over $1,000. Here's Why a Stock Split Still May Not Come in 2027.",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNNC1YaktJQWJpNzB0clVYQ3hBUHRvWFJaeWIycFRRa0JOOHhYUmtvYm1tNy04MDZrVDVsT0RfZE9DQTlDRk83eWtFRVAzbUR4OV8tRnJWOWJKZFZBWGhKRTFQbjRkU3UyWUxUNVV1WGZOVGdzTWNIVkQ5c3MyVVJtTm5ab2dtRUN4LWlNZG0yaEFxWEFPR2NWdE5wUkpocFJHeEE?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-02T20:39:00+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Big majority of US voters disapprove of Trump’s handling of inflation: FT poll",
-    "url": "https://www.ft.com/content/5ed63d08-66f3-4ad3-9ec7-2ec8b590fc85?syn-25a6b1a6=1",
-    "source": "Financial Times",
-    "published": "2026-11-02T20:38:05+00:00",
-    "lede": "On the eve of the midterm elections, Americans say they want politicians who can better handle the economy",
-    "lang": "en"
-   },
-   {
-    "title": "Chip stocks are suffering from a ‘crisis of confidence’ — but things aren’t as gloomy as they seem",
-    "url": "https://www.marketwatch.com/story/chip-stocks-are-suffering-from-a-crisis-of-confidence-but-things-arent-as-gloomy-as-they-seem-6ed14ea9?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-02T20:30:00+00:00",
-    "lede": "Investors are worried about whether there will be sustained demand for chips, but one analyst notes that large tech companies are still spending heavily.",
-    "lang": "en"
-   },
-   {
-    "title": "Intel foundry push faces critical test after stock's 45% plunge in October",
-    "url": "https://www.cnbc.com/2026/11/02/intel-foundry-faces-critical-test-after-stocks-45percent-plunge-in-october.html",
-    "source": "CNBC",
-    "published": "2026-11-02T20:20:34+00:00",
-    "lede": "Intel’s turnaround now hinges on proving its foundry strategy can deliver, as customers look for signs the company will add fab capacity and catch TSMC",
-    "lang": "en"
-   },
-   {
-    "title": "הנאסד\"ק וה-S&P 500 עברו לאדום; הקריסה באינטל נמשכת, מניות השבבים בשפל של חצי שנה",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001561626#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-02T20:20:00+00:00",
-    "lede": "הנאסד\"ק יורד בכ-0.5% • מחירי הנפט צונחים בשל אופטימיות לעסקה מול איראן • תשואות האג\"ח הממשלתיות הארוכות בארה\"ב יורדות לשפל של כחודשיים • מניית אורקל נופלת לאחר הכרזה על גיוס הון ענק • אפל תדווח הערב על תוצאותיה לרבעון…",
-    "lang": "he"
-   },
-   {
-    "title": "How soon gas prices could go down now that oil is tumbling",
-    "url": "https://www.marketwatch.com/story/how-soon-gas-prices-could-go-down-now-that-oil-is-tumbling-a1140dc2?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-02T19:27:00+00:00",
-    "lede": "Retail gas prices dropped to $4.12 a gallon on Monday, as U.S. oil prices fell below $100 a barrel.",
-    "lang": "en"
    }
   ],
   "il": [
    {
+    "title": "\"ההתאוששות ארוכה מהצפוי\": נדב צפריר מאכזב את משקיעי צ'ק פוינט",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001561651#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-02T21:06:00+00:00",
+    "lede": "מאז מינויו של צפריר למנכ\"ל איבדה חברת אבטחת הסייבר כ–3 מיליארד דולר משווייה",
+    "lang": "he"
+   },
+   {
+    "title": "\"הצמיחה החזקה אי פעם\": טאואר בדרך להכנסות של 2 מיליארד דולר בשנה",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001561668#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-02T21:05:00+00:00",
+    "lede": "יצרנית השבבים הישראלית עקפה את תחזיות האנליסטים לרבעון השלישי וסיפקה תחזית אופטימית להמשך השנה",
+    "lang": "he"
+   },
+   {
+    "title": "הנאסד\"ק וה-S&P 500 ננעלו באדום; הקריסה באינטל נמשכה, מניות השבבים ירדו לשפל של חצי שנה",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001561626#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-02T21:01:00+00:00",
+    "lede": "הנאסד\"ק ירד בכ-1.1% בהובלת מניות השבבים",
+    "lang": "he"
+   },
+   {
     "title": "טראמפ בראיון: לא ממהר לחדש את המלחמה עם איראן. \"משתקים להם את הכלכלה\"",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001561631#utm_source=RSS",
     "source": "גלובס",
-    "published": "2026-11-02T20:29:00+00:00",
+    "published": "2026-11-02T21:01:00+00:00",
     "lede": "איראן מכשירה את הקרקע למלחמה: \"מכות מחרידות בנשק חדש\"",
-    "lang": "he"
-   },
-   {
-    "title": "מס על מיליארדרים והקלות לבעלי בתים: ההכרעות הכלכליות בקלפיות בארה\"ב",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001561697#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-02T19:00:00+00:00",
-    "lede": "מס של 5% על הון המיליארדרים בקליפורניה, קרן השקעות ממשלתית שתאפשר לבטל מסים במיזורי והקלות לבעלי בתים בפלורידה במחיר של מיליארדים לרשויות",
-    "lang": "he"
-   },
-   {
-    "title": "בעקבות מתקפות הסייבר באירופה: אזהרה דחופה לרשתות המזון בישראל",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001561765#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-02T17:52:00+00:00",
-    "lede": "בעקבות גל מתקפות סייבר חריג באירופה, שבמסגרתו השתלטו האקרים על מערכות קירור והקפאה בסופרמרקטים, העלו טמפרטורות וגרמו להשמדת כמויות גדולות של מזון, מערך הסייבר הלאומי מפרסם היום (ב') אזהרה דחופה לרשתות השיווק והמזון",
-    "lang": "he"
-   },
-   {
-    "title": "\"החל ממחר נחל בנקיטת צעדים\": ארקיע בדרך לסכסוך עבודה?",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001561762#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-02T17:43:00+00:00",
-    "lede": "איגוד עובדי התחבורה ונמלי הים שלח היום מכתב התראה טרם הכרזה על סכסוך עבודה לנציג בעלי החברה, אבי חורמרו, ולמנכ\"ל עוז ברלוביץ' והודיע כי ממחר יחלו בנקיטת צעדים נגדם",
     "lang": "he"
    },
    {
@@ -149,18 +149,18 @@
   ],
   "geo": [
    {
-    "title": "Culture War Tensions Roil Beverly Hills School Board Race",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQOHZLNktiTFZ1cWYzZ1BwdG83SHVkOFI0X0FmSDI5QVU3WnVicmNNWFp2WFVfM0ZiUVQ4Z1dRZHNXeEczUDFwREZvUE1qSjVfNHNqbnd1aEg0T2dObXVyXzc4aXA1VGtZQ3dESnBfUWNpMENEQnNrbFJEcWtkUjVFVU5uRjk?oc=5",
-    "source": "The New York Times",
-    "published": "2026-11-02T20:01:31+00:00",
+    "title": "Gulf Arab states struggle under the cloud of war",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQQ3EtaE9MSjJ4Vld0djhZcjcwQzh2REVoV1Znel9kVTk3dkdDNWZmX2lMUVRPUmpWVVlvVmxFSTFsbXhVNjBzcUc4bFlLSWhyRXRqcTZDTkU1cUkteWx4VmEzMUJQeER0aTVBRHNZLTgydVlpRVp6QzhGMHVHUjNrNUVqLWQwVWpMNDVBeEFicXlBcVFvLWlYaw?oc=5",
+    "source": "NPR",
+    "published": "2026-11-02T21:50:34+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Trump to Axios: \"No rush\" to decide on bombing Iran again",
-    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9acUtzOGtfVzNfclh4d0FCZTkxeGxvdkNsalhvWUdZM1RWemZLUVEwZV9BR2oyay1MTEpxUTh3a0ViUHlOa3FxVjdJQ0hVWEt1VmdRYU5GOUVXOUd3VXJ5OFJMNjJaT3ZtYURFUnlQMzcwTTZ3SnRmU3RXOXVpdw?oc=5",
-    "source": "Axios",
-    "published": "2026-11-02T19:36:48+00:00",
+    "title": "Iran says contacts over ending war continue after talks finish with no breakthrough",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOLXhRTFk2aHFYY3VOMWFGdmFySFR5MTNxeWRRU1ZQM3RaWjg4ZFZlOTJHNDZjYmdCVjBOX0RweVAyWEI4T2dZMVFSbUt4bTc4NGlibnlTaDh2TUNydEdOQjZJSmt3RnRIbk1LNVJ4SlNkR0M3QWs3NnZwQ0JlMW5Ud0FaN29PaGcwdk1CbTZ1UUhjYkg5XzZwVmdwWGNnRnladzZVUEhBeTZScEZIMl9YZ0hUT01GcDdkMXFwcXF0Q3hkTEluSnpnb3F5RFA?oc=5",
+    "source": "Reuters",
+    "published": "2026-11-02T21:17:57+00:00",
     "lede": null,
     "lang": "en"
    }
