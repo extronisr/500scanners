@@ -223,6 +223,14 @@
    "pivot": 50.83,
    "target": 57.79,
    "stop": 49.31
+  },
+  {
+   "ticker": "ARES",
+   "date": "2026-11-02",
+   "signal_price": 132.96,
+   "pivot": 128.96,
+   "target": 147.62,
+   "stop": 125.09
   }
  ]
 }
