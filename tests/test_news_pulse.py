@@ -30,3 +30,19 @@ def test_same_event_different_angle_shares_too_little():
 def test_hebrew_titles_not_dup_on_two_shared_words():
     kept = [toks("עליות באסיה ובחוזים בוול סטריט; מחיר הנפט יורד ב-3%")]
     assert not np.is_dup(toks("וול סטריט נערכת לשבוע נפיץ: כך המשקיעים מנסים להגן על עצמם"), kept)
+
+
+def test_he_market_kw_keeps_market_titles():
+    assert np.HE_MARKET_KW.search("עליות באסיה ובחוזים בוול סטריט; מחיר הנפט יורד ב-3%")
+    assert np.HE_MARKET_KW.search("המניות שצנחו בעד 70% והמסר של השוק")
+
+
+def test_he_market_kw_drops_general_titles():
+    assert not np.HE_MARKET_KW.search('הרמטכ"ל לשעבר הרצי הלוי: "7.10 היה כישלון שניתן למנוע"')
+    assert not np.HE_MARKET_KW.search("מרכז ת\"א מתחדש באלפי דירות, והפעם העירייה דאגה להיטל השבחה שמן")
+
+
+def test_workflow_news_force_only_on_explicit_input():
+    wf = open('.github/workflows/refresh.yml', encoding='utf-8').read()
+    assert 'inputs.force_news' in wf
+    assert "github.event_name == 'workflow_dispatch' && '--force'" not in wf

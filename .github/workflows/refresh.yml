@@ -3,6 +3,11 @@ on:
   schedule:
     - cron: '*/15 * * * *'
   workflow_dispatch:
+    inputs:
+      force_news:
+        description: 'Rescan news now, bypassing the hourly gate'
+        type: boolean
+        default: false
 permissions:
   contents: write
 concurrency:
@@ -18,8 +23,8 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install -r requirements.txt
-      - name: Linked market news (hourly; manual button always rescans)
-        run: python news_pulse.py ${{ github.event_name == 'workflow_dispatch' && '--force' || '' }}
+      - name: Linked market news (hourly; force only on explicit manual request)
+        run: python news_pulse.py ${{ inputs.force_news == true && '--force' || '' }}
       - run: python generate.py
       - run: |
           git config user.name "scanners-bot"

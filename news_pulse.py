@@ -53,8 +53,10 @@ FEEDS = [
     ("us", "https://www.theguardian.com/uk/business/rss", "The Guardian", True),
     ("us", "https://seekingalpha.com/feed.xml", "Seeking Alpha", False),
     ("us", "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225", "גלובס", True),
+    ("us", "https://www.investing.com/rss/news_25.rss", "Investing.com", False),
     ("us", GN.format(q=urllib.parse.quote("stock market when:1d"), hl="en-US", gl="US", ceid="en"), None, False),
     ("il", "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585", "גלובס", True),
+    ("il", "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2", "גלובס", True, "he"),
     ("il", "https://rss.walla.co.il/feed/112", "וואלה", True),
     ("il", GN.format(q=urllib.parse.quote("בורסה when:2d"), hl="he", gl="IL", ceid="he"), None, False),
     ("geo", GN.format(q=urllib.parse.quote('geopolitical OR war OR sanctions OR "middle east" when:2d'),
@@ -170,6 +172,13 @@ def is_dup(toks, kept):
     return False
 
 
+HE_MARKET_KW = re.compile(
+    r"בורס|שוק ההון|מנייה|מניות|מדד|וול סטריט|נאסד|S&P|דולר|אירו|שקל|ריבית|אינפלצ|"
+    r"אג\"?ח|נפט|זהב|ביטקוין|קריפטו|כלכל|דוחות|רווח|משקיע|תשואה|עסקה|הייטק|"
+    r"סטארט.?אפ|בנק|נדל\"?ן|משכנת"
+)
+
+
 def parse_feed(url, fixed_source, has_lede):
     root = ET.fromstring(http_get(url))
     items = []
@@ -213,12 +222,17 @@ def main():
     now = datetime.now(timezone.utc)
     ok, failed = [], []
     raw = {"us": [], "il": [], "geo": []}
-    for section, url, fixed_source, has_lede in FEEDS:
+    for feed in FEEDS:
+        section, url, fixed_source, has_lede = feed[:4]
+        kw = feed[4] if len(feed) > 4 else None
         try:
             items = parse_feed(url, fixed_source, has_lede)
             if fixed_source is None:
                 for it in items:
                     it["_gn"] = True
+            if kw == "he":
+                for it in items:
+                    it["_he_kw"] = True
             raw[section].extend(items)
             ok.append(fixed_source or "Google News")
             print(f"OK   [{section}] {fixed_source or 'GoogleNews'}: {len(items)} items")
@@ -234,7 +248,7 @@ def main():
     # newest, and keep the lede-bearing outlets (CNBC / MarketWatch / Globes)
     # present in every refresh.
     SRC_CAPS = {"us": {"Google News": 3, "CNBC": 3, "MarketWatch": 2, "Financial Times": 2,
-                       "BBC": 2, "The Guardian": 2, "Seeking Alpha": 1, "גלובס": 2},
+                       "BBC": 2, "The Guardian": 2, "Seeking Alpha": 1, "Investing.com": 1, "גלובס": 2},
                 "il": {"Google News": 3, "גלובס": 4, "וואלה": 2},
                 "geo": {"Google News": 2}}
     GN_SOURCES = set(SRC_CAPS["us"]) | {"Google News"}
@@ -262,6 +276,8 @@ def main():
                 if is_gn and it["source"].lower() not in BIG_SOURCES:
                     continue
                 if sec == "us" and it["source"] in KW_FILTERED and not MARKET_KW.search(t):
+                    continue
+                if it.pop("_he_kw", False) and not HE_MARKET_KW.search(t):
                     continue
                 if it["source"] == "Seeking Alpha" and SA_NOISE.search(t):
                     continue
