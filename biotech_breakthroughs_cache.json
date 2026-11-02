@@ -1,5 +1,5 @@
 {
- "fetched_at": "2.11.2026, 13:35",
+ "fetched_at": "2.11.2026, 14:03",
  "items": [
   {
    "title": "China's InventisBio delivers competitive TYK2 data in phase 3 psoriasis win - Fierce Biotech",
@@ -15,6 +15,35 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPV0k2Tk1rd1g4bU1OTXVST2gzYmROS2ZyQVFmR21kaDRBQlUxVXU3RlhqUlN2QW1mZVlBeWV0Zzgxb1dIbE9uWjZjbjNCekxQbHotMFJIQVp4V1BqOVFuLU5CMTI5VDhGcjVwWDNjZGIweU1vN3BYR0dSOHJwNDQ3LUdJZ3ZMbll3Nl9taWIwazBuSnJMRGVTVTVGdXFmWHdYTHkydg?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "Inovio rockets as it wins FDA approval of Voceryq - The Pharma Letter",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPaTJLWktndHZhM1N5WEFkWmpFYU13OF9qekx3ZWNKMGhVaU1CMU9nUUIzS2xSbFdjc2pRcG1TcHBRMEVwamREdnZKME9HaU52bmJCMHMtZi1vWmpYNkVJYlZMeWlKNHFfbG9tQ0pIX1hTSGdCUXVhaWwwbzAzbW5Td1hoUDcxb3FYUS1kRFp3ZG5qQkxmNm5fOW1naw?oc=5",
+   "pub_ts": 1793615687.0,
+   "date": "2.11.2026, 12:34",
+   "cat": "fda",
+   "sev": 4,
+   "dir": 1,
+   "tickers": [],
+   "companies": [
+    "INO",
+    "PGEN"
+   ],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPaTJLWktndHZhM1N5WEFkWmpFYU13OF9qekx3ZWNKMGhVaU1CMU9nUUIzS2xSbFdjc2pRcG1TcHBRMEVwamREdnZKME9HaU52bmJCMHMtZi1vWmpYNkVJYlZMeWlKNHFfbG9tQ0pIX1hTSGdCUXVhaWwwbzAzbW5Td1hoUDcxb3FYUS1kRFp3ZG5qQkxmNm5fOW1naw?oc=5"
+    },
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAzcDFndUtOMURWUXh0M3FGWDdreXdlQVRBX3dXNnUxNnhmSno4S0dMbzNkZ01zRW5LMDB3M1MzR3FTSlVHbVNXX1dmWEJMQWYwa21FWXg5SGFJX2JMclBHWnhDTkZDTmcybmhtV0dOY1pXUlJEalE?oc=5"
+    },
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQSGZpSWw0bGlyb2t6blNfYUFaWGhjZEx1d3dlNXM0dUdUaGxmYi1XWF85c0F0cERzMmFtazJ0X3VUeV82LU5OU0ctWmRxSFJsbFB3X2pkWS01QnlNWUJFdDJwcG9XMGtYdVFxMnB6dzBXVjBUTkhFRXN4MEM2Ylg4aUF0dTdKY3M1UWcxbEU0d1RfSUptdEZ5bXh1MF9IX3BCUnZ2UzZkb0k1SGVWQzZvYlgyaUdZMDBFQXcwS042anNpb0xoZ2x5cGc2MHB5c2d3bWgwVnc2MTctcW54aE9wR0RIYTJmdklaNGgw0gHwAUFVX3lxTE5yc2RFQ1VnNUVvQXE2RUU3NVpqOVJCTjlkYlMya1hKZEdKdjZmLVlKQzRZRy1fSUJ0enF3eWtPSzNKY1dLT29oR05CUXNOMW9DWUxsTWppY1ZuVUJYYkxNMjJkd3FsazJGTEFXMFVvZ1JYQTBHZnFJa1MtcnBaRHpRNVp1RDV2QUJyY2t4aDkzT2lveXBWNkpaekVsdC1zdVQ1dVB2Z3Q4d3daX2hCaVpxb2c2NTVEWkhoOUJyQmNVblhFeFhPRkh1Y2RwbjhXTGNaWXpoeUlWc1FEa3JncTRTRkxlUUpET0hGd1Bha3NPQQ?oc=5"
     }
    ],
    "ncts": []
@@ -109,35 +138,6 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQYWZYdjRpWkNvTktwSWdvS0dWZlpGM2hUZDJ5WDJGWXg5TjNDZ2dqSThUOWJOc3ZOckZ1eVRDOXAwdnNvVmZzMjFHSklheDhtVVZqRmVfdzN2ZWpNSF9FdDJlcTYyU2p6YkhxWTNwVWFJb3F0R3BDeGF6djhUc3JnMmJJWi1oUFIwckhIUUJEMXZ0VFNZXzlBMTg4Q1hsV3p2RW5XWW5abC1mUWlWWTVIQjlzRHBLdkhWVUpyMTVwZ2lWNmxyc2w3VHdEQlFoRFdCUmRqellxT2xTZkY0SkJDWUJFWS0?oc=5"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "FDA Grants Accelerated Approval to Inovio's DNA Immunotherapy Voceryq; Precigen Shares Plunge 27% After Hours - BigGo Finance",
-   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAzcDFndUtOMURWUXh0M3FGWDdreXdlQVRBX3dXNnUxNnhmSno4S0dMbzNkZ01zRW5LMDB3M1MzR3FTSlVHbVNXX1dmWEJMQWYwa21FWXg5SGFJX2JMclBHWnhDTkZDTmcybmhtV0dOY1pXUlJEalE?oc=5",
-   "pub_ts": 1793402700.0,
-   "date": "31.10.2026, 1:25",
-   "cat": "fda",
-   "sev": 4,
-   "dir": 1,
-   "tickers": [],
-   "companies": [
-    "PGEN",
-    "INO"
-   ],
-   "sources": [
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAzcDFndUtOMURWUXh0M3FGWDdreXdlQVRBX3dXNnUxNnhmSno4S0dMbzNkZ01zRW5LMDB3M1MzR3FTSlVHbVNXX1dmWEJMQWYwa21FWXg5SGFJX2JMclBHWnhDTkZDTmcybmhtV0dOY1pXUlJEalE?oc=5"
-    },
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQSGZpSWw0bGlyb2t6blNfYUFaWGhjZEx1d3dlNXM0dUdUaGxmYi1XWF85c0F0cERzMmFtazJ0X3VUeV82LU5OU0ctWmRxSFJsbFB3X2pkWS01QnlNWUJFdDJwcG9XMGtYdVFxMnB6dzBXVjBUTkhFRXN4MEM2Ylg4aUF0dTdKY3M1UWcxbEU0d1RfSUptdEZ5bXh1MF9IX3BCUnZ2UzZkb0k1SGVWQzZvYlgyaUdZMDBFQXcwS042anNpb0xoZ2x5cGc2MHB5c2d3bWgwVnc2MTctcW54aE9wR0RIYTJmdklaNGgw0gHwAUFVX3lxTE5yc2RFQ1VnNUVvQXE2RUU3NVpqOVJCTjlkYlMya1hKZEdKdjZmLVlKQzRZRy1fSUJ0enF3eWtPSzNKY1dLT29oR05CUXNOMW9DWUxsTWppY1ZuVUJYYkxNMjJkd3FsazJGTEFXMFVvZ1JYQTBHZnFJa1MtcnBaRHpRNVp1RDV2QUJyY2t4aDkzT2lveXBWNkpaekVsdC1zdVQ1dVB2Z3Q4d3daX2hCaVpxb2c2NTVEWkhoOUJyQmNVblhFeFhPRkh1Y2RwbjhXTGNaWXpoeUlWc1FEa3JncTRTRkxlUUpET0hGd1Bha3NPQQ?oc=5"
-    },
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPUGMtSWpudWo0VW5sNml3Uy0xaFVfSUpabW0zREFHcENpbVk2SHEwMm5JS1QtS09DelVYazdveEtlbEJSdnE0RjFKR3FyMDJpTGtnaWtYQUhkNmJPdnR3U18weWtWaF9Md0Zzd0UwXzFTdG9yU1Voc1lTN1o0RzZ6ZnFpMFVPT01LWjdBdUV6ZF9TSHR3VVBSTHpGaWRDLTJKUHhYYWRyTEtnU0dHVE1oMjJCNWtTekx5WlR6djVkUHpJRGk2SVNBSWpKVnpXdWNoYS1YZ3lnaUxCd2NjUlVjb1p2aHNQeFdMTHQ4RXhJbw?oc=5"
     }
    ],
    "ncts": []
@@ -383,23 +383,26 @@
    "cat": "phase3",
    "sev": 4,
    "dir": 1,
-   "tickers": [],
+   "tickers": [
+    "ATYR"
+   ],
    "companies": [
-    "GMAB",
-    "NDAQ"
+    "ATYR",
+    "NDAQ",
+    "GMAB"
    ],
    "sources": [
     {
      "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQMThiQ01VU2F5OFNFUUhOY2JqS21hVFJmSlJGbktWYjNNVEJKcDRGNGRZaVZsUF9nYkZndW1nSmdfeVlNZ0NwZUdxVzJmQk9JUTQ3cW9vY0hWYlp3MGkxSjdfaWZuMllYWV9lUUtWbDhWN3o2TGVwejd3VElWMmVqTndMWmJ0aGFiY0dWYnV0LVYtR0hCQVpGTlRMR3ZTa2VUOGx0bE5pU0Ezc2Fsc3RFTjZ2Z3hwU3JxMlc3bmRTNlVLSHR1d3hHNDE4SjIyNENM?oc=5"
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWDJmaFprTUxNWEhuTjVMTmdrNmJ6VTljZWJHSzk5cWEtbDZvYllVZmRSQVExUW12ZE5KRlU2Ml9NcGtsVlVNZzlPNDBFU0dwUGhRNDJBVW14ZnhPcXJGUlkzZUFRdFp2UTN5SE01dkc4ZFNCNHc2Z25wUGx5YXRjZFVRZmpWLXA5ZVVpZlM5NDVkRUF1anhSN3lOeWh3REE4WVAtOUVmYXpwX05NOTRJb3MxODZZLV9scDhTb1NzbWU?oc=5"
     },
     {
      "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOczM3N21xNHFfaGpINV9FQkxtMGNLLTBtYkgyQmNRRDdUaDRDbXBObXRnV2dlTlB0TVFPbk05aGctN0tOWWRsSEZlNUJsSGRNY3djYjAwN2VlMUVCWE5jSnhjeTZkZGcybENZZkU1bjVGQ29OSFFPeS1mWndhLUFYTXNUSlBVdWRmWnU3b1BGODVqcDYtaEJneGtZaXNYRGdxTE54bl9sNERtWmx2WVJIVzRqRXd2UUF3TzcyNkFyNngwQ2JRRXlZNA?oc=5"
+     "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPNmh3czVDZGJnS2ZiM0tYMkR2VnpRXzBhU1dLZERaUmxVWkdUWS12QmtyLTJiUGpxQmU1X1VjVmdpUGNsZzQ3R3Jtc1JtRG16aVFvamkzTUtiTFNEejhhY3U4dEVnM3pFNlBLamRscE5XUDB6aFBVczVZVllOVzF2QzhpbEpXQXpfUGUzMk9hNWFjY0VidS1qb2lwdzctVU1CUEJVQXdCQXhKX0N6X1NobkFyZFJabkFLN2VMV1hCanNxaHBmZWMwYkxCVGdVek4xNXpSQlVXT3hIUk9vdE1Ydy1tSjRkMlBiZXBOQnVVMzhUOE9qWW1aZGtjaw?oc=5"
     },
     {
      "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBnM0dHaE50dDJreDRNVzRObWpNRkgtTDZTN3NuUkE1azFzN1l5TVBmbTZQbVhpN2NoUWY4UzdhWFE2cE45ZXRrTERKZ0hRUmx3cWs4bEhQUFhPV1VIaHNYNl9PZUlEeGN6dk1zTmNKeWF6a3V2RE81OEVn?oc=5"
+     "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQM0NtNTNRUG1wRzdOQlhSdTVNZ1JJekl5S2RhMUxxMTNEZGJMMGZCZnJCX0k4MlpTbmU0YkwwMFE2U1NVb1ZmUmZ3NHBYMm10S2R6eFExMFduMFk2V2RCb2FDbjh0RElZYkVKMWkwVFFZWHFxSzlpazhYSTBPSmpNVzEtOEkwYTZEYldxZ2xOXzZPLXpERnRkdnBWZXFNQk5MN3R1elV6Yk9yRkVRc3c4X1FEZThRYU5lM1NHbU5CUzFzVlFkQTJVRF9ENkhRNmRwRmJkS3VvOFR0ZnMyQllzdkRTRzQzUUZRR1Q4Tndn?oc=5"
     }
    ],
    "ncts": []
@@ -1480,24 +1483,6 @@
    "ncts": []
   },
   {
-   "title": "Disc spins past FDA rejection with ‘overwhelmingly positive’ phase 3 data for rare disease drug - Fierce Biotech",
-   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZ1pCZk91RjBOSmtLdEtHQVFMX0hfRFpiWUNiMlYyelpOQk13UUZrbVd2UWN3LVRKdkVHYjZjMFNGYjQwdG9WTDJtSkVVMlYzbnVFR0E5ODNfMUNmVjI2MlcyRWF3NkI3eEdSNkRFeTA0WFFYdXZuLWl2ODljNmF5cGdpbk1PY3dETHVKdGJwUTNtTEJDckxPamhxOEpZamVrOGw4Uzk5RQ?oc=5",
-   "pub_ts": 1792411233.0,
-   "date": "19.10.2026, 15:00",
-   "cat": "phase3",
-   "sev": 4,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZ1pCZk91RjBOSmtLdEtHQVFMX0hfRFpiWUNiMlYyelpOQk13UUZrbVd2UWN3LVRKdkVHYjZjMFNGYjQwdG9WTDJtSkVVMlYzbnVFR0E5ODNfMUNmVjI2MlcyRWF3NkI3eEdSNkRFeTA0WFFYdXZuLWl2ODljNmF5cGdpbk1PY3dETHVKdGJwUTNtTEJDckxPamhxOEpZamVrOGw4Uzk5RQ?oc=5"
-    }
-   ],
-   "ncts": []
-  },
-  {
    "title": "Amgen (AMGN) Could Be 29% Overvalued Following Encouraging Phase 3 Trial Data - Simply Wall St",
    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOZlZxY1lDd3VCbG1wV010SWduWlZnZXZwZmhJdTBPSlhPRV9Bc2hldUUyQklmYUlMYUpQUUpYRExtYkduN3ZCRGpsWG5kZW14LWdxUFNKYVlGRWxNRTVfNGRORWp1bXFybWh1amowX1B2VnFicUY4UFNIQmxRNnQ3RFpYT3Q1YXZIMHVXM2w3RmdsTkJSUzdlUmc1WVY3dVp5Rkg0OGVJYzRWdDN6Ti1ISUZLcGNXVXA3UFo4N0J0MTBJMHN1SHZuUFNNR2pyaU9rc3E3N0Vn0gHbAUFVX3lxTE1ZandGVWRFSVBIQ2RwSE9OOTFaZC1vYUw0WnFFdi1HY3lVV3hCZ2VZT2JQS3RIUFludXhWcUVYSTVrMndrVjloNks2V3JvZFF0aUl3M3Rua0F4YUVRTnBpZllGQ1hsU1BxZm9RUWJiOVZsNk5UN1ktb09WWUp3aXBhU1Axa2JSbTNEamxYQ1pRUUpEY2MwcTVRMkFDWEN6Nm5lLUdlMW9ZbjJYbkhSUnNaYUF2S3V2SlB3V3lzMEQtRTR2a2k3TnlRM2poUl9iNUYwVWlJUFVvOWNhSQ?oc=5",
    "pub_ts": 1793608145.0,
@@ -1616,37 +1601,6 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPMnRLQy1pc011aHpzX1JEdEhhRVZSc1JwTnJDNndyaWdSVmtYRlZWMmpxZy01eHFRT3YwMUg3YmwyVy0tUGVnWTJpSVFlVF9TUERCWlNUVHFMUTlhTUhZUXMzQW1BNDVOM0xNWWpSWE5QMGZVd2dGNHV3cmpvZmF3U2JDbEpwV0lFb2tMODRHVHhEVjcwMGJFQ3Q0RHN4OFZZM1hTNXpnZXlqalpycjRBeFFuOXJBeEdpZFJDcjYyWEQ5dS01WDJqRzNoOEE2M2V3XzJmNDg3Q1FyQ2tCeEdPOVctSG1fT1E?oc=5"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "aTyr Pharma (NASDAQ:ATYR): Efzofitimod Phase 3 Data Published in The Lancet, Supports Continued Development in Lung Disease - Kalkine",
-   "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPNmh3czVDZGJnS2ZiM0tYMkR2VnpRXzBhU1dLZERaUmxVWkdUWS12QmtyLTJiUGpxQmU1X1VjVmdpUGNsZzQ3R3Jtc1JtRG16aVFvamkzTUtiTFNEejhhY3U4dEVnM3pFNlBLamRscE5XUDB6aFBVczVZVllOVzF2QzhpbEpXQXpfUGUzMk9hNWFjY0VidS1qb2lwdzctVU1CUEJVQXdCQXhKX0N6X1NobkFyZFJabkFLN2VMV1hCanNxaHBmZWMwYkxCVGdVek4xNXpSQlVXT3hIUk9vdE1Ydy1tSjRkMlBiZXBOQnVVMzhUOE9qWW1aZGtjaw?oc=5",
-   "pub_ts": 1793355360.0,
-   "date": "30.10.2026, 12:16",
-   "cat": "phase3",
-   "sev": 3,
-   "dir": 0,
-   "tickers": [
-    "ATYR"
-   ],
-   "companies": [
-    "ATYR",
-    "NDAQ"
-   ],
-   "sources": [
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPNmh3czVDZGJnS2ZiM0tYMkR2VnpRXzBhU1dLZERaUmxVWkdUWS12QmtyLTJiUGpxQmU1X1VjVmdpUGNsZzQ3R3Jtc1JtRG16aVFvamkzTUtiTFNEejhhY3U4dEVnM3pFNlBLamRscE5XUDB6aFBVczVZVllOVzF2QzhpbEpXQXpfUGUzMk9hNWFjY0VidS1qb2lwdzctVU1CUEJVQXdCQXhKX0N6X1NobkFyZFJabkFLN2VMV1hCanNxaHBmZWMwYkxCVGdVek4xNXpSQlVXT3hIUk9vdE1Ydy1tSjRkMlBiZXBOQnVVMzhUOE9qWW1aZGtjaw?oc=5"
-    },
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQM0NtNTNRUG1wRzdOQlhSdTVNZ1JJekl5S2RhMUxxMTNEZGJMMGZCZnJCX0k4MlpTbmU0YkwwMFE2U1NVb1ZmUmZ3NHBYMm10S2R6eFExMFduMFk2V2RCb2FDbjh0RElZYkVKMWkwVFFZWHFxSzlpazhYSTBPSmpNVzEtOEkwYTZEYldxZ2xOXzZPLXpERnRkdnBWZXFNQk5MN3R1elV6Yk9yRkVRc3c4X1FEZThRYU5lM1NHbU5CUzFzVlFkQTJVRF9ENkhRNmRwRmJkS3VvOFR0ZnMyQllzdkRTRzQzUUZRR1Q4Tndn?oc=5"
-    },
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNS0o5T2Vzb2UwZ3B6YkxTVURuSXdFUm9KZ05KWlFVdFNxdTk5OTVvRXlIQnNYWHhqVHVZRHdGWlI3UF9QZmVQeUVHSU1NcHNTLTFmbmpVYjRTZTBpbTcyUWRFbGdCQ0hZb2hqdldyelJSVFRwS0N0U2Jjbmg4YnU2RE9SQ29BNGdkeEVLa0h4UXJHVjZuY0NwaHNHZHZmZGNmUF9Kaw?oc=5"
     }
    ],
    "ncts": []
@@ -3928,26 +3882,6 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQk1pcThrdzdkZXd3d1RCOFZ1czZRdmc3TFU0STJ1bHNkUmZWZFZDcVJoTEdPRjRFVEhoVW43a3duNkxOMDdtMkUwbjhBSTQ1anZtR012TDRuTWJxNThQRi1WQ0xvTTJaeGV6Vzh3SzhCbFI0c3V6VnR0QklBNmx4b0RwWGI4SWtlVWlqQ1BMQkxBbXcza2Mtd0hzQ1AxMEpSVjNfa2s2WjlKcHpKUUE?oc=5"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "CorMedix Therapeutics Announces FDA Acceptance and Priority Review of REZZAYO sNDA for Prophylaxis of Invasive Fungal Disease - Quiver Quantitative",
-   "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPWUdFcmJSZV9xNVZOcnNKbHVMNFBQWnVLYjNKbXhHNWQ2VVdMR2N4T3N4X0lMbzhrRWF4cWNlY0NxanVxQlRtLUxNb2phRy1zU1ZfbHliNEx2bHNZd1JySExySTJpOHgxT1doRU9ZbkhuemVjT0YtTlpuRGE2VzYtSk9MWjlWLUdPbWtJbFpuQXNCSHFvZVUxMzc1YmhyS3ZjZ0tyR180c3RGX0VNdlRJM21xbldTM3hRVWlnVHVFTF9UdHBYTFNPcXhPMGNkUWRpTUdqWnZxSE43cURaeTZzV3Z6Um0xaWNkRnhDNFBtTQ?oc=5",
-   "pub_ts": 1792410060.0,
-   "date": "19.10.2026, 14:41",
-   "cat": "btd",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [
-    "CRMD"
-   ],
-   "sources": [
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPWUdFcmJSZV9xNVZOcnNKbHVMNFBQWnVLYjNKbXhHNWQ2VVdMR2N4T3N4X0lMbzhrRWF4cWNlY0NxanVxQlRtLUxNb2phRy1zU1ZfbHliNEx2bHNZd1JySExySTJpOHgxT1doRU9ZbkhuemVjT0YtTlpuRGE2VzYtSk9MWjlWLUdPbWtJbFpuQXNCSHFvZVUxMzc1YmhyS3ZjZ0tyR180c3RGX0VNdlRJM21xbldTM3hRVWlnVHVFTF9UdHBYTFNPcXhPMGNkUWRpTUdqWnZxSE43cURaeTZzV3Z6Um0xaWNkRnhDNFBtTQ?oc=5"
     }
    ],
    "ncts": []
