@@ -1,5 +1,5 @@
 {
- "fetched_at": "2.11.2026, 3:05",
+ "fetched_at": "2.11.2026, 3:35",
  "items": [
   {
    "title": "Ilumya Wins FDA Approval for Psoriatic Arthritis—but Full Trial Results Are Still Unpublished - Medical Daily",
@@ -132,9 +132,12 @@
    "cat": "fda",
    "sev": 4,
    "dir": 1,
-   "tickers": [],
-   "companies": [
+   "tickers": [
     "NRXP"
+   ],
+   "companies": [
+    "NRXP",
+    "NDAQ"
    ],
    "sources": [
     {
