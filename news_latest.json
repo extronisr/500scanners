@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-02T07:30:21.972587+02:00",
+ "generated_at": "2026-11-02T07:45:47.899159+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -8,6 +8,22 @@
  },
  "sections": {
   "us": [
+   {
+    "title": "Asian shares mostly advance but tech stocks remain volatile, while oil sinks 3.3%",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVXVMLWRkNnZleHF4cElVTlowMC13Uzh2clhDaXRpNmZ1YnhPLW9ydjBPekpnZUlKME9ON2llbHR3ZlBsQUV5NjNFUlJYVXItb2p2ZFdKZlA3dzVJOF81YkJsNlNHblFxbUhXcGxrR0tFNUpGeHpIbmJCbU9QeWFNYmJManRiRmVEb2FSZl9lMGFERGFEUGNmY09XWURxMmlrdVBiV2dOWQ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-02T05:29:00+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "I Survived the Dot-Com Bubble. The Lessons I Learned From That Time Are Keeping Me Out of These 2 Tech Giants, and Here's Why",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNeGJMdmx6Z3FDdFhLbHJBeXBOd2tRMUlOa1pXeExDejdHVVFSb2luTUUxaU1lRlBRb0I3c2pCcDZ4M29CbWVmX2hvM0ozVUljSmVyRTRzTy1ReXBvU0dDMXlGSXJndEtCcngyMjUzZzhrNE5VeDQ2eURldEFDaUNoalJUaWUtV01NRlRQY1l1N0FZR0hiYUJWYmo5N2U?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-02T05:20:00+00:00",
+    "lede": null,
+    "lang": "en"
+   },
    {
     "title": "Leidos (LDOS) Q3 earnings: what to expect",
     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZFd0dXlCZEtKNGlKLU1MNnJXWVRuVGVSUi14Vk56M190Uk1fVVROblJuek91U0xYOUdCRlRjWndMMWxqd2dzd19aN0dDZ0plYWdsaEhBZDRsUDFPTXRpNS1ScUJJc3NfUy1zWEE4bHhyckRvNEdYcW1VaUFZdldNRHNac19sRXE2YnBXbWR0Y2Qwc0NRSFR2SV9hMA?oc=5",
@@ -17,19 +33,11 @@
     "lang": "en"
    },
    {
-    "title": "ASTS Stock Jumps Overnight: Vanguard, Rakuten Unit Boost Holdings — Why Are Retail Traders Still Bearish?",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMV85MzNZX3BVOXg3cVg5alAxYkw4MU1XSk03eTJWMUhaN2sybE81aF91cGlyN1NacWZKNHZnWUN6VEs2RDZsbGJ3R05DNk9kRTlBeGhvX1dvQjAxczhZd0Q3T3RrS0JKVnVaQ0plcWNWUmhxZ1A0aENFOHY3VXoyaVBQeFNtUC13ZHBfV0lpRXZ0eXJfZEV5ekRfYW1mRV9ja2c?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-02T05:05:28+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Fiserv (FISV) Q3 earnings: what to expect",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQQV9lQlBjMjNmZDNlaDRzT2wydHBEMURwRzQ0eTI1bHB5aE4wSnNkMmxMZUNfajVoLWVvYzg5aklqLTJFT0lQWDM0bG1LVHhOaUdlMGZMcU5YTnJBTjZpTnB1QkpNWjZxdFRtSFljaktCckFMYzZZZGp5RE9QdldGVUVPRldnS1Zrc2VzOHhOMlJEeUVIQjV6VE12NA?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-02T05:01:00+00:00",
-    "lede": null,
+    "title": "Global AI sell-off eases after Nasdaq’s worst month in over a year",
+    "url": "https://www.ft.com/content/d7fe99f8-d292-4cb5-a8fd-45be0f8cc2b3?syn-25a6b1a6=1",
+    "source": "Financial Times",
+    "published": "2026-11-02T05:18:53+00:00",
+    "lede": "US tech stocks set to start week higher following bruising rout",
     "lang": "en"
    },
    {
@@ -55,14 +63,6 @@
     "published": "2026-11-02T04:56:00+00:00",
     "lede": "המשקיעים דרוכים אחרי הטלטלה במניות הטכנולוגיה ולקראת בחירות האמצע בארה”ב, ומחירי הביטוח מפני ירידות בשווקים קופצים",
     "lang": "he"
-   },
-   {
-    "title": "Global AI sell-off eases after Nasdaq’s worst month in over a year",
-    "url": "https://www.ft.com/content/d7fe99f8-d292-4cb5-a8fd-45be0f8cc2b3?syn-25a6b1a6=1",
-    "source": "Financial Times",
-    "published": "2026-11-02T04:55:03+00:00",
-    "lede": "US tech stocks set to start week higher following bruising rout",
-    "lang": "en"
    },
    {
     "title": "Binance users withdraw $3.6bn after record crypto hack",
@@ -149,10 +149,10 @@
     "lang": "en"
    },
    {
-    "title": "Ukraine war briefing: Kyiv says air raid warning app likely hacked after users receive false alerts",
-    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQcFY4bG1oZTVCclJhUDVCMVFyVkdBcHN6YVB3dk9QT1JKM1N0VlI1V2pXU1J2WFRSQU1pTTNjNi0xUWpyZThRbnFSQVBFd1VtekY3bjQ3TWpvSV9kdEUxbUY5ZUo1LXhKWUNlT1k4MElLd2pMak9FTGR3N3JnbDhyNGpBQWQ3QXZPaGZmUlRudkxfRWh3T1llQjNxU1VqRmdLdmd0RFV6T2dmSk1mMkxfQUYyc2o4eVYwUUNTTjNkYzQ4MjQwOFNKeDhBdXd2MFNacXNBSnNfdThFMWsy?oc=5",
-    "source": "The Guardian",
-    "published": "2026-11-02T04:19:00+00:00",
+    "title": "COMMENTARY: Asia's crude oil imports back to pre-war levels but refined fuels lag",
+    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNUjRWdTdnRzAwR2xkSU04ZHlmbHh0eXg5Wm8xS1k5Q2hLYWRWbWdOVzd4ckZHcjZkYktZVHEyV29yQ25XNE9Ga0Y3TG5Dc3Awd054Y2o3MU5rLTNZNmRRTkZXVjdyZWJNYnM4bVczRU1RRmlqOW5JOVZCVWpJSXFDazBHWm5hUXhGb2FGS2xUN3Q5cFFQelVqazAxYXNDamdDZ0pINE5mQUE3VGhFdDcxZkZ4cUdSOFVQTWRsdXl6LXdMTUpIWnFLQ0VB?oc=5",
+    "source": "Reuters",
+    "published": "2026-11-02T03:18:06+00:00",
     "lede": null,
     "lang": "en"
    }
