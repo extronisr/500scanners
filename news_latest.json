@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-03T00:01:09.756174+02:00",
+ "generated_at": "2026-11-03T01:01:03.618547+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -9,11 +9,43 @@
  "sections": {
   "us": [
    {
-    "title": "Dow Jones Futures: AI Trade Dives As Apple Slides On Earnings; Midterm Elections Next",
-    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNUFhSS0pDcDhxY3pENzBPOFQxQ3p4VkctbjFUT1Jfb1o0OUVoRVpLYUtFS0VqcnVkZGJGbnZwN1pSUGhaZ010dU9sSGw3SUJ0TUl4czk4a3VRc2pMbk10UGozZ1FWZ19pX3VScTZfVlBocmQ1ZDMwVWZHTjkxSHNBbHJiWHRwcHVXTTRqTHJwNjZpVWM2c1ZCNnNlVnFMUjdPa0dBSFFlM2xpS0w2bGE5OFQ1NWNudkw3ZWI2b1YwQ2l5SmJSS0J2Skl0VGJoaEUycFRIanYybTZ6MkFzU0pvSA?oc=5",
-    "source": "Investor's Business Daily",
-    "published": "2026-11-02T21:53:00+00:00",
+    "title": "Stock Market Today, Nov. 2: Apple Stock Slides Ahead of Earnings, but Its Latest Results Tell a Different Story",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPMmVyaDFCbFUzN2owbVpab2hVYmNHTU5MMWVSQkhqV3l2TDFIaE5KaEdYSGJ5N2dTLXphVFBhN1dCQVI5NzRfcFdNZlB3dzJBZ2VmTFVwRGNnUlVHYnM5WEJfT3Juc0pab21qcGpSWXpjSkNGYWM2eGd5U25tTHAybXo4MGdrRFJyWGRIdV9jbE5ZUkE?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-02T22:45:02+00:00",
     "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "AMD Reports Tuesday. Here's the Number That Will Show Whether It's Gaining on Nvidia",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNaFdXSXUySHJYTlRzM1UwQ0t5WTJpNl9jMUlGOFJxT1RWbGJqcnBEQmYxQTcxc3Q4dDU5My1PcFVZWk5KNE1tMjU4LVV2WjZ0VzM1a1NoaHNuTWNpa0Vrc1Q5V0xNZGVCVTFFdnQ0YUJPanNmNHplUDdhNjFXd2tVa3FmMlUtQ3lORWd3UHFfanNQWklSMGdOb3ZqaUxGUQ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-02T22:42:02+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Update: US Equity Indexes Mixed as Sell-Off in Technology Continues, Crude Oil Sinks Ahead of Midterm Elections",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQQThHUzFQaGdlR1FyeTZhcHVIN2lwRmpVV010X0RzeWk3R1VmRVpmcnctS19UUW4tLTBWWXV3QzJxMmx2ZDdsbkxyaGhpLWU2ejJvc2xldnRPM3hzcVVsbWZzcHd5WktwNkhEN2w1VVZtZ0pYUlQ3eXZRTlh6UjJhNzJ0clhaVVUzZExXaDFJVjZhV3pkZUdJZQ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-02T22:35:41+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Feeling isolated? Half of in-office workers describe their desk jobs as 'remote,' NY Fed survey finds",
+    "url": "https://www.cnbc.com/2026/11/02/remote-work-in-office-mandate-new-york-fed.html",
+    "source": "CNBC",
+    "published": "2026-11-02T22:34:07+00:00",
+    "lede": "Employees describing jobs as 'remote' are now often in-office, as companies fail to create the collaboration they claim is critical, NY Fed research shows.",
+    "lang": "en"
+   },
+   {
+    "title": "Traders rushing into a leveraged ETF to make a bullish bet on the Nasdaq-100 just got burned",
+    "url": "https://www.marketwatch.com/story/traders-rushing-into-a-leveraged-etf-to-make-a-bullish-bet-on-the-nasdaq-100-just-got-burned-d6775191?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-02T22:03:00+00:00",
+    "lede": "Some investors appeared a little too eager to buy the dip in technology stocks last month.",
     "lang": "en"
    },
    {
@@ -31,30 +63,6 @@
     "published": "2026-11-02T21:42:00+00:00",
     "lede": "אפל עקפה את תחזיות האנליסטים בשורה העליונה והתחתונה, עם הכנסות בגובה של 114.48 מיליארד דולר שמשקפות צמיחה של 12%",
     "lang": "he"
-   },
-   {
-    "title": "Stifel Declares Quarterly Common Stock Cash Dividend and Declares Preferred Stock Cash Dividend",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOWjg5amV6TXFGUTJRb3U1RHRvTEozMWxtQ05nbkNENVRxaWxOcGhhZ1RVOUFzeVE4UlkxM0hwV1N1d2x0MlkwazFmSzZjb3ozV0JmRUwwVF9sWTVCSVlkQk80WGZaVkdiSjBYTFVGRGdmVkZlVUxITkNwZWd4LWpqeWJYcDFDdzZJMmlCcjBURlR2bjd6dUFJUkZvZ0RDZnhEdGN6Szl3?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-02T21:30:00+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Dell Technologies Inc. Cl C stock falls Monday, underperforms market",
-    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQWFJXcUozRE5EM2I3YkFKYzBkTm5BeV9JdFJ6bmV1MlFmdnJrVzB4c1VydTJHSUNtb2lVTGZwZ3puWElKRGthUXZUVFludDEtbVVIVHlOVzJaVjZiWmNBYzlGWlpQRUxzSy1GelZnQk1lU0xVcnBEQmJ3VWRoSlp2dDZRQjEtYzVwSkhYSTN4QmVFeDR6U2Y3SkNGSjlxVWhfZnhXSWlmU19qMVFId3RzaU4yT05YdFVvSHFPRG9NdXYtc1FK?oc=5",
-    "source": "MarketWatch",
-    "published": "2026-11-02T21:30:00+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "The stock market has gone nowhere for the past 5 months. It’s now looking like a bargain.",
-    "url": "https://www.marketwatch.com/story/the-stock-market-has-gone-nowhere-for-the-past-5-months-its-now-looking-like-a-bargain-150914c2?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-02T21:29:00+00:00",
-    "lede": "The S&P 500’s forward price-to-earnings ratio is below its five-year and 10-year averages.",
-    "lang": "en"
    },
    {
     "title": "בזכות ה-AI: ההכנסות של פלנטיר זינקו בכמעט 100% ליותר מ-2 מיליארד דולר ברבעון",
@@ -78,14 +86,6 @@
     "source": "CNBC",
     "published": "2026-11-02T21:10:34+00:00",
     "lede": "Oracle filed plans on Monday to issue new shares and more debt to finance its artificial intelligence buildout.",
-    "lang": "en"
-   },
-   {
-    "title": "I bonds now pay 5.51% — but there are trade-offs. What to know before buying",
-    "url": "https://www.cnbc.com/2026/11/02/i-bonds-rate.html",
-    "source": "CNBC",
-    "published": "2026-11-02T20:57:50+00:00",
-    "lede": "I bonds are now paying 5.51%. Here are some key things to know before investing, according to financial experts.",
     "lang": "en"
    }
   ],
@@ -123,14 +123,6 @@
     "lang": "he"
    },
    {
-    "title": "עליות בוול סטריט לפני דוחות אפל - מחירי הנפט צונחים ב-7.5%",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9hU1IxbE44QWxOaUhHR0t5eDJlUXJySXNmTXRNUFUwSVF5VUM1WTd6ak5YQTZQYjFIVFppVFFWZXNOWHdNbDFlakxWWlg2NHdPSHpOOTBDYy1PdmVzN1JDRkl3?oc=5",
-    "source": "Calcalist",
-    "published": "2026-11-02T15:38:21+00:00",
-    "lede": null,
-    "lang": "he"
-   },
-   {
     "title": "המניות הביטחוניות הכבידו על הבורסה, גם טאואר ופאלו אלטו",
     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0tc2x6S0h3NGl5ejFSdERHOEtCaTRaaF9TRFI1WVRWc2ZabklxTnJ0TEJOU296NjloaWZrT0o0Tll3anBsTTV4SkZsVExIU2JzSklZUEtYdTI5aXZiZ3lnS25n?oc=5",
     "source": "Calcalist",
@@ -149,18 +141,18 @@
   ],
   "geo": [
    {
-    "title": "Gulf Arab states struggle under the cloud of war",
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQQ3EtaE9MSjJ4Vld0djhZcjcwQzh2REVoV1Znel9kVTk3dkdDNWZmX2lMUVRPUmpWVVlvVmxFSTFsbXhVNjBzcUc4bFlLSWhyRXRqcTZDTkU1cUkteWx4VmEzMUJQeER0aTVBRHNZLTgydVlpRVp6QzhGMHVHUjNrNUVqLWQwVWpMNDVBeEFicXlBcVFvLWlYaw?oc=5",
-    "source": "NPR",
-    "published": "2026-11-02T21:50:34+00:00",
+    "title": "Do the Shetland Isles need Cold War-style military protection?",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9HbThTMGlvSi1OMXhod3FDTlppd2QyaGdfbTNhZlJnVkEzd2pNMjJad0lmSDhYWkk2Z1YwRkVTOFRseG5OcDBVYkxBSVBHNUwyMG9MbXF0aU94Z0k?oc=5",
+    "source": "BBC",
+    "published": "2026-11-02T22:45:57+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Iran says contacts over ending war continue after talks finish with no breakthrough",
-    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOLXhRTFk2aHFYY3VOMWFGdmFySFR5MTNxeWRRU1ZQM3RaWjg4ZFZlOTJHNDZjYmdCVjBOX0RweVAyWEI4T2dZMVFSbUt4bTc4NGlibnlTaDh2TUNydEdOQjZJSmt3RnRIbk1LNVJ4SlNkR0M3QWs3NnZwQ0JlMW5Ud0FaN29PaGcwdk1CbTZ1UUhjYkg5XzZwVmdwWGNnRnladzZVUEhBeTZScEZIMl9YZ0hUT01GcDdkMXFwcXF0Q3hkTEluSnpnb3F5RFA?oc=5",
-    "source": "Reuters",
-    "published": "2026-11-02T21:17:57+00:00",
+    "title": "Gulf Arab states struggle under the cloud of war",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQQ3EtaE9MSjJ4Vld0djhZcjcwQzh2REVoV1Znel9kVTk3dkdDNWZmX2lMUVRPUmpWVVlvVmxFSTFsbXhVNjBzcUc4bFlLSWhyRXRqcTZDTkU1cUkteWx4VmEzMUJQeER0aTVBRHNZLTgydVlpRVp6QzhGMHVHUjNrNUVqLWQwVWpMNDVBeEFicXlBcVFvLWlYaw?oc=5",
+    "source": "NPR",
+    "published": "2026-11-02T21:50:34+00:00",
     "lede": null,
     "lang": "en"
    }
