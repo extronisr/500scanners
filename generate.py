@@ -1778,6 +1778,9 @@ padding:12px;margin:10px 0}
 .a-comp{color:#6b7280;font-size:.8rem}
 .a-bot{display:flex;align-items:center;justify-content:space-between;margin-top:8px}
 .src-link{color:#0e7c8c;font-weight:700;font-size:.85rem;text-decoration:none}
+.news-link{color:#111827;font-weight:700;font-size:1rem;text-decoration:none;line-height:1.5;display:inline-block}
+.news-link:hover{text-decoration:underline}
+.news-meta{color:#9ca3af;font-size:.78rem;margin-top:3px}
 .a-src{color:#9ca3af;font-size:.75rem}
 .alert.btpos{border-right-color:#16a34a}
 .alert.btneg{border-right-color:#ef4444}
@@ -2616,135 +2619,56 @@ def build_html(mh, dips, alerts, bo, updated, extra=None):
                      'זיהוי מוצהר ל-SEC · קצב מתחת ל-2 בקשות לשנייה</div>')
     parts.append("</div>")
 
-    # ================= market pulse pane (סקירת שוק יומית) =================
-    pulse = extra.get("pulse")
+    # ================= linked news pane (סקירה חדשותית) =================
+    news = extra.get("news")
     parts.append('<div class="pane" id="pane-pulse">')
-    if not pulse:
+    if not news:
         parts.append(
-            '<div class="hdr"><div><h1>סקירת שוק יומית</h1>'
-            '<div class="ts">מתעדכן פעמיים ביום: 10:00 ו-18:00</div></div>'
+            '<div class="hdr"><div><h1>סקירה חדשותית</h1>'
+            '<div class="ts">מתעדכן אוטומטית מדי שעה</div></div>'
             '<button class="refresh-btn" type="button">עדכן עכשיו</button></div>')
-        parts.append('<div class="empty">הסקירה הראשונה תפורסם בעדכון הקרוב (10:00 / 18:00).</div>')
+        parts.append('<div class="empty">רשימת החדשות תפורסם בעדכון הקרוב.</div>')
     else:
         try:
-            _gen = datetime.fromisoformat(pulse["generated_at"])
+            _gen = datetime.fromisoformat(news["generated_at"])
             _gen = _gen.astimezone(JER) if _gen.tzinfo else _gen.replace(tzinfo=JER)
             gen_s = f"{_gen.day}.{_gen.month} {_gen.hour}:{_gen.minute:02d}"
         except Exception:
             gen_s = ""
         parts.append(
-            '<div class="hdr"><div><h1>סקירת שוק יומית</h1>'
-            f'<div class="ts">סריקה: {gen_s} · חלון: 24-48 שעות אחרונות · מתעדכן 10:00 ו-18:00</div></div>'
+            '<div class="hdr"><div><h1>סקירה חדשותית</h1>'
+            f'<div class="ts">עודכן {gen_s} · מתרענן אוטומטית מדי שעה · קריאה של דקה-שתיים</div></div>'
             '<button class="refresh-btn" type="button">עדכן עכשיו</button></div>')
-        if pulse.get("intro"):
-            parts.append(f'<div class="finding">{esc(pulse["intro"])}</div>')
-        idx = pulse.get("indices") or []
-        if idx:
-            parts.append('<h3 class="sec">סקירת שוק</h3>')
-            parts.append('<div class="idxgrid">')
-            for ix in idx:
-                day = pct2(ix["day_pct"]) if ix.get("day_pct") is not None else ""
-                wk = (f'<small>שבוע: {ix["week_pct"]:+.2f}%</small>'
-                      if ix.get("week_pct") is not None else "")
-                val_s = f"{ix['value']:,.2f}" if ix.get("value") is not None else "—"
+        _now = datetime.now(JER)
+        _news_secs = (news.get("sections") or {})
+        _windows = news.get("windows_h") or {}
+        for _sid, _label, _defwin in (("us", "וול סטריט והעולם", 14),
+                                      ("il", "ישראל", 20),
+                                      ("geo", "גיאופוליטי", 48)):
+            parts.append(f'<h3 class="sec">{esc(_label)}</h3>')
+            _win = timedelta(hours=_windows.get(_sid, _defwin))
+            _shown = 0
+            for it in _news_secs.get(_sid) or []:
+                try:
+                    _p = datetime.fromisoformat(it["published"])
+                    _p = _p.astimezone(JER) if _p.tzinfo else _p.replace(tzinfo=timezone.utc).astimezone(JER)
+                except Exception:
+                    continue
+                if _now - _p > _win:
+                    continue
+                _dir = ' dir="ltr"' if it.get("lang") == "en" else ""
+                _meta = (f'<div class="news-meta"{_dir}>{esc(it.get("source") or "")} · '
+                         f'{_p.day}.{_p.month} {_p.hour}:{_p.minute:02d}</div>')
+                _lede = (f'<p{_dir}>{esc(it["lede"])}</p>' if it.get("lede") else "")
                 parts.append(
-                    '<div class="idxcard">'
-                    f'<span class="idxname">{esc(ix["name"])}</span>'
-                    f'<b>{ltr(val_s)}</b>{day}<small>מול סגירה קודמת</small>{wk}'
-                    "</div>")
-            parts.append("</div>")
-            asof = next((i.get("asof") for i in idx if i.get("asof")), None)
-            if asof:
-                parts.append(f'<div class="ts">סגירות נכונות ל-{esc(asof)} · Yahoo Finance</div>')
-        sent = pulse.get("sentiment") or {}
-        fgp = pulse.get("fear_greed")
-        if sent or fgp:
-            parts.append('<h3 class="sec">סנטימנט כללי</h3>')
-        if sent:
-            label = sent.get("label") or ""
-            badge_col = {"שורי": "#22c55e", "דובי": "#ef4444", "נייטרלי": "#f59e0b"}.get(label, "#9ca3af")
-            score_s = f" · {sent['score']}/100" if isinstance(sent.get("score"), int) else ""
-            est = " <small>(הערכה)</small>" if sent.get("estimated") else ""
-            row = (f'<div class="finding">סנטימנט: <span class="status-badge" '
-                   f'style="background:{badge_col}">{esc(label)}</span>{esc(score_s)}{est}')
-            if sent.get("driver"):
-                row += f'<p>{esc(sent["driver"])}</p>'
-            parts.append(row + "</div>")
-        if fgp:
-            prev = (f' <small>אתמול: {fgp["prev_close"]}</small>' if fgp.get("prev_close") is not None else "")
-            parts.append(
-                f'<div class="smhrow"><span><b>מדד הפחד והחמדה · CNN</b>{prev}</span>'
-                f'<b dir="ltr">{fgp["score"]}/100</b></div>')
-        stories = pulse.get("stories") or []
-        if stories:
-            parts.append('<h3 class="sec">הסיפורים המובילים</h3>')
-            imp_col = {"חיובית": "#22c55e", "שלילית": "#ef4444", "מעורבת": "#f59e0b"}
-            for s in stories:
-                chip = (f'<span class="status-badge" style="background:'
-                        f'{imp_col.get(s.get("impact"), "#9ca3af")}">{esc(s.get("impact") or "")}</span>')
-                summ = f'<p>{esc(s["summary"])}</p>' if s.get("summary") else ""
-                aff = f'<small>מושפעים: {esc(s["affected"])}</small>' if s.get("affected") else ""
-                srcl = ""
-                if s.get("source_url"):
-                    srcl = (f' <a class="src-link" href="{esc(s["source_url"])}" '
-                            'target="_blank" rel="noopener">מקור ↗</a>')
-                parts.append(f'<div class="finding">{chip} <b>{esc(s.get("title") or "")}</b>{srcl}{summ}{aff}</div>')
-        stocks = pulse.get("stocks") or []
-        if stocks:
-            parts.append('<h3 class="sec">המניות המדוברות ביותר</h3>')
-            for s in stocks:
-                men = ""
-                if s.get("mentions") is not None:
-                    men = f'אזכורים: {s["mentions"]}'
-                    if s.get("mentions_prev") is not None:
-                        men += f' (אתמול {s["mentions_prev"]})'
-                day = pct2(s["day_pct"]) if s.get("day_pct") is not None else ""
-                reason = f'<small>{esc(s["reason"])}</small>' if s.get("reason") else ""
-                cat = ""
-                if s.get("catalyst") and s.get("catalyst") != "אין נתונים אמינים":
-                    cat = f'<small>קטליזטור: {esc(s["catalyst"])}</small>'
-                parts.append('<div class="smhrow"><span><b>' + esc(s["ticker"])
-                             + f'</b> <small>{men}</small>{reason}{cat}</span>{day}</div>')
-            parts.append('<div class="ts">דירוג לפי נפח וקצב דיון (wallstreetbets + Stocktwits) · לא המלצה</div>')
-        retail = pulse.get("retail") or {}
-        _has_sent = bool(retail.get("label") or retail.get("bulls") is not None
-                         or pulse.get("hype") or (pulse.get("stocks") or []))
-        if _has_sent:
-            parts.append('<h3 class="sec">סנטימנט ומומנטום</h3>')
-            parts.append('<div class="chg3">')
-            rb = ""
-            if retail.get("bulls") is not None and retail.get("bears") is not None:
-                rb = f'<small>Stocktwits: {retail["bulls"]} שוריים / {retail["bears"]} דוביים</small>'
-            parts.append(f"<div><span>קמעונאים</span><b>{esc(retail.get('label') or 'אין נתונים')}</b>{rb}</div>")
-            parts.append("<div><span>מוסדיים</span><b>אין נתונים אמינים</b></div>")
-            parts.append(f"<div><span>רמת הייפ</span><b>{esc(pulse.get('hype') or 'אין נתונים')}</b><small>קצב אזכורים מול היום הקודם</small></div>")
-            _m_now = sum(s.get("mentions") or 0 for s in (pulse.get("stocks") or []))
-            _m_prev = sum(s.get("mentions_prev") or 0 for s in (pulse.get("stocks") or []))
-            if _m_now and _m_prev:
-                _vel = (_m_now - _m_prev) / _m_prev * 100
-                _mom = f"{_vel:+.0f}% מול אתמול"
-            else:
-                _mom = "אין נתונים"
-            parts.append(f"<div><span>קצב אזכורים</span><b>{esc(_mom)}</b><small>wallstreetbets, 5 המדוברות</small></div>")
-            parts.append("</div>")
-        if _has_sent and pulse.get("sentiment_basis"):
-            parts.append(f'<div class="ts">{esc(pulse["sentiment_basis"])}</div>')
-        alerts = pulse.get("alerts") or []
-        if alerts:
-            parts.append('<h3 class="sec">התראות שוק</h3>')
-            for a in alerts:
-                srcl = (f' <a class="src-link" href="{esc(a["source_url"])}" target="_blank" rel="noopener">מקור ↗</a>'
-                        if a.get("source_url") else "")
-                parts.append(f'<div class="finding warn">⚠️ {esc(a.get("text") or "")}{srcl}</div>')
-        wl = pulse.get("watchlist") or []
-        if wl:
-            parts.append('<h3 class="sec">רשימת מעקב</h3>')
-            for w in wl:
-                parts.append(f'<div class="smhrow"><span><b>{esc(w["ticker"])}</b> '
-                             f'<small>{esc(w.get("why") or "")}</small></span></div>')
-        if pulse.get("weekly"):
-            parts.append(f'<h3 class="sec">סנטימנט שבועי</h3><div class="finding">{esc(pulse["weekly"])}</div>')
-
+                    f'<div class="finding"><a class="news-link" href="{esc(it.get("url") or "")}" '
+                    f'target="_blank" rel="noopener"><span{_dir}>{esc(it.get("title") or "")}</span></a>'
+                    f'{_meta}{_lede}</div>')
+                _shown += 1
+            if not _shown:
+                parts.append('<div class="empty">אין כרגע כותרות עדכניות - הרשימה מתעדכנת מדי שעה.</div>')
+        parts.append('<div class="ts">כותרות, שורות פתיחה וקישורים ישירות מהמקורות: CNBC, MarketWatch, '
+                     'גלובס ו-Google News · ללא שכתוב, ללא המלצות</div>')
     parts.append("</div>")
 
     # ================= bottom tab bar =================
@@ -2755,7 +2679,7 @@ def build_html(mh, dips, alerts, bo, updated, extra=None):
         '<button data-t="bo">פריצות ומגמה</button>'
         '<button data-t="dip">דיפים ותיקונים</button>'
         f'<button data-t="bio">ביוטק{badge}</button>'
-        '<button data-t="pulse">סקירת שוק</button>'
+        '<button data-t="pulse">סקירה חדשותית</button>'
         '<a class="tablink" href="concepts.html">מושגים</a>'
         "</div>")
 
@@ -2859,9 +2783,9 @@ def main():
                 if ev:
                     r["why"] = f"דיווח SEC · {ev['label']} · {ev['date']}"
     try:
-        pulse = json.load(open(os.path.join(BASE_DIR, "pulse_latest.json"), encoding="utf-8"))
+        news = json.load(open(os.path.join(BASE_DIR, "news_latest.json"), encoding="utf-8"))
     except Exception:
-        pulse = None
+        news = None
     try:
         acc = json.load(open(os.path.join(BASE_DIR, "accuracy_stats.json"), encoding="utf-8"))
     except Exception as e:
@@ -2869,7 +2793,7 @@ def main():
         acc = None
     extra = {"overview": overview, "cnn": cnn, "pm": pm, "cats": cats, "trials": trials,
              "secw": secw, "radar": bio.get("radar", []), "acc": acc, "bt": bt,
-             "pulse": pulse, "verified_fda": bio.get("verified_fda") or {}}
+             "news": news, "verified_fda": bio.get("verified_fda") or {}}
     alerts = bio.get("alerts", [])
 
     updated = datetime.now(JER)
