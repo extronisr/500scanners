@@ -207,6 +207,22 @@
    "pivot": 19.86,
    "target": 21.46,
    "stop": 19.26
+  },
+  {
+   "ticker": "GXO",
+   "date": "2026-11-02",
+   "signal_price": 52.12,
+   "pivot": 50.39,
+   "target": 57.14,
+   "stop": 48.88
+  },
+  {
+   "ticker": "FISV",
+   "date": "2026-11-02",
+   "signal_price": 51.93,
+   "pivot": 50.83,
+   "target": 57.79,
+   "stop": 49.31
   }
  ]
 }
