@@ -1,79 +1,63 @@
 {
  "version": 1,
  "slot": "2026-11-01T18:00",
- "generated_at": "2026-11-02T01:30:59.142820+02:00",
+ "generated_at": "2026-11-02T02:00:54.493864+02:00",
  "window_hours": 48,
  "mode": "full",
- "intro": "השוק מתמודד עם תקופה עמוסת אירועים, כולל בחירות ביניים בארה\"ב ודיווחים על שינוי דירוג של מניית חציבת זהב.",
+ "intro": "היום בשוק יש פעילות סביב חדשות משפטיות לפני פרסום דוחות רבעון.",
  "stories": [
   {
-   "title": "בחירות ביניים בארה\"ב משנות את האווירה",
-   "summary": "הכתבה מציינת שהבחירות למועצת הבית והסנאט מתקרבות ביום שלישי, והן עשויות להשפיע על מדיניות הריבית וההשקעות בתחום הבינה המלאכותית, בהתאם לתוצאות. המשקיעים מצפים לתגובות שונות בהתאם למי ינצח.",
-   "impact": "מעורבת",
-   "affected": "סקטור הטכנולוגיה, סקטור הפיננסים",
+   "title": "שופט פוסל תביעה של טראמפ נגד WSJ לפני דוחות News Corp",
+   "summary": "ב-1 בנובמבר שופט פסק לבטל תביעה של טראמפ על WSJ, מה שמסיר עומס משפטי על News Corp לפני פרסום תוצאות הרבעון. ההחלטה פוטנציאלית יכולה לשחרר את המניה מתנודתיות משפטית.",
+   "impact": "חיובית",
+   "affected": "News Corp (NWSA)",
    "news_refs": [
-    "N8"
+    "N12"
    ],
-   "source_url": "https://www.cnbc.com/investingclub/2026/11/01/3-big-things-were-watching-in-the-stock-market-this-week.html",
-   "source_name": "cnbc.com",
-   "published": "2026-11-01"
-  },
-  {
-   "title": "דירוג מניית Harmony Gold יורד ל‑Hold",
-   "summary": "הדירוג של מניית Harmony Gold Mining (HMY) הוחלף מ‑Buy ל‑Hold על ידי Wall Street Zen, והדירוג של Weiss Ratings ירד מ‑Buy (b) ל‑Buy (b‑). השינוי משקף חוסר וודאות לגבי ביצועי החברה.",
-   "impact": "שלילית",
-   "affected": "Harmony Gold Mining (HMY)",
-   "news_refs": [
-    "N9"
-   ],
-   "source_url": "https://www.marketbeat.com/instant-alerts/analyst-harmony-gold-mining-nyse-hmy-stock-moved-down-to-hold-by-wall-street-zen-2026-11-01/",
-   "source_name": "marketbeat.com",
+   "source_url": "https://invezz.com/news/2026/11/01/news-corp-stock-analysis-as-judge-tosses-trumps-wsj-lawsuit-ahead-of-earnings/",
+   "source_name": "invezz.com",
    "published": "2026-11-01"
   }
  ],
  "alerts": [],
  "watchlist": [
   {
-   "ticker": "HMY",
-   "why": "דירוגים חדשים עשויים להצביע על שינוי במגמת המניה."
-  },
-  {
-   "ticker": "AI",
-   "why": "הבחירות עשויות להשפיע על מדיניות רגולטורית ותמיכה בבינה המלאכותית."
+   "ticker": "NWSA",
+   "why": "החלטת השופט עשויה לשפר את תנופת המניה לפני פרסום הרבעון."
   }
  ],
  "sources": [
-  {
-   "name": "bloomberg.com",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-29/stock-market-today-dow-s-p-live-updates"
-  },
-  {
-   "name": "bloomberg.com",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-26/stock-market-today-dow-s-p-live-updates"
-  },
-  {
-   "name": "bloomberg.com",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-28/stock-market-today-dow-s-p-live-updates"
-  },
-  {
-   "name": "reuters.com",
-   "url": "https://www.reuters.com/world/asia-pacific/nasdaq-futures-rise-sk-hynix-boosts-chips-before-fed-decision-earnings-2026-10-28"
-  },
-  {
-   "name": "reuters.com",
-   "url": "https://www.reuters.com/business/nasdaq-futures-tumble-amazon-intel-results-deepen-ai-spending-woes-2026-10-30"
-  },
   {
    "name": "cnn.com",
    "url": "https://www.cnn.com/2026/10/30/investing/us-stocks-ai-investment"
   },
   {
-   "name": "cnbc.com",
-   "url": "https://www.cnbc.com/investingclub/2026/10/31/stocks-started-the-week-with-promise-but-ended-in-despair.html"
+   "name": "finance.yahoo.com",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-oct-26-134626728.html"
   },
   {
-   "name": "cnbc.com",
-   "url": "https://www.cnbc.com/investingclub/2026/11/01/3-big-things-were-watching-in-the-stock-market-this-week.html"
+   "name": "bloomberg.com",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-29/stock-market-today-dow-s-p-live-updates"
+  },
+  {
+   "name": "finance.yahoo.com",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-p-500-open-060417566.html"
+  },
+  {
+   "name": "finance.yahoo.com",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-oct-29-134623155.html"
+  },
+  {
+   "name": "reuters.com",
+   "url": "https://www.reuters.com/business/us-stock-futures-muted-oil-holds-near-april-highs-ahead-fed-decision-2026-10-27"
+  },
+  {
+   "name": "ynetnews.com",
+   "url": "https://www.ynetnews.com/business/article/b10k30vpme"
+  },
+  {
+   "name": "fool.com",
+   "url": "https://www.fool.com/investing/2026/10/30/wall-street-s-next-blockbuster-stock-split-has-arrived-the-stock-has-gained-3-050-since-its-2025-debut-and-still-more-upside-ahead-according-to-wall-street/"
   }
  ]
 }
