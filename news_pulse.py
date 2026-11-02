@@ -53,7 +53,6 @@ FEEDS = [
     ("us", "https://www.theguardian.com/uk/business/rss", "The Guardian", True),
     ("us", "https://seekingalpha.com/feed.xml", "Seeking Alpha", False),
     ("us", "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225", "גלובס", True),
-    ("us", "https://www.investing.com/rss/news_25.rss", "Investing.com", False),
     ("us", GN.format(q=urllib.parse.quote("stock market when:1d"), hl="en-US", gl="US", ceid="en"), None, False),
     ("il", "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585", "גלובס", True),
     ("il", "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2", "גלובס", True, "he"),
