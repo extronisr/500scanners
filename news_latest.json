@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-02T15:01:07.066141+02:00",
+ "generated_at": "2026-11-02T16:01:07.497113+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -9,133 +9,125 @@
  "sections": {
   "us": [
    {
-    "title": "הנתון החריג שהופיע בצרפת והשאלה: האם החשש ממשבר חוב מוגזם?",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001561532#utm_source=RSS",
+    "title": "Crude oil dives to session low on Iran peace talk hopes ahead of midterms",
+    "url": "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html",
+    "source": "CNBC",
+    "published": "2026-11-02T13:57:14+00:00",
+    "lede": "Oil fell Monday, amid news that both the U.S. and Iran are pursuing diplomacy amid ongoing Mideast tensions",
+    "lang": "en"
+   },
+   {
+    "title": "רכישת ענק בשוק ה-AI: מארוול רוכשת חברה ב-115 מיליארד דולר",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001561676#utm_source=RSS",
     "source": "גלובס",
-    "published": "2026-11-02T12:57:00+00:00",
-    "lede": "ההפגנות ברחובות פריז הן רק קצה הקרחון של משבר כלכלי ופוליטי מורכב",
+    "published": "2026-11-02T13:57:00+00:00",
+    "lede": "יצרנית השבבים האמריקאית תרכוש את חברת הרכיבים האופטיים לומנטום בעסקת מניות, בפרמיה של כ-24% על מחיר המניה לפני הדיווחים על המגעים",
     "lang": "he"
    },
    {
-    "title": "Check Point Software Falls On Q3 Revenue, Billings Miss",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOOUxMMnJqWVRBYmpNN2hXM2lDNkNsYXZtM0xMVTFTSlhGMUhlMkJIVHZ4ZlpBVmxlcl93RHVsSGVMVWZJS0RUbjFFSFBFMkpQZVdDdU1VUkxpQTRNV3ExaU1QT2hYUF9QTzBHOXdnWmMyUV9tb0tsXzl6Q2U0MjdjZmhlTmNhNHZianRtbzJKMA?oc=5",
-    "source": "Investor's Business Daily",
-    "published": "2026-11-02T12:57:00+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "AI Stocks Face Possible Ballot-Box Backlash As Financing Fears Mount",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQck1JWkRIMEljUUdKUTBnTnduWmJGUS1KWENHZ2FRbFFLMGlvUFYtRHkwMWxobzFySTFPWFRhU202eU5FRVgya2p2RlRLYTNNVlpWUGdCcXcxR3pmSG1XVlZmYkN6Q1VoblhiaDZkclg3cW1xN29Zei10YVZ6bGVnQjljclMxamU5b3R3RHJaeGRSWmZHTDVtcGk4dWNTS3BTNHhNVg?oc=5",
-    "source": "Investor's Business Daily",
-    "published": "2026-11-02T12:55:00+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Futures Rise, Oil Falls Below $100; Elections Ahead",
-    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPZEoyQk15NGhJR0FQZEg4aC1VS3RmOG9MdkZvSUR6a2tpQ0NYcW9XYWFralZwcmVZTnlRSG5CRENJXzQtNF9OVUotNFNLMW5HeTdPSjMxUlhKdGN5SUtIbWxmUXh4NDFSc2FJQVNzd0JXYlZ3OTdDWVd2X3pXT09WQWZ5MnN3OWtMN1hSS1pfLW9JYWdKanlnTTE0bU5ocHo1S2lXR0NMekZCRk1zdUdIODktNUJfckRUbUt4X2FUcGo2SXFNTWkzeWNMWWQ?oc=5",
-    "source": "Investor's Business Daily",
-    "published": "2026-11-02T12:42:00+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "U.S. crude falls below $100 amid reports of U.S.-Iran diplomatic efforts",
-    "url": "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html",
+    "title": "We're buying the dip in a stock after an expectations reset",
+    "url": "https://www.cnbc.com/investingclub/2026/11/02/were-buying-the-dip-in-a-stock-after-an-expectations-reset.html",
     "source": "CNBC",
-    "published": "2026-11-02T12:40:46+00:00",
-    "lede": "Oil fell Monday, amid news that both the U.S. and Iran are pursuing diplomacy amid ongoing Mideast tensions",
+    "published": "2026-11-02T13:56:01+00:00",
+    "lede": "We waited for the dust to settle after its earnings sell-off.",
+    "lang": "en"
+   },
+   {
+    "title": "Marvell to purchase Lumentum for $115 billion in record-breaking tech deal",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQYWxRNVQxYzItQzBISTcwM2FVN2szd2w3dlZfVnp0eWxLb2RHOEM2RzR1SnVLczBYVWRDSzV3a3FxN0VscjZ2OGZPbTR5aWYwLUpIdVprU1ZOV1lRSTVGM1RRSTVPSDNYTDM3TTdDaVhoaXhBeEE5eXFqV2V6SzBUNkdxTUJYNXJGVjFzQ1VvRVR2Rk0zVGVlUGczb3M5ZlZkLUxBZFhJWFBLOEtucW5ncHFBd2N1SFoydlE?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-02T13:53:13+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "החוזים בוול סטריט מאותתים על התאוששות לקראת פתיחת שבוע המסחר",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001561626#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-02T13:50:00+00:00",
+    "lede": "לאחר שבוע של מימושים כבדים במניות הטכנולוגיה, החוזים העתידיים בניו יורק מצביעים הבוקר על חזרה למגמה ירוקה",
+    "lang": "he"
+   },
+   {
+    "title": "Oil prices could average $130 a barrel next year, according to Goldman Sachs",
+    "url": "https://www.marketwatch.com/story/how-oil-prices-could-average-130-per-barrel-next-year-according-to-goldman-sachs-235ce32b?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-02T13:46:00+00:00",
+    "lede": "Analysts at the investment bank said Brent crude could reach $140 a barrel next year if tensions worsen in the Middle East.",
+    "lang": "en"
+   },
+   {
+    "title": "Broadcom’s Supply Bottlenecks – Not Demand – Continue to Offer Investors a Discount I Keep Buying",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOMUxPalNKQXBxWG1wMVQ4anJOTjdocnFHM0R5NXdNRnd4V21vUkMwdFlHVkJXT2ZXZTRBYVJsRFlLTVp2bDFEbzZqNWpPTTZ5STZiZ0ZjOFM4TVpQaWFnQ1FlbDRXb3VubzdiZDRxOU92LWRKQ0pwZGtTNERHblRobkEyRzdiLTFnaFdDQnhzaXhXS2tCVzR0MndkWUZvMkk4X1FDQnNB?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-02T13:45:19+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Apple’s New MacBook Changes Nothing But You Should Still Buy Apple",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPYS1xblowQzZjUTY5dnZNdUdwQkFXQUZKSGhMYmhpcEZ3T2o4V1doWG1OUEF3eU53NXg4Y1RxU3RRaHI3OTN1T2R2a19yVnhPbVIwdzVFc2RGMGhHS1FYaTI2RHMxbWwxVkZGUXR3MlZ2LW4talJzYWRFZE5FR283RjA0OUhoeTlxeGJ2d2hoaExDR1hfU1lURlJyaWw2STNmVGc?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-02T13:45:03+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "The market view of the oil, AI and bond trades went through a major change in October",
+    "url": "https://www.cnbc.com/2026/11/01/oil-bond-yields-ai-market.html",
+    "source": "CNBC",
+    "published": "2026-11-02T13:26:05+00:00",
+    "lede": "The market expects oil to keep rising, but treasury yields have declined, a warning traders and investors may be more worried about an AI crash than inflation.",
     "lang": "en"
    },
    {
     "title": "Crypto ‘scammers on overdrive’ as Binance customers pull billions from accounts after $6.3bn hack – business live",
     "url": "https://www.theguardian.com/business/live/2026/nov/02/crypto-scam-binance-billion-hack-business-live-latest-updates-news",
     "source": "The Guardian",
-    "published": "2026-11-02T12:38:06+00:00",
+    "published": "2026-11-02T13:11:58+00:00",
     "lede": "Rolling coverage of the latest economic and financial news Yi He, co-founder of Binance, has said that its top priority is to “ensure the environment is secure, after which users can withdraw their funds and Binance can…",
-    "lang": "en"
-   },
-   {
-    "title": "טאואר תגיע השנה להכנסות של 2 מיליארד דולר; המניה קופצת בטרום",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001561668#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-02T12:31:00+00:00",
-    "lede": "יצרנית השבבים הישראלית עקפה את תחזיות האנליסטים לרבעון השלישי וסיפקה תחזית אופטימית להמשך השנה",
-    "lang": "he"
-   },
-   {
-    "title": "This is the biggest threat to the AI-powered bull market",
-    "url": "https://www.marketwatch.com/story/this-is-the-biggest-threat-to-the-ai-powered-bull-market-e757ca37?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-02T12:23:00+00:00",
-    "lede": "Blockbuster earnings growth has helped to power the stock market higher in 2026. In 2027, that engine might stall.",
-    "lang": "en"
-   },
-   {
-    "title": "Sales slump at UK’s largest brickmaker as housebuilding downturn deepens",
-    "url": "https://www.theguardian.com/business/2026/nov/02/uk-largest-brickmaker-sales-slump-housebuilding-downturn-deepens-ibstock",
-    "source": "The Guardian",
-    "published": "2026-11-02T12:20:20+00:00",
-    "lede": "Ibstock, which has cut production by a fifth, criticises government for delay in help for housing sector Sales at the UK’s largest brickmaker plunged by more than a fifth over the summer, as it criticised the government…",
-    "lang": "en"
-   },
-   {
-    "title": "Global AI sell-off eases after Nasdaq’s worst month in over a year",
-    "url": "https://www.ft.com/content/d7fe99f8-d292-4cb5-a8fd-45be0f8cc2b3?syn-25a6b1a6=1",
-    "source": "Financial Times",
-    "published": "2026-11-02T12:17:58+00:00",
-    "lede": "US tech stocks set to start week higher helped by falling oil price",
     "lang": "en"
    }
   ],
   "il": [
    {
-    "title": "מנכ\"ל משרד האנרגיה נגד ועדת הריכוזיות: לאפשר לשפיר להשתלט על בית זיקוק אשדוד",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001561672#utm_source=RSS",
+    "title": "דגמי הרכב הגניבים שמחיר הביטוח שלהם זינק בניגוד למגמה",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001561658#utm_source=RSS",
     "source": "גלובס",
-    "published": "2026-11-02T12:48:00+00:00",
-    "lede": "יוסי דיין במכתב חריף לרשות החברות: בז\"א הוא נכס קריטי לביטחון האנרגטי שיהפוך לבית הזיקוק היחיד בארץ עם פינוי בזן",
+    "published": "2026-11-02T13:37:00+00:00",
+    "lede": "עפ\"י נתוני Wobi, מחירי הביטוח המקיף רשמו ברבעון האחרון ירידה של 4% והשלימו ירידה של 13% בשנה האחרונה",
     "lang": "he"
    },
    {
-    "title": "החוזים בוול סטריט עולים, הנפט צונח ביותר מ-4%",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001561626#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-02T12:28:00+00:00",
-    "lede": "בורסות פרנקפורט ופריז נסחרות ללא שינוי • עסקת ענק: מארוול רוכשת את יצרנית הרכיבים האופטיים לומנטום • מחיר הנפט יורד במעל 3% • צ'ק פוינט נופלת במסחר המוקדם • המשקיעים נערכים לשבוע עמוס בדוחות כספיים, בנתוני תעסוקה…",
-    "lang": "he"
-   },
-   {
-    "title": "מסחר תנודתי בבורסת ת\"א; טאואר עקפה את התחזיות",
+    "title": "מסחר תנודתי ומעורב בבורסת ת\"א; טאואר נופלת לאחר דוחות חזקים",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001561569#utm_source=RSS",
     "source": "גלובס",
-    "published": "2026-11-02T12:15:00+00:00",
+    "published": "2026-11-02T13:24:00+00:00",
     "lede": "המסחר מתנהל במגמה מעורבת • פריון מזנקת בעקבות ההודעה על מכירתה ב-420 מיליון דולר ל-Affle ההודית • טאואר מעדכנת תחזיות וצופה הכנסות של 600 מיליון דולר ברבעון הרביעי • מיזוג ישראל קנדה-אקרו הושלם בשווי מקוצץ של 5.5…",
     "lang": "he"
    },
    {
-    "title": "מנכ\"לית גב-ים בשיחת המשקיעים: \"במגורים כל השוק בקיפאון אבל במשרדים יש מגדלים עם רשימות המתנה\"",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001561641#utm_source=RSS",
+    "title": "חובות של כ-14 מיליון שקל: קבוצת המסעדות שמבקשת הקפאת הליכים",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001561673#utm_source=RSS",
     "source": "גלובס",
-    "published": "2026-11-02T11:26:00+00:00",
-    "lede": "הרווח הנקי המיוחס לבעלי המניות הסתכם ב-151 מיליון שקל ברבעון",
+    "published": "2026-11-02T13:21:00+00:00",
+    "lede": "קבוצת אבידן, המפעילה שבעה ברים ומסעדות בת\"א ובמרכז, הגישה בקשה לעיכוב הליכים למשך 45 ימים, בניסיון להגיע להסדר עם נושיה",
     "lang": "he"
    },
    {
-    "title": "תנודתיות קלה בבורסת בת\"א; פריון נטוורק מזנקת ב-31%",
+    "title": "מניות הביטוח והשבבים מכבידות על ת\"א; ישראל קנדה נחתכת ב-6%",
     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0tc2x6S0h3NGl5ejFSdERHOEtCaTRaaF9TRFI1WVRWc2ZabklxTnJ0TEJOU296NjloaWZrT0o0Tll3anBsTTV4SkZsVExIU2JzSklZUEtYdTI5aXZiZ3lnS25n?oc=5",
     "source": "Calcalist",
-    "published": "2026-11-02T11:21:39+00:00",
+    "published": "2026-11-02T13:15:57+00:00",
     "lede": null,
     "lang": "he"
    },
    {
-    "title": "היפוך מגמות באירופה, מחירי הנפט יורדים",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9hU1IxbE44QWxOaUhHR0t5eDJlUXJySXNmTXRNUFUwSVF5VUM1WTd6ak5YQTZQYjFIVFppVFFWZXNOWHdNbDFlakxWWlg2NHdPSHpOOTBDYy1PdmVzN1JDRkl3?oc=5",
-    "source": "Calcalist",
-    "published": "2026-11-02T11:03:51+00:00",
-    "lede": null,
+    "title": "הנתון החריג שהופיע בצרפת והשאלה: האם החשש ממשבר חוב מוגזם?",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001561532#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-02T12:57:00+00:00",
+    "lede": "ההפגנות ברחובות פריז הן רק קצה הקרחון של משבר כלכלי ופוליטי מורכב",
     "lang": "he"
    },
    {
@@ -149,18 +141,18 @@
   ],
   "geo": [
    {
-    "title": "Al-Jawf becomes new hotspot in Yemen war between government forces, Houthis",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUzExSjhLZldVQ054Vnd4REUzSnJ0WlZoU2VCSnRRWjNFb3p5b1JqcmpjcXpPYUpfQkJwckRIM1pILWdqekxlaDJKQU9BVmRaWXlrUS1PQVdtUWRZdFdLRFJ1VGZJeXd4NXJmYURPb0tEVUk5TEdQRkNBREI4d2Y3Z1dhZnpkMG5zdjRmRGo1UzdZLXppQ09JV19uWVc2TDNia1FkZWtJbDVHVE5paHlWWGdpSE55QdIBuwFBVV95cUxQbGc0ekM3d3Bad1pCRmY3ZWpTbHd2UkdFM0VGZUtmU3JVdWdlM3dNeUZSVUdjZkJSZGhSRzRUVjdpUWJ5MGNEemJLNGwwUDNzUXZaMGY2UVpPckktVjZ6cGQyMnh5eW9JS1NnQ0I2MTU2Q3pkNkRwTTJlY1poLUtzQ013MHFGU1U3ejkzdWJBTE0wUy00Q2EtVmRxNU5FMzVfallBRXFhN0lRWHB1aFAxRXBPVUtfMHgzS19R?oc=5",
-    "source": "Al Jazeera",
-    "published": "2026-11-02T12:22:05+00:00",
+    "title": "Fake alerts warn of nuclear danger as Ukraine and Russia report emergency app hacks",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNQ1QzbGU5dXREb2Y1VkpSSmU5TEhnNm5TSmFOdWRkMkh4Qk1uVDZtZUp6SUs4RTVDUndVemptd2hWRXNZdGc0ZDdDaFp5ajVvWEw3dzVsb3RXbWhFa2tBSUZ4YXNvWmpFT1hLeGxKaHIwc1NyemhaeTlvWjdfVGxPRmFDaUJPQ0NBUFNiWS1kUkN2bjZUdUt6amlPbkQ1VkdjNDJsWDVkNkJkcGJWVnpfUmlWb0FzN1k?oc=5",
+    "source": "NBC News",
+    "published": "2026-11-02T12:56:52+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "We answered your US midterm questions on the economy, the Iran war, immigration and more",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPR1FEYnY2cWVUNlFqTFpZc0ZORWdMdTV3S3doT0JyRWR4ekNOM1VuZVdMSjlkZTZVR095aGpvTXdMQUpacGlHTDBNZnpCdXR1ZEZNRHpKSDdLM0w5dWZUSDVCMkxPdWZlb3psdnhYaDJTYXNybEJLWTAycUc1c0VvN0pvS0pLV3ZGTkI4X1g2aE92eERuZUZlY2tGYw?oc=5",
-    "source": "The Guardian",
-    "published": "2026-11-02T12:02:00+00:00",
+    "title": "Al-Jawf becomes new hotspot in Yemen war between government forces, Houthis",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUzExSjhLZldVQ054Vnd4REUzSnJ0WlZoU2VCSnRRWjNFb3p5b1JqcmpjcXpPYUpfQkJwckRIM1pILWdqekxlaDJKQU9BVmRaWXlrUS1PQVdtUWRZdFdLRFJ1VGZJeXd4NXJmYURPb0tEVUk5TEdQRkNBREI4d2Y3Z1dhZnpkMG5zdjRmRGo1UzdZLXppQ09JV19uWVc2TDNia1FkZWtJbDVHVE5paHlWWGdpSE55QdIBuwFBVV95cUxQbGc0ekM3d3Bad1pCRmY3ZWpTbHd2UkdFM0VGZUtmU3JVdWdlM3dNeUZSVUdjZkJSZGhSRzRUVjdpUWJ5MGNEemJLNGwwUDNzUXZaMGY2UVpPckktVjZ6cGQyMnh5eW9JS1NnQ0I2MTU2Q3pkNkRwTTJlY1poLUtzQ013MHFGU1U3ejkzdWJBTE0wUy00Q2EtVmRxNU5FMzVfallBRXFhN0lRWHB1aFAxRXBPVUtfMHgzS19R?oc=5",
+    "source": "Al Jazeera",
+    "published": "2026-11-02T12:22:05+00:00",
     "lede": null,
     "lang": "en"
    }
