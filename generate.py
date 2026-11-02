@@ -2667,8 +2667,8 @@ def build_html(mh, dips, alerts, bo, updated, extra=None):
                 _shown += 1
             if not _shown:
                 parts.append('<div class="empty">אין כרגע כותרות עדכניות - הרשימה מתעדכנת מדי שעה.</div>')
-        parts.append('<div class="ts">כותרות, שורות פתיחה וקישורים ישירות מהמקורות: CNBC, MarketWatch, '
-                     'גלובס ו-Google News · ללא שכתוב, ללא המלצות</div>')
+        parts.append('<div class="ts">כותרות, שורות פתיחה וקישורים ישירות מהמקורות: CNBC, MarketWatch, FT, '
+                     'BBC, The Guardian, Seeking Alpha, גלובס, וואלה ו-Google News · ללא שכתוב, ללא המלצות</div>')
     parts.append("</div>")
 
     # ================= bottom tab bar =================

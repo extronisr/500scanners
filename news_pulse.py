@@ -40,7 +40,7 @@ UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/142 Sa
 
 REFRESH_MINUTES = 55          # regenerate at most this often (hourly cadence)
 WINDOWS_H = {"us": 14, "il": 20, "geo": 48}   # freshness windows per section
-CAPS = {"us": 8, "il": 6, "geo": 2}
+CAPS = {"us": 10, "il": 8, "geo": 2}
 LEDE_MAX = 220
 
 GN = "https://news.google.com/rss/search?q={q}&hl={hl}&gl={gl}&ceid={gl}:{ceid}"
@@ -48,12 +48,22 @@ FEEDS = [
     # section, url, fixed source (None = read <source> tag), feed supplies lede
     ("us", "https://www.cnbc.com/id/100003114/device/rss/rss.html", "CNBC", True),
     ("us", "http://feeds.marketwatch.com/marketwatch/topstories/", "MarketWatch", True),
+    ("us", "https://www.ft.com/rss/home", "Financial Times", True),
+    ("us", "http://feeds.bbci.co.uk/news/business/rss.xml", "BBC", True),
+    ("us", "https://www.theguardian.com/uk/business/rss", "The Guardian", True),
+    ("us", "https://seekingalpha.com/feed.xml", "Seeking Alpha", False),
+    ("us", "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=1225", "גלובס", True),
     ("us", GN.format(q=urllib.parse.quote("stock market when:1d"), hl="en-US", gl="US", ceid="en"), None, False),
     ("il", "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585", "גלובס", True),
+    ("il", "https://rss.walla.co.il/feed/112", "וואלה", True),
     ("il", GN.format(q=urllib.parse.quote("בורסה when:2d"), hl="he", gl="IL", ceid="he"), None, False),
     ("geo", GN.format(q=urllib.parse.quote('geopolitical OR war OR sanctions OR "middle east" when:2d'),
                       hl="en-US", gl="US", ceid="en"), None, False),
 ]
+
+# English general-business feeds that must pass the market-headline filter.
+KW_FILTERED = {"CNBC", "MarketWatch", "Financial Times", "BBC", "The Guardian", "Seeking Alpha"}
+SA_NOISE = re.compile(r"earnings call (presentation|transcript)|- results -", re.I)
 
 # General feeds (CNBC / MarketWatch top stories) carry politics and lifestyle;
 # keep an item only when its headline is about markets.
@@ -195,15 +205,16 @@ def main():
     # Per-source caps keep Google News from flooding a section with whatever is
     # newest, and keep the lede-bearing outlets (CNBC / MarketWatch / Globes)
     # present in every refresh.
-    SRC_CAPS = {"us": {"Google News": 3, "CNBC": 3, "MarketWatch": 2},
-                "il": {"Google News": 3, "גלובס": 4},
+    SRC_CAPS = {"us": {"Google News": 3, "CNBC": 3, "MarketWatch": 2, "Financial Times": 2,
+                       "BBC": 2, "The Guardian": 2, "Seeking Alpha": 1, "גלובס": 2},
+                "il": {"Google News": 3, "גלובס": 4, "וואלה": 2},
                 "geo": {"Google News": 2}}
     GN_SOURCES = set(SRC_CAPS["us"]) | {"Google News"}
 
     sections = {}
+    kept_toks = []          # global: the same story never appears in two sections
     for sec, items in raw.items():
         window = timedelta(hours=WINDOWS_H[sec])
-        kept_toks = []
         per_src = {}
         out = []
         for it in sorted(items, key=lambda x: x["published"], reverse=True):
@@ -222,7 +233,9 @@ def main():
                     continue
                 if is_gn and it["source"].lower() not in BIG_SOURCES:
                     continue
-                if sec == "us" and it["source"] in ("CNBC", "MarketWatch") and not MARKET_KW.search(t):
+                if sec == "us" and it["source"] in KW_FILTERED and not MARKET_KW.search(t):
+                    continue
+                if it["source"] == "Seeking Alpha" and SA_NOISE.search(t):
                     continue
             bucket = "Google News" if is_gn else it["source"]
             cap = SRC_CAPS[sec].get(bucket, 2)
