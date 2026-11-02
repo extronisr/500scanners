@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-02T10:01:01.307674+02:00",
+ "generated_at": "2026-11-02T11:01:00.649739+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -8,6 +8,70 @@
  },
  "sections": {
   "us": [
+   {
+    "title": "Your stock portfolio increasingly hinges on the bond market — and the midterm elections",
+    "url": "https://www.marketwatch.com/story/your-stock-portfolio-increasingly-hinges-on-the-bond-market-and-the-midterm-elections-dc1abadb?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-02T08:56:00+00:00",
+    "lede": "Tech stocks in late October caught the cold that for months has been a drag on the corporate bond market.",
+    "lang": "en"
+   },
+   {
+    "title": "Henry Schein (HSIC) reports earnings tomorrow: what to expect",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQUlB6Nld4cmw1aG0xaHktb18yY0pqMjlvQXhiRWN5X0dfcmtERFR1RWZld2RnZ2p4bTZPZVdhVTV4UDVjWFFaTFZTSFZTS3dPMjRlMVdKcllLUW53WnUzMVpHUHNJazZXLVpWRnBYcVg4OE1NYkh2dzRPbmNpd2p5MFd2bzVCMlZMMnZTdU9NOE9yS1VDUkI5UE1weFJmZnY1?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-02T08:45:36+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Crypto ‘scammers on overdrive’ as Binance customers pull billions from accounts after $6.3bn hack – business live",
+    "url": "https://www.theguardian.com/business/live/2026/nov/02/crypto-scam-binance-billion-hack-business-live-latest-updates-news",
+    "source": "The Guardian",
+    "published": "2026-11-02T08:44:57+00:00",
+    "lede": "Rolling coverage of the latest economic and financial news Scammers appear to be targeting people affected by the Binance hack by offering them fake compensation rewards. There are screenshots circulating online that…",
+    "lang": "en"
+   },
+   {
+    "title": "Apple And Palantir To Kick Off Tech Earnings In Another Crucial Week, AMD To Settle Chip Debate After Intel’s Warning",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQUnkxVDRNUXZacktaRGt4RUEzdTk1a244S0FTRWgzTjhhWTRUTFdvVVRvVFZpZFRPb0VxUGlHTGFDRUdHQXVJNWdVZWRNUUtMeGJRenVtV25yQlYtdnBRRHg3Q0FCY2xKZGwxb3hPd3dneGJKME5jTGRjVG5kcjc1MWFiZ3VyLXlTSTJOWlhqdTAzb014ejRHaQ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-02T08:40:08+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Enpro (NPO) Q3 earnings: what to expect",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOdVh0a0RsWVNrZjQ2bS0xNzlCNXVjcFRaMTB3aW4wajEzRWFwSWEtbmZRNEFla0dGNHAyRVh2RVJvUkFqeE1ndlRGVERzUGpwUHlqQ1BJUmFlM2NNY051VHl0RnFWT3lKd05IUk1Ga3VXaEQ5bVhKWFN6RXBlVE9SQ0hGbklfZjJOTU1zNXNYcElYT29Qb3JtVA?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-02T08:37:36+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "המסחר באירופה נפתח בירידות; מחיר הנפט יורד ב-3%",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001561626#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-02T08:32:00+00:00",
+    "lede": "קאק ודאקס מאבדים כ-0.2% ופוטסי יורד ב-0.4%",
+    "lang": "he"
+   },
+   {
+    "title": "Global AI sell-off eases after Nasdaq’s worst month in over a year",
+    "url": "https://www.ft.com/content/d7fe99f8-d292-4cb5-a8fd-45be0f8cc2b3?syn-25a6b1a6=1",
+    "source": "Financial Times",
+    "published": "2026-11-02T08:23:25+00:00",
+    "lede": "US tech stocks set to start week higher following bruising rout",
+    "lang": "en"
+   },
+   {
+    "title": "Alstom shares tumble 26% after train maker cuts profit forecast",
+    "url": "https://www.ft.com/content/95723b31-c35b-4d68-9abe-9e082e95e362?syn-25a6b1a6=1",
+    "source": "Financial Times",
+    "published": "2026-11-02T08:16:32+00:00",
+    "lede": "French group also sets out plan to cut €2bn in debt in second major profit warning under new chief Martin Sion",
+    "lang": "en"
+   },
    {
     "title": "Nine big oil firms on track to share more than $95bn profit two quarters in a row",
     "url": "https://www.theguardian.com/business/2026/nov/02/nine-of-world-biggest-oil-firms-95bn-profit-third-quarter-iran-war",
@@ -23,75 +87,43 @@
     "published": "2026-11-02T07:42:33+00:00",
     "lede": "The exchange froze transactions following the incident which has been linked to a North Korean group.",
     "lang": "en"
-   },
-   {
-    "title": "Crypto ‘scammers on overdrive’ as Binance customers pull billions from accounts after $6.3bn hack – business live",
-    "url": "https://www.theguardian.com/business/live/2026/nov/02/crypto-scam-binance-billion-hack-business-live-latest-updates-news",
-    "source": "The Guardian",
-    "published": "2026-11-02T07:36:44+00:00",
-    "lede": "Rolling coverage of the latest economic and financial news And in case you missed it: rival trading platform Chainalysis said on Friday it had also been the target of a cyber attack, although it found no evidence of…",
-    "lang": "en"
-   },
-   {
-    "title": "Marine sniper turned macro strategist says this bull market has six to 12 months left. Here’s his playbook.",
-    "url": "https://www.marketwatch.com/story/marine-sniper-turned-macro-strategist-says-this-bull-market-has-six-to-12-months-left-heres-his-playbook-8b48ce6e?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-02T07:25:00+00:00",
-    "lede": "Alex Barrow, founder of Macro Ops, says the bull market is on borrowed time and will ratchet back painfully for investors who aren’t prepared.",
-    "lang": "en"
-   },
-   {
-    "title": "Markets Brief: Alphabet Stock’s Worst Day in History, Signs of Strain Across the AI Trade",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNRjZmc2JYckVQeTFGdHRENWhQS1hkSFFqdXBGVUk1T3ZsdXRyTGEzYk1LWnZkSDI2NDZiX08tZVJRZG1tU3UxNVN6d3R5eF9OMWJCUzJMeGNEWmMtSUs3YTAtVzJvbHRrelFpTXNZdFFsUW9DdjVxY1g2aEY3cUtKVWg0VnZwd004TGZKUkVoa0ZYX0U4VVhVRVdMUnY2SzBiZ1N2cm13OHozRUVkaU9YeGpR?oc=5",
-    "source": "Morningstar",
-    "published": "2026-11-02T07:09:34+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Matador Resources earnings: what to look for from MTDR",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPbWUydVJDZWE5ZnlGYUFXUVlZSU9RYl90dnlMQTd4bjhOdXFSZC0wYjdJZTA4cnZRdl9MU0NvcmRXeVg5djBodmcyWEFic3FtQ2tYNEh0cmQ1NDd6QjVjOVFuMWp2RHZaX3RJTUhvZ1RyaGpnRG41bjAwbGRsZTJRSWE2YmlmSWtTd3l4NUhTa3AtWU1yT2RSWkt5MzlLUjkxS0Vr?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-02T07:01:00+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Asian Stocks to Fall as Tech Rout Fuels AI Fears: Markets Wrap",
-    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUXhSWUZpNlU1UFZVSEtvY3QwQVB4T3FuYlpCT3lpaE05MThfMFFTZVZWWllFZDZDYkJFdTBIWEx1X1ZMVXlESFdaX3Noc2VSSW1QRHFzYzhPZkowLVNZeWR1N2dBN2hlLXY1VlJ3SHJNR3Ayc29JOXN4cXN3bklZQzN5bEctRER1aGp1eFdUVjhITWM0?oc=5",
-    "source": "Bloomberg",
-    "published": "2026-11-02T07:00:00+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Global AI sell-off eases after Nasdaq’s worst month in over a year",
-    "url": "https://www.ft.com/content/d7fe99f8-d292-4cb5-a8fd-45be0f8cc2b3?syn-25a6b1a6=1",
-    "source": "Financial Times",
-    "published": "2026-11-02T05:18:53+00:00",
-    "lede": "US tech stocks set to start week higher following bruising rout",
-    "lang": "en"
-   },
-   {
-    "title": "AI mania can’t survive higher interest rates",
-    "url": "https://www.ft.com/content/6e99dc59-8bd0-4c5c-8186-f6ceed04233a?syn-25a6b1a6=1",
-    "source": "Financial Times",
-    "published": "2026-11-02T05:00:17+00:00",
-    "lede": "The price of money is the pin that deflates market bubbles",
-    "lang": "en"
-   },
-   {
-    "title": "עליות באסיה ובחוזים בוול סטריט; מחיר הנפט יורד ב-3%",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001561626#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-02T04:59:00+00:00",
-    "lede": "גלובס מגיש עדכון ראשון לגבי מצב השווקים מסביב לעולם",
-    "lang": "he"
    }
   ],
   "il": [
    {
-    "title": "חוזה ב-600 מיליון שקל בין משרד הביטחון ואלביט: יוקם מתקן ייעודי עבור תותח \"הרועם\" ומערך \"להב\" של חיל התותחנים",
+    "title": "פתיחה שלילית באירופה, מחירי הנפט יורדים",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9hU1IxbE44QWxOaUhHR0t5eDJlUXJySXNmTXRNUFUwSVF5VUM1WTd6ak5YQTZQYjFIVFppVFFWZXNOWHdNbDFlakxWWlg2NHdPSHpOOTBDYy1PdmVzN1JDRkl3?oc=5",
+    "source": "Calcalist",
+    "published": "2026-11-02T08:48:45+00:00",
+    "lede": null,
+    "lang": "he"
+   },
+   {
+    "title": "מסחר תנודתי בבורסת ת\"א; פריון מזנקת בכ-30%",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001561569#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-02T08:26:00+00:00",
+    "lede": "המדדים נסחרים ביציבות • פריון מזנקת בעקבות ההודעה על מכירתה ב-420 מיליון דולר ל-Affle ההודית • הבוקר: עליות באסיה ובחוזים בניו יורק, הנפט יורד ב-3% • עונת הדוחות מגיעה לישראל: טאואר, טבע וקמטק בין המדווחות השבוע • שבוע…",
+    "lang": "he"
+   },
+   {
+    "title": "מיזוג הנדל\"ן הגדול יצא לדרך והשווי התכווץ בחצי",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001561642#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-02T08:06:00+00:00",
+    "lede": "הבוקר הושלם המיזוג בין ישראל קנדה ואקרו, שסיימה את דרכה כחברה ציבורית בבורסה בתל אביב",
+    "lang": "he"
+   },
+   {
+    "title": "גב־ים: הרווח הרבעוני עלה ב־68%; WeWork שוכרת ארבע קומות בתוהא 2",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001561641#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-02T07:59:00+00:00",
+    "lede": "הרווח הנקי המיוחס לבעלי המניות הסתכם ב-151 מיליון שקל ברבעון",
+    "lang": "he"
+   },
+   {
+    "title": "מתקן חדש לחיל התותחנים: אלביט חתמה על חוזה של 600 מיליון שקל עם משרד הביטחון",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001561638#utm_source=RSS",
     "source": "גלובס",
     "published": "2026-11-02T07:53:00+00:00",
@@ -99,68 +131,36 @@
     "lang": "he"
    },
    {
-    "title": "ביג נכנסת לבולגריה: רוכשת 7 נכסים תמורת 223 מיליון אירו",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001561640#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-02T07:41:00+00:00",
-    "lede": "חברת המרכזים המסחריים מרחיבה את פעילותה באירופה, באמצעות רכישת נכסים שחלקם מצויים בהקמה, וצפויים לייצר NOI שנתי של כ-16.8 מיליון אירו",
-    "lang": "he"
-   },
-   {
-    "title": "בהיקף של 28 מיליארד שקל: האם זה המהלך שישדרג את התחבורה הציבורית בישראל?",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001561637#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-02T07:21:00+00:00",
-    "lede": "מפת קווי השירות תעודכן כך שקווים בעלי ביקוש נמוך יצומצמו, והשירות יוסט לאזורים שבהם הביקוש גבוה יותר",
-    "lang": "he"
-   },
-   {
-    "title": "דיסקונט מתניע מחדש את מכירת כאל. אלה המועמדים המובילים",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001561635#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-02T06:52:00+00:00",
-    "lede": "דיסקונט נערך למכרז מחודש למכירת כאל, לאחר שההסכם עם יוניון-הראל פקע",
-    "lang": "he"
-   },
-   {
-    "title": "פתיחה מעורבת באסיה, מחירי הנפט יורדים",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9hU1IxbE44QWxOaUhHR0t5eDJlUXJySXNmTXRNUFUwSVF5VUM1WTd6ak5YQTZQYjFIVFppVFFWZXNOWHdNbDFlakxWWlg2NHdPSHpOOTBDYy1PdmVzN1JDRkl3?oc=5",
+    "title": "ממתינים לפתיחת נובמבר בת\"א, אחרי אוקטובר מאכזב",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0tc2x6S0h3NGl5ejFSdERHOEtCaTRaaF9TRFI1WVRWc2ZabklxTnJ0TEJOU296NjloaWZrT0o0Tll3anBsTTV4SkZsVExIU2JzSklZUEtYdTI5aXZiZ3lnS25n?oc=5",
     "source": "Calcalist",
-    "published": "2026-11-02T06:36:58+00:00",
+    "published": "2026-11-02T07:47:36+00:00",
     "lede": null,
     "lang": "he"
    },
    {
-    "title": "טאואר בפער שלילי; החוזים העתידיים בוולסטריט מתאוששים והבורסה לקראת שבוע הדוחות",
+    "title": "פריון מזנקת 25%, טבע ב-1.8%; טאואר מאבדת 3.8%; עליות קלות בבורסה",
     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBUMUtFZWRvaWJJdHoxZmt2V3J1akRyQkZFODBENDJvcDBqdUN2ZFhPYldpc2FEOXUxdGE1Q2g2bnlXTWMxZDI5TWdONXI0eFNXUzNHbzJCQ3ZpdjNmalIyNFlHa3V1YXEySEt4RDVXN0Y?oc=5",
     "source": "ביזפורטל",
     "published": "2026-11-02T05:19:00+00:00",
-    "lede": null,
-    "lang": "he"
-   },
-   {
-    "title": "הפריצה לבייננס: \"רוב סוחרי הקריפטו הישראלים חשופים לבורסה\". ומה המבחן?",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOLVVPSDlLY2ExcllzdWNxdEZ3dUxybVB4ckstOVA5SzMyakM5ZlBXaWtrbGhIc0RTam5xSmE5dTZWS3pzV3J2elhMMEtjRkhtSGFmclVXTEh0YTR1TlhjTjNRM3NvXzdhUURrX29acks4d2JPb2dNX1Q4TjgxYzQxU05rdkxQRGt3NXF0YnRTYzRBbnhnb083WHBQRTlSQ0x6N2lCUVlR?oc=5",
-    "source": "TheMarker",
-    "published": "2026-11-01T15:59:00+00:00",
     "lede": null,
     "lang": "he"
    }
   ],
   "geo": [
    {
-    "title": "COMMENTARY: Asia's crude oil imports back to pre-war levels but refined fuels lag",
-    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNUjRWdTdnRzAwR2xkSU04ZHlmbHh0eXg5Wm8xS1k5Q2hLYWRWbWdOVzd4ckZHcjZkYktZVHEyV29yQ25XNE9Ga0Y3TG5Dc3Awd054Y2o3MU5rLTNZNmRRTkZXVjdyZWJNYnM4bVczRU1RRmlqOW5JOVZCVWpJSXFDazBHWm5hUXhGb2FGS2xUN3Q5cFFQelVqazAxYXNDamdDZ0pINE5mQUE3VGhFdDcxZkZ4cUdSOFVQTWRsdXl6LXdMTUpIWnFLQ0VB?oc=5",
+    "title": "European shares slip as investors weigh Middle East talks; Alstom tanks",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZHBCTFNsTWh0RmpkcWloQkhvaWlJWW1BQWM3VU93VXNSVXA5QXhVOTI3WEs2N0I3NUd3OFo4YjcxT0Fob2ZIWU5leTA2Y1kxUlZDUlNNYURhM0x0c2FoVHhuT0tBTXZ1WTBmdUZyN1NXcXl3VnRIVENPTGZfSmtWZ2pIa2FjUWVXV243UWtPNnBLZmtnaWwtaTRSRG5hQ2w2T3V3cHlZQTlLbzNhUFRtZHFB?oc=5",
     "source": "Reuters",
-    "published": "2026-11-02T07:24:40+00:00",
+    "published": "2026-11-02T08:35:43+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "China’s soaring chemical exports threaten new trade war front",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOUVVIM21ybXBWenJzZkRET2ZJRmh3dWNrQXFGN1ItTDczR2RFNklpV1hwNHlvN2VPeWo0LVVxbk45RFQ2Y1IzaHZwa2dBUm9fMXUtdExYa29ucnh1dTlPcWdzc1BnMjhxRHFFZF9LemR6bDhueFpsTVAwZFctM18zTFppbFA?oc=5",
-    "source": "Financial Times",
-    "published": "2026-11-02T06:43:12+00:00",
+    "title": "COMMENTARY: Asia's crude oil imports back to pre-war levels but refined fuels lag",
+    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNUjRWdTdnRzAwR2xkSU04ZHlmbHh0eXg5Wm8xS1k5Q2hLYWRWbWdOVzd4ckZHcjZkYktZVHEyV29yQ25XNE9Ga0Y3TG5Dc3Awd054Y2o3MU5rLTNZNmRRTkZXVjdyZWJNYnM4bVczRU1RRmlqOW5JOVZCVWpJSXFDazBHWm5hUXhGb2FGS2xUN3Q5cFFQelVqazAxYXNDamdDZ0pINE5mQUE3VGhFdDcxZkZ4cUdSOFVQTWRsdXl6LXdMTUpIWnFLQ0VB?oc=5",
+    "source": "Reuters",
+    "published": "2026-11-02T07:59:53+00:00",
     "lede": null,
     "lang": "en"
    }
