@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-02T11:58:36.586735+02:00",
+ "generated_at": "2026-11-02T13:01:07.036734+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -8,6 +8,70 @@
  },
  "sections": {
   "us": [
+   {
+    "title": "Wall Street futures rise as AI stocks catch their breath; midterms in focus",
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPbnVDQzd0LTF3Vi1BMnJDLWpGaHNIMlJVTDNnVmplMzZnVjRxRTZUUTRsQkVvZ21EN3lXMzA4ZDJnOTQwc01ld2tqT1pGZVN6VmpuVWpzLVVMUU1qcDdnRFdEQUZoM0l6Ym9NYnhfWDctWkZnSC1fLUk0RGxtUmd3WU9zLXdhcTdGTkJvcUxaazZKZEliVjl3bVBfZldDajJMOXZtVkx0NVI4YWlwMkVFbXpMR0ZGQW9wOWxEcTM3QThSdk1fb2c?oc=5",
+    "source": "Reuters",
+    "published": "2026-11-02T10:57:52+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "It would shock you how bearish Wall Street is on hyperscalers Microsoft, Amazon, Alphabet, Meta and Oracle",
+    "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNbzNBb2VnOFE0aWF5eEUxbldqVnRGeEMySFhCVERqdW5GY2oxcXBFMjBFZzgyMWQ3TjcyVjR6c2NNdGlSa29IcU5JLXlLbHlXQUoycFVObE91aW11aWZPaVNmQng0MVo5bllPOVl3V2pJNERwLU5xancxMkI0d1VPMHJNbUV0MUVHeG9HVkVFeEZsaVlrRVpyWFd1c2I3cXlVN2cyWk11LXAyU3U3TFJUM2V0RnZidFA1clgxWEJ1ckQ4LXgtdVRyQ0ZCdWhsY0diVzBKdWRJbkMyX1RicTBvRTVfcTNydUJBeVVmM0l4U0h2aVl0M1JFZGRqMA?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-02T10:52:34+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Global AI sell-off eases after Nasdaq’s worst month in over a year",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOT08zMXJZU1Fibm1jZjRGMXpfTWtSaGNCS1FDWEZXQ3hJTm5vVjQ1S212bVhKdm1BOEJGTUxBcTBnTzhlMERmY0plSkNjdmhwYVY3a3pnUG5XTWVNOEhUcEFaazd3cGl4cWJKUndXNFNZd3EtNGR4S0x2cFNJc19NazBiSVc?oc=5",
+    "source": "Financial Times",
+    "published": "2026-11-02T10:52:30+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "The latest market wobble sees Citi giving up on this big tech trade",
+    "url": "https://www.marketwatch.com/story/the-latest-market-wobble-sees-citi-giving-up-on-this-big-tech-trade-181b0dea?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-02T10:36:00+00:00",
+    "lede": "Hyperscalers and growth plays have underperformed amid a sharp rotation",
+    "lang": "en"
+   },
+   {
+    "title": "Crypto ‘scammers on overdrive’ as Binance customers pull billions from accounts after $6.3bn hack – business live",
+    "url": "https://www.theguardian.com/business/live/2026/nov/02/crypto-scam-binance-billion-hack-business-live-latest-updates-news",
+    "source": "The Guardian",
+    "published": "2026-11-02T10:35:26+00:00",
+    "lede": "Rolling coverage of the latest economic and financial news Yi He, co-founder of Binance, has said that its top priority is to “ensure the environment is secure, after which users can withdraw their funds and Binance can…",
+    "lang": "en"
+   },
+   {
+    "title": "איראן בצד אחד, סעודיה מנגד: ענקיות היצוא לא מוצאות פתרון למשבר הנפט",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001561552#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-02T10:32:00+00:00",
+    "lede": "באיראן צנחו ההכנסות מנפט ב־44% באוקטובר לעומת הממוצע החודשי במחצית הראשונה של השנה, וארה\"ב מתייצבת כמפיקה ויצואנית הנפט המובילה בעולם על חשבון ענקיות המפרץ",
+    "lang": "he"
+   },
+   {
+    "title": "העסקה הבאה של רפאל? המדינה המפתיעה שמתעניינת במיירטי כיפת ברזל",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001561653#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-02T10:14:00+00:00",
+    "lede": "בצל הלחימה המתמשכת באוקראינה ובמזרח התיכון, בכירים ביטחוניים באוסטרליה אמרו בדיון בפרלמנט כי ברצונם להעמיד מערך הגנה משופר מפני טילים עד תחילת העשור הבא",
+    "lang": "he"
+   },
+   {
+    "title": "European supermarket freezers hit just weeks after French cyber attack",
+    "url": "https://www.ft.com/content/2526056c-c616-4116-94b1-ac278da21cca?syn-25a6b1a6=1",
+    "source": "Financial Times",
+    "published": "2026-11-02T09:49:26+00:00",
+    "lede": "Retailers in Sweden and Belgium report units overheating to as high as 55C in dozens of stores",
+    "lang": "en"
+   },
    {
     "title": "Tech stocks have made big V-shaped rebounds five times in 30 months — and now Deutsche Bank forecasts another bounce",
     "url": "https://www.marketwatch.com/story/tech-stocks-have-made-big-v-shaped-rebounds-five-times-in-30-months-and-now-deutsche-bank-forecasts-another-bounce-0a552a62?mod=mw_rss_topstories",
@@ -17,93 +81,53 @@
     "lang": "en"
    },
    {
-    "title": "Ball (BALL) Q3 earnings: what to expect",
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxORjlDTmdOX1ZkSmZxMDBreVFteDZMQlVmblBRTnFicXV5ZzBmaF9EY2xqclJpYkFPNlhrcTN5X3NuS3plUFpJTmhLbXVkaFdCcGlCeWJoN24zV3hkMEQ0Y2RXYzNRTlF3VkdHZHBBM1EyMWVHYWFlT3ExMGdYUlUtTjRNYVZjQ2ZBTURUSlhUdFBjNGZPZG9LNA?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-02T09:41:36+00:00",
+    "title": "U.S. crude falls below $100 amid reports of U.S.-Iran diplomatic efforts",
+    "url": "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html",
+    "source": "CNBC",
+    "published": "2026-11-02T09:17:54+00:00",
+    "lede": "Oil fell Monday, amid news that both the U.S. and Iran are pursuing diplomacy amid ongoing Mideast tensions",
+    "lang": "en"
+   }
+  ],
+  "il": [
+   {
+    "title": "מחירי הביטוח המקיף צנחו ב-25% מהשיא. אלה הדגמים שירדו יותר",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001561658#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-02T10:44:00+00:00",
+    "lede": "עפ\"י נתוני Wobi, מחירי הביטוח המקיף רשמו ברבעון האחרון ירידה של 4% והשלימו ירידה של 13% בשנה האחרונה",
+    "lang": "he"
+   },
+   {
+    "title": "תנודתיות קלה בבורסת בת\"א; פריון נטוורק מזנקת ב-31%",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0tc2x6S0h3NGl5ejFSdERHOEtCaTRaaF9TRFI1WVRWc2ZabklxTnJ0TEJOU296NjloaWZrT0o0Tll3anBsTTV4SkZsVExIU2JzSklZUEtYdTI5aXZiZ3lnS25n?oc=5",
+    "source": "Calcalist",
+    "published": "2026-11-02T10:35:36+00:00",
     "lede": null,
-    "lang": "en"
+    "lang": "he"
    },
    {
-    "title": "Global AI sell-off eases after Nasdaq’s worst month in over a year",
-    "url": "https://www.ft.com/content/d7fe99f8-d292-4cb5-a8fd-45be0f8cc2b3?syn-25a6b1a6=1",
-    "source": "Financial Times",
-    "published": "2026-11-02T09:40:58+00:00",
-    "lede": "US tech stocks set to start week higher following bruising rout",
-    "lang": "en"
+    "title": "מסחר תנודתי בבורסת ת\"א; טאואר יורדת ב-3%, נייס עולה",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001561569#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-02T10:20:00+00:00",
+    "lede": "המדדים נסחרים בירידות • פריון מזנקת בעקבות ההודעה על מכירתה ב-420 מיליון דולר ל-Affle ההודית • עונת הדוחות מגיעה לישראל: טאואר, טבע וקמטק בין המדווחות השבוע • שבוע דרמטי בוול סטריט: הדוחות של אפל ופלנטיר הלילה, בחירות…",
+    "lang": "he"
    },
    {
-    "title": "Crypto ‘scammers on overdrive’ as Binance customers pull billions from accounts after $6.3bn hack – business live",
-    "url": "https://www.theguardian.com/business/live/2026/nov/02/crypto-scam-binance-billion-hack-business-live-latest-updates-news",
-    "source": "The Guardian",
-    "published": "2026-11-02T09:35:44+00:00",
-    "lede": "Rolling coverage of the latest economic and financial news Yi He, co-founder of Binance, has said that its top priority is to “ensure the environment is secure, after which users can withdraw their funds and Binance can…",
-    "lang": "en"
-   },
-   {
-    "title": "CRCL Faces Q3 Test as Prediction Markets Bet on Earnings Beat Despite AI Revenue Risks",
-    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPc3dFdFdsVFRqdGVNN2N3UWdvaUg1azY1T21zeDRwOHRheEFIZUN3dWU3eFdtVVc3TWQxMzdCRmxfNUJOMmhscHpVZTV6bmhUUER3aXpGcmQyTTRSbjNuYTBNQlhQTkNER1RJVUwzUUtJZG1rcG9lQ1dLWXdrcEY3SmkxRFZLWnpqLUZ5OXBWazkyQWgxQl9mbXh3?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-02T09:26:11+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "2 Words From Fed Chair Kevin Warsh Are Echoing Through Wall Street and Unnerving Investors",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPd2ZTQWY4c3BVT3kwNEFhVUNOYkJBWjNFdlZuc2tCSmNROElwUEN2RE85WTJzdi01cnhqdExod0t2MWZPSTgtVUM0eGRGdVVXVXE5dGdLbEJaNWhkZzdCbG5YRDdlaEFrcXd5aFpNNTFYb2FIMnIxUjdncTFKOEdVekN2NUlVMXlrWTFHcE1vZmN2QQ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-02T09:26:01+00:00",
-    "lede": null,
-    "lang": "en"
+    "title": "\"ההתאוששות אורכת זמן רב מהצפוי\": צ'ק פוינט צונחת במסחר המוקדם אחרי הדוחות",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001561651#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-02T10:00:00+00:00",
+    "lede": "ההכנסות ירדו ב-1.1% ל-670 מיליון דולר, בהתאם לתחזית החברה אך מעט מתחת לציפיות האנליסטים",
+    "lang": "he"
    },
    {
     "title": "יציבות בבורסות אירופה; מחיר הנפט יורד ב-3%",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001561626#utm_source=RSS",
     "source": "גלובס",
     "published": "2026-11-02T09:21:00+00:00",
-    "lede": "בורסות פרנקפורט ופריז נסחרות ללא שינוי • עליות בחוזים העתידיים בניו יורק • מחיר הנפט יורד במעל 3% • המשקיעים נערכים לשבוע עמוס בדוחות כספיים, בנתוני תעסוקה ובבחירות האמצע לקונגרס בארה\"ב • מורגן סטנלי: הבחירות לא משנות…",
-    "lang": "he"
-   },
-   {
-    "title": "The election will be good news, regardless of outcome, says Morgan Stanley’s chief stock-market strategist",
-    "url": "https://www.marketwatch.com/story/the-election-will-be-good-news-regardless-of-outcome-says-morgan-stanleys-chief-stock-market-strategist-ffa320ed?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-02T09:15:00+00:00",
-    "lede": "Morgan Stanley’s chief stock-market strategist, Mike Wilson, said the midterm elections are a classic “clearing event” whose outcome at this point doesn’t really matter.",
-    "lang": "en"
-   },
-   {
-    "title": "7 מיליארד דולר על הכף: מי תזכה - ישראל או צרפת?",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001561556#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-02T09:13:00+00:00",
-    "lede": "כ־7 מיליארד דולר עומדים על הפרק במכרז הגנה אווירית בשווייץ, שבו מתחרות מערכת ברק MX של התעשייה האווירית ו־SAMP/T NG הצרפתית",
-    "lang": "he"
-   },
-   {
-    "title": "Alstom shares tumble 28% after train maker cuts profit forecast",
-    "url": "https://www.ft.com/content/95723b31-c35b-4d68-9abe-9e082e95e362?syn-25a6b1a6=1",
-    "source": "Financial Times",
-    "published": "2026-11-02T08:16:32+00:00",
-    "lede": "French group also sets out plan to cut €2bn in debt in second major profit warning under new chief Martin Sion",
-    "lang": "en"
-   }
-  ],
-  "il": [
-   {
-    "title": "מסחר תנודתי בבורסת ת\"א; טאואר יורדת ב-2%, נייס עולה",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001561569#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-02T09:38:00+00:00",
-    "lede": "המדדים נסחרים ביציבות • פריון מזנקת בעקבות ההודעה על מכירתה ב-420 מיליון דולר ל-Affle ההודית • הבוקר: עליות באסיה ובחוזים בניו יורק, הנפט יורד ב-3% • עונת הדוחות מגיעה לישראל: טאואר, טבע וקמטק בין המדווחות השבוע • שבוע…",
-    "lang": "he"
-   },
-   {
-    "title": "תנודתיות קלה בבורסת בת\"א בפתח נובמבר; פריון נטוורק מזנקת ב-30%",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0tc2x6S0h3NGl5ejFSdERHOEtCaTRaaF9TRFI1WVRWc2ZabklxTnJ0TEJOU296NjloaWZrT0o0Tll3anBsTTV4SkZsVExIU2JzSklZUEtYdTI5aXZiZ3lnS25n?oc=5",
-    "source": "Calcalist",
-    "published": "2026-11-02T09:11:15+00:00",
-    "lede": null,
+    "lede": "בורסות פרנקפורט ופריז נסחרות ללא שינוי • עליות בחוזים העתידיים בניו יורק • מחיר הנפט יורד במעל 3% • צ'ק פוינט נופלת במסחר המוקדם • המשקיעים נערכים לשבוע עמוס בדוחות כספיים, בנתוני תעסוקה ובבחירות האמצע לקונגרס בארה\"ב •…",
     "lang": "he"
    },
    {
@@ -121,46 +145,22 @@
     "published": "2026-11-02T08:56:16+00:00",
     "lede": null,
     "lang": "he"
-   },
-   {
-    "title": "מיזוג הנדל\"ן הגדול יצא לדרך והשווי התכווץ בעשרות אחוזים",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001561642#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-02T08:06:00+00:00",
-    "lede": "הבוקר הושלם המיזוג בין ישראל קנדה ואקרו, שסיימה את דרכה כחברה ציבורית בבורסה בתל אביב",
-    "lang": "he"
-   },
-   {
-    "title": "גב־ים: הרווח הרבעוני עלה ב־68%; WeWork שוכרת ארבע קומות בתוהא 2",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001561641#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-02T07:59:00+00:00",
-    "lede": "הרווח הנקי המיוחס לבעלי המניות הסתכם ב-151 מיליון שקל ברבעון",
-    "lang": "he"
-   },
-   {
-    "title": "מתקן חדש לחיל התותחנים: אלביט חתמה על חוזה של 600 מיליון שקל עם משרד הביטחון",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001561638#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-02T07:53:00+00:00",
-    "lede": "החוזה נחתם ל־15 שנה במהלך שנועד לשפר את הכשרת הלוחמים והמפקדים, לקצר זמני הסמכה ולחסוך בעלויות באמצעות סימולטורים ותשתיות טכנולוגיות",
-    "lang": "he"
    }
   ],
   "geo": [
    {
-    "title": "China's foreign minister pushes for dialogue to resolve Middle East conflict",
-    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNVJGdUotaWhuOVFjZ2VTVHZ5bkxnbmVXd3BUS0JEenI2QkpMYXJSVUxpUGJrNHpaMkFtZ244cE93RWhCWExKTmJFdm5FbFZEck14aVdnaW0tdU5DdHY0UUk3TkpqbW5vb1RzMW85Z1VkZHFBSnlRMkRVUTlxRDgyR2Z1N3BBSkRsdzI2Mm9WQmxjaFpiOUpqR3k5WjRZUVVZaUtGWGVscXhlS01PZjBUTWRMNHpIU28?oc=5",
+    "title": "Iranians have left Doha talks, draft proposal for US deal being circulated, official says",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOLXhRTFk2aHFYY3VOMWFGdmFySFR5MTNxeWRRU1ZQM3RaWjg4ZFZlOTJHNDZjYmdCVjBOX0RweVAyWEI4T2dZMVFSbUt4bTc4NGlibnlTaDh2TUNydEdOQjZJSmt3RnRIbk1LNVJ4SlNkR0M3QWs3NnZwQ0JlMW5Ud0FaN29PaGcwdk1CbTZ1UUhjYkg5XzZwVmdwWGNnRnladzZVUEhBeTZScEZIMl9YZ0hUT01GcDdkMXFwcXF0Q3hkTEluSnpnb3F5RFA?oc=5",
     "source": "Reuters",
-    "published": "2026-11-02T09:49:43+00:00",
+    "published": "2026-11-02T10:22:42+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "European shares slip as investors weigh Middle East talks; Alstom tanks",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZHBCTFNsTWh0RmpkcWloQkhvaWlJWW1BQWM3VU93VXNSVXA5QXhVOTI3WEs2N0I3NUd3OFo4YjcxT0Fob2ZIWU5leTA2Y1kxUlZDUlNNYURhM0x0c2FoVHhuT0tBTXZ1WTBmdUZyN1NXcXl3VnRIVENPTGZfSmtWZ2pIa2FjUWVXV243UWtPNnBLZmtnaWwtaTRSRG5hQ2w2T3V3cHlZQTlLbzNhUFRtZHFB?oc=5",
-    "source": "Reuters",
-    "published": "2026-11-02T08:35:43+00:00",
+    "title": "Gulf Economies, Torn by War in Iran, Desperately Need a Return to Normal",
+    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1PcFdpUFRyRTdQaWZ3Y200c3pzcURYQjBOekRLZ1o0YUphWERKa05ZSVZhd3lfLVpYZllxQ0g5bEtnNVdydC03YTNHN0RQZkVQdHN5c3llaWdfbkhPcUxKQ3JYSkpNSms2WVdtT1VDQWh0cTNBVENwQTh4VTA?oc=5",
+    "source": "The New York Times",
+    "published": "2026-11-02T10:02:16+00:00",
     "lede": null,
     "lang": "en"
    }
