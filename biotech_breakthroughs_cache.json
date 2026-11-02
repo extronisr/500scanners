@@ -1,6 +1,28 @@
 {
- "fetched_at": "2.11.2026, 17:34",
+ "fetched_at": "2.11.2026, 18:05",
  "items": [
+  {
+   "title": "FDA Approves Voceryq, First Plasmid DNA Immunotherapy for Recurrent Respiratory Papillomatosis - Contagion Live",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNTjhpS0tJalV3QnluUUlDakhEajRPQjRqY1hYQmZ6eG5xdGVpTWJ6YnpULTFHTElpZE5hNWY0QllJTk5SQ1BhWjNRQzdaemN2NWNnTk10TkVRcVB2TWU2NHBiTGtCSHF5YUhGVHhVcUIwWEcxdUlfT0dQYlhlSzc0Q0tNdXRBYXdHbXg2ZUx3?oc=5",
+   "pub_ts": 1793633669.0,
+   "date": "2.11.2026, 17:34",
+   "cat": "fda",
+   "sev": 4,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNTjhpS0tJalV3QnluUUlDakhEajRPQjRqY1hYQmZ6eG5xdGVpTWJ6YnpULTFHTElpZE5hNWY0QllJTk5SQ1BhWjNRQzdaemN2NWNnTk10TkVRcVB2TWU2NHBiTGtCSHF5YUhGVHhVcUIwWEcxdUlfT0dQYlhlSzc0Q0tNdXRBYXdHbXg2ZUx3?oc=5"
+    },
+    {
+     "source": "FDA",
+     "link": "http://www.fda.gov/news-events/press-announcements/fda-approves-first-plasmid-dna-based-immunotherapy-adults-recurrent-respiratory-papillomatosis"
+    }
+   ],
+   "ncts": []
+  },
   {
    "title": "FDA approves long-acting preventive drug for HIV - صوت الإمارات",
    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPV1psQXl4c21leHBkMmJEekxFX1RqcHdkWmZyVnhTa0NEdzhLYUVuQ20xX1RpN2ZuT1JZd2J3SDhDNHpzZmREOTAyWmJuRVBzMnkycDhVaUw2d0ZqUzlpaDJ5bmVlU0hkODRzM1N0cFc2aEtaZ194OF9Ka3VLT1drcXVrNDJaQWdmRTQ1bklvQXlteEFRcjBVWUhVdWJtcGtMcFo1dQ?oc=5",
@@ -178,24 +200,6 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQYWZYdjRpWkNvTktwSWdvS0dWZlpGM2hUZDJ5WDJGWXg5TjNDZ2dqSThUOWJOc3ZOckZ1eVRDOXAwdnNvVmZzMjFHSklheDhtVVZqRmVfdzN2ZWpNSF9FdDJlcTYyU2p6YkhxWTNwVWFJb3F0R3BDeGF6djhUc3JnMmJJWi1oUFIwckhIUUJEMXZ0VFNZXzlBMTg4Q1hsV3p2RW5XWW5abC1mUWlWWTVIQjlzRHBLdkhWVUpyMTVwZ2lWNmxyc2w3VHdEQlFoRFdCUmRqellxT2xTZkY0SkJDWUJFWS0?oc=5"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "FDA Approves First Plasmid DNA-based Immunotherapy for Adults with Recurrent Respiratory Papillomatosis",
-   "link": "http://www.fda.gov/news-events/press-announcements/fda-approves-first-plasmid-dna-based-immunotherapy-adults-recurrent-respiratory-papillomatosis",
-   "pub_ts": 1793392328.0,
-   "date": "30.10.2026, 22:32",
-   "cat": "fda",
-   "sev": 4,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA",
-     "link": "http://www.fda.gov/news-events/press-announcements/fda-approves-first-plasmid-dna-based-immunotherapy-adults-recurrent-respiratory-papillomatosis"
     }
    ],
    "ncts": []
@@ -2721,6 +2725,24 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNbzF3N1pRTEplaGgwZ1hENVVJOXBUTjJIUnAtaWg3YzlhaWRlaHBRczVUZ2Z2cWdFeTRLZVppejBMeW9IWjNJQ3JSeGExelBzc3dsdkk4VmNpYzF2QlRtSkVNSFRIUEpiSzlGN2hZYVlObENXcy1tVTl2THAzZXJBSk5OM2FUTXdEVF9TSHAyM3Rnek80eXNHWWJrX0ZPQUV3ZTNUTVJrVjlKRFZzTFJSODhlallOMkxVR3hYV3hqQ2dYQm02R0hMWDE0ZXFXR250U2loTVZCc29KRV9QXzNnaTY4Yi1kLWc?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA approves generic version of HIV-prevention drug to be sold in low-income countries - WPTZ",
+   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPdDlMZjh1aEN6cEIzT0dLMWJlUmRBbnhuS19RZ05nOGZ5UGNTaUpRcExqbXlpalVwZW40RWwtNWNjTEc5b1ZadzExQ0ZQaFRlRHYxZGpNUnlHcVlBbFQ0QTFvWEJpUW5VSkV4ZzE5X3U1X2doSm0zcEpULWhPUGk0akJ6bw?oc=5",
+   "pub_ts": 1793633820.0,
+   "date": "2.11.2026, 17:37",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPdDlMZjh1aEN6cEIzT0dLMWJlUmRBbnhuS19RZ05nOGZ5UGNTaUpRcExqbXlpalVwZW40RWwtNWNjTEc5b1ZadzExQ0ZQaFRlRHYxZGpNUnlHcVlBbFQ0QTFvWEJpUW5VSkV4ZzE5X3U1X2doSm0zcEpULWhPUGk0akJ6bw?oc=5"
     }
    ],
    "ncts": []
