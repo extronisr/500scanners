@@ -2661,7 +2661,7 @@ def build_html(mh, dips, alerts, bo, updated, extra=None):
                          f'{_p.day}.{_p.month} {_p.hour}:{_p.minute:02d}</div>')
                 _lede = (f'<p{_dir}>{esc(it["lede"])}</p>' if it.get("lede") else "")
                 parts.append(
-                    f'<div class="finding"><a class="news-link" href="{esc(it.get("url") or "")}" '
+                    f'<div class="finding"{_dir}><a class="news-link" href="{esc(it.get("url") or "")}" '
                     f'target="_blank" rel="noopener"><span{_dir}>{esc(it.get("title") or "")}</span></a>'
                     f'{_meta}{_lede}</div>')
                 _shown += 1
