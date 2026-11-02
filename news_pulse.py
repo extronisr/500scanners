@@ -127,6 +127,29 @@ def trim_lede(desc):
     return s or None
 
 
+STOPWORDS = {
+    "a", "an", "the", "in", "on", "at", "to", "for", "of", "and", "or",
+    "as", "is", "are", "was", "were", "be", "been", "by", "with", "from",
+    "that", "this", "it", "its", "his", "her", "their", "after", "before",
+    "over", "under", "into", "about", "amid", "says", "said", "say",
+    "what", "why", "how", "new", "latest", "update", "live", "briefing",
+    "watch", "explainer", "analysis",
+}
+
+
+def _stem(w):
+    # good-enough plural strip so "apps"/"app" and "alerts"/"alert" match
+    if len(w) > 4 and w.endswith("es"):
+        return w[:-2]
+    if len(w) > 3 and w.endswith("s"):
+        return w[:-1]
+    return w
+
+
+def content_tokens(toks):
+    return {_stem(w) for w in toks} - STOPWORDS
+
+
 def norm_title(t):
     t = re.sub(r"\s+-\s+[^-]{2,40}$", "", t or "")  # drop " - Source" suffix
     return set(re.findall(r"[a-z0-9\u0590-\u05ff]+", t.lower()))
@@ -138,6 +161,11 @@ def is_dup(toks, kept):
             continue
         j = len(toks & k) / max(1, len(toks | k))
         if j >= 0.6:
+            return True
+        # cross-outlet rewrite of the same story: many shared content words
+        # (e.g. "air raid alert apps" vs "air raid warning app")
+        shared = content_tokens(toks) & content_tokens(k)
+        if len(shared) >= 4 and sum(1 for w in shared if len(w) >= 5) >= 2:
             return True
     return False
 
