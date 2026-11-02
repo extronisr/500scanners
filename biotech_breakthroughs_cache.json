@@ -1,5 +1,5 @@
 {
- "fetched_at": "2.11.2026, 22:14",
+ "fetched_at": "2.11.2026, 22:35",
  "items": [
   {
    "title": "FDA Approves Hibsago for Chronic Hepatitis B Infection - Pharmacy Practice News",
@@ -1526,7 +1526,7 @@
   },
   {
    "title": "Veradermics' hot streak continues with another phase 3 win in hair loss - Fierce Pharma",
-   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPcXVtVkxocXRiTmNMMXFlZXMwTGQ5ZDZFWGpjT0VYTDM0Wk5pS3JhMXZvZHg0QnJvQ3FkMERuekRMcFdmYnVyWU9QTGl0TXdRRi0zRV94aEIzZm9iYUtFZ196T05JaDRyU3BidC16NFRuSzRXUV9rcFlXekUwNzNXckFSR0xKaEtvUEpvdTBjeDlqdVpmS01qVk1WMjB0enJqc2NuNjhnT0o?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPcDUyR2xKbWpyNkxTT1BZY2xmNHNMMGlnRVFTeVBUX091Q295bEYxYnhtaUI4a0k5cGpRQnNTTFE3c2Q3M2E0YTc3ZFBodjhlbUxWVHhUd0VxOUp4dnBuQTZITjdBNUNaWDl2T0pLQl8tYWFBX3p2YmxyWFVwZUpDbS1zYm5TRmQ4cElpSjhJR09waXNn?oc=5",
    "pub_ts": 1792479600.0,
    "date": "20.10.2026, 10:00",
    "cat": "phase3",
@@ -4093,6 +4093,24 @@
    "ncts": [
     "NCT05210790"
    ]
+  },
+  {
+   "title": "What Phase 2 and 3 Data Show for Topical Difamilast in Atopic Dermatitis - HCPLive",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNaklJYTl6OXlvQklZbDN0SFhTSXFHWWViU2x1WWVkX1hTNnFsZm52NEd6YTdlVk5oUk1lQm40YUZ6MW9qRVZBT2lqRkd1UE43WlN6ZjRETm5QbDhMblUzSlRxRXhLaGF4ZFpWb3E3NWJOZy1WVXJ1enhval8tYjJqLWlRMVhxQkdrTFNGM3NVUzVKTDlY?oc=5",
+   "pub_ts": 1793650491.0,
+   "date": "2.11.2026, 22:14",
+   "cat": "phase2",
+   "sev": 1,
+   "dir": 0,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNaklJYTl6OXlvQklZbDN0SFhTSXFHWWViU2x1WWVkX1hTNnFsZm52NEd6YTdlVk5oUk1lQm40YUZ6MW9qRVZBT2lqRkd1UE43WlN6ZjRETm5QbDhMblUzSlRxRXhLaGF4ZFpWb3E3NWJOZy1WVXJ1enhval8tYjJqLWlRMVhxQkdrTFNGM3NVUzVKTDlY?oc=5"
+    }
+   ],
+   "ncts": []
   },
   {
    "title": "Sabirnetug Misses Primary Endpoint in Phase 2 Alzheimer Disease Trial - Psychiatric Times",
