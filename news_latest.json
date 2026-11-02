@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-02T19:01:05.312336+02:00",
+ "generated_at": "2026-11-02T20:01:04.040176+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -9,36 +9,102 @@
  "sections": {
   "us": [
    {
+    "title": "Stock market after midterm elections: What S&P 500 history shows",
+    "url": "https://www.cnbc.com/2026/11/02/stock-market-after-midterm-elections-sp-500-history.html",
+    "source": "CNBC",
+    "published": "2026-11-02T17:57:35+00:00",
+    "lede": "Midterms historically precede a strong year for the S&P 500. What to know if Democrats win back Congress",
+    "lang": "en"
+   },
+   {
+    "title": "The EPS ‘Miss That Wasn’t Gave You and Me an Opportunity to Scoop Up Alphabet Cheaply",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNRDJRdW1GcDNCa1MyLWc4QnUzQ1lpcFlpblJ4OHJxMnp0UDM1cXhFbTctYlF1RGtHdXB4Vnp6R2xKbVFoamJOT3JodEY5WEVVREFZblh0MFB6QVBUUk5BemMzOF9XN3BteWI0eXA5N3pVM2tUa3Z1UDdBSU0xY2RmSHdVdkxtZnpnenc0RXJ3?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-02T17:45:18+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Meta and Alphabet Face Serious Market Pressure Over Capex in Q4",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPbWxBbU5PenFTS0xBalJtcVk2VkdfUkpUM1l4eXlITi1QdHdnOEhZTVgzWFNGWFZwWWdVRlpGRGNwTnZLclVqNmx6TmNxM1BqQ1BFZXpIbldDNmJpNkpfbVRGY01peDhzUEpfZjlHWENwRHJIbzRIRUxJNW9NRm9zejB2Y2J0YVVGZlNRXzBmQ2xHbWZBLTZTdlc4Z2U2Y3M?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-02T17:45:14+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Crude oil prices sell off more than 7% on Iran peace talk hopes ahead of U.S. midterms",
+    "url": "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html",
+    "source": "CNBC",
+    "published": "2026-11-02T17:37:46+00:00",
+    "lede": "Oil fell Monday, amid news that both the U.S. and Iran are pursuing diplomacy amid ongoing Mideast tensions",
+    "lang": "en"
+   },
+   {
+    "title": "APLD Stock Hits Over 1-Year Low: CEO Says It’s Not a Neocloud, But 800 MW Capacity Still Needs Financing",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxORTVkN3Y2VUFtVmhNTE0xNzVZbTAzR3VtZVRNMm9RRzVZZWV6ZDBqeTNnS3RraHZhQ1Rsck16QXdWc2haelJhWm9rVlA5UnpmekpkbFN1VkhuQVFYdjVkNlR4TDd4emVKXzI5LXVIYUxqVDlnS2dCUWJVckg2VlFUZDN2Ym1jZ045WmEwV1dmNjE?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-02T17:36:43+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Oracle files to sell $20 billion in new stock, bonds to finance AI buildout",
+    "url": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html",
+    "source": "CNBC",
+    "published": "2026-11-02T17:35:06+00:00",
+    "lede": "Oracle filed plans on Monday to issue stock new shares and more debt to finance its artificial intelligence buildout.",
+    "lang": "en"
+   },
+   {
+    "title": "העליות בוול סטריט מתמתנות; מחירי הנפט יורדים, מניות השבבים מאבדות גובה",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001561626#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-02T17:34:00+00:00",
+    "lede": "ה-S&P 500 עולה בכ-0.4% • מחירי הנפט יורדים בשל אופטימיות לעסקה מול איראן • מניית אורקל נופלת לאחר הכרזה על גיוס הון ענק • אפל תדווח הערב על תוצאותיה לרבעון השלישי • עסקת ענק: מארוול רוכשת את יצרנית הרכיבים האופטיים…",
+    "lang": "he"
+   },
+   {
+    "title": "Oil tumbles on hopes for US-Iran talks",
+    "url": "https://www.ft.com/content/d7fe99f8-d292-4cb5-a8fd-45be0f8cc2b3?syn-25a6b1a6=1",
+    "source": "Financial Times",
+    "published": "2026-11-02T17:20:40+00:00",
+    "lede": "Prices extend decline after Iran’s president said the country’s supreme leader had given officials certain authority over talks",
+    "lang": "en"
+   },
+   {
+    "title": "Oil price falls amid hope of a breakthrough to end Iran war",
+    "url": "https://www.theguardian.com/business/2026/nov/02/oil-price-falls-amid-hope-of-a-breakthrough-to-end-iran-war",
+    "source": "The Guardian",
+    "published": "2026-11-02T17:14:23+00:00",
+    "lede": "Brent crude drops by more than 6% to $105.55 a barrel, the lowest level in more than two weeks The oil price has fallen to its lowest level in more two weeks amid new hopes of a breakthrough to end the Iran war. Brent…",
+    "lang": "en"
+   },
+   {
     "title": "6 dividend stocks for investors who want to cut their exposure to the S&P 500",
     "url": "https://www.marketwatch.com/story/6-dividend-stocks-for-investors-who-want-to-cut-their-exposure-to-the-s-p-500-52519928?mod=mw_rss_topstories",
     "source": "MarketWatch",
     "published": "2026-11-02T16:56:00+00:00",
     "lede": "Novartis, Mitsubishi and Canadian Natural are examples of companies in developed markets outside the U.S. that pass screens for high dividend yields and low volatility for prices and earnings.",
     "lang": "en"
+   }
+  ],
+  "il": [
+   {
+    "title": "\"החל ממחר נחל בנקיטת צעדים\": ארקיע בדרך לסכסוך עבודה?",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001561762#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-02T17:43:00+00:00",
+    "lede": "איגוד עובדי התחבורה ונמלי הים שלח היום מכתב התראה טרם הכרזה על סכסוך עבודה לבעלי החברה, אבי חורמרו, ולמנכ\"ל עוז ברלוביץ' והודיע כי ממחר יחלו בנקיטת צעדים נגדם",
+    "lang": "he"
    },
    {
-    "title": "These tech stocks got unfairly swept up in last week’s selloff, analysts say",
-    "url": "https://www.marketwatch.com/story/these-tech-stocks-got-unfairly-swept-up-in-last-weeks-selloff-analysts-say-e296c1b3?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-02T16:50:00+00:00",
-    "lede": "One analyst notes “a meaningful gap between price and fundamentals” in some corners of the chip sector.",
-    "lang": "en"
-   },
-   {
-    "title": "Stock market after midterm elections: What S&P 500 history shows",
-    "url": "https://www.cnbc.com/2026/11/02/stock-market-after-midterm-elections-sp-500-history.html",
-    "source": "CNBC",
-    "published": "2026-11-02T16:48:28+00:00",
-    "lede": "Midterms historically precede a strong year for the S&P 500. What to know if Democrats win back Congress",
-    "lang": "en"
-   },
-   {
-    "title": "Oil tumbles on hopes for US-Iran talks",
-    "url": "https://www.ft.com/content/d7fe99f8-d292-4cb5-a8fd-45be0f8cc2b3?syn-25a6b1a6=1",
-    "source": "Financial Times",
-    "published": "2026-11-02T16:48:14+00:00",
-    "lede": "Prices extend decline after Iran’s president said the country’s supreme leader had given officials certain authority over talks",
-    "lang": "en"
+    "title": "המרוץ לרכישת כאל נפתח מחדש: המועמדים, הדד־ליין והשווי שיתכווץ",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001561734#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-02T17:03:00+00:00",
+    "lede": "דיסקונט נערך לחידוש המכרז למכירת חברת האשראי לאחר קריסת העסקה הקודמת",
+    "lang": "he"
    },
    {
     "title": "בנק ההשקעות הפסיק במפתיע את השימוש בכלי AI - וספג זעם מהעובדים",
@@ -49,48 +115,6 @@
     "lang": "he"
    },
    {
-    "title": "European Stocks Close Mostly Higher in Monday Trading; Oil Prices Fall on Hopes US-Iran Talks Resume",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPamwtRGZOSkdrRUhTYS0ybXJ2OTdidlU0emNLQ0NobjZmd3ZYWmE3cURwS0hIUGdPQURDa3BKMkZLWFhsc1pBWXpDM0x2R3FESkt5c2YxZHYteDhsSFB3NWNrTWVTOVczbUpBZ3BHaE9BTmFGbXd0YjJRUl96eWdsV3ZhZVNmdTBVSjFZRzRzZV9sV0sxendQSlc2MXdjODRQLXc?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-02T16:47:14+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "עליות בוול סטריט; מחירי הנפט יורדים, מניות השבבים מאבדות גובה",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001561626#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-02T16:47:00+00:00",
-    "lede": "הנאסד\"ק מזנק במעל 1% • מחירי הנפט יורדים בשל אופטימיות לעסקה מול איראן • מניית אורקל נופלת לאחר הכרזה על גיוס הון ענק • אפל תדווח הערב על תוצאותיה לרבעון השלישי • עסקת ענק: מארוול רוכשת את יצרנית הרכיבים האופטיים…",
-    "lang": "he"
-   },
-   {
-    "title": "Crude oil dives to session low on Iran peace talk hopes ahead of midterms",
-    "url": "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html",
-    "source": "CNBC",
-    "published": "2026-11-02T16:38:58+00:00",
-    "lede": "Oil fell Monday, amid news that both the U.S. and Iran are pursuing diplomacy amid ongoing Mideast tensions",
-    "lang": "en"
-   },
-   {
-    "title": "Berkshire Hathaway’s Alphabet Loss Exposes Weak Stock-Picking Record",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQdzg5Z0JmTGJKTXNlaWROTlRkLW5FYkxFN1pNT0dBcE85d1Y5akRqOFBfeWc5MU4xcFAxOU9oWnFIYm40ejNnRkNxUkJsbnVxR2RYb0ZUdzFGZmFNTDB6TDYwOURHbmxZaTJGeU41VXBtWG0yTExhYU1JTlJvQzVORU5KU0lNdzYwQmdsaDVBMGNWMkdNY0dMNTktMA?oc=5",
-    "source": "Barron's",
-    "published": "2026-11-02T16:38:00+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Oil price falls amid hope of a breakthrough to end Iran war",
-    "url": "https://www.theguardian.com/business/2026/nov/02/oil-price-falls-amid-hope-of-a-breakthrough-to-end-iran-war",
-    "source": "The Guardian",
-    "published": "2026-11-02T16:37:24+00:00",
-    "lede": "Brent crude dropped by more than 6% to $105.55 a barrel, the lowest level in two weeks The oil price fell to its lowest level in over two weeks on Monday, amid new hopes of a breakthrough to end the Iran war. Brent…",
-    "lang": "en"
-   }
-  ],
-  "il": [
-   {
     "title": "\"ההתאוששות ארוכה מהצפוי\": נדב צפריר מאכזב את משקיעי צ'ק פוינט",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001561651#utm_source=RSS",
     "source": "גלובס",
@@ -99,42 +123,10 @@
     "lang": "he"
    },
    {
-    "title": "ההורים עוזרים במשכנתא? בנק ישראל מבהיר: רק מחצית מהכנסתם תובא בחשבון",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001561749#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-02T16:10:00+00:00",
-    "lede": "בנק ישראל מצמצם את האפשרות של הורים לסייע לילדיהם במימון רכישת דירה באמצעות הצטרפות למשכנתא ותשלום ההחזרים החודשיים",
-    "lang": "he"
-   },
-   {
-    "title": "\"הצמיחה החזקה אי פעם\": טאואר בדרך להכנסות של 2 מיליארד דולר בשנה",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001561668#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-02T16:08:00+00:00",
-    "lede": "יצרנית השבבים הישראלית עקפה את תחזיות האנליסטים לרבעון השלישי וסיפקה תחזית אופטימית להמשך השנה",
-    "lang": "he"
-   },
-   {
-    "title": "יזם הייטק צרפתי רכש שתי קומות בתל אביב תמורת כ-120 מיליון שקל",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001561703#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-02T16:00:00+00:00",
-    "lede": "יזם הייטק יהודי־צרפתי, המתגורר בפריז, רכש שתי קומות במגדל דניאל בתל אביב של קבוצת יוסי אברהמי",
-    "lang": "he"
-   },
-   {
     "title": "המניות הביטחוניות הכבידו על הבורסה, גם טאואר ופאלו אלטו",
     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0tc2x6S0h3NGl5ejFSdERHOEtCaTRaaF9TRFI1WVRWc2ZabklxTnJ0TEJOU296NjloaWZrT0o0Tll3anBsTTV4SkZsVExIU2JzSklZUEtYdTI5aXZiZ3lnS25n?oc=5",
     "source": "Calcalist",
     "published": "2026-11-02T15:35:59+00:00",
-    "lede": null,
-    "lang": "he"
-   },
-   {
-    "title": "עליות בוול סטריט לפני דוחות אפל - מחירי הנפט צונחים",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9hU1IxbE44QWxOaUhHR0t5eDJlUXJySXNmTXRNUFUwSVF5VUM1WTd6ak5YQTZQYjFIVFppVFFWZXNOWHdNbDFlakxWWlg2NHdPSHpOOTBDYy1PdmVzN1JDRkl3?oc=5",
-    "source": "Calcalist",
-    "published": "2026-11-02T14:48:19+00:00",
     "lede": null,
     "lang": "he"
    },
@@ -149,18 +141,18 @@
   ],
   "geo": [
    {
-    "title": "China steps up Middle East diplomacy with Iran and Oman meetings",
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPN2haQzUwOU9pdTJxRWZwbUFEaDE2YW52Y1p4bnMyNFA1Q0dWbVhpMXk2aC1KMnE3amdyX25RbWczVjFSSjA2RmVOekJVZmVkZnFSd1d1cGNoZW4ycFB6TUllRUVLSHZLRGRlN0xsTHRSSThuWEtUUmM0MHJPNW56ZURJWkRyWXZYZXhSdzUwV2gzQWt0MnNsUER3dlF6SWpqZ2Y5Mjk1RmXSAa4BQVVfeXFMUERhQkI1bXBJOW8wWXZLNGJfbWU5SS0zYzJmR2puYmxtUFBDaVcwMkJkeWM3WDlDSTJZZTdaUkszR2NLRTJtR1I3Vm9mR2FUMnF0X0pJb1ZpcFFyYmY4UTlhVTM4ZmVJMTJfeU1pTms1Njl2d3pkTmdnalhfTU5ITmlzVU1Rd2w3VWxHVl9DalFXb1pLTGZhT3gxSzRYTXV2MFNseU5peXNmYjZfOW9B?oc=5",
-    "source": "Al Jazeera",
-    "published": "2026-11-02T16:07:30+00:00",
+    "title": "Culture War Tensions Roil Beverly Hills School Board Race",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQOHZLNktiTFZ1cWYzZ1BwdG83SHVkOFI0X0FmSDI5QVU3WnVicmNNWFp2WFVfM0ZiUVQ4Z1dRZHNXeEczUDFwREZvUE1qSjVfNHNqbnd1aEg0T2dObXVyXzc4aXA1VGtZQ3dESnBfUWNpMENEQnNrbFJEcWtkUjVFVU5uRjk?oc=5",
+    "source": "The New York Times",
+    "published": "2026-11-02T17:49:31+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Iran's delegation has left negotiations in Qatar after a tense weekend. Here's where things stand",
-    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZDhDMmNsQ2tpZmxyZnVvc0tXTmstOUlXRWxWSHh4ZG8wTV95VlVDc29MemRtbVNGSXQzRHU5SFAtOTBMOW9hRXVQa0VPanRCWmloOUFFVF9jU1RiNmpEU2xIdHNqZHpKeFRvN0R3UC1JWE1OU2NkS1hxLXk3c3hpTndoOHJXTVZXZHpjV1JWTDUxZE5pd3hveGFQeWhmMHI3VGhjZkpUNl9RSE53MzQ4bk1DbjFaeHJfdlE2YmFOVGY0TFYtR00tV9IBzgFBVV95cUxOdXRFVVVob2hRQUlFWUZOVW9TTktGdWFPLUUxRkEyVjdSRnN4dlozbmdqaG1YTTRzVENmcmtnSXY2ellxU21YeV9NUHNEUUdqd3pYYjBSMjVWUlcwcnMyQkhlU09HbnJrMkFtVk96MzktdzNsdDlSUW1lUDJBRTk5UTJCVTlsa2MxaWY1bWdpd2puWmdsXzNHSnI4VDJoY1dUZkEwekVNZFp0Vnl2TVdpRWJBZ1oxWkJGUm1XMEJUZFRpWi1lbDl0Q1Rnb2ZpUQ?oc=5",
-    "source": "PBS",
-    "published": "2026-11-02T16:02:18+00:00",
+    "title": "Iran engages US in 'intensive' negotiations to avert fresh war outbreak",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZmp2aXpPaEN1WTdFSVZkUjZSWTJoMmNNSXIyQmZOWDM2RUJXSmhkd1RydldadkZzbldEOWo4alVCSDlDRkhmQ0ZsVndUdV9JSzRXVUxkamFDVXFzTXEzNVA2WTg3QjQzUENneV8wSW5mOGR1dnIxd3E5b3FKY2FEc0t0SGptSm5mTDJBc2c0M28wZ2xkUE1jck5Ld1NweWZsSHRWX0NRd2JYVE5LRmJJZEZCWFpYWkVFT3c?oc=5",
+    "source": "France 24",
+    "published": "2026-11-02T17:42:22+00:00",
     "lede": null,
     "lang": "en"
    }
