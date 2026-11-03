@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-03T15:31:00.736849+02:00",
+ "generated_at": "2026-11-03T16:31:08.972149+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -9,12 +9,76 @@
  "sections": {
   "us": [
    {
-    "title": "Midterm elections could jolt stocks if Democrats sweep Congress",
-    "url": "https://www.cnbc.com/2026/11/03/midterm-election-stock-market.html",
+    "title": "Palantir slumps 6% after earnings as analysts point to slowdown in total contract value",
+    "url": "https://www.cnbc.com/2026/11/03/apple-palantir-stock-earnings.html",
     "source": "CNBC",
-    "published": "2026-11-03T13:28:36+00:00",
-    "lede": "Wall Street weighs how the 2026 midterms could affect stocks, Treasury yields, artificial intelligence, energy prices, banks, defense and healthcare.",
+    "published": "2026-11-03T14:27:55+00:00",
+    "lede": "The software giant's stock fell after earnings failed to impress investors.",
     "lang": "en"
+   },
+   {
+    "title": "These 5 Growth Stocks Show Optimistic Charts On Election Day",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPb0Jwd2Y4QUpVWVZ4MUxjc0FQUG53eE1NWGJ6WVZadDZ1andyUlRuWm9JUW15Q1ZrUzJpcC12WlpJVWI5Nm9Cejl3Z0xybUMzb2IxUDRJN0xsWGZFcU9QYkt4YlFSX0FfTWFOanJ4ZUZVbUoweEQxd3l3MDZYcWZXRTJkWnRZYUh2?oc=5",
+    "source": "Investor's Business Daily",
+    "published": "2026-11-03T14:27:00+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Supermarket fridges hit with cyberattacks across Europe — here's what's happening",
+    "url": "https://www.cnbc.com/2026/11/03/supermarket-fridges-hack-cyberattack-europe.html",
+    "source": "CNBC",
+    "published": "2026-11-03T14:25:28+00:00",
+    "lede": "European supermarkets have become the center of another cyberattack, with hackers remotely heating fridges and spoiling food.",
+    "lang": "en"
+   },
+   {
+    "title": "U.S. crude oil falls below $95 per barrel as market hopes for diplomatic resolution to Iran war",
+    "url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html",
+    "source": "CNBC",
+    "published": "2026-11-03T14:23:53+00:00",
+    "lede": "The rebound in oil prices come a day after the U.S. and Iranian presidents signalled they are open to a diplomatic solution to Iran war.",
+    "lang": "en"
+   },
+   {
+    "title": "Brent crude slides 3% after Trump says US will stop military funding to Israel ‘by end of this year’ – business live",
+    "url": "https://www.theguardian.com/business/live/2026/nov/03/saudi-oil-company-profits-australian-central-bank-rates-brent-crude-crypto-hack-energy-prices-latest-news-updates",
+    "source": "The Guardian",
+    "published": "2026-11-03T14:15:26+00:00",
+    "lede": "US president tells Fox News he made deal with Netanyahu ‘months ago’ Dearden responded to Snell’s question: It is deeply concerning to see the uncertainty about Poundland’s future. That’s why I, the Secretary of State…",
+    "lang": "en"
+   },
+   {
+    "title": "Here’s Why Aeva Technologies (AEVA) is One of the Best Robotics and Automation Stocks to Buy That Are On Sale",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOd2s2anhWcnYwYTl1YzFvVHdiSzFuMWtnYWJSbzVmWEdFdnNUbkR3SXpXOFBlZ28zVVUzeTlSVF90eUdVdWlyQy1JY3FqUjFhM1VOcUhGdjZLOG15bmhEeUtFdldJaGFBRm01MGlweHg5VmhtQnpQYUFacThfTkh2QjVMdnZTSTJCOFIta2FlOEhDT3FiM1M4SWJicw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-03T14:15:12+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "The Average Stock Just Beat the S&P 500 by the Most Since 2009",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOWWRtZE0yU0RmRmh0WGp0YUREVzIzVEhKRlBrVFgyQ3lYZkcyMDc1VEMyWUE0VDNxQl9KdndzaUNxTTlsQkNUV2hFbU5vUmtuOS05ZE5YbGN4aDdwU1NVb3RnbjVvTVhGR3E1VmR2V2tPLUttb3Z6SGZyc21uZHRXTEZ4NzdkOFZDRVZtUTNuUER1eXFD?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-03T14:12:56+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "This indicator has triggered just 5 times since 2000 — and it warns of a trap for stocks",
+    "url": "https://www.marketwatch.com/story/this-indicator-has-triggered-just-5-times-since-2000-and-it-warns-of-a-trap-for-stocks-a1cbd579?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-03T14:06:00+00:00",
+    "lede": "Compared with previous market drawdowns, the current market setup is vulnerable because rising inflation limits the ability of central banks to ease rates and reflate asset prices. Reduce stocks and add bonds and cash…",
+    "lang": "en"
+   },
+   {
+    "title": "החוזים בוול סטריט יורדים: אפל ופלנטיר נופלות",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001561764#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-03T13:36:00+00:00",
+    "lede": "ירידות באירופה • ענקית רכיבי הרכב הגרמנית שפלר הודיעה על פיטורי אלפי עובדים • Drax מזנקת ברקע תוכנית להקמת דאטה סנטר באנגליה בהשקעת ענק • באסיה נרשמו ירידות חדות בקוריאה",
+    "lang": "he"
    },
    {
     "title": "It’s finally Election Day — and prediction markets may show ‘too much confidence in a good night for Democrats’",
@@ -23,79 +87,15 @@
     "published": "2026-11-03T13:26:00+00:00",
     "lede": "Prediction markets may be running the risk of “suggesting too much confidence in a good night for Democrats,” one analyst says.",
     "lang": "en"
-   },
-   {
-    "title": "Shopify’s stock slides after earnings. This is what’s worrying Wall Street.",
-    "url": "https://www.marketwatch.com/story/shopifys-stock-slides-after-earnings-this-is-whats-worrying-wall-street-e2e8d52b?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-03T13:26:00+00:00",
-    "lede": "The company missed revenue expectations, a tough outcome in today’s less-forgiving tech market.",
-    "lang": "en"
-   },
-   {
-    "title": "Palo Alto Networks vs. Atlassian: Which Tech Stock Is a Better Buy for 2027?",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZzB1WlQteFgwa0ZnQThtNXlWVmhzQUU4QzNWa25kckpzakg1ZEpyem9ueXVrdFJTVFhvMTZjWXdhcUl1eXFjellYcEFtSGJ0aUFQVWZCT1RTclRjaFpSUXVRSndVZXVON1FCMkJxN0tBcnNuZ2RlV3BtUUJua1d3SzZBLUVSVHJxOUJtOHRJZGVKd0FKRHBWQUFkVXQ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-03T13:15:02+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Marvell and Lumentum Fell Hard. Their Supplier’s Stock Is Soaring",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNd01ReFplOWVFcVdHTnNVT2k4ZWRyaVducWM3SGM0WHVPNUtCbC1EMUhDU3hVXzhmTWY0dFRUaTJWMlZSdXhrTFFMa3lhOTlWQ0JVcWNJMHBwQk5wOS1BeTh1czhCNXo2OEF3cWphSUgxZGlDVzN0ZjRzSTJqb0RnVEJLeDVydC1ibTNrUlVYUEZGR0NVMVF6Nk55eC00dGN1YWc?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-03T13:11:00+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "TSX futures drop amid rise in oil prices; U.S. midterm elections ahead",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPc0F0dXNYTjlnUWU4X05kSW9FZ0NBeDE1b3FMYlVwclhjNGlUdlVIR1RITUVLWXFaUi00ZmpGYXZIa0dLLWxUUVBvakplMmFmS1QyTVRfZkNlWlFwY2dyTFZwNnktWGVEOGNnSTFnbWdxajk4SmZ3T18xNDdnQlpDNHJQX1dCemYza0d4bkJVWU9XWmp5dGc?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-03T13:10:11+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "אחרי מרד בלייבור: ממשלת בריטניה לא תחמיר את התנאים למהגרים",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001561820#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-03T13:07:00+00:00",
-    "lede": "ממשלת בריטניה ריככה את רפורמת ההגירה לאחר מרד במפלגת הלייבור, ורוב מהגרי העבודה יוכלו להמשיך לקבל תושבות קבע בתום חמש שנים בלבד",
-    "lang": "he"
-   },
-   {
-    "title": "Ferrari raises 2026 guidance after Q3 earnings beat",
-    "url": "https://www.cnbc.com/2026/11/03/ferrari-race-earnings-q3-2026.html",
-    "source": "CNBC",
-    "published": "2026-11-03T13:01:55+00:00",
-    "lede": "Ferrari raised its 2026 guidance Tuesday after third-quarter revenue and adjusted earnings per share edged past Wall Street expectations.",
-    "lang": "en"
-   },
-   {
-    "title": "Santoli: AI bull market almost surely needs tech stocks to recover to keep advancing",
-    "url": "https://www.cnbc.com/2026/11/03/santoli-ai-bull-market-needs-tech-stocks.html",
-    "source": "CNBC",
-    "published": "2026-11-03T13:01:23+00:00",
-    "lede": "The road to bull-market glory does not run through Walmart and Berkshire Hathaway and Eli Lilly.",
-    "lang": "en"
-   },
-   {
-    "title": "מגמה שלילית באירופה, מגמה מעורבת במסחר המוקדם בוול סטריט והנפט מטפס",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001561764#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-03T12:25:00+00:00",
-    "lede": "מניות הטכנולוגיה והשבבים מובילות את הירידות באירופה",
-    "lang": "he"
    }
   ],
   "il": [
    {
-    "title": "מגמה שלילית בתל אביב; מדד הבנייה יורד, מניות הבנקים והביטוח עולות",
+    "title": "מגמה מעורבת בתל אביב; מדד הבנייה יורד, מניות הבנקים והביטוח עולות",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001561712#utm_source=RSS",
     "source": "גלובס",
-    "published": "2026-11-03T13:11:00+00:00",
-    "lede": "מדד ת\"א 35 יורד בכ-0.5% • הדולר ממשיך לזנק וחוצה את רף ה-3.15 שקלים • בעונת הדוחות: אמות מסכמת רבעון עם עלייה ברווח ומעדכנת תחזית; אנלייט מציגה תוצאות חזקות ומעלה תחזית בשל צמיחה בפעילות הסחר • מניית טבע מטפסת אחרי…",
+    "published": "2026-11-03T14:20:00+00:00",
+    "lede": "מדד ת\"א 35 עולה בכ-0.3% • הדולר מתחזק וחצה לזמן קצר את רף ה-3.15 שקלים • בעונת הדוחות: אמות מסכמת רבעון עם עלייה ברווח ומעדכנת תחזית; אנלייט מציגה תוצאות חזקות ומעלה תחזית בשל צמיחה בפעילות הסחר • מניית טבע מטפסת אחרי…",
     "lang": "he"
    },
    {
@@ -123,19 +123,19 @@
     "lang": "he"
    },
    {
+    "title": "חוזים מעורבים בוול סטריט; אפל מאבדת 4.5% בטרום, פלנטיר מאבדת 6%",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9KUjBqaU81T3hLMnBxYjBBcTF2QnpyUUhmTjU4a016T3VnQ3I4elJtRk4ySVliLUd6UEgweDRUcm1vZWUxaXBHUDZ0Z2ZGNUpqQ1lkYnlzM2F5VUdoV0tLTWdn?oc=5",
+    "source": "Calcalist",
+    "published": "2026-11-03T12:31:37+00:00",
+    "lede": null,
+    "lang": "he"
+   },
+   {
     "title": "נייס מפטרת כ-500 עובדים",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001561807#utm_source=RSS",
     "source": "גלובס",
     "published": "2026-11-03T12:16:00+00:00",
     "lede": "לגלובס נודע כי חברת התוכנה הישראלית יוצאת למהלך פיטורים גלובלי, שבמסגרתו צפויים לסיים את העסקתם כ־500 עובדים, כ־5% מכוח האדם שלה",
-    "lang": "he"
-   },
-   {
-    "title": "חוזים מעורבים בוול סטריט; אפל מאבדת 4.5% בטרום, פלנטיר נופלת ב-8%",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9KUjBqaU81T3hLMnBxYjBBcTF2QnpyUUhmTjU4a016T3VnQ3I4elJtRk4ySVliLUd6UEgweDRUcm1vZWUxaXBHUDZ0Z2ZGNUpqQ1lkYnlzM2F5VUdoV0tLTWdn?oc=5",
-    "source": "Calcalist",
-    "published": "2026-11-03T11:58:11+00:00",
-    "lede": null,
     "lang": "he"
    },
    {
@@ -157,18 +157,18 @@
   ],
   "geo": [
    {
-    "title": "Iran commander sets out five conditions for regional security",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPQXFkQnJ5U3l2WU9GN09nSWlKaUZ0ZVRzWlNpZXBOMm4xN1pvYUpnNG5NU2ZBeFV3dTRiM1Q5MDBBTnZpdndVdXcxM3E4LUVwRWJmUWg0SXlZQUpXamFUdUdNNXZwbmVTYnBrSVA3RVZsSmRybGtZYzJ5WWZLWTBaUkdON0RvaEhhRFJwUnoyYUNZVFhJZWJWM0d6V3hvMU9RM3NVWNIBqgFBVV95cUxQbk0wZW9zWTVydEhvTUJBVFBCcFNJMUZNWk5qQWw0UkV5RjVpbDlldXVQSjYtUFdHY25rTlNFU3VfNm9zaFFQLXExRjFialZ2eWRmWXB1QXhSN3FVYTYwRm1lRDhIckV1N19QbFRiZTlqRDRsNFRFdjVnYWFxUlk5LW5aWF96SW80RDF0WHFtX3VkeEZSUDFsVDh6Uk85MmJjMnNLU05xU2Q3QQ?oc=5",
+    "title": "Very cold war: Who’s attacking Europe’s supermarket freezers?",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRGFNck1TVk81WWVjbFV5Qi1qWlZhLUk0Q3AyQVpMQUhsNmxaN2g3VmpUdHE3dXVjV1lZSzN3Vkp3NmV0a2hrWVExeTRwTGdzNVh4My1CTnlvNW5SNXk3NFJERnpiNDViMm9WWEhDTC1qa1cxZjlYc09xeU9rU25rN18xY05TazVjTFVhRjZHVVVtOVlsXzQtaHU3X2RWeTDSAaQBQVVfeXFMT3hFU180UGM3V285SjlfbURRVlVib1M5RVd4OXNGeTNuVmlJZlNobzBzMEVhOUxhV3hmYXFpT2lwdFZMaTFlcFNpcEtmQ3VUSDJMeEltSWhQQklHYVM0V01QbFBzeFRwVFNndktaNGhIYVN4bWhiOHVLMkdSdjkzbXRVc3ZKd0JacHVoRE1oc0xjMXRvdnhLTjJoUlY5WmFrdGd3YjE?oc=5",
     "source": "Al Jazeera",
-    "published": "2026-11-03T13:24:33+00:00",
+    "published": "2026-11-03T14:17:41+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Will Trump relaunch his war on Iran after the midterm elections? | Mohamad Bazzi",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNQWVTai1BdzlfVXk5ckFsajBvVGs2U0JQV2JodzZqSWJmdEN5LS1aQmtNZXNmd2dMY2c1Z1JhSE9qMEh2VnJidUN3UWk5a3dIaWhrSEZzemRETG1fdVNJUEVqcmFUTTUyN25wSWN2SVdFdVNwcXZjVkY2akl1eHNudC1Eanl1XzRwYWdLck9QbU9hRnVid0k4?oc=5",
-    "source": "The Guardian",
-    "published": "2026-11-03T12:55:00+00:00",
+    "title": "Iran commander sets out five conditions for regional security",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPQXFkQnJ5U3l2WU9GN09nSWlKaUZ0ZVRzWlNpZXBOMm4xN1pvYUpnNG5NU2ZBeFV3dTRiM1Q5MDBBTnZpdndVdXcxM3E4LUVwRWJmUWg0SXlZQUpXamFUdUdNNXZwbmVTYnBrSVA3RVZsSmRybGtZYzJ5WWZLWTBaUkdON0RvaEhhRFJwUnoyYUNZVFhJZWJWM0d6V3hvMU9RM3NVWNIBqgFBVV95cUxQbk0wZW9zWTVydEhvTUJBVFBCcFNJMUZNWk5qQWw0UkV5RjVpbDlldXVQSjYtUFdHY25rTlNFU3VfNm9zaFFQLXExRjFialZ2eWRmWXB1QXhSN3FVYTYwRm1lRDhIckV1N19QbFRiZTlqRDRsNFRFdjVnYWFxUlk5LW5aWF96SW80RDF0WHFtX3VkeEZSUDFsVDh6Uk85MmJjMnNLU05xU2Q3QQ?oc=5",
+    "source": "Al Jazeera",
+    "published": "2026-11-03T13:28:57+00:00",
     "lede": null,
     "lang": "en"
    }
