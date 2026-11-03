@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-03T19:33:05.656813+02:00",
+ "generated_at": "2026-11-03T20:31:10.481141+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -8,6 +8,54 @@
  },
  "sections": {
   "us": [
+   {
+    "title": "Once election results are in, here’s what investors should focus on next",
+    "url": "https://www.marketwatch.com/story/once-election-results-are-in-heres-what-investors-should-focus-on-next-75c5ac5d?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-03T18:27:00+00:00",
+    "lede": "It is important to separate your political preferences from your investment and trading decisions.",
+    "lang": "en"
+   },
+   {
+    "title": "Jeremy Siegel sees an unexpected winner if AI weakens",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOMDlpQV9GS0JaSkJBRnI3MTloOGRBNHRvdExiUW5yeVVQRUtLb1dwc1VnMWJKRXc0YkZaWnR0Z0stRElvc3VrZUd0dmFZWFF4TTJnZlBxLXVfbno0N0Vjdl9qTmhXTWlqaVpqYm11a1VVMmFqeTNUeVZOZ0xucWsxaFM4dmdRdjNKMHA5S1UybUMxSWxKekRuLWFVS0tOZDVLakhz?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-03T18:17:00+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Amazon's Earnings Just Hit a Record. So Why Is the Stock Down 11% From Its Peak?",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNTUZMeWtwRkZueU1nRkFieG5qcEV1THVjWmFXeGlfNnp0M0UtcDNGUmE4amo1RXJVOVY1ZmdQUTdxbGQ4clNVSmIyVF9pNnVXN1liMTBPWXdxNmxtZFRVU1czQmlnNXI0dFdXSVVhRUE3cTNjWW41RjIzSS1lU3JoTWRPT1d4MjAxbU5CNDhha1VVcWVaaFZ1TmtwcTJGZw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-03T18:12:00+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Apple Stock Fell After a Record iPhone Quarter. Here’s the Margin Problem Investors Shouldn’t Ignore.",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNd3hhbXNGMDVsdWZTdkJtdy1rMk1Qc2ZrLVhCWC1Bd0NoUWlCZVFpVUpVMVVXQkNneDdGaUxhRGNRXy16bElQS3NCeHpsNUUwVFhZblJOdkVWcTFVdEN4Rnl3aW9Ibi1QVGpjSUZlaXNpVzd6MUxaaTg1X0YyRlBGcUhJQk13R3RtbXNwd3BtSFZHazZxUkdXcmljNA?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-03T18:08:55+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Midterm elections could jolt stocks if Democrats sweep Congress",
+    "url": "https://www.cnbc.com/2026/11/03/midterm-election-stock-market.html",
+    "source": "CNBC",
+    "published": "2026-11-03T18:05:18+00:00",
+    "lede": "Wall Street weighs how the 2026 midterms could affect stocks, Treasury yields, artificial intelligence, energy prices, banks, defense and healthcare.",
+    "lang": "en"
+   },
+   {
+    "title": "Binance co-CEO Richard Teng says hackers used fake job interviews, AI tool to steal $6.3 billion in crypto",
+    "url": "https://www.cnbc.com/2026/11/03/binance-co-ceo-teng-says-hackers-used-fake-job-interviews-to-steal-6point3-billion-in-crypto.html",
+    "source": "CNBC",
+    "published": "2026-11-03T17:58:41+00:00",
+    "lede": "Binance has replenished 98% of $6.34 billion in affected assets, according to a security report the crypto exchange issued Tuesday.",
+    "lang": "en"
+   },
    {
     "title": "Palantir sinks 2% after earnings as analysts point to slowdown in total contract value",
     "url": "https://www.cnbc.com/2026/11/03/apple-palantir-stock-earnings.html",
@@ -17,59 +65,11 @@
     "lang": "en"
    },
    {
-    "title": "Midterm elections could jolt stocks if Democrats sweep Congress",
-    "url": "https://www.cnbc.com/2026/11/03/midterm-election-stock-market.html",
-    "source": "CNBC",
-    "published": "2026-11-03T17:15:20+00:00",
-    "lede": "Wall Street weighs how the 2026 midterms could affect stocks, Treasury yields, artificial intelligence, energy prices, banks, defense and healthcare.",
-    "lang": "en"
-   },
-   {
-    "title": "Billionaire Paul Singer Says Wall Street Faces “Obliteration”",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNU1l0VEhoNHMyTEh1T0szY0tSWVZ1UUxoYnlHbUNiaUw0ZWctTFQ4c3VjcmpONXhPWnVLcGJGemtoUG0xdjVkRGF4eFp5XzN4RVpZY0JRUUxFa3M4UHkxdmM1MXJ2WmRuMzFJWnpURnRqRVNISFhyLWlFcGUwR0hWTi1rZWkzWVFLUjF1czZnVmxMcEJ0ZnlYNk1nQWNZUHM?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-03T17:07:28+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Meet the Dividend Stock That Warren Buffett Backed for Decades. Here's Why Greg Abel Is Still Holding.",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZlB2c2RzM0s0TmRWcEgwV0JMZENYWDJQRFN4emZvVmx5UWdNaUxZRUphZXA1eDBTZXVSTzRGTURUdUxMNUtzOGNKczhVQjRqSVlNcUJTNmIwdENqSGRHVHpUeU1La2JtYWVGalpiVU9hMGZPREppYlF3cGxQRl95OEVQNlZlZlNSYWx1clBWVzRTS29jT1pZaVVQY3lXX2kx?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-03T17:05:00+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Lumentum Stock Gains After $5 Billion Co-Packaged Optics Win",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRzJ3M3ZRcFY4VWVlYXE4LWx1UU8yc3ZNQWpVT1NLZ25fV1JIcUpkcUE3TGE4RlJCaWtJb0swRDNjMDc4eHdBY3pFWTNpMVNQWFV3NVFwUGxhdVBUaW40NHh0TnpwVXhsM3JzLTg5TjRGcUlzczhGT1Y2dlVERG1OVkRwYVp5WXhheUtPcFV4bzRtMWZOa3ZvM0hYYw?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-03T17:03:28+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
     "title": "U.S. jobs market perks up, but it’s still not a great time to get hired",
     "url": "https://www.marketwatch.com/story/u-s-jobs-market-perks-up-but-its-still-not-a-great-time-to-get-hired-bc39f44f?mod=mw_rss_topstories",
     "source": "MarketWatch",
     "published": "2026-11-03T16:56:00+00:00",
     "lede": "Job openings in the U.S. rose in September to a four-month high and hiring also increased, signaling mild but perhaps not sustainable improvement in a sluggish U.S. labor market.",
-    "lang": "en"
-   },
-   {
-    "title": "Binance co-CEO Richard Teng says hackers used fake job interviews, AI tool to steal $6.3 billion in crypto",
-    "url": "https://www.cnbc.com/2026/11/03/binance-co-ceo-teng-says-hackers-used-fake-job-interviews-to-steal-6point3-billion-in-crypto.html",
-    "source": "CNBC",
-    "published": "2026-11-03T16:52:17+00:00",
-    "lede": "Binance has replenished 98% of $6.34 billion in affected assets, according to a security report the crypto exchange issued Tuesday.",
-    "lang": "en"
-   },
-   {
-    "title": "U.S. clears path for first regulated equity perpetual futures",
-    "url": "https://www.marketwatch.com/story/u-s-clears-path-for-first-regulated-equity-perpetual-futures-6bb35905?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-03T16:46:00+00:00",
-    "lede": "A trendy crypto-native trading product that has exploded in popularity on offshore venues is expanding its foothold in the U.S.",
     "lang": "en"
    },
    {
@@ -157,18 +157,18 @@
   ],
   "geo": [
    {
-    "title": "As Americans vote, Trump says US will stop $4 billion in aid to Israel",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTnAzZzVDS3N1RTJJdnkxYUJPQkl1X3h4d3hZaC1MX0RwXzRHOGRybmM3QjEzR1kybkJIUmNYcnVPbkNPMkt6TFBnTEdOYWFJemJkelBhVXZsRDQ5VG4wc1lSS0Q2dlRlUmV0VHI2Y3YxNWstRWVPUV95Y2pNUVp5TUlES3pCMC1GUzNTTXVfWWlGd1JlQ3p1XzJUWmJmbzlWUmtYTFlXNDFlZw?oc=5",
-    "source": "Reuters",
-    "published": "2026-11-03T16:55:20+00:00",
+    "title": "Israeli Claims of Iranian Chemical Weapons Divide U.S. Officials",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQeG5wNGg5UzgtQldwVTBiZmNCTUtKR0U2ZHRfamdTdUJFUHFxdmhDM1VQNV9DRXhQdzdjZ3J1NjlaUmFJWmhlWnBLMmF4SzMwQXZHdGxhTHhyWWdydW5NTWtiQUFLa0xoWGRWWW56LTc4OEZqOVdQeFdScHVBSXZZUUxuLWtTbXNmcGpFT3FYMmt4THlROFE?oc=5",
+    "source": "The New York Times",
+    "published": "2026-11-03T17:48:04+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Ukraine and Russia are taking the war underground as drones saturate the battlefield",
-    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQcnBjaHFETnQ3dDFXS1l3bHViTkdxbzZVSnNoMXAyQkR4VVJtSVhCV2ZvMHVvaWxTZmlXbTFkeUQ2Q3BwSHNVTGgtSW1CdF9BMDVmV3FSeU14bHlIenFTU1F0akI4R3BpT29DU3NsaTFmY0NKS2tLbUtxX2tNRnlkMTBkamNKVFUxSnNWOUViQnNwbDdGMG91bzZCMkZ2NG1TU2VkRm82U003Tk43bG1wZzZmZ29nS3huUGF4cXBUUXR1THdUeWpF?oc=5",
-    "source": "France 24",
-    "published": "2026-11-03T16:52:13+00:00",
+    "title": "As Americans vote, Trump says US will stop $4 billion in aid to Israel",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTnAzZzVDS3N1RTJJdnkxYUJPQkl1X3h4d3hZaC1MX0RwXzRHOGRybmM3QjEzR1kybkJIUmNYcnVPbkNPMkt6TFBnTEdOYWFJemJkelBhVXZsRDQ5VG4wc1lSS0Q2dlRlUmV0VHI2Y3YxNWstRWVPUV95Y2pNUVp5TUlES3pCMC1GUzNTTXVfWWlGd1JlQ3p1XzJUWmJmbzlWUmtYTFlXNDFlZw?oc=5",
+    "source": "Reuters",
+    "published": "2026-11-03T17:47:41+00:00",
     "lede": null,
     "lang": "en"
    }
