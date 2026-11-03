@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-03T05:01:03.574083+02:00",
+ "generated_at": "2026-11-03T06:01:09.680168+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -9,19 +9,35 @@
  "sections": {
   "us": [
    {
-    "title": "Indian shares set to extend advance on softer oil, steady earnings",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPcVNvY0lPbFp1SlNTR1BlbUstUy1iMUtZcGJzSTBxLXVBdEpWajhoT0RuWklLUkxfM1dFd1pWLVJxMnlaQzFnQzVyMUJEVC1sbVJGbmJTd2p5RGhNaldxbkNicjBvNWJ4dXoxS3RobzN6NTRzeDM5TV9fME1FTTJWM1JaNVNvM0JsSGRXTWQ1TG03MmlGZU43TVJyS1NHT0xGRWRpXy1ETkx1Q1E?oc=5",
-    "source": "Reuters",
-    "published": "2026-11-03T02:38:00+00:00",
+    "title": "Standard Motor Products (SMP) Returned To Profit, Is The Stock Still A Bargain?",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNY05WOFhWaXFxQURQZ2t2ZTdQQktuZTlkc0Y1bUVjQ3VHcjFBSUhLLTdROElManpMaEo4RXpZeG9VbXgxcG8yZ3RRaHRjbW9CQTNMdXJ3WlJtZ2syWV9FazRWcVMtSHpLYmlfNUtqNnFQSXhQVm8zdEtkemtMWTdkNHNEWFZ3SkpGYzBQYkpNZFJSUXZRUXFJUFRqbmpJY2R6UGFV?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-03T03:56:10+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "THOR Industries (THO) Stock May Look Fully Priced Despite Weaker Earnings Support",
-    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNQmh2SjJUVzNwUlgtVVlNMFFxZFNzWnZ1VzJyM0FyeDliemY1eUdIMWRVMDB0akdXZmlienZFQ2cxTzM1NW9ndTZKUEpjRDVmdVBGS2pnWGgwQTJCV00xVi1nS3dSMFFfS2lGbzlNR2V4YnRsWGt5a3I4OFI1T3Fac3U5Y2hKUXMyUEhqVzBkSEo0aThTcDVMVHJ3?oc=5",
+    "title": "MGM Q3 deep dive: margin recovery and digital growth offset soft leisure demand",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNWUNPU21ITEZmU2FPUERfdEhqSGdjbkZfaWxzRnJtZ3J4ZEpfeGFEZVc0YndXWjQ3MWZNYkVqZWEzdm5sT0NmallreWpkQ3Fwa3ZDN3JEY1Yxa3k4SEdrZTNlVE8tX3dZY1U2Y0UzVUtmSDVUVkdSQWJubk8zdzM2Y1E1aEhCbzhyaUg0MDlCQjNFUQ?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-03T02:36:03+00:00",
+    "published": "2026-11-03T03:56:05+00:00",
     "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Asian shares are mixed as tech losses offset broader gains on Wall Street",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPUnk4X3V5SHdHdk15TWVuQUx2dFQwcl9sYm4yM2MwbFotUGxndkFzME5aSWRRWElrVWJYd0VnU1BLRld5R0pPMW5oeXZha3hqekNPekY1Q3laX05YZ0hZTUFWVDdfak5FNFVBUkRMR1g2QWpEQ2lyYk9LaWpwTWhPVUoycHRCS0VLNE1sb3QyRnFoa2wxR2dhSEpnRktOVmtNWFpMXw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-03T03:51:00+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Australia hikes rates to 18-year high to fight inflation",
+    "url": "https://www.cnbc.com/2026/11/03/australia-hikes-rates-18-year-high-finflation.html",
+    "source": "CNBC",
+    "published": "2026-11-03T03:46:20+00:00",
+    "lede": "The Reserve Bank of Australia's decision was in line with expectations from economists polled by Reuters, and marked its fifth rate increase this year.",
     "lang": "en"
    },
    {
@@ -30,14 +46,6 @@
     "source": "CNBC",
     "published": "2026-11-03T02:31:00+00:00",
     "lede": "Employees describing jobs as 'remote' are now often in-office, as companies fail to create the collaboration they claim is critical, NY Fed research shows.",
-    "lang": "en"
-   },
-   {
-    "title": "Why AMD Stock Is In Focus Before Q3 Earnings And AI Partnership Updates",
-    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRFZqQnJQc2E5bXlQbldmdWlHd1h5S3BhclFTYmNfNm1NQ0J5bmdfYkpEZXZ2dWZFX25NSW1vMEtUT2ZFQnd3N3d5SEw2SDRLTWp2QmM1czRxT09tVjdENldBY1hqcXdLLV9oVF9wWWZUS2Jvc1JkVnVOZEtzdzVBV2N3R0lCZEdXeTZhRXZmTk0?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-03T02:15:00+00:00",
-    "lede": null,
     "lang": "en"
    },
    {
@@ -70,14 +78,6 @@
     "source": "CNBC",
     "published": "2026-11-02T23:54:27+00:00",
     "lede": "While technology stocks have come under pressure in recent weeks, consumer stocks have been resilient.",
-    "lang": "en"
-   },
-   {
-    "title": "Stock market after midterm elections: What S&P 500 history shows",
-    "url": "https://www.cnbc.com/2026/11/02/stock-market-after-midterm-elections-sp-500-history.html",
-    "source": "CNBC",
-    "published": "2026-11-02T23:13:34+00:00",
-    "lede": "Midterms historically precede a strong year for the S&P 500. What to know if Democrats win back Congress",
     "lang": "en"
    },
    {
@@ -149,18 +149,18 @@
   ],
   "geo": [
    {
-    "title": "US to mediate new round of negotiations to end Russia-Ukraine war",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTmd4MGlCNkFaMVd1YWxXRXBsYmZOMXZ0YW5jdE5wUXBWX3RaVjZDOEFvaWhqLUMtQ0tZN1hReWxvZkFEUjQwUVBLcTNFUHRZRW1QQzFMU2dSdUY3NldPUlJfbER0cFJyaTBsZ0hGY1daWTV3RUkzaDRSdHlyMWRmVjFuQWJuZmx0WGtMR3RmTG80QQ?oc=5",
-    "source": "Politico",
-    "published": "2026-11-03T02:38:00+00:00",
+    "title": "US launches strikes on Iranian island ahead of election",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBxYlJRM3p5MDBuWjZfNk8xTVR0ejJyRzg5ZS01M0JIX2w2ZzktZERNZ2NMY0ROTGpRR19aNEEyZWxfNzljR3FZN185d01DRFExa3Q4WTdrZU1CeEk?oc=5",
+    "source": "BBC",
+    "published": "2026-11-03T03:39:08+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "US strikes Iran's Qeshm Island as Trump signals progress in talks",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxORnVOWHBGVlBPVTVGZHQyb2x2dUZOdGNidWIyTk5JcUpOSlhabS1lSjBEN014aDZ6MTh0elFDSnJ3eHNPTzhHejBUWjQyam9kOVZsaDlDYm5sanN4RUU1QmY2djFOemhpc01DRk5kQWpBS2dFRkJmcnI5b09jT01SZzRFZXN2aklROEYwMFBYbXc1SzB3NmJtOW5rQUVtVUE4al80b093cU1ibkRQM0hvTFJn?oc=5",
-    "source": "France 24",
-    "published": "2026-11-03T02:28:07+00:00",
+    "title": "US reportedly strikes Iran’s Qeshm Island as Vance voices optimism about a deal",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOd3daWnVFR1JkRnZ1NTVRbEE5Vk15QTVMR2p1WXJSRXh5TEFpc0FFV1JBdWJhNWVvWnEtNmQ0UGF6c3g0YW1zMmpnYVdLSXVBVEJDc25odUEtS25LeDB5VUE0aGlQenlweXhoUmVPMkRENFpTWm5hZFlISzUtMHBJLQ?oc=5",
+    "source": "The Guardian",
+    "published": "2026-11-03T03:20:00+00:00",
     "lede": null,
     "lang": "en"
    }
