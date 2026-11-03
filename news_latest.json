@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-03T02:01:06.533213+02:00",
+ "generated_at": "2026-11-03T03:01:05.202945+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -9,27 +9,51 @@
  "sections": {
   "us": [
    {
-    "title": "Jim Cramer says lower oil prices are giving stocks a boost. Can it last?",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1nUGpvOWR2TXg1V3hBZGg3NVlXYW56a2pCeDJLam9vY1h1LVVNRkp6VWl3NEgyaTVreXNZNF9kT3FUOFU0MC1IektvLVJtUlZQVVRmU1RtYVhjRlJVdm9ROVlWdWtYQmJTckVqWTlLeXo0SzhLb1d3THQwalZ2V0XSAYQBQVVfeXFMT2xKU3JDcERNeGdhbGNqanY5UmluTGdOMTVCLXlyQURvZmdpSW93ekNSTERMeTJQaTJvckU0bVI0TG5PRV9ibDY3V1lPM3dWRHlJQnZEX21yMjhKNTlNaUs1UkxJcE43bGd3YkItTy1iSDMzU3RpVVktLVJxalNSOXhOZ2t0?oc=5",
+    "title": "Apple’s iPhone business is booming. Here’s why the stock is falling anyway.",
+    "url": "https://www.marketwatch.com/story/apples-iphone-business-is-booming-heres-why-the-stock-is-falling-anyway-07de9fff?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-03T00:52:00+00:00",
+    "lede": "Although iPhone demand remains strong, Apple faces a worsening memory crunch and a slowing services business.",
+    "lang": "en"
+   },
+   {
+    "title": "Why GE Vernova Stock Crept Higher on Monday",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPS2NmbVBEbWRETXRfU0wyZ3VSWkhyMGF6X0VoNUZDQjF1N3BwUkw3MktyTC12M1ZBWnJ5Y1YyeldyOE1mdFE5UkpBMVVoTkd6d3l2aWMzb2xuMEFrWGFlQlRjZlRUaWU1a05ZYjZUN181WDl2czhGODBsU2oxTzVrZzJHRDByOGRYMC04XzY0YkRzZnBFcmc?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-03T00:36:00+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Why RH Stock Jumped 20% in October",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQNEYtS1JhdnQ1U0NvMUU1R2hCTjhsVWRIRlAtNkFhUGZjWk5QSUc4T3VGeU5OWWIwdnpFby11cTlfcno5ZUY1cHlPM2hnYzZyaXJqZENvTHVzMGJOaHNUUGlZREdrU1U0RWpfMkd3SVpjWFlkc1M1OVNRMkstUFhvTWNJeXJaRFM1MGIzZTFWVjQ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-03T00:35:00+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Nasdaq-100 tumbles into its third correction this year as AI worries mount",
+    "url": "https://www.marketwatch.com/story/nasdaq-100-tumbles-into-its-third-correction-this-year-as-ai-worries-mount-abee4c0d?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-03T00:03:00+00:00",
+    "lede": "The “tech wreck” from October continues. Is a bear market next?",
+    "lang": "en"
+   },
+   {
+    "title": "Talent Infinity Completes Cancellation of Stock Options",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPeUEySTJGcEZHakJpOTFVTkNEVU5ndlZfWk9TLS1BTDdONVZ6UjdZQzJlSzJzV2RmdjlIZTFVRG5aQ19SOEdKVWZLTUI1VXdhbEl6Q1hqWUoyN2ZTcHdtVDducG8xS2lNd0g1YUpzTlpjVVJHemQ0dmNUa2thekFUc2wyREhhNUt3aEtNZWZ3LS01ZEM3Y0w0Z3paUFZyOHY3TUtBTk5Yb21fNDJ4cWc?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-03T00:00:00+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Jim Cramer says these six fashion stocks are buys beyond the AI trade",
+    "url": "https://www.cnbc.com/2026/11/02/jim-cramer-fashion-stocks.html",
     "source": "CNBC",
-    "published": "2026-11-02T23:36:53+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Prediction: This Will Be SpaceX’s Stock Price by the End of 2027",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPSklId2lVbVJLa0h4UklNSHV2b0tnX1A4UXhTckpxYzNJaEZtdFJFRU5qZEU1MEJXRU5FcnRpeUkwbjdOVkY0UF9BM2RMMkNkRml6NjRFa1Zfc2pMZWxXQTByZWF3ckIxcHc4bEd4UkJPUXp6VWU4Z3o3a1NWLVNsa3hRSVFSX1hjT1N3ZEFQNzBpNm1nXzBNNnpEbTBZdlE?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-02T23:27:02+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Alphabet Lost $500 Billion in Market Value. Should You Really Buy AI Stocks Now?",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNTWloNURTRElEYVYzbE0wcm9wNXhoWGE2a0x2WGR2MkgxdFFhMl9xeV83MkQ2dVFXSXZDOVlUNGJROXQ3NlRja0xRZ2lRV1lEMDNsNUl1UEFaRW1xa01wUzg3S1ZOeXlLbi1FY3BmOVVyMVdldEJiTkhtOFN6dlJpV1hpbUdCWFo3RExGeEdseXFrZXF3Zkx6ZFc4dTA?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-02T23:25:01+00:00",
-    "lede": null,
+    "published": "2026-11-02T23:54:27+00:00",
+    "lede": "While technology stocks have come under pressure in recent weeks, consumer stocks have been resilient.",
     "lang": "en"
    },
    {
@@ -63,22 +87,24 @@
     "published": "2026-11-02T22:34:07+00:00",
     "lede": "Employees describing jobs as 'remote' are now often in-office, as companies fail to create the collaboration they claim is critical, NY Fed research shows.",
     "lang": "en"
+   }
+  ],
+  "il": [
+   {
+    "title": "אינטל נחלשה ב-9%, צ'ק פוינט - ב-7%; הנפט צנח ביותר מ-7%",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9hU1IxbE44QWxOaUhHR0t5eDJlUXJySXNmTXRNUFUwSVF5VUM1WTd6ak5YQTZQYjFIVFppVFFWZXNOWHdNbDFlakxWWlg2NHdPSHpOOTBDYy1PdmVzN1JDRkl3?oc=5",
+    "source": "Calcalist",
+    "published": "2026-11-02T23:20:06+00:00",
+    "lede": null,
+    "lang": "he"
    },
    {
-    "title": "Traders rushing into a leveraged ETF to make a bullish bet on the Nasdaq-100 just got burned",
-    "url": "https://www.marketwatch.com/story/traders-rushing-into-a-leveraged-etf-to-make-a-bullish-bet-on-the-nasdaq-100-just-got-burned-d6775191?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-02T22:03:00+00:00",
-    "lede": "Some investors appeared a little too eager to buy the dip in technology stocks last month.",
-    "lang": "en"
-   },
-   {
-    "title": "Wall Street’s most hated stocks are faring far better than its favorites",
-    "url": "https://www.marketwatch.com/story/wall-streets-most-hated-stocks-are-faring-far-better-than-its-favorites-4c1d6c68?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-02T21:45:00+00:00",
-    "lede": "The thrashing that Wall Street’s artificial-intelligence darlings have taken over the past few months has led to an unusual situation in the U.S. stock market.",
-    "lang": "en"
+    "title": "בייננס חידשה את המשיכות, הלקוחות מושכים מיליארדים; האם האמון נשבר?",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1uVkVzbi11NWZRTFVIc2I3U08tVWhTbm5HbDkxYjJPZ0tGeDBlb2tXY1FzS3JDRjNaOWQzT3JaTDBtREpEZmZGa1RwZ2pTVXJoRTZvV2ZZWjhOUDRPV2pybG44MDZNaFBWclNpY1JQVGRtZzBZ?oc=5",
+    "source": "ביזפורטל",
+    "published": "2026-11-02T23:02:00+00:00",
+    "lede": null,
+    "lang": "he"
    },
    {
     "title": "רבעון ראשון למנכ\"ל אפל החדש ג'ון טרנוס: מכה את התחזיות, מאכזבת באייפד ובסין",
@@ -86,16 +112,6 @@
     "source": "גלובס",
     "published": "2026-11-02T21:42:00+00:00",
     "lede": "אפל עקפה את תחזיות האנליסטים בשורה העליונה והתחתונה, עם הכנסות בגובה של 114.48 מיליארד דולר שמשקפות צמיחה של 12%",
-    "lang": "he"
-   }
-  ],
-  "il": [
-   {
-    "title": "בייננס חידשה את המשיכות, הלקוחות מושכים מיליארדים; האם האמון נשבר?",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1uVkVzbi11NWZRTFVIc2I3U08tVWhTbm5HbDkxYjJPZ0tGeDBlb2tXY1FzS3JDRjNaOWQzT3JaTDBtREpEZmZGa1RwZ2pTVXJoRTZvV2ZZWjhOUDRPV2pybG44MDZNaFBWclNpY1JQVGRtZzBZ?oc=5",
-    "source": "ביזפורטל",
-    "published": "2026-11-02T23:02:00+00:00",
-    "lede": null,
     "lang": "he"
    },
    {
@@ -123,22 +139,6 @@
     "lang": "he"
    },
    {
-    "title": "הנאסד\"ק וה-S&P 500 ננעלו באדום; הקריסה באינטל נמשכה, מניות השבבים ירדו לשפל של חצי שנה",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001561626#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-02T21:01:00+00:00",
-    "lede": "הנאסד\"ק ירד בכ-1.1% בהובלת מניות השבבים",
-    "lang": "he"
-   },
-   {
-    "title": "עליות בוול סטריט לפני דוחות אפל - מחירי הנפט צונחים ב-7.5%",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9hU1IxbE44QWxOaUhHR0t5eDJlUXJySXNmTXRNUFUwSVF5VUM1WTd6ak5YQTZQYjFIVFppVFFWZXNOWHdNbDFlakxWWlg2NHdPSHpOOTBDYy1PdmVzN1JDRkl3?oc=5",
-    "source": "Calcalist",
-    "published": "2026-11-02T18:00:00+00:00",
-    "lede": null,
-    "lang": "he"
-   },
-   {
     "title": "המניות הביטחוניות הכבידו על הבורסה, גם טאואר ופאלו אלטו",
     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0tc2x6S0h3NGl5ejFSdERHOEtCaTRaaF9TRFI1WVRWc2ZabklxTnJ0TEJOU296NjloaWZrT0o0Tll3anBsTTV4SkZsVExIU2JzSklZUEtYdTI5aXZiZ3lnS25n?oc=5",
     "source": "Calcalist",
@@ -149,18 +149,18 @@
   ],
   "geo": [
    {
-    "title": "War, tariffs and China: What the US midterms mean for the Asia-Pacific",
-    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcXdSUzdCZE1aZDlWYzNjZ0hTQ1NIclRrN2hvT2trYnM3djdIajN1Nk8zWEViT3FHQ1lPMEJNSDZDR1ZxMUNuS1lMeGM3RVdrckJXZWpERVpzakZVb3htaG1kcC1aNEVuLVhxSVRxUWZPNnd0THU2aF93R0xhdUNUQkM4aGNtMVpyb2FxeWlUZ2V0SWFPcGZOWWRxMG9WeWl2ZDJPR1VyZUluQTdZbUHSAbMBQVVfeXFMTnBxd2VhLVdiSEE4akU0M2FNUUJYT0gtWXIyVnFOM29RTElPVFFGczNaWHAyOFNmMl9UTjgzSlhyOHREaFNXU0dxdldFZXBJSXBWaldWel9rU1IxZ1N4aVd6azVEMXVSczM4Mko2RlBnQTZIWjZXdk95MzdrWlBNdFF4MWw1cnJ3QXJmTXVGbFJZcnFFcFU3VExWbUpNMWlTWnptRnY4YUxjTTdIal8wU0xBeDg?oc=5",
+    "title": "Russian bombing of Ukrainian aid centre kills 26 people",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOOXNCcFZ3enhVSFJfdHQyZ1N3bjdWWVVQMk5seXRsWW42X2Z5Yi1sbFN4ZmJRRlhqa0FCbkZOemN5b0Q0eVdvWmpaN1h0TjZXdmkzd0VkdVQ1VnY2TEVibHNTbmJDSnlDSzZLbDRBRnNvdUFmUklDUFlrblJYMkZheE5PNkE4WmxwX0N0ZVNNTHZCMENneHZiTVhYeWktcE5jODNzN3ZzS2tpZ9IBrwFBVV95cUxNcXhuNzZpVXhhdE5PMDRIbkFKSlFENEZNcVJSZWNyTVU5RFc2a1BiODJfMmNldWNGanNERVdNdEJRdi1ncWZnRWxQWUJ3VGZkWVpuWnJabDlDS1RYY0JZUWZ0X3U1N1F2Z0JHbkJ6X0RpQWFFQXQtR1dxU1lTSWEzYS1qcnBpMXdSWnprckVGQjdsMnREck1jWmtqS1ZTLW9GUktBUGNPOXhJN1J3SDVz?oc=5",
     "source": "Al Jazeera",
-    "published": "2026-11-02T23:41:53+00:00",
+    "published": "2026-11-03T00:33:01+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Vance says US has had ‘good conversations’ with Iran on finding deal to end conflict",
-    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOSlZQOGFnNWxyTG91ZkxGMkdDdlNhd1RuRUZzblYtZGxfOGpReXI2cE5oazAzZkFQRW96Y3VrUkdfenVFWWtPS1BfaFBYYWQ1WVBMVmpuaTZuU3llOGZNMF85QnVGRHAwZlphVWVoaDFiZWhoMWVjalhyTE5na3BVWjVHcmIyWDFoU0FnU2ZBaFZyOE5GRGJqQzdR?oc=5",
-    "source": "AP News",
-    "published": "2026-11-02T23:27:00+00:00",
+    "title": "Iran says contacts over ending war continue after talks finish with no breakthrough",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOLXhRTFk2aHFYY3VOMWFGdmFySFR5MTNxeWRRU1ZQM3RaWjg4ZFZlOTJHNDZjYmdCVjBOX0RweVAyWEI4T2dZMVFSbUt4bTc4NGlibnlTaDh2TUNydEdOQjZJSmt3RnRIbk1LNVJ4SlNkR0M3QWs3NnZwQ0JlMW5Ud0FaN29PaGcwdk1CbTZ1UUhjYkg5XzZwVmdwWGNnRnladzZVUEhBeTZScEZIMl9YZ0hUT01GcDdkMXFwcXF0Q3hkTEluSnpnb3F5RFA?oc=5",
+    "source": "Reuters",
+    "published": "2026-11-02T23:57:41+00:00",
     "lede": null,
     "lang": "en"
    }
