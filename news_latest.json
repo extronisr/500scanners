@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-03T23:31:10.935102+02:00",
+ "generated_at": "2026-11-04T00:31:04.895505+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -9,43 +9,51 @@
  "sections": {
   "us": [
    {
-    "title": "AMD stock jumps 7% on earnings as data center revenue nearly doubles",
+    "title": "AMD stock jumps 8% on earnings as data center revenue nearly doubles",
     "url": "https://www.cnbc.com/2026/11/03/amd-amd-q3-earnings-report-2026-.html",
     "source": "CNBC",
-    "published": "2026-11-03T21:20:14+00:00",
+    "published": "2026-11-03T22:10:55+00:00",
     "lede": "AMD reported better-than-expected third-quarter results, driven by booming sales of AI chips",
     "lang": "en"
    },
    {
-    "title": "US Equity Markets Mixed Ahead of US Midterm Election Results",
-    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNME5Jem9hcExzRTg0bXNmRURhOVBtM0RGNkVrdlNIMXRSbkcta1BQWnA1SXRLeHcwNUg2T1lkbUN5cVRhUHZuelMtMU1DTnFpZU5VeFZFa0NxSm9WNUkxenhNdWtMdFQtb0otcmJnUm40ZnRZWl9ldWVSSUN3WEl6d1hfNC1NSkZTY25jaXV2UXF4QzBpd3Bid2NB?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-03T21:19:24+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Nasdaq ends higher as AI heavyweights rebound ahead of midterm results",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWVp0N2w0REZqOUJ3YkRxcmliYkhtX25yTkFtdmJDUFdSVm5CcXRQYjdMeFFLU0gxcHk1STM2R0xXaGJ6TW9ZN2ZQS2RReVRiXzNtY1B3Qm5fZ1lfTUFaMVpRM2d2ZVZodnZtbUFFLUtkcURfUEtENElyNG5YcFRGcncteEFaZFUwOGxVUmpTMWFkMEtvb09VTG50a2NSbjhLUm5Zc3EtZS1XUU5lWm9B?oc=5",
-    "source": "Reuters",
-    "published": "2026-11-03T21:15:02+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Global Engine Group Holding Limited Regains Compliance with Nasdaq Minimum Bid Price Requirement",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQ1JHRWoxakpmdWI4cEh0dTZLYy1SVHBwNUhPejdXWmhlLXJsbHdBMmcxMHk2WkpicDdjRVREUHF1aXZ0QWVKU1doZTN0allRblVRamhQRE5XajFaUTZTRHJiM0lLcUtkOHJQbFVoMXVvNFRORFRkMFRUOGZCbzNfVEhla0t0eTB4d1JJSUExTEVSVEdJd01FdHBsdW9WMFdaUXc?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-03T21:15:00+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Super Micro’s stock pops as earnings show booming demand for AI servers",
-    "url": "https://www.marketwatch.com/story/super-micros-stock-pops-as-earnings-show-booming-demand-for-ai-servers-2d179658?mod=mw_rss_topstories",
+    "title": "Rollins Inc. stock outperforms competitors on strong trading day",
+    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNTTBTN1lWM080TEpaMXZrcUR4Z1U4dkt5YWVaQmZuOG94QU1aRWdLaFdPOUxqU21sMnZCZjNRTTNoR3pRbXR0Z2VFWFFDVXVBVlRmZmx6X1FsX3ktTDJKLXc5X1h2T3diaG1pUkY0Q19Oa3dVQWRfSk9uSEF6WHRPRTczSTB3NU8xWU9HS0RhU05KWUV2ZzJGODhIc2ozUG85b0tUa1oyd0N3R0lkdlh1N0pZNUhtSFpsZllhQzZpeFVuSEwzc0FMdjhrZUYyb205b2VGc2NSbjA?oc=5",
     "source": "MarketWatch",
-    "published": "2026-11-03T21:13:00+00:00",
-    "lede": "Super Micro is building out a “high-quality customer base” that’s fueling revenue growth, CFO Mark Long told MarketWatch.",
+    "published": "2026-11-03T22:09:00+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "General Mills Inc. stock underperforms Tuesday when compared to competitors",
+    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOQ1BxdnhGTV9TTGItY1J5YlY4S1JzRFNJV0VrNXFXZ0Z3RXVrQnZBLXQ0aVlwb1R4eTZraDVacTV1Z3kyUXRGN3JLSXp5T2NYM2F1cXM4OGliQjZlSUpuanFsUGhHQmRfS1BIbnZsTWdXTngtSVBJeUZRQUNjQVNtU25ZV3d4aHlOZ08xcUlLeV9xbHlyTVVfSDF6cUJWTTZLNFdYYUdJQzRNak5kWkRaUkZib3lRSjdUVGttWVVDbGlKOHdzNHpVRS1hZmVoVlU0a0VsOTdQZlplTVdTZ04ybjBXQVh1TjA?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-11-03T22:08:00+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "AI’s control over the bond market is growing — even rivaling war and elections",
+    "url": "https://www.marketwatch.com/story/ais-control-over-the-bond-market-is-growing-even-rivaling-war-and-elections-5d727b35?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-03T22:06:00+00:00",
+    "lede": "“Hyperscalers” burned through their cash. Now their bond deals are helping fuel the economy.",
+    "lang": "en"
+   },
+   {
+    "title": "What Is Behind The Move In CRH Stock?",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNQlZVUDZ0RHdFQW5reHVXZk8ySEdHOUJpYXd3M1c5MVNtWWtUbEtVcUVHTHEyOF95Mm4wVllEMW1FdE8zQ3VubnFFUk9VcFVEODYyVVhsRjZyT2RTTm9SUEFJd2F4a3ZJNjZqU29EajVOTmVuWF9oUC1jZGNuakdwSjZHYXNYclZZcHl2Q25Zaw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-03T22:03:28+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "S&P 500 is looking over the edge of a technical cliff — what happens if it falls off?",
+    "url": "https://www.marketwatch.com/story/s-p-500-is-looking-over-the-edge-of-a-technical-cliff-what-happens-if-it-falls-off-be97ebd9?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-03T21:30:00+00:00",
+    "lede": "Falling below 7,500 would lead to a dramatic increase in selling pressure and volatility, a J.P. Morgan strategist says, and that could end in a full-blown correction",
     "lang": "en"
    },
    {
@@ -54,14 +62,6 @@
     "source": "CNBC",
     "published": "2026-11-03T21:11:34+00:00",
     "lede": "Ferrari raised its 2026 guidance Tuesday after third-quarter revenue and adjusted earnings per share edged past Wall Street expectations.",
-    "lang": "en"
-   },
-   {
-    "title": "Anthropic’s IPO is a high-stakes referendum on Big Tech — and this chart proves it",
-    "url": "https://www.marketwatch.com/story/anthropics-ipo-is-a-high-stakes-referendum-on-big-tech-and-this-chart-proves-it-d1c54d33?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-03T21:04:00+00:00",
-    "lede": "Tech giants like Broadcom, Google and SpaceX have plenty of skin in the game as Anthropic heads for the public market.",
     "lang": "en"
    },
    {
@@ -131,6 +131,14 @@
     "lang": "he"
    },
    {
+    "title": "מס על שכירות מהשקל הראשון? הצחקתם אותי",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5mUU43VG9JZEdHaUNhbmJjTndDZ2ozY3NvRVFSM0t5bjl5ME5DZVZxdi1QWGtXQmI4SXFiNzJHQkVZa2N5ZWM1blJrYmpSaFZwamcybDNkUEoyUE5aYnkwN1FKRG1abWh0?oc=5",
+    "source": "ביזפורטל",
+    "published": "2026-11-03T16:24:00+00:00",
+    "lede": null,
+    "lang": "he"
+   },
+   {
     "title": "ת\"א ננעלה בעליות קלות, נייס נפלה ב-7.1%, טבע טיפסה ב-3.8%",
     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE45UEZiREgyaUZ1UkZ1R0NBZTk0ZVZBNTgyOWlhNXJhQ1YwRHRWWWJpdHRZQTZpeVBweUxqNzRERWJZbE45SUZyRWxqSU9yLXBrMWgtMjB5NFVsRmNNbTVmYXBn?oc=5",
     "source": "Calcalist",
@@ -145,30 +153,22 @@
     "published": "2026-11-03T10:56:00+00:00",
     "lede": "ענקית הבידור שוקלת לקצץ אלפי משרות, וביקשה מהמנהלים להציב יעד חיסכון של 20%. הסיבות: ירידה בהכנסות הסרטים, האטה במספר המבקרים בפארקים ותחרות גוברת בסטרימינג",
     "lang": "he"
-   },
-   {
-    "title": "בגלל חובות העתק: ענקית התוכנה מנסה לגייס 20 מיליארד דולר - והמניה צוללת",
-    "url": "https://finance.walla.co.il/item/3874751",
-    "source": "וואלה",
-    "published": "2026-11-03T10:52:00+00:00",
-    "lede": "אורקל יוצאת להנפקת מניות ואגרות חוב ענקית כדי להאיץ את פעילותה ב-AI ולעמוד ביעדי 2030, אך המשקיעים מגיבים בחשש ושלחו את המניה לירידה של כ-9%",
-    "lang": "he"
    }
   ],
   "geo": [
    {
-    "title": "Besieged by war, Saudi Aramco continues to gush profits",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQS0RxYURrempZYmJJLXlkSnJwS2F4Vk42X2hBYVVTbHhYQV91OFdiWDZZbE5uTU9VOGtWYW9sT0Y3dkFYdkx4eGVWVkRhMF9wdXI0ZWk4aXlib0dvRWNiMzRMVFFhOElfYkFESTlGamZuc0RTdWFZaE1pTGQ0RFBrcGEwZUFSbFBEZlREZTBENUhrM2hXRjQ3TlNYOGw1c2RKM1E?oc=5",
-    "source": "The Economist",
-    "published": "2026-11-03T20:36:19+00:00",
+    "title": "On Cusp of Renewed War, More Iranians are Calling for Nuclear Weapons",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOS01GdlcwQXNlbzFsNHlMZXpyWDlvVUhhREwwdVIwaml1cGRfOWNKZUJrRDFPcWJod0VtNVdGMlI2UlU2WnN2a291UmlPNUk1bXBqcXhtSDFDNmtOaVI3TmlfRVVKc0ZXWkdMamhZT1hDdS0tcDZWdGdBdmZ3VkQ2aHA4YUxmbmJOOGNmd2RuMURpTFRiNnNqSVR4OVd5YjdGTVBBUFU2elAwNnJueDNxRmd5ZkNFZG1IZmVOZlBR?oc=5",
+    "source": "The New York Times",
+    "published": "2026-11-03T21:46:32+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "What comes next in Trump’s war with Iran : Here & Now Anytime",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQN2R6VUtZbFBoSTRVZ1BEYzBsZ282NURLMmdUYTBjWExYYlFuajg1Mmt1MzBxM3lhX3Uzc3l1MmhSY0pjNmdneU9RVHVYLWxQUDZaMkk1cnFtRW90SDNYcENlTC1ickZCR3RmNW1vWEF5SW01UFp0WUdseWlkaXNXbmJ2bXVVaUI0bWowYQ?oc=5",
-    "source": "NPR",
-    "published": "2026-11-03T20:00:00+00:00",
+    "title": "As Americans vote, Trump says US will stop $4 billion in aid to Israel",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTnAzZzVDS3N1RTJJdnkxYUJPQkl1X3h4d3hZaC1MX0RwXzRHOGRybmM3QjEzR1kybkJIUmNYcnVPbkNPMkt6TFBnTEdOYWFJemJkelBhVXZsRDQ5VG4wc1lSS0Q2dlRlUmV0VHI2Y3YxNWstRWVPUV95Y2pNUVp5TUlES3pCMC1GUzNTTXVfWWlGd1JlQ3p1XzJUWmJmbzlWUmtYTFlXNDFlZw?oc=5",
+    "source": "Reuters",
+    "published": "2026-11-03T21:24:37+00:00",
     "lede": null,
     "lang": "en"
    }
