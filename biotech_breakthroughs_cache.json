@@ -1,5 +1,5 @@
 {
- "fetched_at": "3.11.2026, 8:04",
+ "fetched_at": "3.11.2026, 8:34",
  "items": [
   {
    "title": "Cerus reports positive phase 3 trial results for red blood cells - Investing.com",
@@ -3387,24 +3387,6 @@
    "ncts": []
   },
   {
-   "title": "FDA approves generic Rivaroxaban (Teva Pharms Usa)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=212247",
-   "pub_ts": 1793059200.0,
-   "date": "27.10.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=212247"
-    }
-   ],
-   "ncts": []
-  },
-  {
    "title": "A Study to Learn How Well the Study Treatment Finerenone Works and How Safe it is in People With Long-term Decrease in the Kidneys' Ability to Work Properly (Chronic Kidney Disease) Together With Type 1 Diabetes",
    "link": "https://clinicaltrials.gov/study/NCT05901831",
    "pub_ts": 1793059200.0,
@@ -3425,6 +3407,24 @@
    "ncts": [
     "NCT05901831"
    ]
+  },
+  {
+   "title": "FDA approves generic Rivaroxaban (Teva Pharms Usa)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=212247",
+   "pub_ts": 1793059200.0,
+   "date": "27.10.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=212247"
+    }
+   ],
+   "ncts": []
   },
   {
    "title": "Merck drug extends survival in endometrial cancer trial, wins US priority review - Reuters",
@@ -3574,6 +3574,24 @@
    "ncts": []
   },
   {
+   "title": "FDA approves generic Epinephrine (Gland)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220400",
+   "pub_ts": 1792972800.0,
+   "date": "26.10.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220400"
+    }
+   ],
+   "ncts": []
+  },
+  {
    "title": "FDA approves generic Valganciclovir Hydrochloride (Alembic)",
    "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=217267",
    "pub_ts": 1792972800.0,
@@ -3609,24 +3627,6 @@
     {
      "source": "FDA · openFDA",
      "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=216072"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "FDA approves generic Epinephrine (Gland)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220400",
-   "pub_ts": 1792972800.0,
-   "date": "26.10.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220400"
     }
    ],
    "ncts": []
@@ -3966,24 +3966,6 @@
    "ncts": []
   },
   {
-   "title": "FDA approves generic Amlodipine Besylate And Valsartan (Cadila Pharms Ltd)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=205797",
-   "pub_ts": 1792540800.0,
-   "date": "21.10.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=205797"
-    }
-   ],
-   "ncts": []
-  },
-  {
    "title": "Study to Compare Bictegravir/Lenacapavir Versus Current Therapy in People With HIV-1 Who Are Successfully Treated With a Complicated Regimen (ARTISTRY-1)",
    "link": "https://clinicaltrials.gov/study/NCT05502341",
    "pub_ts": 1792540800.0,
@@ -4026,6 +4008,24 @@
    "ncts": [
     "NCT04404283"
    ]
+  },
+  {
+   "title": "FDA approves generic Amlodipine Besylate And Valsartan (Cadila Pharms Ltd)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=205797",
+   "pub_ts": 1792540800.0,
+   "date": "21.10.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=205797"
+    }
+   ],
+   "ncts": []
   },
   {
    "title": "Samsung Bioepis' first ADC drug candidate wins US FDA Fast Track designation - 머니투데이",
