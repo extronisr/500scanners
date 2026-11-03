@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-03T18:31:13.462359+02:00",
+ "generated_at": "2026-11-03T19:33:05.656813+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -9,36 +9,76 @@
  "sections": {
   "us": [
    {
+    "title": "Palantir sinks 2% after earnings as analysts point to slowdown in total contract value",
+    "url": "https://www.cnbc.com/2026/11/03/apple-palantir-stock-earnings.html",
+    "source": "CNBC",
+    "published": "2026-11-03T17:24:34+00:00",
+    "lede": "The software giant's stock fell after earnings failed to impress investors.",
+    "lang": "en"
+   },
+   {
     "title": "Midterm elections could jolt stocks if Democrats sweep Congress",
     "url": "https://www.cnbc.com/2026/11/03/midterm-election-stock-market.html",
     "source": "CNBC",
-    "published": "2026-11-03T16:29:20+00:00",
+    "published": "2026-11-03T17:15:20+00:00",
     "lede": "Wall Street weighs how the 2026 midterms could affect stocks, Treasury yields, artificial intelligence, energy prices, banks, defense and healthcare.",
     "lang": "en"
    },
    {
-    "title": "Binance co-CEO Richard Teng says hackers used fake job interviews, AI tool to steal $6.3 billion in crypto 108511116",
+    "title": "Billionaire Paul Singer Says Wall Street Faces “Obliteration”",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNU1l0VEhoNHMyTEh1T0szY0tSWVZ1UUxoYnlHbUNiaUw0ZWctTFQ4c3VjcmpONXhPWnVLcGJGemtoUG0xdjVkRGF4eFp5XzN4RVpZY0JRUUxFa3M4UHkxdmM1MXJ2WmRuMzFJWnpURnRqRVNISFhyLWlFcGUwR0hWTi1rZWkzWVFLUjF1czZnVmxMcEJ0ZnlYNk1nQWNZUHM?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-03T17:07:28+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Meet the Dividend Stock That Warren Buffett Backed for Decades. Here's Why Greg Abel Is Still Holding.",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZlB2c2RzM0s0TmRWcEgwV0JMZENYWDJQRFN4emZvVmx5UWdNaUxZRUphZXA1eDBTZXVSTzRGTURUdUxMNUtzOGNKczhVQjRqSVlNcUJTNmIwdENqSGRHVHpUeU1La2JtYWVGalpiVU9hMGZPREppYlF3cGxQRl95OEVQNlZlZlNSYWx1clBWVzRTS29jT1pZaVVQY3lXX2kx?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-03T17:05:00+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Lumentum Stock Gains After $5 Billion Co-Packaged Optics Win",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRzJ3M3ZRcFY4VWVlYXE4LWx1UU8yc3ZNQWpVT1NLZ25fV1JIcUpkcUE3TGE4RlJCaWtJb0swRDNjMDc4eHdBY3pFWTNpMVNQWFV3NVFwUGxhdVBUaW40NHh0TnpwVXhsM3JzLTg5TjRGcUlzczhGT1Y2dlVERG1OVkRwYVp5WXhheUtPcFV4bzRtMWZOa3ZvM0hYYw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-03T17:03:28+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "U.S. jobs market perks up, but it’s still not a great time to get hired",
+    "url": "https://www.marketwatch.com/story/u-s-jobs-market-perks-up-but-its-still-not-a-great-time-to-get-hired-bc39f44f?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-03T16:56:00+00:00",
+    "lede": "Job openings in the U.S. rose in September to a four-month high and hiring also increased, signaling mild but perhaps not sustainable improvement in a sluggish U.S. labor market.",
+    "lang": "en"
+   },
+   {
+    "title": "Binance co-CEO Richard Teng says hackers used fake job interviews, AI tool to steal $6.3 billion in crypto",
     "url": "https://www.cnbc.com/2026/11/03/binance-co-ceo-teng-says-hackers-used-fake-job-interviews-to-steal-6point3-billion-in-crypto.html",
     "source": "CNBC",
-    "published": "2026-11-03T16:26:29+00:00",
+    "published": "2026-11-03T16:52:17+00:00",
     "lede": "Binance has replenished 98% of $6.34 billion in affected assets, according to a security report the crypto exchange issued Tuesday.",
     "lang": "en"
    },
    {
-    "title": "Bill Ackman warns of 'casino' stock market as speculative trading grows",
-    "url": "https://www.cnbc.com/2026/11/03/bill-ackman-casino-stock-market.html",
-    "source": "CNBC",
-    "published": "2026-11-03T16:23:26+00:00",
-    "lede": "\"We're back to the casino-type markets when there was 95% leverage,\" said the founder of Pershing Square Capital Management.",
+    "title": "U.S. clears path for first regulated equity perpetual futures",
+    "url": "https://www.marketwatch.com/story/u-s-clears-path-for-first-regulated-equity-perpetual-futures-6bb35905?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-03T16:46:00+00:00",
+    "lede": "A trendy crypto-native trading product that has exploded in popularity on offshore venues is expanding its foothold in the U.S.",
     "lang": "en"
    },
    {
-    "title": "Here’s why Palantir’s stock is down despite a ‘bombastic’ quarter",
-    "url": "https://www.marketwatch.com/story/heres-why-palantirs-stock-is-down-despite-a-bombastic-quarter-42c9fdb8?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-03T16:21:00+00:00",
-    "lede": "A deceleration in U.S. commercial contract growth gave some Wall Street analysts pause despite Palantir’s earnings beat.",
-    "lang": "en"
+    "title": "מגמה מעורבת בוול סטריט; מניית טבע מזנקת, אפל יורדת",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001561764#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-03T16:39:00+00:00",
+    "lede": "מניית אפל מעיבה על מדד דאו ג'ונס • שופיפיי נופלת: פספסה את תחזית ההכנסות לראשונה זה ארבע שנים • מחירי הנפט יורדים • תשואות האג\"ח הממשלתיות בארה\"ב עולות לקראת תוצאות בחירות האמצע",
+    "lang": "he"
    },
    {
     "title": "רגע לפני הדוחות: נייס מפטרת כ־500 עובדים ברחבי העולם",
@@ -47,55 +87,31 @@
     "published": "2026-11-03T16:20:00+00:00",
     "lede": "לגלובס נודע כי ענקית התוכנה מרעננה תפטר כ־5% מכוח האדם, על רקע המעבר לפתרונות AI וחולשת המניה",
     "lang": "he"
-   },
-   {
-    "title": "Lineage (LINE): High-Quality Cold Storage Leader Trading at a Deep Discount",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRzRXdGF6TWt1VksyY3FxUTFLcDlReEFrXzBGcFV1QjhBNGYxSV9TU051VTFlRGFTNUJsVS0wRnItdDN2dXBJMUwxYzRJUm91ZjBTQkhtT1hCMVlPR1hOZXFna05fZW10UEhWZGoxVjJUcThKNmJBMG5Ed09Xa0J1UHVTRXJxc2VTOGF3c1k3dWJONldiRElYMlNTTQ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-03T16:19:58+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Apple Crushed Earnings, but Its Stock Is Dropping Over Memory-Chip Prices!",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPd3dlNjMyODl0UjUyX0NfdTItczlMcXgyYlpZdlJZTE9LYWQ0cVE5d3ViMXJrNWdmOEZqWTkzVGFaT0wtWEVQSVQ2R2QycFQ5N21qX3NYOG9iY0lXVVNmUXdwdUVCX3VZa2Joel9sUE13TDRxcmpUODFoUE1JbEJKRHFXWm1XR1BmRkstZDFBekljYm9XeVpUUlVnaHZRWEZwS3g1dA?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-03T16:19:04+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "סטירת לחי: הפסקת הסיוע האמריקאי לא תפגע רק בישראל",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001561912#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-03T16:19:00+00:00",
-    "lede": "רק לאחרונה התנגד בית הנבחרים האמריקאי ברוב מוחץ להצעה להפסיק את הסיוע הצבאי לישראל, שמימן בשנים האחרונות נתח משמעותי מהוצאות הביטחון",
-    "lang": "he"
-   },
-   {
-    "title": "This Index Just Did Something It Hasn't Done Since 2009. Is It Time To Buy?",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPV1hoVFcxdzFWYTdVWndaZE44RFlCZmY2djdDbnc2M3VuaThiQXgwZ1V6UkxFSFFUOVRjNGxCTGNRS2Y2TFBhQW5iUE1mTklSVmdPM0xPbmJncDJocmJxdVpjQWlnWnQxQlgwc3RtNThfYUFHQUptV1hxN2dwS2U3d1QyaERUWTQwTHAyVlNXYThJcDMwVEdzWExucw?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-03T16:12:12+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "What's happening to UK interest rates and what does it mean for mortgages?",
-    "url": "https://www.bbc.co.uk/news/articles/c3dky111m40o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC",
-    "published": "2026-11-03T15:51:23+00:00",
-    "lede": "The interest rate set by the Bank of England affects mortgage, loan and savings rates for millions.",
-    "lang": "en"
    }
   ],
   "il": [
    {
-    "title": "מגמה מעורבת בוול סטריט; שופיפיי נופלת ב-10%, אנבידיה עולה ב-3%",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001561764#utm_source=RSS",
+    "title": "הדולר עולה ל-3.17 שקלים, שיא של מעל חצי שנה. אלו הסיבות",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001561804#utm_source=RSS",
     "source": "גלובס",
-    "published": "2026-11-03T16:16:00+00:00",
-    "lede": "מניית אפל מעיבה על מדד דאו ג'ונס • שופיפיי נופלת: פספסה את תחזית ההכנסות לראשונה זה ארבע שנים • Drax מזנקת ברקע תוכנית להקמת דאטה סנטר באנגליה בהשקעת ענק • באסיה נרשמו ירידות חדות בקוריאה",
+    "published": "2026-11-03T17:29:00+00:00",
+    "lede": "המטבע האמריקאי ממשיך להתחזק מול השקל ורושם קפיצה של כ-4.5% מאז ה-27 באוקטובר, מועד הבחירות בישראל",
+    "lang": "he"
+   },
+   {
+    "title": "שכר של קרוב ל-3 מיליון שקל: המרוץ לניהול איגוד הבנקים נפתח ויש מועמדים",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001561801#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-03T16:35:00+00:00",
+    "lede": "מנכ\"ל האיגוד איתן מדמון, שניסיון להדחתו נחשף לפני מספר חודשים, יפרוש בסוף השנה",
+    "lang": "he"
+   },
+   {
+    "title": "מס על שכירות מהשקל הראשון? הצחתקם אותי",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5mUU43VG9JZEdHaUNhbmJjTndDZ2ozY3NvRVFSM0t5bjl5ME5DZVZxdi1QWGtXQmI4SXFiNzJHQkVZa2N5ZWM1blJrYmpSaFZwamcybDNkUEoyUE5aYnkwN1FKRG1abWh0?oc=5",
+    "source": "ביזפורטל",
+    "published": "2026-11-03T16:24:00+00:00",
+    "lede": null,
     "lang": "he"
    },
    {
@@ -123,14 +139,6 @@
     "lang": "he"
    },
    {
-    "title": "החברה שפיתחה צמיד המטפל בפרפור פרוזדורים ומגייסת 30 מיליון דולר",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001561825#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-03T14:30:00+00:00",
-    "lede": "StimCardio מגייסת 30 מיליון דולר לפיתוח צמיד לא פולשני לטיפול בפרפור פרוזדורים",
-    "lang": "he"
-   },
-   {
     "title": "קיצוצים נרחבים בדיסני: אלפי עובדים בסכנת פיטורים",
     "url": "https://finance.walla.co.il/item/3874756",
     "source": "וואלה",
@@ -145,30 +153,22 @@
     "published": "2026-11-03T10:52:00+00:00",
     "lede": "אורקל יוצאת להנפקת מניות ואגרות חוב ענקית כדי להאיץ את פעילותה ב-AI ולעמוד ביעדי 2030, אך המשקיעים מגיבים בחשש ושלחו את המניה לירידה של כ-9%",
     "lang": "he"
-   },
-   {
-    "title": "אינטל נחלשה ב-9%, צ'ק פוינט - ב-7%; הנפט צנח ביותר מ-7%",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9hU1IxbE44QWxOaUhHR0t5eDJlUXJySXNmTXRNUFUwSVF5VUM1WTd6ak5YQTZQYjFIVFppVFFWZXNOWHdNbDFlakxWWlg2NHdPSHpOOTBDYy1PdmVzN1JDRkl3?oc=5",
-    "source": "Calcalist",
-    "published": "2026-11-02T23:20:06+00:00",
-    "lede": null,
-    "lang": "he"
    }
   ],
   "geo": [
    {
-    "title": "Iran’s chief negotiator says the US must act to prevent renewed war, and other Mideast news",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOM2pBMjlPX0dlMUxUN1BQVExSMVRwRTBnQkx6TkFaRW4zT1NsTE9jNzhHbnZSMVFXd1lHQ3gwWFJEbW85aGdhbTJVY0VWN1FyTVZLTUdSblVHYzAtTHVoN2ZvZkNyWWtPR3pVVWRBSUxaTWZldUR0QktaZWlMSm42cEdiWFNhcUIwNFdpUUN4a0JjQQ?oc=5",
-    "source": "AP News",
-    "published": "2026-11-03T16:03:00+00:00",
+    "title": "As Americans vote, Trump says US will stop $4 billion in aid to Israel",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTnAzZzVDS3N1RTJJdnkxYUJPQkl1X3h4d3hZaC1MX0RwXzRHOGRybmM3QjEzR1kybkJIUmNYcnVPbkNPMkt6TFBnTEdOYWFJemJkelBhVXZsRDQ5VG4wc1lSS0Q2dlRlUmV0VHI2Y3YxNWstRWVPUV95Y2pNUVp5TUlES3pCMC1GUzNTTXVfWWlGd1JlQ3p1XzJUWmJmbzlWUmtYTFlXNDFlZw?oc=5",
+    "source": "Reuters",
+    "published": "2026-11-03T16:55:20+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Strike on Ukraine Humanitarian Hub Is Feared to Be Among War’s Deadliest",
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUnY3aFlrMnJFTG1xcmJIMElOaFRXUmtDUFROel92TzVCeXZtc1NGckZoTFRTTElLWW9tVDZxbzhaTFYyMVVTa3g4amRpenRYTGdJeTR3azVvSVlRY3FDWXVqRC1HVTRVZ3RxQXd0YlJCTFA3X1g0bGZuUl9xbWNSWUIxOW5XOHlXTld5cUJja2FFbElFWUE3bg?oc=5",
-    "source": "The New York Times",
-    "published": "2026-11-03T15:56:37+00:00",
+    "title": "Ukraine and Russia are taking the war underground as drones saturate the battlefield",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQcnBjaHFETnQ3dDFXS1l3bHViTkdxbzZVSnNoMXAyQkR4VVJtSVhCV2ZvMHVvaWxTZmlXbTFkeUQ2Q3BwSHNVTGgtSW1CdF9BMDVmV3FSeU14bHlIenFTU1F0akI4R3BpT29DU3NsaTFmY0NKS2tLbUtxX2tNRnlkMTBkamNKVFUxSnNWOUViQnNwbDdGMG91bzZCMkZ2NG1TU2VkRm82U003Tk43bG1wZzZmZ29nS3huUGF4cXBUUXR1THdUeWpF?oc=5",
+    "source": "France 24",
+    "published": "2026-11-03T16:52:13+00:00",
     "lede": null,
     "lang": "en"
    }
