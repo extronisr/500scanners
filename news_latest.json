@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-03T03:01:05.202945+02:00",
+ "generated_at": "2026-11-03T04:01:03.240844+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -9,43 +9,51 @@
  "sections": {
   "us": [
    {
+    "title": "3 Canadian Value Stocks With ROE Over 22%",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZHN6bHVzdm8zNnQwQ3RBTURyQWRlalZiR0dTemFJNFRZendUQWdodGlDcEJ5LVFhYUhPWklNbXMxUnhBazVfcjhaTnFaUmJOSkYzd1FEbDVPWDhBTzFvdlM2US1DZGRfRHpmd1BlTW1ZV3lzRE9DNWFwV0JUWUtGRE5oaE4xcHltWG05eWtvRXdHb2QwSm5J?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-03T01:50:16+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "FedEx Freight (FDXF) Stock Still Looks Undervalued After A 20% Jump",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOMDFFRjBTN1gzbEpFWVEzQjJaMy1HS2p0VklDdURzSGRBcXdsdlNUNFFyXzZkTkliY2pZVlJXcEJ3WDN6XzhZZm16YUpFVDNES1QxZUJlTGFBMy1SdVVjTDg1ajNZQzRXejBXalVFN0hja0hlUGI4Q2lQeFBFQkJPcDNzZjhrODIteEZ4RXIwRHZNLVhFR1hXWHNxOA?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-03T01:41:15+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "U.S. stock futures steady; Apple dips after mixed earnings",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdk5XMjVwNms5dDIzb3A3Q2FKdVhNbFc0Rk92dTFWczN1QUN5UjJzQjBtWm9oMjFZRThRZ2RtUjdKTlAyZzhVamVILXFWNlhsZGhxZHVnY0taSjdTV3liUnMwLXJXM1VuNmw0MURXNkVFcF9oX1Y5ZzVJMnZRVlgtblROR0ZZc3FHYUgtQ2lUeTVtaldWWUk0TA?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-03T01:31:00+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Apple warns ‘unprecedented’ memory chip costs will hit margins",
+    "url": "https://www.ft.com/content/f6ad8c32-cacb-48ad-ad85-a9a7edac3f16?syn-25a6b1a6=1",
+    "source": "Financial Times",
+    "published": "2026-11-03T01:17:37+00:00",
+    "lede": "Hardware giant predicts robust sales in the holiday season but services outlook disappoints",
+    "lang": "en"
+   },
+   {
+    "title": "Here’s why Palantir’s stock is down despite a ‘bombastic’ quarter",
+    "url": "https://www.marketwatch.com/story/heres-why-palantirs-stock-is-down-despite-a-bombastic-quarter-42c9fdb8?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-03T00:59:00+00:00",
+    "lede": "A deceleration in U.S. commercial contract growth gave some Wall Street analysts pause despite Palantir’s earnings beat.",
+    "lang": "en"
+   },
+   {
     "title": "Apple’s iPhone business is booming. Here’s why the stock is falling anyway.",
     "url": "https://www.marketwatch.com/story/apples-iphone-business-is-booming-heres-why-the-stock-is-falling-anyway-07de9fff?mod=mw_rss_topstories",
     "source": "MarketWatch",
     "published": "2026-11-03T00:52:00+00:00",
     "lede": "Although iPhone demand remains strong, Apple faces a worsening memory crunch and a slowing services business.",
-    "lang": "en"
-   },
-   {
-    "title": "Why GE Vernova Stock Crept Higher on Monday",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPS2NmbVBEbWRETXRfU0wyZ3VSWkhyMGF6X0VoNUZDQjF1N3BwUkw3MktyTC12M1ZBWnJ5Y1YyeldyOE1mdFE5UkpBMVVoTkd6d3l2aWMzb2xuMEFrWGFlQlRjZlRUaWU1a05ZYjZUN181WDl2czhGODBsU2oxTzVrZzJHRDByOGRYMC04XzY0YkRzZnBFcmc?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-03T00:36:00+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Why RH Stock Jumped 20% in October",
-    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQNEYtS1JhdnQ1U0NvMUU1R2hCTjhsVWRIRlAtNkFhUGZjWk5QSUc4T3VGeU5OWWIwdnpFby11cTlfcno5ZUY1cHlPM2hnYzZyaXJqZENvTHVzMGJOaHNUUGlZREdrU1U0RWpfMkd3SVpjWFlkc1M1OVNRMkstUFhvTWNJeXJaRFM1MGIzZTFWVjQ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-03T00:35:00+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Nasdaq-100 tumbles into its third correction this year as AI worries mount",
-    "url": "https://www.marketwatch.com/story/nasdaq-100-tumbles-into-its-third-correction-this-year-as-ai-worries-mount-abee4c0d?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-03T00:03:00+00:00",
-    "lede": "The “tech wreck” from October continues. Is a bear market next?",
-    "lang": "en"
-   },
-   {
-    "title": "Talent Infinity Completes Cancellation of Stock Options",
-    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPeUEySTJGcEZHakJpOTFVTkNEVU5ndlZfWk9TLS1BTDdONVZ6UjdZQzJlSzJzV2RmdjlIZTFVRG5aQ19SOEdKVWZLTUI1VXdhbEl6Q1hqWUoyN2ZTcHdtVDducG8xS2lNd0g1YUpzTlpjVVJHemQ0dmNUa2thekFUc2wyREhhNUt3aEtNZWZ3LS01ZEM3Y0w0Z3paUFZyOHY3TUtBTk5Yb21fNDJ4cWc?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-03T00:00:00+00:00",
-    "lede": null,
     "lang": "en"
    },
    {
@@ -70,14 +78,6 @@
     "source": "The Guardian",
     "published": "2026-11-02T23:07:49+00:00",
     "lede": "Result for the company, which earned $30.71bn and exceeded analysts’ expectations, bucked downward trend for tech firms Apple Inc posted stronger-than-expected revenue in the fiscal third quarter, giving John Ternus…",
-    "lang": "en"
-   },
-   {
-    "title": "Apple warns on rising costs from memory chip shortage",
-    "url": "https://www.ft.com/content/f6ad8c32-cacb-48ad-ad85-a9a7edac3f16?syn-25a6b1a6=1",
-    "source": "Financial Times",
-    "published": "2026-11-02T22:58:51+00:00",
-    "lede": "Hardware giant predicted robust sales in the holiday season after solid performance in the third quarter",
     "lang": "en"
    },
    {
@@ -149,18 +149,18 @@
   ],
   "geo": [
    {
-    "title": "Russian bombing of Ukrainian aid centre kills 26 people",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOOXNCcFZ3enhVSFJfdHQyZ1N3bjdWWVVQMk5seXRsWW42X2Z5Yi1sbFN4ZmJRRlhqa0FCbkZOemN5b0Q0eVdvWmpaN1h0TjZXdmkzd0VkdVQ1VnY2TEVibHNTbmJDSnlDSzZLbDRBRnNvdUFmUklDUFlrblJYMkZheE5PNkE4WmxwX0N0ZVNNTHZCMENneHZiTVhYeWktcE5jODNzN3ZzS2tpZ9IBrwFBVV95cUxNcXhuNzZpVXhhdE5PMDRIbkFKSlFENEZNcVJSZWNyTVU5RFc2a1BiODJfMmNldWNGanNERVdNdEJRdi1ncWZnRWxQWUJ3VGZkWVpuWnJabDlDS1RYY0JZUWZ0X3U1N1F2Z0JHbkJ6X0RpQWFFQXQtR1dxU1lTSWEzYS1qcnBpMXdSWnprckVGQjdsMnREck1jWmtqS1ZTLW9GUktBUGNPOXhJN1J3SDVz?oc=5",
-    "source": "Al Jazeera",
-    "published": "2026-11-03T00:33:01+00:00",
+    "title": "US has conducted defensive strikes on some Iranian targets in the Strait of Hormuz, US official says",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOSlZQOGFnNWxyTG91ZkxGMkdDdlNhd1RuRUZzblYtZGxfOGpReXI2cE5oazAzZkFQRW96Y3VrUkdfenVFWWtPS1BfaFBYYWQ1WVBMVmpuaTZuU3llOGZNMF85QnVGRHAwZlphVWVoaDFiZWhoMWVjalhyTE5na3BVWjVHcmIyWDFoU0FnU2ZBaFZyOE5GRGJqQzdR?oc=5",
+    "source": "AP News",
+    "published": "2026-11-03T01:54:00+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Iran says contacts over ending war continue after talks finish with no breakthrough",
-    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOLXhRTFk2aHFYY3VOMWFGdmFySFR5MTNxeWRRU1ZQM3RaWjg4ZFZlOTJHNDZjYmdCVjBOX0RweVAyWEI4T2dZMVFSbUt4bTc4NGlibnlTaDh2TUNydEdOQjZJSmt3RnRIbk1LNVJ4SlNkR0M3QWs3NnZwQ0JlMW5Ud0FaN29PaGcwdk1CbTZ1UUhjYkg5XzZwVmdwWGNnRnladzZVUEhBeTZScEZIMl9YZ0hUT01GcDdkMXFwcXF0Q3hkTEluSnpnb3F5RFA?oc=5",
+    "title": "Oil rises after report of US strike on Iran's Qeshm Island",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTFpzbEJURFlBbkE1RzNfclduVWpDY29HaWY3dnZJNUFuTHFsckZXSU5iTGJHdUFzQkVmeVhvdk9IME9Hdkxwc0NQZzg4dFFzckltYVlzcGdWY2xhYmJWMWlMVmFyNml3YmFoSDBZMGdPZWlpU25IM3UtMW5iR3d1dGZrMGF4SzQ2MklEeG5lWU1iRUZjVDd5Nnhjc0dQamdDdEtUc3NMcFZDMTQ?oc=5",
     "source": "Reuters",
-    "published": "2026-11-02T23:57:41+00:00",
+    "published": "2026-11-03T01:27:00+00:00",
     "lede": null,
     "lang": "en"
    }
