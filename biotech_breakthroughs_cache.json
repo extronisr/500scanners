@@ -1,5 +1,5 @@
 {
- "fetched_at": "3.11.2026, 21:04",
+ "fetched_at": "3.11.2026, 21:34",
  "items": [
   {
    "title": "FDA approves respiratory papillomatosis drug developed by INOVIO - Pennsylvania Business Report -",
@@ -2910,6 +2910,24 @@
    "ncts": []
   },
   {
+   "title": "Generic biannual HIV drug gets FDA approval - Daily Observer",
+   "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1hSGk5Zml3bHNuOWtseU9JXzM1d1hJWUplakFoWEdrb0tCbTFTSldTUXJtR3Jxb0dSSUtmc2FLenVyODJ3N19lV2F3?oc=5",
+   "pub_ts": 1793732688.0,
+   "date": "3.11.2026, 21:04",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1hSGk5Zml3bHNuOWtseU9JXzM1d1hJWUplakFoWEdrb0tCbTFTSldTUXJtR3Jxb0dSSUtmc2FLenVyODJ3N19lV2F3?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
    "title": "Newleos Announces $15.5 Million NIH Grant and Receipt of FDA Fast Track Designation for NTX-2001 to Treat Substance Use Disorders - BioSpace",
    "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNd2NJdzJIcEdmZmloU3Fxbm9pajhkNkJwYmtRci1aNzhhNHBFb0pqVlhKLXllc0h1RWkyNjQxOERXUUNUZlMyX01GczVYcFZqLXZqWmplWFE5ZXQyUkxRaFBGS29FcEVUQzROdFVQNFYxaGtrVmFHUWNXejJKdkxYNWJFbEF1OXR2eTNPU25oUWNWVEQ3RzhjejJYZWpjOG55bmJPd253bmNvVHNQbUpLQXpCNGJnNnVaLVBadF9WamoxSmhnUEVHTEl5VEpoRllCNUlBa09BeVZ6UjRKNHAxSklVLTZucjFJYTlRN1hWTVdoTUx0SDZ3Mk5ROUw?oc=5",
    "pub_ts": 1793712901.0,
@@ -4295,24 +4313,6 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOUnhuM2tKNExtSV8tVU5ZeUdCNzB4OVpFbEsxUFFQTEJoTE12bFRacWwxd29XTGg4ekxEX0lEYWtmcC1EcU8tQ2xjemRiZHo2MWp1YnhrZ1hmX1Z2b0JxczRhTUlGanNlRXllbjNjQURPMEZSUGZ5cHpOZHltYXdLTFZwRlRvWUhBeVJaakZuVENnMlNFUktKSjQ4NjRMcEhKQ1JvU2ZjR3BrZDg0VWFPUzJqYXFNbnhvbjhSelF0eGJ3bnRJd2d6U25WZF9SdWNHOWxUckJHaE9WUFc1SHlXM1Q1SC10VnNj0gHuAUFVX3lxTFBoLW1fTmJ6RElhMDduRGxuQS00c3M5YTYzM2FhSFExRktqcklwU0UyV2cyZ3piWmlzenpNQ3oyTmR1Sjk4NzBTMlV0cDhhamExdmw1X0wtQnR6bzdKa2hlQnU0Rk5USzBvTUVZTEM1NnJDSE5MZWlQb3JkWEstclNJWk5WNXJ4SmN5NVZCSm1RUzF5YlF2X0ppTUJrRlNpTVhUUlRmd3A2Vks0a2NQel9HUllyZmlOc195YW5xZEl4bnRzUlJIb0VNMk9TSEllNHZBcGhJU3V0VmNjVVUyMVczZWhDN2FXTnpHcHlYWHc?oc=5"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "FDA Approves First Generic for Climara Pro Hormone Therapy Patch - Drug Topics",
-   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQRVRvVUhvRGZBTW1wdWE1LWxSNzd4SDQ4ZUluU0VFbGpqbTQyLWdIYUJkOUdnWU1MWmRfSmJUdG5aV3psRzEtZnFKVnhUSTFEWi15aWo2RURqV3cyY1kxbXdZS0VESklvMmtmX3FneXRDM2V4Zy1pUUdwSVFTdk1wazkta3pIa2NISHl2X180UDVfZ2xZNWlHNTdTRFc?oc=5",
-   "pub_ts": 1792524104.0,
-   "date": "20.10.2026, 22:21",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQRVRvVUhvRGZBTW1wdWE1LWxSNzd4SDQ4ZUluU0VFbGpqbTQyLWdIYUJkOUdnWU1MWmRfSmJUdG5aV3psRzEtZnFKVnhUSTFEWi15aWo2RURqV3cyY1kxbXdZS0VESklvMmtmX3FneXRDM2V4Zy1pUUdwSVFTdk1wazkta3pIa2NISHl2X180UDVfZ2xZNWlHNTdTRFc?oc=5"
     }
    ],
    "ncts": []
