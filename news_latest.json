@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-03T22:31:05.496357+02:00",
+ "generated_at": "2026-11-03T23:31:10.935102+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -9,51 +9,75 @@
  "sections": {
   "us": [
    {
-    "title": "What Broadridge Financial Solutions (BR) Said on Its Q1 Earnings Call",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRll6LUd3cVJRYWlhNWVXN19rbXNZVkxUeW9NcTMzd2hGeUY4Q3Q4UW15X3RyMVhESmZqeVc0eWdiaDhOQkc4N0NHSk0yYlFUMzBQaWp6eTRuTi1wR0RIR0dWNnpxYWZ5TE5SckpTZ2hKclh6QTRuWG5IQzBuVWRwYkpkV0lOdlZJcVFfNDRwOEsyWkViTncxR1VBNkUzVWtZejB5MzNn?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-03T20:14:27+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "What People Incorporated Common Stock (PPLI) Said on Its Q3 Earnings Call",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVUhMRnFnSS1vZzNpanMweGwzVjBmVWFFV2JlQ09IeWdmV0hhQ25LSGFNLUVJbEpQOVhSQWtiUTFiUGwxbnlVS2F4a3hpODBaMXlxSTlJSk4zMUM0SWNtcFR1aGp1amQ5N1BlYTY4VER0SGR5NnQySTJ6VDlMQWc4cU04S0tnVWltdHpVZ3gzODVnbVZhWFEwb0J0ZWp3UzRPcWpESA?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-03T20:14:25+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Binance breach puts custody at center of crypto infrastructure trade",
-    "url": "https://www.cnbc.com/2026/11/03/binance-breach-puts-custody-at-center-of-crypto-infrastructure-trade.html",
+    "title": "AMD stock jumps 7% on earnings as data center revenue nearly doubles",
+    "url": "https://www.cnbc.com/2026/11/03/amd-amd-q3-earnings-report-2026-.html",
     "source": "CNBC",
-    "published": "2026-11-03T20:13:37+00:00",
-    "lede": "Lessons from the $6.3 billion Binance hack could help shape the next phase of the crypto infrastructure trade.",
+    "published": "2026-11-03T21:20:14+00:00",
+    "lede": "AMD reported better-than-expected third-quarter results, driven by booming sales of AI chips",
+    "lang": "en"
+   },
+   {
+    "title": "US Equity Markets Mixed Ahead of US Midterm Election Results",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNME5Jem9hcExzRTg0bXNmRURhOVBtM0RGNkVrdlNIMXRSbkcta1BQWnA1SXRLeHcwNUg2T1lkbUN5cVRhUHZuelMtMU1DTnFpZU5VeFZFa0NxSm9WNUkxenhNdWtMdFQtb0otcmJnUm40ZnRZWl9ldWVSSUN3WEl6d1hfNC1NSkZTY25jaXV2UXF4QzBpd3Bid2NB?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-03T21:19:24+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Nasdaq ends higher as AI heavyweights rebound ahead of midterm results",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWVp0N2w0REZqOUJ3YkRxcmliYkhtX25yTkFtdmJDUFdSVm5CcXRQYjdMeFFLU0gxcHk1STM2R0xXaGJ6TW9ZN2ZQS2RReVRiXzNtY1B3Qm5fZ1lfTUFaMVpRM2d2ZVZodnZtbUFFLUtkcURfUEtENElyNG5YcFRGcncteEFaZFUwOGxVUmpTMWFkMEtvb09VTG50a2NSbjhLUm5Zc3EtZS1XUU5lWm9B?oc=5",
+    "source": "Reuters",
+    "published": "2026-11-03T21:15:02+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Global Engine Group Holding Limited Regains Compliance with Nasdaq Minimum Bid Price Requirement",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQ1JHRWoxakpmdWI4cEh0dTZLYy1SVHBwNUhPejdXWmhlLXJsbHdBMmcxMHk2WkpicDdjRVREUHF1aXZ0QWVKU1doZTN0allRblVRamhQRE5XajFaUTZTRHJiM0lLcUtkOHJQbFVoMXVvNFRORFRkMFRUOGZCbzNfVEhla0t0eTB4d1JJSUExTEVSVEdJd01FdHBsdW9WMFdaUXc?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-03T21:15:00+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Super Micro’s stock pops as earnings show booming demand for AI servers",
+    "url": "https://www.marketwatch.com/story/super-micros-stock-pops-as-earnings-show-booming-demand-for-ai-servers-2d179658?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-03T21:13:00+00:00",
+    "lede": "Super Micro is building out a “high-quality customer base” that’s fueling revenue growth, CFO Mark Long told MarketWatch.",
+    "lang": "en"
+   },
+   {
+    "title": "Ferrari raises 2026 guidance after Q3 earnings beat",
+    "url": "https://www.cnbc.com/2026/11/03/ferrari-race-earnings-q3-2026.html",
+    "source": "CNBC",
+    "published": "2026-11-03T21:11:34+00:00",
+    "lede": "Ferrari raised its 2026 guidance Tuesday after third-quarter revenue and adjusted earnings per share edged past Wall Street expectations.",
+    "lang": "en"
+   },
+   {
+    "title": "Anthropic’s IPO is a high-stakes referendum on Big Tech — and this chart proves it",
+    "url": "https://www.marketwatch.com/story/anthropics-ipo-is-a-high-stakes-referendum-on-big-tech-and-this-chart-proves-it-d1c54d33?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-03T21:04:00+00:00",
+    "lede": "Tech giants like Broadcom, Google and SpaceX have plenty of skin in the game as Anthropic heads for the public market.",
     "lang": "en"
    },
    {
     "title": "Fannie Mae, Freddie Mac rally as Ackman presses for conservatorship exit",
     "url": "https://www.cnbc.com/2026/11/03/ackman-fannie-mae-freddie-mac-conservatorship.html",
     "source": "CNBC",
-    "published": "2026-11-03T20:10:14+00:00",
+    "published": "2026-11-03T20:52:14+00:00",
     "lede": "The midterm elections could be a turning point for the release of Fannie Mae and Freddie Mac from government control, according to Bill Ackman.",
     "lang": "en"
    },
    {
-    "title": "Stellantis Is Now Down 58% in 2026: Is STLA Stock Dead Money or the Opportunity of a Lifetime?",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNa0ZPYnN2UTFKSDd2c2FmM3U2NEx4T0lPMGdxRG42SmY4M3hwS1RNS1JYMlo3TGM1MVlVd1BTQzc3cW1lc0MyeVFWS2JOc3VEcnQySWVjY3BXdkhTeGQ0TEF3bEJPbm5nZjhiMno0cXVEMTBXZjhCajJkcXlMWlhpOG82a2IyeHBlQUhRSnk2eFRFUVlHeHQw?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-03T20:06:27+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Crude oil prices fall for second day as market hopes for diplomatic resolution to Iran war",
-    "url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html",
-    "source": "CNBC",
-    "published": "2026-11-03T20:02:10+00:00",
-    "lede": "The rebound in oil prices come a day after the U.S. and Iranian presidents signalled they are open to a diplomatic solution to Iran war.",
+    "title": "Investors watch US state races for signs of backlash against AI boom",
+    "url": "https://www.ft.com/content/c8a092e5-c1e4-46b8-83e1-73404900a0c5?syn-25a6b1a6=1",
+    "source": "Financial Times",
+    "published": "2026-11-03T20:25:23+00:00",
+    "lede": "Wall Street bets that three dozen gubernatorial races could have significant impact on data centre development across America",
     "lang": "en"
    },
    {
@@ -63,33 +87,25 @@
     "published": "2026-11-03T19:58:00+00:00",
     "lede": "נאסד\"ק עולה ב-0.6% • גולדמן סאקס: מדד S&P 500 במרחק 3% משיאו, אבל 60% מהמניות בו כבר בשוק דובי • שופיפיי נופלת: פספסה את תחזית ההכנסות לראשונה זה ארבע שנים • מחירי הנפט יורדים • מטא מתכננת לגייס עד 25 מיליארד דולר…",
     "lang": "he"
-   },
-   {
-    "title": "An overlooked energy source could solve AI’s power crunch — and these 2 stocks are prime plays",
-    "url": "https://www.marketwatch.com/story/an-overlooked-energy-source-could-solve-ais-power-crunch-and-these-2-stocks-are-prime-plays-bc5d988a?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-03T19:57:00+00:00",
-    "lede": "Geothermal technology is in the early stages of its own shale revolution, Morgan Stanley says.",
-    "lang": "en"
-   },
-   {
-    "title": "ביל אקמן במכתב אופטימי לעתיד ה־AI: \"תחזיות האנליסטים משקפות נתק בולט\"",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001561871#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-03T19:00:00+00:00",
-    "lede": "גלובס מציג את עיקרי המכתב של ביל אקמן, מנהל קרן הגידור הענקית פרשינג סקוור: \"סביר מאוד שצמיחת ההכנסות תעלה על תחזיות האנליסטים\"",
-    "lang": "he"
-   },
-   {
-    "title": "Wall Street braces as voters head to high-stakes polls",
-    "url": "https://www.ft.com/content/c8a092e5-c1e4-46b8-83e1-73404900a0c5?syn-25a6b1a6=1",
-    "source": "Financial Times",
-    "published": "2026-11-03T18:30:51+00:00",
-    "lede": "Vote will set the trajectory for everything from AI to public spending",
-    "lang": "en"
    }
   ],
   "il": [
+   {
+    "title": "וול סטריט ננעל במגמה מעורבת; מניית AMD עלתה ב-4%, טבע - ב-3%",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9KUjBqaU81T3hLMnBxYjBBcTF2QnpyUUhmTjU4a016T3VnQ3I4elJtRk4ySVliLUd6UEgweDRUcm1vZWUxaXBHUDZ0Z2ZGNUpqQ1lkYnlzM2F5VUdoV0tLTWdn?oc=5",
+    "source": "Calcalist",
+    "published": "2026-11-03T21:11:15+00:00",
+    "lede": null,
+    "lang": "he"
+   },
+   {
+    "title": "התאוששות במניות ה-AI הובילה את העליות בנאסד\"ק ביום הבחירות בארה\"ב",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001561764#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-03T21:00:00+00:00",
+    "lede": "נאסד\"ק עלה ב-0.8%, דאו ג'ונס ירד ב-0.3%",
+    "lang": "he"
+   },
    {
     "title": "מתקפת הסייבר על סופרים באירופה החלה בכלל בישראל",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001561950#utm_source=RSS",
@@ -112,22 +128,6 @@
     "source": "גלובס",
     "published": "2026-11-03T16:35:00+00:00",
     "lede": "מנכ\"ל האיגוד איתן מדמון, שניסיון להדחתו נחשף לפני מספר חודשים, יפרוש בסוף השנה",
-    "lang": "he"
-   },
-   {
-    "title": "מגמה מעורבת בוול סטריט; מניית AMD מזנקת ב-5.5%",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9KUjBqaU81T3hLMnBxYjBBcTF2QnpyUUhmTjU4a016T3VnQ3I4elJtRk4ySVliLUd6UEgweDRUcm1vZWUxaXBHUDZ0Z2ZGNUpqQ1lkYnlzM2F5VUdoV0tLTWdn?oc=5",
-    "source": "Calcalist",
-    "published": "2026-11-03T16:28:38+00:00",
-    "lede": null,
-    "lang": "he"
-   },
-   {
-    "title": "רגע לפני הדוחות: נייס מפטרת כ־500 עובדים ברחבי העולם",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001561807#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-03T16:20:00+00:00",
-    "lede": "לגלובס נודע כי ענקית התוכנה מרעננה תפטר כ־5% מכוח האדם, על רקע המעבר לפתרונות AI וחולשת המניה",
     "lang": "he"
    },
    {
@@ -157,18 +157,18 @@
   ],
   "geo": [
    {
-    "title": "What comes next in Trump’s war with Iran : Here & Now Anytime",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQN2R6VUtZbFBoSTRVZ1BEYzBsZ282NURLMmdUYTBjWExYYlFuajg1Mmt1MzBxM3lhX3Uzc3l1MmhSY0pjNmdneU9RVHVYLWxQUDZaMkk1cnFtRW90SDNYcENlTC1ickZCR3RmNW1vWEF5SW01UFp0WUdseWlkaXNXbmJ2bXVVaUI0bWowYQ?oc=5",
-    "source": "NPR",
-    "published": "2026-11-03T20:00:00+00:00",
+    "title": "Besieged by war, Saudi Aramco continues to gush profits",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQS0RxYURrempZYmJJLXlkSnJwS2F4Vk42X2hBYVVTbHhYQV91OFdiWDZZbE5uTU9VOGtWYW9sT0Y3dkFYdkx4eGVWVkRhMF9wdXI0ZWk4aXlib0dvRWNiMzRMVFFhOElfYkFESTlGamZuc0RTdWFZaE1pTGQ0RFBrcGEwZUFSbFBEZlREZTBENUhrM2hXRjQ3TlNYOGw1c2RKM1E?oc=5",
+    "source": "The Economist",
+    "published": "2026-11-03T20:36:19+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "As Americans vote, Trump says US will stop $4 billion in aid to Israel",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTnAzZzVDS3N1RTJJdnkxYUJPQkl1X3h4d3hZaC1MX0RwXzRHOGRybmM3QjEzR1kybkJIUmNYcnVPbkNPMkt6TFBnTEdOYWFJemJkelBhVXZsRDQ5VG4wc1lSS0Q2dlRlUmV0VHI2Y3YxNWstRWVPUV95Y2pNUVp5TUlES3pCMC1GUzNTTXVfWWlGd1JlQ3p1XzJUWmJmbzlWUmtYTFlXNDFlZw?oc=5",
-    "source": "Reuters",
-    "published": "2026-11-03T19:31:20+00:00",
+    "title": "What comes next in Trump’s war with Iran : Here & Now Anytime",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQN2R6VUtZbFBoSTRVZ1BEYzBsZ282NURLMmdUYTBjWExYYlFuajg1Mmt1MzBxM3lhX3Uzc3l1MmhSY0pjNmdneU9RVHVYLWxQUDZaMkk1cnFtRW90SDNYcENlTC1ickZCR3RmNW1vWEF5SW01UFp0WUdseWlkaXNXbmJ2bXVVaUI0bWowYQ?oc=5",
+    "source": "NPR",
+    "published": "2026-11-03T20:00:00+00:00",
     "lede": null,
     "lang": "en"
    }
