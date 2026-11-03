@@ -1,6 +1,35 @@
 {
- "fetched_at": "3.11.2026, 19:36",
+ "fetched_at": "3.11.2026, 20:05",
  "items": [
+  {
+   "title": "FDA approves respiratory papillomatosis drug developed by INOVIO - Pennsylvania Business Report -",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWlh3aUFtQzZqOEJuU2F3cXFIcUNwaGdsbV9WYzNWZkxhZ0d5QUZwc2RoYVhVcnlhMzRIZlZMdzZGS05aSVQwdGVfTHpBRmpGR01JZVZxMW0xWkpOSm5FekQtd0xYVlo4MV9ta2tQTWlaUEYxaklmYXQzZjBPc1FkNGlrX1RZa2FrREpxXzNxUzJ5UFpOaHQ0bG13UzFEb09LVG1oUA?oc=5",
+   "pub_ts": 1793727675.0,
+   "date": "3.11.2026, 19:41",
+   "cat": "fda",
+   "sev": 4,
+   "dir": 1,
+   "tickers": [],
+   "companies": [
+    "INO",
+    "PGEN"
+   ],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWlh3aUFtQzZqOEJuU2F3cXFIcUNwaGdsbV9WYzNWZkxhZ0d5QUZwc2RoYVhVcnlhMzRIZlZMdzZGS05aSVQwdGVfTHpBRmpGR01JZVZxMW0xWkpOSm5FekQtd0xYVlo4MV9ta2tQTWlaUEYxaklmYXQzZjBPc1FkNGlrX1RZa2FrREpxXzNxUzJ5UFpOaHQ0bG13UzFEb09LVG1oUA?oc=5"
+    },
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9EcEJ4c1RUdUpURjBTMXRCWXo3VVN0Z1g3QVFuT25XenFRRjVMT1BfTGJtcXhqdmdZMHNEdXdzeVBGR0R6YUhjT0RLa3ZVWC0td1F0S3VxRWFEZExrQUxFcnJxVUdhRU1Gd2wxa0NIVm5IVXp6alE?oc=5"
+    },
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQeDJmQ2VrOEp2NldOeW9JMVlxNnBTd3lEZHRvNG15N3ZPTTljbDJyVzVBckloOGdwTy04MVlqVEJUcXN5S083OFJ5dWhINzhGaEdFcl85ZWd0VzRNTzVYOXhtY2htbWVnNE5BTVc0ZFVhQ09GTUJSdjMwSVpwQTlIc3EyRUNmUjRsYWJKcnlBMDBhbWlUV1VfOU5HTU40TEx4c01yYm83Q1VrbDdIRzJIYQ?oc=5"
+    }
+   ],
+   "ncts": []
+  },
   {
    "title": "Low-cost HIV prevention injection receives FDA approval for rollout in 120 countries - www.attitude.co.uk",
    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQbGEwUVdyejNrVDR2aXhXeXRpU19JY2hvT2RoUWVCdFZwY0s5MW5IVDk4QndHdGg0ek9MLW91UVRFMjd0d0dhQmt1RmRPQjUxcXV3aFkwRi1POFlhdmdLeUc3ZFNJYXlTRkdEa3A1Z3l1UmRhQllSV2JxR1hjcEFXeklwUVJ4N1hHRk4tb0Z4QQ?oc=5",
@@ -51,35 +80,6 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOX004eFR0QmZER3RRbXAwcmZ0VFltaWMxbmNpWUFWYnE2SFNwRlVkZ0NiUGZsdnN2Q1VTbFBFT1BUaVN5S3JjY1ZtV0VuTG0zZGJJME5TbnhYTXdJOG90bzVfaWdBb3EyYTFZaUpreU9tdVd3dGgyODcxS2NPYUhDWnQtSk5IdUQ4THo5RWthTzF3bXBVU1BpZERFSEdXQ2otTFBubmRELUZxbE9JUExEcmJlUEFwVERBOV94bktPbmFTeFBhNzBtYXpiYnk5SkxjRTFVR3FGQV9hUUpIX2p0aTFDZnFMbjNxeXR5QlhBTV9xNEQtdTBtTTF6Zw?oc=5"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "FDA Clears First DNA-Based Therapy, Inovio's Voceryq, for Rare Airway Disease - BigGo Finance",
-   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9EcEJ4c1RUdUpURjBTMXRCWXo3VVN0Z1g3QVFuT25XenFRRjVMT1BfTGJtcXhqdmdZMHNEdXdzeVBGR0R6YUhjT0RLa3ZVWC0td1F0S3VxRWFEZExrQUxFcnJxVUdhRU1Gd2wxa0NIVm5IVXp6alE?oc=5",
-   "pub_ts": 1793673300.0,
-   "date": "3.11.2026, 4:35",
-   "cat": "fda",
-   "sev": 4,
-   "dir": 1,
-   "tickers": [],
-   "companies": [
-    "INO",
-    "PGEN"
-   ],
-   "sources": [
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9EcEJ4c1RUdUpURjBTMXRCWXo3VVN0Z1g3QVFuT25XenFRRjVMT1BfTGJtcXhqdmdZMHNEdXdzeVBGR0R6YUhjT0RLa3ZVWC0td1F0S3VxRWFEZExrQUxFcnJxVUdhRU1Gd2wxa0NIVm5IVXp6alE?oc=5"
-    },
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQeDJmQ2VrOEp2NldOeW9JMVlxNnBTd3lEZHRvNG15N3ZPTTljbDJyVzVBckloOGdwTy04MVlqVEJUcXN5S083OFJ5dWhINzhGaEdFcl85ZWd0VzRNTzVYOXhtY2htbWVnNE5BTVc0ZFVhQ09GTUJSdjMwSVpwQTlIc3EyRUNmUjRsYWJKcnlBMDBhbWlUV1VfOU5HTU40TEx4c01yYm83Q1VrbDdIRzJIYQ?oc=5"
-    },
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPaTJLWktndHZhM1N5WEFkWmpFYU13OF9qekx3ZWNKMGhVaU1CMU9nUUIzS2xSbFdjc2pRcG1TcHBRMEVwamREdnZKME9HaU52bmJCMHMtZi1vWmpYNkVJYlZMeWlKNHFfbG9tQ0pIX1hTSGdCUXVhaWwwbzAzbW5Td1hoUDcxb3FYUS1kRFp3ZG5qQkxmNm5fOW1naw?oc=5"
     }
    ],
    "ncts": []
@@ -1000,24 +1000,6 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNWXltM3ZRenh1M3FIaEtzQjlPZXVSOFZjUERfU1lhcDF1d2MzZlUyeVYzQmNWekpVblk2WE9jVlVISFFkU0ZjNGJUWkxBanJtSGZXajg4RmNRa08xR2VZWW1EdnItVGZTU0ZieFlCTU93Mk1BT2hMM0EtcWpCbWhiZ0RJNXlEUlJzN2ZSdWhXc21XeTNib1lZZ1k3ZkVtX2MyMHRMbm9JeDJxZTRRZHZBcGxUMkhKZXJFQ08xdg?oc=5"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "FDA approves Teleflex cardiac treatment - Pennsylvania Business Report -",
-   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQbEFKbHI5WHRjRFBGejVrX3hZeDg5TEV6TEVaTGlRUVVxQ0J6UmRrczVSUnMzOXJPZzBKdHB0WmdPdy1YRFVZSEZudGhRYXRvckdTZldKcDVXSmdod0V3QmZIN2JoS3lMSWx1YVo5UkdKZVNOdUViRXJtekQtbGJYcWdnMA?oc=5",
-   "pub_ts": 1793035165.0,
-   "date": "26.10.2026, 19:19",
-   "cat": "fda",
-   "sev": 4,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQbEFKbHI5WHRjRFBGejVrX3hZeDg5TEV6TEVaTGlRUVVxQ0J6UmRrczVSUnMzOXJPZzBKdHB0WmdPdy1YRFVZSEZudGhRYXRvckdTZldKcDVXSmdod0V3QmZIN2JoS3lMSWx1YVo5UkdKZVNOdUViRXJtekQtbGJYcWdnMA?oc=5"
     }
    ],
    "ncts": []
