@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-03T21:31:05.602930+02:00",
+ "generated_at": "2026-11-03T22:31:05.496357+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -9,60 +9,68 @@
  "sections": {
   "us": [
    {
-    "title": "Election Day: Here is the No. 1 issue we're watching as a signal for stocks",
-    "url": "https://www.cnbc.com/investingclub/2026/11/03/election-day-here-is-the-no-1-issue-were-watching-as-a-signal-for-stocks.html",
-    "source": "CNBC",
-    "published": "2026-11-03T19:29:41+00:00",
-    "lede": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
-    "lang": "en"
-   },
-   {
-    "title": "Options traders are betting heavily on these stocks ahead of election results",
-    "url": "https://www.cnbc.com/2026/11/03/options-traders-are-betting-heavily-on-these-stocks-ahead-of-election-results.html",
-    "source": "CNBC",
-    "published": "2026-11-03T19:22:30+00:00",
-    "lede": "Solar stocks see heavy call activity as voting gets underway",
-    "lang": "en"
-   },
-   {
-    "title": "November Stock Market Outlook: How to Position Your Portfolio for the Remainder of 2026",
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQaVVWZXNxSXFDUmhYbGJFZjZIWlV0MElvbDZUc0pBR01Vbk44REpJVTZoRVdtdlpoc2hlNG1yYkdFbkYxR283alo3Q29raGk3bTBPMWZPS3lJblo3TERFdmZwSmRmb1A5YmkydURqbFRiY3JvQ0xqU1hlbzY2T21iY2lsSFN0NWNFXzBLUW1ad1l2OUoxcmRaOFBmUkZBQ0xfbTNHejJDa1J0a2ZN?oc=5",
-    "source": "Morningstar",
-    "published": "2026-11-03T19:20:06+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "23 Billionaire Investors Back This Tech Stock: Is it Time to Buy?",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPS0NLM3UzQW9ZNWs0aEZpRWp1ZVlaZTVObXlONy1JeGFXcTZOWTlkWTl3bTFERS1QbWc5TXhodWpreW1Sb1d3NXJpTkpKaXB6TEZKUnFZYzYwVDhVNGw3VTVNUVpMQnpFdWZtZ1hqVHlxcTZEbkJWN0VSVWdaTVhzM2MweWdaQXhJel9tTkFGekhKUlc1X1M4QjFCbw?oc=5",
+    "title": "What Broadridge Financial Solutions (BR) Said on Its Q1 Earnings Call",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRll6LUd3cVJRYWlhNWVXN19rbXNZVkxUeW9NcTMzd2hGeUY4Q3Q4UW15X3RyMVhESmZqeVc0eWdiaDhOQkc4N0NHSk0yYlFUMzBQaWp6eTRuTi1wR0RIR0dWNnpxYWZ5TE5SckpTZ2hKclh6QTRuWG5IQzBuVWRwYkpkV0lOdlZJcVFfNDRwOEsyWkViTncxR1VBNkUzVWtZejB5MzNn?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-03T19:17:01+00:00",
+    "published": "2026-11-03T20:14:27+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Job openings posted big September gain in positive sign for labor market ahead of payrolls report",
-    "url": "https://www.cnbc.com/2026/11/03/job-openings-posted-big-september-gain-in-positive-sign-for-labor-market-ahead-of-payrolls-report.html",
-    "source": "CNBC",
-    "published": "2026-11-03T19:15:21+00:00",
-    "lede": "The BLS reported job openings at 7.52 million, up 333,000 from August and well above the Dow Jones consensus outlook for 7.15 million",
-    "lang": "en"
-   },
-   {
-    "title": "Is Sandisk's Incredible Run About to End?",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQekY4YVlWQWVYYzBob1E3RFNpOVNHYTIydktUczU5SU81bUR3dmh1MEFpejBFVlZjaF9XUS1DSm9lUmJydWlqWFo5RnVqVTE3bGpaa1dxQWMwZHV5cm8wTkhCYktkWTA2bmd6bmgzWldJbEx3TUp1LTFGaHROcnZkdjR2UlJFSEZGcDJ4WU5STnFLLTBWa29r?oc=5",
+    "title": "What People Incorporated Common Stock (PPLI) Said on Its Q3 Earnings Call",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVUhMRnFnSS1vZzNpanMweGwzVjBmVWFFV2JlQ09IeWdmV0hhQ25LSGFNLUVJbEpQOVhSQWtiUTFiUGwxbnlVS2F4a3hpODBaMXlxSTlJSk4zMUM0SWNtcFR1aGp1amQ5N1BlYTY4VER0SGR5NnQySTJ6VDlMQWc4cU04S0tnVWltdHpVZ3gzODVnbVZhWFEwb0J0ZWp3UzRPcWpESA?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-03T19:15:00+00:00",
+    "published": "2026-11-03T20:14:25+00:00",
     "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Binance breach puts custody at center of crypto infrastructure trade",
+    "url": "https://www.cnbc.com/2026/11/03/binance-breach-puts-custody-at-center-of-crypto-infrastructure-trade.html",
+    "source": "CNBC",
+    "published": "2026-11-03T20:13:37+00:00",
+    "lede": "Lessons from the $6.3 billion Binance hack could help shape the next phase of the crypto infrastructure trade.",
+    "lang": "en"
+   },
+   {
+    "title": "Fannie Mae, Freddie Mac rally as Ackman presses for conservatorship exit",
+    "url": "https://www.cnbc.com/2026/11/03/ackman-fannie-mae-freddie-mac-conservatorship.html",
+    "source": "CNBC",
+    "published": "2026-11-03T20:10:14+00:00",
+    "lede": "The midterm elections could be a turning point for the release of Fannie Mae and Freddie Mac from government control, according to Bill Ackman.",
+    "lang": "en"
+   },
+   {
+    "title": "Stellantis Is Now Down 58% in 2026: Is STLA Stock Dead Money or the Opportunity of a Lifetime?",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNa0ZPYnN2UTFKSDd2c2FmM3U2NEx4T0lPMGdxRG42SmY4M3hwS1RNS1JYMlo3TGM1MVlVd1BTQzc3cW1lc0MyeVFWS2JOc3VEcnQySWVjY3BXdkhTeGQ0TEF3bEJPbm5nZjhiMno0cXVEMTBXZjhCajJkcXlMWlhpOG82a2IyeHBlQUhRSnk2eFRFUVlHeHQw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-03T20:06:27+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Crude oil prices fall for second day as market hopes for diplomatic resolution to Iran war",
+    "url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html",
+    "source": "CNBC",
+    "published": "2026-11-03T20:02:10+00:00",
+    "lede": "The rebound in oil prices come a day after the U.S. and Iranian presidents signalled they are open to a diplomatic solution to Iran war.",
     "lang": "en"
    },
    {
     "title": "נאסד\"ק מתאושש בזכות מניות השבבים; אפל מכבידה על מדד הדאו",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001561764#utm_source=RSS",
     "source": "גלובס",
-    "published": "2026-11-03T19:11:00+00:00",
-    "lede": "נאסד\"ק עולה ב-1% • שופיפיי נופלת: פספסה את תחזית ההכנסות לראשונה זה ארבע שנים • מחירי הנפט יורדים • מטא מתכננת לגייס עד 25 מיליארד דולר בהנפקת אג\"ח למימון השקעות ה-AI • תשואות האג\"ח הממשלתיות בארה\"ב עולות לקראת תוצאות…",
+    "published": "2026-11-03T19:58:00+00:00",
+    "lede": "נאסד\"ק עולה ב-0.6% • גולדמן סאקס: מדד S&P 500 במרחק 3% משיאו, אבל 60% מהמניות בו כבר בשוק דובי • שופיפיי נופלת: פספסה את תחזית ההכנסות לראשונה זה ארבע שנים • מחירי הנפט יורדים • מטא מתכננת לגייס עד 25 מיליארד דולר…",
     "lang": "he"
+   },
+   {
+    "title": "An overlooked energy source could solve AI’s power crunch — and these 2 stocks are prime plays",
+    "url": "https://www.marketwatch.com/story/an-overlooked-energy-source-could-solve-ais-power-crunch-and-these-2-stocks-are-prime-plays-bc5d988a?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-03T19:57:00+00:00",
+    "lede": "Geothermal technology is in the early stages of its own shale revolution, Morgan Stanley says.",
+    "lang": "en"
    },
    {
     "title": "ביל אקמן במכתב אופטימי לעתיד ה־AI: \"תחזיות האנליסטים משקפות נתק בולט\"",
@@ -78,14 +86,6 @@
     "source": "Financial Times",
     "published": "2026-11-03T18:30:51+00:00",
     "lede": "Vote will set the trajectory for everything from AI to public spending",
-    "lang": "en"
-   },
-   {
-    "title": "Once election results are in, here’s what investors should focus on next",
-    "url": "https://www.marketwatch.com/story/once-election-results-are-in-heres-what-investors-should-focus-on-next-75c5ac5d?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-03T18:27:00+00:00",
-    "lede": "It is important to separate your political preferences from your investment and trading decisions.",
     "lang": "en"
    }
   ],
@@ -123,14 +123,6 @@
     "lang": "he"
    },
    {
-    "title": "מס על שכירות מהשקל הראשון? הצחתקם אותי",
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5mUU43VG9JZEdHaUNhbmJjTndDZ2ozY3NvRVFSM0t5bjl5ME5DZVZxdi1QWGtXQmI4SXFiNzJHQkVZa2N5ZWM1blJrYmpSaFZwamcybDNkUEoyUE5aYnkwN1FKRG1abWh0?oc=5",
-    "source": "ביזפורטל",
-    "published": "2026-11-03T16:24:00+00:00",
-    "lede": null,
-    "lang": "he"
-   },
-   {
     "title": "רגע לפני הדוחות: נייס מפטרת כ־500 עובדים ברחבי העולם",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001561807#utm_source=RSS",
     "source": "גלובס",
@@ -153,14 +145,22 @@
     "published": "2026-11-03T10:56:00+00:00",
     "lede": "ענקית הבידור שוקלת לקצץ אלפי משרות, וביקשה מהמנהלים להציב יעד חיסכון של 20%. הסיבות: ירידה בהכנסות הסרטים, האטה במספר המבקרים בפארקים ותחרות גוברת בסטרימינג",
     "lang": "he"
+   },
+   {
+    "title": "בגלל חובות העתק: ענקית התוכנה מנסה לגייס 20 מיליארד דולר - והמניה צוללת",
+    "url": "https://finance.walla.co.il/item/3874751",
+    "source": "וואלה",
+    "published": "2026-11-03T10:52:00+00:00",
+    "lede": "אורקל יוצאת להנפקת מניות ואגרות חוב ענקית כדי להאיץ את פעילותה ב-AI ולעמוד ביעדי 2030, אך המשקיעים מגיבים בחשש ושלחו את המניה לירידה של כ-9%",
+    "lang": "he"
    }
   ],
   "geo": [
    {
-    "title": "Israeli Claims of Iranian Chemical Weapons Divide U.S. Officials",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQeG5wNGg5UzgtQldwVTBiZmNCTUtKR0U2ZHRfamdTdUJFUHFxdmhDM1VQNV9DRXhQdzdjZ3J1NjlaUmFJWmhlWnBLMmF4SzMwQXZHdGxhTHhyWWdydW5NTWtiQUFLa0xoWGRWWW56LTc4OEZqOVdQeFdScHVBSXZZUUxuLWtTbXNmcGpFT3FYMmt4THlROFE?oc=5",
-    "source": "The New York Times",
-    "published": "2026-11-03T17:48:04+00:00",
+    "title": "What comes next in Trump’s war with Iran : Here & Now Anytime",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQN2R6VUtZbFBoSTRVZ1BEYzBsZ282NURLMmdUYTBjWExYYlFuajg1Mmt1MzBxM3lhX3Uzc3l1MmhSY0pjNmdneU9RVHVYLWxQUDZaMkk1cnFtRW90SDNYcENlTC1ickZCR3RmNW1vWEF5SW01UFp0WUdseWlkaXNXbmJ2bXVVaUI0bWowYQ?oc=5",
+    "source": "NPR",
+    "published": "2026-11-03T20:00:00+00:00",
     "lede": null,
     "lang": "en"
    },
@@ -168,7 +168,7 @@
     "title": "As Americans vote, Trump says US will stop $4 billion in aid to Israel",
     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTnAzZzVDS3N1RTJJdnkxYUJPQkl1X3h4d3hZaC1MX0RwXzRHOGRybmM3QjEzR1kybkJIUmNYcnVPbkNPMkt6TFBnTEdOYWFJemJkelBhVXZsRDQ5VG4wc1lSS0Q2dlRlUmV0VHI2Y3YxNWstRWVPUV95Y2pNUVp5TUlES3pCMC1GUzNTTXVfWWlGd1JlQ3p1XzJUWmJmbzlWUmtYTFlXNDFlZw?oc=5",
     "source": "Reuters",
-    "published": "2026-11-03T17:47:41+00:00",
+    "published": "2026-11-03T19:31:20+00:00",
     "lede": null,
     "lang": "en"
    }
