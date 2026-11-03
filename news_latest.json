@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-03T09:01:06.632187+02:00",
+ "generated_at": "2026-11-03T10:01:09.739566+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -9,51 +9,59 @@
  "sections": {
   "us": [
    {
-    "title": "A new threat to the New York-based stock exchanges",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNa1M4QkNoYjhkLVF3andmZ01weWU5UUx0R3laUjRTMzYzUGwzOVJUWW1ySUhUSFNXd015TmRhVHJlWC1EdURJOTVURzRaWUFicVBGcU1aZ0NfZVhFWURzY3dCSnYyU2xyak85M0x6VTJINzlIQ1RfNXlnbEVTczJqOXFidWI?oc=5",
-    "source": "Financial Times",
-    "published": "2026-11-03T06:33:45+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Icelandic Salmon - Third quarter 2026 results",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQV0ljbVlFbWFvWUNMbUVoM2dOSmFMc2ZaYnZyb2VBbzlUeEZZT0kzRkg4Sm5rTWVSNXpTcHhwdFJhb1U1UzlEU3FKVkNRTEc5SGMxZFBlSGNqTW1jMTlsa3F1NGhxTHFyQ1h5QmJlcDBWQnRqc0hPLW9ZUUJLVjV3dzNXZzNPdGdhOEZmVHJndHBURVIzY3ZWYUtkWi1TOWh3S1E?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-03T06:30:00+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "China halts listings in bid to bolster struggling markets",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQeWRIVmFzanBxYUk3dEZxMUdxVURNZlVMakljMHBrdVhWbHhYUHQ0WUtlQjZ2OFJ5ZzY0UzMwY1UxSGtvZFRpRVFMdDNPZ0xzVzRJOHlkQl8yX3BYMXJsMXlUbG0wckU4UjJjSkItTzR5WkMyR0RpWXNCUW9JQklZSEUxRU0?oc=5",
-    "source": "Financial Times",
-    "published": "2026-11-03T06:26:27+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "RBA interest rates: Bullock says ‘some pain now’ will prevent worse pain later as Reserve Bank hikes rates for fifth time",
+    "title": "RBA interest rates: Bullock says ‘pain now’ will prevent worse later as Reserve Bank hikes rates for fifth time",
     "url": "https://www.theguardian.com/australia-news/2026/nov/03/rba-interest-rates-decision-cash-rate-november-reserve-bank-australia",
     "source": "The Guardian",
-    "published": "2026-11-03T06:14:08+00:00",
+    "published": "2026-11-03T07:36:42+00:00",
     "lede": "Reserve Bank of Australia increases official cash rate to 4.85%, bringing it to highest level since 2008 RBA interest rates live updates: Reserve Bank cash rate decision Get our daily political email , free app or daily…",
     "lang": "en"
    },
    {
-    "title": "דריכות בשווקים לקראת בחירות האמצע בארה\"ב; אסיה מעורבת",
+    "title": "Oil prices steady at $106 after sharp declines",
+    "url": "https://www.ft.com/content/d0ab9542-8542-4357-a534-ddbdd1a9678d?syn-25a6b1a6=1",
+    "source": "Financial Times",
+    "published": "2026-11-03T07:32:45+00:00",
+    "lede": "Crude prices stabilise on Tuesday as traders await developments in the Middle East",
+    "lang": "en"
+   },
+   {
+    "title": "מהסקרים ועד שוקי התחזיות: ארבעה נתונים לקראת בחירות האמצע בארה\"ב",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001561724#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-03T07:20:00+00:00",
+    "lede": "היום יכריעו האמריקאים מי ישלוט בקונגרס בשנתיים האחרונות לכהונתו של דונלד טראמפ",
+    "lang": "he"
+   },
+   {
+    "title": "India's NSE International Exchange expands trading to 23-1/2-hours",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNTVBRRHAxanU3a0JNWHF6UlU2ZDNFclFRbEFSSUQwRjhIMmtTQjFkZUpvV3dOMVlYWF9wSXB3T3FTblVlME03c05sS0JFRHVpc01BWnpucXhob0hBNHZaeWR4TGlMQ3FFcEZ0YU5fVFlSNU8zcGdHYk9nN3VtUlRhYU5SWGNUcXdQQXhlZktrYzhkSnhmMTVGN0RESnkybzRmaS1INmhOTjNOb0ZhZkE?oc=5",
+    "source": "Reuters",
+    "published": "2026-11-03T07:12:00+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Wolfspeed (WOLF) Stock Could Trade Above Fair Value After Recent Selloff",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZVRNcWc4cDBxUlpKMVZxc0txUjNKOVREVDk0OFRudzBjYlFtS2dqSFJEMXY0dWNPMVFaNjlTdnVaTl9HUWJHcmhmUy1LNF9ZNGdzeXV2MDdsM0JwTUVKb21JZmdiSFJaaUJDRVVSMElzOEszM3BBckJ3TnlYYnh2YlI2VWNJcDRtekRtUExGRVJFa3RYVGVNamFSWmFKZGd4NEtOTkFaNzh6bXc?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-03T07:08:19+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "California Resources (CRC) Stock Still Looks Cheap Despite Market Caution",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPWWZCYmVPaWN6NzAzamxXeV9jYUI0bm9oU1pBNnR6bFdaekUxd3E4aXB3TDBVRTFoUXlQSzlMU0xLNTcwQ21GUHp0RUhrZkNXSzlCdkhBMUQ5b1EyeGx6U3ZTMEJVRGdoNmRjQmlIR2tMRUhUTThLd0NjVVMtQnQ1eTZualhMQnExNDRRdHIzaF9YdWFLbDZvNWZNVENtNHdHd2gw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-03T07:08:00+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "מניות השבבים באסיה נופלות; וגם - הנתון שמאותת מה יקרה בוול סטריט עד סוף השנה",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001561764#utm_source=RSS",
     "source": "גלובס",
     "published": "2026-11-03T05:00:00+00:00",
     "lede": "גלובס מגיש עדכון ראשון לגבי מצב השווקים מסביב לעולם",
-    "lang": "he"
-   },
-   {
-    "title": "המדינה שהעלתה את הריבית לשיא של 18 שנה",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001561779#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-03T05:00:00+00:00",
-    "lede": "הבנק המרכזי של אוסטרליה העלה את הריבית ברבע אחוז ל-4.85%, הרמה הגבוהה ביותר מאז 2008",
     "lang": "he"
    },
    {
@@ -65,31 +73,55 @@
     "lang": "en"
    },
    {
+    "title": "Palantir Q3: This Small Sell-Off Isn't Enough (Rating Downgrade)",
+    "url": "https://seekingalpha.com/article/4961303-palantir-q3-this-small-selloff-isnt-enough-downgrade?source=feed_all_articles",
+    "source": "Seeking Alpha",
+    "published": "2026-11-03T02:48:15-05:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
     "title": "Feeling isolated? Half of in-office workers describe their desk jobs as 'remote,' NY Fed survey finds",
     "url": "https://www.cnbc.com/2026/11/02/remote-work-in-office-mandate-new-york-fed.html",
     "source": "CNBC",
     "published": "2026-11-03T02:31:00+00:00",
     "lede": "Employees describing jobs as 'remote' are now often in-office, as companies fail to create the collaboration they claim is critical, NY Fed research shows.",
     "lang": "en"
-   },
-   {
-    "title": "TBLL: GDP Growth, Expectations, And Shelter Inflation Indicate Inflation Spillover",
-    "url": "https://seekingalpha.com/article/4961294-tbll-gdp-growth-expectations-and-shelter-inflation-indicate-inflation-spillover?source=feed_all_articles",
-    "source": "Seeking Alpha",
-    "published": "2026-11-03T01:48:30-05:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Apple warns ‘unprecedented’ memory chip costs will hit margins",
-    "url": "https://www.ft.com/content/f6ad8c32-cacb-48ad-ad85-a9a7edac3f16?syn-25a6b1a6=1",
-    "source": "Financial Times",
-    "published": "2026-11-03T01:17:37+00:00",
-    "lede": "Hardware giant predicts robust sales in the holiday season but services outlook disappoints",
-    "lang": "en"
    }
   ],
   "il": [
+   {
+    "title": "החלטה חריגה: המדינה שהקפיצה את הריבית לשיא של 18 שנה",
+    "url": "https://finance.walla.co.il/item/3874747",
+    "source": "וואלה",
+    "published": "2026-11-03T10:27:00+00:00",
+    "lede": "הבנק המרכזי של אוסטרליה העלה את הריבית בפעם החמישית השנה, והזהיר כי האינפלציה נותרה מעל היעד. הנגידה מזהירה: \"הציבור ירגיש כמו במיתון\"",
+    "lang": "he"
+   },
+   {
+    "title": "מלכודת דבש איטלקית: המדינה שפיתתה את עשירי אירופה מציגה כעת \"מס יציאה\"",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001561788#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-03T07:57:00+00:00",
+    "lede": "תקנה חדשה שכלולה בהצעת התקציב לשנה הבאה של ממשלת איטליה, מטילה צל כבד על הטבות המס שקיבלו בעבר מיליונרים שהיגירו למדינה",
+    "lang": "he"
+   },
+   {
+    "title": "הם פתרו בעיה שכלל לא קיימת בישראל ורשמו אקזיט של 250 מיליון דולר",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001561650#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-03T07:31:00+00:00",
+    "lede": "חברת טיילורמד, שפיתחה מערכת שעוזרת לחולים בארה\"ב במימון טיפולים רפואיים וכך מהווה ערוץ לחברות התרופות לתקשר איתם, נמכרת לקרן GrowthCurve Capital",
+    "lang": "he"
+   },
+   {
+    "title": "ארביטראז'ים שליליים ודוחות טבע: ממתינים לפתיחת המסחר בבורסת ת\"א",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE45UEZiREgyaUZ1UkZ1R0NBZTk0ZVZBNTgyOWlhNXJhQ1YwRHRWWWJpdHRZQTZpeVBweUxqNzRERWJZbE45SUZyRWxqSU9yLXBrMWgtMjB5NFVsRmNNbTVmYXBn?oc=5",
+    "source": "Calcalist",
+    "published": "2026-11-03T06:59:48+00:00",
+    "lede": null,
+    "lang": "he"
+   },
    {
     "title": "שותף של לאומי, משקיע בפועלים: הסוחר שמחזיק מניות בנקים ב-4.5 מיליארד שקל",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001561708#utm_source=RSS",
@@ -107,22 +139,6 @@
     "lang": "he"
    },
    {
-    "title": "חמישה דברים שכדאי לדעת לקראת יום המסחר",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001561712#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-03T06:28:00+00:00",
-    "lede": "המסחר בבורסה המקומית ייפתח ברקע פערי ארביטראז' שליליים, בהובלת מניות השבבים, שיכבידו הבוקר על פתיחת המסחר בת\"א",
-    "lang": "he"
-   },
-   {
-    "title": "פרופיט בוחנת מהלך לא שגרתי: הקמת פעילות גמל",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001561780#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-03T05:51:00+00:00",
-    "lede": "קבוצת הפיננסים שוקלת לנהל קופות גמל וקרנות השתלמות בעצמה",
-    "lang": "he"
-   },
-   {
     "title": "הבורסה בסיאול נחתכת ב-3.5% - ירידות חדות במניות השבבים",
     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9KUjBqaU81T3hLMnBxYjBBcTF2QnpyUUhmTjU4a016T3VnQ3I4elJtRk4ySVliLUd6UEgweDRUcm1vZWUxaXBHUDZ0Z2ZGNUpqQ1lkYnlzM2F5VUdoV0tLTWdn?oc=5",
     "source": "Calcalist",
@@ -137,30 +153,22 @@
     "published": "2026-11-02T23:20:06+00:00",
     "lede": null,
     "lang": "he"
-   },
-   {
-    "title": "בייננס חידשה את המשיכות, הלקוחות מושכים מיליארדים; האם האמון נשבר?",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1uVkVzbi11NWZRTFVIc2I3U08tVWhTbm5HbDkxYjJPZ0tGeDBlb2tXY1FzS3JDRjNaOWQzT3JaTDBtREpEZmZGa1RwZ2pTVXJoRTZvV2ZZWjhOUDRPV2pybG44MDZNaFBWclNpY1JQVGRtZzBZ?oc=5",
-    "source": "ביזפורטל",
-    "published": "2026-11-02T23:02:00+00:00",
-    "lede": null,
-    "lang": "he"
    }
   ],
   "geo": [
    {
-    "title": "War widens in the Black Sea in a test of NATO red lines",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPNWxiZGlMWkM0ZHpydTVPRmxnSkxaVEhRdHoybDV1QW5DWnJrZWZNRDlIODFubWVVWUtfN25DYkVsZzNDemNJcEc5MHRrWTdMMjhJRXZFOWlpaEVuYjgtek1kVjR0VUdrcXhYNGRBX2FlV18yY0U1d1Rqb2stSnlDWmNqb29DdG1ZbEVoMEpjUTBZNUk?oc=5",
-    "source": "Reuters",
-    "published": "2026-11-03T06:39:00+00:00",
+    "title": "Aramco's profit rises as refining margins strengthen amid Iran war",
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPcjk3Y1JNWWc0YW1KclpIRXFQR21LcWFHbm4xdUcwRWV1WTFWd0FIQ04yVDh6WlNJZzlBeU9DRy1hMXp6VU5qN0VXQzQxNnVGQ0kySEJoaW1wWVNXdWp4a2NlX3BNYXR0NlZublAtUE9hWlNyVzhfMk9oazdLV3pzNUpTb9IBiAFBVV95cUxQd0M4OC1uVGNQLWJobnRsREw2dndBVmN0XzRwVlM3V2tyVFdNaVJTaXBFeXdWd3d2UjQ4SzFKQUFJNllmWFBDYXNNZkk2S0RGTzJDRXJYZWowbzk3S1ZkbDJyTndfTDdJY0xMZWpwTUhIX3RPRXJ1R2dIVVRGWjlxLUM0c2NjVzF6?oc=5",
+    "source": "CNBC",
+    "published": "2026-11-03T07:24:47+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "How NATO states on the Black Sea are being drawn into Ukraine war escalation",
-    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQNkV2b2hDWjdaYjJ5TGNNckMxeTk3MFBkeTBMWC1ObmdKX2NsOV9DUVhBY2s3ZTBOTTFJR1B0cFlQVXVPY3M5bnVfcm5DZUh1SDdzZHRrSTkxcndTUzRqenRVZm5PRlM3UF84RDZ1aHBkczdORGtXRjU3ZnY2RWUxelhhMkxxR3ZVZHMtd05PQmxlcEtHM2w2NHloTWlZalFSbXh4Qy1lNnVtMm1oSkpBZzFZOTFIRVpkSnc?oc=5",
-    "source": "Reuters",
-    "published": "2026-11-03T06:35:00+00:00",
+    "title": "US strikes Iran’s Qeshm Island on eve of election",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPSG5OVUtvZU1VSUJienVkdDM4SzNSNnBpZ2U2WGVHYkdUNlE3eFRUZXRHWTVlSTBCTDhMX2hyT2U1Zm9MazJReXRnRU0ycXhtS3pXU0FGaGJwYVNBQ2VwaXhOcU93TWExUzlic0Z6clVFRTFGa0FaSWtIdmM5ckZlNVB2RUY?oc=5",
+    "source": "Financial Times",
+    "published": "2026-11-03T07:05:37+00:00",
     "lede": null,
     "lang": "en"
    }
