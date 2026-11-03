@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-03T01:01:03.618547+02:00",
+ "generated_at": "2026-11-03T02:01:06.533213+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -9,27 +9,51 @@
  "sections": {
   "us": [
    {
-    "title": "Stock Market Today, Nov. 2: Apple Stock Slides Ahead of Earnings, but Its Latest Results Tell a Different Story",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPMmVyaDFCbFUzN2owbVpab2hVYmNHTU5MMWVSQkhqV3l2TDFIaE5KaEdYSGJ5N2dTLXphVFBhN1dCQVI5NzRfcFdNZlB3dzJBZ2VmTFVwRGNnUlVHYnM5WEJfT3Juc0pab21qcGpSWXpjSkNGYWM2eGd5U25tTHAybXo4MGdrRFJyWGRIdV9jbE5ZUkE?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-02T22:45:02+00:00",
+    "title": "Jim Cramer says lower oil prices are giving stocks a boost. Can it last?",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1nUGpvOWR2TXg1V3hBZGg3NVlXYW56a2pCeDJLam9vY1h1LVVNRkp6VWl3NEgyaTVreXNZNF9kT3FUOFU0MC1IektvLVJtUlZQVVRmU1RtYVhjRlJVdm9ROVlWdWtYQmJTckVqWTlLeXo0SzhLb1d3THQwalZ2V0XSAYQBQVVfeXFMT2xKU3JDcERNeGdhbGNqanY5UmluTGdOMTVCLXlyQURvZmdpSW93ekNSTERMeTJQaTJvckU0bVI0TG5PRV9ibDY3V1lPM3dWRHlJQnZEX21yMjhKNTlNaUs1UkxJcE43bGd3YkItTy1iSDMzU3RpVVktLVJxalNSOXhOZ2t0?oc=5",
+    "source": "CNBC",
+    "published": "2026-11-02T23:36:53+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "AMD Reports Tuesday. Here's the Number That Will Show Whether It's Gaining on Nvidia",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNaFdXSXUySHJYTlRzM1UwQ0t5WTJpNl9jMUlGOFJxT1RWbGJqcnBEQmYxQTcxc3Q4dDU5My1PcFVZWk5KNE1tMjU4LVV2WjZ0VzM1a1NoaHNuTWNpa0Vrc1Q5V0xNZGVCVTFFdnQ0YUJPanNmNHplUDdhNjFXd2tVa3FmMlUtQ3lORWd3UHFfanNQWklSMGdOb3ZqaUxGUQ?oc=5",
+    "title": "Prediction: This Will Be SpaceX’s Stock Price by the End of 2027",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPSklId2lVbVJLa0h4UklNSHV2b0tnX1A4UXhTckpxYzNJaEZtdFJFRU5qZEU1MEJXRU5FcnRpeUkwbjdOVkY0UF9BM2RMMkNkRml6NjRFa1Zfc2pMZWxXQTByZWF3ckIxcHc4bEd4UkJPUXp6VWU4Z3o3a1NWLVNsa3hRSVFSX1hjT1N3ZEFQNzBpNm1nXzBNNnpEbTBZdlE?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-02T22:42:02+00:00",
+    "published": "2026-11-02T23:27:02+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Update: US Equity Indexes Mixed as Sell-Off in Technology Continues, Crude Oil Sinks Ahead of Midterm Elections",
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQQThHUzFQaGdlR1FyeTZhcHVIN2lwRmpVV010X0RzeWk3R1VmRVpmcnctS19UUW4tLTBWWXV3QzJxMmx2ZDdsbkxyaGhpLWU2ejJvc2xldnRPM3hzcVVsbWZzcHd5WktwNkhEN2w1VVZtZ0pYUlQ3eXZRTlh6UjJhNzJ0clhaVVUzZExXaDFJVjZhV3pkZUdJZQ?oc=5",
+    "title": "Alphabet Lost $500 Billion in Market Value. Should You Really Buy AI Stocks Now?",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNTWloNURTRElEYVYzbE0wcm9wNXhoWGE2a0x2WGR2MkgxdFFhMl9xeV83MkQ2dVFXSXZDOVlUNGJROXQ3NlRja0xRZ2lRV1lEMDNsNUl1UEFaRW1xa01wUzg3S1ZOeXlLbi1FY3BmOVVyMVdldEJiTkhtOFN6dlJpV1hpbUdCWFo3RExGeEdseXFrZXF3Zkx6ZFc4dTA?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-02T22:35:41+00:00",
+    "published": "2026-11-02T23:25:01+00:00",
     "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Stock market after midterm elections: What S&P 500 history shows",
+    "url": "https://www.cnbc.com/2026/11/02/stock-market-after-midterm-elections-sp-500-history.html",
+    "source": "CNBC",
+    "published": "2026-11-02T23:13:34+00:00",
+    "lede": "Midterms historically precede a strong year for the S&P 500. What to know if Democrats win back Congress",
+    "lang": "en"
+   },
+   {
+    "title": "Apple posts stronger-than-expected revenue in first earnings report for new CEO John Ternus",
+    "url": "https://www.theguardian.com/technology/2026/nov/02/apple-third-quarter-revenue-earnings",
+    "source": "The Guardian",
+    "published": "2026-11-02T23:07:49+00:00",
+    "lede": "Result for the company, which earned $30.71bn and exceeded analysts’ expectations, bucked downward trend for tech firms Apple Inc posted stronger-than-expected revenue in the fiscal third quarter, giving John Ternus…",
+    "lang": "en"
+   },
+   {
+    "title": "Apple warns on rising costs from memory chip shortage",
+    "url": "https://www.ft.com/content/f6ad8c32-cacb-48ad-ad85-a9a7edac3f16?syn-25a6b1a6=1",
+    "source": "Financial Times",
+    "published": "2026-11-02T22:58:51+00:00",
+    "lede": "Hardware giant predicted robust sales in the holiday season after solid performance in the third quarter",
     "lang": "en"
    },
    {
@@ -63,6 +87,16 @@
     "published": "2026-11-02T21:42:00+00:00",
     "lede": "אפל עקפה את תחזיות האנליסטים בשורה העליונה והתחתונה, עם הכנסות בגובה של 114.48 מיליארד דולר שמשקפות צמיחה של 12%",
     "lang": "he"
+   }
+  ],
+  "il": [
+   {
+    "title": "בייננס חידשה את המשיכות, הלקוחות מושכים מיליארדים; האם האמון נשבר?",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1uVkVzbi11NWZRTFVIc2I3U08tVWhTbm5HbDkxYjJPZ0tGeDBlb2tXY1FzS3JDRjNaOWQzT3JaTDBtREpEZmZGa1RwZ2pTVXJoRTZvV2ZZWjhOUDRPV2pybG44MDZNaFBWclNpY1JQVGRtZzBZ?oc=5",
+    "source": "ביזפורטל",
+    "published": "2026-11-02T23:02:00+00:00",
+    "lede": null,
+    "lang": "he"
    },
    {
     "title": "בזכות ה-AI: ההכנסות של פלנטיר זינקו בכמעט 100% ליותר מ-2 מיליארד דולר ברבעון",
@@ -72,24 +106,6 @@
     "lede": "חברת ה-AI עקפה את תחזיות האנליסטים בשורה העליונה והתחתונה, עם הכנסות בגובה 2.31 מיליארד דולר",
     "lang": "he"
    },
-   {
-    "title": "Texas governor race tightens in prediction markets, but Abbott remains favored",
-    "url": "https://www.cnbc.com/2026/11/02/texas-governor-prediction-markets-abbott-hinojosa.html",
-    "source": "CNBC",
-    "published": "2026-11-02T21:13:43+00:00",
-    "lede": "Prediction markets still show the Republican incumbent favored to win a fourth term, but the odds have narrowed in recent weeks.",
-    "lang": "en"
-   },
-   {
-    "title": "Oracle files to sell $20 billion in new stock, bonds to finance AI buildout",
-    "url": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html",
-    "source": "CNBC",
-    "published": "2026-11-02T21:10:34+00:00",
-    "lede": "Oracle filed plans on Monday to issue new shares and more debt to finance its artificial intelligence buildout.",
-    "lang": "en"
-   }
-  ],
-  "il": [
    {
     "title": "\"ההתאוששות ארוכה מהצפוי\": נדב צפריר מאכזב את משקיעי צ'ק פוינט",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001561651#utm_source=RSS",
@@ -115,11 +131,11 @@
     "lang": "he"
    },
    {
-    "title": "טראמפ בראיון: לא ממהר לחדש את המלחמה עם איראן. \"משתקים להם את הכלכלה\"",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001561631#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-02T21:01:00+00:00",
-    "lede": "איראן מכשירה את הקרקע למלחמה: \"מכות מחרידות בנשק חדש\"",
+    "title": "עליות בוול סטריט לפני דוחות אפל - מחירי הנפט צונחים ב-7.5%",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9hU1IxbE44QWxOaUhHR0t5eDJlUXJySXNmTXRNUFUwSVF5VUM1WTd6ak5YQTZQYjFIVFppVFFWZXNOWHdNbDFlakxWWlg2NHdPSHpOOTBDYy1PdmVzN1JDRkl3?oc=5",
+    "source": "Calcalist",
+    "published": "2026-11-02T18:00:00+00:00",
+    "lede": null,
     "lang": "he"
    },
    {
@@ -129,30 +145,22 @@
     "published": "2026-11-02T15:35:59+00:00",
     "lede": null,
     "lang": "he"
-   },
-   {
-    "title": "טאואר צנחה 8.7%; הביטוח התממש 1.5% - נעילה מעורבת בת״א",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBUMUtFZWRvaWJJdHoxZmt2V3J1akRyQkZFODBENDJvcDBqdUN2ZFhPYldpc2FEOXUxdGE1Q2g2bnlXTWMxZDI5TWdONXI0eFNXUzNHbzJCQ3ZpdjNmalIyNFlHa3V1YXEySEt4RDVXN0Y?oc=5",
-    "source": "ביזפורטל",
-    "published": "2026-11-02T05:19:00+00:00",
-    "lede": null,
-    "lang": "he"
    }
   ],
   "geo": [
    {
-    "title": "Do the Shetland Isles need Cold War-style military protection?",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9HbThTMGlvSi1OMXhod3FDTlppd2QyaGdfbTNhZlJnVkEzd2pNMjJad0lmSDhYWkk2Z1YwRkVTOFRseG5OcDBVYkxBSVBHNUwyMG9MbXF0aU94Z0k?oc=5",
-    "source": "BBC",
-    "published": "2026-11-02T22:45:57+00:00",
+    "title": "War, tariffs and China: What the US midterms mean for the Asia-Pacific",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcXdSUzdCZE1aZDlWYzNjZ0hTQ1NIclRrN2hvT2trYnM3djdIajN1Nk8zWEViT3FHQ1lPMEJNSDZDR1ZxMUNuS1lMeGM3RVdrckJXZWpERVpzakZVb3htaG1kcC1aNEVuLVhxSVRxUWZPNnd0THU2aF93R0xhdUNUQkM4aGNtMVpyb2FxeWlUZ2V0SWFPcGZOWWRxMG9WeWl2ZDJPR1VyZUluQTdZbUHSAbMBQVVfeXFMTnBxd2VhLVdiSEE4akU0M2FNUUJYT0gtWXIyVnFOM29RTElPVFFGczNaWHAyOFNmMl9UTjgzSlhyOHREaFNXU0dxdldFZXBJSXBWaldWel9rU1IxZ1N4aVd6azVEMXVSczM4Mko2RlBnQTZIWjZXdk95MzdrWlBNdFF4MWw1cnJ3QXJmTXVGbFJZcnFFcFU3VExWbUpNMWlTWnptRnY4YUxjTTdIal8wU0xBeDg?oc=5",
+    "source": "Al Jazeera",
+    "published": "2026-11-02T23:41:53+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Gulf Arab states struggle under the cloud of war",
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQQ3EtaE9MSjJ4Vld0djhZcjcwQzh2REVoV1Znel9kVTk3dkdDNWZmX2lMUVRPUmpWVVlvVmxFSTFsbXhVNjBzcUc4bFlLSWhyRXRqcTZDTkU1cUkteWx4VmEzMUJQeER0aTVBRHNZLTgydVlpRVp6QzhGMHVHUjNrNUVqLWQwVWpMNDVBeEFicXlBcVFvLWlYaw?oc=5",
-    "source": "NPR",
-    "published": "2026-11-02T21:50:34+00:00",
+    "title": "Vance says US has had ‘good conversations’ with Iran on finding deal to end conflict",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOSlZQOGFnNWxyTG91ZkxGMkdDdlNhd1RuRUZzblYtZGxfOGpReXI2cE5oazAzZkFQRW96Y3VrUkdfenVFWWtPS1BfaFBYYWQ1WVBMVmpuaTZuU3llOGZNMF85QnVGRHAwZlphVWVoaDFiZWhoMWVjalhyTE5na3BVWjVHcmIyWDFoU0FnU2ZBaFZyOE5GRGJqQzdR?oc=5",
+    "source": "AP News",
+    "published": "2026-11-02T23:27:00+00:00",
     "lede": null,
     "lang": "en"
    }
