@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-04T10:31:06.887729+02:00",
+ "generated_at": "2026-11-04T11:31:02.908719+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -9,20 +9,60 @@
  "sections": {
   "us": [
    {
-    "title": "Dollar falls while gold and US Treasury bonds rally as markets react to Democrats’ midterm election victory – business live",
-    "url": "https://www.theguardian.com/business/live/2026/nov/04/dollar-falls-while-gold-us-treasury-bonds-rally-markets-react-democrats-midterm-election-victory-marks-spencer-latest-live-updates",
-    "source": "The Guardian",
-    "published": "2026-11-04T08:10:55+00:00",
-    "lede": "Democrats’ capture of Congress raise expectations of tougher regulation of AI sector; US stock futures fall but later pare losses Deborah Cunningham , chief investment officer of global liquidity markets at Federated…",
+    "title": "בעקבות הניצחון הדמוקרטי בארה\"ב: אנלייט מזנקת; מדד המתחדשות עולה",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001561982#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-04T09:15:00+00:00",
+    "lede": "הזינוק במניות חברות האנרגיה המתחדשת בתל אביב מגיע על רקע ניצחון הדמוקרטים בקונגרס האמריקאי, שמפחית את החשש מהחמרה רגולטורית נוספת בארה\"ב ומחזק את האופטימיות סביב צבר הפרויקטים של החברות בענף",
+    "lang": "he"
+   },
+   {
+    "title": "Medicover shares down 3% as Q3 revenue misses estimates on reimbursement weakness",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNYUpjTzV6dlBOYU9BSjhaLVNqTmc2N0xlR0lhQ0p6Nm96M0RLZk9wZGx4NUpwazV4dTJnX3JfS2U3YW00aGEwMGs3dDl3bVZ1Z25lb2pEd3pacy1JcVZ4NHFTNnhfQjlSUW1CZ0o1NUhqU2pmYXg4dUFvWEM2M0JJeWZ3OWQ0WWRlaTRHZ2x5bWY?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-04T09:11:59+00:00",
+    "lede": null,
     "lang": "en"
    },
    {
-    "title": "Why Is ORCL Stock Sliding Overnight?",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPQlA1R2s0czg1Q3RIeXQ4UGx2c3VNMWx3WjVDMEpaLWZSWVk2NzUzb1FpZDYzd000ZGdSLTk5T3lzbnFzdWEzNWUzT1Qta0hDUWt1VmZkd3hfNDJUQWZFUWZYenlQbnJsbm9vM3FHVTJSSjNhVUFwSzd3eFIzd2plYzk3eC15Z0ZwRVVfRjRKWVlJbTk4QjVfLUVjZWlNQQ?oc=5",
+    "title": "PLTR Stock In Focus: Exec Says 'It's Gonna Be Very Hard To Value Palantir' As Commercial Business Surpasses US Government Revenue",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNUhLcVQ4RTVkaDdoNUkzUmFxaDBua0pYbDJJTmloQ1RsLTBRcDlJN0JQaGF0eEViRjRlRXZvdEZuOVlTa1RHWmVtaE9MeHRWWDhwT1NZdV9iOEVYNkVEb3l3a0Y5cVdEdG5EQ3QzbHlnOTZyRDlocVJ4SVlhR1B1WXMyMUxWQ014TkJPeGhNd280RTZVTGc?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-04T08:08:00+00:00",
+    "published": "2026-11-04T09:09:20+00:00",
     "lede": null,
     "lang": "en"
+   },
+   {
+    "title": "Asian shares mixed as Democrats retake US Congress",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQ0dfbGNfYzQ3eC13Z25neVVVTjR1Wmp1dk1iZjJfa2dkWVJmSndXMEdtX0MyOG90a05SNWN0bHJKTjl0aHJHMlFZdFdpc3RZZVVYRTdNSkl3TDZDbzVnNEozTHZ1dWstUFdINXhqWUtMc3NDbDd0VWNSLVBQMWJuNjUyS2d2MHd5MDFyb3JqRjd4ZENTb1RFTGJVYUxuS003VjFEVUdabWE5aTQ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-04T09:03:31+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Dollar falls while gold and US Treasury bonds rally as markets react to Democrats’ midterm election victory – business live",
+    "url": "https://www.theguardian.com/business/live/2026/nov/04/dollar-falls-while-gold-us-treasury-bonds-rally-markets-react-democrats-midterm-election-victory-marks-spencer-latest-live-updates",
+    "source": "The Guardian",
+    "published": "2026-11-04T08:51:18+00:00",
+    "lede": "Democrats’ capture of Congress raise expectations of tougher regulation of AI sector; US stock futures turn positive, reversing earlier declines US stock futures have turned positive ahead of the Wall Street open later…",
+    "lang": "en"
+   },
+   {
+    "title": "Gold, silver and precious metals prices jump, dollar dips as Democrats take control of Congress",
+    "url": "https://www.cnbc.com/2026/11/04/gold-silver-platinum-dollar-midterms.html",
+    "source": "CNBC",
+    "published": "2026-11-04T08:40:16+00:00",
+    "lede": "Precious metals saw strong gains on Tuesday morning, as investors digested a Democratic sweep in the U.S. midterm elections.",
+    "lang": "en"
+   },
+   {
+    "title": "אירופה פותחת בעליות; החוזים בוול סטריט התאוששו מהירידות אחרי הסוויפ הדמוקרטי",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001561829#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-04T08:39:00+00:00",
+    "lede": "החוזים בוול סטריט התאוששו מהירידות החדות אחרי הסוויפ הדמוקרטי, כשהמשקיעים רואים בבחירות \"אירוע מנקה\"",
+    "lang": "he"
    },
    {
     "title": "Novo shares jump 6% as Wegovy pill sales impress, drugmaker hikes outlook",
@@ -33,52 +73,12 @@
     "lang": "en"
    },
    {
-    "title": "Stocks edge lower as investors digest Democratic sweep",
+    "title": "Stocks recover as investors digest Democrats’ sweep",
     "url": "https://www.ft.com/content/a0b18705-3bd8-4886-992c-b6062fdec6ea?syn-25a6b1a6=1",
     "source": "Financial Times",
     "published": "2026-11-04T08:02:39+00:00",
-    "lede": "Traders bet Democrats could slow AI infrastructure build-out central to economic growth",
+    "lede": "US futures rebound from early losses as resounding victory makes contested results less likely",
     "lang": "en"
-   },
-   {
-    "title": "Why Is DUOL Stock Surging Over 11% Overnight Today?",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOdzd6YjZvaDFXS2IteWwzaXVxUzVDZ1I1emRvY0JrSEdINDNwLVpBbUM0RGpqQlpDQnQ2YUlteGhPcHpCcHY2Uld6d0RDalFYSFV1a1pXQXlpeHVLbzRSdXpiWDdiNmh0TW8tUnZzdUhLZTZMREJMSkMzOEFpQS05RFpNMlYwQlBfX0pHcGplZXBGZzdhUmZN?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-04T08:01:59+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Gold, silver and precious metals prices jump, dollar dips as Democrats take control of Congress",
-    "url": "https://www.cnbc.com/2026/11/04/gold-silver-platinum-dollar-midterms.html",
-    "source": "CNBC",
-    "published": "2026-11-04T07:43:43+00:00",
-    "lede": "Precious metals saw strong gains on Tuesday morning, as investors digested a Democratic sweep in the U.S. midterm elections.",
-    "lang": "en"
-   },
-   {
-    "title": "Fabrinet (FN) Stock Jumps As Q1 Earnings Fuel Margin Questions",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNVERCb1dKYWo2RVdVTzNCOVBuSm5yamNRMV9kVk1rdTJKamhrWTEyTjRSZ3JJT29KbFNlV2doN3I4dVpna19nMkNTWElYMEV3SDg5UUl5ODdad3FubU5TSERxUTdVUnRoVDVtSmhrdW1HazAzZUdQaE4ySU5kRGR4VnJHX3g3c2t4enpuWjduWGcwUUhIR2c?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-04T07:18:23+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "התוצאות בטקסס מספקות למשקיעי הטכנולוגיה סיבה לדאגה",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001561969#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-04T06:58:00+00:00",
-    "lede": "השינוי הפוליטי בארה\"ב עשוי להקשות על אחד ממנועי ההשקעה המרכזיים של הכלכלה האמריקאית, ובפרט בטקסס - שם ניצחה בבחירות האמצע המועמדת הדמוקרטית ג'ינה הינוחוסה, שהביעה התנגדות נחרצת לפיתוח חוות השרתים במדינה",
-    "lang": "he"
-   },
-   {
-    "title": "הסכסוך והתחזית: כך איבדה אמדוקס 3 מיליארד דולר בלילה אחד",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001561958#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-04T06:03:00+00:00",
-    "lede": "התחזיות לשנת הכספים 2027 משקפות חולשה: אמדוקס צופה צניחה של כ-14% עד 18% בהכנסות בשנת הכספים הבאה",
-    "lang": "he"
    },
    {
     "title": "Britain’s housing market unlikely to recover until 2028, says Savills",
@@ -91,11 +91,11 @@
   ],
   "il": [
    {
-    "title": "מגמה מעורבת בתל אביב בהובלת סקטור הקלינטק; הדולר נחלש",
+    "title": "ירידות בבורסת ת\"א; מניות האנרגיה מזנקות לאחר הבחירות בארה\"ב",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001561893#utm_source=RSS",
     "source": "גלובס",
-    "published": "2026-11-04T08:21:00+00:00",
-    "lede": "המסחר בבורסה המקומית מתנהל במגמה מעורבת ברקע תוצאות בבחירות האמצע בארה\"ב",
+    "published": "2026-11-04T09:11:00+00:00",
+    "lede": "מדד הביטוח מוביל את הירידות, בעוד האנרגיה והטכנולוגיה קופצות",
     "lang": "he"
    },
    {
@@ -104,14 +104,6 @@
     "source": "גלובס",
     "published": "2026-11-04T07:47:00+00:00",
     "lede": "על רקע הסכסוך בארקיע וההפסדים הגדולים והחובות, לגלובס נודע כי חברת התעופה המתחרה ישראייר מתכננת וכבר מבצעת בימים אלה מהלכים כדי לרכוש את חברת התעופה ארקיע מידי משפחת נקש",
-    "lang": "he"
-   },
-   {
-    "title": "התגובה המקומית לסערה בשווקים: ממתינים לפתיחת המסחר בבורסה בת\"א",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA5Z2hTVmpFRjlxR25id2VTU3BOdFMzck5Ib0JfWEw1TGFDNmFMLS13R0lLU2NzNHR0V29NcUlYMlpnTFFkVGZ5ZFBBXzRYTFpXbm9qX1E1dVl1dVp6SGgwd053?oc=5",
-    "source": "calcalist",
-    "published": "2026-11-04T07:39:58+00:00",
-    "lede": null,
     "lang": "he"
    },
    {
@@ -139,6 +131,14 @@
     "lang": "he"
    },
    {
+    "title": "מס על שכירות מהשקל הראשון? הצחקתם אותי",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5mUU43VG9JZEdHaUNhbmJjTndDZ2ozY3NvRVFSM0t5bjl5ME5DZVZxdi1QWGtXQmI4SXFiNzJHQkVZa2N5ZWM1blJrYmpSaFZwamcybDNkUEoyUE5aYnkwN1FKRG1abWh0?oc=5",
+    "source": "ביזפורטל",
+    "published": "2026-11-03T16:24:00+00:00",
+    "lede": null,
+    "lang": "he"
+   },
+   {
     "title": "ת\"א ננעלה בעליות קלות, נייס נפלה ב-7.1%, טבע טיפסה ב-3.8%",
     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE45UEZiREgyaUZ1UkZ1R0NBZTk0ZVZBNTgyOWlhNXJhQ1YwRHRWWWJpdHRZQTZpeVBweUxqNzRERWJZbE45SUZyRWxqSU9yLXBrMWgtMjB5NFVsRmNNbTVmYXBn?oc=5",
     "source": "calcalist",
@@ -149,18 +149,18 @@
   ],
   "geo": [
    {
-    "title": "Qatar pulls out of hosting 2028 Nations Championship owing to Middle East crisis",
-    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPWllBVjk0NzhUN0NLbEZVT2xkanlZZXBkRDA2VWNKY2FxVExwb0YxYjljOVdHMkZVanY0RmtwRWJpMWU1dWlmaGZsT3BkUDRvZmxCanY3YnFTQ3pCU3hObjR4Rmd6Y3psbDJiZkRza0Jkb2tPS2ZFMERnRi12THllQUF6NWdnSDIwLTVPc3BBSmV6Q0J4UGVHNC1YZXpRWk5jZVRUQ0NsdVlsZU90NmhJSzNHVmo1R01nTE9nekNtQ1lTZUpQ?oc=5",
-    "source": "The Guardian",
-    "published": "2026-11-04T08:01:00+00:00",
+    "title": "Four oil tankers destroyed in Hormuz after hitting mines, Tehran says",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdEhjbW9DVXVsQ0lGbWx0TG5Od3c2TUowSjhzQlZKRVYxWWlaUFJGUXc2ZHhuQjdHdWhUdnNBaExUeE1qRDB0Q3Q2VWxCblQzRWRQT1I5dzBLVEx5Qm0yTFd0M2hJdUdPdV9Pcm9UdXNDbWZHNUdKTUtQOGdBN3pOR0Iwd3J1WktWdVJXT3ZqLUFrMVpjY3d1YkZCV29QUFU4ZTVxTjF3VVpDamF2Z2tGOVdvQ3pNY1l6?oc=5",
+    "source": "France 24",
+    "published": "2026-11-04T08:43:31+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Iran says US reply to Hormuz plan ‘unconvincing’; Trump confirms strikes",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxON1ZqTGJfa3lWVVdvUzRRRUc3TlVVYUNFMHhkWlREdDZsYUFzSmdJVjBhcU9PaEptVWRxRm9QMnRGcmpkYkNHVXgydHhJYTd6X0d5dF9JMG1vc1dVOWtBWWxBUTB3VjhkZlAyUEt4cGhPUlJIRzR2cFhkdFVoOEc4SkRkM1FRQ0FpblBPZHh5S3JKMl9zbUhjeUlVazhmdkJ5QjRaUXJ6eV8taGNpV3lv0gG0AUFVX3lxTE1qMndoTmRKR0xGNDZnMVJYWmdselZrTXdiXzFKVjgwQW9OZ242eHJDWFlMa2x5MU1mbGVGdFIwV2V5Q2V2OVpfYmtfd0RLUnhmN01vTjZMdHgzVnVaMlZfelBSajJHOWVJOXZ0UTlQZEMwR0RsalU2bThPekFSRDExWG9KUUVMdFlVSFRPNTgteTdyNGxZMmhCMU9aUjU1SnNaTWJETmdSTlFyeHUwQmRUOGpRMw?oc=5",
-    "source": "Al Jazeera",
-    "published": "2026-11-04T07:35:38+00:00",
+    "title": "Qatar pulls out of hosting 2028 Nations Championship owing to Middle East crisis",
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPWllBVjk0NzhUN0NLbEZVT2xkanlZZXBkRDA2VWNKY2FxVExwb0YxYjljOVdHMkZVanY0RmtwRWJpMWU1dWlmaGZsT3BkUDRvZmxCanY3YnFTQ3pCU3hObjR4Rmd6Y3psbDJiZkRza0Jkb2tPS2ZFMERnRi12THllQUF6NWdnSDIwLTVPc3BBSmV6Q0J4UGVHNC1YZXpRWk5jZVRUQ0NsdVlsZU90NmhJSzNHVmo1R01nTE9nekNtQ1lTZUpQ?oc=5",
+    "source": "The Guardian",
+    "published": "2026-11-04T08:01:00+00:00",
     "lede": null,
     "lang": "en"
    }
