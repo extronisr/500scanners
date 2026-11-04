@@ -1,5 +1,5 @@
 {
- "fetched_at": "4.11.2026, 4:49",
+ "fetched_at": "4.11.2026, 5:04",
  "items": [
   {
    "title": "FDA approves respiratory papillomatosis drug developed by INOVIO - Pennsylvania Business Report -",
@@ -2944,8 +2944,8 @@
   {
    "title": "FDA grants priority review to gene therapy for Huntington’s - Huntington's Disease News",
    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNMVl2b1paMTRZaHN5b3psUTlCTFFuZEJqanpNdi1aLTVFYTNCZ0ZaSnlNR1JGRFRhOWs4YkExS0hWa3pkRWlRMEVUbFpmWnp2RUN4bE4zdGlPVWVCeVNmYjFlWW9kUUpnS0RiTnJfZ1doaHBETGpYbjVsek9xa1diRFZrWmxvZEFVYTlqUVdzWUl4SkZuV19n?oc=5",
-   "pub_ts": 1793738925.0,
-   "date": "3.11.2026, 22:48",
+   "pub_ts": 1793739152.0,
+   "date": "3.11.2026, 22:52",
    "cat": "btd",
    "sev": 2,
    "dir": 1,
@@ -3549,6 +3549,78 @@
    "ncts": []
   },
   {
+   "title": "FDA approves generic Venetoclax (Alembic)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=214747",
+   "pub_ts": 1793145600.0,
+   "date": "28.10.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=214747"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA approves generic Ketamine Hydrochloride (Neurorx)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220602",
+   "pub_ts": 1793145600.0,
+   "date": "28.10.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220602"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA approves generic Triamterene (Rubicon Research)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220782",
+   "pub_ts": 1793145600.0,
+   "date": "28.10.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220782"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA approves generic Fulvestrant (Sinopep Allsino)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=216722",
+   "pub_ts": 1793145600.0,
+   "date": "28.10.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=216722"
+    }
+   ],
+   "ncts": []
+  },
+  {
    "title": "A Study to Evaluate Astegolimab in Participants With Chronic Obstructive Pulmonary Disease",
    "link": "https://clinicaltrials.gov/study/NCT05595642",
    "pub_ts": 1793145600.0,
@@ -3635,78 +3707,6 @@
    ]
   },
   {
-   "title": "FDA approves generic Venetoclax (Alembic)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=214747",
-   "pub_ts": 1793145600.0,
-   "date": "28.10.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=214747"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "FDA approves generic Ketamine Hydrochloride (Neurorx)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220602",
-   "pub_ts": 1793145600.0,
-   "date": "28.10.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220602"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "FDA approves generic Triamterene (Rubicon Research)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220782",
-   "pub_ts": 1793145600.0,
-   "date": "28.10.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220782"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "FDA approves generic Fulvestrant (Sinopep Allsino)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=216722",
-   "pub_ts": 1793145600.0,
-   "date": "28.10.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=216722"
-    }
-   ],
-   "ncts": []
-  },
-  {
    "title": "Pfizer Cancer Therapy Shows Extended Progression-Free Survival in Multiple Myeloma Patients - Benzinga",
    "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPZmVwcEdSRkcwcGF6enQwRi0wRnJzTExYbnBURFk2Z3JaUk93MjR5aV8yVXRkelQ4bElEaTBFcnI0eDZaY0k3WENuaDh1NlF1VndvM1NPYlllQ2dQQVY2WDF3Rlg2LXU5dlp1bGNRdTMzZldaZDItVXhOZmRJaHNaZ016SEUwZ185eUJXMFM3WkxnZzRZTjFXS1pvS1BsanFpdHloVGRGRUJlNDA0QTNUcUMwYVVXS3p4eFpJa0VUR2I3dFpDWEl6N1otV3k3OUFsXzk5YkpTU1lCaE5GVzlXeg?oc=5",
    "pub_ts": 1793121938.0,
@@ -3745,28 +3745,6 @@
    "ncts": []
   },
   {
-   "title": "A Study to Learn How Well the Study Treatment Finerenone Works and How Safe it is in People With Long-term Decrease in the Kidneys' Ability to Work Properly (Chronic Kidney Disease) Together With Type 1 Diabetes",
-   "link": "https://clinicaltrials.gov/study/NCT05901831",
-   "pub_ts": 1793059200.0,
-   "date": "2026-10-27",
-   "cat": "phase3",
-   "sev": 2,
-   "dir": 0,
-   "tickers": [],
-   "companies": [
-    "BAYRY"
-   ],
-   "sources": [
-    {
-     "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT05901831"
-    }
-   ],
-   "ncts": [
-    "NCT05901831"
-   ]
-  },
-  {
    "title": "FDA approves generic Tranexamic Acid (Zydus Lifesciences)",
    "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221213",
    "pub_ts": 1793059200.0,
@@ -3801,6 +3779,28 @@
     }
    ],
    "ncts": []
+  },
+  {
+   "title": "A Study to Learn How Well the Study Treatment Finerenone Works and How Safe it is in People With Long-term Decrease in the Kidneys' Ability to Work Properly (Chronic Kidney Disease) Together With Type 1 Diabetes",
+   "link": "https://clinicaltrials.gov/study/NCT05901831",
+   "pub_ts": 1793059200.0,
+   "date": "2026-10-27",
+   "cat": "phase3",
+   "sev": 2,
+   "dir": 0,
+   "tickers": [],
+   "companies": [
+    "BAYRY"
+   ],
+   "sources": [
+    {
+     "source": "ClinicalTrials.gov",
+     "link": "https://clinicaltrials.gov/study/NCT05901831"
+    }
+   ],
+   "ncts": [
+    "NCT05901831"
+   ]
   },
   {
    "title": "Merck drug extends survival in endometrial cancer trial, wins US priority review - Reuters",
