@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-04T01:31:31.285688+02:00",
+ "generated_at": "2026-11-04T02:31:03.847344+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -9,10 +9,42 @@
  "sections": {
   "us": [
    {
-    "title": "Suze Orman Says Doing Nothing Can Be the Right Move When Stocks Fall",
-    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVWZ3SUtfOHdsM0dxR3FsVjQxUG1BLXhwQnd1czFrWTlXTEZXV2FaRU8tX1JfOXVEU2llVkhQNVVCSTc1MnFudE13X1YyNkdpS3ZVX2xGX1RvN2dGVkNGTlQwX1FDUkI2ZF8wU1JEeUVLb2lvcjBYemlGQXYtZVN3RDlTMDlwNDJSZTRqandDdEladUc3WU5kUk53?oc=5",
+    "title": "Here’s why AMD’s stock is rising — and sending a confident message about the AI trade",
+    "url": "https://www.marketwatch.com/story/heres-why-amds-stock-is-rising-and-sending-a-confident-message-about-the-ai-trade-11cb4d8a?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-04T00:17:00+00:00",
+    "lede": "The chip maker is showing “real” revenue from AI, shrugging off sustainability concerns and leading to an upbeat forecast.",
+    "lang": "en"
+   },
+   {
+    "title": "Jim Cramer sees signs of life in tech stocks — but not from the usual winners",
+    "url": "https://www.cnbc.com/2026/11/03/jim-cramer-sees-signs-of-life-in-tech-stocks-but-not-from-the-usual-winners.html",
+    "source": "CNBC",
+    "published": "2026-11-03T23:58:09+00:00",
+    "lede": "Cramer said a new group of technology stocks may be emerging as market leaders.",
+    "lang": "en"
+   },
+   {
+    "title": "Why Thomson Reuters Stock Plummeted by Almost 10% Today",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQU3JCM0tFdjktR2JNbXFaanlaaEhYSGZtUkVja2NWTjM0NU1Ua0FBUmx5X0hNcnZPN2JSeVVYZ192d0JnMExRb3pfRFpIZG5Pblc1ajVVUXFmZ2hac1RBQU5nVEwwSDF1VGNiVUVpbUppN3lKN3pDYlliSVpoRUF0cWVzbEVFMzZrVEJOZVphZFZtUkhJTDY3d2FnWE5Mb2FnREE?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-03T23:08:27+00:00",
+    "published": "2026-11-03T23:55:26+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "CrowdStrike (CRWD) stock trades down, here is why",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPQ0ZwcE9CVFdJU1gwcExIbF9xZThKZE9ORUR5NUdkSmRYbURSVmxVQWRYa3dRWlV6ZXc4MFhFMmNRLTBWdzdKVHZ5a1gyNnhvc1JLOGdESGw4dHkxNHlINmd5akxCLUNQYVREbTU2MVM0MzM5YW1oeEFNOFdpNHppSTk1c2hXVE1ENXVDVlN4bWRrSy1lQnM3Wm1rMHJPYWwx?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-03T23:49:36+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "M.P. Evans Group (AIM:MPE) Stock Looks Reasonable Despite A 176% Run",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPa1JXN0s0UXVsdmp2QjU1SXZwZFVhU3VNM3dReUFkN18xZXFvREVvOTdBYWRxOC03YTJReEcwTVZMZGJya3FvUm1faGNJeEhOWTR5VXZVWEpIYnNpMUFDNzZhTWFwUXh2QWEzanplTGkzc0ZWd1ZvRlRsMzB2LUNIQlllRElWUGxJMWFOTA?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-03T23:17:48+00:00",
     "lede": null,
     "lang": "en"
    },
@@ -25,35 +57,11 @@
     "lang": "en"
    },
    {
-    "title": "Stock Market Mostly Higher On Election Day, But Apple, Shopify Slide; AMD Jumps Late",
-    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPNWp4aG5EV1lESkNTbGR1eElCYVFlUmNELVBSZE5nUmxDenoxRzVzQnZDY3hRczFrdUNwa0pxZHZXT0ZTWWhmbzAtSWNYdEFNTnpMaWFyZWlpanlISHZ1cXpNXzJ6ci1OeUc0bWN5VHlvMmVnQzFVckVCV1ZvU2tEMXdLbkpfSVdGZ0p6aHBnSFRYaGtEcXctYkdPN2YwT08xa0tKbldNaVhtaVBkc2ZmZmd4RzJaajkxMjVDaQ?oc=5",
-    "source": "Investor's Business Daily",
-    "published": "2026-11-03T22:56:00+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
     "title": "What analysts are telling us while Apple’s stock falls after earnings report",
     "url": "https://www.marketwatch.com/story/what-analysts-are-saying-as-apples-stock-falls-after-earnings-report-f0afa357?mod=mw_rss_topstories",
     "source": "MarketWatch",
     "published": "2026-11-03T22:48:00+00:00",
     "lede": "Shares in Apple declined nearly 2% on Tuesday after investors were left feeling disappointed about the company’s gross margin outlook and slowing services revenue growth.",
-    "lang": "en"
-   },
-   {
-    "title": "Kosmos Energy (KOS) stock trades down, here is why",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNVzF6aks4OVBBRUpmdU85S1Y3M21rVDBOUURTMUgwU254cUNyamswdXEwbzdBZmVIYTFibHJtNVhIdVJyQVhjTnc4dmNwS3ZOTnpRLUh4VTV6YXRDaVUyb1RCS1ctMDd3bnJYSnNRVE1TU2RtVmc3eEtieTEyQ3lFWEFoSlhjdFhJWVhzWVRPRkFPNG5SQmVvV3pBMA?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-03T22:45:36+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Shopify’s stock slides after earnings. This is what’s worrying Wall Street.",
-    "url": "https://www.marketwatch.com/story/shopifys-stock-slides-after-earnings-this-is-whats-worrying-wall-street-e2e8d52b?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-03T22:45:00+00:00",
-    "lede": "The company missed revenue expectations, a tough outcome in today’s less-forgiving tech market.",
     "lang": "en"
    },
    {
@@ -65,27 +73,19 @@
     "lang": "en"
    },
    {
-    "title": "Ferrari raises 2026 guidance after Q3 earnings beat",
-    "url": "https://www.cnbc.com/2026/11/03/ferrari-race-earnings-q3-2026.html",
-    "source": "CNBC",
-    "published": "2026-11-03T21:11:34+00:00",
-    "lede": "Ferrari raised its 2026 guidance Tuesday after third-quarter revenue and adjusted earnings per share edged past Wall Street expectations.",
-    "lang": "en"
-   },
-   {
-    "title": "Investors watch US state races for signs of backlash against AI boom",
-    "url": "https://www.ft.com/content/c8a092e5-c1e4-46b8-83e1-73404900a0c5?syn-25a6b1a6=1",
-    "source": "Financial Times",
-    "published": "2026-11-03T20:25:23+00:00",
-    "lede": "Wall Street bets that three dozen gubernatorial races could have significant impact on data centre development across America",
-    "lang": "en"
-   },
-   {
     "title": "נאסד\"ק מתאושש בזכות מניות השבבים; אפל מכבידה על מדד הדאו",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001561764#utm_source=RSS",
     "source": "גלובס",
     "published": "2026-11-03T19:58:00+00:00",
     "lede": "נאסד\"ק עולה ב-0.6% • גולדמן סאקס: מדד S&P 500 במרחק 3% משיאו, אבל 60% מהמניות בו כבר בשוק דובי • שופיפיי נופלת: פספסה את תחזית ההכנסות לראשונה זה ארבע שנים • מחירי הנפט יורדים • מטא מתכננת לגייס עד 25 מיליארד דולר…",
+    "lang": "he"
+   },
+   {
+    "title": "ביל אקמן במכתב אופטימי לעתיד ה־AI: \"תחזיות האנליסטים משקפות נתק בולט\"",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001561871#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-03T19:00:00+00:00",
+    "lede": "גלובס מציג את עיקרי המכתב של ביל אקמן, מנהל קרן הגידור הענקית פרשינג סקוור: \"סביר מאוד שצמיחת ההכנסות תעלה על תחזיות האנליסטים\"",
     "lang": "he"
    }
   ],
@@ -94,7 +94,7 @@
     "title": "וול סטריט ננעל במגמה מעורבת; מניית AMD עלתה ב-4%, טבע - ב-3%",
     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9KUjBqaU81T3hLMnBxYjBBcTF2QnpyUUhmTjU4a016T3VnQ3I4elJtRk4ySVliLUd6UEgweDRUcm1vZWUxaXBHUDZ0Z2ZGNUpqQ1lkYnlzM2F5VUdoV0tLTWdn?oc=5",
     "source": "Calcalist",
-    "published": "2026-11-03T21:11:15+00:00",
+    "published": "2026-11-03T21:11:39+00:00",
     "lede": null,
     "lang": "he"
    },
@@ -157,18 +157,18 @@
   ],
   "geo": [
    {
-    "title": "Iran’s chief negotiator says the US must act to prevent renewed war, and other Mideast news",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOM2pBMjlPX0dlMUxUN1BQVExSMVRwRTBnQkx6TkFaRW4zT1NsTE9jNzhHbnZSMVFXd1lHQ3gwWFJEbW85aGdhbTJVY0VWN1FyTVZLTUdSblVHYzAtTHVoN2ZvZkNyWWtPR3pVVWRBSUxaTWZldUR0QktaZWlMSm42cEdiWFNhcUIwNFdpUUN4a0JjQQ?oc=5",
-    "source": "AP News",
-    "published": "2026-11-03T22:44:00+00:00",
+    "title": "OpenAI and Anthropic Set Up ‘War Rooms’ to Fight Disinfo About Midterm Elections",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOWEZ5UW1FNFkxcXk5Y2pzN1hqR3dPZWdRRm9PT0phR3Y1cVg1N1E2RDk1ZWFCM2tCUnhvbVBHRVI0X2tfNEh6aFVmd3lxSGVvQ2s4SzRqQUFPMXJuUG5Sb19VMkpud1dBVVQ2VVBSMnM2WnhPLWVBTXFUZTlKcEJXRC1CcHdoUFZNWU5j?oc=5",
+    "source": "The New York Times",
+    "published": "2026-11-03T23:39:55+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "President Zelenskyy says US elections will impact war in Ukraine",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNS2FuU0FkanU5ZnlhWFBjQ1RsaGlUaTVvWTBsV1dfdUg5WUQ5b2pHWEJsTk5lUlhBZnRjeFJfRG5NMDRCdFNpVHA2Z1hvcGNDbXEwczJ2VUFVaG1hd1JaMWVaUmFDX01aN3VXU3pqcF94WWpSVnJhbjlKMnJKb1FnbVRRcmpmcmlxQ3llMVV3aU9CckpGZ0VoeTU2NjhreDhrSm05dEdPQWNDU1hZNnQ4M1M4dzZpZ9IBuwFBVV95cUxNa0x4NDdSRGRZSFI2RERIbFV6Yms0alNiUnZIaWlxY1lfUl9Sa3AxTWl4NnkyczFycXpQeUJVemZ1THI4VGVobWdVVThSUGh1VHBWeFZ6SjlBejN1dW5ZaldXZU40RmFFNGN5VDlOSU9WYXdLZDNEc3JwOFdPOWdMQ1BJbVN1cU1FVzNuYjhuQkIxX2JLT1IzSUJtN0hUekkxeHhFMmVVVVhFSlVWWkk1WlppWUFPaUV5OXk4?oc=5",
-    "source": "Al Jazeera",
-    "published": "2026-11-03T22:13:57+00:00",
+    "title": "As Americans vote, Trump says US will stop $4 billion in aid to Israel",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTnAzZzVDS3N1RTJJdnkxYUJPQkl1X3h4d3hZaC1MX0RwXzRHOGRybmM3QjEzR1kybkJIUmNYcnVPbkNPMkt6TFBnTEdOYWFJemJkelBhVXZsRDQ5VG4wc1lSS0Q2dlRlUmV0VHI2Y3YxNWstRWVPUV95Y2pNUVp5TUlES3pCMC1GUzNTTXVfWWlGd1JlQ3p1XzJUWmJmbzlWUmtYTFlXNDFlZw?oc=5",
+    "source": "Reuters",
+    "published": "2026-11-03T23:11:02+00:00",
     "lede": null,
     "lang": "en"
    }
