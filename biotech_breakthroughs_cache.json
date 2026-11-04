@@ -1,5 +1,5 @@
 {
- "fetched_at": "4.11.2026, 15:04",
+ "fetched_at": "4.11.2026, 15:34",
  "items": [
   {
    "title": "FDA approves respiratory papillomatosis drug developed by INOVIO - Pennsylvania Business Report -",
@@ -1439,11 +1439,17 @@
    ],
    "sources": [
     {
+     "source": "ClinicalTrials.gov",
+     "link": "https://clinicaltrials.gov/study/NCT06323356"
+    },
+    {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMi7gJBVV95cUxOVEJwdUtkU21BdEwtbUk2d1lhVlgwVXpJeFhpeHhVemtNdzJGb0VqRnZEa0k1Y3RPZFliaWpmNWJNaFhlR1diblhNMUE5Zk1ac2ZjUF9rTTlIczlXekFDSC05U09qYmswbG9tVXpVVHMwX21ZMmdXSTZndC1nTTBXa2Z5eHhKeXAteFcyS3dzWVVxM1ppamkwczF1T1A5WThIaklCVmluT3BENE5ua1NjSGZKRnFzdDB4QkFsU0NqV1cyb2ZUOTJ1M1RVVUxrQjhFaTFIeERjT2VOQ1RsMldaY1UtbXhxZjNsZjhZT3V6WEJneEo0bS1IQk5EZnNpZjVsWTFnaS1iaUlDRUg3NGdGU2NtYVlvM3RVZTJqaW42ZlZuUkxVN0Y1a1ZHTjlYMEM4Y2RYeVB1aDJORXBpYkpJWWwxdE4xVjdNOUJOalMxYmVfb3d5eDFmNDVBTmRhVW0yLTlfTVZRLU1EXzBFaWc?oc=5"
     }
    ],
-   "ncts": []
+   "ncts": [
+    "NCT06323356"
+   ]
   },
   {
    "title": "ESMO: Takeda’s $1.2B bet on Innovent ‘absolutely’ pays off with details of ADC’s phase 3 win - Fierce Biotech",
@@ -1720,6 +1726,29 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQRUlBZ1ZGbmktYmwtQUwxWXc1SlN1aW5sRE9hTUZrYS1Pa2QxLXJGMkhjbkhVNWIzeUZoMXJ2UFpHQW9pRlNUcXlHUmoyU3ZtazFVdUFLaUIwUTBSeFpfMXpaY1BZSGJKNVNEVWJ1c1pFcUpyT2pwbGRXV3dHTDlhNDU3dXlkMko5QXE2MUgtaGI?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "PolyPid: Strong Phase 3 Data Support A Buy Ahead Of November's FDA Decision (NASDAQ:PYPD) - Seeking Alpha",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPUzI1MkxNSk4xczQyZDA1cGprT2dFb2FrNXBYRXhzeEE5VEhhT1ZKV3h3cUt0TlVGeWY1SlQ2ZDBoVjU1aGFpejh6RGpXZTdXZHVkNHotbDBHT0JvYno3M2FJb0NkUnJsOE8zODNYd0pCTURFUzlPQlFQWXF1UzVONUdYT25QN25YOGl0TlA0WkF4NTNZcFEydUxobjNodjhuLVJuUzMyWTl4akczeHNkWm82NXo?oc=5",
+   "pub_ts": 1793781845.0,
+   "date": "4.11.2026, 10:44",
+   "cat": "phase3",
+   "sev": 3,
+   "dir": 0,
+   "tickers": [
+    "PYPD"
+   ],
+   "companies": [
+    "PYPD",
+    "NDAQ"
+   ],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPUzI1MkxNSk4xczQyZDA1cGprT2dFb2FrNXBYRXhzeEE5VEhhT1ZKV3h3cUt0TlVGeWY1SlQ2ZDBoVjU1aGFpejh6RGpXZTdXZHVkNHotbDBHT0JvYno3M2FJb0NkUnJsOE8zODNYd0pCTURFUzlPQlFQWXF1UzVONUdYT25QN25YOGl0TlA0WkF4NTNZcFEydUxobjNodjhuLVJuUzMyWTl4akczeHNkWm82NXo?oc=5"
     }
    ],
    "ncts": []
@@ -2944,6 +2973,114 @@
    "ncts": []
   },
   {
+   "title": "Study of Efficacy and Safety of LNP023 in Primary IgA Nephropathy Patients",
+   "link": "https://clinicaltrials.gov/study/NCT04578834",
+   "pub_ts": 1793750400.0,
+   "date": "2026-11-04",
+   "cat": "phase3",
+   "sev": 2,
+   "dir": 0,
+   "tickers": [],
+   "companies": [
+    "NVS"
+   ],
+   "sources": [
+    {
+     "source": "ClinicalTrials.gov",
+     "link": "https://clinicaltrials.gov/study/NCT04578834"
+    }
+   ],
+   "ncts": [
+    "NCT04578834"
+   ]
+  },
+  {
+   "title": "Efficacy and Safety of KBP-5074 in Uncontrolled Hypertension and Moderate or Severe Chronic Kidney Disease (CKD)",
+   "link": "https://clinicaltrials.gov/study/NCT04968184",
+   "pub_ts": 1793750400.0,
+   "date": "2026-11-04",
+   "cat": "phase3",
+   "sev": 2,
+   "dir": 0,
+   "tickers": [],
+   "companies": [
+    "NVO"
+   ],
+   "sources": [
+    {
+     "source": "ClinicalTrials.gov",
+     "link": "https://clinicaltrials.gov/study/NCT04968184"
+    }
+   ],
+   "ncts": [
+    "NCT04968184"
+   ]
+  },
+  {
+   "title": "An International Prospective Open-label, Randomized, Phase III Study Comparing 177Lu-PSMA-617 in Combination With Standard of Care (SoC), Versus SoC Alone, in Adult Male Patients With Metastatic Hormone Sensitive Prostate Cancer (mHSPC)",
+   "link": "https://clinicaltrials.gov/study/NCT04720157",
+   "pub_ts": 1793750400.0,
+   "date": "2026-11-04",
+   "cat": "phase3",
+   "sev": 2,
+   "dir": 0,
+   "tickers": [],
+   "companies": [
+    "NVS"
+   ],
+   "sources": [
+    {
+     "source": "ClinicalTrials.gov",
+     "link": "https://clinicaltrials.gov/study/NCT04720157"
+    }
+   ],
+   "ncts": [
+    "NCT04720157"
+   ]
+  },
+  {
+   "title": "Ravulizumab in Thrombotic Microangiopathy After Hematopoietic Stem Cell Transplant",
+   "link": "https://clinicaltrials.gov/study/NCT04543591",
+   "pub_ts": 1793750400.0,
+   "date": "2026-11-04",
+   "cat": "phase3",
+   "sev": 2,
+   "dir": 0,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "ClinicalTrials.gov",
+     "link": "https://clinicaltrials.gov/study/NCT04543591"
+    }
+   ],
+   "ncts": [
+    "NCT04543591"
+   ]
+  },
+  {
+   "title": "Efficacy, Safety and Tolerability of KLU156 in Adults and Children With Uncomplicated P. Falciparum Malaria",
+   "link": "https://clinicaltrials.gov/study/NCT05842954",
+   "pub_ts": 1793750400.0,
+   "date": "2026-11-04",
+   "cat": "phase3",
+   "sev": 2,
+   "dir": 0,
+   "tickers": [],
+   "companies": [
+    "NVS"
+   ],
+   "sources": [
+    {
+     "source": "ClinicalTrials.gov",
+     "link": "https://clinicaltrials.gov/study/NCT05842954"
+    }
+   ],
+   "ncts": [
+    "NCT05842954"
+   ]
+  },
+  {
    "title": "FDA grants priority review to gene therapy for Huntington’s - Huntington's Disease News",
    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNMVl2b1paMTRZaHN5b3psUTlCTFFuZEJqanpNdi1aLTVFYTNCZ0ZaSnlNR1JGRFRhOWs4YkExS0hWa3pkRWlRMEVUbFpmWnp2RUN4bE4zdGlPVWVCeVNmYjFlWW9kUUpnS0RiTnJfZ1doaHBETGpYbjVsek9xa1diRFZrWmxvZEFVYTlqUVdzWUl4SkZuV19n?oc=5",
    "pub_ts": 1793739152.0,
@@ -3048,28 +3185,6 @@
    "ncts": []
   },
   {
-   "title": "A Study to Evaluate a Fixed Combination of Acetaminophen/Naproxen Sodium in Acute Postoperative Pain Following Bunionectomy",
-   "link": "https://clinicaltrials.gov/study/NCT05868122",
-   "pub_ts": 1793664000.0,
-   "date": "2026-11-03",
-   "cat": "phase3",
-   "sev": 2,
-   "dir": 0,
-   "tickers": [],
-   "companies": [
-    "JNJ"
-   ],
-   "sources": [
-    {
-     "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT05868122"
-    }
-   ],
-   "ncts": [
-    "NCT05868122"
-   ]
-  },
-  {
    "title": "A Study of an Acetaminophen/Naproxen Sodium Fixed Combination, Acetaminophen and Naproxen Sodium in Postoperative Dental Pain",
    "link": "https://clinicaltrials.gov/study/NCT05761574",
    "pub_ts": 1793664000.0,
@@ -3089,6 +3204,28 @@
    ],
    "ncts": [
     "NCT05761574"
+   ]
+  },
+  {
+   "title": "A Study to Evaluate a Fixed Combination of Acetaminophen/Naproxen Sodium in Acute Postoperative Pain Following Bunionectomy",
+   "link": "https://clinicaltrials.gov/study/NCT05868122",
+   "pub_ts": 1793664000.0,
+   "date": "2026-11-03",
+   "cat": "phase3",
+   "sev": 2,
+   "dir": 0,
+   "tickers": [],
+   "companies": [
+    "JNJ"
+   ],
+   "sources": [
+    {
+     "source": "ClinicalTrials.gov",
+     "link": "https://clinicaltrials.gov/study/NCT05868122"
+    }
+   ],
+   "ncts": [
+    "NCT05868122"
    ]
   },
   {
@@ -3623,25 +3760,23 @@
    "ncts": []
   },
   {
-   "title": "A Study to Evaluate Astegolimab in Participants With Chronic Obstructive Pulmonary Disease",
-   "link": "https://clinicaltrials.gov/study/NCT05595642",
+   "title": "An Extension Study to Evaluate the Long-term Safety and Efficacy of Pegcetacoplan (APL-2) in Subjects With Geographic Atrophy Secondary to AMD",
+   "link": "https://clinicaltrials.gov/study/NCT04770545",
    "pub_ts": 1793145600.0,
    "date": "2026-10-28",
    "cat": "phase3",
    "sev": 2,
    "dir": 0,
    "tickers": [],
-   "companies": [
-    "RHHBY"
-   ],
+   "companies": [],
    "sources": [
     {
      "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT05595642"
+     "link": "https://clinicaltrials.gov/study/NCT04770545"
     }
    ],
    "ncts": [
-    "NCT05595642"
+    "NCT04770545"
    ]
   },
   {
@@ -3667,26 +3802,6 @@
    ]
   },
   {
-   "title": "An Extension Study to Evaluate the Long-term Safety and Efficacy of Pegcetacoplan (APL-2) in Subjects With Geographic Atrophy Secondary to AMD",
-   "link": "https://clinicaltrials.gov/study/NCT04770545",
-   "pub_ts": 1793145600.0,
-   "date": "2026-10-28",
-   "cat": "phase3",
-   "sev": 2,
-   "dir": 0,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT04770545"
-    }
-   ],
-   "ncts": [
-    "NCT04770545"
-   ]
-  },
-  {
    "title": "Evaluation of Rifaximin SSD for Delaying Encephalopathy Decompensation in Patients With Cirrhosis",
    "link": "https://clinicaltrials.gov/study/NCT05297448",
    "pub_ts": 1793145600.0,
@@ -3706,6 +3821,28 @@
    ],
    "ncts": [
     "NCT05297448"
+   ]
+  },
+  {
+   "title": "A Study to Evaluate Astegolimab in Participants With Chronic Obstructive Pulmonary Disease",
+   "link": "https://clinicaltrials.gov/study/NCT05595642",
+   "pub_ts": 1793145600.0,
+   "date": "2026-10-28",
+   "cat": "phase3",
+   "sev": 2,
+   "dir": 0,
+   "tickers": [],
+   "companies": [
+    "RHHBY"
+   ],
+   "sources": [
+    {
+     "source": "ClinicalTrials.gov",
+     "link": "https://clinicaltrials.gov/study/NCT05595642"
+    }
+   ],
+   "ncts": [
+    "NCT05595642"
    ]
   },
   {
@@ -4264,28 +4401,6 @@
    ]
   },
   {
-   "title": "Brentuximab Vedotin Plus Lenalidomide and Rituximab for the Treatment of Relapsed/Refractory DLBCL",
-   "link": "https://clinicaltrials.gov/study/NCT04404283",
-   "pub_ts": 1792540800.0,
-   "date": "2026-10-21",
-   "cat": "phase3",
-   "sev": 2,
-   "dir": 0,
-   "tickers": [],
-   "companies": [
-    "PFE"
-   ],
-   "sources": [
-    {
-     "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT04404283"
-    }
-   ],
-   "ncts": [
-    "NCT04404283"
-   ]
-  },
-  {
    "title": "Study to Compare Bictegravir/Lenacapavir Versus Current Therapy in People With HIV-1 Who Are Successfully Treated With a Complicated Regimen (ARTISTRY-1)",
    "link": "https://clinicaltrials.gov/study/NCT05502341",
    "pub_ts": 1792540800.0,
@@ -4305,6 +4420,28 @@
    ],
    "ncts": [
     "NCT05502341"
+   ]
+  },
+  {
+   "title": "Brentuximab Vedotin Plus Lenalidomide and Rituximab for the Treatment of Relapsed/Refractory DLBCL",
+   "link": "https://clinicaltrials.gov/study/NCT04404283",
+   "pub_ts": 1792540800.0,
+   "date": "2026-10-21",
+   "cat": "phase3",
+   "sev": 2,
+   "dir": 0,
+   "tickers": [],
+   "companies": [
+    "PFE"
+   ],
+   "sources": [
+    {
+     "source": "ClinicalTrials.gov",
+     "link": "https://clinicaltrials.gov/study/NCT04404283"
+    }
+   ],
+   "ncts": [
+    "NCT04404283"
    ]
   },
   {
@@ -4346,6 +4483,88 @@
     }
    ],
    "ncts": []
+  },
+  {
+   "title": "Onvansertib in Combination With Nanoliposomal Irinotecan, Leucovorin, and Fluorouracil for Second-Line Treatment of Participants With Metastatic Pancreatic Ductal Adenocarcinoma",
+   "link": "https://clinicaltrials.gov/study/NCT04752696",
+   "pub_ts": 1793750400.0,
+   "date": "2026-11-04",
+   "cat": "phase2",
+   "sev": 1,
+   "dir": 0,
+   "tickers": [],
+   "companies": [
+    "CRDF"
+   ],
+   "sources": [
+    {
+     "source": "ClinicalTrials.gov",
+     "link": "https://clinicaltrials.gov/study/NCT04752696"
+    }
+   ],
+   "ncts": [
+    "NCT04752696"
+   ]
+  },
+  {
+   "title": "A Study of TCD601 in the Induction of Tolerance in Renal Transplantation (PANORAMA)",
+   "link": "https://clinicaltrials.gov/study/NCT04803006",
+   "pub_ts": 1793750400.0,
+   "date": "2026-11-04",
+   "cat": "phase2",
+   "sev": 1,
+   "dir": 0,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "ClinicalTrials.gov",
+     "link": "https://clinicaltrials.gov/study/NCT04803006"
+    }
+   ],
+   "ncts": [
+    "NCT04803006"
+   ]
+  },
+  {
+   "title": "Management of Severe Chemotherapy-induced Neutropenia in Advanced Breast Cancer",
+   "link": "https://clinicaltrials.gov/study/NCT03104595",
+   "pub_ts": 1793750400.0,
+   "date": "2026-11-04",
+   "cat": "phase2",
+   "sev": 1,
+   "dir": 0,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "ClinicalTrials.gov",
+     "link": "https://clinicaltrials.gov/study/NCT03104595"
+    }
+   ],
+   "ncts": [
+    "NCT03104595"
+   ]
+  },
+  {
+   "title": "A Safety and Efficacy Study of ZW25 (Zanidatamab) Plus Combination Chemotherapy in HER2-expressing Gastrointestinal Cancers, Including Gastroesophageal Adenocarcinoma, Biliary Tract Cancer, and Colorectal Cancer",
+   "link": "https://clinicaltrials.gov/study/NCT03929666",
+   "pub_ts": 1793750400.0,
+   "date": "2026-11-04",
+   "cat": "phase2",
+   "sev": 1,
+   "dir": 0,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "ClinicalTrials.gov",
+     "link": "https://clinicaltrials.gov/study/NCT03929666"
+    }
+   ],
+   "ncts": [
+    "NCT03929666"
+   ]
   },
   {
    "title": "Thryv Therapeutics Raises $30M Series B to Advance Heart Failure Drug into Phase 2 Trial - citybiz",
@@ -4579,23 +4798,25 @@
    "ncts": []
   },
   {
-   "title": "Effects of Maintenance Cabozantinib+BSC Versus BSC in Children and AYA With Osteosarcoma",
-   "link": "https://clinicaltrials.gov/study/NCT06341712",
+   "title": "KEYMAKER-U01 Substudy 2: Efficacy and Safety Study of Pembrolizumab (MK-3475) When Used With Investigational Agents in Treatment-naïve Participants With Anti-programmed Cell Death Receptor Ligand 1 (PD-L1) Positive Advanced Non-small Cell Lung Cancer (NSCLC) (MK-3475-01B/KEYMAKER-U01B)",
+   "link": "https://clinicaltrials.gov/study/NCT04165083",
    "pub_ts": 1793232000.0,
    "date": "2026-10-29",
    "cat": "phase2",
    "sev": 1,
    "dir": 0,
    "tickers": [],
-   "companies": [],
+   "companies": [
+    "MRK"
+   ],
    "sources": [
     {
      "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT06341712"
+     "link": "https://clinicaltrials.gov/study/NCT04165083"
     }
    ],
    "ncts": [
-    "NCT06341712"
+    "NCT04165083"
    ]
   },
   {
@@ -4621,25 +4842,23 @@
    ]
   },
   {
-   "title": "KEYMAKER-U01 Substudy 2: Efficacy and Safety Study of Pembrolizumab (MK-3475) When Used With Investigational Agents in Treatment-naïve Participants With Anti-programmed Cell Death Receptor Ligand 1 (PD-L1) Positive Advanced Non-small Cell Lung Cancer (NSCLC) (MK-3475-01B/KEYMAKER-U01B)",
-   "link": "https://clinicaltrials.gov/study/NCT04165083",
+   "title": "Effects of Maintenance Cabozantinib+BSC Versus BSC in Children and AYA With Osteosarcoma",
+   "link": "https://clinicaltrials.gov/study/NCT06341712",
    "pub_ts": 1793232000.0,
    "date": "2026-10-29",
    "cat": "phase2",
    "sev": 1,
    "dir": 0,
    "tickers": [],
-   "companies": [
-    "MRK"
-   ],
+   "companies": [],
    "sources": [
     {
      "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT04165083"
+     "link": "https://clinicaltrials.gov/study/NCT06341712"
     }
    ],
    "ncts": [
-    "NCT04165083"
+    "NCT06341712"
    ]
   },
   {
@@ -4688,25 +4907,23 @@
    "ncts": []
   },
   {
-   "title": "A Study to Evaluate AZD2693 in Participants Who Are Carriers of the PNPLA3 148M Risk Allele With Non-cirrhotic Non-alcoholic Steatohepatitis With Fibrosis",
-   "link": "https://clinicaltrials.gov/study/NCT05809934",
+   "title": "A Study to Assess Long-term Safety of Tazemetostat in Adult Participants of All Ages With Any Disease Treated With Tazemetostat in a Previous Clinical Study",
+   "link": "https://clinicaltrials.gov/study/NCT02875548",
    "pub_ts": 1793145600.0,
    "date": "2026-10-28",
    "cat": "phase2",
    "sev": 1,
    "dir": 0,
    "tickers": [],
-   "companies": [
-    "AZN"
-   ],
+   "companies": [],
    "sources": [
     {
      "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT05809934"
+     "link": "https://clinicaltrials.gov/study/NCT02875548"
     }
    ],
    "ncts": [
-    "NCT05809934"
+    "NCT02875548"
    ]
   },
   {
@@ -4732,26 +4949,6 @@
    ]
   },
   {
-   "title": "A Study to Assess Long-term Safety of Tazemetostat in Adult Participants of All Ages With Any Disease Treated With Tazemetostat in a Previous Clinical Study",
-   "link": "https://clinicaltrials.gov/study/NCT02875548",
-   "pub_ts": 1793145600.0,
-   "date": "2026-10-28",
-   "cat": "phase2",
-   "sev": 1,
-   "dir": 0,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT02875548"
-    }
-   ],
-   "ncts": [
-    "NCT02875548"
-   ]
-  },
-  {
    "title": "A Study of CT-868 in Type 1 Diabetes Mellitus",
    "link": "https://clinicaltrials.gov/study/NCT06062069",
    "pub_ts": 1793145600.0,
@@ -4769,6 +4966,28 @@
    ],
    "ncts": [
     "NCT06062069"
+   ]
+  },
+  {
+   "title": "A Study to Evaluate AZD2693 in Participants Who Are Carriers of the PNPLA3 148M Risk Allele With Non-cirrhotic Non-alcoholic Steatohepatitis With Fibrosis",
+   "link": "https://clinicaltrials.gov/study/NCT05809934",
+   "pub_ts": 1793145600.0,
+   "date": "2026-10-28",
+   "cat": "phase2",
+   "sev": 1,
+   "dir": 0,
+   "tickers": [],
+   "companies": [
+    "AZN"
+   ],
+   "sources": [
+    {
+     "source": "ClinicalTrials.gov",
+     "link": "https://clinicaltrials.gov/study/NCT05809934"
+    }
+   ],
+   "ncts": [
+    "NCT05809934"
    ]
   },
   {
@@ -4850,28 +5069,6 @@
    ]
   },
   {
-   "title": "A Study of AZD3427 in Participants With Heart Failure and Pulmonary Hypertension Group 2",
-   "link": "https://clinicaltrials.gov/study/NCT05737940",
-   "pub_ts": 1793059200.0,
-   "date": "2026-10-27",
-   "cat": "phase2",
-   "sev": 1,
-   "dir": 0,
-   "tickers": [],
-   "companies": [
-    "AZN"
-   ],
-   "sources": [
-    {
-     "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT05737940"
-    }
-   ],
-   "ncts": [
-    "NCT05737940"
-   ]
-  },
-  {
    "title": "PK and Safety After C-Section",
    "link": "https://clinicaltrials.gov/study/NCT03955211",
    "pub_ts": 1793059200.0,
@@ -4891,6 +5088,28 @@
    ],
    "ncts": [
     "NCT03955211"
+   ]
+  },
+  {
+   "title": "A Study of AZD3427 in Participants With Heart Failure and Pulmonary Hypertension Group 2",
+   "link": "https://clinicaltrials.gov/study/NCT05737940",
+   "pub_ts": 1793059200.0,
+   "date": "2026-10-27",
+   "cat": "phase2",
+   "sev": 1,
+   "dir": 0,
+   "tickers": [],
+   "companies": [
+    "AZN"
+   ],
+   "sources": [
+    {
+     "source": "ClinicalTrials.gov",
+     "link": "https://clinicaltrials.gov/study/NCT05737940"
+    }
+   ],
+   "ncts": [
+    "NCT05737940"
    ]
   },
   {
@@ -5265,6 +5484,48 @@
    ]
   },
   {
+   "title": "A Study Investigating the Efficacy and Safety of Intravitreal Injections of ANX007 in Patients With Geographic Atrophy",
+   "link": "https://clinicaltrials.gov/study/NCT04656561",
+   "pub_ts": 1792540800.0,
+   "date": "2026-10-21",
+   "cat": "phase2",
+   "sev": 1,
+   "dir": 0,
+   "tickers": [],
+   "companies": [
+    "ANNX"
+   ],
+   "sources": [
+    {
+     "source": "ClinicalTrials.gov",
+     "link": "https://clinicaltrials.gov/study/NCT04656561"
+    }
+   ],
+   "ncts": [
+    "NCT04656561"
+   ]
+  },
+  {
+   "title": "A Study to Evaluate the Efficacy and Safety of CBL-514 in Participants With EFP; Cellulite (Stage 1)",
+   "link": "https://clinicaltrials.gov/study/NCT05632926",
+   "pub_ts": 1792540800.0,
+   "date": "2026-10-21",
+   "cat": "phase2",
+   "sev": 1,
+   "dir": 0,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "ClinicalTrials.gov",
+     "link": "https://clinicaltrials.gov/study/NCT05632926"
+    }
+   ],
+   "ncts": [
+    "NCT05632926"
+   ]
+  },
+  {
    "title": "Study to Assess Change in Disease Activity and Adverse Events of Oral Venetoclax in Combination With Intravenous (IV) Obinutuzumab or Oral Ibrutinib in Adult Participants With Untreated Chronic Lymphocytic Leukemia (CLL)/Small Lymphocytic Lymphoma (SLL)",
    "link": "https://clinicaltrials.gov/study/NCT05105841",
    "pub_ts": 1792540800.0,
@@ -5306,48 +5567,6 @@
    ],
    "ncts": [
     "NCT04661007"
-   ]
-  },
-  {
-   "title": "A Study Investigating the Efficacy and Safety of Intravitreal Injections of ANX007 in Patients With Geographic Atrophy",
-   "link": "https://clinicaltrials.gov/study/NCT04656561",
-   "pub_ts": 1792540800.0,
-   "date": "2026-10-21",
-   "cat": "phase2",
-   "sev": 1,
-   "dir": 0,
-   "tickers": [],
-   "companies": [
-    "ANNX"
-   ],
-   "sources": [
-    {
-     "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT04656561"
-    }
-   ],
-   "ncts": [
-    "NCT04656561"
-   ]
-  },
-  {
-   "title": "A Study to Evaluate the Efficacy and Safety of CBL-514 in Participants With EFP; Cellulite (Stage 1)",
-   "link": "https://clinicaltrials.gov/study/NCT05632926",
-   "pub_ts": 1792540800.0,
-   "date": "2026-10-21",
-   "cat": "phase2",
-   "sev": 1,
-   "dir": 0,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT05632926"
-    }
-   ],
-   "ncts": [
-    "NCT05632926"
    ]
   }
  ]
