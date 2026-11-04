@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-04T21:01:04.325543+02:00",
+ "generated_at": "2026-11-04T22:01:05.435920+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -9,36 +9,76 @@
  "sections": {
   "us": [
    {
-    "title": "The Blue Tsunami Doesn’t Solve the Stock Market’s Bond Problem",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPU2FqQnNEUnBXaXU2aW5fanRJeEh4WEh0YVNqOHFWZmZtWThadm9PMXZmcVd5STh0SC1OX0JLZ21oMFYxRGlSaDVFUFdGSV9tdEpzWmV5TWxxcTRMZFY3UHcxcG4tSnlWY01lMjFGMU5kYmJIbGxEQlZkWTZqZUhxRFlxdV82aGJTeHFBbGdnVGVyYzk0aHc?oc=5",
-    "source": "Barron's",
-    "published": "2026-11-04T18:49:00+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Semiconductor and Memory Stocks Weigh on ETF Returns Globally in October",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNRmpGMlBDQVFKQi0yVGZPbFNGcDlHdmhDUFB3RER3QTJjd3ZjREVPOU5qSW5QWjJoNEhrOXVSVnJfd2o4dVJJRVFxTG9YSmJQZmwzWGxMNlFLZWROZzRjWGRPQloydzR1OXdIT3RfNy04eFdGWDJOYmhxQ1VlNVZfSlNPXzM3LXhwbmNOVUc4NkhsLVpYNElJT0lxR3k?oc=5",
-    "source": "Morningstar",
-    "published": "2026-11-04T18:45:58+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Every stock that's moving as a result of the election",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOWjVEYlRzS05mMENaM2tSU1hVWTNaV01hbm9NZ2lHZmlzeDFuZ2ZSVzVfUS1NZzZHSjN5REFDQTNRQzBqV3BIYklEbEtXR2VicGVaNnpUb1dNUENHSUM1RVZuQWlhR0hPdWRkbWZpTVhiZ3p4Snp3RXlONlc5bWU3QS1PendHUExlcl81NzhlaDBhalnSAZgBQVVfeXFMTWNsMTVLR1RvMmc2eUNCSW5raGJ0RmVkRUJvNmZXVFhpVVRrdWJ3UUVBRUhwUXVQaHIzTkhPN0g2RU5wbmpDcjZGMmhrb1lxelBTdFE4MTJ6cF9nTS1YdjAzWWFoMWlaX2lEYjJ6SUxWWGhYTnhIamx4QWxiVnk0eG0xdUlkMWE2SFB0alBTNkI5am5aWkhMa2w?oc=5",
+    "title": "McDonald's stock rises as earnings beat, U.S. restaurants show improvement",
+    "url": "https://www.cnbc.com/2026/11/04/mcdonalds-is-about-to-report-earnings-heres-what-to-expect.html",
     "source": "CNBC",
-    "published": "2026-11-04T18:45:21+00:00",
+    "published": "2026-11-04T19:47:32+00:00",
+    "lede": "McDonald's has leaned into discounts to attract budget-conscious diners over the last two years.",
+    "lang": "en"
+   },
+   {
+    "title": "Hyperscalers and Apple surge after election results remove investor uncertainty",
+    "url": "https://www.cnbc.com/2026/11/04/apple-and-other-big-tech-stocks-surge-after-2026-midterm-elections.html",
+    "source": "CNBC",
+    "published": "2026-11-04T19:37:43+00:00",
+    "lede": "Apple, Amazon, Google, Meta and Microsoft stock was up after the midterms, while stocks tied to Trump advisor Elon Musk and data centers fell on Wednesday.",
+    "lang": "en"
+   },
+   {
+    "title": "Market Expert Sees These Reasons For Optimism After Midterm Election",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5fM0o5UG53VHcxajRnYVpDVVBCZ25hd0xsQ216Y0I4a3otRTEwNE1MTkQzQ0N1QlZtYmhWSzBpYmFPQ01JUkpDOExJcHdqTXpyYW00TFVYdGxySV9wUk5pS2xVRUY1SlotVlNGTFY2eEx2OGRTNUE?oc=5",
+    "source": "Investor's Business Daily",
+    "published": "2026-11-04T19:37:00+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "CVS to split off drugstore business in major breakup of healthcare giant; shares fall 10%",
-    "url": "https://www.cnbc.com/2026/11/04/cvs-to-split-off-drugstore-business.html",
-    "source": "CNBC",
-    "published": "2026-11-04T18:35:35+00:00",
-    "lede": "The move would reverse the company's $78 billion acquisition of Aetna and dismantle the vertically integrated healthcare conglomerate it created in 2018.",
+    "title": "Why Cricut Stock Soared 50% Today",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNSTVlUjQ0UTAyRTE2bHE4T1NMSWVFZ3Z6NjdIQnJTaGY2bzJYTUlCTm5SdnhwZi1waDEtT3ZnYTJscld5dFhGLTF5MmNMNU13MGliNFdhejZYZDdLXzJ6dVdqUXRSMFpMc2pTSWxja3RhcjVWcjBMQUVVVkExaDM0TG1ieC1lVUVkMFFBU0FBcFRCT0txN3c?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-04T19:33:01+00:00",
+    "lede": null,
     "lang": "en"
+   },
+   {
+    "title": "Should You Buy Anthropic's IPO on Day 1?",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNThSS3huTEZBQUtJQWtHaHJkQng1MlNYd3FfdmhNNVVER3BiSFdHSmhaakg0N0pObXJxYzRIMXlCMmFwR2ZPZ1JBNXg5VEtLZFFIbl9VUS1wWmZZMUQ2V0JSd3E2bFZYWS12RU5xOW5KT0R4TERzMmFpUDlHYk0wa3JRNzlOc28xazJJUFhXNHBSVms?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-04T19:29:00+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "The post-election rally masks a sharp split in the AI trade. Who stands to win?",
+    "url": "https://www.cnbc.com/investingclub/2026/11/04/post-election-rally-masks-a-sharp-split-in-the-ai-trade-who-wins.html",
+    "source": "CNBC",
+    "published": "2026-11-04T19:21:20+00:00",
+    "lede": "Investors are making divergent bets on AI stocks Wednesday.",
+    "lang": "en"
+   },
+   {
+    "title": "4 market-moving issues investors should watch now that the midterms are over",
+    "url": "https://www.marketwatch.com/story/4-market-moving-issues-investors-should-watch-now-that-the-midterms-are-over-9a77b3de?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-04T19:12:00+00:00",
+    "lede": "The Democrats’ election sweep on Tuesday could have far-reaching consequences for markets and the economy.",
+    "lang": "en"
+   },
+   {
+    "title": "עליות חדות בוול סטריט בעקבות הבחירות; ענקיות הטכנולוגיה קופצות, מחיר הנפט צונח",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001561829#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-04T19:00:00+00:00",
+    "lede": "הדאו ג'ונס מזנק בכ-3% • אנליסטים מייחסים את הראלי לירידה בחוסר הוודאות הפוליטי, לאחר שטראמפ הצהיר שהוא מקבל את התוצאות • מניות האנרגיה המתחדשת והבריאות קופצות • שבע המופלאות מטפסות, מניות השבבים נחלשות • הדולר מאבד גובה…",
+    "lang": "he"
+   },
+   {
+    "title": "ההפתעה בטקסס והאיום על חוות השרתים: הסיפורים והתובנות מארבעה ניצחונות",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562109#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-04T19:00:00+00:00",
+    "lede": "בחירות האמצע בארה\"ב לקונגרס האמריקאי ולתפקידי המושלים במדינות הסתיים עם מספר ניצחונות לא צפויים למפלגה הדמוקרטית",
+    "lang": "he"
    },
    {
     "title": "These stocks have soared the most today after the Democrats trounced Trump",
@@ -47,49 +87,17 @@
     "published": "2026-11-04T18:29:00+00:00",
     "lede": "Stanley Black & Decker’s stock was the strongest performer among the S&P 500, while several tech players and associated power providers showed sharp declines.",
     "lang": "en"
-   },
-   {
-    "title": "עליות חדות בוול סטריט בעקבות הבחירות; ענקיות הטכנולוגיה קופצות, מחיר הנפט צונח",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001561829#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-04T18:25:00+00:00",
-    "lede": "הדאו ג'ונס מזנק בקרוב ל-3% • אנליסטים מייחסים את הראלי לירידה בחוסר הוודאות הפוליטי, לאחר שטראמפ הצהיר שהוא מקבל את התוצאות • מניות האנרגיה המתחדשת והבריאות קופצות • שבע המופלאות מטפסות, מניות השבבים נחלשות • הדולר מאבד…",
-    "lang": "he"
-   },
-   {
-    "title": "These 12 stocks are good bets to beat the 10-year Treasury over the next decade",
-    "url": "https://www.marketwatch.com/story/these-12-stocks-are-good-bets-to-beat-the-10-year-treasury-over-the-next-decade-cc4f308b?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-04T18:03:00+00:00",
-    "lede": "Investment newsletters’ favorite Dividend Aristocrat stocks",
-    "lang": "en"
-   },
-   {
-    "title": "Oil tumbles below $100 on post-election peace hopes",
-    "url": "https://www.ft.com/content/b526f876-810a-4e74-8b8d-4ffca04b29c7?syn-25a6b1a6=1",
-    "source": "Financial Times",
-    "published": "2026-11-04T17:47:07+00:00",
-    "lede": "US vice-president JD Vance blames Republicans’ midterm defeat on anger over Iran war",
-    "lang": "en"
-   },
-   {
-    "title": "Analysis: The Democrats have one chance to extract concessions from Trump. Markets will hate it",
-    "url": "https://www.cnbc.com/2026/11/04/democrats-trump-debt-ceiling-fight.html",
-    "source": "CNBC",
-    "published": "2026-11-04T17:32:26+00:00",
-    "lede": "The next debt-ceiling confrontation could reverse Washington's traditional political roles, raising the possibility of spending concessions, market volatility and a damaging default.",
-    "lang": "en"
-   },
-   {
-    "title": "10-year Treasury yield slides as traders mull over Democrats' midterm victories, oil prices drop",
-    "url": "https://www.cnbc.com/2026/11/03/treasury-yields-fall-as-democrats-win-big-in-us-midterm-elections.html",
-    "source": "CNBC",
-    "published": "2026-11-04T17:11:00+00:00",
-    "lede": "Treasury yields were last little changed Wednesday as investors weighed big wins from Democrats in the U.S. midterm elections.",
-    "lang": "en"
    }
   ],
   "il": [
+   {
+    "title": "ב-5.6 מיליארד שקל: תחנת הכוח שורק סגרה פיננסית",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562135#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-04T19:26:00+00:00",
+    "lede": "אדלטק, מנורה וקיסטון השלימו את גיוס המימון להקמת תחנת כוח חדשה סמוך למתקן ההתפלה שורק, שתספק 870 מגה־וואט לגוש דן",
+    "lang": "he"
+   },
    {
     "title": "באיראן מאיימים לתקוף בטילים בסיסים אמריקאיים באירופה",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001561956#utm_source=RSS",
@@ -113,30 +121,22 @@
     "published": "2026-11-04T16:02:00+00:00",
     "lede": "בחברת הביטוח יממנו חופשות לכ–3,400 עובדים בעלות שעשויה להסתכם בכ–25 מיליון שקל",
     "lang": "he"
-   },
-   {
-    "title": "\"כולם כבר בפנים\": למה הבורסה בישראל מתקשה להתאושש, ומה צפוי לקרות לריבית?",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562120#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-04T15:45:00+00:00",
-    "lede": "בעוד שבוול סטריט נרשמות עליות חדות לאחר ניצחון הדמוקרטים בבחירות האמצע, הבורסה בתל אביב ממשיכה לסבול מחולשה",
-    "lang": "he"
    }
   ],
   "geo": [
    {
-    "title": "US slaps sanctions on Indian, Turkish firms and people for aiding Iran",
-    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPTU5EOWpMNjZvcmh2TzIzTHo1OWRzaUdGRWZEN0xwbWpqV09pOGFoY2M5dlEya2xHTHJnS0VsQjZGM2lSTVk1U05TbHpLc3FveFhySUgtb1dPWEtXTkNXVlg4MWlwbTBSeGw1R2pPWTg3d3ZuV01nSDNvWWVQSjRTeFRSb3N2QnFMa0FMUDBGTWY5NDVIdG41Z05wdnRQT3pBRWJvSzg3Z0tEVXZSZDM5ag?oc=5",
+    "title": "Trump says Republicans harmed by Iran war, inability to 'transfer the love' for him",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNNUZjXy1DNGJHT1JRMlBGNVZ4alh1Ymc4NnI1azRtblU5YmlGWFRmTU5KeEFvNnUtdDYta2pWZEpDRENSZVd0QXk2NlNmMmRsenAzUHlBcktGZDdzUUltbUp1YVNTYkR1cE5HZXVGbDg1dXdTS0xCUEcyQ2g1dWFZR280NDhWbC1KZmsxYVZGUWhxV1N5ZGxraG4zUUloMzBPcDhCalhRaHJnZy1LNzBobGd0R25SQQ?oc=5",
     "source": "Reuters",
-    "published": "2026-11-04T18:53:59+00:00",
+    "published": "2026-11-04T19:46:21+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Democratic sweep of Congress ushers in a new era as Trump acknowledges impact of the Iran war",
-    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQemZtNHA3MndVd0YwZEZjYVZSdXA5NVpnXzhpUnY5Mkp5U2lBTnBtNEV6dVB0LUJZVXBDV2lUNnNHbTczNWFVVEtXUVhFdlUxdm5sOWl6U0JFMjhGXzgzQ19GNXdrNUVJMlB4czlkenlNOUctMGllMmFLRTJrVXl0T1hoQ1ZUcmI4N0xxU18wTEhuQUNHYm5mNFhNc0pVRjJqY0s0clotUW42czd0TTRCNw?oc=5",
-    "source": "AP News",
-    "published": "2026-11-04T18:45:00+00:00",
+    "title": "Oil prices plunge after Vance post on Iran war",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZVFrN1Z2RXhoZjZ0RFROeTFYTlk2VncxYjZJTUk4TlpmbWF1V2NBbEpxb3BjZFZ6dmNOZUNXM3NxSkFzWHRtXzNhc2twMXo3dWlnWUpnYnFMeU51ZGNRWFozOU1BMExoOFJTVXVhNHhwRjM4U21oNm5Ed2VZWjdCVDB6RXR2ZWM?oc=5",
+    "source": "Axios",
+    "published": "2026-11-04T19:45:56+00:00",
     "lede": null,
     "lang": "en"
    }
