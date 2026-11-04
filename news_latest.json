@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-04T09:31:05.208153+02:00",
+ "generated_at": "2026-11-04T10:31:06.887729+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -9,34 +9,58 @@
  "sections": {
   "us": [
    {
-    "title": "Treasury yields fall as investors crowd into bonds for safety amid election stock sell-off",
-    "url": "https://www.cnbc.com/2026/11/03/treasury-yields-fall-as-democrats-win-big-in-us-midterm-elections.html",
+    "title": "Dollar falls while gold and US Treasury bonds rally as markets react to Democrats’ midterm election victory – business live",
+    "url": "https://www.theguardian.com/business/live/2026/nov/04/dollar-falls-while-gold-us-treasury-bonds-rally-markets-react-democrats-midterm-election-victory-marks-spencer-latest-live-updates",
+    "source": "The Guardian",
+    "published": "2026-11-04T08:10:55+00:00",
+    "lede": "Democrats’ capture of Congress raise expectations of tougher regulation of AI sector; US stock futures fall but later pare losses Deborah Cunningham , chief investment officer of global liquidity markets at Federated…",
+    "lang": "en"
+   },
+   {
+    "title": "Why Is ORCL Stock Sliding Overnight?",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPQlA1R2s0czg1Q3RIeXQ4UGx2c3VNMWx3WjVDMEpaLWZSWVk2NzUzb1FpZDYzd000ZGdSLTk5T3lzbnFzdWEzNWUzT1Qta0hDUWt1VmZkd3hfNDJUQWZFUWZYenlQbnJsbm9vM3FHVTJSSjNhVUFwSzd3eFIzd2plYzk3eC15Z0ZwRVVfRjRKWVlJbTk4QjVfLUVjZWlNQQ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-04T08:08:00+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Novo shares jump 6% as Wegovy pill sales impress, drugmaker hikes outlook",
+    "url": "https://www.cnbc.com/2026/11/04/novo-q3-earnings-wegovy-sales.html",
     "source": "CNBC",
-    "published": "2026-11-04T07:27:48+00:00",
-    "lede": "Treasury yields fell on Tuesday night, as investors sought shelter from a sell-off in equity futures sparked by big victories from Democrats in the U.S. midterm elections.",
+    "published": "2026-11-04T08:06:50+00:00",
+    "lede": "Novo posted quarterly earnings ahead of expectations early Wednesday as sales of its Wegovy pill blew past estimates",
     "lang": "en"
    },
    {
-    "title": "Rolls-Royce Shares Have Slowed Down. Is This a Buying Opportunity?",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQcjJ2aGtfNlVfMzJRQndfNDByak1HS01fMGs3LUJJRThOenBDakYwNkRFYmFIakMxSlRma0tSa2sxNk93aHJUV3Z6bkRwQWhHcEhZYURteXFtcVdOQ0IyZlRKUkVnSHpyWHl6eXlYX2taUXczLWhxMjM1dXg3dnhmaHZmcVFPa2tORE5vN2FZMVM1MTQ3cnpSdklKT29ucW5YU0FqRE9CeFQyUQ?oc=5",
-    "source": "Morningstar",
-    "published": "2026-11-04T07:16:40+00:00",
+    "title": "Stocks edge lower as investors digest Democratic sweep",
+    "url": "https://www.ft.com/content/a0b18705-3bd8-4886-992c-b6062fdec6ea?syn-25a6b1a6=1",
+    "source": "Financial Times",
+    "published": "2026-11-04T08:02:39+00:00",
+    "lede": "Traders bet Democrats could slow AI infrastructure build-out central to economic growth",
+    "lang": "en"
+   },
+   {
+    "title": "Why Is DUOL Stock Surging Over 11% Overnight Today?",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOdzd6YjZvaDFXS2IteWwzaXVxUzVDZ1I1emRvY0JrSEdINDNwLVpBbUM0RGpqQlpDQnQ2YUlteGhPcHpCcHY2Uld6d0RDalFYSFV1a1pXQXlpeHVLbzRSdXpiWDdiNmh0TW8tUnZzdUhLZTZMREJMSkMzOEFpQS05RFpNMlYwQlBfX0pHcGplZXBGZzdhUmZN?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-04T08:01:59+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Stocks, dollar slide as stunning victories for Democrats jolt AI bets",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSHFuUEZ6N2U3M01ic0NsQWlyekdKaVJ1MVVtX185Ny1qRjNvekxZOUZxNERmZmVSQjNXUk5yNWxtbjdBYTYxcXN4Wnktc2lpenNzNXY4alNTNVBCQVpmSUdVTUlsVXhOYXNaSzhMQjJ4dHNKUDZKNVB2VTZIeWpianEwQW1URUQxNkgyVExqTjFsUkJ1Ny1kYU9YZw?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-04T07:11:08+00:00",
-    "lede": null,
+    "title": "Gold, silver and precious metals prices jump, dollar dips as Democrats take control of Congress",
+    "url": "https://www.cnbc.com/2026/11/04/gold-silver-platinum-dollar-midterms.html",
+    "source": "CNBC",
+    "published": "2026-11-04T07:43:43+00:00",
+    "lede": "Precious metals saw strong gains on Tuesday morning, as investors digested a Democratic sweep in the U.S. midterm elections.",
     "lang": "en"
    },
    {
-    "title": "How Investors May Respond To Broadridge Financial Solutions (BR) Earnings Beat",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPY2tFRWFVRTVucFZ3ZVZRbkpGYWRWLTVqeFhlZEZRaTZrTnV1UXpRNDBodm5vWjR2S0s3M3k4SC1uaTB2a3hBaWVCdHA2QkNobXRfdy1BTThVYnk2bXowMlFtaVctOUJrQVkzaWRmZTc5bncyV3BkeHNWUkNsdndkQTBOa2plRUphX3lMdW5CRnlHUkttWTNfRG5pVmhOMHphMFpsOUx5ckVhZjA?oc=5",
+    "title": "Fabrinet (FN) Stock Jumps As Q1 Earnings Fuel Margin Questions",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNVERCb1dKYWo2RVdVTzNCOVBuSm5yamNRMV9kVk1rdTJKamhrWTEyTjRSZ3JJT29KbFNlV2doN3I4dVpna19nMkNTWElYMEV3SDg5UUl5ODdad3FubU5TSERxUTdVUnRoVDVtSmhrdW1HazAzZUdQaE4ySU5kRGR4VnJHX3g3c2t4enpuWjduWGcwUUhIR2c?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-04T07:10:00+00:00",
+    "published": "2026-11-04T07:18:23+00:00",
     "lede": null,
     "lang": "en"
    },
@@ -45,7 +69,7 @@
     "url": "https://www.globes.co.il/news/article.aspx?did=1001561969#utm_source=RSS",
     "source": "גלובס",
     "published": "2026-11-04T06:58:00+00:00",
-    "lede": "ניצחונה של ג'ינה הינוחוסה בבחירות בטקסס, מהווה הישג פוליטי משמעותי עבור מתנגדי חוות השרתים",
+    "lede": "השינוי הפוליטי בארה\"ב עשוי להקשות על אחד ממנועי ההשקעה המרכזיים של הכלכלה האמריקאית, ובפרט בטקסס - שם ניצחה בבחירות האמצע המועמדת הדמוקרטית ג'ינה הינוחוסה, שהביעה התנגדות נחרצת לפיתוח חוות השרתים במדינה",
     "lang": "he"
    },
    {
@@ -63,33 +87,33 @@
     "published": "2026-11-04T05:00:26+00:00",
     "lede": "House prices forecast to fall by 1.5% next year as Middle East war keeps mortgage rates higher for longer Britain’s sluggish housing market is not expected to recover until 2028 as higher mortgage rates linked to the…",
     "lang": "en"
-   },
-   {
-    "title": "Stocks fall as Democratic wins stoke fears for AI boom",
-    "url": "https://www.ft.com/content/a0b18705-3bd8-4886-992c-b6062fdec6ea?syn-25a6b1a6=1",
-    "source": "Financial Times",
-    "published": "2026-11-04T04:39:01+00:00",
-    "lede": "Traders bet Democrats could slow infrastructure build-out central to economic growth",
-    "lang": "en"
-   },
-   {
-    "title": "Midterm elections could jolt stocks as Democrats look poised to sweep Congress",
-    "url": "https://www.cnbc.com/2026/11/03/midterm-election-stock-market.html",
-    "source": "CNBC",
-    "published": "2026-11-04T03:38:08+00:00",
-    "lede": "Wall Street weighs how the 2026 midterms could affect stocks, Treasury yields, artificial intelligence, energy prices, banks, defense and healthcare.",
-    "lang": "en"
-   },
-   {
-    "title": "Kim Jong-un, crypto bros and a $6.3bn heist – podcast",
-    "url": "https://www.theguardian.com/news/audio/2026/nov/04/kim-jong-un-crypto-bros-and-a-63bn-heist-podcast",
-    "source": "The Guardian",
-    "published": "2026-11-04T03:00:22+00:00",
-    "lede": "North Korea is said to be behind the theft from the crypto exchange Binance. How did they pull it off and what will they do with the money? Kalyeena Makortoff and Jean H Lee report It was 8pm last Thursday when the…",
-    "lang": "en"
    }
   ],
   "il": [
+   {
+    "title": "מגמה מעורבת בתל אביב בהובלת סקטור הקלינטק; הדולר נחלש",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001561893#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-04T08:21:00+00:00",
+    "lede": "המסחר בבורסה המקומית מתנהל במגמה מעורבת ברקע תוצאות בבחירות האמצע בארה\"ב",
+    "lang": "he"
+   },
+   {
+    "title": "חשיפת גלובס: ישראייר בדרך לרכישת השליטה בארקיע",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001561971#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-04T07:47:00+00:00",
+    "lede": "על רקע הסכסוך בארקיע וההפסדים הגדולים והחובות, לגלובס נודע כי חברת התעופה המתחרה ישראייר מתכננת וכבר מבצעת בימים אלה מהלכים כדי לרכוש את חברת התעופה ארקיע מידי משפחת נקש",
+    "lang": "he"
+   },
+   {
+    "title": "התגובה המקומית לסערה בשווקים: ממתינים לפתיחת המסחר בבורסה בת\"א",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA5Z2hTVmpFRjlxR25id2VTU3BOdFMzck5Ib0JfWEw1TGFDNmFMLS13R0lLU2NzNHR0V29NcUlYMlpnTFFkVGZ5ZFBBXzRYTFpXbm9qX1E1dVl1dVp6SGgwd053?oc=5",
+    "source": "calcalist",
+    "published": "2026-11-04T07:39:58+00:00",
+    "lede": null,
+    "lang": "he"
+   },
    {
     "title": "תנובה חוזרת לבורסה? נערכת להנפקה לפי שווי של יותר מ-10 מיליארד שקל",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001561973#utm_source=RSS",
@@ -107,60 +131,36 @@
     "lang": "he"
    },
    {
-    "title": "איך ישפיע הגל הכחול בארה\"ב על ת\"א: חמישה דברים שכדאי לדעת לקראת יום המסחר",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001561893#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-04T06:30:00+00:00",
-    "lede": "יום המסחר צפוי להיפתח ברקע המפלה של טראמפ בבחירות האמצע בארה\"ב",
-    "lang": "he"
-   },
-   {
-    "title": "המפלה של טראמפ: למה בוול סטריט חוששים ומה המשמעות עבור ישראל?",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001561961#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-04T05:32:00+00:00",
-    "lede": "הדמוקרטים הצליחו לכבוש את הסנאט ורשמו הישגים גם בבית הנבחרים",
-    "lang": "he"
-   },
-   {
-    "title": "אחרי ניצחון הדמוקרטים: החוזים על נאסד\"ק יורדים ב-1.7%, טוקיו נופלת ב-4.8%",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1MSV95cGlMMmtSSlN3bXdCdzcwODRCeVV0ZmMwYXZOUVdCWkV5djNlU2dZVndrSUFKUnhfY09aWno0dVpINjBvai1CeS0xWjVmMnhtM1lGbmZaMVllV3NHSUxB?oc=5",
-    "source": "calcalist",
-    "published": "2026-11-04T05:15:00+00:00",
-    "lede": null,
-    "lang": "he"
-   },
-   {
-    "title": "התגובה המקומית לסערה בשווקים: ממתינים לפתיחת המסחר בבורסה בת\"א",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA5Z2hTVmpFRjlxR25id2VTU3BOdFMzck5Ib0JfWEw1TGFDNmFMLS13R0lLU2NzNHR0V29NcUlYMlpnTFFkVGZ5ZFBBXzRYTFpXbm9qX1E1dVl1dVp6SGgwd053?oc=5",
-    "source": "calcalist",
-    "published": "2026-11-04T05:11:15+00:00",
-    "lede": null,
-    "lang": "he"
-   },
-   {
     "title": "וול סטריט ננעל במגמה מעורבת; מניית AMD עלתה ב-4%, טבע - ב-3%",
     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9KUjBqaU81T3hLMnBxYjBBcTF2QnpyUUhmTjU4a016T3VnQ3I4elJtRk4ySVliLUd6UEgweDRUcm1vZWUxaXBHUDZ0Z2ZGNUpqQ1lkYnlzM2F5VUdoV0tLTWdn?oc=5",
     "source": "calcalist",
     "published": "2026-11-03T21:11:39+00:00",
     "lede": null,
     "lang": "he"
+   },
+   {
+    "title": "ת\"א ננעלה בעליות קלות, נייס נפלה ב-7.1%, טבע טיפסה ב-3.8%",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE45UEZiREgyaUZ1UkZ1R0NBZTk0ZVZBNTgyOWlhNXJhQ1YwRHRWWWJpdHRZQTZpeVBweUxqNzRERWJZbE45SUZyRWxqSU9yLXBrMWgtMjB5NFVsRmNNbTVmYXBn?oc=5",
+    "source": "calcalist",
+    "published": "2026-11-03T15:45:53+00:00",
+    "lede": null,
+    "lang": "he"
    }
   ],
   "geo": [
    {
-    "title": "Trump congratulates Democrats on midterms win, says Iran war played role",
-    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQREpTRkNySmU5NnRhbE9PT21PZmYxbUNpbDYzZEl4cEx5aTdobTVPTE1DUGJ3SEV4QlIyak5LajVXYTFSdFh2ZktrS3hHSnJjNjIxc3pYdE1nT3dSUE9WQ1VXZnczcnN6Q0wtdE45MkMzUVRLOFhaS3M1TFJJekk1amIyQVZ3QmxfdTBWVWFhbHF3eWN2WVNHNVVuZGt1V0JCc0xOdEswQ3Y3TGdsY1luZXJiVnF2UmJN?oc=5",
-    "source": "France 24",
-    "published": "2026-11-04T07:13:41+00:00",
+    "title": "Qatar pulls out of hosting 2028 Nations Championship owing to Middle East crisis",
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPWllBVjk0NzhUN0NLbEZVT2xkanlZZXBkRDA2VWNKY2FxVExwb0YxYjljOVdHMkZVanY0RmtwRWJpMWU1dWlmaGZsT3BkUDRvZmxCanY3YnFTQ3pCU3hObjR4Rmd6Y3psbDJiZkRza0Jkb2tPS2ZFMERnRi12THllQUF6NWdnSDIwLTVPc3BBSmV6Q0J4UGVHNC1YZXpRWk5jZVRUQ0NsdVlsZU90NmhJSzNHVmo1R01nTE9nekNtQ1lTZUpQ?oc=5",
+    "source": "The Guardian",
+    "published": "2026-11-04T08:01:00+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Americans have said 'NO TO WAR,' Iran speaker says as Democrats take Congress",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9QQWVvV2lYYkw1NHNpRkh2VnYzcnNqVlN0LTUxSWZLVEp4UGd2QTQ3eVF2bDJnR2ZzZW94ZXdWT2U1WWNFRW1McWhfVG5EbmxRQkUySnBoc3NoR24wZnZBTU5MTzdsZTFFLVpFaWR6NW1ma0M5T0Y0dXhCV2x4eTTSAYQBQVVfeXFMT1ZON21PNll2N2lwUnNkWXQ4Ym9nSGtvX2R4cnJCZy04WXZTdHE5TF9tY2RLb0dMcS11YmJraFljT05kaGROdFdxbFNVX0FoV1lGcnh4cFBlc0hnM1VtTk1SU3VvSnJHVEI5c2htSEtzTWVWUzBoMzdFQm1zSHN0djZfTHVf?oc=5",
-    "source": "CNBC",
-    "published": "2026-11-04T06:45:36+00:00",
+    "title": "Iran says US reply to Hormuz plan ‘unconvincing’; Trump confirms strikes",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxON1ZqTGJfa3lWVVdvUzRRRUc3TlVVYUNFMHhkWlREdDZsYUFzSmdJVjBhcU9PaEptVWRxRm9QMnRGcmpkYkNHVXgydHhJYTd6X0d5dF9JMG1vc1dVOWtBWWxBUTB3VjhkZlAyUEt4cGhPUlJIRzR2cFhkdFVoOEc4SkRkM1FRQ0FpblBPZHh5S3JKMl9zbUhjeUlVazhmdkJ5QjRaUXJ6eV8taGNpV3lv0gG0AUFVX3lxTE1qMndoTmRKR0xGNDZnMVJYWmdselZrTXdiXzFKVjgwQW9OZ242eHJDWFlMa2x5MU1mbGVGdFIwV2V5Q2V2OVpfYmtfd0RLUnhmN01vTjZMdHgzVnVaMlZfelBSajJHOWVJOXZ0UTlQZEMwR0RsalU2bThPekFSRDExWG9KUUVMdFlVSFRPNTgteTdyNGxZMmhCMU9aUjU1SnNaTWJETmdSTlFyeHUwQmRUOGpRMw?oc=5",
+    "source": "Al Jazeera",
+    "published": "2026-11-04T07:35:38+00:00",
     "lede": null,
     "lang": "en"
    }
