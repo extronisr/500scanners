@@ -1,11 +1,11 @@
 {
- "fetched_at": "4.11.2026, 1:34",
+ "fetched_at": "4.11.2026, 2:05",
  "items": [
   {
    "title": "FDA approves respiratory papillomatosis drug developed by INOVIO - Pennsylvania Business Report -",
    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWlh3aUFtQzZqOEJuU2F3cXFIcUNwaGdsbV9WYzNWZkxhZ0d5QUZwc2RoYVhVcnlhMzRIZlZMdzZGS05aSVQwdGVfTHpBRmpGR01JZVZxMW0xWkpOSm5FekQtd0xYVlo4MV9ta2tQTWlaUEYxaklmYXQzZjBPc1FkNGlrX1RZa2FrREpxXzNxUzJ5UFpOaHQ0bG13UzFEb09LVG1oUA?oc=5",
-   "pub_ts": 1793727675.0,
-   "date": "3.11.2026, 19:41",
+   "pub_ts": 1793728192.0,
+   "date": "3.11.2026, 19:49",
    "cat": "fda",
    "sev": 4,
    "dir": 1,
@@ -4270,42 +4270,6 @@
    "ncts": []
   },
   {
-   "title": "FDA approves generic Afatinib Dimaleate (Msn)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=210804",
-   "pub_ts": 1792540800.0,
-   "date": "21.10.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=210804"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "FDA approves generic Amlodipine Besylate And Valsartan (Cadila Pharms Ltd)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=205797",
-   "pub_ts": 1792540800.0,
-   "date": "21.10.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=205797"
-    }
-   ],
-   "ncts": []
-  },
-  {
    "title": "Brentuximab Vedotin Plus Lenalidomide and Rituximab for the Treatment of Relapsed/Refractory DLBCL",
    "link": "https://clinicaltrials.gov/study/NCT04404283",
    "pub_ts": 1792540800.0,
@@ -4347,26 +4311,6 @@
    ],
    "ncts": [
     "NCT05502341"
-   ]
-  },
-  {
-   "title": "A Study of Ustekinumab in Pediatric Participants With Moderately to Severely Active Ulcerative Colitis (UC)",
-   "link": "https://clinicaltrials.gov/study/NCT04630028",
-   "pub_ts": 1792454400.0,
-   "date": "2026-10-20",
-   "cat": "phase3",
-   "sev": 2,
-   "dir": 0,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT04630028"
-    }
-   ],
-   "ncts": [
-    "NCT04630028"
    ]
   },
   {
