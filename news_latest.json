@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-04T04:31:05.493321+02:00",
+ "generated_at": "2026-11-04T05:31:04.511186+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -9,10 +9,50 @@
  "sections": {
   "us": [
    {
-    "title": "Is Money Leaving Stocks Or Just Moving Around? This Market Strategist Sees A ‘Healthy’ Rotation",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOeTZPaUJlTzQ4MzA5b251T3VQamloczNJb1BuakVwV3RIbU9Qb2VnQ1FLaWVLa0lZM3NHTnZWaTM1bkY4X2piSzMyZWV3X0FGeDVjMTB2SGxQTVZGcGc0WVJQN1FRRkZUN2ttTEhyZHgtdXFQYlNKQ0gwbXdWdlZGcWJLaWVXeHZaanNtS0VEV1UxWGY0Qk1tRllidkJDZw?oc=5",
+    "title": "קידומת 2 פתאום נראית רחוקה: הדולר מזנק לרמתו הגבוהה ביותר מתחילת השנה",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001561900#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-04T03:18:00+00:00",
+    "lede": "בחודש מאי האחרון הדולר צלל לשפל של 30 שנה, בשוק כבר דיברו על שער של 2.5 שקלים ובהייטק קיימו פגישות בהולות אצל שר האוצר מחשש לפגיעה חריפה בשורת הרווח",
+    "lang": "he"
+   },
+   {
+    "title": "תבוסה לטראמפ בבחירות: הדמוקרטים בדרך לשליטה בקונגרס",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001561955#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-04T03:12:00+00:00",
+    "lede": "הערכת הניו יורק טיימס: סיכוי של 95% לשליטה דמוקרטית בשני בתי הקונגרס",
+    "lang": "he"
+   },
+   {
+    "title": "Kim Jong-un, crypto bros and a $6.3bn heist – podcast",
+    "url": "https://www.theguardian.com/news/audio/2026/nov/04/kim-jong-un-crypto-bros-and-a-63bn-heist-podcast",
+    "source": "The Guardian",
+    "published": "2026-11-04T03:00:22+00:00",
+    "lede": "North Korea is said to be behind the theft from the crypto exchange Binance. How did they pull it off and what will they do with the money? Kalyeena Makortoff and Jean H Lee report It was 8pm last Thursday when the…",
+    "lang": "en"
+   },
+   {
+    "title": "Analysts react to US midterm election results",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPcXlBejdoWVpxdU15MVlzajFKY05OWFprdXpONnZkbFozZlRiMHc5WVRIOTJmY0hDSVowdE1saHNLb0FBSnNlQ0tSTU16UjdwMGFqeWRHeVcwOUJ2ajluRjRQY0dKbENTZ3liSUI1SjQ2dVNQWjVRVllDYW1RaUFwV2t5UTNjVUlUWm4tTHZyR1hFS1o4OUJxRTZFRGZhcnc5?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-04T01:51:00+00:00",
+    "published": "2026-11-04T02:57:00+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "There's a 99% Chance That Democrats Retake the House, and History Says This Shift Will Have a Huge Impact on Stocks",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZlJVZlNrYk56QmpzN0xHYWVCSC1RanBfMUpWUWRvbzVvVmhVWDNQUVM5NU1ma05aNEFYVVotTkk0LV8tZW9qeWhCN0FPaHJLSV9BWXhPMEYtSUcxYktaZDhqYmw3RG43TTdsb21nVmtaWmdhTmh2Q09MTTg2bURvekdZNWZZNElwODI3UHZjTmNfZzlWUkJVU2dlSVFYMWs?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-04T02:41:00+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Indian stocks poised to open lower as US midterm vote outcome looms",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPT0tFa0Z0bnRlSFU3NTdYOFVXaGdid3Fad1NTRnViRDBTUWg2Um1BQ21RVlNkSWdjR2Y1Z2VXdV9fWXdjY19GZkJDZ2F0ZFFvckRQY2V0eDRwVzZJMkJ5a29mbGlLZUQyQkFzX1VwVThZdEQtZEdiUVJMRzJxeGFXQUxmclZST2l1RzN6elNobi1IZC11a2N2cFJDZEdQNVo1MmgxWlFBaHA3VXlLWHc?oc=5",
+    "source": "Reuters",
+    "published": "2026-11-04T02:39:00+00:00",
     "lede": null,
     "lang": "en"
    },
@@ -22,22 +62,6 @@
     "source": "CNBC",
     "published": "2026-11-04T01:49:58+00:00",
     "lede": "Wall Street weighs how the 2026 midterms could affect stocks, Treasury yields, artificial intelligence, energy prices, banks, defense and healthcare.",
-    "lang": "en"
-   },
-   {
-    "title": "Ball (BALL) Stock Looks Reasonable On Its Earnings Support",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPMi14bTA1Mks1eTM1c2FrdHFZbzdOVk81X1B3c3R5NkRtMi0xamlBZ25ydjJ0czIwQzhfR3FkVTZpM0FaNEl1TkY0OTByLTVzbFNHQ0FIX1Q0bU1WdnI3ZlFwc1FUWURxQzdKWXBrSzhGVDdrS1FzMDF5MVhHVzVEbFRCY1A2dHpxYXM3NXZnSV9MREVYNVlUZHVWWUxUZw?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-04T01:40:06+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "This Overlooked ETF Hunts for the Highest Dividends Outside the U.S.",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPMlRwa3lRaXNKZFZQcTFaZGpNajRqQUFwdTRtZ0xkdEJENTM2a3ZCMXdHMEZDblFlN1RQSVBwc2x4OFY5S2phOTc3dUV3OEhRcEdaaHROdFp2OGdYWENfMkx3V0JESnMwVks5cFFKamF3MDR0TzVIVlZNOHhUcUFTWGhhVFZkUnJOV2ZhVHlGdFhvdXlPR0VfVnp4NG5kZ2xIc0M0R2dB?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-04T01:37:00+00:00",
-    "lede": null,
     "lang": "en"
    },
    {
@@ -63,37 +87,37 @@
     "published": "2026-11-03T23:58:09+00:00",
     "lede": "Cramer said a new group of technology stocks may be emerging as market leaders.",
     "lang": "en"
-   },
-   {
-    "title": "AMD stock jumps 8% on earnings as data center revenue nearly doubles",
-    "url": "https://www.cnbc.com/2026/11/03/amd-amd-q3-earnings-report-2026-.html",
-    "source": "CNBC",
-    "published": "2026-11-03T23:04:37+00:00",
-    "lede": "AMD reported better-than-expected third-quarter results, driven by booming sales of AI chips",
-    "lang": "en"
-   },
-   {
-    "title": "Chipotle Mexican Grill: Quality Growth In A Struggling Sector",
-    "url": "https://seekingalpha.com/article/4961883-chipotle-mexican-grill-stock-quality-growth-struggling-sector?source=feed_all_articles",
-    "source": "Seeking Alpha",
-    "published": "2026-11-03T20:51:06-05:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "נאסד\"ק מתאושש בזכות מניות השבבים; אפל מכבידה על מדד הדאו",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001561764#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-03T19:58:00+00:00",
-    "lede": "נאסד\"ק עולה ב-0.6% • גולדמן סאקס: מדד S&P 500 במרחק 3% משיאו, אבל 60% מהמניות בו כבר בשוק דובי • שופיפיי נופלת: פספסה את תחזית ההכנסות לראשונה זה ארבע שנים • מחירי הנפט יורדים • מטא מתכננת לגייס עד 25 מיליארד דולר…",
-    "lang": "he"
    }
   ],
   "il": [
    {
+    "title": "הבורסה בת\"א נחתכה במעל 10% מהשיא: האם הגיע הזמן לקנות את הדיפ?",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001561910#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-04T03:28:00+00:00",
+    "lede": "ההיסטוריה מלמדת שלאחר ירידה של מעל 10% מהשיא השוק מתאושש במהירות",
+    "lang": "he"
+   },
+   {
+    "title": "מעל מיליארד דולר נמחקו בחודשיים: מה הוביל לפיטורים בחברת הרחפנים",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001561925#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-04T03:27:00+00:00",
+    "lede": "אקסטנד תפטר לפי ההערכות כ־10% מעובדיה במסגרת ארגון מחדש של פעילותה, כחודשיים לאחר שהחלה להיסחר בוול סטריט",
+    "lang": "he"
+   },
+   {
+    "title": "משקיעי אפל ופלנטיר גילו: החשש מתמחור יתר חזק מתוצאות מצוינות",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001561898#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-04T03:25:00+00:00",
+    "lede": "אחרי הזינוקים החדים במניות ה–AI נדרשות החברות לספק כעת את הקבלות בשורה התחתונה",
+    "lang": "he"
+   },
+   {
     "title": "וול סטריט ננעל במגמה מעורבת; מניית AMD עלתה ב-4%, טבע - ב-3%",
     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9KUjBqaU81T3hLMnBxYjBBcTF2QnpyUUhmTjU4a016T3VnQ3I4elJtRk4ySVliLUd6UEgweDRUcm1vZWUxaXBHUDZ0Z2ZGNUpqQ1lkYnlzM2F5VUdoV0tLTWdn?oc=5",
-    "source": "Calcalist",
+    "source": "calcalist",
     "published": "2026-11-03T21:11:39+00:00",
     "lede": null,
     "lang": "he"
@@ -104,30 +128,6 @@
     "source": "גלובס",
     "published": "2026-11-03T21:00:00+00:00",
     "lede": "נאסד\"ק עלה ב-0.8%, דאו ג'ונס ירד ב-0.3%",
-    "lang": "he"
-   },
-   {
-    "title": "מתקפת הסייבר על סופרים באירופה החלה בכלל בישראל",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001561950#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-03T18:40:00+00:00",
-    "lede": "מתקפות הסייבר על מערכות הקירור במרכולים באירופה מעלות חשש גם בישראל, שבה כבר נפגעה רשת מזון באירוע דומה",
-    "lang": "he"
-   },
-   {
-    "title": "הדולר עולה ל-3.17 שקלים, שיא של מעל חצי שנה. אלו הסיבות",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001561804#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-03T17:29:00+00:00",
-    "lede": "המטבע האמריקאי ממשיך להתחזק מול השקל ורושם קפיצה של כ-4.5% מאז ה-27 באוקטובר, מועד הבחירות בישראל",
-    "lang": "he"
-   },
-   {
-    "title": "שכר של קרוב ל-3 מיליון שקל: המרוץ לניהול איגוד הבנקים נפתח ויש מועמדים",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001561801#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-03T16:35:00+00:00",
-    "lede": "מנכ\"ל האיגוד איתן מדמון, שניסיון להדחתו נחשף לפני מספר חודשים, יפרוש בסוף השנה",
     "lang": "he"
    },
    {
