@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-04T05:31:04.511186+02:00",
+ "generated_at": "2026-11-04T06:31:01.368889+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -9,19 +9,51 @@
  "sections": {
   "us": [
    {
-    "title": "קידומת 2 פתאום נראית רחוקה: הדולר מזנק לרמתו הגבוהה ביותר מתחילת השנה",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001561900#utm_source=RSS",
+    "title": "History Shows a Worst-Case Scenario Unfolding for Stocks on Election Night, as Well as a Silver Lining That Isn't Getting Enough Attention",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOeWFCcXBRU3dfWE1zemdvamtKTWZPbDlTOUlSY3B6M05Dejg2dnFRYjNBQWxpMXB2NjVEcVlQN3pqcW9PLW1ueWsydXNHdGdUTS1jckZORk9FYlRzOEJYeXA0M3FKZVNSTXRNU0dlLXRHUlRTTlJpTGtmc242QkJyeGNldFNUVmhCbnBUcXA4Sk1BMDUtOUhGYjVkSjJ1bmc?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-04T04:28:58+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Latham Group Q3 Earnings Call Highlights",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOX2tJWnBKRy1RWXhSSGhxSHk0MnRMN1Z5c1BqVkp5YWdsX2lhc1lmUG9RMDZPRWNKSXE1Z25ibmY2bTZoaDZidGJOV2J0R3Q3Z05KLUJLS0dERWljWUFJcnFnV1U2NXlPQmhaLWU0TWdQNG1RWGFOWGppc2RrM3QzWmhzOXJ3cXRUcm9Jd2pVN3paY1l0a3oweXdn?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-04T04:18:58+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Asian shares fall on selling of tech shares as markets watch for results of US midterm elections",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZmtfSUxVWjE4RkZEdnp0ZVNWOFZfd09Gc0w1N2p0cGZ4UUFBT3lKdVctLWFXa3NYeWVybTFSbU1mVkxwX25iZDJGQmROT2pmREYydkFjNHowUWpBNUE4MEF4cFBETUhWdENlNFpBTjdoVXR0REo2c2xmM0VLSHl6ZEM3NW1sTnBmWHdvVDN0YXpIVDA0WW02M21wSmFOSEpuUFRQZg?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-04T04:13:00+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "מפלה היסטורית לטראמפ: הדמוקרטים צפויים לחזור לשליטה מלאה בוושינגטון",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001561955#utm_source=RSS",
     "source": "גלובס",
-    "published": "2026-11-04T03:18:00+00:00",
-    "lede": "בחודש מאי האחרון הדולר צלל לשפל של 30 שנה, בשוק כבר דיברו על שער של 2.5 שקלים ובהייטק קיימו פגישות בהולות אצל שר האוצר מחשש לפגיעה חריפה בשורת הרווח",
+    "published": "2026-11-04T04:03:00+00:00",
+    "lede": "התוצאות מציבות את טראמפ בפני מציאות פוליטית חדשה לקראת השנתיים האחרונות לכהונתו",
     "lang": "he"
    },
    {
-    "title": "תבוסה לטראמפ בבחירות: הדמוקרטים בדרך לשליטה בקונגרס",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001561955#utm_source=RSS",
+    "title": "Midterm elections could jolt stocks as Democrats look poised to sweep Congress",
+    "url": "https://www.cnbc.com/2026/11/03/midterm-election-stock-market.html",
+    "source": "CNBC",
+    "published": "2026-11-04T03:38:08+00:00",
+    "lede": "Wall Street weighs how the 2026 midterms could affect stocks, Treasury yields, artificial intelligence, energy prices, banks, defense and healthcare.",
+    "lang": "en"
+   },
+   {
+    "title": "מעל מיליארד דולר נמחקו בחודשיים: מה הוביל לפיטורים בחברת הרחפנים",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001561925#utm_source=RSS",
     "source": "גלובס",
-    "published": "2026-11-04T03:12:00+00:00",
-    "lede": "הערכת הניו יורק טיימס: סיכוי של 95% לשליטה דמוקרטית בשני בתי הקונגרס",
+    "published": "2026-11-04T03:27:00+00:00",
+    "lede": "אקסטנד תפטר לפי ההערכות כ־10% מעובדיה במסגרת ארגון מחדש של פעילותה, כחודשיים לאחר שהחלה להיסחר בוול סטריט",
     "lang": "he"
    },
    {
@@ -30,38 +62,6 @@
     "source": "The Guardian",
     "published": "2026-11-04T03:00:22+00:00",
     "lede": "North Korea is said to be behind the theft from the crypto exchange Binance. How did they pull it off and what will they do with the money? Kalyeena Makortoff and Jean H Lee report It was 8pm last Thursday when the…",
-    "lang": "en"
-   },
-   {
-    "title": "Analysts react to US midterm election results",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPcXlBejdoWVpxdU15MVlzajFKY05OWFprdXpONnZkbFozZlRiMHc5WVRIOTJmY0hDSVowdE1saHNLb0FBSnNlQ0tSTU16UjdwMGFqeWRHeVcwOUJ2ajluRjRQY0dKbENTZ3liSUI1SjQ2dVNQWjVRVllDYW1RaUFwV2t5UTNjVUlUWm4tTHZyR1hFS1o4OUJxRTZFRGZhcnc5?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-04T02:57:00+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "There's a 99% Chance That Democrats Retake the House, and History Says This Shift Will Have a Huge Impact on Stocks",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZlJVZlNrYk56QmpzN0xHYWVCSC1RanBfMUpWUWRvbzVvVmhVWDNQUVM5NU1ma05aNEFYVVotTkk0LV8tZW9qeWhCN0FPaHJLSV9BWXhPMEYtSUcxYktaZDhqYmw3RG43TTdsb21nVmtaWmdhTmh2Q09MTTg2bURvekdZNWZZNElwODI3UHZjTmNfZzlWUkJVU2dlSVFYMWs?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-04T02:41:00+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Indian stocks poised to open lower as US midterm vote outcome looms",
-    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPT0tFa0Z0bnRlSFU3NTdYOFVXaGdid3Fad1NTRnViRDBTUWg2Um1BQ21RVlNkSWdjR2Y1Z2VXdV9fWXdjY19GZkJDZ2F0ZFFvckRQY2V0eDRwVzZJMkJ5a29mbGlLZUQyQkFzX1VwVThZdEQtZEdiUVJMRzJxeGFXQUxmclZST2l1RzN6elNobi1IZC11a2N2cFJDZEdQNVo1MmgxWlFBaHA3VXlLWHc?oc=5",
-    "source": "Reuters",
-    "published": "2026-11-04T02:39:00+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Midterm elections could jolt stocks if Democrats sweep Congress",
-    "url": "https://www.cnbc.com/2026/11/03/midterm-election-stock-market.html",
-    "source": "CNBC",
-    "published": "2026-11-04T01:49:58+00:00",
-    "lede": "Wall Street weighs how the 2026 midterms could affect stocks, Treasury yields, artificial intelligence, energy prices, banks, defense and healthcare.",
     "lang": "en"
    },
    {
@@ -91,19 +91,27 @@
   ],
   "il": [
    {
+    "title": "אחרי הניצחון הדמוקרטים: החוזים על נאסד\"ק נופלים ב-2%, טוקיו נחתכת ב-3.5%",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1MSV95cGlMMmtSSlN3bXdCdzcwODRCeVV0ZmMwYXZOUVdCWkV5djNlU2dZVndrSUFKUnhfY09aWno0dVpINjBvai1CeS0xWjVmMnhtM1lGbmZaMVllV3NHSUxB?oc=5",
+    "source": "calcalist",
+    "published": "2026-11-04T03:54:40+00:00",
+    "lede": null,
+    "lang": "he"
+   },
+   {
+    "title": "מחלוקת על 30 דולר הובילה לגל תביעות ייצוגיות נגד סוכנויות הנסיעות",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001561881#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-04T03:32:00+00:00",
+    "lede": "בחודש שעבר פסק ביהמ\"ש העליון כי על סוכני נסיעות חל איסור לגבות דמי טיפול על שירות לנוסע שטיסתו בוטלה",
+    "lang": "he"
+   },
+   {
     "title": "הבורסה בת\"א נחתכה במעל 10% מהשיא: האם הגיע הזמן לקנות את הדיפ?",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001561910#utm_source=RSS",
     "source": "גלובס",
     "published": "2026-11-04T03:28:00+00:00",
     "lede": "ההיסטוריה מלמדת שלאחר ירידה של מעל 10% מהשיא השוק מתאושש במהירות",
-    "lang": "he"
-   },
-   {
-    "title": "מעל מיליארד דולר נמחקו בחודשיים: מה הוביל לפיטורים בחברת הרחפנים",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001561925#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-04T03:27:00+00:00",
-    "lede": "אקסטנד תפטר לפי ההערכות כ־10% מעובדיה במסגרת ארגון מחדש של פעילותה, כחודשיים לאחר שהחלה להיסחר בוול סטריט",
     "lang": "he"
    },
    {
@@ -115,6 +123,14 @@
     "lang": "he"
    },
    {
+    "title": "קידומת 2 פתאום נראית רחוקה: הדולר מזנק לרמתו הגבוהה ביותר מתחילת השנה",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001561900#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-04T03:18:00+00:00",
+    "lede": "בחודש מאי האחרון הדולר צלל לשפל של 30 שנה, בשוק כבר דיברו על שער של 2.5 שקלים ובהייטק קיימו פגישות בהולות אצל שר האוצר מחשש לפגיעה חריפה בשורת הרווח",
+    "lang": "he"
+   },
+   {
     "title": "וול סטריט ננעל במגמה מעורבת; מניית AMD עלתה ב-4%, טבע - ב-3%",
     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9KUjBqaU81T3hLMnBxYjBBcTF2QnpyUUhmTjU4a016T3VnQ3I4elJtRk4ySVliLUd6UEgweDRUcm1vZWUxaXBHUDZ0Z2ZGNUpqQ1lkYnlzM2F5VUdoV0tLTWdn?oc=5",
     "source": "calcalist",
@@ -123,18 +139,10 @@
     "lang": "he"
    },
    {
-    "title": "התאוששות במניות ה-AI הובילה את העליות בנאסד\"ק ביום הבחירות בארה\"ב",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001561764#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-03T21:00:00+00:00",
-    "lede": "נאסד\"ק עלה ב-0.8%, דאו ג'ונס ירד ב-0.3%",
-    "lang": "he"
-   },
-   {
-    "title": "ת\"א ננעלה בעליות קלות, נייס נפלה ב-7.1%, טבע טיפסה ב-3.8%",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE45UEZiREgyaUZ1UkZ1R0NBZTk0ZVZBNTgyOWlhNXJhQ1YwRHRWWWJpdHRZQTZpeVBweUxqNzRERWJZbE45SUZyRWxqSU9yLXBrMWgtMjB5NFVsRmNNbTVmYXBn?oc=5",
-    "source": "calcalist",
-    "published": "2026-11-03T15:45:53+00:00",
+    "title": "מס על שכירות מהשקל הראשון? הצחקתם אותי",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5mUU43VG9JZEdHaUNhbmJjTndDZ2ozY3NvRVFSM0t5bjl5ME5DZVZxdi1QWGtXQmI4SXFiNzJHQkVZa2N5ZWM1blJrYmpSaFZwamcybDNkUEoyUE5aYnkwN1FKRG1abWh0?oc=5",
+    "source": "ביזפורטל",
+    "published": "2026-11-03T16:24:00+00:00",
     "lede": null,
     "lang": "he"
    },
@@ -145,30 +153,22 @@
     "published": "2026-11-03T10:56:00+00:00",
     "lede": "ענקית הבידור שוקלת לקצץ אלפי משרות, וביקשה מהמנהלים להציב יעד חיסכון של 20%. הסיבות: ירידה בהכנסות הסרטים, האטה במספר המבקרים בפארקים ותחרות גוברת בסטרימינג",
     "lang": "he"
-   },
-   {
-    "title": "בגלל חובות העתק: ענקית התוכנה מנסה לגייס 20 מיליארד דולר - והמניה צוללת",
-    "url": "https://finance.walla.co.il/item/3874751",
-    "source": "וואלה",
-    "published": "2026-11-03T10:52:00+00:00",
-    "lede": "אורקל יוצאת להנפקת מניות ואגרות חוב ענקית כדי להאיץ את פעילותה ב-AI ולעמוד ביעדי 2030, אך המשקיעים מגיבים בחשש ושלחו את המניה לירידה של כ-9%",
-    "lang": "he"
    }
   ],
   "geo": [
+   {
+    "title": "Iran's IRGC says four tankers ablaze after hitting mines near Strait of Hormuz",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQbjcyLUxfeTMxaHFnbENrc2tqdlowSDFqWU5DUWtqOWhVUUdSYWdSbFpBRGQ4VHI3Rm5DbDVsLTV6bkM4d3FjcmVPRnpsQlJ6RkNSLWNZX0ZtWURvUExKaGZ2M2diWUFvZWZfSE5FN01PR2FXc1pSN1kyeXhHX0ZFS0k4S1FjSDJLc2ZfbGx2cm9TYW9JSThiZVZIeFQxTnVBXzAwYnhlaGxsN3lwQkxOZTdFRVVpc3RPa2J2M0JZNVduZXA3Z2pz?oc=5",
+    "source": "Reuters",
+    "published": "2026-11-04T03:50:00+00:00",
+    "lede": null,
+    "lang": "en"
+   },
    {
     "title": "Canada joins coalition refusing to play ice hockey against Russia over Ukraine war",
     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSHlUZFVMYWpEOXAzb1dVNVhKOFJ3Wjh5MVZtVGNpV0M1X1U3UjlkbHNQRmFQcVZ1TG5Zc2NSQkJWbURydGpXeTJtMHgtWGV0bW9SWEdIbmM5V2lDSmhMTUNEbWJqYkdTbnBYRzdJU0wxS3NpdlRSVnVfSEw1ZmNYMGxDSlJzaUMzTGhZZmktcDhNd3p1YkZMTGgxTVFnMkpMbVlNWjB3ODMzV0UyN3dBSVQwZ3BJUWxx?oc=5",
     "source": "The Guardian",
     "published": "2026-11-04T01:35:18+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "U.S. strikes Strait of Hormuz hours before Tuesday midterms",
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdjhpUnNOSTlZWWdpekFRMGZjaWFnRDY3TmFnQkk0Qm4yRExTZnJoemVSZEQ2YS1yZkwtdGhLaEFwSE5FcHplcUZta1k3amJrMGl5emdJX3pPUlY4aTJnVVFhYlBuX0FlN2VUbVNQTFZ6Yjc3ZENmVGJQbFcxTUpkcmhLS05zc19SRS1qYm5QbmxTOWk3VUpES9IBngFBVV95cUxPUkE4ZGpqYlp5ZkIwQ2oyVDF3dWdFeG9XM0pDMnBxQm5CR0gtWXpIcWt2V2J3Mlg5TFJrUmpfcFdBdm54VEgzRW1jSUtPbGhPR25qMmg3MEtDUHBrQ1FaU3p3bGxBUGMzd1hzRXFSbi10cDg2Wmd5Vzl1YXJDdkg4QVlGd1NmbkxKdjBYZlVCQ1hWTDAzOUlTVnBFRVNDdw?oc=5",
-    "source": "PBS",
-    "published": "2026-11-04T01:15:33+00:00",
     "lede": null,
     "lang": "en"
    }
