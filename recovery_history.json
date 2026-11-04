@@ -231,6 +231,46 @@
    "pivot": 128.96,
    "target": 147.62,
    "stop": 125.09
+  },
+  {
+   "ticker": "OC",
+   "date": "2026-11-04",
+   "signal_price": 127.73,
+   "pivot": 127.42,
+   "target": 145.86,
+   "stop": 123.6
+  },
+  {
+   "ticker": "CG",
+   "date": "2026-11-04",
+   "signal_price": 42.75,
+   "pivot": 42.11,
+   "target": 48.81,
+   "stop": 40.85
+  },
+  {
+   "ticker": "UAL",
+   "date": "2026-11-04",
+   "signal_price": 115.76,
+   "pivot": 112.01,
+   "target": 129.48,
+   "stop": 108.65
+  },
+  {
+   "ticker": "APO",
+   "date": "2026-11-04",
+   "signal_price": 122.77,
+   "pivot": 122.58,
+   "target": 135.25,
+   "stop": 118.9
+  },
+  {
+   "ticker": "DASH",
+   "date": "2026-11-04",
+   "signal_price": 198.59,
+   "pivot": 191.02,
+   "target": 218.36,
+   "stop": 185.29
   }
  ]
 }
