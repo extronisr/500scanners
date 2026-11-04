@@ -1,5 +1,5 @@
 {
- "fetched_at": "4.11.2026, 18:05",
+ "fetched_at": "4.11.2026, 18:34",
  "items": [
   {
    "title": "FDA approves respiratory papillomatosis drug developed by INOVIO - Pennsylvania Business Report -",
@@ -2937,6 +2937,24 @@
    "ncts": []
   },
   {
+   "title": "BeOne gains FDA priority review for Brukinsa label expansion - Seeking Alpha",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOUXk0NmpJQ3dRRFlzemlwRnZRT0lYSXV0SGtma3AyREtod2NRXzRkaGdRUG9nVWxMdXNGSmlHM3JKQXNXYUFNWkpMOWtGazdXNEc2X080SHBsb1hnZ0FrdTZmWEdoNkpkNjFQZm82OUNHU1oxUnVzdTBQdEpqYlNQMVNwREtnTlliaTJmV3V4YXdGVHhG?oc=5",
+   "pub_ts": 1793804874.0,
+   "date": "4.11.2026, 17:07",
+   "cat": "btd",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOUXk0NmpJQ3dRRFlzemlwRnZRT0lYSXV0SGtma3AyREtod2NRXzRkaGdRUG9nVWxMdXNGSmlHM3JKQXNXYUFNWkpMOWtGazdXNEc2X080SHBsb1hnZ0FrdTZmWEdoNkpkNjFQZm82OUNHU1oxUnVzdTBQdEpqYlNQMVNwREtnTlliaTJmV3V4YXdGVHhG?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
    "title": "FDA Approves Generic Lenacapavir PrEP — But Not for the U.S. - POZ",
    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBGRVVRZ1FrN0xIWlJTUjJhd20xeExtNjRKOG51NWx1eTBpc1QyTEdHQ0dCVEFUa0JxT21Vc2diT2lIYTFObHIxRUlIcmY1aWdkV0t4NTNpdGxoLUhWYVd6WGtvU3hrNXdXc01yLWpTX01GUS0zSlZF?oc=5",
    "pub_ts": 1793768471.0,
@@ -4445,8 +4463,8 @@
    ]
   },
   {
-   "title": "Pivotal Phase 2 Rezatapopt PYNNACLE Data to Be Featured in Late-Breaking Oral Presentation at ENA 2026 - Stock Titan",
-   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNaE1pTjFWeDNWTV9vZ21HcGowaS1EcXMzOGdrdmpKbW9nbzhhN3VGaUJGNTN3LVdYM3RoaDVzbnY0QzgwOF9pUFdUWWtZQ1dKc214aWd2ZnBTcHJyU2kwYm9Jb1hwTkpKYXd3WTNKVGFBcUFnT2FPX0tyZDYtc1FFVGdOMy1ITDZ6Tjl2R195Q1JmUFM1NlNLQV9GUEIxVWJDdjZiTjVTTmVLNUd1UTU3SElZMEZFeXBUTnc?oc=5",
+   "title": "Pivotal Phase 2 Rezatapopt PYNNACLE Data to Be Featured in Late-Breaking Oral Presentation at ENA 2026 - GlobeNewswire",
+   "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNZGdyZElUQXB6LTRUOTJGQ09qN3ZpckpKZW5MS2I5NzBiRXd2N0ktODNNVTJRSjlzNEtHcEYzajVJX3JoVnE5NktPYXJEXzRtT0Z5QURLcC1Sb3c1TUpaNEZiSzZNbmFVZWFlekU2dkdVNE94djN3eTAyWTh1QzdFTV9rd2huLXNuVXZsTjNVcjdDRU40T2tOelV1dl81UVVfQW1pRGo1OThWcHJ2VlZjX3otbTcwcWcxcmVZa1FRSjB3YzdJRzFfdTZIVnAxdTlQbTN1UFFRYnJRUFJfS25zTU1hZk5sekNtSER0NV9tRllMek5oLVBBNUpJQ19BaUU1RDAyZg?oc=5",
    "pub_ts": 1793797200.0,
    "date": "4.11.2026, 15:00",
    "cat": "phase2",
@@ -4455,6 +4473,10 @@
    "tickers": [],
    "companies": [],
    "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNZGdyZElUQXB6LTRUOTJGQ09qN3ZpckpKZW5MS2I5NzBiRXd2N0ktODNNVTJRSjlzNEtHcEYzajVJX3JoVnE5NktPYXJEXzRtT0Z5QURLcC1Sb3c1TUpaNEZiSzZNbmFVZWFlekU2dkdVNE94djN3eTAyWTh1QzdFTV9rd2huLXNuVXZsTjNVcjdDRU40T2tOelV1dl81UVVfQW1pRGo1OThWcHJ2VlZjX3otbTcwcWcxcmVZa1FRSjB3YzdJRzFfdTZIVnAxdTlQbTN1UFFRYnJRUFJfS25zTU1hZk5sekNtSER0NV9tRllMek5oLVBBNUpJQ19BaUU1RDAyZg?oc=5"
+    },
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNaE1pTjFWeDNWTV9vZ21HcGowaS1EcXMzOGdrdmpKbW9nbzhhN3VGaUJGNTN3LVdYM3RoaDVzbnY0QzgwOF9pUFdUWWtZQ1dKc214aWd2ZnBTcHJyU2kwYm9Jb1hwTkpKYXd3WTNKVGFBcUFnT2FPX0tyZDYtc1FFVGdOMy1ITDZ6Tjl2R195Q1JmUFM1NlNLQV9GUEIxVWJDdjZiTjVTTmVLNUd1UTU3SElZMEZFeXBUTnc?oc=5"
