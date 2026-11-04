@@ -271,6 +271,30 @@
    "pivot": 191.02,
    "target": 218.36,
    "stop": 185.29
+  },
+  {
+   "ticker": "UFPI",
+   "date": "2026-11-04",
+   "signal_price": 86.31,
+   "pivot": 84.98,
+   "target": 96.24,
+   "stop": 82.43
+  },
+  {
+   "ticker": "VICI",
+   "date": "2026-11-04",
+   "signal_price": 25.25,
+   "pivot": 25.03,
+   "target": 27.65,
+   "stop": 24.28
+  },
+  {
+   "ticker": "CRUS",
+   "date": "2026-11-04",
+   "signal_price": 115.99,
+   "pivot": 114.63,
+   "target": 124.16,
+   "stop": 111.19
   }
  ]
 }
