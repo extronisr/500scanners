@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-04T13:30:59.570235+02:00",
+ "generated_at": "2026-11-04T15:01:00.340021+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -9,117 +9,117 @@
  "sections": {
   "us": [
    {
-    "title": "נייס מורידה את תחזית הצמיחה השנתית בהכנסות מענן, אך מעלה את תחזית הרווח למניה",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562000#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-04T11:25:00+00:00",
-    "lede": "הכנסות החברה צמחו ב-8% ל-791 מיליון דולר והרווח הנקי למניה הסתכם ב-2.84 דולר, מעל ציפיות האנליסטים",
-    "lang": "he"
-   },
-   {
-    "title": "What Toast (TOST) Said on Its Q3 Earnings Call",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQXzgteFNOdWQ1aW9LRDNEN0ItaTExVzRWdzNMaGtMNHY3MVFpbmExb0Z2OHoyOXhkZFNxVkkzLTR6cnN4aG1aZ01MVENOX0FpMmlWTXVWX0Jtc0VERXhTWnpDZXNnQnV4Tkg4b2puMEhRVDVFNTktdGl6QlhUcE1Va05HRFQtNHFXNHJDUHVzamhKUG1xSHVF?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-04T11:14:02+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "The AI trade has been ‘sold to death’ but Goldman strategist highlights silver lining from Democratic sweep",
-    "url": "https://www.marketwatch.com/story/the-ai-trade-has-been-sold-to-death-but-goldman-strategist-highlights-silver-lining-from-democratic-sweep-3d1d6f07?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-04T11:10:00+00:00",
-    "lede": "Corporate decision makers may decide to accelerate their plans to expand compute capacity and take advantage of the status quo rather than risk a new administration and different rules in 2029",
-    "lang": "en"
-   },
-   {
-    "title": "Stock markets celebrate a ‘stunning rebuke’: Trump says he will accept midterm losses",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORHlRcVhlZXp4cFdYWWdUN1JmVndyeG9qMjViaTBqOE42UWkzWXpkanpoOHYwUk56Nng5a25MM282LUdLbXRRMkdReDVndzRKMDZuVGdpQWdKV3BmVWdtSjgwc0VkRlJuU3FqNF9DbE45LUJFUmZkUW9kbG54RWlIQV9nRGZCNFdxc1hKSkhLdlpJbnhQc3Q0YVhidk1ZU0h4c1lQWXJR?oc=5",
-    "source": "Fortune",
-    "published": "2026-11-04T11:09:00+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "What Could Surprise Tesla Stock Investors On The Upside?",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOSFAzSDFrbEN2NVRfZEUwTkxGS1VONVBjVURla28xOHZNdjlYM2Y2eEZWYWdoZmtKeXBEcURVSlJjS0ppUWJuUGkxREFtbzdlOGFNdXBJUnNMdmdPTXNzRHRwTUI0dndfWVNpdElycUw4Y2p0OTVaQjBHY3N3a0dDMk1WWlk2ZjNtMjRzc2ItMEFKZVgtNnVvQTFYZzJVc2NZeF9v?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-04T11:06:20+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "הקאמבק של נובו: העלתה את התחזית השנתית בזכות גלולת ההרזיה",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562004#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-04T10:48:00+00:00",
-    "lede": "חברת הפארמה הדנית רושמת רבעון שלישי מוצלח מהמצופה עם הכנסות של 11.9 מיליארד דולר ועלייה חדה בביקוש לגלולת הווגובי, המפצה על ירידה במכירות הזריקה בארה\"ב",
-    "lang": "he"
-   },
-   {
-    "title": "What's happening to UK interest rates and what does it mean for mortgages?",
-    "url": "https://www.bbc.co.uk/news/articles/c3dky111m40o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC",
-    "published": "2026-11-04T10:47:31+00:00",
-    "lede": "The interest rate set by the Bank of England affects mortgage, loan and savings rates for millions.",
-    "lang": "en"
-   },
-   {
-    "title": "Euro zone inflation hits 4% for first time in three years as interest rate hike looms",
-    "url": "https://www.cnbc.com/2026/11/04/euro-zone-cpi-inflation-october-ecb-rate-hike.html",
+    "title": "AI data center stocks and Musk's SpaceX decline as Texas governor result raises risks of a slowdown",
+    "url": "https://www.cnbc.com/2026/11/04/ai-stocks-texas-governor-data-centers.html",
     "source": "CNBC",
-    "published": "2026-11-04T10:47:30+00:00",
-    "lede": "It was driven by energy inflation, which surged above 20% in October.",
+    "published": "2026-11-04T12:54:26+00:00",
+    "lede": "AI fortunes were mixed as premarket trading opened on Wednesday.",
+    "lang": "en"
+   },
+   {
+    "title": "Mortgage rates drop for the third straight week, but homebuyers are still leaving the market",
+    "url": "https://www.cnbc.com/2026/11/04/mortgage-rates-dropped-homebuyers-still-leaving.html",
+    "source": "CNBC",
+    "published": "2026-11-04T12:51:13+00:00",
+    "lede": "Mortgage rates came down again last week, but mortgage demand from homebuyers continued to decline, as high home prices and inflation stretch affordability.",
+    "lang": "en"
+   },
+   {
+    "title": "The Market Loves the Democrat Sweep. It’s More Complicated for AI Stocks.",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQdHJ4WkxqSWUwd2lvdnJ6MmcwWTRRZXZTT1BkcXptb0Z2TVFsQnNWaHJjemZWV1V1SjM0dzJKWnBDbW1xVWFaVnd0cWl5VUh2YWwxV092eDFhakxRSlRIbHM1b04xQXFNcE9lSzVKTkVKOTc3NjhCWG1KWUs2SVA2Mg?oc=5",
+    "source": "Barron's",
+    "published": "2026-11-04T12:45:00+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Uber Q3 profit, revenue beat estimates as gross bookings jump 20%",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQc0NJdnFnYXlPNV92TTR1XzVsWVprZmVXYlhUV0JfdFh1N1BNRklwNEN6YTNRaGpsUG5wNTlicGFTTkRmUUt5WURYQ24wZThqd0tyUVhTMF9DaU1ZWFlkUjgtX2x5Smo3YW5EY2UxYmh3UXJUX1lOUTFMWUlMWU94UFhVaUJlbzUxRkpBR0RHcllJRndBdnlJ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-04T12:43:59+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Stocks rebound after Democrats’ sweep",
+    "url": "https://www.ft.com/content/a0b18705-3bd8-4886-992c-b6062fdec6ea?syn-25a6b1a6=1",
+    "source": "Financial Times",
+    "published": "2026-11-04T12:42:07+00:00",
+    "lede": "US futures reverse early losses as analysts say divided government reduces policymaking risks",
+    "lang": "en"
+   },
+   {
+    "title": "India's BSE posts higher second-quarter profit",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNanQ5SExvRW9mbW8tYUg4U1dTeTBOamw0UzdyUjBnRjdoUzRJMjN4alBMaV9oRXFCRGoyV1BxMl9jd0hGaGFPSzNIZVpJYi1SdzZrendRUFl4YmxvcmFwb1puWllNenNwSXZJRVU3ZnE0MnpFOVVYZ2dYUjJpVXdVY3dTczRCc0wzakN6bHhIREM2RjRGdzBvRQ?oc=5",
+    "source": "Reuters",
+    "published": "2026-11-04T12:41:45+00:00",
+    "lede": null,
     "lang": "en"
    },
    {
     "title": "Dollar falls while gold and US Treasury bonds rally as markets react to Democrats’ midterm election victory – business live",
     "url": "https://www.theguardian.com/business/live/2026/nov/04/dollar-falls-while-gold-us-treasury-bonds-rally-markets-react-democrats-midterm-election-victory-marks-spencer-latest-live-updates",
     "source": "The Guardian",
-    "published": "2026-11-04T10:41:55+00:00",
+    "published": "2026-11-04T12:27:05+00:00",
     "lede": "Democrats’ capture of Congress raise expectations of tougher regulation of AI sector; US stock futures turn positive, reversing earlier declines And Chris Turner , global head of markets at ING, says: Investors will be…",
     "lang": "en"
    },
    {
-    "title": "Novo shares jump as Wegovy pill sales impress, drugmaker hikes outlook",
-    "url": "https://www.cnbc.com/2026/11/04/novo-q3-earnings-wegovy-sales.html",
-    "source": "CNBC",
-    "published": "2026-11-04T10:40:51+00:00",
-    "lede": "Novo posted quarterly earnings ahead of expectations early Wednesday as sales of its Wegovy pill blew past estimates",
+    "title": "Midterm elections deliver a ‘blue wave.’ The stock market sees green.",
+    "url": "https://www.marketwatch.com/story/midterm-elections-deliver-a-blue-wave-the-stock-market-sees-green-5900a779?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-04T12:27:00+00:00",
+    "lede": "Wall Street finds reasons to cheer the Democrats’ sweep. Plus: Microsoft’s AI-era buyouts and a retiree’s appetite for a “free lunch.”",
     "lang": "en"
+   },
+   {
+    "title": "Treasury yields fall after Democrats win House and Senate majorities",
+    "url": "https://www.cnbc.com/2026/11/03/treasury-yields-fall-as-democrats-win-big-in-us-midterm-elections.html",
+    "source": "CNBC",
+    "published": "2026-11-04T12:25:25+00:00",
+    "lede": "Treasury yields moved lower on Wednesday as investors weighed big wins from Democrats in the U.S. midterm elections.",
+    "lang": "en"
+   },
+   {
+    "title": "הצלילה מהשיא לא עוצרת אותה: חברת השבבים הישראלית שרוכבת על טירוף ה-AI עם \"נראות היסטורית\"",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562015#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-04T12:12:00+00:00",
+    "lede": "קמטק מסכמת את הרבעון השלישי עם הכנסות של 161 מיליון דולר ורווח שעמד בתחזיות האנליסטים",
+    "lang": "he"
    }
   ],
   "il": [
    {
-    "title": "יציבות בבורסת ת\"א; אלקטרה נדל\"ן מזנקת ב-15%, דוראל ב-12%",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001561893#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-04T11:20:00+00:00",
-    "lede": "ת\"א 35 ללא שינוי • ישראייר במו\"מ לרכישת ארקיע • מניית דוראל קופצת ברקע הפעלת פרויקט בארה\"ב, אפולו פאוור חתמה על הסכם חדש • בדיסקונט תולים את היחלשות השקל במצב השוק בארה\"ב ומעריכים מתי המטבע המקומי יתאושש",
-    "lang": "he"
-   },
-   {
-    "title": "ירידות קלות בבורסת ת\"א; מניות האנרגיה מזנקות לאחר הבחירות בארה\"ב",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001561893#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-04T10:52:00+00:00",
-    "lede": "ת\"א 35 יורד ב-0.3% • ישראייר במו\"מ לרכישת ארקיע • מניית דוראל קופצת ברקע הפעלת פרויקט בארה\"ב, אפולו פאוור חתמה על הסכם חדש • בדיסקונט תולים את היחלשות השקל במצב השוק בארה\"ב ומעריכים מתי המטבע המקומי יתאושש",
-    "lang": "he"
-   },
-   {
-    "title": "נייס עקפה את התחזיות ברבעון השלישי, ומודיעה על קיצוץ של 5% בכוח האדם",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562000#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-04T10:47:00+00:00",
-    "lede": "הכנסות החברה צמחו ב-8% ל-791 מיליון דולר והרווח הנקי למניה הסתכם ב-2.84 דולר, מעל ציפיות האנליסטים",
-    "lang": "he"
-   },
-   {
-    "title": "אירופה מתנהלת בעליות; החוזים בוול סטריט התאוששו מהירידות אחרי הסוויפ הדמוקרטי",
+    "title": "החוזים בוול סטריט מזנקים בעוד שהדולר ממשיך לשלם את מחיר הבחירות",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001561829#utm_source=RSS",
     "source": "גלובס",
-    "published": "2026-11-04T10:27:00+00:00",
+    "published": "2026-11-04T12:08:00+00:00",
     "lede": "החוזים בוול סטריט התאוששו מהירידות החדות אחרי הסוויפ הדמוקרטי, כשהמשקיעים רואים בבחירות \"אירוע מנקה\"",
+    "lang": "he"
+   },
+   {
+    "title": "חברת הסייבר סנטרה מכריזה על גיוס של 150 מיליון דולר",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001561989#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-04T12:00:00+00:00",
+    "lede": "חברת הסייבר הישראלית סנטרה, השלימה סבב גיוס שלישי בהובלת Capital One Ventures, שהביא את סך גיוסיה ליותר מ־250 מיליון דולר",
+    "lang": "he"
+   },
+   {
+    "title": "טאבולה אכזבה את המשקיעים ומתרסקת ב-20% במסחר המקדים",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562013#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-04T11:49:00+00:00",
+    "lede": "חברת המלצות התוכן הישראלית רשמה ירידה של כ-7% בהכנסות הרבעון השלישי, לצד קפיצה ברווח הנקי שעמד בתחזיות",
+    "lang": "he"
+   },
+   {
+    "title": "למרות הקמפיין האגרסיבי: חודש חלש לאיילון בתשואות הגמל",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562008#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-04T11:30:00+00:00",
+    "lede": "לגלובס נודע כי התשואה של איילון בחודש אוקטובר במסלול הכללי צפויה לעמוד על ירידה של 0.35%, למרות הקמפיין שבמסגרתו גייסה כ-3 מיליארד שקל מהמתחרות",
     "lang": "he"
    },
    {
@@ -129,30 +129,22 @@
     "published": "2026-11-03T21:11:39+00:00",
     "lede": null,
     "lang": "he"
-   },
-   {
-    "title": "מס על שכירות מהשקל הראשון? הצחקתם אותי",
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5mUU43VG9JZEdHaUNhbmJjTndDZ2ozY3NvRVFSM0t5bjl5ME5DZVZxdi1QWGtXQmI4SXFiNzJHQkVZa2N5ZWM1blJrYmpSaFZwamcybDNkUEoyUE5aYnkwN1FKRG1abWh0?oc=5",
-    "source": "ביזפורטל",
-    "published": "2026-11-03T16:24:00+00:00",
-    "lede": null,
-    "lang": "he"
    }
   ],
   "geo": [
    {
-    "title": "Midterms: Trump acknowledges role of Iran war, congratulates Dems",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPcGxFX0ludG5Kellnek5ra2c2V0dzdWVHWG1PdTlmQWtINjZNZHFrQlRETlRmczZNakpaWXd1T0lnT0k3OVFBc1FDYWdxQTBFaHFDbEpkeTFuMW03TkhvTkNtd0ZkejdId0I3VjF1b0hUR01LZUlmUldlS3NoSUJDQm14MC0yU05Wenk0b0xsZmVWd3k4NFBiSnhtY0xjM0JhbnowRU1NUkt3Zw?oc=5",
-    "source": "France 24",
-    "published": "2026-11-04T10:46:16+00:00",
+    "title": "Tariffs to Iran war: Can Democrats reverse Trump policy with midterms win?",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNNjd5aWdVVzA1ZThHeGRqck9pSjhRMjd3R1YyVTRsQlY5MG0wR28yUUJtc0VwTVVYdmJZeWl0VEE0YnhxMXMtQWlWT2lsWHpiQVFXa1dLRHV6ekE4c3lkeWhYOUxSNlRkTXQ3ZG5QRnNNTGd5bnZORWdpVEF3WHBUVU9hQzh3Y0d6QmpYT1M4RGczckx0WWZhTTlGRXhzdktIVFM1ZUxMa1FDNzYxNkpaQURPUdIBuAFBVV95cUxPX1BUN1ZpOUxnM3Izb2s0aU1qQVBHZlZJRVpGbVRnUkVxX3J4QmZ1NDJBenRUXzhNcUJUc1UzM1lyY3dpM1lJaldYS1JrQ2V6emFKYXhOS1BQRm1GR0dLeXdISENVaVQxX09YNFFnSTdEUC14SVFUQy1CRDlEazN1VGRoY0ExVlFreXhfNmNMcjFESW5sV3A1a3hwNk9YVHUyTWxxRDh4V1lmS1RjeFgybHFGNXdOMlpt?oc=5",
+    "source": "Al Jazeera",
+    "published": "2026-11-04T12:48:36+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Who determines Iran’s fighting and negotiating position amid US threats?",
-    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQLTB0QV9yODh4YVZfbzZxU2gwUTF6eE53UHNYS0xxNS1JSURSZGd0TG9MQnVoVFVlLU91Z29KZ2NDbW1iWm52N0RCS3IyeV9NYkptZVppbUFCS001RHVRZHQ0YnhpYjZXQl9wVU5HcDNKM3pRUGhHMGpFeVNvazY3dzRmQVRYUDUtWXhLMzFrNDZ6cnA2UkZ1dTZOWVdLYXotQUhsV19QdEdjOW0zeU1CWtIBtgFBVV95cUxNYlQwSEVVRnBZNHRYamt1aUxhcl96Z2JtcjdjTlg5eFVhdEwteDlTOVFwV05ybGJ4MElIcW9OcmpOaEg0UHJHdEo1TUtxN2M5Nldoa285RGc0RWZKSUVZY1YyVkp4aWpjWm5SbmdpRWtuM2tCS3dpdjVHWGtzSXRQbG9sTm1Yb0o1d3FkTEt6cEdBdHNJNjJuLUZPZF9taFVtNmw5eW1TaTMwbUZLbHBDbGFMS2EyZw?oc=5",
+    "title": "Trump admits Iran war hurt Republican vote, vows to veto ‘insane’ bills",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQMm41SFlwczktQmJ2aFdwSlY2MkxONGc1RVdSQzlaZmt6Ykt2X3pCVmtBTFZLeUxJRzRLNWVMNm9DbWhZRzh0dDVnTWFualV5Rnh2Q3F3Qzh5VDdTRGpYdzhqNnJXUXVvTHFWc3JXZ2U3QnNtbzRNY1hWYVlpYUpCb242OGF6RXk2eHBSLXRQVWthWDdraXlsQU9SbFZBSUxNbzNyVWFpcjVVWVE4VlVNWnlveWF2RGtpM3Iw0gHAAUFVX3lxTE5WNGplR01rVVJyMEtQU3o4U21JOFpiTk1rd3Voa0NRYkhfTXRraGVNR1NIOFFqZEozb0EyTkdYbWdsZHVra2RBODZMMkNqUENnSWh0RVpkYUp6NFZXZVBueEtucDJUa2Ftb2xJcklOY3RwVXBHWEVPbmEwbVBJbTdyOUdQaHU4WXlEUHBIdUdWSW1aS3RFMG9tbkM1SUVZeDJCMWx4TUNJUTFhX3c4RDZsYUc2QTlIbnJrcF9ZYTZXeg?oc=5",
     "source": "Al Jazeera",
-    "published": "2026-11-04T09:32:36+00:00",
+    "published": "2026-11-04T12:45:07+00:00",
     "lede": null,
     "lang": "en"
    }
