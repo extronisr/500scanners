@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-05T00:01:03.979710+02:00",
+ "generated_at": "2026-11-05T01:31:03.934495+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -9,42 +9,18 @@
  "sections": {
   "us": [
    {
-    "title": "Micron and other chip stocks slip as election results strike at the core of data-center optimism",
-    "url": "https://www.marketwatch.com/story/micron-and-other-chip-stocks-slip-as-election-results-strike-at-the-core-of-data-center-optimism-b55d19b3?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-04T21:55:00+00:00",
-    "lede": "Democratic victories in Texas and other states raise long-term questions about the AI buildout, though they do not “unwind projects already funded.”",
-    "lang": "en"
-   },
-   {
-    "title": "These stocks soared the most today after the Democrats trounced Trump",
-    "url": "https://www.marketwatch.com/story/these-stocks-have-soared-the-most-today-after-the-democrats-trounced-trump-9d785314?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-04T21:55:00+00:00",
-    "lede": "Chemical company Mosaic’s stock is the strongest performer among the S&P 500, while several tech players and associated power providers show sharp declines",
-    "lang": "en"
-   },
-   {
-    "title": "Every stock that moved because of the election",
-    "url": "https://www.cnbc.com/2026/11/04/every-stock-thats-moving-as-a-result-of-the-election.html",
+    "title": "What Wall Street billionaires are saying about Democrats' midterm sweep",
+    "url": "https://www.cnbc.com/2026/11/04/billionaires-musk-branson-democrats-midterms-ai-wall-street.html",
     "source": "CNBC",
-    "published": "2026-11-04T21:48:51+00:00",
-    "lede": "Some companies took at hit after the election, while others rallied. Here are the biggest names making moves on Wednesday.",
+    "published": "2026-11-04T23:17:56+00:00",
+    "lede": "Billionaire political spending met criticism from ... billionaires in the wake of Tuesday's blue wave election.",
     "lang": "en"
    },
    {
-    "title": "Dow Soars 1,600 Points As Democrats Flip Control; Travelers, Apple, Ross Stores In Focus",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSkZvLUV5cGYwYmxxYlc1MFFtbm1lSG94NzlDUVZfeDNjanBDZTJBY1R4d3dfcUZhREZ3dUozcWhvcFA1SURXMWxDbFBoaEowUk54UndPX0NHRU5jeEl3bjlVY19FTHRRZWpuTFQ2MXBoQ3QwRTZPSEZ0VGNpRlNiVkw1a21MRWw1MlFFdTh4bUY0NFAtTzRubHMxMA?oc=5",
-    "source": "Investor's Business Daily",
-    "published": "2026-11-04T21:47:00+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Billionaire Humanoid Maker Is Youngest Newcomer Among China’s Richest Despite Post-IPO Stock Dive",
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQYUR3NGo4SHNnOHlUb3ZDaHBzOGVMQWxfd2RVZ3VqZC1wUnd2UzlKWU5vVFpPTElHa2QyQ1JHS3dCbzI1ZEQ4a21XYnlFSlNSMUlTVVVIM3U4clA4THpudXR6S1RvUzAwT3QwNUNpUS1FdmxXVTdhQTBTbFBFOUV5SHdLWmhKcXhKUHVRckwyeUNrZGw0NnhETjQxYV81ZWRyd1o0YnVtcnJzV200?oc=5",
+    "title": "5 Stocks That Could Skyrocket in 2027",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPX2V5WVNFZG1qNllTeEFXbWF1X3l0Rl84Ylg5SVRRNlZQc0duNE44TjVXWjdjOEs5R1lKQUFZemw1aUwwUlJYZjZyWXBnQkVGOHA5ckJBWFhlakRjYTdnZW1HbEVNcVNnRUR5a3dxT2R3NXFQRmZKTk9lb3p6LTVkczBIaENLUkNXdG0wdU0tWlpMZmdCY2d4OHZ3?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-04T21:44:57+00:00",
+    "published": "2026-11-04T23:12:55+00:00",
     "lede": null,
     "lang": "en"
    },
@@ -52,24 +28,56 @@
     "title": "Figma sinks after earnings beat as company prioritizes long-term growth with AI changes",
     "url": "https://www.cnbc.com/2026/11/04/figma-fig-q3-earnings-report-2026.html",
     "source": "CNBC",
-    "published": "2026-11-04T21:38:33+00:00",
+    "published": "2026-11-04T23:02:39+00:00",
     "lede": "Figma is letting clients use more artificial intelligence features for the same price. The company would like the move to boost results in the long term.",
     "lang": "en"
    },
    {
-    "title": "CME Group Inc. Cl A stock rises Wednesday, still underperforms market",
-    "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPdkhtbnEzRTI3ZzJNU2JEZVJ3Q0djWFJjLWZYZ3d2V1Y2NWM2bVJMSHd5Uno2ME5UYmFoOTF0VnBDc0dkZXd0QVNYZnBIU2hORnFRQThEZXdCdUxQMEZoc2hrbzB3NEFRRzV2WEd3U0RLcDNBQTBKX29SdlNHRnQyQUtCVm02Z3lERjFtV3MxQzdJMV9NMTEtT2VxZWtYZmE1MlZWTjhNWDlBdUpjN3lUWWRIc0t4TldMeFczVGlVRGdUZG51UXBtdnNhMWxpOE13eUpIcy0zZG5Dc21fWFE?oc=5",
-    "source": "MarketWatch",
-    "published": "2026-11-04T21:38:00+00:00",
+    "title": "Trinity Capital Inc. Q3 2026 Earnings Call Summary",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUHUzemVub3hXNzBfNW1nQUo2SHhkT3RtWU1UZ055RDhxMThFQXJSdTlRX0ZIOEFzS2c2Zm1odENGYWdjbml6NVJ0UTNTbmVLOENGRXJ2VTBWdVlkMF8tSVV1ZkNyMzhwQTV3QVFfRjhwV0RDN0RKVkxINkIzUW9kM2tkTTVHZG90MjQ5SVpIWm5OdE1oREZN?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-04T23:01:28+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Qualcomm stock drops 6% on weak earnings forecast as memory shortage weighs on smartphone sales",
-    "url": "https://www.cnbc.com/2026/11/04/qualcomm-qcom-earnings-report-q4-2026.html",
+    "title": "Dow Soars, Leads Postelection Rally; These Three Giants Are Buys",
+    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNQmliVFRWX3pISnI2UzBXQlE0bUhCVExKXzhqZkNWTXY0emxpN2RHYWpqTklDR0x2Mk4talloWE5vSmtZcE9VTlUzVmFhS3ZYZUlpN2psY2lOWGNRV1huaUx5VWtpa29lVGt1ZWFiWU12VzIxamE4cHItM3E4SVAxb2QyZE4wTm8xV0k1RGZDdmhVU0VaLTVsQk9Sd3dnczlpa1JRV2dScVNwOGZpOENqdWRuZi15XzRYaWEyNFFndmFZRHJpNWZYazdMb05PdjJuMEJINS1PRlhESl82VGJFUQ?oc=5",
+    "source": "Investor's Business Daily",
+    "published": "2026-11-04T23:00:00+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "What was really behind Wednesday's monster rally? Trump quickly making peace",
+    "url": "https://www.cnbc.com/2026/11/04/stock-market-rally-trump-midterms.html",
     "source": "CNBC",
-    "published": "2026-11-04T21:36:59+00:00",
-    "lede": "Qualcomm delivered better-than-expected results but issued a weak earnings forecast.",
+    "published": "2026-11-04T22:55:22+00:00",
+    "lede": "The stock market skyrocketed after a decisive sweep for Democrats in the 2026 midterm elections, a move that Trump's reaction added to.",
+    "lang": "en"
+   },
+   {
+    "title": "This year’s worst-performing S&P 500 stock is finally seeing some major relief",
+    "url": "https://www.marketwatch.com/story/this-years-worst-performing-s-p-500-stock-is-finally-seeing-some-major-relief-fff3fa85?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-04T22:46:00+00:00",
+    "lede": "AppLovin’s stock is popping after “clearly positive” earnings results.",
+    "lang": "en"
+   },
+   {
+    "title": "‘The money didn’t work’: Big Tech’s $600mn midterm campaign falls flat",
+    "url": "https://www.ft.com/content/3e65138f-068f-465f-a1ae-a9c61ea1afc4?syn-25a6b1a6=1",
+    "source": "Financial Times",
+    "published": "2026-11-04T22:38:45+00:00",
+    "lede": "Elon Musk rebuked as anger at AI and Silicon Valley fuels support for Democrats",
+    "lang": "en"
+   },
+   {
+    "title": "Qualcomm’s stock falls as twin forces pressure sales",
+    "url": "https://www.marketwatch.com/story/qualcomms-stock-falls-as-twin-forces-pressure-sales-fa161159?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-04T22:03:00+00:00",
+    "lede": "Qualcomm faces the loss of Apple’s business and the negative impact of high memory costs on overall smartphone demand.",
     "lang": "en"
    },
    {
@@ -79,7 +87,9 @@
     "published": "2026-11-04T21:33:37+00:00",
     "lede": "Hyperscalers surge and chipmakers fall as investors bet on winners and losers from expected backlash against the AI boom",
     "lang": "en"
-   },
+   }
+  ],
+  "il": [
    {
     "title": "טאבולה אכזבה את המשקיעים והתרסקה במסחר בוול סטריט",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001562013#utm_source=RSS",
@@ -87,9 +97,7 @@
     "published": "2026-11-04T21:19:00+00:00",
     "lede": "חברת המלצות התוכן הישראלית רשמה ירידה של כ-7% בהכנסות הרבעון השלישי, לצד קפיצה ברווח הנקי שעמד בתחזיות",
     "lang": "he"
-   }
-  ],
-  "il": [
+   },
    {
     "title": "סולאראדג סיפקה תחזית מאכזבת לרבעון הרביעי, וצנחה במסחר בוול סטריט",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001562020#utm_source=RSS",
@@ -113,30 +121,22 @@
     "published": "2026-11-04T21:04:00+00:00",
     "lede": "הדאו ג'ונס זינק בכ-3% • אנליסטים מייחסים את הראלי לירידה בחוסר הוודאות הפוליטי, לאחר שטראמפ הצהיר שהוא מקבל את התוצאות • מניות האנרגיה המתחדשת והבריאות קפצו • שבע המופלאות טיפסו, מניות השבבים נפלו • הדולר איבד גובה…",
     "lang": "he"
-   },
-   {
-    "title": "ב-5.6 מיליארד שקל: תחנת הכוח שורק סגרה פיננסית",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562135#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-04T19:26:00+00:00",
-    "lede": "אדלטק, מנורה וקיסטון השלימו את גיוס המימון להקמת תחנת כוח חדשה סמוך למתקן ההתפלה שורק, שתספק 870 מגה־וואט לגוש דן",
-    "lang": "he"
    }
   ],
   "geo": [
    {
-    "title": "Video: Trump Points to War in Iran for Republican Midterm Losses",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZllhMm5vTV9RUU1lbWhzaGJneU1MVnNZLU1DNzVsb195MmJuVlJKMWFYZWo0RUlOaThXMFE0azlrNlNaM3F1WmVuaUdJYVREaEFpeGFMRTUtZlVraFU5NFlUQ0hzWWVINndlVHRuQ0xZTzUzUk9ZRGFmLTJESUlJb2s3MWhucnVycmU0ekJaamFLS0cwUlR4eWZlU0F5WklrdVNKZ1VrWWNYd2M?oc=5",
-    "source": "The New York Times",
-    "published": "2026-11-04T21:45:49+00:00",
+    "title": "How the Iran war and high gas prices shaped the 2026 midterm elections",
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOT2l3Ym5PWHJfeXd5VEcxdlVCellkenFPX3E2QXRhYzhsN1lfc1ljd2x5dUEzTndWaVBWdG9ZMGl4NkNLb2RQRE9XeVZTS2JVM2gxQVNXdE5Zc2IxTTNVOXM1dFNKYVZaWmlqY3JzTnU0cHRIU1NGVjJ2UXdtVWRSZWxn?oc=5",
+    "source": "CNBC",
+    "published": "2026-11-04T22:58:26+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Beaten at home, Trump faces stark choice on Iran: deal or escalation",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPc3dTRDFGYS1HSWtZcGh3ZTh2MjRleFhNUkwtR0wwSUd3TWlsQU1tcjI2ZG1fa1RxNHEyRDJsSUpjTzNGb0xTRE90Umh1RVdncGxtN29NNVhXel9PMlZ3UEQ1bDJzTkh4V052MEh5UFFteDRHakRVTzVQLS1rdjEzM2xjZDlYdjhCWkxwMkZOMjVSUlhOV2NCVl9ETFROeEN3ZENWQmZiejJhLXctcHFDUkc5d3k?oc=5",
-    "source": "Reuters",
-    "published": "2026-11-04T21:22:42+00:00",
+    "title": "Inside Vance's midterms post blaming Iran war",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQLVB2dmRvVmNJelNpb3lvMTNieEZMN0tRZTlNdldJdTZrc3pTUmN3WlFrUmJXdC1SemZsVGE1SnlIS00yVEw5Y3VHcElMbERXWV9ibGxrQlpxS2Y0cWFFSjAzY1VDSGZVN1Vmc091dnUzZjhoendiU2E2NWFXTm5hQVlIWExqNVRSRmZNUVpGQXczODk2NjBsM093?oc=5",
+    "source": "Politico",
+    "published": "2026-11-04T22:26:00+00:00",
     "lede": null,
     "lang": "en"
    }
