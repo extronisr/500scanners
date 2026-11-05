@@ -327,6 +327,14 @@
    "pivot": 50.95,
    "target": 55.23,
    "stop": 49.42
+  },
+  {
+   "ticker": "HSY",
+   "date": "2026-11-05",
+   "signal_price": 177.43,
+   "pivot": 175.75,
+   "target": 195.34,
+   "stop": 170.48
   }
  ]
 }
