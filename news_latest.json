@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-05T04:31:00.390989+02:00",
+ "generated_at": "2026-11-05T05:31:18.009129+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -9,10 +9,42 @@
  "sections": {
   "us": [
    {
-    "title": "Freshpet: 3 Key Takeaways for Long-Term Investors",
-    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQSVVSbmV6c0hheUFSRWE5eTdVTm5RLXNUWjFpMWdXUFhxSUs1OW1fWjV1S19DRHBTTzdsb2kxZnk2ejFIajlVRkdPTVVkR1NiVWJJZEJSQkM3SjFYUlktQ3NWanNrS3NEWnA5NmVOMU1RWjNXcGJTcG9tQkl6OWdFbDVRbGtHc0hKU0w2TGI4ZER4S2ZZVF85eE9R?oc=5",
+    "title": "US stocks post best day since August after Democrats sweep midterms",
+    "url": "https://www.ft.com/content/a0b18705-3bd8-4886-992c-b6062fdec6ea?syn-25a6b1a6=1",
+    "source": "Financial Times",
+    "published": "2026-11-05T03:11:55+00:00",
+    "lede": "Hyperscalers surge and chipmakers fall as investors bet on winners and losers from expected backlash against the AI boom",
+    "lang": "en"
+   },
+   {
+    "title": "Oil tumbles below $100 on post-election peace hopes",
+    "url": "https://www.ft.com/content/b526f876-810a-4e74-8b8d-4ffca04b29c7?syn-25a6b1a6=1",
+    "source": "Financial Times",
+    "published": "2026-11-05T03:01:11+00:00",
+    "lede": "US vice-president JD Vance blames Republicans’ midterm defeat on anger over Iran war",
+    "lang": "en"
+   },
+   {
+    "title": "APP Stock Soars Over 20% Overnight After Record Q3 – CEO Says Its AI Model Has More Room To Run",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNQVd0MkluLWZ2aDU5cXprTEtDdWxFTGZqOVRYSUJURU13MUFEaXpvTUotQzlnZERYdWp5X0pqVE9xUUl0bnZDVzZmYzJIdFBSUzBXMTBCQzk2Y2xyazlmRG5mVk5GbWk5STdkajE2THB1cUVOZUNvYkVZX0JxSTFhbXQwVUQ4eU8wNDhHaGxNbEE3dw?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-05T02:09:00+00:00",
+    "published": "2026-11-05T02:59:00+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Janus Living Announces Pricing of Upsized Public Offering of Class A-1 Common Stock",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPSTFHdmVZenFHWm9mbHhOZzRHR0t1VjFZQkVuN0JTRlgtM1ZkWXVLaS1fTlZlamtxUXBUWEgwN3htc1owd182ZFZYdEhXSzVCYnBMaWhIUUNWNEJfVjlNZzdlUERUS09ySDM2dWxzcHhMdV9ySy1fV3Fhb2NyZmVoSnRLeHUxN0tCcl8xZkhQQ0g1TEFWTUl0TUx3OHFsZmotMHc?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-05T02:52:00+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Indian shares set to open higher as oil hits 2-month low after US Democratic win",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNVmJaMVVmaUE0cUtPUW9iRklDNUNCV2k4c1NXYzllRGYzeUdXOFJkeGVEOUNsdkhwc0pfc3pkSVdvb3Nwc3FMSE0xTVBnbEtiQ29Gd2NzbmFtMU9rVXNoNXF3MkRrMEtHczdSX0VGUExrTDkyNHAxYWI0SGFWbVRSZWhDaGlvNkhLdUtiZGdDaWVQaFJ0NkRkckJvQ0ZzSnM2dmFUd2tZXzdQaWZBaFN4Y3BNYXo0UkVZRGpQTkdTUQ?oc=5",
+    "source": "Reuters",
+    "published": "2026-11-05T02:37:00+00:00",
     "lede": null,
     "lang": "en"
    },
@@ -22,22 +54,6 @@
     "source": "CNBC",
     "published": "2026-11-05T02:07:35+00:00",
     "lede": "Prediction markets projected election results well before media outlets in an effort to position themselves as fast, reliable news sources.",
-    "lang": "en"
-   },
-   {
-    "title": "Is Broadcom Stock a Buy After Marvell's $115 Billion Deal?",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQjdpcExLSzBnbXZYVFAzRUlmRGtMNEZ6dEFIRDZGaXF0TDRHb0NuSFE0cWJKdWV3cVdNaE1WQ3ZVU1VMTnhoZzQ1X1ZrYXdpV29DT2dPQ1g0dFNyc1Fzc3FBZjJSallXQkp0VjB5NmxJNXhrZzI5cVdDemZNOHVWelZrcTg1NXptdUJEN3hPLTRYQThrRENPUFFnUmM?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-05T01:53:52+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "5 Best Mid-Cap US Stocks to Buy Now",
-    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQcTh2NGc0M0p4XzJ2SkhrcHoyZkMzZXhDMjB2Tm9wRE1hQWtRaVEzdHZQRVZYUEZ0YnZpeFhKc2dIcDFkVW5Va0dvUXM0SURvenk5QktDYkdEUmg5U1h0dnpoLXhiRzJsX1paMERiZFdiNThBbU9idFVCbjUzUXQ2blhzYUZQRmw2WVE?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-05T01:52:00+00:00",
-    "lede": null,
     "lang": "en"
    },
    {
@@ -71,25 +87,17 @@
     "published": "2026-11-05T00:24:57+00:00",
     "lede": "NextDC shares surged more than 40% Thursday morning after Goodman Group and Digital Realty sought to acquire up to a 9.9% stake.",
     "lang": "en"
-   },
-   {
-    "title": "Interest rates expected to rise for first time in over three years",
-    "url": "https://www.bbc.co.uk/news/articles/ck5ynw45jrgqo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC",
-    "published": "2026-11-05T00:00:09+00:00",
-    "lede": "Most analysts are predicting an increase from 3.75% to 4%, the first increase in more than three years.",
-    "lang": "en"
-   },
-   {
-    "title": "‘The money didn’t work’: Big Tech’s $600mn midterm campaign falls flat",
-    "url": "https://www.ft.com/content/3e65138f-068f-465f-a1ae-a9c61ea1afc4?syn-25a6b1a6=1",
-    "source": "Financial Times",
-    "published": "2026-11-04T22:38:45+00:00",
-    "lede": "Elon Musk rebuked as anger at AI and Silicon Valley fuels support for Democrats",
-    "lang": "en"
    }
   ],
   "il": [
+   {
+    "title": "הם השקיעו מיליון שקל במסעדת שף ברוטשילד ונכנסו לסחרור",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562113#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-05T03:28:00+00:00",
+    "lede": "קבוצת האחים אבידן, שמפעילה מסעדות ובתי קפה אייקונים וותיקים, פנתה השבוע לביהמ\"ש בבקשה לעיכוב הליכים על רקע חובות של כ־14 מיליון שקל",
+    "lang": "he"
+   },
    {
     "title": "טאבולה אכזבה את המשקיעים והתרסקה במסחר בוול סטריט",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001562013#utm_source=RSS",
@@ -112,14 +120,6 @@
     "source": "גלובס",
     "published": "2026-11-04T21:13:00+00:00",
     "lede": "חברת הטכנולגיה הלמה במשקיעים כשדיווחה על סכסוך עם לקוח מרכזי, T-Mobile, וסיפקה תחזית לירידה דו ספרתית בהכנסות וברווח",
-    "lang": "he"
-   },
-   {
-    "title": "וול סטריט ננעלה בירוק בוהק; הדאו ג'ונס ביום החזק ביותר שלו מזה שנה וחצי",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001561829#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-04T21:04:00+00:00",
-    "lede": "הדאו ג'ונס זינק בכ-3% • אנליסטים מייחסים את הראלי לירידה בחוסר הוודאות הפוליטי, לאחר שטראמפ הצהיר שהוא מקבל את התוצאות • מניות האנרגיה המתחדשת והבריאות קפצו • שבע המופלאות טיפסו, מניות השבבים נפלו • הדולר איבד גובה…",
     "lang": "he"
    }
   ],
