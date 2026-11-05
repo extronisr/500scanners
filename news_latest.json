@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-05T23:01:06.926016+02:00",
+ "generated_at": "2026-11-06T00:01:06.363301+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -9,28 +9,94 @@
  "sections": {
   "us": [
    {
-    "title": "Bitcoin, stocks crash in steepest selloff since Liberation Day",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTEFVeHdTVEY4a0ZzbFBwa3NFR0NCSkRlUk1YZVgxYWF3SXh6T19wUFJzVWcwTkstX2NSa19aNlRTeGVQaUlyRFlxajhOS3owNkNyRTlmNklRUWswc1pfcUhld294aWhhZi1oQTVhZ2JHVWVsWlRLY2VsS1MycUswVHZoS1YyeHNrZkNDUFRCMmNxSzdMbVpib2Y3XzZDR3ZKRzRESQ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-05T20:21:25+00:00",
-    "lede": null,
+    "title": "Nasdaq drops into correction territory — here’s what typically happens next",
+    "url": "https://www.cnbc.com/2026/11/05/nasdaq-drops-into-correction-territory-heres-what-typically-happens-next.html",
+    "source": "CNBC",
+    "published": "2026-11-05T21:57:33+00:00",
+    "lede": "Nasdaq’s slide into correction territory puts its history of recoveries in focus. Here's what history shows.",
     "lang": "en"
    },
    {
-    "title": "Bloom Energy’s stock is one of the S&P 500’s biggest losers amid fears of data-center delays",
-    "url": "https://www.marketwatch.com/story/bloom-energys-stock-is-one-of-the-s-p-500s-biggest-losers-amid-fears-of-data-center-delays-a44c96bb?mod=mw_rss_topstories",
+    "title": "Major tech stocks plunge as US midterms add to fears of AI slowdown",
+    "url": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC",
+    "published": "2026-11-05T21:56:00+00:00",
+    "lede": "The market has been reacting to possible tougher scrutiny of data centre construction and the AI industry following the US mid-terms",
+    "lang": "en"
+   },
+   {
+    "title": "United Airlines Holdings Inc. stock underperforms Thursday when compared to competitors",
+    "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPTFRWSlFfNTR3Y1pVaFZNdERhUDR5OW9Gdk5OV0szbkFkLW05b21DSnlYME00MERMNGpkS1lvVVZ1d0EycXRJVUhIVmxYa0VpN2dvUF93elFHX3RyOGJxX2xiUU5aT25TTmpQTnVnRmdJSTA0cUhUVXdzZ2RFZHNSOEdPNzR2bVNjR2MzY2Q1MGNxbV9rOHpuMFlpVnMyamxrSUhhNkVLc04tM1lvOVdpOEFSS0V6MUk4dHNveVVfel93ODhCdE1ZX2dkWUo4dUw0WFh0YU91c2F0bjFYS3dxNzRZcGZ1MTBGYUg3STk1MUw2YWVXRDdZ?oc=5",
     "source": "MarketWatch",
-    "published": "2026-11-05T20:21:00+00:00",
-    "lede": "Bloom Energy shares got swept in by tech stocks’ sharp selloff Thursday, as investors fretted that the data-center buildout was at risk of stalling in the aftermath of the U.S. midterm elections.",
+    "published": "2026-11-05T21:54:00+00:00",
+    "lede": null,
     "lang": "en"
    },
    {
-    "title": "Sunny Optical (SEHK:2382) Stock Could Be 19% Overvalued On Cash Flow",
-    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQNnNhNFFiaHN5cXBSeTJ2eHlGQlNrcGF4QUNuZTJmUDRWVldrZWk2d2JtUTV1X2YxazN5cHc2Z0ktdl9xbzhDWnkwQzJ3eS1NNGNIZjJJdy1kYnZFVExpdnhjc3hfVEx5aHdmRWI1dDUyTXpmdWIwcGdKUzl6UHBzazZ1UnFDV3VWNk9oTnoyT2RFMWtVUm43cTF3?oc=5",
+    "title": "Tech stocks log worst day since 2020 as carnage comes to the AI trade",
+    "url": "https://www.marketwatch.com/story/tech-stocks-log-worst-day-since-2020-as-carnage-comes-to-the-ai-trade-56109845?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-05T21:45:00+00:00",
+    "lede": "S&P 500 lost an estimated $2.9 trillion in market capitalization, the largest one-day loss of market value on record",
+    "lang": "en"
+   },
+   {
+    "title": "Buy the dip or wait it out? Young investors react as retail stock selling hits one of its highest levels since COVID crash.",
+    "url": "https://www.marketwatch.com/story/buy-the-dip-or-wait-it-out-young-investors-react-as-retail-stock-selling-hits-one-of-its-highest-levels-since-covid-crash-610d8087?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-05T21:44:00+00:00",
+    "lede": "Some see another buying opportunity. Others fear the worst isn’t over. A market rout is testing the instincts of a generation raised on quick rebounds.",
+    "lang": "en"
+   },
+   {
+    "title": "Elon Musk's Tesla and SpaceX lose over $420 billion in combined market cap after midterms",
+    "url": "https://www.cnbc.com/2026/11/05/tesla-spacex-stocks-fall-after-2026-midterms.html",
+    "source": "CNBC",
+    "published": "2026-11-05T21:43:33+00:00",
+    "lede": "Elon Musk's Tesla and SpaceX lose $420 billion in combined market cap after midterms",
+    "lang": "en"
+   },
+   {
+    "title": "DraftKings Stock Dives on Q3 Miss, Lower Guidance: Company Sees Up to $750M in 2027 Prediction Markets Revenue",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUUhLLTFkYXoyYzZ1SEdZY1ZMZXh3NGkwRzlRTDRBbU1DaTQtZjZqdjBjX1BMSi1XMU1TTlhiaHlVZURDNkhBeHdraTY5a1hBS1EwOUhQMm1MeWRCM0paR1dIQVVQMkhVRUhpV2FSYVhrNHhLcHJacWVlWDkyZDNZaFRxYk5vSHZsWWM5cnZnb0hQTzdPRDZuV1ZKYw?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-05T20:17:39+00:00",
+    "published": "2026-11-05T21:43:20+00:00",
     "lede": null,
     "lang": "en"
+   },
+   {
+    "title": "Illinois Tool Works Inc. stock outperforms competitors despite losses on the day",
+    "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOSzJWQmVsdm1ZWUxBcVhDWUJ0MDNNWEdGdWhiaHI1MlRwZ3pnaHNOSDRBeWs2VERwY3puNFp4VEJpWV80MWRhblN2Wmo4SUN3NXowNl9oTlQzR3k4bFM4cExxcXBMT3k3SXVxMWpPUVc5SDh4Z3l3YTJTT1pfX0Z6S0lHWDZIbW5wclNRbFdZM2hMMjN1a05JVlBSSlAyVGIwRnRQSWJONEZwNndCbmhacGlDeFR2bmFTN0cxbFpYZW9OaEkzYjVIWktodVdLM2VuWmVQal9fbEI3eUtjSGJTdUlkY1V5NDM5SW42czdB?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-11-05T21:43:00+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "The October jobs report is out Friday. Here's everything to expect",
+    "url": "https://www.cnbc.com/2026/11/05/october-jobs-report-preview.html",
+    "source": "CNBC",
+    "published": "2026-11-05T21:32:52+00:00",
+    "lede": "The Bureau of Labor Statistics releases the October nonfarm payrolls report Friday at 8:30 a.m. ET.",
+    "lang": "en"
+   },
+   {
+    "title": "Nasdaq sees worst day in 18 months as investors bet on AI slowdown after Democrats’ election triumph",
+    "url": "https://www.theguardian.com/business/2026/nov/05/nasdaq-heading-for-worst-day-in-18-months-as-wall-street-sustains-widespread-losses",
+    "source": "The Guardian",
+    "published": "2026-11-05T21:23:18+00:00",
+    "lede": "Nearly $2tn shaved off Nasdaq value as worries of curbs to AI datacenters ripple across bourses The Nasdaq share index had its worst day in 18 months after slumping 5.5% on Thursday amid growing signs that the…",
+    "lang": "en"
+   }
+  ],
+  "il": [
+   {
+    "title": "נאסד\"ק צלל ביותר מ-5%: וול סטריט ביום הגרוע ביותר מאז אפריל 2025",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562117#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-05T21:00:00+00:00",
+    "lede": "נאסד\"ק בטריטוריית תיקון, מדד השבבים נפל ב-11%, S&P 500 ביום הכי גרוע מאז אפריל 2025",
+    "lang": "he"
    },
    {
     "title": "מניות השבבים מפילות את נאסד\"ק במעל 5%, מדד הפחד מזנק ב-50%",
@@ -40,56 +106,6 @@
     "lede": "נאסד\"ק בטריטוריית תיקון, מדד השבבים נופל ב-11%",
     "lang": "he"
    },
-   {
-    "title": "3 Lithium Stocks To Watch With Market Caps Up To $919 Million",
-    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOa0g0d0FUREowSHNMTzNOUmRyU1dmYmhsTkdHdFdMM04wN3RLUkdFN2ViY1J1SkNENmtoOFdTVGFCbl8zOHN4U0FtOTRfRmwzZnJlbzFLS1JMUXJoY184am8zbFEtOUl0VXgxalRwQ0l0Q3NzMmF5UXBBUUJycHBJcGNFVFVTanEzaU8wYzVicGVoU1JYYkhvRG5B?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-05T20:15:02+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "AI meltdown: Chip stocks and neoclouds plunge, pushing Nasdaq to worst day since April 2025",
-    "url": "https://www.cnbc.com/2026/11/05/qualcomm-earnings-chip-stocks-election.html",
-    "source": "CNBC",
-    "published": "2026-11-05T20:08:49+00:00",
-    "lede": "Companies tied to the AI buildout are all selling off as concerns mount about a slowdown following the midterm elections.",
-    "lang": "en"
-   },
-   {
-    "title": "How Wall Street's postelection rally got obliterated — and what's next",
-    "url": "https://www.cnbc.com/investingclub/2026/11/05/how-wall-streets-postelection-rally-got-obliterated-and-whats-next.html",
-    "source": "CNBC",
-    "published": "2026-11-05T20:06:31+00:00",
-    "lede": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
-    "lang": "en"
-   },
-   {
-    "title": "Wall Street mega-donors clobbered by Democratic sweep",
-    "url": "https://www.ft.com/content/1338f6b6-81b1-478b-9807-5cfe1fc39113?syn-25a6b1a6=1",
-    "source": "Financial Times",
-    "published": "2026-11-05T19:48:28+00:00",
-    "lede": "Top hedge fund managers and private equity executives spent more than $300mn on Republican campaigns to little or no effect",
-    "lang": "en"
-   },
-   {
-    "title": "After tech-stock rout, October jobs report could bring relief — or more pain",
-    "url": "https://www.marketwatch.com/story/after-tech-stock-rout-october-jobs-report-could-bring-relief-or-more-pain-db93357e?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-05T19:46:00+00:00",
-    "lede": "After a tech-led meltdown in the stock market, the October jobs report on Friday morning could bring investors some encouraging news — or add to their misery.",
-    "lang": "en"
-   },
-   {
-    "title": "Wall Street's fear gauge surges the most since April. Why traders think it should be even higher",
-    "url": "https://www.cnbc.com/2026/11/05/wall-streets-fear-gauge-surges-the-most-since-april-why-traders-think-it-should-be-even-higher.html",
-    "source": "CNBC",
-    "published": "2026-11-05T19:20:21+00:00",
-    "lede": "From its intraday low to high Thursday, VIX moved more than 11 points, the biggest one-day move since April 9.",
-    "lang": "en"
-   }
-  ],
-  "il": [
    {
     "title": "מחר בת\"א: אלו המניות שיקרסו והנה המניה שתפתיע לטובה",
     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1FQVlEb1gzV1hUWk9obUpUZFJ4ZVBYVHAyeWlIT1lXLVhNLXBLUHNwZ2s0dkpZREVhZFM0SGVfd2xwNTJLTGZmOURQR19DZWRLV3dmdUpKcmE4UGdraFBqNlNuR0hicWpKZ3NYV0otZVQ?oc=5",
@@ -115,27 +131,11 @@
     "lang": "he"
    },
    {
-    "title": "יום חריג: הבורסה עם מחזור של 19.4 מיליארד שקל – השני בגובהו בעשור האחרון. זו הסיבה",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562184#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-05T16:51:00+00:00",
-    "lede": "עדכון מדדי המניות החצי שנתי התרחש הערב בבורסה בתל אביב",
-    "lang": "he"
-   },
-   {
     "title": "המלחמה באיראן פגעה באמירייטס: הרווח צנח ב-66%, מספר הנוסעים ירד ב-22%",
     "url": "https://finance.walla.co.il/item/3875139",
     "source": "וואלה",
     "published": "2026-11-05T16:46:00+00:00",
     "lede": "חברת התעופה מדובאי הרוויחה כ-903 מיליון דולר במחצית הראשונה של שנת הכספים, על רקע סגירות המרחב האווירי והתייקרות הדלק. מנגד, הכנסות חטיבת המטענים זינקו ב-52%",
-    "lang": "he"
-   },
-   {
-    "title": "\"סערה מושלמת בשווקים\": מה עומד מאחורי הקריסה בוול סטריט והירידות החדות בת\"א?",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562330#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-05T16:33:00+00:00",
-    "lede": "המסחר בוול סטריט מתנהל בירידות חדות, לאחר שהמסחר בבורסה המקומית ננעל באדום בוהק",
     "lang": "he"
    },
    {
@@ -157,18 +157,18 @@
   ],
   "geo": [
    {
-    "title": "Saudi coalition intercepts missile fired towards Medina",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdlozTVc2c0N1andBRHJkTm9DMVh6RFBJMDZUOExPNm5SN255TWUzSHlkNGhOOWNObHdlTUhrRG5IRENNN3RWd1o4bmJuRVBlNV9RWThWYU5nNzJwb3VFc05UTVAzX0xMVWlNM0NWTTZnOHN2TVhxZ0o3bWMyMVFIWi1kVmwxODVkdl9aUTI5YnViYy1sWGdHbjNLZEPSAaIBQVVfeXFMTXF3eS1lSEdCdUlaTWV1RGNQTDZXLXN6MV95VmQtS09XWm12WnBIem4wWERWckRqR2pCVUp0SUVRT2RmcHBvQXJaS3NKSVA4VUlfSmdibDBkNG1tQklIakprQjYtUWNrRzI5MjNURzhwTnZpcTV1OG0zQVhERU91UHZidnB5T2JBczVqMU41WU5ydHhqQV85UXMtNFZZOXlmX1Zn?oc=5",
-    "source": "Al Jazeera",
-    "published": "2026-11-05T20:49:13+00:00",
+    "title": "Despite the hardships of war, Iran’s rulers still have a base of support",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMnlyRHJ3YzRja1JVVUpSOG8za0dFSWVLVFBQbWpITHdEWHc2a2dRaVNrUVRVaFlEaTdoQjk2ZXlDUUdmaWdHTFFDbDE1Rm4xNmRJRklUR1hoZHo3S082VFMwb21KYjBlZjdpMzJnOVh2MFhKZGpGUFhTaUZuUXNLVk1sMkRvbjdpVDVmS3JMcjI5STQzeUdoZFp4UnZyNnpxNkM2ZE1nYVNMSTkyZldQSnNhck5XZw?oc=5",
+    "source": "NPR",
+    "published": "2026-11-05T21:43:07+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Melania Trump hosts Russia-Ukraine meeting after Oleshky ceasefire",
-    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOSE4tN05nZGhYNTdtNGhaM3FwS3FYOWpJajJTZ3pSVEJvMHhaVzJTSVRrUndWNTYxU3o3NUtIS0Q3Nm1SbXJMdmQyQVowa3NqWXBaU3kxNDZOZGd4bTNlR0QxeUg3MTNOaWNtWFhOb0RFR1FQck93XzROak1ia2h3eXN6S1BPaVcwM3hjSkVSSmtkWmJXcEhUVkxTNDhvQVduYkdVRHA5ZmtLeUFEeW1PWUlpWkJEQWZz0gG-AUFVX3lxTFBGUkNYcDlfUmQycWw3eUszTUEyUUZrT01VYlpuaVZ3VEFqZEYzMHVMYUxHeWVMUmRxVXh5T0twUDVVQ1pncEpJN2FoWUNQcHpYZjYxallYS3UwLVV6clhUakoyMVRISGNob0J2RFFjLURyQUZwTU9LMGs0dHBKU19PdXp0eWs3SXZDRU0wYmZYZXVoNFluenY2c2xGZ0ppdTlwVUVBRkpFVHBzYS1hQ0FKSTBJNmJPcjF6NFpPZ1E?oc=5",
-    "source": "Al Jazeera",
-    "published": "2026-11-05T20:44:03+00:00",
+    "title": "How to read the Iran war tea leaves",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQUWN4ZVdGOGUyVTc2TUsxSGNoUkJhWFo0QThCcEYwMmZ6dVhWZWlfSFZzOVozR1N3aEUxQ01XQUx4SkNSU29PMm5jWVpyTzVtS0JqWkt2WEJHSWwxX1N5Vkh1RjZobXZWZnZrMWlqY2FKMTJ1QWZyZFNGWEhrUlZVdkRxbDc3eDUyeGUtVHZLZTM1VXRNQVB6WUZyU2VNV2pQczJ1TnRtaVlRX2N1R0FZdmtLLTRxWkk?oc=5",
+    "source": "Politico",
+    "published": "2026-11-05T21:11:46+00:00",
     "lede": null,
     "lang": "en"
    }
