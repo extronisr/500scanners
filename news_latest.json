@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-05T14:31:04.248025+02:00",
+ "generated_at": "2026-11-05T15:31:06.691046+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -9,42 +9,58 @@
  "sections": {
   "us": [
    {
-    "title": "Bank of England hikes interest rate for the first time since Iran war, warns inflation will near 5%",
-    "url": "https://www.cnbc.com/2026/11/05/interest-rates-inflation-uk.html",
-    "source": "CNBC",
-    "published": "2026-11-05T12:27:01+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Interest rates hiked to 4% in first increase in over three years",
-    "url": "https://www.bbc.co.uk/news/articles/ck5ynw45jrgqo?at_medium=RSS&at_campaign=rss",
+    "title": "Faisal Islam: How high will interest rates go?",
+    "url": "https://www.bbc.co.uk/news/articles/ckr5y0y37gv3o?at_medium=RSS&at_campaign=rss",
     "source": "BBC",
-    "published": "2026-11-05T12:17:47+00:00",
-    "lede": "Most analysts expected the increase from 3.75% to 4%.",
+    "published": "2026-11-05T13:17:10+00:00",
+    "lede": "The BBC's economics editor views one more interest rate as likely, but thinks that will be all.",
     "lang": "en"
    },
    {
-    "title": "An Anthropic IPO when the AI trade is this turbulent? Godspeed!",
-    "url": "https://www.marketwatch.com/story/an-anthropic-ipo-when-the-ai-trade-is-this-turbulent-godspeed-08ca0496?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-05T12:16:00+00:00",
-    "lede": "Wall Street takes a harder look at AI costs after historic midterm results. Plus, the upside to Apple’s lack of artificial-intelligence spending.",
-    "lang": "en"
-   },
-   {
-    "title": "IREN is Only Fit for a Specific Investor Currently",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNWGFYVnRVbFBVMkY5TE1PTDRRS2RwRjM0VjhHODVIaDdXZ1lkYWx0cENrb3U5VDV0NThsUmp2V1lYelpGTUt2ZS1BNHR1aktwVktaRkRWWVVpM21YSEowVllYWG1nS0tVOFU3QU5OQXhVaGdfc1B5SDZwRGpxSzIycl9vQUJ3YWwwUTFHN0xvbFhVLXlnUnlXTktJa04?oc=5",
+    "title": "Can Sezzle (SEZL) Justify Its Price After Raised Guidance?",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZEZ4c014TEtZNG95ZTJvYUJmWnFuOTU5UXlBc2tSaU1sZVhaZlUwcXp5ZmhXZ2ZJOVVzb1lQYlFEYjJBWWdrQzBrX09oU21DQllCVmhGNDRJU3BpNFlVdnUxcVkxcTB3N0V3bmdtUmVzSnNna3R6cUw3TnJBaGtXOTUzblZzVlo0anhoUW5FbHBjcVpiT3U1bnkteUNGZw?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-05T12:15:22+00:00",
+    "published": "2026-11-05T13:17:04+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Middleby: Q3 Earnings Snapshot",
-    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOckNCVFY0bW50UklQU2tDMm91Qi1zUUNhM2hDUkcwdEYxOG5TblJzUVBzQjRfdTRCWlpDajkwVGZUZFR3WTBYY3lCS2lyWGR4SDI2MzJ5dW1ydVVNMEQtVU5sQ05ZZWxnRzNxWnp6VVBlbDRpMDVJc0VXV0ZIZzJpWFd4aFBuRFNNTlpacFRGN3d1M2tlVjVvZkZR?oc=5",
+    "title": "Should Record Results Require Action From Parker Hannifin Stock Investors?",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPaWMweHlubVhweFA3NlUzLW5LWExzYnN3Q185clc4cHN3RGU0cXJSQzJXOVJWSWZLeWZkMW5CYnFjZ0ljSVZYSTZOZzVQaGMwejNGMGFjODNjTW9vdDk1b1BvM3pNanV2WXpOejBkYjFkZkZIX1dPZERZVHJhQW1QREdReFphNGRVeFRKSUtVbzVvTFEyMlk2QzNtbTlMdnFNVEpZ?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-05T12:15:03+00:00",
+    "published": "2026-11-05T13:10:34+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Three ways the interest rate rise could affect you",
+    "url": "https://www.bbc.co.uk/news/articles/cx4g1q3vlp62o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC",
+    "published": "2026-11-05T13:08:30+00:00",
+    "lede": "Job, loans and savings are all affected by the rise in interest rates announced by the Bank of England.",
+    "lang": "en"
+   },
+   {
+    "title": "Today’s UK interest rate rise unlikely to be the last unless Iran war ends, Bank of England warns – business live",
+    "url": "https://www.theguardian.com/business/live/2026/nov/05/bank-of-england-interest-rate-decision-pound-inflation-oil-iran-stock-markets-latest-news-updates",
+    "source": "The Guardian",
+    "published": "2026-11-05T13:08:30+00:00",
+    "lede": "UK hit by first interest rate rise in three years, as Bank predicts inflation will approach 5% by middle of 2027 UK government bond prices are also rallying today. This has pushed down the yield, or rate of return, on…",
+    "lang": "en"
+   },
+   {
+    "title": "A prolonged war in Iran is the market’s real ‘black swan,’ says this strategist",
+    "url": "https://www.marketwatch.com/story/a-prolonged-war-in-iran-is-the-markets-real-black-swan-says-this-strategist-65d105c7?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-05T13:07:00+00:00",
+    "lede": "Alicia Levine, of BNY’s wealth management business, said markets have not priced in the possibility of the war in Iran lasting for a long time.",
+    "lang": "en"
+   },
+   {
+    "title": "US Equity Futures Mixed Pre-Bell as AI Stocks Dip Following Democrats' Midterm Win",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOSTRCSjg2N3Q1R21Ka1BBbW5Cay1GdUpTN3U0b3gtVlpWNDFuc2taYmdNa3VjTDAxT1hSbVQyM1RuUFdSbGp5VHFZSmdYQktCN2h3QU5CQ19IUUNxR054OS1rMG50UmxWdjVaeHNkaDBNdEJDRlV3ZWUwT0FMX2dUdURmeWRtSXpYeTlEZE1jV25UZTYtZnhN?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-05T12:59:58+00:00",
     "lede": null,
     "lang": "en"
    },
@@ -52,74 +68,58 @@
     "title": "Here's what the Democratic election rout could mean for the U.S. economy",
     "url": "https://www.cnbc.com/2026/11/05/emocratic-midterm-economy.html",
     "source": "CNBC",
-    "published": "2026-11-05T12:11:05+00:00",
+    "published": "2026-11-05T12:53:14+00:00",
     "lede": "The biggest forces shaping the economy aren't going to change just because the party in power did.",
     "lang": "en"
    },
    {
-    "title": "Three ways the interest rate rise could affect you",
-    "url": "https://www.bbc.co.uk/news/articles/cx4g1q3vlp62o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC",
-    "published": "2026-11-05T12:11:04+00:00",
-    "lede": "Job, loans and savings are all affected by the rise in interest rates announced by the Bank of England.",
+    "title": "European stocks approach all-time high on Democratic sweep",
+    "url": "https://www.ft.com/content/1ca182d6-8d16-4ddb-98fb-cf933b4c3073?syn-25a6b1a6=1",
+    "source": "Financial Times",
+    "published": "2026-11-05T12:33:06+00:00",
+    "lede": "Investors bet scale of Republican defeat in US midterms will restrain White House policymaking that has weighed on markets",
     "lang": "en"
    },
    {
-    "title": "הבנק המרכזי בבריטניה מעלה את הריבית - לראשונה זה 3 שנים",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562117#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-05T12:06:00+00:00",
-    "lede": "בורסת פריז מטפסת בכ-0.7% • מניות השבבים וה-AI מאבדות גובה במסחר המוקדם בוול סטריט • נעילה מעורבת באסיה בעקבות הניצחון הדמוקרטי בבחירות בארה\"ב - בורסת סיאול צנחה בהובלת מניות השבבים, בורסת הונג קונג זינקה • מחיר הזהב…",
-    "lang": "he"
-   },
-   {
-    "title": "Nvidia Investors Need to Be Paying Attention on Nov. 17",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWXc4U19XbDRuZHV2Rm9IYzVEb0toT21CaF9PaGt6M3plYVlUczlvWGJKdjRRY2tfT2xZbmJ4bEgzd1BMWkhwRFExSENBTmNZUHBqV29hNjFqdWkyOEpabnZkS3ByRVlnSEVKSmpseFBKZnExeEFDUU1MQXZGcGo3M2VsYzJsc1FaSksyQTZ2Q2cwUXpZVE9CQWY5Qm1TTWt4MXVLNg?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-05T12:05:00+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "World's largest olive oil company plummets 18% after rivals agree to takeover deal",
-    "url": "https://www.cnbc.com/2026/11/05/deoleo-olive-oil-takeover-dcoop-acesur.html",
-    "source": "CNBC",
-    "published": "2026-11-05T11:42:28+00:00",
-    "lede": "The world's largest olive oil company, Deoleo, plummeted in early trading after two of its rivals announced plans to acquire the firm.",
+    "title": "Interest rates could go ‘significantly higher’ if oil prices keep climbing — even if the Iran war ends soon",
+    "url": "https://www.marketwatch.com/story/interest-rates-could-go-significantly-higher-if-oil-prices-keep-climbing-even-if-the-iran-war-ends-soon-e3493498?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-05T12:33:00+00:00",
+    "lede": "Strategists at Bank of America found a dramatic correlation between interest rates and oil prices in the U.S., U.K. and Germany.",
     "lang": "en"
    }
   ],
   "il": [
    {
-    "title": "פלייטיקה הכריעה סופית שהפסיקה לחפש רוכש. המניה קופצת",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562198#utm_source=RSS",
+    "title": "S&P הוציאה דוח שגוי על בנק מזרחי טפחות - ונאלצה לתקן",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562201#utm_source=RSS",
     "source": "גלובס",
-    "published": "2026-11-05T12:15:00+00:00",
-    "lede": "חברת הגיימינג הישראלית, ששכרה לפני כחצי שנה את מורגן סטנלי כדי לבחון \"הצפת ערך\", הודיעה על סיום התהליך - ללא עסקה",
+    "published": "2026-11-05T13:28:00+00:00",
+    "lede": "אירוע חריג בשוק: דוח של חברת הדירוג S&P הציג תחזית שלפיה התשואה להון של מזרחי טפחות תצנח בשנים הקרובות, דבר שעורר תמיהה בקרב פעילים בשוק וגרם ללחץ שלילי על המניה",
+    "lang": "he"
+   },
+   {
+    "title": "הבנק המרכזי בבריטניה מעלה את הריבית - לראשונה זה 3 שנים",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562117#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-05T13:15:00+00:00",
+    "lede": "בורסת פריז מטפסת בכ-0.7% • מניות השבבים וה-AI מאבדות גובה במסחר המוקדם בוול סטריט • נעילה מעורבת באסיה בעקבות הניצחון הדמוקרטי בבחירות בארה\"ב - בורסת סיאול צנחה בהובלת מניות השבבים, בורסת הונג קונג זינקה • מחיר הזהב…",
     "lang": "he"
    },
    {
     "title": "ירידות חדות בבורסה; מניות הבנקים והחברות הביטחוניות במוקד",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001562088#utm_source=RSS",
     "source": "גלובס",
-    "published": "2026-11-05T12:03:00+00:00",
-    "lede": "ירידות חדות בבורסה המקומית: ת\"א 35 צולל בהובלת מדדי הבנקים, הביטחוניות והטכנולוגיה, שסופגים לחץ עקב השלכות תוצאות בחירות האמצע בארה\"ב",
+    "published": "2026-11-05T13:10:00+00:00",
+    "lede": "ירידות חדות בבורסה המקומית: ת\"א 35 צולל בהובלת מדדי הביטחוניות והטכנולוגיה, שסופגים לחץ עקב השלכות תוצאות בחירות האמצע בארה\"ב",
     "lang": "he"
    },
    {
-    "title": "למונייד עקפה את ציפיות השוק ומעדכנת כלפי מעלה את תחזית ההכנסות השנתית",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562194#utm_source=RSS",
+    "title": "נובה עוקפת את התחזיות: \"בטוחים ביכולתנו למנף את ההזדמנויות\"",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562206#utm_source=RSS",
     "source": "גלובס",
-    "published": "2026-11-05T11:42:00+00:00",
-    "lede": "הכנסותיה של חברת הביטוח הדיגיטלי נעמדו על 336 מיליון דולר - צמיחה של כ-73% ביחס לרבעון המקביל אשתקד",
-    "lang": "he"
-   },
-   {
-    "title": "ב-17 מיליון דולר: הצעד החדש של ישראייר",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562193#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-05T11:36:00+00:00",
-    "lede": "ישראייר חתמה על מזכר הבנות לרכישת מטוס A320-200",
+    "published": "2026-11-05T13:10:00+00:00",
+    "lede": "נובה עקפה את תחזיות האנליסטים עם צמיחה של 28% בהכנסות וזינוק של 46.5% ברווח הנקי ברבעון השלישי, והציגה תחזית חיובית לרבעון הבא",
     "lang": "he"
    },
    {
@@ -141,18 +141,18 @@
   ],
   "geo": [
    {
-    "title": "U.S. Oil Industry Earned Over $130 Billion in Profit During Iran War",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOcFNiUjUzdFh6a1pRNzRJazBScGR1cVkxRDRqMnYwUFRleGRlWTZZYWdTRGRsVkZ6Y1NldWRNeHV5REJLc3VvR0h3UlRUcVY2Rl9jS3VxTXgxcnZ2Zjcta0tqSUtLRERVZ25xZ3pTN2V0Y0JDZDdOZVNDazBubGQtR2gwbDMwZ0QxeEYteGdXbEY1WlhubnFiWXZXQThWUFhXdkRxVQ?oc=5",
-    "source": "The New York Times",
-    "published": "2026-11-05T11:33:20+00:00",
+    "title": "Heritage Foundation's Derek Morgan: Iran strategy weighs military, diplomacy and sanctions",
+    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOQ0Q2TGxHZVViTkdUNTlwT2VHVFBQRTJBZGRCOC1RVEZ2dzIyeUNrZ1NPNmZ6Q0hwUUhvb3Q3Vm04dmpXbENXUjZ5RVd4M01XRjF0S2sxaUhDZ043YU5pbDlXNEJVTDFfREh3MFBxd0p6cEJBU3hOekFJU2NDaFNwSDNJamhYZmNkUi02dTBpQ1RWcnlyUkgyeTVCMGRPVHhiRXV3M3VEenZEc2wyWngtcEY4YjJhNVIyd1Nad0FxSmgwZmdWMzhVRjlR?oc=5",
+    "source": "CNBC",
+    "published": "2026-11-05T12:32:35+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Bernie Sanders lost the fight in 2016. A decade later, he won the war.",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOU1hhSkNKLVQxS1JndHNNZTdnZnFmVm5fYXBDZThJVU5fUG9pbHRkXzJwTUwxU3VBWjkxcnZpYnExc0dUYjlkQkhkUXg0RHM1RnUxejhKbmlKdDBpQk95LTk4UGUxb195a29GdllUb1d4dzliQXVNMkFyU3dxTGNoeXlETjc?oc=5",
-    "source": "Politico",
-    "published": "2026-11-05T11:05:00+00:00",
+    "title": "Congress defeat: How Trump’s allies are distancing themselves from Iran war",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObGJ5X3dxaVJBdXhrVE93dU51d3NtVklVU2U1aGVTTERHQS03enZjZGtvRlNPeldGcnh4SnBrejFsRWcta0poZjl3LVpJMUFSaHRyX0tzX1JpTExvUG9wSVZoWTlYT0FSQXU1M2VFa0VYeDlsRVVVNXpxNm5PbGppWDRJYTBHaktfeXRUeHllLXdlVkZwek43QVc3cjEwNUFvRVZsb1dveU93SXlkelJwSFM5RjPSAboBQVVfeXFMUEstdnE1V2M2V2ZuWjUweGdMeE1EY0Q0VS1kbVpWLVlqU2lzWTlUcEpzU1lRQkFDTkNVUDY1MEZfVHN0cG03NnJOdVl1WjlDenpUcDlaYjJzME5rSm9zLWh2WmhTaHBGeTRHVjM4T0M5bUxHdVZwOWkwdHFyRzdWMGNnSG9oUTFuY3BCTmVHRlBTMmFSOHAzakJGTkpwUUhpVndhd2VlYklJS3pacWp2Z0tIVER2LUs3ckNn?oc=5",
+    "source": "Al Jazeera",
+    "published": "2026-11-05T11:45:35+00:00",
     "lede": null,
     "lang": "en"
    }
