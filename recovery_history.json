@@ -295,6 +295,38 @@
    "pivot": 114.63,
    "target": 124.16,
    "stop": 111.19
+  },
+  {
+   "ticker": "CNM",
+   "date": "2026-11-05",
+   "signal_price": 46.94,
+   "pivot": 45.97,
+   "target": 52.52,
+   "stop": 44.59
+  },
+  {
+   "ticker": "FND",
+   "date": "2026-11-05",
+   "signal_price": 51.47,
+   "pivot": 50.53,
+   "target": 58.21,
+   "stop": 49.01
+  },
+  {
+   "ticker": "ALGN",
+   "date": "2026-11-05",
+   "signal_price": 159.37,
+   "pivot": 156.5,
+   "target": 174.95,
+   "stop": 151.81
+  },
+  {
+   "ticker": "SON",
+   "date": "2026-11-05",
+   "signal_price": 51.37,
+   "pivot": 50.95,
+   "target": 55.23,
+   "stop": 49.42
   }
  ]
 }

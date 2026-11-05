@@ -1,5 +1,5 @@
 {
- "fetched_at": "5.11.2026, 22:34",
+ "fetched_at": "5.11.2026, 23:04",
  "items": [
   {
    "title": "FDA approves first ever plasmid DNA-based immunotherapy - Drug Discovery News",
@@ -1651,8 +1651,8 @@
   {
    "title": "Once-monthly bofanglutide maintained weight loss over 24 weeks in topline phase 3 results - 2 Minute Medicine",
    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbFpzdUZIaGozV0poVXNMbHJ4cUJ4bDFRZnNyYXBZVWhCS1FIRWdmQUhlemxjT0JLbXU5WExzdVdpdjFHQ2NDS3l5WmRSYjhEY2ptT1pJLUF5Y3VDZjgtSnkxZDZIQkY3TWQyTDVNdlR1cUl2NmJ6NFpySktZa3pIZm5sMTVKVTVfcHNHakpMcUtyd0FCWEViejluaTJHVG5CdjhDbWxaOWY5TDBhSDF0d2k3WDV1enQ0S0ZzaWgzOA?oc=5",
-   "pub_ts": 1793890125.0,
-   "date": "5.11.2026, 16:48",
+   "pub_ts": 1793890184.0,
+   "date": "5.11.2026, 16:49",
    "cat": "phase3",
    "sev": 3,
    "dir": 0,
@@ -2951,27 +2951,6 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQNmhwLXRkVmRoUFpLQ3NWSHVPMkVmX08wOW02eFAxNFhRNWVaRWR4ek90TEVrdC11bFdvUGR3V2d3R0ZDcWZXM1VlNTJOQkxXcW0tLUJ2UmU1THFFald1YkZHa29mT0JKb0tzWGRxdm9JbzZjdklBWUM1MG03d0RtMm5JRTY5Q3pXLUFtMWg0aWxjaFVNeWM1V3dGQQ?oc=5"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "ESMO: After leak, Merck and Moderna post phase 3 cancer vaccine data early - Fierce Biotech",
-   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQLWNXOEVpSWw4cHJ1cWVRRV9vWl95cGpIVnMyeUNLZXRTQzRNNDUxTnNNUTY5dU5FSl9iV2RVVlozZFJhbWNoME02NmNMMnhITjNIREM3S0FFejYtT0JHUWJQZkhoR3dqbUhfdkRMcDZMU2NWUHN1X0FxcDBkWkJidTlPZkRhZ0lfYTMyNmhLWXFiRWFiTFE?oc=5",
-   "pub_ts": 1792701900.0,
-   "date": "22.10.2026, 23:45",
-   "cat": "phase3",
-   "sev": 3,
-   "dir": 0,
-   "tickers": [],
-   "companies": [
-    "MRNA",
-    "MRK"
-   ],
-   "sources": [
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQLWNXOEVpSWw4cHJ1cWVRRV9vWl95cGpIVnMyeUNLZXRTQzRNNDUxTnNNUTY5dU5FSl9iV2RVVlozZFJhbWNoME02NmNMMnhITjNIREM3S0FFejYtT0JHUWJQZkhoR3dqbUhfdkRMcDZMU2NWUHN1X0FxcDBkWkJidTlPZkRhZ0lfYTMyNmhLWXFiRWFiTFE?oc=5"
     }
    ],
    "ncts": []
@@ -4513,6 +4492,26 @@
    "ncts": [
     "NCT03036488"
    ]
+  },
+  {
+   "title": "IGC Pharma's Alzheimer's Agitation Drug Candidate Now Patented in the U.S., Canada, and Mexico as Phase 2 Readout Nears - Newswire",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNT2Q2UEowR0Z2cUJvcXRfa3RWTVR0TXI1US01bER4YU1tQjRwYWN2NVhvbHBQTmJmS0Zwd1VfMVZ4UG1vekZJc3lMRTBmWmNyX2NMZGtUczgxOFdybWtsNW8tZk9taFAtNWtyMUpQQXJCOVo2dVl3WUhTOEpwQkl6b3NkRnFNQzRqRmVESUNHalcxdmsxclB4T3VwblFjSWRrMnY5azNmVEtHRERR?oc=5",
+   "pub_ts": 1793891880.0,
+   "date": "5.11.2026, 17:18",
+   "cat": "phase2",
+   "sev": 1,
+   "dir": 0,
+   "tickers": [],
+   "companies": [
+    "IGC"
+   ],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNT2Q2UEowR0Z2cUJvcXRfa3RWTVR0TXI1US01bER4YU1tQjRwYWN2NVhvbHBQTmJmS0Zwd1VfMVZ4UG1vekZJc3lMRTBmWmNyX2NMZGtUczgxOFdybWtsNW8tZk9taFAtNWtyMUpQQXJCOVo2dVl3WUhTOEpwQkl6b3NkRnFNQzRqRmVESUNHalcxdmsxclB4T3VwblFjSWRrMnY5azNmVEtHRERR?oc=5"
+    }
+   ],
+   "ncts": []
   },
   {
    "title": "Zai Lab reports phase 2 trial results for cancer drug candidate - Investing.com UK",

@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-05T22:01:05.083967+02:00",
+ "generated_at": "2026-11-05T23:01:06.926016+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -8,6 +8,62 @@
  },
  "sections": {
   "us": [
+   {
+    "title": "Bitcoin, stocks crash in steepest selloff since Liberation Day",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTEFVeHdTVEY4a0ZzbFBwa3NFR0NCSkRlUk1YZVgxYWF3SXh6T19wUFJzVWcwTkstX2NSa19aNlRTeGVQaUlyRFlxajhOS3owNkNyRTlmNklRUWswc1pfcUhld294aWhhZi1oQTVhZ2JHVWVsWlRLY2VsS1MycUswVHZoS1YyeHNrZkNDUFRCMmNxSzdMbVpib2Y3XzZDR3ZKRzRESQ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-05T20:21:25+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Bloom Energy’s stock is one of the S&P 500’s biggest losers amid fears of data-center delays",
+    "url": "https://www.marketwatch.com/story/bloom-energys-stock-is-one-of-the-s-p-500s-biggest-losers-amid-fears-of-data-center-delays-a44c96bb?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-05T20:21:00+00:00",
+    "lede": "Bloom Energy shares got swept in by tech stocks’ sharp selloff Thursday, as investors fretted that the data-center buildout was at risk of stalling in the aftermath of the U.S. midterm elections.",
+    "lang": "en"
+   },
+   {
+    "title": "Sunny Optical (SEHK:2382) Stock Could Be 19% Overvalued On Cash Flow",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQNnNhNFFiaHN5cXBSeTJ2eHlGQlNrcGF4QUNuZTJmUDRWVldrZWk2d2JtUTV1X2YxazN5cHc2Z0ktdl9xbzhDWnkwQzJ3eS1NNGNIZjJJdy1kYnZFVExpdnhjc3hfVEx5aHdmRWI1dDUyTXpmdWIwcGdKUzl6UHBzazZ1UnFDV3VWNk9oTnoyT2RFMWtVUm43cTF3?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-05T20:17:39+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "מניות השבבים מפילות את נאסד\"ק במעל 5%, מדד הפחד מזנק ב-50%",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562117#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-05T20:16:00+00:00",
+    "lede": "נאסד\"ק בטריטוריית תיקון, מדד השבבים נופל ב-11%",
+    "lang": "he"
+   },
+   {
+    "title": "3 Lithium Stocks To Watch With Market Caps Up To $919 Million",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOa0g0d0FUREowSHNMTzNOUmRyU1dmYmhsTkdHdFdMM04wN3RLUkdFN2ViY1J1SkNENmtoOFdTVGFCbl8zOHN4U0FtOTRfRmwzZnJlbzFLS1JMUXJoY184am8zbFEtOUl0VXgxalRwQ0l0Q3NzMmF5UXBBUUJycHBJcGNFVFVTanEzaU8wYzVicGVoU1JYYkhvRG5B?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-05T20:15:02+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "AI meltdown: Chip stocks and neoclouds plunge, pushing Nasdaq to worst day since April 2025",
+    "url": "https://www.cnbc.com/2026/11/05/qualcomm-earnings-chip-stocks-election.html",
+    "source": "CNBC",
+    "published": "2026-11-05T20:08:49+00:00",
+    "lede": "Companies tied to the AI buildout are all selling off as concerns mount about a slowdown following the midterm elections.",
+    "lang": "en"
+   },
+   {
+    "title": "How Wall Street's postelection rally got obliterated — and what's next",
+    "url": "https://www.cnbc.com/investingclub/2026/11/05/how-wall-streets-postelection-rally-got-obliterated-and-whats-next.html",
+    "source": "CNBC",
+    "published": "2026-11-05T20:06:31+00:00",
+    "lede": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+    "lang": "en"
+   },
    {
     "title": "Wall Street mega-donors clobbered by Democratic sweep",
     "url": "https://www.ft.com/content/1338f6b6-81b1-478b-9807-5cfe1fc39113?syn-25a6b1a6=1",
@@ -25,67 +81,11 @@
     "lang": "en"
    },
    {
-    "title": "McDonald's Stock Rally Runs Into Wall Street Warning",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQUTdkemtjZlFJZ1NFUXBMZVVQa1pBUUEyQzZXY2dqMzRqaGxaNVJzTFk4d2tnNGJLQTBBNXowd0QyNGhlbTRqckFJUWd0azdkSEhzV3lhWndVUHpva09oWFZydmhmdlUxdThWdGNGM3h3dkxmMm03VExvdldfcEJQVTlsVlV6YkdrSi13N2pNczJDUzRvT0hlb0NnOG8?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-05T19:33:38+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "The ‘Musk selloff’ deepens as Tesla and SpaceX combine for $450 billion two-day wipeout",
-    "url": "https://www.marketwatch.com/story/the-musk-selloff-deepens-as-tesla-and-spacex-combine-for-450-billion-two-day-wipeout-d300ab4f?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-05T19:29:00+00:00",
-    "lede": "Investors worry a divided Washington could derail “Elon, Inc.”",
-    "lang": "en"
-   },
-   {
-    "title": "What Anthropic's IPO could mean for Amazon and Google",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTXd6NEY2WG1OWVdrbGg5Ty1ROXgwdHZXNlBzd2J1VXBfWVNlSGFsdVBKNHVYMTNTYURkdkZram9lVHhDdmV6MnZqZ0lqOEQtU2diY1czeXBWbEc5al9NUEZ5M1NVYVM5MC0yUHV2VkJLWVZZNDVVZUh0YU43cThrSUw2ejlFOG9jZGpZZlZkdmdQaC12d056LU9QbFljcEQtOEdzZF9qUXJsSTJhWGNRcWJ3?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-05T19:27:16+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
     "title": "Wall Street's fear gauge surges the most since April. Why traders think it should be even higher",
     "url": "https://www.cnbc.com/2026/11/05/wall-streets-fear-gauge-surges-the-most-since-april-why-traders-think-it-should-be-even-higher.html",
     "source": "CNBC",
     "published": "2026-11-05T19:20:21+00:00",
     "lede": "From its intraday low to high Thursday, VIX moved more than 11 points, the biggest one-day move since April 9.",
-    "lang": "en"
-   },
-   {
-    "title": "מניות השבבים מפילות את נאסד\"ק במעל 5%, מדד הפחד מזנק ב-60%",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562117#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-05T19:19:00+00:00",
-    "lede": "נאסד\"ק בטריטוריית תיקון, מדד השבבים נופל ב-11%",
-    "lang": "he"
-   },
-   {
-    "title": "Strategy (MSTR) CFO Exit Looms, Does The Stock Look Fully Valued?",
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUHdMSzQ4OUJYUkJuLVlpRWxuN1E3RzhTQW54S05OSDVtcFExRkctMzNDd0g1ZmtiWXl5YUFmODN0MnFsbXltSXNjckJRaTZkdE9HWk51TjloVWxrY296ZkYwS1JVZTFFZ00wVTBoTjh5bm9aRU9iRkU0ck9uS0dEdWQyeGpYV3Fqb2VrY00yY2dnSzZFNnhWYw?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-05T19:10:04+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "US tech shares fall sharply as investors bet on AI slowdown after Democrats’ election triumph",
-    "url": "https://www.theguardian.com/business/2026/nov/05/nasdaq-heading-for-worst-day-in-18-months-as-wall-street-sustains-widespread-losses",
-    "source": "The Guardian",
-    "published": "2026-11-05T18:44:25+00:00",
-    "lede": "Nasdaq heading for its worst day in 18 months in volatile trading on Wall Street The Nasdaq share index was on track for its worst day in 18 months after slumping by up to 5% on Thursday amid growing signs that the…",
-    "lang": "en"
-   },
-   {
-    "title": "We're dipping into our large cash pile to buy this bank on Thursday's sell-off",
-    "url": "https://www.cnbc.com/investingclub/2026/11/05/were-dipping-into-our-cash-to-buy-this-bank-on-thursdays-sell-off.html",
-    "source": "CNBC",
-    "published": "2026-11-05T18:29:21+00:00",
-    "lede": "In times of market volatility, we like to fall back on companies that offer consistent capital returns to shareholders.",
     "lang": "en"
    }
   ],
@@ -157,18 +157,18 @@
   ],
   "geo": [
    {
-    "title": "Melania Trump urges 'humanity over war' with Ukraine, Russia officials",
-    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOWkhXRFdJbFdiTmQySWJyWVRIbHhpdFlXaVRSQmh6UzJvbDJSbWZUdGRwM0VPaFpHbkVpc1VmSlAybEFJUTN0cmNMWkpuX1FJSE8zT3NBYXdXY05lLUhjTldMelM1eGdUWWVnbF9qb0s3VFMySFJ1Qk5GTFJmeXVHM1NLaHNEMzdrZjhXNWpEcVhOQTdSV3V6SVVMQU0xMGtNbUhkblZRdG82aUdvTWxLbHZQUmFpdEh5WUV4ZUgtZU1JcjFjaUxZ?oc=5",
-    "source": "Reuters",
-    "published": "2026-11-05T19:13:42+00:00",
+    "title": "Saudi coalition intercepts missile fired towards Medina",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdlozTVc2c0N1andBRHJkTm9DMVh6RFBJMDZUOExPNm5SN255TWUzSHlkNGhOOWNObHdlTUhrRG5IRENNN3RWd1o4bmJuRVBlNV9RWThWYU5nNzJwb3VFc05UTVAzX0xMVWlNM0NWTTZnOHN2TVhxZ0o3bWMyMVFIWi1kVmwxODVkdl9aUTI5YnViYy1sWGdHbjNLZEPSAaIBQVVfeXFMTXF3eS1lSEdCdUlaTWV1RGNQTDZXLXN6MV95VmQtS09XWm12WnBIem4wWERWckRqR2pCVUp0SUVRT2RmcHBvQXJaS3NKSVA4VUlfSmdibDBkNG1tQklIakprQjYtUWNrRzI5MjNURzhwTnZpcTV1OG0zQVhERU91UHZidnB5T2JBczVqMU41WU5ydHhqQV85UXMtNFZZOXlmX1Zn?oc=5",
+    "source": "Al Jazeera",
+    "published": "2026-11-05T20:49:13+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Video: A ‘Hard Time’ for Vance: Tucker Carlson Thought the Iran War Would Doom the G.O.P.",
-    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPQW5nZXBuN182N3JaUHg4U1NGblcwVVlYUllBNlpkVlYybGl5Qk9mY3dQX2ZWRE4wandHT2tUa0ljcGpzZWhVRTAyNHM4bDZOOHdqekNPclV4djNLaWRVaFZKT2Etalg4VUR4OHlpQUtiNHRBTmpkZVptbFVCbTlHci1PTFlCLUk0R3ZZa1JHX3dNVkZHZDl4cFBPYTdLWG5tR2RaLU82dmprbW5QSEtaN1BmVF9yOUlpM2podzZ5cW45QlFuNnJhbXpwejU0YWJrZ3c?oc=5",
-    "source": "The New York Times",
-    "published": "2026-11-05T19:01:45+00:00",
+    "title": "Melania Trump hosts Russia-Ukraine meeting after Oleshky ceasefire",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOSE4tN05nZGhYNTdtNGhaM3FwS3FYOWpJajJTZ3pSVEJvMHhaVzJTSVRrUndWNTYxU3o3NUtIS0Q3Nm1SbXJMdmQyQVowa3NqWXBaU3kxNDZOZGd4bTNlR0QxeUg3MTNOaWNtWFhOb0RFR1FQck93XzROak1ia2h3eXN6S1BPaVcwM3hjSkVSSmtkWmJXcEhUVkxTNDhvQVduYkdVRHA5ZmtLeUFEeW1PWUlpWkJEQWZz0gG-AUFVX3lxTFBGUkNYcDlfUmQycWw3eUszTUEyUUZrT01VYlpuaVZ3VEFqZEYzMHVMYUxHeWVMUmRxVXh5T0twUDVVQ1pncEpJN2FoWUNQcHpYZjYxallYS3UwLVV6clhUakoyMVRISGNob0J2RFFjLURyQUZwTU9LMGs0dHBKU19PdXp0eWs3SXZDRU0wYmZYZXVoNFluenY2c2xGZ0ppdTlwVUVBRkpFVHBzYS1hQ0FKSTBJNmJPcjF6NFpPZ1E?oc=5",
+    "source": "Al Jazeera",
+    "published": "2026-11-05T20:44:03+00:00",
     "lede": null,
     "lang": "en"
    }
