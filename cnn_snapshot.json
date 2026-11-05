@@ -4,21 +4,21 @@
  "previous": [
   {
    "label": "סגירה קודמת",
-   "value": 19
+   "value": 27
   },
   {
    "label": "לפני שבוע",
-   "value": 34
+   "value": 31
   },
   {
    "label": "לפני חודש",
-   "value": 38
+   "value": 43
   },
   {
    "label": "לפני שנה",
-   "value": 21
+   "value": 23
   }
  ],
  "source": "https://www.cnn.com/markets/fear-and-greed",
- "timestamp": "2026-11-04T23:59:55+00:00"
+ "timestamp": "2026-11-05T01:00:00+00:00"
 }
