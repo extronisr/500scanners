@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-05T02:31:04.672518+02:00",
+ "generated_at": "2026-11-05T03:31:00.871324+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -9,11 +9,51 @@
  "sections": {
   "us": [
    {
-    "title": "Trump committee hearing on Fed Governor Lisa Cook rescheduled to Dec. 14",
+    "title": "White House panel delays hearing on Fed's Lisa Cook to Dec. 14",
     "url": "https://www.cnbc.com/2026/11/04/trump-federal-reserve-lisa-cook-hearing.html",
     "source": "CNBC",
-    "published": "2026-11-05T00:28:21+00:00",
+    "published": "2026-11-05T01:11:26+00:00",
     "lede": "President Donald Trump first tried to fire Lisa Cook in August 2025, but the Supreme Court in June blocked him from doing so, for now.",
+    "lang": "en"
+   },
+   {
+    "title": "Qualcomm’s stock falls as twin forces pressure sales",
+    "url": "https://www.marketwatch.com/story/qualcomms-stock-falls-as-twin-forces-pressure-sales-fa161159?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-05T01:06:00+00:00",
+    "lede": "Qualcomm faces the loss of Apple’s business and the negative impact of high memory costs on overall smartphone demand.",
+    "lang": "en"
+   },
+   {
+    "title": "This year’s worst-performing S&P 500 stock is finally seeing some major relief",
+    "url": "https://www.marketwatch.com/story/this-years-worst-performing-s-p-500-stock-is-finally-seeing-some-major-relief-fff3fa85?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-05T01:05:00+00:00",
+    "lede": "AppLovin’s stock is popping after “clearly positive” earnings results.",
+    "lang": "en"
+   },
+   {
+    "title": "What Is Going On With Zoom Stock?",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPc25KXy1FZEtfOTQ0TG5XVTlIS3QzWWhaSklqVkVUaGVpLVM0aUJ5QXpKdGdqUTltelFpWHkwaHVOYVdLUkRTQk1hbk1FQWdldUpCWTdQc0o0VWlKT0VoN3ZxVnFXSGZXbTdRV0k3VC1PZWRhdXV4b3NtYUtHbmRDRWlvdHRkNjM3?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-05T00:55:54+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Ferguson Enterprises (FERG) Stock Looks Fairly Valued On Cash Flow",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQeHZTM1VxR1dWdWx1TXBabXpmT2N6OGFKdUIyZFNtbDJtU1V1aFV3TjNNYXJMOVBqbXNHcXVTSnlOOE1hRUZHY1FZcDREVGJoa2tOcnRpRGFaWUlrb0hodmw0bnF1LXgxdVBJTUQxb3NCaDBPckVCLVB6d2JmWlkzdTFOZGVQTDRhX2hRV19GZndmbFVGS0RvakwwbjFoVnJnZW5qbw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-05T00:25:00+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "NextDC shares surge 43% as Goodman, Digital Realty buy stake",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZXlYQWM0cDNiTmE3YXF2enhpWGVyOFROdXN4MzFtOEFMRnRmMU9vV2RjOVFfV2h4cVdGR3VnZEhMc3htU0VmXzYzRjlKUTZKX3VzMEhxWHNRcTNNNTR1V1k4RVlYQ3dQcGlGejcxQjFZZjU2WGd3Z0xoV0ZMQWtlV0E3SW5RdE8wMm9fb2FISElTb3l1UjJ5UEl3RQ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-05T00:19:00+00:00",
+    "lede": null,
     "lang": "en"
    },
    {
@@ -25,27 +65,11 @@
     "lang": "en"
    },
    {
-    "title": "Why Alphabet Stock Popped on Wednesday",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOY2x0VEZ1NElpamNUWU40UGFZdDZHVVpiYlVKb3A1MWQxalJ6dlhnd3laR0dBYTluaFdmT05ZNGZrS19qU1FyUmdmUzVhRFo3VFFraGx3XzdveUdzUlp3aE4tRW5RWTgzV3hvS2UxamFXSjktdGRkWURpVmVDTzJnMG9SWTBoNTc2WV9keFBIeDNXcVFMdkt5YWdUTFBsQ1hrRWc?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-05T00:13:00+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
     "title": "Inside India newsletter: India weighs a tax cut to win over foreign investors. Will it work?",
     "url": "https://www.cnbc.com/2026/11/05/india-tax-foreign-investors-nifty.html",
     "source": "CNBC",
     "published": "2026-11-05T00:04:36+00:00",
     "lede": "Foreign investors are losing their appetite for Indian equities, with their holdings touching an all-time low of 14%.",
-    "lang": "en"
-   },
-   {
-    "title": "Microsoft Rides The Wave, Leads These Hot Prospects To Best Stock Lists",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdDBlYlluOFFPMDFTSjdxTTcwSnpEdnE4akNjZF9seEwtdUU4ckNCbHZfWGIxNDdERzFTTWVZOTJRS0JTZWlwb2M0czhlRFpvaDI3U1ZQZHkzYkxkc2k4Mng1S2NGMktTWUdPNzVxZVVqRi1YNktraDN3UTJUVDdVak1TMmFzYU82NjVCeEpB?oc=5",
-    "source": "Investor's Business Daily",
-    "published": "2026-11-05T00:01:00+00:00",
-    "lede": null,
     "lang": "en"
    },
    {
@@ -57,35 +81,11 @@
     "lang": "en"
    },
    {
-    "title": "Wall Street ends higher after Democrats win Congress; data center stocks tumble",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQbWpBY1VHMFd5a2tJXzM1RFFFQTl5Y09aVDgza095UkJKVzNnQ3F4VW1pMzBEazJKMGhlS21zUEdCLXJPOVhWdXRnZmlLRHliMDdqYmt2b2ZWYk5FeW85VnBSalpRd1E5b3BVSUZDU2VLMUNiQm41YWw1SUgxV2dWaUFZUkI2MllhY0Z5ZkZHcWNuQmdCaHBKbVRhck1meTRz?oc=5",
-    "source": "Reuters",
-    "published": "2026-11-04T23:54:37+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "This year’s worst-performing S&P 500 stock is finally seeing some major relief",
-    "url": "https://www.marketwatch.com/story/this-years-worst-performing-s-p-500-stock-is-finally-seeing-some-major-relief-fff3fa85?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-04T22:46:00+00:00",
-    "lede": "AppLovin’s stock is popping after “clearly positive” earnings results.",
-    "lang": "en"
-   },
-   {
     "title": "‘The money didn’t work’: Big Tech’s $600mn midterm campaign falls flat",
     "url": "https://www.ft.com/content/3e65138f-068f-465f-a1ae-a9c61ea1afc4?syn-25a6b1a6=1",
     "source": "Financial Times",
     "published": "2026-11-04T22:38:45+00:00",
     "lede": "Elon Musk rebuked as anger at AI and Silicon Valley fuels support for Democrats",
-    "lang": "en"
-   },
-   {
-    "title": "Qualcomm’s stock falls as twin forces pressure sales",
-    "url": "https://www.marketwatch.com/story/qualcomms-stock-falls-as-twin-forces-pressure-sales-fa161159?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-04T22:03:00+00:00",
-    "lede": "Qualcomm faces the loss of Apple’s business and the negative impact of high memory costs on overall smartphone demand.",
     "lang": "en"
    }
   ],
@@ -128,15 +128,15 @@
     "title": "Trump blames Iran war for GOP losses but says he would ‘do it again’",
     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQWVpGdlowaFpKX2RUVm50ZjAzN3FpTFA2UDdxS1Fld3hfU1hUT1FjbHhuX1VOS3N3UTd4dnFoQXJyRW52WXRjTnM2ZFJtWjduQkRFLTVkQk9SV01JQVdLSFZ4NmtuMmM2bUhsaUh0dEU2V3dkU3hfTC1VTHNKeWc5SF9HbjZZeWRIS3F6VWFWME9sbkIxTUZsdnFPMnpjcWMwMEtLUXhrZmoxVVJaWHZfWWhzUmhrR0xOOUdQc3BWSQ?oc=5",
     "source": "NBC News",
-    "published": "2026-11-04T23:51:48+00:00",
+    "published": "2026-11-05T01:13:16+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Presidential hopeful Vance appears to question Iran war after polls debacle",
-    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPNFdoTi1INVRLRUdkTG9SY3pPQ1dQcTgwTzVjMWQySGdBWUJLczFfMWV1anNEbElxY29VSy1ieGh5dzlCTUhFdEtIMUViLWNURVFEWUw2X3lsbXJVM2dCWW9jQnV2Slg3bm5NMW1iU3JzeHlja2xOSFN6U0ZUR3hwVVRuaU1zV1FmR2p3bTQtczVmMU5VS3NWR2d5d0pzdEpVcFAzNzB6VXc1MUdfVExXX0RwOXRyVEXSAbwBQVVfeXFMTUlnRGFpN3h6WmRvdWJNS1pDdkV3WGJKSC1xNFZtSjNLMWIxRjBweTZYcDZRRzVmdDYxXzNaenQxMzQwUVRqNlpuRW9MaGxHakxsV011NkVTUXZ6LXVjWGItOFZUVzRkTklkOTFYa25oRnNvZTItTWdFLTZpUkwzR3E5ZGpQMzlZdXJNdXRwc2NNRXlYQnQ4LTI0YnExc2RscHhKWEw2ZzdHOHVyWEZaZDFNelVkOGlLOGI4eDM?oc=5",
-    "source": "Al Jazeera",
-    "published": "2026-11-04T23:17:34+00:00",
+    "title": "After midterm defeat, Trump faces mostly bad options in Iran",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4xLW5GUVNsM0M5N3czNGNCaUxWQVNfamtLbFFBdEVzZlEydFJEY3E2TkhJQTN6c3g0LWtaZmJ4bXlOY2FtV0d1c0ROd1JFc045OENVWnpLSGxrbm9sTHJVTzlwQnNUeEJKdE9RT21ValNvUkZRRldSVGVDNHVwTDg?oc=5",
+    "source": "Axios",
+    "published": "2026-11-05T00:59:09+00:00",
     "lede": null,
     "lang": "en"
    }
