@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-05T10:31:02.954851+02:00",
+ "generated_at": "2026-11-05T11:31:04.369703+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -9,28 +9,44 @@
  "sections": {
   "us": [
    {
-    "title": "עליות באירופה; מניות השבבים הפילו את בורסת סיאול ביותר מ-5%",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562117#utm_source=RSS",
+    "title": "העיר השנייה בגודלה בבריטניה שוקלת חרם על ישראל",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562173#utm_source=RSS",
     "source": "גלובס",
-    "published": "2026-11-05T08:20:00+00:00",
-    "lede": "בורסת פריז קופצת במעל 1% • נעילה מעורבת באסיה בעקבות הניצחון הדמוקרטי בבחירות בארה\"ב - בורסת סיאול צנחה בהובלת מניות השבבים, בורסת הונג קונג זינקה • מגמה מעורבת בחוזים בוול סטריט אחרי הראלי הגדול אמש, החוזים על הנאסד\"ק…",
+    "published": "2026-11-05T09:27:00+00:00",
+    "lede": "כותרות העיתונים בעולם: יחסי ישראל וארה\"ב יעברו מהפכה אחרי בחירות האמצע, ברמינגהאם רוצה לבטל את היחסים הכלכליים עם ישראל, ותערוכה על היסטוריה יהודית מבוטלת בהולנד",
     "lang": "he"
    },
    {
     "title": "Bank of England expected to raise interest rates today; FTSE 100 hits three-month high – business live",
     "url": "https://www.theguardian.com/business/live/2026/nov/05/bank-of-england-interest-rate-decision-pound-inflation-oil-iran-stock-markets-latest-news-updates",
     "source": "The Guardian",
-    "published": "2026-11-05T08:18:51+00:00",
-    "lede": "Rolling coverage of the latest economic and financial news, as UK braces for first interest rate rise in over three years Boom! The London stock market has hit a three-month high at the start of trading. The blue-chip…",
+    "published": "2026-11-05T09:22:25+00:00",
+    "lede": "Rolling coverage of the latest economic and financial news, as UK braces for first interest rate rise in over three years UK government bond prices are also rallying today. This has pushed down the yield, or rate of…",
     "lang": "en"
    },
    {
-    "title": "KT&G Posts Record Quarterly Revenue and Operating Profit in Q3, Unveils Four-Year KRW 5 Trillion Shareholder Return Plan with Potential for More",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVjI5WERTaERrd0RnazhxWTYwVW80cGUyRVBfRHhfY1JYbXJuTDR4SzNTUXhQOHlndHdNNFhwSmVZMkh0d3RjaExZSFRoN0dqSmRlYU1LcnVkWTVXU0R5X2dnWlNNdG1DUUU3SWhzeEkzaUxIUi1kVUllVUhQY3Y3UnlsQVRkcHlaRFBjOXV1QzJSWlFDTWFB?oc=5",
+    "title": "Rheinmetall shares plunge 17% after outlook cut as military contracts stall",
+    "url": "https://www.cnbc.com/2026/11/05/rheinmetall-stock-outlook-sales-germany.html",
+    "source": "CNBC",
+    "published": "2026-11-05T09:06:40+00:00",
+    "lede": "Rheinmetall cut its 2026 outlook for the second time in three months, citing delays to German military projects and artillery ammunition deliveries.",
+    "lang": "en"
+   },
+   {
+    "title": "1 Reason to Hold Coca-Cola Stock for 10 Years",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNTlhLNkJ0YnhGRVExcTlzTTBDR0cwX2piWlJfbFdaUUtJZUVyRkVjX3dTT2hQcWlSaGE0akthV0tpUGxmUDVHeW5wOFNldnJkSHNIRks3YUgtSm1MUVhET0pZeTQ2cXB3dzNneGFDOWg0TUF2VFJCQ0pkX3A4OFBKS0JuR2c3THpWN3VNVmp5Mmt6UQ?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-05T08:14:00+00:00",
+    "published": "2026-11-05T08:35:00+00:00",
     "lede": null,
     "lang": "en"
+   },
+   {
+    "title": "עליות באירופה; מניות השבבים הפילו את בורסת סיאול ביותר מ-5%",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562117#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-05T08:20:00+00:00",
+    "lede": "בורסת פריז קופצת במעל 1% • נעילה מעורבת באסיה בעקבות הניצחון הדמוקרטי בבחירות בארה\"ב - בורסת סיאול צנחה בהובלת מניות השבבים, בורסת הונג קונג זינקה • מגמה מעורבת בחוזים בוול סטריט אחרי הראלי הגדול אמש, החוזים על הנאסד\"ק…",
+    "lang": "he"
    },
    {
     "title": "Dow scores its best day in 18 months in a broad relief rally after Democrats sweep to power in Congress",
@@ -71,64 +87,48 @@
     "published": "2026-11-05T07:20:20+00:00",
     "lede": "US vice-president JD Vance blames Republicans’ midterm defeat on anger over Iran war",
     "lang": "en"
-   },
-   {
-    "title": "NextDC shares soar nearly 51% after Goodman, Digital Realty stake purchases",
-    "url": "https://www.cnbc.com/2026/11/05/nextdc-goodman-group-digital-realty-data-centers-.html",
-    "source": "CNBC",
-    "published": "2026-11-05T07:15:43+00:00",
-    "lede": "NextDC shares surged nearly 51% Thursday morning after Goodman Group and Digital Realty sought to acquire up to a 9.9% stake.",
-    "lang": "en"
-   },
-   {
-    "title": "Most investors are blind to the possibility of a market crash. Here is the five-part strategy to survive one.",
-    "url": "https://www.marketwatch.com/story/most-investors-are-blind-to-the-possibility-of-a-market-crash-here-is-the-five-part-strategy-to-survive-one-a1762911?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-05T07:15:00+00:00",
-    "lede": "Wall Street veteran Jared Dillian says the biggest problem is many investors these days have not lived through a major downturn. He’s got a portfolio that offers protection.",
-    "lang": "en"
    }
   ],
   "il": [
    {
-    "title": "ירידות חדות בתל אביב; מניות השבבים והביטחוניות נופלות, אל על יורדת אחרי הדוחות",
+    "title": "הירידות בבורסה מחריפות; מניות הבנקים והחברות הביטחוניות במוקד",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001562088#utm_source=RSS",
     "source": "גלובס",
-    "published": "2026-11-05T08:28:00+00:00",
-    "lede": "מדד ת\"א 35 יורד במעל 1%, המניות הדואליות מכבידות על המסחר",
+    "published": "2026-11-05T09:23:00+00:00",
+    "lede": "מדד ת\"א 35 יורד במעל 2%, המניות הדואליות מכבידות על המסחר",
     "lang": "he"
    },
    {
-    "title": "אורמת עקפה את התחזיות ברבעון השלישי, ומעלה את התחזית השנתית",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562158#utm_source=RSS",
+    "title": "בחצי מיליארד שקל: בזק בדרך להקמת חוות שרתים בפתח תקווה",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562175#utm_source=RSS",
     "source": "גלובס",
-    "published": "2026-11-05T07:52:00+00:00",
-    "lede": "הכנסות חברת האנרגיה הגיאותרמית צמחו ברבעון השלישי ב-10.2% ל-275 מיליון דולר, והרווח למניה הסתכם ב-51 סנט, לעומת צפי האנליסטים ל-35 סנט",
+    "published": "2026-11-05T09:05:00+00:00",
+    "lede": "קבוצת בזק חוברת לאדגר כדי להקים יחד חוות שרתים בפתח תקווה בהספק של לפחות 16 מגה-וואט ובמודל של חלוקת הכנסות שווה",
     "lang": "he"
    },
    {
-    "title": "מכרה הזהב של אל על: רווח נקי של 160 מיליון שקל לנוסע המתמיד",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562157#utm_source=RSS",
+    "title": "מומחים מנסים להעריך למה הבורסה יורדת ומתי זה ייגמר",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001561910#utm_source=RSS",
     "source": "גלובס",
-    "published": "2026-11-05T07:52:00+00:00",
-    "lede": "ההכנסות נטו ממועדון \"הנוסע המתמיד\" בתשעת החודשים הראשונים של השנה רשמו זינוק חד של 61% ביחס לתקופה המקבילה אשתקד",
+    "published": "2026-11-05T09:03:00+00:00",
+    "lede": "ההיסטוריה מלמדת שלאחר ירידה של מעל 10% מהשיא השוק מתאושש במהירות",
     "lang": "he"
    },
    {
-    "title": "לראשונה מאז 2019: בלקרוק חוזרת לשוק קרנות הסל בתל אביב",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562153#utm_source=RSS",
+    "title": "כלכלת הפלסבו: הלקח העסקי מהרופא שהיפנט את האליטה של פריז",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001561859#utm_source=RSS",
     "source": "גלובס",
-    "published": "2026-11-05T06:54:00+00:00",
-    "lede": "לגלובס נודע כי ענקית ההשקעות האמריקאית, המנהלת נכסים בהיקף של כ-15 טריליון דולר, רושמת למסחר בבורסה בתל אביב שלוש קרנות סל בתחומי השבבים, האנרגיה והשוק ההודי",
+    "published": "2026-11-05T08:45:00+00:00",
+    "lede": "בשיא עידן הנאורות, עשירי פריז עמדו בתור כדי לקבל טיפול נטול ביסוס מדעי",
     "lang": "he"
    }
   ],
   "geo": [
    {
-    "title": "Ukraine war briefing: Zelenskyy awards Melania Trump national honour for role in brokering Oleshky truce",
-    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPNjlfVnhHcllnQzBsS3Z4eVRjZWJuZ3lEdnRvYWZ4Nk5TWHo0dUJKRGlpWGM1ZHotT2ZGaVhROVBaTG5mdVg5ZDhuYzZ6TTVfV1piZDJPSktSb1Z6YWVFemYxdTFWeHFPZVJiOWljV0djOWhrNWdGVXgtaEUxVzAwU21JSEhJVFVmRjlVbVFremdRaVg1Rkl1Z2MxVHpsUVpGdFI0Z3dVRGtBT09vTWdUNDR1VmpiWG1sNWdoN1NybTRmS1loaloxV2tLOGhfOGRBSnV4czU4Q0tmUGxsMml4TjlvTQ?oc=5",
+    "title": "The Czech government’s new culture war shows the Maga spirit is still alive in Europe",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNdzYwTVBiX1RrS3pXOXhJMWFXdl9GRWJHYUdncGpYZ2lKaTZKUHZ4d2llX0VVSHBvWkJ0S1BXWk1DNThvZGJmMWVDMUZnWnJaZ0lDVGpoa2g3eU1HTWFSZEhRNWpCYURDLUxUN2trZ0FHTVBWNnhIVUVWSU1vZDlPaDJaNGppMXdfN0g5OHY2ZngyREd6bUxwUDlrMld1VmZoLTBWLQ?oc=5",
     "source": "The Guardian",
-    "published": "2026-11-05T05:57:00+00:00",
+    "published": "2026-11-05T08:26:00+00:00",
     "lede": null,
     "lang": "en"
    },
@@ -136,7 +136,7 @@
     "title": "U.S. Oil Industry Earned Over $130 Billion in Profit During Iran War",
     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOcFNiUjUzdFh6a1pRNzRJazBScGR1cVkxRDRqMnYwUFRleGRlWTZZYWdTRGRsVkZ6Y1NldWRNeHV5REJLc3VvR0h3UlRUcVY2Rl9jS3VxTXgxcnZ2Zjcta0tqSUtLRERVZ25xZ3pTN2V0Y0JDZDdOZVNDazBubGQtR2gwbDMwZ0QxeEYteGdXbEY1WlhubnFiWXZXQThWUFhXdkRxVQ?oc=5",
     "source": "The New York Times",
-    "published": "2026-11-05T05:33:20+00:00",
+    "published": "2026-11-05T07:03:20+00:00",
     "lede": null,
     "lang": "en"
    }
