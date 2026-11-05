@@ -978,6 +978,41 @@ EXTRA_ETF_NAMES = {s for s, _ in EXTRA_ETF_ROWS}
 
 CHANGE3_SYMBOLS = [("^VIX", "VIX", "נקודות", False), ("^TNX", "US 10Y", "נקודות אחוז", False),
                    ("BZ=F", "Brent", "דולר", True), ("CL=F", "WTI", "דולר", True)]
+# Shekel exchange rates (requested 2026-11-05): compact row under the 3-day block.
+FX_SYMBOLS = [("USDILS=X", "דולר/שקל"), ("EURILS=X", "יורו/שקל")]
+
+
+def fx_quotes():
+    """USD/ILS and EUR/ILS latest rates with their Yahoo quote timestamps.
+    Rates are shekels per one dollar/euro; changes are vs previous daily closes."""
+    out = []
+    params = urllib.parse.urlencode(
+        {"symbols": ",".join(s for s, _ in FX_SYMBOLS), "range": "1y", "interval": "1d"})
+    url = "https://query1.finance.yahoo.com/v7/finance/spark?" + params
+    try:
+        data = http_get_json(url, timeout=30)
+    except Exception as e:
+        fail("overview", f"fx spark failed: {e}")
+        return out
+    res = {i.get("symbol"): i for i in data.get("spark", {}).get("result", [])}
+    for sym, name in FX_SYMBOLS:
+        item = res.get(sym)
+        if not item:
+            continue
+        try:
+            resp = item["response"][0]
+            q = resp["indicators"]["quote"][0]
+            closes = [float(c) for c in (q.get("close") or []) if c is not None]
+            ts = (resp.get("meta") or {}).get("regularMarketTime")
+        except Exception:
+            continue
+        if len(closes) < 2 or not closes[-2]:
+            continue
+        day = (closes[-1] / closes[-2] - 1.0) * 100.0
+        pct3 = (closes[-1] / closes[-4] - 1.0) * 100.0 if len(closes) >= 4 and closes[-4] else None
+        out.append({"sym": sym, "name": name, "rate": closes[-1],
+                    "day_pct": day, "pct3": pct3, "ts": ts})
+    return out
 
 
 def market_overview_section():
@@ -988,7 +1023,8 @@ def market_overview_section():
     if not data:
         fail("overview", "spark batch failed for market overview")
         return None
-    out = {"indices": [], "sectors": [], "change3": [], "smh": None, "extra_rows": []}
+    out = {"indices": [], "sectors": [], "change3": [], "smh": None, "extra_rows": [],
+           "fx": []}
     for sym, name in INDEX_SYMBOLS:
         cl = data.get(sym)
         if not cl or len(cl) < 60:
@@ -1027,6 +1063,7 @@ def market_overview_section():
             continue
         out["change3"].append({"sym": sym, "name": name, "unit": unit,
                                "abs3": abs3, "pct3": pct3 if show_pct else None})
+    out["fx"] = fx_quotes()
     if not out["indices"] and not out["sectors"]:
         return None
     return out
@@ -1838,6 +1875,7 @@ border:1px solid #e5e7eb;border-radius:12px;padding:14px;text-align:center;margi
 .chg3 span{font-size:.78rem;color:#6b7280}
 .chg3 b{font-size:1.2rem}
 .chg3 small{font-size:.7rem;color:#9ca3af}
+.chg3.fx{grid-template-columns:repeat(2,1fr)}
 .cnnwrap{display:flex;gap:18px;align-items:center;background:#fff;border:1px solid #e5e7eb;
 border-radius:12px;padding:16px;margin:8px 0;flex-wrap:wrap}
 .gaugebox{text-align:center}
@@ -2050,6 +2088,30 @@ def build_html(mh, dips, alerts, bo, updated, extra=None):
                     f"<small>{esc(c['unit'])}{p3}</small></div>")
             parts.append("</div>")
             parts.append('<div class="ts">שלושה מרווחי מסחר אחרונים, לא שלושה ימים קלנדריים · Yahoo Finance</div>')
+        if ov.get("fx"):
+            parts.append('<h3 class="sec">שערי חליפין · מול השקל</h3>')
+            parts.append('<div class="chg3 fx">')
+            for f in ov["fx"]:
+                bits = []
+                if f["day_pct"] is not None:
+                    bits.append("יום: " + pct2(f["day_pct"]))
+                if f["pct3"] is not None:
+                    bits.append("3 ימים: " + pct2(f["pct3"]))
+                parts.append(
+                    f"<div><span>{esc(f['name'])}</span>"
+                    f'<b dir="ltr">{f["rate"]:.3f}</b>'
+                    f"<small>{' · '.join(bits)}</small></div>")
+            parts.append("</div>")
+            tss = [f["ts"] for f in ov["fx"] if f.get("ts")]
+            when = ""
+            if tss:
+                d_q = datetime.fromtimestamp(min(tss), timezone.utc).astimezone(JER)
+                run_d = updated.astimezone(JER).date() if updated.tzinfo else updated.date()
+                when = (f"{d_q.hour}:{d_q.minute:02d}" if d_q.date() == run_d
+                        else f"{d_q.day}.{d_q.month}, {d_q.hour}:{d_q.minute:02d}")
+            ts_line = ("שער בשקלים לדולר/יורו · Yahoo Finance"
+                       + (f" · נכון ל־{when}" if when else ""))
+            parts.append(f'<div class="ts">{esc(ts_line)}</div>')
         if ov["sectors"]:
             parts.append('<h3 class="sec">מפת המגזרים · יום אחרון (ושינוי ב-3 ימי מסחר)</h3>')
             parts.append('<div class="hmap">')
