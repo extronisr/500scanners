@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-05T08:31:02.541556+02:00",
+ "generated_at": "2026-11-05T09:31:06.088819+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -9,18 +9,66 @@
  "sections": {
   "us": [
    {
-    "title": "Interim Report for Q3 2026",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNSXdiQlljMWJuNHlBRGxJTjlpY3FzY0VaS0xBblRadEFCWmRwYWpheGVqTklYOGtHNkd1dkhhRzJpZ3k1RldGVlgtVWNlTUQtT0t2b1lsclRLcU5OcEZjM2RoVVdrdzVpR1YzTEhyb2tSQXU5WTcyVS1NUUxQeUxiUklxck5lMUJ1enJGVlJ4MA?oc=5",
+    "title": "Nintendo Switch 2 sales plunge 41% as price hikes and memory crunch bite",
+    "url": "https://www.cnbc.com/2026/11/05/nintendo-earnings-switch-2-sales.html",
+    "source": "CNBC",
+    "published": "2026-11-05T07:28:37+00:00",
+    "lede": "Sales of Nintendo's flagship Switch 2 plunged in its fiscal second quarter after the Japanese gaming giant rolled out price hikes amid soaring memory costs.",
+    "lang": "en"
+   },
+   {
+    "title": "Bank of England expected to raise interest rates for first time in three years today – business live",
+    "url": "https://www.theguardian.com/business/live/2026/nov/05/bank-of-england-interest-rate-decision-pound-inflation-oil-iran-stock-markets-latest-news-updates",
+    "source": "The Guardian",
+    "published": "2026-11-05T07:23:41+00:00",
+    "lede": "Rolling coverage of the latest economic and financial news Good morning, and welcome to our rolling coverage of business, the financial markets and the world economy. Predicting a central bank’s actions can be risky…",
+    "lang": "en"
+   },
+   {
+    "title": "NextDC shares soar nearly 51% after Goodman, Digital Realty stake purchases",
+    "url": "https://www.cnbc.com/2026/11/05/nextdc-goodman-group-digital-realty-data-centers-.html",
+    "source": "CNBC",
+    "published": "2026-11-05T07:15:43+00:00",
+    "lede": "NextDC shares surged nearly 51% Thursday morning after Goodman Group and Digital Realty sought to acquire up to a 9.9% stake.",
+    "lang": "en"
+   },
+   {
+    "title": "Most investors are blind to the possibility of a market crash. Here is the five-part strategy to survive one.",
+    "url": "https://www.marketwatch.com/story/most-investors-are-blind-to-the-possibility-of-a-market-crash-here-is-the-five-part-strategy-to-survive-one-a1762911?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-05T07:15:00+00:00",
+    "lede": "Wall Street veteran Jared Dillian says the biggest problem is many investors these days have not lived through a major downturn. He’s got a portfolio that offers protection.",
+    "lang": "en"
+   },
+   {
+    "title": "Major Shareholder Announcement",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNb0FkdzJHY2FzQUw4a3hkb0kwVC1ud3E0bEdNME1ITTR1M0hVVzh6bjlJUjN3M1R3TVRsTU5ReHBuV2NLT2VKMzVPMkZqZzR3LWd0clBhNVFzUExLcXpOWFQ2UHVXMERLdmJ6dVFuZVNzLTh4RGtHMkV6Vm94T2ZiNEtWcW5RZzZXMmo0Z1poN1VtQU16S1FHX1A3aw?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-05T06:00:00+00:00",
+    "published": "2026-11-05T07:00:00+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Shares advance after Wall Street rally following US midterm elections",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPOXFrVTVrOWF0LTZ1VmIxbVh3OWtIY3BhdXlWTE1YWmI5TkhfYVBNZWl2eV9ESzZaTTRzOUQzcEJ1WWVZU0x6cFRrclZWUFdxdXlfdE9pd2c4VGhLYWNTOWd3QVdtaDVhWnNDWTJ5WlJGRWN5STN4dURCQ2NMOXhqNGZpOWJlLXR1c0l5d01NQkZwa3B0SE4tTkpjMlF4cGVqVXV5U1JsRQ?oc=5",
+    "title": "Chip stocks, oil sink in the aftermath of Democratic election sweep",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUG9ENFo3M0RHNWI0VEdfTlZhWmpjVGR0UjViV3dBQllRVkNha0YzU1FhX2lDaWVUT1U1Ym5DbWRlOFpJZ3JPU3AwZ1Nia3NNWjdKc3Jvd0VXU3otQU83ZjFlQmZwbHcyZmJKZFk4dVJWaXhWQnV6MTF6TUpmaDcxNmdhbFFNaU1N?oc=5",
+    "source": "Reuters",
+    "published": "2026-11-05T06:44:33+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "ביטול כספי הסיוע מסבך הזמנת נשק ביותר מ-10 מיליארד דולר מארה״ב",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562152#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-05T06:39:00+00:00",
+    "lede": "בוול סטריט ג׳ורנל מדווחים כי ישראל ביצעה הזמנות של מערכות נשק ביותר מ-10 מיליארד דולר, מעבר לכספי הסיוע שכבר הובטחו",
+    "lang": "he"
+   },
+   {
+    "title": "Amazon Trades at a Fraction of Costco's Valuation. Is the Discount Deserved?",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMkxzTW92ZmpaSmd4Ul90bFZZcXdROFZvdTRQc004S0xnWGI5eHdiZWxZT0VXUFZ6TUpSOVBNWGNCUFlyS3NTcXBiM0VNVXFTVURxZ0MzcVh3ZFYtanVGMU9Da0RIeklpVGZMLVlVc0lwQXgyYTBWQW5zck5GUVRLUGpDek5hWTRSTXJ3d1Z6el9YOUFRTTFnYnhHME1CNXhfcUZOZW5CeDA?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-05T05:30:00+00:00",
+    "published": "2026-11-05T06:35:00+00:00",
     "lede": null,
     "lang": "en"
    },
@@ -33,69 +81,37 @@
     "lang": "he"
    },
    {
-    "title": "Microsoft (MSFT) Stock Could Be Undervalued After Its 74% Five Year Run",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQWHQ3RXM0cG00eE1IN192dkg5cGtlMUFnUzRVUkRNQnB2TFpLRXh6VjFxZVliTF9vdjU3anZxZTZPeHJERTV4bUZQN05na1BkOWxqeVpKYXc2d3M5c25uT1ZxWFRodFNzNmliMjNhYnYzNldKbXE3Wm9uRG1pSHNmNHBBaHdlZFUxbFppN3FlY0xMd0cwVXduUHdQcjVBWHB4SktqZFdB?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-05T05:22:00+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
     "title": "Asian tech stocks slide on post-midterm AI fears",
     "url": "https://www.ft.com/content/21755495-c68a-45a9-90d8-64f698cd1952?syn-25a6b1a6=1",
     "source": "Financial Times",
     "published": "2026-11-05T05:12:51+00:00",
     "lede": "Concerns mount that Democratic control of Congress will slow data centre build-out",
     "lang": "en"
-   },
-   {
-    "title": "Morning in America, twilight in the markets",
-    "url": "https://www.ft.com/content/d21e2a87-191b-447d-b81b-edcf7bc2f007",
-    "source": "Financial Times",
-    "published": "2026-11-05T05:00:16+00:00",
-    "lede": "Astonishing midterm election results will not repeal the turn of business and financial cycles",
-    "lang": "en"
-   },
-   {
-    "title": "מצב השווקים: מניות השבבים מפילות את סיאול, החוזים על הנאסד\"ק אדומים",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562117#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-05T05:00:00+00:00",
-    "lede": "גלובס מגיש עדכון ראשון לגבי מצב השווקים מסביב לעולם",
-    "lang": "he"
-   },
-   {
-    "title": "Inside the chip talent war: Trade secrets and rising Chinese rivals",
-    "url": "https://www.cnbc.com/2026/11/05/semiconductor-china-korea-talents-rivalry.html",
-    "source": "CNBC",
-    "published": "2026-11-05T03:53:18+00:00",
-    "lede": "Growing competition for semiconductor talent is fueling a battle over trade secrets as Chinese chipmakers gain ground.",
-    "lang": "en"
-   },
-   {
-    "title": "Prediction markets cement their status after forecasting Democratic sweep of Congress",
-    "url": "https://www.cnbc.com/2026/11/04/prediction-markets-2026-midterms-election-results.html",
-    "source": "CNBC",
-    "published": "2026-11-05T02:07:35+00:00",
-    "lede": "Prediction markets projected election results well before media outlets in an effort to position themselves as fast, reliable news sources.",
-    "lang": "en"
-   },
-   {
-    "title": "Elon Musk’s nearly half a billion dollars in midterms spending was a flop",
-    "url": "https://www.theguardian.com/technology/2026/nov/04/elon-musk-midterm-spending-analysis",
-    "source": "The Guardian",
-    "published": "2026-11-05T02:00:50+00:00",
-    "lede": "The tech billionaire set spending record as he poured $446m into campaigns for failed Republican candidates Elon Musk set a record for election spending this year after pouring nearly half a billion dollars into backing…",
-    "lang": "en"
    }
   ],
   "il": [
    {
-    "title": "חמישה דברים שכדאי לדעת לקראת פתיחת המסחר בבורסה",
+    "title": "לראשונה מאז 2019: בלקרוק חוזרת לשוק קרנות הסל בתל אביב",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562153#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-05T06:54:00+00:00",
+    "lede": "לגלובס נודע כי ענקית ההשקעות האמריקאית, המנהלת נכסים בהיקף של כ-15 טריליון דולר, רושמת למסחר בבורסה בתל אביב שלוש קרנות סל בתחומי השבבים, האנרגיה והשוק ההודי",
+    "lang": "he"
+   },
+   {
+    "title": "הרווח של אל על ירד ב-14% ברבעון; תחלק דיבידנד ענק",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562149#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-05T06:38:00+00:00",
+    "lede": "הכנסותיה של אל על צמחו ב-18% ונעמדו על שיא של 1.27 מיליארד דולר, אך הרווח נחתך בשיעור דו־ספרתי",
+    "lang": "he"
+   },
+   {
+    "title": "המניות הישראליות שהיו מעדיפות לשכוח את עונת הדוחות הזו: חמישה דברים לקראת יום המסחר",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001562088#utm_source=RSS",
     "source": "גלובס",
     "published": "2026-11-05T06:25:00+00:00",
-    "lede": "יום המסחר צפוי להיפתח במגמה מעורבת, המניות הדואליות יכבידו על המדדים",
+    "lede": "יום המסחר צפוי להיפתח במגמה מעורבת, המניות הדואליות ייחלשו",
     "lang": "he"
    },
    {
@@ -105,38 +121,22 @@
     "published": "2026-11-05T06:06:00+00:00",
     "lede": "פאלו אלטו נטוורקס מנהלת מגעים לרכישת הסטארט־אפ הישראלי קלאץ' סקיוריטי תמורת כ־500 מיליון דולר, כך דיווח אתר דה אינפורמיישן",
     "lang": "he"
-   },
-   {
-    "title": "האחים זלקינד מתמקדים: מנסים לצאת מסופרגז ולצמצם החשיפה לקרפור",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562075#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-05T03:35:00+00:00",
-    "lede": "קבוצת אלקו מקדמת מכירת שליטה בחברת הגז הביתי סופרגז, פועלת להנפיק את רשת המזון קרפור ומזרימה הון לאלקטרה נדל\"ן",
-    "lang": "he"
-   },
-   {
-    "title": "ארבע עסקאות ענק בחודשיים: הרצף המנצח של אלביט מערכות",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562083#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-05T03:34:00+00:00",
-    "lede": "עם מודל של חברות בנות שמאפשר לה להיות מקומית במדינות שונות, גל עסקאות ברחבי העולם, בהיקף כולל של כ־1.1 מיליארד דולר, משקף לאלביט רווח חריג בענף",
-    "lang": "he"
    }
   ],
   "geo": [
    {
-    "title": "Oil falls for a fourth day on expectations for lower risk of Iran war escalation",
-    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdzM2c3YzcktwU285aS1QaVVzTk51WFR0UnpxMXlnaFdEd2RtZWYzMm81TDZQUTJZS0ZlLXFVV3ZhcGFibkdLZm9Remo3YjlhNHJTd1lxSXNMUFNzejhIMkt0TlFRXy1RZl9TdTkxbDhfdjQxUEIzcUhaYlpOMjZJSVViNmVPV0dRV0RmaTJ3dDJ3QUs4TTFleFlnZnNyUHhVYlQ5NldaZVRZRFd5dU5nVnRKVUQ0UFE?oc=5",
-    "source": "Reuters",
-    "published": "2026-11-05T05:00:22+00:00",
+    "title": "Iran says Americans rejected Trump’s war as the world reacts to the midterms rout",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQRXNTWEFrYUgxWTVNYUxORkM0NXM5MVd6bk85SGZNUlI3OGVyYU45UEpXNW5mS212ZkxKdG5HaUxhTjAzcVUyQ3czeWd3eTd6V09fckJBVDJfRVNUcUFIU0ZBb2pOVUluVHRCaXVfTGlIc0paU1JtbUVwTFZMNDYyODNKY01qZE9ES3kySEhIUm9mUXdsOTZ6U2NTcHdFdEtrZk5YRmpvc0hnNGs?oc=5",
+    "source": "NBC News",
+    "published": "2026-11-05T06:19:18+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "The Czech government’s new culture war shows the Maga spirit is still alive in Europe",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNdzYwTVBiX1RrS3pXOXhJMWFXdl9GRWJHYUdncGpYZ2lKaTZKUHZ4d2llX0VVSHBvWkJ0S1BXWk1DNThvZGJmMWVDMUZnWnJaZ0lDVGpoa2g3eU1HTWFSZEhRNWpCYURDLUxUN2trZ0FHTVBWNnhIVUVWSU1vZDlPaDJaNGppMXdfN0g5OHY2ZngyREd6bUxwUDlrMld1VmZoLTBWLQ?oc=5",
-    "source": "The Guardian",
-    "published": "2026-11-05T05:00:00+00:00",
+    "title": "U.S. Oil Industry Earned Over $130 Billion in Profit During Iran War",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOcFNiUjUzdFh6a1pRNzRJazBScGR1cVkxRDRqMnYwUFRleGRlWTZZYWdTRGRsVkZ6Y1NldWRNeHV5REJLc3VvR0h3UlRUcVY2Rl9jS3VxTXgxcnZ2Zjcta0tqSUtLRERVZ25xZ3pTN2V0Y0JDZDdOZVNDazBubGQtR2gwbDMwZ0QxeEYteGdXbEY1WlhubnFiWXZXQThWUFhXdkRxVQ?oc=5",
+    "source": "The New York Times",
+    "published": "2026-11-05T05:33:20+00:00",
     "lede": null,
     "lang": "en"
    }
