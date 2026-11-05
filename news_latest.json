@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-05T01:31:03.934495+02:00",
+ "generated_at": "2026-11-05T02:31:04.672518+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -9,51 +9,59 @@
  "sections": {
   "us": [
    {
-    "title": "What Wall Street billionaires are saying about Democrats' midterm sweep",
-    "url": "https://www.cnbc.com/2026/11/04/billionaires-musk-branson-democrats-midterms-ai-wall-street.html",
+    "title": "Trump committee hearing on Fed Governor Lisa Cook rescheduled to Dec. 14",
+    "url": "https://www.cnbc.com/2026/11/04/trump-federal-reserve-lisa-cook-hearing.html",
     "source": "CNBC",
-    "published": "2026-11-04T23:17:56+00:00",
-    "lede": "Billionaire political spending met criticism from ... billionaires in the wake of Tuesday's blue wave election.",
+    "published": "2026-11-05T00:28:21+00:00",
+    "lede": "President Donald Trump first tried to fire Lisa Cook in August 2025, but the Supreme Court in June blocked him from doing so, for now.",
     "lang": "en"
    },
    {
-    "title": "5 Stocks That Could Skyrocket in 2027",
-    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPX2V5WVNFZG1qNllTeEFXbWF1X3l0Rl84Ylg5SVRRNlZQc0duNE44TjVXWjdjOEs5R1lKQUFZemw1aUwwUlJYZjZyWXBnQkVGOHA5ckJBWFhlakRjYTdnZW1HbEVNcVNnRUR5a3dxT2R3NXFQRmZKTk9lb3p6LTVkczBIaENLUkNXdG0wdU0tWlpMZmdCY2d4OHZ3?oc=5",
+    "title": "Snap shares fall over 10% on third-quarter revenue miss",
+    "url": "https://www.cnbc.com/2026/11/04/snap-q3-earnings-report-2026.html",
+    "source": "CNBC",
+    "published": "2026-11-05T00:14:47+00:00",
+    "lede": "Snap misses on revenue and daily active users in third-quarter earnings reported Wednesday.",
+    "lang": "en"
+   },
+   {
+    "title": "Why Alphabet Stock Popped on Wednesday",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOY2x0VEZ1NElpamNUWU40UGFZdDZHVVpiYlVKb3A1MWQxalJ6dlhnd3laR0dBYTluaFdmT05ZNGZrS19qU1FyUmdmUzVhRFo3VFFraGx3XzdveUdzUlp3aE4tRW5RWTgzV3hvS2UxamFXSjktdGRkWURpVmVDTzJnMG9SWTBoNTc2WV9keFBIeDNXcVFMdkt5YWdUTFBsQ1hrRWc?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-04T23:12:55+00:00",
+    "published": "2026-11-05T00:13:00+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Figma sinks after earnings beat as company prioritizes long-term growth with AI changes",
-    "url": "https://www.cnbc.com/2026/11/04/figma-fig-q3-earnings-report-2026.html",
+    "title": "Inside India newsletter: India weighs a tax cut to win over foreign investors. Will it work?",
+    "url": "https://www.cnbc.com/2026/11/05/india-tax-foreign-investors-nifty.html",
     "source": "CNBC",
-    "published": "2026-11-04T23:02:39+00:00",
-    "lede": "Figma is letting clients use more artificial intelligence features for the same price. The company would like the move to boost results in the long term.",
+    "published": "2026-11-05T00:04:36+00:00",
+    "lede": "Foreign investors are losing their appetite for Indian equities, with their holdings touching an all-time low of 14%.",
     "lang": "en"
    },
    {
-    "title": "Trinity Capital Inc. Q3 2026 Earnings Call Summary",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUHUzemVub3hXNzBfNW1nQUo2SHhkT3RtWU1UZ055RDhxMThFQXJSdTlRX0ZIOEFzS2c2Zm1odENGYWdjbml6NVJ0UTNTbmVLOENGRXJ2VTBWdVlkMF8tSVV1ZkNyMzhwQTV3QVFfRjhwV0RDN0RKVkxINkIzUW9kM2tkTTVHZG90MjQ5SVpIWm5OdE1oREZN?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-04T23:01:28+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Dow Soars, Leads Postelection Rally; These Three Giants Are Buys",
-    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNQmliVFRWX3pISnI2UzBXQlE0bUhCVExKXzhqZkNWTXY0emxpN2RHYWpqTklDR0x2Mk4talloWE5vSmtZcE9VTlUzVmFhS3ZYZUlpN2psY2lOWGNRV1huaUx5VWtpa29lVGt1ZWFiWU12VzIxamE4cHItM3E4SVAxb2QyZE4wTm8xV0k1RGZDdmhVU0VaLTVsQk9Sd3dnczlpa1JRV2dScVNwOGZpOENqdWRuZi15XzRYaWEyNFFndmFZRHJpNWZYazdMb05PdjJuMEJINS1PRlhESl82VGJFUQ?oc=5",
+    "title": "Microsoft Rides The Wave, Leads These Hot Prospects To Best Stock Lists",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdDBlYlluOFFPMDFTSjdxTTcwSnpEdnE4akNjZF9seEwtdUU4ckNCbHZfWGIxNDdERzFTTWVZOTJRS0JTZWlwb2M0czhlRFpvaDI3U1ZQZHkzYkxkc2k4Mng1S2NGMktTWUdPNzVxZVVqRi1YNktraDN3UTJUVDdVak1TMmFzYU82NjVCeEpB?oc=5",
     "source": "Investor's Business Daily",
-    "published": "2026-11-04T23:00:00+00:00",
+    "published": "2026-11-05T00:01:00+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "What was really behind Wednesday's monster rally? Trump quickly making peace",
-    "url": "https://www.cnbc.com/2026/11/04/stock-market-rally-trump-midterms.html",
-    "source": "CNBC",
-    "published": "2026-11-04T22:55:22+00:00",
-    "lede": "The stock market skyrocketed after a decisive sweep for Democrats in the 2026 midterm elections, a move that Trump's reaction added to.",
+    "title": "Interest rates expected to rise for first time in over three years",
+    "url": "https://www.bbc.co.uk/news/articles/ck5ynw45jrgqo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC",
+    "published": "2026-11-05T00:00:09+00:00",
+    "lede": "Most analysts are predicting an increase from 3.75% to 4%, the first increase in more than three years.",
+    "lang": "en"
+   },
+   {
+    "title": "Wall Street ends higher after Democrats win Congress; data center stocks tumble",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQbWpBY1VHMFd5a2tJXzM1RFFFQTl5Y09aVDgza095UkJKVzNnQ3F4VW1pMzBEazJKMGhlS21zUEdCLXJPOVhWdXRnZmlLRHliMDdqYmt2b2ZWYk5FeW85VnBSalpRd1E5b3BVSUZDU2VLMUNiQm41YWw1SUgxV2dWaUFZUkI2MllhY0Z5ZkZHcWNuQmdCaHBKbVRhck1meTRz?oc=5",
+    "source": "Reuters",
+    "published": "2026-11-04T23:54:37+00:00",
+    "lede": null,
     "lang": "en"
    },
    {
@@ -78,14 +86,6 @@
     "source": "MarketWatch",
     "published": "2026-11-04T22:03:00+00:00",
     "lede": "Qualcomm faces the loss of Apple’s business and the negative impact of high memory costs on overall smartphone demand.",
-    "lang": "en"
-   },
-   {
-    "title": "US stocks post best day since August after Democrats sweep midterms",
-    "url": "https://www.ft.com/content/a0b18705-3bd8-4886-992c-b6062fdec6ea?syn-25a6b1a6=1",
-    "source": "Financial Times",
-    "published": "2026-11-04T21:33:37+00:00",
-    "lede": "Hyperscalers surge and chipmakers fall as investors bet on winners and losers from expected backlash against the AI boom",
     "lang": "en"
    }
   ],
@@ -125,18 +125,18 @@
   ],
   "geo": [
    {
-    "title": "How the Iran war and high gas prices shaped the 2026 midterm elections",
-    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOT2l3Ym5PWHJfeXd5VEcxdlVCellkenFPX3E2QXRhYzhsN1lfc1ljd2x5dUEzTndWaVBWdG9ZMGl4NkNLb2RQRE9XeVZTS2JVM2gxQVNXdE5Zc2IxTTNVOXM1dFNKYVZaWmlqY3JzTnU0cHRIU1NGVjJ2UXdtVWRSZWxn?oc=5",
-    "source": "CNBC",
-    "published": "2026-11-04T22:58:26+00:00",
+    "title": "Trump blames Iran war for GOP losses but says he would ‘do it again’",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQWVpGdlowaFpKX2RUVm50ZjAzN3FpTFA2UDdxS1Fld3hfU1hUT1FjbHhuX1VOS3N3UTd4dnFoQXJyRW52WXRjTnM2ZFJtWjduQkRFLTVkQk9SV01JQVdLSFZ4NmtuMmM2bUhsaUh0dEU2V3dkU3hfTC1VTHNKeWc5SF9HbjZZeWRIS3F6VWFWME9sbkIxTUZsdnFPMnpjcWMwMEtLUXhrZmoxVVJaWHZfWWhzUmhrR0xOOUdQc3BWSQ?oc=5",
+    "source": "NBC News",
+    "published": "2026-11-04T23:51:48+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Inside Vance's midterms post blaming Iran war",
-    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQLVB2dmRvVmNJelNpb3lvMTNieEZMN0tRZTlNdldJdTZrc3pTUmN3WlFrUmJXdC1SemZsVGE1SnlIS00yVEw5Y3VHcElMbERXWV9ibGxrQlpxS2Y0cWFFSjAzY1VDSGZVN1Vmc091dnUzZjhoendiU2E2NWFXTm5hQVlIWExqNVRSRmZNUVpGQXczODk2NjBsM093?oc=5",
-    "source": "Politico",
-    "published": "2026-11-04T22:26:00+00:00",
+    "title": "Presidential hopeful Vance appears to question Iran war after polls debacle",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPNFdoTi1INVRLRUdkTG9SY3pPQ1dQcTgwTzVjMWQySGdBWUJLczFfMWV1anNEbElxY29VSy1ieGh5dzlCTUhFdEtIMUViLWNURVFEWUw2X3lsbXJVM2dCWW9jQnV2Slg3bm5NMW1iU3JzeHlja2xOSFN6U0ZUR3hwVVRuaU1zV1FmR2p3bTQtczVmMU5VS3NWR2d5d0pzdEpVcFAzNzB6VXc1MUdfVExXX0RwOXRyVEXSAbwBQVVfeXFMTUlnRGFpN3h6WmRvdWJNS1pDdkV3WGJKSC1xNFZtSjNLMWIxRjBweTZYcDZRRzVmdDYxXzNaenQxMzQwUVRqNlpuRW9MaGxHakxsV011NkVTUXZ6LXVjWGItOFZUVzRkTklkOTFYa25oRnNvZTItTWdFLTZpUkwzR3E5ZGpQMzlZdXJNdXRwc2NNRXlYQnQ4LTI0YnExc2RscHhKWEw2ZzdHOHVyWEZaZDFNelVkOGlLOGI4eDM?oc=5",
+    "source": "Al Jazeera",
+    "published": "2026-11-04T23:17:34+00:00",
     "lede": null,
     "lang": "en"
    }
