@@ -1,5 +1,5 @@
 {
- "fetched_at": "5.11.2026, 19:27",
+ "fetched_at": "5.11.2026, 20:05",
  "items": [
   {
    "title": "FDA approves first ever plasmid DNA-based immunotherapy - Drug Discovery News",
@@ -3563,6 +3563,24 @@
    "ncts": []
   },
   {
+   "title": "FDA approves generic version of HIV-prevention drug to be sold in low-income countries - KOAT",
+   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPX3lucVVyZEVfcl9nbmc3WGhoU08zbFdCMUtmU3FVZ3g0Y1pGWVBfYUtZc0V0QzhTWWZteFdiWERiRGpjM0hsSWFVeDh6YXhvVEFCemZja1hwMVVSRG1VSDY1NU9pSUNPcklzZG85d2MtcVpwdVQ4QWpGbnRnWmJQSVdHOFU?oc=5",
+   "pub_ts": 1793633820.0,
+   "date": "2.11.2026, 17:37",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPX3lucVVyZEVfcl9nbmc3WGhoU08zbFdCMUtmU3FVZ3g0Y1pGWVBfYUtZc0V0QzhTWWZteFdiWERiRGpjM0hsSWFVeDh6YXhvVEFCemZja1hwMVVSRG1VSDY1NU9pSUNPcklzZG85d2MtcVpwdVQ4QWpGbnRnWmJQSVdHOFU?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
    "title": "FDA Approves First Generic Of HIV Prevention Drug, Lenacapavir - Health Policy Watch",
    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWEZfdHNwQl80dTdVX2dZa3huRGZoM1JvMkZxRmUtLVN2bzIwbUUtd1ZPUE9FbEM1b3lJLVBTU1NxekVnaDZjOURxUGNzcGFCV2xQZVhnQTk0ZXJFZWZDZE9MbXpRV3BDTGpZMHhNUmVRNzFoUGJmVjJhcnZNb0NPa3cyN1M3UWpTbXZram1ramhlYVo2WVFhVlNB?oc=5",
    "pub_ts": 1793628509.0,
@@ -4499,26 +4517,6 @@
     {
      "source": "FDA · openFDA",
      "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=214412"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "Ionis Pharmaceuticals Secures FDA Orphan Drug Designation For Rare Epilepsy Treatment - Yahoo Finance",
-   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPQWRQZDI1eDRPX1ItN2dtNFhkQVhCWTdsLUxRV01uTTZQUTlaWVlDLVNLNW03cEJTaDk1c2J6SXp6a2Zva0JTUDNxX2l1LV95S1NuV3RnNjRGNnRPS3NnMGFKb1B6WkdxYzlCc1lKUktyWEF5Si1BOTlwOGdrS2FTUjlCcDlqbGZYNGFnVWRROVZCVnl0andCTUhxdS1TLXJRRmRR?oc=5",
-   "pub_ts": 1792692044.0,
-   "date": "22.10.2026, 21:00",
-   "cat": "btd",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [
-    "IONS"
-   ],
-   "sources": [
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPQWRQZDI1eDRPX1ItN2dtNFhkQVhCWTdsLUxRV01uTTZQUTlaWVlDLVNLNW03cEJTaDk1c2J6SXp6a2Zva0JTUDNxX2l1LV95S1NuV3RnNjRGNnRPS3NnMGFKb1B6WkdxYzlCc1lKUktyWEF5Si1BOTlwOGdrS2FTUjlCcDlqbGZYNGFnVWRROVZCVnl0andCTUhxdS1TLXJRRmRR?oc=5"
     }
    ],
    "ncts": []

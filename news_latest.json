@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-05T18:31:04.476529+02:00",
+ "generated_at": "2026-11-05T20:01:06.053834+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -9,93 +9,125 @@
  "sections": {
   "us": [
    {
-    "title": "Barkin sees interest rate hikes ahead, but at a gradual pace",
-    "url": "https://www.cnbc.com/2026/11/05/barkin-sees-interest-rate-hikes-ahead-but-at-a-gradual-pace.html",
-    "source": "CNBC",
-    "published": "2026-11-05T16:29:35+00:00",
-    "lede": "In a CNBC interview, the policymaker expressed concern over inflation and said monetary policy will need to adjust.",
-    "lang": "en"
-   },
-   {
-    "title": "Marc Lore's Wonder confidentially files for IPO",
-    "url": "https://www.cnbc.com/2026/11/05/wonder-confidential-ipo-filing.html",
-    "source": "CNBC",
-    "published": "2026-11-05T16:27:10+00:00",
-    "lede": "Marc Lore's latest startup Wonder has confidentially filed for an initial public offering.",
-    "lang": "en"
-   },
-   {
-    "title": "Nasdaq tumbles as chip rout intensifies after midterms",
-    "url": "https://www.ft.com/content/7c6ceb4f-d7b1-49ec-9047-0e2e4cd2615c?syn-25a6b1a6=1",
-    "source": "Financial Times",
-    "published": "2026-11-05T16:24:55+00:00",
-    "lede": "AI trade under pressure as investors weigh possible impact of ‘blue wave’ on sectors favoured by Trump administration",
-    "lang": "en"
-   },
-   {
-    "title": "The year’s most successful stock-market trades are unraveling — perhaps for good",
-    "url": "https://www.marketwatch.com/story/the-years-most-successful-stock-market-trades-are-unraveling-perhaps-for-good-45f7a0dd?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-05T16:23:00+00:00",
-    "lede": "Wall Street’s top trades of 2026 are coming undone as a violent rotation rattles the U.S. stock market.",
-    "lang": "en"
-   },
-   {
-    "title": "We're booking big profits in 2 outperformers in Thursday's terrible market",
-    "url": "https://www.cnbc.com/investingclub/2026/11/05/were-booking-big-profits-in-2-outperformers-in-thursdays-terrible-market.html",
-    "source": "CNBC",
-    "published": "2026-11-05T16:22:26+00:00",
-    "lede": "They have nothing to do with tech and data centers, which are getting slaughtered.",
-    "lang": "en"
-   },
-   {
-    "title": "Nordic business leaders plot to keep companies in home markets",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVEd6XzM2QWhrZ2gzZ2VpZTJwaXg5MlFYUkJMNTVYN28xVUpvNlFaRzZTbnBSbHZRYU1EWUttS1ZoalJPT1J0RUkwZFVFV2Q0LTNXVkhnbHczN3dXdldqX09kR19ELWpkNTBVUHI1YVZITnZrUmZ2LWd2UU93NDYxcl9NTlRvT0t3OUVvNHZDZDc2ZGpvSDk0NTdITWo0VnVwYlFv?oc=5",
-    "source": "Reuters",
-    "published": "2026-11-05T16:19:43+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Hospital Leader Tenet Healthcare Soars Above Buy Point As Earnings Growth Accelerates",
-    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOMUNTdVhWTElOVWlfUGpOSVFfYmV5RjZVLS1lU2FxYzhyMElVSmVDeUlYemZza0FKNS1Wa1YydmVFbXpGQjRDSHZZdWhrYVpCNFpnaGw2bDRIZ08ySTdvRVdIQzM3QWdueWdncEk0S3p1VGFXQmRIck1rdTdpSnJjTDFFd0s1aFZ1aHgzQzAyQXlwdXlXT09YYlhEa055Q1pXN3c0TTAzaFphMmgzZ3pUY1RSX3BtenMxaU5weFZzQQ?oc=5",
-    "source": "Investor's Business Daily",
-    "published": "2026-11-05T16:17:00+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "A Sharp Pullback in Chip Stocks Meets Fresh Records in Four of Five Recent Earnings Reports",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOSEI0bW9EQ2dkeHY3Q3E4WmhLdng2Vm9TRTZPcEVIYmVXTVZOYkV2UXhJblVYbnBieXU0ZXU2LTk2aWxvazdFUmJ2UkxkR2dad0tPMllzdU82RExmYkxvU0hLYnZyeW9pWHE0Um9XSzJMR1dsSnhaRUVUUkhpamIxcXY5VFdmZUtTMmJ6bUNhZXQwTFV4Wkh4aDQ0WG5GZw?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-05T16:14:00+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Interest rates hiked to 4% in first increase in over three years",
-    "url": "https://www.bbc.co.uk/news/articles/ck5ynw45jrgqo?at_medium=RSS&at_campaign=rss",
+    "title": "Shares in Musk's SpaceX plunge as tech and AI stocks fall",
+    "url": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
     "source": "BBC",
-    "published": "2026-11-05T16:08:54+00:00",
-    "lede": "Most analysts expected the increase from 3.75% to 4%.",
+    "published": "2026-11-05T17:57:57+00:00",
+    "lede": "The market has been reacting to possible tougher scrutiny of data centre construction and the AI industry following the US mid-terms",
+    "lang": "en"
+   },
+   {
+    "title": "Why Nvidia Stock Is Getting Punished Today",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPbFB5TmFOS1JyNlQ5UVA1OE1uaEpkY0tfZUlVX3J0NnN0MFA3SUxJSlM1SU9LOXl1NjFSaXRLZ1JicjJudEQ0dHMwcGY3cjd1Z0pfekg0WHhxSkFUazhkcEZvTFFiVm1pMjBvZzgtZmFDVFFhLW4wZFY3QTQzSzJCMHJJMXhHU2NRQjYyQTBkN25rcXRLZDlhYlBOYWlKX3M?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-05T17:47:17+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "European stocks overtake Wall Street following Democratic sweep",
+    "url": "https://www.ft.com/content/1ca182d6-8d16-4ddb-98fb-cf933b4c3073?syn-25a6b1a6=1",
+    "source": "Financial Times",
+    "published": "2026-11-05T17:41:41+00:00",
+    "lede": "Stoxx Europe 600 index ahead of S&P 500 for this year as US stocks tumble",
     "lang": "en"
    },
    {
     "title": "Micron, Sandisk and other AI stocks are falling hard: ‘Investors don’t like uncertainty.’",
     "url": "https://www.marketwatch.com/story/micron-sandisk-and-other-ai-stocks-are-falling-hard-investors-dont-like-uncertainty-94d2a3b9?mod=mw_rss_topstories",
     "source": "MarketWatch",
-    "published": "2026-11-05T16:06:00+00:00",
+    "published": "2026-11-05T17:39:00+00:00",
     "lede": "Wall Street is digesting the prospect of a slower AI buildout in the wake of the midterm-election results.",
+    "lang": "en"
+   },
+   {
+    "title": "Wall Street's fear gauge surges the most since April. Why traders think it should be even higher",
+    "url": "https://www.cnbc.com/2026/11/05/wall-streets-fear-gauge-surges-the-most-since-april-why-traders-think-it-should-be-even-higher.html",
+    "source": "CNBC",
+    "published": "2026-11-05T17:34:16+00:00",
+    "lede": "From its intraday low to high Thursday, VIX moved more than 11 points, the biggest one-day move since April 9.",
+    "lang": "en"
+   },
+   {
+    "title": "Follow live: US chip stocks plummet",
+    "url": "https://www.ft.com/content/7c6ceb4f-d7b1-49ec-9047-0e2e4cd2615c?syn-25a6b1a6=1",
+    "source": "Financial Times",
+    "published": "2026-11-05T17:22:07+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Big Tech's massive AI spending is causing another problem for investors",
+    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOelB4SlFBOXozTzU2bk5uQ091MVh6MEhGNV95YTlkVGRJNXNBZ0lKbW1ybWFWY1dSY3d4bmhpeTFlbXFpQXVpOGxPZ2hQalhSMHpEZkFnZEZya0t1bGJPOHMwWFRWeldCaTdNbzl1VTc2QjBhcEZjbUx2WUMzci1nNGVTNzlJcjZPd21ZbURubnZBazdVVURyVUxaLXlvMzVPRTlnX1BEUkM0Y1ZtalJkVHRmb01LM0MzbWdXWWtHS2dTZjN1UVJVYjhR?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-05T17:19:09+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Bitcoin tumbles to $76,000 as post-election stock rally fades",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQV3NVSGpVb1YyRk9lNzI1SlhXQ25YeGpRdDRINTVDSF9zc0c0NlRtUlNuOHNDbWFiRDlwVU5LWlR4VC1nZEwyZXBoX2VZekRWWUlVNGxkbVgzTms3anFzaVFEcU43OGJaYzd2eHlpRVY3SHpYRXpEY0kxZVNIbDlnX1h3aFJzSTg4VkdrMUk1enRBTUtIREc1cEY4cDBTSGp0TDR3UjEyT2ZWVXNJSkRvbTZ1WVRGMlk?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-05T17:15:49+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Is this ‘the big one’ for the stock market? Wall Street sounds off as tech plunges.",
+    "url": "https://www.marketwatch.com/story/is-this-the-big-one-for-the-stock-market-wall-street-sounds-off-as-tech-plunges-185df529?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-05T17:11:00+00:00",
+    "lede": "A punishing selloff in the tech space was dragging the stock market sharply lower on Thursday, one day after equities saw a big bounce after the Democrats swept Tuesday’s midterm vote.",
+    "lang": "en"
+   },
+   {
+    "title": "Interest rates hiked to 4% in first increase in over three years",
+    "url": "https://www.bbc.co.uk/news/articles/ck5ynw45jrgqo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC",
+    "published": "2026-11-05T17:09:55+00:00",
+    "lede": "Most analysts expected the increase from 3.75% to 4%.",
     "lang": "en"
    }
   ],
   "il": [
+   {
+    "title": "מניות השבבים מפילות את נאסד\"ק במעל 4%, מדד הפחד מזנק ב-40%",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562117#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-05T17:49:00+00:00",
+    "lede": "נאסד\"ק בטריטוריית תיקון, מדד השבבים נופל ב-9%",
+    "lang": "he"
+   },
+   {
+    "title": "מזינוק חד ל\"פאניקה אמיתית\": מה קרה בוול סטריט ב-24 שעות?",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562325#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-05T17:17:00+00:00",
+    "lede": "לאחר הראלי של אתמול, וול סטריט נצבעת באדום בוהק: מדד הנאסד\"ק צולל ונכנס לטריטוריית תיקון, וענקיות השבבים מוחקות טריליוני דולרים משוויין",
+    "lang": "he"
+   },
+   {
+    "title": "יום חריג: הבורסה עם מחזור של 19.4 מיליארד שקל – השני בגובהו בעשור האחרון. זו הסיבה",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562184#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-05T16:51:00+00:00",
+    "lede": "עדכון מדדי המניות החצי שנתי התרחש הערב בבורסה בתל אביב",
+    "lang": "he"
+   },
    {
     "title": "המלחמה באיראן פגעה באמירייטס: הרווח צנח ב-66%, מספר הנוסעים ירד ב-22%",
     "url": "https://finance.walla.co.il/item/3875139",
     "source": "וואלה",
     "published": "2026-11-05T16:46:00+00:00",
     "lede": "חברת התעופה מדובאי הרוויחה כ-903 מיליון דולר במחצית הראשונה של שנת הכספים, על רקע סגירות המרחב האווירי והתייקרות הדלק. מנגד, הכנסות חטיבת המטענים זינקו ב-52%",
+    "lang": "he"
+   },
+   {
+    "title": "\"סערה מושלמת בשווקים\": מה עומד מאחורי הקריסה בוול סטריט והירידות החדות בת\"א?",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562330#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-05T16:33:00+00:00",
+    "lede": "המסחר בוול סטריט מתנהל בירידות חדות, לאחר שהמסחר בבורסה המקומית ננעל באדום בוהק",
     "lang": "he"
    },
    {
@@ -107,38 +139,6 @@
     "lang": "he"
    },
    {
-    "title": "מניות השבבים מפילות את נאסד\"ק במעל 4%, מדד הפחד מזנק ב-50%",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562117#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-05T16:21:00+00:00",
-    "lede": "נאסד\"ק בטריטוריית תיקון, מדד השבבים נופל ב-9%",
-    "lang": "he"
-   },
-   {
-    "title": "הבנק קרס, ו-60% מתושבי פרגוואי איבדו גישה לכסף שלהם",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562326#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-05T16:18:00+00:00",
-    "lede": "הבנק החמישי בגודלו בפרגוואי קרס לאחר שנדרש למחוק נכסים בעייתיים בהיקף של 280 מיליון דולר",
-    "lang": "he"
-   },
-   {
-    "title": "אדום בוהק בבורסה: ת\"א 35 צנח בכמעט 4%; הדולר מזנק",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562088#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-05T15:46:00+00:00",
-    "lede": "ירידות חדות בבורסה המקומית: ת\"א 35 צולל בהובלת מדדי הביטחוניות והטכנולוגיה, שסופגים לחץ עקב השלכות תוצאות בחירות האמצע בארה\"ב",
-    "lang": "he"
-   },
-   {
-    "title": "איבד כ-50% מהשיא: מה גורם לירידות החדות במדד המניות הביטחוניות?",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562204#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-05T15:39:00+00:00",
-    "lede": "בשוק מנסים להסביר מה עומד מאחורי הירידות החדות במניות הביטחוניות, שהיו עד לא מכבר ללהיט בשוק המקומי, שכבר הספיקו לאבד כמעט מחצית מערכן מאז השיא שנרשם מוקדם יותר השנה",
-    "lang": "he"
-   },
-   {
     "title": "מהשבבים ועד הודו: שלוש קרנות חדשות מגיעות לבורסה בתל אביב",
     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBnNHZkbEpEb21kSmdkOUlKb1JwLVMyMS1QOVlzci1uVFI5clJUa3pNTDdtNmFGbVhjMzZXaVdtQng2emlpNW5xaXJ2azdjU0pCb3FmQW5EcmFUSW04X3VEYThzNFhKUQ?oc=5",
     "source": "מעריב",
@@ -147,7 +147,7 @@
     "lang": "he"
    },
    {
-    "title": "הנעילה מתקרבת והירידות מתחזקות; ת\"א 35 נחלש ב-2.2%; איי.סי.אל מתחזקת 4.6%",
+    "title": "ת\"א 35 צלל 3.7% - הביטוח ב-5%, הביטחוניות ב-7%; במחזור השני בגובהו בהיסטוריה - 19 מיליארד שקל",
     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB2eVVSbDhLYzUzb1VzaUFfdWV2LV9zZzRXcFpFMjNkV1J4Y2c4QXl3THVaXzBiN3JncGZubzNvNElOZ3VuYlVBYXlpcW53N1ZxMlhqbjRidnlENl9FLUQwb0tHX3liSTVneHRPVGwtRkY?oc=5",
     "source": "ביזפורטל",
     "published": "2026-11-05T04:40:00+00:00",
@@ -157,18 +157,18 @@
   ],
   "geo": [
    {
-    "title": "Rates could rise again if Iran war continues, BoE governor says",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9QdDJzWGNSQnpPWVpPRnVjYk9yQ0lhaFFDYzQwUm9WY3dMUXVORUF4YTFGYXBCV1BZTXYyX2ZnckZWRXJhdElVMS1JTlB6SHNJRHdvUktGX3hyakFteDZJcy1EN05HTjA?oc=5",
+    "title": "US issues new Cuba sanctions, takes aim at sectors of Cuban economy",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQblVpSUg3SjBzNjdqeWlrY1hpeWNhQ2E0VzNmZW1RTVl3ekVfRW5ERnpNU2gwa3M3NUZuNWFFc3JWR3BnNGlHeS1VOENLeFcwRUxaYm00TnVxZWd1RkxtbEJ0WlJTQmFMeXZDZm9iX1Fybk5qTGJ5eVhCMlV6c2VFbUd4ZXZBS2VmeW9tM0d1SjRoN0FibW13RnAtcU11XzVENk5PVTVYV2RPMGJkM3ZlaQ?oc=5",
     "source": "Reuters",
-    "published": "2026-11-05T15:44:33+00:00",
+    "published": "2026-11-05T17:47:45+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Bomb threats disrupt at least 15 flights across Europe, raising hybrid war fears",
-    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPTjAzb2V4dm1WX1ZyenZxX2hoUWlFX05jMkh5OHA0R2VKQUp1SFVyb1dYbF8ydGlKUW8xRld3bzRxZlByZHNqYXprMTExOFd0RzhYVHluOUU5NWMwcEE2b3RiNmk0UDN4M2ExYThsMjZDMGFHeDhyNVJxelU1YnhtdFlTSXNtWE14ZXZ1ak9RcE5lYWhaRDZoWXR2aWhqdmFzMlo1UWFQT3ZyeUdIcWs1QTMtMzY4MU55YzFz?oc=5",
-    "source": "The Guardian",
-    "published": "2026-11-05T15:39:00+00:00",
+    "title": "After midterm loss, Trump is left to weigh his next move in Iran war that contributed to GOP debacle",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPMVdCMXZ3Y0NJQ3Y2ZG9YSHp3YW95Q2gtdm9QYTBjZDQzUGNvT2FHaDhuUnMxdXZXdlJrUzVrRW5RVXBzZExUTzhZT2JNSi1VWWVIWUw2RGpPS2pIcm4tUDJrMmRoQUpHVFRiY3p0c1pnazdEdUpDcThSbzV1NFNtbFF1ODhZczMtZkFYVTlwcjJEdw?oc=5",
+    "source": "AP News",
+    "published": "2026-11-05T17:38:00+00:00",
     "lede": null,
     "lang": "en"
    }
