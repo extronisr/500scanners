@@ -1,5 +1,5 @@
 {
- "fetched_at": "5.11.2026, 9:36",
+ "fetched_at": "5.11.2026, 10:06",
  "items": [
   {
    "title": "Breakthrough: FDA Approves First Drug Offering a 'Functional Cure' For Chronic Hepatitis B - ScienceAlert",
@@ -3728,24 +3728,6 @@
    "ncts": []
   },
   {
-   "title": "FDA approves generic Venetoclax (Alembic)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=214747",
-   "pub_ts": 1793145600.0,
-   "date": "28.10.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=214747"
-    }
-   ],
-   "ncts": []
-  },
-  {
    "title": "FDA approves generic Ketamine Hydrochloride (Neurorx)",
    "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220602",
    "pub_ts": 1793145600.0,
@@ -3795,6 +3777,24 @@
     {
      "source": "FDA · openFDA",
      "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=216722"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA approves generic Venetoclax (Alembic)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=214747",
+   "pub_ts": 1793145600.0,
+   "date": "28.10.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=214747"
     }
    ],
    "ncts": []
@@ -3924,24 +3924,6 @@
    "ncts": []
   },
   {
-   "title": "FDA approves generic Tranexamic Acid (Zydus Lifesciences)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221213",
-   "pub_ts": 1793059200.0,
-   "date": "27.10.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221213"
-    }
-   ],
-   "ncts": []
-  },
-  {
    "title": "FDA approves generic Rivaroxaban (Teva Pharms Usa)",
    "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=212247",
    "pub_ts": 1793059200.0,
@@ -3955,6 +3937,24 @@
     {
      "source": "FDA · openFDA",
      "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=212247"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA approves generic Tranexamic Acid (Zydus Lifesciences)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221213",
+   "pub_ts": 1793059200.0,
+   "date": "27.10.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221213"
     }
    ],
    "ncts": []
@@ -4129,6 +4129,24 @@
    "ncts": []
   },
   {
+   "title": "FDA approves generic Epinephrine (Gland)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220400",
+   "pub_ts": 1792972800.0,
+   "date": "26.10.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220400"
+    }
+   ],
+   "ncts": []
+  },
+  {
    "title": "FDA approves generic Valganciclovir Hydrochloride (Alembic)",
    "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=217267",
    "pub_ts": 1792972800.0,
@@ -4164,24 +4182,6 @@
     {
      "source": "FDA · openFDA",
      "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=216072"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "FDA approves generic Epinephrine (Gland)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220400",
-   "pub_ts": 1792972800.0,
-   "date": "26.10.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220400"
     }
    ],
    "ncts": []
