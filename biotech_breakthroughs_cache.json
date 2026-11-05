@@ -1,5 +1,5 @@
 {
- "fetched_at": "5.11.2026, 21:35",
+ "fetched_at": "5.11.2026, 22:04",
  "items": [
   {
    "title": "FDA approves first ever plasmid DNA-based immunotherapy - Drug Discovery News",
@@ -358,6 +358,24 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPV1psQXl4c21leHBkMmJEekxFX1RqcHdkWmZyVnhTa0NEdzhLYUVuQ20xX1RpN2ZuT1JZd2J3SDhDNHpzZmREOTAyWmJuRVBzMnkycDhVaUw2d0ZqUzlpaDJ5bmVlU0hkODRzM1N0cFc2aEtaZ194OF9Ka3VLT1drcXVrNDJaQWdmRTQ1bklvQXlteEFRcjBVWUhVdWJtcGtMcFo1dQ?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA approves more affordable version of HIV-prevention shot - www.wbbjtv.com",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNT1dNMldZaXg3c192WWpSY3NjWVV2MkVETW02LVltSkJ3LTJKT19GWjNuMTZRM2xRNEN2Tmd4S2tGQmdjU2x6REE3X0htUHN3UUVvMFNDQ09tcU9wOFJseXY4SURlcnZZNllBRGx3ZFctMDd0Q1lEWjJoa2JCbFhja05FNHd0V2NkUi1WSW1UcEVlTzQ5YVE?oc=5",
+   "pub_ts": 1793629680.0,
+   "date": "2.11.2026, 16:28",
+   "cat": "fda",
+   "sev": 4,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNT1dNMldZaXg3c192WWpSY3NjWVV2MkVETW02LVltSkJ3LTJKT19GWjNuMTZRM2xRNEN2Tmd4S2tGQmdjU2x6REE3X0htUHN3UUVvMFNDQ09tcU9wOFJseXY4SURlcnZZNllBRGx3ZFctMDd0Q1lEWjJoa2JCbFhja05FNHd0V2NkUi1WSW1UcEVlTzQ5YVE?oc=5"
     }
    ],
    "ncts": []
@@ -1605,24 +1623,6 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOenRJLTJkZDlnbjVUSTlZQ1JFMEZDYW4yMXpUNHJJSmNTR2kwb093bzV0UXJxZEJ5NERzcldaZXY3eUljSVE3c2JreDVyRzBnQnZwUldJN09pTWF1ZXM5WFp0cy14VlVUdGFZcE0xbHVSdWNHSkNqeE56YU1KSC0zbUJZVmRJanFMLWdhUA?oc=5"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "FDA Approves Pembrolizumab in Metastatic TMB-H Solid Tumors - CancerNetwork",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOOEZma1VaQUVzT3N6VHMwNFE5SENfMXVNY05rZkk4VXdQbzJ2enNxV3hGeUNjcUdaTHFVbVd1WTVWUGk0Z3NvZXNrblkzOXJjZkdpN2Z3MWM2cVhLdkJuVnRqN0dsMko2cnBfaEI3bXBjOVowX0NpVExRenNHU2pCQlhBQnJwVFhJLUltOW9reElBeHVwRVI2NGNB?oc=5",
-   "pub_ts": 1792698436.0,
-   "date": "22.10.2026, 22:47",
-   "cat": "fda",
-   "sev": 4,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOOEZma1VaQUVzT3N6VHMwNFE5SENfMXVNY05rZkk4VXdQbzJ2enNxV3hGeUNjcUdaTHFVbVd1WTVWUGk0Z3NvZXNrblkzOXJjZkdpN2Z3MWM2cVhLdkJuVnRqN0dsMko2cnBfaEI3bXBjOVowX0NpVExRenNHU2pCQlhBQnJwVFhJLUltOW9reElBeHVwRVI2NGNB?oc=5"
     }
    ],
    "ncts": []

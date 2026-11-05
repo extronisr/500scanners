@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-05T21:01:04.300963+02:00",
+ "generated_at": "2026-11-05T22:01:05.083967+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -8,6 +8,70 @@
  },
  "sections": {
   "us": [
+   {
+    "title": "Wall Street mega-donors clobbered by Democratic sweep",
+    "url": "https://www.ft.com/content/1338f6b6-81b1-478b-9807-5cfe1fc39113?syn-25a6b1a6=1",
+    "source": "Financial Times",
+    "published": "2026-11-05T19:48:28+00:00",
+    "lede": "Top hedge fund managers and private equity executives spent more than $300mn on Republican campaigns to little or no effect",
+    "lang": "en"
+   },
+   {
+    "title": "After tech-stock rout, October jobs report could bring relief — or more pain",
+    "url": "https://www.marketwatch.com/story/after-tech-stock-rout-october-jobs-report-could-bring-relief-or-more-pain-db93357e?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-05T19:46:00+00:00",
+    "lede": "After a tech-led meltdown in the stock market, the October jobs report on Friday morning could bring investors some encouraging news — or add to their misery.",
+    "lang": "en"
+   },
+   {
+    "title": "McDonald's Stock Rally Runs Into Wall Street Warning",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQUTdkemtjZlFJZ1NFUXBMZVVQa1pBUUEyQzZXY2dqMzRqaGxaNVJzTFk4d2tnNGJLQTBBNXowd0QyNGhlbTRqckFJUWd0azdkSEhzV3lhWndVUHpva09oWFZydmhmdlUxdThWdGNGM3h3dkxmMm03VExvdldfcEJQVTlsVlV6YkdrSi13N2pNczJDUzRvT0hlb0NnOG8?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-05T19:33:38+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "The ‘Musk selloff’ deepens as Tesla and SpaceX combine for $450 billion two-day wipeout",
+    "url": "https://www.marketwatch.com/story/the-musk-selloff-deepens-as-tesla-and-spacex-combine-for-450-billion-two-day-wipeout-d300ab4f?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-05T19:29:00+00:00",
+    "lede": "Investors worry a divided Washington could derail “Elon, Inc.”",
+    "lang": "en"
+   },
+   {
+    "title": "What Anthropic's IPO could mean for Amazon and Google",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTXd6NEY2WG1OWVdrbGg5Ty1ROXgwdHZXNlBzd2J1VXBfWVNlSGFsdVBKNHVYMTNTYURkdkZram9lVHhDdmV6MnZqZ0lqOEQtU2diY1czeXBWbEc5al9NUEZ5M1NVYVM5MC0yUHV2VkJLWVZZNDVVZUh0YU43cThrSUw2ejlFOG9jZGpZZlZkdmdQaC12d056LU9QbFljcEQtOEdzZF9qUXJsSTJhWGNRcWJ3?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-05T19:27:16+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Wall Street's fear gauge surges the most since April. Why traders think it should be even higher",
+    "url": "https://www.cnbc.com/2026/11/05/wall-streets-fear-gauge-surges-the-most-since-april-why-traders-think-it-should-be-even-higher.html",
+    "source": "CNBC",
+    "published": "2026-11-05T19:20:21+00:00",
+    "lede": "From its intraday low to high Thursday, VIX moved more than 11 points, the biggest one-day move since April 9.",
+    "lang": "en"
+   },
+   {
+    "title": "מניות השבבים מפילות את נאסד\"ק במעל 5%, מדד הפחד מזנק ב-60%",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562117#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-05T19:19:00+00:00",
+    "lede": "נאסד\"ק בטריטוריית תיקון, מדד השבבים נופל ב-11%",
+    "lang": "he"
+   },
+   {
+    "title": "Strategy (MSTR) CFO Exit Looms, Does The Stock Look Fully Valued?",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUHdMSzQ4OUJYUkJuLVlpRWxuN1E3RzhTQW54S05OSDVtcFExRkctMzNDd0g1ZmtiWXl5YUFmODN0MnFsbXltSXNjckJRaTZkdE9HWk51TjloVWxrY296ZkYwS1JVZTFFZ00wVTBoTjh5bm9aRU9iRkU0ck9uS0dEdWQyeGpYV3Fqb2VrY00yY2dnSzZFNnhWYw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-05T19:10:04+00:00",
+    "lede": null,
+    "lang": "en"
+   },
    {
     "title": "US tech shares fall sharply as investors bet on AI slowdown after Democrats’ election triumph",
     "url": "https://www.theguardian.com/business/2026/nov/05/nasdaq-heading-for-worst-day-in-18-months-as-wall-street-sustains-widespread-losses",
@@ -17,85 +81,21 @@
     "lang": "en"
    },
    {
-    "title": "Wall Street fear gauge jumps most since 'Liberation Day' as AI trade stumbles",
-    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOWjhqRms1YmpjV2l6LW1FMTllNnp5R3BoZzc3TExxXzJUVGk1RmNCbkQ0d3pGN05WSHBsX0RldGJ4UWxoWjd4VmpLT1RabTJQNDA5cmV5QXV4RG1ITHVBQUsxNEJla1pnWXJIYWhHTE9waEZCaUpud0dQX3lQVzZmUTlEalJLX29nSTBrcVFrLUdaSVU2cDRDNUFfbE03ZEZqcHhCbEN0My1zZmJYaXVtOWpYdUpEVDhL?oc=5",
-    "source": "Reuters",
-    "published": "2026-11-05T18:33:43+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "AI agents can trade stocks for you—here are the risks and benefits, according to experts",
-    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5ick9xS0N4MC10QnlLTmlSM2IzV1RvTXNBY1hVTUttNDNQcExNQVpLcF85ajVyZlB6cmMxSXowZnNVY2xERENsRGJieWQ0SWhYN3hkR2dRQTN0WG0zVENwV3lGN3lEM2hVdFZoM2t6Tkk2akhCSjh1Nmxkb19Fd9IBgwFBVV95cUxQa0p2Sm9yR0xnTlVJS05uY1hOTmhzb1YyMHNWdlZuVk9EVDVUQXd3UG9veFFRNzIyZWF2dTE5cldHcm9URE5EeGNVaWlJS1pGOE4yckdoRjFkd0J4TjhydkhFT01pejVuYnpiLW9HaHppQnhUTWkzMnBENTJvbEpyT1VvRQ?oc=5",
-    "source": "CNBC",
-    "published": "2026-11-05T18:30:01+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Nasdaq set to confirm correction as AI stocks tumble",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObTdYYmZaZmRqRUt0TDhBbERraDF2VlpSTDJ4M1NyZ2dRRkNUUVJ0OVFHdzJyc01uNDZOV2YzZFprbU90aUNzTEtYTEdNWU5Jc19VVVlHc24tNkZ2VFhqOWg3b0swVDFnY2hHaGxuNVZXVkE5S09xZXV2eGRQb1kwdWFEZWxpeGMybDZRcGtyWW52Q1JfaHY4MVo1YmJfRW9KZmNsdVJqS24zeGRZVUpaV3VB?oc=5",
-    "source": "Reuters",
-    "published": "2026-11-05T18:29:47+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
     "title": "We're dipping into our large cash pile to buy this bank on Thursday's sell-off",
     "url": "https://www.cnbc.com/investingclub/2026/11/05/were-dipping-into-our-cash-to-buy-this-bank-on-thursdays-sell-off.html",
     "source": "CNBC",
     "published": "2026-11-05T18:29:21+00:00",
     "lede": "In times of market volatility, we like to fall back on companies that offer consistent capital returns to shareholders.",
     "lang": "en"
-   },
-   {
-    "title": "Micron, Sandisk and other AI stocks are falling hard: ‘Investors don’t like uncertainty’",
-    "url": "https://www.marketwatch.com/story/micron-sandisk-and-other-ai-stocks-are-falling-hard-investors-dont-like-uncertainty-94d2a3b9?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-05T18:18:00+00:00",
-    "lede": "Wall Street is digesting the prospect of a slower AI buildout in the wake of the midterm election results.",
-    "lang": "en"
-   },
-   {
-    "title": "ישראל במוקד הבחירות בארה\"ב. אבל האם היא באמת הכריעה אותן?",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562299#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-05T18:12:00+00:00",
-    "lede": "מהסרטונים שקשרו בין המחירים בסופר למיליארדים שמועברים לירושלים, ועד הוויכוחים הלוהטים בתוך הימין השמרני - הברית עם ישראל בלב העימות הפוליטי בארה\"ב",
-    "lang": "he"
-   },
-   {
-    "title": "Bloom Energy’s stock is one of the S&P 500’s biggest losers amid fears of data-center delays",
-    "url": "https://www.marketwatch.com/story/bloom-energys-stock-is-one-of-the-s-p-500s-biggest-losers-amid-fears-of-data-center-delays-a44c96bb?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-05T18:03:00+00:00",
-    "lede": "Bloom Energy shares got swept in by tech stocks’ sharp selloff Thursday, as investors fretted that the data-center buildout was at risk of stalling in the aftermath of the U.S. midterm elections.",
-    "lang": "en"
-   },
-   {
-    "title": "Bank of England raises interest rates to 4%, the first increase for more than three years",
-    "url": "https://www.theguardian.com/business/2026/nov/05/bank-of-england-raises-interest-rates-first-increase-for-more-than-three-years",
-    "source": "The Guardian",
-    "published": "2026-11-05T18:00:28+00:00",
-    "lede": "Base rate increases from 3.75% and Bank governor signals another rise in near future to combat rising inflation Analysis: Interest rate rise in midst of cost of living crisis will leave many incredulous The Bank of…",
-    "lang": "en"
-   },
-   {
-    "title": "Shares in Musk's SpaceX plunge as tech and AI stocks fall",
-    "url": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC",
-    "published": "2026-11-05T17:57:57+00:00",
-    "lede": "The market has been reacting to possible tougher scrutiny of data centre construction and the AI industry following the US mid-terms",
-    "lang": "en"
    }
   ],
   "il": [
    {
-    "title": "מניות השבבים מפילות את נאסד\"ק במעל 5%, מדד הפחד מזנק ב-60%",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562117#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-05T18:55:00+00:00",
-    "lede": "נאסד\"ק בטריטוריית תיקון, מדד השבבים נופל ב-11%",
+    "title": "מחר בת\"א: אלו המניות שיקרסו והנה המניה שתפתיע לטובה",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1FQVlEb1gzV1hUWk9obUpUZFJ4ZVBYVHAyeWlIT1lXLVhNLXBLUHNwZ2s0dkpZREVhZFM0SGVfd2xwNTJLTGZmOURQR19DZWRLV3dmdUpKcmE4UGdraFBqNlNuR0hicWpKZ3NYV0otZVQ?oc=5",
+    "source": "ביזפורטל",
+    "published": "2026-11-05T19:47:00+00:00",
+    "lede": null,
     "lang": "he"
    },
    {
@@ -131,6 +131,14 @@
     "lang": "he"
    },
    {
+    "title": "\"סערה מושלמת בשווקים\": מה עומד מאחורי הקריסה בוול סטריט והירידות החדות בת\"א?",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562330#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-05T16:33:00+00:00",
+    "lede": "המסחר בוול סטריט מתנהל בירידות חדות, לאחר שהמסחר בבורסה המקומית ננעל באדום בוהק",
+    "lang": "he"
+   },
+   {
     "title": "הדולר מתחזק לשיא של 7 חודשים מול השקל, צניחה בבורסות בת\"א ובוול סטריט",
     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5xVHMyVWRtUXpnS1JudkhQeE1vWDNaNVRBUGE2TmhLWkV6S2RDeWFfeDJoZmNKX1N5WGZqeXhrODZfWC1zelVsQ3I5N3VRWDNKQ0hsczllTVoxMDN5Sm1qdFVIYw?oc=5",
     "source": "i24NEWS",
@@ -145,14 +153,6 @@
     "published": "2026-11-05T10:18:24+00:00",
     "lede": null,
     "lang": "he"
-   },
-   {
-    "title": "ת\"א 35 צלל 3.7% - הביטוח ב-5%, הביטחוניות ב-7%; במחזור השני בגובהו בהיסטוריה - 19 מיליארד שקל",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB2eVVSbDhLYzUzb1VzaUFfdWV2LV9zZzRXcFpFMjNkV1J4Y2c4QXl3THVaXzBiN3JncGZubzNvNElOZ3VuYlVBYXlpcW53N1ZxMlhqbjRidnlENl9FLUQwb0tHX3liSTVneHRPVGwtRkY?oc=5",
-    "source": "ביזפורטל",
-    "published": "2026-11-05T04:40:00+00:00",
-    "lede": null,
-    "lang": "he"
    }
   ],
   "geo": [
@@ -160,15 +160,15 @@
     "title": "Melania Trump urges 'humanity over war' with Ukraine, Russia officials",
     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOWkhXRFdJbFdiTmQySWJyWVRIbHhpdFlXaVRSQmh6UzJvbDJSbWZUdGRwM0VPaFpHbkVpc1VmSlAybEFJUTN0cmNMWkpuX1FJSE8zT3NBYXdXY05lLUhjTldMelM1eGdUWWVnbF9qb0s3VFMySFJ1Qk5GTFJmeXVHM1NLaHNEMzdrZjhXNWpEcVhOQTdSV3V6SVVMQU0xMGtNbUhkblZRdG82aUdvTWxLbHZQUmFpdEh5WUV4ZUgtZU1JcjFjaUxZ?oc=5",
     "source": "Reuters",
-    "published": "2026-11-05T18:30:20+00:00",
+    "published": "2026-11-05T19:13:42+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "US issues new Cuba sanctions, takes aim at sectors of Cuban economy",
-    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQblVpSUg3SjBzNjdqeWlrY1hpeWNhQ2E0VzNmZW1RTVl3ekVfRW5ERnpNU2gwa3M3NUZuNWFFc3JWR3BnNGlHeS1VOENLeFcwRUxaYm00TnVxZWd1RkxtbEJ0WlJTQmFMeXZDZm9iX1Fybk5qTGJ5eVhCMlV6c2VFbUd4ZXZBS2VmeW9tM0d1SjRoN0FibW13RnAtcU11XzVENk5PVTVYV2RPMGJkM3ZlaQ?oc=5",
-    "source": "Reuters",
-    "published": "2026-11-05T18:11:08+00:00",
+    "title": "Video: A ‘Hard Time’ for Vance: Tucker Carlson Thought the Iran War Would Doom the G.O.P.",
+    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPQW5nZXBuN182N3JaUHg4U1NGblcwVVlYUllBNlpkVlYybGl5Qk9mY3dQX2ZWRE4wandHT2tUa0ljcGpzZWhVRTAyNHM4bDZOOHdqekNPclV4djNLaWRVaFZKT2Etalg4VUR4OHlpQUtiNHRBTmpkZVptbFVCbTlHci1PTFlCLUk0R3ZZa1JHX3dNVkZHZDl4cFBPYTdLWG5tR2RaLU82dmprbW5QSEtaN1BmVF9yOUlpM2podzZ5cW45QlFuNnJhbXpwejU0YWJrZ3c?oc=5",
+    "source": "The New York Times",
+    "published": "2026-11-05T19:01:45+00:00",
     "lede": null,
     "lang": "en"
    }
