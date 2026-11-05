@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-05T09:31:06.088819+02:00",
+ "generated_at": "2026-11-05T10:31:02.954851+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -9,19 +9,67 @@
  "sections": {
   "us": [
    {
+    "title": "עליות באירופה; מניות השבבים הפילו את בורסת סיאול ביותר מ-5%",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562117#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-05T08:20:00+00:00",
+    "lede": "בורסת פריז קופצת במעל 1% • נעילה מעורבת באסיה בעקבות הניצחון הדמוקרטי בבחירות בארה\"ב - בורסת סיאול צנחה בהובלת מניות השבבים, בורסת הונג קונג זינקה • מגמה מעורבת בחוזים בוול סטריט אחרי הראלי הגדול אמש, החוזים על הנאסד\"ק…",
+    "lang": "he"
+   },
+   {
+    "title": "Bank of England expected to raise interest rates today; FTSE 100 hits three-month high – business live",
+    "url": "https://www.theguardian.com/business/live/2026/nov/05/bank-of-england-interest-rate-decision-pound-inflation-oil-iran-stock-markets-latest-news-updates",
+    "source": "The Guardian",
+    "published": "2026-11-05T08:18:51+00:00",
+    "lede": "Rolling coverage of the latest economic and financial news, as UK braces for first interest rate rise in over three years Boom! The London stock market has hit a three-month high at the start of trading. The blue-chip…",
+    "lang": "en"
+   },
+   {
+    "title": "KT&G Posts Record Quarterly Revenue and Operating Profit in Q3, Unveils Four-Year KRW 5 Trillion Shareholder Return Plan with Potential for More",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVjI5WERTaERrd0RnazhxWTYwVW80cGUyRVBfRHhfY1JYbXJuTDR4SzNTUXhQOHlndHdNNFhwSmVZMkh0d3RjaExZSFRoN0dqSmRlYU1LcnVkWTVXU0R5X2dnWlNNdG1DUUU3SWhzeEkzaUxIUi1kVUllVUhQY3Y3UnlsQVRkcHlaRFBjOXV1QzJSWlFDTWFB?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-05T08:14:00+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Dow scores its best day in 18 months in a broad relief rally after Democrats sweep to power in Congress",
+    "url": "https://www.marketwatch.com/story/dow-scores-its-best-day-in-18-months-in-a-broad-relief-rally-after-democrats-sweep-to-power-in-congress-d7348fc0?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-05T08:13:00+00:00",
+    "lede": "Stocks surged, oil prices plunged and bond yields fell Wednesday on optimism around a quicker end to the Iran war now that Democrats have clinched control of Congress.",
+    "lang": "en"
+   },
+   {
+    "title": "Why Rocket Lab Stock Plunged 15% in October and Why Its Decline Might Be Short-Lived",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQbVN5M0hnVkN1ZldLYzBLYmtrSzJyVEpLWEVnYWRQanplcFlHSEw3NmlaZkF1S2JTWUpyLWdyMHhodDUxcDlTdzFBVFkzbGVqSjF2MW1MSjBIUTVnellaeGVXanBsWmN0ekVsRmp5aVI4WFVSNllpU25nUU1fU2pfSDlTZWRUQ1hZTjRRQ2pSTUhwTTU1Yy12OQ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-05T08:10:02+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Berkshire Hathaway's Stock Portfolio Is Worth About 3 Times What It Paid. The Gains Alone Equal About 19% of the Company.",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWmxkMW4tQXR5X09YUWJIXy1QMFE2VTA1NjkyTEx0MTBmZHRhQUJiTzAxMnBBR0Q0dUhpNVB5VHBrWTJ3N0g2b3RvYkZybnlmM0IyYmpXMHlhNHZQLVM4b0VhOXhxYmNSaEZCRF83WVFiQXVjZDN6bWJQSE9MSFR3TE04akxPWWhzOWtGMC03bVlOei1qeFVWLTBVeVh4QjZFWmtNajNKWGpxZw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-05T07:50:00+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
     "title": "Nintendo Switch 2 sales plunge 41% as price hikes and memory crunch bite",
     "url": "https://www.cnbc.com/2026/11/05/nintendo-earnings-switch-2-sales.html",
     "source": "CNBC",
-    "published": "2026-11-05T07:28:37+00:00",
+    "published": "2026-11-05T07:30:58+00:00",
     "lede": "Sales of Nintendo's flagship Switch 2 plunged in its fiscal second quarter after the Japanese gaming giant rolled out price hikes amid soaring memory costs.",
     "lang": "en"
    },
    {
-    "title": "Bank of England expected to raise interest rates for first time in three years today – business live",
-    "url": "https://www.theguardian.com/business/live/2026/nov/05/bank-of-england-interest-rate-decision-pound-inflation-oil-iran-stock-markets-latest-news-updates",
-    "source": "The Guardian",
-    "published": "2026-11-05T07:23:41+00:00",
-    "lede": "Rolling coverage of the latest economic and financial news Good morning, and welcome to our rolling coverage of business, the financial markets and the world economy. Predicting a central bank’s actions can be risky…",
+    "title": "Oil tumbles below $100 on post-election peace hopes",
+    "url": "https://www.ft.com/content/b526f876-810a-4e74-8b8d-4ffca04b29c7?syn-25a6b1a6=1",
+    "source": "Financial Times",
+    "published": "2026-11-05T07:20:20+00:00",
+    "lede": "US vice-president JD Vance blames Republicans’ midterm defeat on anger over Iran war",
     "lang": "en"
    },
    {
@@ -39,57 +87,33 @@
     "published": "2026-11-05T07:15:00+00:00",
     "lede": "Wall Street veteran Jared Dillian says the biggest problem is many investors these days have not lived through a major downturn. He’s got a portfolio that offers protection.",
     "lang": "en"
-   },
-   {
-    "title": "Major Shareholder Announcement",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNb0FkdzJHY2FzQUw4a3hkb0kwVC1ud3E0bEdNME1ITTR1M0hVVzh6bjlJUjN3M1R3TVRsTU5ReHBuV2NLT2VKMzVPMkZqZzR3LWd0clBhNVFzUExLcXpOWFQ2UHVXMERLdmJ6dVFuZVNzLTh4RGtHMkV6Vm94T2ZiNEtWcW5RZzZXMmo0Z1poN1VtQU16S1FHX1A3aw?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-05T07:00:00+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Chip stocks, oil sink in the aftermath of Democratic election sweep",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUG9ENFo3M0RHNWI0VEdfTlZhWmpjVGR0UjViV3dBQllRVkNha0YzU1FhX2lDaWVUT1U1Ym5DbWRlOFpJZ3JPU3AwZ1Nia3NNWjdKc3Jvd0VXU3otQU83ZjFlQmZwbHcyZmJKZFk4dVJWaXhWQnV6MTF6TUpmaDcxNmdhbFFNaU1N?oc=5",
-    "source": "Reuters",
-    "published": "2026-11-05T06:44:33+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "ביטול כספי הסיוע מסבך הזמנת נשק ביותר מ-10 מיליארד דולר מארה״ב",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562152#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-05T06:39:00+00:00",
-    "lede": "בוול סטריט ג׳ורנל מדווחים כי ישראל ביצעה הזמנות של מערכות נשק ביותר מ-10 מיליארד דולר, מעבר לכספי הסיוע שכבר הובטחו",
-    "lang": "he"
-   },
-   {
-    "title": "Amazon Trades at a Fraction of Costco's Valuation. Is the Discount Deserved?",
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMkxzTW92ZmpaSmd4Ul90bFZZcXdROFZvdTRQc004S0xnWGI5eHdiZWxZT0VXUFZ6TUpSOVBNWGNCUFlyS3NTcXBiM0VNVXFTVURxZ0MzcVh3ZFYtanVGMU9Da0RIeklpVGZMLVlVc0lwQXgyYTBWQW5zck5GUVRLUGpDek5hWTRSTXJ3d1Z6el9YOUFRTTFnYnhHME1CNXhfcUZOZW5CeDA?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-05T06:35:00+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "הסיבה מאחורי הראלי האדיר שנרשם אמש בוול סטריט",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562145#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-05T05:26:00+00:00",
-    "lede": "דאו ג’ונס זינק אמש ב-3% לאחר ניצחון הדמוקרטים בבחירות האמצע, אבל המשקיעים בעיקר חגגו את החלטתו של הנשיא לקבל את התוצאות, וגם את ההערכה שלא תיפתח בקרוב מערכה חדשה באיראן",
-    "lang": "he"
-   },
-   {
-    "title": "Asian tech stocks slide on post-midterm AI fears",
-    "url": "https://www.ft.com/content/21755495-c68a-45a9-90d8-64f698cd1952?syn-25a6b1a6=1",
-    "source": "Financial Times",
-    "published": "2026-11-05T05:12:51+00:00",
-    "lede": "Concerns mount that Democratic control of Congress will slow data centre build-out",
-    "lang": "en"
    }
   ],
   "il": [
+   {
+    "title": "ירידות חדות בתל אביב; מניות השבבים והביטחוניות נופלות, אל על יורדת אחרי הדוחות",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562088#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-05T08:28:00+00:00",
+    "lede": "מדד ת\"א 35 יורד במעל 1%, המניות הדואליות מכבידות על המסחר",
+    "lang": "he"
+   },
+   {
+    "title": "אורמת עקפה את התחזיות ברבעון השלישי, ומעלה את התחזית השנתית",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562158#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-05T07:52:00+00:00",
+    "lede": "הכנסות חברת האנרגיה הגיאותרמית צמחו ברבעון השלישי ב-10.2% ל-275 מיליון דולר, והרווח למניה הסתכם ב-51 סנט, לעומת צפי האנליסטים ל-35 סנט",
+    "lang": "he"
+   },
+   {
+    "title": "מכרה הזהב של אל על: רווח נקי של 160 מיליון שקל לנוסע המתמיד",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562157#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-05T07:52:00+00:00",
+    "lede": "ההכנסות נטו ממועדון \"הנוסע המתמיד\" בתשעת החודשים הראשונים של השנה רשמו זינוק חד של 61% ביחס לתקופה המקבילה אשתקד",
+    "lang": "he"
+   },
    {
     "title": "לראשונה מאז 2019: בלקרוק חוזרת לשוק קרנות הסל בתל אביב",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001562153#utm_source=RSS",
@@ -97,38 +121,14 @@
     "published": "2026-11-05T06:54:00+00:00",
     "lede": "לגלובס נודע כי ענקית ההשקעות האמריקאית, המנהלת נכסים בהיקף של כ-15 טריליון דולר, רושמת למסחר בבורסה בתל אביב שלוש קרנות סל בתחומי השבבים, האנרגיה והשוק ההודי",
     "lang": "he"
-   },
-   {
-    "title": "הרווח של אל על ירד ב-14% ברבעון; תחלק דיבידנד ענק",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562149#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-05T06:38:00+00:00",
-    "lede": "הכנסותיה של אל על צמחו ב-18% ונעמדו על שיא של 1.27 מיליארד דולר, אך הרווח נחתך בשיעור דו־ספרתי",
-    "lang": "he"
-   },
-   {
-    "title": "המניות הישראליות שהיו מעדיפות לשכוח את עונת הדוחות הזו: חמישה דברים לקראת יום המסחר",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562088#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-05T06:25:00+00:00",
-    "lede": "יום המסחר צפוי להיפתח במגמה מעורבת, המניות הדואליות ייחלשו",
-    "lang": "he"
-   },
-   {
-    "title": "פאלו אלטו בוחנת רכישה נוספת בישראל בכ־500 מיליון דולר",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562148#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-05T06:06:00+00:00",
-    "lede": "פאלו אלטו נטוורקס מנהלת מגעים לרכישת הסטארט־אפ הישראלי קלאץ' סקיוריטי תמורת כ־500 מיליון דולר, כך דיווח אתר דה אינפורמיישן",
-    "lang": "he"
    }
   ],
   "geo": [
    {
-    "title": "Iran says Americans rejected Trump’s war as the world reacts to the midterms rout",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQRXNTWEFrYUgxWTVNYUxORkM0NXM5MVd6bk85SGZNUlI3OGVyYU45UEpXNW5mS212ZkxKdG5HaUxhTjAzcVUyQ3czeWd3eTd6V09fckJBVDJfRVNUcUFIU0ZBb2pOVUluVHRCaXVfTGlIc0paU1JtbUVwTFZMNDYyODNKY01qZE9ES3kySEhIUm9mUXdsOTZ6U2NTcHdFdEtrZk5YRmpvc0hnNGs?oc=5",
-    "source": "NBC News",
-    "published": "2026-11-05T06:19:18+00:00",
+    "title": "Ukraine war briefing: Zelenskyy awards Melania Trump national honour for role in brokering Oleshky truce",
+    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPNjlfVnhHcllnQzBsS3Z4eVRjZWJuZ3lEdnRvYWZ4Nk5TWHo0dUJKRGlpWGM1ZHotT2ZGaVhROVBaTG5mdVg5ZDhuYzZ6TTVfV1piZDJPSktSb1Z6YWVFemYxdTFWeHFPZVJiOWljV0djOWhrNWdGVXgtaEUxVzAwU21JSEhJVFVmRjlVbVFremdRaVg1Rkl1Z2MxVHpsUVpGdFI0Z3dVRGtBT09vTWdUNDR1VmpiWG1sNWdoN1NybTRmS1loaloxV2tLOGhfOGRBSnV4czU4Q0tmUGxsMml4TjlvTQ?oc=5",
+    "source": "The Guardian",
+    "published": "2026-11-05T05:57:00+00:00",
     "lede": null,
     "lang": "en"
    },
