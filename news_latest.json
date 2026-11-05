@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-05T06:31:05.002071+02:00",
+ "generated_at": "2026-11-05T07:31:03.252165+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -9,18 +9,58 @@
  "sections": {
   "us": [
    {
-    "title": "IREN Stock Drops After Report Says It’s Behind Microsoft’s AI Spending Delay, As Investors Turn To Earnings",
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNUXZxNDFGcEV5RGlOdkFvbVRRYmZELVMtODBNR1NXaXdkQVFDZ1dPb0RGSk5YMzFmQWpDdGpQZ1ZjQW52R1JPQ1FpQk9FOWgtWnhwN2kwek1xemxTUlJCemN5MEcyOHFCSy1zbkJ2RHdES2RMcGtzaVNmRVIybHAyS3FWMEV0M2JwclAzckNmVFRlTDhGX3p6Zg?oc=5",
+    "title": "הסיבה מאחורי הראלי האדיר שנרשם אמש בוול סטריט",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562145#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-05T05:26:00+00:00",
+    "lede": "דאו ג’ונס זינק אמש ב-3% לאחר ניצחון הדמוקרטים בבחירות האמצע, אבל המשקיעים בעיקר חגגו את החלטתו של הנשיא לקבל את התוצאות, וגם את ההערכה שלא תיפתח בקרוב מערכה חדשה באיראן",
+    "lang": "he"
+   },
+   {
+    "title": "History Says This Is the Best Time of the Presidential Cycle To Invest. Could Wednesday's Rally Spark an Epic Bull Market?",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZUI3V3lRMldlU3dOZXJ4T2s5VGRxTVNOVVZoQlhDSVNma3pQd0M1QldyX1o2QlZqVHVUSjI2OFlBTkxWSGhNTXJGMDQ5aUN3MjZiaHhrNU0wNS0tV0hMckdYcWN5WXRreDcwcVhKTTc4TEdjcURMRzI3YkRSbWZETmhwSG92SlB6TGhhZWtjQWFzSWNPeENIVkJvYlRCb0JqZlE?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-05T04:08:23+00:00",
+    "published": "2026-11-05T05:15:00+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Rocket Lab (RKLB) Stock Could Be Above Fair Value After Iridium Deal",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQa1ozQ1pTaWwxV0tOOUxhelVNNzhyRlU1TTdHb0g2dXZNZS1wV1c5RS1GbE1QOG1STUlwS0FZVUZnNTJlaXlxMnJ4QWlYS180bVdyZnlFNVF6djNtQzZudXF4UWl4Wng5eFYxekluS0dNeHdXUEFhQnljWXdnbXhBdW1oVGNmWDJQdXRPMkZJeGxZSDBkZXVr?oc=5",
+    "title": "Asian tech stocks slide on post-midterm AI fears",
+    "url": "https://www.ft.com/content/21755495-c68a-45a9-90d8-64f698cd1952?syn-25a6b1a6=1",
+    "source": "Financial Times",
+    "published": "2026-11-05T05:12:51+00:00",
+    "lede": "Concerns mount that Democratic control of Congress will slow data centre build-out",
+    "lang": "en"
+   },
+   {
+    "title": "REA Group shares rally on strong Q1 revenue",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOUm15ZHZqWUpkd0wxVndPZUtHZWVPSGNGQjBGenM0UGpaNkMtWl82WG42c0JfeWdaOXBvZTVMRUdyUHFPanB3QmFkcDlnRGlPUnBsZ0xCUVlDQldFckx6WWJIN0YzcUIwRlRVWE10bzVBUTdmd1hxZ2d0SEcySXFUWlZINUZSZWxpeWVUSVVWOXc2TlNMVk9RT3RR?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-05T03:58:34+00:00",
+    "published": "2026-11-05T05:03:57+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Morning in America, twilight in the markets",
+    "url": "https://www.ft.com/content/d21e2a87-191b-447d-b81b-edcf7bc2f007",
+    "source": "Financial Times",
+    "published": "2026-11-05T05:00:16+00:00",
+    "lede": "Astonishing midterm election results will not repeal the turn of business and financial cycles",
+    "lang": "en"
+   },
+   {
+    "title": "מצב השווקים: מניות השבבים מפילות את סיאול, החוזים על הנאסד\"ק אדומים",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562117#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-05T05:00:00+00:00",
+    "lede": "גלובס מגיש עדכון ראשון לגבי מצב השווקים מסביב לעולם",
+    "lang": "he"
+   },
+   {
+    "title": "Asian chip stocks slide as disappointing Qualcomm, Arm earnings weigh",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZmNLV2plUmpvX1JEb2VFcFRGd1hzRjJQdG44ZGNrX2g2Y2h2Q2dfRmRIT1QzS2UxcXRHUEttdVE0S01hR0Z4SUxpUHJoQTFTcXA5T0k4anpzTWFwTUhhV3psZDNrNzE3azdwTzA2Y0xrNEZBWVpEMHRkMHV0YTZfV0tzLThSaEYtVjhTRDJNT1JERHNFSVBKSmxzTUdKTlE?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-05T04:51:00+00:00",
     "lede": null,
     "lang": "en"
    },
@@ -30,38 +70,6 @@
     "source": "CNBC",
     "published": "2026-11-05T03:53:18+00:00",
     "lede": "Growing competition for semiconductor talent is fueling a battle over trade secrets as Chinese chipmakers gain ground.",
-    "lang": "en"
-   },
-   {
-    "title": "Dow Jones Futures Rise, Techs Fall; Apple, Microsoft, Amazon Flash Buy Signals In Postelection Rally",
-    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNQmliVFRWX3pISnI2UzBXQlE0bUhCVExKXzhqZkNWTXY0emxpN2RHYWpqTklDR0x2Mk4talloWE5vSmtZcE9VTlUzVmFhS3ZYZUlpN2psY2lOWGNRV1huaUx5VWtpa29lVGt1ZWFiWU12VzIxamE4cHItM3E4SVAxb2QyZE4wTm8xV0k1RGZDdmhVU0VaLTVsQk9Sd3dnczlpa1JRV2dScVNwOGZpOENqdWRuZi15XzRYaWEyNFFndmFZRHJpNWZYazdMb05PdjJuMEJINS1PRlhESl82VGJFUQ?oc=5",
-    "source": "Investor's Business Daily",
-    "published": "2026-11-05T03:52:00+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "ארבע עסקאות ענק בחודשיים: הרצף המנצח של אלביט מערכות",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562083#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-05T03:34:00+00:00",
-    "lede": "עם מודל של חברות בנות שמאפשר לה להיות מקומית במדינות שונות, גל עסקאות ברחבי העולם, בהיקף כולל של כ־1.1 מיליארד דולר, משקף לאלביט רווח חריג בענף",
-    "lang": "he"
-   },
-   {
-    "title": "US stocks post best day since August after Democrats sweep midterms",
-    "url": "https://www.ft.com/content/a0b18705-3bd8-4886-992c-b6062fdec6ea?syn-25a6b1a6=1",
-    "source": "Financial Times",
-    "published": "2026-11-05T03:11:55+00:00",
-    "lede": "Hyperscalers surge and chipmakers fall as investors bet on winners and losers from expected backlash against the AI boom",
-    "lang": "en"
-   },
-   {
-    "title": "Oil tumbles below $100 on post-election peace hopes",
-    "url": "https://www.ft.com/content/b526f876-810a-4e74-8b8d-4ffca04b29c7?syn-25a6b1a6=1",
-    "source": "Financial Times",
-    "published": "2026-11-05T03:01:11+00:00",
-    "lede": "US vice-president JD Vance blames Republicans’ midterm defeat on anger over Iran war",
     "lang": "en"
    },
    {
@@ -78,14 +86,6 @@
     "source": "CNBC",
     "published": "2026-11-05T01:11:26+00:00",
     "lede": "President Donald Trump first tried to fire Lisa Cook in August 2025, but the Supreme Court in June blocked him from doing so, for now.",
-    "lang": "en"
-   },
-   {
-    "title": "Qualcomm’s stock falls as twin forces pressure sales",
-    "url": "https://www.marketwatch.com/story/qualcomms-stock-falls-as-twin-forces-pressure-sales-fa161159?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-05T01:06:00+00:00",
-    "lede": "Qualcomm faces the loss of Apple’s business and the negative impact of high memory costs on overall smartphone demand.",
     "lang": "en"
    }
   ],
@@ -107,36 +107,36 @@
     "lang": "he"
    },
    {
+    "title": "ארבע עסקאות ענק בחודשיים: הרצף המנצח של אלביט מערכות",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562083#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-05T03:34:00+00:00",
+    "lede": "עם מודל של חברות בנות שמאפשר לה להיות מקומית במדינות שונות, גל עסקאות ברחבי העולם, בהיקף כולל של כ־1.1 מיליארד דולר, משקף לאלביט רווח חריג בענף",
+    "lang": "he"
+   },
+   {
     "title": "מאבק בצמרת מטלטל את קרן ההון סיכון המיתולוגית, ויש מי שמנסה להרוויח מכך",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001562066#utm_source=RSS",
     "source": "גלובס",
     "published": "2026-11-05T03:32:00+00:00",
     "lede": "נפילה במניית אלרון סיבכה את בעלי השליטה בחברה, שנטלו חוב גדול למימון ההשתלטות, והובילה לסכסוך ביניהם, להדחת יו\"ר אלרון ואף לתלונה במשטרה",
     "lang": "he"
-   },
-   {
-    "title": "הנתונים שמראים אם כדאי לגדר את ההשקעות במט\"ח מול הדולר",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001561879#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-05T03:30:00+00:00",
-    "lede": "השוואת נתוני הקרנות של קסם ותכלית לאורך תקופה של תשע שנים כמעט מגלה: למרות היחלשות המטבע האמריקאי בכ־10%, הקרנות המגודרות הניבו פחות ורשמו תנודתיות גבוהה יותר",
-    "lang": "he"
    }
   ],
   "geo": [
    {
-    "title": "Oil falls for a fourth day on expectations for lower risk of Iran war escalation",
-    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdzM2c3YzcktwU285aS1QaVVzTk51WFR0UnpxMXlnaFdEd2RtZWYzMm81TDZQUTJZS0ZlLXFVV3ZhcGFibkdLZm9Remo3YjlhNHJTd1lxSXNMUFNzejhIMkt0TlFRXy1RZl9TdTkxbDhfdjQxUEIzcUhaYlpOMjZJSVViNmVPV0dRV0RmaTJ3dDJ3QUs4TTFleFlnZnNyUHhVYlQ5NldaZVRZRFd5dU5nVnRKVUQ0UFE?oc=5",
-    "source": "Reuters",
-    "published": "2026-11-05T02:20:00+00:00",
+    "title": "The Czech government’s new culture war shows the Maga spirit is still alive in Europe",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNdzYwTVBiX1RrS3pXOXhJMWFXdl9GRWJHYUdncGpYZ2lKaTZKUHZ4d2llX0VVSHBvWkJ0S1BXWk1DNThvZGJmMWVDMUZnWnJaZ0lDVGpoa2g3eU1HTWFSZEhRNWpCYURDLUxUN2trZ0FHTVBWNnhIVUVWSU1vZDlPaDJaNGppMXdfN0g5OHY2ZngyREd6bUxwUDlrMld1VmZoLTBWLQ?oc=5",
+    "source": "The Guardian",
+    "published": "2026-11-05T05:00:00+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Rupee to rally after US midterm fallout sinks oil on Iran war-exit hopes",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQME9GZlNzY1R1djlUYWZnQ2lQRXE3ZHoxQ1VhOEZhaVRyVTY3TWZIRXhNMDNaemNtb0NFNzJZeTZtYlRCX0FtbFlYenA4Z0gtSkZBZVFRQThHZkRtcHhsR09wWXVhdl9CLUQ2Z19JNWpFWlI0N013RFR4VDFrSTFoZzVQS3F5Y216eWdlMTlZbWxldWY4TXh0M09TLTBuX3lUZ1ZWRzVaRHhxSENxT3E4Qlpwd0E?oc=5",
-    "source": "Reuters",
-    "published": "2026-11-05T02:19:00+00:00",
+    "title": "South Korea says it will expand naval operations closer to strait of Hormuz",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPR0RQNEl3UkNKLS1ySG4xOWhzWFNIb2J1NXFDTlpDR1pWbWRVR1RnZ2phUUNXR2ExX3lCVDdXREVpdkhUUl9uMmlOVjJJWmFGUDNNUzItSEV2ckllNGpvdWN1VG1jZW0wRnRoMnpGR2Z1VldxNS1sR0Mwd1lNMDdXN3UyVGZPbUw1RWtsTzUwc3I3NnJsMVZ3MGY3bTRIcXdVLUVV?oc=5",
+    "source": "The Guardian",
+    "published": "2026-11-05T04:22:00+00:00",
     "lede": null,
     "lang": "en"
    }
