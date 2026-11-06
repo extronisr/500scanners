@@ -335,6 +335,14 @@
    "pivot": 175.75,
    "target": 195.34,
    "stop": 170.48
+  },
+  {
+   "ticker": "WYNN",
+   "date": "2026-11-06",
+   "signal_price": 83.11,
+   "pivot": 82.94,
+   "target": 95.09,
+   "stop": 80.45
   }
  ]
 }
