@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-06T10:31:02.838096+02:00",
+ "generated_at": "2026-11-06T11:31:00.853126+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -9,27 +9,43 @@
  "sections": {
   "us": [
    {
+    "title": "אירופה בירידות, בורסות אסיה צנחו ויפן נכנסה לטריטוריה של שוק דובי",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562355#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-06T09:21:00+00:00",
+    "lede": "בורסות אסיה צנחו הבוקר בהמשך לאתמול, שהיה יום המסחר הגרוע ביותר שנרשם במדדים המובילים בארה\"ב מאז אפריל 2025",
+    "lang": "he"
+   },
+   {
     "title": "Global stocks tumble as AI panic grips markets after Democrats’ midterm success – business live",
     "url": "https://www.theguardian.com/business/live/2026/nov/06/global-stocks-tumble-ai-panic-markets-democrats-midterms-success-jobs-oil-dollar-latest-news-updates",
     "source": "The Guardian",
-    "published": "2026-11-06T08:09:50+00:00",
-    "lede": "Rolling coverage of the latest economic and financial news, as Asia-Pacific markets slide after Wall Street rout Europe has joined the global selloff. The FTSE 100 index, which tracks blue-chip shares listed in London…",
+    "published": "2026-11-06T09:14:17+00:00",
+    "lede": "Rolling coverage of the latest economic and financial news, as Asia-Pacific markets slide after Wall Street rout Despite the sharp losses suffered on global stock markets around the world, most indices are still up for…",
     "lang": "en"
    },
    {
-    "title": "Asian markets battered after Wall Street AI rout",
+    "title": "Tanks or drones? Defense earnings reveal a more complicated rearmament boom",
+    "url": "https://www.cnbc.com/2026/11/06/defense-military-tech-earnings.html",
+    "source": "CNBC",
+    "published": "2026-11-06T08:52:14+00:00",
+    "lede": "The world's biggest defense firms are finding that demand for traditional military equipment remains strong even as drones and AI reshape how wars are fought.",
+    "lang": "en"
+   },
+   {
+    "title": "Take Five: Tech wreck and roll",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZHNyN1A5QUF4MHZGYlVaalZTcHJPMkRaTXIxOG1vdy1ZUTNVaGYtNXFMNXhhdURUWU5rbXBuUFN5eHU4UVNJR0lGT1VDWWotVDRoeDFpLTVVRWhnZmNmYjZtMkdUMmE3dlBocWZ4S1BPWjhhWkc4bkFydm1Ld052Xzh4YWpZeU1ONjYyWFFB?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-06T08:42:09+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Wall Street AI sell-off spreads to Asia and Europe",
     "url": "https://www.ft.com/content/642b32dc-e3a1-4df8-ae91-5c84bdeb89e0",
     "source": "Financial Times",
     "published": "2026-11-06T07:39:22+00:00",
-    "lede": "Investors fear Democrats will seek to slow US data centre build-out that underpins the AI boom",
-    "lang": "en"
-   },
-   {
-    "title": "November US Stock Market Outlook: How to Position Your Portfolio for the Remainder of 2026",
-    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNLTBzVlJUNDJiazlQdkE4WVBCNVFGQ0w3YVZfak1VdUlyeFBoR1hfTk44dU53cDJoSkVnbURmM0ZJdkZTb21mVHNvWk5vR21RVW1kWDdGb2pOeGtLNVBpNVlZbGpaOEcxOEhBOXhSQ3NMcFVQUnBadEFYUkl0ZG1fVUcwV1FfWnJreDJLMDl4Z2FOMFBEUXUxT05zQ09YUjh0NXhEV3A2ek0xOWpSOWRXNVFIRVFuV1YwbWFVbA?oc=5",
-    "source": "Morningstar",
-    "published": "2026-11-06T07:35:45+00:00",
-    "lede": null,
+    "lede": "Donald Trump blames voters for tech rout as futures suggest sell-off will ease at the US open on Friday",
     "lang": "en"
    },
    {
@@ -71,39 +87,31 @@
     "published": "2026-11-06T06:02:36+00:00",
     "lede": "Over the last month, India's Nifty 50 has gained nearly 9%, while markets with heavy AI exposure, including the U.S., Japan, South Korea and Taiwan are deep in the red.",
     "lang": "en"
-   },
-   {
-    "title": "Renewed U.S.-Iran tension could push oil past $100: Rapidan Energy",
-    "url": "https://www.cnbc.com/2026/11/06/us-iran-war-trump-hormuz-oil-midterms.html",
-    "source": "CNBC",
-    "published": "2026-11-06T05:27:24+00:00",
-    "lede": "Bob McNally predicts that both Brent and West Texas Intermediate futures will jump above $100.",
-    "lang": "en"
-   },
-   {
-    "title": "המפולת בוול סטריט מגיעה לאסיה: הבורסות צונחות, יפן נכנסה לשוק דובי",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562355#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-06T05:19:00+00:00",
-    "lede": "בהמשך ליום המסחר הגרוע ביותר שנרשם במדדים המובילים בארה\"ב מאז אפריל 2025, בורסות אסיה רושמות הבוקר ירידות חדות",
-    "lang": "he"
    }
   ],
   "il": [
    {
-    "title": "לאחר הירידות אמש, הבורסה נפתחת במגמה מעורבת",
+    "title": "לאחר הירידות אמש, מגמה ירוקה הבוקר בבורסה בתל אביב",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001562306#utm_source=RSS",
     "source": "גלובס",
-    "published": "2026-11-06T08:12:00+00:00",
-    "lede": "המסחר בת\"א ייפתח הבוקר על רקע הירידות החדות אתמול בוול סטריט",
+    "published": "2026-11-06T08:45:00+00:00",
+    "lede": "המסחר בת\"א נפתח הבוקר על רקע הירידות החדות אתמול בוול סטריט",
     "lang": "he"
    },
    {
-    "title": "לאחר הירידות אמש, עליות הבוקר בבורסה בתל אביב",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562306#utm_source=RSS",
+    "title": "ת\"א 35 מזנק 2%: הביטוח עולה 3.8% והבנקים 2.7%; הפניקס מוסיפה 4.4%",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1FQVlEb1gzV1hUWk9obUpUZFJ4ZVBYVHAyeWlIT1lXLVhNLXBLUHNwZ2s0dkpZREVhZFM0SGVfd2xwNTJLTGZmOURQR19DZWRLV3dmdUpKcmE4UGdraFBqNlNuR0hicWpKZ3NYV0otZVQ?oc=5",
+    "source": "ביזפורטל",
+    "published": "2026-11-06T08:45:00+00:00",
+    "lede": null,
+    "lang": "he"
+   },
+   {
+    "title": "\"נוצרה הזדמנות\": מנכ״ל ישראייר מאשר את חשיפת גלובס על מו״מ לרכישת ארקיע",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562357#utm_source=RSS",
     "source": "גלובס",
-    "published": "2026-11-06T08:12:00+00:00",
-    "lede": "המסחר בת\"א ייפתח הבוקר על רקע הירידות החדות אתמול בוול סטריט",
+    "published": "2026-11-06T08:42:00+00:00",
+    "lede": "מנכ\"ל ישראייר אורי סירקיס התייחס לראשונה לחשיפת גלובס על כוונת חברת התעופה לרכוש את המתחרה ישראייר",
     "lang": "he"
    },
    {
@@ -131,14 +139,6 @@
     "lang": "he"
    },
    {
-    "title": "צפי לפתיחה שלילית: טאואר בפער של כ-4.5%, פאלו אלטו כ-3.1%",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1FQVlEb1gzV1hUWk9obUpUZFJ4ZVBYVHAyeWlIT1lXLVhNLXBLUHNwZ2s0dkpZREVhZFM0SGVfd2xwNTJLTGZmOURQR19DZWRLV3dmdUpKcmE4UGdraFBqNlNuR0hicWpKZ3NYV0otZVQ?oc=5",
-    "source": "ביזפורטל",
-    "published": "2026-11-05T19:47:00+00:00",
-    "lede": null,
-    "lang": "he"
-   },
-   {
     "title": "המלחמה באיראן פגעה באמירייטס: הרווח צנח ב-66%, מספר הנוסעים ירד ב-22%",
     "url": "https://finance.walla.co.il/item/3875139",
     "source": "וואלה",
@@ -149,18 +149,18 @@
   ],
   "geo": [
    {
-    "title": "Why is Iran exempting India, China, Qatar, Iraq from Hormuz restrictions?",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQREVEWGlac01nYWJUY3lwTUdnLXI2WW9mbWlmYkZzOVNxc2hoVWdnWXFtVWNXUVZ4cnpuUnFySWo0cDMwYU9HVndHRmt0ZTg5Uy02TDdxa0x4RXlLY1NQMUdSUkxGV2l5emNVX0dKaUlsV0F4dXkzUzRBQVdldGRxYlkweEZ6OUVOYXE0Ymtla3VCLVYtbzhucXNIYlp6OGkzNDdTTEg0eWlDUnp1c09B0gG0AUFVX3lxTFBzbG90aHg5TTdmRVd6bEI2Y2NsVUJUa1c4Ml81eno0LWVSbXM1R3RMVl9CR1RrNzBVeEk5UVpRQy0xU2xkZ0dPQm1VT0NTeFAyVXVySmJIYlRJNzBOb01oaklFeHdQeTdRcTFlS1BPb3oyWm5OS3BsZXZEc3dPLWNPbURLZXJTTEg3Nk1kN2ZCTUZFQnFPbWZYWVFpaERtY2tWTFN2NlhMa0g0dHFuRHVPNzVraw?oc=5",
+    "title": "UK jailing of Indian sailor over Russia sanctions sets off ‘perfect storm’",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNQlhSSm1fRk1ncTdNLVlWRzltV0pWeGd3VFU3V3RvWUdjWnVRQTNGdzlkX2FfNTN0TVMxV1hqOFVFelFTVkYyMERVX0E2ZzZtNmh3S3hmUXhkSmFIZXI2RzNVbF9MZXRaZV9WY3ZlQnRYVlZPbnFpUi1aYWNMZnktNnlGbDFPT0ZQcHZ5SHdsVHI1TkJQQ05XckFKM0RKd0ozWFRiTHNsNkRUR0RBeHBZRms1aUhlLXJK0gG-AUFVX3lxTE9laUh2ODA2a3F6OWo0MDZiVVlUYmNZREpqLUhlRV92SHZJVi1DWG80NnR4N1VXeGdQdF9XeGIwU19kcDlJU0x5MU93RkwzWDFnRnVkQ3ZqUFJ3MVYwTnp4QnNtRTU4RFFkbG1TOWNGUkV2eUxlTE13RGJodmd6Q1ZHY1RCZWFHZlMwS0x5OG5nZ0VINHJuU1FlUHJVUzFTSGpIa19PTDEtaDBDZU53TlAtekZxTGo1THZEY2pIN0E?oc=5",
     "source": "Al Jazeera",
-    "published": "2026-11-06T06:13:36+00:00",
+    "published": "2026-11-06T08:41:30+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Iraq’s al-Zaidi talks to Trump as Baghdad seeks to stay out of war on Iran",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMnVfME83OVozQ0xVaFhEaUU4bG9yRWZBTmNVbHNVRXJLOS1hWFZBdnM4WWpiZTc5bG9aZ3pQcVJuLW85bGx0QWJvSU45bUpZaTdQWWp4cXc0OG8wb242SGdSSEk0VlMzSHlxdjFUbldDZnAzcHpISi1RdUZyNHpPNjZCQmNIdnZJdFFwM1hzTDNLcGNxVk81a3E5SUdlREtoQnhpNU5KNDFEdVdqenVfVWNMVkHSAboBQVVfeXFMTUZFb1JmYk45YmttZGZYSG9CTmpYd19CN2tSTlhaR3ROV3h2dk53bU1Ud3lzbzFtb2FZRkJVX256VkNlam1CanZjVFk0TmVEaGk5NFYtblo1UnBNUDN0TkR6cnFxV2hmUUlJRVJkOFVqRlhiekpkTmxxdkIxVFE5b0VyOWxvZ05sM1N6c05iUEQ4VndkSm1qWXVYZk9GVDZzYzNzVVF3VmliUFgzTF9kb053c2UySHZnU2Jn?oc=5",
+    "title": "Why is Iran exempting India, China, Qatar, Iraq from Hormuz restrictions?",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQREVEWGlac01nYWJUY3lwTUdnLXI2WW9mbWlmYkZzOVNxc2hoVWdnWXFtVWNXUVZ4cnpuUnFySWo0cDMwYU9HVndHRmt0ZTg5Uy02TDdxa0x4RXlLY1NQMUdSUkxGV2l5emNVX0dKaUlsV0F4dXkzUzRBQVdldGRxYlkweEZ6OUVOYXE0Ymtla3VCLVYtbzhucXNIYlp6OGkzNDdTTEg0eWlDUnp1c09B0gG0AUFVX3lxTFBzbG90aHg5TTdmRVd6bEI2Y2NsVUJUa1c4Ml81eno0LWVSbXM1R3RMVl9CR1RrNzBVeEk5UVpRQy0xU2xkZ0dPQm1VT0NTeFAyVXVySmJIYlRJNzBOb01oaklFeHdQeTdRcTFlS1BPb3oyWm5OS3BsZXZEc3dPLWNPbURLZXJTTEg3Nk1kN2ZCTUZFQnFPbWZYWVFpaERtY2tWTFN2NlhMa0g0dHFuRHVPNzVraw?oc=5",
     "source": "Al Jazeera",
-    "published": "2026-11-06T05:17:40+00:00",
+    "published": "2026-11-06T06:13:36+00:00",
     "lede": null,
     "lang": "en"
    }

@@ -1,5 +1,5 @@
 {
- "fetched_at": "6.11.2026, 11:04",
+ "fetched_at": "6.11.2026, 11:34",
  "items": [
   {
    "title": "After a Decade Without a New Option, FDA Approves Amivantamab for Head and Neck Cancer - Oncodaily",
@@ -3532,6 +3532,24 @@
    "ncts": []
   },
   {
+   "title": "FDA approves generic version of HIV-prevention drug to be sold in low-income countries - WBAL-TV",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPalFJRTBZQklldGNZaXFWMk14RXdRb1FyYnlGS0VjdnlrT2wyNXptTnF5bnJoR29nUG1VWThwbFdoMENjNjlreFBNU015c0cwQ21CRXFRU1lrbHRJNnpUTl9ic2NyYnVWOTlkdUYydXFJd1BHSllQTHZKeUs5ZnlBcWtOQ1JJQ00?oc=5",
+   "pub_ts": 1793633820.0,
+   "date": "2.11.2026, 17:37",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPalFJRTBZQklldGNZaXFWMk14RXdRb1FyYnlGS0VjdnlrT2wyNXptTnF5bnJoR29nUG1VWThwbFdoMENjNjlreFBNU015c0cwQ21CRXFRU1lrbHRJNnpUTl9ic2NyYnVWOTlkdUYydXFJd1BHSllQTHZKeUs5ZnlBcWtOQ1JJQ00?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
    "title": "FDA approves generic version of HIV-prevention drug to be sold in low-income countries - KCRA",
    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVDZsTF9ZWjZQd3ctVnZfTFBBaFVNd2JpaldTQzdLaGxkbVJaUmx5UElFOTRLdmxENlV5UVNpRjFZM1JCeVQyS3dHVWRQU2pLRkhRbWtNYldtYjVVRHR5eHFZOHVmYlVuejdWOFdKclE3Q0owUk9hbkNzTkpQRjRWYS15WWE?oc=5",
    "pub_ts": 1793633820.0,
@@ -4547,10 +4565,10 @@
    "ncts": []
   },
   {
-   "title": "IGC Pharma's Alzheimer's Agitation Drug Candidate Now Patented in the U.S., Canada, and Mexico as Phase 2 Readout Nears - Newswire",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNT2Q2UEowR0Z2cUJvcXRfa3RWTVR0TXI1US01bER4YU1tQjRwYWN2NVhvbHBQTmJmS0Zwd1VfMVZ4UG1vekZJc3lMRTBmWmNyX2NMZGtUczgxOFdybWtsNW8tZk9taFAtNWtyMUpQQXJCOVo2dVl3WUhTOEpwQkl6b3NkRnFNQzRqRmVESUNHalcxdmsxclB4T3VwblFjSWRrMnY5azNmVEtHRERR?oc=5",
-   "pub_ts": 1793891880.0,
-   "date": "5.11.2026, 17:18",
+   "title": "IGC Pharma's Alzheimer's Agitation Drug Candidate Now Patented in the U.S., Canada, and Mexico as Phase 2 Readout Nears - BioSpace",
+   "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQV1dKU2RHMEsxODhPOU8wcFdjVmNYYmU3TmUtSkNPWmluajdMTkFDaW42YWRGVkZTeTd5SHNnVlRZTTNJVG1yaHJMVlZCMVRhcjhEWjZoUGZYUHFfY1JRMHpVMXdSeGpnUjFtWDBpSDNnWDBzVFN4NTlGZTJWd2xOc3hNSTVTS3J2ZXhzc1JDb01nOXgwV24zaFlBcUZYc24zMTMxMW1pMzRFTnY1VGFnc253XzRxM2VYM05QYWx2ck5KTGJaQmNobmRMSVJUcHJ5SV93NjJrVm0zZEpjQkNhTTNxVEJfcXcxYXc?oc=5",
+   "pub_ts": 1793953105.0,
+   "date": "6.11.2026, 10:18",
    "cat": "phase2",
    "sev": 1,
    "dir": 0,
@@ -4559,6 +4577,10 @@
     "IGC"
    ],
    "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQV1dKU2RHMEsxODhPOU8wcFdjVmNYYmU3TmUtSkNPWmluajdMTkFDaW42YWRGVkZTeTd5SHNnVlRZTTNJVG1yaHJMVlZCMVRhcjhEWjZoUGZYUHFfY1JRMHpVMXdSeGpnUjFtWDBpSDNnWDBzVFN4NTlGZTJWd2xOc3hNSTVTS3J2ZXhzc1JDb01nOXgwV24zaFlBcUZYc24zMTMxMW1pMzRFTnY1VGFnc253XzRxM2VYM05QYWx2ck5KTGJaQmNobmRMSVJUcHJ5SV93NjJrVm0zZEpjQkNhTTNxVEJfcXcxYXc?oc=5"
+    },
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNT2Q2UEowR0Z2cUJvcXRfa3RWTVR0TXI1US01bER4YU1tQjRwYWN2NVhvbHBQTmJmS0Zwd1VfMVZ4UG1vekZJc3lMRTBmWmNyX2NMZGtUczgxOFdybWtsNW8tZk9taFAtNWtyMUpQQXJCOVo2dVl3WUhTOEpwQkl6b3NkRnFNQzRqRmVESUNHalcxdmsxclB4T3VwblFjSWRrMnY5azNmVEtHRERR?oc=5"
