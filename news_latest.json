@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-06T17:31:02.975860+02:00",
+ "generated_at": "2026-11-06T18:31:04.761120+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -9,34 +9,42 @@
  "sections": {
   "us": [
    {
-    "title": "Watch live: Jim Cramer shares his next investing moves for this tough market",
+    "title": "Wall Street's fear gauge may be flashing a buy sign",
+    "url": "https://www.cnbc.com/2026/11/06/wall-streets-fear-gauge-may-be-flashing-a-buy-sign.html",
+    "source": "CNBC",
+    "published": "2026-11-06T16:29:01+00:00",
+    "lede": "History shows that similar spikes in the VIX have been good entry points for stocks",
+    "lang": "en"
+   },
+   {
+    "title": "AI stocks climb after trillions wiped from market values",
+    "url": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC",
+    "published": "2026-11-06T16:23:16+00:00",
+    "lede": "Investors had been selling off tech shares in part due to concerns the Democrat election victory would mean slower AI development.",
+    "lang": "en"
+   },
+   {
+    "title": "Should Realty Income Be the First Dividend Stock You Buy in November, Even if There's a Stock Market Sell-Off?",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQOTJBVk54ZzZXdUplMEZOQVN6OWpuMjhZeGxRci1RZnl1TDdTMjlwRGtCTVpDWkpJTVBReW0tc2NLLVBjMjdUTG81dmRxV3NuQ2V3QWVDLXJnVXM0cmJCMnhoYWo0c2tzTW9hTmo2Q2Y5bDAzVnZNQ21RYUx2NHRuMGw1amhPeWdETnNSd0hRN2VFUXZTeDNTLTBoMGR3enhy?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-06T16:20:00+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Watch live: Cramer sees no quick fix for this market — but there are still moves to make",
     "url": "https://www.cnbc.com/investingclub/2026/11/06/watch-jim-cramer-live.html",
     "source": "CNBC",
-    "published": "2026-11-06T15:30:12+00:00",
+    "published": "2026-11-06T16:16:49+00:00",
     "lede": "At the Investing Club's 4th annual meeting, Cramer also reveals his outlook for 2027 and answers questions from the live audience and members at home.",
     "lang": "en"
    },
    {
-    "title": "These three stars need to align before investors rush back into stocks, Bank of America strategist says",
-    "url": "https://www.marketwatch.com/story/these-three-stars-need-to-align-before-investors-rush-back-into-stocks-bank-of-america-strategist-says-52879caa?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-06T15:27:00+00:00",
-    "lede": "Despite the steep drop in equity markets this week, investors should wait for several developments in other asset markets before rushing back into stocks, Michael Hartnett said.",
-    "lang": "en"
-   },
-   {
-    "title": "US economy outstrips forecasts to add 165,000 jobs in October",
-    "url": "https://www.ft.com/content/f84c722c-99a9-4628-84dc-c42a192cb35c?syn-25a6b1a6=1",
-    "source": "Financial Times",
-    "published": "2026-11-06T15:18:58+00:00",
-    "lede": "Hiring rebound led by professional services underscores strength of American labour market",
-    "lang": "en"
-   },
-   {
-    "title": "What to do with your retirement savings in a stock market sell-off",
-    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQQVJRWTYzc0Zib08tN19reXdjeWlKREsteWFfV3NXMWdYOVVuSlEyMjNVUE1hcFI1N1RrYjRsSTlwZUVEeVB3eVBiQkJqSWRMYm1WNVBULWpzWEdfNmJRSG9lOWZsZFNTcDAwVmtJU1F6enpWZ0VKdjdyQS1iX2NKOTRwWUtVX1VPVHptMVdiLV9YbDktZnI3eTNnYnJyUjRRQ2d4c3M5VXQ3WjNvOXMza2NEM0tSZUN0MkxyZ0NwNWh6Z0N3UWU4UmxFdU5pdkFEQmxEYnZtdTR4dw?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-06T15:12:37+00:00",
+    "title": "US tech stock rout: is the AI bubble bursting?",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUk5KWGFRY0lPalplQWNSaFZZTk11VEJvblJNWXBnTGlQU05xZTBoVlFzTHprWHVfaUVIb3ZFcGJOQUJmZFVqZVpNT0Q4X25EemUxc0hObXlhYmpkelJFcVpRcDZIQVZRTjBVTzMyUW5iMXRTLVlqZW04ZjNNRmRKcTl6TUNHcnY2QjNDdUR5QzVBX2U3UjZySVdvUE83S2Q4ZkR3RzJfQ1lzUFFXUnc?oc=5",
+    "source": "The Guardian",
+    "published": "2026-11-06T16:14:00+00:00",
     "lede": null,
     "lang": "en"
    },
@@ -44,66 +52,50 @@
     "title": "US tech stocks open higher on Wall Street after worst day in 19 months – business live",
     "url": "https://www.theguardian.com/business/live/2026/nov/06/global-stocks-tumble-ai-panic-markets-democrats-midterms-success-jobs-oil-dollar-latest-news-updates",
     "source": "The Guardian",
-    "published": "2026-11-06T15:09:53+00:00",
+    "published": "2026-11-06T16:13:35+00:00",
     "lede": "European and Asia-Pacific markets slide after Wall Street rout, while latest US jobs report beats forecasts Despite the sharp losses suffered on global stock markets around the world, most indices are still up for the…",
     "lang": "en"
    },
    {
-    "title": "Nvidia stock oversold setup: Key levels after a 9% drop",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNNjhTc0JFcEFDRDdXX3N3VDROUHZWS25HV0loYWVGV2tYaC05U3Vvc3hxdW91UERlREdKQVIxS2Y0c1M1UmE5LXUtdU9WT0pqVFJBRWZzRU0zS1hPWTByX2QtRUp3SFN2dGRyekZPSV9VdVY2NHBkSEJjdnc4T2JaRU9RdVhiaDdRY1VUR2NYWUI5cnVVMHJVaE1faGE?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-06T15:09:36+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "AI stocks climb after trillions wiped from market values",
-    "url": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC",
-    "published": "2026-11-06T15:04:46+00:00",
-    "lede": "Investors had been selling off tech shares in part due to concerns the Democrat election victory would mean slower AI development.",
-    "lang": "en"
-   },
-   {
-    "title": "Trader angst pivots from inflation to growth as tech rout deepens",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYm13UzNKRG9XaWdpdHV5SGo2UHJKSFlrRW5NUXVNR21LcnpYM01JaHZvY2dTVnN4aTZIbnYxMjI1RUdDWmN6UjBaZTNOdFVNWnpPOTNtWlQ0c2RCMlFDY0VKX0lUZ0JUZHRtSVlHb2k1VENabjhMWkdncTBBUTQyaHMtWGVpaUlZcEFqVzZaVnJId2pJXzdpcm9QaU93QkRhYlZ5eFZQUFZlYmpnREhMUXU1cnE0Zw?oc=5",
-    "source": "Reuters",
-    "published": "2026-11-06T14:54:03+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "The S&P 500 has become a big AI bet. Here are some simple alternatives.",
-    "url": "https://www.marketwatch.com/story/the-s-p-500-has-become-a-big-ai-bet-here-are-some-simple-alternatives-3c7574a4?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-06T14:51:00+00:00",
-    "lede": "The large-cap index is nowhere near as diversified as you think.",
-    "lang": "en"
-   },
-   {
-    "title": "Wall Street's fear gauge may be flashing a buy sign",
-    "url": "https://www.cnbc.com/2026/11/06/wall-streets-fear-gauge-may-be-flashing-a-buy-sign.html",
+    "title": "Oil prices set for sharp weekly fall after midterm elections as investors weigh Iran conflict risk",
+    "url": "https://www.cnbc.com/2026/11/06/oil-price-today-brent-wti.html",
     "source": "CNBC",
-    "published": "2026-11-06T14:02:11+00:00",
-    "lede": "History shows that similar spikes in the VIX have been good entry points for stocks",
+    "published": "2026-11-06T16:07:23+00:00",
+    "lede": "Oil prices fell Friday as investors weighed the risk of renewed Iran war escalation after the midterms, alongside prospects for a diplomatic breakthrough.",
+    "lang": "en"
+   },
+   {
+    "title": "Market turmoil saps enthusiasm for the buzziest IPO of the year",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWW5HTUpxTkFZN1Fncko2aDNsN2NVZjA1MElHY3czeFZSWnZ0TEJYLUxydDA4T1I0UXktTG93ZG8yYzlPVE5ldVdoRDFiaGR6aDMyRVAyaFMtX21sb2stZWVKQnZkeFB5dlJzd1Juekc3bXZobXY5c0VTQ2JJMXdSS24xdm1zNXBUQnRjOElhSjZnbXhGdzg4akFTVVBTWFhINlNOZ0h4Z2toQQ?oc=5",
+    "source": "CNN",
+    "published": "2026-11-06T16:00:56+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Nvidia, AMD and other chip stocks rebound. Is the ‘violent’ AI selloff over?",
+    "url": "https://www.marketwatch.com/story/nvidia-amd-and-other-chip-stocks-rebound-is-the-violent-ai-selloff-over-8f7df533?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-06T15:48:00+00:00",
+    "lede": "Analysts warn of further volatility ahead, though there are two new factors that work in the AI trade’s favor.",
+    "lang": "en"
+   },
+   {
+    "title": "US stocks rebound after tech rout",
+    "url": "https://www.ft.com/content/642b32dc-e3a1-4df8-ae91-5c84bdeb89e0?syn-25a6b1a6=1",
+    "source": "Financial Times",
+    "published": "2026-11-06T15:45:52+00:00",
+    "lede": "Tech-heavy Nasdaq climbs in morning trading following day of turmoil",
     "lang": "en"
    }
   ],
   "il": [
    {
-    "title": "היום שאחרי המפולת: נאסד\"ק עולה ביותר מ-1.5%",
+    "title": "היום שאחרי המפולת: נאסד\"ק עולה בכ-1.5%",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001562355#utm_source=RSS",
     "source": "גלובס",
-    "published": "2026-11-06T14:59:00+00:00",
+    "published": "2026-11-06T16:02:00+00:00",
     "lede": "שוק העבודה האמריקאי הוסיף 165 אלף משרות באוקטובר - הרבה מעל הצפי",
-    "lang": "he"
-   },
-   {
-    "title": "אחרי שזינק מעל ל-3.22 שקלים ולשיא מדצמבר 2025: הדולר נחלש ל-3.19 ש'",
-    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8wQmRWc1FoOW1xbGxpUEFDbHh1M2tycWEwTnZwd0JzbkxSTkJ3WThYM3F5eGlSekJYY1ZVcndnVThzUXlKS3RhQVJxajloeHUtNHdGZkZzQjNmNndwLUkwVDVIOA?oc=5",
-    "source": "כלכליסט",
-    "published": "2026-11-06T13:45:00+00:00",
-    "lede": null,
     "lang": "he"
    },
    {
@@ -145,6 +137,14 @@
     "published": "2026-11-06T09:17:15+00:00",
     "lede": null,
     "lang": "he"
+   },
+   {
+    "title": "ברקע הטלטלה הפוליטית בישראל: עליות חדות נרשמות בבורסה בתל אביב",
+    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5VeGxIVm84OU9fc1QxaVlEcnRIUDJ4X0N6UFdKckh3Z0sxWGt6dlp1RWlMLS0xRGx5dHZsb3MxYTZaTmxYVXNyb2V3VFNWaUJ6dGJqWUtnelM4TEl4cTVyNlBOSEQ?oc=5",
+    "source": "מעריב",
+    "published": "2026-11-06T09:12:54+00:00",
+    "lede": null,
+    "lang": "he"
    }
   ],
   "geo": [
@@ -157,10 +157,10 @@
     "lang": "en"
    },
    {
-    "title": "How the Iran war is changing the renewables landscape",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5Iem9JYmdZTmJNdzczTC16d2lZb0xjalZ2elM4Z0FTOG8wdlZpWm9QYVYxTFNNRkVSMXdQS2NjM1VvTWFqUm10MG4ySkllbjZRRmZFUnM0QWk4c0FYTlV2ZFRaUFgtR1JtTUoxTWRESGY?oc=5",
-    "source": "Axios",
-    "published": "2026-11-06T13:31:52+00:00",
+    "title": "Why BYU-Utah’s Holy War runs deeper than football: Bananas, banned words and fistfights",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOTHROWEJET0hNQU9hTWZRYnhHR3lyaUZOVWdhUDJhMlBhVGZycER1dllZdnVuZ0hkc3dKVGRyMFM1OVVLUDgzQTk5bUZxcUxiemNmRVVlNXotczJ5OGN3SkJSbmlXOHJWcHlUMUxQVGVic2I1UkpPX29neGVsSjNzRE1pOXg4d2h4Yno1UDVmdE0?oc=5",
+    "source": "The New York Times",
+    "published": "2026-11-06T14:05:32+00:00",
     "lede": null,
     "lang": "en"
    }
