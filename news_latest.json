@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-06T04:31:05.359203+02:00",
+ "generated_at": "2026-11-06T05:31:09.213313+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -9,43 +9,59 @@
  "sections": {
   "us": [
    {
-    "title": "Should You Buy Nvidia Stock Before Nov. 17?",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNcHoxdVI4MTRJRWR4VmQycnkxX01ZeklUYlJlRXJCcDZnTG1FQ1AtZGh3YTBndWZVSWZsZEdYZkxad1ljNkdTMGlmZFp3R0Vrcmt4VTNrcnBzcEtQSlNNejhrNDJvUHdjanBFLXA1YUZYMjNuRlcyVmN6RHBub3JQNXZaaDNrcHpIYlZmWW1kRHhRUQ?oc=5",
+    "title": "Elon Musk's Tesla and SpaceX lose over $420 billion in combined market cap after midterms",
+    "url": "https://www.cnbc.com/2026/11/05/tesla-spacex-stocks-fall-after-2026-midterms.html",
+    "source": "CNBC",
+    "published": "2026-11-06T03:20:43+00:00",
+    "lede": "Elon Musk's Tesla and SpaceX lose $420 billion in combined market cap after midterms",
+    "lang": "en"
+   },
+   {
+    "title": "What Is The Market Seeing In Enpro Stock?",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxORml6SEMxemtLekZqTFpkVm13eHNsdEhHOHIxR1UzQkxybUZDRWdCeERRWVVLc0lvajFGZzNWQnNtMGJmaDVCWUhkcDJGc3k2MmRtaldvNXdOS2FrTU9JSk5qUVpEbUJJc0oyQkFPQ2xpcVFnMk9sWExHRHdFM29pMjFsMjlIdmNid3hHX0ljcEtKQ3BU?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-06T02:20:00+00:00",
+    "published": "2026-11-06T03:13:03+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Dow Futures Fall, Techs Jump After Market Sell-Off. What To Do.",
-    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxONko0NmFjRU1udUJFdmdCRVBzbFpMVVFwWlR3cWY4aThIV1NrVTlKbzFjTHlNNzBwLU1tOTV1UktuSUtVMHQzc0h2UGMzdXZZQ0FwN1ZELVR0REhSSFFfcXVPbW8xN21CQXgyZENhVkZxeFh5dmpsRWVJTjJPdjlFLWR5NjU4eG9uUjFDcEZEcjUzbmFzcGpkbW9CTkVwN3hjVWZqTWdMUnZaUnFkOFJ5ZTNvWHljVjZCSDgwV2JoRXR5aE9ROFU3TXoyRVlmTkhCZ0E?oc=5",
-    "source": "Investor's Business Daily",
-    "published": "2026-11-06T02:05:00+00:00",
+    "title": "Stocks tumble as AI concerns rattle markets; financial advisor urges investors not to panic",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNRzZaQnI2NGxQQlFQRWRjOVBhUEdOOEdkelhoLTFmUzhUUDlYVGpFNzIzQThqcmkwS1pISVVwbi1NV3cxNC1SSUVUcmhlNnNZWHpIRWdOLTZnVDFGYVduaGpPblNCU2IyVE5hM1kybnN5ZFFiOTJQR0Nya0Y2RVRoT0Q0TE5fZUhlcVFnUU04ekQ5YjBnU19PbHc2UUZoQQ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-06T03:10:56+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Major tech stocks plunge as US midterms add to fears of AI slowdown",
+    "title": "Global tech stocks plunge as US midterms add to AI slowdown fears",
     "url": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
     "source": "BBC",
-    "published": "2026-11-06T01:44:03+00:00",
-    "lede": "Markets have been reacting to possible tougher scrutiny of data centre construction and the AI industry following the US midterms.",
+    "published": "2026-11-06T02:57:24+00:00",
+    "lede": "Investors have reacted to possible tougher scrutiny of data centre construction and the AI industry.",
+    "lang": "en"
+   },
+   {
+    "title": "Retail traders dump $257 million in stocks in 5th biggest selling day since 2020",
+    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOVkdCdWRVd0lFQ3lZbHZoQkpRdHh6RlNHcHVTQWdzWWkxV3hzcUkxbkstTzNMTjNxckhQa2M2a1BSVmg4S0R4YWRyZmpNUGYtblNBRFVwTWI4VUVjNnRTRldLWW92N3Jqa2xTYTc1MkpXT3pyTnU1M0E4c2ZSbG5oX3JaUkVJYUFHWDVzbHpoRjVpblY2d3FuTWNuVDdtNVdld1NfM2JVaWRjdVJFVnBDYU51VmJjSDhic2RlREs4TU1NYl9SQWxWckRwTEtCdWdnbGc?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-06T02:56:00+00:00",
+    "lede": null,
     "lang": "en"
    },
    {
     "title": "Nasdaq sell-off batters Asian chip stocks as SK Hynix, Samsung, Softbank, TSMC tumble",
     "url": "https://www.cnbc.com/2026/11/06/tech-stocks-sk-hynix-samsung-softbank.html",
     "source": "CNBC",
-    "published": "2026-11-06T01:41:32+00:00",
+    "published": "2026-11-06T02:40:15+00:00",
     "lede": "Asian technology stocks tumbled Friday, tracking a sharp sell-off on Wall Street overnight that sent the tech-heavy Nasdaq Composite into correction territory.",
     "lang": "en"
    },
    {
-    "title": "The Nasdaq Composite Just Shattered Its Single-Session Point-Loss Record: 3 Reasons These Elevator-Down Moves May Be Just Beginning",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQWVhDTFdKWUp4RUlIRi1CNlo1NjJneVJZR3l2bDJtUUxEdEVRWUVTMlhLTU1tMWZxMkhwYkY2bWpTYXNnRXpyNnRxc3V2dHpZb0psYVdBT2xzN0gwNVBhZE8yWUpESU53NTZlOWVsNkxKVUxLdlVWaE1IWEw1ei1IZWU0M0JZbldqNEFsMW55c2hMeTVLa0NOVGNoRjBocS1BbmZBeXdR?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-06T01:26:15+00:00",
-    "lede": null,
+    "title": "Asian tech stocks sink",
+    "url": "https://www.ft.com/content/b77ebe43-a017-4e63-af84-5bdec8f47648?syn-25a6b1a6=1",
+    "source": "Financial Times",
+    "published": "2026-11-06T02:30:40+00:00",
+    "lede": "‘Complete carnage’ as Nikkei 225 falls below 60,000 points for first time since May with Seoul’s Kospi under 5,000 points",
     "lang": "en"
    },
    {
@@ -71,22 +87,6 @@
     "published": "2026-11-05T23:39:32+00:00",
     "lede": "Here are the most breathtaking statistics from the major stock sell-off on Thursday.",
     "lang": "en"
-   },
-   {
-    "title": "Jim Cramer says the AI sell-off isn't over, but it isn't another dot-com crash",
-    "url": "https://www.cnbc.com/2026/11/05/jim-cramer-ai-stocks-sell-off.html",
-    "source": "CNBC",
-    "published": "2026-11-05T23:17:51+00:00",
-    "lede": "Cramer warned that the sell-off in AI stocks likely has further to run.",
-    "lang": "en"
-   },
-   {
-    "title": "Wall Street sheds $3.2tn as tech-heavy Nasdaq plunges",
-    "url": "https://www.ft.com/content/3d079b3d-580d-400b-bf9c-56af6a08f60f?syn-25a6b1a6=1",
-    "source": "Financial Times",
-    "published": "2026-11-05T22:41:52+00:00",
-    "lede": "Tech-heavy Nasdaq 100 tumbles 6.4% in day of chaotic trading",
-    "lang": "en"
    }
   ],
   "il": [
@@ -104,14 +104,6 @@
     "source": "גלובס",
     "published": "2026-11-05T20:16:00+00:00",
     "lede": "נאסד\"ק בטריטוריית תיקון, מדד השבבים נופל ב-11%",
-    "lang": "he"
-   },
-   {
-    "title": "מחר בת\"א: אלו המניות שיקרסו והנה המניה שתפתיע לטובה",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1FQVlEb1gzV1hUWk9obUpUZFJ4ZVBYVHAyeWlIT1lXLVhNLXBLUHNwZ2s0dkpZREVhZFM0SGVfd2xwNTJLTGZmOURQR19DZWRLV3dmdUpKcmE4UGdraFBqNlNuR0hicWpKZ3NYV0otZVQ?oc=5",
-    "source": "ביזפורטל",
-    "published": "2026-11-05T19:47:00+00:00",
-    "lede": null,
     "lang": "he"
    },
    {
@@ -157,18 +149,18 @@
   ],
   "geo": [
    {
-    "title": "Ukraine war briefing: Zelenskyy says Russia has damaged ‘every power plant’ as he seeks Latin American help",
-    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPbUZXOXBNZWtMVHlwOUV3TkdQaV84SGFKVnoyVG5mX3M1NVlTVVFadkMzVThCS09Za3dBOFluUHlXTWh5eEtLa3ZUYV9BNDRMWnYtdFZubVFqTzZ0Ty1WRlNGd1c2YXVoY3J5ZHdCd3JUOEs0SzlVQ0RUVk9DVWI1SnMyaERteFdpWWFneVhESmVaS2NnVVNxLUI4T1lYMFQ4Wms4b1R0T3MyMU53UmpmY3JaaVVuVl9BNjB0OUlscXdzZXVDWDNyR0xBU3N6amhsMVFtY1FDRzZWbXk5RU1iRjlfYXE?oc=5",
-    "source": "The Guardian",
-    "published": "2026-11-06T02:12:00+00:00",
+    "title": "Iran’s security chief meets Putin, delivers message from Khamenei",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOQnVkOVN5OTNTeXZHZ0FUWE5halRMcHMySFhaS3plM2h6Ykt3WGI4NjkwRVFxSmg2aHo0MGVTb25YOXFucjJEcjFJXzYyOFlxdDV6QjJSbE5lNHNwWENhZWpDZ1VSR2RqQlRVZFRLbktJdXUyTVBGQk1vTXVnTjVkdDYyZ2FmQkhlc28tdTJmbTZJNlpXSzFzd25zWllERWVROFFoemtKONIBrAFBVV95cUxNTXpROFF4dEJtRkR5ZE5sN05admFlZEpxS3VPb3VveE5SWndjMG9ZYk1QZXdUdERYaVlyTThkZl9nQXgxRUxJZENQWEIxc3AzcXBKcWx2clkxcjlGUThrQm9LWEtRenlaeHloMmVjSC0ycDNWMDlXRGZoajlRZVZpT0N3a2lDWWsxMm1LcUIySmlXTHd3azc5S0lIUkV2c2dvZUpLaFdMSy15TEN4?oc=5",
+    "source": "Al Jazeera",
+    "published": "2026-11-06T02:52:03+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Trump meets with national security team, says Iran war decision coming \"soon\"",
-    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQbW9jcGlzTlNQdWswMmp6NFFqVi1CRE9RSEtaOHp1U3FIUWp6Z0xYLW4tb2dld0tyQ3I0ODVILXBmZGNuSGxSNXo3TXJ4VWloN2tPeXZYcUZ5R195eno1U2lYUzloME1PN094Q2llQkZtWHpiNEtKOGU0d0k2SFRoSjFUTHpvUQ?oc=5",
-    "source": "Axios",
-    "published": "2026-11-06T00:09:07+00:00",
+    "title": "Oil set for sharp weekly drop but Middle East supply concerns provide floor",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOR0loTjAtWUlkbnpIR2huZE8zWWkxZHZIZlprNlQ5Z3BSaGUxcnE1ZDdqbXFuOHFpQVdrbzEyNnRUSGR4ZDh3SEpqQkpqX2NZa0JlZjEyZlp3RElJMFlhVDRLLTZ3MzRuV2NuTXR3SjhQejExMVR4eE10YThVcmJYaTdNYmt1SjJfeG10NlJRRFB1SFNQUlRSanFrYzBFUjlZNjBGMjhxSi1MZG1sd19kWGU0Ykt5bmR4by1B?oc=5",
+    "source": "Reuters",
+    "published": "2026-11-06T02:49:00+00:00",
     "lede": null,
     "lang": "en"
    }
