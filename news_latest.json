@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-06T08:31:03.400012+02:00",
+ "generated_at": "2026-11-06T09:31:04.041032+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -8,6 +8,30 @@
  },
  "sections": {
   "us": [
+   {
+    "title": "Global tech stocks plunge as US midterms add to AI slowdown fears",
+    "url": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC",
+    "published": "2026-11-06T07:27:26+00:00",
+    "lede": "Investors have reacted to possible tougher scrutiny of data centre construction and the AI industry.",
+    "lang": "en"
+   },
+   {
+    "title": "Is the AI stock bubble finally bursting?",
+    "url": "https://www.ft.com/content/e185d576-c4a6-4fb0-aa03-deda69c900c8?syn-25a6b1a6=1",
+    "source": "Financial Times",
+    "published": "2026-11-06T07:11:18+00:00",
+    "lede": "Any reasonable person can see the hallmarks of an unsustainable party in markets",
+    "lang": "en"
+   },
+   {
+    "title": "Nasdaq Stock Market Correction: 3 Words From Warren Buffett To Remember RIght Now",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZDNZX3M5QzdfMjFlUjRrcUFsTUcyRXVkbC1fUFRrWVNrMElyZ2Z1RzFvNXN4TGdTYjVQYmhnSG10eEVOakVicXJEcGpxR28yd011Mi1TWDQ1cmQxa3JmV3I2MEx0TU5ZYVdmV29XNmZpRFNLRUMzT2ZkSk9fR21PV3k5NGZPSGFCT0Nzck5YU0kzRFJ1MFBWVWQzS1dtQQ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-06T06:27:00+00:00",
+    "lede": null,
+    "lang": "en"
+   },
    {
     "title": "'I've taken an extra job to pay for heating oil'",
     "url": "https://www.bbc.co.uk/news/articles/cmj47j7e92gvo?at_medium=RSS&at_campaign=rss",
@@ -22,14 +46,6 @@
     "source": "CNBC",
     "published": "2026-11-06T06:02:36+00:00",
     "lede": "Over the last month, India's Nifty 50 has gained nearly 9%, while markets with heavy AI exposure, including the U.S., Japan, South Korea and Taiwan are deep in the red.",
-    "lang": "en"
-   },
-   {
-    "title": "Global tech stocks plunge as US midterms add to AI slowdown fears",
-    "url": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC",
-    "published": "2026-11-06T06:00:59+00:00",
-    "lede": "Investors have reacted to possible tougher scrutiny of data centre construction and the AI industry.",
     "lang": "en"
    },
    {
@@ -71,22 +87,6 @@
     "published": "2026-11-06T05:07:03+00:00",
     "lede": "‘Complete carnage’ as Nikkei 225 falls below 60,000 points for first time since May with Seoul’s Kospi under 5,000 points",
     "lang": "en"
-   },
-   {
-    "title": "Oil prices rise as investors weigh renewed U.S.-Iran conflict risks after midterm elections",
-    "url": "https://www.cnbc.com/2026/11/06/oil-price-today-brent-wti.html",
-    "source": "CNBC",
-    "published": "2026-11-06T05:06:56+00:00",
-    "lede": "Oil prices rose Friday as investors weighed the risk of renewed U.S.-Iran military escalation after the midterms, alongside prospects for a diplomatic breakthrough.",
-    "lang": "en"
-   },
-   {
-    "title": "HKEX shares fall nearly 2% as Q3 profit slips amid slower market activity",
-    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNTE9UYlgyVFNxQ3gtZnc1RFpPV09feFRjM1E3OUJacm5EV2duTWtRcWhVX3k1bk5VZDlFbzRLUmJiS3Y1bHpIeHVhbXdKc3dJRXNDTFJvSThTZkM2X1pSMlBhbjBZdWdVNnRNSTRVV0x0RmlyaTRDSHZWY0lvT3RHNFMxNlIyS0M4S1hNa01rdmF0Tmtl?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-06T05:00:00+00:00",
-    "lede": null,
-    "lang": "en"
    }
   ],
   "il": [
@@ -115,7 +115,7 @@
     "lang": "he"
    },
    {
-    "title": "ההיסטריה וההיסטוריה בוול סטריט: מה צפוי למשקיעים בהמשך?",
+    "title": "זה היה אחד הימים הגרועים בוול סטריט. מה מלמדת ההיסטוריה על ההמשך?",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001562353#utm_source=RSS",
     "source": "גלובס",
     "published": "2026-11-06T04:56:00+00:00",
@@ -165,8 +165,8 @@
     "lang": "en"
    },
    {
-    "title": "‘I’ve never supported endless war’: Farage seeks to limit Trump fallout",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQWGFxbjFFcWYwaWxQZGpSSmY5Z0YxeU1KZDJYQ2h4OUdZMmhpcF9LaXhJdnlkaHktNG9Mdl90YTlMTGhZaXJkRF9GTTU2d25UdkFOYzU5Tm9rRTVHcUhwQnE4dUwzWXphZGVacU9KVG9oVEt6VlRhWnE5RF82Y2x2OEQ3ZjQ?oc=5",
+    "title": "Iran celebrates Trump’s election defeat as mediators push for deal to end war",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPQ1ZaaU5CdDcwRXQ0Nl82QXBTc3YxRXl5TXlTR2tzR3I5dEExTVpNUko4eTh4WWVrR1d4M2EwWjVxREpjM3NCYzdaT0lyUkp1cDBEelNJemNReWpnN09IRzB2MWtmX3JnVzYxdkpPaVVRdGpNZU9QVnI1UXNNZ3dYYk5tcXU?oc=5",
     "source": "Financial Times",
     "published": "2026-11-06T05:00:14+00:00",
     "lede": null,
