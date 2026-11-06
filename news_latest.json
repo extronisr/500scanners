@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-06T01:01:02.562712+02:00",
+ "generated_at": "2026-11-06T02:31:06.652901+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -8,6 +8,54 @@
  },
  "sections": {
   "us": [
+   {
+    "title": "Major tech stocks plunge as US midterms add to fears of AI slowdown",
+    "url": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC",
+    "published": "2026-11-06T00:05:05+00:00",
+    "lede": "The market has been reacting to possible tougher scrutiny of data centre construction and the AI industry following the US midterms",
+    "lang": "en"
+   },
+   {
+    "title": "Asia stocks to drop after AI rout rocks US markets",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdkNWMElVN0RDc0RadU5MSnhFNGZrcWgtZ3JYWU91TDd3OFdUWXJKR2xKUlIzWmQxN1RvVHBTYVNHNDFTX3h1b1dqLVVraVRvdER3UG9fZmZtN3l2cjlHSGJZMlBMTTNJSWlMTEtGVURRd3N4QXFndEFRel9yMkVzcnY3SDFEVlhZNlJ5YWlKLUVEUWdyakRCeWRhUXc?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-05T23:58:08+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Cloudflare’s stock mounts a big comeback after fastest sales surge in nearly 4 years",
+    "url": "https://www.marketwatch.com/story/cloudflares-stock-mounts-a-big-comeback-after-fastest-sales-surge-in-nearly-4-years-d80d994d?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-05T23:50:00+00:00",
+    "lede": "Demand for automated AI protection is on the rise — and manifesting in Cloudflare’s earnings results.",
+    "lang": "en"
+   },
+   {
+    "title": "EXCLUSIVE: AI backlash could threaten Anthropic IPO timing, potential investors say",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNGVmWktzeU5zbmRiaDdiZ2pxbEJhRk94VGN2V1lxUmpTNTFFNjhLR0puTjROeHE4UENDYjQ3OEFNbHdralNNdVJ2ZThsMldHZFlrcDZ1U21BTS1aeHU1aGNUNWRnTHc2SU5DVUktREt0Q3hzUkNhN1VJNDZYR3JLdjhwZUlaQjZCSl9Oa1dfT0d2dUotaWhDMkgxU1RBdVJOSEMwMzJsd0M3TmIyTGZ2WFZpVQ?oc=5",
+    "source": "Reuters",
+    "published": "2026-11-05T23:41:00+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Magnificent 7 loses $1 trillion. The most eye-popping stats from Thursday's tech stock plunge",
+    "url": "https://www.cnbc.com/2026/11/05/stock-market-selloff-ai-fears.html",
+    "source": "CNBC",
+    "published": "2026-11-05T23:39:32+00:00",
+    "lede": "Here are the most breathtaking statistics from the major stock sell-off on Thursday.",
+    "lang": "en"
+   },
+   {
+    "title": "Jim Cramer explains why no AI stock seems safe from the market carnage",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVG1fZkZFN3RQc19oUnRmYk44dTFaM1NIWE5Uck9VMW9UMjVyMWZoRkxtSFJCRm9NcHJUY1ROVXJzS2xyVHV6ck50UTZVdmlyTFN6eDZ2UDd2SnNnbmlhVUdkVXRQU293N3c2QjVJZUNrWUxLN2VaSWZ3Y3BaTGtOZWhUZEhkSFJB0gGOAUFVX3lxTE45WUg5QjRXV3ZVTzZ2OW5nLWtUNFotLTcxbXFLdmYtdWNOSE1EYkIwY2ZfZTRwSjJMVVkzWmFkcEtGT0s0Rk5MOHFtSmM5b2VGOUFXQUNxOFg1elhNeFRIdHZCdGVTSlJ3a1JoRzc4SWNSU0hlMGxjZC1Yc0R5eklHTnZQaVQ3SGZJdHhHaGc?oc=5",
+    "source": "CNBC",
+    "published": "2026-11-05T23:25:04+00:00",
+    "lede": null,
+    "lang": "en"
+   },
    {
     "title": "Tech stocks log worst day since 2020 as carnage comes to the AI trade",
     "url": "https://www.marketwatch.com/story/tech-stocks-log-worst-day-since-2020-as-carnage-comes-to-the-ai-trade-56109845?mod=mw_rss_topstories",
@@ -25,30 +73,6 @@
     "lang": "en"
    },
    {
-    "title": "Why IonQ Stock Just Fell 10.5% Today",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWEtFRE81MHpVLWVIVkg2MDc4NVUtVnNpYU9OalI1b0hGcENId2RFWWtKT2pTWjYwRHktc1dwOEdvN2dyQl9QTDdlZmVzaTVFWllxcVRkTnpuekRUZG82bE9uQjNMZ2k5UTJzSTdjb1RPR2dxS2hzSFJvNlRheE03dm9tUVRlUE1XUFBJLUY3eS1nTDQ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-05T22:40:01+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Update: Nasdaq Enters Correction Territory, Dow Plunges Over 1,800 Points as Investors Dump Big Tech",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQYmVXblJDWFFXNGpJTThOUEhtRUs1SHZ1dk5VVmlfS3dKbVU0TjNPdEtRdFgyUERrZmxPWktJZVZBMEE5aThUd0owNmkxb28wSm8wbWJwWFhTQ0RnWFY5Y3hqVENGY09RVXNnbl8yZnNURGE1UGZyczJVNWpqMlNnS2lFV3l6dmVId3J3N0Z1RHNxVGN6dFNSdHp6OTJUZk1LbG9DXzJR?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-05T22:33:39+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Nasdaq drops into correction territory — here’s what typically happens next",
-    "url": "https://www.cnbc.com/2026/11/05/nasdaq-drops-into-correction-territory-heres-what-typically-happens-next.html",
-    "source": "CNBC",
-    "published": "2026-11-05T22:31:24+00:00",
-    "lede": "Nasdaq’s slide into correction territory puts its history of recoveries in focus. Here's what history shows.",
-    "lang": "en"
-   },
-   {
     "title": "Elon Musk's Tesla and SpaceX lose over $420 billion in combined market cap after midterms",
     "url": "https://www.cnbc.com/2026/11/05/tesla-spacex-stocks-fall-after-2026-midterms.html",
     "source": "CNBC",
@@ -62,30 +86,6 @@
     "source": "CNBC",
     "published": "2026-11-05T22:31:03+00:00",
     "lede": "The stock rose more than 1% Thursday during Wall Street's sell-off.",
-    "lang": "en"
-   },
-   {
-    "title": "CarMax Inc. stock outperforms competitors despite losses on the day",
-    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOMHplQlJTUXAzN2w5ai02MlJyTXRBQXBxcUdsNDluZHFuSHMydGlmYktLUnlpTG1OSnIwRXY4dnlkeWhSX3JHR3d5V2ZxQjBHUzZ0SHNkaXluYVVLX2pnVXBwemtja2dDNGNSMTB1aDNCT0NicWFPcHd6OUFXVTlsOXpxVEJ0c3lGZGl0cE9BcGFDazZENnhxUHlaZWdyZTBtNk9BMktGZ2RuUjZqd0RGcmtlZDBpVFExaW56WkZkOXplTEh0bGpLdG90MVFpcERaa0tOelQ5WmpYcGZ1?oc=5",
-    "source": "MarketWatch",
-    "published": "2026-11-05T22:24:00+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Here’s what’s driving Iren’s stock higher after a brutal selloff",
-    "url": "https://www.marketwatch.com/story/heres-whats-driving-irens-stock-higher-after-a-brutal-selloff-0ced09b0?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-05T22:21:00+00:00",
-    "lede": "Iren announced a new cloud-computing deal and noted that much of its backlog is tied to “investment-grade counterparties.”",
-    "lang": "en"
-   },
-   {
-    "title": "Major tech stocks plunge as US midterms add to fears of AI slowdown",
-    "url": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC",
-    "published": "2026-11-05T22:13:38+00:00",
-    "lede": "The market has been reacting to possible tougher scrutiny of data centre construction and the AI industry following the US midterms",
     "lang": "en"
    }
   ],
@@ -157,18 +157,18 @@
   ],
   "geo": [
    {
-    "title": "After midterm loss, Trump is left to weigh his next move in Iran war that contributed to GOP debacle",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPMVdCMXZ3Y0NJQ3Y2ZG9YSHp3YW95Q2gtdm9QYTBjZDQzUGNvT2FHaDhuUnMxdXZXdlJrUzVrRW5RVXBzZExUTzhZT2JNSi1VWWVIWUw2RGpPS2pIcm4tUDJrMmRoQUpHVFRiY3p0c1pnazdEdUpDcThSbzV1NFNtbFF1ODhZczMtZkFYVTlwcjJEdw?oc=5",
-    "source": "AP News",
-    "published": "2026-11-05T22:05:00+00:00",
+    "title": "Trump meets with national security team, says Iran war decision coming \"soon\"",
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQbW9jcGlzTlNQdWswMmp6NFFqVi1CRE9RSEtaOHp1U3FIUWp6Z0xYLW4tb2dld0tyQ3I0ODVILXBmZGNuSGxSNXo3TXJ4VWloN2tPeXZYcUZ5R195eno1U2lYUzloME1PN094Q2llQkZtWHpiNEtKOGU0d0k2SFRoSjFUTHpvUQ?oc=5",
+    "source": "Axios",
+    "published": "2026-11-05T23:29:48+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Despite the hardships of war, Iran’s rulers still have a base of support",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMnlyRHJ3YzRja1JVVUpSOG8za0dFSWVLVFBQbWpITHdEWHc2a2dRaVNrUVRVaFlEaTdoQjk2ZXlDUUdmaWdHTFFDbDE1Rm4xNmRJRklUR1hoZHo3S082VFMwb21KYjBlZjdpMzJnOVh2MFhKZGpGUFhTaUZuUXNLVk1sMkRvbjdpVDVmS3JMcjI5STQzeUdoZFp4UnZyNnpxNkM2ZE1nYVNMSTkyZldQSnNhck5XZw?oc=5",
-    "source": "NPR",
-    "published": "2026-11-05T21:43:07+00:00",
+    "title": "Nov. 05: What Democrats’ Landslide Means for the Middle East and Ukraine; And, Will Trump Fire Hegseth?",
+    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOdzd5cGNIMEtqLU5IN1JpU0FCTGlwejZNZ1NCdFJ2aXBBN0toQUl0N0hRV1B5YVdvTUNOUlpCSkJyREROU3F2Rk1WMlp6dFllSGNXNzJQNjBMbV9Rc1hxT01LbjY3el9LZ3R1d3lmMlA2dngxeWRJaU9uX1VITnlrN041MUpySmJsYkNxemQ2N0k3NEppU05UVTluVl9XQVA5QTh5VTVOOTAxZFlKcmF3bWRLd2RySE5XYU4zRHB4NEVzZ3E0V3lDd2RjLVZyemVLOF9GWV9fZw?oc=5",
+    "source": "NBC News",
+    "published": "2026-11-05T23:09:06+00:00",
     "lede": null,
     "lang": "en"
    }

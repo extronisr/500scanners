@@ -1,5 +1,5 @@
 {
- "fetched_at": "6.11.2026, 1:54",
+ "fetched_at": "6.11.2026, 2:35",
  "items": [
   {
    "title": "FDA approves first ever plasmid DNA-based immunotherapy - Drug Discovery News",
@@ -4454,64 +4454,6 @@
    "ncts": []
   },
   {
-   "title": "FDA approves generic Trimethoprim (Bionpharma)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221194",
-   "pub_ts": 1792713600.0,
-   "date": "23.10.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221194"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "FDA approves generic Teriparatide (Dr Reddys)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=214412",
-   "pub_ts": 1792713600.0,
-   "date": "23.10.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=214412"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "Study of Pembrolizumab (MK-3475) Plus Chemotherapy vs Placebo Plus Chemotherapy as Neoadjuvant Therapy and Pembrolizumab vs Placebo as Adjuvant Therapy in Participants With Triple Negative Breast Cancer (TNBC) (MK-3475-522/KEYNOTE-522)",
-   "link": "https://clinicaltrials.gov/study/NCT03036488",
-   "pub_ts": 1792627200.0,
-   "date": "2026-10-22",
-   "cat": "phase3",
-   "sev": 2,
-   "dir": 0,
-   "tickers": [],
-   "companies": [
-    "MRK"
-   ],
-   "sources": [
-    {
-     "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT03036488"
-    }
-   ],
-   "ncts": [
-    "NCT03036488"
-   ]
-  },
-  {
    "title": "IGC Pharma's Alzheimer's Agitation Drug Candidate Now Patented in the U.S., Canada, and Mexico as Phase 2 Readout Nears - Newswire",
    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNT2Q2UEowR0Z2cUJvcXRfa3RWTVR0TXI1US01bER4YU1tQjRwYWN2NVhvbHBQTmJmS0Zwd1VfMVZ4UG1vekZJc3lMRTBmWmNyX2NMZGtUczgxOFdybWtsNW8tZk9taFAtNWtyMUpQQXJCOVo2dVl3WUhTOEpwQkl6b3NkRnFNQzRqRmVESUNHalcxdmsxclB4T3VwblFjSWRrMnY5azNmVEtHRERR?oc=5",
    "pub_ts": 1793891880.0,
@@ -5647,50 +5589,6 @@
     }
    ],
    "ncts": []
-  },
-  {
-   "title": "The Symptomatic Cerebral Cavernous Malformation Trial of REC-994",
-   "link": "https://clinicaltrials.gov/study/NCT05085561",
-   "pub_ts": 1792627200.0,
-   "date": "2026-10-22",
-   "cat": "phase2",
-   "sev": 1,
-   "dir": 0,
-   "tickers": [],
-   "companies": [
-    "RXRX"
-   ],
-   "sources": [
-    {
-     "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT05085561"
-    }
-   ],
-   "ncts": [
-    "NCT05085561"
-   ]
-  },
-  {
-   "title": "Trial of eRapa to Prevent Progression in Familial Adenomatous Polyposis Patients Under Active Surveillance",
-   "link": "https://clinicaltrials.gov/study/NCT04230499",
-   "pub_ts": 1792627200.0,
-   "date": "2026-10-22",
-   "cat": "phase2",
-   "sev": 1,
-   "dir": 0,
-   "tickers": [],
-   "companies": [
-    "BDRX"
-   ],
-   "sources": [
-    {
-     "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT04230499"
-    }
-   ],
-   "ncts": [
-    "NCT04230499"
-   ]
   }
  ]
 }
