@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-06T09:31:04.041032+02:00",
+ "generated_at": "2026-11-06T10:31:02.838096+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -9,11 +9,43 @@
  "sections": {
   "us": [
    {
-    "title": "Global tech stocks plunge as US midterms add to AI slowdown fears",
-    "url": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC",
-    "published": "2026-11-06T07:27:26+00:00",
-    "lede": "Investors have reacted to possible tougher scrutiny of data centre construction and the AI industry.",
+    "title": "Global stocks tumble as AI panic grips markets after Democrats’ midterm success – business live",
+    "url": "https://www.theguardian.com/business/live/2026/nov/06/global-stocks-tumble-ai-panic-markets-democrats-midterms-success-jobs-oil-dollar-latest-news-updates",
+    "source": "The Guardian",
+    "published": "2026-11-06T08:09:50+00:00",
+    "lede": "Rolling coverage of the latest economic and financial news, as Asia-Pacific markets slide after Wall Street rout Europe has joined the global selloff. The FTSE 100 index, which tracks blue-chip shares listed in London…",
+    "lang": "en"
+   },
+   {
+    "title": "Asian markets battered after Wall Street AI rout",
+    "url": "https://www.ft.com/content/642b32dc-e3a1-4df8-ae91-5c84bdeb89e0",
+    "source": "Financial Times",
+    "published": "2026-11-06T07:39:22+00:00",
+    "lede": "Investors fear Democrats will seek to slow US data centre build-out that underpins the AI boom",
+    "lang": "en"
+   },
+   {
+    "title": "November US Stock Market Outlook: How to Position Your Portfolio for the Remainder of 2026",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNLTBzVlJUNDJiazlQdkE4WVBCNVFGQ0w3YVZfak1VdUlyeFBoR1hfTk44dU53cDJoSkVnbURmM0ZJdkZTb21mVHNvWk5vR21RVW1kWDdGb2pOeGtLNVBpNVlZbGpaOEcxOEhBOXhSQ3NMcFVQUnBadEFYUkl0ZG1fVUcwV1FfWnJreDJLMDl4Z2FOMFBEUXUxT05zQ09YUjh0NXhEV3A2ek0xOWpSOWRXNVFIRVFuV1YwbWFVbA?oc=5",
+    "source": "Morningstar",
+    "published": "2026-11-06T07:35:45+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Global stock rout deepens as AI data centre fears fuel worst US chip sell-off since 2020",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQd1BNLTFsLTlOM3lTRFFFSE1Tc2gyRThDWVVibjVyUi1DYW5Rdl9fSThvZUYwX2UtNmZzc09RVDdxZm1pSjJkRDdmVGk1U1R1akpZM1Z2UHJLYm9vVTFIUFdjNmhJTzhCejdCV1hkbWhHQVd1czVNSlBtSlB0NXdENF9seFNyVGROeDNuMFJNTERyVXBLMTZuZA?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-06T07:34:08+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Analysts rethink AppLovin stock price targets after earnings",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNR0puX1RYdS12VDNqNUIyV2NJRGNSWkZKWWgwSVRONnJtX3hURnRYZzJmY2h5ZVBvSjZISHh6SDd1ZVh1QWthb1p1cENnODJXY01kd0c0SXM2QTV2RUJRNlk2aWYyYWJqTEFnQVg3OXFLSkxSQm9ZS3V5c1RpMXprYlZVaWhvb1NSaWNoWURzWkpyT2d1M2J0VFl3ZnVjdDVuaEkzcg?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-06T07:27:00+00:00",
+    "lede": null,
     "lang": "en"
    },
    {
@@ -22,14 +54,6 @@
     "source": "Financial Times",
     "published": "2026-11-06T07:11:18+00:00",
     "lede": "Any reasonable person can see the hallmarks of an unsustainable party in markets",
-    "lang": "en"
-   },
-   {
-    "title": "Nasdaq Stock Market Correction: 3 Words From Warren Buffett To Remember RIght Now",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZDNZX3M5QzdfMjFlUjRrcUFsTUcyRXVkbC1fUFRrWVNrMElyZ2Z1RzFvNXN4TGdTYjVQYmhnSG10eEVOakVicXJEcGpxR28yd011Mi1TWDQ1cmQxa3JmV3I2MEx0TU5ZYVdmV29XNmZpRFNLRUMzT2ZkSk9fR21PV3k5NGZPSGFCT0Nzck5YU0kzRFJ1MFBWVWQzS1dtQQ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-06T06:27:00+00:00",
-    "lede": null,
     "lang": "en"
    },
    {
@@ -63,14 +87,24 @@
     "published": "2026-11-06T05:19:00+00:00",
     "lede": "בהמשך ליום המסחר הגרוע ביותר שנרשם במדדים המובילים בארה\"ב מאז אפריל 2025, בורסות אסיה רושמות הבוקר ירידות חדות",
     "lang": "he"
+   }
+  ],
+  "il": [
+   {
+    "title": "לאחר הירידות אמש, הבורסה נפתחת במגמה מעורבת",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562306#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-06T08:12:00+00:00",
+    "lede": "המסחר בת\"א ייפתח הבוקר על רקע הירידות החדות אתמול בוול סטריט",
+    "lang": "he"
    },
    {
-    "title": "Should You Wait Before Buying Bloom Energy Stock?",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQNnZMSXBLbl9SNTFDT1BmZEpkTHVVUG9nb3VXakhnNzU0SXhfbDJQQnVpQTlsMWRwMllud25lNEtiS1ZBenV2bnpzcjVVcGVxaTBhVDVaRTlHNHdYSDRrV1gwaTJ6M2Q5dFZqdU5Ha1NIQmVKUVJRMW1qTXFKNGRuUUdSb0pCTmhiUVFyUnBtUXkwSl9KRjU3dTVXcw?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-06T05:18:11+00:00",
-    "lede": null,
-    "lang": "en"
+    "title": "לאחר הירידות אמש, עליות הבוקר בבורסה בתל אביב",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562306#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-06T08:12:00+00:00",
+    "lede": "המסחר בת\"א ייפתח הבוקר על רקע הירידות החדות אתמול בוול סטריט",
+    "lang": "he"
    },
    {
     "title": "שני ישראלים מואשמים בהונאה של 129 מיליון דולר בארה\"ב",
@@ -78,24 +112,6 @@
     "source": "גלובס",
     "published": "2026-11-06T05:11:00+00:00",
     "lede": "כתב אישום שהוגש בארה\"ב חושף כיצד רשת הונאה בינלאומית השתמשה בבינה מלאכותית כדי להתחזות למנהלים ולעורכי דין ולגרום לחברות להעביר מיליוני דולרים",
-    "lang": "he"
-   },
-   {
-    "title": "Asian tech stocks sink",
-    "url": "https://www.ft.com/content/b77ebe43-a017-4e63-af84-5bdec8f47648?syn-25a6b1a6=1",
-    "source": "Financial Times",
-    "published": "2026-11-06T05:07:03+00:00",
-    "lede": "‘Complete carnage’ as Nikkei 225 falls below 60,000 points for first time since May with Seoul’s Kospi under 5,000 points",
-    "lang": "en"
-   }
-  ],
-  "il": [
-   {
-    "title": "חמישה דברים שכדאי לדעת לקראת פתיחת המסחר בבורסה",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562306#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-06T06:07:00+00:00",
-    "lede": "המסחר בת\"א ייפתח הבוקר על רקע הירידות החדות אתמול בוול סטריט",
     "lang": "he"
    },
    {
@@ -115,22 +131,6 @@
     "lang": "he"
    },
    {
-    "title": "זה היה אחד הימים הגרועים בוול סטריט. מה מלמדת ההיסטוריה על ההמשך?",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562353#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-06T04:56:00+00:00",
-    "lede": "נאסד\"ק נכנס אתמול לטריטוריה של תיקון, מניות השבבים קרסו ומדד הפחד זינק לשיא של שמונה חודשים",
-    "lang": "he"
-   },
-   {
-    "title": "מזינוק חד ל\"פאניקה אמיתית\": מה קרה בוול סטריט ב-24 שעות?",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562325#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-06T04:18:00+00:00",
-    "lede": "לאחר הראלי ברביעי, וול סטריט נצבעה אמש (ה') באדום בוהק: מדד הנאסד\"ק צלל ונכנס לטריטוריית תיקון, וענקיות השבבים מחקו טריליוני דולרים משוויין",
-    "lang": "he"
-   },
-   {
     "title": "צפי לפתיחה שלילית: טאואר בפער של כ-4.5%, פאלו אלטו כ-3.1%",
     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1FQVlEb1gzV1hUWk9obUpUZFJ4ZVBYVHAyeWlIT1lXLVhNLXBLUHNwZ2s0dkpZREVhZFM0SGVfd2xwNTJLTGZmOURQR19DZWRLV3dmdUpKcmE4UGdraFBqNlNuR0hicWpKZ3NYV0otZVQ?oc=5",
     "source": "ביזפורטל",
@@ -145,30 +145,22 @@
     "published": "2026-11-05T16:46:00+00:00",
     "lede": "חברת התעופה מדובאי הרוויחה כ-903 מיליון דולר במחצית הראשונה של שנת הכספים, על רקע סגירות המרחב האווירי והתייקרות הדלק. מנגד, הכנסות חטיבת המטענים זינקו ב-52%",
     "lang": "he"
-   },
-   {
-    "title": "הדולר מתחזק לשיא של 7 חודשים מול השקל, צניחה בבורסות בת\"א ובוול סטריט",
-    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5xVHMyVWRtUXpnS1JudkhQeE1vWDNaNVRBUGE2TmhLWkV6S2RDeWFfeDJoZmNKX1N5WGZqeXhrODZfWC1zelVsQ3I5N3VRWDNKQ0hsczllTVoxMDN5Sm1qdFVIYw?oc=5",
-    "source": "i24NEWS",
-    "published": "2026-11-05T16:27:11+00:00",
-    "lede": null,
-    "lang": "he"
    }
   ],
   "geo": [
    {
-    "title": "Iraq’s al-Zaidi talks to Trump as Baghdad seeks to stay out of war on Iran",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMnVfME83OVozQ0xVaFhEaUU4bG9yRWZBTmNVbHNVRXJLOS1hWFZBdnM4WWpiZTc5bG9aZ3pQcVJuLW85bGx0QWJvSU45bUpZaTdQWWp4cXc0OG8wb242SGdSSEk0VlMzSHlxdjFUbldDZnAzcHpISi1RdUZyNHpPNjZCQmNIdnZJdFFwM1hzTDNLcGNxVk81a3E5SUdlREtoQnhpNU5KNDFEdVdqenVfVWNMVkHSAboBQVVfeXFMTUZFb1JmYk45YmttZGZYSG9CTmpYd19CN2tSTlhaR3ROV3h2dk53bU1Ud3lzbzFtb2FZRkJVX256VkNlam1CanZjVFk0TmVEaGk5NFYtblo1UnBNUDN0TkR6cnFxV2hmUUlJRVJkOFVqRlhiekpkTmxxdkIxVFE5b0VyOWxvZ05sM1N6c05iUEQ4VndkSm1qWXVYZk9GVDZzYzNzVVF3VmliUFgzTF9kb053c2UySHZnU2Jn?oc=5",
+    "title": "Why is Iran exempting India, China, Qatar, Iraq from Hormuz restrictions?",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQREVEWGlac01nYWJUY3lwTUdnLXI2WW9mbWlmYkZzOVNxc2hoVWdnWXFtVWNXUVZ4cnpuUnFySWo0cDMwYU9HVndHRmt0ZTg5Uy02TDdxa0x4RXlLY1NQMUdSUkxGV2l5emNVX0dKaUlsV0F4dXkzUzRBQVdldGRxYlkweEZ6OUVOYXE0Ymtla3VCLVYtbzhucXNIYlp6OGkzNDdTTEg0eWlDUnp1c09B0gG0AUFVX3lxTFBzbG90aHg5TTdmRVd6bEI2Y2NsVUJUa1c4Ml81eno0LWVSbXM1R3RMVl9CR1RrNzBVeEk5UVpRQy0xU2xkZ0dPQm1VT0NTeFAyVXVySmJIYlRJNzBOb01oaklFeHdQeTdRcTFlS1BPb3oyWm5OS3BsZXZEc3dPLWNPbURLZXJTTEg3Nk1kN2ZCTUZFQnFPbWZYWVFpaERtY2tWTFN2NlhMa0g0dHFuRHVPNzVraw?oc=5",
     "source": "Al Jazeera",
-    "published": "2026-11-06T05:15:00+00:00",
+    "published": "2026-11-06T06:13:36+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Iran celebrates Trump’s election defeat as mediators push for deal to end war",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPQ1ZaaU5CdDcwRXQ0Nl82QXBTc3YxRXl5TXlTR2tzR3I5dEExTVpNUko4eTh4WWVrR1d4M2EwWjVxREpjM3NCYzdaT0lyUkp1cDBEelNJemNReWpnN09IRzB2MWtmX3JnVzYxdkpPaVVRdGpNZU9QVnI1UXNNZ3dYYk5tcXU?oc=5",
-    "source": "Financial Times",
-    "published": "2026-11-06T05:00:14+00:00",
+    "title": "Iraq’s al-Zaidi talks to Trump as Baghdad seeks to stay out of war on Iran",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMnVfME83OVozQ0xVaFhEaUU4bG9yRWZBTmNVbHNVRXJLOS1hWFZBdnM4WWpiZTc5bG9aZ3pQcVJuLW85bGx0QWJvSU45bUpZaTdQWWp4cXc0OG8wb242SGdSSEk0VlMzSHlxdjFUbldDZnAzcHpISi1RdUZyNHpPNjZCQmNIdnZJdFFwM1hzTDNLcGNxVk81a3E5SUdlREtoQnhpNU5KNDFEdVdqenVfVWNMVkHSAboBQVVfeXFMTUZFb1JmYk45YmttZGZYSG9CTmpYd19CN2tSTlhaR3ROV3h2dk53bU1Ud3lzbzFtb2FZRkJVX256VkNlam1CanZjVFk0TmVEaGk5NFYtblo1UnBNUDN0TkR6cnFxV2hmUUlJRVJkOFVqRlhiekpkTmxxdkIxVFE5b0VyOWxvZ05sM1N6c05iUEQ4VndkSm1qWXVYZk9GVDZzYzNzVVF3VmliUFgzTF9kb053c2UySHZnU2Jn?oc=5",
+    "source": "Al Jazeera",
+    "published": "2026-11-06T05:17:40+00:00",
     "lede": null,
     "lang": "en"
    }
