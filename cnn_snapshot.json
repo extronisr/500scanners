@@ -1,6 +1,6 @@
 {
- "score": 25,
- "rating": "fear",
+ "score": 24,
+ "rating": "extreme fear",
  "previous": [
   {
    "label": "סגירה קודמת",
@@ -20,5 +20,5 @@
   }
  ],
  "source": "https://www.cnn.com/markets/fear-and-greed",
- "timestamp": "2026-11-06T15:30:50+00:00"
+ "timestamp": "2026-11-06T16:00:48+00:00"
 }
