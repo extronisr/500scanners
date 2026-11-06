@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-06T20:30:59.757779+02:00",
+ "generated_at": "2026-11-06T21:31:05.650294+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -9,19 +9,59 @@
  "sections": {
   "us": [
    {
-    "title": "AI crush is powering one stock to sky-high valuations",
-    "url": "https://www.cnbc.com/2026/11/06/ai-crush-is-powering-one-stock-to-sky-high-valuations.html",
+    "title": "Americans are on a 'treadmill of high inflation' and more rate hikes are likely, Fed's Daly says",
+    "url": "https://www.cnbc.com/2026/11/06/fed-daly-interest-rates-inflation.html",
     "source": "CNBC",
-    "published": "2026-11-06T18:15:44+00:00",
-    "lede": "Despite sky-high valuations, Mike Khouw argues Costco shares could present a compelling buy.",
+    "published": "2026-11-06T19:05:00+00:00",
+    "lede": "San Francisco Fed President Mary Daly called Friday's jobs report \"good news for American workers,\" but noted the pressure inflation is exerting on household finances",
     "lang": "en"
    },
    {
-    "title": "AI Stocks Bounce Back After Thursday’s Selloff",
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbFhNLTBWNVFrWF95VmItelpwY0d4eGJ2RVBNUk10T1RTOC1aV0tNUU9aSEVSU0o0XzVTYVg3RW5Hb3hjbkRpUHQxRU93Y0c1WDJnVUJ0M1RCSTJoZGpHZGhqNThFR0IyR09CSTZLOGtocHk1bUVIdmMzbzBPRkU3bVJZdEFPWnlxb0VCUjlvVzBnbnRlWkFYdw?oc=5",
-    "source": "Morningstar",
-    "published": "2026-11-06T18:06:33+00:00",
+    "title": "AI stocks halt their brutal, worldwide sell-off as Wall Street trims its loss for the week",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOMUlicGFDcFJmWW5nQnZ3R2wzY25vSzFIczhmanhycWtxaDVsOGhrSW9sUkFoN29MaTJKX1pKbmEwSl8wVVZhX1RpZ0JFTUMycHQwSXo1ejh0YVpSRkJkdkxZTVBUQ2dySDFFYlhBSEhZTFJpeElqZXU5MEJQQURwb0RHZU16YV8tczNyUVo0NF8?oc=5",
+    "source": "AP News",
+    "published": "2026-11-06T18:56:00+00:00",
     "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "My adviser recommended an annuity. Is it the right move in this market environment?",
+    "url": "https://www.marketwatch.com/story/my-adviser-recommended-an-annuity-is-it-the-right-move-in-this-market-environment-00edbbf6?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-06T18:53:00+00:00",
+    "lede": "“I haven’t committed to the strategy yet and would appreciate some independent perspectives.”",
+    "lang": "en"
+   },
+   {
+    "title": "The Stock Market Can Be Volatile. Here’s How to Stay Calm.",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNampvU2NIRDlJRFBNTVBlSmFuMWNjcnRaenRfOWl5Z2p0VS1jbDJFdTR1VjNUMjBlaVM4TWdIY3dXY2lHYjFDaFA4MlNha3BoVUhiNmJ0Q0wyLWJfQ3hNczRfZFNhQmFXcjBGRU5LaTVYdjdjb0tiV2JzamxDMFpZZlhVWTlyNDh6ZzlESw?oc=5",
+    "source": "The New York Times",
+    "published": "2026-11-06T18:52:24+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "US economy outstrips forecasts to add 165,000 jobs in October",
+    "url": "https://www.ft.com/content/f84c722c-99a9-4628-84dc-c42a192cb35c?syn-25a6b1a6=1",
+    "source": "Financial Times",
+    "published": "2026-11-06T18:45:36+00:00",
+    "lede": "Hiring rebound reinforces expectations Federal Reserve will raise interest rates",
+    "lang": "en"
+   },
+   {
+    "title": "Why NerdWallet Stock Crashed Today",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPWEdWTWlodGNPZHBiTm9RLUdqT2JvMXg3eWVWenhuTVg2blJCV05ETUZGaGFsUU1vQTMxTzdEdFlKWTlkd1RzT2JXNlZBNjEyMWpRdk9YVV9hd3BBT0l0UlpHSjM1SFJTV0Z5N0M2cVpXcGk1eDBKMHNpNGpBdFJYQU9yeElMbUdkNmlkSk1wMzR0bno5MFZMZ0F5c2x6Rkla?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-06T18:41:46+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Why the US midterms sparked an AI stock selloff",
+    "url": "https://www.bbc.co.uk/news/articles/crlykkzwwpydo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC",
+    "published": "2026-11-06T18:32:16+00:00",
+    "lede": "Fears of more AI regulation appear to have sparked fear among investors, but concerns about the industry have been growing for some time.",
     "lang": "en"
    },
    {
@@ -47,54 +87,14 @@
     "published": "2026-11-06T17:59:54+00:00",
     "lede": "Tech-heavy Nasdaq 100 up more than 1 per cent in afternoon trading following day of turmoil",
     "lang": "en"
-   },
-   {
-    "title": "DraftKings’ expensive bet on prediction markets is crushing its stock",
-    "url": "https://www.marketwatch.com/story/draftkings-expensive-bet-on-prediction-markets-is-crushing-its-stock-277bee0d?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-06T17:51:00+00:00",
-    "lede": "Shares of the online betting platform slid more than 26% on Friday, as analysts worry about regulation and competition.",
-    "lang": "en"
-   },
-   {
-    "title": "Meet the High-Yield Dividend Stock Quietly Crushing the S&P 500. Here's Why It Has Room to Run.",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPeE1acV82cXpLOTYzZ0NyVjJRbHQyRjhIOU1IQWc2MnNnNVRERktuMVVfcnhvNHNRV0JMdktRbUF3MVN3aHo2WHJVWURjQVBlYWQzY3JuQzIzTks3T3VmVHZ4QkpqTjdKYlJXRlk2aHhCcVZGMFVRMlc0cVpacWZyTllHbzMwVldyTF82dmpsYm1EQWZMY2UzOUVkTQ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-06T17:50:00+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Watch the Annual Meeting: Cramer on the fate of the AI buildout and stocks to buy now",
-    "url": "https://www.cnbc.com/investingclub/2026/11/06/watch-jim-cramer-live.html",
-    "source": "CNBC",
-    "published": "2026-11-06T17:48:16+00:00",
-    "lede": "At the Investing Club's 4th annual meeting, Cramer also reveals his outlook for 2027 and answers questions from the live audience and members at home.",
-    "lang": "en"
-   },
-   {
-    "title": "What the AI stock crash cost your 401(k) for every $1,000 invested",
-    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNYmZ0Wl9YSWRoWGt1SFllVUFJeWs4MERjNTgydFNuVVJBQ2lKRVlIanpyZjJ2dUk3Zzc3UmczTnRXZVhXTjBMaTBQQTRZQjJSdFVOZWUybjNCMUZFYng0a2NSRGNzUVRQcjRHTG9CVWR4OTBaN2VYOUpnaUk0SFoxUF9ZUl9Uc0VfeTloaFZ4U3lvRTZMbUpKNWhoVlJxWE1XZU9BdjBFdzRhRURZeXRRTEQ2T29kcWNPOERF?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-06T17:28:21+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "AI stocks climb after trillions wiped from market values",
-    "url": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC",
-    "published": "2026-11-06T17:03:02+00:00",
-    "lede": "Investors had been selling off tech shares in part due to concerns the Democrat election victory would mean slower AI development.",
-    "lang": "en"
    }
   ],
   "il": [
    {
-    "title": "היום שאחרי המפולת: נאסד\"ק עולה בכ-1.5%",
+    "title": "היום שאחרי המפולת: נאסד\"ק עולה בכ-1.3%",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001562355#utm_source=RSS",
     "source": "גלובס",
-    "published": "2026-11-06T17:04:00+00:00",
+    "published": "2026-11-06T18:36:00+00:00",
     "lede": "שוק העבודה האמריקאי הוסיף 165 אלף משרות באוקטובר - הרבה מעל הצפי",
     "lang": "he"
    },
@@ -149,10 +149,10 @@
   ],
   "geo": [
    {
-    "title": "Under Armour warns of bigger Middle East hit, cuts annual gross margin growth target",
-    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQajdod1RLdGRUOTJXOVk3dXNPcEhnQlZhOGJWalVSUklaV2tFZHJOVU5JUGtEX3FtTXNJcGl5MnNpSW1pUkdZOEFFcjUzcE14RHlwM19USXpRa2Z5d3NzM0I3NGxxN2YzUTFfbzNqUWVSWkJzTjlkelp2YVRpTlFDY0lXOEgxaE9Sd1hHeGwxRmFtNUZxUGNKYlczc2U2SzdoTFNSVEF2aURRbWVscFc3QmF0YUlSb0dxLUczTHREV3NHOG9aS1JyM1hxZGRMZnowOV9jRXM2ZHQ?oc=5",
-    "source": "Reuters",
-    "published": "2026-11-06T17:41:43+00:00",
+    "title": "Russia’s land gains in Ukraine dwindle as its diesel reportedly goes unsold",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQOHlBMHZFa3Q1eHBGSGRLRm1KZlY3RTIzRGlYUEdMVGdVd0NDS1M3Njl6N1A5NFBlenRxOWNXUW1fajgwNjZoRUNiZHJHSjlmcDM4RDNvRnYwbkVfMHdPV0lJRmF4NUMwZzZ1RFlIZWpTaHotS281eDdpaUdKaEludk03ZFJuTXFSTl9KcFpFNFV2STRJdlUtQTliS2JSVWxYTVNxb2VvXzE2ZzE4ekVqTNIBtgFBVV95cUxNdTd6bkY3ZG5QQVFlNXZkT19JM0pyVERmQXNaaFdfNGgwTUlSc2t6enllcFpHWGR4a3lXTXV6cVhPbUtqVTd2aVB1RzdzeXRva3huVjZEejRORXlvSGRGMktPWHBOaW54dG9NYnk4WS1YbzJMZGRJSHk1NTRVRmdJbUNtVGdrQ3lxa2dNcWNSeGxOR091X28zRnlPZ1VLZEhmdFNoRlYxa0M4YXJHeWxUZTJXQ1dTZw?oc=5",
+    "source": "Al Jazeera",
+    "published": "2026-11-06T18:47:20+00:00",
     "lede": null,
     "lang": "en"
    },
