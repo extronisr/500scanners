@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-06T03:31:02.321183+02:00",
+ "generated_at": "2026-11-06T04:31:05.359203+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -9,18 +9,10 @@
  "sections": {
   "us": [
    {
-    "title": "Major tech stocks plunge as US midterms add to fears of AI slowdown",
-    "url": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC",
-    "published": "2026-11-06T01:26:52+00:00",
-    "lede": "Markets have been reacting to possible tougher scrutiny of data centre construction and the AI industry following the US midterms.",
-    "lang": "en"
-   },
-   {
-    "title": "The Nasdaq Composite Just Shattered Its Single-Session Point-Loss Record: 3 Reasons These Elevator-Down Moves May Be Just Beginning",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQWVhDTFdKWUp4RUlIRi1CNlo1NjJneVJZR3l2bDJtUUxEdEVRWUVTMlhLTU1tMWZxMkhwYkY2bWpTYXNnRXpyNnRxc3V2dHpZb0psYVdBT2xzN0gwNVBhZE8yWUpESU53NTZlOWVsNkxKVUxLdlVWaE1IWEw1ei1IZWU0M0JZbldqNEFsMW55c2hMeTVLa0NOVGNoRjBocS1BbmZBeXdR?oc=5",
+    "title": "Should You Buy Nvidia Stock Before Nov. 17?",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNcHoxdVI4MTRJRWR4VmQycnkxX01ZeklUYlJlRXJCcDZnTG1FQ1AtZGh3YTBndWZVSWZsZEdYZkxad1ljNkdTMGlmZFp3R0Vrcmt4VTNrcnBzcEtQSlNNejhrNDJvUHdjanBFLXA1YUZYMjNuRlcyVmN6RHBub3JQNXZaaDNrcHpIYlZmWW1kRHhRUQ?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-06T01:23:34+00:00",
+    "published": "2026-11-06T02:20:00+00:00",
     "lede": null,
     "lang": "en"
    },
@@ -28,23 +20,31 @@
     "title": "Dow Futures Fall, Techs Jump After Market Sell-Off. What To Do.",
     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxONko0NmFjRU1udUJFdmdCRVBzbFpMVVFwWlR3cWY4aThIV1NrVTlKbzFjTHlNNzBwLU1tOTV1UktuSUtVMHQzc0h2UGMzdXZZQ0FwN1ZELVR0REhSSFFfcXVPbW8xN21CQXgyZENhVkZxeFh5dmpsRWVJTjJPdjlFLWR5NjU4eG9uUjFDcEZEcjUzbmFzcGpkbW9CTkVwN3hjVWZqTWdMUnZaUnFkOFJ5ZTNvWHljVjZCSDgwV2JoRXR5aE9ROFU3TXoyRVlmTkhCZ0E?oc=5",
     "source": "Investor's Business Daily",
-    "published": "2026-11-06T01:20:00+00:00",
+    "published": "2026-11-06T02:05:00+00:00",
     "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Major tech stocks plunge as US midterms add to fears of AI slowdown",
+    "url": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC",
+    "published": "2026-11-06T01:44:03+00:00",
+    "lede": "Markets have been reacting to possible tougher scrutiny of data centre construction and the AI industry following the US midterms.",
     "lang": "en"
    },
    {
     "title": "Nasdaq sell-off batters Asian chip stocks as SK Hynix, Samsung, Softbank, TSMC tumble",
     "url": "https://www.cnbc.com/2026/11/06/tech-stocks-sk-hynix-samsung-softbank.html",
     "source": "CNBC",
-    "published": "2026-11-06T01:11:35+00:00",
+    "published": "2026-11-06T01:41:32+00:00",
     "lede": "Asian technology stocks tumbled Friday, tracking a sharp sell-off on Wall Street overnight that sent the tech-heavy Nasdaq Composite into correction territory.",
     "lang": "en"
    },
    {
-    "title": "Analysts and investors react to AI market rout",
-    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNZldlNGFPZ1lfa0RKbWVfZllvX2drcWh5TjF2S2RuV19Gal9wTE9PVUxHb05KODcwcXlEc2hINTEzOFc2MTlCT05rUXFVVnVpbmFocFRNcFlURk1hYkRpZklJc2ZKaFotYVR0VXRMWkRTQU16QzF4dVBDLUFsODJDaDNfNnFLVUpQMV8xLVBQbXhqaGNaVld3NzlB?oc=5",
-    "source": "Reuters",
-    "published": "2026-11-06T01:11:00+00:00",
+    "title": "The Nasdaq Composite Just Shattered Its Single-Session Point-Loss Record: 3 Reasons These Elevator-Down Moves May Be Just Beginning",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQWVhDTFdKWUp4RUlIRi1CNlo1NjJneVJZR3l2bDJtUUxEdEVRWUVTMlhLTU1tMWZxMkhwYkY2bWpTYXNnRXpyNnRxc3V2dHpZb0psYVdBT2xzN0gwNVBhZE8yWUpESU53NTZlOWVsNkxKVUxLdlVWaE1IWEw1ei1IZWU0M0JZbldqNEFsMW55c2hMeTVLa0NOVGNoRjBocS1BbmZBeXdR?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-06T01:26:15+00:00",
     "lede": null,
     "lang": "en"
    },
@@ -81,7 +81,7 @@
     "lang": "en"
    },
    {
-    "title": "Wall Street sheds $3.2tn as Democratic midterm sweep triggers brutal AI rout",
+    "title": "Wall Street sheds $3.2tn as tech-heavy Nasdaq plunges",
     "url": "https://www.ft.com/content/3d079b3d-580d-400b-bf9c-56af6a08f60f?syn-25a6b1a6=1",
     "source": "Financial Times",
     "published": "2026-11-05T22:41:52+00:00",
@@ -157,18 +157,18 @@
   ],
   "geo": [
    {
-    "title": "Trump meets with national security team, says Iran war decision coming \"soon\"",
-    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQbW9jcGlzTlNQdWswMmp6NFFqVi1CRE9RSEtaOHp1U3FIUWp6Z0xYLW4tb2dld0tyQ3I0ODVILXBmZGNuSGxSNXo3TXJ4VWloN2tPeXZYcUZ5R195eno1U2lYUzloME1PN094Q2llQkZtWHpiNEtKOGU0d0k2SFRoSjFUTHpvUQ?oc=5",
-    "source": "Axios",
-    "published": "2026-11-06T00:09:07+00:00",
+    "title": "Ukraine war briefing: Zelenskyy says Russia has damaged ‘every power plant’ as he seeks Latin American help",
+    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPbUZXOXBNZWtMVHlwOUV3TkdQaV84SGFKVnoyVG5mX3M1NVlTVVFadkMzVThCS09Za3dBOFluUHlXTWh5eEtLa3ZUYV9BNDRMWnYtdFZubVFqTzZ0Ty1WRlNGd1c2YXVoY3J5ZHdCd3JUOEs0SzlVQ0RUVk9DVWI1SnMyaERteFdpWWFneVhESmVaS2NnVVNxLUI4T1lYMFQ4Wms4b1R0T3MyMU53UmpmY3JaaVVuVl9BNjB0OUlscXdzZXVDWDNyR0xBU3N6amhsMVFtY1FDRzZWbXk5RU1iRjlfYXE?oc=5",
+    "source": "The Guardian",
+    "published": "2026-11-06T02:12:00+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Hegseth vows to continue war with Iran amid bipartisan impeachment threats",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNRnc5bzZrS2NkZ0FZV0wxbm42ZHR4VzlCSEY5em9URkJySkdZZDdNTjlLWUx2ZHNXQlNUN0NmSEE4R0J5MmVUeFkxaUFoTDFWZ3VVTU1xM2pnSmlhbWNXNjVkUDZMN1RtYnBxcnIxVEJtWWR5Zk5YalY1Zkpmc2MxaGN0UjUtU1ZXRHVqTUlPbXdhd2puR042Qk1sOXBtZw?oc=5",
-    "source": "CBS News",
-    "published": "2026-11-06T00:08:00+00:00",
+    "title": "Trump meets with national security team, says Iran war decision coming \"soon\"",
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQbW9jcGlzTlNQdWswMmp6NFFqVi1CRE9RSEtaOHp1U3FIUWp6Z0xYLW4tb2dld0tyQ3I0ODVILXBmZGNuSGxSNXo3TXJ4VWloN2tPeXZYcUZ5R195eno1U2lYUzloME1PN094Q2llQkZtWHpiNEtKOGU0d0k2SFRoSjFUTHpvUQ?oc=5",
+    "source": "Axios",
+    "published": "2026-11-06T00:09:07+00:00",
     "lede": null,
     "lang": "en"
    }
