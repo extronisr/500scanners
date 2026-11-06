@@ -1,5 +1,5 @@
 {
- "fetched_at": "6.11.2026, 14:04",
+ "fetched_at": "6.11.2026, 14:34",
  "items": [
   {
    "title": "J&J Wins FDA Approval for RYBREVANT FASPRO in Cancer - grafa.com",
@@ -2995,6 +2995,26 @@
    "ncts": []
   },
   {
+   "title": "Perspective Therapeutics Reports Bamzireotide Trial Data, Targets Phase 2 Meeting in 1Q 2027 - TradingView",
+   "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNaGk2T1g5aDl1TTRwNE9hemhOVUpUcXNjVG5yRzNwOGdWelc3eGplaTdHOFBFVV96QVNmMnJQSllLWUtfTjNiUmJlZlF4NHM5V2tDb2x6UG5kX0pFRFJqbC15ejNjaE1aaTU0NUVwdEw5LTFBdThPOFVTTmh2U3VxS01VOUFZQTlHVUZSREdwWWlib0ZGS0p3TUhtZ3EtSU4zbi1QcVFMa2VtVW54SzNWSVlwZ0VLUmhGaVhHTEk1ZFhmbF9LNzRpc3V5aDVYb1lNbFEzeTc0QzA4dW5fVm1iTENjLVNYdEU5?oc=5",
+   "pub_ts": 1793966580.0,
+   "date": "6.11.2026, 14:03",
+   "cat": "phase2",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [
+    "CATX"
+   ],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNaGk2T1g5aDl1TTRwNE9hemhOVUpUcXNjVG5yRzNwOGdWelc3eGplaTdHOFBFVV96QVNmMnJQSllLWUtfTjNiUmJlZlF4NHM5V2tDb2x6UG5kX0pFRFJqbC15ejNjaE1aaTU0NUVwdEw5LTFBdThPOFVTTmh2U3VxS01VOUFZQTlHVUZSREdwWWlib0ZGS0p3TUhtZ3EtSU4zbi1QcVFMa2VtVW54SzNWSVlwZ0VLUmhGaVhHTEk1ZFhmbF9LNzRpc3V5aDVYb1lNbFEzeTc0QzA4dW5fVm1iTENjLVNYdEU5?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
    "title": "Altimmune presents positive Phase 2 trial data for pemvidutide in alcohol use disorder at AASLD 2026. - Pluang",
    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNTnpnNEZyQTRsemN2QUUweVFDd0E1SXVBQ3FqbnNFTTdzUDd0MDBEUUpfYWZ3WkVubk1uVXNLSnhXOFlVWll6UFJTWXhLVHFIQlBLTkV1RXRwOUNiWWZGNzR0X3N6YmVKZV9tWk16bjhUVnozV1BkWG1ITHBKTDdqNjEwc0xNeXdpdGotcmd3X01DaDJCajR3LWpoVUg5T1ZiWmxmN0NVYktLTEZ0?oc=5",
    "pub_ts": 1793891910.0,
@@ -4034,6 +4054,24 @@
    "ncts": []
   },
   {
+   "title": "FDA approves generic Fulvestrant (Sinopep Allsino)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=216722",
+   "pub_ts": 1793145600.0,
+   "date": "28.10.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=216722"
+    }
+   ],
+   "ncts": []
+  },
+  {
    "title": "FDA approves generic Ketamine Hydrochloride (Neurorx)",
    "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220602",
    "pub_ts": 1793145600.0,
@@ -4083,24 +4121,6 @@
     {
      "source": "FDA · openFDA",
      "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=214747"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "FDA approves generic Fulvestrant (Sinopep Allsino)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=216722",
-   "pub_ts": 1793145600.0,
-   "date": "28.10.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=216722"
     }
    ],
    "ncts": []
@@ -4577,29 +4597,21 @@
    "ncts": []
   },
   {
-   "title": "Rockville’s Ascentage Pharma Receives Breakthrough Therapy Designation in China for Lisaftoclax in First-Line CLL/SLL - BioBuzz",
-   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNWEgwdFVtRnc3LUpNcGZTcDJQVGRpNXRaRDd4WXc5dkRTRXZlUW5SMTU3MmhNRHRNYk94NFNNdWJKbExQUVhBbDRvOUdsTmYwZ0dobVhMdmQxazlqdGtxUUNNM3FBcG9qZ1NYUDVWZHpXUWxWVTgxeUFOWlhnS0pHRTFwdlJSVHQ0dTZDU29BZTBLQmNySlJaVHlSUmJhYzZqU1dMMFZrakNYZWNHSkRSdEZuZnBqdGVBTklSczhpYlVQeHJuWmRqR0NKQmNLOG1zY2Q3UmZEVUo?oc=5",
-   "pub_ts": 1792758037.0,
-   "date": "23.10.2026, 15:20",
-   "cat": "btd",
-   "sev": 2,
-   "dir": 1,
+   "title": "Satellos Changes Primary Efficacy Endpoint in BASECAMP Phase 2 Pediatric Trial to MRI-Measured Fat Fraction Following FDA Feedback - The Manila Times",
+   "link": "https://news.google.com/rss/articles/CBMirAJBVV95cUxQT0pBcUdpa2w1M29qMnZnYmh6aEdWWTFjbHJScTdydExvX3FRX3pVQUEzNDdQaFBmeEl0bmZPc2ljNHlpdkhNSENvckZaZzIzeGJYOGpfNU5ZSVdDU09GUXlibDdabjR6OWxucEtubE9OQmFZSG0yNUdyckZuQUFoR0toTnlYallaRDh3NUREdVR3VkNJamxGOHNoZTlkeFBRaEVzdE5KS3ZDM0loMVVxR2s5VUxaUS1XOGhjUUpaZmRrZTZwc0lEYTBkejY0RXZFRGRRWWUwc2dER29WSkNTeGdSa3lYRm5aUmdpYnE0clVLWExRTDFEdTJFTUlaN2ZIRUoxMUhMSjJ6NnA2bkZ2ajBfVVlYMmczR1B0UktJeDlyNE1VR1lRUlp3RkbSAbICQVVfeXFMTTVmN1pQbDhRWHFpN1NZeDJXd3RxdFROQVp4d2MxOUVwU01pRHhydDJNaWRpc3FwbGNkQXdDOUpwQXBCMkJ0ZWlBZVQtUU00SU5tcE4zVzZCT3FtemlLbnpoeTNReE9Cc3diVDdxTHVqci04Wm9FcVc0dnU5dWhBQm8tdS1yaE00QWI5ajJWR1dGNGlDLVBJWnNiU0dJRlhzejQ2cG9Wb0VQdUxkUFpST1RXWW12VUdDdV94TUhZUXgtRzVNYUczd0V3Q2dfOEM0cXZNSlNlYTJuUERPWk9mdlZKb3ozamNwR3R5S2pJTWlJS2s2bDhVM3VwNGFVdmFqNEM3M2xWSkFoVkRBdkI3NmZXTE5IX0tuT2h3ZG93OVY2em1ZajR2dDZ1djZ0RlVyZ2lR?oc=5",
+   "pub_ts": 1793967091.0,
+   "date": "6.11.2026, 14:11",
+   "cat": "phase2",
+   "sev": 1,
+   "dir": 0,
    "tickers": [],
    "companies": [
-    "AAPG"
+    "MSLE"
    ],
    "sources": [
     {
      "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNWEgwdFVtRnc3LUpNcGZTcDJQVGRpNXRaRDd4WXc5dkRTRXZlUW5SMTU3MmhNRHRNYk94NFNNdWJKbExQUVhBbDRvOUdsTmYwZ0dobVhMdmQxazlqdGtxUUNNM3FBcG9qZ1NYUDVWZHpXUWxWVTgxeUFOWlhnS0pHRTFwdlJSVHQ0dTZDU29BZTBLQmNySlJaVHlSUmJhYzZqU1dMMFZrakNYZWNHSkRSdEZuZnBqdGVBTklSczhpYlVQeHJuWmRqR0NKQmNLOG1zY2Q3UmZEVUo?oc=5"
-    },
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOVHNvT0c1YXZJMWxqYXRfRTVlaUowYW9QQjZQc2tBalAybGlRa3p6cU1kNk5Kd1F1bWtYQWVXSHZzTXRad0RSN3QzbEVPc0p1NEs5alF2c0JVelhxM3RmM3Vwd0ZVUnRFS211ZEhLZEdfQVROVldxMzRxcFcxaEF3N2xLWHN6OEEyTURWNWc4dXRJTktaTU4xajNwNjhaSnpxUTlVUW05MHVFWVhpdkYzTFhJMGZGYy1UbXRwTi1nMnpiNERvS0JkekkzRHl6RG9UcElPTVZhV01VbHNobmNucDZ2VzlhQkVZcEQ2U1p1WGw?oc=5"
-    },
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNZ3hERWJRUkpUOTFTUmhwRVM0YUVQN1hYVnpaN3VOOGh3OVUzSDFMYzRQYVk5R2xfVlE0ME85SmQ0WDVlTnV2ZVJRYVY0YjRrdmdxbmE5aC1NaU5naTl0Q2dUWEdxY1BURkM2b1haNHFRREMyclI0ek1wTk1mVW5SVWNtbkFybFhwZ3lqUWMxV0ZfSkVVbmJBVEJETi1GeDZ4dnhEUlBsbXRRT3g4MkZKZ1dpQWpuREF5QjQwaHZHVXpobVdyd0JiVXFiM3VDMkpGR0NfVFlKZWxYcVZMS1NHQk9xRjZ4Vk02bkNVY24wVnY5TVRueThjaTRhTWVIYzhnVFZuMjFIazRxWE5qRkd4N3NxNA?oc=5"
+     "link": "https://news.google.com/rss/articles/CBMirAJBVV95cUxQT0pBcUdpa2w1M29qMnZnYmh6aEdWWTFjbHJScTdydExvX3FRX3pVQUEzNDdQaFBmeEl0bmZPc2ljNHlpdkhNSENvckZaZzIzeGJYOGpfNU5ZSVdDU09GUXlibDdabjR6OWxucEtubE9OQmFZSG0yNUdyckZuQUFoR0toTnlYallaRDh3NUREdVR3VkNJamxGOHNoZTlkeFBRaEVzdE5KS3ZDM0loMVVxR2s5VUxaUS1XOGhjUUpaZmRrZTZwc0lEYTBkejY0RXZFRGRRWWUwc2dER29WSkNTeGdSa3lYRm5aUmdpYnE0clVLWExRTDFEdTJFTUlaN2ZIRUoxMUhMSjJ6NnA2bkZ2ajBfVVlYMmczR1B0UktJeDlyNE1VR1lRUlp3RkbSAbICQVVfeXFMTTVmN1pQbDhRWHFpN1NZeDJXd3RxdFROQVp4d2MxOUVwU01pRHhydDJNaWRpc3FwbGNkQXdDOUpwQXBCMkJ0ZWlBZVQtUU00SU5tcE4zVzZCT3FtemlLbnpoeTNReE9Cc3diVDdxTHVqci04Wm9FcVc0dnU5dWhBQm8tdS1yaE00QWI5ajJWR1dGNGlDLVBJWnNiU0dJRlhzejQ2cG9Wb0VQdUxkUFpST1RXWW12VUdDdV94TUhZUXgtRzVNYUczd0V3Q2dfOEM0cXZNSlNlYTJuUERPWk9mdlZKb3ozamNwR3R5S2pJTWlJS2s2bDhVM3VwNGFVdmFqNEM3M2xWSkFoVkRBdkI3NmZXTE5IX0tuT2h3ZG93OVY2em1ZajR2dDZ1djZ0RlVyZ2lR?oc=5"
     }
    ],
    "ncts": []
