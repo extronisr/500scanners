@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-07T00:31:02.948133+02:00",
+ "generated_at": "2026-11-07T01:31:02.084702+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -9,10 +9,18 @@
  "sections": {
   "us": [
    {
-    "title": "Stock Market Today, Nov. 6: Iren Soars 20% on Strong AI Cloud Revenue Growth",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQaUpUUU5adktteW1IOXF3RE4yZ196SmlFaGltakZxamlvd2p1NVJtSEdUZzlzc3NVVmlmdmliZ2JkZENxU1hqWV9KcWtWR3BNX29TaXJzWnpteXJoSmhmbHlYcnVDN25BWURobVBzOFZ6MGZEZUNhcVdSNlRJRUJEejNDbzJocFMzY21Nc2R0RmpJYjA?oc=5",
+    "title": "Stock Market Today, Nov. 6: Micron Technology Jumps as Chip Stocks Rebound From Thursday's Rout",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPN1JEN0RQUFk0X2kzYTNTX3NqR0tWY3lXSThhZmNRVzExaU5pazlieXNfc25nT2xYanJGdlZFdy1UTExFdkhSWVNzTTlGWW9MNlpYUWFHUGFxZnJIcklpQm1VbzdsOUFXc1NLM0JTM1lEclR5MUlPLTRFZnc3eUwzcWw2bzU5cFVhVkM5aG5zZXZMZ1k?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-06T22:18:01+00:00",
+    "published": "2026-11-06T22:56:15+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Stock Market Up, Still Suffers Stiff Weekly Loss; Inflation Data, CoreWeave Earnings Due",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOWS1CUGRkOWhJQ3NnaUlpS3ktVElZaTNQb1ZGTDRVY0pycGtPZUhCTV8wd1lxanNYUk5JOFpfcXRNNnhmVHJadmtfQUhfUW5ZVDlwaDZUdGNDYVNEVTlEcUxSQUxOSVlmY3Nkal9rSnJ3T1REcEoxMWV1T2R2dTUwS2VTSFRqZHl2WnhpZFdvNlQ4VXJkVEtYU0hBb3p4dFlKd2JZTUNZNzhZOHVsODNCbU5lY3VPTXVzVFNtRnZQZHc?oc=5",
+    "source": "Investor's Business Daily",
+    "published": "2026-11-06T22:37:00+00:00",
     "lede": null,
     "lang": "en"
    },
@@ -38,14 +46,6 @@
     "source": "Financial Times",
     "published": "2026-11-06T22:00:56+00:00",
     "lede": "Magnitude of rebound was feeble compared with historic recoveries from severe sell-offs",
-    "lang": "en"
-   },
-   {
-    "title": "Weekly Market Update: Stocks Down After Big Losses in Energy and Tech",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOTVZQT2JwSWhrMlhIWmRVZUZyZHF1TDhwQVNXRmpNeGhuMDR0NEhvR3JVQWtqak9FQnNVZkNNc2YtZW80NzBrZThMTEtYMTFrSE9oQUUwOTlWTkQyREhnUFJEdktsSjlUdV82dGhFQ09MY2hMQVdYNGpVVURjT2hHSndwa2RKNm4yM1huTFZob0VnMm5Hd3BrTUxGQTY2QQ?oc=5",
-    "source": "Morningstar",
-    "published": "2026-11-06T21:56:01+00:00",
-    "lede": null,
     "lang": "en"
    },
    {
@@ -149,18 +149,18 @@
   ],
   "geo": [
    {
-    "title": "US Treasury sanctions Canadian money services firms over Iran-related transactions",
-    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQanB1RlNfclNuTUN5SEpJTjFWWUM1UVR2V2xLclNnTjhfNnp0VjNGZE5qeDBiekZXOFpLR2hOTnFud1ZKYlgzaFF6dGpwbkdENXF5VldQSEl0MEE1X0dHbWMyWHFvOU82WC01SjNSamFuSFQtY1M4VHJMN1VEMzlyQnN3UkotaXhiTm4taGdud2w5Wnk0cmtVQlp1MjRvNEJreERfdzZZbmtRQWo5d3NTYnVpOThYRjUwU3BJSGRFSEE?oc=5",
-    "source": "Reuters",
-    "published": "2026-11-06T21:02:22+00:00",
+    "title": "Trump meets with national security team, says Iran war decision coming \"soon\"",
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQbW9jcGlzTlNQdWswMmp6NFFqVi1CRE9RSEtaOHp1U3FIUWp6Z0xYLW4tb2dld0tyQ3I0ODVILXBmZGNuSGxSNXo3TXJ4VWloN2tPeXZYcUZ5R195eno1U2lYUzloME1PN094Q2llQkZtWHpiNEtKOGU0d0k2SFRoSjFUTHpvUQ?oc=5",
+    "source": "Axios",
+    "published": "2026-11-06T22:44:31+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Republicans blame Israel for their defeat",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNT2JVSURneFZHb1NFZDJZQ05Mb2ltNUo1WHFlakZMMVFYY3NZdkQ2bk5iaDkzaW41b3NBQmRWLUxWOEpKalNLOXMwR25mVXo5bXNpcGpPWDdwZjNYMFR6Q3gzMTlMazN5SVVBLVRRdWxtM2RyQk9tQW1hLVlma09SaE0tTmdNMU5fRXg2Y3FuMXItRGdJZW1UajVYdGRKNFg2bU1v?oc=5",
-    "source": "The Economist",
-    "published": "2026-11-06T20:37:14+00:00",
+    "title": "In ‘Birds of War,’ Romance Unfolds Against a Backdrop of Strife",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPbmVlVlplYUFXS3hybEFadUxCTTFNaHlLdGg0d1l3dlprTHdGNi1sa2I4MWxHaUpsdVM0NmxzVWNUTkxrZXBnbVhjZmEyVXlGcW1QeTBobG9JNG1SUjZMa25QenhtRVB1Tm9fSVJRQ3FCYlRPRWZsc2JBUTFWSWJManBPV2Nobnhob2V2ME1n?oc=5",
+    "source": "The New York Times",
+    "published": "2026-11-06T21:56:35+00:00",
     "lede": null,
     "lang": "en"
    }
