@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-06T23:31:02.248165+02:00",
+ "generated_at": "2026-11-07T00:31:02.948133+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -8,6 +8,54 @@
  },
  "sections": {
   "us": [
+   {
+    "title": "Stock Market Today, Nov. 6: Iren Soars 20% on Strong AI Cloud Revenue Growth",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQaUpUUU5adktteW1IOXF3RE4yZ196SmlFaGltakZxamlvd2p1NVJtSEdUZzlzc3NVVmlmdmliZ2JkZENxU1hqWV9KcWtWR3BNX29TaXJzWnpteXJoSmhmbHlYcnVDN25BWURobVBzOFZ6MGZEZUNhcVdSNlRJRUJEejNDbzJocFMzY21Nc2R0RmpJYjA?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-06T22:18:01+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "US economy outstrips forecasts to add 165,000 jobs in October",
+    "url": "https://www.ft.com/content/f84c722c-99a9-4628-84dc-c42a192cb35c?syn-25a6b1a6=1",
+    "source": "Financial Times",
+    "published": "2026-11-06T22:16:13+00:00",
+    "lede": "Hiring rebound reinforces expectations Federal Reserve will raise interest rates",
+    "lang": "en"
+   },
+   {
+    "title": "Charlie Bilello Says “Some Sanity Has Returned to the Market.” What That Means for Your Portfolio",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNQUpBYTVJSUpNNXpNWkZfVmxCMGRrWm5mWTZkX3BvZy0tcXc0QXZkOEUzN1ZVUTIzbUgzMFJTWWJlT3BCZy1mQTZRcXFBSWhrcFBlY0JfWkZsRjg1N2owSkgyRVZELUJiTzVpbGlGR0thc0tzVkllLTFtOENvVUtrZ0pDOXI3V0VQaU1nZ2Jra28xa2dnUGx5ZzZ1bnFTUmM4eXRZ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-06T22:07:28+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "US stocks stage tepid recovery after $3.2tn rout fuelled by AI fears",
+    "url": "https://www.ft.com/content/088ed252-ea9c-4b61-b2d1-37295fd0f7c2?syn-25a6b1a6=1",
+    "source": "Financial Times",
+    "published": "2026-11-06T22:00:56+00:00",
+    "lede": "Magnitude of rebound was feeble compared with historic recoveries from severe sell-offs",
+    "lang": "en"
+   },
+   {
+    "title": "Weekly Market Update: Stocks Down After Big Losses in Energy and Tech",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOTVZQT2JwSWhrMlhIWmRVZUZyZHF1TDhwQVNXRmpNeGhuMDR0NEhvR3JVQWtqak9FQnNVZkNNc2YtZW80NzBrZThMTEtYMTFrSE9oQUUwOTlWTkQyREhnUFJEdktsSjlUdV82dGhFQ09MY2hMQVdYNGpVVURjT2hHSndwa2RKNm4yM1huTFZob0VnMm5Hd3BrTUxGQTY2QQ?oc=5",
+    "source": "Morningstar",
+    "published": "2026-11-06T21:56:01+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Data centers run on debt. That was a problem for bonds this year — and it’s only going to get worse.",
+    "url": "https://www.marketwatch.com/story/data-centers-run-on-debt-that-was-a-problem-for-bonds-this-year-and-its-only-going-to-get-worse-09c03be6?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-06T21:37:00+00:00",
+    "lede": "AI debt issuance this year overwhelmed investor portfolios, and has disappointed from a performance perspective. The funding need won’t get any better with Democrats in control of Congress.",
+    "lang": "en"
+   },
    {
     "title": "Nvidia, AMD and other chip stocks rebound — but is relief from the ‘violent’ selloff only temporary?",
     "url": "https://www.marketwatch.com/story/nvidia-amd-and-other-chip-stocks-rebound-is-the-violent-ai-selloff-over-8f7df533?mod=mw_rss_topstories",
@@ -25,30 +73,6 @@
     "lang": "en"
    },
    {
-    "title": "Could the ‘blue tsunami’ jolt the US job market back to life?",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5EYXd6WXBKSXZTSEg1WkprRGVjRDBuWTJpZVBFNlUwSjM5S0hkREI5VC1LX2E4NWQzT3I4Y3Z4eGhEU3g0VmFlUUVZT0FsWW1BdEVYRFJLSDFjNm1EaS1oeHNGalNzY01pVHc?oc=5",
-    "source": "CNN",
-    "published": "2026-11-06T21:16:22+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Sandisk Stock Has Lost About 64% Since June. Here's the Price at Which I'd Buy It.",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNQzEtNWs5bFRZcUxJN2I0cG1BR0NjTWo0ZjREcFJuZ1J0U3otc3ozN2E4SzM1SURfNDhvTl9Nakx5UnBYdnJvLWNZdkYzZEp0NkhZQVZ0WWhidXdkMlFHb3BIeW1nN1lZWDZsVFFyOGk1bTZGQm4wOHRzMVVqU3lGSXh1eVRVWjVkNHhKcE0xcjZGTGNNb2hR?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-06T21:07:19+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "10 Latest Jim Cramer Stock Picks on Twitter and Mad Money",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPOHZzZnBKRmRSaHlMSmltTVNuRV9uMmp3WnI4TXhQTDdUVkFnZDFCRWg1ZUhPQmh1Zm1UNzJSSGtwWE05NXVuUFlsU19RT2dfeU1kODNydEhmOERjLXpSVG1hOHkzUW9VVndDWjZVX244ZHQ2cHdlU3ROLWtERVdzSWVfdkgzVk5DMTRNYXlJRl9iMVlYWHc?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-06T21:07:14+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
     "title": "Investors brace for lower Anthropic valuation, calling $1.5 trillion a 'stretch'",
     "url": "https://www.cnbc.com/2026/11/06/investors-brace-for-anthropic-valuation-1point5-trillion-a-stretch.html",
     "source": "CNBC",
@@ -62,30 +86,6 @@
     "source": "BBC",
     "published": "2026-11-06T21:06:25+00:00",
     "lede": "Investors had been selling off tech shares in part due to concerns the Democrat election victory would mean slower AI development.",
-    "lang": "en"
-   },
-   {
-    "title": "Anthropic to press ahead with IPO targeting $1.5tn valuation",
-    "url": "https://www.ft.com/content/314e17df-e7af-4814-b208-70a0557cb452?syn-25a6b1a6=1",
-    "source": "Financial Times",
-    "published": "2026-11-06T21:00:09+00:00",
-    "lede": "Claude-maker intends to list before Thanksgiving despite brutal tech rout",
-    "lang": "en"
-   },
-   {
-    "title": "Micron’s stock is dirt cheap — and that’s igniting a fierce online debate",
-    "url": "https://www.marketwatch.com/story/microns-stock-is-dirt-cheap-and-thats-igniting-a-fierce-online-debate-0626791d?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-06T20:58:00+00:00",
-    "lede": "Valuation purists see a ridiculously inexpensive stock, but some semiconductor investors say Micron’s earnings power won’t hold up.",
-    "lang": "en"
-   },
-   {
-    "title": "Nasdaq drops into correction territory — here’s what typically happens next",
-    "url": "https://www.cnbc.com/2026/11/05/nasdaq-drops-into-correction-territory-heres-what-typically-happens-next.html",
-    "source": "CNBC",
-    "published": "2026-11-06T20:42:28+00:00",
-    "lede": "Nasdaq’s slide into correction territory puts its history of recoveries in focus. Here's what history shows.",
     "lang": "en"
    }
   ],
@@ -149,18 +149,18 @@
   ],
   "geo": [
    {
-    "title": "Republicans blame Israel for their defeat",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNT2JVSURneFZHb1NFZDJZQ05Mb2ltNUo1WHFlakZMMVFYY3NZdkQ2bk5iaDkzaW41b3NBQmRWLUxWOEpKalNLOXMwR25mVXo5bXNpcGpPWDdwZjNYMFR6Q3gzMTlMazN5SVVBLVRRdWxtM2RyQk9tQW1hLVlma09SaE0tTmdNMU5fRXg2Y3FuMXItRGdJZW1UajVYdGRKNFg2bU1v?oc=5",
-    "source": "The Economist",
-    "published": "2026-11-06T20:37:14+00:00",
+    "title": "US Treasury sanctions Canadian money services firms over Iran-related transactions",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQanB1RlNfclNuTUN5SEpJTjFWWUM1UVR2V2xLclNnTjhfNnp0VjNGZE5qeDBiekZXOFpLR2hOTnFud1ZKYlgzaFF6dGpwbkdENXF5VldQSEl0MEE1X0dHbWMyWHFvOU82WC01SjNSamFuSFQtY1M4VHJMN1VEMzlyQnN3UkotaXhiTm4taGdud2w5Wnk0cmtVQlp1MjRvNEJreERfdzZZbmtRQWo5d3NTYnVpOThYRjUwU3BJSGRFSEE?oc=5",
+    "source": "Reuters",
+    "published": "2026-11-06T21:02:22+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Russia’s land gains in Ukraine dwindle as its diesel reportedly goes unsold",
-    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQOHlBMHZFa3Q1eHBGSGRLRm1KZlY3RTIzRGlYUEdMVGdVd0NDS1M3Njl6N1A5NFBlenRxOWNXUW1fajgwNjZoRUNiZHJHSjlmcDM4RDNvRnYwbkVfMHdPV0lJRmF4NUMwZzZ1RFlIZWpTaHotS281eDdpaUdKaEludk03ZFJuTXFSTl9KcFpFNFV2STRJdlUtQTliS2JSVWxYTVNxb2VvXzE2ZzE4ekVqTNIBtgFBVV95cUxNdTd6bkY3ZG5QQVFlNXZkT19JM0pyVERmQXNaaFdfNGgwTUlSc2t6enllcFpHWGR4a3lXTXV6cVhPbUtqVTd2aVB1RzdzeXRva3huVjZEejRORXlvSGRGMktPWHBOaW54dG9NYnk4WS1YbzJMZGRJSHk1NTRVRmdJbUNtVGdrQ3lxa2dNcWNSeGxOR091X28zRnlPZ1VLZEhmdFNoRlYxa0M4YXJHeWxUZTJXQ1dTZw?oc=5",
-    "source": "Al Jazeera",
-    "published": "2026-11-06T18:47:20+00:00",
+    "title": "Republicans blame Israel for their defeat",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNT2JVSURneFZHb1NFZDJZQ05Mb2ltNUo1WHFlakZMMVFYY3NZdkQ2bk5iaDkzaW41b3NBQmRWLUxWOEpKalNLOXMwR25mVXo5bXNpcGpPWDdwZjNYMFR6Q3gzMTlMazN5SVVBLVRRdWxtM2RyQk9tQW1hLVlma09SaE0tTmdNMU5fRXg2Y3FuMXItRGdJZW1UajVYdGRKNFg2bU1v?oc=5",
+    "source": "The Economist",
+    "published": "2026-11-06T20:37:14+00:00",
     "lede": null,
     "lang": "en"
    }
