@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-06T18:31:04.761120+02:00",
+ "generated_at": "2026-11-06T19:31:09.436668+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -8,6 +8,70 @@
  },
  "sections": {
   "us": [
+   {
+    "title": "Watch live: Cramer's views on every Club stock. 2 to buy now and others to consider",
+    "url": "https://www.cnbc.com/investingclub/2026/11/06/watch-jim-cramer-live.html",
+    "source": "CNBC",
+    "published": "2026-11-06T17:26:20+00:00",
+    "lede": "At the Investing Club's 4th annual meeting, Cramer also reveals his outlook for 2027 and answers questions from the live audience and members at home.",
+    "lang": "en"
+   },
+   {
+    "title": "Stocks had their worst day in 18 months — here's what that means for your portfolio",
+    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOSVRMUmlMbU0zb3FJOFJHNHB4SU45Y2EyVFFEb2JzRVVrLUdseDVrWFhBY0NvQTJEbWxaQ0tvRzNSQjdtT3RqUU1ZcDR3cEEtZjJIWU8tcENpUkRCSUV5UFBzVnAyVTNZeGV6R2xPSVBaOG1Ja1c0ck82NzE5SE91d3A4QUR0UFRUSkxTaGFVWTN0MkVlTHNiVkxObC00UWMyY0VDWGNrYy12cUtWQkFwa1hhWVVGc3BqT0U3bHM2MmQ2U1hvWkpHX0hrZDVNNExwbUF0dA?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-06T17:22:32+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "The S&P 500 could be dangerously exposed to AI. Here are some simple alternatives.",
+    "url": "https://www.marketwatch.com/story/the-s-p-500-has-become-a-big-ai-bet-here-are-some-simple-alternatives-3c7574a4?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-06T17:19:00+00:00",
+    "lede": "The large-cap index is nowhere near as diversified as you think.",
+    "lang": "en"
+   },
+   {
+    "title": "Why Cloudflare Stock Opened 17% Higher Today",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOQWdxcW1rX1R0Yno2Z3BDWVEzbm5FWDZlak9GYkNab01rSE1KajR6VmwzN1duSE90Tnd5ekZPRzlqTHBOLURnTWtYYTNLQi1lcTUyZVlWRUhoVEtCWkZ4RGJNTVRYSEtMTi1KX3l3Z0s0WlZ5NlNKdXVTX29JU09KbHlIRFRyU1hJZTVjbU81clZCSE93ZFVLR3RFQQ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-06T17:17:02+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "The AI ‘credit card’ is getting costlier as CoreWeave bond yield tops 16%",
+    "url": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
+    "source": "CNBC",
+    "published": "2026-11-06T17:09:53+00:00",
+    "lede": "Coreweave's steep yields reflect stress in the AI debt markets as investors worry about a data center slowdown. What comes next.",
+    "lang": "en"
+   },
+   {
+    "title": "Stock Market Suffers Ugly Losses In Election Week; Apple, Palantir Led Key Earnings: Weekly Review",
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPdC1tNkpiRFVyVF96QkVoTUliaDd5RjBVbVcxZGY5TkNfQXpNOE9kWVRjMHZMSmV3amZiajRaZ2RvaS11bWwwM2Nob0lmTUJhX1F1ak83cl9QVXllV3hEZ0FGRFgzWlhabG9iUk1vSmJMQUo1aDVqRkF5aUE5REk4UXh6SXppU0pGbE9STXZTUzctTjFPRXlfVUl0WVZzbkl0NFR6U18zMjA4LTB3WnpLdi1hcjhteXdGYlB2ZXdmWks5aE9QeEE?oc=5",
+    "source": "Investor's Business Daily",
+    "published": "2026-11-06T17:06:00+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "AI stocks climb after trillions wiped from market values",
+    "url": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC",
+    "published": "2026-11-06T17:03:02+00:00",
+    "lede": "Investors had been selling off tech shares in part due to concerns the Democrat election victory would mean slower AI development.",
+    "lang": "en"
+   },
+   {
+    "title": "Is the AI stock bubble finally bursting?",
+    "url": "https://www.ft.com/content/e185d576-c4a6-4fb0-aa03-deda69c900c8?syn-25a6b1a6=1",
+    "source": "Financial Times",
+    "published": "2026-11-06T16:30:27+00:00",
+    "lede": "Any reasonable person can see the hallmarks of an unsustainable party in markets",
+    "lang": "en"
+   },
    {
     "title": "Wall Street's fear gauge may be flashing a buy sign",
     "url": "https://www.cnbc.com/2026/11/06/wall-streets-fear-gauge-may-be-flashing-a-buy-sign.html",
@@ -17,75 +81,11 @@
     "lang": "en"
    },
    {
-    "title": "AI stocks climb after trillions wiped from market values",
-    "url": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC",
-    "published": "2026-11-06T16:23:16+00:00",
-    "lede": "Investors had been selling off tech shares in part due to concerns the Democrat election victory would mean slower AI development.",
-    "lang": "en"
-   },
-   {
-    "title": "Should Realty Income Be the First Dividend Stock You Buy in November, Even if There's a Stock Market Sell-Off?",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQOTJBVk54ZzZXdUplMEZOQVN6OWpuMjhZeGxRci1RZnl1TDdTMjlwRGtCTVpDWkpJTVBReW0tc2NLLVBjMjdUTG81dmRxV3NuQ2V3QWVDLXJnVXM0cmJCMnhoYWo0c2tzTW9hTmo2Q2Y5bDAzVnZNQ21RYUx2NHRuMGw1amhPeWdETnNSd0hRN2VFUXZTeDNTLTBoMGR3enhy?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-06T16:20:00+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Watch live: Cramer sees no quick fix for this market — but there are still moves to make",
-    "url": "https://www.cnbc.com/investingclub/2026/11/06/watch-jim-cramer-live.html",
-    "source": "CNBC",
-    "published": "2026-11-06T16:16:49+00:00",
-    "lede": "At the Investing Club's 4th annual meeting, Cramer also reveals his outlook for 2027 and answers questions from the live audience and members at home.",
-    "lang": "en"
-   },
-   {
-    "title": "US tech stock rout: is the AI bubble bursting?",
-    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUk5KWGFRY0lPalplQWNSaFZZTk11VEJvblJNWXBnTGlQU05xZTBoVlFzTHprWHVfaUVIb3ZFcGJOQUJmZFVqZVpNT0Q4X25EemUxc0hObXlhYmpkelJFcVpRcDZIQVZRTjBVTzMyUW5iMXRTLVlqZW04ZjNNRmRKcTl6TUNHcnY2QjNDdUR5QzVBX2U3UjZySVdvUE83S2Q4ZkR3RzJfQ1lzUFFXUnc?oc=5",
-    "source": "The Guardian",
-    "published": "2026-11-06T16:14:00+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "US tech stocks open higher on Wall Street after worst day in 19 months – business live",
-    "url": "https://www.theguardian.com/business/live/2026/nov/06/global-stocks-tumble-ai-panic-markets-democrats-midterms-success-jobs-oil-dollar-latest-news-updates",
-    "source": "The Guardian",
-    "published": "2026-11-06T16:13:35+00:00",
-    "lede": "European and Asia-Pacific markets slide after Wall Street rout, while latest US jobs report beats forecasts Despite the sharp losses suffered on global stock markets around the world, most indices are still up for the…",
-    "lang": "en"
-   },
-   {
-    "title": "Oil prices set for sharp weekly fall after midterm elections as investors weigh Iran conflict risk",
-    "url": "https://www.cnbc.com/2026/11/06/oil-price-today-brent-wti.html",
-    "source": "CNBC",
-    "published": "2026-11-06T16:07:23+00:00",
-    "lede": "Oil prices fell Friday as investors weighed the risk of renewed Iran war escalation after the midterms, alongside prospects for a diplomatic breakthrough.",
-    "lang": "en"
-   },
-   {
-    "title": "Market turmoil saps enthusiasm for the buzziest IPO of the year",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWW5HTUpxTkFZN1Fncko2aDNsN2NVZjA1MElHY3czeFZSWnZ0TEJYLUxydDA4T1I0UXktTG93ZG8yYzlPVE5ldVdoRDFiaGR6aDMyRVAyaFMtX21sb2stZWVKQnZkeFB5dlJzd1Juekc3bXZobXY5c0VTQ2JJMXdSS24xdm1zNXBUQnRjOElhSjZnbXhGdzg4akFTVVBTWFhINlNOZ0h4Z2toQQ?oc=5",
-    "source": "CNN",
-    "published": "2026-11-06T16:00:56+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Nvidia, AMD and other chip stocks rebound. Is the ‘violent’ AI selloff over?",
-    "url": "https://www.marketwatch.com/story/nvidia-amd-and-other-chip-stocks-rebound-is-the-violent-ai-selloff-over-8f7df533?mod=mw_rss_topstories",
+    "title": "Hims & Hers struck a GLP-1 deal with Lilly. Its stock is rallying.",
+    "url": "https://www.marketwatch.com/story/hims-hers-struck-a-glp-1-deal-with-lilly-its-stock-is-rallying-d06ebe60?mod=mw_rss_topstories",
     "source": "MarketWatch",
-    "published": "2026-11-06T15:48:00+00:00",
-    "lede": "Analysts warn of further volatility ahead, though there are two new factors that work in the AI trade’s favor.",
-    "lang": "en"
-   },
-   {
-    "title": "US stocks rebound after tech rout",
-    "url": "https://www.ft.com/content/642b32dc-e3a1-4df8-ae91-5c84bdeb89e0?syn-25a6b1a6=1",
-    "source": "Financial Times",
-    "published": "2026-11-06T15:45:52+00:00",
-    "lede": "Tech-heavy Nasdaq climbs in morning trading following day of turmoil",
+    "published": "2026-11-06T16:29:00+00:00",
+    "lede": "As part of the agreement, Hims said it won’t compound GLP-1 medications like Zepbound in the future.",
     "lang": "en"
    }
   ],
@@ -94,7 +94,7 @@
     "title": "היום שאחרי המפולת: נאסד\"ק עולה בכ-1.5%",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001562355#utm_source=RSS",
     "source": "גלובס",
-    "published": "2026-11-06T16:02:00+00:00",
+    "published": "2026-11-06T17:04:00+00:00",
     "lede": "שוק העבודה האמריקאי הוסיף 165 אלף משרות באוקטובר - הרבה מעל הצפי",
     "lang": "he"
    },
@@ -115,10 +115,10 @@
     "lang": "he"
    },
    {
-    "title": "ת\"א 35 עולה 3.1%: הבנקים מוסיפים 4% והביטוח 4.7%; דיסקונט מזנקת 5%",
+    "title": "ת\"א 35 ננעל בעלייה של 3.1%: הבנקים זינקו 4.5%, נובה קפצה 7.3%",
     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1FQVlEb1gzV1hUWk9obUpUZFJ4ZVBYVHAyeWlIT1lXLVhNLXBLUHNwZ2s0dkpZREVhZFM0SGVfd2xwNTJLTGZmOURQR19DZWRLV3dmdUpKcmE4UGdraFBqNlNuR0hicWpKZ3NYV0otZVQ?oc=5",
     "source": "ביזפורטל",
-    "published": "2026-11-06T11:02:00+00:00",
+    "published": "2026-11-06T11:47:00+00:00",
     "lede": null,
     "lang": "he"
    },
@@ -149,18 +149,18 @@
   ],
   "geo": [
    {
-    "title": "Rocket launcher deal illustrates deepening Russia-Iran relations",
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPdWVqajZxZDRIQXFLdUc3XzRCOElUT1pBUkJEOV9meHRkd0d6elpGd3JIQkhoUldubFpndUxINWx2ZmgycFA2VHFvdHNBY3J6bGNheGYtZ2JiVUk1UW5tTDhDek1UTGtXeGNuMWtYWkhmSWx4ZGhZcVU2OGV2a2o4WDhqdUVMYzU0NncxQUJXVEF2M1Q0NWdDOGZodktXcEs1ekVFMVd0SkjSAa4BQVVfeXFMT2p6WHdMM3E1TDhKYXJTTDUxQlc4OGQ2QmR1OVNodVdpdVVaZWJ2NEVrUEphdnZRbGZUN1JIUTI5Nm5fUHoyU0U1YThUand3ams2dVBScjNkc1U1cnIxWEFtRVUzcm5vNDk4eFdPczJoWWhEY0UwYzl4emtNT1g2SVF2M1NveGZ2ZnVpVHRMWXdTTDdVY1FNMXNFOGtEXzhZNFJlYlVnQmw2QTdPYl9R?oc=5",
-    "source": "Al Jazeera",
-    "published": "2026-11-06T14:32:08+00:00",
+    "title": "Oleshky ceasefire used to 'whitewash the Kremlin's war crimes', says Kherson-based journalist",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPb0h6STk5TVRMbTBKdTI1MmFsTnVsX243bmloZm5ZNk83dTZBcElDS1J5VkVVczRFM3Jwd0ZlX0dMbUNMb0VUQ3prdG5YUXB4RlJ4Y2R4bjJ3TUFjUEVHQ19rQm9qaVFZOHg5UTlYeElraXltcXdWTEtTdDl5V3UxVUZtUTIzWTRqc0NLcDJWUkhBRVRPdko4eDV0NkNuNU83Z3MzblhR?oc=5",
+    "source": "CNN",
+    "published": "2026-11-06T16:18:25+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Why BYU-Utah’s Holy War runs deeper than football: Bananas, banned words and fistfights",
-    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOTHROWEJET0hNQU9hTWZRYnhHR3lyaUZOVWdhUDJhMlBhVGZycER1dllZdnVuZ0hkc3dKVGRyMFM1OVVLUDgzQTk5bUZxcUxiemNmRVVlNXotczJ5OGN3SkJSbmlXOHJWcHlUMUxQVGVic2I1UkpPX29neGVsSjNzRE1pOXg4d2h4Yno1UDVmdE0?oc=5",
-    "source": "The New York Times",
-    "published": "2026-11-06T14:05:32+00:00",
+    "title": "‘It’s in our blood’: Lebanon, Ukraine and Syria rugby league teams fly the flag despite horrors of war at home",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPVGNSVGlENDVoSTRpWTcxQlFMRTJSZVUtbUR1T0dSV3FRdGFQVXl5bjFtTHZrbjV1cWkwYnhZVzR4ZU9jelFFMjdlaHdrT1FWR2NkRVZFZ3h2WlptbGpxeUFPR0p2X3FMTGhTbnlaV3ptTHoxSmlTcS1PT2E0dXgxcUdpMzNXaU1uMmdkMnBJM0RxZ0hRcGxsUUFBbWNyemZtOFE?oc=5",
+    "source": "The Guardian",
+    "published": "2026-11-06T15:12:00+00:00",
     "lede": null,
     "lang": "en"
    }
@@ -177,9 +177,10 @@
   "Google News",
   "גלובס",
   "גלובס",
-  "וואלה",
   "Google News",
   "Google News"
  ],
- "sources_failed": []
+ "sources_failed": [
+  "וואלה: HTTP Error 503: Service Unavailable"
+ ]
 }
