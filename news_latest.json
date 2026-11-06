@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-06T16:31:03.566433+02:00",
+ "generated_at": "2026-11-06T17:31:02.975860+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -9,43 +9,75 @@
  "sections": {
   "us": [
    {
-    "title": "San Diego's Beestow has a stock market alternative to gift cards",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxONHk0bHZOYm1SanJXOExOdXljNVNwWm9Cc25FN093b2YyWmZZcFNSV3ZXU3RuLThPMzlCdjlPT21WZFhyV3hSZnZUNUhnTnhjcERBa2RtQzJKRVczdWlyc3hUUFpLdFR6Uk1PQzVXbm1PazZWekc5bEswZDU0c240NTM3OTBoTXdJMTJnUURYNGxHZ3BQajhkeUVYM1R6bEVhTGc?oc=5",
-    "source": "Axios",
-    "published": "2026-11-06T14:27:10+00:00",
+    "title": "Watch live: Jim Cramer shares his next investing moves for this tough market",
+    "url": "https://www.cnbc.com/investingclub/2026/11/06/watch-jim-cramer-live.html",
+    "source": "CNBC",
+    "published": "2026-11-06T15:30:12+00:00",
+    "lede": "At the Investing Club's 4th annual meeting, Cramer also reveals his outlook for 2027 and answers questions from the live audience and members at home.",
+    "lang": "en"
+   },
+   {
+    "title": "These three stars need to align before investors rush back into stocks, Bank of America strategist says",
+    "url": "https://www.marketwatch.com/story/these-three-stars-need-to-align-before-investors-rush-back-into-stocks-bank-of-america-strategist-says-52879caa?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-06T15:27:00+00:00",
+    "lede": "Despite the steep drop in equity markets this week, investors should wait for several developments in other asset markets before rushing back into stocks, Michael Hartnett said.",
+    "lang": "en"
+   },
+   {
+    "title": "US economy outstrips forecasts to add 165,000 jobs in October",
+    "url": "https://www.ft.com/content/f84c722c-99a9-4628-84dc-c42a192cb35c?syn-25a6b1a6=1",
+    "source": "Financial Times",
+    "published": "2026-11-06T15:18:58+00:00",
+    "lede": "Hiring rebound led by professional services underscores strength of American labour market",
+    "lang": "en"
+   },
+   {
+    "title": "What to do with your retirement savings in a stock market sell-off",
+    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQQVJRWTYzc0Zib08tN19reXdjeWlKREsteWFfV3NXMWdYOVVuSlEyMjNVUE1hcFI1N1RrYjRsSTlwZUVEeVB3eVBiQkJqSWRMYm1WNVBULWpzWEdfNmJRSG9lOWZsZFNTcDAwVmtJU1F6enpWZ0VKdjdyQS1iX2NKOTRwWUtVX1VPVHptMVdiLV9YbDktZnI3eTNnYnJyUjRRQ2d4c3M5VXQ3WjNvOXMza2NEM0tSZUN0MkxyZ0NwNWh6Z0N3UWU4UmxFdU5pdkFEQmxEYnZtdTR4dw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-06T15:12:37+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Global stocks tumble as AI panic grips markets; US adds 165,000 new jobs in October – business live",
+    "title": "US tech stocks open higher on Wall Street after worst day in 19 months – business live",
     "url": "https://www.theguardian.com/business/live/2026/nov/06/global-stocks-tumble-ai-panic-markets-democrats-midterms-success-jobs-oil-dollar-latest-news-updates",
     "source": "The Guardian",
-    "published": "2026-11-06T14:12:35+00:00",
+    "published": "2026-11-06T15:09:53+00:00",
     "lede": "European and Asia-Pacific markets slide after Wall Street rout, while latest US jobs report beats forecasts Despite the sharp losses suffered on global stock markets around the world, most indices are still up for the…",
     "lang": "en"
    },
    {
-    "title": "U.S. economy added 165,000 jobs in October, way more than expected; unemployment rate slips to 4.1%",
-    "url": "https://www.cnbc.com/2026/11/06/jobs-report-october-2026.html",
-    "source": "CNBC",
-    "published": "2026-11-06T14:07:54+00:00",
-    "lede": "Nonfarm payrolls were expected to increase by 59,000 in October as the unemployment rate held steady at 4.2%.",
-    "lang": "en"
-   },
-   {
-    "title": "Nvidia Isn’t the Only AI Stock That Could Surprise Wall Street in 2027",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQMktpZTBTRWNNbUJDRWVmN2dyZWtoTDIwLTFEdVd4Xzc2OTJ3WFdCT0pjMUpabVlneklKcjZ3XzFwd2JRWlhvT2F1UHVOY3dzZVZ2cnRTRE5ha2VqVUJWUGdfUUtTSFVZeDY5aDI5LTRTZS1vRXVwck5wRlJiVW82TUlOYXN3NDBaMTlJUnlR?oc=5",
+    "title": "Nvidia stock oversold setup: Key levels after a 9% drop",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNNjhTc0JFcEFDRDdXX3N3VDROUHZWS25HV0loYWVGV2tYaC05U3Vvc3hxdW91UERlREdKQVIxS2Y0c1M1UmE5LXUtdU9WT0pqVFJBRWZzRU0zS1hPWTByX2QtRUp3SFN2dGRyekZPSV9VdVY2NHBkSEJjdnc4T2JaRU9RdVhiaDdRY1VUR2NYWUI5cnVVMHJVaE1faGE?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-06T14:03:30+00:00",
+    "published": "2026-11-06T15:09:36+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Chip Stocks Just Had Their Second-Worst Day on Record",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPVjN3TklsRnFEZ1F5MEpMSWtZY25VYkNyN1A3RGdaT29VWV9GaFJyeUZqQm5Dandlb1F6YnJfZFRqdWhlY1ZDdGd1NVIxTHBYYXNPVDJrS3hnSUt3VnNremJvUlg4S3lreFQ5NmJhUXVNcVZ2Q0ZzRE95X0I1MEhjNTNtTmdZa3I0UHViRko3WFQzd0NJNm1V?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-06T14:02:43+00:00",
+    "title": "AI stocks climb after trillions wiped from market values",
+    "url": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC",
+    "published": "2026-11-06T15:04:46+00:00",
+    "lede": "Investors had been selling off tech shares in part due to concerns the Democrat election victory would mean slower AI development.",
+    "lang": "en"
+   },
+   {
+    "title": "Trader angst pivots from inflation to growth as tech rout deepens",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYm13UzNKRG9XaWdpdHV5SGo2UHJKSFlrRW5NUXVNR21LcnpYM01JaHZvY2dTVnN4aTZIbnYxMjI1RUdDWmN6UjBaZTNOdFVNWnpPOTNtWlQ0c2RCMlFDY0VKX0lUZ0JUZHRtSVlHb2k1VENabjhMWkdncTBBUTQyaHMtWGVpaUlZcEFqVzZaVnJId2pJXzdpcm9QaU93QkRhYlZ5eFZQUFZlYmpnREhMUXU1cnE0Zw?oc=5",
+    "source": "Reuters",
+    "published": "2026-11-06T14:54:03+00:00",
     "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "The S&P 500 has become a big AI bet. Here are some simple alternatives.",
+    "url": "https://www.marketwatch.com/story/the-s-p-500-has-become-a-big-ai-bet-here-are-some-simple-alternatives-3c7574a4?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-06T14:51:00+00:00",
+    "lede": "The large-cap index is nowhere near as diversified as you think.",
     "lang": "en"
    },
    {
@@ -55,41 +87,25 @@
     "published": "2026-11-06T14:02:11+00:00",
     "lede": "History shows that similar spikes in the VIX have been good entry points for stocks",
     "lang": "en"
-   },
-   {
-    "title": "Our top 10 things to watch in the stock market Friday",
-    "url": "https://www.cnbc.com/investingclub/2026/11/06/our-top-10-things-to-watch-in-the-stock-market-friday.html",
-    "source": "CNBC",
-    "published": "2026-11-06T14:01:45+00:00",
-    "lede": "Nasdaq futures are rebounding, and the October jobs report came in strong.",
-    "lang": "en"
-   },
-   {
-    "title": "שוק העבודה האמריקאי הוסיף 165 אלף משרות באוקטובר - הרבה מעל הצפי",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562355#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-06T13:32:00+00:00",
-    "lede": "אירופה בירידות, בורסות אסיה צנחו ויפן נכנסה לטריטוריה של שוק דובי",
-    "lang": "he"
-   },
-   {
-    "title": "Why Democrats should use their new power to embrace Trump’s tariffs",
-    "url": "https://www.marketwatch.com/story/why-democrats-should-use-their-new-power-to-embrace-trumps-tariffs-7c467541?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-06T13:30:00+00:00",
-    "lede": "Blaming tariffs on manufactured goods for the soaring price of gasoline is the wrong solution to the affordability crisis.",
-    "lang": "en"
-   },
-   {
-    "title": "How to buy a new car for under $30,000 in this economy",
-    "url": "https://www.marketwatch.com/story/how-to-buy-a-new-car-for-under-30-000-in-this-economy-24b01f99?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-06T13:08:00+00:00",
-    "lede": "Consumers burdened by the high cost of gas, insurance and maintenance are driving up demand for those low-cost cars.",
-    "lang": "en"
    }
   ],
   "il": [
+   {
+    "title": "היום שאחרי המפולת: נאסד\"ק עולה ביותר מ-1.5%",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562355#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-06T14:59:00+00:00",
+    "lede": "שוק העבודה האמריקאי הוסיף 165 אלף משרות באוקטובר - הרבה מעל הצפי",
+    "lang": "he"
+   },
+   {
+    "title": "אחרי שזינק מעל ל-3.22 שקלים ולשיא מדצמבר 2025: הדולר נחלש ל-3.19 ש'",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8wQmRWc1FoOW1xbGxpUEFDbHh1M2tycWEwTnZwd0JzbkxSTkJ3WThYM3F5eGlSekJYY1ZVcndnVThzUXlKS3RhQVJxajloeHUtNHdGZkZzQjNmNndwLUkwVDVIOA?oc=5",
+    "source": "כלכליסט",
+    "published": "2026-11-06T13:45:00+00:00",
+    "lede": null,
+    "lang": "he"
+   },
    {
     "title": "אירופה בירידות, בורסות אסיה צנחו ויפן נכנסה לטריטוריה של שוק דובי",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001562355#utm_source=RSS",
@@ -123,44 +139,28 @@
     "lang": "he"
    },
    {
-    "title": "אינטל התרסקה ב- 42% - האם עסקת הרכישה של קלאסיק בסכנה?",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562359#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-06T09:35:00+00:00",
-    "lede": "ביום שני שעבר הכריזה אינטל על רכישתה של קלאסיק (Classiq) הישראלית - בעלת נתח השוק הגדול ביותר בתחום מחשוב הקוואנטי",
-    "lang": "he"
-   },
-   {
     "title": "הבורסה בישראל מזנקת בענק: האפשרויות להרכבת הממשלה מרעידות את השוק",
     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBBQlhsS2QtYUttTlg2dmdBVmtnV2NybUlhc0ZXQ0Zuak8yX2xYT3dfS2VFaER4OEljSF81b3laTXR5akpZLURaUF92ZkhHMXhsdEMxVFU2OWk2LVpaRkNMYVRqb0o2QQ?oc=5",
     "source": "מעריב",
     "published": "2026-11-06T09:17:15+00:00",
     "lede": null,
     "lang": "he"
-   },
-   {
-    "title": "ברקע הטלטלה הפוליטית בישראל: עליות חדות נרשמות בבורסה בתל אביב",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5VeGxIVm84OU9fc1QxaVlEcnRIUDJ4X0N6UFdKckh3Z0sxWGt6dlp1RWlMLS0xRGx5dHZsb3MxYTZaTmxYVXNyb2V3VFNWaUJ6dGJqWUtnelM4TEl4cTVyNlBOSEQ?oc=5",
-    "source": "מעריב",
-    "published": "2026-11-06T09:12:54+00:00",
-    "lede": null,
-    "lang": "he"
    }
   ],
   "geo": [
+   {
+    "title": "Rocket launcher deal illustrates deepening Russia-Iran relations",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPdWVqajZxZDRIQXFLdUc3XzRCOElUT1pBUkJEOV9meHRkd0d6elpGd3JIQkhoUldubFpndUxINWx2ZmgycFA2VHFvdHNBY3J6bGNheGYtZ2JiVUk1UW5tTDhDek1UTGtXeGNuMWtYWkhmSWx4ZGhZcVU2OGV2a2o4WDhqdUVMYzU0NncxQUJXVEF2M1Q0NWdDOGZodktXcEs1ekVFMVd0SkjSAa4BQVVfeXFMT2p6WHdMM3E1TDhKYXJTTDUxQlc4OGQ2QmR1OVNodVdpdVVaZWJ2NEVrUEphdnZRbGZUN1JIUTI5Nm5fUHoyU0U1YThUand3ams2dVBScjNkc1U1cnIxWEFtRVUzcm5vNDk4eFdPczJoWWhEY0UwYzl4emtNT1g2SVF2M1NveGZ2ZnVpVHRMWXdTTDdVY1FNMXNFOGtEXzhZNFJlYlVnQmw2QTdPYl9R?oc=5",
+    "source": "Al Jazeera",
+    "published": "2026-11-06T14:32:08+00:00",
+    "lede": null,
+    "lang": "en"
+   },
    {
     "title": "How the Iran war is changing the renewables landscape",
     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5Iem9JYmdZTmJNdzczTC16d2lZb0xjalZ2elM4Z0FTOG8wdlZpWm9QYVYxTFNNRkVSMXdQS2NjM1VvTWFqUm10MG4ySkllbjZRRmZFUnM0QWk4c0FYTlV2ZFRaUFgtR1JtTUoxTWRESGY?oc=5",
     "source": "Axios",
     "published": "2026-11-06T13:31:52+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "‘We’ve been preparing for the worst all year’: uncertainty grips Iran after Trump midterms defeat",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSFlvY3JQTnZCQWFyYkdUbFpHS2pXUGRrcGhabjgzbmlEWldlTVBVeUJiRG1lQXR2eXNkZlAtWWtzZUtDQ2dkZ0VMNW1WeWc3NFJCbUExUENmOFF1YUJCQUtzTUpndnZUeExBS2JzeDdLNEVqQlVPMFZXUjVNcjJTdTFQVjJvNEdrejh6VVdjRXVMQVMyR0ZjZkYta1VzOVZRclFaX2QtQm1ZUQ?oc=5",
-    "source": "The Guardian",
-    "published": "2026-11-06T13:20:00+00:00",
     "lede": null,
     "lang": "en"
    }
