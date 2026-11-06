@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-06T21:31:05.650294+02:00",
+ "generated_at": "2026-11-06T22:31:00.639203+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -9,19 +9,67 @@
  "sections": {
   "us": [
    {
+    "title": "5 Companies Buying Back Their Own Stock Hand Over Fist As the Stock Market Sells Off",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPeGpSYmRUeUFYNVdhXzZrR25BVHRlOUZPTW95YmdKRlIyOEU5OE81SXRlUzlYMkQ4V295MG5NZXR4cjRlcEVreXdfbFFISXBrNmV2OGJOLWQzMG94d01wNHVKVGZzcVFsUncyOUkzdjVSelJZdzNSWVFjc0N0djFHLXlydUtGODlQNDJEMmZqWXB3ejZ0NVJB?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-06T20:07:18+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "U.S. Hiring Picks Up and Unemployment Falls",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOSWtWUC0wbVZ5Um5oQUpudDNtcUZWLXV0SWJDRFRpSVBTRDhJTHUtT20xV3hPR3FwV2NRUERjVVFMeWgtMFhVV2QyNEVJcndzSEJ2Wmo3dkMzb2FWWkV4OXk0R292RnhOUENMbi1rX2d3NE4xV2RJcDIzWmJrbERwdkpabWo4QnhGb0E?oc=5",
+    "source": "The New York Times",
+    "published": "2026-11-06T20:00:17+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Stock Market Outlook: Nvidia Earnings, Anthropic’s IPO, and the Fed Rate Decision",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdVM5RWx2cGx4U3R0Z3pJMzRzQ1NWaURpbkhvRnRXbzhPU3dVcVRmbVBuT05DOUJ4aXduWGhWYXBzQVZSbVhpU3FHVkQxdnBIWEFLSHBzNGJuc2VWR0Exb3F4dkFSazFNM0ZvQkhrYm1jMzlQcDVGVGQ0RUlYWW5ZVUIzRng1Z3YxZFZmaC1TbWUzSVhoTUJfY3Nn?oc=5",
+    "source": "Barron's",
+    "published": "2026-11-06T19:57:00+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Nvidia, AMD and other chip stocks rebound — but is relief from the ‘violent’ selloff only temporary?",
+    "url": "https://www.marketwatch.com/story/nvidia-amd-and-other-chip-stocks-rebound-is-the-violent-ai-selloff-over-8f7df533?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-06T19:52:00+00:00",
+    "lede": "Analysts warn of further volatility ahead, although there are several new factors that work in the AI trade’s favor.",
+    "lang": "en"
+   },
+   {
+    "title": "Mississippi Senate: Longshot Ty Pinkins says he aimed to spoil Hyde-Smith, boost Colom vote",
+    "url": "https://www.cnbc.com/2026/11/06/mississippi-senate-ty-pinkins-colom-hyde-smith.html",
+    "source": "CNBC",
+    "published": "2026-11-06T19:44:33+00:00",
+    "lede": "Ty Pinkins said he avoided campaigning in heavily Black areas of Mississippi to avoid harming chances for Democrat Scott Colom, who, like him, is Black.",
+    "lang": "en"
+   },
+   {
+    "title": "AI stocks climb after trillions wiped from market values",
+    "url": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC",
+    "published": "2026-11-06T19:37:10+00:00",
+    "lede": "Investors had been selling off tech shares in part due to concerns the Democrat election victory would mean slower AI development.",
+    "lang": "en"
+   },
+   {
+    "title": "Watch the Annual Meeting: Cramer on the fate of the AI buildout and stocks to buy now",
+    "url": "https://www.cnbc.com/investingclub/2026/11/06/watch-jim-cramer-live.html",
+    "source": "CNBC",
+    "published": "2026-11-06T19:36:12+00:00",
+    "lede": "At the Investing Club's 4th annual meeting, Cramer also reveals his outlook for 2027 and answers questions from the live audience and members at home.",
+    "lang": "en"
+   },
+   {
     "title": "Americans are on a 'treadmill of high inflation' and more rate hikes are likely, Fed's Daly says",
     "url": "https://www.cnbc.com/2026/11/06/fed-daly-interest-rates-inflation.html",
     "source": "CNBC",
     "published": "2026-11-06T19:05:00+00:00",
     "lede": "San Francisco Fed President Mary Daly called Friday's jobs report \"good news for American workers,\" but noted the pressure inflation is exerting on household finances",
-    "lang": "en"
-   },
-   {
-    "title": "AI stocks halt their brutal, worldwide sell-off as Wall Street trims its loss for the week",
-    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOMUlicGFDcFJmWW5nQnZ3R2wzY25vSzFIczhmanhycWtxaDVsOGhrSW9sUkFoN29MaTJKX1pKbmEwSl8wVVZhX1RpZ0JFTUMycHQwSXo1ejh0YVpSRkJkdkxZTVBUQ2dySDFFYlhBSEhZTFJpeElqZXU5MEJQQURwb0RHZU16YV8tczNyUVo0NF8?oc=5",
-    "source": "AP News",
-    "published": "2026-11-06T18:56:00+00:00",
-    "lede": null,
     "lang": "en"
    },
    {
@@ -33,59 +81,11 @@
     "lang": "en"
    },
    {
-    "title": "The Stock Market Can Be Volatile. Here’s How to Stay Calm.",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNampvU2NIRDlJRFBNTVBlSmFuMWNjcnRaenRfOWl5Z2p0VS1jbDJFdTR1VjNUMjBlaVM4TWdIY3dXY2lHYjFDaFA4MlNha3BoVUhiNmJ0Q0wyLWJfQ3hNczRfZFNhQmFXcjBGRU5LaTVYdjdjb0tiV2JzamxDMFpZZlhVWTlyNDh6ZzlESw?oc=5",
-    "source": "The New York Times",
-    "published": "2026-11-06T18:52:24+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
     "title": "US economy outstrips forecasts to add 165,000 jobs in October",
     "url": "https://www.ft.com/content/f84c722c-99a9-4628-84dc-c42a192cb35c?syn-25a6b1a6=1",
     "source": "Financial Times",
     "published": "2026-11-06T18:45:36+00:00",
     "lede": "Hiring rebound reinforces expectations Federal Reserve will raise interest rates",
-    "lang": "en"
-   },
-   {
-    "title": "Why NerdWallet Stock Crashed Today",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPWEdWTWlodGNPZHBiTm9RLUdqT2JvMXg3eWVWenhuTVg2blJCV05ETUZGaGFsUU1vQTMxTzdEdFlKWTlkd1RzT2JXNlZBNjEyMWpRdk9YVV9hd3BBT0l0UlpHSjM1SFJTV0Z5N0M2cVpXcGk1eDBKMHNpNGpBdFJYQU9yeElMbUdkNmlkSk1wMzR0bno5MFZMZ0F5c2x6Rkla?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-06T18:41:46+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Why the US midterms sparked an AI stock selloff",
-    "url": "https://www.bbc.co.uk/news/articles/crlykkzwwpydo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC",
-    "published": "2026-11-06T18:32:16+00:00",
-    "lede": "Fears of more AI regulation appear to have sparked fear among investors, but concerns about the industry have been growing for some time.",
-    "lang": "en"
-   },
-   {
-    "title": "Mississippi Senate: Longshot Ty Pinkins says he aimed to spoil Hyde-Smith, boost Colom vote",
-    "url": "https://www.cnbc.com/2026/11/06/mississippi-senate-ty-pinkins-colom-hyde-smith.html",
-    "source": "CNBC",
-    "published": "2026-11-06T18:03:13+00:00",
-    "lede": "Ty Pinkins said he avoided campaigning in heavily Black areas of Mississippi to avoid harming chances for Democrat Scott Colom, who like him is Black.",
-    "lang": "en"
-   },
-   {
-    "title": "Nvidia, AMD and other chip stocks rebound — but is relief from the ‘violent’ selloff only temporary?",
-    "url": "https://www.marketwatch.com/story/nvidia-amd-and-other-chip-stocks-rebound-is-the-violent-ai-selloff-over-8f7df533?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-06T18:00:00+00:00",
-    "lede": "Analysts warn of further volatility ahead, although there are two new factors that work in the AI trade’s favor.",
-    "lang": "en"
-   },
-   {
-    "title": "US stocks rebound after tech rout",
-    "url": "https://www.ft.com/content/642b32dc-e3a1-4df8-ae91-5c84bdeb89e0?syn-25a6b1a6=1",
-    "source": "Financial Times",
-    "published": "2026-11-06T17:59:54+00:00",
-    "lede": "Tech-heavy Nasdaq 100 up more than 1 per cent in afternoon trading following day of turmoil",
     "lang": "en"
    }
   ],
@@ -157,10 +157,10 @@
     "lang": "en"
    },
    {
-    "title": "Trump’s latest Ukraine offer may only tempt Putin to step up his war",
-    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNdmhLdEFhNEhJcUhIaGQ5UEwwSzRNdjQwWFZhRmN3T3ZoNDU2QWtwSUx5dzBkcXlabFNiSWFsVWI3Ul93VG1lajJmbk9reGpZZ0w1NVdTMVVCRUhaNE5SM3lSb2NHdm1jTnFLZDJvWW5NaWFVNF8yR29xMTJFZk5QZEhR?oc=5",
-    "source": "CNN",
-    "published": "2026-11-06T17:11:51+00:00",
+    "title": "How the Iran war is changing the renewables landscape",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5Iem9JYmdZTmJNdzczTC16d2lZb0xjalZ2elM4Z0FTOG8wdlZpWm9QYVYxTFNNRkVSMXdQS2NjM1VvTWFqUm10MG4ySkllbjZRRmZFUnM0QWk4c0FYTlV2ZFRaUFgtR1JtTUoxTWRESGY?oc=5",
+    "source": "Axios",
+    "published": "2026-11-06T18:38:56+00:00",
     "lede": null,
     "lang": "en"
    }
