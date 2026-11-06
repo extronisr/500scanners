@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-06T06:31:06.054980+02:00",
+ "generated_at": "2026-11-06T07:31:00.825428+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -9,20 +9,52 @@
  "sections": {
   "us": [
    {
-    "title": "מזינוק חד ל\"פאניקה אמיתית\": מה קרה בוול סטריט ב-24 שעות?",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562325#utm_source=RSS",
+    "title": "Renewed U.S.-Iran tension could push oil past $100: Rapidan Energy",
+    "url": "https://www.cnbc.com/2026/11/06/us-iran-war-trump-hormuz-oil-midterms.html",
+    "source": "CNBC",
+    "published": "2026-11-06T05:27:24+00:00",
+    "lede": "Bob McNally predicts that both Brent and West Texas Intermediate futures will jump above $100.",
+    "lang": "en"
+   },
+   {
+    "title": "המפולת בוול סטריט מגיעה לאסיה: הבורסות צונחות, יפן נכנסה לשוק דובי",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562355#utm_source=RSS",
     "source": "גלובס",
-    "published": "2026-11-06T04:18:00+00:00",
-    "lede": "לאחר הראלי ברביעי, וול סטריט נצבעה אמש (ה') באדום בוהק: מדד הנאסד\"ק צלל ונכנס לטריטוריית תיקון, וענקיות השבבים מחקו טריליוני דולרים משוויין",
+    "published": "2026-11-06T05:19:00+00:00",
+    "lede": "בהמשך ליום המסחר הגרוע ביותר שנרשם במדדים המובילים בארה\"ב מאז אפריל 2025, בורסות אסיה רושמות הבוקר ירידות חדות",
     "lang": "he"
    },
    {
-    "title": "הבוחרים דרשו יציבות - וקיבלו טלטלות: כך איבדו הרפובליקנים את הקונגרס",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562249#utm_source=RSS",
+    "title": "שני ישראלים מואשמים בהונאה של 129 מיליון דולר בארה\"ב",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562354#utm_source=RSS",
     "source": "גלובס",
-    "published": "2026-11-06T04:12:00+00:00",
-    "lede": "פחות משנתיים לאחר שחזר לבית הלבן, דונלד טראמפ והמפלגה הרפובליקנית ספגו מפלה מוחצת בבחירות האמצע",
+    "published": "2026-11-06T05:11:00+00:00",
+    "lede": "כתב אישום שהוגש בארה\"ב חושף כיצד רשת הונאה בינלאומית השתמשה בבינה מלאכותית כדי להתחזות למנהלים ולעורכי דין ולגרום לחברות להעביר מיליוני דולרים",
     "lang": "he"
+   },
+   {
+    "title": "Asian tech stocks sink",
+    "url": "https://www.ft.com/content/b77ebe43-a017-4e63-af84-5bdec8f47648?syn-25a6b1a6=1",
+    "source": "Financial Times",
+    "published": "2026-11-06T05:07:03+00:00",
+    "lede": "‘Complete carnage’ as Nikkei 225 falls below 60,000 points for first time since May with Seoul’s Kospi under 5,000 points",
+    "lang": "en"
+   },
+   {
+    "title": "Oil prices rise as investors weigh renewed U.S.-Iran conflict risks after midterm elections",
+    "url": "https://www.cnbc.com/2026/11/06/oil-price-today-brent-wti.html",
+    "source": "CNBC",
+    "published": "2026-11-06T05:06:56+00:00",
+    "lede": "Oil prices rose Friday as investors weighed the risk of renewed U.S.-Iran military escalation after the midterms, alongside prospects for a diplomatic breakthrough.",
+    "lang": "en"
+   },
+   {
+    "title": "HKEX shares fall nearly 2% as Q3 profit slips amid slower market activity",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNTE9UYlgyVFNxQ3gtZnc1RFpPV09feFRjM1E3OUJacm5EV2duTWtRcWhVX3k1bk5VZDlFbzRLUmJiS3Y1bHpIeHVhbXdKc3dJRXNDTFJvSThTZkM2X1pSMlBhbjBZdWdVNnRNSTRVV0x0RmlyaTRDSHZWY0lvT3RHNFMxNlIyS0M4S1hNa01rdmF0Tmtl?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-06T05:00:00+00:00",
+    "lede": null,
+    "lang": "en"
    },
    {
     "title": "Dow Futures Fall, Techs Rise After Market Sell-Off. What To Do Now.",
@@ -49,47 +81,39 @@
     "lang": "en"
    },
    {
-    "title": "Trump Blames Voters For Stock Market Rout, Day After Taking Credit For Bounce",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcTZIZnBRQW9EVVdJMzRncThuSTF5OVl2SUpMSVFTTzZla0tsdXNHaDBrVU9PdE1aZGFLTGRkMDZIT2dmc0xQVDAtV2RjZG5qaTI5eU9TUXNnSFNBT1RnbGtBQ1N6aWtlWldPWVdmMTVJek9SREg5SEk1RWU0X2FGY19JelpDbFY0Qjl6TFNuZ2Nrb1c2WTZSbXAxZm9ZQQ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-06T03:07:00+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
     "title": "Global tech stocks plunge as US midterms add to AI slowdown fears",
     "url": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
     "source": "BBC",
     "published": "2026-11-06T02:57:24+00:00",
     "lede": "Investors have reacted to possible tougher scrutiny of data centre construction and the AI industry.",
     "lang": "en"
-   },
-   {
-    "title": "Nasdaq sell-off batters Asian chip stocks as SK Hynix, Samsung, Softbank, TSMC tumble",
-    "url": "https://www.cnbc.com/2026/11/06/tech-stocks-sk-hynix-samsung-softbank.html",
-    "source": "CNBC",
-    "published": "2026-11-06T02:40:15+00:00",
-    "lede": "Asian technology stocks tumbled Friday, tracking a sharp sell-off on Wall Street overnight that sent the tech-heavy Nasdaq Composite into correction territory.",
-    "lang": "en"
-   },
-   {
-    "title": "Asian tech stocks sink",
-    "url": "https://www.ft.com/content/b77ebe43-a017-4e63-af84-5bdec8f47648?syn-25a6b1a6=1",
-    "source": "Financial Times",
-    "published": "2026-11-06T02:30:40+00:00",
-    "lede": "‘Complete carnage’ as Nikkei 225 falls below 60,000 points for first time since May with Seoul’s Kospi under 5,000 points",
-    "lang": "en"
-   },
-   {
-    "title": "Here’s what’s driving Iren’s stock higher after a brutal selloff",
-    "url": "https://www.marketwatch.com/story/heres-whats-driving-irens-stock-higher-after-a-brutal-selloff-0ced09b0?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-06T01:07:00+00:00",
-    "lede": "Iren announced a new cloud-computing deal and noted that much of its backlog is tied to “investment-grade counterparties.”",
-    "lang": "en"
    }
   ],
   "il": [
+   {
+    "title": "חברות ההייטק משלמות ארנונה נמוכה יותר - אבל מכניסות לעיריות הרבה כסף",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001561089#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-06T05:02:00+00:00",
+    "lede": "ניתוח של מכון גיאוקרטוגרפיה חושף פערים בתעריפי הארנונה לחברות הייטק ולבתי תוכנה בין הרשויות המקומיות, ומראה מדוע תל אביב והרצליה מצליחות לייצר הכנסות גבוהות מעסקים למרות הנחות משמעותיות",
+    "lang": "he"
+   },
+   {
+    "title": "ההיסטריה וההיסטוריה בוול סטריט: מה צפוי למשקיעים בהמשך?",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562353#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-06T04:56:00+00:00",
+    "lede": "נאסד\"ק נכנס אתמול לטריטוריה של תיקון, מניות השבבים קרסו ומדד הפחד זינק לשיא של שמונה חודשים",
+    "lang": "he"
+   },
+   {
+    "title": "מזינוק חד ל\"פאניקה אמיתית\": מה קרה בוול סטריט ב-24 שעות?",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562325#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-06T04:18:00+00:00",
+    "lede": "לאחר הראלי ברביעי, וול סטריט נצבעה אמש (ה') באדום בוהק: מדד הנאסד\"ק צלל ונכנס לטריטוריית תיקון, וענקיות השבבים מחקו טריליוני דולרים משוויין",
+    "lang": "he"
+   },
    {
     "title": "האם הטסלה החדשה שווה תוספת של 40 אלף שקל?",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001562239#utm_source=RSS",
@@ -99,31 +123,7 @@
     "lang": "he"
    },
    {
-    "title": "למה המשקיעים מודאגים מהזכייה של הדמוקרטים בטקסס?",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562183#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-06T04:07:00+00:00",
-    "lede": "בכמה נמכרו שתי קומות במגדל מגורים ברחוב הירקון בתל אביב?",
-    "lang": "he"
-   },
-   {
-    "title": "מנהל שהוסגר מפורטוגל, חייב שנרצח בנצרת ומאות מיליוני שקלים שנעלמו. איפה הכסף מפרשת גיבוי?",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562309#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-06T04:06:00+00:00",
-    "lede": "הסגרתו של אייל רוזן, לשעבר מנהל בחברת האשראי גיבוי אחזקות, הזכירה כי אחת מהקריסות הגדולות שידע הסקטור הפיננסי בישראל עדיין רחוקה מסיומה",
-    "lang": "he"
-   },
-   {
-    "title": "קרנות הגידור מכרו שבועות לפני כולם? הסימן שהקדים את המפולת בוול סטריט",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562337#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-05T21:07:00+00:00",
-    "lede": "נאסד\"ק 100 צלל בכ־5%, וכ־84% ממניות S&P 500 נסחרו בירידות",
-    "lang": "he"
-   },
-   {
-    "title": "מחר בת\"א: אלו המניות שיקרסו והנה המניה שתפתיע לטובה",
+    "title": "צפי לפתיחה שלילית: טאואר בפער של כ-4.5%, פאלו אלטו כ-3.1%",
     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1FQVlEb1gzV1hUWk9obUpUZFJ4ZVBYVHAyeWlIT1lXLVhNLXBLUHNwZ2s0dkpZREVhZFM0SGVfd2xwNTJLTGZmOURQR19DZWRLV3dmdUpKcmE4UGdraFBqNlNuR0hicWpKZ3NYV0otZVQ?oc=5",
     "source": "ביזפורטל",
     "published": "2026-11-05T19:47:00+00:00",
@@ -157,18 +157,18 @@
   ],
   "geo": [
    {
-    "title": "Hegseth vows to fight any impeachment, defends Iran war",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9pS19JN2ZZSEphWG9wcDNmMEk5UDJhbzV5T1J0a3RQQl80NnpkTTFQZi1SbGd4Z1pHd25VRGpOTVc1YUJUbnV1c2xXQlZqQWpXeEhMUk1BV1BFQi1BdF9zUGlHWHM2QmM?oc=5",
-    "source": "Reuters",
-    "published": "2026-11-06T04:26:28+00:00",
+    "title": "Iraq’s al-Zaidi talks to Trump as Baghdad seeks to stay out of war on Iran",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMnVfME83OVozQ0xVaFhEaUU4bG9yRWZBTmNVbHNVRXJLOS1hWFZBdnM4WWpiZTc5bG9aZ3pQcVJuLW85bGx0QWJvSU45bUpZaTdQWWp4cXc0OG8wb242SGdSSEk0VlMzSHlxdjFUbldDZnAzcHpISi1RdUZyNHpPNjZCQmNIdnZJdFFwM1hzTDNLcGNxVk81a3E5SUdlREtoQnhpNU5KNDFEdVdqenVfVWNMVkHSAboBQVVfeXFMTUZFb1JmYk45YmttZGZYSG9CTmpYd19CN2tSTlhaR3ROV3h2dk53bU1Ud3lzbzFtb2FZRkJVX256VkNlam1CanZjVFk0TmVEaGk5NFYtblo1UnBNUDN0TkR6cnFxV2hmUUlJRVJkOFVqRlhiekpkTmxxdkIxVFE5b0VyOWxvZ05sM1N6c05iUEQ4VndkSm1qWXVYZk9GVDZzYzNzVVF3VmliUFgzTF9kb053c2UySHZnU2Jn?oc=5",
+    "source": "Al Jazeera",
+    "published": "2026-11-06T05:15:00+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Iran’s security chief meets Putin, delivers message from Khamenei",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOQnVkOVN5OTNTeXZHZ0FUWE5halRMcHMySFhaS3plM2h6Ykt3WGI4NjkwRVFxSmg2aHo0MGVTb25YOXFucjJEcjFJXzYyOFlxdDV6QjJSbE5lNHNwWENhZWpDZ1VSR2RqQlRVZFRLbktJdXUyTVBGQk1vTXVnTjVkdDYyZ2FmQkhlc28tdTJmbTZJNlpXSzFzd25zWllERWVROFFoemtKONIBrAFBVV95cUxNTXpROFF4dEJtRkR5ZE5sN05admFlZEpxS3VPb3VveE5SWndjMG9ZYk1QZXdUdERYaVlyTThkZl9nQXgxRUxJZENQWEIxc3AzcXBKcWx2clkxcjlGUThrQm9LWEtRenlaeHloMmVjSC0ycDNWMDlXRGZoajlRZVZpT0N3a2lDWWsxMm1LcUIySmlXTHd3azc5S0lIUkV2c2dvZUpLaFdMSy15TEN4?oc=5",
-    "source": "Al Jazeera",
-    "published": "2026-11-06T02:52:03+00:00",
+    "title": "Ukraine war briefing: Zelenskyy says Russia has damaged ‘every power plant’ as he seeks Latin American help",
+    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPbUZXOXBNZWtMVHlwOUV3TkdQaV84SGFKVnoyVG5mX3M1NVlTVVFadkMzVThCS09Za3dBOFluUHlXTWh5eEtLa3ZUYV9BNDRMWnYtdFZubVFqTzZ0Ty1WRlNGd1c2YXVoY3J5ZHdCd3JUOEs0SzlVQ0RUVk9DVWI1SnMyaERteFdpWWFneVhESmVaS2NnVVNxLUI4T1lYMFQ4Wms4b1R0T3MyMU53UmpmY3JaaVVuVl9BNjB0OUlscXdzZXVDWDNyR0xBU3N6amhsMVFtY1FDRzZWbXk5RU1iRjlfYXE?oc=5",
+    "source": "The Guardian",
+    "published": "2026-11-06T04:50:00+00:00",
     "lede": null,
     "lang": "en"
    }
