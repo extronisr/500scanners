@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-06T14:30:59.816097+02:00",
+ "generated_at": "2026-11-06T15:31:02.809162+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -9,87 +9,95 @@
  "sections": {
   "us": [
    {
-    "title": "Global Tech Selloff Spreads But AI Stocks Show Signs of Recovery",
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbFhNLTBWNVFrWF95VmItelpwY0d4eGJ2RVBNUk10T1RTOC1aV0tNUU9aSEVSU0o0XzVTYVg3RW5Hb3hjbkRpUHQxRU93Y0c1WDJnVUJ0M1RCSTJoZGpHZGhqNThFR0IyR09CSTZLOGtocHk1bUVIdmMzbzBPRkU3bVJZdEFPWnlxb0VCUjlvVzBnbnRlWkFYdw?oc=5",
-    "source": "Morningstar",
-    "published": "2026-11-06T12:19:50+00:00",
-    "lede": null,
+    "title": "Why Democrats should use their new power to embrace Trump’s tariffs",
+    "url": "https://www.marketwatch.com/story/why-democrats-should-use-their-new-power-to-embrace-trumps-tariffs-7c467541?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-06T13:30:00+00:00",
+    "lede": "Blaming tariffs on manufactured goods for the soaring price of gasoline is the wrong solution to the affordability crisis.",
     "lang": "en"
    },
    {
-    "title": "Moderna’s stock jumps after biotech raises sales outlook",
-    "url": "https://www.marketwatch.com/story/modernas-stock-jumps-after-biotech-raises-sales-outlook-65363127?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-06T12:15:00+00:00",
-    "lede": "The company lifted its revenue outlook for the year, saying it now expects revenue to grow as much as 25% in 2026.",
+    "title": "Global stocks plunge as fears over US AI slowdown spread to Asia and Europe",
+    "url": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC",
+    "published": "2026-11-06T13:25:50+00:00",
+    "lede": "Investors have reacted to possible tougher scrutiny of data centre construction and the AI industry.",
+    "lang": "en"
+   },
+   {
+    "title": "Where's the growth? Legacy automakers face a tougher 2027 as costs rise, market tightens",
+    "url": "https://www.cnbc.com/2026/11/06/automakers-rising-costs-flat-production-2027.html",
+    "source": "CNBC",
+    "published": "2026-11-06T13:19:53+00:00",
+    "lede": "Automakers are warning about higher commodity, logistics and memory costs, while pricing power is becoming harder to extend to consumers.",
     "lang": "en"
    },
    {
     "title": "Global stocks tumble as AI panic grips markets after Democrats’ midterm success – business live",
     "url": "https://www.theguardian.com/business/live/2026/nov/06/global-stocks-tumble-ai-panic-markets-democrats-midterms-success-jobs-oil-dollar-latest-news-updates",
     "source": "The Guardian",
-    "published": "2026-11-06T12:14:38+00:00",
+    "published": "2026-11-06T13:17:21+00:00",
     "lede": "Rolling coverage of the latest economic and financial news, as Asia-Pacific markets slide after Wall Street rout Despite the sharp losses suffered on global stock markets around the world, most indices are still up for…",
     "lang": "en"
    },
    {
-    "title": "After Wall Street’s worst selloff since the 2025 tariff shock, here’s what investors need to watch next",
-    "url": "https://www.marketwatch.com/story/after-wall-streets-worst-selloff-since-the-2025-tariff-shock-heres-what-investors-need-to-watch-next-6e2e629a?mod=mw_rss_topstories",
+    "title": "TSX futures edged lower amid fallout from AI-driven stock rout",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbWRFZ0hCZmZFOVVWeEF1M09ZNDNKOU1UNk9SY2VJX0xPcGFNcTZ0NFU2OEJfNUx3bWpkYkQtbmFWbzNMcVdNRk9RUU1rVkJ0VlhUMHFCMmdob3VxTm55ZHZBVVBuTzdySkN0elJVd0VBZkYydElXNHBqdTZjUTFWc01RNmxtRG0tQ1hNSURtVXBuWExkTmRBRA?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-06T13:10:09+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Yardeni explains why Thursday’s selloff is a buying opportunity",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNanFFQmQyTTFLXzEtYnFNRDExMGx5LUhocmdKMVM5VkhlU1hUdjFtS2dBek1rMkhEcVBiYkxLakpmQ0JtbnE0V3RoM0RqTVlKR29ybUZodWJIMm5DSzFfR1pFTmoyODBQZ1dwMDREVzV2TW1sYmpYWnlzVnlyWWVfcEhtZlhLYVFMakxZOG01QllZSDRqeEFFbF91dHBvNXphcUdkZQ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-06T13:08:28+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "How to buy a new car for under $30,000 in this economy",
+    "url": "https://www.marketwatch.com/story/how-to-buy-a-new-car-for-under-30-000-in-this-economy-24b01f99?mod=mw_rss_topstories",
     "source": "MarketWatch",
-    "published": "2026-11-06T12:14:00+00:00",
-    "lede": "Stock-market rout spreads far beyond AI stocks. Plus: First-time homebuyers are paying all-cash. Where’s the money coming from?",
+    "published": "2026-11-06T13:08:00+00:00",
+    "lede": "Consumers burdened by the high cost of gas, insurance and maintenance are driving up demand for those low-cost cars.",
     "lang": "en"
    },
    {
-    "title": "FTSE 100 tumbles 2% as AI jitters spark global selloff",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQ1RObmZRd1NXMGlCYnY1a3d4cC1EelByQktKTEswQXc3d2d0NFBqMW1sRlRDcjM3LTVWZk95dFJjbnZuRnUtOTBIcWI3RXN1VV9sQ0paT1dCanpRUGVraUFuRnlocE5ENGIyRlllSVpxc1JFRm5iVEZod21rajcwLVhlcTc4R1lYb0hfRnNhQWxhbXRteUJUNTM2Y0gyYl9zS0NOa1FR?oc=5",
-    "source": "Reuters",
-    "published": "2026-11-06T12:13:01+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "AI stocks hammered by midterm shock as data center buildout becomes a 'war of attrition'",
-    "url": "https://www.cnbc.com/2026/11/06/ai-data-center-midterms-selloff.html",
-    "source": "CNBC",
-    "published": "2026-11-06T12:04:17+00:00",
-    "lede": "The election rout landed on an AI trade already under pressure from high interest rates, heavy capital spending and questions about returns.",
-    "lang": "en"
-   },
-   {
-    "title": "AI Rally Cools — And Takes Average U.S. Stock Fund Down With It",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPSzhKc0FuVWFyYkFCSmJWUmZtVmRFb0QweGtSLXlDRTdKbjRGem9iWl9hZGdkOTBORDNRb0lNLURiUkNFa2I5NFRtcEFMZmRoR2VEMnVTTFdfVGhCcU5rcXRXS1ZuSFpYUDBub0tuM3Y2cWZIZjRkdFN2Q2EtRXo2T0d2ZDJFakxrN0d0TkxtczZ1aHlxNEpoTlg3ZHFiUmt3NjViQ3huX1M5QQ?oc=5",
+    "title": "Futures Split After Market Sell-Off. What To Do Now.",
+    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxONko0NmFjRU1udUJFdmdCRVBzbFpMVVFwWlR3cWY4aThIV1NrVTlKbzFjTHlNNzBwLU1tOTV1UktuSUtVMHQzc0h2UGMzdXZZQ0FwN1ZELVR0REhSSFFfcXVPbW8xN21CQXgyZENhVkZxeFh5dmpsRWVJTjJPdjlFLWR5NjU4eG9uUjFDcEZEcjUzbmFzcGpkbW9CTkVwN3hjVWZqTWdMUnZaUnFkOFJ5ZTNvWHljVjZCSDgwV2JoRXR5aE9ROFU3TXoyRVlmTkhCZ0E?oc=5",
     "source": "Investor's Business Daily",
-    "published": "2026-11-06T12:00:00+00:00",
+    "published": "2026-11-06T13:01:00+00:00",
     "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "'I've taken an extra job to pay for heating oil'",
-    "url": "https://www.bbc.co.uk/news/articles/cmj47j7e92gvo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC",
-    "published": "2026-11-06T11:40:35+00:00",
-    "lede": "People in Sussex say they are taking on extra work and not heating their homes due to oil prices.",
     "lang": "en"
    },
    {
     "title": "אירופה בירידות, בורסות אסיה צנחו ויפן נכנסה לטריטוריה של שוק דובי",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001562355#utm_source=RSS",
     "source": "גלובס",
-    "published": "2026-11-06T11:35:00+00:00",
+    "published": "2026-11-06T12:32:00+00:00",
     "lede": "בורסות אסיה צנחו הבוקר בהמשך לאתמול, שהיה יום המסחר הגרוע ביותר שנרשם במדדים המובילים בארה\"ב מאז אפריל 2025",
     "lang": "he"
    },
    {
-    "title": "Wall Street set to steady after tech rout",
-    "url": "https://www.ft.com/content/642b32dc-e3a1-4df8-ae91-5c84bdeb89e0",
-    "source": "Financial Times",
-    "published": "2026-11-06T11:10:33+00:00",
-    "lede": "Donald Trump blames voters for AI sell-off as futures point to small gains at the opening bell",
+    "title": "Democratic sweep gives markets a reason to rethink path of interest rates",
+    "url": "https://www.cnbc.com/2026/11/06/oil-prices-interest-rates-midterms.html",
+    "source": "CNBC",
+    "published": "2026-11-06T12:30:40+00:00",
+    "lede": "Rate hikes could be curbed by an Iran war resolution, slower U.S. growth and fresh fiscal policy — but none are set in stone.",
     "lang": "en"
    }
   ],
   "il": [
+   {
+    "title": "שני ישראלים מואשמים בהונאה של 129 מיליון דולר בארה\"ב",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562354#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-06T12:30:00+00:00",
+    "lede": "כתב אישום שהוגש בארה\"ב חושף כיצד רשת הונאה בינלאומית השתמשה בבינה מלאכותית כדי להתחזות למנהלים ולעורכי דין ולגרום לחברות להעביר מיליוני דולרים",
+    "lang": "he"
+   },
    {
     "title": "הבורסה ננעלה בעליות חדות ביום הטוב ביותר מאז מרץ; הדולר נסחר ביציבות",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001562306#utm_source=RSS",
@@ -123,14 +131,6 @@
     "lang": "he"
    },
    {
-    "title": "מה מניע את שער הדולר-שקל שזינק לשיא של כמעט שנה, ומתי תתהפך המגמה?",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562358#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-06T09:35:00+00:00",
-    "lede": "הדולר התחזק הבוקר מול השקל בכ-2% והגיע לרמה של 3.22 שקלים, על רקע טלטלות בשווקים הבינלאומיים וירידות חדות בוול סטריט, אך בהמשך העלייה התמתנה",
-    "lang": "he"
-   },
-   {
     "title": "הבורסה בישראל מזנקת בענק: האפשרויות להרכבת הממשלה מרעידות את השוק",
     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBBQlhsS2QtYUttTlg2dmdBVmtnV2NybUlhc0ZXQ0Zuak8yX2xYT3dfS2VFaER4OEljSF81b3laTXR5akpZLURaUF92ZkhHMXhsdEMxVFU2OWk2LVpaRkNMYVRqb0o2QQ?oc=5",
     "source": "מעריב",
@@ -145,30 +145,22 @@
     "published": "2026-11-06T09:12:54+00:00",
     "lede": null,
     "lang": "he"
-   },
-   {
-    "title": "המלחמה באיראן פגעה באמירייטס: הרווח צנח ב-66%, מספר הנוסעים ירד ב-22%",
-    "url": "https://finance.walla.co.il/item/3875139",
-    "source": "וואלה",
-    "published": "2026-11-05T16:46:00+00:00",
-    "lede": "חברת התעופה מדובאי הרוויחה כ-903 מיליון דולר במחצית הראשונה של שנת הכספים, על רקע סגירות המרחב האווירי והתייקרות הדלק. מנגד, הכנסות חטיבת המטענים זינקו ב-52%",
-    "lang": "he"
    }
   ],
   "geo": [
    {
-    "title": "Report: Trump Weighs Options for Resuming War With Iran, as Soon as November 9",
-    "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQY3ZzTnIydHp3SHBINm90cXZfeS1tNUxGblk3eW5KaTFJcGVtQ012a2xiSXN0aTRielROemVJUnJaWmRyLVJXeGdPNl9qZ01qWU9DZjlLSnc3ekFsUGZUcmVISUEzeTlucFVJNkF2enZlVzZQNjVGV0d0UGw0RHhpVzVHU2x2Yjk4eVp0QVdzRXJTTGFnS1lyTzE1OE1MRmNXckItbWhuQXBqRkRvLUQyU0FqUi14M0ItRWhpU0RqRG1ucVg2eXY3N3l1REt5UU11VUo5dEQ5RVZkLXFiakdtX1VPbVVWeG9OT3oxalVORmNxc2ZhcWdVZUhjQ3k1UWU4M0syRm5YVk5KbG5wa0E?oc=5",
-    "source": "Haaretz",
-    "published": "2026-11-06T12:08:00+00:00",
+    "title": "Under Armour warns of bigger Middle East hit, cuts annual gross margin growth target",
+    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQajdod1RLdGRUOTJXOVk3dXNPcEhnQlZhOGJWalVSUklaV2tFZHJOVU5JUGtEX3FtTXNJcGl5MnNpSW1pUkdZOEFFcjUzcE14RHlwM19USXpRa2Z5d3NzM0I3NGxxN2YzUTFfbzNqUWVSWkJzTjlkelp2YVRpTlFDY0lXOEgxaE9Sd1hHeGwxRmFtNUZxUGNKYlczc2U2SzdoTFNSVEF2aURRbWVscFc3QmF0YUlSb0dxLUczTHREV3NHOG9aS1JyM1hxZGRMZnowOV9jRXM2ZHQ?oc=5",
+    "source": "Reuters",
+    "published": "2026-11-06T13:11:59+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "EU backs one-year delay to methane rules over Iran war disruption",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPWkpSMHRzYkVzbXBIaVBGSnhJbTlaRzhidV9fXzJuTlZERHpLblZJTlhnLUhpc3c4ZjN4TGlnNklKOUlLVUEzRFVEYUlDbWlLOFpLQXZ3TVduQk16S3M0SWd6SkpITlZZWmtzdjc1V3UzT3ZpaWtLSmt0SGNieDJTRU4ybzZRdC1TSTZPaHJoWllTUG1maVNjUG80Uko4c0dDVm01UG51QQ?oc=5",
+    "title": "UAE shares fall as geopolitical uncertainty keeps traders cautious",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPcTRqNVA5N1lBd01rRjl2WjVOWEhrbjI5X01haW5MV1pCSURlb0VPR29EOHdfZDVLbWRXc1dwalZJNm9RRllzU1JlZG56RjYzUzRQNkhiUEUyMGI1SDlzWURkYWhldnBxTm5ycHVVMDVNWUd3VU5rbzRBMlZrS1c1YlBZRTEyOUViVzhLdVpHRzg1eDNfUGM0TkZOM05GOUVrSDhyWk9FdjlNQzlzU0NKOE5YSW9HZGRj?oc=5",
     "source": "Reuters",
-    "published": "2026-11-06T11:53:44+00:00",
+    "published": "2026-11-06T12:27:43+00:00",
     "lede": null,
     "lang": "en"
    }
