@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-06T11:31:00.853126+02:00",
+ "generated_at": "2026-11-06T12:31:03.678339+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -9,10 +9,26 @@
  "sections": {
   "us": [
    {
+    "title": "Democrat sweep gives markets a reason to rethink path of interest rates",
+    "url": "https://www.cnbc.com/2026/11/06/oil-prices-interest-rates-midterms.html",
+    "source": "CNBC",
+    "published": "2026-11-06T10:22:22+00:00",
+    "lede": "Rate hikes could be curbed by an Iran war resolution, slower U.S. growth and fresh fiscal policy — but none are set in stone.",
+    "lang": "en"
+   },
+   {
+    "title": "Indonesia presses ahead with equity market reforms after MSCI downgrade warning",
+    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNTFJrMVVCWlNCeXpOZ2NhRVhhOTFtTDhnSWdPNEhpT3NsNklGTW9nTFZ3SkpIQ2pCakgxYmFlbmQ0Z0pHRXljSEFLNUtjSkgydVdPUE1GNmppZHh6ZmtnYl9BY1gzejB0YUZxVDBYTmdETTBYMUFIN3Q1anctVGVNQW1KWFQ0VUkwck5vMG8wMjNCTVVscEF6N1hBeERyY3puWnIxclBjcnE4SFM5SHo2UzI4amEzZkl6ZkdlU1h6NUVWQTdqTFNnQ2pYZUJWaTQ?oc=5",
+    "source": "Reuters",
+    "published": "2026-11-06T10:22:09+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
     "title": "אירופה בירידות, בורסות אסיה צנחו ויפן נכנסה לטריטוריה של שוק דובי",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001562355#utm_source=RSS",
     "source": "גלובס",
-    "published": "2026-11-06T09:21:00+00:00",
+    "published": "2026-11-06T10:12:00+00:00",
     "lede": "בורסות אסיה צנחו הבוקר בהמשך לאתמול, שהיה יום המסחר הגרוע ביותר שנרשם במדדים המובילים בארה\"ב מאז אפריל 2025",
     "lang": "he"
    },
@@ -20,8 +36,32 @@
     "title": "Global stocks tumble as AI panic grips markets after Democrats’ midterm success – business live",
     "url": "https://www.theguardian.com/business/live/2026/nov/06/global-stocks-tumble-ai-panic-markets-democrats-midterms-success-jobs-oil-dollar-latest-news-updates",
     "source": "The Guardian",
-    "published": "2026-11-06T09:14:17+00:00",
+    "published": "2026-11-06T10:05:34+00:00",
     "lede": "Rolling coverage of the latest economic and financial news, as Asia-Pacific markets slide after Wall Street rout Despite the sharp losses suffered on global stock markets around the world, most indices are still up for…",
+    "lang": "en"
+   },
+   {
+    "title": "Oil prices set for sharp weekly fall after midterm elections as investors weigh Iran conflict risk",
+    "url": "https://www.cnbc.com/2026/11/06/oil-price-today-brent-wti.html",
+    "source": "CNBC",
+    "published": "2026-11-06T10:00:54+00:00",
+    "lede": "Oil prices fell Friday as investors weighed the risk of renewed Iran war escalation after the midterms, alongside prospects for a diplomatic breakthrough.",
+    "lang": "en"
+   },
+   {
+    "title": "What sparked Wall Street’s crazy sell-off?",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9OcXdBaTNkOC12M0RnS0lGQ3ViaU8tYm5ibHljZjVFWUFKdTI3LWxHY0w2bk0ycnduQWZrTFRTQnZZd3NGRTY5ejJtamRaYUpPenVFQUFxWGprMmZRMklaNVE2ZVBqWFhYMUVCX2ZwRjA?oc=5",
+    "source": "CNN",
+    "published": "2026-11-06T10:00:15+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Yikes! The Stock Market Just Did Something It Has Never Done Before. History Is Clear About What Comes Next.",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPXzZSQUsxZE4wekpxUHE4bEt5STFtTFo4Smt0T1JDcHBxWGxYaHNLaDFTbjh0SklJUDFzQmVoRzRGaTgyUXJILVVUQW9adDNEY0hRY1hucDFsUWtyRmFlZ1BUeEZkSjdJSDVSdW93Q3pkUlo5bkk5QzZzN0pBNGlIVzlJVjFKd2hDM3R2MHRfTlAyTnJsYW5J?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-06T09:32:02+00:00",
+    "lede": null,
     "lang": "en"
    },
    {
@@ -33,35 +73,11 @@
     "lang": "en"
    },
    {
-    "title": "Take Five: Tech wreck and roll",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZHNyN1A5QUF4MHZGYlVaalZTcHJPMkRaTXIxOG1vdy1ZUTNVaGYtNXFMNXhhdURUWU5rbXBuUFN5eHU4UVNJR0lGT1VDWWotVDRoeDFpLTVVRWhnZmNmYjZtMkdUMmE3dlBocWZ4S1BPWjhhWkc4bkFydm1Ld052Xzh4YWpZeU1ONjYyWFFB?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-06T08:42:09+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
     "title": "Wall Street AI sell-off spreads to Asia and Europe",
     "url": "https://www.ft.com/content/642b32dc-e3a1-4df8-ae91-5c84bdeb89e0",
     "source": "Financial Times",
     "published": "2026-11-06T07:39:22+00:00",
-    "lede": "Donald Trump blames voters for tech rout as futures suggest sell-off will ease at the US open on Friday",
-    "lang": "en"
-   },
-   {
-    "title": "Global stock rout deepens as AI data centre fears fuel worst US chip sell-off since 2020",
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQd1BNLTFsLTlOM3lTRFFFSE1Tc2gyRThDWVVibjVyUi1DYW5Rdl9fSThvZUYwX2UtNmZzc09RVDdxZm1pSjJkRDdmVGk1U1R1akpZM1Z2UHJLYm9vVTFIUFdjNmhJTzhCejdCV1hkbWhHQVd1czVNSlBtSlB0NXdENF9seFNyVGROeDNuMFJNTERyVXBLMTZuZA?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-06T07:34:08+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Analysts rethink AppLovin stock price targets after earnings",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNR0puX1RYdS12VDNqNUIyV2NJRGNSWkZKWWgwSVRONnJtX3hURnRYZzJmY2h5ZVBvSjZISHh6SDd1ZVh1QWthb1p1cENnODJXY01kd0c0SXM2QTV2RUJRNlk2aWYyYWJqTEFnQVg3OXFLSkxSQm9ZS3V5c1RpMXprYlZVaWhvb1NSaWNoWURzWkpyT2d1M2J0VFl3ZnVjdDVuaEkzcg?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-06T07:27:00+00:00",
-    "lede": null,
+    "lede": "Donald Trump blames voters for tech rout as futures suggest markets will stabilise at US open",
     "lang": "en"
    },
    {
@@ -71,31 +87,47 @@
     "published": "2026-11-06T07:11:18+00:00",
     "lede": "Any reasonable person can see the hallmarks of an unsustainable party in markets",
     "lang": "en"
-   },
-   {
-    "title": "'I've taken an extra job to pay for heating oil'",
-    "url": "https://www.bbc.co.uk/news/articles/cmj47j7e92gvo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC",
-    "published": "2026-11-06T06:06:00+00:00",
-    "lede": "People in Sussex say they are taking on extra work and not heating their homes due to oil prices.",
-    "lang": "en"
-   },
-   {
-    "title": "India as an AI hedge? The country's stocks could see robust inflows as markets globally tank",
-    "url": "https://www.cnbc.com/2026/11/06/india-ai-tech-hedge-nifty50.html",
-    "source": "CNBC",
-    "published": "2026-11-06T06:02:36+00:00",
-    "lede": "Over the last month, India's Nifty 50 has gained nearly 9%, while markets with heavy AI exposure, including the U.S., Japan, South Korea and Taiwan are deep in the red.",
-    "lang": "en"
    }
   ],
   "il": [
    {
-    "title": "לאחר הירידות אמש, מגמה ירוקה הבוקר בבורסה בתל אביב",
+    "title": "הבורסה בת\"א עברה לעליות של מעל 3%. אלו המניות המובילות",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001562306#utm_source=RSS",
     "source": "גלובס",
-    "published": "2026-11-06T08:45:00+00:00",
-    "lede": "המסחר בת\"א נפתח הבוקר על רקע הירידות החדות אתמול בוול סטריט",
+    "published": "2026-11-06T09:51:00+00:00",
+    "lede": "המסחר בת\"א מתנהל על רקע הירידות החדות אתמול בוול סטריט",
+    "lang": "he"
+   },
+   {
+    "title": "אינטל התרסקה ב- 42% - האם עסקת הרכישה של קלאסיק בסכנה?",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562359#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-06T09:35:00+00:00",
+    "lede": "ביום שני שעבר הכריזה אינטל על רכישתה של קלאסיק (Classiq) הישראלית - בעלת נתח השוק הגדול ביותר בתחום מחשוב הקוואנטי",
+    "lang": "he"
+   },
+   {
+    "title": "סערה במט\"ח: הדולר זינק הבוקר – למה השקל נחלש ומה ישנה את המגמה בחזרה?",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562358#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-06T09:35:00+00:00",
+    "lede": "הדולר התחזק הבור מול השקל בכ-2% והגיע לרמה של 3.22 שקלים, על רקע טלטלות בשווקים הבינלאומיים וירידות חדות בוול סטריט, אך בהמשך העלייה התמתנה",
+    "lang": "he"
+   },
+   {
+    "title": "הבורסה בישראל מזנקת בענק: האפשרויות להרכבת הממשלה מרעידות את השוק",
+    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBBQlhsS2QtYUttTlg2dmdBVmtnV2NybUlhc0ZXQ0Zuak8yX2xYT3dfS2VFaER4OEljSF81b3laTXR5akpZLURaUF92ZkhHMXhsdEMxVFU2OWk2LVpaRkNMYVRqb0o2QQ?oc=5",
+    "source": "מעריב",
+    "published": "2026-11-06T09:17:15+00:00",
+    "lede": null,
+    "lang": "he"
+   },
+   {
+    "title": "ברקע הטלטלה הפוליטית בישראל: עליות חדות נרשמות בבורסה בתל אביב",
+    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5VeGxIVm84OU9fc1QxaVlEcnRIUDJ4X0N6UFdKckh3Z0sxWGt6dlp1RWlMLS0xRGx5dHZsb3MxYTZaTmxYVXNyb2V3VFNWaUJ6dGJqWUtnelM4TEl4cTVyNlBOSEQ?oc=5",
+    "source": "מעריב",
+    "published": "2026-11-06T09:12:54+00:00",
+    "lede": null,
     "lang": "he"
    },
    {
@@ -115,30 +147,6 @@
     "lang": "he"
    },
    {
-    "title": "שני ישראלים מואשמים בהונאה של 129 מיליון דולר בארה\"ב",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562354#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-06T05:11:00+00:00",
-    "lede": "כתב אישום שהוגש בארה\"ב חושף כיצד רשת הונאה בינלאומית השתמשה בבינה מלאכותית כדי להתחזות למנהלים ולעורכי דין ולגרום לחברות להעביר מיליוני דולרים",
-    "lang": "he"
-   },
-   {
-    "title": "לצאת מהשוק או דווקא לקנות בירידות?",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBvMXQyY3pHN2RMVXBMOHZ0VkRYWmVBTTNvZVpEUzg1SGxVZDloVE1iZnExdTBIckZpd0hxT1BRQXJISEhXQl93SU5qLXRGdEZYN0hsZEdLLXZfcUduWno1cEZXcFFLN184NkZyaXp1cFI?oc=5",
-    "source": "ביזפורטל",
-    "published": "2026-11-06T05:11:00+00:00",
-    "lede": null,
-    "lang": "he"
-   },
-   {
-    "title": "חברות ההייטק משלמות ארנונה נמוכה יותר - אבל מכניסות לעיריות הרבה כסף",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001561089#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-06T05:02:00+00:00",
-    "lede": "ניתוח של מכון גיאוקרטוגרפיה חושף פערים בתעריפי הארנונה לחברות הייטק ולבתי תוכנה בין הרשויות המקומיות, ומראה מדוע תל אביב והרצליה מצליחות לייצר הכנסות גבוהות מעסקים למרות הנחות משמעותיות",
-    "lang": "he"
-   },
-   {
     "title": "המלחמה באיראן פגעה באמירייטס: הרווח צנח ב-66%, מספר הנוסעים ירד ב-22%",
     "url": "https://finance.walla.co.il/item/3875139",
     "source": "וואלה",
@@ -149,18 +157,18 @@
   ],
   "geo": [
    {
-    "title": "UK jailing of Indian sailor over Russia sanctions sets off ‘perfect storm’",
-    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNQlhSSm1fRk1ncTdNLVlWRzltV0pWeGd3VFU3V3RvWUdjWnVRQTNGdzlkX2FfNTN0TVMxV1hqOFVFelFTVkYyMERVX0E2ZzZtNmh3S3hmUXhkSmFIZXI2RzNVbF9MZXRaZV9WY3ZlQnRYVlZPbnFpUi1aYWNMZnktNnlGbDFPT0ZQcHZ5SHdsVHI1TkJQQ05XckFKM0RKd0ozWFRiTHNsNkRUR0RBeHBZRms1aUhlLXJK0gG-AUFVX3lxTE9laUh2ODA2a3F6OWo0MDZiVVlUYmNZREpqLUhlRV92SHZJVi1DWG80NnR4N1VXeGdQdF9XeGIwU19kcDlJU0x5MU93RkwzWDFnRnVkQ3ZqUFJ3MVYwTnp4QnNtRTU4RFFkbG1TOWNGUkV2eUxlTE13RGJodmd6Q1ZHY1RCZWFHZlMwS0x5OG5nZ0VINHJuU1FlUHJVUzFTSGpIa19PTDEtaDBDZU53TlAtekZxTGo1THZEY2pIN0E?oc=5",
-    "source": "Al Jazeera",
-    "published": "2026-11-06T08:41:30+00:00",
+    "title": "In ‘Birds of War,’ Romance Unfolds Against a Backdrop of Strife",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPbmVlVlplYUFXS3hybEFadUxCTTFNaHlLdGg0d1l3dlprTHdGNi1sa2I4MWxHaUpsdVM0NmxzVWNUTkxrZXBnbVhjZmEyVXlGcW1QeTBobG9JNG1SUjZMa25QenhtRVB1Tm9fSVJRQ3FCYlRPRWZsc2JBUTFWSWJManBPV2Nobnhob2V2ME1n?oc=5",
+    "source": "The New York Times",
+    "published": "2026-11-06T10:03:35+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Why is Iran exempting India, China, Qatar, Iraq from Hormuz restrictions?",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQREVEWGlac01nYWJUY3lwTUdnLXI2WW9mbWlmYkZzOVNxc2hoVWdnWXFtVWNXUVZ4cnpuUnFySWo0cDMwYU9HVndHRmt0ZTg5Uy02TDdxa0x4RXlLY1NQMUdSUkxGV2l5emNVX0dKaUlsV0F4dXkzUzRBQVdldGRxYlkweEZ6OUVOYXE0Ymtla3VCLVYtbzhucXNIYlp6OGkzNDdTTEg0eWlDUnp1c09B0gG0AUFVX3lxTFBzbG90aHg5TTdmRVd6bEI2Y2NsVUJUa1c4Ml81eno0LWVSbXM1R3RMVl9CR1RrNzBVeEk5UVpRQy0xU2xkZ0dPQm1VT0NTeFAyVXVySmJIYlRJNzBOb01oaklFeHdQeTdRcTFlS1BPb3oyWm5OS3BsZXZEc3dPLWNPbURLZXJTTEg3Nk1kN2ZCTUZFQnFPbWZYWVFpaERtY2tWTFN2NlhMa0g0dHFuRHVPNzVraw?oc=5",
-    "source": "Al Jazeera",
-    "published": "2026-11-06T06:13:36+00:00",
+    "title": "Some Democrats don’t want to wait for January to block Trump’s war in Iran",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOcUplVHdkRmVaZDVmNGJaRDh3MTI1QUU3ckJCN25wVXRxOTM1a2FoejJadkpwUnd6THVzUnlLaGlQR0pUXzUtd3ptQnZucFBFUlhOUUw1SHpJWU9ITWFaOUM2MnRYQmZXSWxhMThmMFFRbU5lQ1NNeFI1WnFlSlRRakxUZ1k1Rm1YaUZvX3pKbDE5UQ?oc=5",
+    "source": "Politico",
+    "published": "2026-11-06T09:45:00+00:00",
     "lede": null,
     "lang": "en"
    }
