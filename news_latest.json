@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-06T07:31:00.825428+02:00",
+ "generated_at": "2026-11-06T08:31:03.400012+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -8,6 +8,30 @@
  },
  "sections": {
   "us": [
+   {
+    "title": "'I've taken an extra job to pay for heating oil'",
+    "url": "https://www.bbc.co.uk/news/articles/cmj47j7e92gvo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC",
+    "published": "2026-11-06T06:06:00+00:00",
+    "lede": "People in Sussex say they are taking on extra work and not heating their homes due to oil prices.",
+    "lang": "en"
+   },
+   {
+    "title": "India as an AI hedge? The country's stocks could see robust inflows as markets globally tank",
+    "url": "https://www.cnbc.com/2026/11/06/india-ai-tech-hedge-nifty50.html",
+    "source": "CNBC",
+    "published": "2026-11-06T06:02:36+00:00",
+    "lede": "Over the last month, India's Nifty 50 has gained nearly 9%, while markets with heavy AI exposure, including the U.S., Japan, South Korea and Taiwan are deep in the red.",
+    "lang": "en"
+   },
+   {
+    "title": "Global tech stocks plunge as US midterms add to AI slowdown fears",
+    "url": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC",
+    "published": "2026-11-06T06:00:59+00:00",
+    "lede": "Investors have reacted to possible tougher scrutiny of data centre construction and the AI industry.",
+    "lang": "en"
+   },
    {
     "title": "Renewed U.S.-Iran tension could push oil past $100: Rapidan Energy",
     "url": "https://www.cnbc.com/2026/11/06/us-iran-war-trump-hormuz-oil-midterms.html",
@@ -23,6 +47,14 @@
     "published": "2026-11-06T05:19:00+00:00",
     "lede": "בהמשך ליום המסחר הגרוע ביותר שנרשם במדדים המובילים בארה\"ב מאז אפריל 2025, בורסות אסיה רושמות הבוקר ירידות חדות",
     "lang": "he"
+   },
+   {
+    "title": "Should You Wait Before Buying Bloom Energy Stock?",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQNnZMSXBLbl9SNTFDT1BmZEpkTHVVUG9nb3VXakhnNzU0SXhfbDJQQnVpQTlsMWRwMllud25lNEtiS1ZBenV2bnpzcjVVcGVxaTBhVDVaRTlHNHdYSDRrV1gwaTJ6M2Q5dFZqdU5Ha1NIQmVKUVJRMW1qTXFKNGRuUUdSb0pCTmhiUVFyUnBtUXkwSl9KRjU3dTVXcw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-06T05:18:11+00:00",
+    "lede": null,
+    "lang": "en"
    },
    {
     "title": "שני ישראלים מואשמים בהונאה של 129 מיליון דולר בארה\"ב",
@@ -55,41 +87,25 @@
     "published": "2026-11-06T05:00:00+00:00",
     "lede": null,
     "lang": "en"
-   },
-   {
-    "title": "Dow Futures Fall, Techs Rise After Market Sell-Off. What To Do Now.",
-    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxONko0NmFjRU1udUJFdmdCRVBzbFpMVVFwWlR3cWY4aThIV1NrVTlKbzFjTHlNNzBwLU1tOTV1UktuSUtVMHQzc0h2UGMzdXZZQ0FwN1ZELVR0REhSSFFfcXVPbW8xN21CQXgyZENhVkZxeFh5dmpsRWVJTjJPdjlFLWR5NjU4eG9uUjFDcEZEcjUzbmFzcGpkbW9CTkVwN3hjVWZqTWdMUnZaUnFkOFJ5ZTNvWHljVjZCSDgwV2JoRXR5aE9ROFU3TXoyRVlmTkhCZ0E?oc=5",
-    "source": "Investor's Business Daily",
-    "published": "2026-11-06T04:05:00+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Elon Musk's Tesla and SpaceX lose over $420 billion in combined market cap after midterms",
-    "url": "https://www.cnbc.com/2026/11/05/tesla-spacex-stocks-fall-after-2026-midterms.html",
-    "source": "CNBC",
-    "published": "2026-11-06T03:20:43+00:00",
-    "lede": "Elon Musk's Tesla and SpaceX lose $420 billion in combined market cap after midterms",
-    "lang": "en"
-   },
-   {
-    "title": "What Is The Market Seeing In Enpro Stock?",
-    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxORml6SEMxemtLekZqTFpkVm13eHNsdEhHOHIxR1UzQkxybUZDRWdCeERRWVVLc0lvajFGZzNWQnNtMGJmaDVCWUhkcDJGc3k2MmRtaldvNXdOS2FrTU9JSk5qUVpEbUJJc0oyQkFPQ2xpcVFnMk9sWExHRHdFM29pMjFsMjlIdmNid3hHX0ljcEtKQ3BU?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-06T03:13:03+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Global tech stocks plunge as US midterms add to AI slowdown fears",
-    "url": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC",
-    "published": "2026-11-06T02:57:24+00:00",
-    "lede": "Investors have reacted to possible tougher scrutiny of data centre construction and the AI industry.",
-    "lang": "en"
    }
   ],
   "il": [
+   {
+    "title": "חמישה דברים שכדאי לדעת לקראת פתיחת המסחר בבורסה",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562306#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-06T06:07:00+00:00",
+    "lede": "המסחר בת\"א ייפתח הבוקר על רקע הירידות החדות אתמול בוול סטריט",
+    "lang": "he"
+   },
+   {
+    "title": "לצאת מהשוק או דווקא לקנות בירידות?",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBvMXQyY3pHN2RMVXBMOHZ0VkRYWmVBTTNvZVpEUzg1SGxVZDloVE1iZnExdTBIckZpd0hxT1BRQXJISEhXQl93SU5qLXRGdEZYN0hsZEdLLXZfcUduWno1cEZXcFFLN184NkZyaXp1cFI?oc=5",
+    "source": "ביזפורטל",
+    "published": "2026-11-06T05:11:00+00:00",
+    "lede": null,
+    "lang": "he"
+   },
    {
     "title": "חברות ההייטק משלמות ארנונה נמוכה יותר - אבל מכניסות לעיריות הרבה כסף",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001561089#utm_source=RSS",
@@ -115,14 +131,6 @@
     "lang": "he"
    },
    {
-    "title": "האם הטסלה החדשה שווה תוספת של 40 אלף שקל?",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562239#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-06T04:09:00+00:00",
-    "lede": "טסלה Y החדשה מאיצה ל־100 ב־3.5 שניות, מתנהגת כמו מכונית ספורט ומצוידת במודל AI שמנהל שיחה חופשית בעברית",
-    "lang": "he"
-   },
-   {
     "title": "צפי לפתיחה שלילית: טאואר בפער של כ-4.5%, פאלו אלטו כ-3.1%",
     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1FQVlEb1gzV1hUWk9obUpUZFJ4ZVBYVHAyeWlIT1lXLVhNLXBLUHNwZ2s0dkpZREVhZFM0SGVfd2xwNTJLTGZmOURQR19DZWRLV3dmdUpKcmE4UGdraFBqNlNuR0hicWpKZ3NYV0otZVQ?oc=5",
     "source": "ביזפורטל",
@@ -145,14 +153,6 @@
     "published": "2026-11-05T16:27:11+00:00",
     "lede": null,
     "lang": "he"
-   },
-   {
-    "title": "מהשבבים ועד הודו: שלוש קרנות חדשות מגיעות לבורסה בתל אביב",
-    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBnNHZkbEpEb21kSmdkOUlKb1JwLVMyMS1QOVlzci1uVFI5clJUa3pNTDdtNmFGbVhjMzZXaVdtQng2emlpNW5xaXJ2azdjU0pCb3FmQW5EcmFUSW04X3VEYThzNFhKUQ?oc=5",
-    "source": "מעריב",
-    "published": "2026-11-05T10:18:24+00:00",
-    "lede": null,
-    "lang": "he"
    }
   ],
   "geo": [
@@ -165,10 +165,10 @@
     "lang": "en"
    },
    {
-    "title": "Ukraine war briefing: Zelenskyy says Russia has damaged ‘every power plant’ as he seeks Latin American help",
-    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPbUZXOXBNZWtMVHlwOUV3TkdQaV84SGFKVnoyVG5mX3M1NVlTVVFadkMzVThCS09Za3dBOFluUHlXTWh5eEtLa3ZUYV9BNDRMWnYtdFZubVFqTzZ0Ty1WRlNGd1c2YXVoY3J5ZHdCd3JUOEs0SzlVQ0RUVk9DVWI1SnMyaERteFdpWWFneVhESmVaS2NnVVNxLUI4T1lYMFQ4Wms4b1R0T3MyMU53UmpmY3JaaVVuVl9BNjB0OUlscXdzZXVDWDNyR0xBU3N6amhsMVFtY1FDRzZWbXk5RU1iRjlfYXE?oc=5",
-    "source": "The Guardian",
-    "published": "2026-11-06T04:50:00+00:00",
+    "title": "‘I’ve never supported endless war’: Farage seeks to limit Trump fallout",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQWGFxbjFFcWYwaWxQZGpSSmY5Z0YxeU1KZDJYQ2h4OUdZMmhpcF9LaXhJdnlkaHktNG9Mdl90YTlMTGhZaXJkRF9GTTU2d25UdkFOYzU5Tm9rRTVHcUhwQnE4dUwzWXphZGVacU9KVG9oVEt6VlRhWnE5RF82Y2x2OEQ3ZjQ?oc=5",
+    "source": "Financial Times",
+    "published": "2026-11-06T05:00:14+00:00",
     "lede": null,
     "lang": "en"
    }
