@@ -70,6 +70,11 @@ FEEDS = [
         '(strategist OR analyst OR "investment bank") (says OR warns OR predicts OR expects OR sees OR forecast) '
         '(stocks OR "S&P 500" OR market OR nasdaq OR "wall street") when:3d'),
         hl="en-US", gl="US", ceid="en"), None, False),
+    # Israeli analysts (Erez's source list: ביזפורטל, גלובס) - genuine reviews only;
+    # Hebrew Investing.com items are auto-translated boilerplate and get dropped.
+    ("analysts", GN.format(q=urllib.parse.quote(
+        '(אנליסט OR אנליסטים) ("מחיר יעד" OR המלצה OR שדרג OR הוריד OR תחזית OR בורסה) when:4d'),
+        hl="he", gl="IL", ceid="he"), None, False),
 ]
 
 # Analysts section: only established market/news outlets.
@@ -78,22 +83,27 @@ ANALYST_SOURCES = {
     "thestreet", "yahoo finance", "zacks", "morningstar", "marketbeat", "benzinga",
     "tipranks", "24/7 wall st.", "investor's business daily", "financial times",
     "the wall street journal", "investing.com", "fortune", "seeking alpha",
+    "ap news", "associated press", "xtb",
+    "גלובס", "כלכליסט", "דה מרקר", "ביזפורטל",
 }
 # Automated rating services, template/SEO pages and AI-generated content are
 # not analyst reviews - drop them even from whitelisted sites.
 ANALYST_DROP = re.compile(
     r"wall street zen|consensus price target|according to analysts|ai analyst|"
     r"stock forecast (&|and) (analyst )?price target|stock price forecast: "
-    r"investment banks|eps forecast|stock quote price and forecast", re.I)
+    r"investment banks|eps forecast|stock quote price and forecast|"
+    r"יעד המחיר|מאת investing\.com", re.I)
 # A single-stock rating/target change, not a market view - capped in the mix.
 STOCK_CALL = re.compile(
     r"\((?:NYSE|NASDAQ|NYSEAMERICAN|TSE|LSE)\s*:\s*[A-Z]+\)|stock (price target|rating|shares)|"
     r"price target|upgrad|downgrad|initiated coverage|reiterates|reinstates|"
-    r"raised to|cut to|lowered to", re.I)
+    r"raised to|cut to|lowered to|"
+    r"שדרג|(מוריד|מעלה|הוריד).{0,15}(דירוג|המלצ)|מחיר יעד|המלצת קנייה|המלצת מכירה", re.I)
 MARKET_VIEW = re.compile(
     r"sell-?off|rally|\bstocks\b|stock market|\bmarkets?\b|s&p|nasdaq|dow jones|sector|"
     r"investors|outlook|rout|bull|bear|recession|correction|volatil|wall street|"
-    r"indexes|indices", re.I)
+    r"indexes|indices|"
+    r"בורסה|שוק|מדד|מניות|ת\"א 35|תל אביב|נאסד\"ק|וול סטריט", re.I)
 
 # Named firms / known strategists in the headline = a real desk note, rank it up.
 BIG_FIRM = re.compile(
@@ -101,7 +111,8 @@ BIG_FIRM = re.compile(
     r"deutsche|jefferies|evercore|wells fargo|piper|oppenheimer|wedbush|raymond james|"
     r"needham|truist|mizuho|cantor|susquehanna|scotiabank|\brbc\b|bernstein|stifel|"
     r"guggenheim|hsbc|nomura|keybanc|baird|loop capital|da davidson|canaccord|\bbmo\b|"
-    r"wolfe|redburn|morningstar|s&p global|dan ives|strategist|wall street's", re.I)
+    r"wolfe|redburn|morningstar|s&p global|dan ives|strategist|wall street's|"
+    r"פסגות|מיטב|אלטשולר|הפניקס|ילין לפידות|\bIBI\b|לידר|אקסלנס|איי\.בי\.אי", re.I)
 
 # English general-business feeds that must pass the market-headline filter.
 KW_FILTERED = {"CNBC", "MarketWatch", "Financial Times", "BBC", "The Guardian", "Seeking Alpha"}
@@ -298,7 +309,8 @@ def main():
     # outlets above boilerplate rating-change templates; freshest wins ties.
     ANALYST_EDITORIAL = {"marketwatch", "barron's", "reuters", "bloomberg.com", "cnbc",
                          "investor's business daily", "yahoo finance", "financial times",
-                         "the wall street journal", "morningstar", "seeking alpha"}
+                         "the wall street journal", "morningstar", "seeking alpha",
+                         "גלובס", "כלכליסט", "דה מרקר", "ביזפורטל"}
     ANALYST_BOILER = re.compile(
         r"stock price expected to (rise|fall)|reiterates .{0,40} stock rating|"
         r"raises .{0,40} stock price target|cuts .{0,40} stock price target", re.I)
