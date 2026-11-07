@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-07T23:31:02.850384+02:00",
+ "generated_at": "2026-11-08T00:30:59.065245+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -9,6 +9,14 @@
  },
  "sections": {
   "analysts": [
+   {
+    "title": "Forget tech and hide out in these stocks instead, Goldman Sachs says",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPWGVLNzNaLVZTNFp0cDJ0MWZjX24xMHJhUjhRa2hjeGd5V3ZRc3FfbWJXa0lQU0txajlYdjREUFBlT2ZmQ25UbDJnQW9qTl9FRldKZUw5TE5oc3lQVy1DbzV0TVFvRUpmTThzOTNaYkRvWHlhMWJ6cTJkVWZiS1puNVNlMTF4NGg0ZTE3djFXdzlINTd0aE1Qc0h0T185T3NOXzduZ0xFSQ?oc=5",
+    "source": "CNBC",
+    "published": "2026-11-07T12:58:23+00:00",
+    "lede": null,
+    "lang": "en"
+   },
    {
     "title": "Tech Stock Sell-Off 'Golden Buying Opportunity,' Says Dan Ives",
     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNMFp5MkZrdXJOeWVrcjZwSzlXNHYtcXhZbHllRzRMd2F0Tmwyck9GUTZGQ0VIdWd5U0pzYWMxNU1rZDQzZGJvVzJqb2I3Q3hiSFNnWWFLQ1JxdFF3SEVCSVdESkNfcnR4ajVLVkVpN0xsM2JPRXZaMWYzREpjeERCU2xfUjktbjNNMlNFRHNHRTJXYVd6VEdhNWRZYzVaOW8?oc=5",
@@ -40,38 +48,30 @@
     "published": "2026-11-05T16:03:28+00:00",
     "lede": null,
     "lang": "en"
-   },
-   {
-    "title": "EXCLUSIVE: Nasdaq 100 Suffers Worst Day Since 2020, but Credit Markets Aren't Panicking, Says S&P Global Analyst",
-    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUDZ1WUtZX28tdVFpeFBWaWJKTUtFakxHeU0xRVdDSGw1bjQwSktjVnlYMWxfMXRhRk5hQXFab1k2Q2pqRWc2MmxLRUoyd05LSWxtQVlqM2ZVTWtTVHMxdXVkZlJNQjk4Y0NYd25Ua3NSbTdzYnhYR1padmg0dnVOMFhMYWdaZ3NGc08zWkVKLXhTSWlqdFdRLVBWdWVac0tkUTBFVmgyenRTQU1uY3Y4VlNVeEVkNHgz?oc=5",
-    "source": "Benzinga",
-    "published": "2026-11-06T16:06:15+00:00",
-    "lede": null,
-    "lang": "en"
    }
   ],
   "us": [
    {
-    "title": "What Global Payments (GPN) Earnings Beat Means For Shareholders",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWFFIUkI2UEVyZ2U0Wkc2cnl5a2VVV1VrRTBwYldCZ2J5dTFTMXU1cTdiOXNBUjd5SFQxeVQ0SzE3SUwxSnhwVGptdlVJV2RGVE5feUhQajZVY0c2MWRka1c1VWZWV0dNUGQ2eS1mUGpfNXYzTmMyOEE4RENsd003QlhscmdjOE5lQ0dyVXZnV3NLRUZuSWNyMUlzc3d3dGM?oc=5",
+    "title": "Mosaic Q3 Earnings Call Highlights",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPY2dzRUNZS2hpaE1Lc05vZTc5SDNWMlRRaFladm1nZkw3YUs4dUphLVZ0a0hPcUhWbmZycHdUSlRvQ002aG9PZWFYZC1acXlzS1NqQjVVNkZURkxvSmdsekcyVkY0VURoNExodHZyZHhlcWhzRm1Ya0RwVlN1X00zZnR5N1hUS2FGMTVPSEF6OVQxTkRVdERtcnF3R1BrVFA3?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-07T21:10:34+00:00",
+    "published": "2026-11-07T22:14:16+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "SpaceX's December Lockup Is Nearly the Biggest Share Unlock in IPO History. History Says This Is What Happens Next.",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQVFVaREdwb29kZHB0WU5zN3RCM0Q5QjBtM2NKUnJnOE42WTZXejVIMGJ0R3RRT2JsbU1Nb2w5dVhrVWZuTGFYdE9rUGwwMThneWxSbEJsWEZnN2JIMm5vZTlvVldQeUNvTFZsX2UyT2xBbl9kR1lBMkVkZ2lNUXVic2NVMUhBREstVDFzRHZMMGRCTGNvT1dZbHVXWktpckhVXzhYUzh3?oc=5",
+    "title": "Equity positioning suffered one of its sharpest weekly drops on record: DB",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNWUtNQmtQU1FlUDZWWC1keXphbHJuUHg2NjZ4ZHNzNjJQMDIxc1BhbXJfQzdiN25HUnN3bDNuUl9ldlBFcWFXZTBSQVhBRG1fOW9SY3pMNmk4OGpFcWNkUmY1OU5ybVlZVExYdXBoZ3cxNEdkQWRQNkV3WWRzcXdzNzR4b294YUlpTEpfRjU2ZDVVZmo2MEhlalB5T2VVX2VtUEZUUGs5X1I?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-07T21:05:00+00:00",
+    "published": "2026-11-07T21:37:06+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "This Warren Buffett Dividend Stock Is the One I'd Buy With $1,000 in November",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQeWNYVVdULV9FeUxCTzZnTEI3dHU0SjZvRV82QTd4ZnRDeHZZYVVnMXJadEpHeVkzV29LbDd1Wmt1NGdxQmtQbGptUmtRYktvbVNjTXRwQ0dQNkc4OG9GaXZKQjBtMk1vbWVwbFRZbmdPQXpSVkRkcjd5YnRMQ0JGaE1nNmtKUHEwdmJ3OHh6ZHE3QXVMZ3BpZU4wMUZMRUE?oc=5",
+    "title": "DraftKings: 3 Key Takeaways for Long-Term Investors",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOcnNHQ0pOUHNpblluV18yTWxIcWZhSDUxYldETmo4YnRQUWdnZjZmSWxjQ3ZoTm1SS3lWSnlhNFJNNnZHLXNUQy1Ua1psRmlZZHN6aTk1T2JobURBM25sa29DVnpCVzBwWDg3a1MzbjFvZWtZWDN5REJaaTBzVGhNdlRiY0xyTVZNWk1mNFpPbUQ1czB4dllLVWxEMkM?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-07T20:50:00+00:00",
+    "published": "2026-11-07T21:32:32+00:00",
     "lede": null,
     "lang": "en"
    },
@@ -100,6 +100,14 @@
     "lang": "he"
    },
    {
+    "title": "Applied Materials: A Consequential Earnings Preview For The Whole Market (Rating Upgrade)",
+    "url": "https://seekingalpha.com/article/4964600-applied-materials-consequential-earnings-for-whole-market-rating-upgrade?source=feed_all_articles",
+    "source": "Seeking Alpha",
+    "published": "2026-11-07T17:22:15-05:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
     "title": "The S&P 500 could be dangerously exposed to AI. Here are some simple alternatives.",
     "url": "https://www.marketwatch.com/story/the-s-p-500-has-become-a-big-ai-bet-here-are-some-simple-alternatives-3c7574a4?mod=mw_rss_topstories",
     "source": "MarketWatch",
@@ -121,14 +129,6 @@
     "source": "CNBC",
     "published": "2026-11-07T16:02:33+00:00",
     "lede": "Healthcare stocks may struggle to find momentum as the Democrats get ready to take over Congress.",
-    "lang": "en"
-   },
-   {
-    "title": "Berkshire Hathaway more than doubles buybacks in third quarter as earnings decline",
-    "url": "https://www.cnbc.com/2026/11/07/berkshire-hathaway-q3-2026-earnings-buybacks.html",
-    "source": "CNBC",
-    "published": "2026-11-07T15:23:46+00:00",
-    "lede": "Berkshire Hathaway said Saturday it accelerated its share repurchases during the third quarter, as operating and overall profits took a hit.",
     "lang": "en"
    }
   ],
@@ -179,7 +179,7 @@
     "title": "Utah’s roller-coaster Holy War win cements Utes as Big 12’s best. Can they be more than that?",
     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNLTJfblpPZExqcFFDN0VmZzQ5aXVMVGU3cFZtNDBaQ3NPWGFuckNJZ0FhNjluS05Hbi05SDRydTgzU2dGdFJSUHJDWmptWWtXOXRvYXVZVVc5am9XMU1rQnFRU0hma0pJb2d4aGpodFVReXVyNFEtdXktVW02TllUQTBzdklMVWdmWVRNdg?oc=5",
     "source": "The New York Times",
-    "published": "2026-11-07T20:56:17+00:00",
+    "published": "2026-11-07T22:09:12+00:00",
     "lede": null,
     "lang": "en"
    },
