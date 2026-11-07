@@ -979,15 +979,21 @@ EXTRA_ETF_NAMES = {s for s, _ in EXTRA_ETF_ROWS}
 CHANGE3_SYMBOLS = [("^VIX", "VIX", "נקודות", False), ("^TNX", "US 10Y", "נקודות אחוז", False),
                    ("BZ=F", "Brent", "דולר", True), ("CL=F", "WTI", "דולר", True)]
 # Shekel exchange rates (requested 2026-11-05): compact row under the 3-day block.
-FX_SYMBOLS = [("USDILS=X", "דולר/שקל"), ("EURILS=X", "יורו/שקל")]
+# Gold + Bitcoin in USD added 2026-11-07 at Erez's request. Yahoo has no spot-gold
+# symbol, so gold is the COMEX front-month future - labeled as such on the page,
+# never presented as spot. (symbol, label, price decimals)
+FX_SYMBOLS = [("USDILS=X", "דולר/שקל", 3), ("EURILS=X", "יורו/שקל", 3),
+              ("GC=F", "זהב/דולר", 0), ("BTC-USD", "ביטקוין/דולר", 0)]
 
 
 def fx_quotes():
-    """USD/ILS and EUR/ILS latest rates with their Yahoo quote timestamps.
-    Rates are shekels per one dollar/euro; changes are vs previous daily closes."""
+    """USD/ILS, EUR/ILS, gold and bitcoin latest rates with Yahoo quote timestamps.
+    FX rates are shekels per one dollar/euro; gold is the COMEX front-month
+    future in USD per troy ounce (GC=F - futures, not spot); BTC in USD.
+    Changes are vs previous daily closes."""
     out = []
     params = urllib.parse.urlencode(
-        {"symbols": ",".join(s for s, _ in FX_SYMBOLS), "range": "1y", "interval": "1d"})
+        {"symbols": ",".join(s for s, _, _ in FX_SYMBOLS), "range": "1y", "interval": "1d"})
     url = "https://query1.finance.yahoo.com/v7/finance/spark?" + params
     try:
         data = http_get_json(url, timeout=30)
@@ -995,7 +1001,7 @@ def fx_quotes():
         fail("overview", f"fx spark failed: {e}")
         return out
     res = {i.get("symbol"): i for i in data.get("spark", {}).get("result", [])}
-    for sym, name in FX_SYMBOLS:
+    for sym, name, dec in FX_SYMBOLS:
         item = res.get(sym)
         if not item:
             continue
@@ -1010,7 +1016,7 @@ def fx_quotes():
             continue
         day = (closes[-1] / closes[-2] - 1.0) * 100.0
         pct3 = (closes[-1] / closes[-4] - 1.0) * 100.0 if len(closes) >= 4 and closes[-4] else None
-        out.append({"sym": sym, "name": name, "rate": closes[-1],
+        out.append({"sym": sym, "name": name, "rate": closes[-1], "dec": dec,
                     "day_pct": day, "pct3": pct3, "ts": ts})
     return out
 
@@ -1819,6 +1825,11 @@ padding:12px;margin:10px 0}
 .news-link:hover{text-decoration:underline}
 .news-meta{color:#9ca3af;font-size:.78rem;margin-top:3px}
 .a-src{color:#9ca3af;font-size:.75rem}
+details.src summary{cursor:pointer;color:#6b7280;text-decoration:underline dotted;list-style:none;display:inline}
+details.src summary::-webkit-details-marker{display:none}
+details.src summary::after{content:" ▾"}
+details.src[open] summary::after{content:" ▴"}
+details.src[open]{background:#f9fafb;border:1px solid #e5e7eb;border-radius:8px;padding:6px 10px;margin-top:4px}
 .alert.btpos{border-right-color:#16a34a}
 .alert.btneg{border-right-color:#ef4444}
 .alert.btneu{border-right-color:#f59e0b}
@@ -2089,7 +2100,7 @@ def build_html(mh, dips, alerts, bo, updated, extra=None):
             parts.append("</div>")
             parts.append('<div class="ts">שלושה מרווחי מסחר אחרונים, לא שלושה ימים קלנדריים · Yahoo Finance</div>')
         if ov.get("fx"):
-            parts.append('<h3 class="sec">שערי חליפין · מול השקל</h3>')
+            parts.append('<h3 class="sec">שערי חליפין, זהב וביטקוין</h3>')
             parts.append('<div class="chg3 fx">')
             for f in ov["fx"]:
                 bits = []
@@ -2099,7 +2110,7 @@ def build_html(mh, dips, alerts, bo, updated, extra=None):
                     bits.append("3 ימים: " + pct2(f["pct3"]))
                 parts.append(
                     f"<div><span>{esc(f['name'])}</span>"
-                    f'<b dir="ltr">{f["rate"]:.3f}</b>'
+                    f'<b dir="ltr">{f["rate"]:,.{f.get("dec", 3)}f}</b>'
                     f"<small>{' · '.join(bits)}</small></div>")
             parts.append("</div>")
             tss = [f["ts"] for f in ov["fx"] if f.get("ts")]
@@ -2109,9 +2120,12 @@ def build_html(mh, dips, alerts, bo, updated, extra=None):
                 run_d = updated.astimezone(JER).date() if updated.tzinfo else updated.date()
                 when = (f"{d_q.hour}:{d_q.minute:02d}" if d_q.date() == run_d
                         else f"{d_q.day}.{d_q.month}, {d_q.hour}:{d_q.minute:02d}")
-            ts_line = ("שער בשקלים לדולר/יורו · Yahoo Finance"
-                       + (f" · נכון ל־{when}" if when else ""))
-            parts.append(f'<div class="ts">{esc(ts_line)}</div>')
+            ts_line = "זהב: חוזה עתידי $/אונציה" + (f" · נכון ל־{when}" if when else "")
+            parts.append(f'<div class="ts">{esc(ts_line)} · '
+                         '<details class="src"><summary>מקור</summary>'
+                         'דולר/יורו בשקלים · ביטקוין בדולרים · זהב = חוזה COMEX קרוב (GC=F), לא ספוט · '
+                         'שינוי יום/3 ימים מול סגירות יומיות · Yahoo Finance'
+                         '</details></div>')
         if ov["sectors"]:
             parts.append('<h3 class="sec">מפת המגזרים · יום אחרון (ושינוי ב-3 ימי מסחר)</h3>')
             parts.append('<div class="hmap">')
@@ -2733,11 +2747,11 @@ def build_html(mh, dips, alerts, bo, updated, extra=None):
             if not _shown:
                 parts.append('<div class="empty">אין כרגע כותרות עדכניות - הרשימה מתעדכנת מדי שעה.</div>')
             if _sid == "analysts":
-                parts.append('<div class="ts">סקירות, תחזיות ודירוגים של אנליסטים מהבנקים ואתרי השוק '
-                             'המובילים - קישורים ישירות למקור, ללא ניסוח מחדש · חלק מהמאמרים עשויים '
-                             'להיות פתוחים למנויים בלבד</div>')
-        parts.append('<div class="ts">כותרות, שורות פתיחה וקישורים ישירות מהמקורות: CNBC, MarketWatch, FT, '
-                     'BBC, The Guardian, Seeking Alpha, גלובס, וואלה ו-Google News · ללא שכתוב, ללא המלצות</div>')
+                parts.append('<div class="ts">ישירות מהמקור, ללא ניסוח מחדש · חלק מהמאמרים במנוי</div>')
+        parts.append('<div class="ts"><details class="src"><summary>מקורות</summary>'
+                     'כותרות, שורות פתיחה וקישורים ישירות מהמקורות: CNBC, MarketWatch, FT, '
+                     'BBC, The Guardian, Seeking Alpha, גלובס, וואלה ו-Google News · ללא שכתוב, ללא המלצות'
+                     '</details></div>')
     parts.append("</div>")
 
     # ================= bottom tab bar =================
