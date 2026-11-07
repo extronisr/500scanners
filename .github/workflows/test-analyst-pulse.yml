@@ -1,0 +1,44 @@
+name: Test analyst pulse (branch-only)
+on:
+  push:
+    branches: [test/analyst-pulse]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements-dev.txt
+      - name: Run full test suite
+        run: python -m pytest tests/ -q
+      - name: Run news collector from runner
+        run: |
+          python news_pulse.py --force
+          python - <<'EOF'
+          import json
+          d = json.load(open('news_latest.json'))
+          print("analysts section from GitHub runner:")
+          for it in d['sections'].get('analysts', []):
+              print('-', it['source'], '|', it['title'][:90])
+          print('failed sources:', d.get('sources_failed'))
+          EOF
+      - name: Probe direct RSS availability from runner
+        run: |
+          UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/142 Safari/537.36"
+          for u in \
+            "https://247wallst.com/feed/" \
+            "https://www.benzinga.com/feed" \
+            "https://www.marketbeat.com/rss/" \
+            "https://www.tipranks.com/feed" \
+            "https://www.investing.com/rss/news_25.rss" \
+            "https://feeds.content.dowjones.io/public/rss/RSSMarketsMain" \
+          ; do
+            code=$(curl -s -o /dev/null -A "$UA" -w '%{http_code}' -m 20 -L "$u")
+            echo "PROBE $code $u"
+          done

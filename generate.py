@@ -2704,9 +2704,12 @@ def build_html(mh, dips, alerts, bo, updated, extra=None):
         _now = datetime.now(JER)
         _news_secs = (news.get("sections") or {})
         _windows = news.get("windows_h") or {}
-        for _sid, _label, _defwin in (("us", "וול סטריט והעולם", 14),
+        for _sid, _label, _defwin in (("analysts", "סקירות אנליסטים בכירים", 72),
+                                      ("us", "וול סטריט והעולם", 14),
                                       ("il", "ישראל", 20),
                                       ("geo", "גיאופוליטי", 48)):
+            if _sid == "analysts" and not (_news_secs.get(_sid) or []):
+                continue
             parts.append(f'<h3 class="sec">{esc(_label)}</h3>')
             _win = timedelta(hours=_windows.get(_sid, _defwin))
             _shown = 0
@@ -2729,6 +2732,10 @@ def build_html(mh, dips, alerts, bo, updated, extra=None):
                 _shown += 1
             if not _shown:
                 parts.append('<div class="empty">אין כרגע כותרות עדכניות - הרשימה מתעדכנת מדי שעה.</div>')
+            if _sid == "analysts":
+                parts.append('<div class="ts">סקירות, תחזיות ודירוגים של אנליסטים מהבנקים ואתרי השוק '
+                             'המובילים - קישורים ישירות למקור, ללא ניסוח מחדש · חלק מהמאמרים עשויים '
+                             'להיות פתוחים למנויים בלבד</div>')
         parts.append('<div class="ts">כותרות, שורות פתיחה וקישורים ישירות מהמקורות: CNBC, MarketWatch, FT, '
                      'BBC, The Guardian, Seeking Alpha, גלובס, וואלה ו-Google News · ללא שכתוב, ללא המלצות</div>')
     parts.append("</div>")

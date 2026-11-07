@@ -39,8 +39,8 @@ JER = ZoneInfo("Asia/Jerusalem")
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/142 Safari/537.36"
 
 REFRESH_MINUTES = 55          # regenerate at most this often (hourly cadence)
-WINDOWS_H = {"us": 14, "il": 20, "geo": 48}   # freshness windows per section
-CAPS = {"us": 10, "il": 8, "geo": 2}
+WINDOWS_H = {"us": 14, "il": 20, "geo": 48, "analysts": 72}   # freshness windows per section
+CAPS = {"us": 10, "il": 8, "geo": 2, "analysts": 5}
 LEDE_MAX = 220
 
 GN = "https://news.google.com/rss/search?q={q}&hl={hl}&gl={gl}&ceid={gl}:{ceid}"
@@ -60,7 +60,48 @@ FEEDS = [
     ("il", GN.format(q=urllib.parse.quote("בורסה when:2d"), hl="he", gl="IL", ceid="he"), None, False),
     ("geo", GN.format(q=urllib.parse.quote('geopolitical OR war OR sanctions OR "middle east" when:2d'),
                       hl="en-US", gl="US", ceid="en"), None, False),
+    # Senior-analyst views and rating calls, aggregated by Google News from a
+    # whitelist of leading market sites only (see ANALYST_SOURCES). Headlines
+    # and links come from the outlets as-is - nothing is written by a model.
+    ("analysts", GN.format(q=urllib.parse.quote(
+        'analyst ("price target" OR upgraded OR downgraded OR "initiated coverage" OR rating) when:3d'),
+        hl="en-US", gl="US", ceid="en"), None, False),
+    ("analysts", GN.format(q=urllib.parse.quote(
+        '(strategist OR analyst OR "investment bank") (says OR warns OR predicts OR expects OR sees OR forecast) '
+        '(stocks OR "S&P 500" OR market OR nasdaq OR "wall street") when:3d'),
+        hl="en-US", gl="US", ceid="en"), None, False),
 ]
+
+# Analysts section: only established market/news outlets.
+ANALYST_SOURCES = {
+    "reuters", "bloomberg", "bloomberg.com", "cnbc", "marketwatch", "barron's",
+    "thestreet", "yahoo finance", "zacks", "morningstar", "marketbeat", "benzinga",
+    "tipranks", "24/7 wall st.", "investor's business daily", "financial times",
+    "the wall street journal", "investing.com", "fortune", "seeking alpha",
+}
+# Automated rating services, template/SEO pages and AI-generated content are
+# not analyst reviews - drop them even from whitelisted sites.
+ANALYST_DROP = re.compile(
+    r"wall street zen|consensus price target|according to analysts|ai analyst|"
+    r"stock forecast (&|and) (analyst )?price target|stock price forecast: "
+    r"investment banks|eps forecast|stock quote price and forecast", re.I)
+# A single-stock rating/target change, not a market view - capped in the mix.
+STOCK_CALL = re.compile(
+    r"\((?:NYSE|NASDAQ|NYSEAMERICAN|TSE|LSE)\s*:\s*[A-Z]+\)|stock (price target|rating|shares)|"
+    r"price target|upgrad|downgrad|initiated coverage|reiterates|reinstates|"
+    r"raised to|cut to|lowered to", re.I)
+MARKET_VIEW = re.compile(
+    r"sell-?off|rally|\bstocks\b|stock market|\bmarkets?\b|s&p|nasdaq|dow jones|sector|"
+    r"investors|outlook|rout|bull|bear|recession|correction|volatil|wall street|"
+    r"indexes|indices", re.I)
+
+# Named firms / known strategists in the headline = a real desk note, rank it up.
+BIG_FIRM = re.compile(
+    r"morgan stanley|goldman|jp ?morgan|bofa|bank of america|\bciti|ubs|barclays|"
+    r"deutsche|jefferies|evercore|wells fargo|piper|oppenheimer|wedbush|raymond james|"
+    r"needham|truist|mizuho|cantor|susquehanna|scotiabank|\brbc\b|bernstein|stifel|"
+    r"guggenheim|hsbc|nomura|keybanc|baird|loop capital|da davidson|canaccord|\bbmo\b|"
+    r"wolfe|redburn|morningstar|s&p global|dan ives|strategist|wall street's", re.I)
 
 # English general-business feeds that must pass the market-headline filter.
 KW_FILTERED = {"CNBC", "MarketWatch", "Financial Times", "BBC", "The Guardian", "Seeking Alpha"}
@@ -220,7 +261,7 @@ def main():
 
     now = datetime.now(timezone.utc)
     ok, failed = [], []
-    raw = {"us": [], "il": [], "geo": []}
+    raw = {"analysts": [], "us": [], "il": [], "geo": []}
     for feed in FEEDS:
         section, url, fixed_source, has_lede = feed[:4]
         kw = feed[4] if len(feed) > 4 else None
@@ -249,8 +290,43 @@ def main():
     SRC_CAPS = {"us": {"Google News": 3, "CNBC": 3, "MarketWatch": 2, "Financial Times": 2,
                        "BBC": 2, "The Guardian": 2, "Seeking Alpha": 1, "Investing.com": 1, "גלובס": 2},
                 "il": {"Google News": 3, "גלובס": 4, "וואלה": 2},
-                "geo": {"Google News": 2}}
+                "geo": {"Google News": 2},
+                "analysts": {"MarketBeat": 1, "Investing.com": 1, "Benzinga": 1}}
     GN_SOURCES = set(SRC_CAPS["us"]) | {"Google News"}
+
+    # Analysts: rank real desk notes (named firm / strategist) and editorial
+    # outlets above boilerplate rating-change templates; freshest wins ties.
+    ANALYST_EDITORIAL = {"marketwatch", "barron's", "reuters", "bloomberg.com", "cnbc",
+                         "investor's business daily", "yahoo finance", "financial times",
+                         "the wall street journal", "morningstar", "seeking alpha"}
+    ANALYST_BOILER = re.compile(
+        r"stock price expected to (rise|fall)|reiterates .{0,40} stock rating|"
+        r"raises .{0,40} stock price target|cuts .{0,40} stock price target", re.I)
+    def _a_score(it):
+        s = 1
+        if BIG_FIRM.search(it["title"]):
+            s += 2
+        if MARKET_VIEW.search(it["title"]):
+            s += 1
+        if it["source"].lower() in ANALYST_EDITORIAL:
+            s += 1
+        if ANALYST_BOILER.search(it["title"]):
+            s -= 2
+        return s
+    # Erez asked for market understanding, not just rating-change headlines:
+    # market/sector views outrank single-stock calls, and calls are capped at 2.
+    def _a_kind(it):
+        t = it["title"]
+        if not STOCK_CALL.search(t):
+            return "view"
+        if re.search(r"\((?:NYSE|NASDAQ|NYSEAMERICAN|TSE|LSE)\s*:\s*[A-Z]+\)", t):
+            return "call"
+        if "analyst call" in t.lower():
+            return "call"
+        return "view" if MARKET_VIEW.search(t) else "call"
+    raw["analysts"].sort(key=lambda it: (_a_score(it), it["published"]), reverse=True)
+    raw["analysts"].sort(key=lambda it: 0 if _a_kind(it) == "view" else 1)  # stable: views first
+    MAX_CALLS = 2
 
     sections = {}
     kept_toks = []          # global: the same story never appears in two sections
@@ -258,7 +334,8 @@ def main():
         window = timedelta(hours=WINDOWS_H[sec])
         per_src = {}
         out = []
-        for it in sorted(items, key=lambda x: x["published"], reverse=True):
+        n_calls = 0
+        for it in (sorted(items, key=lambda x: x["published"], reverse=True) if sec != "analysts" else items):
             pub = datetime.fromisoformat(it["published"])
             if now - pub.astimezone(timezone.utc) > window:
                 continue
@@ -268,6 +345,11 @@ def main():
                 if it["source"].lower() not in GEO_SOURCES:
                     continue
                 if not GEO_KW.search(t) or GEO_EXCLUDE.search(t):
+                    continue
+            elif sec == "analysts":
+                if it["source"].lower() not in ANALYST_SOURCES:
+                    continue
+                if ANALYST_DROP.search(t):
                     continue
             else:
                 if NOT_MARKET_KW.search(t):
@@ -280,10 +362,14 @@ def main():
                     continue
                 if it["source"] == "Seeking Alpha" and SA_NOISE.search(t):
                     continue
-            bucket = "Google News" if is_gn else it["source"]
-            cap = SRC_CAPS[sec].get(bucket, 2)
+            bucket = it["source"] if sec == "analysts" else ("Google News" if is_gn else it["source"])
+            cap = SRC_CAPS.get(sec, {}).get(bucket, 2)
             if per_src.get(bucket, 0) >= cap:
                 continue
+            if sec == "analysts" and _a_kind(it) == "call":
+                if n_calls >= MAX_CALLS:
+                    continue
+                n_calls += 1
             toks = norm_title(t)
             if is_dup(toks, kept_toks):
                 continue
@@ -308,7 +394,8 @@ def main():
     with open(tmp, "w", encoding="utf-8") as f:
         json.dump(payload, f, ensure_ascii=False, indent=1)
     os.replace(tmp, OUT_FILE)
-    print(f"WROTE {OUT_FILE}: us={len(sections['us'])} il={len(sections['il'])} geo={len(sections['geo'])}"
+    print(f"WROTE {OUT_FILE}: analysts={len(sections['analysts'])} us={len(sections['us'])} "
+          f"il={len(sections['il'])} geo={len(sections['geo'])}"
           + (f" failed={failed}" if failed else ""))
 
 
