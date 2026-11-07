@@ -1,59 +1,110 @@
 {
  "version": 1,
- "generated_at": "2026-11-07T15:31:03.038844+02:00",
+ "generated_at": "2026-11-07T16:10:06.685103+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
-  "geo": 48
+  "geo": 48,
+  "analysts": 72
  },
  "sections": {
+  "analysts": [
+   {
+    "title": "Tech Stock Sell-Off 'Golden Buying Opportunity,' Says Dan Ives",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNMFp5MkZrdXJOeWVrcjZwSzlXNHYtcXhZbHllRzRMd2F0Tmwyck9GUTZGQ0VIdWd5U0pzYWMxNU1rZDQzZGJvVzJqb2I3Q3hiSFNnWWFLQ1JxdFF3SEVCSVdESkNfcnR4ajVLVkVpN0xsM2JPRXZaMWYzREpjeERCU2xfUjktbjNNMlNFRHNHRTJXYVd6VEdhNWRZYzVaOW8?oc=5",
+    "source": "Investor's Business Daily",
+    "published": "2026-11-06T21:46:00+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "These three stars need to align before investors rush back into stocks, Bank of America strategist says",
+    "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNYUV6REktLXQ2eFJaVDNsaE95eHRhWERCeWJWbzVyVnVhWTEyVUpFS2pUQlU1am9aeS1Lcy03dEo2SW9BeEVwdjFIRTVIOXByRFdqUmFEVEljR2VBc0R3WmNTSXo1TVRzRHA3N1FJVEJ4X0otNWgzWDNqVmg4RDl1bGUxSnQ3cEdVVUZqaEtqa3ZqVmxSWjBmMmY0OUpsXzRYMndTT0tEdElmQkJfTnZ6MURuaEF4TTVPZkZMZWcwT3JLXzdWWG1SV3NZck1DNTg0TTZ2RmpLMF9MdDk5b0E?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-11-06T15:27:00+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Strategist Who Warned Before Rout Sees Anthropic as Bigger Risk",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQUHIycEZRSkJsN281eURCTG5nSGdPaXAzZzhfWHNLRU5pb2Z5MzZBRlNtMFVyRkVJa0RuMk9SeExIdndfZkxuQ1BSbG01UnlGbDdpVjdiVmJEM3U1cHJ2V285dkhHanNEczJ4QVJqUk1sVXdXZXJObFFSMjNxYXNySWpYZVNNQXU4dmhzNXk1dW5FaHU2WXJyak82emlxdWh3RTd6UlU2NDhhclJEMkpINk5UWmg?oc=5",
+    "source": "Bloomberg.com",
+    "published": "2026-11-06T13:11:30+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "EXCLUSIVE: Nasdaq 100 Suffers Worst Day Since 2020, but Credit Markets Aren't Panicking, Says S&P Global Analyst",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUDZ1WUtZX28tdVFpeFBWaWJKTUtFakxHeU0xRVdDSGw1bjQwSktjVnlYMWxfMXRhRk5hQXFab1k2Q2pqRWc2MmxLRUoyd05LSWxtQVlqM2ZVTWtTVHMxdXVkZlJNQjk4Y0NYd25Ua3NSbTdzYnhYR1padmg0dnVOMFhMYWdaZ3NGc08zWkVKLXhTSWlqdFdRLVBWdWVac0tkUTBFVmgyenRTQU1uY3Y4VlNVeEVkNHgz?oc=5",
+    "source": "Benzinga",
+    "published": "2026-11-06T16:06:15+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "U.S. indexes will hit new highs within three months, says SA analyst",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNlZRWnRoZDFGa04tNkFKWWpDdGFZbTYycTgxY3JDTlBFVDE5TExoZlMzUURBaGgyUG5XeTNsV1RiYUZNZE03TUQySFJzbFRZUm1hVm1adl81XzdFUzBlVXZMcXpuYkNaUTZDOUZ6SklxMmRzZ3JGTVJIb0V0ai1VSnRGVU9BTGxKemtQWjAyVDNJVVJNdk5mRVFlaEVuQkVyUUgwakdrMA?oc=5",
+    "source": "Seeking Alpha",
+    "published": "2026-11-06T21:10:56+00:00",
+    "lede": null,
+    "lang": "en"
+   }
+  ],
   "us": [
+   {
+    "title": "Berkshire shares surge as Wall Street swoons amid AI fears",
+    "url": "https://www.cnbc.com/2026/11/07/berkshire-shares-surge-as-wall-street-swoons-amid-ai-fears.html",
+    "source": "CNBC",
+    "published": "2026-11-07T14:06:20+00:00",
+    "lede": "Berkshire Hathaway shares roared past the S&P 500 index this week and are outperforming the benchmark for the year-to-date.",
+    "lang": "en"
+   },
+   {
+    "title": "Berkshire Hathaway more than doubles buybacks in third quarter as earnings decline",
+    "url": "https://www.cnbc.com/2026/11/07/berkshire-hathaway-q3-2026-earnings-buybacks.html",
+    "source": "CNBC",
+    "published": "2026-11-07T14:02:49+00:00",
+    "lede": "Berkshire Hathaway said Saturday it accelerated its share repurchases during the third quarter, as operating and overall profits took a hit.",
+    "lang": "en"
+   },
+   {
+    "title": "5 Best Stocks to Buy After Democrats’ Midterm Election Victory",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNR2I0MVpoNWpYVUkxbEV0Q2NnbXhtZEhuMFRUS09YQVVIV3Z1cUR6YUFuU0RCSWZtZUVWR0RkcWlvZEhGZkwxRHVjR0dlVm04MjVQWHd1SEZLXzdFTWJZVk1WSGhmSWFDQWhhcl83b3JtTjdQSUlZTGlySFVNMTdTRk1qbWRNQlZvUm05R1J5d0lYY1BYNFNv?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-07T13:55:33+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "3 Passive Income Dividend ETFs That Do the Stock Picking for You",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbk1DQjVlQmVaVDhnMlVNdExhZkh5UWdUOE84cTBXVFQ5SEd4M09jekJzY183U1ZPRXhtTVBJYTduUnZTWWJ3ell2MHBBOGUwaXlNcGtGLU1hdkxHakRLRW1DQkZrOXh4VUZ6N2ctWk5xRGlYeEo1VjFYaFZQUjAxTE9yX1ljX3llQlNRb1dGRU9aSHNibml2UEx2dw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-07T13:39:16+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Everyone Loves This 6.5% Pipeline Yield. Here's the Risk I Think They're Ignoring.",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQdl9nUkZSN2FTU1JMWVFLRVhmQnJfaVpMUjR3SGlYMmRNWF9LWVlKUjI0eGNsZkZhQVJKR3ZFVldxYlh5VzAyNUhFa05HOW5sX2pKLXdXNU83VUt2NTNtYVZ6a2pwM3NmUlllSG5udmRVSVVKWWFHUngzbEJ1SWJMSGlPd19WWmZTeE9ocE5KdFlkTG01WVY0?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-07T13:35:00+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Democrat shaping AI policy bought chip stocks despite backing congressional trading ban",
+    "url": "https://www.cnbc.com/2026/11/07/josh-gottheimer-ai-stocks-congress-trading-ban.html",
+    "source": "CNBC",
+    "published": "2026-11-07T13:30:01+00:00",
+    "lede": "Rep. Josh Gottheimer disclosed new AI-linked stock purchases months after voting for a congressional trading ban, as Democrats prepare to regulate the industry.",
+    "lang": "en"
+   },
    {
     "title": "The AI trade is now counting on Anthropic’s IPO — but it couldn’t be happening at a worse time",
     "url": "https://www.marketwatch.com/story/the-ai-trade-is-now-counting-on-anthropics-ipo-but-it-couldnt-be-happening-at-a-worse-time-8bd0f1c4?mod=mw_rss_topstories",
     "source": "MarketWatch",
     "published": "2026-11-07T13:30:00+00:00",
     "lede": "The ongoing tech selloff is leading investors to wonder if Anthropic will delay its IPO or list at a discount.",
-    "lang": "en"
-   },
-   {
-    "title": "Marvell and Western Digital Just Had Their Worst Week Since 2001",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUGlzLTlkeEVMalRGajV5Vk1PN0F2SlhpZ2h4dkpzWXlieHNDdWItX2w1U2dBQWl4Z1BZM09JQ1BDRTF0UHRqSzBVaDlJaFdKclE3anZnbHkzclJ6dS1tR1pIaXdaRnVtLUZvWDJnSG5NVFBBSnRQUnhkZmdBTFdETVppZ0Z0aFJCa01BUWlicUJLeGdCOHlwRWR4cU1GQQ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-07T13:11:06+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Smart Investor: 7 Undervalued Stocks That Just Raised Dividends",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxObGMwd1ZtSXl3UXh2Ui1wQjlqeDZSVVh4anVqYjZ3dnpKM2NKNnd5MV9YZ29lTUdCWmppNE45dlM3dXNRN0tzeDR4N0FRMHZ0R3o2bE9xVXB4TzRGQmUxVWF3dGtOcXN5WnlfWEZWbW1rZUdTdWRIb2l1NlNRTEpNMlFISHVoNEZib09JcEdjeDNJdldQX2FfenQtdm9ubEE?oc=5",
-    "source": "Morningstar",
-    "published": "2026-11-07T13:07:30+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "ELF Beauty, Palomar Lead Five Stocks Near Buy Points In Ailing, Volatile Market",
-    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE4ydW80OEpiSV9PdjFWNENFcks0Z0pKTEhNX0FZQ0NKTU5mQzI1aGlXMzN4V0lsbkpzb2FFQUt1a1BJYnVxU3BZRzBOWWcwWDhJQk1CZGM3Qm5hZUpFMlNBaTZILWlSTV9EMWlDQ2wwMll1c1hyTnVEa0hGMGk?oc=5",
-    "source": "Investor's Business Daily",
-    "published": "2026-11-07T13:07:00+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Anthropic IPO meets AI backlash after midterms show stinging rebuke of data centers",
-    "url": "https://www.cnbc.com/2026/11/07/anthropic-ipo-ai-data-center-backlash.html",
-    "source": "CNBC",
-    "published": "2026-11-07T13:00:01+00:00",
-    "lede": "Anthropic is poised to become the first pure-play AI company to hit the public market at a time when the public is increasingly leary of the industry.",
-    "lang": "en"
-   },
-   {
-    "title": "Berkshire shares surge as Wall Street swoons amid AI fears",
-    "url": "https://www.cnbc.com/2026/11/07/berkshire-shares-surge-as-wall-street-swoons-amid-ai-fears.html",
-    "source": "CNBC",
-    "published": "2026-11-07T12:49:19+00:00",
-    "lede": "Berkshire Hathaway shares roared past the S&P 500 index this week and are outperforming the benchmark for the year-to-date.",
     "lang": "en"
    },
    {
@@ -65,10 +116,10 @@
     "lang": "en"
    },
    {
-    "title": "Enerpac Tool Group Corp. (EPAC) Analyst/Investor Day - Slideshow",
-    "url": "https://seekingalpha.com/article/4964598-enerpac-tool-group-corp-epac-analyst-investor-day-slideshow?source=feed_all_articles",
+    "title": "NICE Ltd. Is Growing While The Market Stays Skeptical",
+    "url": "https://seekingalpha.com/article/4964589-nice-is-growing-while-the-market-stays-skeptical?source=feed_all_articles",
     "source": "Seeking Alpha",
-    "published": "2026-11-07T08:17:40-05:00",
+    "published": "2026-11-07T09:00:27-05:00",
     "lede": null,
     "lang": "en"
    },
@@ -79,19 +130,19 @@
     "published": "2026-11-07T07:00:05+00:00",
     "lede": "Many experts think fixed rate on 30-month term will still look good after Bank of England raised base rate A savings account paying “market-leading” 5.3% interest was launched this week by Nationwide building society.…",
     "lang": "en"
-   },
-   {
-    "title": "נפגעי הטלטלה בשווקים: ההפסדים, הפיטורים והחשש שהגרוע עוד לפנינו",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562364#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-07T06:27:00+00:00",
-    "lede": "אחרי שנים של תשואות מרשימות, גרג קופי רשם את החודש הגרוע בתולדות הקרן שלו",
-    "lang": "he"
    }
   ],
   "il": [
    {
-    "title": "\"עליתי על רכבת הנדל\"ן\": הכדורגלן לשעבר שהפך את החיסכון לשתי דירות",
+    "title": "הבורסה במומנטום שלילי. האם מדובר בהזדמנות - ועוד 4 כתבות על המצב בשווקים",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562185#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-07T14:00:00+00:00",
+    "lede": "הבורסה בתל אביב ירדה במעל 15% משיאה האחרון ואנליסטים מעריכים האם הגיע הזמן לקנות את הירידות",
+    "lang": "he"
+   },
+   {
+    "title": "63 מ\"ר שמשווקים כ־3 חדרים: הטריק שמשקיע בן 26 מצא בפתח תקווה",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001561093#utm_source=RSS",
     "source": "גלובס",
     "published": "2026-11-07T11:30:00+00:00",
@@ -113,30 +164,22 @@
     "published": "2026-11-07T08:16:00+00:00",
     "lede": "חברת דירוג האשראי הבינלאומית אישררה את הדירוג ברמה A, עם תחזית יציבה",
     "lang": "he"
-   },
-   {
-    "title": "הורידו 130 אלף שקל מהמחיר, והדירה בת\"א נמכרה בשבועיים",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001561845#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-07T07:00:00+00:00",
-    "lede": "בשכונת פארק TLV (לשעבר הארגזים) בתל אביב, נמכרה דירת 3 חדרים בשטח של 75 מ\"ר בקומה 12 מתוך 18, תמורת 2.55 מיליון שקל",
-    "lang": "he"
    }
   ],
   "geo": [
+   {
+    "title": "Trump's \"war-time consigliere\" and the Miller Doctrine",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBhVkcxeWJJQ3U3M2lLU2xNdkxkc0JRNVVkYzVCMGU5Sm9oUkMzM0k1anJBS3RZTUVEd3EyTkhoYTZJaVFYTkt4VV9VbFFuRG1ja0xMMU5nOFBSeHlTVUxicW84TnRRRDBITTFhX3QxQS1qWTBJV1cxMHc3S0s0amM?oc=5",
+    "source": "Axios",
+    "published": "2026-11-07T13:45:41+00:00",
+    "lede": null,
+    "lang": "en"
+   },
    {
     "title": "Risk of Iran war escalation remains high despite Democratic sweep in U.S. midterm elections",
     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMWQ5c2RBN2lVLVVlYWRjNS03cFo4RkpVQXgzZUhWN2lyaS0tUHA1SXJ2Vm56MDQ4R0JCNlFubmt2bEhEZG5maGpLV0J6M3JRWm1iUHVWb0dXUnJWN19fU1dLS2tTY2lRNmI3YzNKM1ZPb2RHSE1pb19kWE9mS0RNRlNjZWU?oc=5",
     "source": "CNBC",
     "published": "2026-11-07T13:03:12+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Up to one-fifth of Iranians still support hardline rulers despite war",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQmdLMVMwRWY1dXlGWG5WZ2tabGdqYndQRlJQU0Z3c3BSWTJqdWtfM2lwZHZZZnZJUmpEOG5yVEQ4WFp1RFBHQ2dvZkthdW1mRjBTVkF6alp1THRxWko1Q01TTnlUZlpKMVR2WnVJQ3B4ai1zbnFGSE1zSThlY09NMG9uU0ZNUjlSY0xzZnc2MkFSNEJ4R0QtcHE2dzh1eWQ2NTE0ZFZyOWs1LS11dFlVTUJrYzA?oc=5",
-    "source": "NPR",
-    "published": "2026-11-07T12:40:57+00:00",
     "lede": null,
     "lang": "en"
    }
@@ -154,6 +197,9 @@
   "גלובס",
   "גלובס",
   "וואלה",
+  "Google News",
+  "Google News",
+  "Google News",
   "Google News",
   "Google News"
  ],
