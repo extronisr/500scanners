@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-08T17:31:04.276362+02:00",
+ "generated_at": "2026-11-08T18:31:00.480728+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -34,37 +34,61 @@
     "lang": "en"
    },
    {
-    "title": "EXCLUSIVE: Nasdaq 100 Suffers Worst Day Since 2020, but Credit Markets Aren't Panicking, Says S&P Global Analyst",
-    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUDZ1WUtZX28tdVFpeFBWaWJKTUtFakxHeU0xRVdDSGw1bjQwSktjVnlYMWxfMXRhRk5hQXFab1k2Q2pqRWc2MmxLRUoyd05LSWxtQVlqM2ZVTWtTVHMxdXVkZlJNQjk4Y0NYd25Ua3NSbTdzYnhYR1padmg0dnVOMFhMYWdaZ3NGc08zWkVKLXhTSWlqdFdRLVBWdWVac0tkUTBFVmgyenRTQU1uY3Y4VlNVeEVkNHgz?oc=5",
-    "source": "Benzinga",
-    "published": "2026-11-06T16:06:15+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
     "title": "Strategist Who Warned Before Rout Sees Anthropic as Bigger Risk",
     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQUHIycEZRSkJsN281eURCTG5nSGdPaXAzZzhfWHNLRU5pb2Z5MzZBRlNtMFVyRkVJa0RuMk9SeExIdndfZkxuQ1BSbG01UnlGbDdpVjdiVmJEM3U1cHJ2V285dkhHanNEczJ4QVJqUk1sVXdXZXJObFFSMjNxYXNySWpYZVNNQXU4dmhzNXk1dW5FaHU2WXJyak82emlxdWh3RTd6UlU2NDhhclJEMkpINk5UWmg?oc=5",
     "source": "Bloomberg",
     "published": "2026-11-06T13:11:30+00:00",
     "lede": null,
     "lang": "en"
+   },
+   {
+    "title": "Moderna Gears Up For Q3 Print; Here Are The Recent Forecast Changes From Wall Street's Most Accurate Analysts",
+    "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNUHBFZTNuUTlUanRkQnZiY2o3UUw0OEpIRF9kTkhQd3NvTW8xcDU0aUlNUy1WZER3Z3Z5YXVnb0RfY3diSy1IS2taZUxwTDcwY1VsSmR3WHFKa2JjZ1pvQThsRm1nUG5lek9hNmR5Zy1IeWV1SXk3a0pObG80MW9xQ3lCMEFwU2FtbTVBWEVaZ2RIOEI4eUZSOWpzQ3c5ZlVNUkUtR2hISHhKTWtoZVNCYU04ZzRxOE5od1hrUmxLZElteEJnN1JlT2R2UktoU2xwblBRQ0xxM0hLOWVoZVdzUzRNb1psWEQtSlFkTEd1N1ZxaEFMbi1FcXJ3MTRPQjlIODFhM29ETlkzZVBjbGdnOUtB?oc=5",
+    "source": "Benzinga",
+    "published": "2026-11-06T07:18:08+00:00",
+    "lede": null,
+    "lang": "en"
    }
   ],
   "us": [
    {
-    "title": "3 Insurance Dividend Stocks Built to Keep Paying Through Tough Times",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPajdydDdNcWczbnEzN3puNFBhN3VoQ2xTbGt3aEtqNTU5cG5qbE41cmVLLWpET2E0dkJxcHktbEZJY0YtVGk5QTFpbVdxMGIxX2FtcDduN3ZQWjJQQ3V5S3UtYUlUUlFfOU1neVl4Z2N5ZWhRWXhHRThicmQwNkFsdEV1OTVxM2R2cFA5TktjdXpLdW91a3Vpek5sRVp2eGs?oc=5",
+    "title": "Why Nvidia at 13 Times Expected Earnings Still Isn’t Cheap",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSEhJbGo5Z213RFlZOGstMFRLUW52OVk0NmF1NVl6TlJVbHlzay0tZm4zLVIySnNnSjM2SFduV2psMzk2M1YxVEtSWmpyZ3JCcVQ5MXZFX2ZrdlJkM0t0UDc2a1JvMi03R2xpbVJTeU9PcG5jNTlWVUR3Zi1YVlF6dXhDa2wzM0lOazh5anRyRmlJaTBodFcxUA?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-08T15:07:11+00:00",
+    "published": "2026-11-08T16:08:00+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "How These 4 Transportation Stocks Move the Economy",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOUWdSeGhlSUUzSjE3SjE0c1RkM1JwalVMbjA0QXVPUzBNenIxVE8xNjJnMjhOaDVKSDJsOF9tZjJWdEJPZmp5Z3pKYjZzNjVrQ0gwTm90cndWc0JpMlBGRDBnRS1pMW84bzdsaDktQ1FHdG1BR19PLURBREdCdFAtZHNNRnNUMnl4N1JiX053Zk1YSmhXZXdCMWtiY0JxaElBSnJz?oc=5",
+    "title": "Verizon Yields 6.2%. Is This Dividend Stock a Trap or a Retirement Bargain?",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQdTVBcXJfS3N6cWxvcHh4c2xEYjJCM0Nzd05vOFVKY0p2Y25SeXFLbU85VkhNaFgwazhSY1NyTXhCWVIwcnU1eGpLVDd0M24xRnJyYTg0UFdrR0ZUcXJ4M1FyUXRsaXpHVktoYzJOSW5TcnNmM0dOZGh6ZWZSZjZodjIyLWszN2xWQUt0bTE5QUdRZVJlYUxj?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-08T15:05:00+00:00",
+    "published": "2026-11-08T16:07:22+00:00",
     "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "This Dividend King Has Raised Its Payout Through Every Recession Since the 1950s. I'm Buying Before the End of the Year.",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQekYzVm5Dd0lxbndhYWZOVXVWbXA3dktIZ3huMGIyd2hBaTdQNlVtNC14bE4tRjRmZ1hBeWUyYnkxNVRER3M3a1dFWnBjR0E2N1ZqRE1yOWtxSk5QTk1pR2ZiY1pBVUxaV1g4UEJkcUZJSHRoUUxXOENHNnoySmVWMDNSNzBXeUFrQnVaSnBpWkdIZnZua1lZQWRSdUQ1WHM?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-08T16:05:00+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "נפגעי הטלטלה בשווקים: ההפסדים, הפיטורים והחשש שהגרוע עוד לפנינו",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562364#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-08T15:40:00+00:00",
+    "lede": "אחרי שנים של תשואות מרשימות, גרג קופי רשם את החודש הגרוע בתולדות הקרן שלו",
+    "lang": "he"
+   },
+   {
+    "title": "How Democrats will try to end Trump's tariffs",
+    "url": "https://www.cnbc.com/2026/11/08/trump-tariffs-democrats-congress-canada.html",
+    "source": "CNBC",
+    "published": "2026-11-08T15:36:39+00:00",
+    "lede": "Rep. Hakeem Jeffries, D-N.Y., who is likely the next House speaker, has made clear that ending President Trump's tariffs is one of Democrats' top priorities.",
     "lang": "en"
    },
    {
@@ -76,20 +100,12 @@
     "lang": "en"
    },
    {
-    "title": "כמעט 3 טריליון דולר נמחקו, ובוול סטריט מנסים להבין האם זו הזדמנות",
+    "title": "האם יש הזדמנות בוול סטריט אחרי הירידות, ומה יעשו מחר הדואליות?",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001562408#utm_source=RSS",
     "source": "גלובס",
     "published": "2026-11-08T14:50:00+00:00",
-    "lede": "המשקיעים יחזרו לשבוע מסחר חדש אחרי צניחה שמחקה משוק המניות האמריקאי כמעט 3 טריליון דולר - הסכום הגדול ביותר שנמחק ביום אחד אי פעם",
+    "lede": "המשקיעים יחזרו לשבוע מסחר חדש אחרי צניחה שמחקה משוק המניות האמריקאי כמעט 3 טריליון דולר - הסכום הגדול ביותר שנמחק ביום אחד אי־פעם",
     "lang": "he"
-   },
-   {
-    "title": "He Is A 68-Year-Old Making $40,000 A Year In Income From His Dividend Stocks. Building His Own “Homemade Dividend” Could Keep The Same Income While Saving Him $2,400 A Year In Taxes",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOTXg1Yld4NzY3OUtyZUU3SU5fN3paZzB0SXVUV25fb0JEUFVoeFZfVHdOVDJSRnN3SW5fUmU0YWx0QzFMbk94bGMtT0ZseHBkRm5QT29ZSHJQaWhWU0pJVjBMTTlkRmcwY1hyNUlQWEVwcEt4TG1FSlcwQ1ZDdXdzbTRYZGEzRWg2MFdhMkd3?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-08T14:47:30+00:00",
-    "lede": null,
-    "lang": "en"
    },
    {
     "title": "Stocks are moving in sync again for the first time in a while. There’s just one problem.",
@@ -97,14 +113,6 @@
     "source": "MarketWatch",
     "published": "2026-11-08T14:00:00+00:00",
     "lede": "An increasingly divided U.S. equity market is enjoying a rare moment of unity. Unfortunately, it has coincided with the biggest selloff in more than a year.",
-    "lang": "en"
-   },
-   {
-    "title": "How Democrats will try to end Trump's tariffs",
-    "url": "https://www.cnbc.com/2026/11/08/trump-tariffs-democrats-congress-canada.html",
-    "source": "CNBC",
-    "published": "2026-11-08T13:00:01+00:00",
-    "lede": "Rep. Hakeem Jeffries, D-N.Y., who is likely the next House speaker, has made clear that ending President Trump's tariffs is one of Democrats' top priorities.",
     "lang": "en"
    },
    {
@@ -116,18 +124,10 @@
     "lang": "en"
    },
    {
-    "title": "בזמן שוול סטריט ניסתה להתאושש ממפולת, המניה הישראלית הזו זינקה ב־35% ביום אחד",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562392#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-08T10:59:00+00:00",
-    "lede": "במדור השבועי של גלובס בדקנו מה קרה למניות הישראליות הבולטות בוול סטריט בסוף השבוע",
-    "lang": "he"
-   },
-   {
-    "title": "The Real Estate Selloff: High Yield From High Rates",
-    "url": "https://seekingalpha.com/article/4964821-the-real-estate-selloff-high-yield-from-high-rates?source=feed_all_articles",
+    "title": "UMH Properties: Real-Estate Backed Preferred Stock Offers A 7.5%-Plus Yield",
+    "url": "https://seekingalpha.com/article/4964251-umh-properties-real-estate-backed-preferred-stock-offers-a-7-5-percent-plus-yield?source=feed_all_articles",
     "source": "Seeking Alpha",
-    "published": "2026-11-08T10:15:00-05:00",
+    "published": "2026-11-08T10:35:00-05:00",
     "lede": null,
     "lang": "en"
    }
@@ -184,18 +184,18 @@
   ],
   "geo": [
    {
-    "title": "Ukraine’s new frontier: how space has become critical to balance of the war",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxORkZpTkpTUFloaEYzNGFPNzJ4NW1yZVNRbVlKTU1mcmxNMW4xc3k5ZnBHTVRaODI5S0ZzWjNQWmEycktDSUlERjhMU1pYb0lNRThfM1lsejBYOXpVNkFaUGxQTmRWUGE1dDhadU5yVDBDT0xvZUFLbGtZQWRCSlZNdS1RNEdsMWt4ZzZ4UEFXa0ZJcjE1OENicm1xbXhTZG8?oc=5",
-    "source": "The Guardian",
-    "published": "2026-11-08T15:13:00+00:00",
+    "title": "Why the Iran War Has Spurred Both Clean Energy and Fossil Fuels",
+    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9LTWpLTkZ0UWxqZ2NwbFhhMDlnRG0ycHlxdmdzYWNMOTJDUndtM0lQUFIyTWR1OTBleXVlQTlpcTBvVlpvM0dZNlZ2UVhkaEJJQlZuMmt3TUdPcHRjVElsNXVBVVNFaHhUQ2NVWGZXM1hJbGtsYm5F?oc=5",
+    "source": "The New York Times",
+    "published": "2026-11-08T15:39:12+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Iran suggests blasts are not US attacks as both sides report ships hit",
-    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxONWFPcDhpSjcwTEozRGRNdHFnWWpzb1pCYXIzdnVOUWhJQ3JvaGVTcjItLWNwNktieTVDcTk0WlpKbDRiMHB3Tkl0R19Mb1NUckllcVYwenlvNUV2QTBLcjlNdGtZdFI2NEJxbnhVbmZieXg2SnNTUXNPTFZVZjFnX2o3Q3lBbC1kRzlWcnNNU3VXdFNYNW5YTTJ4SFdBaDVfai1CRU50cm1VMHBkeWd4Zkc0Q2UxTlBJcmZ6TnJR?oc=5",
-    "source": "Reuters",
-    "published": "2026-11-08T14:21:43+00:00",
+    "title": "Russia targets emergency crews at the site of a deadly strike in southern Ukraine",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUlFnYVBkWHBXdnhJcHBhOTM4U0t0WnZHVkYwY3FQc3lUd3hpallTaHFGN1BuaVFWUEtITnVDSWFaWUdTZktXdjg5MUk0bWtsSkFsYk9xS21Lc2N0cnpPeHBEeVZDdW5RZ1h0NUs3Sk8wbGhiTmtTQjVjSjRrcEVsdTNjMk8wTDRuaDUxSlFrT0FvS2VsVkZVVVNYUmpXaW9jbUZZZGVzVzBDWE0?oc=5",
+    "source": "AP News",
+    "published": "2026-11-08T15:18:00+00:00",
     "lede": null,
     "lang": "en"
    }
