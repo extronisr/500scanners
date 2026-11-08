@@ -1,22 +1,47 @@
 {
- "fetched_at": "8.11.2026, 23:34",
+ "fetched_at": "9.11.2026, 0:04",
  "items": [
   {
-   "title": "Vir Biotechnology Announces Primary Endpoint Met in Pivotal Phase 3... - Quantisnow",
-   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPaENPWFJ3ZUJZR2phWm16enJ5ZHNoSnZPNml0VVl6XzRRaVBDMEx2X1RiQ0piS2pWNjVmQTQ3TjN1SUlwQXdmM2RyclE4QlhkdmIwYjFIY2U4a1pVQjVESmszOWlUa3Q4WWhqQ1pNbHFFbWg2Sk0tZWI3QndPVXZMbmo3LWVtYnNWdHB6S1NZTmJnNzZNMnJueUdiZ1M2WWREWGNXRmhlUVVBQ09HaG1r?oc=5",
-   "pub_ts": 1794172956.0,
-   "date": "8.11.2026, 23:22",
+   "title": "Vir Biotechnology meets Phase 3 hepatitis delta endpoint with 44% response - Mugglehead Investment Magazine",
+   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOV1IwSmx4Wkk3bUZRX1dLbXZ3OWhmSmx6bFNab3hSN2ZlUkxUXzBUWWllNjg3YzdBN1l6bWhSeFAtTUc1ZC1YenJJMkFWTW95MzZDcHpqOVlHbkFlUURqRGlCS0doVF9obU9iUTlXeFVnTXpxVkVBY1BrWllBLVJ2c2ZxTWhTYzRNckVB?oc=5",
+   "pub_ts": 1794175178.0,
+   "date": "8.11.2026, 23:59",
    "cat": "phase3",
    "sev": 4,
    "dir": 1,
    "tickers": [],
    "companies": [
-    "VIR"
+    "VIR",
+    "DAL"
    ],
    "sources": [
     {
      "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOV1IwSmx4Wkk3bUZRX1dLbXZ3OWhmSmx6bFNab3hSN2ZlUkxUXzBUWWllNjg3YzdBN1l6bWhSeFAtTUc1ZC1YenJJMkFWTW95MzZDcHpqOVlHbkFlUURqRGlCS0doVF9obU9iUTlXeFVnTXpxVkVBY1BrWllBLVJ2c2ZxTWhTYzRNckVB?oc=5"
+    },
+    {
+     "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPaENPWFJ3ZUJZR2phWm16enJ5ZHNoSnZPNml0VVl6XzRRaVBDMEx2X1RiQ0piS2pWNjVmQTQ3TjN1SUlwQXdmM2RyclE4QlhkdmIwYjFIY2U4a1pVQjVESmszOWlUa3Q4WWhqQ1pNbHFFbWg2Sk0tZWI3QndPVXZMbmo3LWVtYnNWdHB6S1NZTmJnNzZNMnJueUdiZ1M2WWREWGNXRmhlUVVBQ09HaG1r?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "Johnson & Johnson Reports Positive Phase 3 Trial Results for ICO - GuruFocus",
+   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOQTZEc2VKOHRwcjdvRnFtS3dKMjN2LWlhRGRFRkpOUGpCUm5vVWp4WlRieUxrcG9LRGpDVGwyQkhXSDlobVYxSEhsWmJjdzBwWDBDNW5SLUR2SWxSbE5UdXR6QjJoczJJdFM0bV9WY0hfeGFPV0tfUVJ3TlZ2Mjk5NW8tbkdzeXRNT1ozR0ZGNkRCZFhTQ3VtMkQzUHM3VTUzTF9ROUdCVnhfOTVnSGZnbUlrTzRkMmdKNTM2U0dIakJ6RTJWelBLeWtoa0o?oc=5",
+   "pub_ts": 1794172399.0,
+   "date": "8.11.2026, 23:13",
+   "cat": "phase3",
+   "sev": 4,
+   "dir": 1,
+   "tickers": [],
+   "companies": [
+    "JNJ"
+   ],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOQTZEc2VKOHRwcjdvRnFtS3dKMjN2LWlhRGRFRkpOUGpCUm5vVWp4WlRieUxrcG9LRGpDVGwyQkhXSDlobVYxSEhsWmJjdzBwWDBDNW5SLUR2SWxSbE5UdXR6QjJoczJJdFM0bV9WY0hfeGFPV0tfUVJ3TlZ2Mjk5NW8tbkdzeXRNT1ozR0ZGNkRCZFhTQ3VtMkQzUHM3VTUzTF9ROUdCVnhfOTVnSGZnbUlrTzRkMmdKNTM2U0dIakJ6RTJWelBLeWtoa0o?oc=5"
     }
    ],
    "ncts": []
@@ -294,6 +319,24 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPUlo2UnhVTjg0Nm5fR2duYUc0OWNxNjZlbGUwdEgwdHk0VkE2LWRDUnR1cmRtdVc3X0pPSDhVYWEyTmFSZW5DMXYyTmY5UlphM2ZTMnBlZmN6dmRmVER5T2JwRTZmWmF3bGw4Vk4yVkdnTUphOW9YZlpzMjFJNVdDUVptanFScmlWVnllbTNMTVRYb3BHRWtLb3ZCLW1RYy1QZGxhSEhLekpJQ2RNU1dqU0w5NTVwZlFEbFNJOVpDdnFELXNjWkdZ?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA Approves Dual-Targeted Therapy for Head and Neck Cancer - MedPage Today",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1wYUdBQlhPQVpOTzY5QWR6Ym5qenQ0cXpKbllzNmwzbjN5WEQ0akpQdDA2OXVQYXBPS1pJUVRRMXdIZkZaZ3dSREY3SElTc0tuLWd2N3VtQTctby1RandNVmgyVFdSeU94U1BNZXZuczJRY1ljVWc?oc=5",
+   "pub_ts": 1793980197.0,
+   "date": "6.11.2026, 17:49",
+   "cat": "fda",
+   "sev": 4,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1wYUdBQlhPQVpOTzY5QWR6Ym5qenQ0cXpKbllzNmwzbjN5WEQ0akpQdDA2OXVQYXBPS1pJUVRRMXdIZkZaZ3dSREY3SElTc0tuLWd2N3VtQTctby1RandNVmgyVFdSeU94U1BNZXZuczJRY1ljVWc?oc=5"
     }
    ],
    "ncts": []
@@ -4526,6 +4569,26 @@
     {
      "source": "FDA · openFDA",
      "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=216072"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "Vir Biotechnology Announces Expanded Phase 2 SOLSTICE Data for... - Quantisnow",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdzdzdjFLX2ZIRG1Qb2szVlY3UG1QeklpUXl0b2dWWHdnZHNDdFdKZVI3SjlvbG83NUJkM1NjQ1FXQTZkdlEwWjc0QjIwSDNDOHpfWm0xTUpIZE56WXJQWEFwcDM4SXZRaHpuSm9TLXVNOXJqRzZJQmpfU052TGxLamhjQ1RWcW1tRVV4UmQtLVk3SGZyazZyYy1kcmNJVkNjR1BsZGZ2TDJIYW5rUjB0a1dWOWdZQQ?oc=5",
+   "pub_ts": 1794174756.0,
+   "date": "8.11.2026, 23:52",
+   "cat": "phase2",
+   "sev": 1,
+   "dir": 0,
+   "tickers": [],
+   "companies": [
+    "VIR"
+   ],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdzdzdjFLX2ZIRG1Qb2szVlY3UG1QeklpUXl0b2dWWHdnZHNDdFdKZVI3SjlvbG83NUJkM1NjQ1FXQTZkdlEwWjc0QjIwSDNDOHpfWm0xTUpIZE56WXJQWEFwcDM4SXZRaHpuSm9TLXVNOXJqRzZJQmpfU052TGxLamhjQ1RWcW1tRVV4UmQtLVk3SGZyazZyYy1kcmNJVkNjR1BsZGZ2TDJIYW5rUjB0a1dWOWdZQQ?oc=5"
     }
    ],
    "ncts": []
