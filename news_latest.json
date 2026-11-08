@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-09T00:29:56.757641+02:00",
+ "generated_at": "2026-11-09T01:31:06.208755+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -26,14 +26,6 @@
     "lang": "en"
    },
    {
-    "title": "These three stars need to align before investors rush back into stocks, Bank of America strategist says",
-    "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNYUV6REktLXQ2eFJaVDNsaE95eHRhWERCeWJWbzVyVnVhWTEyVUpFS2pUQlU1am9aeS1Lcy03dEo2SW9BeEVwdjFIRTVIOXByRFdqUmFEVEljR2VBc0R3WmNTSXo1TVRzRHA3N1FJVEJ4X0otNWgzWDNqVmg4RDl1bGUxSnQ3cEdVVUZqaEtqa3ZqVmxSWjBmMmY0OUpsXzRYMndTT0tEdElmQkJfTnZ6MURuaEF4TTVPZkZMZWcwT3JLXzdWWG1SV3NZck1DNTg0TTZ2RmpLMF9MdDk5b0E?oc=5",
-    "source": "MarketWatch",
-    "published": "2026-11-06T15:27:00+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
     "title": "Strategist Who Warned Before Rout Sees Anthropic as Bigger Risk",
     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQUHIycEZRSkJsN281eURCTG5nSGdPaXAzZzhfWHNLRU5pb2Z5MzZBRlNtMFVyRkVJa0RuMk9SeExIdndfZkxuQ1BSbG01UnlGbDdpVjdiVmJEM3U1cHJ2V285dkhHanNEczJ4QVJqUk1sVXdXZXJObFFSMjNxYXNySWpYZVNNQXU4dmhzNXk1dW5FaHU2WXJyak82emlxdWh3RTd6UlU2NDhhclJEMkpINk5UWmg?oc=5",
     "source": "Bloomberg",
@@ -48,30 +40,46 @@
     "published": "2026-11-06T07:18:08+00:00",
     "lede": null,
     "lang": "en"
+   },
+   {
+    "title": "Micron: Why I Added $5,000 Worth Of Shares During The Selloff (Rating Downgrade)",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQRVUwam11U3lCbXRBRlRUQ1JVTHJwZm9NdmZYN0xCWC00azIxNkVoTDZtT2I5RUJmNW1DRlBsbmxOa3ExNEFWTDZ1R0pvRVU4ZkdOblBWOFIzRVVvOEFnWWRidnR3YnpGdXYwb1RjNGgzLV91WUY0bklkYS1PVzhIS093aE9VZlVRWnd5NnB3THozRENSclZVTGNXXzNMSllz?oc=5",
+    "source": "Seeking Alpha",
+    "published": "2026-11-08T14:30:00+00:00",
+    "lede": null,
+    "lang": "en"
    }
   ],
   "us": [
    {
-    "title": "What Zevia PBC (ZVIA) Said on Its Q3 Earnings Call",
-    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNb09KVFZSc3JfdFE2TTdqMnMwVVpVaTV4QnJvN1A4ZGUtQjM4a2tZWUNUZnQwY3dYNi0xbkNDTXFISzQ5QzBHZDZROUNGR3A4ZDFLZlQ4enY2aWd5MXhnbVp4cnl4VHozUVRJODgxV0k1S091bWNHc1l2R2dZYzZ4VlpQLUpvbVd3MV94aExaLV8?oc=5",
+    "title": "You follow the rules for smart stock trading. But are they the right rules?",
+    "url": "https://www.marketwatch.com/story/you-follow-the-rules-for-smart-stock-trading-but-are-they-the-right-rules-9bfe5846?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-08T23:15:00+00:00",
+    "lede": "Apply the wisdom of investment pros to develop your own consistent methodology.",
+    "lang": "en"
+   },
+   {
+    "title": "Warren Buffett’s Coca-Cola Shares Now Pay Back Two-Thirds of What He Paid, Every Single Year",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPOEZtMzY3ZmthVlZuV20xeGRGLTBDX19kbzZOYU5iQjViZHpoSTF4UXV3UG04UEhCUkd1akYySHhERUlLYnRJaTNTeUdPU3dnalVuTGp6ajZXd2RIQnd1UzE4alFzRUd1YkNxOFNJajQ4YTVxallVUXlYSUdGT3Bjc3IyRl9UTC1td3ZxU3d0dzBwM2hpSkVmZkpjWDE?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-08T22:14:10+00:00",
+    "published": "2026-11-08T23:13:00+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "What B2Gold (BTG) Said on Its Q3 Earnings Call",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQeUxZUVlSN3NtNEFGQURyeHBUSWx4dllKTVdrN3NfeWJkY3IxemhzQ1lRaV9oXy14ZkZ0T1pscmVMV2RGcVpESmFZWEg2NmlhR3Vrenp4bTRDanFPOGUtU2J6NVk3MEtMR2FnS1JuYnpZWXJJQl9TTTlfQy12b2pJU1lJalk4Z3N4LXFRYmFMekNrOGU4U2VB?oc=5",
+    "title": "Anthropic's IPO dilemma after the AI sell-off: 'Damned if you do, damned if you don't'",
+    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNaVlpNjBPSk5CcWpIVmc4RnVtUmsxT00wUFVZTXNrYzJqU2w1VGFoUUlUVS02TXVDODhpanJQSUlrNEUzLUo5c0czMXRaYVdSUzdubzBSTG5lVnVEUUE4bW9HSmVHZGV0ZVhYazJsOWw1WDdLMzYxRU1BaEVfbWpWTWtkTDZhakdWd1l5aU1DZk1abDJKY1JRM1VHQnU2Snl5X2xCMHQwaXJ5bWJxYzZPMFFybnlXOWhGSlByeGFDRXZGY291RzJkeW01dHN2a3Fsd0Jn?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-08T22:14:10+00:00",
+    "published": "2026-11-08T23:12:28+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "What Exzeo Group (XZO) Said on Its Q3 Earnings Call",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOcklhNUxPTHE3LW45VmFVbnNnNUY2OGl2VnBMX0gxWjAwLW1GbUVVWWtPN0FOaDcyYkF6OTFkSU1ZQjBxdTRUVEpMQjA3SE1MZ3NKeEtLcENWY2NmWTAwbkxSY2toYmNwdUpVS0RnTXphUTZtVm9oR1AzWUlZcXl2NngwemRIT1NRd004LVA0U3BRZw?oc=5",
+    "title": "Forget the High-Beta Hype: 5 ‘Sleep Well at Night’ Stocks to Buy Now",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQQmtkelJUNE5WaU4zbldCTTVrb1N3VzVnS083SWdfVTgzeFFfcWNyTkJ6cUZaVzVxdDZPTVNoN2NQS05tQkIzTUphQVRncGdGeXdvZ0FnbW9aZ0FTOGY5OWFnNnNDSEFJX1BrM3hETEp2Z3Zwbk9vSkdBUC1KVjN6NFJaWEJLaDBaN0xISERPdDNJdw?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-08T22:14:08+00:00",
+    "published": "2026-11-08T23:10:24+00:00",
     "lede": null,
     "lang": "en"
    },
@@ -100,6 +108,14 @@
     "lang": "he"
    },
    {
+    "title": "S&P500: I Was Wrong, The Technicals Were Right; Here's What They Say Is Next",
+    "url": "https://seekingalpha.com/article/4964624-s-and-p500-i-was-wrong-the-technicals-were-right-heres-what-they-say-is-next?source=feed_all_articles",
+    "source": "Seeking Alpha",
+    "published": "2026-11-08T16:00:00-05:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
     "title": "How Democrats will try to end Trump's tariffs",
     "url": "https://www.cnbc.com/2026/11/08/trump-tariffs-democrats-congress-canada.html",
     "source": "CNBC",
@@ -113,22 +129,6 @@
     "source": "MarketWatch",
     "published": "2026-11-08T15:00:00+00:00",
     "lede": "S&P 500 companies’ earnings are mostly topping analysts’ estimates — but by the narrowest margin in roughly four years.",
-    "lang": "en"
-   },
-   {
-    "title": "Stocks are moving in sync again for the first time in a while. There’s just one problem.",
-    "url": "https://www.marketwatch.com/story/stocks-are-moving-in-sync-again-for-the-first-time-in-a-while-theres-just-one-problem-c953bf72?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-08T14:00:00+00:00",
-    "lede": "An increasingly divided U.S. equity market is enjoying a rare moment of unity. Unfortunately, it has coincided with the biggest selloff in more than a year.",
-    "lang": "en"
-   },
-   {
-    "title": "Top Wall Street analysts like these 3 dividend stocks for consistent income",
-    "url": "https://www.cnbc.com/2026/11/08/top-analysts-like-these-3-dividend-stocks-for-consistent-income.html",
-    "source": "CNBC",
-    "published": "2026-11-08T11:47:24+00:00",
-    "lede": "Three dividend-paying stocks that are highlighted by Wall Street’s top pros, as tracked by TipRanks.",
     "lang": "en"
    }
   ],
@@ -184,18 +184,18 @@
   ],
   "geo": [
    {
-    "title": "Trump says renewed Iran strikes ‘highly unlikely’ if talks progress but warns he could still strike",
-    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNb0l6UllaNWstdHV3YXVHY3FsaTV6blctcjJ2aDl5dnNwZF9OOFdrRXM5RlN6bUYzU2ZnTGU1bndLek5kTDFTWG1LZUFuamZLbFUwUmJiMDF1a21pOFNhcjI2SzdLVHRtWWYzOHVJVl9qMk9CY3E3Y2lEY1VOZ2txYTRHOA?oc=5",
-    "source": "CNBC",
-    "published": "2026-11-08T21:28:12+00:00",
+    "title": "More Than 50 Killed in Yemen in One of the Deadliest 24 Hours of the War",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNlJzUkV3SUJHSzIxbExLcHBYRmFHdm94d0NsMmJWUS00MGdIZ1F6R2VsbmU1SGxMQWkyZGJKN0cwUV9lUmJnUWFkMGhlTTE5ZjhiOXFfdV82dElpQU5QcmdTejlFWlc0c1ZMQmJwaUR5ZXR6ZFZYd19ueDZFTUhpRVZ6bkdjM1B2c3MweUpR?oc=5",
+    "source": "The New York Times",
+    "published": "2026-11-08T21:45:00+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Iran threatens to ‘rain down hell’ if US escalates war",
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNeGY4UThBZ2p5aG5CeVd1RWktVFhWbjVMUGJmaEZmdWdkLXpFa3dfcW1PRkZlcUJvLWFBbU1lc05NbmVTT2I1bDB3M1M4Rzg5VkxleDJJNkRZNlJPRHFrOFQxYkxZdzVRY29lR1hZY09oUko3Y2pUZGlqdG42Y2lIZ1lEWDQ1dlRSMXFoTnFTczZvclUzclMxNtIBngFBVV95cUxNNnV4cG5GTnQ4SmJXeWxmV1pXY0pQRDQyZWwtcWVFYnhPRHNsQ2VIRnhVZlhybWdObWVreUNJSGU1UzIzdHcxU2RkU3B5WFVHVHFrUFprNkthQ2JQaWNPMm1ET3ZKNTd2eW5wTkFDOC1GSDJpemZWelk4ZlhCaWdVUWdBRWx3TkFiWUd1OVlCTWktODJlNkVya1BmZDVTdw?oc=5",
-    "source": "Al Jazeera",
-    "published": "2026-11-08T20:16:12+00:00",
+    "title": "Trump says renewed Iran strikes ‘highly unlikely’ if talks progress but warns he could still strike",
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNb0l6UllaNWstdHV3YXVHY3FsaTV6blctcjJ2aDl5dnNwZF9OOFdrRXM5RlN6bUYzU2ZnTGU1bndLek5kTDFTWG1LZUFuamZLbFUwUmJiMDF1a21pOFNhcjI2SzdLVHRtWWYzOHVJVl9qMk9CY3E3Y2lEY1VOZ2txYTRHOA?oc=5",
+    "source": "CNBC",
+    "published": "2026-11-08T21:28:12+00:00",
     "lede": null,
     "lang": "en"
    }
@@ -207,6 +207,7 @@
   "Financial Times",
   "BBC",
   "The Guardian",
+  "Seeking Alpha",
   "גלובס",
   "Google News",
   "גלובס",
@@ -218,7 +219,5 @@
   "Google News",
   "Google News"
  ],
- "sources_failed": [
-  "Seeking Alpha: HTTP Error 403: Forbidden"
- ]
+ "sources_failed": []
 }
