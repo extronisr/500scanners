@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-08T12:31:08.052258+02:00",
+ "generated_at": "2026-11-08T13:30:59.716560+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -36,7 +36,7 @@
    {
     "title": "Strategist Who Warned Before Rout Sees Anthropic as Bigger Risk",
     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQUHIycEZRSkJsN281eURCTG5nSGdPaXAzZzhfWHNLRU5pb2Z5MzZBRlNtMFVyRkVJa0RuMk9SeExIdndfZkxuQ1BSbG01UnlGbDdpVjdiVmJEM3U1cHJ2V285dkhHanNEczJ4QVJqUk1sVXdXZXJObFFSMjNxYXNySWpYZVNNQXU4dmhzNXk1dW5FaHU2WXJyak82emlxdWh3RTd6UlU2NDhhclJEMkpINk5UWmg?oc=5",
-    "source": "Bloomberg.com",
+    "source": "Bloomberg",
     "published": "2026-11-06T13:11:30+00:00",
     "lede": null,
     "lang": "en"
@@ -52,26 +52,34 @@
   ],
   "us": [
    {
-    "title": "Nexus Industrial REIT Q3 Earnings Call Highlights",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOMUhxVWJLU0FtaDR5aDhVNWUzSHRON3VWN194MHByN2RmZ0k4S1l4TVBkLXZueTg4X1pvSFplaktqZ0poZkxDVXlnbjFjTU5RbWpkMWFFd0pfQlUzNjlEc2xNQVpjTHlTdjQyX2plYXlkQWN2RDd5aHFRZkk4SUxqN1RWeS1DNkVwc0lKQ25LQWxRUVJLbHpaZ25MVQ?oc=5",
+    "title": "3 AI Chip Stocks to Buy in November After the October Sell-Off",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxObXA0YUdDQXVhemxzNUFhQ1RDaDVjS3FjWXhHZGlYV1lJc09VWGJGbTVfWl9SaXZoVFIwQmpaR2dDcmJZdHF3MTEySkZMbThuZGxTQU9YNzZBckQ1WWdPSkNxWnh1TFkxaFVJbHBMVE5YaXNPc1dPczl3VTNSSm1DMGkzQ2dtckd5eWt4WA?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-08T10:14:09+00:00",
+    "published": "2026-11-08T11:05:00+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Caterpillar Stock Sinks 10% in a Week Despite Record Backlog: Is It a Buy?",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPdFRlSTNMR0Y0NTBDVDFRR0Zvb01HTHAwZmhxQ285ZV9jMlpqVWxoeGh3R3RBQ0ZsdWtfVTlIRFB0NkpPX3Z6cGx5cURvRHcwb3ppTUFKMjRaT0wwaU5XaUYtMHFyYUZfcTh4NEFaMTFYUDI0dnpUQWxYMWpIcmszWFN5ZXdTRENiZlFTWHR3TFdsUjctNkhTSnNBTEU?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-08T10:09:36+00:00",
+    "title": "Housing vs. Stocks: Lowest Share of Home Buyers Since 2006 Say Real Estate Beats Equities",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOXzN5dlRiWU9lV2dyYW8wSXAzT0VCbjh4Smh4b29TbDBKSi1Jd0JBTmxFWUk5cEhlNVo3SDBHMThSeWsxR3oyQ0hXQ3NncVdMZXlSM203bzNIZjhkdzI0RWZYZDRDcFl3ZXRsZ2s1bmNobjJlQzV2bldMUDZVSmNkWGZ5MFNfQ0tDVTVaZzRadTlQUFowYXhxaw?oc=5",
+    "source": "Barron's",
+    "published": "2026-11-08T11:00:00+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "How Investors Are Reacting To TDS Earnings Beat",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMDBZNTF5NHZCdV9lZUtGbUpyNGlPVE9IVmFfLXJ0NVNXRVdfWTF2WGFINmo4eUx3ek9NY2xfNDc4cFBEM3R3V0w0TG9QQzh1b3RlVHNxX2pSUzRoTTBqbU1uc1dHZnJ3WUFZTlRnNVlJdWYwMG9iVFJ0Qlg3bVVVZ2U4UGJmNkdXSndwMms5b3pyUGZUbEhjTjVjSU1SdzVKNmRJ?oc=5",
+    "title": "בזמן שוול סטריט ניסתה להתאושש ממפולת, המניה הישראלית הזו זינקה ב־35% ביום אחד",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562392#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-08T10:59:00+00:00",
+    "lede": "במדור השבועי של גלובס בדקנו מה קרה למניות הישראליות הבולטות בוול סטריט בסוף השבוע",
+    "lang": "he"
+   },
+   {
+    "title": "Which of These 5 Cannabis Stocks Has the Strongest Balance Sheet?",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQXV4SzVVeDVtdGRYSm16UW83RlpZNVBLZVBQZWEzN2t5M1k5d05FcGpLUjcyV1NLMkoydXJoZzBvTjdsQW9HRUs5eno2QTF3R29yRUdwSVNuVHNUbjUxRlRYUkg3VUFxWlhFRkxid3lxdVFoZXRrWVdMbGRuSWxqV3hoVU1uWnpWNTg5U21YVldPVFdyRHBGc2dzc25OQ1hiX3c?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-08T10:08:50+00:00",
+    "published": "2026-11-08T10:52:00+00:00",
     "lede": null,
     "lang": "en"
    },
@@ -92,6 +100,14 @@
     "lang": "en"
    },
    {
+    "title": "Wall Street Week Ahead",
+    "url": "https://seekingalpha.com/article/4964825-wall-street-week-ahead?source=feed_all_articles",
+    "source": "Seeking Alpha",
+    "published": "2026-11-08T06:13:56-05:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
     "title": "Cathie Wood 'always feels better when the market is worried' — here's why",
     "url": "https://www.cnbc.com/2026/11/08/cathie-wood-ai-selloff.html",
     "source": "CNBC",
@@ -100,35 +116,11 @@
     "lang": "en"
    },
    {
-    "title": "מה הסיכוי לחידוש המלחמה? אלה ההערכות העדכניות בשוק",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562377#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-08T05:12:00+00:00",
-    "lede": "למרות הניצחון של הדמוקרטים בבחירות האמצע חברות מחקר מעריכות כי הסיכון לחידוש הלחימה נותר גבוה",
-    "lang": "he"
-   },
-   {
     "title": "Crypto industry braces for reckoning over Trump ties",
     "url": "https://www.ft.com/content/f1b98a61-4103-447c-bb9a-3dccc0819f61?syn-25a6b1a6=1",
     "source": "Financial Times",
     "published": "2026-11-08T05:00:19+00:00",
     "lede": "Democrats have vowed to start investigation into president’s family after sweeping victory in midterms",
-    "lang": "en"
-   },
-   {
-    "title": "The Big Four Recession Indicators: Real Personal Income",
-    "url": "https://seekingalpha.com/article/4964587-big-four-recession-indicators-real-personal-income?source=feed_all_articles",
-    "source": "Seeking Alpha",
-    "published": "2026-11-08T00:30:00-05:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Second-guessing my adviser: Is an annuity the right move in this market?",
-    "url": "https://www.marketwatch.com/story/my-adviser-recommended-an-annuity-is-it-the-right-move-in-this-market-environment-00edbbf6?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-07T20:36:00+00:00",
-    "lede": "“I haven’t committed to the strategy yet and would appreciate some independent perspectives.”",
     "lang": "en"
    }
   ],
@@ -142,7 +134,23 @@
     "lang": "he"
    },
    {
-    "title": "עמית גל: \"רכישת סוכנויות הביטוח נכנסה לקצב מאוד גבוה. שוקלים כיצד להידרש לזה\"",
+    "title": "המשנה לנגיד לשעבר: \"לעקוף סנקציות עם קריפטו? שם נמצאים סוחרי הסמים וסוחרי האיברים\"",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562402#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-08T10:51:00+00:00",
+    "lede": "ד\"ר נדין בודו-טרכטנברג, לשעבר המשנה לנגיד בנק ישראל, תקפה בכנס \"לראות מעבר לטרנד\" את הרעיון שהעלה נתניהו, שלפיו ישראל תוכל לעקוף סנקציות בינ\"ל באמצעות קריפטו: \"התחום היחיד שעוקף שם סנקציות הוא תת-עולם שחור באמת\"",
+    "lang": "he"
+   },
+   {
+    "title": "עדי שחף, מזרחי טפחות: \"ההשקעות הגדולות בתשתיות AI - לא הופכות את התחום לבועה\"",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562395#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-08T10:16:00+00:00",
+    "lede": "מנהל החטיבה הפיננסית בבנק מעריך בכנס \"לראות מעבר לטרנד\" שהגידול בחוב הממשלתי ובמימון תשתיות ב- AI יכתיב את הכיוון בשוקי המניות בשנה הקרובה",
+    "lang": "he"
+   },
+   {
+    "title": "עמית גל נגד הקיצוץ בפנסיה: \"לא תמיד חוסכים מספיק ואסור לערער את המערכת\"",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001562391#utm_source=RSS",
     "source": "גלובס",
     "published": "2026-11-08T10:11:00+00:00",
@@ -158,52 +166,28 @@
     "lang": "he"
    },
    {
-    "title": "אלונה בר און, מו\"ל גלובס: \"משקיעי בובת הלבובו הרוויחו 700% או הפסידו 30%, מה שקבע זה התזמון בתוך הטרנד\"",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562383#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-08T09:06:00+00:00",
-    "lede": "מו״ל גלובס פתחה את כנס \"לראות מעבר לטרנד\" והמחישה באמצעות הסקווישי ולבובו את חשיבות מועד הכניסה להשקעה",
-    "lang": "he"
-   },
-   {
-    "title": "יאיר לוינשטיין ואסף בנאי בשיחה נדירה על שני המהלכים הפיננסיים שעומדים לטלטל את השוק",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562387#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-08T09:04:00+00:00",
-    "lede": "יאיר לוינשטיין, מבעלי השליטה ומנכ\"ל אלטשולר שחם, ואסף בנאי, מייסד ומנכ\"ל פרופיט, השתתפו בשיחה משותפת בכנס \"לראות מעבר לטרנד\"",
-    "lang": "he"
-   },
-   {
     "title": "הפור נפל ואיתו השוק: הזדמנות או תחילתו של תיקון עמוק יותר?",
     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE54bnp0anZ2RGZLd2lWckRNOTFZeHlveVJqdlFHREI4a0RpREE1RHZsVV9VV1FyajFVcUxoREo3ZzRnYjFLNFB1LVVKSzhQUl8tN0xWWXIxYkIxSjhnYjFONlExR0hHVGJVM0lteE8wbzg?oc=5",
     "source": "ביזפורטל",
     "published": "2026-11-08T04:58:00+00:00",
     "lede": null,
     "lang": "he"
-   },
-   {
-    "title": "טורקיה עצרה את סגן ראש רשות ניירות הערך לשעבר בחקירת הקרנות",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBxY2EwbnlhU3dwYjlHa0pzZWZHVktJdFhEREd2dzlUNlkwWjh1ek12aUJpSmRlNHFJVlp1dm4wdjJlR2FrdDFFT1VUbW9JZmRUUjFBZkxjSXh4aDRLd2pDSGc4Nk01eTJqWjg2UGpMRWI?oc=5",
-    "source": "ביזפורטל",
-    "published": "2026-11-07T15:18:00+00:00",
-    "lede": null,
-    "lang": "he"
    }
   ],
   "geo": [
+   {
+    "title": "Floods in Gaza leave tens of thousands without shelter",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNVm8wZmVIRmx2ZW93ZzExbTdpa1lKME9kYi1WUk5aS0hGVC1oUlhhUFRyUTBYdXhocHVjMHVmWmFnVmFsNFIwZjFPb2JqNUZTdDJHaDBxdmY2SVpBTm94UkpPeU1ITlJQVERKQzRNakFiNldfNHUyT2J5bVdUYkNQM1pOajBtSDRCMnRrN3dyMkxLdnlFR3pqN1hZQdIBoAFBVV95cUxOc0VrRXZIbDNnSUxLQV9rR2F0b2p6LVp5U2plMVFRb1lHdi16d3dRX01rX0h5Zm9EMHppR1htbEdXZzA5Q05sak9VeUxROWVUbHVuanNvWUJtcDdVOGhwSDgzRklGWXRlNVNmeGhZT3M1RXlJdUZVWkRLdkp5MS1SYjA2aTVnakFwY2lkQXdoa1ltdVE5cjJEemhHYmhzcG02?oc=5",
+    "source": "Al Jazeera",
+    "published": "2026-11-08T09:33:02+00:00",
+    "lede": null,
+    "lang": "en"
+   },
    {
     "title": "Remembrance Sunday evokes memories of Isle of Man's war years",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE43ZGN4YTdieUdPQ2tlbVdIYmtmcUJEX0JEajVQd0lUMkRJT1JuX1R4X05NVkZvV0c5LXkwM3pNTE54LXNpWFB5SFJvLTFBQ0RLZUl4cHdvV200dWc?oc=5",
     "source": "BBC",
     "published": "2026-11-08T07:05:00+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Haitians cheer El Salvador’s Bukele amid gang war",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNaUdWVk9SaUZmTk9qcTE4UUFyYWZTei1ZSjFKaVBMOFRYYm5hSDRVNVcySVBJaWkybU9JWE4wYzlTdXpMMHhYMk1BaU1uVS14UFR0MVJhTUs4RVFzNDhZUGNCcnp4bDM4b1h2YW9EVUVNeWRqOGFCdkdELV9yTDYySXU1cjlTWWJKSUVGU0hQVy1XT1hXNmpBR09qeUMzNV9w0gGmAUFVX3lxTE1vVWo5U1BkRlU2V1NtSUQ1dlY0RzM1QVJyLUdXOGRyV3lSS3E3TTJXaVIxYXVhdFg2YzZwSW5SQnZhLXJ0b2RaSEIzeG4wYVhBNG92RElFMjFZdnhPbnp0T2xGZnRjYkgxZmRma2dSSEFqSHBqdXhmWklwZEJ6cTE4VEpnT1NnWGRBODZSS01paWZROFQxZDhPMjQtOHpmMGVseGVwX3c?oc=5",
-    "source": "Al Jazeera",
-    "published": "2026-11-08T05:24:50+00:00",
     "lede": null,
     "lang": "en"
    }
