@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-09T06:31:09.272859+02:00",
+ "generated_at": "2026-11-09T07:31:06.713242+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -52,26 +52,50 @@
   ],
   "us": [
    {
-    "title": "HCAT Q3 2026 deep dive: client retention and cost alignment take center stage",
-    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQLTk1Z1JISUgwX2Y5MktPQ2tIblhxRFoycVEtSl9jTnd2RnNBTWpPUUxkU0c5U0YyNHU3MWl3Y0lCdTNYWFlJQW8ybmhOU0t2Ny02VWJ6VzhZaVoyWDhqVmVkanVHLUNkN3JkWmt3YWRCUkdKQWwzWFZ2X2RoU1lFNjZwUG9oZHRaWW1n?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-09T03:57:00+00:00",
+    "title": "\"בגדתי באשתי. אין לי שום תירוץ\": קראו את המכתב המלא של מנכ\"ל אנבידיה",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562507#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-09T05:16:00+00:00",
+    "lede": "ג'נסן הואנג, מייסד ומנכ\"ל אנבידיה, התנצל בפני עובדי החברה על רומן שניהל מחוץ לנישואיו",
+    "lang": "he"
+   },
+   {
+    "title": "What markets want from the Democrats",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNbkNfNV81OEYtSGYtMjAwZXVnalo0ODNCVzM5dmVaQ3FIcXo2NGl3ZzVNTm5zQ19IUWVwV1BMQmFyWHVRbUdNUmJIS1ZDSklaVXNNWEtFTWxlTHVOUGRkNDhsUllTU2VNQl85aVlLMlJuT1N5WTVaenZaMGg5eGR2akVCRHI?oc=5",
+    "source": "Financial Times",
+    "published": "2026-11-09T05:01:34+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Dow, S&P 500, Nasdaq Futures Rebound After Sharp AI Selloff Last Week: NVDA, AMD, VIR, SNDK In Focus",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZDJTY1ZadjNGdVRsV19LTFJtd1doSGxMSWxjdWtKX3VuUlViQ2tZNW41WmFjY292ZXlESk1FM3VIaFFXRUt1Qnd5SjZZUkJGSUNLLVRxdUMzSDNWRFk2b3c2eVpRWWl3bGpVLTlJUnVUaXFoQkIwYUlvdlhWTGZ1WG0wa05hZmM0RGtNUGlOaGJqUVE?oc=5",
+    "title": "From supermarket fridges to passenger flights, a wave of threats is testing Europe's defenses",
+    "url": "https://www.cnbc.com/2026/11/09/europe-fridge-hacks-bomb-threats-cyberattack.html",
+    "source": "CNBC",
+    "published": "2026-11-09T05:00:01+00:00",
+    "lede": "Cyberattacks on fridges in supermarkets and a wave of bomb threats are testing Europe’s ability to withstand disruption to crucial infrastructure.",
+    "lang": "en"
+   },
+   {
+    "title": "Asian stocks rebound after AI rout",
+    "url": "https://www.ft.com/content/b8644327-86e7-4d1c-a71f-3fb1d552723b?syn-25a6b1a6=1",
+    "source": "Financial Times",
+    "published": "2026-11-09T04:54:20+00:00",
+    "lede": "Declines last week had pushed many indices into bear market territory",
+    "lang": "en"
+   },
+   {
+    "title": "Micron Technology And 2 High Growth Stocks To Watch",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOc3BObWpDQTlJRzlHUjg3d0hIRVZDM1NWSzZSeEJsYlFGS3IzaUozR3hLZ1hqeGVCY3lZZG8xS0FILW1hZWtZWmFSVGx4dGdmdkNSUDBaUmZNQkxmeWI5bERPV0t5YkEtVGtTYThLNlQ5clVTdXVVZ2tfaXhPOWhfcE1tNVdRZ0JqaW9TcmRsMlcwR1V3REd0UElERkk?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-09T03:48:00+00:00",
+    "published": "2026-11-09T04:51:34+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "What STMicroelectronics Doubters Missed",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSVF5QUFOYjVYLUJvN0Nxa0hpUDZUcFFtOWxlM1YwM0lPazlFMlk4WHE4ZS1wRjB0dmJYV055bElnWnJIX09paVlOTDRmbDNWblRsWUNrN2ttbmM2VkxWdkdNWkdFc2U3TmVzSW5jRkVUSE1NU1l4VWdrVkJaSGpZRFo2OThnZ3dCaGRlekJaSUNhS0F6TDFGM2EtRHRrNVdX?oc=5",
+    "title": "Why Did MRNA, XERS, VIR Stocks Surge To 52-Week Highs Last Week?",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPcFhvUXZIS2xmYUZueFYweWtXT0lPY2lHeER0bUVaOE45Q3ZDRUFwNXlsOHdzbUNBbHNiMGZtdF95MEh4WTZGOG5wVzBLcFFraWJrOXRsX2tvUDZOYzhJY2laMl95eXpsN3dkdHQ2ZTd1cDhZVlhEd2J3NkI5RDRDODV2MC1jc0lSdTN3NWJfbw?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-09T03:45:13+00:00",
+    "published": "2026-11-09T04:35:42+00:00",
     "lede": null,
     "lang": "en"
    },
@@ -84,27 +108,11 @@
     "lang": "he"
    },
    {
-    "title": "המדד האפרורי עקף את הנאסד\"ק לראשונה מ־2022. האם הוא עושה קאמבק?",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562485#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-09T03:35:00+00:00",
-    "lede": "מדד הדאו ג'ונס מוטה התעשייה הוא מדד הדגל היחיד בוול סטריט שנותר יציב בחודש האחרון בזמן שהנאסד\"ק ו־S&P 500 ירדו בחדות, והוא גם עקף את התשואה של הנאסד\"ק בשנה האחרונה",
-    "lang": "he"
-   },
-   {
     "title": "China wholesale inflation hits highest in more than four years as consumer measure slows",
     "url": "https://www.cnbc.com/2026/11/09/china-wholesale-inflation-rises-consumer.html",
     "source": "CNBC",
     "published": "2026-11-09T02:50:22+00:00",
     "lede": "The PPI for October came in at 5.7%, compared to the 5.3% expected by economists polled by Reuters.",
-    "lang": "en"
-   },
-   {
-    "title": "China’s inflation edges lower in October",
-    "url": "https://www.ft.com/content/085c4610-143a-47ad-b546-0587695294b5?syn-25a6b1a6=1",
-    "source": "Financial Times",
-    "published": "2026-11-09T02:01:28+00:00",
-    "lede": "Weak domestic demand weighs on prices in world’s second-largest economy even as higher energy prices drive up costs for producers",
     "lang": "en"
    },
    {
@@ -122,17 +130,17 @@
     "published": "2026-11-09T00:30:00+00:00",
     "lede": "“I haven’t committed to the strategy yet and would appreciate some independent perspectives.”",
     "lang": "en"
-   },
-   {
-    "title": "ServiceNow: Capitalizing On A 32% Post-Earnings Collapse",
-    "url": "https://seekingalpha.com/article/4964887-servicenow-capitalizing-on-a-32-percent-post-earnings-collapse?source=feed_all_articles",
-    "source": "Seeking Alpha",
-    "published": "2026-11-08T22:54:11-05:00",
-    "lede": null,
-    "lang": "en"
    }
   ],
   "il": [
+   {
+    "title": "עליות באסיה בהובלת בורסת טייוואן; אנבידיה צונחת ב-4% במסחר הלילי",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562500#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-09T04:56:00+00:00",
+    "lede": "גלובס מגיש עדכון ראשון לגבי מצב השווקים בעולם",
+    "lang": "he"
+   },
    {
     "title": "מפעל בבזן מושבת כבר 17 ימים. הנזק מוערך בעשרות מיליוני שקלים",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001562446#utm_source=RSS",
@@ -158,14 +166,6 @@
     "lang": "he"
    },
    {
-    "title": "מסתמן: כתב אישום בעבירות מס והלבנת הון ביותר מ-10 מיליארד שקל",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562501#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-08T18:23:00+00:00",
-    "lede": "לפי טיוטת כתב החשדות, שני החשודים המרכזיים שלטו בפועל בשלושה צ'יינג'ים בלי ההיתרים הנדרשים, והסתירו את מעורבותם באמצעות אנשי קש",
-    "lang": "he"
-   },
-   {
     "title": "450 אלף נפלו בפח: הסיוט הפיננסי החדש של טורקיה",
     "url": "https://finance.walla.co.il/item/3875380",
     "source": "וואלה",
@@ -176,18 +176,18 @@
   ],
   "geo": [
    {
-    "title": "Rubio says war on Iran unpopular but ‘necessary’ to stop nuclear threat",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQMFlYWG5HNENyZGpLS1JGNzJvMzJqTjJReEplWTNFMnBXTjFQM0ZiblN3WVh3ZEpfcWxGbTE5aTY1MjgtajEwU19vLUlPZUNTdXk4VE9oY0dBblkybmVoOHJ4WUJ4bHhIcjk2akRPRlhYV1pVbVdBZ09hRzFKazJLZUhVSl8zbURINVFMWHZKcDZ0UWRab09ka3hWSkpDaVU4YXVlSzNrLWNMVUZkUXlJ0gG0AUFVX3lxTE11UV9jSEd6eTNyZU5EYXhJMTQyNzJRMS02eHExS0NUZi1PWXV3T0l3NHhHc0xDQ0xNLXB4eU9CUGxJaWxZZEt3REFLMHFlTGlIMUFjX3Myc3duczRGSmRIMVBMNjF4eHpIVy1nT3VRaUhKQXpKUTc1YVFpb0NOQmpVSU85eW9MWGRkQnpxcVFzem9NUmJmR3lQOExkTDNJd2wtemJJQ0dVeGd1MVFocldSdXBEVQ?oc=5",
-    "source": "Al Jazeera",
-    "published": "2026-11-09T04:06:24+00:00",
+    "title": "U.S. launches new task force as Iran nuclear talks collapse and war escalates",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNGZXZzVuVmlZbmhMV1YtUlFHNGdGQWZSek5Wa1Y2dU5KR3hEYzExYzNnNElOZTJrU2o5ZE9ob2RCOHMyX2FIaTloQnZFSmZjWDVEZ3BMdWZpd2lrdWw4SXFlclRQV09vUXlRV1doanV5T0tSeGtDaHNZOXEzeTZUb3JWMHMzRzFESjY2NV9FRkl4V0Fjbng4d1FJVUk4cVVyNW9GMmlRZG1KWnJYanRXX2pfQQ?oc=5",
+    "source": "CBS News",
+    "published": "2026-11-09T05:12:00+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Tesla Announces It Will Discontinue the Cybertruck, a Culture War on Wheels",
-    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBQNzhsUk9VMGxqSXoxRUJqbURmWjdsbmlPYjZWOTV2Y05hdnlaYTBiMjJoS2tZT1VDUER0TUVSYUtaN3J6bng1UkQ5c1Z0QmM0WGpsaUdzT1RoTDVxdmVsT2g3UEthYW5ueDRFRzhFZFY3UWVQaWt3d2FZUQ?oc=5",
-    "source": "The New York Times",
-    "published": "2026-11-09T03:51:50+00:00",
+    "title": "US and Iran are quietly negotiating as Middle East remains on edge. Here’s what to know",
+    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9OejVwb3pCVS10a0dlaVBzWnBYaHEzb3JqVnNmZGdDZ1BGTC1PdHBVMEZsUzFpTjI3b2ZoQVJEYVltdWdZZURVTTg5ZF8tVlR5NDVrR3ZGVHYzQ3luZy0zVzlYRUVUTC1QN2F4ZDhNR3MwTzhMcDdRMk1n?oc=5",
+    "source": "CNN",
+    "published": "2026-11-09T05:00:15+00:00",
     "lede": null,
     "lang": "en"
    }
