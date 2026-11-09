@@ -1,5 +1,5 @@
 {
- "fetched_at": "9.11.2026, 14:48",
+ "fetched_at": "9.11.2026, 15:05",
  "items": [
   {
    "title": "Tafolecimab monotherapy reduced low-density lipoprotein cholesterol by more than 60% at week 12 in phase 3 CREDIT-5 results - 2 Minute Medicine",
@@ -1697,24 +1697,6 @@
    "ncts": []
   },
   {
-   "title": "A Personalized Cancer Therapy Delivered Positive Phase 3 Results; The Next Race Is Picking Better Targets - WBOC TV",
-   "link": "https://news.google.com/rss/articles/CBMipAJBVV95cUxPaGtwaVRRY3BCa3VSVldTRXlBZE80SDBTbDVRWlgzT0ZrR1FkTzVvOEhQcE1KYkQ4YnRVM3lfaHg3dWVjbVNXSjJaNXJWUDhwWEVMMExUSDhpOEg1eTdhcl8taWhHaVFIZVNIdk1pSVRMY3FjRWxnaTJSWWZsOFpvRUxBcWdLWFNmWVp3SzZrbFlKXzZWZzFpeXVKVVhiaHVMOFJiM3FqV1pnOFMzdHdPUnRFMHBIVlNER0RYVFd3dG9IcEFPU09hbUhIVzVPdERGV25ZMko3V0tBa2c2dE0yZTlWSGxOR2xhUExoa2tKYXFVN1lwSHZvNUpxWGFOaVRIcDlhRTZtZVBnZ3V2cmw3a1dRcFQyNzFlVTRyTWdEbGpZS1BQ?oc=5",
-   "pub_ts": 1793019180.0,
-   "date": "26.10.2026, 14:53",
-   "cat": "phase3",
-   "sev": 4,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMipAJBVV95cUxPaGtwaVRRY3BCa3VSVldTRXlBZE80SDBTbDVRWlgzT0ZrR1FkTzVvOEhQcE1KYkQ4YnRVM3lfaHg3dWVjbVNXSjJaNXJWUDhwWEVMMExUSDhpOEg1eTdhcl8taWhHaVFIZVNIdk1pSVRMY3FjRWxnaTJSWWZsOFpvRUxBcWdLWFNmWVp3SzZrbFlKXzZWZzFpeXVKVVhiaHVMOFJiM3FqV1pnOFMzdHdPUnRFMHBIVlNER0RYVFd3dG9IcEFPU09hbUhIVzVPdERGV25ZMko3V0tBa2c2dE0yZTlWSGxOR2xhUExoa2tKYXFVN1lwSHZvNUpxWGFOaVRIcDlhRTZtZVBnZ3V2cmw3a1dRcFQyNzFlVTRyTWdEbGpZS1BQ?oc=5"
-    }
-   ],
-   "ncts": []
-  },
-  {
    "title": "TNGX: Promising pancreatic cancer data support a planned Phase 3 trial, with $977.5M in cash and securities - TradingView",
    "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNWUxCOElVWmdxN1UxUENnbFlPek52eTRwSExiZW1VSjhzeXB3TWd5aTZBNWFqR3hfMS1pRUJLZWhNR2k1ckQwNlo3UDFIZGQ5My1rdmJsSHRIYzBNX3p2eWZHNExTdG1oOWRtZVl5NDhCbkdaLXgxOUlxQzZ0QmtRWjN2VnNySTdKVzJLNDAtTmx2dWFrbmctaG0ydUpUUjZLY0J4YTdSaGR0Q3p0RUdGVmlWcHpJT2V0ajk2YkdXQ1ByQ1V6ZXJ5Yzlpc0YyVDVMRkQ1bjhUSGk3T2xEQXY3aFZjQmhYcERtcHlvSldydWxJckZ5T0FVUldvR0JnMC1jU3NSUVhNek96eXhpcDYwWGpoNkFGZw?oc=5",
    "pub_ts": 1794226462.0,
@@ -3229,80 +3211,6 @@
    "ncts": []
   },
   {
-   "title": "FDA approves generic Hydroxyurea (Esjay Pharma)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220300",
-   "pub_ts": 1793664000.0,
-   "date": "3.11.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220300"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "FDA approves generic Propofol (Baxter Hlthcare Corp)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=203421",
-   "pub_ts": 1793664000.0,
-   "date": "3.11.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [
-    "BAX"
-   ],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=203421"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "FDA approves generic Olopatadine Hydrochloride (Alembic)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=217856",
-   "pub_ts": 1793664000.0,
-   "date": "3.11.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=217856"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "FDA approves generic Fluticasone Propionate (Teva Pharms Usa Inc)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=209917",
-   "pub_ts": 1793664000.0,
-   "date": "3.11.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=209917"
-    }
-   ],
-   "ncts": []
-  },
-  {
    "title": "A Study of an Acetaminophen/Naproxen Sodium Fixed Combination, Acetaminophen and Naproxen Sodium in Postoperative Dental Pain",
    "link": "https://clinicaltrials.gov/study/NCT05761574",
    "pub_ts": 1793664000.0,
@@ -3390,6 +3298,88 @@
    "ncts": [
     "NCT05811247"
    ]
+  },
+  {
+   "title": "FDA approves generic Hydroxyurea (Esjay Pharma)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220300",
+   "pub_ts": 1793664000.0,
+   "date": "3.11.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220300"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA approves generic Propofol (Baxter Hlthcare Corp)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=203421",
+   "pub_ts": 1793664000.0,
+   "date": "3.11.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [
+    "BAX"
+   ],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=203421"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA approves generic Olopatadine Hydrochloride (Alembic)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=217856",
+   "pub_ts": 1793664000.0,
+   "date": "3.11.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=217856"
+    },
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220602"
+    },
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=214747"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA approves generic Fluticasone Propionate (Teva Pharms Usa Inc)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=209917",
+   "pub_ts": 1793664000.0,
+   "date": "3.11.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=209917"
+    }
+   ],
+   "ncts": []
   },
   {
    "title": "New Phase 2 REC-4881 Data Presented at CGA-IGC Show Deep, Durable Polyp Burden Reductions in FAP, with Activity Across the GI Tract and in Larger, Higher-Risk Polyps - The Manila Times",
@@ -3584,6 +3574,48 @@
    "ncts": []
   },
   {
+   "title": "Double-blind, Randomized, Placebo-controlled, Prospective Phase III Study Evaluating Efficacy and Safety of Panzyga in Primary Infection Prophylaxis in Patients With Chronic Lymphocytic Leukemia (\"PRO-SID\" Study)",
+   "link": "https://clinicaltrials.gov/study/NCT04502030",
+   "pub_ts": 1793577600.0,
+   "date": "2026-11-02",
+   "cat": "phase3",
+   "sev": 2,
+   "dir": 0,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "ClinicalTrials.gov",
+     "link": "https://clinicaltrials.gov/study/NCT04502030"
+    }
+   ],
+   "ncts": [
+    "NCT04502030"
+   ]
+  },
+  {
+   "title": "Research Study to Look at How Well Semaglutide Works in People Living With Heart Failure, Obesity and Type 2 Diabetes",
+   "link": "https://clinicaltrials.gov/study/NCT04916470",
+   "pub_ts": 1793577600.0,
+   "date": "2026-11-02",
+   "cat": "phase3",
+   "sev": 2,
+   "dir": 0,
+   "tickers": [],
+   "companies": [
+    "NVO"
+   ],
+   "sources": [
+    {
+     "source": "ClinicalTrials.gov",
+     "link": "https://clinicaltrials.gov/study/NCT04916470"
+    }
+   ],
+   "ncts": [
+    "NCT04916470"
+   ]
+  },
+  {
    "title": "FDA approves generic Methylprednisolone Acetate (Gland)",
    "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219662",
    "pub_ts": 1793577600.0,
@@ -3656,48 +3688,6 @@
     }
    ],
    "ncts": []
-  },
-  {
-   "title": "Double-blind, Randomized, Placebo-controlled, Prospective Phase III Study Evaluating Efficacy and Safety of Panzyga in Primary Infection Prophylaxis in Patients With Chronic Lymphocytic Leukemia (\"PRO-SID\" Study)",
-   "link": "https://clinicaltrials.gov/study/NCT04502030",
-   "pub_ts": 1793577600.0,
-   "date": "2026-11-02",
-   "cat": "phase3",
-   "sev": 2,
-   "dir": 0,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT04502030"
-    }
-   ],
-   "ncts": [
-    "NCT04502030"
-   ]
-  },
-  {
-   "title": "Research Study to Look at How Well Semaglutide Works in People Living With Heart Failure, Obesity and Type 2 Diabetes",
-   "link": "https://clinicaltrials.gov/study/NCT04916470",
-   "pub_ts": 1793577600.0,
-   "date": "2026-11-02",
-   "cat": "phase3",
-   "sev": 2,
-   "dir": 0,
-   "tickers": [],
-   "companies": [
-    "NVO"
-   ],
-   "sources": [
-    {
-     "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT04916470"
-    }
-   ],
-   "ncts": [
-    "NCT04916470"
-   ]
   },
   {
    "title": "Bristol Myers Squibb (BMY) Reports Positive Phase 2 Pumitamig Lung Cancer Data - Yahoo Finance",
@@ -3877,24 +3867,6 @@
    "ncts": []
   },
   {
-   "title": "FDA approves generic Calcitonin-Salmon (Nanjing King Friend)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=216996",
-   "pub_ts": 1793232000.0,
-   "date": "29.10.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=216996"
-    }
-   ],
-   "ncts": []
-  },
-  {
    "title": "Tiotropium/Salmeterol Inhalation Powder (Spiriva Handihaler and Salmeterol Polyethylene (PE) Capsule) in Chronic Obstructive Pulmonary Disease (COPD)",
    "link": "https://clinicaltrials.gov/study/NCT00662740",
    "pub_ts": 1793232000.0,
@@ -3935,6 +3907,24 @@
    ]
   },
   {
+   "title": "FDA approves generic Calcitonin-Salmon (Nanjing King Friend)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=216996",
+   "pub_ts": 1793232000.0,
+   "date": "29.10.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=216996"
+    }
+   ],
+   "ncts": []
+  },
+  {
    "title": "Palvella Announces FDA Acceptance and Priority Review of QTORIN™ Rapamycin NDA; February 28, 2027 PDUFA Target Action Date Set - The Manila Times",
    "link": "https://news.google.com/rss/articles/CBMiowJBVV95cUxQZ0xKYkYzSWotWXoyNVBQN2ZuNHRrWEprOGxNWnRMVWNKY1BSTVN4Vk1OekQ0bmo4Q25tRXJ5Smg2ckdtSF9NcVo0RjZkNWNSZ0N4b2ViTldHTkdaQ2FaVVpSMXY2eHVERng0M1VCblJ1eENLRElqbDBrRy1sV1F2ZGEtMVppTzEyaTZyNy1EbkdJUTBKSkdoWGpQenJLbWJNLVhwLXk1N2FOSUcwREpNQ2djV2txS0NwT3IzRjhXY3o1VVh3YklIbEZsOTdZMWJOMmo4dGVWUkhNV3FKcU5xdUFqdUhmd3RuX21LVzV5YTNWT1ZadURKZDhYaGRicGV1REwtTV9oYW5XTXZQeWYzbXVkNUdaQUk2YXlYTk14Y2hwbXPSAagCQVVfeXFMTi0zazh3dmU2VnBZc21tVjFtUktxRkktRjdMc0lVZWpxdHVuczU5d3N5SEswTXNRdDQtV0FjLUV2M0dXVGUwOXRtRl9GQ2xDVDBaamRUNGxtSTJQUVZ6OVEybXRfa0NNNUMzNnB2bXdpU25ycWJHRjhON2JLcUh3a1hONzJ5U0RZY0JNLVI2VE0ySWc3R0VWa0E0eUlpZU5PWVJxLU1rcHQ0aE1xc0s2MWRDYnhiY2I3Slk3RnJWaU1HUVFIWWVzSHUzVjM3bFlnTmtqMlJ3S29acGJubzdzT21nRXVlMlFzT0k0RnQxM0xfTTNsMmh2UG04RGlZRmZmR1JwcXU3MTVNbE41TEtMcjEyY0tVMGNzcXRmQW1FaW9Na2F3d0dabHQ?oc=5",
    "pub_ts": 1793187128.0,
@@ -3951,78 +3941,6 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMiowJBVV95cUxQZ0xKYkYzSWotWXoyNVBQN2ZuNHRrWEprOGxNWnRMVWNKY1BSTVN4Vk1OekQ0bmo4Q25tRXJ5Smg2ckdtSF9NcVo0RjZkNWNSZ0N4b2ViTldHTkdaQ2FaVVpSMXY2eHVERng0M1VCblJ1eENLRElqbDBrRy1sV1F2ZGEtMVppTzEyaTZyNy1EbkdJUTBKSkdoWGpQenJLbWJNLVhwLXk1N2FOSUcwREpNQ2djV2txS0NwT3IzRjhXY3o1VVh3YklIbEZsOTdZMWJOMmo4dGVWUkhNV3FKcU5xdUFqdUhmd3RuX21LVzV5YTNWT1ZadURKZDhYaGRicGV1REwtTV9oYW5XTXZQeWYzbXVkNUdaQUk2YXlYTk14Y2hwbXPSAagCQVVfeXFMTi0zazh3dmU2VnBZc21tVjFtUktxRkktRjdMc0lVZWpxdHVuczU5d3N5SEswTXNRdDQtV0FjLUV2M0dXVGUwOXRtRl9GQ2xDVDBaamRUNGxtSTJQUVZ6OVEybXRfa0NNNUMzNnB2bXdpU25ycWJHRjhON2JLcUh3a1hONzJ5U0RZY0JNLVI2VE0ySWc3R0VWa0E0eUlpZU5PWVJxLU1rcHQ0aE1xc0s2MWRDYnhiY2I3Slk3RnJWaU1HUVFIWWVzSHUzVjM3bFlnTmtqMlJ3S29acGJubzdzT21nRXVlMlFzT0k0RnQxM0xfTTNsMmh2UG04RGlZRmZmR1JwcXU3MTVNbE41TEtMcjEyY0tVMGNzcXRmQW1FaW9Na2F3d0dabHQ?oc=5"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "FDA approves generic Ketamine Hydrochloride (Neurorx)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220602",
-   "pub_ts": 1793145600.0,
-   "date": "28.10.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220602"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "FDA approves generic Triamterene (Rubicon Research)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220782",
-   "pub_ts": 1793145600.0,
-   "date": "28.10.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220782"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "FDA approves generic Fulvestrant (Sinopep Allsino)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=216722",
-   "pub_ts": 1793145600.0,
-   "date": "28.10.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=216722"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "FDA approves generic Venetoclax (Alembic)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=214747",
-   "pub_ts": 1793145600.0,
-   "date": "28.10.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=214747"
     }
    ],
    "ncts": []
@@ -4114,6 +4032,42 @@
    ]
   },
   {
+   "title": "FDA approves generic Triamterene (Rubicon Research)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220782",
+   "pub_ts": 1793145600.0,
+   "date": "28.10.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220782"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA approves generic Fulvestrant (Sinopep Allsino)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=216722",
+   "pub_ts": 1793145600.0,
+   "date": "28.10.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=216722"
+    }
+   ],
+   "ncts": []
+  },
+  {
    "title": "Pfizer Cancer Therapy Shows Extended Progression-Free Survival in Multiple Myeloma Patients - Benzinga",
    "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPZmVwcEdSRkcwcGF6enQwRi0wRnJzTExYbnBURFk2Z3JaUk93MjR5aV8yVXRkelQ4bElEaTBFcnI0eDZaY0k3WENuaDh1NlF1VndvM1NPYlllQ2dQQVY2WDF3Rlg2LXU5dlp1bGNRdTMzZldaZDItVXhOZmRJaHNaZ016SEUwZ185eUJXMFM3WkxnZzRZTjFXS1pvS1BsanFpdHloVGRGRUJlNDA0QTNUcUMwYVVXS3p4eFpJa0VUR2I3dFpDWEl6N1otV3k3OUFsXzk5YkpTU1lCaE5GVzlXeg?oc=5",
    "pub_ts": 1793121938.0,
@@ -4152,6 +4106,28 @@
    "ncts": []
   },
   {
+   "title": "A Study to Learn How Well the Study Treatment Finerenone Works and How Safe it is in People With Long-term Decrease in the Kidneys' Ability to Work Properly (Chronic Kidney Disease) Together With Type 1 Diabetes",
+   "link": "https://clinicaltrials.gov/study/NCT05901831",
+   "pub_ts": 1793059200.0,
+   "date": "2026-10-27",
+   "cat": "phase3",
+   "sev": 2,
+   "dir": 0,
+   "tickers": [],
+   "companies": [
+    "BAYRY"
+   ],
+   "sources": [
+    {
+     "source": "ClinicalTrials.gov",
+     "link": "https://clinicaltrials.gov/study/NCT05901831"
+    }
+   ],
+   "ncts": [
+    "NCT05901831"
+   ]
+  },
+  {
    "title": "FDA approves generic Rivaroxaban (Teva Pharms Usa)",
    "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=212247",
    "pub_ts": 1793059200.0,
@@ -4186,28 +4162,6 @@
     }
    ],
    "ncts": []
-  },
-  {
-   "title": "A Study to Learn How Well the Study Treatment Finerenone Works and How Safe it is in People With Long-term Decrease in the Kidneys' Ability to Work Properly (Chronic Kidney Disease) Together With Type 1 Diabetes",
-   "link": "https://clinicaltrials.gov/study/NCT05901831",
-   "pub_ts": 1793059200.0,
-   "date": "2026-10-27",
-   "cat": "phase3",
-   "sev": 2,
-   "dir": 0,
-   "tickers": [],
-   "companies": [
-    "BAYRY"
-   ],
-   "sources": [
-    {
-     "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT05901831"
-    }
-   ],
-   "ncts": [
-    "NCT05901831"
-   ]
   },
   {
    "title": "Merck drug extends survival in endometrial cancer trial, wins US priority review - Reuters",
@@ -4260,6 +4214,24 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxONlduTWZKcmRsUHZNcDlRWnJTU2NPU3JzeXh5dkZMaWdqRmE5dmlDMVBMR1JxUlJhTHVwTnJxYm5uQXRMcXZuWWEwaFNfZlJneFNlQjQxaFRsTTJrSEtOZ3NUZmlHel8xQnByMDVhLWVmekNvR0NjV2MzTmdCOUt5cW9lQzdXTzRvTjZtQjZQbVpFNklNaHM4SzVXWGVHb05XeTFkS0xaRmNTdW9IMGJuYl8tNUdMckxiLWpZQTB3?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "Marengo Presents Interim Phase 2 STARt-002 Results for - GlobeNewswire",
+   "link": "https://news.google.com/rss/articles/CBMi7AJBVV95cUxQS0d5NUZGZnV5MnczMjNfekdZb2RTVU01X010TTNKMjEwY09NQ2JnWXBOMUpQc3E1ZUlOWU1UcXpHZGxNdjREN1R0azhTV3p2Q0FITV9pNDZMVHJpVnZSMGljMkQ0SHpXdnR0VVVURzA3OV9ZbENicG5oZFlUQUxqM2dIbUxfV1M5V05MNS1hTjBfcVk4aEtEeVRpRzNwUVpMb1BxZGdORnJIcHUwV3lQRFU1WUJZR1RFZzRNWTh5eXgxSzJiQkJKVG5Pby1QaXBiWkthX3JSNTlhN3ZlZkl5bzdPeTZZRkJyZ090cjhxTWFWdUJnbC1STjd5ZzN5ZWZXVWQ3M2JzQ0gyZWtKRHVpMXhfdGs3WU5WUVR3UFEyeVNoTUZXWS1SSmFCYjRCdWNYZU5XUWJ2YjItbTdoZ09Pc3R2eDFwNWprbkFTbzE2cVZHQmgwZXh2TkoxUDdScmdZQjA3THQ5U0IwRFpD?oc=5",
+   "pub_ts": 1794225600.0,
+   "date": "9.11.2026, 14:00",
+   "cat": "phase2",
+   "sev": 1,
+   "dir": 0,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMi7AJBVV95cUxQS0d5NUZGZnV5MnczMjNfekdZb2RTVU01X010TTNKMjEwY09NQ2JnWXBOMUpQc3E1ZUlOWU1UcXpHZGxNdjREN1R0azhTV3p2Q0FITV9pNDZMVHJpVnZSMGljMkQ0SHpXdnR0VVVURzA3OV9ZbENicG5oZFlUQUxqM2dIbUxfV1M5V05MNS1hTjBfcVk4aEtEeVRpRzNwUVpMb1BxZGdORnJIcHUwV3lQRFU1WUJZR1RFZzRNWTh5eXgxSzJiQkJKVG5Pby1QaXBiWkthX3JSNTlhN3ZlZkl5bzdPeTZZRkJyZ090cjhxTWFWdUJnbC1STjd5ZzN5ZWZXVWQ3M2JzQ0gyZWtKRHVpMXhfdGs3WU5WUVR3UFEyeVNoTUZXWS1SSmFCYjRCdWNYZU5XUWJ2YjItbTdoZ09Pc3R2eDFwNWprbkFTbzE2cVZHQmgwZXh2TkoxUDdScmdZQjA3THQ5U0IwRFpD?oc=5"
     }
    ],
    "ncts": []
