@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-09T21:31:06.192058+02:00",
+ "generated_at": "2026-11-09T22:31:13.376427+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -9,14 +9,6 @@
  },
  "sections": {
   "analysts": [
-   {
-    "title": "Tech Stock Sell-Off 'Golden Buying Opportunity,' Says Dan Ives",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNMFp5MkZrdXJOeWVrcjZwSzlXNHYtcXhZbHllRzRMd2F0Tmwyck9GUTZGQ0VIdWd5U0pzYWMxNU1rZDQzZGJvVzJqb2I3Q3hiSFNnWWFLQ1JxdFF3SEVCSVdESkNfcnR4ajVLVkVpN0xsM2JPRXZaMWYzREpjeERCU2xfUjktbjNNMlNFRHNHRTJXYVd6VEdhNWRZYzVaOW8?oc=5",
-    "source": "Investor's Business Daily",
-    "published": "2026-11-06T21:46:00+00:00",
-    "lede": null,
-    "lang": "en"
-   },
    {
     "title": "AMD shares are primed for a comeback, says Oppenheimer",
     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1CYmI5cjRwNEFyb0VzcTdZb3Fic0Jkck9Cd1RLNURuYVdTWEpDSzktSER6TjBCNlplV3VyRkc1NmZnOThHYnBoZTRibUYwWkNkbktuUGE5d2JLM2pQNW9VdnJ5Rl92WjZ5Z0dobmdTLWdySUFSUDl1REVKdw?oc=5",
@@ -30,6 +22,14 @@
     "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQS0pLbkVmODFlclpzWHFSTUVIenFlNGdqMXd5X0xLdF9DQ1hOQzJCSWlzelV4NWdTaDl1M19admxyaWRiNE95S3UxdzFsU2NnSFhRZEp2M2pZV193YWZHMHF3YmFMMGlLWXpRM3FZSkNXZ2s2OV9IY2pkTzExb0RPV2ZKaVdScnE1WlNFb1AtWm1pY09NRjExbldKREpMSlYzZFFDbXU4c01reDRZQldmZnZwSW82UU91ZE1ReUtrNjFJNTAzVmtnZmI0NTNXZnpOaUhjemczak9MODZkc0tjc0RPRl9MTjRnMFNUeEg4UjRBX2pDVnR4ZkduRV93aVBuSE5GN0dBSk1LcXNKd0g3RWNZVklNUQ?oc=5",
     "source": "Benzinga",
     "published": "2026-11-09T07:44:03+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "KeyBanc downgrades Zillow stock rating on weaker results outlook",
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNQUdmXzdQcDdadkVHOE8zc0VrdTV5bTl4WGdaY3pESFRyb0RRRGk1WnBmY1pOdHVfOUxFc2RFaTVkbDNEa3NRMFBiNUFEdVVRZjdIMENjRXB0dFcxaTM4N2s2bGRQMnpjbVJDY2N4eWNNNnppN0N1SWI2X253YVlRUTM0bkgyZEhyLWNqQ3ZIdGZvLUNIWi1uNzNZMlpBZ3ZoejRxbUx6Rm03VVhOaEZ6TTRxT1lNVS1qcU95RXh6dkFWUQ?oc=5",
+    "source": "Investing.com",
+    "published": "2026-11-09T07:29:53+00:00",
     "lede": null,
     "lang": "en"
    },
@@ -52,6 +52,70 @@
   ],
   "us": [
    {
+    "title": "Nvidia's CEO turmoil gives newly empowered Democrats fresh ammunition in pursuit of oversight",
+    "url": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-affair-congress-scrutiny.html",
+    "source": "CNBC",
+    "published": "2026-11-09T20:29:36+00:00",
+    "lede": "Nvidia CEO Jensen Huang's extramarital affair with an alleged Chinese spy comes as the company is already about to face heightened scrutiny.",
+    "lang": "en"
+   },
+   {
+    "title": "Why Marvell Technology Stock Fell Hard in October",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWTJST0h4V1dHdjBxeUtVUDVIZFIzMFdxZFVDMDZoaXRjWXZwNEt6RVlEQ3M0Nk1hZU5pd25IVGlLQ2phR2FuSHptQ1FuX3FaRlNwU0V0bnYtVW9ET3lVanliOTB6alB6ZjVLUzZ2bzRaZ29hVkNmNXdfc0huSzNSWjhRYXoxbnFORmJySVMtZEZ6Mjd2WUxrY2I1MWZIZlk?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-09T20:17:12+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Nvidia shares tumble over investigation into Huang's affair with alleged Chinese spy",
+    "url": "https://www.bbc.co.uk/news/articles/c6zxjx01vyleo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC",
+    "published": "2026-11-09T19:58:01+00:00",
+    "lede": "The share price dropped wiped hundreds of billions of dollars from the value of Nvidia.",
+    "lang": "en"
+   },
+   {
+    "title": "WeBull Is Still Down 35% This Year: Did Today Mark the Bottom for BULL Stock?",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQTEsxVDhMeC1BZnNGS3ZIclZNam5oeG5CSGpYMElLQS1MQzJIcGo1eTZHMlhqQTF0OUQtTkJqcnVqdkVFdmNjWV9qVUNreXlJd2FJNGZnM2Zqa1RjZFgyY2lZbGNzd1Q5Q2NTdEJCQVk4S1dCVWRTX2xGSnZONnJnY3ROZ1FqVkZkM21pWDQ0Z2UyQWs?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-09T19:57:39+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Musk: “SoftBank Is Defaulting on Their Turbine Orders.” That’s a Warning for GE Vernova",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOT09JXy1qMmxDT0N0c0FUOGI1V0dLa1NYNHVESUxpZzJmWEdFX3U0M1lKZ1VfbkdZTHFkS01HcHluNFpmbHk3SlFOLUdXVzRPLTRZeUhFNnJsdnJTdlhxOG1FMEJkOVRPWGYxTV9GTWRobjA1YVMxeDRSX1p5cHBBSVdUb2ZiR0xRQVhLc0E5MGNCWWYwY081SnpWQVMzRnVESzl0WWNxQQ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-09T19:53:32+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Millions of dollars poured into prediction markets on election night, trading on Democratic control of Congress and Texas governor's race",
+    "url": "https://www.cnbc.com/2026/11/09/millions-of-dollars-poured-into-prediction-markets-on-election-night.html",
+    "source": "CNBC",
+    "published": "2026-11-09T19:41:13+00:00",
+    "lede": "Election night showed how traders reacted in real time to midterm results, as trading activity surged and market prices shifted to Democrats on Nov. 3.",
+    "lang": "en"
+   },
+   {
+    "title": "Cyber-attack on French supermarket freezers has geopolitical context",
+    "url": "https://www.theguardian.com/technology/2026/nov/09/cyber-attack-french-supermarket-freezers-iran-europe",
+    "source": "The Guardian",
+    "published": "2026-11-09T19:40:45+00:00",
+    "lede": "‘Not particularly complex’ defrosting hack has been attributed to Iran, with presumption it is linked to others across Europe Iranian hackers like to send a message. In 2023 a state-backed group interrupted TV streaming…",
+    "lang": "en"
+   },
+   {
+    "title": "US stocks rebound after AI rout",
+    "url": "https://www.ft.com/content/b8644327-86e7-4d1c-a71f-3fb1d552723b?syn-25a6b1a6=1",
+    "source": "Financial Times",
+    "published": "2026-11-09T19:24:57+00:00",
+    "lede": "Lower oil prices help equity indices shrug off fall in Nvidia shares",
+    "lang": "en"
+   },
+   {
     "title": "This beaten-down data center stock could be worth a look, says Mike Khouw",
     "url": "https://www.cnbc.com/2026/11/09/this-beaten-down-data-center-stock-could-be-worth-a-look-says-mike-khouw.html",
     "source": "CNBC",
@@ -60,60 +124,38 @@
     "lang": "en"
    },
    {
-    "title": "The Big Winner From the Aurora Cannabis-Organigram Deal: Curaleaf",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZWotRjh3djFTWF9XYmJFZ0FVR0hIODNwWlc5M1lpS1RUZnl1ZzFJMXVNeFNkZTZ6bGxjdy1aXy1sNlhVMmVIVEljcDJkcEtZWTdQZHBlM1F4c2hnOFF0MXBtOURvM2k0cjNUVGRuYTBDNkRYaGc4MHNIWmRzNzk0N18wdjZEaHhhT2F1MnAxakpERzA1WjRHR2t1NEVyS05FUWNDYg?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-09T19:10:02+00:00",
-    "lede": null,
-    "lang": "en"
+    "title": "הבנק קרס, מיליונים איבדו גישה לכסף ופרגוואי עשויה לאבד מוניטין של שנים",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562583#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-09T19:00:00+00:00",
+    "lede": "קריסת בנק UENO הובילה לטלטלה כלכלית־פוליטית, לקריסת המטבע ולחשש כי המשקיעים ידירו רגליהם מהמדינה שנחשבת יציבה, ומיתגה עצמה כמוקד השקעות זרות",
+    "lang": "he"
+   }
+  ],
+  "il": [
+   {
+    "title": "ריבאונד בוול סטריט: הנאסד\"ק מזנק בכ-3%, מחירי הנפט יורדים",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562500#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-09T19:45:00+00:00",
+    "lede": "ה-S&P 500 בדרך ליום החזק ביותר שלו מאז אפריל",
+    "lang": "he"
    },
    {
-    "title": "Millions of dollars poured into prediction markets on election night, trading on Democratic control of Congress and Texas governor's race",
-    "url": "https://www.cnbc.com/2026/11/09/millions-of-dollars-poured-into-prediction-markets-on-election-night.html",
-    "source": "CNBC",
-    "published": "2026-11-09T19:03:48+00:00",
-    "lede": "Election night showed how traders reacted in real time to midterm results, as trading activity surged and market prices shifted to Democrats on Nov. 3.",
-    "lang": "en"
+    "title": "ארבעה מנכ\"לי חברות ביטוח בוויכוח מול הסוכנים: \"מעבירים כסף ממי שהפסיד למי שיפסיד\"",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562678#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-09T19:35:00+00:00",
+    "lede": "בוועידה השנתית של לשכת סוכני הביטוח באילת, רונן אגסי מנכ\"ל מגדל תקף את מודל התגמול הבעייתי של הסוכנים, שמעודד העברת לקוחות בין גופי החיסכון בכל מספר שנים",
+    "lang": "he"
    },
    {
-    "title": "Anthropic releases first frontier models since Amodei's call for slowdown as IPO buzz builds",
-    "url": "https://www.cnbc.com/2026/11/09/anthropic-claude-fable-5-2-mythos-5-2.html",
-    "source": "CNBC",
-    "published": "2026-11-09T19:00:01+00:00",
-    "lede": "The launch comes as Anthropic is gearing up for what is widely expected to be a blockbuster IPO",
-    "lang": "en"
-   },
-   {
-    "title": "Royal Caribbean Stocks Rise 3.36% as Oil Slide Lifts Cruise Shares",
-    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNSXkxbWFLMjhQd3JRVHhOcEdCdzZfZHU4TFZaVnF3cm51emlmbFotYWp3Sko1RWRSNjc5dm9xUVZUSlVfbVlNVVJpZVA3QzBHR2VQeW5VQnVqaGlCbmc2bHZaS0FUREdTbm52eVU0NkRIYXRQMl9Jdzk0MWdmY3g4aXlZOXQzTVJQbUUyNS1qeF9Hbnc0T3hNcTZB?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-09T18:59:42+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Citigroup sends major warning after $3 trillion stock wipeout",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQMVFkTHB0ZXVrS0g3ZGwwQ2FDU2VkX2R4M19UM3BDR2owSzRTT3hkWDNvSkdEZFhKRG1MeTgtWE9LcUJSd3hGMDUzelRULVFZbkJ1OFBXNGZIZlFPN0dLbjU0UUtEZ29MVGt1RE1SWlNIZjQtY0JjN2VNRzgyRXV5bVV2NmRSNXdJM2VIaWVUa0I0LUgxdHVnRXdzRDY?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-09T18:55:50+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "France accuses Iran of cyber attacks on supermarket refrigerators",
-    "url": "https://www.ft.com/content/176ad787-59af-4900-9efc-8b6f9a247255?syn-25a6b1a6=1",
-    "source": "Financial Times",
-    "published": "2026-11-09T18:31:21+00:00",
-    "lede": "Islamic Revolutionary Guard Corps named in prosecution over incidents that destroyed food and triggered fires",
-    "lang": "en"
-   },
-   {
-    "title": "Think the bond market is broken? History says a massive turnaround could be coming.",
-    "url": "https://www.marketwatch.com/story/think-the-bond-market-is-broken-history-says-a-massive-turnaround-could-be-coming-dfaae450?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-09T18:26:00+00:00",
-    "lede": "Bond investors would do well to remember that it’s often darkest before the dawn.",
-    "lang": "en"
+    "title": "התוכנית של אייל רביד: מיזוג מלא של קרפור לויקטורי ומחיקת המותג",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562676#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-09T18:48:00+00:00",
+    "lede": "רביד מבקש לרכוש 30% ממניות החברה שמחזיקה את קרפור במסגרת הנפקה קרובה ובקשה בעניין אך הוגשה לרשות התחרות",
+    "lang": "he"
    },
    {
     "title": "ה-S&P 500 בדרך ליום החזק ביותר מאז אפריל; אנבידיה נופלת, מחירי הנפט יורדים",
@@ -121,48 +163,6 @@
     "source": "גלובס",
     "published": "2026-11-09T18:17:00+00:00",
     "lede": "הנאסד\"ק קופץ במעל 2% • כלל הסקטורים בוול סטריט נסחרים בירוק, מניות השבבים מטפסות • עליות גם בבורסות אירופה • דירקטוריון אנבידיה פתח בחקירה על רקע פרסומים כי המאהבת של מנכ\"ל החברה גויסה בידי סוכנות הביון הסינית • מחירי…",
-    "lang": "he"
-   },
-   {
-    "title": "Hot U.S. inflation hasn’t cooled off. Rising consumer prices to keep Fed rate hike on track.",
-    "url": "https://www.marketwatch.com/story/hot-u-s-inflation-hasnt-cooled-off-rising-consumer-prices-to-keep-fed-rate-hike-on-track-926c44b0?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-09T18:16:00+00:00",
-    "lede": "Rising prices point to the Fed increasing borrowing costs before Christmas.",
-    "lang": "en"
-   }
-  ],
-  "il": [
-   {
-    "title": "הבנק קרס, מיליונים איבדו גישה לכסף ופרגוואי עשויה לאבד מוניטין של שנים",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562583#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-09T19:00:00+00:00",
-    "lede": "קריסת בנק UENO הובילה לטלטלה כלכלית־פוליטית, לקריסת המטבע ולחשש כי המשקיעים ידירו רגליהם מהמדינה שנחשבת יציבה, ומיתגה עצמה כמוקד השקעות זרות",
-    "lang": "he"
-   },
-   {
-    "title": "כך תקנו ג'אקו בהנחה של 20 אלף שקל. עם כוכבית",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562430#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-09T17:48:00+00:00",
-    "lede": "ב־10 החודשים הראשונים של השנה נמכרו 278 אלף מכוניות חדשות, מהן כ־18 אלף רכבי אפס קילומטר, שלא נרכשו מהיבואן בתום שנה מהייצור",
-    "lang": "he"
-   },
-   {
-    "title": "פלאפון חתמה על הסכם לרכישת Wecom תמורת כ-265 מיליון שקל",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562652#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-09T15:58:00+00:00",
-    "lede": "ארבעה חודשים לאחר החתימה על מזכר הבנות, פלאפון חתמה על הסכם לרכישת חברת הסלולר וויקום",
-    "lang": "he"
-   },
-   {
-    "title": "מניית פרטנר זינקה: הדיבידנד הענק והרווח שלא נראה מאז מהפכת הסלולר",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562526#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-09T15:54:00+00:00",
-    "lede": "פרטנר מסכמת את הרבעון השלישי עם צמיחה של 5.7% בהכנסות ל-829 מיליון שקל ועלייה של 12.2% ברווח הנקי ל-101 מיליון שקל",
     "lang": "he"
    },
    {
@@ -192,18 +192,18 @@
   ],
   "geo": [
    {
-    "title": "Qatar PM meets with Trump for talks on ending war on Iran",
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUWV4Z1BVUDIzY25WUXNCbkZ5Zl9QUXJnaElLV1Y2eXBMUGFaaEs4NC1XR19ZZnFrTFFySHVXZ1hDdUxCUkZQcXpHMVFyQTZka3d0c1RrdEhRZjVYT25MTTREYW4tekpCTkItMThha0FNMXNSX2VvcmhKRUlWdUhiSDlIeXJTR2JQYW1GRDFrQ1hlTWhOYmR2R0tKZ09lVUlxblhJZFJGdEhvM3ZL0gGyAUFVX3lxTFBzaHl2bmYyUnpMUXBZS216b1hOWm4xSmloMDFyNDJqOE5sUDZPOWxVanNReGNUQ3pRV1plY014aW93emI4T0hKTFBNRUM1T3J2YTNwbVlVRXM2WmtHdFNROGNtdkg0NUc0OWZpN25XNmtrWjZvakFhSmFwZzg5OUNubEtZYUJuY2NObjMza0dORU5XbV81cXdBcmZfM050akdqQi1aR2FVanBKdnhCWkcxaGc?oc=5",
-    "source": "Al Jazeera",
-    "published": "2026-11-09T18:54:35+00:00",
+    "title": "Trump envoys aim to persuade Russia to include Europe in negotiations on ending war with Ukraine",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSzJmdDczN2hxRVpiY0V5UzZWZlFBR3oxaUlhWW96SzNvUEcxd3Q5clI3M1FXUTZqMkF5dmpZV29xdjFZV1hBNDZpeXVwalQ4X1lISlZGY1lIWVZ2UXpYUUExQXl0aVlZazNycEFHQ25xclZiNHQyOW5nWlFoYlFPU3VyeTZwa0hPUkNMeTJ5ck9UVk95?oc=5",
+    "source": "AP News",
+    "published": "2026-11-09T19:26:00+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Here Are the Difficult Options Trump Is Weighing to Resolve the War in Iran",
-    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5IMC1KVG9Ya3lRLXhObVBSYWJLeFNxY0ZRMUpUUnZKQ0FOSlNyNGFyeWNmU0c2elJoOXlGWDhuOExCVzdhWnFGRlp5UjdFN2M5d1d6Mlh3WVZKUXZXaWdfZW5PdjNkLURJa21TTk1iaFZnQW5nY0p1M0hB?oc=5",
-    "source": "The New York Times",
-    "published": "2026-11-09T18:36:00+00:00",
+    "title": "Qatar PM meets with Trump for talks on ending war on Iran",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUWV4Z1BVUDIzY25WUXNCbkZ5Zl9QUXJnaElLV1Y2eXBMUGFaaEs4NC1XR19ZZnFrTFFySHVXZ1hDdUxCUkZQcXpHMVFyQTZka3d0c1RrdEhRZjVYT25MTTREYW4tekpCTkItMThha0FNMXNSX2VvcmhKRUlWdUhiSDlIeXJTR2JQYW1GRDFrQ1hlTWhOYmR2R0tKZ09lVUlxblhJZFJGdEhvM3ZL0gGyAUFVX3lxTFBzaHl2bmYyUnpMUXBZS216b1hOWm4xSmloMDFyNDJqOE5sUDZPOWxVanNReGNUQ3pRV1plY014aW93emI4T0hKTFBNRUM1T3J2YTNwbVlVRXM2WmtHdFNROGNtdkg0NUc0OWZpN25XNmtrWjZvakFhSmFwZzg5OUNubEtZYUJuY2NObjMza0dORU5XbV81cXdBcmZfM050akdqQi1aR2FVanBKdnhCWkcxaGc?oc=5",
+    "source": "Al Jazeera",
+    "published": "2026-11-09T18:54:35+00:00",
     "lede": null,
     "lang": "en"
    }
