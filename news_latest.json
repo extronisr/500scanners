@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-09T10:31:02.723143+02:00",
+ "generated_at": "2026-11-09T11:31:08.074762+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -52,19 +52,59 @@
   ],
   "us": [
    {
-    "title": "Gulf stocks gain on Trump's signal against renewed Iran strikes",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTktoWW9WcXF4bTZDdDJwR2Z4Rm1SdmZvZlR3Sl9NVmxPZUhZQVBhb2k4WXJUczBkLUxOV0dWaHZHZ0tuNUlEcVU3azhUem9ib1prV0xXNWdPdVZjNFAwYTBTNFRKWEgwMmNtMUQ5dG1zTzVFY3J1RmdHMk92d2pNYkoxaTBmdE9oaV9aUFdLc0tPdVNqRmNGTlpvS3hQSE5LaDdGbzJkVFdNNXNoSlJyZE1mQQ?oc=5",
-    "source": "Reuters",
-    "published": "2026-11-09T08:21:45+00:00",
+    "title": "Global stocks steady after AI rout",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQWHEzQjNVM0hCVHUxV3NxbWpTSDFrQzZ2MkwwWW13Q0Vubm82dW1IU0wyT2xfMWpCa1VpcFNKQ3lGS3FnYjZmMHcyZG1kQjQtaDczbVZCSGItak53QklrVVZqOEVfQzRMY1Y2ak0tQnFOcW15dGgxdlZaR1R4UXdocl9nbWE?oc=5",
+    "source": "Financial Times",
+    "published": "2026-11-09T09:22:30+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "SpaceX Stock Fell to Its Lowest Level Since August After the Midterms. Is It Time to Buy?",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNSkZWZ25qRFNwdGpId2FtZUZRd29URjdqeG05UDVWR2ZpdUh0dlQ3NHZ0b1J4blZlSzkxRnB2SnlaYW9EMU8tSGF0WlFjZWVnQnJmNVRwdEVEcnZlTGp3NkxfZm9oTWxhd0E5WEwyU1E0Q1hrTFpPZ3RITDFIS19BMGxfMkhGeFVwaHpKamdNZ1Z0Zko0X1pJQWdRSQ?oc=5",
+    "title": "Nvidia shares slide as it probes alleged Chinese spy scandal",
+    "url": "https://www.ft.com/content/fa3b0a35-1aa9-4f31-97b4-e4c599e3e654?syn-25a6b1a6=1",
+    "source": "Financial Times",
+    "published": "2026-11-09T09:15:56+00:00",
+    "lede": "Board of chipmaker opens investigation after chief executive Jensen Huang admits to affair",
+    "lang": "en"
+   },
+   {
+    "title": "NVDA Stock Slides Premarket: Beijing Reportedly Rejects Jensen Huang Spy Allegations As ‘Smears Against China'",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPc3JQZmotOEpiZkhzc3FnbGw4N1dBNDBaWHQ2bDhhTGNjMW9GMlc1eWVQLUViRWVlU0hkRlA2b0h4TWRqQzg5MzN5OXZleTZTRWp1ZG5lRHF6ZHRxYnN3cVl1NmJGNmhaTl9vNUQ3MTRZcENZejQteDEtX2htR3VDTC0yUWVNdU51OVdBM0pnazlLTlByUl9KQUpWS0owZ3JMUVE?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-09T08:20:00+00:00",
+    "published": "2026-11-09T09:14:37+00:00",
     "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Huang allegations, Berkshire earnings, AI regulations - What’s moving markets",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVzBKOG9pdjJCTjRwdlJ6VVBpSTVpYXkzYWJLR2pfNDhMZ3dMRi1YZHItdGotR2FHWV9Vb3cyVk9JVTdaVkcwTm5qdGtvQlFMeC1MNVJQa2prLVlxNkJHNk5oeWk2cDJDOWNlMTJPNk5YT2U3eXkzMW5NNXBNd0hMRUExa2ZWTGtLRmNKcUw5ejFDWUJ1U0tQQ3JLREVEdw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-09T09:13:15+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "How Wall Street is reacting to the news of Nvidia’s investigation into Jensen Huang spy claims",
+    "url": "https://www.marketwatch.com/story/how-wall-street-is-reacting-to-the-news-of-nvidias-jensen-huang-investigation-into-spy-claims-d8c839ab?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-09T09:12:00+00:00",
+    "lede": "The Wall Street reaction to the blockbuster Nvidia news is to wonder about who would succeed Jensen Huang if he were to be forced out.",
+    "lang": "en"
+   },
+   {
+    "title": "הרומן של המנכ\"ל מטלטל את אנבידיה: המניה נופלת ביותר מ-4% במסחר המוקדם",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562500#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-09T09:05:00+00:00",
+    "lede": "בורסת פריז יורדת ב-0.3% • דירקטוריון אנבידיה פתח בחקירה על רקע פרסומים כי המאהבת של מנכ\"ל החברה גויסה בידי סוכנות הביון הסינית • מחירי הנפט יציבים אחרי שטראמפ אמר שהסבירות למתקפה על איראן נמוכה • וגם, גולדמן סאקס…",
+    "lang": "he"
+   },
+   {
+    "title": "From supermarket fridges to passenger flights, a wave of threats is testing Europe's defenses",
+    "url": "https://www.cnbc.com/2026/11/09/europe-fridge-hacks-bomb-threats-cyberattack.html",
+    "source": "CNBC",
+    "published": "2026-11-09T08:59:16+00:00",
+    "lede": "Cyberattacks on fridges in supermarkets and a wave of bomb threats are testing Europe’s ability to withstand disruption to crucial infrastructure.",
     "lang": "en"
    },
    {
@@ -76,51 +116,11 @@
     "lang": "he"
    },
    {
-    "title": "WMS Q3 CY2026 deep dive: guidance reset as market adjusts to slower demand and input costs",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQZHdBRElyR0xxbUxpT0ZqQ2gxbkwzYU83OHhhc2p2VHE2dTNsWENsNC0tN1kwQ0gybXl3My1zUldDMW1WUVYzVVdha3hTbWVrX3dieUh6SEJrUkxJbjFkbFA1NU5ZOFZOMHpHQjdxTmI1VDR5OGNueEpORU91NjlOZkR1VXRLcm9wUUVITmlXNmxBQQ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-09T08:13:36+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "דריסת רגל סינית: קטאר לקחה הלוואת ענק כדי להתמודד עם משבר הנפט",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562438#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-09T07:21:00+00:00",
-    "lede": "4 אירועים שקרו מעבר לים, ומשפיעים על השווקים, הגיאו־פוליטיקה, והעתיד",
-    "lang": "he"
-   },
-   {
-    "title": "Asian stocks rebound after AI rout",
-    "url": "https://www.ft.com/content/b8644327-86e7-4d1c-a71f-3fb1d552723b?syn-25a6b1a6=1",
-    "source": "Financial Times",
-    "published": "2026-11-09T07:09:17+00:00",
-    "lede": "Declines last week had pushed many indices into bear market territory",
-    "lang": "en"
-   },
-   {
     "title": "The great British sell-off",
     "url": "https://www.ft.com/content/805f0c1d-795b-4ee0-8fbd-e08ab1be1193?syn-25a6b1a6=1",
     "source": "Financial Times",
     "published": "2026-11-09T05:00:08+00:00",
     "lede": "Companies worth half a trillion pounds have been snapped up by foreign buyers over the past decade",
-    "lang": "en"
-   },
-   {
-    "title": "From supermarket fridges to passenger flights, a wave of threats is testing Europe's defenses",
-    "url": "https://www.cnbc.com/2026/11/09/europe-fridge-hacks-bomb-threats-cyberattack.html",
-    "source": "CNBC",
-    "published": "2026-11-09T05:00:01+00:00",
-    "lede": "Cyberattacks on fridges in supermarkets and a wave of bomb threats are testing Europe’s ability to withstand disruption to crucial infrastructure.",
-    "lang": "en"
-   },
-   {
-    "title": "SK Hynix Profit Tanks 58%, Buy Now At 5x Earnings And Consider SKUU",
-    "url": "https://seekingalpha.com/article/4964930-sk-hynix-profit-tanks-58-percent-buy-now-at-5x-earnings?source=feed_all_articles",
-    "source": "Seeking Alpha",
-    "published": "2026-11-09T03:13:17-05:00",
-    "lede": null,
     "lang": "en"
    },
    {
@@ -142,52 +142,52 @@
     "lang": "he"
    },
    {
-    "title": "עליות קלות בת\"א; מניות השבבים מעיבות על הבורסה",
+    "title": "הרווח הנקי של פרטנר גדל ב-12%; החברה מתקדמת עם חלוקת הדיבידנד המיוחד בסך 500 מיליון שקל",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562526#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-09T09:17:00+00:00",
+    "lede": "פרטנר מסכמת את הרבעון השלישי עם צמיחה של 5.7% בהכנסות ל-829 מיליון שקל ועלייה של 12.2% ברווח הנקי ל-101 מיליון שקל",
+    "lang": "he"
+   },
+   {
+    "title": "ויקטורי מבקשת היתר מרשות התחרות לרכוש 30% מקרפור",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562525#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-09T08:53:00+00:00",
+    "lede": "ויקטורי עדכנה את המשקיעים לפני זמן קצר כי פנתה לרשות התחרות לבחון רכישה של כ-30% מרשת קרפור, זאת במסגרת ההנפקתה הצפויה",
+    "lang": "he"
+   },
+   {
+    "title": "עליות בבורסת ת\"א בהובלת מניות הביטוח והנדל\"ן",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001562489#utm_source=RSS",
     "source": "גלובס",
-    "published": "2026-11-09T08:02:00+00:00",
-    "lede": "המסחר בת\"א נפתח הבוקר לאור העליות בעולם",
+    "published": "2026-11-09T08:45:00+00:00",
+    "lede": "ת\"א 35 ות\"א 90 עולים ב-0.7% • דואליות: פאלו אלטו וטאואר יורדות ב-4% בפתיחה, טבע ואנלייט עולות ב-2% • סיטיבנק יאפשר מסחר במניות בנק מזרחי טפחות בוול סטריט • השקל מתחזק הבוקר מול הדולר, כ-3.17 שקלים לדולר • בנק אוף…",
     "lang": "he"
    },
    {
-    "title": "מסלול עוקף רגולטור? המכשול הצפוי בעסקת ארקיע־ישראייר",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562449#utm_source=RSS",
+    "title": "דריסת רגל סינית: קטאר לקחה הלוואת ענק כדי להתמודד עם משבר הנפט",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562438#utm_source=RSS",
     "source": "גלובס",
-    "published": "2026-11-09T07:00:00+00:00",
-    "lede": "חשיפת גלובס, לפיה ישראייר בוחנת את רכישת ארקיע, צפויה להיתקל באתגר רגולטורי",
-    "lang": "he"
-   },
-   {
-    "title": "מניית מזרחי טפחות מגיעה לוול סטריט. כך זה יעבוד",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562515#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-09T06:11:00+00:00",
-    "lede": "הבנק הגיש לרשות ניירות ערך האמריקאית מסמך לרישום של עד 50 מיליון תעודות ADR על מניית הבנק",
-    "lang": "he"
-   },
-   {
-    "title": "עליות באסיה בהובלת בורסת טייוואן; אנבידיה צונחת ב-4% במסחר הלילי",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562500#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-09T04:56:00+00:00",
-    "lede": "גלובס מגיש עדכון ראשון לגבי מצב השווקים בעולם",
+    "published": "2026-11-09T07:21:00+00:00",
+    "lede": "4 אירועים שקרו מעבר לים, ומשפיעים על השווקים, הגיאו־פוליטיקה, והעתיד",
     "lang": "he"
    }
   ],
   "geo": [
    {
-    "title": "Who are the seafarers caught in the US-Israeli war on Iran?",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQbFZTaUdlS08tWmFfLUFBSjl2YWpsbTR0VnpJbVM0STRmVUtWc091VkpIXzdkamFnNW1PemNROXRrRExYZFZwOVhWeEhMcW5BbHAzcmctRUxHNE5uMFpMTUJxdDdLeHk0RGpJdWRFb0JYZnF4dURxdlV5bnp1YjFiSEUtX2RkYy13azUtdmtYSHo5cGNjbmhyS19NdUFMMHda0gGmAUFVX3lxTE9TNzdqWEVZaTRnSV8zLW01S1RrMWtPZEdlbVQyZG9fTngtUl82QU9oaUdLMmpxTDNqUzZoalh0SE5EUUwyNktoVHk0dFVVV2prSUxsV3VZSU5BRjFtaWEtQ19wYm9aR3NEZDc4X1J1ZkwzMUV2Vk52eHpyc3JELXJsdW9Xa3g2UVJjakRjX0YxQ21rREQzZk9EcXJXTFE2dkNsWFRmZkE?oc=5",
-    "source": "Al Jazeera",
-    "published": "2026-11-09T07:10:23+00:00",
+    "title": "'We call it war-life balance': Daryna's daily struggle to live, survive in wartime Ukraine",
+    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOcW1mSGNJNXdpcTFxNnZ2UEhSNC01LW11NFdnY1pUTnRrTmJrdGpkZWJRdHE2N29PUENyWDdpbUdFZEphb09UMXR4bUZuVEdHa01ZdzZzS3JjTWxzUzNqMXo5V0xaZjhjR0Y5a0k2ZTctY2x5dU9EN0FGZDN6cXE2ZFVtZUsxVU5ZZ3I3ZXNFVmxMTDFxeU5rcksxeG1QaXBkeUp2WUhWR05WYjF1RE4zMmdBbE1jNUVmR3Fqcy1XWjJ2WmIxYTREMkdn?oc=5",
+    "source": "France 24",
+    "published": "2026-11-09T09:10:50+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "UAE's Gargash warns of prolonged regional uncertainty, says US-Iran settlement appears difficult",
-    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMlI2UXNzNl84Z1ByMV9Ybm5YNjMtZkdPcDhsZ2plZk9udWViZDZ4eTRVQVNXN2x6U2hENlkxbXJ2SXVvVU0tVWFkZGlSLXBDcnBZM1pzLVBNMzA5bjdZOHlFSXd6ZzhsWWZvV3JWWXlTME1tMnJ5Q0RoWHk1ZmJzbzk5cjZFaDI4NXpTOGRaVDBTNGNxcnRZYjF0X2NzY3EwaEJZcVhMaHRRMXREdXBkeXh6OGRCdU9aaWRJdS1zNzBQSUJCZEE?oc=5",
-    "source": "Reuters",
-    "published": "2026-11-09T07:01:00+00:00",
+    "title": "Who are the seafarers caught in the US-Israeli war on Iran?",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQbFZTaUdlS08tWmFfLUFBSjl2YWpsbTR0VnpJbVM0STRmVUtWc091VkpIXzdkamFnNW1PemNROXRrRExYZFZwOVhWeEhMcW5BbHAzcmctRUxHNE5uMFpMTUJxdDdLeHk0RGpJdWRFb0JYZnF4dURxdlV5bnp1YjFiSEUtX2RkYy13azUtdmtYSHo5cGNjbmhyS19NdUFMMHda0gGmAUFVX3lxTE9TNzdqWEVZaTRnSV8zLW01S1RrMWtPZEdlbVQyZG9fTngtUl82QU9oaUdLMmpxTDNqUzZoalh0SE5EUUwyNktoVHk0dFVVV2prSUxsV3VZSU5BRjFtaWEtQ19wYm9aR3NEZDc4X1J1ZkwzMUV2Vk52eHpyc3JELXJsdW9Xa3g2UVJjakRjX0YxQ21rREQzZk9EcXJXTFE2dkNsWFRmZkE?oc=5",
+    "source": "Al Jazeera",
+    "published": "2026-11-09T07:10:23+00:00",
     "lede": null,
     "lang": "en"
    }
@@ -199,7 +199,6 @@
   "Financial Times",
   "BBC",
   "The Guardian",
-  "Seeking Alpha",
   "גלובס",
   "Google News",
   "גלובס",
@@ -211,5 +210,7 @@
   "Google News",
   "Google News"
  ],
- "sources_failed": []
+ "sources_failed": [
+  "Seeking Alpha: HTTP Error 403: Forbidden"
+ ]
 }
