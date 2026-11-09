@@ -1,6 +1,24 @@
 {
- "fetched_at": "9.11.2026, 20:34",
+ "fetched_at": "9.11.2026, 21:04",
  "items": [
+  {
+   "title": "FDA Approves First Dual-Targeted Therapy for Advanced HNSCC - The American Journal of Managed Care",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPS1Nfd2VualA3dWRmSFJRNjQwNnU1RE9oUTFWbHpyVjN5alJyRWY0R0pNdE12NE8td20td0kzMnBfb3hzSW13dDA0eTVsbFZqMEIxaUk5QjFEd2hpd1NKTnVSMTZXYXlhdnpfZ2ZkUy1zVlJFMFdMclp1MTZVQVdxTzhPX25adEt3UWRCb2NR?oc=5",
+   "pub_ts": 1794250877.0,
+   "date": "9.11.2026, 21:01",
+   "cat": "fda",
+   "sev": 4,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPS1Nfd2VualA3dWRmSFJRNjQwNnU1RE9oUTFWbHpyVjN5alJyRWY0R0pNdE12NE8td20td0kzMnBfb3hzSW13dDA0eTVsbFZqMEIxaUk5QjFEd2hpd1NKTnVSMTZXYXlhdnpfZ2ZkUy1zVlJFMFdMclp1MTZVQVdxTzhPX25adEt3UWRCb2NR?oc=5"
+    }
+   ],
+   "ncts": []
+  },
   {
    "title": "Vir's hepatitis delta combination hits every endpoint in first Phase 3 trial, with 79% reaching undetectable virus - MLQ.ai",
    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQR0Jjb3pJY3JMSnNGQlM4SVFCazBCYWUwdUVoR1NYdmpzeGxNM2NRcm41SjRrQTJ1TEhVcFUzX2V3MERKaWxFdVpSQ2xTVTM2cVJrY2Jab3l2dHRlWmxVWHRjZGJWcENPNEZsQzhEa1pscE9NVzFGMjdnbl9tbGZtTXUwU2ZrS0JLQlB0WnJnYWE2Q2FnSjRXV0ppLXJoZHdJQlJTZnRQUDEtZWFJdkJtelUyTFViM0NpSUdtd3BDWmFFTmVUbmhPaEoyMVA?oc=5",
@@ -67,6 +85,10 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVEpNV2VQVVdpU3k0Umxwazl1dHR5VzdoUFZEbzhMMDhpV2xMYUd2S0JUaUFuc3oxYXpZc09QWGdMb25XV2RHbG1ReXRUSmR0SHNZaWNNWkExR0dYVnp3c2dlQlpVOFJBTm8wa3NsVm9SMmNPVW5xR0hLWmxWT1ZteUFpLU4wWXp2ZUsyYjkxV0NacEJibkxPeHAwVGdFMVNS?oc=5"
+    },
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNQU1sTGUydHFkVmpJb2pDR2xJMVVjY2Z5NDhJbjUyeUxZR2JVX0IwRF90YXY5cjY1NjVpX0hNVVNYc3ZtY3N0UkwtdmZoaUFzSklMbURRT3Nybm1zUGV6NWZNbHFObjNEdnBmbFYwZmtxendEb1hHQlg4dHY2cXozMTNrMzZYZnpFV3BPLXdWU0tDTzdmbE8yMFBn?oc=5"
     }
    ],
    "ncts": []
@@ -116,8 +138,8 @@
   {
    "title": "Tafolecimab monotherapy reduced low-density lipoprotein cholesterol by more than 60% at week 12 in phase 3 CREDIT-5 results - 2 Minute Medicine",
    "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPSm5wNDRZak92MmM5QkpNSFhJZFk2enhXOGRyazBxdDFJbVhBUTlCOUVxd3NCdFJ1cm9jMXJHVFVSRlBIUEhaVjh5RlZhOVV6NVV5aE91a0d4SG1SbUdSRExEaUFsQm40N3FaLUx0NFl5UFRCMUpLUWRERDljZEpoSi1ydEVLYlZqbW1ZYXU0ZkVJem02cVQ2Q2VJVGMtMWdkd0t6RHRaa1U4eHJubVdVZFk3M2VqaFBtWFd4ME0tWTBvQlFSNHAzV2RGa0h4Qlg2Uzd6R1cxM0hsazNLMktzTFNHNWZwSnBWNHln?oc=5",
-   "pub_ts": 1794227625.0,
-   "date": "9.11.2026, 14:33",
+   "pub_ts": 1794228243.0,
+   "date": "9.11.2026, 14:44",
    "cat": "phase3",
    "sev": 4,
    "dir": 1,
@@ -1752,6 +1774,24 @@
    "ncts": []
   },
   {
+   "title": "Zealand Pharma announces Boehringer Ingelheim’s survodutide is the first glucagon/GLP-1 dual agonist to demonstrate a favorable cardiovascular safety profile in global Phase 3 SYNCHRONIZE-CVOT trial with significant cardiometabolic benefits - Yahoo Finance UK",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPOGd2NlB2Q01zVDNXNkVQamtmZHIxVHpDeFE0OXZXa3JRN0g3WVJzU2FTU0Zya0lTWk54LWRQb1RzeWRTU2ROX0lBbXMxQV83TlcyWDFGR2x4SWRXa1lXeWNhZkpEMGFQbUVtTV8wYTVNR3BKdE9tbXRKd1BDVTR2QTR4dEstM2pnRzhvWmFYYUNmT2NvX1N0YWJ3?oc=5",
+   "pub_ts": 1794235500.0,
+   "date": "9.11.2026, 16:45",
+   "cat": "phase3",
+   "sev": 3,
+   "dir": 0,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPOGd2NlB2Q01zVDNXNkVQamtmZHIxVHpDeFE0OXZXa3JRN0g3WVJzU2FTU0Zya0lTWk54LWRQb1RzeWRTU2ROX0lBbXMxQV83TlcyWDFGR2x4SWRXa1lXeWNhZkpEMGFQbUVtTV8wYTVNR3BKdE9tbXRKd1BDVTR2QTR4dEstM2pnRzhvWmFYYUNmT2NvX1N0YWJ3?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
    "title": "Zealand Pharma announces Boehringer Ingelheim’s survodutide is the first glucagon/GLP-1 dual agonist to demonstrate a favorable cardiovascular safety profile in global Phase 3 SYNCHRONIZE-CVOT trial with significant cardiometabolic benefits - GlobeNewswire",
    "link": "https://news.google.com/rss/articles/CBMi7AJBVV95cUxQR0NYMWliaWEzVDZDeVIwdG9qVzZLQlh1OW54T0VrT2plQ2NkM3FNYnpuVGZtTGZjR3VRZmdsVkd6b1dTSl9jdmpIV0tKSnp6U1UyMXEtNE83bE9tei1YSW0xaTlTVXducTlRWFdXeHFFNi1sbEFLX3lBRGxYbUhFY2ozSzFyRlBrMWZMd2FJbUpuUzh6ZWlWSENJYVAxYWY1X1NuVGk5bXBHSzUwck1NemZQLVlpaHh4UnctTFV0YWJJNzhmcFNpYUJRSF9URVcyalVxZGNjN3RSbVE5ZU91V3MxNzlnaHc3LW5pSXgzRV9CSlJ3Z200MGxmRktiR3k2bGtlQkdJOWpjd0RkZnluUXhpSEd3cUwyNUdkVjZyQl9pVGVGUC02WXpKU2VsY3YxOEgtYkFHTTRlNXR0SzY0WHJRUUZ6U2RDZ25fMDJ6YmVTT0Z0N1FybG9ITVcyOU9jRTQ3aHdLc2pHbHl4?oc=5",
    "pub_ts": 1794235500.0,
@@ -1766,24 +1806,6 @@
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMi7AJBVV95cUxQR0NYMWliaWEzVDZDeVIwdG9qVzZLQlh1OW54T0VrT2plQ2NkM3FNYnpuVGZtTGZjR3VRZmdsVkd6b1dTSl9jdmpIV0tKSnp6U1UyMXEtNE83bE9tei1YSW0xaTlTVXducTlRWFdXeHFFNi1sbEFLX3lBRGxYbUhFY2ozSzFyRlBrMWZMd2FJbUpuUzh6ZWlWSENJYVAxYWY1X1NuVGk5bXBHSzUwck1NemZQLVlpaHh4UnctTFV0YWJJNzhmcFNpYUJRSF9URVcyalVxZGNjN3RSbVE5ZU91V3MxNzlnaHc3LW5pSXgzRV9CSlJ3Z200MGxmRktiR3k2bGtlQkdJOWpjd0RkZnluUXhpSEd3cUwyNUdkVjZyQl9pVGVGUC02WXpKU2VsY3YxOEgtYkFHTTRlNXR0SzY0WHJRUUZ6U2RDZ25fMDJ6YmVTT0Z0N1FybG9ITVcyOU9jRTQ3aHdLc2pHbHl4?oc=5"
     },
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPOGd2NlB2Q01zVDNXNkVQamtmZHIxVHpDeFE0OXZXa3JRN0g3WVJzU2FTU0Zya0lTWk54LWRQb1RzeWRTU2ROX0lBbXMxQV83TlcyWDFGR2x4SWRXa1lXeWNhZkpEMGFQbUVtTV8wYTVNR3BKdE9tbXRKd1BDVTR2QTR4dEstM2pnRzhvWmFYYUNmT2NvX1N0YWJ3?oc=5"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "Zealand Pharma announces Boehringer Ingelheim’s survodutide is the first glucagon/GLP-1 dual agonist to demonstrate a favorable cardiovascular safety profile in global Phase 3 SYNCHRONIZE-CVOT trial with significant cardiometabolic benefits - Yahoo Finance UK",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPOGd2NlB2Q01zVDNXNkVQamtmZHIxVHpDeFE0OXZXa3JRN0g3WVJzU2FTU0Zya0lTWk54LWRQb1RzeWRTU2ROX0lBbXMxQV83TlcyWDFGR2x4SWRXa1lXeWNhZkpEMGFQbUVtTV8wYTVNR3BKdE9tbXRKd1BDVTR2QTR4dEstM2pnRzhvWmFYYUNmT2NvX1N0YWJ3?oc=5",
-   "pub_ts": 1794235500.0,
-   "date": "9.11.2026, 16:45",
-   "cat": "phase3",
-   "sev": 3,
-   "dir": 0,
-   "tickers": [],
-   "companies": [],
-   "sources": [
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPOGd2NlB2Q01zVDNXNkVQamtmZHIxVHpDeFE0OXZXa3JRN0g3WVJzU2FTU0Zya0lTWk54LWRQb1RzeWRTU2ROX0lBbXMxQV83TlcyWDFGR2x4SWRXa1lXeWNhZkpEMGFQbUVtTV8wYTVNR3BKdE9tbXRKd1BDVTR2QTR4dEstM2pnRzhvWmFYYUNmT2NvX1N0YWJ3?oc=5"
