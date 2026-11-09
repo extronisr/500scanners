@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-09T12:31:03.855675+02:00",
+ "generated_at": "2026-11-09T13:31:06.829999+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -34,54 +34,94 @@
     "lang": "en"
    },
    {
-    "title": "Jefferies lowers Kratos Defense stock price target on margin outlook",
-    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNc0k2YUxfb0laQXZZTzdhQkJrN0xoWjJrVGtGeXg5bzlmTkpRQVlPQ2hpMGhlREJ2TjZPZENhVWItQ0tXZXpNdlhrcU1BY0d4U1o4TFlZNXRUVm5RRTVtcjZESUItclg2dDNndmhtQjAtNmhILV9vUGdiNHRFbmQwakN3cjhHSVNiQVgzZFl2WC1fSWw0S0ptczFYLVNqU1JyOG9SZ0JMaW5JMG0zMHdDVENXUndiY1ZRTk5FMzVEY3pTdjVfVXEw?oc=5",
+    "title": "Stifel lowers Watts Water stock price target on market conditions",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPQ09jWERaUkQ4bkdHcUZJdHRhUFVhbFlpaGt1MHZCamJTUUdBT1gwTlV1aDVBTGFDVS1XSzhYSDFNTV9EZXY1dGZJU2x0ZG1zQ29EMG1BSm1XQXU5cV9zb2V1V0lEeTdLUXZZYUlDcjcwUTVONEx6SG1RWjhwN2FaejJRMVVzZ0JyYTBCS0hZQTI5a014RG15ZlJ4QW1fc1l2dFJBLUNwaWxjeWpRdktkam9kcTgxTHdQRGVvNjctQmZ6V1U?oc=5",
     "source": "Investing.com",
-    "published": "2026-11-09T09:58:44+00:00",
+    "published": "2026-11-09T11:28:36+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Monday.Com Gears Up For Q3 Print; Here Are The Recent Forecast Changes From Wall Street's Most Accurate Analysts",
-    "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQS0pLbkVmODFlclpzWHFSTUVIenFlNGdqMXd5X0xLdF9DQ1hOQzJCSWlzelV4NWdTaDl1M19admxyaWRiNE95S3UxdzFsU2NnSFhRZEp2M2pZV193YWZHMHF3YmFMMGlLWXpRM3FZSkNXZ2s2OV9IY2pkTzExb0RPV2ZKaVdScnE1WlNFb1AtWm1pY09NRjExbldKREpMSlYzZFFDbXU4c01reDRZQldmZnZwSW82UU91ZE1ReUtrNjFJNTAzVmtnZmI0NTNXZnpOaUhjemczak9MODZkc0tjc0RPRl9MTjRnMFNUeEg4UjRBX2pDVnR4ZkduRV93aVBuSE5GN0dBSk1LcXNKd0g3RWNZVklNUQ?oc=5",
+    "title": "5 Stock Picks Last Week From Wall Street's Most Accurate Analysts",
+    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNUk9JX0FBZDNZVWJkVXl2TTYxTzY2S3VKMFA2cGtuQnhQMWtnLXhIMjZuYXdKUU1QcU9DeE9yaG8wYjVLaDJQclg5a2hyVXB1SXRGNklscU1JYnlMVGdVRHBRQi1id19sMDkxNE8tZmVOY0R4LTUyZWctcXRHbHBnalVhN1J3M1VRd1NCRTdxX3lidTd5Umx1WmhxUjRGQVFxcFRaOEE2LVJjMm9lTzRuWFBQM0tLaUJOZTl6aGwwREI5bXlvMEVJVWxWUHlsbXdKVnF4RGRFS1BaQQ?oc=5",
     "source": "Benzinga",
-    "published": "2026-11-09T07:44:03+00:00",
+    "published": "2026-11-09T11:25:06+00:00",
     "lede": null,
     "lang": "en"
    }
   ],
   "us": [
    {
-    "title": "Nvidia’s Stock Set to Drop After Board Opens Investigation Into C.E.O.",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOTzFYLWFQR0pubVFMTlN3dGwzNnBmUktlNU9ZeUJBeWlLb3JBWWhucjVrUEhmQ0gwOGIxTGUtX0djWWI0R1gzOWs0UTktZUpod0xycmNjbl9PYTJJVVJXN2EzNm5YaWQ5bU80UkpIWVVnd3QwbVdtQmFOcHV6YTdlOU1PeXhHSm9VM08ySA?oc=5",
-    "source": "The New York Times",
-    "published": "2026-11-09T10:23:53+00:00",
-    "lede": null,
+    "title": "Nvidia stock falls 5% as scrutiny turns to Jensen Huang’s relationship with alleged Chinese spy",
+    "url": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-chinese-spy-investigation.html",
+    "source": "CNBC",
+    "published": "2026-11-09T11:26:45+00:00",
+    "lede": "Nvidia said its board has launched an independent investigation following the reports that Huang was the target of a \"foreign intelligence effort.\"",
     "lang": "en"
    },
    {
-    "title": "Until sentiment in the AI trade improves, Citi tells investors it’s better to sit out the global tech trade",
+    "title": "Until AI sentiment improves, Citi tells investors it’s better to sit out the global tech trade",
     "url": "https://www.marketwatch.com/story/until-sentiment-in-the-ai-trade-improves-citi-tells-investors-its-better-to-sit-out-the-global-tech-trade-ed939f30?mod=mw_rss_topstories",
     "source": "MarketWatch",
-    "published": "2026-11-09T10:20:00+00:00",
+    "published": "2026-11-09T11:25:00+00:00",
     "lede": "Despite recent weakness, Citi’s global strategy team thinks tech positioning needs to get cleaner before they would revert to their previous overweight stance.",
     "lang": "en"
    },
    {
-    "title": "Nvidia stock slides as company probes claims CEO was foreign intelligence target",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPQmFHVnVMUmxTZ2swQXBDZk9RVWtJenppaXFkaHo0dnRBM2VxOUJHUlF2cUhobVdGdFNJclJXa3lVZVJITE0zVENJSEVWdXdqUFE5a203a01XZFgwMV9PSjVOQXdUTm5iR2d4aHQzQWJYdnoyVHVLR1pZOUNwYVRFdmR5b1VSOWVqZE5OeTZOSk5TcEl5b1RQYW50UEpHVnVL?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-09T10:16:45+00:00",
+    "title": "Nvidia shares fall after ‘honeytrap’ investigation launched, as China denies spying claims – business live",
+    "url": "https://www.theguardian.com/business/live/2026/nov/09/nvidia-jensen-huang-scandal-investigation-ai-industry-tech-stocks-recovery-slump-latest-news-updates",
+    "source": "The Guardian",
+    "published": "2026-11-09T11:14:30+00:00",
+    "lede": "Boss of world’s most valuable company admits affair as it investigates reports he was the target of ‘a foreign intelligence effort’ Nvidia opens investigation after report CEO Jensen Huang was target of foreign…",
+    "lang": "en"
+   },
+   {
+    "title": "Trump administration's embrace of \"perp\" futures sets off risk alarms for Wall Street stalwarts",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNYVZsYWtjTnU4dVhYU3o4LWJCeVdPOUNhNGdUVUhLdG1iZTE3REw3QmR6RHRzblFjc3RKYmlvS1JkRlFJakFpMExqdGx2ZDU1OGcxME5OazNFVTVGYTRQLTlSTjFhTk5Wc041TnV5dUtRdGdWWVQwWXRhMzdMaE9sdmdWOFROSGVoOTR1Z201THNOb25PTmdzWkdraGNkWEg2bFljcld6SDM0MzJvdG84amJkNGRBYjJyMDRCemVFMVhUMzZvcTZR?oc=5",
+    "source": "Reuters",
+    "published": "2026-11-09T11:13:14+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Stock Market Correction Or Crash? 3 Charts For The Week Ahead After The AI Sell-Off",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNT2NvZ09fUk1pQVc4d3hJb2czakUwcXJXSUJWV1RHcVVOUk56aTA4SE1xNG9MVmZPbkpTZmg0cGxoeXAwTDdBaVU3NVRkZE1JamVPWFFmekZXaE8xaVRtaFB3amRwTWozME1hRThUZnVoVnpCV1YzdlkwZVJNUDgyWnVieVRqTnJaX20zeTNKeXJCeVpXSnRvR1JZRW8?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-09T10:14:59+00:00",
+    "title": "Tech set to still sway US stock market's course despite AI-driven swoon",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNOXdISHo5SVE3RnA1bXZ4V05tYlAzSk5ZcUgwRUpycnVmOHlPeHQwbURpeHF2am5xQjU3ZVhMY0tweVVndXNjMUVpQUdCcXEyZlg5a1ZFVW9TNkkxdGJLaGllT3ZiM3pqLUxYVnRaNDVWZG1USmItMlJkU0pnc3Z0U2Zwd0l3UnowbDQ0UVN5cEJDQU9nS3FxbDFEc2RJRjV3NkpSeEdUNDEwWXJIUkVwR2ZB?oc=5",
+    "source": "Reuters",
+    "published": "2026-11-09T11:05:23+00:00",
     "lede": null,
     "lang": "en"
+   },
+   {
+    "title": "ETFs Are Net Sellers of Cisco Systems (CSCO) on Nov. 5",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQQmtjOTdBRE5SeER0WU80VFd4bDRZd2R6Z2hfSVFnR2JjTWVYWG5aQ0FBdDE1b1dFQVhaV1V1bVRadTN4TXluTkY4TTQ2NzE2ZkZhcTE1anQtcmdWc1ppTTUzOF9CWVVtT0FIOGVkcTVycFdIeC1hRDd3MmRVY3VGeWU4eFlZNUVKWHFsaElUbzFhdGs0MHhtS0djVQ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-09T11:04:04+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "The biggest takeaway from Berkshire Hathaway’s latest quarter isn’t the $357 billion cash or its stock buybacks",
+    "url": "https://www.marketwatch.com/story/the-biggest-takeaway-from-berkshire-hathaways-latest-quarter-isnt-the-357-billion-cash-or-its-stock-buybacks-3069f6a9?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-09T10:48:00+00:00",
+    "lede": "The dismal performance of Geico is the biggest takeaway from Berkshire Hathaway’s third-quarter results.",
+    "lang": "en"
+   },
+   {
+    "title": "What is MegaSpeed? The Nvidia chip buyer in the spotlight after Jensen Haung’s affair",
+    "url": "https://www.cnbc.com/2026/11/09/megaspeed-nvidia-jensen-huang-alice-huang.html",
+    "source": "CNBC",
+    "published": "2026-11-09T10:35:23+00:00",
+    "lede": "The Singapore-based company has previously been probed for allegedly supplying China with Nvidia chips.",
+    "lang": "en"
+   },
+   {
+    "title": "המפגש בטאיפיי, מיליארדי הדולרים והחשד לריגול סיני: כך הסתבך מנכ\"ל אנבידיה",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562546#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-09T10:19:00+00:00",
+    "lede": "מפגש בין ג'נסן הואנג לאשת עסקים סינית ב־2024 הפך לפרשה שמעסיקה את המודיעין האמריקאי ואת הקונגרס",
+    "lang": "he"
    },
    {
     "title": "Global stocks steady after AI rout",
@@ -89,46 +129,6 @@
     "source": "Financial Times",
     "published": "2026-11-09T10:14:42+00:00",
     "lede": "Declines last week pushed many indices into bear market territory",
-    "lang": "en"
-   },
-   {
-    "title": "Nvidia stock falls 4% as scrutiny turns to Jensen Huang’s relationship with alleged Chinese spy",
-    "url": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-chinese-spy-investigation.html",
-    "source": "CNBC",
-    "published": "2026-11-09T10:13:02+00:00",
-    "lede": "Nvidia said its board has launched an independent investigation following the reports that Huang was the target of a \"foreign intelligence effort.\"",
-    "lang": "en"
-   },
-   {
-    "title": "Tech sell-off raises risks for SoftBank’s massive AI bet",
-    "url": "https://www.ft.com/content/e19c86dc-9437-4827-a5ae-14bd4033037b?syn-25a6b1a6=1",
-    "source": "Financial Times",
-    "published": "2026-11-09T10:00:05+00:00",
-    "lede": "Founder Masayoshi Son grapples with falling values of holdings ahead of earnings report",
-    "lang": "en"
-   },
-   {
-    "title": "הספרדים ייצאו לרחובות? השביתה שתכריע את סדר היום בבחירות",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562534#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-09T09:57:00+00:00",
-    "lede": "האיגודים המקצועיים בספרד הכריזו על שביתה כללית ביום רביעי, בדרישה לרפורמות להגנה על שוכרים ולהפחתת מחירי השכירות והדיור",
-    "lang": "he"
-   },
-   {
-    "title": "מכפיל של 2022: נאסד\"ק 100 בשפל של ארבע שנים; אנבידיה נופלת ביותר מ-4% במסחר המוקדם",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562500#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-09T09:48:00+00:00",
-    "lede": "בורסת פריז יורדת ב-0.3% • דירקטוריון אנבידיה פתח בחקירה על רקע פרסומים כי המאהבת של מנכ\"ל החברה גויסה בידי סוכנות הביון הסינית • מחירי הנפט יציבים אחרי שטראמפ אמר שהסבירות למתקפה על איראן נמוכה • וגם, גולדמן סאקס…",
-    "lang": "he"
-   },
-   {
-    "title": "From supermarket fridges to passenger flights, a wave of threats is testing Europe's defenses",
-    "url": "https://www.cnbc.com/2026/11/09/europe-fridge-hacks-bomb-threats-cyberattack.html",
-    "source": "CNBC",
-    "published": "2026-11-09T08:59:16+00:00",
-    "lede": "Cyberattacks on fridges in supermarkets and a wave of bomb threats are testing Europe’s ability to withstand disruption to crucial infrastructure.",
     "lang": "en"
    }
   ],
@@ -142,27 +142,35 @@
     "lang": "he"
    },
    {
+    "title": "הרווח הכפיל את עצמו והצבר ירד: מננית נקסט ויז'ן נפלה ועברה לעליות חדות",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562544#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-09T11:21:00+00:00",
+    "lede": "תגובת הבטן של המשקיעים במניית יצרנית הרחפנים שפרסמה את תוצאות הרבעון השלישי הובילה למהפך מהיר וחד במניה",
+    "lang": "he"
+   },
+   {
+    "title": "העליות בת\"א מתחזקות בהובלת סקטור הביטוח; הדולר ממשיך לאבד גובה",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562489#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-09T11:15:00+00:00",
+    "lede": "מדדי הדגל רושמים עליות קלות • נקסט ויז'ן מסכמת רבעון שלישי חזק עם הכנסות של 106.4 מיליון דולר וזינוק ברווח הנקי ליותר מ-60 מיליון דולר • מניית פרטנר בולטת בעלייה חדה לאחר שדיווחה על שיא של כ-14 שנה במדדי הרווחיות •…",
+    "lang": "he"
+   },
+   {
     "title": "מגמה חיובית בת\"א בהובלת הביומד",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001562489#utm_source=RSS",
     "source": "גלובס",
     "published": "2026-11-09T10:15:00+00:00",
-    "lede": "מדדי הדגל רושמים עליות קלות • חברת נקסט ויז'ן מסכמת רבעון שלישי חזק עם הכנסות של 106.4 מיליון דולר וזינוק ברווח הנקי ליותר מ-60 מיליון דולר • מניית פרטנר בולטת בעלייה חדה לאחר שדיווחה על שיא של כ-14 שנה במדדי הרווחיות •…",
+    "lede": "מדדי הדגל רושמים עליות קלות • נקסט ויז'ן מסכמת רבעון שלישי חזק עם הכנסות של 106.4 מיליון דולר וזינוק ברווח הנקי ליותר מ-60 מיליון דולר • מניית פרטנר בולטת בעלייה חדה לאחר שדיווחה על שיא של כ-14 שנה במדדי הרווחיות •…",
     "lang": "he"
    },
    {
-    "title": "נקסט ויז'ן: הרווח הכפיל את עצמו אבל צבר ההזמנות ירד",
+    "title": "הרווח של נקסט ויז'ן הוכפל אך צבר ההזדמנות ירד",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001562544#utm_source=RSS",
     "source": "גלובס",
     "published": "2026-11-09T10:15:00+00:00",
-    "lede": "הרחבה מיד",
-    "lang": "he"
-   },
-   {
-    "title": "בעקבות פרסום גלובס: בזן חושפת כמה עולה לה ההשבתה",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562536#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-09T09:55:00+00:00",
-    "lede": "מפעל \"גדיב\" מקבוצת בזן מושבת זה 18 יום בעקבות דליפת בנזן חריגה במהלך עבודות תחזוקה",
+    "lede": "החברה יותר מהכפילה את הכנסותיה ברבעון השני ל-106 מיליון דולר ואת הרווח הנקי ל-60 מיליון דולר",
     "lang": "he"
    },
    {
@@ -172,30 +180,22 @@
     "published": "2026-11-09T09:55:00+00:00",
     "lede": "לאחר שהתברר כי מנכ\"ל החברה ג'נסן הואנג נחקר בחשד לקשר עם סוכנת זרה, המשקיעים מנסים להעריך האם מדובר בטלטלה חולפת או באיום אמיתי על אימפריית ה-AI",
     "lang": "he"
-   },
-   {
-    "title": "מניית פרטנר מזנקת: הדיבידנד הענק והרווח שלא נראה מאז מהפכת הסלולר",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562526#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-09T09:17:00+00:00",
-    "lede": "פרטנר מסכמת את הרבעון השלישי עם צמיחה של 5.7% בהכנסות ל-829 מיליון שקל ועלייה של 12.2% ברווח הנקי ל-101 מיליון שקל",
-    "lang": "he"
    }
   ],
   "geo": [
    {
-    "title": "Abandoned and traumatised: child refugees at ‘violent’ breaking point in Egypt after fleeing Sudan war",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOR3FTQzU3OW0wRUJwQl9sdVozRDNra1NfeEthVjhMUE16OW1GSGM4Mk94VlhXaHZEZnB6dWl2NTBhc25MbmpDcE1Hc2FXbjhmVnd3bDZSazhpbXlhOU8tS3U4UkdTR3lKd3NMaUhyLVFtbU5xcUNrZ0dWRExEckRKdnFfejBWTmhiSFg4WUFCZF9nX1JBWHdJdUo5NDFJa09NakhwQjFGcEFQWnRRZVI1UGg4WQ?oc=5",
-    "source": "The Guardian",
-    "published": "2026-11-09T10:02:00+00:00",
+    "title": "Trump to meet Iran war mediator Qatar, no imminent deal seen to end the war",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOX0pwQmJtMVdmZDY2NVhWalgxSHZ0d0NvUzJ4cldzTHFQUmdHSERzZENUOXljYldMbFpRa3J5d0VhbkNtZGJVM1paVkFWZ1ZHZTFOQlNkNm5xZ2tkc0FYQkxvQkU3RHc5cm9lcjFXSzdCNlE5QjNXNnRoZktjUHhGRTRGOXZYbWZtUXlTaFBXN096VFZrTDBQQll5ZDJaZDlPdUlueEtHaGMyQ1ZnWHdxQll3UWI3WHdYZmc?oc=5",
+    "source": "Reuters",
+    "published": "2026-11-09T11:24:06+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Iran’s authorities harden domestic security controls amid US strike threats",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNejM4M1haR2lZMnBiOEpTSTJOazlhRHNRQ0N1Wk1GZGJlYzJpZGd5b1JBLXV6ZXVRMEhtZXJzdHVtSlBfNVMzdzNVTlF5cEVUNGwxbnB3VVBGMG9kMlpIM3g3ZDFvWVJKU084NnBndnpYdVFFMDY5eTBad3RrR1BoOHlwc0lyNnNMODJPbDR0SDhoVXRxUWdaRU9TUkd6T2hfRldBQTJPV3dJVEJCME9YVWtsM0Z6d9IBuwFBVV95cUxOcDI0VFBIaVBFVnVCa1UtV0IyZmVnWkhPNkM5T1p5dy1UMU9rMkRzMk96ZE1NLWlkS0pmNkJnVnNGQUFUNTBaQjJtSWZlYzhEamMxbzk2a29OSHdNWTREUDh3S3RJR3JvWHh1V1ktVFRxUWswSXBZUkV2UGtMbmtXeDR5UDBiM2hkai1kbzVvT056YjB2OUM4NmVzOVBURFJrUFNJT1NfT09ZZUpBSzVjMFh3NUFNWHNyQ3hV?oc=5",
-    "source": "Al Jazeera",
-    "published": "2026-11-09T09:58:55+00:00",
+    "title": "Cubs plan to sit out Tarik Skubal bidding war, but pitching needs are clear",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNWHoxMWJwdzVxOElnSXZmeG5EMFhTazVDb3pBcDhwMENzNk5DNWFyWE5qanBMc09NdWJxNzJyY05BMEJ0cURkMmw0U20wQWI2N2M5TFpoZFl2V3ZGdTlmSTkxMlFUZVNhOVZPb2VJeGRrS0I4UW1jLWRjejF0dlBKc1Rra0VjY1J1SXhHMDZzR0FOVmxsREZpY290NA?oc=5",
+    "source": "The New York Times",
+    "published": "2026-11-09T11:20:33+00:00",
     "lede": null,
     "lang": "en"
    }
