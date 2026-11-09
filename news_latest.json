@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-09T20:31:08.587098+02:00",
+ "generated_at": "2026-11-09T21:31:06.192058+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -52,19 +52,67 @@
   ],
   "us": [
    {
+    "title": "This beaten-down data center stock could be worth a look, says Mike Khouw",
+    "url": "https://www.cnbc.com/2026/11/09/this-beaten-down-data-center-stock-could-be-worth-a-look-says-mike-khouw.html",
+    "source": "CNBC",
+    "published": "2026-11-09T19:23:57+00:00",
+    "lede": "United Rentals is trading at a below-market forward multiple. Effectively, one can buy superior, market-beating growth at a discounted market multiple.",
+    "lang": "en"
+   },
+   {
+    "title": "The Big Winner From the Aurora Cannabis-Organigram Deal: Curaleaf",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZWotRjh3djFTWF9XYmJFZ0FVR0hIODNwWlc5M1lpS1RUZnl1ZzFJMXVNeFNkZTZ6bGxjdy1aXy1sNlhVMmVIVEljcDJkcEtZWTdQZHBlM1F4c2hnOFF0MXBtOURvM2k0cjNUVGRuYTBDNkRYaGc4MHNIWmRzNzk0N18wdjZEaHhhT2F1MnAxakpERzA1WjRHR2t1NEVyS05FUWNDYg?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-09T19:10:02+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Millions of dollars poured into prediction markets on election night, trading on Democratic control of Congress and Texas governor's race",
+    "url": "https://www.cnbc.com/2026/11/09/millions-of-dollars-poured-into-prediction-markets-on-election-night.html",
+    "source": "CNBC",
+    "published": "2026-11-09T19:03:48+00:00",
+    "lede": "Election night showed how traders reacted in real time to midterm results, as trading activity surged and market prices shifted to Democrats on Nov. 3.",
+    "lang": "en"
+   },
+   {
+    "title": "Anthropic releases first frontier models since Amodei's call for slowdown as IPO buzz builds",
+    "url": "https://www.cnbc.com/2026/11/09/anthropic-claude-fable-5-2-mythos-5-2.html",
+    "source": "CNBC",
+    "published": "2026-11-09T19:00:01+00:00",
+    "lede": "The launch comes as Anthropic is gearing up for what is widely expected to be a blockbuster IPO",
+    "lang": "en"
+   },
+   {
+    "title": "Royal Caribbean Stocks Rise 3.36% as Oil Slide Lifts Cruise Shares",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNSXkxbWFLMjhQd3JRVHhOcEdCdzZfZHU4TFZaVnF3cm51emlmbFotYWp3Sko1RWRSNjc5dm9xUVZUSlVfbVlNVVJpZVA3QzBHR2VQeW5VQnVqaGlCbmc2bHZaS0FUREdTbm52eVU0NkRIYXRQMl9Jdzk0MWdmY3g4aXlZOXQzTVJQbUUyNS1qeF9Hbnc0T3hNcTZB?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-09T18:59:42+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Citigroup sends major warning after $3 trillion stock wipeout",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQMVFkTHB0ZXVrS0g3ZGwwQ2FDU2VkX2R4M19UM3BDR2owSzRTT3hkWDNvSkdEZFhKRG1MeTgtWE9LcUJSd3hGMDUzelRULVFZbkJ1OFBXNGZIZlFPN0dLbjU0UUtEZ29MVGt1RE1SWlNIZjQtY0JjN2VNRzgyRXV5bVV2NmRSNXdJM2VIaWVUa0I0LUgxdHVnRXdzRDY?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-09T18:55:50+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "France accuses Iran of cyber attacks on supermarket refrigerators",
+    "url": "https://www.ft.com/content/176ad787-59af-4900-9efc-8b6f9a247255?syn-25a6b1a6=1",
+    "source": "Financial Times",
+    "published": "2026-11-09T18:31:21+00:00",
+    "lede": "Islamic Revolutionary Guard Corps named in prosecution over incidents that destroyed food and triggered fires",
+    "lang": "en"
+   },
+   {
     "title": "Think the bond market is broken? History says a massive turnaround could be coming.",
     "url": "https://www.marketwatch.com/story/think-the-bond-market-is-broken-history-says-a-massive-turnaround-could-be-coming-dfaae450?mod=mw_rss_topstories",
     "source": "MarketWatch",
     "published": "2026-11-09T18:26:00+00:00",
     "lede": "Bond investors would do well to remember that it’s often darkest before the dawn.",
-    "lang": "en"
-   },
-   {
-    "title": "$400,000 in Dividend Stocks: How a Roth IRA Could Save You $3,780 a Year",
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPQmNTYklWaDA3Unl1cUprbDlLZnVSM01rS1p4TmYtQXVQWTlqemkxekJiQ0w5S05kWVB5cTd3ekpqMkJTWTZzSVpETTFFM0JNRUUxd0JQT0pZXy1iMmNBRWZfd2VLTmJKNkFzWGs1MWpNckFTYV9ZZzRfS0hYV1RpbzBXOTlKNFU5cGFZdW8tWVFCd3J1eTFKOA?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-09T18:17:41+00:00",
-    "lede": null,
     "lang": "en"
    },
    {
@@ -82,57 +130,17 @@
     "published": "2026-11-09T18:16:00+00:00",
     "lede": "Rising prices point to the Fed increasing borrowing costs before Christmas.",
     "lang": "en"
-   },
-   {
-    "title": "Millions of dollars poured into prediction markets on election night, trading on Democratic control of Congress and Texas governor's race",
-    "url": "https://www.cnbc.com/2026/11/09/millions-of-dollars-poured-into-prediction-markets-on-election-night.html",
-    "source": "CNBC",
-    "published": "2026-11-09T18:15:41+00:00",
-    "lede": "Election night showed how traders reacted in real time to midterm results, as trading activity surged and market prices shifted to Democrats on Nov. 3.",
-    "lang": "en"
-   },
-   {
-    "title": "Nvidia shares tumble over investigation into Huang's affair with alleged Chinese spy",
-    "url": "https://www.bbc.co.uk/news/articles/c6zxjx01vyleo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC",
-    "published": "2026-11-09T18:11:11+00:00",
-    "lede": "The share price dropped wiped hundreds of billions of dollars from the value of Nvidia.",
-    "lang": "en"
-   },
-   {
-    "title": "Sinclair: 3 Key Takeaways for Long-Term Investors",
-    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxObDlDV1hNRi1ScHE4ZU96eUxIaVVzMGk3Q2pnMTBnS2F4Sy1PckVDa1ZVMHhFOGZjR1RwbHdwQzRzRFY3dXBFakFkRTNNYlFOT0ttazFuelpsU3U0OXlIT2Q5VjVZSktBTm5LeEJfdUR6QTZkX1VsOE1tN0lldlJzTm9Kb1VMR3BBV1dpOG41SzR0RzBrTkV6LWR3?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-09T18:05:02+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Why Joby's Recent Earnings Beat Really Doesn't Matter",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSmVUMS1CY3ZoUlpxWHRjTmM5bFhGLU9lLXZDdTdTZGVkT2wwVU9yT1U3Z3NQLWVQMVBkbU9QQ3VkSXoyZFduNVZNSHAtYTNtUzRSVzFzSXhYYTFIeFRnTkZxeXY1Skp6cGhRZld4YlRKTDdadXNHQ0M0Vi03NEd5d1hrOURtNnl0Y0JWMnQwOXV5RnZmTnRXOGdIMA?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-09T18:03:02+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "הרומן, החשד לריגול והאיש שאנבידיה לא יכולה להרשות לעצמה לאבד",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562633#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-09T17:46:00+00:00",
-    "lede": "ג'נסן הואנג הפך את עצמו לאחד האנשים המשפיעים בתעשייה ואת אנבידיה לחברה שנמצאת בלב מרוץ ה־AI העולמי",
-    "lang": "he"
-   },
-   {
-    "title": "We're adding a consumer stock to diversify beyond the volatile AI trade",
-    "url": "https://www.cnbc.com/investingclub/2026/11/09/were-starting-a-position-to-diversify-beyond-the-volatile-ai-trade.html",
-    "source": "CNBC",
-    "published": "2026-11-09T17:31:46+00:00",
-    "lede": "We wanted to add a less cyclical company with a cheap valuation and that consistently returns capital to its shareholders.",
-    "lang": "en"
    }
   ],
   "il": [
+   {
+    "title": "הבנק קרס, מיליונים איבדו גישה לכסף ופרגוואי עשויה לאבד מוניטין של שנים",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562583#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-09T19:00:00+00:00",
+    "lede": "קריסת בנק UENO הובילה לטלטלה כלכלית־פוליטית, לקריסת המטבע ולחשש כי המשקיעים ידירו רגליהם מהמדינה שנחשבת יציבה, ומיתגה עצמה כמוקד השקעות זרות",
+    "lang": "he"
+   },
    {
     "title": "כך תקנו ג'אקו בהנחה של 20 אלף שקל. עם כוכבית",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001562430#utm_source=RSS",
@@ -158,36 +166,44 @@
     "lang": "he"
    },
    {
-    "title": "הרווח הכפיל את עצמו, והצבר ירד: מניית נקסט ויז'ן נפלה וננעלה בעלייה חדה",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562544#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-09T15:54:00+00:00",
-    "lede": "תגובת הבטן של המשקיעים במניית יצרנית הרחפנים שפרסמה את תוצאות הרבעון השלישי הובילה למהפך מהיר וחד במניית נקסט ויז'ן",
-    "lang": "he"
-   },
-   {
     "title": "בורסת ניו יורק בחרה ברשת Avalanche לסליקת מניות - המטבע מזנק בכ-7%",
     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9MbkNhb1N3TVJWclpnbUVWRGZCcUtlQmU5Tk5LTF9oTGdFTURrR28xMG4zbFJmTVFEQXhocDlIRUg2ZHJnazZhRDNiNXNsVzBGNVl4cTJDVGlxajBLZDQ0OGZJSUE3WS1hWUR5OC1CNjk?oc=5",
     "source": "ביזפורטל",
     "published": "2026-11-09T14:10:00+00:00",
     "lede": null,
     "lang": "he"
+   },
+   {
+    "title": "מלחמה, בצורת וסנקציות: גם בתבלין היקר בעולם, איראן אכלה אותה",
+    "url": "https://finance.walla.co.il/item/3875529",
+    "source": "וואלה",
+    "published": "2026-11-09T12:40:00+00:00",
+    "lede": "בגלל מלחמה, סנקציות ובצורת: הזעפרן חווה צניחה בייצור. כיצד המלחמה מול איראן והזיופים בשווקים משפיעים על שרשרת האספקה הגלובלית?",
+    "lang": "he"
+   },
+   {
+    "title": "המשבר שכל העולם מדבר עליו: מה קורה עכשיו למנית אנבידיה?",
+    "url": "https://finance.walla.co.il/item/3875515",
+    "source": "וואלה",
+    "published": "2026-11-09T09:55:00+00:00",
+    "lede": "לאחר שהתברר כי מנכ\"ל החברה ג'נסן הואנג נחקר בחשד לקשר עם סוכנת זרה, המשקיעים מנסים להעריך האם מדובר בטלטלה חולפת או באיום אמיתי על אימפריית ה-AI",
+    "lang": "he"
    }
   ],
   "geo": [
    {
-    "title": "Boosting healthcare and ending the Iran war are top of the to-do list for House Democrats once they have majority",
-    "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPWlBzWDRFNnNYdWlRVGotaFp0U1U2SjRmX1NuLVE4SHAycjBBM0pGRVRRQU5vUlFTZldCa1ZSYnI1UUFEU3p5LUdJcHZ1SU8tOG1EUm15eTlCZUxhUXNDQXB6cDNuQXJBRDY1ZmlRVzZrdWhlaUNINzR0dmVZWTc1T0d4Y3NNaTE0SkxoeTNodFczYzJueTdpb2NTbDlTbHhjS09kcjRzUl9KMy1CVWFrMk03Z2xHakhLS1ZQTnhwTmdGTjdVRXVNcFE3enB4R1RCbE1EbnhhalJHTmdjSDhVQUNaSlZjQdIB6wFBVV95cUxNQlRSVWg0U2ZvOGlENGRZeDd5dzhiMFlxbEdkQURaMWJnMWJIejl5Mlh4VmRTWUVSOUI0bjNVLTFTdmtweTAzaWVKMGNfVlg4dC1vdlVMR1BUaGduZ1c4OEVORHdkb1hlNTJrb0xVa1F5UTJQSVU4X0w3WGJtbnBweFNIdkVyU01UY1BmbUpMOVd0WGdHWnQ4b1J2dzNobklmNnA5UU9XcngzMkhraWJzNUdGZHNZMDZ5RjRPVjlNZERoNmdDSVFSUWpJdXVfQTRtazJCUE90bTBvWV9idmpHazJwakRKUk00NV9B?oc=5",
-    "source": "PBS",
-    "published": "2026-11-09T17:34:58+00:00",
+    "title": "Qatar PM meets with Trump for talks on ending war on Iran",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUWV4Z1BVUDIzY25WUXNCbkZ5Zl9QUXJnaElLV1Y2eXBMUGFaaEs4NC1XR19ZZnFrTFFySHVXZ1hDdUxCUkZQcXpHMVFyQTZka3d0c1RrdEhRZjVYT25MTTREYW4tekpCTkItMThha0FNMXNSX2VvcmhKRUlWdUhiSDlIeXJTR2JQYW1GRDFrQ1hlTWhOYmR2R0tKZ09lVUlxblhJZFJGdEhvM3ZL0gGyAUFVX3lxTFBzaHl2bmYyUnpMUXBZS216b1hOWm4xSmloMDFyNDJqOE5sUDZPOWxVanNReGNUQ3pRV1plY014aW93emI4T0hKTFBNRUM1T3J2YTNwbVlVRXM2WmtHdFNROGNtdkg0NUc0OWZpN25XNmtrWjZvakFhSmFwZzg5OUNubEtZYUJuY2NObjMza0dORU5XbV81cXdBcmZfM050akdqQi1aR2FVanBKdnhCWkcxaGc?oc=5",
+    "source": "Al Jazeera",
+    "published": "2026-11-09T18:54:35+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Former Sec. of State Blinken: Going to war with Iran will not be viewed kindly by history",
-    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQdUhfLWowRkxYTGV5MmJMblNPbFV3VWRQakxlX3RHWW9FcXBLZWtpVzJNeUlTLThBNHNlXzBoWEctSE9JdE9Qb1NUaGxQTzZGSnd4dkRBZlFkdHZfc0praVNSd1VYbGNBTUs3Znd3d0J6X2NpSWZqT3NnT0hGVlMtOUFfQURZd0hFOTlYMmk4aTJLSTUzVmxCcG04UFZ2LTB3djhiS0owRmNqOXRwZ1I4R3JZcVA2Q1VpVXdwenRBMUJyYkpKWHVHc2t3?oc=5",
-    "source": "CNBC",
-    "published": "2026-11-09T16:45:29+00:00",
+    "title": "Here Are the Difficult Options Trump Is Weighing to Resolve the War in Iran",
+    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5IMC1KVG9Ya3lRLXhObVBSYWJLeFNxY0ZRMUpUUnZKQ0FOSlNyNGFyeWNmU0c2elJoOXlGWDhuOExCVzdhWnFGRlp5UjdFN2M5d1d6Mlh3WVZKUXZXaWdfZW5PdjNkLURJa21TTk1iaFZnQW5nY0p1M0hB?oc=5",
+    "source": "The New York Times",
+    "published": "2026-11-09T18:36:00+00:00",
     "lede": null,
     "lang": "en"
    }
@@ -204,13 +220,12 @@
   "Google News",
   "גלובס",
   "גלובס",
+  "וואלה",
   "Google News",
   "Google News",
   "Google News",
   "Google News",
   "Google News"
  ],
- "sources_failed": [
-  "וואלה: HTTP Error 503: Service Unavailable"
- ]
+ "sources_failed": []
 }
