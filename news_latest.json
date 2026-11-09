@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-09T23:31:00.835496+02:00",
+ "generated_at": "2026-11-10T00:31:03.848570+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -34,10 +34,10 @@
     "lang": "en"
    },
    {
-    "title": "JPMorgan Just Removed Alphabet From Its Analyst Focus List",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQNHdoVExZYkZYQl9UVnJQTlVDNG9xQVFHUmxMeVlWb29TSEpRcVZrem05eHBRRXM3V1BTZVNUNTlsbUhPYmNQOTVGUTJKY04yU19YTzE1eVltdnpJZXJSNDZpT2I1UlZwUFNWaTl5bkFGWHhYVlpRLTZSN0JpbmI0aWx3cG1BSXZ1aWtiOG1JYTIwWGZLREhYOUs0U0JOSi11emIzQg?oc=5",
+    "title": "JPMorgan Just Added Meta Platforms to Its Analyst Focus List",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOd2hEeUlDMndhMlBSeWhjS3FXa01sdTBLRTM1UnVIZFhJX1lWMmY1eWhjNnNjQl85Z3otN2Jaa0FfVWFzRW42ZU1OQmtQbEZKNThveWZJVDRGb2t4VDJrNjdPeTN2YXNaWTJyWnF4WnNJaE1LUEJDanpoWVVTbkJCYUlXRE9qMXk5Ql9aRF9QYXR1dC1DdEd1STZSR2ljUGpuTGZfMWhZVQ?oc=5",
     "source": "24/7 Wall St.",
-    "published": "2026-11-09T16:40:00+00:00",
+    "published": "2026-11-09T16:38:00+00:00",
     "lede": null,
     "lang": "en"
    },
@@ -51,6 +51,46 @@
    }
   ],
   "us": [
+   {
+    "title": "FMC Corp. stock underperforms Monday when compared to competitors",
+    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNaGxNdWpZRjhkbnNSeUtyR0VGcWZROF95bGNIQmRWTUVqQXV1SnY5S1pXZExvNFJaZ0NEMVBHN0dMTFBMS2ZxeDVHX1dxMGo3Y0wzckJhMmVYck1vZ1EtMXZxUGJvZHFOWF81WFdMb3ZHNzZITmszVi1ZNThHV3NGYkhqLXI2al9pRXBFQmJLenI1bS1hT2lfWTdERzNjdmVZN0J6UmNvNW55ZXZscHVxNTltYU5tLUt1aGZYTFI3SFA3Y3REZkJQSXJ2eS1Hci1HOExKel94Y3Bxdw?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-11-09T22:24:00+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Flowserve Corp. stock outperforms competitors on strong trading day",
+    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQZW5aLVB1R2FFSkpvOVRWay1hbXpDdzczbHJNREVFMWdKRmtvRmFIS243akNUcTFPRHFWMUpWNHdaMDY4UXVqaHhuNTM2QUROenpQdjAxcWRfQThjZnJwdmpFNE5KVzgzdnRaeE9QdXNpX3JOaXp2SUNHZE9wcDhvLTJOSVlSUXNrYVVLMDgtcGV1SVRER19jVmUyU25oTEtaRDlDdzZHNTZMWmxsbkQxNENTcGFhb3RyOHkyTEpIR2piWjZJMk5QdU52QkFTWi1OQlBKdUw4WjNEU05O?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-11-09T22:24:00+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "3 unexpected reasons the October jobs report was so strong",
+    "url": "https://www.cnbc.com/2026/11/09/october-jobs-report-hiring-by-sector.html",
+    "source": "CNBC",
+    "published": "2026-11-09T22:23:56+00:00",
+    "lede": "October's jobs report blew past economist forecasts. Here are three reasons.",
+    "lang": "en"
+   },
+   {
+    "title": "Enphase Energy Inc. stock rises Monday, still underperforms market",
+    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQZS05TFdWNUpuSWg4ZDB4N0M2N0FxWnE4eG5DUk5xemh6cnh4QkJubHJFcTRoSVJZaHQtRDlvTGhqbVBnVmJKVDJYSjJSTWxnbURBbWxfOG51TmpxRmI3U2d0RjNkRFBUbV9QVzhpTUhUUEJiNGpSMGZCVmRmWk1RblpBTFBpWVpObjhaT25NMkZkZ09rSjdoLTlfUU5KUFYyUTJ6MkU4Z2NMdENhU1hITFB3UURsRkN4UE9GSkRVdnY3VnpVOS0talJKQ2xRVEVaWW9vWWhia3ZkQQ?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-11-09T22:23:00+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "As Nvidia’s stock falls, here’s what Wall Street has to say about the Jensen Huang scandal",
+    "url": "https://www.marketwatch.com/story/how-wall-street-is-reacting-to-the-news-of-nvidias-jensen-huang-investigation-into-spy-claims-d8c839ab?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-09T21:55:00+00:00",
+    "lede": "The fallout from the board’s new investigation could become “a longer-lasting problem for the company,” analysts say.",
+    "lang": "en"
+   },
    {
     "title": "Lucid misses Wall Street’s earnings expectations, expands loan from Saudi Arabia fund",
     "url": "https://www.cnbc.com/2026/11/09/lucid-group-lcid-earnings-q3-2026.html",
@@ -76,52 +116,12 @@
     "lang": "en"
    },
    {
-    "title": "Lisa Su Called the Market ‘Short-Sighted’ as AMD Crashed 17%. Two Sessions Later the Stock Has It All Back",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOUXZQOVVBOE4xRVpxOXJ1V1RDQ01VYW5VcmJ1enFWT2dkY0hESk1GNjlmY0xST0tRODJkWFN0V0dLZmFXakxoeW9taXpsbkZ0Qks2cTFIZXF1Nk5DWVRDamxEVmhqc2hQVmR0VVRrVTdLZkZTdEtRakZDZFJOVHA4ZGVaMWIzaEZzMy1jNjB5V1hoYmpBZTZB?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-09T21:17:45+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Citigroup Announces Full Redemption of Series Y Preferred Stock",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTi1RbmFTX3JZQlJRWm1xNGEwSEhSRFlpM1Z0b3RicnR4RzFhWXhPeEVIS2tvSXNBX0E5anZVME9uSkIzQncxN05wX2o3ZTNIVEZxNnhHYWUzUS1qRzIyOUtrdW9KcjltcDBsU1JpZllnNF9rckxMZ1JDVzl4dk05eU93MVd3NE9FWUI3allURk9wR0JzYkExcl92dEpyeV83RjIzdkoyZ2o4am8?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-09T21:15:00+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Why prediction markets and Wall Street pros so often fail to see what’s coming",
-    "url": "https://www.marketwatch.com/story/why-prediction-markets-and-wall-street-pros-so-often-fail-to-see-whats-coming-c516b6e3?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-09T21:14:00+00:00",
-    "lede": "The probabilities make it almost certain that macro forecasts will be wrong far more often than right.",
-    "lang": "en"
-   },
-   {
-    "title": "Sanmina’s (NASDAQ:SANM) Q3 CY2026: strong sales, stock jumps 19.8%",
-    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQd2hpQjVhZVhlNVpYbmJVYks4VFhMWU9EMXdQd3QtemxtMjlmRnQ2a0s2RHVJZUw5NDFxd19TMXd0QUQtQWJaZ0s3Qnd5R01seEZVdzIyUmpPT0xCY0FnbWpTRUFob1NpUXBhaWk4UUJBOTkxbzZicE4wWHIwZVEwVUJoV0dMRmRodFVhcDV5R2VOS0NBalVuajdR?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-09T21:10:32+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
     "title": "מאנדיי עקפה את התחזיות, אך המניה צנחה במסחר. אלו הסיבות",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001562521#utm_source=RSS",
     "source": "גלובס",
     "published": "2026-11-09T21:08:00+00:00",
     "lede": "החברה עקפה בגדול את תחזיות האנליסטים והעלתה את תחזיתה השנתית",
     "lang": "he"
-   },
-   {
-    "title": "A key report for where inflation stood in October comes out Tuesday. Here's what to expect",
-    "url": "https://www.cnbc.com/2026/11/09/october-cpi-report-2026-inflation.html",
-    "source": "CNBC",
-    "published": "2026-11-09T21:03:55+00:00",
-    "lede": "The CPI headline reading is expected to show an increase of 0.3% while the core is forecast to increase 0.2%.",
-    "lang": "en"
    },
    {
     "title": "ריבאונד בוול סטריט: ה-S&P 500 חתם את היום החזק ביותר שלו מאז אפריל",
@@ -200,18 +200,18 @@
   ],
   "geo": [
    {
-    "title": "Arab and Muslim leaders in push to stop Trump from reigniting Iran war",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONWtPWmlRWllyd3RZZ1VmUkt3QWtSVjUyQzFaaWNabTM5a3JMZS15QUFlZEZaNVdPTFlNeGhDVk1zS1RGdlV1cVQ0eHNHYmltWjQteGhmVlpISmNOSlJYa0JLWU9MTkc2RE1weGtoZFNZdHRuaVJhNnRqcGl0bndYS05DVWw?oc=5",
-    "source": "Financial Times",
-    "published": "2026-11-09T20:56:08+00:00",
+    "title": "'Positive momentum' towards end to Iran war, Trump says",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQY1lnQXd4UHRweTlsa3dNd2h6QWM3QkpxWFJqc28yQl9ETlg4MlAyejE2WS0ya0tLSU54NXNrcDJZaVRVWEJMWHFUNm5yTzZjb3YzME9DTElTS2V4ak5qaURNOW5pdWVsa0ZVZUIwc0lta1NtYUMtOG9yZndmTW1nS283blhyNmd3OElMdXF2R0VNdw?oc=5",
+    "source": "Sky News",
+    "published": "2026-11-09T21:49:13+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Trump envoys aim to persuade Russia to include Europe in negotiations on ending war with Ukraine",
-    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSzJmdDczN2hxRVpiY0V5UzZWZlFBR3oxaUlhWW96SzNvUEcxd3Q5clI3M1FXUTZqMkF5dmpZV29xdjFZV1hBNDZpeXVwalQ4X1lISlZGY1lIWVZ2UXpYUUExQXl0aVlZazNycEFHQ25xclZiNHQyOW5nWlFoYlFPU3VyeTZwa0hPUkNMeTJ5ck9UVk95?oc=5",
-    "source": "AP News",
-    "published": "2026-11-09T20:53:00+00:00",
+    "title": "US asks Russia to agree to NATO-like backing for Ukraine",
+    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFB6d0NlVkIySXB5U1Y1c3MteERBaVdfQWxpVnNZTk9uMlBkTC1LazVWUnctT1NkR0xlZV9BbzhEVTBlVEUtcWZBTUtzZURxdWNOa3JyVng5aDd0aEpIQ3dTcmxhQ2Z3U0pHQkJGdV93VE9teWVxMFhXTmY4UmE?oc=5",
+    "source": "Politico",
+    "published": "2026-11-09T21:00:00+00:00",
     "lede": null,
     "lang": "en"
    }
