@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-09T08:31:00.218214+02:00",
+ "generated_at": "2026-11-09T09:31:05.476410+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -34,10 +34,10 @@
     "lang": "en"
    },
    {
-    "title": "Dutch Bros stock gets buy rating resume from Stifel on growth outlook",
-    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOMGtoaDVEVUpmbC1sVFd2UWt5T1V1aXRWWlMxRzBKUzk0MGtrNVRkbkNpbmp5djVpTF92UlZDS0xWQkZIbzFjMDhnczBxV3Y3eWhBMnNmWXJMNHBER25FZEFtOFRwZ3hPd2haSUNSSkwtekhhdDlvVmNWUHpweWVGZDFTUndzSlhsNDJibHVRVnRvbFBRY19KNG9BRXZJbUp4cmtWVDY5M3RISS1DdmdBemQ1YTI5T01oR1NxYmxuVS1ndDhFc0hPbg?oc=5",
+    "title": "KeyBanc downgrades Zillow stock rating on weaker results outlook",
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNQUdmXzdQcDdadkVHOE8zc0VrdTV5bTl4WGdaY3pESFRyb0RRRGk1WnBmY1pOdHVfOUxFc2RFaTVkbDNEa3NRMFBiNUFEdVVRZjdIMENjRXB0dFcxaTM4N2s2bGRQMnpjbVJDY2N4eWNNNnppN0N1SWI2X253YVlRUTM0bkgyZEhyLWNqQ3ZIdGZvLUNIWi1uNzNZMlpBZ3ZoejRxbUx6Rm03VVhOaEZ6TTRxT1lNVS1qcU95RXh6dkFWUQ?oc=5",
     "source": "Investing.com",
-    "published": "2026-11-09T06:09:06+00:00",
+    "published": "2026-11-09T07:29:53+00:00",
     "lede": null,
     "lang": "en"
    },
@@ -52,27 +52,43 @@
   ],
   "us": [
    {
-    "title": "Semiconductor Crash: 2 AI Chip Stocks That Could Help Make You a Fortune Following the Pullback",
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQdHRpc3ZUQVNjOV9KTEhiNDFYMEFkNEVBUnZ2RG04X0k5T3FYRTB5dEg1ajF0cUp0bEFheTZkTENqODUwcExNT1d5TURFdXhVY1NZRmxIN1NTd2xDbkY4NjJhcnlIX21EQTZIYmpSQ0tRelN1MVY0cFBVM0VNQXlCdVlWN1E3VUhFN010aGs0LWEwc01jYkp1NQ?oc=5",
+    "title": "Nvidia ‘honeytrap’ scandal rocks AI industry as tech stocks recover from slump – business live",
+    "url": "https://www.theguardian.com/business/live/2026/nov/09/nvidia-jensen-huang-scandal-investigation-ai-industry-tech-stocks-recovery-slump-latest-news-updates",
+    "source": "The Guardian",
+    "published": "2026-11-09T07:26:45+00:00",
+    "lede": "Rolling coverage of the latest economic and financial news Nvidia opens investigation after report CEO Jensen Huang was target of foreign intelligence Nvidia’s shares are expected to drop when Wall Street opens later…",
+    "lang": "en"
+   },
+   {
+    "title": "Hannover Re beats Q3 profit forecasts, holds 2026 target as pricing softens",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQei1Fb3VQMjJjWFM3T2ZDMFNmdzlTZFRKRUtuaHYzLXR1Ny12TUJlY3lDNlZxdVo5Y3BBVGVoc2EwUXVGNll6RmJ4Q2VQakFUdmpIbC1Ib3lSVzByYVBGN0MybndhRnFXQnBmMDk4V05LTEhhSWZmVGtBS2NqSDliOTdIbHMxdTdwUDFaSTVZQ2lEMUxsS2tMMERqbFN5alBo?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-09T06:20:00+00:00",
+    "published": "2026-11-09T07:19:50+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "5 revealing analyst questions from Texas Pacific Land’s Q3 2026 earnings call",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQN3VnMUdGNk43ZFNHODg1OUQ1dHdjY2ZQWTVfbWowMEtVQnhIYXhOZGdwZ1VtYW4wSUI1ODVOU1AyWkppS0txdmpzQVk5bGd3TVZiaGNiUlN5SU9RMDRLTE5KbEx4azdINFZMYWtxVlVwVlJCVV9nUVRhWVJBbEJVbEE3R215VGhRUEttcnlPY0EwRjJzRkEwbzh1ZVJyUzB5bWc?oc=5",
+    "title": "Bitcoin slips to $74k as regulatory uncertainty, ETF outflows weigh",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPTTh1Q2dfQ0lSSWw5LWNXOW5OOWVmb2s0emJlWkgxWC1BdmI5c2FfUnZycW83aVJveF8wRERiYXhqZ1E4VlBsb2FjbWhZZHhDTV9WcEh2RGtiSktpY0swZ013blVjVnpNT0p5aUk1NXhqTmpxc0dCUmJtQk9QQ0ZqN2NuSHp2VzBqRVlkWkhTWW1vdzVCbWVuZEVRc1JXV2hMZzZvVUNIUW4?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-09T06:05:32+00:00",
+    "published": "2026-11-09T07:16:00+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "VIR Stock Soars Over 10% Overnight, Eyes Best Year Ever — Hepatitis Win Sparks Buyout Buzz And Bigger Bullish Bets",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPYlJPQ3p4STRwRk04UjREdTNQMmhxWGxqcU8zZzRrNWtUZDI5bW9rZ3VHbUN3a2Z6cV9Fd1REWnhfdGFRT0dfNUwxMTFHZk1QbVBZak1QMnN2b3JpMVhMRmp0bjJVNWhkU2tIVW9EQmZqMENZWWJkbTJ0eG15bVcwRWdwZkc3U25SbHhMZw?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-09T05:59:00+00:00",
+    "title": "Markets Brief: The Silver Lining in the Election’s Bad News for Some AI Stocks",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQY0RUZGx1bHVzSEpuVEtncWtRNFpGVDhmcjUtMEZQdWFISHpPSW94c0lwQ0tXYkw2NWRQNmtjNmFMYTFRbFYwNFlIcDROSlp4NDRuam5BWXczazI1RnhOakU5MU1iRnhkTEdMb3IxdXYxa0JEQ01iMHI4VWoyVEJhN2VaNFl0VWJaOXdOUjdXYUZDSC1fNE1z?oc=5",
+    "source": "Morningstar",
+    "published": "2026-11-09T07:10:50+00:00",
     "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Asian stocks rebound after AI rout",
+    "url": "https://www.ft.com/content/b8644327-86e7-4d1c-a71f-3fb1d552723b?syn-25a6b1a6=1",
+    "source": "Financial Times",
+    "published": "2026-11-09T07:09:17+00:00",
+    "lede": "Declines last week had pushed many indices into bear market territory",
     "lang": "en"
    },
    {
@@ -92,19 +108,11 @@
     "lang": "en"
    },
    {
-    "title": "Asian stocks rebound after AI rout",
-    "url": "https://www.ft.com/content/b8644327-86e7-4d1c-a71f-3fb1d552723b?syn-25a6b1a6=1",
-    "source": "Financial Times",
-    "published": "2026-11-09T04:54:20+00:00",
-    "lede": "Declines last week had pushed many indices into bear market territory",
-    "lang": "en"
-   },
-   {
-    "title": "האם יש הזדמנות בוול סטריט אחרי הירידות, ומה יעשו היום הדואליות?",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562408#utm_source=RSS",
+    "title": "עליות באסיה בהובלת בורסת טייוואן; אנבידיה צונחת ב-4% במסחר הלילי",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562500#utm_source=RSS",
     "source": "גלובס",
-    "published": "2026-11-09T03:37:00+00:00",
-    "lede": "המשקיעים יחזרו לשבוע מסחר חדש אחרי צניחה שמחקה משוק המניות האמריקאי כמעט 3 טריליון דולר - הסכום הגדול ביותר שנמחק ביום אחד אי־פעם",
+    "published": "2026-11-09T04:56:00+00:00",
+    "lede": "גלובס מגיש עדכון ראשון לגבי מצב השווקים בעולם",
     "lang": "he"
    },
    {
@@ -116,23 +124,31 @@
     "lang": "en"
    },
    {
-    "title": "Has The Market Priced In Too Much Pessimism?",
-    "url": "https://seekingalpha.com/article/4964917-has-market-priced-in-too-much-pessimism?source=feed_all_articles",
+    "title": "EZA: A Bullish Gold Move Bodes Well For South Africa",
+    "url": "https://seekingalpha.com/article/4964920-eza-a-bullish-gold-move-bodes-well-for-south-africa?source=feed_all_articles",
     "source": "Seeking Alpha",
-    "published": "2026-11-09T00:50:00-05:00",
+    "published": "2026-11-09T02:24:10-05:00",
     "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "The S&P 500 could be dangerously exposed to AI. Here are some simple alternatives.",
-    "url": "https://www.marketwatch.com/story/the-s-p-500-has-become-a-big-ai-bet-here-are-some-simple-alternatives-3c7574a4?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-09T00:40:00+00:00",
-    "lede": "The large-cap index is nowhere near as diversified as you think.",
     "lang": "en"
    }
   ],
   "il": [
+   {
+    "title": "המשבר שכל העולם מדבר עליו: מה קורה עכשיו למנית אנבידיה?",
+    "url": "https://finance.walla.co.il/item/3875515",
+    "source": "וואלה",
+    "published": "2026-11-09T09:55:00+00:00",
+    "lede": "לאחר שהתברר כי מנכ\"ל החברה ג'נסן הואנג נחקר בחשד לקשר עם סוכנת זרה, המשקיעים מנסים להעריך האם מדובר בטלטלה חולפת או באיום אמיתי על אימפריית ה-AI",
+    "lang": "he"
+   },
+   {
+    "title": "מסלול עוקף רגולטור? המכשול הצפוי בעסקת ארקיע־ישראייר",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562449#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-09T07:00:00+00:00",
+    "lede": "חשיפת גלובס, לפיה ישראייר בוחנת את רכישת ארקיע, צפויה להיתקל באתגר רגולטורי",
+    "lang": "he"
+   },
    {
     "title": "חמישה דברים שכדאי לדעת לקראת פתיחת המסחר בבורסה",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001562489#utm_source=RSS",
@@ -142,7 +158,7 @@
     "lang": "he"
    },
    {
-    "title": "סיטיבנק רושם את מניית מזרחי טפחות למסחר בארה\"ב",
+    "title": "סיטיבנק יאפשר מסחר של מניות בנק מזרחי טפחות בוול סטריט",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001562515#utm_source=RSS",
     "source": "גלובס",
     "published": "2026-11-09T06:11:00+00:00",
@@ -150,15 +166,7 @@
     "lang": "he"
    },
    {
-    "title": "עליות באסיה בהובלת בורסת טייוואן; אנבידיה צונחת ב-4% במסחר הלילי",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562500#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-09T04:56:00+00:00",
-    "lede": "גלובס מגיש עדכון ראשון לגבי מצב השווקים בעולם",
-    "lang": "he"
-   },
-   {
-    "title": "20 אלף שקל הנחה, עם כוכבית: האותיות הקטנות ברכבי אפס קילומטר",
+    "title": "20 אלף שקל הנחה, עם כוכבית: האם הרכבים האלה הם הזדמנות",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001562430#utm_source=RSS",
     "source": "גלובס",
     "published": "2026-11-09T03:44:00+00:00",
@@ -176,18 +184,18 @@
   ],
   "geo": [
    {
-    "title": "U.S. launches new task force as Iran nuclear talks collapse and war escalates",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNGZXZzVuVmlZbmhMV1YtUlFHNGdGQWZSek5Wa1Y2dU5KR3hEYzExYzNnNElOZTJrU2o5ZE9ob2RCOHMyX2FIaTloQnZFSmZjWDVEZ3BMdWZpd2lrdWw4SXFlclRQV09vUXlRV1doanV5T0tSeGtDaHNZOXEzeTZUb3JWMHMzRzFESjY2NV9FRkl4V0Fjbng4d1FJVUk4cVVyNW9GMmlRZG1KWnJYanRXX2pfQQ?oc=5",
-    "source": "CBS News",
-    "published": "2026-11-09T05:12:00+00:00",
+    "title": "Who are the seafarers caught in the US-Israeli war on Iran?",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQbFZTaUdlS08tWmFfLUFBSjl2YWpsbTR0VnpJbVM0STRmVUtWc091VkpIXzdkamFnNW1PemNROXRrRExYZFZwOVhWeEhMcW5BbHAzcmctRUxHNE5uMFpMTUJxdDdLeHk0RGpJdWRFb0JYZnF4dURxdlV5bnp1YjFiSEUtX2RkYy13azUtdmtYSHo5cGNjbmhyS19NdUFMMHda0gGmAUFVX3lxTE9TNzdqWEVZaTRnSV8zLW01S1RrMWtPZEdlbVQyZG9fTngtUl82QU9oaUdLMmpxTDNqUzZoalh0SE5EUUwyNktoVHk0dFVVV2prSUxsV3VZSU5BRjFtaWEtQ19wYm9aR3NEZDc4X1J1ZkwzMUV2Vk52eHpyc3JELXJsdW9Xa3g2UVJjakRjX0YxQ21rREQzZk9EcXJXTFE2dkNsWFRmZkE?oc=5",
+    "source": "Al Jazeera",
+    "published": "2026-11-09T07:10:23+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "US and Iran are quietly negotiating as Middle East remains on edge. Here’s what to know",
-    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9OejVwb3pCVS10a0dlaVBzWnBYaHEzb3JqVnNmZGdDZ1BGTC1PdHBVMEZsUzFpTjI3b2ZoQVJEYVltdWdZZURVTTg5ZF8tVlR5NDVrR3ZGVHYzQ3luZy0zVzlYRUVUTC1QN2F4ZDhNR3MwTzhMcDdRMk1n?oc=5",
-    "source": "CNN",
-    "published": "2026-11-09T05:00:15+00:00",
+    "title": "UAE's Gargash warns of prolonged regional uncertainty, says US-Iran settlement appears difficult",
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMlI2UXNzNl84Z1ByMV9Ybm5YNjMtZkdPcDhsZ2plZk9udWViZDZ4eTRVQVNXN2x6U2hENlkxbXJ2SXVvVU0tVWFkZGlSLXBDcnBZM1pzLVBNMzA5bjdZOHlFSXd6ZzhsWWZvV3JWWXlTME1tMnJ5Q0RoWHk1ZmJzbzk5cjZFaDI4NXpTOGRaVDBTNGNxcnRZYjF0X2NzY3EwaEJZcVhMaHRRMXREdXBkeXh6OGRCdU9aaWRJdS1zNzBQSUJCZEE?oc=5",
+    "source": "Reuters",
+    "published": "2026-11-09T07:01:00+00:00",
     "lede": null,
     "lang": "en"
    }
