@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-09T04:30:59.280932+02:00",
+ "generated_at": "2026-11-09T05:31:06.040601+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -52,35 +52,35 @@
   ],
   "us": [
    {
+    "title": "What IGM Financial (IGM) Said on Its Q3 Earnings Call",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOaUZmN085bjdhRGxjR0k3VmxLSHdwUHcxYnF2a3JQcDd6WU1RajUwX212WW14NTZLTEhXVGt6TkstWXQ2dUZwTGJqVDRfTTZHeHhRTTNueWlRS3NFM0hubVFsVUdJX3ZubjJUQ2NrTW1xR0IzeHRZZmM4SHJOUVp0Z1kxajhkR3l2U0JPSV9fbkNrOGNG?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-09T03:29:20+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Nvidia Board Launches Probe In CEO Jensen Huang Spying Case",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNQlRfVlljdGFOU3FmOERuTTRWdC1WR0RSeFNadEpNUFR4eGhDeEh4TTBGX0VXMjd5YWozSWtkbGRPYThpZE9QTks0ZlVyMGhHSVVvcTVYS0VJX2J3WlA5eGZRaUJXdkMzNU1yRUhydnJUUnVmaEpVYzBEblhiVE5MYXJrV05mWEt4Y2EtUkdVRkJLY1FkTllfUFJMRmxSX2lBa292UA?oc=5",
+    "source": "Investor's Business Daily",
+    "published": "2026-11-09T03:22:00+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Top 3 Undervalued Stocks To Watch In November 2026",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNUFRBX3lpSXp5ZWJEOXV3VHRmcElCQjUzMDFfbTlGbDZSVlFkdWdOVVh0Q2cxVjNTdGs2VHViSnpndDJVLS1vdHpXR19KbF9LdUU1cm9sMWlwZEVNZGk1NXdqX2RadjcwUG5WTE9qdFhITXBDb2NQSXd6X21XaXJKMnFvemFaNDlVSUJBcEJGajUxdXZvcjMxa3lKNA?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-09T03:14:00+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
     "title": "China wholesale inflation hits highest in more than four years as consumer measure slows",
     "url": "https://www.cnbc.com/2026/11/09/china-wholesale-inflation-rises-consumer.html",
     "source": "CNBC",
-    "published": "2026-11-09T02:28:50+00:00",
+    "published": "2026-11-09T02:50:22+00:00",
     "lede": "The PPI for October came in at 5.7%, compared to the 5.3% expected by economists polled by Reuters.",
-    "lang": "en"
-   },
-   {
-    "title": "What Trisura Group (TSU) Said on Its Q3 Earnings Call",
-    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOV25EcWFieHBLR1YxZjJWNmtUZlJ3aGJhN3NfZHprY2hja1E0d1R6OGNYRm1DRVpwWXNqZV8yOFZuNzQzOG1HQ0tPZW9ubHZOaFdLZjBRU181ajlWUWs2cGwzSmgtZXRSeVRXcDJCVnpMTFppX1ZldDU1WVhGa2xqV0Y3bFY1Z1ZjT2ttaUxZV25OSTFB?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-09T02:28:22+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Alaris Equity Partners Income Trust (AD.UN) Q3 Earnings Call Highlights",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcDI0aXZmU01HU3M1dUhZR1R1S3hlVzVlWlpMSHpBTFFpSXlZeXROYzFYLW4tVVcyRm55OU92akt3Q2d0ZmVzbjBjVUtGMmhmaTVfYXRZVTFNUnN3MGxOaS12X2RZSVVYVUowNUhza00wa0FTejBhYlFKZmo3aldpN01KRHNPaEozbktVdjZiVHNqNkhkOW9fOFIxR1dubk9fTkE?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-09T02:14:00+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Asian stocks steady as AI, Mideast jitters recede; dollar firm on Fed bets",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQ1hKMUxyTGNpZVlDbXhMbFdNUGlWVzl4RmdCMEJqdEZLY0xWLUNEMGFhLWhfRjQ3NjU1T0ZfS3VyUXBtR1JfcnlSX0RqRlZGUWxjaXNXZkw2UC1Nc0hUSmFWZ1VlbmU0MW9Od3ZTVm9CVVo1U3FiTFJjRmFuQzBGNV8yZ0FTb0RhOXFXVzRvdUtaLVM4V013MXYzSGRMT2cwYVhhYw?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-09T02:07:47+00:00",
-    "lede": null,
     "lang": "en"
    },
    {
@@ -108,10 +108,10 @@
     "lang": "en"
    },
    {
-    "title": "CECO Environmental Moves To Y'All Street, Shares Plummet, And I'm Buying",
-    "url": "https://seekingalpha.com/article/4964877-ceco-environmental-moves-to-yall-street-shares-plummet-and-im-buying?source=feed_all_articles",
+    "title": "Global Customers, Changing Leaders: Inside The S&P Global 100",
+    "url": "https://seekingalpha.com/article/4964891-global-customers-changing-leaders-inside-sp-global-100?source=feed_all_articles",
     "source": "Seeking Alpha",
-    "published": "2026-11-08T20:31:55-05:00",
+    "published": "2026-11-08T22:25:00-05:00",
     "lede": null,
     "lang": "en"
    },
@@ -176,18 +176,18 @@
   ],
   "geo": [
    {
-    "title": "Analysis • The Iran war may end, but Tehran's threat to the Gulf won't",
-    "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPYlBjNVFrSTVlVnBVSWhabFd4TFU1dE5JR1VNOEZtYnFpTHV5aUJGVFJCWDRlSkZiUU5aaTlDMUZFc0NyeHJLaVBwaUg0dzVURkZtc0JLdkFrb080dFhSN05GVHotYXQyQ0Z2RU5iM09JRGRPNnc0dEI4SGlka3FmaEtXNWM3b3B2ZjZ1MkgyWFFRSWVyTVFZN1NlQ3BxTGx6ckJmUGk2NEMzd1UwZm5nMjhsa2hDZWJlWnc2OUdsZTByWWwySUZuN2dYRXFGQzFyUWxyTUcwbmdsbnBUSXU0U2VmWVE0UE8wQXhtS29XWktubXJzMnZlZg?oc=5",
-    "source": "Haaretz",
-    "published": "2026-11-09T02:25:00+00:00",
+    "title": "Trump tells CNN: ‘Highly unlikely’ US goes to war with Iran",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQVWtPRkt6VUQtNTNQU2Z2OUlxVERHSzk2V2VNQXkwNmNuWUItaTZTNEVIcjFWaXFzaXJOOEQ0ZzB5QWdmMTBrZWxLVEJoT2I2aU84eTlKZHVNV2JIMlFsZEF3Q0ZBXzNRQ0JiQnRUMHBqZmJlbkhDSnRJT2ZaR3JuTWxJUnNkSDBPdGpTa1RMRnctRUlHbXNKTUZVMHpSSDJQbnBMSGRSZW5iTXBmaXdiTlBnZ0g?oc=5",
+    "source": "CNN",
+    "published": "2026-11-09T02:56:00+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Trump pushes back on Vance’s Iran war post, says he’d make the same call",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUDZpZW5HQ3JKMTRlekthU2pvZHdvLUtSY0FnWGFsZThjS0hjS1UxWkZ3YUtha2JtUzd3SzNNWUNON05RQmNfeWkyT1ZRMk9ISGdFcmhNNXJqWTJaVENSd20wVEZiWnJGZXdha1l0eEJaV0pSYTZpM3dGTlBwNE5SWHhBcVU2NEZhMWNXTVI2SFJtZw?oc=5",
-    "source": "Politico",
-    "published": "2026-11-09T02:06:00+00:00",
+    "title": "Analysis • The Iran war may end, but Tehran's threat to the Gulf won't",
+    "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPYlBjNVFrSTVlVnBVSWhabFd4TFU1dE5JR1VNOEZtYnFpTHV5aUJGVFJCWDRlSkZiUU5aaTlDMUZFc0NyeHJLaVBwaUg0dzVURkZtc0JLdkFrb080dFhSN05GVHotYXQyQ0Z2RU5iM09JRGRPNnc0dEI4SGlka3FmaEtXNWM3b3B2ZjZ1MkgyWFFRSWVyTVFZN1NlQ3BxTGx6ckJmUGk2NEMzd1UwZm5nMjhsa2hDZWJlWnc2OUdsZTByWWwySUZuN2dYRXFGQzFyUWxyTUcwbmdsbnBUSXU0U2VmWVE0UE8wQXhtS29XWktubXJzMnZlZg?oc=5",
+    "source": "Haaretz",
+    "published": "2026-11-09T02:25:00+00:00",
     "lede": null,
     "lang": "en"
    }
