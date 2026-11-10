@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-10T11:31:04.273420+02:00",
+ "generated_at": "2026-11-10T12:27:12.224239+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -34,10 +34,10 @@
     "lang": "en"
    },
    {
-    "title": "KeyBanc downgrades Zillow stock rating on weaker results outlook",
-    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNQUdmXzdQcDdadkVHOE8zc0VrdTV5bTl4WGdaY3pESFRyb0RRRGk1WnBmY1pOdHVfOUxFc2RFaTVkbDNEa3NRMFBiNUFEdVVRZjdIMENjRXB0dFcxaTM4N2s2bGRQMnpjbVJDY2N4eWNNNnppN0N1SWI2X253YVlRUTM0bkgyZEhyLWNqQ3ZIdGZvLUNIWi1uNzNZMlpBZ3ZoejRxbUx6Rm03VVhOaEZ6TTRxT1lNVS1qcU95RXh6dkFWUQ?oc=5",
+    "title": "Jefferies initiates Iambic stock with buy rating on AI platform",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQSFhDSklTSktIeUd5ZTJSSHVHQ2xsaW5GLUpIOTVKdWp2MHVOeXhIRFNWMmJ2QVM4RTNZUThENzVMZjB6QlNOTGRRMmNXZW9KVVVQcGxKNG5ZdnRCUFdwT2J0LU5CT0xsTWtVTlE1T3dpVGdyZTB3S1VqTmhocnZoOEJqNUVNSEY4bE5FM3ZlbUhpNEtRblpCczVwZ0dLcUFVNG9DZXpOVEJpZHd4QllINmNka1NKS3lEeHJzUWZxQ3A?oc=5",
     "source": "Investing.com",
-    "published": "2026-11-09T07:29:53+00:00",
+    "published": "2026-11-10T06:06:44+00:00",
     "lede": null,
     "lang": "en"
    },
@@ -52,52 +52,68 @@
   ],
   "us": [
    {
-    "title": "Iceland Seafood International hf.: Lowers earnings forecast for 2026",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPejA1ZFhCckVMRG9SeWc4MXpCcnRaTDJRT21lYTBlUXZxOFdVSHZQR3FTUEpuanJkNXpfV2ROZUJsUmNzT29SZHNoLVM2TVYteVFyb3FIMlRXak0taWZKdHRUcUFfU2gwMVRmS001T0JDQW9UcXh1NVZOU0ZDb1ZMQ0lseHBiRUVOT3hmTG9xUHZmRko3MGxqdzA2dkNhN0p3TlQ3aEZPaw?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-10T09:11:00+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "FTSE 100 climbs as sinking crude boosts broader market but drags on energy majors",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNUE1GR1BTR2pYR0tHRG90eklYdHNyeTNjVjdDN1Rab3NudnBaQnQ1djlDRmNzRFBJVmlKbWVsT1RnRE9uMm02dXF5S2RuOHRVTDBEVkNCTWxzbTJ6WTdKRmRRZGY1djNtZW9GT0FxTGxTQ250VjRmTjBrQUFVMnJvcDFGVnFMMTluNGpNa01RdkRCWjJhM3lYaXlrenJEVnRmQVJZ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-10T09:10:48+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Beyond Nvidia: 6 stocks winning the AI infrastructure buildout",
-    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNbFB2ZDlmTFBacXFMYnVsS2FpVS1NY25BaDI4RWdoX1RkTW85R2Fsei1adDR0Z09IcnNDcjdhZU1FSzRJV3pSYlJMazhxT1FYU204X0Z0TEtJMFNSZ0NEalNMLXpFRHBka2VtbVI2VlB0Z1VmTGVkM1RCa2JKTG5LNnAzSS1uRGE0ckU0SVhGMFVHUTBPOVEzUW9R?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-10T09:09:50+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "הקפאת חיבורים לרשת החשמל: ההחלטה הנורבגית שמפילה את מניית עזריאלי",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562714#utm_source=RSS",
+    "title": "אזהרה ב\"וול סטריט ג'ורנל\": הסנקציות על ישראל עלולות לשבש את זרימת ההון להייטק",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562724#utm_source=RSS",
     "source": "גלובס",
-    "published": "2026-11-10T09:01:00+00:00",
-    "lede": "מניית חברת הנדל\"ן מגיבה להחלטה של מפעילת מערכת הולכת החשמל בנורבגיה להקפיא הקצאות של חיבורים חדשים של חוות שרתים לרשת",
+    "published": "2026-11-10T10:20:00+00:00",
+    "lede": "מומחה מיסוי בריטי מזהיר בטור דעה ב\"וול סטריט ג'ורנל, כי הסנקציות הפיננסיות שמגבשת בריטניה נגד ההתנחלויות, עלולות לפגוע בזרימת ההון להייטק הישראלי דרך איי קיימן, ואף להסב נזק לתעשייה הפיננסית של הטריטוריה הבריטית",
     "lang": "he"
    },
    {
-    "title": "Fed Governor Waller sees December hike likely, opens door to possible half-point increase",
-    "url": "https://www.cnbc.com/2026/11/10/fed-governor-waller-sees-december-hike-likely.html",
-    "source": "CNBC",
-    "published": "2026-11-10T09:00:01+00:00",
-    "lede": "The policymaker said he \"is leaning toward\" a rate increase in December and could support a half-point hike depending on inflation data.",
+    "title": "AI stocks bounce back — with one notable exception",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5vT1hlR3Bzb3NOOGhqel9uRVdUVm9vSWJRWF9oaG44Y0xoZmpWbk9wVWVsWDE1MzM3al9zZHQwZmFieGl6UkIyVXBwUUtMa3VJMDJBRW1IVTk3Z191NURTZmtKcEIxckpab0E?oc=5",
+    "source": "Axios",
+    "published": "2026-11-10T10:16:40+00:00",
+    "lede": null,
     "lang": "en"
    },
    {
-    "title": "המסחר באירופה מתנהל במגמה חיובית; מחירי הברנט מתקרבים ל-90 דולר",
+    "title": "CG Q3 2026 deep dive: fundraising momentum builds, market cautious on future growth",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNOGJtWTVSMy0wUjRpYmN3VDJEVVZWRUwwWURiaHFQX2J1TzZBUjJFZWI3TkN4UEVyczdkaW1jOXhYMG9ETDFiR0lVX19vZmNxVXlnZFZhTDhCY3Uzem0zRzNkQmFMdTl5OFhYUjEyd1VaQnhKYi02TkFTUFhhaDdRWTRid2J1MXVBTGlEb1p3?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-10T10:13:36+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Watches of Switzerland Group Q2 Earnings Call Highlights",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQdjFZdE5RaHplUi1jVnVGekFua3VVUjVhSEpUdWkwWjZqcmdzbURKMC1Wa0wwVk40YUVRbmR0aVI3eHc3Sy1ySTl4VEhoVkxub2l2dGpfdkZhaFRQQmxfUGd1eXYwNGJ3b1A3dWh3OTl0NG5rZV9MenRlUmNIVGotZkE2UnFEeWdPNGpnSVlVdzE0NVhoUkF2ZW5vM0ZNQmE0M0Q1eg?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-10T10:12:18+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "באירופה מניות השבבים מזנקות, בארה\"ב ממתינים לנתוני האינפלציה; הנפט ממשיך לצלול",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001562654#utm_source=RSS",
     "source": "גלובס",
-    "published": "2026-11-10T08:55:00+00:00",
-    "lede": "באירופה, המדדים המרכזיים מטפסים בכ-1% • יצרנית השבבים הגרמנית אינפיניאון מובילה את המגמה החיובית באירופה עם תחזיות חזקות ל-2027 • הבורסות באסיה ננעלו בעליות חדות בהובלת סקטור השבבים • TSMC הציגה זינוק של 60% בהכנסות…",
+    "published": "2026-11-10T10:11:00+00:00",
+    "lede": "באירופה נרשמות עליות שערים נאות בהובלת סקטור הטכנולוגיה",
     "lang": "he"
+   },
+   {
+    "title": "Nvidia stock edges higher as investors weigh potential fallout of CEO's affair with alleged spy",
+    "url": "https://www.cnbc.com/2026/11/10/nvidia-nvda-jensen-huang-affair-chinese-spy.html",
+    "source": "CNBC",
+    "published": "2026-11-10T10:02:23+00:00",
+    "lede": "Investors continue to weigh the potential fallout from CEO Jensen Huang's affair with an alleged Chinese spy.",
+    "lang": "en"
+   },
+   {
+    "title": "Fed’s Waller puts half-point rate hike into the mix for December",
+    "url": "https://www.marketwatch.com/story/feds-waller-puts-half-point-rate-hike-into-the-mix-for-december-1bebdffc?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-10T09:45:00+00:00",
+    "lede": "Federal Reserve Gov. Chris Waller on Tuesday put the possibility of a half-point rate hike into the mix, depending how hot the consumer price data for October comes in.",
+    "lang": "en"
+   },
+   {
+    "title": "France blames Iran for supermarket refrigerator cyberattacks, weighs sanctions",
+    "url": "https://www.cnbc.com/2026/11/10/iran-fridge-cyberattacks-france.html",
+    "source": "CNBC",
+    "published": "2026-11-10T09:34:24+00:00",
+    "lede": "France said the cyber unit of Iran's Islamic Revolutionary Guard Corps carried out an \"unprecedented campaign\" that caused millions of euros in damage.",
+    "lang": "en"
    },
    {
     "title": "Britons stockpiling water and food tins but not panic buying, figures show",
@@ -108,27 +124,11 @@
     "lang": "en"
    },
    {
-    "title": "SoftBank Group shares surge 14% as Asian tech stocks track Wall Street rebound",
-    "url": "https://www.cnbc.com/2026/11/10/ai-softbank-sk-hynix-samsung-wall-street-tech-stocks.html",
-    "source": "CNBC",
-    "published": "2026-11-10T08:06:29+00:00",
-    "lede": "A sharp decline in oil prices lifted sentiment while renewed buying in semiconductor names overnight spilled over into Asia, following last week's bruising sell-off.",
-    "lang": "en"
-   },
-   {
     "title": "Young people in UK hit by ‘low-gear economy’, warns Bank of England deputy",
     "url": "https://www.theguardian.com/business/2026/nov/10/young-people-uk-economy-bank-of-england-clare-lombardelli",
     "source": "The Guardian",
     "published": "2026-11-10T06:00:30+00:00",
     "lede": "Exclusive: Iran war has fuelled energy price rise and clouded outlook, driving up unemployment, says Clare Lombardelli Young people in Britain are bearing the brunt of a “low-gear economy” as employers hold back from…",
-    "lang": "en"
-   },
-   {
-    "title": "TSMC's October sales jump as global chip boom rolls on",
-    "url": "https://www.cnbc.com/2026/11/10/tsmcs-october-sales-.html",
-    "source": "CNBC",
-    "published": "2026-11-10T05:42:42+00:00",
-    "lede": "TSMC reports its monthly sales figures for October on Tuesday.",
     "lang": "en"
    }
   ],
@@ -138,39 +138,39 @@
     "url": "https://finance.walla.co.il/item/3875689",
     "source": "וואלה",
     "published": "2026-11-10T12:14:00+00:00",
-    "lede": "אליס הואנג, האישה שעמדה במרכז סערת הריגול סביב מנכ\"ל ענקית השבבים, בנתה קריירה פיננסית בסין לפני שהשתלטה על חברת ענן שנקשרה למשלוחי שבבים אסורים",
+    "lede": "אליס הואנג, האישה שעומדת במרכז סערת הריגול סביב מנכ\"ל ענקית השבבים, בנתה קריירה פיננסית בסין לפני שהשתלטה על חברת ענן שנקשרה למשלוחי שבבים אסורים",
     "lang": "he"
    },
    {
-    "title": "עליות במסחר בת\"א; תורפז צונחת במעל 10%, נקסט ויז'ן מטפסת",
+    "title": "בשליש מחיר: ארי נדל\"ן בוחנה רכישת הקרקע של אדמה בבאר שבע ב-110 מיליון שקל",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562727#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-10T10:15:00+00:00",
+    "lede": "המתחם, ששימש במשך שנים לפעילות התעשייתית של אדמה, מוגדר כקרקע מזוהמת, כאשר סוגיית הזיהום נותרת חלק מהותי בעסקה",
+    "lang": "he"
+   },
+   {
+    "title": "סוף למאבק המשפטי בחברת הנדל\"ן MHR1: ביהמ\"ש אישר את הפשרה",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562719#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-10T09:58:00+00:00",
+    "lede": "ביהמ\"ש הכלכלי בת\"א נתן תוקף להסכם הפשרה בין משקיעי חברת MHR1",
+    "lang": "he"
+   },
+   {
+    "title": "עליות בתל אביב בהובלת מניות הביטוח והבנקים; תורפז צונחת",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001562659#utm_source=RSS",
     "source": "גלובס",
-    "published": "2026-11-10T09:21:00+00:00",
-    "lede": "מדד ת\"א 35 עולה ב-0.8% • כלל המדדים הענפיים בירוק למעט ת\"א־נפט וגז • עזריאלי מאבדת גובה עקב דיווח שפרסמה החברה בנוגע להקפאת הקצאות חדשות בתחום חוות השרתים בנורבגיה • OPC מזנקת ברקע פרסום דוחות חזקים • תורפז נופלת אחרי…",
+    "published": "2026-11-10T09:56:00+00:00",
+    "lede": "מדד ת\"א 35 עולה ב-1.4% • כלל המדדים הענפיים בירוק • עזריאלי מאבדת גובה עקב דיווח שפרסמה החברה בנוגע להקפאת הקצאות חדשות בתחום חוות השרתים בנורבגיה • OPC מזנקת ברקע פרסום דוחות חזקים • תורפז נופלת אחרי הדוחות • תשומת-הלב…",
     "lang": "he"
    },
    {
-    "title": "קרוב המשפחה הקשיש נפטר והוריש דירה בבניין התמ\"א. כמה מס ישלמו היורשים?",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562703#utm_source=RSS",
+    "title": "הקשר בין הואנג למרגלת הסינית: פרטים חדשים על מעורבות אנבידיה",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562725#utm_source=RSS",
     "source": "גלובס",
-    "published": "2026-11-10T09:09:00+00:00",
-    "lede": "נייר עמדה שפרסמה רשות המסים עונה לשאלה הקריטית: כמה מס ישלמו יורשי קשישים בפרויקטים של התחדשות עירונית, והאם יהיו זכאים להטבות מס במתחמי התחדשות עירונית - פינוי-בינוי, תמ\"א 38 והתוכניות שאושרו מכוחה - במקרה של פטירת…",
-    "lang": "he"
-   },
-   {
-    "title": "בהשפעת אנבידיה: S&P העלתה את תחזית הצמיחה של ישראל",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562702#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-10T09:01:00+00:00",
-    "lede": "סוכנות הדירוג פרסמה סקירה חדשה על ישראל, שלא כוללת דירוג אשראי",
-    "lang": "he"
-   },
-   {
-    "title": "הדד־ליין מתקרב: בבנק ישראל בוחנים צעדים חדשים נגד מבצעי הקבלנים",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562599#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-10T08:46:00+00:00",
-    "lede": "הוראת השעה שמטילה מגבלות על מבצעי מימון אגרסיביים על דירות עומדת לפוג בסוף השנה, ובבנק ישראל מקיימים עבודת מטה מקיפה בנושא",
+    "published": "2026-11-10T09:54:00+00:00",
+    "lede": "לפי תחקיר הניו יורק טיימס, היועץ המשפטי הראשי של אנבידיה פנה באוגוסט 2025 לחוקרים שבדקו חשד להברחת שבבים לסין באמצעות חברה שבה עבדה אליס הואנג",
     "lang": "he"
    },
    {
@@ -182,28 +182,28 @@
     "lang": "he"
    },
    {
-    "title": "בורסת ניו יורק בחרה ברשת Avalanche לסליקת מניות - המטבע מזנק בכ-7%",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9MbkNhb1N3TVJWclpnbUVWRGZCcUtlQmU5Tk5LTF9oTGdFTURrR28xMG4zbFJmTVFEQXhocDlIRUg2ZHJnazZhRDNiNXNsVzBGNVl4cTJDVGlxajBLZDQ0OGZJSUE3WS1hWUR5OC1CNjk?oc=5",
+    "title": "תורפז צונחת 10% אחרי דוחות חלשים; ת\"א 35 עולה 1%, נקסט ויז'ן קופצת 4.6%",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBoMXgwLWVHUUdURVVrQWFCQlNITV9ZS1FjYWtNYTBIMWxsLTloTFZpb0tBR2doVmFCdHJvZ3VwV2JVOF9nN2pFQm95OThnR3NsR1p2Rm52UlBRek9saGcycmdHUWdxVVBDVmNZNko5ODA?oc=5",
     "source": "ביזפורטל",
-    "published": "2026-11-09T14:10:00+00:00",
+    "published": "2026-11-10T05:35:00+00:00",
     "lede": null,
     "lang": "he"
    }
   ],
   "geo": [
    {
-    "title": "Ukraine peace talks resume in Abu Dhabi after months-long pause",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5nOTZJMmkxOUs1TDloQTA0bGctdEpXVmotNVFaZ3dIYjFmbnJ1MmFVY3AxM3QzeE9lRUM0WXZPZnpnVzNCWU1EbzZkeDBqOTlQQTV2d3E2ckNvWG8?oc=5",
-    "source": "BBC",
-    "published": "2026-11-10T09:07:00+00:00",
+    "title": "Scoop: El Salvador blasts U.S. State Dept. over Haiti gang war",
+    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5YdUhXT0Npekk4YjIwS2E4cGxSZmpLd0ZuQWxjNzNmb25hVks3QWxLSE5jUWtyZzM1cWxWamFHRHUxVVNzeHlwVFRJRmlxNmVBWWNwVWJ6c3FtemdlNHFvU1ozRldRdjE5UGZ6S0ozTi1sRTBVOGhjSlptZFRxUQ?oc=5",
+    "source": "Axios",
+    "published": "2026-11-10T10:21:38+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Gen Z doesn‘t relish going to war – so what! You should worry more about the reckless generations that do",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNR3Y4NFBNZzNjSTFJMDhaYTl1VGl4SnlHV3VEMFNUVWZYdGtwREdtTk9DckdPMTE0ZjdmNFRCa2hMUkxaN2lWSDM3VGVRWHhuMllaaTJzbXNHbDRJQ296by03cGpndE8tRzdCS25lWU1JTjcyWjFpQmNVZXJveXdzN1A5WFlBNmxpeXVMR2JtNmF2MFJPUnU5aDJmYzUyY00?oc=5",
-    "source": "The Guardian",
-    "published": "2026-11-10T07:00:00+00:00",
+    "title": "Vanishing vessels and missing sailors: The Iran war's human cost at sea",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVk9OX194dlU4RDNVOWNKU0tNME9BVThqb09FME14bDBYM29rdjN4V0RDZXl5aFhTZWhzZ3M0S3pQTUU3RGZULW9jY0Voa1JhbW5rQTJRRDg3dzJidzI5NkZDUVgwNktsanhNOE1NZjFGbTRwby00eTgyZXB2VkVZbzc2b0Q4UXowNnNBSGVQWnA0ZldOOUcwSWhWSF9qZHVxZWY0Wmk5OXl5WnpLOXBkSVF3?oc=5",
+    "source": "Reuters",
+    "published": "2026-11-10T10:09:00+00:00",
     "lede": null,
     "lang": "en"
    }
