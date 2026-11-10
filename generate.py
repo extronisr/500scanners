@@ -1054,7 +1054,11 @@ def extended_quotes(symbols):
             tss = res.get("timestamp") or []
             closes = res["indicators"]["quote"][0].get("close") or []
             pts = [(int(t), float(c)) for t, c in zip(tss, closes) if c is not None]
-            prev = meta.get("chartPreviousClose") or meta.get("previousClose")
+            # base = last regular-session close. NOTE: Yahoo's chartPreviousClose
+            # lags one session during pre-market (verified 2026-11-10: SPY showed
+            # Friday's close while regularMarketPrice/regularMarketTime carried
+            # Monday's 16:00 close), so the regular-session meta price is the base.
+            prev = meta.get("regularMarketPrice") or meta.get("chartPreviousClose") or meta.get("previousClose")
             reg = (meta.get("currentTradingPeriod") or {}).get("regular") or {}
             r_start, r_end = reg.get("start"), reg.get("end")
             if not pts or not prev or r_start is None or r_end is None:
@@ -2129,10 +2133,12 @@ def build_html(mh, dips, alerts, bo, updated, extra=None):
             spx_asof = "סגירה רשמית אחרונה"
             for _ix in ((extra or {}).get("overview") or {}).get("indices", []):
                 if _ix.get("sym") == "^GSPC" and _ix.get("ts"):
-                    _d = datetime.fromtimestamp(_ix["ts"], timezone.utc).astimezone(JER)
-                    _rd = updated.astimezone(JER).date() if updated.tzinfo else updated.date()
-                    spx_asof = (f"נכון ל־{_d.hour}:{_d.minute:02d}" if _d.date() == _rd
-                                else f"סגירה {_d.day}.{_d.month}")
+                    _ny = datetime.fromtimestamp(_ix["ts"], timezone.utc).astimezone(NY_TZ)
+                    if _futures_session_context()[0] == "במהלך המסחר הרגיל":
+                        _dj = _ny.astimezone(JER)
+                        spx_asof = f"נכון ל־{_dj.hour}:{_dj.minute:02d}"
+                    else:
+                        spx_asof = f"סגירה {_ny.day}.{_ny.month}"
             parts.append(
                 f'<div class="chk spxrow"><span class="dot pass"></span>'
                 f'<div class="ct"><b>S&P 500</b><span>{esc(spx_asof)}</span></div>'
@@ -2248,10 +2254,12 @@ def build_html(mh, dips, alerts, bo, updated, extra=None):
             val_s = f"{ix['value']:,.2f}"
             asof = "מול סגירה קודמת"
             if ix.get("ts"):
-                _d = datetime.fromtimestamp(ix["ts"], timezone.utc).astimezone(JER)
-                _rd = updated.astimezone(JER).date() if updated.tzinfo else updated.date()
-                asof += (f" · נכון ל־{_d.hour}:{_d.minute:02d}" if _d.date() == _rd
-                         else f" · סגירה {_d.day}.{_d.month}")
+                _ny = datetime.fromtimestamp(ix["ts"], timezone.utc).astimezone(NY_TZ)
+                if _futures_session_context()[0] == "במהלך המסחר הרגיל":
+                    _dj = _ny.astimezone(JER)
+                    asof += f" · נכון ל־{_dj.hour}:{_dj.minute:02d}"
+                else:
+                    asof += f" · סגירה {_ny.day}.{_ny.month}"
             parts.append(
                 '<div class="idxcard">'
                 f'<span class="idxname">{esc(ix["name"])}</span>'
