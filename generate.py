@@ -49,6 +49,28 @@ dip_meta = {"coverage_ok": True, "vfrac": None}
 MIN_COVERAGE = 0.90   # below this share of data fetched, "no results" is not trustworthy
 
 
+
+TV_SECTOR_SYMBOLS = ["XLK", "XLC", "XLY", "XLF", "XLV", "XLI", "XLE", "XLP", "XLU", "XLB", "XLRE"]
+TV_PREMARKET_BLOCK = (
+    '<h3 class="sec">מגזרים · מסחר מוקדם ואחרי שעות (חי)</h3>'
+    '<div class="ts">כל כרטיס מציג את הסגירה האחרונה ומתחתיה שורת "PRE MARKET" / "POST MARKET" '
+    'עם שעת הציטוט והשינוי מול הסגירה. ווידג׳ט רשמי של TradingView, מתעדכן בדפדפן בלי תלות בסריקה.</div>'
+    '<div id="tvsec" class="tvsec" dir="ltr"></div>'
+    '<script>(function(){var syms=' + json.dumps(["AMEX:" + x for x in TV_SECTOR_SYMBOLS]) + ';'
+    'var box=document.getElementById("tvsec");if(!box)return;var done=false;'
+    'function load(){if(done)return;done=true;syms.forEach(function(s){var c=document.createElement("div");'
+    'c.className="tradingview-widget-container tvcard";var w=document.createElement("div");'
+    'w.className="tradingview-widget-container__widget";c.appendChild(w);'
+    'var sc=document.createElement("script");sc.async=true;'
+    'sc.src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-info.js";'
+    'sc.text=JSON.stringify({symbol:s,width:"100%",locale:"en",colorTheme:"light",isTransparent:true});'
+    'c.appendChild(sc);box.appendChild(c);});}'
+    'if("IntersectionObserver" in window){new IntersectionObserver(function(e,o){if(e[0].isIntersecting){o.disconnect();load();}}).observe(box);}else{load();}'
+    '})();</script>'
+    '<style>.tvsec{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:8px;min-height:120px}'
+    '.tvcard{border:1px solid #e3e3e3;border-radius:10px;background:#fff;overflow:hidden;min-height:150px}</style>'
+)
+
 def fail(section, detail):
     failures.append((section, detail))
 
@@ -2167,6 +2189,7 @@ def build_html(mh, dips, alerts, bo, updated, extra=None):
                     "<small>פירוט נוסף, לא מגזר במפה</small></span>"
                     f"{pct2(xr['day_pct'])}</div>")
             parts.append('<div class="ts">11 מגזרי S&P 500 באמצעות קרנות סל ענפיות · Yahoo Finance</div>')
+            parts.append(TV_PREMARKET_BLOCK)
         parts.append('<h3 class="sec">המבט הרחב · מדדים</h3>')
         parts.append('<div class="idxgrid">')
         for ix in ov["indices"]:
