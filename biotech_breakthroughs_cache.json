@@ -1,5 +1,5 @@
 {
- "fetched_at": "10.11.2026, 14:34",
+ "fetched_at": "10.11.2026, 14:56",
  "items": [
   {
    "title": "FDA approves Bayer’s first-in-class stroke drug - www.lifesciencefocus.com",
@@ -2916,6 +2916,30 @@
    "ncts": []
   },
   {
+   "title": "ANI Pharmaceuticals to Acquire Egetis Therapeutics, Egetis Sells Priority Review Voucher for $190 Million - Pharmaceutical Executive",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRFVEa21HeHNZMWI1WGVWUnMwS0Y4UGFqZlMxME1lRldJeUhSZGt1ZmUyd2RnVGl1V01Rcm9LMzRlTElJb2hicVhyeGo3d2Z6dXZqdTY5ZThDcllLU2tYbXc3TXR2eG1ReGZVYmt6V2MzT3NMOGo3ZkZWRGZWS3pTc2NFMWM2QmdPNmdvX0xIOFNLOWR6Tm9SZy1IVXJySnBWQzR0T2VTTQ?oc=5",
+   "pub_ts": 1793891265.0,
+   "date": "5.11.2026, 17:07",
+   "cat": "btd",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [
+    "ANIP"
+   ],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRFVEa21HeHNZMWI1WGVWUnMwS0Y4UGFqZlMxME1lRldJeUhSZGt1ZmUyd2RnVGl1V01Rcm9LMzRlTElJb2hicVhyeGo3d2Z6dXZqdTY5ZThDcllLU2tYbXc3TXR2eG1ReGZVYmt6V2MzT3NMOGo3ZkZWRGZWS3pTc2NFMWM2QmdPNmdvX0xIOFNLOWR6Tm9SZy1IVXJySnBWQzR0T2VTTQ?oc=5"
+    },
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPNU5uX3lQZHVXU3pTdXNJWHlfYnNPNWRrd0R6R183SmQ4RTNGemo1a2ZFZEU0RGl0OGQ5T2QwSldIMHRzeWFYM3JHemVpbFYyNDFZU3FrcGpUTmRRaWRRZlN3eFRzekFHZnRxdFdDN001MmowSlRDd2RVZEVUcmNWaUtLWmVpR2RoMmZGU3RJZmJaX01SLTJOWjYweWxDVVgyemQ1NWtYLVEtSFFBRVFhRzNsUHlZQWxjQnZTenkzRlhIYXBOUDc1Yw?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
    "title": "FDA Grants Priority Review to Zanubrutinib Regimen in Frontline MCL - CancerNetwork",
    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUHl6VW5aM25LaTd1Q1lPZXZtRWdHOUtIaS13Q1NpV3Z0cHhuTDZwMVBaU3R5Yk9TYW85NDVHSHg5WEdTVGU4VFJNajI0NVlLMHJ0Ul9CdFhWYXB6Z0pQVkdfVEs1OS1zOTNPMTNhVF9JcXYxVVpVVnBCcXpndlhybjVHZDdCd2s3Q3JWa2xSUWhnZ0YzcTgwVU5JNmk0NmpROFozcQ?oc=5",
    "pub_ts": 1793889839.0,
@@ -3005,24 +3029,6 @@
    "ncts": [
     "NCT06333808"
    ]
-  },
-  {
-   "title": "Egetis Sells Priority Review Voucher for $190M After First MCT8 Deficiency Drug - Tech Times",
-   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPNU5uX3lQZHVXU3pTdXNJWHlfYnNPNWRrd0R6R183SmQ4RTNGemo1a2ZFZEU0RGl0OGQ5T2QwSldIMHRzeWFYM3JHemVpbFYyNDFZU3FrcGpUTmRRaWRRZlN3eFRzekFHZnRxdFdDN001MmowSlRDd2RVZEVUcmNWaUtLWmVpR2RoMmZGU3RJZmJaX01SLTJOWjYweWxDVVgyemQ1NWtYLVEtSFFBRVFhRzNsUHlZQWxjQnZTenkzRlhIYXBOUDc1Yw?oc=5",
-   "pub_ts": 1793814756.0,
-   "date": "4.11.2026, 19:52",
-   "cat": "btd",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPNU5uX3lQZHVXU3pTdXNJWHlfYnNPNWRrd0R6R183SmQ4RTNGemo1a2ZFZEU0RGl0OGQ5T2QwSldIMHRzeWFYM3JHemVpbFYyNDFZU3FrcGpUTmRRaWRRZlN3eFRzekFHZnRxdFdDN001MmowSlRDd2RVZEVUcmNWaUtLWmVpR2RoMmZGU3RJZmJaX01SLTJOWjYweWxDVVgyemQ1NWtYLVEtSFFBRVFhRzNsUHlZQWxjQnZTenkzRlhIYXBOUDc1Yw?oc=5"
-    }
-   ],
-   "ncts": []
   },
   {
    "title": "BeOne gains FDA priority review for Brukinsa label expansion - Seeking Alpha",
@@ -4264,6 +4270,24 @@
    "ncts": [
     "NCT05901831"
    ]
+  },
+  {
+   "title": "101-PGC-005 improved hospitalized patients with COVID-19 faster than systemic dexamethasone in topline phase 2/3 results - 2 Minute Medicine",
+   "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxONEpYZFVVSmJwUEtkTE5lYWRybzJRQWJ6WXEzQWxXUmpIZTd0QVduWXczZm05d0NhbFVLSEtNd3lvWDRZX0JLSW9neVRBZmljRlBTZXNYQ2xKX3JWbGVkYXg1NEIxUVJwNGhjX0hYbnRUcFVIenpiajN0WkpvdENjOXhvLWwzTXhJTGl1Tzd2ZTc4MUtjVzQzVmJHbXI2dF9vZDdMYTBNMkNYSTBkZDAzOGQ2c0FZMGF5bUlyRXk2Y05XN3Q0ODl1VFJDX2pQYjJzSmFUV1RRazJZRmdQZUxaNzZjaWtVQVZs?oc=5",
+   "pub_ts": 1794314025.0,
+   "date": "10.11.2026, 14:33",
+   "cat": "phase2",
+   "sev": 1,
+   "dir": 0,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxONEpYZFVVSmJwUEtkTE5lYWRybzJRQWJ6WXEzQWxXUmpIZTd0QVduWXczZm05d0NhbFVLSEtNd3lvWDRZX0JLSW9neVRBZmljRlBTZXNYQ2xKX3JWbGVkYXg1NEIxUVJwNGhjX0hYbnRUcFVIenpiajN0WkpvdENjOXhvLWwzTXhJTGl1Tzd2ZTc4MUtjVzQzVmJHbXI2dF9vZDdMYTBNMkNYSTBkZDAzOGQ2c0FZMGF5bUlyRXk2Y05XN3Q0ODl1VFJDX2pQYjJzSmFUV1RRazJZRmdQZUxaNzZjaWtVQVZs?oc=5"
+    }
+   ],
+   "ncts": []
   },
   {
    "title": "Zura Bio shares plunge 72% after Phase 2 trial of lead drug tibulizumab fails primary endpoint. - Pluang",
