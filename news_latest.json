@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-10T18:01:08.449996+02:00",
+ "generated_at": "2026-11-10T19:01:01.656098+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -10,10 +10,10 @@
  "sections": {
   "analysts": [
    {
-    "title": "Buy this data center-linked stock primed to rally nearly 60%, says Jefferies",
-    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQc1l0QURVd3E0RERlaGtRS2Zhd21YX2Fyc01OeG5vaGN3c1pzRlQ4cGlZc3JQem1BZnZ3bzdRanl2Tmk3Y2tOUElxQ3loMHRKWi05N29wXzVEdlJPSGd2UmFjN3hHQXBWTE1uV0hKdzAxZTFENThQLVJSSDhDd09UYzJxSTdldw?oc=5",
-    "source": "CNBC",
-    "published": "2026-11-10T12:03:03+00:00",
+    "title": "Semiconductor Stocks Will Split Into ‘Haves And Have-Nots,’ Raymond James Strategist Says",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPejNRRUlGeG1sRHB5bmFLQnBpOXNrWXBJQmdLNWRRNFRqMUFQcFRyWWhxLXFGeGpPN1dVbHNZdHg5SGdfTmhHSTNpeWFtSkJsNjhEeGpjLXFoSzRROFV4Q191YTdlcWREMnVQTi16ZnF0UTlHTkdqRHhoUjF4VXB4dG1pZkRZZ1gwUEFBLXZodzVHZ1VqcFNiS243bEY0X3BwVzloTA?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-10T15:59:01+00:00",
     "lede": null,
     "lang": "en"
    },
@@ -52,101 +52,117 @@
   ],
   "us": [
    {
-    "title": "Consumer prices rose 0.4% in October, more than expected, complicating Fed's inflation fight",
-    "url": "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html",
-    "source": "CNBC",
-    "published": "2026-11-10T15:56:25+00:00",
-    "lede": "The report comes at a critical juncture for the Federal Reserve as it considers its next move regarding interest rates.",
+    "title": "5 Best US Stocks to Invest In for Long Term",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVkUzcW9PWHJsNUQ0TkoyVkR1SVl0dVNoazBUdDRYeWZPT3owUXdUeUNsbHRWT2tuRzkyakdiSHEtMnFyMVdrUmNZbUJ1V0M5a1ByMFBRQkRweUplOHJFTnRZVmVyTHVLLXRCWkIwcGpOck9Ua3hlZy1QZ2pSU1prZkNCNkxVbTg1WDJ4VWsxZXFLQQ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-10T16:48:20+00:00",
+    "lede": null,
     "lang": "en"
    },
    {
-    "title": "Why stocks are falling and 10-year yields are climbing back near 5% after Tuesday’s inflation report",
-    "url": "https://www.marketwatch.com/story/why-stocks-are-falling-and-10-year-yields-are-climbing-back-near-5-after-tuesdays-inflation-report-389b8392?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-10T15:47:00+00:00",
-    "lede": "‘I don’t think they should be raising another 25 basis points,’ one portfolio manager said about the Federal Reserve’s benchmark interest rate.",
+    "title": "LVMH: Share transactions disclosure",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQaHRfS1htUW9YQWlGSVJodV93OEZwaF9kR21wRzRLczVHRzJ2R1ZTLXh1YWNPQk5DVkw4cGxtQ1UyQkplaUxucmNsSV9kRDBKSWNCTllXSXpIbHNuc2dkRnA5Mlp0TUQtMUUyenFqQjNKNG1lZmNSQzBpWUw2bzAya3VtcmdGVHo3N1lTNFZRSTdkTEY2UE9OZHctS25ENS1m?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-10T16:46:00+00:00",
+    "lede": null,
     "lang": "en"
    },
    {
-    "title": "Anthropic sets IPO price range of $70 to $78, looks to start trading Nov. 19, sources say",
-    "url": "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html",
+    "title": "Earnings to watch: RadNet (RDNT) reports Q3 results tomorrow",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPWlBYbHZSQmloYzZ2amZ4N1ZLZVlYblU1SmpPS05ab2g1RUEzcGRzbDN4U2lZanJBTkNtSHhPR1RCV2hvTzB1ZzV1NnpLUWtpZGg0OW1iZ3oyd0QyQzJVOEZ3c21LZXRXRWpWYnVhcmMxd0pYMUVUcC1ndWMwcUVsc0praUJIcW9JdGNvNktYYXBLaVhoNTN5MlQyWXpEV1dF?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-10T16:45:36+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "10-year Treasury yield races back to 5% as inflation data, Waller comments drive rate hike expectations",
+    "url": "https://www.cnbc.com/2026/11/10/us-bonds-treasurys-yields.html",
     "source": "CNBC",
-    "published": "2026-11-10T15:42:00+00:00",
-    "lede": "Anthropic's IPO is expected to come roughly five months after Elon Musk took SpaceX public in a record offering.",
+    "published": "2026-11-10T16:44:11+00:00",
+    "lede": "Treasury yields moved higher after hotter-than-expected CPI report.",
+    "lang": "en"
+   },
+   {
+    "title": "Here's the inflation breakdown for October 2026 — in one chart",
+    "url": "https://www.cnbc.com/2026/11/10/october-2026-cpi-inflation-breakdown.html",
+    "source": "CNBC",
+    "published": "2026-11-10T16:36:40+00:00",
+    "lede": "The consumer price index rose 0.4% in October, a reduction from September but a level economists said is still uncomfortably high.",
+    "lang": "en"
+   },
+   {
+    "title": "Anthropic's trillion-dollar IPO is coming, but retail investors could have owned AI stock much earlier",
+    "url": "https://www.cnbc.com/2026/11/10/anthropic-ipo-shares-invest.html",
+    "source": "CNBC",
+    "published": "2026-11-10T16:30:23+00:00",
+    "lede": "Anthropic is on target for an IPO that could value the AI company at over $1.4 trillion. Investors had multiple ways to buy the stock much earlier.",
+    "lang": "en"
+   },
+   {
+    "title": "Oil falls below $90 as Trump pulls back from threat to strike Iran",
+    "url": "https://www.ft.com/content/07bdb58c-4557-4def-b8cb-db9be304fd72?syn-25a6b1a6=1",
+    "source": "Financial Times",
+    "published": "2026-11-10T16:16:16+00:00",
+    "lede": "Falling crude prices have supported recovery in global stocks from last week’s sell-off",
+    "lang": "en"
+   },
+   {
+    "title": "Anthropic targets valuation of up to $1.4tn in stock market flotation",
+    "url": "https://www.theguardian.com/technology/2026/nov/10/anthropic-valuation-stock-market-flotation-ipo-wall-street-ai",
+    "source": "The Guardian",
+    "published": "2026-11-10T16:13:13+00:00",
+    "lede": "Claude chatbot developer had been reported to be aiming for $2tn IPO on Wall Street before investors cooled on AI Anthropic is seeking a valuation of up to $1.4tn (£1.05tn) in its imminent stock market flotation , short…",
     "lang": "en"
    },
    {
     "title": "Inquiry launched into UK budget bank tax leak; Wall Street hit by US inflation shock – business live",
     "url": "https://www.theguardian.com/business/live/2026/nov/10/nvidia-shareholder-lawsuit-jensen-huang-relationship-suspected-chinese-spy-fbi-trump-bank-of-england-latest-news-updates",
     "source": "The Guardian",
-    "published": "2026-11-10T15:41:22+00:00",
+    "published": "2026-11-10T16:07:51+00:00",
     "lede": "Rolling coverage of the latest economic and financial news, including live coverage of the Bank of England Watchers conference in London Young people in UK hit by ‘low-gear economy’, warns Bank of England deputy The AI…",
     "lang": "en"
    },
    {
-    "title": "Buy-Back of Securities",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPdGd1V2wxbkhNeXU3THhyZkYwTjhEZ3Q2eHdHT29vWC1HeTlCWUwwaFlfNnBYT1piNjRzdkV3RGtoclZpVDNBZzJpc0Eyc0VuZ1A4aEJJQjdYcWtRazNxLXprSVc3cVFOTUFIODcxZkVnT3J6NGlxcVpxLUFVdFB1RzZHc3RraHlBT1JJUkdOOVB2TVk?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-10T15:34:00+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "What Is Next For McDonald's Stock?",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOaTVZX3c2clJGeWdXQmxLeDJuWDBnRkNXNXJqd0lMeUY1ZzRjNDJ4TXg0cFhXU0hIdzJuUmNDekRYZHNGaWdVYmhJUERWTm4wRnNqcEhZMzdYSkZYSGl5WFpHLWdOTEFaS0xybWpRS21HTlVJOHZFVnRTMG01TW1EWm82Z0d5SlQ0bjNSQkd3?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-10T15:31:32+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "BC-Most Active Stocks",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQaGxZVFlIU1VLSVk3dGdzSXJHd3lST3ZMeDhPMThfUThEeGxGWWJmQTIxejdjSFFzQU9sWmRxbnZ5OWczVzdjamo1LXhNdTVFMFpDNXFLQlNZSXBhdllha2h1Q3R4RHBjcmZjNXRfZFoxSXMyN0JuUHhHOWlvSUtFc2E5dUVHUjBKVVJrN2doSQ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-10T15:30:19+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "ירידות בוול סטריט; אנבידיה שוב יורדת, איבדה 360 מיליארד דולר בשווי ביומיים",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562654#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-10T15:16:00+00:00",
-    "lede": "נאסד\"ק יורד ב-0.6% • מדד המחירים לצרכן בארה\"ב לחודש אוקטובר הציג עלייה חודשית של 0.4%, מעט מעל לציפיות הכלכלנים • באירופה נרשמות עליות שערים נאות בהובלת סקטור הטכנולוגיה • מניית גילת צוללת לאחר חיתוך בתחזית ההכנסות…",
-    "lang": "he"
-   },
-   {
-    "title": "Rivian CEO says new R2 SUV, autonomy make 2027 an ‘inflection year’ as EV maker marks five years since IPO",
-    "url": "https://www.cnbc.com/2026/11/10/rivian-r2-autonomy-2027-rj-scaringe.html",
-    "source": "CNBC",
-    "published": "2026-11-10T15:11:48+00:00",
-    "lede": "Rivian CEO RJ Scaringe says 2027 will be an “inflection year” as the EV maker scales R2 and invests in autonomy.",
-    "lang": "en"
-   },
-   {
-    "title": "Goldman Sachs expects Anthropic revenue to exceed $600bn by 2030",
-    "url": "https://www.ft.com/content/fd209548-d2df-470c-ab9a-caadbec08b58?syn-25a6b1a6=1",
+    "title": "Top Fed official considers largest rate rise since 2022",
+    "url": "https://www.ft.com/content/72abed21-6043-4b2b-81b1-f3a2547da5b7?syn-25a6b1a6=1",
     "source": "Financial Times",
-    "published": "2026-11-10T14:52:07+00:00",
-    "lede": "Wall Street bank projects AI start-up will increase sales by 130 times — and be cash flow positive — by end of the decade",
+    "published": "2026-11-10T16:03:45+00:00",
+    "lede": "Governor Christopher Waller says policymakers should weigh a 50bp move if US inflation fails to slow",
     "lang": "en"
    }
   ],
   "il": [
    {
-    "title": "לראשונה מאז חתימת העסקה - באלטשולר שחם מתחילים להפריד כוחות",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562794#utm_source=RSS",
+    "title": "עוד לפני ההקמה: החברה הישראלית שקיבלה הבטחות להשקעה בשווי 1.5 מיליארד דולר",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562799#utm_source=RSS",
     "source": "גלובס",
-    "published": "2026-11-10T15:37:00+00:00",
-    "lede": "קלי אימר סיני דוברת קבוצת אלטשולר שחם, הודיעה היום לעיתונאים על פיצול בטיפול התקשורתי של הקבוצה",
+    "published": "2026-11-10T16:30:00+00:00",
+    "lede": "לאחר החשיפה בגלובס כי מייסדי פאראגון, אהוד שניאורסון ועידן נוריק, מקימים חברה חדשה, כעת נחשפים המשקיעים בסבב הגיוס",
     "lang": "he"
    },
    {
-    "title": "הבורסה בתל אביב ננעלה בעליות חדות, בהובלת מניות הביטוח והבנקים",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562659#utm_source=RSS",
+    "title": "פאניקה באייפקס? זהבית כהן דורשת \"להפסיק מיידית\" עסקה של היורש שלה",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562846#utm_source=RSS",
     "source": "גלובס",
-    "published": "2026-11-10T15:30:00+00:00",
-    "lede": "מדד ת\"א 35 זינק בכ-2.2%, מדד ת\"א 90 קפץ בכ-1.6%",
+    "published": "2026-11-10T16:20:00+00:00",
+    "lede": "קרן ההשקעות אייפקס שמובילה כהן שלחה מכתבי התראה לארז נחום, סגנה לשעבר, וליתר המעורבים ברכישת רשת המרפאות הווטרינריות \"חברים\" — וטוענת כי \"יסודה בגזל סודות מסחריים\"",
+    "lang": "he"
+   },
+   {
+    "title": "ירידות בוול סטריט; אנבידיה שוב יורדת, איבדה כחצי טריליון דולר משוויה ביומיים",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562654#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-10T16:01:00+00:00",
+    "lede": "נאסד\"ק יורד ב-0.6% • מדד המחירים לצרכן בארה\"ב לחודש אוקטובר הציג עלייה חודשית של 0.4%, מעט מעל לציפיות הכלכלנים • תשואות האג\"ח בארה\"ב מזנקות",
+    "lang": "he"
+   },
+   {
+    "title": "האינפלציה בארה\"ב הפתיעה לרעה. האם היא תרחיק את הורדת הריבית בישראל?",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562858#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-10T15:59:00+00:00",
+    "lede": "מדד המחירים האמריקאי עלה מעבר לתחזיות וחיזק את ההערכות להעלאת ריבית נוספת בדצמבר",
     "lang": "he"
    },
    {
@@ -155,22 +171,6 @@
     "source": "וואלה",
     "published": "2026-11-10T15:14:00+00:00",
     "lede": "אליס הואנג, האישה שעומדת במרכז סערת הריגול סביב מנכ\"ל ענקית השבבים, בנתה קריירה פיננסית בסין לפני שהשתלטה על חברת ענן שנקשרה למשלוחי שבבים אסורים",
-    "lang": "he"
-   },
-   {
-    "title": "לאחר שאיבדה 98% מהשווי בשיא: תביעת הענק שמאיימת על אבן קיסר",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562762#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-10T14:34:00+00:00",
-    "lede": "יצרנית המשטחים מקיבוץ שדות ים, שמנייתה נחבטה בשנים האחרונות בשל החרפת התחרות, דחתה בשבוע שעבר את פרסום הדוחות לצורך דיונים הקשורים לפשרות משפטיות",
-    "lang": "he"
-   },
-   {
-    "title": "פרויקט הרוח הפיל את הרווח של אנרג'יקס, והמכירות לא הצילו את תורפז",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562748#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-10T14:22:00+00:00",
-    "lede": "גלובס מביא את הסיפורים של עונת הדוחות בבורסת ת\"א שאולי פספסתם",
     "lang": "he"
    },
    {
@@ -192,18 +192,18 @@
   ],
   "geo": [
    {
-    "title": "No signs of progress as U.S.-Russia-Ukraine talks get underway in Abu Dhabi, but Zelenskyy",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPS0FBdDVsTGpNTFhrMXd4amFHczlHMEdINnhILTZJXzZFcjNqaXJ6emhyZjJaLVJPdkFIcEtxVURnaVd5cnZzQ2FmaG5nazlOYlkwT1pRaGRNSWhpN0NHZVZtU1M0RkIybklHdDRwYlRqZHZmRmtCSm9RbUdFV1BlMnJ1M3U?oc=5",
-    "source": "CBS News",
-    "published": "2026-11-10T15:33:40+00:00",
+    "title": "Syria Weighs Sending Troops to Aid Saudi War With Houthis",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZ2F6bl84ZER6M2kweEZJcnk3X3M3emwwdHBtd1o5Zlh2WnRJQXZUSmxObUxFS3hvVW1kaExhZHMweDFuYzdpNFgxTGtUYzRUem1xX1dKV2JKMTI1WE1RYzUwSVFULTJETEhOaV9memI4M2FOTXEzbXBPcW1QN09YaktOR1hXeWhlejlaY28yTnFHTnpmOUV0OVQ2ZXo2eGtzSHRXU3BGUU1ybEVkdUZIR2gwRXg?oc=5",
+    "source": "The New York Times",
+    "published": "2026-11-10T16:43:59+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "‘Positive momentum’: Is the US war on Iran about to end?",
-    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQbkxDMlpGamhRLTVyZGpBdE1zQkRrOHZvLXlrb1ZSWXNMdUhVNDNmaWNzX0lKQm5ncC1ZM01VZm1yb210NW15eG5DVWlaaDBPTFhldXBDRlFJdFFmMElHZWZpekFRb3ByMExFZHNuZ21HOXQ2Tjh4X3V6WVEwLUtlV3ZWS2JQVUFKbm5ISFc2Y2VCVUpKanppczZR0gGfAUFVX3lxTE1fYjdrZmtKMkhWNnF0UnNYZVpXMTNydmRLNVA1VkxpMlVSTkxnX0pfQUxLNzFoTDlHeWhWdzJpYmFRcFcyakJNRzVraUdpT0VpTURSR0VwZ256bTNxZVhMX2k1S2FUVTRObWFlTU04X2piLVNqc0FYSG11a3FPdkhBU2R0QlBEYkhLcEVHajhBRjQxbDBtSWxqblpISHZ2OA?oc=5",
-    "source": "Al Jazeera",
-    "published": "2026-11-10T15:22:05+00:00",
+    "title": "Most Americans want new Democratic Congress to end Trump's Iran war, Reuters/Ipsos poll finds",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNNzd5Z2JCbEZwZWtzVERIdVpCMHZSa1lZdW5OdXVwbHozbW1rM3ByUTRyZFNyTThTOXFLUnViZWtDbHllZWFUYVZXeXhUd1E2YWdSeTZVakNuV3ozbHJqdkJkN2RNeVhvRW5XRXRSWUhmdUx0RVFsLUNXdmFoMUtzOENaMS1UbzYtY1A3SXJmNFUtWHZQOVdDVC1DWENfbUVEaUF4ZGhBTVR1NEplSTBTRnU5bDBibDlnaWhjTERn?oc=5",
+    "source": "Reuters",
+    "published": "2026-11-10T16:27:13+00:00",
     "lede": null,
     "lang": "en"
    }
