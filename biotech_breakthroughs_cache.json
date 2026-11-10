@@ -1,5 +1,5 @@
 {
- "fetched_at": "10.11.2026, 6:04",
+ "fetched_at": "10.11.2026, 6:34",
  "items": [
   {
    "title": "Bayer wins FDA approval for stroke prevention drug with blockbuster potential - Endpoints News",
@@ -95,6 +95,28 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPWHJCUkhIWXpORTZiYTc3dUdIdDkyVXJQc2EzODlZTWxkNmFJTUdrVURGcUpudHEwdWdjaFdZcXNMRjNZTTFndDliUnZ4NXpOZE5NWUFxNV9PMWtocVYycERIaEFLUnRDVS1NRGkwQURkU2tDOXBhNVg4VkRoYzFrUFVySnZ3b1dGRXJ4c0Y0MktBb2lFSGVHWXAyM25vNlpZUlUycGdpVzhoQ29WZjJOZ05B?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "After a 10-year gap, FDA approves new option for pretreated head and neck cancer - Managed Healthcare Executive",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOamFrWEk1V0FucGVQM29ZT0JXQ3huUEtpZ3k4U1FCX0RlR19oZHBWNXljR1JYSW9qa3owamo0Z0VtLTlkTjE0dHpsdHhOV2ZrN1dRZENTNHY1bVhpTjlLS1JSZ0xZdVo3WThEV0FVekNZUC1va3AxelpySUF5OFphUDJMLU1GMktTcXRoRGRQb2FtS0dGT1dtek5sdTZOa2puRDdUUzl3enI?oc=5",
+   "pub_ts": 1794262149.0,
+   "date": "10.11.2026, 0:09",
+   "cat": "fda",
+   "sev": 4,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOamFrWEk1V0FucGVQM29ZT0JXQ3huUEtpZ3k4U1FCX0RlR19oZHBWNXljR1JYSW9qa3owamo0Z0VtLTlkTjE0dHpsdHhOV2ZrN1dRZENTNHY1bVhpTjlLS1JSZ0xZdVo3WThEV0FVekNZUC1va3AxelpySUF5OFphUDJMLU1GMktTcXRoRGRQb2FtS0dGT1dtek5sdTZOa2puRDdUUzl3enI?oc=5"
+    },
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBacEdUNFlDVlZWMHFHTHlnYmQ5OXY0VEs5cXE2RlhwQ0hpYnRzVFB1QUpzSzN4X1dPQnlGakJhQjVwaU9GUVpmRU1ZNDlweWlScTVCRFZ5eHNVa2R2T0RuSWRCeWs?oc=5"
     }
    ],
    "ncts": []
@@ -644,24 +666,6 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQRGpWQTFDcGtPZnplaTJqeXBGRHI3bC1xUFhEQ0pMeG5BMlhPTUx0cnljZU0xWVZDNmFUWmVYWWpoazlvZ1lNV255OEFDN2szdWNHRHFXbk9tb1RFaFd4M2FWX0V4RzQ4bzJxQ3BvNTJiZy1xY3BJZWJHbUZyRTVEMDJmY1hEd0JnSkpGTVI0U2FUMVJGdEluMVN4TGs2eWJ5NmlWZ0Y0bVVKWTJPSGFsVGpGVXJ1VHpnTFY4ZmZCeXJ3RVJUUXMtZGIxNXF4SzczTXl5MW1mY0FzWHkxa1RhNGFsNkZ5QWZNRUc40gHwAUFVX3lxTE02UmVhR0FIOHhjM2p2aXBCVXAzajVWcmdyTWxhNjN3YzlpbDJQWmRXV19RcmpQTUlpcHd1SE9Gd21iTFJUTjFnYlg5ZnE0VWZkTkZER2RxSlQ0RUVHTlhuQ0hodVdyeEhkZTV0RFNySlB2TjM4OHRGOEM3d25TbzZHS2Y4b2ZjV3o1Sm9VektqcjJJNVBISHJiWVpRT3FLaW1kSHJ2Q2NoeXpqS3BfNzFQeWtmRTVoSG1ObGw1MnFiM3kwT0syT1g4UV9lNEozSGxUekJVcWkxQUVyUGNvczVwNGFhQ0Y5Rk5DOUg0VUVSTA?oc=5"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "After a Decade Without a New Option, FDA Approves Amivantamab for Head and Neck Cancer - Oncodaily",
-   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBacEdUNFlDVlZWMHFHTHlnYmQ5OXY0VEs5cXE2RlhwQ0hpYnRzVFB1QUpzSzN4X1dPQnlGakJhQjVwaU9GUVpmRU1ZNDlweWlScTVCRFZ5eHNVa2R2T0RuSWRCeWs?oc=5",
-   "pub_ts": 1793949010.0,
-   "date": "6.11.2026, 9:10",
-   "cat": "fda",
-   "sev": 4,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBacEdUNFlDVlZWMHFHTHlnYmQ5OXY0VEs5cXE2RlhwQ0hpYnRzVFB1QUpzSzN4X1dPQnlGakJhQjVwaU9GUVpmRU1ZNDlweWlScTVCRFZ5eHNVa2R2T0RuSWRCeWs?oc=5"
     }
    ],
    "ncts": []
