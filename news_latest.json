@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-10T21:01:08.936905+02:00",
+ "generated_at": "2026-11-10T22:01:41.075339+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -9,14 +9,6 @@
  },
  "sections": {
   "analysts": [
-   {
-    "title": "Semiconductor Stocks Will Split Into ‘Haves And Have-Nots,’ Raymond James Strategist Says",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPejNRRUlGeG1sRHB5bmFLQnBpOXNrWXBJQmdLNWRRNFRqMUFQcFRyWWhxLXFGeGpPN1dVbHNZdHg5SGdfTmhHSTNpeWFtSkJsNjhEeGpjLXFoSzRROFV4Q191YTdlcWREMnVQTi16ZnF0UTlHTkdqRHhoUjF4VXB4dG1pZkRZZ1gwUEFBLXZodzVHZ1VqcFNiS243bEY0X3BwVzloTA?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-10T15:59:01+00:00",
-    "lede": null,
-    "lang": "en"
-   },
    {
     "title": "WULF, HUT, CIFR Stocks Get Price Target Cuts From Jefferies: Here’s Why The Analyst Is Still Bullish On These AI Infra Firms",
     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQ0o0c0otMWRjT2hBSmEzVlh1NVRmWGZKWXQ2a2NBT3UyZ0xYNHloSFpXako2WTgwdHFWemduRE81U3NyVmpSUDEwR3liSXJGbnI0dW9QYWM0VDJMV3MwQnB5WklzU1pDcWwyVzhxendvOE4walVKaDE0aDZzS1pkUFBSRjR0czNFekQtUWxPTEV0Y29sVUE?oc=5",
@@ -42,97 +34,113 @@
     "lang": "en"
    },
    {
-    "title": "ירידות בוול סטריט; אנבידיה שוב יורדת, איבדה כחצי טריליון דולר משוויה ביומיים",
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1tUThWeG1XdWhIQnM0bjFnNzVkV1ZNYW5weEU0NUpFWjhlMndpc21iZkRQTTFramtyN3B1XzlwdzBBZVR1ZHpmNmRTdi02b2lZVjFiNjZxYXM1TUZ4dE0wNDVUTXRfTTRr?oc=5",
-    "source": "גלובס",
-    "published": "2026-11-10T04:52:04+00:00",
+    "title": "Watch Oil Market Starting to Price In a US-Iran Deal, Says Analyst Sen",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNQUQ1UFZwSnE3NXJwWVg4NDJPRW0tdFZVbmdYR20wR05ZYmRNdFJKendoV2ZWSFdISzN6QXE1UVBjS2h4TnU0ekRKTFI2NVlyTzJGNkJHUTFXMVVVdVZCczBoT0J3b1dGeUVPVzgtR252d1RCdXZ5SjgxZHh3Y0owb004UUtFTGlzb1hPdlp6VDk0WXpMMWROMVVKQVF2a3ZyWEFPSkhPRlo?oc=5",
+    "source": "Bloomberg.com",
+    "published": "2026-11-10T00:00:00+00:00",
     "lede": null,
-    "lang": "he"
+    "lang": "en"
+   },
+   {
+    "title": "CoreWeave May Benefit From Blue Wave’s Potential Data Center Slowdown, Analyst Says Ahead of Q3 Results",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdEpLdU5uU1gtajh2cGgxMU1RLURUMlZaTlV4ZWdDMDlFN0xvT1A3MUp3T3RXTTdGT1pKcVhPUk1zTXNNcjM2WnR5NUEzdWpadUlFOGp2MC1xb0I1a0wwWlJfdGdmSzN3SmU1ZVJOTkJWSTF4OWdHNEZMQlJUejltaTFpc1dJc1c2WS1fNUcyMGRuTVZqTDRCdTQ0aw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-10T18:36:44+00:00",
+    "lede": null,
+    "lang": "en"
    }
   ],
   "us": [
    {
-    "title": "OraSure Technologies (OSUR) Sees Activist Pressure Ease After Reaching Agreement with Altai Capital",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNQmJtVXkwVFFHWW1pNGtacEVIaE5WWTZvT1FMZ1RES2NHdjR5Vi1qUzZuOExuQzZqZC1Tc1ZfTTMyWU5qSFlrdUNOOGV4bVZwM3JLZWRWYnluSElBQ012TTRLcFF0ekJXOUVNUG9DUUZON1ZRNEN5bEpkR2tSWjBieTZtcE5DWDdxdlNUak9OMnZqM2NfNUZLaXFtcnlUbno0a1ZDZmRwdw?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-10T18:49:56+00:00",
-    "lede": null,
+    "title": "An overzealous Fed is quickly becoming the biggest risk to stocks in 2027",
+    "url": "https://www.marketwatch.com/story/an-overzealous-fed-is-quickly-becoming-the-biggest-risk-to-stocks-in-2027-ba28e51d?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-10T19:52:00+00:00",
+    "lede": "The Fed remains too sanguine on inflation, and markets too complacent, economist Neil Dutta warns.",
+    "lang": "en"
+   },
+   {
+    "title": "Traders bet on a pop for Anthropic's historic IPO",
+    "url": "https://www.cnbc.com/2026/11/10/traders-bet-on-a-pop-for-anthropics-historic-ipo.html",
+    "source": "CNBC",
+    "published": "2026-11-10T19:51:18+00:00",
+    "lede": "Perpetual futures traders see Anthropic popping on its IPO",
     "lang": "en"
    },
    {
     "title": "10-year Treasury yield races back to 5% as inflation data, Waller comments drive rate hike expectations",
     "url": "https://www.cnbc.com/2026/11/10/us-bonds-treasurys-yields.html",
     "source": "CNBC",
-    "published": "2026-11-10T18:48:55+00:00",
+    "published": "2026-11-10T19:51:08+00:00",
     "lede": "Treasury yields moved higher after a hotter-than-expected CPI report.",
     "lang": "en"
    },
    {
-    "title": "Nvidia in the hot seat, Anthropic to test the IPO market, hotter-than-expected US inflation",
-    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPTllNSTZkLUhsVlowdmR2d2taMkNhNzJJZmZlMWxURDNDLUFya0ZJMGFmbTVZdmkxd1UwR3Uyejd6aHlKQjAxejFsWTZVdXV2eS1VNlMzQk9RYW1vWS1fbFoweHo1UTBoOEtxQkQyWDl2aC1zU3Jpc25VOU91ZkdiaE9vT25VdE9UZHBTRmJGbnF4b2N6NGNXb2JoRTY3MWNrTXBvZHZuVDdjcEVJTlFyd1BmWFdldjh1ajI4Yk1vU2t5a1pQQjJoZlBwMUZVRGtHd3c?oc=5",
+    "title": "3 Ways to Protect Your Portfolio After the S&P 500's Worst Day Since April 2025",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPUF9md0pPak1ob3lFQXUtREI3ajJBR2xpc09pbEJFZzV2ZjVxcWVTeXR6Vjd4ME9JY3dIVUdPcmxQWlJhNWY1czdkNnBuZnNySjA4Y0pSaUcxRkIyZlRicjRPdDRBXzRLOXZEQkdGdXp3dGhLaER1YnRVa3FlSk5FT0RxUmQ2eE11QWdONHNfS2d0R1Iyd3c?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-10T18:46:26+00:00",
+    "published": "2026-11-10T19:50:00+00:00",
     "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "CME Group (CME) Delivers Resilient Performance Amid Competition",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZ0JXT0ZlakJXMndHNXVLeG5QVXlaLXl2cVpueTRxV01kTGtEV01vSWVKc080WDVYY1Y4dzc5ajBrRWdyZnFRSWFqSUNOb29KRktyS3dHN19SaFJZZHBTeG9JaGI0cjlRNFhtMDFHb0tLN1NzWlRMOS0yVEpydDhpelVYQjlnUXhKN2FENElDc3hyYWlCcW1wYVFNWERNNkU?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-10T18:45:12+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Even Wall Street’s lone Nvidia bear says forcing out CEO Jensen Huang ‘would be a mistake for everyone’",
-    "url": "https://www.marketwatch.com/story/wall-streets-only-nvidia-bear-says-forcing-out-ceo-jensen-huang-would-be-a-mistake-for-everyone-78043738?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-10T18:16:00+00:00",
-    "lede": "Nvidia’s board is investigating CEO Jensen Huang over his relationship with an alleged spy.",
-    "lang": "en"
-   },
-   {
-    "title": "Alphabet shares appear to have bottomed. How to play it for a quick rebound",
-    "url": "https://www.cnbc.com/2026/11/10/alphabet-shares-appear-to-have-bottomed-how-to-play-it-for-a-quick-rebound.html",
-    "source": "CNBC",
-    "published": "2026-11-10T18:15:24+00:00",
-    "lede": "After a brutal sell-off, Alphabet appears to be showing signs of a floor. Here's how to trade it with options",
-    "lang": "en"
-   },
-   {
-    "title": "Credit card debt climbs to a record $1.29 trillion, New York Fed research finds",
-    "url": "https://www.cnbc.com/2026/11/10/credit-card-debt-record.html",
-    "source": "CNBC",
-    "published": "2026-11-10T18:08:40+00:00",
-    "lede": "As high prices continue to strain household budgets, many consumers have turned to credit cards to help make ends meet.",
-    "lang": "en"
-   },
-   {
-    "title": "Claude chatbot maker set for $1.3tn stock market debut despite 'catastrophic' AI warning",
-    "url": "https://www.bbc.co.uk/news/articles/crpdgd723x2zo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC",
-    "published": "2026-11-10T17:56:12+00:00",
-    "lede": "The AI company behind the Claude chatbot will offer its shares at between $70 and $78, which is lower than what was expected.",
-    "lang": "en"
-   },
-   {
-    "title": "Britain willing to discuss paying into EU to join electricity market, says minister",
-    "url": "https://www.theguardian.com/politics/2026/nov/10/britain-eu-electricity-market-cohesion-fund-hamish-falconer",
-    "source": "The Guardian",
-    "published": "2026-11-10T17:52:07+00:00",
-    "lede": "Hamish Falconer says UK has ‘not accepted principle’ of linking electricity trade to ‘cohesion fund’ but two sides will discuss issue Britain is willing to discuss paying towards infrastructure schemes in poorer parts…",
     "lang": "en"
    },
    {
     "title": "Anthropic officially sets the stage for an IPO valuing the company north of $1 trillion",
     "url": "https://www.marketwatch.com/story/anthropic-reportedly-retracts-ipo-terms-sent-to-banks-by-mistake-exposing-jitters-over-ai-investments-6116578d?mod=mw_rss_topstories",
     "source": "MarketWatch",
-    "published": "2026-11-10T17:33:00+00:00",
+    "published": "2026-11-10T19:47:00+00:00",
     "lede": "Anthropic could raise up to $63 billion in an IPO expected to take place next week.",
+    "lang": "en"
+   },
+   {
+    "title": "5 Best Tech Stocks That Pay Dividends",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPaE9ISDdYaVFhVm5STWVENF8yR3pNM2daYWlfa2QxaGZqbHZ5SThpWW94a2xfR1l4NmhsdTJ0TFJmUmVMdG1KUm5HZ0E2SGprMnFNSTRrYUJ2T1ZwUEFPcFpRVUZwOENPdEVQYWdOT2ZVZGxXUWxnTnVqal9LdExoUFFaSm9SdkZBY09TcERWYWs?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-10T19:41:42+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Grab Holdings Stocks Fall 3.20% After $750 Million Bet on Malaysian AI Data Centers",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNVp4MDZUNENnaG9KYmNPbDgwY3ZUSWJBeXhFU1VRUVVFZVR1NEtQMmZZXzV5czRfS1IyZDBYdXpvVVlIQXNHU1Jlblg4d09HOEVKX05KWXhsbWlWT1dWcG1IRWtaV2pyeUlTS1lDdTV2VllCbExiNXdGRGlnZTZQMVlwVFZOSWF0dUkzZnVtdUpmX3VLT0ZZ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-10T19:35:26+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Homeowners tap equity as HELOC balances post biggest jump since 2005: New York Fed report",
+    "url": "https://www.cnbc.com/2026/11/10/heloc-balances-new-york-fed.html",
+    "source": "CNBC",
+    "published": "2026-11-10T19:30:12+00:00",
+    "lede": "The rise in balances on HELOCs marks the 18th consecutive quarterly increase, according to a new report from the Federal Reserve Bank of New York.",
+    "lang": "en"
+   },
+   {
+    "title": "Falkland Islanders face ‘devastating consequences’ if Argentina blocks oil project, says UK",
+    "url": "https://www.theguardian.com/world/2026/nov/10/uk-and-argentina-clash-over-falklands-oil-project-as-hamburg-tribunal-starts",
+    "source": "The Guardian",
+    "published": "2026-11-10T19:01:33+00:00",
+    "lede": "Countries clash over Sea Lion project as Hamburg tribunal risks deepening sovereignty dispute The people of the Falkland Islands face “devastating consequences” if Argentina is successful in blocking development of its…",
+    "lang": "en"
+   },
+   {
+    "title": "Treasuries slide as ‘hot’ inflation sparks bets on Fed rate rise",
+    "url": "https://www.ft.com/content/8b564134-dea6-4272-8ede-e0b12ef5aebd?syn-25a6b1a6=1",
+    "source": "Financial Times",
+    "published": "2026-11-10T18:53:50+00:00",
+    "lede": "Two-year government bond yields soar most since 2024 as October consumer price growth tops forecasts",
     "lang": "en"
    }
   ],
   "il": [
+   {
+    "title": "ירידות בוול סטריט; אנבידיה יורדת ב-6%, מיקרוסופט ב-2%",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562654#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-10T19:49:00+00:00",
+    "lede": "נאסד\"ק יורד ב-1% • מדד המחירים לצרכן בארה\"ב לחודש אוקטובר הציג עלייה חודשית של 0.4%, מעט מעל לציפיות הכלכלנים • מנית אנבידיה נסחרת כעת במכפיל רווח עתידי של 11.5, הכי נמוך מזה 15 שנה • תשואות האג\"ח בארה\"ב מזנקות",
+    "lang": "he"
+   },
    {
     "title": "בלי ישראלים, עם \"דוכן פלסטין\" וחיבוק לסין - כנס ההייטק בפורטוגל שמחולל סערה",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001562899#utm_source=RSS",
@@ -147,14 +155,6 @@
     "source": "גלובס",
     "published": "2026-11-10T17:59:00+00:00",
     "lede": "הבורסה בתל אביב מסכמת רבעון חזק נוסף: ההכנסות ברבעון השלישי עלו ב-19% והרווח הנקי זינק ב-37%",
-    "lang": "he"
-   },
-   {
-    "title": "הפרדוקס של דום הנשימה: מדוע הטיפול גורם לחלק מהמטופלים להעלות משקל?",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562790#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-10T17:34:00+00:00",
-    "lede": "חוקרים מאוניברסיטת בן גוריון גילו כי החנק הלילי מותיר בגוף \"זיכרון מטבולי\" ושינויים הורמונליים - גם לאחר שהוא נרפא",
     "lang": "he"
    },
    {
@@ -192,18 +192,18 @@
   ],
   "geo": [
    {
-    "title": "Russia and Ukraine hold nearly 4 hours of US-mediated talks in Abu Dhabi",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQWFsNkFITi02Z1V3NGtpMndYU1JJZ1RKOUNYWW9tbWJvcHRpdDAwNGJzQlg1bURIS2pzMXA0UWRNRF9WY25QM1ppRTR0T1lqRzNRSTlzanQyeUY2WC1uOFJWQ3Mwd3pyMVFQcl8zTkZZeERfSTJQQ0g4WXFlWmpvdlI5RzNFeDNnVUUtdnZsVURBN2JPMmpYSEJUa2pXOWM?oc=5",
-    "source": "AP News",
-    "published": "2026-11-10T18:23:00+00:00",
+    "title": "Rubio Says ‘Major Combat Operations’ in Iran Are No Longer Needed",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBrQUZIQWJmVUlLaWdNbHdtam9DM0o4SnNjNEhDYXdDcEJJTXBwbVQybkZhTEttb1hUYVczU0dvMHdSNnhEUFl5RDIzQ2kzM3RkSG5GQk9ZNkJ1Q0RiQ1NDNVlNN3YzODBzYS1GMGZLOUZVdWg0?oc=5",
+    "source": "The New York Times",
+    "published": "2026-11-10T19:33:48+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Call it tough love, with the love removed: it’s Kemi’s war on benefits claimants",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQeWJVNEg1anJGcUdPWkR3UE83MmE4ZkpvNzZRaUQ0d0VSbUdaZkxqS0pubGhQa3FNbGdTU2djc1Rpcy1zeU12YmJIWHVRYWxpLV90WHNHTE1sczNxa3FzdzYyeU1ZelpXcVgyYmdSN1ZjQ2RlTUNZOC1iVnpDSmE2Y28yQ0NMQi1ic3ptbTZCY0daRkJNY1F5VVdqZEQteHMtSGc?oc=5",
+    "title": "Hegseth lays it on thick for Trump to shave off fallout from Iran war",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPVW1RdWsweVdxekFfNjlZcFVKTElyR1BwNEpIeXIzMWJlQ25DTTRjSVVMeF9OT0J3TjRQUlgxMkU3VFlBWm1PWUV1Q3pRV0pxZVJpa2ZlN3c1b2hPclpVRjNJLVp4eTFjQWh1bm5XZURudWxZVWtjUFgtb3BiQ0Itc2UtdWhmWjg0cWpteWpMRE1HdEk?oc=5",
     "source": "The Guardian",
-    "published": "2026-11-10T17:54:00+00:00",
+    "published": "2026-11-10T19:33:00+00:00",
     "lede": null,
     "lang": "en"
    }

@@ -1,6 +1,24 @@
 {
- "fetched_at": "10.11.2026, 21:34",
+ "fetched_at": "10.11.2026, 22:04",
  "items": [
+  {
+   "title": "FDA Approves Pimicotinib for Tenosynovial Giant Cell Tumors - Oncology News Central",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVF9hZmdOR2RQRWV0RDk4Rmg3cW9OeWNnMGx6ZFI2N0QzaXVPaG5GSmdObFBMdzY3UjJBcm5rWjZoSW5yWmtJTW85eEJPX25pX0c1R3lheEpXcFpmaTFCek1LWW9JLU1JbjdEYWtPa3BqbGVmT3RIOW9EenlGaGR6clZzRVBna2VrWnA0QzJBYnNuQzIySExDcHBoR3FKWlY5VExWZE1zTDFpUQ?oc=5",
+   "pub_ts": 1794339939.0,
+   "date": "10.11.2026, 21:45",
+   "cat": "fda",
+   "sev": 4,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVF9hZmdOR2RQRWV0RDk4Rmg3cW9OeWNnMGx6ZFI2N0QzaXVPaG5GSmdObFBMdzY3UjJBcm5rWjZoSW5yWmtJTW85eEJPX25pX0c1R3lheEpXcFpmaTFCek1LWW9JLU1JbjdEYWtPa3BqbGVmT3RIOW9EenlGaGR6clZzRVBna2VrWnA0QzJBYnNuQzIySExDcHBoR3FKWlY5VExWZE1zTDFpUQ?oc=5"
+    }
+   ],
+   "ncts": []
+  },
   {
    "title": "Mirum Pharmaceuticals (MIRM) Reports Positive Phase 3 Brelovitug Data - Simply Wall St",
    "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQcTVEcmYxVDNSdTNhaXRjYWlwU0RkT1A4UlBYQzV1WnItWGFWREZraXUyRzdxM2VNLXFpT1J2MXhKdmNvZUlXYWN3ejNJdXhzOUZ2Q1A5YThMTHpYb3gyc20zYUF3dkRVc05WN0hrMVQ2SlJyZHRXMnJuQ2h6QzJDTTAtNmhBVTZqTkxPN0RLMjNvOHd0bVIyOHRjS0ZvSnhhOHRQY2pYVFlHeHV1VEhubUpTeHJ6REdqUkczVm11V2tLY3ZKX3JCUlZobFFVd1ZxYUdPaEVxVU05b2d0MWFDT05SR09NM0tNRmd30gHwAUFVX3lxTE5wUkNJR2E4VzFtYmlwR0xTYWlmbFdhUVQ3VHFuR1VfRlg0OGtNYzBuS0gtYXhkbXJrMGpHOVhjNUNUS0hfTmN3N2FScS1sd01CQ1ZINlFTVnhsMVhZU3NLS0pjQnMtaEg0TjUtLWxoR194TDFBcTJ6QlF2cExzWGZvTWE3ZmFtRmdFUU9jTWxEaVlEYjdaeXVqazFwWHRTam9Db0VzMGpGeDdwZHlLMzE5X215Y0lNY1BGZk1heEZVdHNxby1MaUZydXpmMUdrTm5KS1hlZ0NDWXhNc0xqVDE3NGc0bFV6aGFsd2Q1ZVBFSQ?oc=5",
@@ -1821,26 +1839,6 @@
    "ncts": []
   },
   {
-   "title": "Recon: FDA approves treatments for prostate cancer, Crohn’s disease; US judge refuses to halt Lilly weight-loss drug ads - RAPS",
-   "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPbEpLRXo5NkpWczVpNW9pWjZ1RzZoZXZBd1ROakxuOXdJNm11VkQtTkxfclJDT1RiamhBWG9HeENENUFyeE95Qnc2YkNoWXJIQ1B5TTZ4cHJ5eDhLVTItd2J6SFVKOWdxd2JTMVJRY0RueDJaa180bFREdVVVZkdLWVRKQ1YzWGh4UXdLTkJqTE03RVVGSmR4NWNfNlpXNVNtTVlGOWhpVjN1R3UzREdmdmpVcEZuTlRUTC1xbTZOTGFZaHFSLTlSSThMY0xQWjg2WTRZNHlVelNRV0ZpaVdubEI1MXdTdFU?oc=5",
-   "pub_ts": 1793130840.0,
-   "date": "27.10.2026, 21:54",
-   "cat": "fda",
-   "sev": 4,
-   "dir": 1,
-   "tickers": [],
-   "companies": [
-    "LLY"
-   ],
-   "sources": [
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPbEpLRXo5NkpWczVpNW9pWjZ1RzZoZXZBd1ROakxuOXdJNm11VkQtTkxfclJDT1RiamhBWG9HeENENUFyeE95Qnc2YkNoWXJIQ1B5TTZ4cHJ5eDhLVTItd2J6SFVKOWdxd2JTMVJRY0RueDJaa180bFREdVVVZkdLWVRKQ1YzWGh4UXdLTkJqTE03RVVGSmR4NWNfNlpXNVNtTVlGOWhpVjN1R3UzREdmdmpVcEZuTlRUTC1xbTZOTGFZaHFSLTlSSThMY0xQWjg2WTRZNHlVelNRV0ZpaVdubEI1MXdTdFU?oc=5"
-    }
-   ],
-   "ncts": []
-  },
-  {
    "title": "Ocugen Secures Gene Therapy Licenses Ahead of Phase 3 Results - MyChesCo",
    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZmFtWXdwN3diWDBRUTFDN21LRHFhYWJoclQzYms5bTY0Wjg2cURsUFNaUWE3Z0lXWFBza2Q3T3ctX3Y1ellRMDVyOVJsTFpRMTdGajY0X25Idjc3dGRCbWlUSmxOTnpCYnNDV09JNGJiM3NOTUwzNTNUM0NHTzJKM2tObnhsWVpuWlpKSHA0cXVEcEFTRmZzWjJZZWo0Q0VZQ0ZQUmNCT2p6ODhTaUZQOEFBQjZRQzE3UkNSTA?oc=5",
    "pub_ts": 1794336975.0,
@@ -2868,10 +2866,10 @@
    "ncts": []
   },
   {
-   "title": "PepGen stock soars over 100% on positive Phase 2 trial data for DM1 drug - Investing.com",
-   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOMUJ1d2MzUHlSWjhiZ0tkRkVmNTVhX1IwYnczU2Q1aFM3anZ4R2U1bktGMFBsOGZwZ2J0NUFWcXVyTVp1VC1tR3U1SmMwLW5QVDJISGhGZWFPS3FGQVZlckRYNkNhN2pXTXZVWVBFLW93WUR6Y1R4R0VOazlKUXEzdlZhbWNlbEpubmYyTW1HRkVHOUFRY0xoakVQYWd4OXpIaHduQUNGdXhYbFJxNUg4RGpBc1ljblVWeUltQ0tPSjJuR056UDNR?oc=5",
-   "pub_ts": 1794317982.0,
-   "date": "10.11.2026, 15:39",
+   "title": "PepGen stock soars over 100% on positive Phase 2 trial data for DM1 drug - StreetInsider",
+   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQd1hQMGl2WlRSLWNTNmNaV1lsQTJES2ZicTJmOEI2MDJ0dkI2NGpHaHQwY3c5VEtpUUd3Q3hJQjQ3VzR2STItbi1KcHRjZmlKcUxWTmdYM1FYOEhCVVU3RWt5QTF2bDBXTXF3OWtUYkJOWlc3bDVXaUxrVFhkQmRLWUpmZk1icUkxNkZJZWhuZlBiSFhyY3VjRFpaTS1xQUpEQV9QaGZfTjNKSWpISEpWaWd5SjNpay1lclVPNkVrbGdEM3VIR1M4?oc=5",
+   "pub_ts": 1794318293.0,
+   "date": "10.11.2026, 15:44",
    "cat": "phase2",
    "sev": 2,
    "dir": 1,
@@ -2883,6 +2881,10 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOQlFnTHU0d0gyazl3eGdLOWRCYXBBUnp4WFd5NWk1VUxvM0d2MU1neS1IaTNoYmx0ZDBNcVM0Y2xLc3B4ZnR3cjE0Y1dVbkdkZGFMbEc1U2l5SHBuNS1WWjBBN1JSWXNrNGtwNkxNUkRRTTdRNXJPbmkzVnl2S2hMTkFNeGRhWXZ4YVBFbjdIcHpyUkdUUzI4?oc=5"
+    },
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQd1hQMGl2WlRSLWNTNmNaV1lsQTJES2ZicTJmOEI2MDJ0dkI2NGpHaHQwY3c5VEtpUUd3Q3hJQjQ3VzR2STItbi1KcHRjZmlKcUxWTmdYM1FYOEhCVVU3RWt5QTF2bDBXTXF3OWtUYkJOWlc3bDVXaUxrVFhkQmRLWUpmZk1icUkxNkZJZWhuZlBiSFhyY3VjRFpaTS1xQUpEQV9QaGZfTjNKSWpISEpWaWd5SjNpay1lclVPNkVrbGdEM3VIR1M4?oc=5"
     },
     {
      "source": "Google News",
