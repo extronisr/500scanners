@@ -154,7 +154,7 @@ def market_health_section():
 
 
 # ---------------------------------------------------------------- dip scanner
-def spark_closes(symbols):
+def spark_closes(symbols, with_meta=False):
     """Yahoo spark endpoint: up to ~20 symbols per call. Returns
     {symbol: [closes]}. NOTE: spark quote carries no volume series,
     so volumes are fetched separately (v8 chart) for shortlisted tickers.
@@ -177,7 +177,11 @@ def spark_closes(symbols):
                 q = item["response"][0]["indicators"]["quote"][0]
                 closes = [float(c) for c in (q.get("close") or []) if c is not None]
                 if closes:
-                    out[sym] = closes
+                    if with_meta:
+                        meta = item["response"][0].get("meta") or {}
+                        out[sym] = (closes, meta)
+                    else:
+                        out[sym] = closes
             except Exception:
                 continue
         if i + 20 < len(symbols):
@@ -986,38 +990,88 @@ FX_SYMBOLS = [("USDILS=X", "דולר/שקל", 3), ("EURILS=X", "יורו/שקל"
               ("GC=F", "זהב/דולר", 0), ("BTC-USD", "ביטקוין/דולר", 0)]
 
 
-def fx_quotes():
-    """USD/ILS, EUR/ILS, gold and bitcoin latest rates with Yahoo quote timestamps.
-    FX rates are shekels per one dollar/euro; gold is the COMEX front-month
-    future in USD per troy ounce (GC=F - futures, not spot); BTC in USD.
-    Changes are vs previous daily closes."""
-    out = []
-    params = urllib.parse.urlencode(
-        {"symbols": ",".join(s for s, _, _ in FX_SYMBOLS), "range": "1y", "interval": "1d"})
-    url = "https://query1.finance.yahoo.com/v7/finance/spark?" + params
+def _v8_chart(symbol, range_value="5d", interval="1d", prepost=False):
+    """One Yahoo v8 chart payload, or None on failure."""
+    url = ("https://query1.finance.yahoo.com/v8/finance/chart/"
+           + urllib.parse.quote(symbol, safe="")
+           + f"?range={range_value}&interval={interval}"
+           + ("&includePrePost=true" if prepost else ""))
     try:
-        data = http_get_json(url, timeout=30)
+        return http_get_json(url, timeout=10, retries=1)
     except Exception as e:
-        fail("overview", f"fx spark failed: {e}")
-        return out
-    res = {i.get("symbol"): i for i in data.get("spark", {}).get("result", [])}
+        fail("overview", f"v8 chart {symbol}: {e}")
+        return None
+
+
+def fx_quotes():
+    """USD/ILS, EUR/ILS, gold and bitcoin latest quotes with each value's own
+    source timestamp (Yahoo v8 chart meta). FX rates are shekels per one
+    dollar/euro; gold is the COMEX front-month future in USD per troy ounce
+    (GC=F - futures, not spot); BTC in USD. The price is the source's latest
+    quote; day/3-day changes are vs previous daily closes."""
+    out = []
     for sym, name, dec in FX_SYMBOLS:
-        item = res.get(sym)
-        if not item:
+        payload = _v8_chart(sym, "5d", "1d")
+        if not payload:
             continue
         try:
-            resp = item["response"][0]
-            q = resp["indicators"]["quote"][0]
-            closes = [float(c) for c in (q.get("close") or []) if c is not None]
-            ts = (resp.get("meta") or {}).get("regularMarketTime")
+            res = payload["chart"]["result"][0]
+            meta = res.get("meta") or {}
+            closes = [float(c) for c in (res["indicators"]["quote"][0].get("close") or [])
+                      if c is not None]
+            price = meta.get("regularMarketPrice")
+            if price is None and closes:
+                price = closes[-1]
+            ts = meta.get("regularMarketTime")
         except Exception:
             continue
-        if len(closes) < 2 or not closes[-2]:
+        if price is None or len(closes) < 2 or not closes[-2]:
             continue
-        day = (closes[-1] / closes[-2] - 1.0) * 100.0
-        pct3 = (closes[-1] / closes[-4] - 1.0) * 100.0 if len(closes) >= 4 and closes[-4] else None
-        out.append({"sym": sym, "name": name, "rate": closes[-1], "dec": dec,
+        price = float(price)
+        day = (price / closes[-2] - 1.0) * 100.0
+        pct3 = (price / closes[-4] - 1.0) * 100.0 if len(closes) >= 4 and closes[-4] else None
+        out.append({"sym": sym, "name": name, "rate": price, "dec": dec,
                     "day_pct": day, "pct3": pct3, "ts": ts})
+        time.sleep(0.2)
+    return out
+
+
+def extended_quotes(symbols):
+    """Extended-hours (pre/post) quotes for the sector/theme ETFs, from Yahoo's
+    v8 chart with includePrePost=true. An entry is returned only when the
+    latest 1-minute candle sits outside today's regular session, i.e. there is
+    a real extended-hours tick: pre-market -> change vs the previous close,
+    post-market -> change vs today's regular close. Each entry carries its own
+    quote time; nothing is derived when no extended ticks exist."""
+    out = {}
+    for sym in symbols:
+        payload = _v8_chart(sym, "1d", "1m", prepost=True)
+        if not payload:
+            continue
+        try:
+            res = payload["chart"]["result"][0]
+            meta = res.get("meta") or {}
+            tss = res.get("timestamp") or []
+            closes = res["indicators"]["quote"][0].get("close") or []
+            pts = [(int(t), float(c)) for t, c in zip(tss, closes) if c is not None]
+            prev = meta.get("chartPreviousClose") or meta.get("previousClose")
+            reg = (meta.get("currentTradingPeriod") or {}).get("regular") or {}
+            r_start, r_end = reg.get("start"), reg.get("end")
+            if not pts or not prev or r_start is None or r_end is None:
+                continue
+            if r_start <= pts[-1][0] < r_end:
+                continue  # regular session live - no extended indication needed
+            reg_closes = [c for t, c in pts if r_start <= t < r_end]
+            base = reg_closes[-1] if reg_closes else float(prev)
+            if not base:
+                continue
+            t_ext, p_ext = pts[-1]
+            out[sym] = {"price": p_ext, "pct": (p_ext / base - 1.0) * 100.0,
+                        "ts": t_ext,
+                        "session": "post" if t_ext >= r_end else "pre"}
+        except Exception as e:
+            fail("overview", f"extended {sym}: {e}")
+        time.sleep(0.2)
     return out
 
 
@@ -1025,14 +1079,14 @@ def market_overview_section():
     """Indices, sector heatmap and the 3-trading-day card. One spark batch (20 symbols)."""
     syms = ([s for s, _ in INDEX_SYMBOLS] + [s for s, _ in SECTOR_SYMBOLS]
             + [s for s, _ in EXTRA_ETF_ROWS] + [s for s, _, _, _ in CHANGE3_SYMBOLS])
-    data = spark_closes(syms)
+    data = spark_closes(syms, with_meta=True)
     if not data:
         fail("overview", "spark batch failed for market overview")
         return None
     out = {"indices": [], "sectors": [], "change3": [], "smh": None, "extra_rows": [],
            "fx": []}
     for sym, name in INDEX_SYMBOLS:
-        cl = data.get(sym)
+        cl, meta = data.get(sym) or ([], {})
         if not cl or len(cl) < 60:
             continue
         sma50 = sum(cl[-50:]) / 50.0
@@ -1042,16 +1096,16 @@ def market_overview_section():
             "day_pct": (cl[-1] / cl[-2] - 1.0) * 100.0 if len(cl) >= 2 and cl[-2] else None,
             "above50": cl[-1] >= sma50,
             "above200": (cl[-1] >= sma200) if sma200 else None,
-            "spark": cl[-20:]})
+            "spark": cl[-20:], "ts": (meta or {}).get("regularMarketTime")})
     def _chg3(sym):
-        cl = data.get(sym)
+        cl = (data.get(sym) or ([], {}))[0]
         if not cl or len(cl) < 4:
             return None, None
         abs3 = cl[-1] - cl[-4]
         pct3 = (cl[-1] / cl[-4] - 1.0) * 100.0 if cl[-4] else None
         return abs3, pct3
     for sym, name in SECTOR_SYMBOLS + EXTRA_ETF_ROWS:
-        cl = data.get(sym)
+        cl = (data.get(sym) or ([], {}))[0]
         if not cl or len(cl) < 4:
             continue
         day = (cl[-1] / cl[-2] - 1.0) * 100.0 if cl[-2] else None
@@ -1070,6 +1124,12 @@ def market_overview_section():
         out["change3"].append({"sym": sym, "name": name, "unit": unit,
                                "abs3": abs3, "pct3": pct3 if show_pct else None})
     out["fx"] = fx_quotes()
+    ext = extended_quotes([s for s, _ in SECTOR_SYMBOLS + EXTRA_ETF_ROWS])
+    for row in out["sectors"] + out["extra_rows"]:
+        e = ext.get(row["sym"])
+        if e:
+            row["ext_pct"], row["ext_ts"], row["ext_session"] = \
+                e["pct"], e["ts"], e["session"]
     if not out["indices"] and not out["sectors"]:
         return None
     return out
@@ -2066,9 +2126,16 @@ def build_html(mh, dips, alerts, bo, updated, extra=None):
                 chg_html = f' <span class="{cls}" dir="ltr">{spx_chg:+.2f}%</span>'
             else:
                 chg_html = ""
+            spx_asof = "סגירה רשמית אחרונה"
+            for _ix in ((extra or {}).get("overview") or {}).get("indices", []):
+                if _ix.get("sym") == "^GSPC" and _ix.get("ts"):
+                    _d = datetime.fromtimestamp(_ix["ts"], timezone.utc).astimezone(JER)
+                    _rd = updated.astimezone(JER).date() if updated.tzinfo else updated.date()
+                    spx_asof = (f"נכון ל־{_d.hour}:{_d.minute:02d}" if _d.date() == _rd
+                                else f"סגירה {_d.day}.{_d.month}")
             parts.append(
                 f'<div class="chk spxrow"><span class="dot pass"></span>'
-                f'<div class="ct"><b>S&P 500</b><span>ערך המדד כעת</span></div>'
+                f'<div class="ct"><b>S&P 500</b><span>{esc(spx_asof)}</span></div>'
                 f'<div class="v"><span dir="ltr">{spx:,.0f}</span>{chg_html}</div></div>')
         for c in mh["checks"]:
             parts.append(
@@ -2102,12 +2169,17 @@ def build_html(mh, dips, alerts, bo, updated, extra=None):
         if ov.get("fx"):
             parts.append('<h3 class="sec">שערי חליפין, זהב וביטקוין</h3>')
             parts.append('<div class="chg3 fx">')
+            run_d_fx = updated.astimezone(JER).date() if updated.tzinfo else updated.date()
             for f in ov["fx"]:
                 bits = []
                 if f["day_pct"] is not None:
                     bits.append("יום: " + pct2(f["day_pct"]))
                 if f["pct3"] is not None:
                     bits.append("3 ימים: " + pct2(f["pct3"]))
+                if f.get("ts"):
+                    _d = datetime.fromtimestamp(f["ts"], timezone.utc).astimezone(JER)
+                    bits.append("ציטוט " + (f"{_d.hour}:{_d.minute:02d}" if _d.date() == run_d_fx
+                                            else f"{_d.day}.{_d.month}, {_d.hour}:{_d.minute:02d}"))
                 parts.append(
                     f"<div><span>{esc(f['name'])}</span>"
                     f'<b dir="ltr">{f["rate"]:,.{f.get("dec", 3)}f}</b>'
@@ -2129,26 +2201,41 @@ def build_html(mh, dips, alerts, bo, updated, extra=None):
         if ov["sectors"]:
             parts.append('<h3 class="sec">מפת המגזרים · יום אחרון (ושינוי ב-3 ימי מסחר)</h3>')
             parts.append('<div class="hmap">')
+            run_d_h = updated.astimezone(JER).date() if updated.tzinfo else updated.date()
             for s in ov["sectors"]:
                 d1 = s["day_pct"] or 0.0
                 inten = min(abs(d1) / 3.0, 1.0)
                 cls = "pos" if d1 >= 0 else "neg"
                 p3 = pct2(s["pct3"]) if s["pct3"] is not None else ""
+                ext_line = ""
+                if s.get("ext_pct") is not None and s.get("ext_ts"):
+                    _d = datetime.fromtimestamp(s["ext_ts"], timezone.utc).astimezone(JER)
+                    _when = (f"{_d.hour}:{_d.minute:02d}" if _d.date() == run_d_h
+                             else f"{_d.day}.{_d.month}, {_d.hour}:{_d.minute:02d}")
+                    _lbl = "מסחר מוקדם" if s.get("ext_session") == "pre" else "מסחר מורחב"
+                    ext_line = f"<small>{_lbl}: {s['ext_pct']:+.2f}% · {_when}</small>"
                 parts.append(
                     f'<div class="tile {cls}" style="--i:{inten:.2f}">'
                     f'<span><b>{esc(s["sym"])}</b> · {esc(s["name"])}</span>'
                     f'<b dir="ltr">{d1:+.2f}%</b>'
-                    f"<small>3 ימים: {p3}</small></div>")
+                    f"<small>3 ימים: {p3}</small>{ext_line}</div>")
             parts.append("</div>")
             for xr in ov.get("extra_rows") or []:
                 if xr["day_pct"] is None:
                     continue
+                xr_ext = ""
+                if xr.get("ext_pct") is not None and xr.get("ext_ts"):
+                    _d = datetime.fromtimestamp(xr["ext_ts"], timezone.utc).astimezone(JER)
+                    _when = (f"{_d.hour}:{_d.minute:02d}" if _d.date() == run_d_h
+                             else f"{_d.day}.{_d.month}, {_d.hour}:{_d.minute:02d}")
+                    _lbl = "מוקדם" if xr.get("ext_session") == "pre" else "מורחב"
+                    xr_ext = f' <small dir="ltr">{_lbl} {xr["ext_pct"]:+.2f}% · {_when}</small>'
                 parts.append(
                     '<div class="smhrow"><span><b>'
                     + esc(xr["name"]) + " · " + esc(xr["sym"]) + "</b> "
                     "<small>פירוט נוסף, לא מגזר במפה</small></span>"
-                    f"{pct2(xr['day_pct'])}</div>")
-            parts.append('<div class="ts">11 מגזרי S&P 500 באמצעות קרנות סל ענפיות · Yahoo Finance</div>')
+                    f"{pct2(xr['day_pct'])}{xr_ext}</div>")
+            parts.append('<div class="ts">11 מגזרי S&P 500 באמצעות קרנות סל ענפיות · שינוי יומי מול הסגירה הקודמת · מסחר מוקדם/מורחב מוצג בשורה נפרדת עם שעת ציטוט · Yahoo Finance</div>')
         parts.append('<h3 class="sec">המבט הרחב · מדדים</h3>')
         parts.append('<div class="idxgrid">')
         for ix in ov["indices"]:
@@ -2159,11 +2246,17 @@ def build_html(mh, dips, alerts, bo, updated, extra=None):
             if ix["above200"] is not None:
                 trend += " · " + ("מעל" if ix["above200"] else "מתחת ל־") + " 200"
             val_s = f"{ix['value']:,.2f}"
+            asof = "מול סגירה קודמת"
+            if ix.get("ts"):
+                _d = datetime.fromtimestamp(ix["ts"], timezone.utc).astimezone(JER)
+                _rd = updated.astimezone(JER).date() if updated.tzinfo else updated.date()
+                asof += (f" · נכון ל־{_d.hour}:{_d.minute:02d}" if _d.date() == _rd
+                         else f" · סגירה {_d.day}.{_d.month}")
             parts.append(
                 '<div class="idxcard">'
                 f'<span class="idxname">{esc(ix["name"])}</span>'
                 f'<b>{ltr(val_s)}</b>'
-                f'{day_html}<small>מול סגירה קודמת</small>'
+                f'{day_html}<small>{esc(asof)}</small>'
                 f'{sparkline(ix["spark"])}'
                 f'<small>{esc(trend)}</small>'
                 "</div>")
@@ -2217,7 +2310,7 @@ def build_html(mh, dips, alerts, bo, updated, extra=None):
         venues_txt = f" ({esc(venues)})" if venues else ""
         parts.append(
             f'<div class="ts">חוזים עתידיים{venues_txt}, דרך Yahoo Finance · '
-            'שעת הציטוט מופיעה בכל כרטיס · נמשך בריצה זו · שאר הדף מציג נתוני סגירה רשמיים · '
+            'שעת הציטוט מופיעה בכל כרטיס · שאר הדף מציג סגירות רשמיות וציטוטי מסחר מורחב מסומנים בנפרד · '
             f'<a class="src-link" href="{FUTURES_SOURCE_URL}" target="_blank" rel="noopener">מקור</a></div>')
 
     cn = extra.get("cnn")
