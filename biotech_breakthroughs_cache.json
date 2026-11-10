@@ -1,5 +1,5 @@
 {
- "fetched_at": "10.11.2026, 8:04",
+ "fetched_at": "10.11.2026, 8:34",
  "items": [
   {
    "title": "Bayer wins FDA approval for stroke prevention drug with blockbuster potential - Endpoints News",
@@ -1728,24 +1728,6 @@
    "ncts": [
     "NCT03036488"
    ]
-  },
-  {
-   "title": "FDA Approves New Weight Loss Drug: Understanding Its Role and Distinctions - BusinessWorld Online",
-   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPWVg5WXdXVEw1Z3B3V1MtZ3dBWUd0S1c3WE96OGJVeTEwbkxXSEJvTzVLajlqYk14dWtjQWltSEl6Mk5DanN3UklFM3pTaVlYZ1Z0ekxtUGMtbkdzb3NFcnV0VEt2QUp2Ym1DTGdDN1ZFSEZuSGFqQUJwajdfSmptZnY3R0hCQQ?oc=5",
-   "pub_ts": 1793082740.0,
-   "date": "27.10.2026, 8:32",
-   "cat": "fda",
-   "sev": 4,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPWVg5WXdXVEw1Z3B3V1MtZ3dBWUd0S1c3WE96OGJVeTEwbkxXSEJvTzVLajlqYk14dWtjQWltSEl6Mk5DanN3UklFM3pTaVlYZ1Z0ekxtUGMtbkdzb3NFcnV0VEt2QUp2Ym1DTGdDN1ZFSEZuSGFqQUJwajdfSmptZnY3R0hCQQ?oc=5"
-    }
-   ],
-   "ncts": []
   },
   {
    "title": "Cybin Expects Key Phase III Depression Trial Results This Quarter - Yahoo Finance",
@@ -4046,6 +4028,24 @@
    "ncts": []
   },
   {
+   "title": "FDA approves generic Venetoclax (Alembic)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=214747",
+   "pub_ts": 1793145600.0,
+   "date": "28.10.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=214747"
+    }
+   ],
+   "ncts": []
+  },
+  {
    "title": "FDA approves generic Ketamine Hydrochloride (Neurorx)",
    "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220602",
    "pub_ts": 1793145600.0,
@@ -4095,24 +4095,6 @@
     {
      "source": "FDA · openFDA",
      "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=216722"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "FDA approves generic Venetoclax (Alembic)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=214747",
-   "pub_ts": 1793145600.0,
-   "date": "28.10.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=214747"
     }
    ],
    "ncts": []
