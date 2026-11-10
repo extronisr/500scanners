@@ -68,7 +68,7 @@ TV_PREMARKET_BLOCK = (
     '</details></div>'
     '<div id="tvsec" class="tvsec"></div></details>'
     '<script>(function(){var syms=' + json.dumps([x[0] for x in TV_SYMBOLS]) + ';'
-    'var box=document.getElementById("tvsec");if(!box)return;var done=false,W=460;'
+    'var box=document.getElementById("tvsec");if(!box)return;var done=false,W=500;'
     'function load(){if(done)return;done=true;syms.forEach(function(s){var card=document.createElement("div");'
     'card.className="tvcard";box.appendChild(card);var cw=card.clientWidth-2;var z=Math.min(1,cw/W);'
     'var c=document.createElement("div");c.className="tradingview-widget-container";c.style.width=W+"px";c.style.zoom=z;'
@@ -79,7 +79,7 @@ TV_PREMARKET_BLOCK = (
     'c.appendChild(sc);card.appendChild(c);});}'
     'if("IntersectionObserver" in window){new IntersectionObserver(function(e,o){if(e[0].isIntersecting){o.disconnect();load();}}).observe(box);}else{load();}'
     '})();</script>'
-    '<style>.tvsec{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,440px),1fr));gap:8px;direction:ltr}'
+    '<style>.tvsec{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,500px),1fr));gap:8px;direction:ltr}'
     '.tvcard{border:1px solid #e3e3e3;border-radius:10px;background:#fff;overflow:hidden;min-height:90px;direction:ltr}'
     '.tvwrap>summary{list-style:none}</style>'
 )
