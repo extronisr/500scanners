@@ -1,11 +1,11 @@
 {
- "fetched_at": "10.11.2026, 1:34",
+ "fetched_at": "10.11.2026, 2:04",
  "items": [
   {
    "title": "Asundexian Receives FDA Approval for Secondary Stroke Prevention - HCPLive",
    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOOFZydUFGenZzeGpQa2Z1N0dOazRPd3NNS2Z5cUE1bGRteXF6bFVBU0lDVkdOZlVweEstUTFDY0F3U09zV0RsNDU5RmVfN2pqQ1k3UlNESWNSQ3hDT3BtaFZaLTd4cEpZQXIyaG9PYkpoSWN4dDRJN0JkSzRxZjhRVWpIcGlvMWN2YjRORU0tT1BDTmpiUzVNU3NxMDBjMkRETkg2RA?oc=5",
-   "pub_ts": 1794266326.0,
-   "date": "10.11.2026, 1:18",
+   "pub_ts": 1794266349.0,
+   "date": "10.11.2026, 1:19",
    "cat": "fda",
    "sev": 4,
    "dir": 1,
@@ -1711,46 +1711,6 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOS09zMVFlU3BJUm43T0IwbEZNaF9nTkljTi1uM3FHSklWN0tQLUhDZnZDVWxuR3JOZ2h5Q1QwS0tsZjUwZHBfY0JWdzBZQXowNktKbHNFN2M4LV90bFplZlN5LXNiVGFabXhCZ0ZyYVV3bGw4NElBLWpETmhRNjdoWVBTM0xyemg5MUE?oc=5"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "FDA approves Ranibizumab (Xbrane Biopharma Ab)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761187",
-   "pub_ts": 1793059200.0,
-   "date": "27.10.2026",
-   "cat": "fda",
-   "sev": 4,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761187"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "Personalized mRNA Vaccine Cuts Melanoma Recurrence Risk by 42% in Phase 3 Trial - Bioengineer.org",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUDNLOUxVbklPUzdCUTNyamtPVTZiSjVaUHNyamFsd0JjWlJ5ME5YcXlaMkJrZWhqdGNVWV9kU0liTlc3cHRXMlVHU1FaMjV3WERDaUs2NUxkRVZfUVNsbmxNb2lfb2NHU2tWblpYOEx0YWszSE10U0dTNjBEUXlmaFBvTmp2WEVNVEsteEtuNE9KRHVIUUR0OTZZbG5GVVlkSUxhbXdB?oc=5",
-   "pub_ts": 1793058248.0,
-   "date": "27.10.2026, 1:44",
-   "cat": "phase3",
-   "sev": 4,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUDNLOUxVbklPUzdCUTNyamtPVTZiSjVaUHNyamFsd0JjWlJ5ME5YcXlaMkJrZWhqdGNVWV9kU0liTlc3cHRXMlVHU1FaMjV3WERDaUs2NUxkRVZfUVNsbmxNb2lfb2NHU2tWblpYOEx0YWszSE10U0dTNjBEUXlmaFBvTmp2WEVNVEsteEtuNE9KRHVIUUR0OTZZbG5GVVlkSUxhbXdB?oc=5"
-    },
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOT0h3amNjX0tyMHdLQXZiX1pjS01PMk1Dcl8yaFU1dW5CN3YyNmhDVUpQMDFhdEItWW9yVXZZT0w1SjRzTERjMlJUUHBYb3RJY0IxZGFDMWxEVVI0M3pCQ2MxZzNBZWpSMGJ1MUtjc0tKbjg4QzVjUDdud2owUS1ONjEwbTAyTDgwV3JKbDBqTmVOclBYUHNZOQ?oc=5"
     }
    ],
    "ncts": []
@@ -4265,42 +4225,6 @@
    "ncts": []
   },
   {
-   "title": "FDA approves generic Rivaroxaban (Teva Pharms Usa)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=212247",
-   "pub_ts": 1793059200.0,
-   "date": "27.10.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=212247"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "FDA approves generic Tranexamic Acid (Zydus Lifesciences)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221213",
-   "pub_ts": 1793059200.0,
-   "date": "27.10.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221213"
-    }
-   ],
-   "ncts": []
-  },
-  {
    "title": "A Study to Learn How Well the Study Treatment Finerenone Works and How Safe it is in People With Long-term Decrease in the Kidneys' Ability to Work Properly (Chronic Kidney Disease) Together With Type 1 Diabetes",
    "link": "https://clinicaltrials.gov/study/NCT05901831",
    "pub_ts": 1793059200.0,
@@ -5449,28 +5373,6 @@
    ],
    "ncts": [
     "NCT06104319"
-   ]
-  },
-  {
-   "title": "A Study on the Immune Response and Safety of a Multicomponent Shigella Vaccine in Preventing Shigellosis in Infants",
-   "link": "https://clinicaltrials.gov/study/NCT06663436",
-   "pub_ts": 1792972800.0,
-   "date": "2026-10-26",
-   "cat": "phase2",
-   "sev": 1,
-   "dir": 0,
-   "tickers": [],
-   "companies": [
-    "GSK"
-   ],
-   "sources": [
-    {
-     "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT06663436"
-    }
-   ],
-   "ncts": [
-    "NCT06663436"
    ]
   }
  ]
