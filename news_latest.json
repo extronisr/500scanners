@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-10T15:43:03.979444+02:00",
+ "generated_at": "2026-11-10T17:01:02.258694+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -9,14 +9,6 @@
  },
  "sections": {
   "analysts": [
-   {
-    "title": "Buy this data center-linked stock primed to rally nearly 60%, says Jefferies",
-    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQc1l0QURVd3E0RERlaGtRS2Zhd21YX2Fyc01OeG5vaGN3c1pzRlQ4cGlZc3JQem1BZnZ3bzdRanl2Tmk3Y2tOUElxQ3loMHRKWi05N29wXzVEdlJPSGd2UmFjN3hHQXBWTE1uV0hKdzAxZTFENThQLVJSSDhDd09UYzJxSTdldw?oc=5",
-    "source": "CNBC",
-    "published": "2026-11-10T12:03:03+00:00",
-    "lede": null,
-    "lang": "en"
-   },
    {
     "title": "WULF, HUT, CIFR Stocks Get Price Target Cuts From Jefferies: Here’s Why The Analyst Is Still Bullish On These AI Infra Firms",
     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQ0o0c0otMWRjT2hBSmEzVlh1NVRmWGZKWXQ2a2NBT3UyZ0xYNHloSFpXako2WTgwdHFWemduRE81U3NyVmpSUDEwR3liSXJGbnI0dW9QYWM0VDJMV3MwQnB5WklzU1pDcWwyVzhxendvOE4walVKaDE0aDZzS1pkUFBSRjR0czNFekQtUWxPTEV0Y29sVUE?oc=5",
@@ -42,15 +34,95 @@
     "lang": "en"
    },
    {
+    "title": "ירידות במסחר המוקדם עקב העלייה במדד המחירים לצרכן בארה\"ב",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1tUThWeG1XdWhIQnM0bjFnNzVkV1ZNYW5weEU0NUpFWjhlMndpc21iZkRQTTFramtyN3B1XzlwdzBBZVR1ZHpmNmRTdi02b2lZVjFiNjZxYXM1TUZ4dE0wNDVUTXRfTTRr?oc=5",
+    "source": "גלובס",
+    "published": "2026-11-10T04:52:04+00:00",
+    "lede": null,
+    "lang": "he"
+   },
+   {
     "title": "Watch Oil Market Starting to Price In a US-Iran Deal, Says Analyst Sen",
     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNQUQ1UFZwSnE3NXJwWVg4NDJPRW0tdFZVbmdYR20wR05ZYmRNdFJKendoV2ZWSFdISzN6QXE1UVBjS2h4TnU0ekRKTFI2NVlyTzJGNkJHUTFXMVVVdVZCczBoT0J3b1dGeUVPVzgtR252d1RCdXZ5SjgxZHh3Y0owb004UUtFTGlzb1hPdlp6VDk0WXpMMWROMVVKQVF2a3ZyWEFPSkhPRlo?oc=5",
     "source": "Bloomberg.com",
-    "published": "2026-11-10T12:43:53+00:00",
+    "published": "2026-11-10T00:00:00+00:00",
     "lede": null,
     "lang": "en"
    }
   ],
   "us": [
+   {
+    "title": "Anthropic sets IPO price range of $70 to $78, looks to start trading Nov. 19, sources say",
+    "url": "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html",
+    "source": "CNBC",
+    "published": "2026-11-10T14:50:18+00:00",
+    "lede": "Anthropic's IPO is expected to come roughly five months after Elon Musk took SpaceX public in a record offering.",
+    "lang": "en"
+   },
+   {
+    "title": "Consumer prices rose 0.4% in October, more than expected, complicating Fed's inflation fight",
+    "url": "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html",
+    "source": "CNBC",
+    "published": "2026-11-10T14:50:03+00:00",
+    "lede": "The report comes at a critical juncture for the Federal Reserve as it considers its next move regarding interest rates.",
+    "lang": "en"
+   },
+   {
+    "title": "Anthropic heads for lower than expected $1.3 trillion valuation in stock market debut",
+    "url": "https://www.bbc.co.uk/news/articles/crpdgd723x2zo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC",
+    "published": "2026-11-10T14:46:50+00:00",
+    "lede": "The AI company behind the Claude chatbot will offer its shares at between $70 and $78.",
+    "lang": "en"
+   },
+   {
+    "title": "Jim Cramer's top 10 things to watch in the stock market Tuesday",
+    "url": "https://www.cnbc.com/investingclub/2026/11/10/jim-cramers-top-10-things-to-watch-in-the-stock-market-tuesday.html",
+    "source": "CNBC",
+    "published": "2026-11-10T14:43:06+00:00",
+    "lede": "Futures are down after a higher-than-expected consumer price index this morning stoked inflation concerns.",
+    "lang": "en"
+   },
+   {
+    "title": "Inquiry launched into UK budget bank tax leak; Wall Street hit by US inflation shock – business live",
+    "url": "https://www.theguardian.com/business/live/2026/nov/10/nvidia-shareholder-lawsuit-jensen-huang-relationship-suspected-chinese-spy-fbi-trump-bank-of-england-latest-news-updates",
+    "source": "The Guardian",
+    "published": "2026-11-10T14:41:52+00:00",
+    "lede": "Rolling coverage of the latest economic and financial news, including live coverage of the Bank of England Watchers conference in London Young people in UK hit by ‘low-gear economy’, warns Bank of England deputy The AI…",
+    "lang": "en"
+   },
+   {
+    "title": "First Advantage stock falls as Silver Lake sells 15M shares",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdE5XRlBVT0F0X3BXbEwzVlpORHpUN1NfUkhhTkhjUlNFT0N5TzZ5RUl3amhjbFFJVmlELWVCVzJ3bXZPV1pZYVRjeW5tZ2o2R0xZSldoWWVYcF9leW5odWhORDIzZHNnOWREQjJOdU8zY1l3bUY2ZDVhMk1RSmlyeTZvTW9iU2Iwc0doMHlnOGlwYzRoRFZOM1FES0prVHFN?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-10T14:39:07+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Plug Power: 3 Key Takeaways for Long-Term Investors",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNdG5kTHYydXJBZExEZlJ4SWNfSnZXYUU3WVQ1M3p6SDhsalI0ZFBjXy1hUTd3Zmg1blZQVUFFWG11RHF2SXpDbF9iMUNvdUZvckM3V2c2dERMZzh3MEJkajRuYkx4bmlNaS1jTTlPLWFwQUF3Wl9kakVWQ1dWQ0hLbFlLMXRZVGVrbm1Fel9VVnVqSEFBWkE?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-10T14:35:31+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Wall Street May Be Underestimating This AI Chip Stock’s Next Growth Phase",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMWxueTlMdTY2R01GdTRhNElqTHVJUDlVLUphQzE5bjdFODg4SkVETE9LNmNNcm44N09RNEQxNXo1Njh0a0ZiWVBzdWZHZVZiU01kemtGS1o1Y2RiVUdldWgydFQ1VUg1NjFub0lyLU5vOFZwQTJMX0UxTVNvWVUtbE1STEgtNGdCei1YSW10VEx3bEVEbmh0UlhtQ1BJeTg?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-10T14:33:30+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "שני הבנקאים הבכירים שנאבקים על הובלת כלכלת גוש האירו",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562589#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-10T13:57:00+00:00",
+    "lede": "לאחר הודעת נשיאת הבנק המרכזי האירופי הנוכחית כריסטין לגארד כי תפרוש מהתפקיד, שניים מתמודדים על המשרה",
+    "lang": "he"
+   },
    {
     "title": "New regulation for heating oil market, but no price controls",
     "url": "https://www.bbc.co.uk/news/articles/cv70p0d3d686o?at_medium=RSS&at_campaign=rss",
@@ -58,119 +130,47 @@
     "published": "2026-11-10T13:42:29+00:00",
     "lede": "The Competition and Markets Authority has investigated the heating oil market in Northern Ireland and other parts of the UK.",
     "lang": "en"
-   },
-   {
-    "title": "Fed’s Waller puts half-point rate hike into the mix for December",
-    "url": "https://www.marketwatch.com/story/feds-waller-puts-half-point-rate-hike-into-the-mix-for-december-1bebdffc?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-10T13:41:00+00:00",
-    "lede": "U.S. central bank official had put a half-point discussion into the mix ahead of Labor Department data, which came in as hot as he feared.",
-    "lang": "en"
-   },
-   {
-    "title": "Monthly US inflation rose 0.4% in October",
-    "url": "https://www.ft.com/content/8b564134-dea6-4272-8ede-e0b12ef5aebd?syn-25a6b1a6=1",
-    "source": "Financial Times",
-    "published": "2026-11-10T13:31:10+00:00",
-    "lede": "Stronger than expected figure comes as last year’s government shutdown prevented data collection",
-    "lang": "en"
-   },
-   {
-    "title": "Here’s what Nvidia investors should be focusing on now. Hint: It’s not Jensen Huang’s affair.",
-    "url": "https://www.marketwatch.com/story/heres-what-nvidia-investors-should-be-focusing-on-now-hint-its-not-jensen-huangs-affair-f443b822?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-10T13:30:00+00:00",
-    "lede": "Nvidia’s stock still seems like a good bet — if the AI trade holds up. And that’s a big ‘if.’",
-    "lang": "en"
-   },
-   {
-    "title": "האינפלציה בארה\"ב טיפסה מעל לצפי - וסוללת את הדרך להעלאת ריבית בדצמבר",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562654#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-10T13:30:00+00:00",
-    "lede": "החוזים העתידיים על וול סטריט מאבדים גובה בעקבות הפרסום",
-    "lang": "he"
-   },
-   {
-    "title": "Bank of England’s Lombardelli warns UK’s ‘low-hire, low-fire’ labour market hurting young people – business live",
-    "url": "https://www.theguardian.com/business/live/2026/nov/10/nvidia-shareholder-lawsuit-jensen-huang-relationship-suspected-chinese-spy-fbi-trump-bank-of-england-latest-news-updates",
-    "source": "The Guardian",
-    "published": "2026-11-10T13:28:36+00:00",
-    "lede": "Rolling coverage of the latest economic and financial news Nvidia and Jensen Huang sued by shareholders over affair with alleged Chinese spy The AI poster boy, the ‘Chinese spy’ and Trump: how an affair may have harmed…",
-    "lang": "en"
-   },
-   {
-    "title": "Canadian Investment Regulatory Organization Trading Halt - CSTL.P",
-    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQUkRjekpUVXBEc3h3a25MUWhELWRFTTdyalFkLVNuZEFyMXBDeU5DX1BhaFhmRlpiekNHUk52MS1pZ2tIdzYyaFNMSGdRN1JTemxxY2xDaFVXMnBrNHJhSVpGVm5TdFZpM1hxN1V0VFUyb1ZVMWtwVWk0OTZlaFJHTDR6UVMteTNfOTlHLVlCODcybndYMFF2WHdGVEczcjZ1WXdFMDNSVFlFREFWcWxUZ0hfblBqLU0?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-10T13:22:00+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Anthropic to raise $64bn in major stock market listing",
-    "url": "https://www.bbc.co.uk/news/articles/crpdgd723x2zo?at_medium=RSS&at_campaign=rss",
-    "source": "BBC",
-    "published": "2026-11-10T13:19:37+00:00",
-    "lede": "The AI company behind the Claude chatbot will offer its shares at between $70 and $78.",
-    "lang": "en"
-   },
-   {
-    "title": "Brookfield Infrastructure: 3 Key Takeaways for Long-Term Investors",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWlVKZ2F5QnFzNGd2eWJ0NWowUU56X29OVjY3X0xMSVIyUkladTFXQnNwRUYzcmRienNIUW55enpXLWlsUjJUNGUyNDZXNkdORUFwZjItSmUtQkpXOVFuRkF2OEo3bkdrSG5ZY1lhTi1tWkowMk9Qbm16NHNFNkZnSFJidDUwbWJ0YjNmekp5SUR5dFJTdng3WVMtTTFZNU41T0pTYWdIWHBSdw?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-10T13:19:23+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "'Markets bottom on bad news' maxim rings true as chip stocks rally amid Nvidia scandal",
-    "url": "https://www.cnbc.com/2026/11/10/chip-stocks-rally-nvidia-scandal.html",
-    "source": "CNBC",
-    "published": "2026-11-10T13:19:13+00:00",
-    "lede": "The cliche is one of those smart-sounding rules of thumb that proves true just often enough to remain a Wall Street cliché in good standing.",
-    "lang": "en"
    }
   ],
   "il": [
    {
-    "title": "ירידה בהיקפי המסחר פגעה בתוצאות איטורו ברבעון השלישי, המניה נופלת במסחר המוקדם",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562754#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-10T13:06:00+00:00",
-    "lede": "החברה, שמספקת פלטפורמת מסחר באפיקים שונים, הודיעה על תוכנית לרכישה עצמית של מניות תמורת עד 250 מיליון דולר",
-    "lang": "he"
-   },
-   {
-    "title": "אסם תשקיע עשרות מיליוני שקלים בתחום חדש",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562753#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-10T13:00:00+00:00",
-    "lede": "במהלך בהשקעה של עשרות מיליוני שקלים תשיק אסם-נסטלה סדרת PRO FIBER ותעשיר שורה ארוכה של מוצרים מוכרים בחלבון ובסיבים, מחטיפים וקרקרים ועד במבה, פתיבר ומנה חמה",
-    "lang": "he"
-   },
-   {
-    "title": "חברת הסייבר הישראלית מגייסת 80 מיליון דולר לפי שווי של 400 מיליון",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562747#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-10T13:00:00+00:00",
-    "lede": "כשנה לאחר סבב הגיוס הקודם, Daylight משלימה סבב B ומגיעה לגיוס מצטבר של 120 מיליון דולר",
-    "lang": "he"
-   },
-   {
-    "title": "דחיית אספקות ועיכובים בתעשייה הובילו להורדת תחזית ההכנסות של גילת לשנה זו - המניה יורדת",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562750#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-10T12:40:00+00:00",
-    "lede": "החברה הציגה הכנסות נמוכות מהתחזיות ורווח גבוה מהן ברבעון השלישי",
-    "lang": "he"
-   },
-   {
     "title": "הבנקאית שהפכה למרגלת: האישה שהפילה בפח את מנכ\"ל אנבידיה",
     "url": "https://finance.walla.co.il/item/3875689",
     "source": "וואלה",
-    "published": "2026-11-10T12:14:00+00:00",
+    "published": "2026-11-10T15:14:00+00:00",
     "lede": "אליס הואנג, האישה שעומדת במרכז סערת הריגול סביב מנכ\"ל ענקית השבבים, בנתה קריירה פיננסית בסין לפני שהשתלטה על חברת ענן שנקשרה למשלוחי שבבים אסורים",
+    "lang": "he"
+   },
+   {
+    "title": "ירידות בוול סטריט; אנבידיה יורדת ב-4% נוספים",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562654#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-10T14:47:00+00:00",
+    "lede": "נאסד\"ק יורד ב-0.6% • מדד המחירים לצרכן בארה\"ב לחודש אוקטובר הציג עלייה חודשית של 0.4%, מעט מעל לציפיות הכלכלנים • באירופה נרשמות עליות שערים נאות בהובלת סקטור הטכנולוגיה • מניית גילת צוללת לאחר חיתוך בתחזית ההכנסות…",
+    "lang": "he"
+   },
+   {
+    "title": "תל אביב בדרך לחתום את היום בעליות, בהובלת מניות הביטוח והבנקים",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562659#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-10T14:43:00+00:00",
+    "lede": "מדד ת\"א 35 עולה ב-1.7% • כלל המדדים הענפיים בירוק, למדד מדד המניות הדואליות • עזריאלי מאבדת גובה עקב דיווח שפרסמה החברה בנוגע להקפאת הקצאות חדשות בתחום חוות השרתים בנורבגיה • OPC מזנקת ברקע פרסום דוחות חזקים • תורפז…",
+    "lang": "he"
+   },
+   {
+    "title": "לאחר שאיבדה 98% מהשווי בשיא: תביעת הענק שמאיימת על אבן קיסר",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562762#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-10T14:34:00+00:00",
+    "lede": "יצרנית המשטחים מקיבוץ שדות ים, שמנייתה נחבטה בשנים האחרונות בשל החרפת התחרות, דחתה בשבוע שעבר את פרסום הדוחות לצורך דיונים הקשורים לפשרות משפטיות",
+    "lang": "he"
+   },
+   {
+    "title": "פרויקט הרוח הפיל את הרווח של אנרג'יקס, והמכירות לא הצילו את תורפז",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562748#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-10T14:22:00+00:00",
+    "lede": "גלובס מביא את הסיפורים של עונת הדוחות בבורסת ת\"א שאולי פספסתם",
     "lang": "he"
    },
    {
@@ -182,7 +182,7 @@
     "lang": "he"
    },
    {
-    "title": "ת\"א 35 מתחזק 1.7%: נקסט ויז'ן מזנקת 6.6%, או פי סי 5.5% והביטוח 3.1%",
+    "title": "ת\"א 35 עולה 1.9%: הביטוח מוסיף 3.2%, אלביט 3.5%; טאואר עוברת לעלייה של 3%",
     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBoMXgwLWVHUUdURVVrQWFCQlNITV9ZS1FjYWtNYTBIMWxsLTloTFZpb0tBR2doVmFCdHJvZ3VwV2JVOF9nN2pFQm95OThnR3NsR1p2Rm52UlBRek9saGcycmdHUWdxVVBDVmNZNko5ODA?oc=5",
     "source": "ביזפורטל",
     "published": "2026-11-10T05:35:00+00:00",
@@ -192,18 +192,18 @@
   ],
   "geo": [
    {
-    "title": "Pete Hegseth decries impeachment push, defends Iran war handling",
-    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE03T3lfUjZLX0NDODYzbVR3V1lYSXI1OVpfWkNtNDFjN19vaGhiazZ2TmNFbG1LNlRuQjR3c09VY2djUjlHSngxSFMyeVdiNUVPQ2dLMXE1UGR4TEpTT2FnMVVfdHJROUtSNzJVeVVjdDdWSEJIMS13c3ZPOWJMUQ?oc=5",
-    "source": "CNBC",
-    "published": "2026-11-10T13:14:18+00:00",
+    "title": "Defiant Pete Hegseth defends Iran war as he faces impeachment vote",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOQUduR0dmSm1IeFFLdjA3cHAwRm1qeUwtVUM0eEs3VUxOdmFuLXh4Q2l3cl9lTjVNQlZUTkVxVVdfbTRnYVgyZ0FoZC1RdVBDb1hrckgwdms0MDFhczhFSVg3X0NxdGxWRTRpWDdXd0t0SWthSUI2N3dSUTVacllyUFVTZ1k?oc=5",
+    "source": "Financial Times",
+    "published": "2026-11-10T14:23:24+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "U.S., Russia and Ukraine begin talks in Abu Dhabi aimed at ending war in Ukraine",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPS0FBdDVsTGpNTFhrMXd4amFHczlHMEdINnhILTZJXzZFcjNqaXJ6emhyZjJaLVJPdkFIcEtxVURnaVd5cnZzQ2FmaG5nazlOYlkwT1pRaGRNSWhpN0NHZVZtU1M0RkIybklHdDRwYlRqZHZmRmtCSm9RbUdFV1BlMnJ1M3U?oc=5",
-    "source": "CBS News",
-    "published": "2026-11-10T13:01:14+00:00",
+    "title": "Hegseth dismisses Vance’s criticism of Iran war",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOSGQ2VDdNd0hyeE9VNURPSlVDeTE2NnRxWUhmMV9ISWdMZFV2Mm8wRWstLXdZR0hXTF9GYWVoYlZUbTlRODQ4dE5xRTAxYUtvNkJMYXQ1VDMzQUgxVW5OZnBTM0RsVGkxUnU2czR3VGgyXzRQTjNsQ1V5ZGR3ZEk3LUxyeW93bTh3cnJrYXhOYVpGWlVRNVRrRWtzRkM2V2JrNE1Ed2dJUQ?oc=5",
+    "source": "CNN",
+    "published": "2026-11-10T14:09:42+00:00",
     "lede": null,
     "lang": "en"
    }
