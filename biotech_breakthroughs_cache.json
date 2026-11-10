@@ -1,5 +1,5 @@
 {
- "fetched_at": "10.11.2026, 7:04",
+ "fetched_at": "10.11.2026, 7:34",
  "items": [
   {
    "title": "Bayer wins FDA approval for stroke prevention drug with blockbuster potential - Endpoints News",
@@ -1744,6 +1744,26 @@
    "ncts": []
   },
   {
+   "title": "Cybin Expects Key Phase III Depression Trial Results This Quarter - Yahoo Finance",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOeTdkU2prZC1ESEc4ZWN2VGNyTTM3TW10cW9DM2NOTmNxQnVDeU92c0luZk9SNUY3b3dqcXd5Z0FkZ1Fta2k4LUJXRFJhUTl0VE56T3R3bld1dklRbXZLSzd5UktLazBNWlRRYUtwYjlnN0dBQVFaeTdKY0gtd3RxRjlQd1pyTVpMWjFmSjZUUWh0Zw?oc=5",
+   "pub_ts": 1794287640.0,
+   "date": "10.11.2026, 7:14",
+   "cat": "phase3",
+   "sev": 3,
+   "dir": 0,
+   "tickers": [],
+   "companies": [
+    "HELP"
+   ],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOeTdkU2prZC1ESEc4ZWN2VGNyTTM3TW10cW9DM2NOTmNxQnVDeU92c0luZk9SNUY3b3dqcXd5Z0FkZ1Fta2k4LUJXRFJhUTl0VE56T3R3bld1dklRbXZLSzd5UktLazBNWlRRYUtwYjlnN0dBQVFaeTdKY0gtd3RxRjlQd1pyTVpMWjFmSjZUUWh0Zw?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
    "title": "Phase 3 Data Back ALP Normalization as Treatment Goal in PBC - The American Journal of Managed Care",
    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQcjIxTkFiRjNEdl9uaXpQTUFmMkQydFpVMzFIRHhqVHd1VTJ6c2lMT2pwOF9iWW9weWRfMjVka2UtVGxGQWo4bVFZMXZQLV9KNG1kMTAxT291TGd5OHdqNU0zcFFjaFZYSXphM1J1VWZranNOSkZ2MGttR1IwVVE4TXMzOURGRTg1bV9LQnNyaw?oc=5",
    "pub_ts": 1794255642.0,
@@ -3030,11 +3050,17 @@
    "sev": 2,
    "dir": 1,
    "tickers": [],
-   "companies": [],
+   "companies": [
+    "ONC"
+   ],
    "sources": [
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOUXk0NmpJQ3dRRFlzemlwRnZRT0lYSXV0SGtma3AyREtod2NRXzRkaGdRUG9nVWxMdXNGSmlHM3JKQXNXYUFNWkpMOWtGazdXNEc2X080SHBsb1hnZ0FrdTZmWEdoNkpkNjFQZm82OUNHU1oxUnVzdTBQdEpqYlNQMVNwREtnTlliaTJmV3V4YXdGVHhG?oc=5"
+    },
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOUnhrSHJ0REwzelRKc3VCRFUwLUI5YXpST3lVa0NJczhVYVY3TlRqa0ZTcGVFeG00dVdBY2hGdXZkRHkyRi1KQi1vMHpFcm1IRURFeWhQaUk5YjZ3QW96VW52dVpSQjE5aG5lV2tlcDRsbVA0Q254V2ZsZmpibXFRbDhseVVWWXVjOEd4MkR6cGlqSENZM0RJc0Y2Sk96UnlrSWl1YUZQeWNoQWt1YnhSUjZTUlB1RWJlNFpiVUNNcFktem5XY1NDNUxYellOUi11Zk50blJNVVN1WnFEdFcwdWhHeVVtVWhKSml3YXd6NlBnVDZ5c3c?oc=5"
     }
    ],
    "ncts": []
