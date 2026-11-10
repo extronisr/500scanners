@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-10T22:01:41.075339+02:00",
+ "generated_at": "2026-11-10T23:01:08.149008+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -52,11 +52,67 @@
   ],
   "us": [
    {
-    "title": "An overzealous Fed is quickly becoming the biggest risk to stocks in 2027",
-    "url": "https://www.marketwatch.com/story/an-overzealous-fed-is-quickly-becoming-the-biggest-risk-to-stocks-in-2027-ba28e51d?mod=mw_rss_topstories",
+    "title": "Ignore the wild swings in chip stocks until they reach these ‘lines in the sand’",
+    "url": "https://www.marketwatch.com/story/ignore-the-wild-swings-in-chip-stocks-until-they-reach-these-lines-in-the-sand-feb6e00f?mod=mw_rss_topstories",
     "source": "MarketWatch",
-    "published": "2026-11-10T19:52:00+00:00",
-    "lede": "The Fed remains too sanguine on inflation, and markets too complacent, economist Neil Dutta warns.",
+    "published": "2026-11-10T20:53:00+00:00",
+    "lede": "Investors shouldn’t pay much attention to how the SOX chip-sector index trades until it reaches key technical battleground areas above and below current levels.",
+    "lang": "en"
+   },
+   {
+    "title": "3 Vanguard ETFs to Buy and Hold Forever",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNY2psMFhCMVNrMEJiLWlBNFR3RVgtM0ZGQ1RuVHB1TDVtM28zYU9NN1hud2hKTk41SWxsR29TLU9fdzFOZVNmaW5JS0VEeE1kZjdWdWdQUmpJX1lqallmaWRXNWQtTlhYNGVQR2NpWmcyc3FkbFp5ck95dEpGZkRTaGRlWkhkNzVUMXN0NTZtSDVjN1E?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-10T20:47:02+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Nvidia could soon face tougher export rules, making it harder to sell chips to China after scandal",
+    "url": "https://www.marketwatch.com/story/nvidia-could-soon-face-tougher-export-rules-making-it-harder-to-sell-chips-to-china-69c88cc8?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-10T20:37:00+00:00",
+    "lede": "“There is growing momentum for these bills in light of the Jensen Huang spy scandal,” one analyst says.",
+    "lang": "en"
+   },
+   {
+    "title": "GE Vernova sellers have it all wrong — plus, why Fed rate hike odds are soaring",
+    "url": "https://www.cnbc.com/investingclub/2026/11/10/ge-vernova-sellers-have-it-all-wrong-plus-why-fed-rate-hike-odds-are-soaring.html",
+    "source": "CNBC",
+    "published": "2026-11-10T20:33:58+00:00",
+    "lede": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+    "lang": "en"
+   },
+   {
+    "title": "Capital Increase in Genmab as a Result of Employee Warrant Exercise",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRkhwNEROSTFkODZxWUJHTUt0X1VFRFNoX19MWWJmX01vX1Z0OGdUd0drbk90Tmx3c3lua3dOYVdELVA0Ukx5cl9lSUpnVmdVNm12N2NvT0ZXMDVOMm5IbFRiT09VMWthUXluN29lMUMxMjdxbWMyeUV2WWlhaXloVlB1QjJDNXJLbG1CclVjNXQtWS1IR1pYNEpaMlAtbjM1NWJ2TDlKVQ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-10T20:32:00+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "White House vows to press ahead with tariffs despite midterm backlash over rising prices",
+    "url": "https://www.cnbc.com/2026/11/10/trump-tariffs-midterms-gary-cohn-inflation.html",
+    "source": "CNBC",
+    "published": "2026-11-10T20:28:02+00:00",
+    "lede": "Business executives warned at a Washington summit of rising costs and shifting supply chains as polls showed growing opposition to Trump's tariffs.",
+    "lang": "en"
+   },
+   {
+    "title": "Prediction: Nov. 18 Will Be a Huge Day for the Stock Market",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNWU0xYU9DckhqWVBtUTdIMmhHc3RPRHFDMlA1aXExSnl0Q3RLMFhUTU0tTm5obkhRWm9jU1JnaDU3SWk2b1VSY0xvTC13SzJiZXozczduQVJMdVRCNU1wcVl2NVRKRm9obVN1cHJBeXhVWUdmYWxZU3daOS1mNURjMUJCeXJYWEtZOEZsR3FuY1dUVC1MRlE?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-10T20:20:02+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "US regulator postpones Wall Street push to trade AI computing futures",
+    "url": "https://www.ft.com/content/269b0245-44c4-4e34-94df-202bef642539?syn-25a6b1a6=1",
+    "source": "Financial Times",
+    "published": "2026-11-10T19:58:11+00:00",
+    "lede": "The Commodity Futures Trading Commission raises concerns over price manipulation as exchanges race to create new asset class",
     "lang": "en"
    },
    {
@@ -68,77 +124,29 @@
     "lang": "en"
    },
    {
-    "title": "10-year Treasury yield races back to 5% as inflation data, Waller comments drive rate hike expectations",
-    "url": "https://www.cnbc.com/2026/11/10/us-bonds-treasurys-yields.html",
-    "source": "CNBC",
-    "published": "2026-11-10T19:51:08+00:00",
-    "lede": "Treasury yields moved higher after a hotter-than-expected CPI report.",
-    "lang": "en"
-   },
-   {
-    "title": "3 Ways to Protect Your Portfolio After the S&P 500's Worst Day Since April 2025",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPUF9md0pPak1ob3lFQXUtREI3ajJBR2xpc09pbEJFZzV2ZjVxcWVTeXR6Vjd4ME9JY3dIVUdPcmxQWlJhNWY1czdkNnBuZnNySjA4Y0pSaUcxRkIyZlRicjRPdDRBXzRLOXZEQkdGdXp3dGhLaER1YnRVa3FlSk5FT0RxUmQ2eE11QWdONHNfS2d0R1Iyd3c?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-10T19:50:00+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Anthropic officially sets the stage for an IPO valuing the company north of $1 trillion",
-    "url": "https://www.marketwatch.com/story/anthropic-reportedly-retracts-ipo-terms-sent-to-banks-by-mistake-exposing-jitters-over-ai-investments-6116578d?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-10T19:47:00+00:00",
-    "lede": "Anthropic could raise up to $63 billion in an IPO expected to take place next week.",
-    "lang": "en"
-   },
-   {
-    "title": "5 Best Tech Stocks That Pay Dividends",
-    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPaE9ISDdYaVFhVm5STWVENF8yR3pNM2daYWlfa2QxaGZqbHZ5SThpWW94a2xfR1l4NmhsdTJ0TFJmUmVMdG1KUm5HZ0E2SGprMnFNSTRrYUJ2T1ZwUEFPcFpRVUZwOENPdEVQYWdOT2ZVZGxXUWxnTnVqal9LdExoUFFaSm9SdkZBY09TcERWYWs?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-10T19:41:42+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Grab Holdings Stocks Fall 3.20% After $750 Million Bet on Malaysian AI Data Centers",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNVp4MDZUNENnaG9KYmNPbDgwY3ZUSWJBeXhFU1VRUVVFZVR1NEtQMmZZXzV5czRfS1IyZDBYdXpvVVlIQXNHU1Jlblg4d09HOEVKX05KWXhsbWlWT1dWcG1IRWtaV2pyeUlTS1lDdTV2VllCbExiNXdGRGlnZTZQMVlwVFZOSWF0dUkzZnVtdUpmX3VLT0ZZ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-10T19:35:26+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Homeowners tap equity as HELOC balances post biggest jump since 2005: New York Fed report",
-    "url": "https://www.cnbc.com/2026/11/10/heloc-balances-new-york-fed.html",
-    "source": "CNBC",
-    "published": "2026-11-10T19:30:12+00:00",
-    "lede": "The rise in balances on HELOCs marks the 18th consecutive quarterly increase, according to a new report from the Federal Reserve Bank of New York.",
-    "lang": "en"
-   },
-   {
     "title": "Falkland Islanders face ‘devastating consequences’ if Argentina blocks oil project, says UK",
     "url": "https://www.theguardian.com/world/2026/nov/10/uk-and-argentina-clash-over-falklands-oil-project-as-hamburg-tribunal-starts",
     "source": "The Guardian",
     "published": "2026-11-10T19:01:33+00:00",
     "lede": "Countries clash over Sea Lion project as Hamburg tribunal risks deepening sovereignty dispute The people of the Falkland Islands face “devastating consequences” if Argentina is successful in blocking development of its…",
     "lang": "en"
-   },
-   {
-    "title": "Treasuries slide as ‘hot’ inflation sparks bets on Fed rate rise",
-    "url": "https://www.ft.com/content/8b564134-dea6-4272-8ede-e0b12ef5aebd?syn-25a6b1a6=1",
-    "source": "Financial Times",
-    "published": "2026-11-10T18:53:50+00:00",
-    "lede": "Two-year government bond yields soar most since 2024 as October consumer price growth tops forecasts",
-    "lang": "en"
    }
   ],
   "il": [
    {
-    "title": "ירידות בוול סטריט; אנבידיה יורדת ב-6%, מיקרוסופט ב-2%",
+    "title": "בעקבות האינפלציה הגבוהה, וול סטריט קטעה יומיים של עליות",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001562654#utm_source=RSS",
     "source": "גלובס",
-    "published": "2026-11-10T19:49:00+00:00",
-    "lede": "נאסד\"ק יורד ב-1% • מדד המחירים לצרכן בארה\"ב לחודש אוקטובר הציג עלייה חודשית של 0.4%, מעט מעל לציפיות הכלכלנים • מנית אנבידיה נסחרת כעת במכפיל רווח עתידי של 11.5, הכי נמוך מזה 15 שנה • תשואות האג\"ח בארה\"ב מזנקות",
+    "published": "2026-11-10T21:00:00+00:00",
+    "lede": "נאסד\"ק ירד ב-0.7% • מדד המחירים לצרכן בארה\"ב לחודש אוקטובר הציג עלייה חודשית של 0.4%, מעט מעל לציפיות הכלכלנים • מניית אנבידיה איבדה כחצי טריליון דולר ביומיים משוויה והיא נסחרת במכפיל רווח עתידי של 11.5, הכי נמוך מזה 15…",
+    "lang": "he"
+   },
+   {
+    "title": "הקפאת חיבורים לרשת החשמל: הסיבה שמניית עזריאלי ירדה",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562714#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-10T19:52:00+00:00",
+    "lede": "מניית עזריאלי מגיבה להחלטה של מפעילת מערכת הולכת החשמל בנורבגיה להקפיא הקצאות של חיבורים חדשים של חוות שרתים לרשת",
     "lang": "he"
    },
    {
@@ -155,14 +163,6 @@
     "source": "גלובס",
     "published": "2026-11-10T17:59:00+00:00",
     "lede": "הבורסה בתל אביב מסכמת רבעון חזק נוסף: ההכנסות ברבעון השלישי עלו ב-19% והרווח הנקי זינק ב-37%",
-    "lang": "he"
-   },
-   {
-    "title": "בהיקף של 32 מיליון שקל: רפאל מתרחבת בפארק המדע בחיפה",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562801#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-10T17:34:00+00:00",
-    "lede": "החברה חתמה על הסכם לחמש שנים לשכירת שתי קומות נוספות בבניין בבעלות קבוצת מבנה והחברה הכלכלית לחיפה, תמורת כ־32 מיליון שקל",
     "lang": "he"
    },
    {
@@ -192,18 +192,18 @@
   ],
   "geo": [
    {
-    "title": "Rubio Says ‘Major Combat Operations’ in Iran Are No Longer Needed",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBrQUZIQWJmVUlLaWdNbHdtam9DM0o4SnNjNEhDYXdDcEJJTXBwbVQybkZhTEttb1hUYVczU0dvMHdSNnhEUFl5RDIzQ2kzM3RkSG5GQk9ZNkJ1Q0RiQ1NDNVlNN3YzODBzYS1GMGZLOUZVdWg0?oc=5",
+    "title": "No Good Choices on Iran",
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPMFVWdTR1NV9jUHc1LTR5cUNwYjFTSTRXMlNxU1RGZk82WUE4a3d2OG1XODc4a1hkYWxZOWRYd2NGaWF1V2Q4cy01dmZYX2dTZDlNdzhqdXdQVjQyRWI5Y3ZINGRyenRDc05fMVE5ZHlMQjdjZmhwOVF2VjNZQnJmdzB3?oc=5",
     "source": "The New York Times",
-    "published": "2026-11-10T19:33:48+00:00",
+    "published": "2026-11-10T20:40:21+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Hegseth lays it on thick for Trump to shave off fallout from Iran war",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPVW1RdWsweVdxekFfNjlZcFVKTElyR1BwNEpIeXIzMWJlQ25DTTRjSVVMeF9OT0J3TjRQUlgxMkU3VFlBWm1PWUV1Q3pRV0pxZVJpa2ZlN3c1b2hPclpVRjNJLVp4eTFjQWh1bm5XZURudWxZVWtjUFgtb3BiQ0Itc2UtdWhmWjg0cWpteWpMRE1HdEk?oc=5",
-    "source": "The Guardian",
-    "published": "2026-11-10T19:33:00+00:00",
+    "title": "Iraq blocks Iranian football team’s plane from landing over US sanctions",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNEpsMHpRVXBkcHFfSUNZQy1sZWJHSENaZDZlRVQwbFFzajc5U292bU1ZS3J0TTFIRVN2a2pOeXNTMUxLY1VRNDVsLVFIU21VM3pva19FcjNxNzh0YkNYb2NIeW16ME5lZ1dBbUVzYlVSTWlWeXRlMk85OGpvV2dqcVFkTXBIMmdnNEhqMFhKX2RHclVvX3VDRkRaNDZxY1BlZHoyYmx5MFd4dXJvYTRHYTRfUjAzVzZGdUktVUh3cE7SAcYBQVVfeXFMTmJYT2NKNS1fY19NeHhFc25vVHlPWVRLRDBSQUE1TDh4ZWNpVXRLc0NFUmZ2dmQ5cHFQUmhOY2pMcVpfVWNTTkM2WlRZR09yODNDRE8yOUxSRnJ3N1ZXR05aNHVTR2pObFJtSHM4SC1pX0ozQUJGa00zRkYxeGR0Q3NiMEd4SDlBbm9NTWxLVkotS3NKR0x5RlBTVnJEbDZIcEFoTGRTWGhOSjZQUG9wRS03MW45aWlLWmplLTdxUS1TbEZzVVhB?oc=5",
+    "source": "Al Jazeera",
+    "published": "2026-11-10T20:23:28+00:00",
     "lede": null,
     "lang": "en"
    }
