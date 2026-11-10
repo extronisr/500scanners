@@ -50,13 +50,21 @@ MIN_COVERAGE = 0.90   # below this share of data fetched, "no results" is not tr
 
 
 
-TV_SECTOR_SYMBOLS = ["XLK", "XLC", "XLY", "XLF", "XLV", "XLI", "XLE", "XLP", "XLU", "XLB", "XLRE"]
+TV_SYMBOLS = [
+    ("AMEX:XLK", "XLK"), ("AMEX:XLC", "XLC"), ("AMEX:XLY", "XLY"), ("AMEX:XLF", "XLF"),
+    ("AMEX:XLV", "XLV"), ("AMEX:XLI", "XLI"), ("AMEX:XLE", "XLE"), ("AMEX:XLP", "XLP"),
+    ("AMEX:XLU", "XLU"), ("AMEX:XLB", "XLB"), ("AMEX:XLRE", "XLRE"),
+    ("NASDAQ:SMH", "SMH"), ("NASDAQ:SOXX", "SOXX"), ("AMEX:IGV", "IGV"), ("AMEX:DRAM", "DRAM"),
+]
 TV_PREMARKET_BLOCK = (
-    '<h3 class="sec">מגזרים · מסחר מוקדם ואחרי שעות (חי)</h3>'
-    '<div class="ts">כל כרטיס מציג את הסגירה האחרונה ומתחתיה שורת "PRE MARKET" / "POST MARKET" '
-    'עם שעת הציטוט והשינוי מול הסגירה. ווידג׳ט רשמי של TradingView, מתעדכן בדפדפן בלי תלות בסריקה.</div>'
-    '<div id="tvsec" class="tvsec" dir="ltr"></div>'
-    '<script>(function(){var syms=' + json.dumps(["AMEX:" + x for x in TV_SECTOR_SYMBOLS]) + ';'
+    '<details class="tvwrap" open><summary class="sec" style="cursor:pointer">'
+    'מגזרים וקרנות נושאיות · מסחר מוקדם ואחרי שעות (נתונים מושהים)</summary>'
+    '<div class="ts">11 קרנות המגזרים של S&P 500 + SMH, SOXX, IGV, DRAM. בכל כרטיס: הסגירה האחרונה, ומתחתיה שורת '
+    '"PRE MARKET" / "POST MARKET" עם מחיר, שינוי מול הסגירה ושעת הציטוט (שעון ישראל, GMT+2). '
+    'הנתונים מושהים: TradingView רשאית להציג בווידג׳טים נתוני מניות מושהים בלבד (בדרך כלל כ-15 דקות), לכן שעת הציטוט היא הקובעת. '
+    'ווידג׳ט רשמי של TradingView, מתעדכן בדפדפן ללא תלות בסריקה.</div>'
+    '<div id="tvsec" class="tvsec" dir="ltr"></div></details>'
+    '<script>(function(){var syms=' + json.dumps([x[0] for x in TV_SYMBOLS]) + ';'
     'var box=document.getElementById("tvsec");if(!box)return;var done=false;'
     'function load(){if(done)return;done=true;syms.forEach(function(s){var c=document.createElement("div");'
     'c.className="tradingview-widget-container tvcard";var w=document.createElement("div");'
@@ -68,7 +76,8 @@ TV_PREMARKET_BLOCK = (
     'if("IntersectionObserver" in window){new IntersectionObserver(function(e,o){if(e[0].isIntersecting){o.disconnect();load();}}).observe(box);}else{load();}'
     '})();</script>'
     '<style>.tvsec{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:8px;min-height:120px}'
-    '.tvcard{border:1px solid #e3e3e3;border-radius:10px;background:#fff;overflow:hidden;min-height:150px}</style>'
+    '.tvcard{border:1px solid #e3e3e3;border-radius:10px;background:#fff;overflow:hidden;min-height:170px}'
+    '.tvwrap>summary{list-style:none}</style>'
 )
 
 def fail(section, detail):
