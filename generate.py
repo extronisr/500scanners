@@ -75,7 +75,7 @@ TV_PREMARKET_BLOCK = (
     'var w=document.createElement("div");w.className="tradingview-widget-container__widget";c.appendChild(w);'
     'var sc=document.createElement("script");sc.async=true;'
     'sc.src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-info.js";'
-    'sc.text=JSON.stringify({symbol:s,width:"100%",locale:"en",colorTheme:"light",isTransparent:true});'
+    'sc.text=JSON.stringify({symbol:s,width:W,locale:"en",colorTheme:"light",isTransparent:true});'
     'c.appendChild(sc);card.appendChild(c);});}'
     'if("IntersectionObserver" in window){new IntersectionObserver(function(e,o){if(e[0].isIntersecting){o.disconnect();load();}}).observe(box);}else{load();}'
     '})();</script>'
