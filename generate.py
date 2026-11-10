@@ -49,41 +49,6 @@ dip_meta = {"coverage_ok": True, "vfrac": None}
 MIN_COVERAGE = 0.90   # below this share of data fetched, "no results" is not trustworthy
 
 
-
-TV_SYMBOLS = [
-    ("AMEX:XLK", "XLK"), ("AMEX:XLC", "XLC"), ("AMEX:XLY", "XLY"), ("AMEX:XLF", "XLF"),
-    ("AMEX:XLV", "XLV"), ("AMEX:XLI", "XLI"), ("AMEX:XLE", "XLE"), ("AMEX:XLP", "XLP"),
-    ("AMEX:XLU", "XLU"), ("AMEX:XLB", "XLB"), ("AMEX:XLRE", "XLRE"),
-    ("NASDAQ:SMH", "SMH"), ("NASDAQ:SOXX", "SOXX"), ("AMEX:IGV", "IGV"), ("AMEX:DRAM", "DRAM"),
-]
-TV_PREMARKET_BLOCK = (
-    '<details class="tvwrap" open><summary class="sec" style="cursor:pointer">'
-    'מגזרים וקרנות נושאיות · מסחר מוקדם ואחרי שעות</summary>'
-    '<div class="ts"><b>נתונים מושהים · שעת הציטוט מופיעה בכל כרטיס (GMT+2)</b> · '
-    '<details class="src"><summary>על המקור</summary>'
-    'ווידג׳טים רשמיים של TradingView לקרנות המגזרים של S&P 500 (11) וכן SMH, SOXX, IGV, DRAM. '
-    'הסגירה האחרונה מוצגת בכל כרטיס, ומתחתיה שורת PRE MARKET או POST MARKET עם שינוי מול הסגירה. '
-    'TradingView רשאית להציג בווידג׳טים נתוני מניות מושהים בלבד; ההשהיה ותדירות הציטוט משתנות בין קרנות '
-    '(קרן שנסחרת מעט יכולה להציג ציטוט ישן יותר). העדכון מתבצע בדפדפן ולא תלוי בסריקה.'
-    '</details></div>'
-    '<div id="tvsec" class="tvsec"></div></details>'
-    '<script>(function(){var syms=' + json.dumps([x[0] for x in TV_SYMBOLS]) + ';'
-    'var box=document.getElementById("tvsec");if(!box)return;var done=false,W=500;'
-    'function load(){if(done)return;done=true;syms.forEach(function(s){var card=document.createElement("div");'
-    'card.className="tvcard";box.appendChild(card);var cw=card.clientWidth-2;var z=Math.min(1,cw/W);'
-    'var c=document.createElement("div");c.className="tradingview-widget-container";c.style.width=W+"px";c.style.zoom=z;'
-    'var w=document.createElement("div");w.className="tradingview-widget-container__widget";c.appendChild(w);'
-    'var sc=document.createElement("script");sc.async=true;'
-    'sc.src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-info.js";'
-    'sc.text=JSON.stringify({symbol:s,width:W,locale:"en",colorTheme:"light",isTransparent:true});'
-    'c.appendChild(sc);card.appendChild(c);});}'
-    'if("IntersectionObserver" in window){new IntersectionObserver(function(e,o){if(e[0].isIntersecting){o.disconnect();load();}}).observe(box);}else{load();}'
-    '})();</script>'
-    '<style>.tvsec{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,500px),1fr));gap:8px;direction:ltr}'
-    '.tvcard{border:1px solid #e3e3e3;border-radius:10px;background:#fff;overflow:hidden;min-height:90px;direction:ltr}'
-    '.tvwrap>summary{list-style:none}</style>'
-)
-
 def fail(section, detail):
     failures.append((section, detail))
 
@@ -2202,7 +2167,6 @@ def build_html(mh, dips, alerts, bo, updated, extra=None):
                     "<small>פירוט נוסף, לא מגזר במפה</small></span>"
                     f"{pct2(xr['day_pct'])}</div>")
             parts.append('<div class="ts">11 מגזרי S&P 500 באמצעות קרנות סל ענפיות · Yahoo Finance</div>')
-            parts.append(TV_PREMARKET_BLOCK)
         parts.append('<h3 class="sec">המבט הרחב · מדדים</h3>')
         parts.append('<div class="idxgrid">')
         for ix in ov["indices"]:
