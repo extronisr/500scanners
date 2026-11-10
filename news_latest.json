@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-10T23:01:08.149008+02:00",
+ "generated_at": "2026-11-11T00:01:01.043287+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -9,6 +9,14 @@
  },
  "sections": {
   "analysts": [
+   {
+    "title": "Buy this data center-linked stock primed to rally nearly 60%, says Jefferies",
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQc1l0QURVd3E0RERlaGtRS2Zhd21YX2Fyc01OeG5vaGN3c1pzRlQ4cGlZc3JQem1BZnZ3bzdRanl2Tmk3Y2tOUElxQ3loMHRKWi05N29wXzVEdlJPSGd2UmFjN3hHQXBWTE1uV0hKdzAxZTFENThQLVJSSDhDd09UYzJxSTdldw?oc=5",
+    "source": "CNBC",
+    "published": "2026-11-10T12:03:03+00:00",
+    "lede": null,
+    "lang": "en"
+   },
    {
     "title": "WULF, HUT, CIFR Stocks Get Price Target Cuts From Jefferies: Here’s Why The Analyst Is Still Bullish On These AI Infra Firms",
     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQ0o0c0otMWRjT2hBSmEzVlh1NVRmWGZKWXQ2a2NBT3UyZ0xYNHloSFpXako2WTgwdHFWemduRE81U3NyVmpSUDEwR3liSXJGbnI0dW9QYWM0VDJMV3MwQnB5WklzU1pDcWwyVzhxendvOE4walVKaDE0aDZzS1pkUFBSRjR0czNFekQtUWxPTEV0Y29sVUE?oc=5",
@@ -40,99 +48,73 @@
     "published": "2026-11-10T00:00:00+00:00",
     "lede": null,
     "lang": "en"
-   },
-   {
-    "title": "CoreWeave May Benefit From Blue Wave’s Potential Data Center Slowdown, Analyst Says Ahead of Q3 Results",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdEpLdU5uU1gtajh2cGgxMU1RLURUMlZaTlV4ZWdDMDlFN0xvT1A3MUp3T3RXTTdGT1pKcVhPUk1zTXNNcjM2WnR5NUEzdWpadUlFOGp2MC1xb0I1a0wwWlJfdGdmSzN3SmU1ZVJOTkJWSTF4OWdHNEZMQlJUejltaTFpc1dJc1c2WS1fNUcyMGRuTVZqTDRCdTQ0aw?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-10T18:36:44+00:00",
-    "lede": null,
-    "lang": "en"
    }
   ],
   "us": [
    {
-    "title": "Ignore the wild swings in chip stocks until they reach these ‘lines in the sand’",
-    "url": "https://www.marketwatch.com/story/ignore-the-wild-swings-in-chip-stocks-until-they-reach-these-lines-in-the-sand-feb6e00f?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-10T20:53:00+00:00",
-    "lede": "Investors shouldn’t pay much attention to how the SOX chip-sector index trades until it reaches key technical battleground areas above and below current levels.",
+    "title": "White House vows to press ahead with tariffs despite midterm backlash over rising prices",
+    "url": "https://www.cnbc.com/2026/11/10/trump-tariffs-midterms-gary-cohn-inflation.html",
+    "source": "CNBC",
+    "published": "2026-11-10T21:45:46+00:00",
+    "lede": "Business executives warned at a Washington summit of rising costs and shifting supply chains as polls showed growing opposition to Trump's tariffs.",
     "lang": "en"
    },
    {
-    "title": "3 Vanguard ETFs to Buy and Hold Forever",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNY2psMFhCMVNrMEJiLWlBNFR3RVgtM0ZGQ1RuVHB1TDVtM28zYU9NN1hud2hKTk41SWxsR29TLU9fdzFOZVNmaW5JS0VEeE1kZjdWdWdQUmpJX1lqallmaWRXNWQtTlhYNGVQR2NpWmcyc3FkbFp5ck95dEpGZkRTaGRlWkhkNzVUMXN0NTZtSDVjN1E?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-10T20:47:02+00:00",
+    "title": "General Motors Co. stock underperforms Tuesday when compared to competitors",
+    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQemF4aUVzQkMzSzE0SlRiZ0t0NHR2N3FaUlBTZDAxYkRDZVhmLVpJZGlBVklCcmZ1ZElHTUl3bDdnMktCb1NqOWF4akNDUXROLThxVFB5cTYtT0Y3UHBfODA4TDN4OGx5bW43VDFiU2o1MHJrWW9GX1BpYmdpWktPZm0tSkh0Skh3RlFoZzltQU5odVFpREpLcUlaOHp2Q3JEUW5uT3E1U0VsV01lMmRxS0lYVzdFT2lubnJWaWlWN2k4SnViS1ZtRzRrd1JJdEtLY0l3cXFadk9Jd3V6TElYNkhzUjRjcms?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-11-10T21:44:00+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Nvidia could soon face tougher export rules, making it harder to sell chips to China after scandal",
-    "url": "https://www.marketwatch.com/story/nvidia-could-soon-face-tougher-export-rules-making-it-harder-to-sell-chips-to-china-69c88cc8?mod=mw_rss_topstories",
+    "title": "Williams Cos. stock outperforms competitors on strong trading day",
+    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQMWVQb093R1lEczczWmFjLVpLQlhVT2oyQnRELWZxR0dyNUxnS0kwck5SSVJDdElIV2RqMTNQMEluZWc1Wng0SEU3Yk9ZQ0xCYWdlTUx3cF95UW01X2tleWd0UkxpOWdwMjJ3LVBiRFNTS0dfQUt1aWVzNTdnYVMweUJVLW51X0tnQjhMMzk2MWxTcEJzNHdhMHQxbFJqa3laR00zbnh1TUtxZmNvaXUtNUwtdVNkTlpmSm1kQVBDaGluUlNhdzhCcmlrNmxkdGJpd1NOYkhjUU1EUQ?oc=5",
     "source": "MarketWatch",
-    "published": "2026-11-10T20:37:00+00:00",
-    "lede": "“There is growing momentum for these bills in light of the Jensen Huang spy scandal,” one analyst says.",
+    "published": "2026-11-10T21:43:00+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Stocks fall as the 10-year Treasury yield nears 5% mark",
+    "url": "https://www.marketwatch.com/story/why-stocks-are-falling-and-10-year-yields-are-climbing-back-near-5-after-tuesdays-inflation-report-389b8392?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-10T21:42:00+00:00",
+    "lede": "“I don’t think they should be raising another 25 basis points,” one portfolio manager said about the Federal Reserve’s benchmark interest rate.",
+    "lang": "en"
+   },
+   {
+    "title": "The Estée Lauder Companies 2026 Annual Meeting of Stockholders to Be Held on November 17, 2026",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPcFJMNGRaRXRTaU1sYUJrOWtMLV80RVkwZUFKT2FfRFNqcmpTaHYzdk1OMkw2RDlmbWJvVG5pd1A5SldfS3dyRGJzWjFfYzFEV2Z1UUdCS2pWbWwwU2dMQ2Rhc3M5cklVOXpRdWloMVBuejJ6QmhHaHJ0OC1SR1ZzNXlUSkJXQjlJRWctb3EtempzRmxqVUhV?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-10T21:40:00+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Homeowners tap equity as HELOC balances post biggest jump since 2005: New York Fed report",
+    "url": "https://www.cnbc.com/2026/11/10/heloc-balances-new-york-fed.html",
+    "source": "CNBC",
+    "published": "2026-11-10T21:37:43+00:00",
+    "lede": "The rise in balances on HELOCs marks the 18th consecutive quarterly increase, according to a new report from the Federal Reserve Bank of New York.",
     "lang": "en"
    },
    {
     "title": "GE Vernova sellers have it all wrong — plus, why Fed rate hike odds are soaring",
     "url": "https://www.cnbc.com/investingclub/2026/11/10/ge-vernova-sellers-have-it-all-wrong-plus-why-fed-rate-hike-odds-are-soaring.html",
     "source": "CNBC",
-    "published": "2026-11-10T20:33:58+00:00",
+    "published": "2026-11-10T21:36:13+00:00",
     "lede": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
     "lang": "en"
    },
    {
-    "title": "Capital Increase in Genmab as a Result of Employee Warrant Exercise",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRkhwNEROSTFkODZxWUJHTUt0X1VFRFNoX19MWWJmX01vX1Z0OGdUd0drbk90Tmx3c3lua3dOYVdELVA0Ukx5cl9lSUpnVmdVNm12N2NvT0ZXMDVOMm5IbFRiT09VMWthUXluN29lMUMxMjdxbWMyeUV2WWlhaXloVlB1QjJDNXJLbG1CclVjNXQtWS1IR1pYNEpaMlAtbjM1NWJ2TDlKVQ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-10T20:32:00+00:00",
-    "lede": null,
+    "title": "How the stock market has performed after Veterans Day over the past decade",
+    "url": "https://www.marketwatch.com/story/how-the-stock-market-has-performed-after-veterans-day-over-the-past-decade-7b47233e?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-10T21:29:00+00:00",
+    "lede": "The stock market is open Wednesday on Veterans Day, but not the bond market",
     "lang": "en"
    },
-   {
-    "title": "White House vows to press ahead with tariffs despite midterm backlash over rising prices",
-    "url": "https://www.cnbc.com/2026/11/10/trump-tariffs-midterms-gary-cohn-inflation.html",
-    "source": "CNBC",
-    "published": "2026-11-10T20:28:02+00:00",
-    "lede": "Business executives warned at a Washington summit of rising costs and shifting supply chains as polls showed growing opposition to Trump's tariffs.",
-    "lang": "en"
-   },
-   {
-    "title": "Prediction: Nov. 18 Will Be a Huge Day for the Stock Market",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNWU0xYU9DckhqWVBtUTdIMmhHc3RPRHFDMlA1aXExSnl0Q3RLMFhUTU0tTm5obkhRWm9jU1JnaDU3SWk2b1VSY0xvTC13SzJiZXozczduQVJMdVRCNU1wcVl2NVRKRm9obVN1cHJBeXhVWUdmYWxZU3daOS1mNURjMUJCeXJYWEtZOEZsR3FuY1dUVC1MRlE?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-10T20:20:02+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "US regulator postpones Wall Street push to trade AI computing futures",
-    "url": "https://www.ft.com/content/269b0245-44c4-4e34-94df-202bef642539?syn-25a6b1a6=1",
-    "source": "Financial Times",
-    "published": "2026-11-10T19:58:11+00:00",
-    "lede": "The Commodity Futures Trading Commission raises concerns over price manipulation as exchanges race to create new asset class",
-    "lang": "en"
-   },
-   {
-    "title": "Traders bet on a pop for Anthropic's historic IPO",
-    "url": "https://www.cnbc.com/2026/11/10/traders-bet-on-a-pop-for-anthropics-historic-ipo.html",
-    "source": "CNBC",
-    "published": "2026-11-10T19:51:18+00:00",
-    "lede": "Perpetual futures traders see Anthropic popping on its IPO",
-    "lang": "en"
-   },
-   {
-    "title": "Falkland Islanders face ‘devastating consequences’ if Argentina blocks oil project, says UK",
-    "url": "https://www.theguardian.com/world/2026/nov/10/uk-and-argentina-clash-over-falklands-oil-project-as-hamburg-tribunal-starts",
-    "source": "The Guardian",
-    "published": "2026-11-10T19:01:33+00:00",
-    "lede": "Countries clash over Sea Lion project as Hamburg tribunal risks deepening sovereignty dispute The people of the Falkland Islands face “devastating consequences” if Argentina is successful in blocking development of its…",
-    "lang": "en"
-   }
-  ],
-  "il": [
    {
     "title": "בעקבות האינפלציה הגבוהה, וול סטריט קטעה יומיים של עליות",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001562654#utm_source=RSS",
@@ -141,6 +123,16 @@
     "lede": "נאסד\"ק ירד ב-0.7% • מדד המחירים לצרכן בארה\"ב לחודש אוקטובר הציג עלייה חודשית של 0.4%, מעט מעל לציפיות הכלכלנים • מניית אנבידיה איבדה כחצי טריליון דולר ביומיים משוויה והיא נסחרת במכפיל רווח עתידי של 11.5, הכי נמוך מזה 15…",
     "lang": "he"
    },
+   {
+    "title": "US regulator postpones Wall Street push to trade AI computing futures",
+    "url": "https://www.ft.com/content/269b0245-44c4-4e34-94df-202bef642539?syn-25a6b1a6=1",
+    "source": "Financial Times",
+    "published": "2026-11-10T19:58:11+00:00",
+    "lede": "The Commodity Futures Trading Commission raises concerns over price manipulation as exchanges race to create new asset class",
+    "lang": "en"
+   }
+  ],
+  "il": [
    {
     "title": "הקפאת חיבורים לרשת החשמל: הסיבה שמניית עזריאלי ירדה",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001562714#utm_source=RSS",
@@ -163,6 +155,14 @@
     "source": "גלובס",
     "published": "2026-11-10T17:59:00+00:00",
     "lede": "הבורסה בתל אביב מסכמת רבעון חזק נוסף: ההכנסות ברבעון השלישי עלו ב-19% והרווח הנקי זינק ב-37%",
+    "lang": "he"
+   },
+   {
+    "title": "בהיקף של 32 מיליון שקל: רפאל מתרחבת בפארק המדע בחיפה",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562801#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-10T17:34:00+00:00",
+    "lede": "החברה חתמה על הסכם לחמש שנים לשכירת שתי קומות נוספות בבניין בבעלות קבוצת מבנה והחברה הכלכלית לחיפה, תמורת כ־32 מיליון שקל",
     "lang": "he"
    },
    {
@@ -192,18 +192,18 @@
   ],
   "geo": [
    {
-    "title": "No Good Choices on Iran",
-    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPMFVWdTR1NV9jUHc1LTR5cUNwYjFTSTRXMlNxU1RGZk82WUE4a3d2OG1XODc4a1hkYWxZOWRYd2NGaWF1V2Q4cy01dmZYX2dTZDlNdzhqdXdQVjQyRWI5Y3ZINGRyenRDc05fMVE5ZHlMQjdjZmhwOVF2VjNZQnJmdzB3?oc=5",
-    "source": "The New York Times",
-    "published": "2026-11-10T20:40:21+00:00",
+    "title": "You’ll hear the usual cliches about war this Remembrance Day – why does Australia refuse to learn the true lessons of history? | Paul Daley",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNN21Ccldfdm5ocVNLMU9ydGh3bVd2VlMtRTFZTUhtZV9pY0QxaHVuMUUzWGdiYnFSWk4zWjZvVzFvblNiR1J6MFBDNG5BdFV0YzZCTjRBVVZOSktDS01oaE1PZk4tczlpZlBFTEtCalctdzVqRUdRd1NhRFo2M1ZobTJkbUwzaUNlYnZYc2dEcTVzdmFSbW1PYlM3ek80XzY4cmswajc5OW50UUE?oc=5",
+    "source": "The Guardian",
+    "published": "2026-11-10T21:24:00+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Iraq blocks Iranian football team’s plane from landing over US sanctions",
-    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNEpsMHpRVXBkcHFfSUNZQy1sZWJHSENaZDZlRVQwbFFzajc5U292bU1ZS3J0TTFIRVN2a2pOeXNTMUxLY1VRNDVsLVFIU21VM3pva19FcjNxNzh0YkNYb2NIeW16ME5lZ1dBbUVzYlVSTWlWeXRlMk85OGpvV2dqcVFkTXBIMmdnNEhqMFhKX2RHclVvX3VDRkRaNDZxY1BlZHoyYmx5MFd4dXJvYTRHYTRfUjAzVzZGdUktVUh3cE7SAcYBQVVfeXFMTmJYT2NKNS1fY19NeHhFc25vVHlPWVRLRDBSQUE1TDh4ZWNpVXRLc0NFUmZ2dmQ5cHFQUmhOY2pMcVpfVWNTTkM2WlRZR09yODNDRE8yOUxSRnJ3N1ZXR05aNHVTR2pObFJtSHM4SC1pX0ozQUJGa00zRkYxeGR0Q3NiMEd4SDlBbm9NTWxLVkotS3NKR0x5RlBTVnJEbDZIcEFoTGRTWGhOSjZQUG9wRS03MW45aWlLWmplLTdxUS1TbEZzVVhB?oc=5",
-    "source": "Al Jazeera",
-    "published": "2026-11-10T20:23:28+00:00",
+    "title": "Iraq bars plane carrying Iran's soccer team from landing in Basra over US sanctions, officials say",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPNXZLZlE1TldPUHRna1pNTU91YTJWVHJ5NmxEZERoWGFudjU4WFI1SHlqVXl1TzFmeHBFcjNjZHhOTkNSVTIzcmFsbnktdzR3MDFaY2FYQzVlaHhBc3V5Nm52R3pvZU5vdHJhZndaV3R2LXh1cVZxUkhvcDQ0Z3lMNXA2THdaM05kZVpNOWliNGQ0cHBNOFhYYU44U3hWaVRkYldWNS11ZUtwNUs5YjBJbVdLYjhidklfMnZwYWVwRHpyMGYyMS1Z?oc=5",
+    "source": "Reuters",
+    "published": "2026-11-10T21:11:43+00:00",
     "lede": null,
     "lang": "en"
    }
