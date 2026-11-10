@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-10T02:31:02.156651+02:00",
+ "generated_at": "2026-11-10T03:31:05.545622+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -52,27 +52,43 @@
   ],
   "us": [
    {
-    "title": "Amaero Q3 Earnings Call Highlights",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQUHg2REJjVzYyZWtHOUZWU0x1UXRuMi0xUUYzYUFMemNqUUtPZEwwREJ6UjJabkZYV1BHWDAxQ01obU1MZmxPRC1SWGNIQldGV2hvQVZ6Tl9Jd2pjdmVObnRpTVAwWjN5SlFpcjVUSzdCU0VYLUdPQjlyZkFhdzJFc2pXQktGWFdhOTRvZ2tUaVdwNjUyODhweGFBRHhxS2Vs?oc=5",
+    "title": "Why Lincoln Educational Stock Surged Today",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbzhDZVc1eno5NFRseGVMcExqNmw0SnhVTHFscHhWU1RhR0ZxRFRqemtnYmdoQ2JfdEFqaENYWWljUXNyLWM4MWlQTV9ZVkVyREZ0V29zTndQSkRBc1pMVm8wa3I1Z1hza1BuckluZldINGxXbVFYSGZzZ1BvbkVtWERYVHFiS1FrMXhmRkk1cTNpN21xdkdtTTY4VlRPSmNEN2dN?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-10T00:27:58+00:00",
+    "published": "2026-11-10T01:27:03+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Formation Securities Plans Tokenized Stock Venue on Solana",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMG0yZnBjRk5uY0RZNTJFUkViRkdING56M3JDTDd0dlY1Rmh5b3hzZW9zZ2Joem5sdVBINUNRU25nLW55RjFQY1Z4Z2g5SUh6cWIweHhuVWgxVXhyRHZOcUtNWk5XNmFZM1hsQmhnYjNDRGVYa3E1d3RkSWdJZHBEei1qN3RwZDNMS3RjZV94czU3WHlhaFY5UlVrb2ZnQmZrZ2dISkY0MXJkTFE?oc=5",
+    "title": "Why Clarus (CLAR) stock is up today",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWDdEM3l4d1IwRVVWVFJVSm9Id3RFck94bUY4VWZjQU5CUHFzdlJURjRtMGpTUWtjMW9wYTBQNWh6VTVNaGU2d0cwUXVvZ2VHNllpNWwzeXZaSkl2dDdsOHY5Um9NTElXYjE4bElHNWxMYnMzNS1OMW1JeXhQOE1MWmMwOGxJOTNldEdXZEVNRE9UUDc5RVA0?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-10T00:27:18+00:00",
+    "published": "2026-11-10T01:27:03+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Aberdeen Announces $1M Financing",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZ25uZnJBQWNjQXJJbWZyREN6T1Q1elNEX2thVVZKdUZIeHVNS3p5bmhCNW9oVlA5RDlqYW5iS0E5SlhtYXlGekZWd2UzNG9KWmNSVFhYbGtPNXY1VE1pOVBGcmVOd3o5amFMLWhNRjc3N2VLYjdJQmpQRUI4TG9TLU1QXy1LX1RqU182TDZ4RDBVMmYyQmlaVUZwMXQ?oc=5",
+    "title": "Q3 Earnings Season Winners: 3 Companies Raising Guidance",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPOTZtaTdMUURUeHVpcGxXZXBkU1dQcG9xdk1PN2dRbk84UEdaTU5kQlViUXBES1NkSVFwSF9kYXdHMlpKU0czV1h5SE5Jc2ZWS0lIZjdFbS1CQU4yc2c2R05TaTN0Rmk4bC10Nlp5UXN6dDlqNWdON1d3eFZYNmpsalFHTlprenpxY25fSWM3RVloazhJci1fQQ?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-10T00:11:52+00:00",
+    "published": "2026-11-10T01:27:03+00:00",
     "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "SoftBank Group shares surge 11% as Asian tech stocks rally after Wall Street rebounds",
+    "url": "https://www.cnbc.com/2026/11/10/ai-softbank-sk-hynix-samsung-wall-street-tech-stocks.html",
+    "source": "CNBC",
+    "published": "2026-11-10T01:26:53+00:00",
+    "lede": "A sharp decline in oil prices lifted sentiment while renewed buying in semiconductor names overnight spilled over into Asia, following last week's bruising sell-off.",
+    "lang": "en"
+   },
+   {
+    "title": "The short seller who saw signs of Nvidia’s China scandal months ago claims Megaspeed isn’t the only company helping China access chips",
+    "url": "https://www.marketwatch.com/story/the-short-seller-who-saw-signs-of-nvidias-china-scandal-months-ago-claims-megaspeed-isnt-the-ony-company-helping-china-access-chips-9877f544?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-10T00:48:00+00:00",
+    "lede": "‘We were confident in the research initially, and we’re still confident in it now,’ says Christian Lamarco, founder of Culper Research",
     "lang": "en"
    },
    {
@@ -105,22 +121,6 @@
     "source": "MarketWatch",
     "published": "2026-11-09T22:49:00+00:00",
     "lede": "The rocket-launch company just posted a steeper loss than analysts were expecting.",
-    "lang": "en"
-   },
-   {
-    "title": "3 unexpected reasons the October jobs report was so strong",
-    "url": "https://www.cnbc.com/2026/11/09/october-jobs-report-hiring-by-sector.html",
-    "source": "CNBC",
-    "published": "2026-11-09T22:23:56+00:00",
-    "lede": "October's jobs report blew past economist forecasts. Here are three reasons.",
-    "lang": "en"
-   },
-   {
-    "title": "As Nvidia’s stock falls, here’s what Wall Street has to say about the Jensen Huang scandal",
-    "url": "https://www.marketwatch.com/story/how-wall-street-is-reacting-to-the-news-of-nvidias-jensen-huang-investigation-into-spy-claims-d8c839ab?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-09T21:55:00+00:00",
-    "lede": "The fallout from the board’s new investigation could become “a longer-lasting problem for the company,” analysts say.",
     "lang": "en"
    },
    {
@@ -200,18 +200,18 @@
   ],
   "geo": [
    {
-    "title": "Trump says US seeing 'strong inclination' to end Russia's war in Ukraine",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOc21fOTJsSUt2S1FtclRIdUVUUnBmcVAyWjd2WkdvcWt4bEw4MUtmaFFoZF9EYlNCZUwzRVJtekFhMy1rWElPTUxwekhLQXRXT25pTWdLa2NGdkFteWtibmxSdUNOLWZEcUpjeVJtcTZ3S0ZWUWx4T3p1a2hwTTV5ZEp0amVHdHRsZ2hiM2E5QUQ2U2owd09vcDdKMmlZWEIyNEl3U1Fic2puR2hhendj?oc=5",
-    "source": "Reuters",
-    "published": "2026-11-09T23:15:43+00:00",
+    "title": "Trump: New Iran attacks \"quite unlikely\"",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOWmhpTVpNQWZvRlZVdVMtWFNXZldjWXhfVURkUDVZNmNyVENYU0JrN09FbVotWkozWEtxcjEwZ1liRGFwOHhzNlRCcjVWU2c2cUNERk9tSVBLdGZjUm5Yc0Fka3hSc0NpemV0d0pGYmVfMmF2S3NUV0FQeVBUclExeGtPTjdxQ2lXd1pn?oc=5",
+    "source": "Axios",
+    "published": "2026-11-10T01:17:06+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Trump says US war in Iran ‘effectively over’ as he plays down escalation concerns",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE82aVVBM1M2V2JiUGZLeXU4Xzd6YmV3RVNpVnhPM3U1bFdPYmRUcjNtc3d6YldOczdHNmN4Umx5MmU4eldmbGxSTUdBSW5DaU9xUVRqQ2E4UWZ3bzhjaXE2MFg1TEVkUGtENzllWU5XOA?oc=5",
-    "source": "The Guardian",
-    "published": "2026-11-09T23:12:00+00:00",
+    "title": "The Iran War Unexpectedly Drove Down Carbon Emissions This Year",
+    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE41YnJEdXJIUUJDd0FYYVVtUnVDZnBPSDhZQnBaRk93cFdRZEs3U0NKd2VWaVh2ODZwVVpURGhaWEJVbjdMY2llRkNuMW82dnA1cjQ1TkxobWZPQkRONE9NVzdEVlZHWjJTNU5sdFJ0ZElac2I1Rk8zOC1ILXdRQQ?oc=5",
+    "source": "The New York Times",
+    "published": "2026-11-10T01:01:05+00:00",
     "lede": null,
     "lang": "en"
    }
