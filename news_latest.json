@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-11T15:01:02.732020+02:00",
+ "generated_at": "2026-11-11T16:01:01.816272+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -9,6 +9,14 @@
  },
  "sections": {
   "analysts": [
+   {
+    "title": "WMT Stock Gets A Price Target Boost From BofA Ahead Of Q3 Earnings – Analyst Sees More Market Share Gains",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNYjJzWlk4ei1EX2lSbGFFT05kV2FYTXJPLVNNNlFZS0lMUjlFZllYMWhXQmhPdjVDa2JaTFl0cjhyTVFUR0N0T2VqeUdIU1FPNVdjUnpyZDJJYkJsaFk0Wk5EUkVURnZoNmp4VkYxbjZndHpMNlFnSnhMOUJ1emFXUWZlN1h3TU1ZYTIzaWI3RkR5RUs0Nk1z?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-11T13:22:37+00:00",
+    "lede": null,
+    "lang": "en"
+   },
    {
     "title": "Can The S&P 500 Keep Rising In 2027? UBS Bets On 8,900, But BofA Warns Of Crowded Trades",
     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQLWtfZy15cy0tWm0yVU9mRVRzR0dadkViYXJUY3RNWmR4dkFWRWZ0QmtpZ29Edml5blp1bGRjNjhIX2FxUVhyUHRJbEZna1VGUHJGZFVWTGhGdkVJX0Z1LThzTl9xdUlBNVhVYVk3czdzWGxXd3pjaU01T0Yzb1RpLVI0SDRpeTBteFlLMElPaGc?oc=5",
@@ -40,113 +48,121 @@
     "published": "2026-11-10T22:27:00+00:00",
     "lede": null,
     "lang": "en"
-   },
-   {
-    "title": "5 Stocks Analysts Just Downgraded",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNR1FFRktwY0Z1UXhGajRqWWplUzJuU0pFekMyaHpnMTFnWGdnalRyU0RLczhWOVQyeTF1Z2ZTaDdWNmhRNElEY0doQ3Q1VHpYcVhOakt2NDJLZ0QwSkNOeVFSUEpCWXRGbGtWcnJTWHZHNE0tSkN5d0ktUGRLdWhUUHVIbTl3TFYxc1JzUWFRaUNrSGcxTEN5V0JTeXNCcGs?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-10T22:22:54+00:00",
-    "lede": null,
-    "lang": "en"
    }
   ],
   "us": [
    {
-    "title": "האופטימיות חזרה לוול סטריט? החוזים על נאסד\"ק מזנקים בכ-2%",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562761#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-11T12:40:00+00:00",
-    "lede": "חברת מחשוב הענן קורוויב מזנקת במסחר המוקדם לאחר שפרסמה דוחות חזקים מן המצופה, והקלה במעט את החששות מפני החובות העצומים של חברות בתחום ה-AI",
-    "lang": "he"
-   },
-   {
-    "title": "AI Villain Turns Hero but Stock Market Chaos Is Just Getting Started",
-    "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNdElGdjBheHh1UDJyM3lZU1ZDM0ZUMWtLUlFqcFgxMjdDNkFwcVlxOFVoUUpwY2czV0JzMXZNMlRINXdBazlucFdnc3NMX3VuS1RQSEpKeXpFVVlUQy1hdTlVWGNBS041VWRHNGdfakFSMTk3Zmp3czNkSVliT3djRnJjakNYUm1GRjZSZjZiSF9MWnk1dlNtZXRib0hyOUdPWWhYdkU5Y3hUWjlTRHhCRWtrbURaWFM5TUJHQ0VfeFZRM0tUdnRFRGVUbmgwdUszbUZ6cm1XaHRfT19UVHpQM2ZEZm1LdGpLRlJSYXFzaFRObWI2bjExMUV6elZySHR2UWhUeENsbkVMcVNmUjYzZU5sbw?oc=5",
-    "source": "Barron's",
-    "published": "2026-11-11T12:38:00+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "US tech stocks set to extend rebound",
-    "url": "https://www.ft.com/content/639de881-6017-454f-abfa-cfb191d1e7cd?syn-25a6b1a6=1",
-    "source": "Financial Times",
-    "published": "2026-11-11T12:36:14+00:00",
-    "lede": "Sentiment boosted by better than expected CoreWeave results and the prospect of a higher IPO valuation for Anthropic",
-    "lang": "en"
-   },
-   {
-    "title": "Alphabet or CoreWeave: Which AI Stock Is Better to Buy in a Market Crash?",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPN2FDLU9JbWFNOW5BNnVqWFpHUzFVN1VpaFY5UGthS2FYRF94ZE04Zm1vdUlvdlEySVlCT3dpd2dxNXZsbTJlQ0RRdXFrRUNZYllZR1lqOEc5SUJOLVdMSEh5Q0JlZlJLYTd6cnpfYUNmV1d6M3VZVlNTcjQ3RDgwX2ZUcDJncHNnTTQ3QmJuaXZ4ZlZaOXlkTDFBUUNJT1N1?oc=5",
+    "title": "Nvidia stock rebounds, chip stocks surge as CoreWeave earnings boost AI trade",
+    "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxPZWdSbHUwUHp3b2d6LXhNcWR5NGpEeC1Nd2hsN2pUNHl3aVRrR09oSFhYdGQyNFVSdXVxZkZadDA1TTNwcV9ycF9jUlRJcnpSaUFnenIwdzlpM1g1V0lERE1ScEIwalZZb1JrYXVvVXZySUJyRmZXMmZWYmE5TlFUR2hmcy1Id20ydlB0dElabUtPU0l2WGI1dHZqNExXSmNZSEJCUmZhdnk2SklpeUlENWdwanVtZGFIdndGVXBQSUQ3V0dLbW5JZlktYWRSWlp3RVVnM3R2UlNuUTBqbG5kc0lnZzJpWmJaNFlITExJLVpkM1ZKUTQ4bWU4ekl4eVhod3h5Q0pUUmhobGZHRG05MUFoVU15OG5IUG9Xaw?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-11T12:35:00+00:00",
+    "published": "2026-11-11T13:54:39+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "How $300,000 in EWT Ends Up With $60,924 in a Single Chipmaker",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQYnkyelB6TGNYTk1ZakNuQVV0VVgzS1h3YzY2OUtSZ1hERHlTbHpZMUlHVWFmbzJlVXRuWF96bzV1T3hHVXR6VlNHNkN2T0RKNmROOXRQYkxiUDdvTi1iZnU0Sm9PQkdxN0lJS3dpaG5YU0RUNTFkbHNMZm83NTBOY3hDQ0RwMXpZYm4wWg?oc=5",
+    "title": "Little-Known CoreWeave CEO Line Helps Fuel 15% CRWV Stock Rally",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQWi1uTGdLWE9GWU9VT0w0b01RdWoyMEd3dWE1ZExnTjVWX240VEJFNEt4U3h5RFg0MWIzY0FhS216akpoMzhWd3hrZlBWNThlM0tFNndkT1F5V0c1YTl2V1dBcDRnTVlGbVpOYXAtdGE2SUJ6SG1rbjFNcFpJaEhzNk5jM2NaT0pKY1M2LU5sV1k5MWlTWHc2OGNacl8?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-11T12:33:55+00:00",
+    "published": "2026-11-11T13:52:43+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "מכה לאבן קיסר: הפרשת ענק הובילה להערת עסק חי",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562957#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-11T12:27:00+00:00",
-    "lede": "ההפסד המשפטי של יצרנית המשטחים בתביעה שהוגשה נגדה בקליפורניה הוביל לכך שהחברה סיימה את הרבעון השלישי עם הפסד נקי בגובה כ-56 מיליון דולר",
-    "lang": "he"
-   },
-   {
-    "title": "Market angst is driving investors into low-volatility stocks as AI trade stumbles",
-    "url": "https://www.marketwatch.com/story/market-angst-is-driving-investors-into-low-volatility-stocks-as-ai-trade-stumbles-23d905e9?mod=mw_rss_topstories",
+    "title": "Corporate America is making a trillion-dollar mistake about retirement",
+    "url": "https://www.marketwatch.com/story/corporate-america-is-making-a-trillion-dollar-mistake-about-retirement-234c8996?mod=mw_rss_topstories",
     "source": "MarketWatch",
-    "published": "2026-11-11T12:00:00+00:00",
-    "lede": "Anxiety in the U.S. stock market has surged amid a sharp selloff in artificial intelligence names and stubbornly high bond yields.",
+    "published": "2026-11-11T13:52:00+00:00",
+    "lede": "The market is dramatically underpricing the economic impact of Americans age 50 and older.",
     "lang": "en"
    },
    {
-    "title": "Private renters in the UK: how difficult is the rental market where you live?",
-    "url": "https://www.theguardian.com/money/2026/nov/11/private-renters-in-the-uk-how-difficult-is-the-rental-market-where-you-live",
-    "source": "The Guardian",
-    "published": "2026-11-11T11:29:02+00:00",
-    "lede": "We’d like to hear from private renters about rising costs, finding somewhere to live and dealing with landlords Private renters are facing steep rent rises and a shortage of affordable properties, with growing numbers…",
+    "title": "Fed's Goolsbee calls inflation report 'borderline disturbing' as central bank weighs more hikes",
+    "url": "https://www.cnbc.com/2026/11/11/goolsbee-october-inflation-fed-rates-disturbing-distressing.html",
+    "source": "CNBC",
+    "published": "2026-11-11T13:50:31+00:00",
+    "lede": "The consumer price index rose more than expected in October, raising alarm among Federal Reserve officials.",
     "lang": "en"
    },
    {
-    "title": "CoreWeave’s stock pops as new financing playbook eases debt concerns",
-    "url": "https://www.marketwatch.com/story/coreweaves-stock-pops-as-new-financing-playbook-eases-debt-concerns-70241525?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-11T11:27:00+00:00",
-    "lede": "A third-quarter revenue beat and $9 billion in planned prepayments gave investors renewed confidence in CoreWeave’s business.",
-    "lang": "en"
-   },
-   {
-    "title": "Nvidia shares rebound 5% as Huang faces scrutiny ahead of earnings",
+    "title": "Nvidia shares rebound 4% as Huang faces scrutiny ahead of earnings",
     "url": "https://www.cnbc.com/2026/11/11/nvidia-stock-jensen-huang-affair-china.html",
     "source": "CNBC",
-    "published": "2026-11-11T10:56:10+00:00",
+    "published": "2026-11-11T13:45:17+00:00",
     "lede": "Investors are assessing whether CEO Jensen Huang's affair will have spillover effects on Nvidia's business.",
+    "lang": "en"
+   },
+   {
+    "title": "SK Hynix Crumbled 25% Over The Last Month: 200% Returns Are a Distinct Possibility According to This Wall Street Firm",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbERPeUlsYy1mN1JLbTNyd09KSF80c2tyQTMzcEd2bF9UV0M0ZHg3RFpjNno2YVNRaGQtb19ieTFHcnJQdzJmRWZYSVVCckRyZ0FlYkQ3NENpQl9iY0tFclYtU05BYU5fbjlCNGFNNHU3bHp3c041RVpFaU5vLWtzNW5Xd1V0eEhOZVc1ZDhWd3ZLNkNM?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-11T13:45:04+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "קורוויב מציתה מחדש את הראלי במניות ה-AI: עליות חדות בחוזים בניו יורק",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562761#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-11T13:44:00+00:00",
+    "lede": "מניות השבבים מושכות את המדדים • אנבידיה מתאוששת, מייקל ברי: אנבידיה עשויה להפוך בקרוב ל\"עסקה מצוינת\" בטווח הקצר • חברת מחשוב הענן קורוויב מזנקת במסחר המוקדם לאחר שפרסמה דוחות חזקים והקלה במעט את החששות מפני החובות…",
+    "lang": "he"
+   },
+   {
+    "title": "CoreWeave stock pops 15% after outlook raise eases AI slowdown concerns",
+    "url": "https://www.cnbc.com/2026/11/11/coreweave-crwv-outlook-earnings-ai.html",
+    "source": "CNBC",
+    "published": "2026-11-11T13:36:50+00:00",
+    "lede": "Neoclouds such as CoreWeave, Nebius and IREN have come under scrutiny this month as investors assessed the sustainability of the AI trade.",
+    "lang": "en"
+   },
+   {
+    "title": "Diesel still costing close to a ’dismal’ £2 a litre despite oil price falls",
+    "url": "https://www.theguardian.com/money/2026/nov/11/diesel-prices-petrol-business-oil-hormuz",
+    "source": "The Guardian",
+    "published": "2026-11-11T13:30:27+00:00",
+    "lede": "Pump prices stay stubbornly high as leading bank official warns energy costs are likely to remain ‘elevated’ Business live – latest updates The price of diesel on UK forecourts remains stubbornly close to October’s…",
+    "lang": "en"
+   },
+   {
+    "title": "22 stocks of companies with tremendous sales growth",
+    "url": "https://www.marketwatch.com/story/22-stocks-of-companies-with-tremendous-sales-growth-78c3f750?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-11T13:06:00+00:00",
+    "lede": "These S&P 500 companies have also shown improving profit margins and free cash flow this earnings season.",
     "lang": "en"
    }
   ],
   "il": [
    {
-    "title": "מגמה מעורבת בתל אביב; מניית הבורסה צונחת אחרי הדוחות",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562842#utm_source=RSS",
+    "title": "היקף המשכנתאות באוקטובר: 9.3 מיליארד שקל",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001563005#utm_source=RSS",
     "source": "גלובס",
-    "published": "2026-11-11T12:39:00+00:00",
-    "lede": "מגמה מעורבת במסחר במדדי הדגל • סקטור הביטחוניות מוביל את העליות, הבנקים מכבידים • הבינלאומי ודלתא בירידות אחרי הדוחות • רפק אנרג'י מתרחבת לארה\"ב: רוכשת פרויקטים סולאריים בטקסס • ג'י סיטי מטפסת לאחר פרסום דוחות מקדימים •…",
+    "published": "2026-11-11T13:38:00+00:00",
+    "lede": "מתחילת השנה, נלקחו משכנתאות בהיקף של 97.5 מיליארד שקל, זינוק של כ-14% לעומת התקופה המקבילה",
     "lang": "he"
    },
    {
-    "title": "בתי החולים באירופה הבאים בתור? הסכנה במתקפות הסייבר האיראניות",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562938#utm_source=RSS",
+    "title": "מגמה מעורבת בתל אביב; מניית הבורסה צונחת אחרי הדוחות",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562842#utm_source=RSS",
     "source": "גלובס",
-    "published": "2026-11-11T12:26:00+00:00",
-    "lede": "כותרות העיתונים בעולם: טראמפ מבקש להמשיך במצור הימי על איראן למרות החששות במדינות המפרץ, האם מתקפות הסייבר האיראניות באירופה יכולות להגיע לבתי החולים ובריטניה אסרה את כניסתו של אקדמאי שתיאר את מתקפת חמאס ב7 באוקטובר…",
+    "published": "2026-11-11T13:26:00+00:00",
+    "lede": "מגמה מעורבת במסחר במדדי הדגל • סקטור הביטחוניות מוביל את העליות, הבנקים מכבידים • הבינלאומי ודלתא בירידות אחרי הדוחות • נאייקס מעדכנת תחזיות ל-2026 והמנייה עולה • רפק אנרג'י מתרחבת לארה\"ב: רוכשת פרויקטים סולאריים בטקסס…",
+    "lang": "he"
+   },
+   {
+    "title": "נאייקס עקפה את תחזיות הרווח ברבעון השלישי, והרווח של דלתא מותגים נחתך בחדות",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562931#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-11T13:19:00+00:00",
+    "lede": "הכניסה של Bath & Body Works לשוק האירופי הכבידה על התוצאות של דלתא מותגים, שהרווח הנקי שלה נחתך ביותר מ-20%",
+    "lang": "he"
+   },
+   {
+    "title": "אחרי ההשקעות בוונדרפול וב-EON: קרן Vine מגייסת 236 מיליון דולר",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562959#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-11T13:00:00+00:00",
+    "lede": "קרן ההון סיכון Vine Ventures, בהובלת אריק ריינר, גייסה קרן שלישית בהיקף של 236 מיליון דולר, והיקף נכסיה המנוהלים עבר כעת את חצי מיליארד הדולר",
     "lang": "he"
    },
    {
@@ -158,22 +174,6 @@
     "lang": "he"
    },
    {
-    "title": "חברת אינוויז מראש העין תפטר כ-20% מהעובדים",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562945#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-11T12:14:00+00:00",
-    "lede": "מדובר בגל שלישי של קיצוצים בחברה בשנים האחרונות, ועל פי הערכות יפוטרו למעלה מ-70 עובדים",
-    "lang": "he"
-   },
-   {
-    "title": "אשטרום במגעים למכור חמישית מפעילות ההשכרה שלה לכלל ביטוח",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562956#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-11T11:56:00+00:00",
-    "lede": "אשטרום מרחיבה את האסטרטגיה למימוש חלקי של חברת הדיור להשכרה שלה: לצד העסקה מול מגדל, מנהלת ענקית התשתיות והנדל\"ן מגעים למכירת נתח זהה גם לכלל ביטוח",
-    "lang": "he"
-   },
-   {
     "title": "מחירי הנפט עלו ב-1.1%: חשש משיבושי שיט במיצרי הורמוז",
     "url": "https://finance.walla.co.il/item/3875808",
     "source": "וואלה",
@@ -182,7 +182,7 @@
     "lang": "he"
    },
    {
-    "title": "מדד הבנקים נופל ב-3%, הבינלאומי ב-6%; הייפר גלובל מזנקת 14%",
+    "title": "נאייקס עולה 7% אחרי הדוח, מנית הבורסה צוללת 8% ומדדי הדגל במגמה מעורבת",
     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBjUk1WdGtwTlNMRWJCdEw0YU9yZnZBcURzV1VRN3VzNXZKZmNXS2MtWWt1UWc0blZwbUE5ZXVqN3ZsbDE2UHl1QTJtNmdLRk4xOU1taE9NZGZISHZoMi1nblBRYUNuWFdpOUJqNkhPMHI?oc=5",
     "source": "ביזפורטל",
     "published": "2026-11-11T04:12:00+00:00",
@@ -192,18 +192,18 @@
   ],
   "geo": [
    {
-    "title": "Bessent relocates from D.C.-area home to military base after Iran threatens to kill him, reports say",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNMm9tazhKTnpORkdUS2hjRHVxNGJ1SVZQTGlLU1JPZVh2RFY5M2JSMEFpN2NKZ3BHbEc2UmZxbFE1TDg2MTEyd3pqeFVuRHI3dWR4T05UNzdPcWxfRnRoQkNJd05OYUMyTUMzNWlkd3FsX05WeFFHRUtYUWdCX21HN0JHc1g3RXVkUTJqYjdxSlYwZUhYNTBHR3Iwc0ozQVU?oc=5",
-    "source": "CBS News",
-    "published": "2026-11-11T12:26:50+00:00",
+    "title": "Saudi Arabia leads further jump in OPEC+ oil output despite war",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOSDZlTWwtdThPTnp0UjFXeXowU3I2SzZTbDA1Zk9BZUJER0dMV1o3S2oza0sxUmxlT2xhb2k4Ykx1TDlORm5zNVdJSk8wVzZBM2VRV2xFUlpJQTdiTTJJY1ZULXJNbjIyaWVudGx5UUNjZWlMaGRJcXZHVjBmUkUxVmVxZC1FUWk0SUFmZkFQZGhaeFVPdWtkV2xIQ0hRT1ZDWGYySlk3RHdRTDloMDlLdQ?oc=5",
+    "source": "Reuters",
+    "published": "2026-11-11T13:27:56+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Trump envoys to meet Putin in Moscow after talks to end Ukraine war end with no breakthrough",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNlFTSXpLWThLRnd4RXFHS05mUWFQdWs3MmtQWkhVNWJ4ZlV3N2lzWENNdlVfTjg3dXV2ZTBkUmVyTDlzUEJVbXlhZTZxcDAzZkwwc1RXZHhVNlotMUVXdk44d2ZUcmJ0QjVha0lRRG9pTk4xdFB2UHdzUE9EWnpsWjRqRXRuV3Jy?oc=5",
-    "source": "CNN",
-    "published": "2026-11-11T11:42:08+00:00",
+    "title": "Russia and Ukraine agree to a large prisoner exchange as talks conclude with no major breakthrough",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZGJLX21sUk93S0w1eDdOMEtDdC1ETk4zZ0E4d1dna2xHaWxFSXIxdGFFYVV0Wm5pWlc1Uk5YczNsa09FcGJtMHpKU1VnTkVJejR2YTJxR0ZFQXE3dndEcS0teGNKbHJBS3R1N1lHbUxuR3hOQ3hyZ2s5elFlbkFBVTJMNmE3TW1vN2x5dDl2VzBvWWpiWU5WRGxBLWJTNVZBUUE?oc=5",
+    "source": "AP News",
+    "published": "2026-11-11T13:20:00+00:00",
     "lede": null,
     "lang": "en"
    }
