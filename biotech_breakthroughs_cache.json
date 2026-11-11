@@ -1,5 +1,5 @@
 {
- "fetched_at": "11.11.2026, 1:34",
+ "fetched_at": "11.11.2026, 2:05",
  "items": [
   {
    "title": "Recon: Bayer wins FDA approval for stroke prevention drug; Third Rock enters $2B partnership with AI-focused Chinese biotech - RAPS",
@@ -4376,78 +4376,6 @@
    "ncts": []
   },
   {
-   "title": "FDA approves generic Ketamine Hydrochloride (Neurorx)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220602",
-   "pub_ts": 1793145600.0,
-   "date": "28.10.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220602"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "FDA approves generic Triamterene (Rubicon Research)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220782",
-   "pub_ts": 1793145600.0,
-   "date": "28.10.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220782"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "FDA approves generic Fulvestrant (Sinopep Allsino)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=216722",
-   "pub_ts": 1793145600.0,
-   "date": "28.10.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=216722"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "FDA approves generic Venetoclax (Alembic)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=214747",
-   "pub_ts": 1793145600.0,
-   "date": "28.10.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=214747"
-    }
-   ],
-   "ncts": []
-  },
-  {
    "title": "An Extension Study to Evaluate the Long-term Safety and Efficacy of Pegcetacoplan (APL-2) in Subjects With Geographic Atrophy Secondary to AMD",
    "link": "https://clinicaltrials.gov/study/NCT04770545",
    "pub_ts": 1793145600.0,
@@ -4554,28 +4482,6 @@
    ],
    "ncts": [
     "NCT03832998"
-   ]
-  },
-  {
-   "title": "A Study to Learn How Well the Study Treatment Finerenone Works and How Safe it is in People With Long-term Decrease in the Kidneys' Ability to Work Properly (Chronic Kidney Disease) Together With Type 1 Diabetes",
-   "link": "https://clinicaltrials.gov/study/NCT05901831",
-   "pub_ts": 1793059200.0,
-   "date": "2026-10-27",
-   "cat": "phase3",
-   "sev": 2,
-   "dir": 0,
-   "tickers": [],
-   "companies": [
-    "BAYRY"
-   ],
-   "sources": [
-    {
-     "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT05901831"
-    }
-   ],
-   "ncts": [
-    "NCT05901831"
    ]
   },
   {
@@ -5751,92 +5657,6 @@
    ],
    "ncts": [
     "NCT05809934"
-   ]
-  },
-  {
-   "title": "Dose Exploration Study of GSK4532990 in. Participants With NASH or Suspected NASH",
-   "link": "https://clinicaltrials.gov/study/NCT06104319",
-   "pub_ts": 1793059200.0,
-   "date": "2026-10-27",
-   "cat": "phase2",
-   "sev": 1,
-   "dir": 0,
-   "tickers": [],
-   "companies": [
-    "GSK"
-   ],
-   "sources": [
-    {
-     "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT06104319"
-    }
-   ],
-   "ncts": [
-    "NCT06104319"
-   ]
-  },
-  {
-   "title": "A Study of AZD3427 in Participants With Heart Failure and Pulmonary Hypertension Group 2",
-   "link": "https://clinicaltrials.gov/study/NCT05737940",
-   "pub_ts": 1793059200.0,
-   "date": "2026-10-27",
-   "cat": "phase2",
-   "sev": 1,
-   "dir": 0,
-   "tickers": [],
-   "companies": [
-    "AZN"
-   ],
-   "sources": [
-    {
-     "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT05737940"
-    }
-   ],
-   "ncts": [
-    "NCT05737940"
-   ]
-  },
-  {
-   "title": "PK and Safety After C-Section",
-   "link": "https://clinicaltrials.gov/study/NCT03955211",
-   "pub_ts": 1793059200.0,
-   "date": "2026-10-27",
-   "cat": "phase2",
-   "sev": 1,
-   "dir": 0,
-   "tickers": [],
-   "companies": [
-    "HRTX"
-   ],
-   "sources": [
-    {
-     "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT03955211"
-    }
-   ],
-   "ncts": [
-    "NCT03955211"
-   ]
-  },
-  {
-   "title": "Evaluation of Safety, Tolerability, and Efficacy of INZ-701 in Adults With ENPP1 Deficiency",
-   "link": "https://clinicaltrials.gov/study/NCT04686175",
-   "pub_ts": 1793059200.0,
-   "date": "2026-10-27",
-   "cat": "phase2",
-   "sev": 1,
-   "dir": 0,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT04686175"
-    }
-   ],
-   "ncts": [
-    "NCT04686175"
    ]
   }
  ]
