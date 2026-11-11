@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-11T22:03:05.092800+02:00",
+ "generated_at": "2026-11-11T23:01:08.713802+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -52,35 +52,67 @@
   ],
   "us": [
    {
+    "title": "A.I. and Market Whiplash",
+    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1LN2lBVk9ialg4T2dCYXJvcGVHeXItRWJCZ2xqMDAzU1otdnM0OXdkNGNyYUY3T2RiZG9xMkFQNnAydHNUeGdrdDY4ckl5LXNCVVQxN3MzS0E0OG1ISEZwRHZKQnF1eTlUemxRLU1saXd1TlZkVnFYR3FFVUliUQ?oc=5",
+    "source": "The New York Times",
+    "published": "2026-11-11T20:48:08+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "4 Industrial Tech Stocks Riding the AI Boom and Paying Dividends Along the Way",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOUjdQWjQyYjViTWNYaGo0elpBNW0za2thUXBsdWhfdEttMXEwZzgzOHk1THlnZTBQeXZfbV9rZnB4SEVCelE4NnhsRUU5RlZuY3M1QzVsZFQ4a1l0eVBJZ1l4RHpySTFrNms2Wm5QdzV5S0xfaW1leU1zN1lmVDN0OGlGQVBQM2xPRTktWThuclVWYXQ2aVd2eEZQWm0?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-11T20:47:24+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "The trillion-dollar mistake corporate America is making about retirement",
+    "url": "https://www.marketwatch.com/story/corporate-america-is-making-a-trillion-dollar-mistake-about-retirement-234c8996?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-11T20:46:00+00:00",
+    "lede": "The market is dramatically underpricing the economic impact of Americans age 50 and older.",
+    "lang": "en"
+   },
+   {
+    "title": "Bloom Energy’s stock is rallying as data-center jitters subside",
+    "url": "https://www.marketwatch.com/story/bloom-energys-stock-is-soaring-as-data-center-jitters-subside-5fda5689?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-11T20:43:00+00:00",
+    "lede": "CoreWeave’s upbeat outlook helped calm nerves around the energy company.",
+    "lang": "en"
+   },
+   {
+    "title": "Reed’s: A Beloved Brand Standing on a Trapdoor",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMzZyQmxwN0g3cTk2c3J6bFRlX3lQdHpNQkFRc0otZWNqUFF1TzZtM1lDSnBmZDBwT3A4NUMwRXBCYXZsOTRyYjFPNXAtLXZnRG9GMVdJWGZ3WEVsVnlJSDdGT1JOMUZEOGhpaDBYa2RFSUdzTjdfSGxBWlcxUkpmUkZMWWJpbkM4WGFVaUE2Q1ZMUEdpS01JakdMTnJFZHVtMHJ3?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-11T20:42:34+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Canada’s ambassador warns Trump tariffs are driving up costs, threatening U.S. investment",
+    "url": "https://www.cnbc.com/2026/11/11/canada-ambassador-trump-tariffs-investments.html",
+    "source": "CNBC",
+    "published": "2026-11-11T20:30:23+00:00",
+    "lede": "U.S.-Canada trade tensions persist as Trump's tariffs drive up costs, threaten investment and complicate negotiations between the two countries.",
+    "lang": "en"
+   },
+   {
+    "title": "עליות חדות בוול סטריט: קורוויב מזנקת ב-25%, אנבידיה מתאוששת",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562761#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-11T20:09:00+00:00",
+    "lede": "נאסד\"ק מזנק ב-2% בהובלת מניות השבבים • אנבידיה מתאוששת, מייקל ברי: אנבידיה עשויה להפוך בקרוב ל\"עסקה מצוינת\" בטווח הקצר • חברת מחשוב הענן קורוויב מזנקת לאחר שפרסמה דוחות חזקים והקלה את החששות מפני החובות העצומים של חברות…",
+    "lang": "he"
+   },
+   {
     "title": "Social Security could pay full benefits until 2059 if taxable payroll kept pace with GDP: AARP report",
     "url": "https://www.cnbc.com/2026/11/11/social-security-benefits-taxable-payroll-gdp.html",
     "source": "CNBC",
     "published": "2026-11-11T19:54:27+00:00",
     "lede": "An aging work force is not the only reason Social Security's trust funds now have a looming shortfall, according to AARP Public Policy Institute research.",
-    "lang": "en"
-   },
-   {
-    "title": "Nov 13 Could Be A Huge Day For SpaceX Stock",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxORzlDLS0zQXd1Y0R4SFZJQm01VFJiSU4yMGRIamVlQXN6UjNvbS10aHdvVDZmTzlQcEZoS28zUGozcTBYdExrblZ6M2trbTE5SmRJOVdLajNjeGM0SEtYdndYSzF1M3VpY2xvVzQyZzlDdEtHOTBLN0NiNm5EMXpsZ1hZbUxzUDhiREhSNTlnOA?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-11T19:50:02+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Stocks climb as CoreWeave results ease AI spending concerns",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUVZoWU1fQUd2Y1M2Qnl1T2JaMTkwaXBkaDIwWjVHejZoQmdDUnVzUVlSWDVsWW1pVDRVcXQ2ZTdrRTRiMDdMNWJDS3Atem91bUpDMnFLUkZ6NjhjaTliYWV1ODRLMnk0Slh3Wk5wNGtHTDhvaEZpTFIyUlVpQ2tNdTUyb2ZLbEZGOHlTZWRJNzVScUpIS3V5a1FacGwzby00RURBa2htZFFqZmw3Z2pRS2NDWQ?oc=5",
-    "source": "Reuters",
-    "published": "2026-11-11T19:48:05+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Why Oracle Stock Is Up Today",
-    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPWmNVYl9RMXk0NlRVRVRZdFVZNFlqTTNCR1V1Vk5BRno1VkN1U09IRE14RXFCbHhZS040R0pkUHVNWkRYS0FLWHNmOWlRdEFWQ2hpc2QzcTNtai0ydEM5SGhTYTV3WFkwci1rVW5yX1NPb0txb3RNVWs4SG45N21uUDBOeG4zQzRfdjk1RU5ESWQ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-11T19:45:01+00:00",
-    "lede": null,
     "lang": "en"
    },
    {
@@ -92,47 +124,23 @@
     "lang": "en"
    },
    {
-    "title": "עליות חדות בוול סטריט: קורוויב מזנקת ב-25%, אנבידיה מתאוששת",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562761#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-11T19:00:00+00:00",
-    "lede": "נאסד\"ק מזנק ב-2% בהובלת מניות השבבים • אנבידיה מתאוששת, מייקל ברי: אנבידיה עשויה להפוך בקרוב ל\"עסקה מצוינת\" בטווח הקצר • חברת מחשוב הענן קורוויב מזנקת לאחר שפרסמה דוחות חזקים והקלה את החששות מפני החובות העצומים של חברות…",
-    "lang": "he"
-   },
-   {
     "title": "עורך הדין שהרשיע מאפיונרים: החוקר שיבדוק את פרשת הרומן של מנכ\"ל אנבידיה",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001563064#utm_source=RSS",
     "source": "גלובס",
     "published": "2026-11-11T19:00:00+00:00",
     "lede": "ג'ון ה. קים הביא להרשעת ראש משפחת פשע ידועה לשמצה, חקר את מושל ניו יורק לשעבר אנדרו קואומו ופיקח על תיקים נגד בנקאי שהורשע בעקיפת הסנקציות על איראן",
     "lang": "he"
-   },
-   {
-    "title": "Nvidia is spending more than ever on Washington lobbying. It may not stop Congress from limiting China chip sales now.",
-    "url": "https://www.marketwatch.com/story/nvidia-is-spending-more-than-ever-on-washington-lobbying-it-still-may-not-be-able-to-stop-congress-from-limiting-its-china-chip-sales-now-d4c34c66?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-11T18:48:00+00:00",
-    "lede": "‘There’s no question that Congress is going to push for a complete ban on the sale of advanced semiconductors into China,’ says a former U.S. ambassador to Beijing",
-    "lang": "en"
-   },
-   {
-    "title": "US tech stocks surge as AI trade revives",
-    "url": "https://www.ft.com/content/639de881-6017-454f-abfa-cfb191d1e7cd?syn-25a6b1a6=1",
-    "source": "Financial Times",
-    "published": "2026-11-11T18:42:32+00:00",
-    "lede": "Nasdaq erases last week’s losses as CoreWeave results and prospect of higher Anthropic IPO valuation boost sentiment",
-    "lang": "en"
-   },
-   {
-    "title": "Bouncing Wynn Shares might be primed for the 'wheel strategy'",
-    "url": "https://www.cnbc.com/2026/11/11/bouncing-wynn-shares-might-be-primed-for-the-wheel-strategy.html",
-    "source": "CNBC",
-    "published": "2026-11-11T18:24:53+00:00",
-    "lede": "From a valuation standpoint, WYNN is trading very close to its five-year historical averages across key metrics. So how should traders play this setup?",
-    "lang": "en"
    }
   ],
   "il": [
+   {
+    "title": "שי שניצר נבחר לנשיא הבורסה ליהלומים בצל ירידה של כ-22% ביצוא",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5ZdVBwRm51WVl3ZFVlZHhRaC03cHU1S2lJVU5saE10RmRwYzVoZldvc3J0TEhVUFl4LXVRTmdJWDQ3TXlZYW1aajlQYkQyZzh5RGYxVHVhYUNHZzYxT0c5ZUoyZENHdm1YNFVTSVFTSXc?oc=5",
+    "source": "ביזפורטל",
+    "published": "2026-11-11T20:56:00+00:00",
+    "lede": null,
+    "lang": "he"
+   },
    {
     "title": "המניה שזינקה ב-10% - והקפיצה את אנבידיה",
     "url": "https://finance.walla.co.il/item/3875892",
@@ -192,18 +200,18 @@
   ],
   "geo": [
    {
-    "title": "Ukraine captures first Indonesian prisoner of war amid surge in Russian recruitment",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQWjZYdEdGclo5TVdOVXhmMWc5c2ZlWmZwN1VsVFlQS1FCQ1ZsZVVhSC1NYWFvQ2cwUEVOWHVFREUzYUJUbFhSUG83U0tYRXlaTzFpOXhsekhwNHJBbHh0WVR5MERnbzRkUnlZWmFUM2hyWWZvZktCLWZpUUs4MnVObmNVdVFlV2gwQ29PV1RibElJdklnM1E?oc=5",
-    "source": "The Guardian",
-    "published": "2026-11-11T19:48:00+00:00",
+    "title": "Oil production nears pre-Iran war levels, OPEC says",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNWVl4QjNFcFhZd1N4V2ZIQlM0ejAwcEVmbUxqXzdmamFJeUE0QXBNU3FoQW9ldGNYdF95QnU2MVZxTGlMX1NiYWZrUVY0S2hKTFlVSGJBZTExY0xfWGl1Q2RobDlQa0M5a1ozU1VYSlBNd2lDYzQwS2FKV0pNNnpJUnNUNDV1RmJYZENBNWVXcVM0R0MyVWfSAZsBQVVfeXFMTVdoNlkwaFM0R0ZuOExoUHowckk2eFNRejVwY1NUM1pnZEp1RDdMdVdGLXM3ZFFCeEJIOE5zdWJZeXJwcTlHLVk5azdLUTV2R0EtaGJ1VHMyb0tiTmp3MHhJVzBZSjBJRURLcF8yWkJvcXhHY2UwTS1wd1JFbkZGMkY1eXcwNk9LTlBkNDh6clNWSUlRRXppdG5QelE?oc=5",
+    "source": "Al Jazeera",
+    "published": "2026-11-11T20:45:52+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Watch: Trump says 'we won' Iran war during Veterans Day service",
-    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5FRmJDYjhwWEtuOUdPMHZvcktHX3hFWUd3Ym51U3FpLThEQlNUSWpURWdjaXA5cmJsOU5hb192Y0RmSjdCNDF5U3hSZkFNMTZmX3lyZTRWMnQ?oc=5",
-    "source": "BBC",
-    "published": "2026-11-11T19:30:48+00:00",
+    "title": "Analysis • Netanyahu is desperate to stay in power, and eyes Iran war as potential lifeline",
+    "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxORVMzdkxYalJVQjFEUnV1NHZLQmlSbXVGUEpSZHlpSm1TTnpxOHEwWnZLMXhCeTVBMjFjdTR5c1RHTURtZzRsVno1eHJfWllDamNJaUpVRmdEUDhtUVQtZTM0aElPQ0dYZllJMHo2MjhITkJvQkFpaWtITEN2TUVJcVRDRUtFbVJxVVFuQ0tHRVpRbnRmNDZsZ1NOMkt0a28wNDNzSllqVFlra3BPUms1WGZyeE9odkVaSzZIUWVpWGdzbjJiU1lKZnpfOGZ1NmJLRnN6SXhZZXlWTk5lbjlDZ3BiTTRhY2podnZoS1d4UTFnbmN1LWY4UlUzUEVCVnRiZW5mWmc0ZUYzek5McHFTTS00OUhrZWxmaG54V19ma0JpUFRwc0E?oc=5",
+    "source": "Haaretz",
+    "published": "2026-11-11T20:05:00+00:00",
     "lede": null,
     "lang": "en"
    }
