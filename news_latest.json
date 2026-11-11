@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-11T02:02:08.100967+02:00",
+ "generated_at": "2026-11-11T03:01:03.840131+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -9,14 +9,6 @@
  },
  "sections": {
   "analysts": [
-   {
-    "title": "Buy this data center-linked stock primed to rally nearly 60%, says Jefferies",
-    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQc1l0QURVd3E0RERlaGtRS2Zhd21YX2Fyc01OeG5vaGN3c1pzRlQ4cGlZc3JQem1BZnZ3bzdRanl2Tmk3Y2tOUElxQ3loMHRKWi05N29wXzVEdlJPSGd2UmFjN3hHQXBWTE1uV0hKdzAxZTFENThQLVJSSDhDd09UYzJxSTdldw?oc=5",
-    "source": "CNBC",
-    "published": "2026-11-10T12:03:03+00:00",
-    "lede": null,
-    "lang": "en"
-   },
    {
     "title": "WULF, HUT, CIFR Stocks Get Price Target Cuts From Jefferies: Here’s Why The Analyst Is Still Bullish On These AI Infra Firms",
     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQ0o0c0otMWRjT2hBSmEzVlh1NVRmWGZKWXQ2a2NBT3UyZ0xYNHloSFpXako2WTgwdHFWemduRE81U3NyVmpSUDEwR3liSXJGbnI0dW9QYWM0VDJMV3MwQnB5WklzU1pDcWwyVzhxendvOE4walVKaDE0aDZzS1pkUFBSRjR0czNFekQtUWxPTEV0Y29sVUE?oc=5",
@@ -48,31 +40,55 @@
     "published": "2026-11-09T11:54:06+00:00",
     "lede": null,
     "lang": "en"
+   },
+   {
+    "title": "Broadcom Faltered for a Year, Dropping Nearly 20%: This Wall Street Analyst Team Says 140% Gains Materialize Within 12 Months",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcHFZNkRsZE85anFCUUpMeHhjbmNNYVVoTDIwcVQ2dkRnV1dwNHNuSmVQOWZzOFlZRlZHZURGZklVZU9PZGlxX3BnNDRsVkhXbVFKSmhLdTI4SDlZRGxkdXVQaHpRRlZpS3QweEdubnhvVkRja2FXaGY3QW1CMTM2bjJBa29uVU5NLVNsVDliQWJWcDZoREhqNTkxdk1HNW1lQm5J?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-09T15:45:27+00:00",
+    "lede": null,
+    "lang": "en"
    }
   ],
   "us": [
    {
-    "title": "Futures Rise, CoreWeave Jumps Late In Whipsaw Trade",
-    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNdTlTdzEzVWY3aWRmTGY0QzNnQjlfNFdOMzhUSnRBVDBOWEd2azg0bEl6dl9jY3NWR29ILUwtT01MWExiLXdsa0dOT3M3TTZzTUNiY1gwWlp6MkFoeGtKUC1tYWdPanVhZ3VqSlNwT1dZVVhlSGJZS3J6UE9Bdm5JZWJLeURUTDNwTG43bF93cm0tTE9QZG1FXzhxNmlkM0FmbVJPM1pnRy1FUG9RT1E?oc=5",
-    "source": "Investor's Business Daily",
-    "published": "2026-11-10T23:47:00+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Why AAON Stock Popped Today",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPeUVQeEVES2w0S0t2LS1hV210R3ZDZmhQZDkxYVdIaFVGQnpra2dzc0owSkhhNHJJOHNUT1dteldUcjlCcHk1cmV2aGpqZlJkWDIyWlFSUzhQejlHZ1hyMHNFRzdqX0t2LVh6WENsekNNYVgwQzZVbEFPQTQzUWJzQUV0R0RYQzc0UUZYSUNWdmZaMVVCa2RV?oc=5",
+    "title": "Why Tenaz Energy (TSX:TNZ) Could Be 44% Undervalued After Its Q3 2026 Loss",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQRmFrUVVyS19LY3ZkQ1g0MEljc1pRQUd5aHJqdlZPcXRYWUY2WnNrQm91Uk5ST25CM1RZaTFNVWowUGc1azFDdS00cEhvTE9PdkRYeEY4V2gtUHBiMUdvWXpPdGh2WWpWc1pCZUo4elRJZ0Jqai05TUlTa25IMHhhczFiaW5SVzB2WGpfMmJadjJyNmc?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-10T23:46:05+00:00",
+    "published": "2026-11-11T00:54:08+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Jim Cramer: Wall Street is focusing too much on what could go wrong instead of right",
-    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZXEtNjBGQmkySUh6d3RIZlo0M3lpY2txS25RcW00YURRZnlpWWJ5UWJlRU8wbE1vNERBUUFZMDhad253YUw4NTl6Smt2ODVDZFVOOEtzLVlKTHIxa2hZbEJiYXZMOEFmN3hwcUFqWm40UkRfdk9Vd29qS1FEdE85UElxTQ?oc=5",
-    "source": "CNBC",
-    "published": "2026-11-10T23:41:43+00:00",
+    "title": "Moody's (MCO) Tests On Chain Ratings, Is The Stock Already Expensive?",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNY0NZT0RkQ2xPNm1POUhHbXI5dmY1ZlNYN2tocnFrbzlsY2diX3F3eDEwX3NzUGxWTzAyYU9zaGdKazVSSlpzMnFZbENBRFcwZkNDQ0ltZ25ZTTR6T3Jzd1ZYQTlUTWNtM0gyUExFU3ljMG9RWEVTdmgxc2FOT0JxcWl3dldUc1l2WWdpX29MRXRFR1dNMTA5MUJMRQ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-11T00:43:34+00:00",
     "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Is Copart (CPRT) Undervalued On Its Recycling Market Momentum?",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSTJrNHZKbGwxZVZtX2R0ajFoRncydjNTekpaUHRJdnZxS0RNaF9XRnRZTUVwZUwxYnBtcW1kZGZjek9IU19ZS3VpdHJJMTJpSGk2TnFSVjdJV3ZvVXFwQ0xYY0dTaVA4LW1hT0d0LTUwZFMyNjVQMFk4V0ItakFjYTlSSThJWXRMSmtQWkJkbFNYbHk5ZVh5ZVhnNjk5VTRPdFdsS0xGM3U?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-11T00:40:21+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Anthropic bankers prepare to increase IPO valuation to $1.5tn or more",
+    "url": "https://www.ft.com/content/68bcba57-0575-44ee-80f4-2e5ea23a431e?syn-25a6b1a6=1",
+    "source": "Financial Times",
+    "published": "2026-11-11T00:27:38+00:00",
+    "lede": "Claude maker’s listing price expected to rise after strong demand from investors",
+    "lang": "en"
+   },
+   {
+    "title": "CoreWeave plans multibillion-dollar chip-backed debt deal",
+    "url": "https://www.ft.com/content/fa5c5bdc-c2b0-4fab-8951-0526a4608773?syn-25a6b1a6=1",
+    "source": "Financial Times",
+    "published": "2026-11-11T00:01:29+00:00",
+    "lede": "AI infrastructure group turns to asset-backed debt and customer pre-payments for financing",
     "lang": "en"
    },
    {
@@ -114,25 +130,41 @@
     "published": "2026-11-10T21:36:13+00:00",
     "lede": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
     "lang": "en"
-   },
-   {
-    "title": "US regulator postpones Wall Street push to trade AI computing futures",
-    "url": "https://www.ft.com/content/269b0245-44c4-4e34-94df-202bef642539?syn-25a6b1a6=1",
-    "source": "Financial Times",
-    "published": "2026-11-10T19:58:11+00:00",
-    "lede": "The Commodity Futures Trading Commission raises concerns over price manipulation as exchanges race to create new asset class",
-    "lang": "en"
-   },
-   {
-    "title": "Falkland Islanders face ‘devastating consequences’ if Argentina blocks oil project, says UK",
-    "url": "https://www.theguardian.com/world/2026/nov/10/uk-and-argentina-clash-over-falklands-oil-project-as-hamburg-tribunal-starts",
-    "source": "The Guardian",
-    "published": "2026-11-10T19:01:33+00:00",
-    "lede": "Countries clash over Sea Lion project as Hamburg tribunal risks deepening sovereignty dispute The people of the Falkland Islands face “devastating consequences” if Argentina is successful in blocking development of its…",
-    "lang": "en"
    }
   ],
   "il": [
+   {
+    "title": "בעקבות האינפלציה הגבוהה, וול סטריט קטעה יומיים של עליות",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562654#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-10T21:00:00+00:00",
+    "lede": "נאסד\"ק ירד ב-0.7% • מדד המחירים לצרכן בארה\"ב לחודש אוקטובר הציג עלייה חודשית של 0.4%, מעט מעל לציפיות הכלכלנים • מניית אנבידיה איבדה כחצי טריליון דולר ביומיים משוויה והיא נסחרת במכפיל רווח עתידי של 11.5, הכי נמוך מזה 15…",
+    "lang": "he"
+   },
+   {
+    "title": "הקפאת חיבורים לרשת החשמל: הסיבה שמניית עזריאלי ירדה",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562714#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-10T19:52:00+00:00",
+    "lede": "מניית עזריאלי מגיבה להחלטה של מפעילת מערכת הולכת החשמל בנורבגיה להקפיא הקצאות של חיבורים חדשים של חוות שרתים לרשת",
+    "lang": "he"
+   },
+   {
+    "title": "בלי ישראלים, עם \"דוכן פלסטין\" וחיבוק לסין - כנס ההייטק בפורטוגל שמחולל סערה",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562899#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-10T18:12:00+00:00",
+    "lede": "כנס Web Summit בליסבון נפתח ללא השתתפות ישראלית, לאחר החרם שהחל בעקבות התבטאויות מייסדו נגד ישראל אחרי 7 באוקטובר",
+    "lang": "he"
+   },
+   {
+    "title": "גם כשהמדדים מדשדשים העמלות זורמות - רווחי הבורסה זינקו ב-37% ברבעון שחלף",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562895#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-10T17:59:00+00:00",
+    "lede": "הבורסה בתל אביב מסכמת רבעון חזק נוסף: ההכנסות ברבעון השלישי עלו ב-19% והרווח הנקי זינק ב-37%",
+    "lang": "he"
+   },
    {
     "title": "הבנקאית שהפכה למרגלת: האישה שהפילה בפח את מנכ\"ל אנבידיה",
     "url": "https://finance.walla.co.il/item/3875689",
@@ -160,18 +192,18 @@
   ],
   "geo": [
    {
-    "title": "Trump swung between war and diplomacy — then chose a third way",
-    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOYVAwSVNaUUFvdkZTVGc0dC1SMndYbUlSM3ZFMlpBb05lVXk5TkpwaVdPczc5ZGdJMmNrT0FCWElJR1k0Qk5BQ0xzSTR6NS1fM052MmY0WlJsdHhKNWRnT2FTS2JYS2VoaE1iMGhVWWE2MnM4VnloZXFyaHBQVnAyc29B?oc=5",
-    "source": "Axios",
-    "published": "2026-11-10T23:37:06+00:00",
+    "title": "Real Madrid's Vinícius Jr sends surprise message to boy who lost his legs in Sudan's war",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1zUF9BWTB0SS1xaWxTN29vRHZCRG5QUTNnTGZ1akJNdmUtZnNYSHZRQWVEbWloWDRmQ3RFcFUzcDBfcXRkU2hiNlF1VEFseWpXOFVEbnhObkc3ZXM?oc=5",
+    "source": "BBC",
+    "published": "2026-11-11T00:19:42+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "You’ll hear the usual cliches about war this Remembrance Day – why does Australia refuse to learn the true lessons of history? | Paul Daley",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNN21Ccldfdm5ocVNLMU9ydGh3bVd2VlMtRTFZTUhtZV9pY0QxaHVuMUUzWGdiYnFSWk4zWjZvVzFvblNiR1J6MFBDNG5BdFV0YzZCTjRBVVZOSktDS01oaE1PZk4tczlpZlBFTEtCalctdzVqRUdRd1NhRFo2M1ZobTJkbUwzaUNlYnZYc2dEcTVzdmFSbW1PYlM3ek80XzY4cmswajc5OW50UUE?oc=5",
-    "source": "The Guardian",
-    "published": "2026-11-10T22:54:00+00:00",
+    "title": "If the war winds down, the price of oil will plummet, says Jim Cramer",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdGYyeVdLekY4X0RheXZNTUlra3g0R2xDVkZfVnJ0TUgycFl5Qmxqak41V1R2TDAyVVdMdzFWc3VteVBCWHc4RnhLNFJabmhiTHZkX0lkdFBiUEtfLTlOc3lFS0NyZG5KMFllYmt3WXdqZGhuRV9MVFlvTl9LdmtWVmRHMjY4R2hLYVQyRFRJV1g2d3BGWkhFdWNOUi1iWERuUExIcG10VWlCYUJocmR3?oc=5",
+    "source": "CNBC",
+    "published": "2026-11-11T00:16:23+00:00",
     "lede": null,
     "lang": "en"
    }
@@ -184,7 +216,10 @@
   "BBC",
   "The Guardian",
   "Seeking Alpha",
+  "גלובס",
   "Google News",
+  "גלובס",
+  "גלובס",
   "וואלה",
   "Google News",
   "Google News",
@@ -192,9 +227,5 @@
   "Google News",
   "Google News"
  ],
- "sources_failed": [
-  "גלובס: The read operation timed out",
-  "גלובס: The read operation timed out",
-  "גלובס: The read operation timed out"
- ]
+ "sources_failed": []
 }
