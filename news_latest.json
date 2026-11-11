@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-11T09:01:07.492223+02:00",
+ "generated_at": "2026-11-11T10:01:09.319218+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -52,28 +52,60 @@
   ],
   "us": [
    {
-    "title": "China optical stocks rally as Microsoft challenges proposed U.S. import curbs",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPYWV3dXZ6OGp1VW41OVpzWGp1aDlJb1c0S2NDMi1wWG5McVFCc21zVjNkV29OS0xDYjF5eXZTRklyWmJYTmdUNVExVlRKOFVPSEJucmxnUWtPN1VON1d6UkdELWMyUzhqQlVTUkZFcjBNYUZuV0hDN2ZoOUNrUk5rNmg0X2JreTJUZjlYZGdZMGt0elp4ZFR1aktMR1R5X2ZzMUY0?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-11T06:30:00+00:00",
+    "title": "Alibaba announces plans to list T-Head, its Nvidia chip rival",
+    "url": "https://www.cnbc.com/2026/11/11/alibaba-pr.html",
+    "source": "CNBC",
+    "published": "2026-11-11T07:47:54+00:00",
+    "lede": "Alibaba noted it had already filed confidentially on Sept. 11 to list T-Head on the Hong Kong Stock Exchange.",
+    "lang": "en"
+   },
+   {
+    "title": "Are Investors Expecting Too Much from the US Stock Market?",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOTUUzVVlKUENBTUtfMkZfbGRraGxqLWlJYWVmU0wtV1hsZDhIWmVGLUdWRER2TFdRQ20yTFlyZi1uVDRseFNCNUY4SXNyNEhTRlJadzVMMHdpUFFocV94bEIzSEdMSGYxemhtZF9IaThCcUhYZF82ZFJ4VmhHRUtEU2FrdTR0cDN6RGdrR0ZzLTlUbk94?oc=5",
+    "source": "Morningstar",
+    "published": "2026-11-11T07:20:05+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "CoreWeave Earnings: 3 Things Investors Need To Know",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPRDNRX2w1cjgwOVZpYW9TV2RSMVFjM09Md3NteGVES1NVVXFYT3Z3MlI5TDVkc0c5Vkc3djZmYk1tVHp5bWF0ZktZNEFaZHd3cTZEV0FKWDdHSi1YZzJaekUyUkxsZE1WemJINEFTajF3YjI4cG5QbV9JRmRLZUVERVNqWEsxZFJCcF8tckNEcVRWSjVxT2tLeG8tNTJqX0JUbXlxRQ?oc=5",
+    "title": "Nissan Chemical (TSE:4021) Stock Could Be 46% Undervalued On Cash Flow",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNcjA4ZGJSaV8tQ3FVc18yUjdwZ0VIZVZOR2xUSHQzQXN5YmR6bTdzUzgxTVEzX28xa3BxN0J0TV9CVjlHbExlRE1Ob2lkcTZCN2c3dk10UGJqUE9pd3RIcDNjZ2RwY09GbkJYWU5DSW9ZU1VzZWJyemhwSHFnN0pJTVZXMWVKS0JROWZZSU00X2N5MkNmWXNVOHRwWQ?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-11T06:20:02+00:00",
+    "published": "2026-11-11T07:16:00+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQRHpMOHdCdkVFQV84NWdYRHlFM2w3d1BxRnBvNkZhcmtFVy1oQ2k1OEtnME11a3duSDNwYUVWWlFZaVpGamZvODlzbDNla01Id2VnVG1JVjdTcV9Vdnl2SmUzTklRR1p1V1Rqd0NVMEV4MTRSaVgxc3A1aVBTX1BBalZ1LVZabThXa3BYQkxYbVlSZw?oc=5",
+    "title": "3 Energy Stocks Facing Oil Price Risk as Hormuz Tensions Rise",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQTE02X3ZhcVBzamVfMW04Y3VTbmxhdW5rV3NVX3NnNWMtcUNoNl81RjB0YVBjRjBJQTl3TnRkRzNGTVRpM2JETmE2QU5ZeVk0dHlFUnpiLU9XdHM1ZW1SUWpCT1BSTWR6TDlLOU5abHJlaHZ5UWZvUHB3LWFTelFRendBQmhhVHVKdUtF?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-11T06:19:23+00:00",
+    "published": "2026-11-11T07:15:07+00:00",
     "lede": null,
     "lang": "en"
+   },
+   {
+    "title": "Singapore wants a bigger slice of the global gold market. Is it too late to the party?",
+    "url": "https://www.cnbc.com/2026/11/11/singapore-gold-market-vault-storage.html",
+    "source": "CNBC",
+    "published": "2026-11-11T07:02:45+00:00",
+    "lede": "Singapore is stepping up efforts to become a key player in the global gold market, betting that vaulting service and tax incentives will help it attract flows.",
+    "lang": "en"
+   },
+   {
+    "title": "חברת יחסי הציבור לסקנדלים: פרשת הואנג מסתעפת",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562914#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-11T07:02:00+00:00",
+    "lede": "תחקירים חדשים מצביעים על מעורבות יועצי משברים, בדיקות רגולטוריות וחקירה פנימית בפרשת מנכ\"ל אנבידיה",
+    "lang": "he"
+   },
+   {
+    "title": "טלטלה בשווקים בעוד חודש בדיוק מהיום: האזהרה של משקיע העל",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562909#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-11T07:00:00+00:00",
+    "lede": "מייסד קרן הגידור ברידג’ווטר מזהיר מפני עליית תשואות האג״ח והחרפת חוסר הוודאות בעקבות בחירות האמצע בארה״ב. הוא מסמן שלושה מועדים שבהם המאבקים סביב החוב האמריקאי עלולים להגיע לנקודת רתיחה - הראשון שבהם בעוד חודש בדיוק",
+    "lang": "he"
    },
    {
     "title": "Prime property, slow sales: why London’s stock of empty high-end flats is piling up",
@@ -92,47 +124,47 @@
     "lang": "en"
    },
    {
-    "title": "מצב השווקים: מניות השבבים מקפיצות את סיאול, תשואת האג\"ח לעשור בארה\"ב שוב מעל 5%",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562761#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-11T05:02:00+00:00",
-    "lede": "גלובס מגיש עדכון ראשון לגבי מצב השווקים מסביב לעולם",
-    "lang": "he"
-   },
-   {
     "title": "How Singapore became a linchpin of China’s AI chip trade",
     "url": "https://www.ft.com/content/52b5f9a8-346f-4dae-8a16-14d5d9eb1244?syn-25a6b1a6=1",
     "source": "Financial Times",
     "published": "2026-11-11T05:00:22+00:00",
     "lede": "A suspected Chinese spy and Singaporean chip deal reveal the Asian networks testing Washington’s grip on AI technology",
     "lang": "en"
-   },
-   {
-    "title": "Anthropic IPO valuation calculator: How much is it really worth?",
-    "url": "https://www.ft.com/content/8281fcde-bcf7-4145-b785-bc0d12616c27?syn-25a6b1a6=1",
-    "source": "Financial Times",
-    "published": "2026-11-11T05:00:12+00:00",
-    "lede": "As the Claude maker prepares to make its Wall Street debut, the FT’s interactive valuation calculator can help readers decide whether the AI giant is worth $500bn or $4tn",
-    "lang": "en"
-   },
-   {
-    "title": "טלטלה בשווקים בעוד חודש בדיוק מהיום: האזהרה של משקיע העל",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562909#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-11T04:23:00+00:00",
-    "lede": "מייסד קרן הגידור ברידג’ווטר מזהיר מפני עליית תשואות האג״ח והחרפת חוסר הוודאות בעקבות בחירות האמצע בארה״ב. הוא מסמן שלושה מועדים שבהם המאבקים סביב החוב האמריקאי עלולים להגיע לנקודת רתיחה - הראשון שבהם בעוד חודש בדיוק",
-    "lang": "he"
-   },
-   {
-    "title": "Alibaba announces plans to list T-Head, its Nvidia chip rival",
-    "url": "https://www.cnbc.com/2026/11/11/alibaba-pr.html",
-    "source": "CNBC",
-    "published": "2026-11-11T03:08:17+00:00",
-    "lede": "Alibaba noted it had already filed confidentially on Sept. 11 to list T-Head on the Hong Kong Stock Exchange.",
-    "lang": "en"
    }
   ],
   "il": [
+   {
+    "title": "מחירי הנפט עלו ב-1.1%: חשש משיבושי שיט במיצרי הורמוז",
+    "url": "https://finance.walla.co.il/item/3875808",
+    "source": "וואלה",
+    "published": "2026-11-11T10:11:00+00:00",
+    "lede": "המתיחות במפרץ הפרסי מקזזת את הציפיות להסדר דיפלומטי בין ארה\"ב לאיראן, בעוד פגיעות בכלי שיט ומלאים עולים בארה\"ב משפיעים על המסחר",
+    "lang": "he"
+   },
+   {
+    "title": "בצל פרשת הריגול: השבבים של אנבידיה הגיעו לצבא סין",
+    "url": "https://finance.walla.co.il/item/3875805",
+    "source": "וואלה",
+    "published": "2026-11-11T09:49:00+00:00",
+    "lede": "למרות הכללתה ברשימה השחורה של ארה\"ב, האוניברסיטה הפוליטכנית של צפון-מערב בסין הצליחה לרכוש מעבדי H200 מתקדמים דרך ספקים מקומיים",
+    "lang": "he"
+   },
+   {
+    "title": "בנק דיסקונט נכנס לשוק הקריפטו: יאפשר מסחר בביטקוין ובאת'ריום דרך האפליקציה",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562915#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-11T07:26:00+00:00",
+    "lede": "הבנק יאפשר ללקוחותיו לרכוש ולמכור מטבעות דיגיטליים ישירות מחשבון הבנק החל מ־26 בנובמבר",
+    "lang": "he"
+   },
+   {
+    "title": "ארה\"ב מפנה מטוסים, החשש: איראן מסמנת עוד יעדים באירופה",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562908#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-11T07:13:00+00:00",
+    "lede": "למרות הטענות האמריקניות על השמדת ארסנל הנשק האיראני, הערכות גורמי המודיעין חושפות תמונה מצב מטרידה למדי",
+    "lang": "he"
+   },
    {
     "title": "הירידה באינפלציה ובריבית שחקה את הרווח הנקי של הבינלאומי ב-13%",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001562913#utm_source=RSS",
@@ -142,7 +174,7 @@
     "lang": "he"
    },
    {
-    "title": "חמישה דברים שכדאי לדעת לקראת פתיחת המסחר בבורסה",
+    "title": "מניית ה-AI שזינקה ב-17% אחרי הדוחות: חמישה דברים לקראת יום המסחר",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001562842#utm_source=RSS",
     "source": "גלובס",
     "published": "2026-11-11T06:33:00+00:00",
@@ -150,44 +182,28 @@
     "lang": "he"
    },
    {
-    "title": "ארה\"ב מפנה מטוסים, החשש: איראן מסמנת עוד יעדים באירופה",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562908#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-11T05:30:00+00:00",
-    "lede": "למרות הטענות האמריקניות על השמדת ארסנל הנשק האיראני, הערכות גורמי המודיעין חושפות תמונה מצב מטרידה למדי",
-    "lang": "he"
-   },
-   {
-    "title": "יזם הנדל\"ן מניו יורק שעוזב את הבורסה בת\"א מוקדם מהצפוי, ועם חרטה אחת",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562641#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-11T04:00:00+00:00",
-    "lede": "בתחילת השבוע השלים אמיר שריקי את מחיקת האג\"ח שהנפיק בת\"א - שלוש שנים לפני המועד המקורי",
-    "lang": "he"
-   },
-   {
-    "title": "הבנקאית שהפכה למרגלת: האישה שהפילה בפח את מנכ\"ל אנבידיה",
-    "url": "https://finance.walla.co.il/item/3875689",
-    "source": "וואלה",
-    "published": "2026-11-10T15:14:00+00:00",
-    "lede": "אליס הואנג, האישה שעומדת במרכז סערת הריגול סביב מנכ\"ל ענקית השבבים, בנתה קריירה פיננסית בסין לפני שהשתלטה על חברת ענן שנקשרה למשלוחי שבבים אסורים",
+    "title": "קמטק בפער שלילי של 4.7%, טאואר 3.6%; השבבים באסיה מזנקים וחוזה נאסד\"ק עולה 1.3%",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBjUk1WdGtwTlNMRWJCdEw0YU9yZnZBcURzV1VRN3VzNXZKZmNXS2MtWWt1UWc0blZwbUE5ZXVqN3ZsbDE2UHl1QTJtNmdLRk4xOU1taE9NZGZISHZoMi1nblBRYUNuWFdpOUJqNkhPMHI?oc=5",
+    "source": "ביזפורטל",
+    "published": "2026-11-11T04:12:00+00:00",
+    "lede": null,
     "lang": "he"
    }
   ],
   "geo": [
    {
-    "title": "Cornish pupils behind AI war film to lay wreath at Cenotaph",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5SSkZZdXZJRDdjbzlIMUE5OG8wS2Y3NDY3LUV5ZWNqbURxVnl3QzU0N0ZMM21qQWlrbnpMYWRQTjdlbTZFQVFHQjFLODB0SGpBTTQ5RUlScXQwdFE?oc=5",
-    "source": "BBC",
-    "published": "2026-11-11T06:08:49+00:00",
+    "title": "China backs Cuba in opposing sanctions, blockades; pledges 'firm support', Xinhua reports",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPa3N1ckV1MFROQXNwREZwam1zUERleFYzWmRERXdxOXZEanNBb05KQ25HSGJoZ3FaVjZqSkw4N2RySndEdk1DajRobFlVRTJKSUdDWVpsUWVia0hUclVTc0ZIV1dvSUFNRWFEdGQzUVRHdkFqeG44ZkNzOGxUWlgwTzNzNjQwTHgzZzR6SEh6OWFzd2diV1QwVVp5aHBWR3dPYXNYc1lIZ2FaazdOdjkzWGJHUGdjRU9haXRKY3VR?oc=5",
+    "source": "Reuters",
+    "published": "2026-11-11T07:43:00+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "War dead added to Glyn School memorial after teacher research",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBBem1UX0xXX01mUFEyQVBPam9WV1BVM2o3TDBBd3lsVjN4Q08wcHZENTlXSVY3dkhBNGltMEMxakU1cF9FY3FqaW5mN19mU3FzMjlfYWpPdmN5NFE?oc=5",
-    "source": "BBC",
-    "published": "2026-11-11T06:05:07+00:00",
+    "title": "Ukraine's path to EU accession narrows as war drags on",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxORGQ3Vnl3Q3JxLUxKMjE3OUdLSG5lYi1LRXZLTjR4U1hhSE1sMFdZWlB2ZHRrMEJnd2pRbGdlUWxkcHN3aHhNUmEyd2s3LUtRaHhtYVE1cWZ3cEE1aUpJRFB1TUJINXUxWE9VMVJKcnc3YnZVaDd3VE5vRTNUd2ZGT3BDZ2xaNWtBcDI2RWFtOS1VVjBlMHNvcg?oc=5",
+    "source": "Reuters",
+    "published": "2026-11-11T07:04:00+00:00",
     "lede": null,
     "lang": "en"
    }
