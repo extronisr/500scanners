@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-12T00:01:22.463182+02:00",
+ "generated_at": "2026-11-12T01:01:07.185723+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -52,6 +52,46 @@
   ],
   "us": [
    {
+    "title": "Nvidia prepares to oust Jensen Huang, WSJ reports — stock sinks",
+    "url": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-affair-employee.html",
+    "source": "CNBC",
+    "published": "2026-11-11T22:52:14+00:00",
+    "lede": "The report comes days after Huang admitted to an affair with a woman who is believed by U.S. intelligence of being a Chinese spy.",
+    "lang": "en"
+   },
+   {
+    "title": "Stock Market Today, Nov. 11: Stock Market Today, Nov. 11: Nasdaq Surges as CoreWeave's 25% Rally Reignites the AI Trade",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNVFFBbktKOWpIakhjSm1YeFU0WTRwQnVYRUtrS2E2TVhwcHNMcjdVdWUwb1gyN1gzbjdLYU1Tb21hMVRESWV5WkVXQTRiTldLUmtJT1V2ZXB3X3R5dmN5bk5hNFhWRFpDQUhQUy05OWpOUVpNVG1icjNWNlRhX1Z3NWU4SFNPOUUxNkdLQ19WUHFMaW90?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-11T22:45:02+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Why Gevo Stock Rocketed Higher Today",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQMHhieGVEV0tHUGhRc3lwUEpVcm14MXFJSlNNTTk4WHRMa2tOQkl6OWZBNmpIaE9GQTNuQ09EYllXclVlWDczWmlTT3NIQnZTN3VxYmU2S0dSRTlqNkNRRGtLUW1zak9EcmdfRHFfN19Wb0pxZHY5UG9CWEUtOE0zU25YN3cxQkQ0ckJCSWtwWjByZWloeUFubGhqNA?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-11T22:43:40+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Nvidia shares slip in after-hours trading on fresh allegations of CEO relationship",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZFpBZGI4RmF5X3M4OTFNOUc3U3pWZzRjMmhrcmRLWjdSWmhUSEV0dUdjZXl3YTBWVHhfbHk2Y0hkM2VPbXR6SkVLRVp3dDhYbl9Yc1drS1pWMEI0S1hsNFFfRG5LYVAwV1JmSEwtRHg3Y3ZkbkhHTHBwOGF1RkFyRFpCRmRYMEpUWTNOSDZmUzdORk9ya185WHhtQlJZQQ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-11T22:37:02+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Canada’s ambassador warns Trump tariffs are driving up costs, threatening U.S. investment",
+    "url": "https://www.cnbc.com/2026/11/11/canada-ambassador-trump-tariffs-investments.html",
+    "source": "CNBC",
+    "published": "2026-11-11T22:30:57+00:00",
+    "lede": "U.S.-Canada trade tensions persist as Trump's tariffs drive up costs, threaten investment and complicate negotiations between the two countries.",
+    "lang": "en"
+   },
+   {
     "title": "Opening trading-card packs has become a $2 billion market. New apps are trying to cash in.",
     "url": "https://www.marketwatch.com/story/opening-trading-card-packs-has-become-a-2-billion-market-new-apps-are-trying-to-cash-in-b7ba11f5?mod=mw_rss_topstories",
     "source": "MarketWatch",
@@ -60,51 +100,11 @@
     "lang": "en"
    },
    {
-    "title": "Paccar Inc. stock outperforms competitors on strong trading day",
-    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNcFFjOWh6alBUb09CTnpjQWtuQktSMlpFbmJ0dVRqa1ZJbHdLWEtkMnNYWDFrSHlmR3NoQ2VFRHZJRmg5QzZBcFA2bjlzQlR4S1FlOXlWSWE5NU5CMFpYNl85ZVBDTUthUGNUakJCU3dtbnh0bENrQUEta1Zjemdadk8wT09WY19vSi04cDhEQzUyLVdmOFZZTEhreGMyY1lKeWNKdW92NjZya1FQV2kxdmZUNWFNZG1rNHhYSHBmTUZmMHd1NTBSX3hiMHkzX3FmMFZIOXNDZw?oc=5",
-    "source": "MarketWatch",
-    "published": "2026-11-11T21:49:00+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Garmin Ltd. stock underperforms Wednesday when compared to competitors despite daily gains",
-    "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQclZEejh3RXk3YXEtUUxjaVFMdHM4VGNWemU0Y0RwY0dIbXZKUUZ5bEhnNDJKQWhwOTB6ZWYzQ3cyM3ROWkFtRU9JYlVmMWZiMWVZX0ZoQzk2cExpWWgyQURKcTA0Z1ZxRGQwNnJXaktmV1NpN183LXF6ZTA2NEVEUy1vNmNMYzAwd0o3Qnk2Vm5VbkowWHBYYWFkek56RFlfYWhPMEo1Nmw4SF9ubl9YN2traHNHSVN0SVA4cWdkWk9VbWtnQmVnVnJEOHR5Y0drWGhGczB5eWdHbUJKSEVsc1JxNWlrUEcxU01lWW1fRjJ1VjBYYlF6Snl2SQ?oc=5",
-    "source": "MarketWatch",
-    "published": "2026-11-11T21:49:00+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Hedge Funds Just Turned Against AI Stocks for the First Time Since 2023. Should You Follow Them?",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOTTgtR1FyeDI3MFUzRGYtdFJyUmZFcHpCVDdURF9Uak8wZGw1Z0RYX1p4V3J5aFpDS051YjFGVzI2ejlGeGNWQUh1ZnlIdnhabjBLQm5xZDJUTXRWeENDODlkTEg4Y2x4UFNfRDlWNkJFZzUyMDZOd3ZQVmlRaVJ6UGxzOFliWmtrdUotUG1zN0Q4RzV1MXV3QkQwYWg?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-11T21:43:38+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
     "title": "Falling oil prices are no longer enough to bring down borrowing costs in the world’s most important bond market",
     "url": "https://www.marketwatch.com/story/falling-oil-prices-are-no-longer-enough-to-bring-down-borrowing-costs-in-the-worlds-most-important-bond-market-3176d25a?mod=mw_rss_topstories",
     "source": "MarketWatch",
     "published": "2026-11-11T21:42:00+00:00",
     "lede": "The tight trading relationship between oil prices and Treasury yields has broken down. It’s a sign that inflation concerns are extending beyond the energy shock.",
-    "lang": "en"
-   },
-   {
-    "title": "Nvidia shares rebound as Jensen Huang faces scrutiny ahead of earnings",
-    "url": "https://www.cnbc.com/2026/11/11/nvidia-stock-jensen-huang-affair-china.html",
-    "source": "CNBC",
-    "published": "2026-11-11T21:04:36+00:00",
-    "lede": "Investors are assessing whether CEO Jensen Huang's affair will have spillover effects on Nvidia's business.",
-    "lang": "en"
-   },
-   {
-    "title": "US tech stocks rally as AI trade revives",
-    "url": "https://www.ft.com/content/639de881-6017-454f-abfa-cfb191d1e7cd?syn-25a6b1a6=1",
-    "source": "Financial Times",
-    "published": "2026-11-11T21:04:17+00:00",
-    "lede": "Nasdaq erases last week’s losses as CoreWeave results and prospect of higher Anthropic IPO valuation boost sentiment",
     "lang": "en"
    },
    {
@@ -124,11 +124,11 @@
     "lang": "he"
    },
    {
-    "title": "Canada’s ambassador warns Trump tariffs are driving up costs, threatening U.S. investment",
-    "url": "https://www.cnbc.com/2026/11/11/canada-ambassador-trump-tariffs-investments.html",
+    "title": "Social Security could pay full benefits until 2059 if taxable payroll kept pace with GDP: AARP report",
+    "url": "https://www.cnbc.com/2026/11/11/social-security-benefits-taxable-payroll-gdp.html",
     "source": "CNBC",
-    "published": "2026-11-11T20:30:23+00:00",
-    "lede": "U.S.-Canada trade tensions persist as Trump's tariffs drive up costs, threaten investment and complicate negotiations between the two countries.",
+    "published": "2026-11-11T19:54:27+00:00",
+    "lede": "An aging work force is not the only reason Social Security's trust funds now have a looming shortfall, according to AARP Public Policy Institute research.",
     "lang": "en"
    }
   ],
@@ -200,18 +200,18 @@
   ],
   "geo": [
    {
-    "title": "Oil production nears pre-Iran war levels, OPEC says",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNWVl4QjNFcFhZd1N4V2ZIQlM0ejAwcEVmbUxqXzdmamFJeUE0QXBNU3FoQW9ldGNYdF95QnU2MVZxTGlMX1NiYWZrUVY0S2hKTFlVSGJBZTExY0xfWGl1Q2RobDlQa0M5a1ozU1VYSlBNd2lDYzQwS2FKV0pNNnpJUnNUNDV1RmJYZENBNWVXcVM0R0MyVWfSAZsBQVVfeXFMTVdoNlkwaFM0R0ZuOExoUHowckk2eFNRejVwY1NUM1pnZEp1RDdMdVdGLXM3ZFFCeEJIOE5zdWJZeXJwcTlHLVk5azdLUTV2R0EtaGJ1VHMyb0tiTmp3MHhJVzBZSjBJRURLcF8yWkJvcXhHY2UwTS1wd1JFbkZGMkY1eXcwNk9LTlBkNDh6clNWSUlRRXppdG5QelE?oc=5",
+    "title": "Iran designates Argentinian navy, air force as ‘terrorist organisations’",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPU1JnTFFmNEhBMUZqLTR2VjFZcWJ0M3JSdlktbXJtRHZ4M0NYZThVaEpET2NDejNWU3RtLXpkV1dJdUI0VEhNSjFfS2libTZFM2NJc18tOVM2Tmp2eDBTR1luYnM3N2YwbGl3T1A1T0lsS29idmR1ZllySkN1NnhRTWJKMk5jM2otaU1iNkZHS0tITW9nekJWOVFFRGlKQdIBowFBVV95cUxOaDNsQ3puN21rdG5SVmVCdllib2Y1ZEhsNld2ZkNtdkYyNWlrQm1fUkRtT2FzVjV4VTdzS09sZXYtRUFNNnhNUjBTSkxqTndiVU9hazFLX0txQ1NvQmFPSEI0OFJvQzIyWmRZUEVRSWZWSVBsVVE4akx6VW5KdW5WVHN4cE5uMlplSG9wNVI2WjhVQ3Q4NWRXdlBJSUZ1SmNVdFZF?oc=5",
     "source": "Al Jazeera",
-    "published": "2026-11-11T21:13:47+00:00",
+    "published": "2026-11-11T22:50:47+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Hormuz Strait will ‘never return’ to pre-war status, Iran’s Ghalibaf says",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQWGxvd2hwTGtyaGlUa3hIS3BUSkdPYXJVNUd2Wnl1V0M1enhlSVdnUU9UN091S0JPLThfTTk3QVkwUmhPR212enhUWDUxRGdqZ0RtVXVJY3Ruc0podzdET0QtX0VCbGMwRzY5ZHMtTEQtMHNSaGtVQmVueGdCWTJ1SXFTVUlZRzVzZXdDUTZwcXo3cHdyTzlfS3gyTzMySDBmNlctcHNR0gGrAUFVX3lxTE9ETk94YXFQVXpLTFZnMUFLWDJEYWlLR2pDSkkyUTdtSFNKcXdfQUtHUkNTcnBNc05LYk4xR09nZ0ctUDVvakxYejhwT18xVURRUHA3TUdWLWpIOUVpTnFkQmRFWXhaaWpadTNOLVpxdTMzUUl6OVhuQ25sSmRUMXJfMmJiTEtHbFpMSzVaNXpTU1lRTlkwWmFyUHZQb2Q5TENUMUh1ejZVZS1jVQ?oc=5",
+    "title": "Oil production nears pre-Iran war levels, OPEC says",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNWVl4QjNFcFhZd1N4V2ZIQlM0ejAwcEVmbUxqXzdmamFJeUE0QXBNU3FoQW9ldGNYdF95QnU2MVZxTGlMX1NiYWZrUVY0S2hKTFlVSGJBZTExY0xfWGl1Q2RobDlQa0M5a1ozU1VYSlBNd2lDYzQwS2FKV0pNNnpJUnNUNDV1RmJYZENBNWVXcVM0R0MyVWfSAZsBQVVfeXFMTVdoNlkwaFM0R0ZuOExoUHowckk2eFNRejVwY1NUM1pnZEp1RDdMdVdGLXM3ZFFCeEJIOE5zdWJZeXJwcTlHLVk5azdLUTV2R0EtaGJ1VHMyb0tiTmp3MHhJVzBZSjBJRURLcF8yWkJvcXhHY2UwTS1wd1JFbkZGMkY1eXcwNk9LTlBkNDh6clNWSUlRRXppdG5QelE?oc=5",
     "source": "Al Jazeera",
-    "published": "2026-11-11T21:06:03+00:00",
+    "published": "2026-11-11T21:13:47+00:00",
     "lede": null,
     "lang": "en"
    }
