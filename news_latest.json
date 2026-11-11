@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-11T21:01:07.205996+02:00",
+ "generated_at": "2026-11-11T22:03:05.092800+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -14,6 +14,14 @@
     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWjI3MDFtTkpkbWZnR29KdEtVWUhUTlRjVTFaOWFRN1U0UjdtRldyTXAtVXBQZWN0b256cTktZ194MGNfdWs2bjBJYXBOVGFyRzlYUGNIa0drV2xIUGFoWlhRbllqVHp4TS1kVHVybDIzUmhKS0J3dFAySnFsMGpXSUk1UDg?oc=5",
     "source": "Seeking Alpha",
     "published": "2026-11-11T17:09:25+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Liquidia stock upgraded at Raymond James (LQDA:NASDAQ)",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOZE5UemJ1c0dZMUgxRGl1bUtFS1ZaeVZoWEFjYWFlODVqSFNxU3QtVGd6VGJpV1k1bFhTbW5OUW50WHYySUZ5SndwRGUtWjczaHFvQ25CRVhxZkoxWTRuTXdOR2JUSGl3RUpsYWlHT21yNnNuTFhXb0NmblhUTG84OA?oc=5",
+    "source": "Seeking Alpha",
+    "published": "2026-11-11T15:46:32+00:00",
     "lede": null,
     "lang": "en"
    },
@@ -40,24 +48,64 @@
     "published": "2026-11-09T10:26:00+00:00",
     "lede": null,
     "lang": "en"
-   },
-   {
-    "title": "IBI: מניית ריט 1 בנקודת כניסה מצוינת, אפסייד של 31%",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1rTDJ4cGdQR1V6MHpNbTYzQmJFbHhhMnRXem53LS1oeklkbUM2dmlYSXlRaVdQZE4xX1Q5MHUwNDNBYjZITGdaUVdhenZobGlFQjNoZmY0VG9vZ29FekctT3ZHNUZ3RThmRHJhbjFwTWU?oc=5",
-    "source": "ביזפורטל",
-    "published": "2026-11-11T16:32:00+00:00",
-    "lede": null,
-    "lang": "he"
    }
   ],
   "us": [
    {
-    "title": "Bloom Energy surges, helping to erase much of this week’s AI jitters",
-    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNYV9JSHBxRWFLR01KRTlFTnIxeDJReXctS25HRHBpS0Nid1RXWGotMWh0MkxncHlhWGwtb1JxV0Z6YnZwU0JiaThaMjJscGRTN2lGLTNxQUFsNGd2RUllaVUwaWVsNWRsVjNPeHN6Z1IyZzJHSWJGcWEwS2JXVWpKVFJBTFluUUFPWkVDUFlTZmtCVkM3UGhPSnJDenhIUXZvRExfc0NySW5yRmtIS3dBLTZ4aXVZbXV1RGItcXA2QlFMczhFV01DWEtxZDFSbThUdTBuZQ?oc=5",
+    "title": "Social Security could pay full benefits until 2059 if taxable payroll kept pace with GDP: AARP report",
+    "url": "https://www.cnbc.com/2026/11/11/social-security-benefits-taxable-payroll-gdp.html",
+    "source": "CNBC",
+    "published": "2026-11-11T19:54:27+00:00",
+    "lede": "An aging work force is not the only reason Social Security's trust funds now have a looming shortfall, according to AARP Public Policy Institute research.",
+    "lang": "en"
+   },
+   {
+    "title": "Nov 13 Could Be A Huge Day For SpaceX Stock",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxORzlDLS0zQXd1Y0R4SFZJQm01VFJiSU4yMGRIamVlQXN6UjNvbS10aHdvVDZmTzlQcEZoS28zUGozcTBYdExrblZ6M2trbTE5SmRJOVdLajNjeGM0SEtYdndYSzF1M3VpY2xvVzQyZzlDdEtHOTBLN0NiNm5EMXpsZ1hZbUxzUDhiREhSNTlnOA?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-11T18:53:58+00:00",
+    "published": "2026-11-11T19:50:02+00:00",
     "lede": null,
     "lang": "en"
+   },
+   {
+    "title": "Stocks climb as CoreWeave results ease AI spending concerns",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUVZoWU1fQUd2Y1M2Qnl1T2JaMTkwaXBkaDIwWjVHejZoQmdDUnVzUVlSWDVsWW1pVDRVcXQ2ZTdrRTRiMDdMNWJDS3Atem91bUpDMnFLUkZ6NjhjaTliYWV1ODRLMnk0Slh3Wk5wNGtHTDhvaEZpTFIyUlVpQ2tNdTUyb2ZLbEZGOHlTZWRJNzVScUpIS3V5a1FacGwzby00RURBa2htZFFqZmw3Z2pRS2NDWQ?oc=5",
+    "source": "Reuters",
+    "published": "2026-11-11T19:48:05+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Why Oracle Stock Is Up Today",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPWmNVYl9RMXk0NlRVRVRZdFVZNFlqTTNCR1V1Vk5BRno1VkN1U09IRE14RXFCbHhZS040R0pkUHVNWkRYS0FLWHNmOWlRdEFWQ2hpc2QzcTNtai0ydEM5SGhTYTV3WFkwci1rVW5yX1NPb0txb3RNVWs4SG45N21uUDBOeG4zQzRfdjk1RU5ESWQ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-11T19:45:01+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Prediction markets tied to clinical trials and drug approvals draw lawmakers' ire",
+    "url": "https://www.cnbc.com/2026/11/11/kalsi-polymarket-prediction-market-senators-hhs-drug-approval.html",
+    "source": "CNBC",
+    "published": "2026-11-11T19:16:23+00:00",
+    "lede": "Sens. Angela Alsobrooks and Ron Wyden are asking what steps the Department of Health and Human Services has taken to mitigate risks from the markets.",
+    "lang": "en"
+   },
+   {
+    "title": "עליות חדות בוול סטריט: קורוויב מזנקת ב-25%, אנבידיה מתאוששת",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562761#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-11T19:00:00+00:00",
+    "lede": "נאסד\"ק מזנק ב-2% בהובלת מניות השבבים • אנבידיה מתאוששת, מייקל ברי: אנבידיה עשויה להפוך בקרוב ל\"עסקה מצוינת\" בטווח הקצר • חברת מחשוב הענן קורוויב מזנקת לאחר שפרסמה דוחות חזקים והקלה את החששות מפני החובות העצומים של חברות…",
+    "lang": "he"
+   },
+   {
+    "title": "עורך הדין שהרשיע מאפיונרים: החוקר שיבדוק את פרשת הרומן של מנכ\"ל אנבידיה",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001563064#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-11T19:00:00+00:00",
+    "lede": "ג'ון ה. קים הביא להרשעת ראש משפחת פשע ידועה לשמצה, חקר את מושל ניו יורק לשעבר אנדרו קואומו ופיקח על תיקים נגד בנקאי שהורשע בעקיפת הסנקציות על איראן",
+    "lang": "he"
    },
    {
     "title": "Nvidia is spending more than ever on Washington lobbying. It may not stop Congress from limiting China chip sales now.",
@@ -68,43 +116,11 @@
     "lang": "en"
    },
    {
-    "title": "מנכ\"ל טבע: \"העתיד נראה מבטיח במיוחד; מסתכלים גם על רכישות גדולות יותר\"",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001563125#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-11T18:46:00+00:00",
-    "lede": "טבע מעלה את יעד ההכנסות מתרופות חדשניות ל-6–7 מיליארד דולר עד 2030, ומציגה צמיחה בתזרים ובצנרת המוצרים",
-    "lang": "he"
-   },
-   {
-    "title": "The Only 3 Tech Stocks I'd Buy With $5,000 and Never Sell",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNUURQeV9NSkFfRWwyVkpHcmp2Yi1JbWtGckUwZ0ZZcnFKV3YzYXhGM2tJNjhPMEc3NjhMWVhxaEtLTlVQM2t5UV9lQjdvUVBqZlhQTmNLYmZja2RiUUYxbGpheThCUE9HcHBsRUs4N1VVa3pyT0pyUWlqdnhzSmtnMTZENzV5ckRnQW4wbjdRYw?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-11T18:46:00+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
     "title": "US tech stocks surge as AI trade revives",
     "url": "https://www.ft.com/content/639de881-6017-454f-abfa-cfb191d1e7cd?syn-25a6b1a6=1",
     "source": "Financial Times",
     "published": "2026-11-11T18:42:32+00:00",
-    "lede": "Nasdaq erases last week’s losses as better-than-expected CoreWeave results and prospect of higher Anthropic IPO valuation boost sentiment",
-    "lang": "en"
-   },
-   {
-    "title": "Polymarket Cleans House Ahead of Potential 2027 IPO as Revenue Soars",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNeEN1S0xMNnI1dHNTTjMtbVRPWXFNNWxROGdjQ21kRkwta21yT2FWLXFlZUtJTEVFdjAyeXdyZ2ZEUW9tS2NKbWR1M0F4aWlxV25VelpyYjl4bEU4ZWNNT2daNmhJemo3WEQ4VDVxV2NxSW5RVkRGVFlaY1JrdVRZVDllNDVOOG16VDV3Qk1jSXJCNkJQeVpnMmRjN0tlTW8waUtkX1Awdw?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-11T18:41:39+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Prediction markets tied to clinical trials and drug approvals draw lawmakers' ire",
-    "url": "https://www.cnbc.com/2026/11/11/kalsi-polymarket-prediction-market-senators-hhs-drug-approval.html",
-    "source": "CNBC",
-    "published": "2026-11-11T18:28:59+00:00",
-    "lede": "Sens. Angela Alsobrooks and Ron Wyden are asking what steps the Department of Health and Human Services has taken to mitigate risks from the markets.",
+    "lede": "Nasdaq erases last week’s losses as CoreWeave results and prospect of higher Anthropic IPO valuation boost sentiment",
     "lang": "en"
    },
    {
@@ -114,22 +130,6 @@
     "published": "2026-11-11T18:24:53+00:00",
     "lede": "From a valuation standpoint, WYNN is trading very close to its five-year historical averages across key metrics. So how should traders play this setup?",
     "lang": "en"
-   },
-   {
-    "title": "Oracle’s stock is totally misunderstood and should be a ‘go-to’ AI play, says this analyst",
-    "url": "https://www.marketwatch.com/story/oracles-stock-is-totally-misunderstood-and-should-be-a-go-to-ai-play-says-this-analyst-2a87e80d?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-11T18:13:00+00:00",
-    "lede": "A Bernstein analyst thinks two key investor concerns will soon subside.",
-    "lang": "en"
-   },
-   {
-    "title": "ויתרה על קריירה לטובת בעלה, הלבישה אותו במעיל עור איקוני: לורי הואנג נאלצת לצאת מהצללים",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001563118#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-11T17:53:00+00:00",
-    "lede": "רעייתו של מנכ\"ל ומייסד אנבידיה לורי הואנג נותרה עד כה הרחק מאור הזרקורים, אף שהייתה דמות משמעותית בשנותיה הראשונות של החברה ונותרה שותפה לניהול הונם של בני הזוג, שמחזיקים בנכסים ובמניות בשווי מיליארדי דולרים",
-    "lang": "he"
    }
   ],
   "il": [
@@ -142,11 +142,11 @@
     "lang": "he"
    },
    {
-    "title": "עליות חדות בוול סטריט: קורוויב מזנקת ב-25%, אנבידיה מתאוששת",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562761#utm_source=RSS",
+    "title": "מנכ\"ל טבע: \"העתיד נראה מבטיח במיוחד; מסתכלים גם על רכישות גדולות יותר\"",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001563125#utm_source=RSS",
     "source": "גלובס",
-    "published": "2026-11-11T17:40:00+00:00",
-    "lede": "נאסד\"ק מזנק ב-2% בהובלת מניות השבבים • אנבידיה מתאוששת, מייקל ברי: אנבידיה עשויה להפוך בקרוב ל\"עסקה מצוינת\" בטווח הקצר • חברת מחשוב הענן קורוויב מזנקת לאחר שפרסמה דוחות חזקים והקלה את החששות מפני החובות העצומים של חברות…",
+    "published": "2026-11-11T18:46:00+00:00",
+    "lede": "טבע מעלה את יעד ההכנסות מתרופות חדשניות ל-6–7 מיליארד דולר עד 2030, ומציגה צמיחה בתזרים ובצנרת המוצרים",
     "lang": "he"
    },
    {
@@ -192,18 +192,18 @@
   ],
   "geo": [
    {
-    "title": "Trump planning new military assault or tighter sanctions, say Iranian officials",
-    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNR3RWMGNrSXRNMkl5SzdlV0ZwQXhRZlBQMzM2bFpiWVQzSDRvbHNRSVZSSk9LNEhGWVRnS29iYUlKRHdxVXRKZUJZQlB2YUVraHlUeTRIQnNCZGhGTHRxZm04cmVmTGFBT0RtQk9tbERBU1BmTzhPcjF6a1N5MERVLXdqaDlCRzNuaFhMNW9mUUw3eVhxSGFRdFJNSFRBbTU4cEh0UHYtX3dxd2RkMk1qcHJib3VnSEU?oc=5",
+    "title": "Ukraine captures first Indonesian prisoner of war amid surge in Russian recruitment",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQWjZYdEdGclo5TVdOVXhmMWc5c2ZlWmZwN1VsVFlQS1FCQ1ZsZVVhSC1NYWFvQ2cwUEVOWHVFREUzYUJUbFhSUG83U0tYRXlaTzFpOXhsekhwNHJBbHh0WVR5MERnbzRkUnlZWmFUM2hyWWZvZktCLWZpUUs4MnVObmNVdVFlV2gwQ29PV1RibElJdklnM1E?oc=5",
     "source": "The Guardian",
-    "published": "2026-11-11T18:49:00+00:00",
+    "published": "2026-11-11T19:48:00+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Why does Pete Hegseth call himself secretary of war? ‘Dopey but dangerous’ wouldn’t fit on a badge | Emma Brockes",
-    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdHNwSDhmV2IwbUY3c0ZXd180WTM3VHdTYXhUdkowV3dTMG5ZeEp1Y1BYSVM3Ti0xbDBHaHJjd05QN2EyejdvOW5UaE1KVnlON1QyMGotLTdxZFVwZnlIc3pzVWd6LXhLb1RCTGhEQ0RlM1g3djVCTld0VjhKUDJMc0xWTUczTWVGT0Q5SlcyYTcwMGJTS1N3eUhUSnhKT0VYbFpoSERuZUQyRDM4dnVGSklOVWlfb2l4NW44TQ?oc=5",
-    "source": "The Guardian",
-    "published": "2026-11-11T17:37:00+00:00",
+    "title": "Watch: Trump says 'we won' Iran war during Veterans Day service",
+    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5FRmJDYjhwWEtuOUdPMHZvcktHX3hFWUd3Ym51U3FpLThEQlNUSWpURWdjaXA5cmJsOU5hb192Y0RmSjdCNDF5U3hSZkFNMTZmX3lyZTRWMnQ?oc=5",
+    "source": "BBC",
+    "published": "2026-11-11T19:30:48+00:00",
     "lede": null,
     "lang": "en"
    }
