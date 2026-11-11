@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-11T17:01:02.323126+02:00",
+ "generated_at": "2026-11-11T18:01:06.787718+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -9,6 +9,14 @@
  },
  "sections": {
   "analysts": [
+   {
+    "title": "Liquidia stock upgraded at Raymond James (LQDA:NASDAQ)",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOZE5UemJ1c0dZMUgxRGl1bUtFS1ZaeVZoWEFjYWFlODVqSFNxU3QtVGd6VGJpV1k1bFhTbW5OUW50WHYySUZ5SndwRGUtWjczaHFvQ25CRVhxZkoxWTRuTXdOR2JUSGl3RUpsYWlHT21yNnNuTFhXb0NmblhUTG84OA?oc=5",
+    "source": "Seeking Alpha",
+    "published": "2026-11-11T15:46:32+00:00",
+    "lede": null,
+    "lang": "en"
+   },
    {
     "title": "WMT Stock Gets A Price Target Boost From BofA Ahead Of Q3 Earnings – Analyst Sees More Market Share Gains",
     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNYjJzWlk4ei1EX2lSbGFFT05kV2FYTXJPLVNNNlFZS0lMUjlFZllYMWhXQmhPdjVDa2JaTFl0cjhyTVFUR0N0T2VqeUdIU1FPNVdjUnpyZDJJYkJsaFk0Wk5EUkVURnZoNmp4VkYxbjZndHpMNlFnSnhMOUJ1emFXUWZlN1h3TU1ZYTIzaWI3RkR5RUs0Nk1z?oc=5",
@@ -26,62 +34,70 @@
     "lang": "en"
    },
    {
+    "title": "The market’s correction is entering its final phase — but wait before buying the dip, says Morgan Stanley chief strategist",
+    "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPcnNXMDMwNzFabjg0UDdwNVFSdE10SW9nWThUaXJTbGFaTFFlRjBsamtUN19FTUhBa3ZHQ0Vtem11NkZpb1pyOWdMR21TaklYR2R2ZjdHZmpyVDV5NmpjRExRbEhURDNJSjc2YnNCdERiS0VqV2VRUG9uazBqd0lNV3NEdnZYckpxbE9qV0UxRmlMNm9xdnFoR1lEb1ZoMThYLVZ3cDM1UGpDeDRvT3BzRjdvX3lhdnlvSjlycVZ0TUdaelF2WHJlSVRiR0NqSWNKZ0R3UHF4U0FwaGVmd3JaV2o4ZXlZaUhUWVRkV3hhdnQyMW8?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-11-09T10:26:00+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
     "title": "Wall Street's Most Accurate Analysts Spotlight On 3 Tech Stocks Delivering High-Dividend Yields",
     "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQeHNGNnlaZ2x3bTVLWkl6N2l2R1A4cmNVX3M2Z0daR3FXVDBBTUJjekhweVdlV0pVc1ZRQks3ZUZodXBLbEgtMEl0VkdVSkZuRXZkTXpwRk1ZSVRxVktxY2VSOTBWOWxxQkZaMklQQnlpSlV0aF9nMmc2c1dpVENLQS1yTnM5c1hZNEdXMFFfLTh3UXEzV0hiUmFocDlreTlSV0xaRnBqZDRiVnpTUkFlUWJEdEZjYjJXcFNyc1N4TG9MVGtVQkZCd0J6RlVkNUJNQ2lTMXB3MHNKVW8wTTAyaWh4RVY0MlVfaUl2SUU2M0FwYTA?oc=5",
     "source": "Benzinga",
     "published": "2026-11-11T12:20:44+00:00",
     "lede": null,
     "lang": "en"
-   },
-   {
-    "title": "Hims and Hers stock rating held at Sector Weight by KeyBanc",
-    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWGx0Q0xtRXlDX2NCNnB6ak1Qd1VCc0RkaXM0dVJkSlV4VlVXN2k0SmVEVnRhNkZ6NDVRNXBkcEtadHlWb2lvWVowVnl3dU9IbFN3bTFCM042eWYtSWVEOTluUVo3Si1OVGlRcGd6NHVZLWZ3VHozajRVRjdfWEV2YlAxZHgwU3lCb21EbWFMUThhdnBLaWZJWGhOUkZlR2s4TnZxN2MtZjZBMGZ1ZUNCSjF4Q0N4TTVrY2Uw?oc=5",
-    "source": "Investing.com",
-    "published": "2026-11-11T10:53:30+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "מגמה מעורבת בת\"א; מניית הבורסה צונחת אחרי הדוחות",
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9mYXRDbjhnQlUtWk55NWR2YURXdF9hcTVVQ1R4NFVCUzRKM1hOcHFZN0RPV01iMTBUc3VxZnVHNEdvbnVORTBkcm5kQUVUN1dKVGNiY1RCdHBXclduUGxtZnZPS1IyeVRR?oc=5",
-    "source": "גלובס",
-    "published": "2026-11-11T06:36:28+00:00",
-    "lede": null,
-    "lang": "he"
    }
   ],
   "us": [
    {
-    "title": "Multiple Compression Weighs on Carpenter Technology (CRS) Following Period of Outperformance",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObkM5SzQ4elRnVkVKemtSTHIyS2pwU0h1MUJIV2cwMXU2UzJweGNRbVRnNHdNZHlDY19SYm9KVmc5dlotbnBIWUlPWnhrbzRjU3JUY3dZbktjOXlSZzdiVjNvem9IZVlSTUNoNGRUVXVZWUZlMUxxOWhGdnN5LVA2T3otYkNUVG1tWTdnMzY3b0VvWTE5SjJZaExMVXJlcUxOeGdYallwTE1zX2lNcmh0ZWI4bw?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-11T14:47:42+00:00",
+    "title": "Applied Digital And Harwood: A Teaching Moment For AI Data Centers?",
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQV0oyNXNNX0d1MExLR2lFQllzT2pJNHNkQzliYWRJc1l4M09qcmJ1UFFMbjJXc2RMWmhnczg4dlh1ZUUwX3VwalBBeXhMZXhzcHVYS2tZU0RmMUQtSXZNSGgtSUcwZTVKYVBxUFNlVFhHMTM3aDFwaU1OTFdsd2xYQy1n?oc=5",
+    "source": "Investor's Business Daily",
+    "published": "2026-11-11T15:55:00+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Waterway Headwinds Weigh on Viking Holdings Ltd’s (VIK) Intermediate Fundamentals",
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNS3Ftd0M5dkM2RTJJVTVaWk1qdTJIN0FSaVloWTN5Mm1pTm5ER2JiN1JldTFINzcxWWw3RmFuRHhxRDdNVXNSMWhlMUt2UW96QlVjMTk4d2J0QlB4bnRDZVdESVJiSExDbzQtVDRTOFAxRmowRGF1NFNpcGl4SGJLNzlERnFSZWZmSjFBZFF3ZHhnWVlzYlA5azF4WnpzZnVRMXJ4LVlyZHI?oc=5",
+    "title": "Even $50,000 in Dividend Stocks Pays More Inside a Roth IRA. Here’s How Much More",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPUGMwSE9QeEdDU2MwZG5wYmJQWEFKLVBaYXZQVXc1WVZ3MlJ4cjRoWEFNM296bjAybnVfa19vNFMzd3lBaFM1bHVJTnB0d1FKUWEwQlZOc21UdnpJLVVZYndjMkNMaXEycjBOWmlkRk1LOHZaUGhMTEtPNTZTZGRYNzFqSUlYUW11bVREcWw4NmlTeU1scFdF?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-11T14:44:29+00:00",
+    "published": "2026-11-11T15:47:44+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Key Nvidia stock levels to watch if pressure continues",
-    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNMDlLVjVKeGIzSVkyMTN1UWhyaUdsQWdVbWhDdkNhQzVFM09FSkZ0V3NYbWd4VmQzV0NNd2VlSzR3MkVjT1pHaVhHcHF6VTF6TWlzVWlYUmNqdFRKZVpxSXZ0WWNIZFBjcHNfbzRUQ0ZjdWZCdWxENXdIa09VMVdQbHpkRVgwT0lpTVJkQ0pTTkJXTmxKZmxudkNR?oc=5",
+    "title": "What To Expect Out of Meta By The End of 2026 With an Announced January Stock Split",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOLWVDY2lZaGRsVW16Y2RrUnJ5ek5ST2V1RzlPNFhLUVNCSmJnR2NMczJYN2d3XzlfbjQ2ZllRNllfcGxYQ3NwRWsxMUNjV1Q4anZXaVhhWVpKcnAtT3JVZThYVTlDbTAtLS0zRWtWX2JUTURETVlKLU5UMkVGb3huZVp6WGhNTGMxM1JJV2pKaGFWUjlyYjdxZ25yUQ?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-11T14:44:14+00:00",
+    "published": "2026-11-11T15:45:23+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "CoreWeave stock pops 12% after outlook raise eases AI slowdown concerns",
-    "url": "https://www.cnbc.com/2026/11/11/coreweave-crwv-outlook-earnings-ai.html",
-    "source": "CNBC",
-    "published": "2026-11-11T14:40:44+00:00",
-    "lede": "Neoclouds such as CoreWeave, Nebius and IREN have come under scrutiny this month as investors assessed the sustainability of the AI trade.",
+    "title": "US tech stocks gain as AI trade revives",
+    "url": "https://www.ft.com/content/639de881-6017-454f-abfa-cfb191d1e7cd?syn-25a6b1a6=1",
+    "source": "Financial Times",
+    "published": "2026-11-11T15:38:13+00:00",
+    "lede": "Nasdaq erases bulk of last week’s losses as better-than-expected CoreWeave results and prospect of higher Anthropic IPO valuation boost sentiment",
     "lang": "en"
+   },
+   {
+    "title": "Market angst is driving investors into low-volatility stocks as AI trade stumbles",
+    "url": "https://www.marketwatch.com/story/market-angst-is-driving-investors-into-low-volatility-stocks-as-ai-trade-stumbles-23d905e9?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-11T15:15:00+00:00",
+    "lede": "Anxiety in the U.S. stock market has surged amid a sharp selloff in artificial intelligence names and stubbornly high bond yields.",
+    "lang": "en"
+   },
+   {
+    "title": "קורוויב מציתה מחדש את הראלי במניות ה-AI: עליות חדות בוול סטריט",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562761#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-11T15:03:00+00:00",
+    "lede": "נאסד\"ק מזנק ב-1.7% בהובלת מניות השבבים • אנבידיה מתאוששת, מייקל ברי: אנבידיה עשויה להפוך בקרוב ל\"עסקה מצוינת\" בטווח הקצר • חברת מחשוב הענן קורוויב מזנקת לאחר שפרסמה דוחות חזקים והקלה את החששות מפני החובות העצומים של…",
+    "lang": "he"
    },
    {
     "title": "מניית ה-AI שממריאה אחרי הדוחות ומזניקה נאסד\"ק",
@@ -100,22 +116,6 @@
     "lang": "en"
    },
    {
-    "title": "US tech stocks gain as AI trade revives",
-    "url": "https://www.ft.com/content/639de881-6017-454f-abfa-cfb191d1e7cd?syn-25a6b1a6=1",
-    "source": "Financial Times",
-    "published": "2026-11-11T14:31:18+00:00",
-    "lede": "Better than expected CoreWeave results and the prospect of a higher IPO valuation for Anthropic boost sentiment after last week’s sell-off",
-    "lang": "en"
-   },
-   {
-    "title": "קורוויב מציתה מחדש את הראלי במניות ה-AI: עליות חדות בוול סטריט",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562761#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-11T14:30:00+00:00",
-    "lede": "נאסד\"ק מזנק ב-1.7% בהובלת מניות השבבים • אנבידיה מתאוששת, מייקל ברי: אנבידיה עשויה להפוך בקרוב ל\"עסקה מצוינת\" בטווח הקצר • חברת מחשוב הענן קורוויב מזנקת לאחר שפרסמה דוחות חזקים והקלה את החששות מפני החובות העצומים של…",
-    "lang": "he"
-   },
-   {
     "title": "Fed's Goolsbee calls inflation report 'borderline disturbing' as central bank weighs more hikes",
     "url": "https://www.cnbc.com/2026/11/11/goolsbee-october-inflation-fed-rates-disturbing-distressing.html",
     "source": "CNBC",
@@ -124,21 +124,37 @@
     "lang": "en"
    },
    {
-    "title": "Corporate America is making a trillion-dollar mistake about retirement",
-    "url": "https://www.marketwatch.com/story/corporate-america-is-making-a-trillion-dollar-mistake-about-retirement-234c8996?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-11T13:52:00+00:00",
-    "lede": "The market is dramatically underpricing the economic impact of Americans age 50 and older.",
+    "title": "Jim Cramer's top 10 things to watch in the stock market Wednesday",
+    "url": "https://www.cnbc.com/investingclub/2026/11/11/jim-cramers-top-10-things-to-watch-in-the-stock-market-wednesday.html",
+    "source": "CNBC",
+    "published": "2026-11-11T14:13:25+00:00",
+    "lede": "CoreWeave lifts the AI trade, and my advice to Nvidia.",
     "lang": "en"
    }
   ],
   "il": [
    {
-    "title": "מגמה מעורבת בת\"א: הבנקים מעיבים, התוכנה והבנייה בעליות",
+    "title": "ת\"א 35 איבד יותר מ-1% בנעילה; מניית הבורסה מחקה מיליארד שקל ביום",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001562842#utm_source=RSS",
     "source": "גלובס",
-    "published": "2026-11-11T14:43:00+00:00",
-    "lede": "מגמה מעורבת במסחר במדדי הדגל • סקטור הביטחוניות מוביל את העליות, הבנקים מכבידים • הבינלאומי ודלתא בירידות אחרי הדוחות • נאייקס מעדכנת תחזיות ל-2026 והמנייה עולה • רפק אנרג'י מתרחבת לארה\"ב: רוכשת פרויקטים סולאריים בטקסס…",
+    "published": "2026-11-11T15:33:00+00:00",
+    "lede": "מדד ת\"א 35 ננעל בירידה של כ-1% בהובלת מדד הבנקים שצנח ב-3.4%",
+    "lang": "he"
+   },
+   {
+    "title": "כולם רוצים ביס משוק של טריליון שקל: השחקנית החדשה שנכנסת לשוק הגמל",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001563082#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-11T15:30:00+00:00",
+    "lede": "חברת הביטוח הכשרה, שבשליטת אלי אלעזרא, תבקש בימים הקרובים היתר מרשות שוק ההון לפתיחת פעילות בתחום ניהול כספי גמל",
+    "lang": "he"
+   },
+   {
+    "title": "בגלל הורמוז: פולין מבטלת חוזה גז של מיליארדי אירו עם קטאר",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001563094#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-11T15:15:00+00:00",
+    "lede": "חברת האנרגיה הפולנית אורלן הודיעה על ביטול חוזה ארוך טווח עם ספקית הגז הממשלתית של קטאר, בשל שיבושי האספקה עקב חסימת מצר הורמוז",
     "lang": "he"
    },
    {
@@ -147,22 +163,6 @@
     "source": "גלובס",
     "published": "2026-11-11T14:28:00+00:00",
     "lede": "מחקר חדש של מקינזי מעריך שהשקעה בהגנה מפני נזקי אקלים חוסכת נזקים בשווי הגבוה פי כמה מעלותה",
-    "lang": "he"
-   },
-   {
-    "title": "ארה\"ב מפנה מטוסים, החשש: איראן מסמנת עוד יעדים באירופה",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562908#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-11T14:22:00+00:00",
-    "lede": "למרות הטענות האמריקניות על השמדת ארסנל הנשק האיראני, הערכות גורמי המודיעין חושפות תמונה מצב מטרידה למדי",
-    "lang": "he"
-   },
-   {
-    "title": "עזבו את מיקרוסופט אחרי שני עשורים וגייסו 70 מיליון דולר כדי להתחרות בענקיות הדאטה",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001563004#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-11T14:00:00+00:00",
-    "lede": "ארבעה מהנדסים שהיו שותפים לפיתוח תשתיות הנתונים של מיקרוסופט הקימו את Edelbyte",
     "lang": "he"
    },
    {
@@ -192,18 +192,18 @@
   ],
   "geo": [
    {
-    "title": "EU envoys agree new Russia sanctions listings on banks, shadow fleet and misinformation",
-    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQQUdNOXVnNXI2X2xlbEQ4UGtYck5xSTN6OXRqSVpTSHMySlI0NjhXa3VRbWFUQk4zNDhBMk43elprQ3dPcGd5SG1SeHFnanBkd3ZTNHZ0N2NlRlBDTGg5Q2FwbGN5SnR6R1V6TmtpUzBfbWlueUVsZlYwRUlYRHl4V0ZBbkZOcEQzUTZiLUlsVkI1aWZhTllBbDJSVm90UnBJTHVQdVpsb2xHMDBEUnZKWm5POFBGaktZYWJHUkx6dExGNHh0QW5acVVEVUY?oc=5",
-    "source": "Reuters",
-    "published": "2026-11-11T14:29:08+00:00",
+    "title": "Bessent’s relocation: From US to EU, is Iran bringing war to Western soil?",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQaEM0N0sxdWVLR2tod0U2NE9LZDlDNmgyYTBhLVlsUTRFaXljN3lzbkpyLURSenZGTHpienotWDFCMFlfNjc3OGQ5dEp6Um5QVGZtQ05LbzlHajNJakpLN1VCWktkU0ppNTU1ZmZBaklXVXRCOUw4WENhX1pUWW5NZUVKaTl3ejFRVG9Oa3EwTWtiYTZHRy1Ka2xTb1JIY1ZSSXpVTmF5Y0YtZ01TdV9MQjJsRDM5TDN5eU04U2ZR0gHDAUFVX3lxTE5SWDB6aEdnQTNyOVFUX0dodTY5YzA4aFR1NHFzMlZiUmpxQVlDV2xzSUFGQ2t1MUQ5LWljUHJrSlhvMjJsUjUxT3h1OEFsel9IeWtJVTJmc0M2RHY1ZXdYVXA5NmpGdXkzeEY4aVpjUE9NLUxUdTlQSGpra3JSQjc3eDFfODZmMkIwcEp3WUxLd19leXYxb1Z0ekd4TkZ4TEZRUGgxd1FidFROTHc1dzJtQXl3U1ZzUWRZWkRRWXJqa21TMA?oc=5",
+    "source": "Al Jazeera",
+    "published": "2026-11-11T15:35:49+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Rubio backs blockade, Vance wants deal: Is Trump’s team split on Iran war?",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBCYVRxVHdXS2I0WWlWam93NzhydHhvZnRPWUN6ZEZySlF1WGp6a1JDWVNPal9hVmFYbEdNWlVyclgwN0lOZC1hZVR6Z2R1M3pUQW5LRjRZSlVYZndYaDNzbDVtNEF5UmZwbFNoNzB4NnNzSnJQdkpDM9IBfkFVX3lxTE52RGRYcHhoaW9LZFhuZHc4N2ZocFVUcGZlYXZSM21ZYmR2a25odXBneUo5ZW5tNnZ1SEFOdzZNLS1pYXhtai1kd2cxTUI4SjIyd2trTF9BWk9nVVEzak9UYmRMWHZPMmpOZWhOUnplei1yUlNEbDVrUlhTd25tZw?oc=5",
-    "source": "Al Jazeera",
-    "published": "2026-11-11T14:14:55+00:00",
+    "title": "Ukraine captures first Indonesian prisoner of war amid surge in Russian recruitment",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQWjZYdEdGclo5TVdOVXhmMWc5c2ZlWmZwN1VsVFlQS1FCQ1ZsZVVhSC1NYWFvQ2cwUEVOWHVFREUzYUJUbFhSUG83U0tYRXlaTzFpOXhsekhwNHJBbHh0WVR5MERnbzRkUnlZWmFUM2hyWWZvZktCLWZpUUs4MnVObmNVdVFlV2gwQ29PV1RibElJdklnM1E?oc=5",
+    "source": "The Guardian",
+    "published": "2026-11-11T15:28:00+00:00",
     "lede": null,
     "lang": "en"
    }
