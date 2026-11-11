@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-11T11:00:59.385404+02:00",
+ "generated_at": "2026-11-11T12:01:00.833942+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -9,6 +9,14 @@
  },
  "sections": {
   "analysts": [
+   {
+    "title": "Can The S&P 500 Keep Rising In 2027? UBS Bets On 8,900, But BofA Warns Of Crowded Trades",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQLWtfZy15cy0tWm0yVU9mRVRzR0dadkViYXJUY3RNWmR4dkFWRWZ0QmtpZ29Edml5blp1bGRjNjhIX2FxUVhyUHRJbEZna1VGUHJGZFVWTGhGdkVJX0Z1LThzTl9xdUlBNVhVYVk3czdzWGxXd3pjaU01T0Yzb1RpLVI0SDRpeTBteFlLMElPaGc?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-11T02:51:00+00:00",
+    "lede": null,
+    "lang": "en"
+   },
    {
     "title": "WULF, HUT, CIFR Stocks Get Price Target Cuts From Jefferies: Here’s Why The Analyst Is Still Bullish On These AI Infra Firms",
     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQ0o0c0otMWRjT2hBSmEzVlh1NVRmWGZKWXQ2a2NBT3UyZ0xYNHloSFpXako2WTgwdHFWemduRE81U3NyVmpSUDEwR3liSXJGbnI0dW9QYWM0VDJMV3MwQnB5WklzU1pDcWwyVzhxendvOE4walVKaDE0aDZzS1pkUFBSRjR0czNFekQtUWxPTEV0Y29sVUE?oc=5",
@@ -40,23 +48,39 @@
     "published": "2026-11-09T11:54:06+00:00",
     "lede": null,
     "lang": "en"
-   },
-   {
-    "title": "Watch Oil Market Starting to Price In a US-Iran Deal, Says Analyst Sen",
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNQUQ1UFZwSnE3NXJwWVg4NDJPRW0tdFZVbmdYR20wR05ZYmRNdFJKendoV2ZWSFdISzN6QXE1UVBjS2h4TnU0ekRKTFI2NVlyTzJGNkJHUTFXMVVVdVZCczBoT0J3b1dGeUVPVzgtR252d1RCdXZ5SjgxZHh3Y0owb004UUtFTGlzb1hPdlp6VDk0WXpMMWROMVVKQVF2a3ZyWEFPSkhPRlo?oc=5",
-    "source": "Bloomberg.com",
-    "published": "2026-11-10T00:00:00+00:00",
-    "lede": null,
-    "lang": "en"
    }
   ],
   "us": [
    {
-    "title": "History Says Dividend ETFs Can Protect Your Portfolio if a Stock Market Slump Is Coming",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNckFRUFpxUER3a21hN0JyZnhrajNFWC1rUHNWYnNYNkM4eS04VXg5TkU2cGpXMTBiU1YxUGRUa2Q1US1yMXhUU0hEOTFpMFNXWDVoUnZvY1ZyVk1iNVh0VWthRG41Um50UFpKOGVKWmJrRmVSSVg5YnVPWVJyNTh1WGlaVDNjRTNCWUs4SDQtcm9aTkNUdzNIYkw2S2R5Tks4?oc=5",
+    "title": "2 Safe AI Stocks to Buy in the Next Market Crash. And No, It's Not Palantir.",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOVFI4Mm5VdmFiUDVSem1lNndiRzJqNlExbm9GWU1NUkRxSmlJUHQyM1FsM3doQml2bFJRblh1RmhMaF9yZ1RfYjMzMkFXZGVaeTFLcF9sZHloR0tVUVNXOGxlQmZSNWV6VUlEeUthaTQxNmMyMGs3dUVvZVU1LVJIM08zbnIyaFBhckZlN3dB?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-11T08:35:02+00:00",
+    "published": "2026-11-11T09:46:00+00:00",
     "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Dimensional Fund Advisors Ltd. : Form 8.3 - PROLOGIS INC - Ordinary Shares",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPNWdBR2tVQlB4LWo0d05DSVdTRTY2Y00yaWxhUHRoeGF5MnBBQmtYSE9LQnFfcGk2aG1lTWkwOWFDbmd6NWc2VmZxLTNBMVBNWV9iN3h2LUlNTUYwcWNEWTF1TGp3aW40UkpJRGZvTHBvbkpGOFN3dUVOX2hDcVJ2dWsyQkdqaE1iakc1LUJEQkxXdWZPYmt3TkRJUGxFaVdD?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-11T09:40:00+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "CoreWeave outlook; OpenAI’s revenue reportedly spikes - what’s moving markets",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNOUJndzVYM1pqME9XWE5UNUpIeWtWNkpianJVOGxMR19FSmViSFRyblVDdjlRWmt2Y0loWjZ4aUtsZGNHc0VnMm1qdmZhMjVWVWJvNDl2NmVQbm9JbktZUk5GMzJub3N3dnJCem9uQzUyZ2RkaElrSTdESWVhQmVVWnRpRWo0RVMzTl9kV2o4Rk9EeTZmU0ZWejFLaDhLV19ERHpvUWpra3ZIWFk4?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-11T09:37:52+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "CoreWeave stock pops 13% after outlook raise eases AI slowdown concerns",
+    "url": "https://www.cnbc.com/2026/11/11/coreweave-crwv-outlook-earnings-ai.html",
+    "source": "CNBC",
+    "published": "2026-11-11T09:34:18+00:00",
+    "lede": "Neoclouds such as CoreWeave, Nebius and IREN have come under scrutiny this month as investors assessed the sustainability of the AI trade.",
     "lang": "en"
    },
    {
@@ -66,22 +90,6 @@
     "published": "2026-11-11T08:30:00+00:00",
     "lede": "בורסת פרנקפורט עולה בכ-0.8% • נעילה מעורבת באסיה, מניות השבבים הקפיצו את הבורסה בסיאול • וול סטריט רשמה ירידות אתמול אחרי נתוני האינפלציה שהפתיעו לרעה • חברת מחשוב הענן קורוויב פרסמה דוחות חזקים מן המצופה וזינקה במסחר…",
     "lang": "he"
-   },
-   {
-    "title": "ICICI Life BSE 500 Momentum Quality 50 Index Fund launched to offer customers quality companies with steady share-price growth",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQenlDN1Bua3E3dHFMbHFKRV9tWUhJdTY5cXQxeGpFa2c3ZzJTTUlUN2s1ZlpvOTBGY0dsTFR3VURLU0hQUTA3ZllvNVpyUEJGX0VVTzJwMy1xMWg1Q1JBMHA5bk92Ni1IU04wVE1OVk9MLTFNLXhGNXYtREtGbFFQSU5qdlJydE9WUUd2OE93R3hIRERLUVR3?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-11T08:24:00+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "CoreWeave Raises 2026 Outlook to $13.3 Billion, Stock Rebounds From 52-Week Low",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMGxQcWstSGEweW1qT1dNSHc3V25PS3FZWEU3dThuNU9xT0Z2UGdRdWlZSk5GYkpFOXR3V0QwaWpvemxLYzV3ajh4S1RKbG9KS1ZhbmJkZnlIWkNKTHJMQnVUaXVWVmVZTy04ai1JWU5SY1c2MXhjbkJIbmxYSGE1OHhEY2RjT0pYbGlwMnNIa2IzUWQyWXlTWmpKMWtJUQ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-11T08:19:20+00:00",
-    "lede": null,
-    "lang": "en"
    },
    {
     "title": "Alibaba announces plans to list T-Head, its Nvidia chip rival",
@@ -116,14 +124,6 @@
     "lang": "en"
    },
    {
-    "title": "Investors pivot to defensive stocks as markets enter a ‘state of alert’",
-    "url": "https://www.cnbc.com/2026/11/11/tech-selloff-defensive-pivot.html",
-    "source": "CNBC",
-    "published": "2026-11-11T06:00:01+00:00",
-    "lede": "Technology stocks have lost momentum while defensive sectors gain ground, as investors reassess risks.",
-    "lang": "en"
-   },
-   {
     "title": "How Singapore became a linchpin of China’s AI chip trade",
     "url": "https://www.ft.com/content/52b5f9a8-346f-4dae-8a16-14d5d9eb1244?syn-25a6b1a6=1",
     "source": "Financial Times",
@@ -134,6 +134,14 @@
   ],
   "il": [
    {
+    "title": "הזדמנות או סיכון? משבר הריגול מטלטל את מניית אנבידיה",
+    "url": "https://finance.walla.co.il/item/3875825",
+    "source": "וואלה",
+    "published": "2026-11-11T12:16:00+00:00",
+    "lede": "למרות הכנסות שיא של 96 מיליארד דולר, ענקית השבבים סופגת מכה קשה בבורסה - ומאבדת מעל 470 מיליארד דולר בתוך יומיים בלבד. ברקע: חששות ממימוני עתק סיבוביים, ירידה בתשתיות, וחקירת הדירקטוריון בעקבות פרשת הרומן של המנכ\"ל…",
+    "lang": "he"
+   },
+   {
     "title": "מחירי הנפט עלו ב-1.1%: חשש משיבושי שיט במיצרי הורמוז",
     "url": "https://finance.walla.co.il/item/3875808",
     "source": "וואלה",
@@ -142,51 +150,35 @@
     "lang": "he"
    },
    {
-    "title": "בצל פרשת הריגול: השבבים של אנבידיה הגיעו לצבא סין",
-    "url": "https://finance.walla.co.il/item/3875805",
-    "source": "וואלה",
-    "published": "2026-11-11T09:49:00+00:00",
-    "lede": "למרות הכללתה ברשימה השחורה של ארה\"ב, האוניברסיטה הפוליטכנית של צפון-מערב בסין הצליחה לרכוש מעבדי H200 מתקדמים דרך ספקים מקומיים",
+    "title": "ניצלה את הנפילה אחרי הדוחות: קרן כהן-חזון רכשה מניות תורפז ב-5 מיליון שקל",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562930#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-11T09:57:00+00:00",
+    "lede": "מנכ\"לית ובעלת השליטה ביצרנית תמציות הטעמים ניצלה ירידה של מעל 40% מהשיא, כדי לרכוש מניות",
     "lang": "he"
    },
    {
-    "title": "מגמה מעורבת בתל אביב; מניית הבורסה צונחת ביותר מ-6% אחרי הדוחות",
+    "title": "\"כדור שלג לא מובן\": מדוע איבדה המניה הביטחונית של תומר אבנון 50% בשבוע",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562839#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-11T09:30:00+00:00",
+    "lede": "מניית אוטונומוס השלימה צלילה ומשקפת לחברה שווי של 20 מיליון שקל בלבד, כשבמקביל זינקו תשואות האג\"ח שלה, חרף הבהרות שלפיהן לא חל שינוי בהערכותיה",
+    "lang": "he"
+   },
+   {
+    "title": "צמיחה בהכנסות, זינוק ברווח הנקי והשלמת המהפך ב-yes: בזק מסכמת רבעון חזק",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562927#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-11T09:25:00+00:00",
+    "lede": "קבוצת התקשורת מציגה צמיחה רוחבית בכל פעילויות הליבה ברבעון השלישי",
+    "lang": "he"
+   },
+   {
+    "title": "מגמה מעורבת בתל אביב; מניית הבורסה צונחת אחרי הדוחות",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001562842#utm_source=RSS",
     "source": "גלובס",
-    "published": "2026-11-11T08:35:00+00:00",
-    "lede": "מדד ת\"א 35 מתקדם בכ-0.2% • וול סטריט ננעלה אמש באדום אחרי נתוני האינפלציה שהפתיעו לרעה, השוק עבר לתמחר העלאת ריבית ודאית בדצמבר • חברת מחשוב הענן קורוויב פרסמה בלילה דוחות חזקים והמריאה במסחר המאוחר, החוזים על הנאסד\"ק…",
-    "lang": "he"
-   },
-   {
-    "title": "המרות מט\"ח והעברות כספים תחילה: רבולוט קיבלה רישיון ומכניסה את המערכת לדריכות",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562823#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-11T08:01:00+00:00",
-    "lede": "בנק ישראל אישר את הקמתו של \"בנק רבולוט ישראל\", מקבוצת הפינטק הבינלאומית",
-    "lang": "he"
-   },
-   {
-    "title": "בנק דיסקונט נכנס לשוק הקריפטו: יאפשר מסחר בביטקוין ובאת'ריום דרך האפליקציה",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562915#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-11T07:26:00+00:00",
-    "lede": "הבנק יאפשר ללקוחותיו לרכוש ולמכור מטבעות דיגיטליים ישירות מחשבון הבנק החל מ־26 בנובמבר",
-    "lang": "he"
-   },
-   {
-    "title": "ארה\"ב מפנה מטוסים, החשש: איראן מסמנת עוד יעדים באירופה",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562908#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-11T07:13:00+00:00",
-    "lede": "למרות הטענות האמריקניות על השמדת ארסנל הנשק האיראני, הערכות גורמי המודיעין חושפות תמונה מצב מטרידה למדי",
-    "lang": "he"
-   },
-   {
-    "title": "בין בייננס לירושלים: הרגולציה החדשה לקריפטו",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBYU0g2eGNtby1TbmpzZkdPTDBXN0EzTTJiNkNidHhVT20xN2kxWmdKZllNS0QxNnJFWmhoeWZnRi05Uk5wLVpyQXllRVFSaEN5VEItMmwydVVVaWVaRkdVeW9JekJpZTA?oc=5",
-    "source": "ביזפורטל",
-    "published": "2026-11-11T06:01:00+00:00",
-    "lede": null,
+    "published": "2026-11-11T09:24:00+00:00",
+    "lede": "מגמה מעורבת במסחר במדדי הדגל • סקטור התוכנה מוביל את העליות, הבנקים מכבידים • דוחות בזק מקפיצים את המניה • הדולר נסחר כמעט ללא שינוי • וול סטריט ננעלה אמש באדום אחרי נתוני האינפלציה שהפתיעו לרעה, השוק עבר לתמחר העלאת…",
     "lang": "he"
    },
    {
@@ -200,18 +192,18 @@
   ],
   "geo": [
    {
-    "title": "Nissan CEO says U.S. performance strong despite geopolitical tension",
-    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdEtoRUNObDVCbFJHNTNCOEtLMVVneTBWdGJJZndvemJqaGlzSThJR2c0V3pUWlVTYVVQQmVBNlVyc1g4ZDRZUmFjRXlKd2xXRUp6ckJtYTVmTVJpME42eFY0QXdXUkwxdGZMdHdtRTJyUENHRWY3OU52d080dHllMzlhZHFjVHFtU1BCVkJ5U0pxRmotdXQtbXlkRmVSM3F1U2tRdE5yamMxRmVyZ0E?oc=5",
-    "source": "CNBC",
-    "published": "2026-11-11T08:40:58+00:00",
+    "title": "Lebanon Faces Economic ‘Catastrophe’ After War and Years of Mismanagement",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNOHJfTXVYZlRMcmFrTlhwc3AxeU9uOGFXUUZoSkZQVVhRTGRJUkZTcEEwM1lMMVhpWUdZM1hSekpyRG9oYUhoM3ZEcFlqMDdfZGcyMUE4NHlSSUpuMXR0VEtfRkhIYTlHRExaM0l4M3JLREZ2QWJVbWEzNkczdGRiS3ZYRXRhWnRPaU92cUJhQnplMjdHc0ZjdGpB?oc=5",
+    "source": "The New York Times",
+    "published": "2026-11-11T09:18:47+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Iran denies talks with US, says Hormuz will stay shut until demands are met",
-    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPbjE0dVFENk1CX2NnRnVSUEtzYzVDWlpBVlFvMnlNMnV5SjBncHJNcFI4WmRjNmdJWGtwXzJ6aUtYOUs4Ynl1bVUzVm5TWXFxNGxfSzRtaEY0czhyRTFSVU1mN3NqNW1BWm1WT1dCS2dZbEVTQ0hBcGRsM05RUWVQRGNUVHF1ZGhHOUZNVGVqR19keHFTUzJ3V0JwMnpFWF9uWDBYV2l3M01SN01ROFc2bzJHZUt1TjjSAbwBQVVfeXFMUDJtWTM5WXEtX3NDM0RkOG1ZVjE3RXVRYnRQNm5feHhKb0VJaXlLMjdPcjBCa1NzMkIySmk2a1hRMmwybS1SWG13RzNxLUtVZF9mQV9QYlB4cGxWcDVUbUFjVXdvcHo4THhtN2NIU01lUEYtUzVPdzRNcXIyWlBYM09QR0FsNzJUMUpBRGxaYUpQbl84bjNseUp6bWU1cFM2aUpvaUU5UnVJYXY0b1QybnBaX21OdWM2M3AtZ0w?oc=5",
-    "source": "Al Jazeera",
-    "published": "2026-11-11T08:34:56+00:00",
+    "title": "Stories of life, death – and crows – from ‘The Forgotten War’",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOYzBNb0VvanlabkM1WlFHU2ZtVVBhSUFVenZnMzZ5cHRxckw5ZlJxQUlrTUN4SlRlZ2tfb09uUVNVa2tlbWdEdkpxYTVJUEFibWpUQ3JrVmR6X3ZWTGVucmlNa0xRQ1J3SmpFd25wMzR2NXhldGxUREVndVRWd1l2RUNZNGZCWlVCbF9yVDk1TQ?oc=5",
+    "source": "CNN",
+    "published": "2026-11-11T09:00:15+00:00",
     "lede": null,
     "lang": "en"
    }
