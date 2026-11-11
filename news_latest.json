@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-11T10:01:09.319218+02:00",
+ "generated_at": "2026-11-11T11:00:59.385404+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -52,35 +52,43 @@
   ],
   "us": [
    {
+    "title": "History Says Dividend ETFs Can Protect Your Portfolio if a Stock Market Slump Is Coming",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNckFRUFpxUER3a21hN0JyZnhrajNFWC1rUHNWYnNYNkM4eS04VXg5TkU2cGpXMTBiU1YxUGRUa2Q1US1yMXhUU0hEOTFpMFNXWDVoUnZvY1ZyVk1iNVh0VWthRG41Um50UFpKOGVKWmJrRmVSSVg5YnVPWVJyNTh1WGlaVDNjRTNCWUs4SDQtcm9aTkNUdzNIYkw2S2R5Tks4?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-11T08:35:02+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "מגמה חיובית באירופה; החוזים על הנאסד\"ק מזנקים בכ-1.5%",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562761#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-11T08:30:00+00:00",
+    "lede": "בורסת פרנקפורט עולה בכ-0.8% • נעילה מעורבת באסיה, מניות השבבים הקפיצו את הבורסה בסיאול • וול סטריט רשמה ירידות אתמול אחרי נתוני האינפלציה שהפתיעו לרעה • חברת מחשוב הענן קורוויב פרסמה דוחות חזקים מן המצופה וזינקה במסחר…",
+    "lang": "he"
+   },
+   {
+    "title": "ICICI Life BSE 500 Momentum Quality 50 Index Fund launched to offer customers quality companies with steady share-price growth",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQenlDN1Bua3E3dHFMbHFKRV9tWUhJdTY5cXQxeGpFa2c3ZzJTTUlUN2s1ZlpvOTBGY0dsTFR3VURLU0hQUTA3ZllvNVpyUEJGX0VVTzJwMy1xMWg1Q1JBMHA5bk92Ni1IU04wVE1OVk9MLTFNLXhGNXYtREtGbFFQSU5qdlJydE9WUUd2OE93R3hIRERLUVR3?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-11T08:24:00+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "CoreWeave Raises 2026 Outlook to $13.3 Billion, Stock Rebounds From 52-Week Low",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMGxQcWstSGEweW1qT1dNSHc3V25PS3FZWEU3dThuNU9xT0Z2UGdRdWlZSk5GYkpFOXR3V0QwaWpvemxLYzV3ajh4S1RKbG9KS1ZhbmJkZnlIWkNKTHJMQnVUaXVWVmVZTy04ai1JWU5SY1c2MXhjbkJIbmxYSGE1OHhEY2RjT0pYbGlwMnNIa2IzUWQyWXlTWmpKMWtJUQ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-11T08:19:20+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
     "title": "Alibaba announces plans to list T-Head, its Nvidia chip rival",
     "url": "https://www.cnbc.com/2026/11/11/alibaba-pr.html",
     "source": "CNBC",
     "published": "2026-11-11T07:47:54+00:00",
     "lede": "Alibaba noted it had already filed confidentially on Sept. 11 to list T-Head on the Hong Kong Stock Exchange.",
-    "lang": "en"
-   },
-   {
-    "title": "Are Investors Expecting Too Much from the US Stock Market?",
-    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOTUUzVVlKUENBTUtfMkZfbGRraGxqLWlJYWVmU0wtV1hsZDhIWmVGLUdWRER2TFdRQ20yTFlyZi1uVDRseFNCNUY4SXNyNEhTRlJadzVMMHdpUFFocV94bEIzSEdMSGYxemhtZF9IaThCcUhYZF82ZFJ4VmhHRUtEU2FrdTR0cDN6RGdrR0ZzLTlUbk94?oc=5",
-    "source": "Morningstar",
-    "published": "2026-11-11T07:20:05+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Nissan Chemical (TSE:4021) Stock Could Be 46% Undervalued On Cash Flow",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNcjA4ZGJSaV8tQ3FVc18yUjdwZ0VIZVZOR2xUSHQzQXN5YmR6bTdzUzgxTVEzX28xa3BxN0J0TV9CVjlHbExlRE1Ob2lkcTZCN2c3dk10UGJqUE9pd3RIcDNjZ2RwY09GbkJYWU5DSW9ZU1VzZWJyemhwSHFnN0pJTVZXMWVKS0JROWZZSU00X2N5MkNmWXNVOHRwWQ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-11T07:16:00+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "3 Energy Stocks Facing Oil Price Risk as Hormuz Tensions Rise",
-    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQTE02X3ZhcVBzamVfMW04Y3VTbmxhdW5rV3NVX3NnNWMtcUNoNl81RjB0YVBjRjBJQTl3TnRkRzNGTVRpM2JETmE2QU5ZeVk0dHlFUnpiLU9XdHM1ZW1SUWpCT1BSTWR6TDlLOU5abHJlaHZ5UWZvUHB3LWFTelFRendBQmhhVHVKdUtF?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-11T07:15:07+00:00",
-    "lede": null,
     "lang": "en"
    },
    {
@@ -97,14 +105,6 @@
     "source": "גלובס",
     "published": "2026-11-11T07:02:00+00:00",
     "lede": "תחקירים חדשים מצביעים על מעורבות יועצי משברים, בדיקות רגולטוריות וחקירה פנימית בפרשת מנכ\"ל אנבידיה",
-    "lang": "he"
-   },
-   {
-    "title": "טלטלה בשווקים בעוד חודש בדיוק מהיום: האזהרה של משקיע העל",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562909#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-11T07:00:00+00:00",
-    "lede": "מייסד קרן הגידור ברידג’ווטר מזהיר מפני עליית תשואות האג״ח והחרפת חוסר הוודאות בעקבות בחירות האמצע בארה״ב. הוא מסמן שלושה מועדים שבהם המאבקים סביב החוב האמריקאי עלולים להגיע לנקודת רתיחה - הראשון שבהם בעוד חודש בדיוק",
     "lang": "he"
    },
    {
@@ -150,6 +150,22 @@
     "lang": "he"
    },
    {
+    "title": "מגמה מעורבת בתל אביב; מניית הבורסה צונחת ביותר מ-6% אחרי הדוחות",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562842#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-11T08:35:00+00:00",
+    "lede": "מדד ת\"א 35 מתקדם בכ-0.2% • וול סטריט ננעלה אמש באדום אחרי נתוני האינפלציה שהפתיעו לרעה, השוק עבר לתמחר העלאת ריבית ודאית בדצמבר • חברת מחשוב הענן קורוויב פרסמה בלילה דוחות חזקים והמריאה במסחר המאוחר, החוזים על הנאסד\"ק…",
+    "lang": "he"
+   },
+   {
+    "title": "המרות מט\"ח והעברות כספים תחילה: רבולוט קיבלה רישיון ומכניסה את המערכת לדריכות",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562823#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-11T08:01:00+00:00",
+    "lede": "בנק ישראל אישר את הקמתו של \"בנק רבולוט ישראל\", מקבוצת הפינטק הבינלאומית",
+    "lang": "he"
+   },
+   {
     "title": "בנק דיסקונט נכנס לשוק הקריפטו: יאפשר מסחר בביטקוין ובאת'ריום דרך האפליקציה",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001562915#utm_source=RSS",
     "source": "גלובס",
@@ -166,19 +182,11 @@
     "lang": "he"
    },
    {
-    "title": "הירידה באינפלציה ובריבית שחקה את הרווח הנקי של הבינלאומי ב-13%",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562913#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-11T06:41:00+00:00",
-    "lede": "הרווח הנקי ברבעון הנקי הסתכם ב-508 מיליון שקל, והתשואה על ההון של הבנק ירדה לעומת הרבעון המקביל אשתקד",
-    "lang": "he"
-   },
-   {
-    "title": "מניית ה-AI שזינקה ב-17% אחרי הדוחות: חמישה דברים לקראת יום המסחר",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562842#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-11T06:33:00+00:00",
-    "lede": "יום המסחר צפוי להיפתח במגמה מעורבת, אחרי שאתמול הבורסה ננעלה בעליות חדות",
+    "title": "בין בייננס לירושלים: הרגולציה החדשה לקריפטו",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBYU0g2eGNtby1TbmpzZkdPTDBXN0EzTTJiNkNidHhVT20xN2kxWmdKZllNS0QxNnJFWmhoeWZnRi05Uk5wLVpyQXllRVFSaEN5VEItMmwydVVVaWVaRkdVeW9JekJpZTA?oc=5",
+    "source": "ביזפורטל",
+    "published": "2026-11-11T06:01:00+00:00",
+    "lede": null,
     "lang": "he"
    },
    {
@@ -192,18 +200,18 @@
   ],
   "geo": [
    {
-    "title": "China backs Cuba in opposing sanctions, blockades; pledges 'firm support', Xinhua reports",
-    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPa3N1ckV1MFROQXNwREZwam1zUERleFYzWmRERXdxOXZEanNBb05KQ25HSGJoZ3FaVjZqSkw4N2RySndEdk1DajRobFlVRTJKSUdDWVpsUWVia0hUclVTc0ZIV1dvSUFNRWFEdGQzUVRHdkFqeG44ZkNzOGxUWlgwTzNzNjQwTHgzZzR6SEh6OWFzd2diV1QwVVp5aHBWR3dPYXNYc1lIZ2FaazdOdjkzWGJHUGdjRU9haXRKY3VR?oc=5",
-    "source": "Reuters",
-    "published": "2026-11-11T07:43:00+00:00",
+    "title": "Nissan CEO says U.S. performance strong despite geopolitical tension",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdEtoRUNObDVCbFJHNTNCOEtLMVVneTBWdGJJZndvemJqaGlzSThJR2c0V3pUWlVTYVVQQmVBNlVyc1g4ZDRZUmFjRXlKd2xXRUp6ckJtYTVmTVJpME42eFY0QXdXUkwxdGZMdHdtRTJyUENHRWY3OU52d080dHllMzlhZHFjVHFtU1BCVkJ5U0pxRmotdXQtbXlkRmVSM3F1U2tRdE5yamMxRmVyZ0E?oc=5",
+    "source": "CNBC",
+    "published": "2026-11-11T08:40:58+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Ukraine's path to EU accession narrows as war drags on",
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxORGQ3Vnl3Q3JxLUxKMjE3OUdLSG5lYi1LRXZLTjR4U1hhSE1sMFdZWlB2ZHRrMEJnd2pRbGdlUWxkcHN3aHhNUmEyd2s3LUtRaHhtYVE1cWZ3cEE1aUpJRFB1TUJINXUxWE9VMVJKcnc3YnZVaDd3VE5vRTNUd2ZGT3BDZ2xaNWtBcDI2RWFtOS1VVjBlMHNvcg?oc=5",
-    "source": "Reuters",
-    "published": "2026-11-11T07:04:00+00:00",
+    "title": "Iran denies talks with US, says Hormuz will stay shut until demands are met",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPbjE0dVFENk1CX2NnRnVSUEtzYzVDWlpBVlFvMnlNMnV5SjBncHJNcFI4WmRjNmdJWGtwXzJ6aUtYOUs4Ynl1bVUzVm5TWXFxNGxfSzRtaEY0czhyRTFSVU1mN3NqNW1BWm1WT1dCS2dZbEVTQ0hBcGRsM05RUWVQRGNUVHF1ZGhHOUZNVGVqR19keHFTUzJ3V0JwMnpFWF9uWDBYV2l3M01SN01ROFc2bzJHZUt1TjjSAbwBQVVfeXFMUDJtWTM5WXEtX3NDM0RkOG1ZVjE3RXVRYnRQNm5feHhKb0VJaXlLMjdPcjBCa1NzMkIySmk2a1hRMmwybS1SWG13RzNxLUtVZF9mQV9QYlB4cGxWcDVUbUFjVXdvcHo4THhtN2NIU01lUEYtUzVPdzRNcXIyWlBYM09QR0FsNzJUMUpBRGxaYUpQbl84bjNseUp6bWU1cFM2aUpvaUU5UnVJYXY0b1QybnBaX21OdWM2M3AtZ0w?oc=5",
+    "source": "Al Jazeera",
+    "published": "2026-11-11T08:34:56+00:00",
     "lede": null,
     "lang": "en"
    }
