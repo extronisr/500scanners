@@ -351,6 +351,14 @@
    "pivot": 218.78,
    "target": 253.7,
    "stop": 212.22
+  },
+  {
+   "ticker": "GGG",
+   "date": "2026-11-11",
+   "signal_price": 72.98,
+   "pivot": 70.73,
+   "target": 75.5,
+   "stop": 68.61
   }
  ]
 }
