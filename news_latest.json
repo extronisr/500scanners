@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-11T19:59:08.398414+02:00",
+ "generated_at": "2026-11-11T21:01:07.205996+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -9,6 +9,14 @@
  },
  "sections": {
   "analysts": [
+   {
+    "title": "Halozyme stock downgraded at Morgan Stanley (HALO:NASDAQ)",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWjI3MDFtTkpkbWZnR29KdEtVWUhUTlRjVTFaOWFRN1U0UjdtRldyTXAtVXBQZWN0b256cTktZ194MGNfdWs2bjBJYXBOVGFyRzlYUGNIa0drV2xIUGFoWlhRbllqVHp4TS1kVHVybDIzUmhKS0J3dFAySnFsMGpXSUk1UDg?oc=5",
+    "source": "Seeking Alpha",
+    "published": "2026-11-11T17:09:25+00:00",
+    "lede": null,
+    "lang": "en"
+   },
    {
     "title": "WMT Stock Gets A Price Target Boost From BofA Ahead Of Q3 Earnings – Analyst Sees More Market Share Gains",
     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNYjJzWlk4ei1EX2lSbGFFT05kV2FYTXJPLVNNNlFZS0lMUjlFZllYMWhXQmhPdjVDa2JaTFl0cjhyTVFUR0N0T2VqeUdIU1FPNVdjUnpyZDJJYkJsaFk0Wk5EUkVURnZoNmp4VkYxbjZndHpMNlFnSnhMOUJ1emFXUWZlN1h3TU1ZYTIzaWI3RkR5RUs0Nk1z?oc=5",
@@ -34,102 +42,94 @@
     "lang": "en"
    },
    {
-    "title": "Hims and Hers stock rating held at Sector Weight by KeyBanc",
-    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWGx0Q0xtRXlDX2NCNnB6ak1Qd1VCc0RkaXM0dVJkSlV4VlVXN2k0SmVEVnRhNkZ6NDVRNXBkcEtadHlWb2lvWVowVnl3dU9IbFN3bTFCM042eWYtSWVEOTluUVo3Si1OVGlRcGd6NHVZLWZ3VHozajRVRjdfWEV2YlAxZHgwU3lCb21EbWFMUThhdnBLaWZJWGhOUkZlR2s4TnZxN2MtZjZBMGZ1ZUNCSjF4Q0N4TTVrY2Uw?oc=5",
-    "source": "Investing.com",
-    "published": "2026-11-11T10:53:30+00:00",
+    "title": "IBI: מניית ריט 1 בנקודת כניסה מצוינת, אפסייד של 31%",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1rTDJ4cGdQR1V6MHpNbTYzQmJFbHhhMnRXem53LS1oeklkbUM2dmlYSXlRaVdQZE4xX1Q5MHUwNDNBYjZITGdaUVdhenZobGlFQjNoZmY0VG9vZ29FekctT3ZHNUZ3RThmRHJhbjFwTWU?oc=5",
+    "source": "ביזפורטל",
+    "published": "2026-11-11T16:32:00+00:00",
     "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Riskified Gears Up For Q3 Print; Here Are The Recent Forecast Changes From Wall Street's Most Accurate Analysts",
-    "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQWWswQk15VzlpeWUwSElFbXhObWZaSF83N193QzFmbWpXNzgwZDdxandTZm0wTDNpYWVQM0ZuNi0wWVpyZklNQUN4em8tTHRIWnpOSnhsRnQwUmlJVnEyNEJWdnVlQmVYLXE3REZoLXRIOVZkSWROdkkySDA1U0tWMkpEUzBpU3JyOW1RZUU5dFFmd1hxQWNUYnZiLUJZRlYxWnppeFBOYWtuazNxMkNCU2U0cUpCWDdKRmtMMTdGVGJuUUwtZkQ1dXN6SlZKNVlwUnR6RjZDSmh1X2JmYUlsb2FSOTcwV2V1UUpGeTlDQ0lSMkQxeW00TEZ3ZUtnZVlIWFhKZzEtLWVsY1VERm5sZzNn?oc=5",
-    "source": "Benzinga",
-    "published": "2026-11-11T06:34:05+00:00",
-    "lede": null,
-    "lang": "en"
+    "lang": "he"
    }
   ],
   "us": [
    {
+    "title": "Bloom Energy surges, helping to erase much of this week’s AI jitters",
+    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNYV9JSHBxRWFLR01KRTlFTnIxeDJReXctS25HRHBpS0Nid1RXWGotMWh0MkxncHlhWGwtb1JxV0Z6YnZwU0JiaThaMjJscGRTN2lGLTNxQUFsNGd2RUllaVUwaWVsNWRsVjNPeHN6Z1IyZzJHSWJGcWEwS2JXVWpKVFJBTFluUUFPWkVDUFlTZmtCVkM3UGhPSnJDenhIUXZvRExfc0NySW5yRmtIS3dBLTZ4aXVZbXV1RGItcXA2QlFMczhFV01DWEtxZDFSbThUdTBuZQ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-11T18:53:58+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Nvidia is spending more than ever on Washington lobbying. It may not stop Congress from limiting China chip sales now.",
+    "url": "https://www.marketwatch.com/story/nvidia-is-spending-more-than-ever-on-washington-lobbying-it-still-may-not-be-able-to-stop-congress-from-limiting-its-china-chip-sales-now-d4c34c66?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-11T18:48:00+00:00",
+    "lede": "‘There’s no question that Congress is going to push for a complete ban on the sale of advanced semiconductors into China,’ says a former U.S. ambassador to Beijing",
+    "lang": "en"
+   },
+   {
+    "title": "מנכ\"ל טבע: \"העתיד נראה מבטיח במיוחד; מסתכלים גם על רכישות גדולות יותר\"",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001563125#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-11T18:46:00+00:00",
+    "lede": "טבע מעלה את יעד ההכנסות מתרופות חדשניות ל-6–7 מיליארד דולר עד 2030, ומציגה צמיחה בתזרים ובצנרת המוצרים",
+    "lang": "he"
+   },
+   {
+    "title": "The Only 3 Tech Stocks I'd Buy With $5,000 and Never Sell",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNUURQeV9NSkFfRWwyVkpHcmp2Yi1JbWtGckUwZ0ZZcnFKV3YzYXhGM2tJNjhPMEc3NjhMWVhxaEtLTlVQM2t5UV9lQjdvUVBqZlhQTmNLYmZja2RiUUYxbGpheThCUE9HcHBsRUs4N1VVa3pyT0pyUWlqdnhzSmtnMTZENzV5ckRnQW4wbjdRYw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-11T18:46:00+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
     "title": "US tech stocks surge as AI trade revives",
     "url": "https://www.ft.com/content/639de881-6017-454f-abfa-cfb191d1e7cd?syn-25a6b1a6=1",
     "source": "Financial Times",
-    "published": "2026-11-11T17:42:08+00:00",
+    "published": "2026-11-11T18:42:32+00:00",
     "lede": "Nasdaq erases last week’s losses as better-than-expected CoreWeave results and prospect of higher Anthropic IPO valuation boost sentiment",
     "lang": "en"
    },
    {
-    "title": "Is Nvidia Stock a Buy After Hitting a Seven-Month Low? (Hint: Yes.)",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRndXeDlNTWhHV2xYeGlZM1ZDc3ltaVdJdEliSnJNX2FlMDlIczF2Rjk1T0U5T1hScVhhYnNHai1pVVQyajgzZl80eTNCa08zdjVlRWNvYVREbFNwYnM2bUJmWVlpRzRteTJjcV84SFdENDFWQW8xZHpyRzI2T0NIVHRQREtEOW5jNGZ6R09xREgydktGQzFMZG1rbw?oc=5",
+    "title": "Polymarket Cleans House Ahead of Potential 2027 IPO as Revenue Soars",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNeEN1S0xMNnI1dHNTTjMtbVRPWXFNNWxROGdjQ21kRkwta21yT2FWLXFlZUtJTEVFdjAyeXdyZ2ZEUW9tS2NKbWR1M0F4aWlxV25VelpyYjl4bEU4ZWNNT2daNmhJemo3WEQ4VDVxV2NxSW5RVkRGVFlaY1JrdVRZVDllNDVOOG16VDV3Qk1jSXJCNkJQeVpnMmRjN0tlTW8waUtkX1Awdw?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-11T17:41:02+00:00",
+    "published": "2026-11-11T18:41:39+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "קורוויב מציתה מחדש את הראלי במניות ה-AI: קורוויב מזנקת ב-25%, אנבידיה מתאוששת",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562761#utm_source=RSS",
+    "title": "Prediction markets tied to clinical trials and drug approvals draw lawmakers' ire",
+    "url": "https://www.cnbc.com/2026/11/11/kalsi-polymarket-prediction-market-senators-hhs-drug-approval.html",
+    "source": "CNBC",
+    "published": "2026-11-11T18:28:59+00:00",
+    "lede": "Sens. Angela Alsobrooks and Ron Wyden are asking what steps the Department of Health and Human Services has taken to mitigate risks from the markets.",
+    "lang": "en"
+   },
+   {
+    "title": "Bouncing Wynn Shares might be primed for the 'wheel strategy'",
+    "url": "https://www.cnbc.com/2026/11/11/bouncing-wynn-shares-might-be-primed-for-the-wheel-strategy.html",
+    "source": "CNBC",
+    "published": "2026-11-11T18:24:53+00:00",
+    "lede": "From a valuation standpoint, WYNN is trading very close to its five-year historical averages across key metrics. So how should traders play this setup?",
+    "lang": "en"
+   },
+   {
+    "title": "Oracle’s stock is totally misunderstood and should be a ‘go-to’ AI play, says this analyst",
+    "url": "https://www.marketwatch.com/story/oracles-stock-is-totally-misunderstood-and-should-be-a-go-to-ai-play-says-this-analyst-2a87e80d?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-11T18:13:00+00:00",
+    "lede": "A Bernstein analyst thinks two key investor concerns will soon subside.",
+    "lang": "en"
+   },
+   {
+    "title": "ויתרה על קריירה לטובת בעלה, הלבישה אותו במעיל עור איקוני: לורי הואנג נאלצת לצאת מהצללים",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001563118#utm_source=RSS",
     "source": "גלובס",
-    "published": "2026-11-11T17:40:00+00:00",
-    "lede": "נאסד\"ק מזנק ב-2% בהובלת מניות השבבים • אנבידיה מתאוששת, מייקל ברי: אנבידיה עשויה להפוך בקרוב ל\"עסקה מצוינת\" בטווח הקצר • חברת מחשוב הענן קורוויב מזנקת לאחר שפרסמה דוחות חזקים והקלה את החששות מפני החובות העצומים של חברות…",
+    "published": "2026-11-11T17:53:00+00:00",
+    "lede": "רעייתו של מנכ\"ל ומייסד אנבידיה לורי הואנג נותרה עד כה הרחק מאור הזרקורים, אף שהייתה דמות משמעותית בשנותיה הראשונות של החברה ונותרה שותפה לניהול הונם של בני הזוג, שמחזיקים בנכסים ובמניות בשווי מיליארדי דולרים",
     "lang": "he"
-   },
-   {
-    "title": "Nvidia shares rebound as Jensen Huang faces scrutiny ahead of earnings",
-    "url": "https://www.cnbc.com/2026/11/11/nvidia-stock-jensen-huang-affair-china.html",
-    "source": "CNBC",
-    "published": "2026-11-11T17:39:26+00:00",
-    "lede": "Investors are assessing whether CEO Jensen Huang's affair will have spillover effects on Nvidia's business.",
-    "lang": "en"
-   },
-   {
-    "title": "Could Rivian Actually Climb 62%? Or Is Stifel Totally Wrong?",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQNDJ1R1JlZ2N3NHBwaVJEbDgtU2RDTjFYejk2Ylh3Szh4NG8zTjNpY2t0akZLTW8yOENWU3NzZW9YT1ZHVktTbDZFRWxKZG9oOEhPcmhqSXB6TjZYdjU3M3BEbVZVUlNoYUpRN25PM1FoM2dGeFZnbnk1Q0pIOFZsQVFfY0RmSm1IR2phaGJ1SFJmRlBLTHR1WjVnWQ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-11T17:21:36+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "PayPal (PYPL) Stock May Be 50% Undervalued As Barclays Cuts Rating",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOU0VjSDJmb0NuaTZrd29XU1NhWkFEQVBWSmlTRjlfbEJHbU8xT1NBeE8yY3VvWUFUd0I3QjNPN2Q5OU1XMUNyanhVQW82Y3gwbnhWQzdpd0Fwak96N2huMk1PeTBQeXZZaVdzbGFpUkZHVUt2d1c3TUVtdjIxbmdVUzFpa0VDcDVtY3JydTNhMllTNzg?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-11T17:20:41+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Fed's Goolsbee calls inflation report 'borderline disturbing' as central bank weighs more hikes",
-    "url": "https://www.cnbc.com/2026/11/11/goolsbee-october-inflation-fed-rates-disturbing-distressing.html",
-    "source": "CNBC",
-    "published": "2026-11-11T16:49:02+00:00",
-    "lede": "The consumer price index rose more than expected in October, raising alarm among Federal Reserve officials.",
-    "lang": "en"
-   },
-   {
-    "title": "Anthropic’s IPO roadshow kicks off — and the big money is already lining up",
-    "url": "https://www.marketwatch.com/story/anthropics-ipo-roadshow-kicks-off-and-the-big-money-is-already-lining-up-7cdd4f8b?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-11T16:03:00+00:00",
-    "lede": "Despite nagging concerns over the AI trade, Anthropic’s IPO is reportedly seeing very strong demand.",
-    "lang": "en"
-   },
-   {
-    "title": "Single-stock perps look like pointiest horn of a bull market",
-    "url": "https://www.ft.com/content/0ecbc732-4d5a-4a3e-97aa-86d19285bcf8?syn-25a6b1a6=1",
-    "source": "Financial Times",
-    "published": "2026-11-11T15:57:13+00:00",
-    "lede": "Regulatory uncertainty is the biggest hurdle to wider adoption, says one survey",
-    "lang": "en"
-   },
-   {
-    "title": "Market angst is driving investors into low-volatility stocks as AI trade stumbles",
-    "url": "https://www.marketwatch.com/story/market-angst-is-driving-investors-into-low-volatility-stocks-as-ai-trade-stumbles-23d905e9?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-11T15:15:00+00:00",
-    "lede": "Anxiety in the U.S. stock market has surged amid a sharp selloff in artificial intelligence names and stubbornly high bond yields.",
-    "lang": "en"
    }
   ],
   "il": [
@@ -139,6 +139,14 @@
     "source": "וואלה",
     "published": "2026-11-11T19:06:00+00:00",
     "lede": "קורווייב הפתיעה את וול סטריט, הרגיעה את חששות בועת ה-AI והציתה ראלי חיובי בסקטור הניאו-קלאוד שחטף מכות קשות בתקופה האחרונה",
+    "lang": "he"
+   },
+   {
+    "title": "עליות חדות בוול סטריט: קורוויב מזנקת ב-25%, אנבידיה מתאוששת",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562761#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-11T17:40:00+00:00",
+    "lede": "נאסד\"ק מזנק ב-2% בהובלת מניות השבבים • אנבידיה מתאוששת, מייקל ברי: אנבידיה עשויה להפוך בקרוב ל\"עסקה מצוינת\" בטווח הקצר • חברת מחשוב הענן קורוויב מזנקת לאחר שפרסמה דוחות חזקים והקלה את החששות מפני החובות העצומים של חברות…",
     "lang": "he"
    },
    {
@@ -166,14 +174,6 @@
     "lang": "he"
    },
    {
-    "title": "250 מיליון חבילות בשנה, אבל הרווח נשחק: האם דמי המשלוח צפויים להתייקר?",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001563038#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-11T16:50:00+00:00",
-    "lede": "שוק המסירה ללקוח (\"המייל האחרון\") הישראלי מגלגל עד 12 מיליארד שקל בשנה, אך התחרות האגרסיבית חותכת את הרווח של השחקניות בשוק",
-    "lang": "he"
-   },
-   {
     "title": "הזדמנות או סיכון? משבר הריגול מטלטל את מניית אנבידיה",
     "url": "https://finance.walla.co.il/item/3875825",
     "source": "וואלה",
@@ -192,10 +192,10 @@
   ],
   "geo": [
    {
-    "title": "U.S. Efforts to Tighten Blockade of Iran Rely on Reluctant Neighbors",
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdHVOb3F2MVpGZ0s0N3hWOWFOMEJxZkJkNHFEVk1RNlcxR0ZEb0lTNl9GQlpkbExVMDNzMzNCSHEyNmhvM2VoQ21yZ2VHa293Sjkxbk9yZjVuSk1PcG1oZGdFcC05VEpMNml0a01kVHlzNXhrbEFTSXdZMS0wVGNCTVFPcGllTGlkQUp4VEdBYmNTSzBpeVd3UA?oc=5",
-    "source": "The New York Times",
-    "published": "2026-11-11T17:37:31+00:00",
+    "title": "Trump planning new military assault or tighter sanctions, say Iranian officials",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNR3RWMGNrSXRNMkl5SzdlV0ZwQXhRZlBQMzM2bFpiWVQzSDRvbHNRSVZSSk9LNEhGWVRnS29iYUlKRHdxVXRKZUJZQlB2YUVraHlUeTRIQnNCZGhGTHRxZm04cmVmTGFBT0RtQk9tbERBU1BmTzhPcjF6a1N5MERVLXdqaDlCRzNuaFhMNW9mUUw3eVhxSGFRdFJNSFRBbTU4cEh0UHYtX3dxd2RkMk1qcHJib3VnSEU?oc=5",
+    "source": "The Guardian",
+    "published": "2026-11-11T18:49:00+00:00",
     "lede": null,
     "lang": "en"
    },

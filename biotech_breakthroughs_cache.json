@@ -1,5 +1,5 @@
 {
- "fetched_at": "11.11.2026, 20:35",
+ "fetched_at": "11.11.2026, 21:05",
  "items": [
   {
    "title": "FDA Approves Asundexian, First FXIa Inhibitor for Stroke Prevention - Drug Topics",
@@ -69,8 +69,8 @@
   {
    "title": "Brelovitug met the AZURE-4 primary endpoint in chronic hepatitis delta infection in topline phase 3 results - 2 Minute Medicine",
    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPZ2NFY2V0bDZWZGxQRWJyZWNsNWR6Z1NZdV9FQU1GTXdUS0RCTzlsSGlYR1FEVklEQzVPTHRBdDdKMF9fQkgzNFRDMksxMncyRlpXMGZWeFk4MXRlUDJpVDlCR3dLZ1NQN0Y2ZFFEeWZwNW4yaGtFNXRkZklla1JsM2pUNHk1VU85dlJlZ1g2NlZIN203dHVLU1BBMzVmUEdNZklJal9hVUJZcWNHMFBBQjAwVGs0dXNzejVjZDdNbXluajA4aW9fRGpLV1lKNlJMTzVwSlpBbw?oc=5",
-   "pub_ts": 1794401100.0,
-   "date": "11.11.2026, 14:45",
+   "pub_ts": 1794401559.0,
+   "date": "11.11.2026, 14:52",
    "cat": "phase3",
    "sev": 4,
    "dir": 1,
@@ -5587,30 +5587,6 @@
    "ncts": [
     "NCT06341712"
    ]
-  },
-  {
-   "title": "Rockville's MacroGenics Reports Encouraging Phase 2 Cancer Results as LINNET Trial Advances After Safety Hold - BioBuzz",
-   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNSVFOaTlpeEVlNmk5X3VkUmRDT05tWGlFRUdQYnNVcDBLT2k4Q2VRZW9PRTItMC1GT2pZby1PMzl6SWZzYVp4aWsxU043Y2tVZXhuX3VjbGI0MzlRbldMNU1DN2RfWHdjQzVXTFlXM1lMWXBDVEdsM1dPcGFJRVpiLXVNNjlRVUh0dnJORlp4Zndha2NsUlpPRFZvY1pNRHZCR0w2ZUFnMTBmb29vdDRNOFFMZkxkWE5DUWZMd3l6cW5zZHZiLXJhcVhZcXhWUQ?oc=5",
-   "pub_ts": 1793213772.0,
-   "date": "28.10.2026, 20:56",
-   "cat": "phase2",
-   "sev": 1,
-   "dir": 0,
-   "tickers": [],
-   "companies": [
-    "MGNX"
-   ],
-   "sources": [
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNSVFOaTlpeEVlNmk5X3VkUmRDT05tWGlFRUdQYnNVcDBLT2k4Q2VRZW9PRTItMC1GT2pZby1PMzl6SWZzYVp4aWsxU043Y2tVZXhuX3VjbGI0MzlRbldMNU1DN2RfWHdjQzVXTFlXM1lMWXBDVEdsM1dPcGFJRVpiLXVNNjlRVUh0dnJORlp4Zndha2NsUlpPRFZvY1pNRHZCR0w2ZUFnMTBmb29vdDRNOFFMZkxkWE5DUWZMd3l6cW5zZHZiLXJhcVhZcXhWUQ?oc=5"
-    },
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOZ25ROGtYRFNWWmgxVlhTekF2ci1WYnhsdE9oa3hMc1VzT1lXWWViejAxRi05RHYxUElqdzVfMVk1cHI4TlVtM2s0SHFwQkREV1V1NWxHZzFueF9rRXJRelFCaTJBZmptOTcxZFo0ckJRVlFYLWxPSWRKdDVyTFlYVTY1VjNSdVRQZUtzVHZmVnN0MGNQVkUxY0x4bXA5Ny0yNkV4X25tTlo4UGRfLXgwNElWdWlfSEtmcFNsWk5MV3ZNMmR6cm1ZaVUyTFd1VW9wZmx4azdOUFR3UQ?oc=5"
-    }
-   ],
-   "ncts": []
   },
   {
    "title": "A Study to Assess Long-term Safety of Tazemetostat in Adult Participants of All Ages With Any Disease Treated With Tazemetostat in a Previous Clinical Study",
