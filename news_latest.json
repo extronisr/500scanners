@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-11T05:31:05.319613+02:00",
+ "generated_at": "2026-11-11T06:31:04.347887+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -52,19 +52,51 @@
   ],
   "us": [
    {
-    "title": "Prime Medicine Announces Pricing of Public Offering of Common Stock",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQajhubjZRUUtDell4dUwzMUkzdmNpRmpYWHVQZlROZ0JQWDJOS21hNzRmdG1SSXc1dlBTWGlPVXVPUTNCc3NRT2dfaHZDQnM5ZmlJR01kMWJCLURtRHdZWktRbnBnb0lYa3ZnYnZ5Z2JNYU5BSk9JdWxsVjltMmRZSDhFejBGd3cxOWFBN0JYaElyRHQ1QVJlVVRUNU5TdVRDU2c?oc=5",
+    "title": "מנכ\"ל אנבידיה חזר למשרד אחרי חשיפת הרומן. מה הוא אמר לעובדים?",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562907#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-11T04:07:00+00:00",
+    "lede": "תחקיר חדש של The Information חושף כי הקשר בין ג’נסן הואנג לאליס הואנג החל לכאורה כבר ב-2023",
+    "lang": "he"
+   },
+   {
+    "title": "Cathie Wood’s ARK Invest Scoops Up Archer Aviation Shares After Earnings: $6.3M Bet On eVTOL Growth Optimism",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQdkxkUFJNSzZqSkotUWFBMmpUN1RXNVBEVXNvRWhDRlZHOFNobk5EMjNtMndNY1hZUG9nVDZ4UUZ2N0JCaHl3QV9BYkhiWUlNTGlNY25weFI0alQ2bTV2WllLeFVTZEI1TkZHU0lKS0d0ZTRkV0xhZ1FvTU9pUWdYVFNHaEgtdVNzRkJsbFNVZmVZUy03Q1Rud1RR?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-11T03:10:06+00:00",
+    "published": "2026-11-11T04:07:00+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "CoTec Holdings Corp. Files Third Quarter Financial Statements and MD&A and Provides Market Commentary",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQX1NjYVRlSjNtWFFYSEs0eXlMemgzNzZUM3lDZEx2b3c1OXJsLWh5cExYOVc1bG9NcWF1TE8xQ092bVRJcmFmUUtXaElZVWoySlhjMVlQSURfTHJQS2JMNjlKZDFCMlZJUmpVZVJra0EwbUw0SGM2OXdfeXR5RHJxUzNLcDJ5RGtlTjBVSXZKTXc3Wmc5cU5abEZOcjI?oc=5",
+    "title": "Verisante: Q3 Earnings Snapshot",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQbnlLM2U3ZGtoaWxrYVRIZU1RZEliTlhHR093T3dzam1tb3V6d2tDS05qb2NTMEpRYWdxOEJ0NDI4ZVZxVER1QzZ5Ry12ZlpoSUxxTHdkR1VodjFVaWNwX0ZQR3pUcldUUFVnLVdVeWF5RTZKQWIyWDYyaTE3WWVnU0tuSHNIVHh5QWxiS0c4dVVzb1VNYTcxeDl6RQ?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-11T03:09:52+00:00",
+    "published": "2026-11-11T04:02:00+00:00",
     "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "טיל השיוט החדש של רפאל: עם ראש קרב שיכול לחמוק ממערכות הגנה",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562905#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-11T04:00:00+00:00",
+    "lede": "טיל ה-SUPER ICE החדש של רפאל מצויד בראש קרבי במשקל 454 ק\"ג ומיועד לתקיפת מטרות אסטרטגיות מהאוויר, מהקרקע ומהים",
+    "lang": "he"
+   },
+   {
+    "title": "Allstate (ALL) Stock May Still Have Room As Q3 Earnings Beat",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOMXFoY2lPcXB5U1MwN3YzT1VGanVZYmNDMEg2RWRwWTM1OFQ0VHZGaE93Y3hEdzh4N0tlczY0TWE4WkpFTGFzbVkwSzgzRkhmd0NrTFVXYkU1SjJweEtaSUt3Q2JVMmZ6ZmNrcmw5cmduTUpfLVNKTTZjbHBuRzlNbk9tUlFfX2pab2hQXzQ5Mk1jYkhsYUdBYTBR?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-11T03:51:15+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Lucrative returns lure Japanese savers into government bonds",
+    "url": "https://www.ft.com/content/d17e5179-59e2-4b8e-9a65-e985b99645df?syn-25a6b1a6=1",
+    "source": "Financial Times",
+    "published": "2026-11-11T03:20:38+00:00",
+    "lede": "Issuance of ‘retail’ JGBs doubles month-on-month as returns reach 2.39%",
     "lang": "en"
    },
    {
@@ -73,14 +105,6 @@
     "source": "CNBC",
     "published": "2026-11-11T03:08:17+00:00",
     "lede": "Alibaba noted it had already filed confidentially on Sept. 11 to list T-Head on the Hong Kong Stock Exchange.",
-    "lang": "en"
-   },
-   {
-    "title": "Crescent Capital BDC Inc (CCAP) (Q3 2026) Earnings Call Highlights: NII Tops Dividend as New JV ...",
-    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNR3J3UUxkcHo2Qm5kVDZGcUxJTDJ2elZyQ2lOcW02LWJOX2pnOEszb2JnQnJTcjZEcTNwZEJmNmdqbjYyY0tlWlNoOV9YTDF4U2xkLUVZVFNtdGR1b0cwMGItcGdEQnJpQnFsS2hMTUpYcWYycy1PSm1PQldjTmU1ZzhpZFBFNVVwbmFwVEVjc19QY0d4N0hlejFR?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-11T03:06:00+00:00",
-    "lede": null,
     "lang": "en"
    },
    {
@@ -106,63 +130,39 @@
     "published": "2026-11-11T01:12:00+00:00",
     "lede": "A third-quarter revenue beat and $9 billion in planned prepayments gave investors renewed confidence in CoreWeave’s business.",
     "lang": "en"
-   },
-   {
-    "title": "Anthropic bankers prepare to increase IPO valuation to $1.5tn or more",
-    "url": "https://www.ft.com/content/68bcba57-0575-44ee-80f4-2e5ea23a431e?syn-25a6b1a6=1",
-    "source": "Financial Times",
-    "published": "2026-11-11T00:27:38+00:00",
-    "lede": "Claude maker’s listing price expected to rise after strong demand from investors",
-    "lang": "en"
-   },
-   {
-    "title": "CoreWeave plans multibillion-dollar chip-backed debt deal",
-    "url": "https://www.ft.com/content/fa5c5bdc-c2b0-4fab-8951-0526a4608773?syn-25a6b1a6=1",
-    "source": "Financial Times",
-    "published": "2026-11-11T00:01:29+00:00",
-    "lede": "AI infrastructure group turns to asset-backed debt and customer pre-payments for financing",
-    "lang": "en"
-   },
-   {
-    "title": "AMD’s stock fades as investors weigh whether Nvidia’s turmoil will mean lasting wins",
-    "url": "https://www.marketwatch.com/story/amds-stock-fades-as-investors-weigh-whether-nvidias-turmoil-will-mean-lasting-wins-1ecfbc5e?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-10T22:37:00+00:00",
-    "lede": "It’s one thing for money to shift between stocks, but it’s another thing for customers to shift their supplier relationships.",
-    "lang": "en"
    }
   ],
   "il": [
    {
-    "title": "בעקבות האינפלציה הגבוהה, וול סטריט קטעה יומיים של עליות",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562654#utm_source=RSS",
+    "title": "יזם הנדל\"ן מניו יורק שעוזב את הבורסה בת\"א מוקדם מהצפוי, ועם חרטה אחת",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562641#utm_source=RSS",
     "source": "גלובס",
-    "published": "2026-11-10T21:00:00+00:00",
-    "lede": "נאסד\"ק ירד ב-0.7% • מדד המחירים לצרכן בארה\"ב לחודש אוקטובר הציג עלייה חודשית של 0.4%, מעט מעל לציפיות הכלכלנים • מניית אנבידיה איבדה כחצי טריליון דולר ביומיים משוויה והיא נסחרת במכפיל רווח עתידי של 11.5, הכי נמוך מזה 15…",
+    "published": "2026-11-11T04:00:00+00:00",
+    "lede": "בתחילת השבוע השלים אמיר שריקי את מחיקת האג\"ח שהנפיק בת\"א - שלוש שנים לפני המועד המקורי",
     "lang": "he"
    },
    {
-    "title": "הקפאת חיבורים לרשת החשמל: הסיבה שמניית עזריאלי ירדה",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562714#utm_source=RSS",
+    "title": "המרות מט\"ח והעברות כספים תחילה: רבולוט קיבלה רישיון להקים בנק חדש בישראל",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562823#utm_source=RSS",
     "source": "גלובס",
-    "published": "2026-11-10T19:52:00+00:00",
-    "lede": "מניית עזריאלי מגיבה להחלטה של מפעילת מערכת הולכת החשמל בנורבגיה להקפיא הקצאות של חיבורים חדשים של חוות שרתים לרשת",
+    "published": "2026-11-11T03:53:00+00:00",
+    "lede": "בנק ישראל אישר את הקמתו של \"בנק רבולוט ישראל\", מקבוצת הפינטק הבינלאומית",
     "lang": "he"
    },
    {
-    "title": "בלי ישראלים, עם \"דוכן פלסטין\" וחיבוק לסין - כנס ההייטק בפורטוגל שמחולל סערה",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562899#utm_source=RSS",
+    "title": "עם גב מהמוסדיים ו־100 מיליון שקל במזומן, כך מתכנן אייל רביד לרכוש את קרפור",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562807#utm_source=RSS",
     "source": "גלובס",
-    "published": "2026-11-10T18:12:00+00:00",
-    "lede": "כנס Web Summit בליסבון נפתח ללא השתתפות ישראלית, לאחר החרם שהחל בעקבות התבטאויות מייסדו נגד ישראל אחרי 7 באוקטובר",
+    "published": "2026-11-11T03:49:00+00:00",
+    "lede": "לפי ההערכות, בעלי ויקטורי אייל רביד יידרש להשקיע בתחילה עד 180 מיליון שקל ועדיין לא ברור איך תיראה תוכנית המימון לרכישה",
     "lang": "he"
    },
    {
-    "title": "גם כשהמדדים מדשדשים העמלות זורמות - רווחי הבורסה זינקו ב-37% ברבעון שחלף",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562895#utm_source=RSS",
+    "title": "בשבדיה ביטלו ובגרמניה הפחיתו: ישראל צועדת נגד מגמת מיסוי הטיסות באירופה",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562803#utm_source=RSS",
     "source": "גלובס",
-    "published": "2026-11-10T17:59:00+00:00",
-    "lede": "הבורסה בתל אביב מסכמת רבעון חזק נוסף: ההכנסות ברבעון השלישי עלו ב-19% והרווח הנקי זינק ב-37%",
+    "published": "2026-11-11T03:48:00+00:00",
+    "lede": "שמונה שנים לאחר שהחל גל החקיקה הסביבתי ששם את הטיסות במוקד, אירופה מחשבת מסלול מחדש: המס בשבדיה בוטל ובגרמניה ובהולנד קוצצו התעריפים",
     "lang": "he"
    },
    {
@@ -172,30 +172,22 @@
     "published": "2026-11-10T15:14:00+00:00",
     "lede": "אליס הואנג, האישה שעומדת במרכז סערת הריגול סביב מנכ\"ל ענקית השבבים, בנתה קריירה פיננסית בסין לפני שהשתלטה על חברת ענן שנקשרה למשלוחי שבבים אסורים",
     "lang": "he"
-   },
-   {
-    "title": "השקל צפוי להתחזק, אך התיקון בבורסה קרוב למיצוי: \"אין הצדקה לפאניקה\"",
-    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5YMUkzcVN1X0FxQ2N4T0ZXX0ZoaERwREVUX2dmb3dUQ2hQTV9OMmV0NG5NZXRRRHEwZzBNd0RtemNGc0wyYlhDUTRVa1BwMVhsaVVIYmVTS0lLRE1fUG9EcVVwQmFXZw?oc=5",
-    "source": "מעריב",
-    "published": "2026-11-10T07:39:46+00:00",
-    "lede": null,
-    "lang": "he"
    }
   ],
   "geo": [
    {
-    "title": "Trump swung between war and diplomacy — then chose a third way",
-    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOYVAwSVNaUUFvdkZTVGc0dC1SMndYbUlSM3ZFMlpBb05lVXk5TkpwaVdPczc5ZGdJMmNrT0FCWElJR1k0Qk5BQ0xzSTR6NS1fM052MmY0WlJsdHhKNWRnT2FTS2JYS2VoaE1iMGhVWWE2MnM4VnloZXFyaHBQVnAyc29B?oc=5",
-    "source": "Axios",
-    "published": "2026-11-11T02:27:44+00:00",
+    "title": "Section 219: the future of US-Israeli defence partnership",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTVUyUE11T3B1aTJMUVB6cHU4WWxZN0VYeGZsbnZ6NGFvU0JtNmNxd3VnV21UalYwOUdPTnZUU1Z6aElDSzNjYTVlMDVQUlZPYnMtVU1rN3k4UzZMTzhYbU1ZQl9WX3E4OVpGZGdFMHZUWGs1OTVLeG1yRzMzTnRtZzJjWDc1TGpNeHQyUlNNaEwzd25RRFYyZGhqQmRZdDc2VHB3d0ppbmhwMUx0UGJjdDRrVnHSAboBQVVfeXFMTkhhWEU2Q1k3dTNZelVIZkFRcW1JWHpFcW5zV1ZLQ3dyRlNlSTltTWZRX1VjRDRybWVhRXR1S0FFUzdMVEQ4TnBCYnZ6bnFHSGwxT1lnLU9DZHhrSDVrRHdYQTRrdk1henNPYVdBajhCWUNLNDhqN3ZubFJDaC1obDN5SVJRdVpOTVJRWjY1Z19TUkktZHdQZkVFMVlRYmc5TnIyV0dBYWNXdDZ1TVZfcUJTU2l6Sm5fbkJ3?oc=5",
+    "source": "Al Jazeera",
+    "published": "2026-11-11T04:07:30+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Ukraine war briefing: Zelenskyy says Putin ‘lives in a different reality’ as Abu Dhabi talks get under way",
-    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOaDF0RG9vblhsZXZRZTNwWFRYU285N2dfTHhFbzdnR21Vc2dPTjVMOEV5djBRdzhqZlNIZ2hCZ0hwVGVPcWZQNGFJdERxTW9pbVdqd3hYMml4YVpEcXZsTk0zYUZkWVJldlBFZ2pmeVFEMWNabUU3TkNzQU45aER2OE91RDFqM19Pemp2dWp0cTFIeUVvMEcwWDVEZDBUV3pzcy1uc2pFUzFjUXQ1VWUtWXRRdG5RZVZkdC1wbzB3VC1zLVVNQzhTWTlKX0ZLbFpaU0VFR251MTJyZXozTVdrdXZ2RQ?oc=5",
-    "source": "The Guardian",
-    "published": "2026-11-11T01:27:00+00:00",
+    "title": "Analysis • After Trump's midterm blowout, Israel remains alone in pushing for war with Iran",
+    "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxPU204VnJXelQwaU43eDliZFAyeWcyMUJNNC1BbVZvR0g1QzdBOWtGdy03R1BnZGxHNXd4eHZWYXBjZlM0UnpwUjhfU3JfaVBtcnhRYXNpN3d1LW5zVTlNcHhWTThUZVpsWlo1Wm94Vy1ZT1FzR09iWDhKRXhzUzhuUnRYclVYMjRVR1Y0UEhlRFlLTzlqeHpHMHpTQjRQVmRkamFTQXFPOU1rVVN6X3d6cnZXVm83emxIcms4RUFweXZjdkl1Y19rTWYwR2hVUzNZWTdUVDgwMjlKVlMyanJSMnBwNHFpR2pSNmlmUThHcTdRejloeElzNVU0bFdBSDZZVkxrWkJTMThVUHgtdjI4cWs5TWZER0l5X3BnVzRfOW5pbW9y?oc=5",
+    "source": "Haaretz",
+    "published": "2026-11-11T04:01:00+00:00",
     "lede": null,
     "lang": "en"
    }
@@ -207,6 +199,7 @@
   "Financial Times",
   "BBC",
   "The Guardian",
+  "Seeking Alpha",
   "גלובס",
   "Google News",
   "גלובס",
@@ -218,7 +211,5 @@
   "Google News",
   "Google News"
  ],
- "sources_failed": [
-  "Seeking Alpha: HTTP Error 403: Forbidden"
- ]
+ "sources_failed": []
 }
