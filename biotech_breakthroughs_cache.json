@@ -1,5 +1,5 @@
 {
- "fetched_at": "11.11.2026, 18:34",
+ "fetched_at": "11.11.2026, 19:04",
  "items": [
   {
    "title": "FDA Approves Asundexian, First FXIa Inhibitor for Stroke Prevention - Drug Topics",
@@ -4467,6 +4467,26 @@
    "ncts": [
     "NCT03832998"
    ]
+  },
+  {
+   "title": "Immutep Reports Encouraging Survival Data From Phase 2 Cancer Trial - Benzinga",
+   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOUG91b1FaV1hVaGdWT0dSczdLcWhDREl0c0t1SEVfckI3SzZDVk1maG5fcHd5cnZ6b2ZDaWc2Y0tWVXhBVUVYX1JCTktFODlXcU9jZHc3dkVzUU0temNIX1p6ZzFCdlNnRTVtczlfZXM0XzVHcDNOZHczOFdaaGhNMl9nT1FoTmpNZkFldTZUQ2I5dkIxMy00SGNSYmVzWk9kSjBrU1k4bXhnY19xRWo0MHVNUm15czZmNmkxcGpLZWc?oc=5",
+   "pub_ts": 1794414471.0,
+   "date": "11.11.2026, 18:27",
+   "cat": "phase2",
+   "sev": 1,
+   "dir": 0,
+   "tickers": [],
+   "companies": [
+    "IMMP"
+   ],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOUG91b1FaV1hVaGdWT0dSczdLcWhDREl0c0t1SEVfckI3SzZDVk1maG5fcHd5cnZ6b2ZDaWc2Y0tWVXhBVUVYX1JCTktFODlXcU9jZHc3dkVzUU0temNIX1p6ZzFCdlNnRTVtczlfZXM0XzVHcDNOZHczOFdaaGhNMl9nT1FoTmpNZkFldTZUQ2I5dkIxMy00SGNSYmVzWk9kSjBrU1k4bXhnY19xRWo0MHVNUm15czZmNmkxcGpLZWc?oc=5"
+    }
+   ],
+   "ncts": []
   },
   {
    "title": "Palleon Pharmaceuticals Presents Phase 2 Results for HLX79/E-602 in Primary Membranous Nephropathy at ACR Convergence 2026 - Business Wire",
