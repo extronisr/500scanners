@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-11T19:01:01.562818+02:00",
+ "generated_at": "2026-11-11T19:59:08.398414+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -9,14 +9,6 @@
  },
  "sections": {
   "analysts": [
-   {
-    "title": "Liquidia stock upgraded at Raymond James (LQDA:NASDAQ)",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOZE5UemJ1c0dZMUgxRGl1bUtFS1ZaeVZoWEFjYWFlODVqSFNxU3QtVGd6VGJpV1k1bFhTbW5OUW50WHYySUZ5SndwRGUtWjczaHFvQ25CRVhxZkoxWTRuTXdOR2JUSGl3RUpsYWlHT21yNnNuTFhXb0NmblhUTG84OA?oc=5",
-    "source": "Seeking Alpha",
-    "published": "2026-11-11T15:46:32+00:00",
-    "lede": null,
-    "lang": "en"
-   },
    {
     "title": "WMT Stock Gets A Price Target Boost From BofA Ahead Of Q3 Earnings – Analyst Sees More Market Share Gains",
     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNYjJzWlk4ei1EX2lSbGFFT05kV2FYTXJPLVNNNlFZS0lMUjlFZllYMWhXQmhPdjVDa2JaTFl0cjhyTVFUR0N0T2VqeUdIU1FPNVdjUnpyZDJJYkJsaFk0Wk5EUkVURnZoNmp4VkYxbjZndHpMNlFnSnhMOUJ1emFXUWZlN1h3TU1ZYTIzaWI3RkR5RUs0Nk1z?oc=5",
@@ -48,39 +40,71 @@
     "published": "2026-11-11T10:53:30+00:00",
     "lede": null,
     "lang": "en"
+   },
+   {
+    "title": "Riskified Gears Up For Q3 Print; Here Are The Recent Forecast Changes From Wall Street's Most Accurate Analysts",
+    "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQWWswQk15VzlpeWUwSElFbXhObWZaSF83N193QzFmbWpXNzgwZDdxandTZm0wTDNpYWVQM0ZuNi0wWVpyZklNQUN4em8tTHRIWnpOSnhsRnQwUmlJVnEyNEJWdnVlQmVYLXE3REZoLXRIOVZkSWROdkkySDA1U0tWMkpEUzBpU3JyOW1RZUU5dFFmd1hxQWNUYnZiLUJZRlYxWnppeFBOYWtuazNxMkNCU2U0cUpCWDdKRmtMMTdGVGJuUUwtZkQ1dXN6SlZKNVlwUnR6RjZDSmh1X2JmYUlsb2FSOTcwV2V1UUpGeTlDQ0lSMkQxeW00TEZ3ZUtnZVlIWFhKZzEtLWVsY1VERm5sZzNn?oc=5",
+    "source": "Benzinga",
+    "published": "2026-11-11T06:34:05+00:00",
+    "lede": null,
+    "lang": "en"
    }
   ],
   "us": [
+   {
+    "title": "US tech stocks surge as AI trade revives",
+    "url": "https://www.ft.com/content/639de881-6017-454f-abfa-cfb191d1e7cd?syn-25a6b1a6=1",
+    "source": "Financial Times",
+    "published": "2026-11-11T17:42:08+00:00",
+    "lede": "Nasdaq erases last week’s losses as better-than-expected CoreWeave results and prospect of higher Anthropic IPO valuation boost sentiment",
+    "lang": "en"
+   },
+   {
+    "title": "Is Nvidia Stock a Buy After Hitting a Seven-Month Low? (Hint: Yes.)",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRndXeDlNTWhHV2xYeGlZM1ZDc3ltaVdJdEliSnJNX2FlMDlIczF2Rjk1T0U5T1hScVhhYnNHai1pVVQyajgzZl80eTNCa08zdjVlRWNvYVREbFNwYnM2bUJmWVlpRzRteTJjcV84SFdENDFWQW8xZHpyRzI2T0NIVHRQREtEOW5jNGZ6R09xREgydktGQzFMZG1rbw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-11T17:41:02+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "קורוויב מציתה מחדש את הראלי במניות ה-AI: קורוויב מזנקת ב-25%, אנבידיה מתאוששת",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562761#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-11T17:40:00+00:00",
+    "lede": "נאסד\"ק מזנק ב-2% בהובלת מניות השבבים • אנבידיה מתאוששת, מייקל ברי: אנבידיה עשויה להפוך בקרוב ל\"עסקה מצוינת\" בטווח הקצר • חברת מחשוב הענן קורוויב מזנקת לאחר שפרסמה דוחות חזקים והקלה את החששות מפני החובות העצומים של חברות…",
+    "lang": "he"
+   },
+   {
+    "title": "Nvidia shares rebound as Jensen Huang faces scrutiny ahead of earnings",
+    "url": "https://www.cnbc.com/2026/11/11/nvidia-stock-jensen-huang-affair-china.html",
+    "source": "CNBC",
+    "published": "2026-11-11T17:39:26+00:00",
+    "lede": "Investors are assessing whether CEO Jensen Huang's affair will have spillover effects on Nvidia's business.",
+    "lang": "en"
+   },
+   {
+    "title": "Could Rivian Actually Climb 62%? Or Is Stifel Totally Wrong?",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQNDJ1R1JlZ2N3NHBwaVJEbDgtU2RDTjFYejk2Ylh3Szh4NG8zTjNpY2t0akZLTW8yOENWU3NzZW9YT1ZHVktTbDZFRWxKZG9oOEhPcmhqSXB6TjZYdjU3M3BEbVZVUlNoYUpRN25PM1FoM2dGeFZnbnk1Q0pIOFZsQVFfY0RmSm1IR2phaGJ1SFJmRlBLTHR1WjVnWQ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-11T17:21:36+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "PayPal (PYPL) Stock May Be 50% Undervalued As Barclays Cuts Rating",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOU0VjSDJmb0NuaTZrd29XU1NhWkFEQVBWSmlTRjlfbEJHbU8xT1NBeE8yY3VvWUFUd0I3QjNPN2Q5OU1XMUNyanhVQW82Y3gwbnhWQzdpd0Fwak96N2huMk1PeTBQeXZZaVdzbGFpUkZHVUt2d1c3TUVtdjIxbmdVUzFpa0VDcDVtY3JydTNhMllTNzg?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-11T17:20:41+00:00",
+    "lede": null,
+    "lang": "en"
+   },
    {
     "title": "Fed's Goolsbee calls inflation report 'borderline disturbing' as central bank weighs more hikes",
     "url": "https://www.cnbc.com/2026/11/11/goolsbee-october-inflation-fed-rates-disturbing-distressing.html",
     "source": "CNBC",
     "published": "2026-11-11T16:49:02+00:00",
     "lede": "The consumer price index rose more than expected in October, raising alarm among Federal Reserve officials.",
-    "lang": "en"
-   },
-   {
-    "title": "4 Insurance Dividend Stocks With Two Ways to Make Money and Pay Shareholders",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPTUpDeFZUUlQxSllFcllQMk1DNTFjcTFMVklwX3REQVlCRkZpV1Vnd25zdGh2MWxmLVh3MS1oRmliWkJxSjg5dHhENVd1SkV1bGhUeTRTaVVpX3R0V3hDWTNfTTB5ZEV6UlBYUVlqVGQxcmhmNWdMX0dPTmd5anh6aG9WRm9RZXZKRy16dGZYVnk3WVV2cHUtakgtdWQ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-11T16:47:07+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "CoreWeave stock pops — but its debt problem hasn't gone anywhere",
-    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNOUhJcDF4VUtCU1poTU5IeTY0a2wyRk5EQjh4b1NnR2hubFVOY0xVTUJQZkpjYXR0LXJ0bU1YZFQxbW9kbktVWkhkZ1VWUE4yRFB1b2dvVG45Ulg2bHF5THYxZTV0UTJ4MHMyck5PTHRBT1NvcHVORWxCLXpaYXFOSHhUd045VGRGTjE2b0NkMVhfUGxBSjNLUnVhdzc3YnduS18wSFFqV2xuRnJFaW5pWGRXOFNXblE2VVE0?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-11T16:43:59+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Fossil Stock Hits 4-Year High, Draws Options Traders",
-    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPakNOTU9lY3NPUUNVbDlfWlhqMjAzenI0YWUta29MbVlhajU3UWwtdVd0dVdvMkZHX3ZxeEdrWVh1TTREU055cnRJbHM5eUN0aUwtYUMtRjd1aDhHQmpyc3IxaEs5YVBNdVIyYllqMnZBS00tb1hVZGdBbUNTSl9Db3FCWDZnem9iaXQyeVR0Mk8yZXhP?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-11T16:40:06+00:00",
-    "lede": null,
     "lang": "en"
    },
    {
@@ -100,45 +124,37 @@
     "lang": "en"
    },
    {
-    "title": "US tech stocks surge as AI trade revives",
-    "url": "https://www.ft.com/content/639de881-6017-454f-abfa-cfb191d1e7cd?syn-25a6b1a6=1",
-    "source": "Financial Times",
-    "published": "2026-11-11T15:54:42+00:00",
-    "lede": "Nasdaq erases last week’s losses as better-than-expected CoreWeave results and prospect of higher Anthropic IPO valuation boost sentiment",
-    "lang": "en"
-   },
-   {
     "title": "Market angst is driving investors into low-volatility stocks as AI trade stumbles",
     "url": "https://www.marketwatch.com/story/market-angst-is-driving-investors-into-low-volatility-stocks-as-ai-trade-stumbles-23d905e9?mod=mw_rss_topstories",
     "source": "MarketWatch",
     "published": "2026-11-11T15:15:00+00:00",
     "lede": "Anxiety in the U.S. stock market has surged amid a sharp selloff in artificial intelligence names and stubbornly high bond yields.",
     "lang": "en"
-   },
-   {
-    "title": "קורוויב מציתה מחדש את הראלי במניות ה-AI: עליות חדות בוול סטריט",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562761#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-11T15:03:00+00:00",
-    "lede": "נאסד\"ק מזנק ב-1.7% בהובלת מניות השבבים • אנבידיה מתאוששת, מייקל ברי: אנבידיה עשויה להפוך בקרוב ל\"עסקה מצוינת\" בטווח הקצר • חברת מחשוב הענן קורוויב מזנקת לאחר שפרסמה דוחות חזקים והקלה את החששות מפני החובות העצומים של…",
-    "lang": "he"
-   },
-   {
-    "title": "מניית ה-AI שממריאה אחרי הדוחות ומזניקה נאסד\"ק",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562923#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-11T14:40:00+00:00",
-    "lede": "קורוויב, אחת השחקניות המרכזיות בתחום הניאו-קלאוד, שספג לחצים משמעותיים לאחרונה בוול סטריט, פרסמה דוחות חיוביים ומזנקת במעל 10%",
-    "lang": "he"
    }
   ],
   "il": [
    {
-    "title": "המניה שזינקה ב-10% - והקפיצה את אנבידיה ב-210 מיליארד דולר",
+    "title": "המניה שזינקה ב-10% - והקפיצה את אנבידיה",
     "url": "https://finance.walla.co.il/item/3875892",
     "source": "וואלה",
     "published": "2026-11-11T19:06:00+00:00",
     "lede": "קורווייב הפתיעה את וול סטריט, הרגיעה את חששות בועת ה-AI והציתה ראלי חיובי בסקטור הניאו-קלאוד שחטף מכות קשות בתקופה האחרונה",
+    "lang": "he"
+   },
+   {
+    "title": "האם אייל רביד באמת יכול להשתלט על קרפור?",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001563068#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-11T17:08:00+00:00",
+    "lede": "אייל רביד, בעלי ויקטורי, מעוניין לרכוש 30% ממניות החברה המפעילה את קרפור בישראל, במסגרת הנפקה מתוכננת",
+    "lang": "he"
+   },
+   {
+    "title": "שני הבנקאים הבכירים שנאבקים על הובלת כלכלת גוש האירו",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562589#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-11T17:00:00+00:00",
+    "lede": "לאחר הודעת נשיאת הבנק המרכזי האירופי הנוכחית כריסטין לגארד כי תפרוש מהתפקיד, שניים מתמודדים על המשרה",
     "lang": "he"
    },
    {
@@ -155,22 +171,6 @@
     "source": "גלובס",
     "published": "2026-11-11T16:50:00+00:00",
     "lede": "שוק המסירה ללקוח (\"המייל האחרון\") הישראלי מגלגל עד 12 מיליארד שקל בשנה, אך התחרות האגרסיבית חותכת את הרווח של השחקניות בשוק",
-    "lang": "he"
-   },
-   {
-    "title": "קרן השקעות סינית שילמה כ-6 מיליון דולר לקיבוץ חניתה בתמורה למניות",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001563103#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-11T16:09:00+00:00",
-    "lede": "במסגרת הסכם פשרה בסכסוך על השליטה בחברה, קיבוץ חניתה יקבל כ-6 מיליון שקל מקרן ההשקעות הסינית Ballet Vision, תמורת יתרת מניותיו בחברת עדשות חניתה",
-    "lang": "he"
-   },
-   {
-    "title": "איש העסקים ניסים דז'לדטי הורשע במרמה לאחר שלקח מיליון שקל מחברו לתא",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001563102#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-11T16:08:00+00:00",
-    "lede": "בית המשפט קבע כי דז'לדטי ניצל את יחסי האמון שנרקמו עם האסיר בועז אדרי בשעה שריצה בעצמו עונש מאסר, הציג בפניו עסקה לרכישת מניות בחברה בורסאית והשתמש בכספים, בין היתר, לתשלום פיקדון אישי בהליך פלילי קודם",
     "lang": "he"
    },
    {
@@ -192,18 +192,18 @@
   ],
   "geo": [
    {
-    "title": "U.S. brokers another Russia-Ukraine prisoner swap, but war continues as Putin sticks to demand for territory",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNLWtSMzc5WXQyY2pvSkdWck12QklpTWdRbkYwYjVta09qSWtrb3d1cV8tWUo5cm8yT3JpNFpsamJrVWw4a1MwaHJGdWVBdml5QjRCN19TOVhWMkNJQTdHMGJDcldDRXFxRU9yUk5HMlZXX0dkU1FRdlA0TXNhNFdxb2ZaTXlNbWx1QW9jT0hyTVY0UkRLQ200MzJweWhtUQ?oc=5",
-    "source": "CBS News",
-    "published": "2026-11-11T16:30:36+00:00",
+    "title": "U.S. Efforts to Tighten Blockade of Iran Rely on Reluctant Neighbors",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdHVOb3F2MVpGZ0s0N3hWOWFOMEJxZkJkNHFEVk1RNlcxR0ZEb0lTNl9GQlpkbExVMDNzMzNCSHEyNmhvM2VoQ21yZ2VHa293Sjkxbk9yZjVuSk1PcG1oZGdFcC05VEpMNml0a01kVHlzNXhrbEFTSXdZMS0wVGNCTVFPcGllTGlkQUp4VEdBYmNTSzBpeVd3UA?oc=5",
+    "source": "The New York Times",
+    "published": "2026-11-11T17:37:31+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "For Families of Those Who Died in the Iran War, a Veterans Day of Profound Loss",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUFRadjFES3RzVThFMzZaM3czWmx3bkttQWtiRkc5SGJRbHJJSXU0aHh6WkRKdzh2cUZnZlBkd2xzbm5LdC16MU9KcmhwZmxHbnE1VGNVaTEtNUF1VWVFSllSSnR6R0hMYnNtRUZmQVF4SGkyZU1SWjRtZ05oZ2NHTzZMMVNVWmN4?oc=5",
-    "source": "The New York Times",
-    "published": "2026-11-11T16:09:40+00:00",
+    "title": "Why does Pete Hegseth call himself secretary of war? ‘Dopey but dangerous’ wouldn’t fit on a badge | Emma Brockes",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdHNwSDhmV2IwbUY3c0ZXd180WTM3VHdTYXhUdkowV3dTMG5ZeEp1Y1BYSVM3Ti0xbDBHaHJjd05QN2EyejdvOW5UaE1KVnlON1QyMGotLTdxZFVwZnlIc3pzVWd6LXhLb1RCTGhEQ0RlM1g3djVCTld0VjhKUDJMc0xWTUczTWVGT0Q5SlcyYTcwMGJTS1N3eUhUSnhKT0VYbFpoSERuZUQyRDM4dnVGSklOVWlfb2l4NW44TQ?oc=5",
+    "source": "The Guardian",
+    "published": "2026-11-11T17:37:00+00:00",
     "lede": null,
     "lang": "en"
    }
