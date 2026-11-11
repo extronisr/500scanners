@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-11T23:01:08.713802+02:00",
+ "generated_at": "2026-11-12T00:01:22.463182+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -52,44 +52,76 @@
   ],
   "us": [
    {
-    "title": "A.I. and Market Whiplash",
-    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1LN2lBVk9ialg4T2dCYXJvcGVHeXItRWJCZ2xqMDAzU1otdnM0OXdkNGNyYUY3T2RiZG9xMkFQNnAydHNUeGdrdDY4ckl5LXNCVVQxN3MzS0E0OG1ISEZwRHZKQnF1eTlUemxRLU1saXd1TlZkVnFYR3FFVUliUQ?oc=5",
-    "source": "The New York Times",
-    "published": "2026-11-11T20:48:08+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "4 Industrial Tech Stocks Riding the AI Boom and Paying Dividends Along the Way",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOUjdQWjQyYjViTWNYaGo0elpBNW0za2thUXBsdWhfdEttMXEwZzgzOHk1THlnZTBQeXZfbV9rZnB4SEVCelE4NnhsRUU5RlZuY3M1QzVsZFQ4a1l0eVBJZ1l4RHpySTFrNms2Wm5QdzV5S0xfaW1leU1zN1lmVDN0OGlGQVBQM2xPRTktWThuclVWYXQ2aVd2eEZQWm0?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-11T20:47:24+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "The trillion-dollar mistake corporate America is making about retirement",
-    "url": "https://www.marketwatch.com/story/corporate-america-is-making-a-trillion-dollar-mistake-about-retirement-234c8996?mod=mw_rss_topstories",
+    "title": "Opening trading-card packs has become a $2 billion market. New apps are trying to cash in.",
+    "url": "https://www.marketwatch.com/story/opening-trading-card-packs-has-become-a-2-billion-market-new-apps-are-trying-to-cash-in-b7ba11f5?mod=mw_rss_topstories",
     "source": "MarketWatch",
-    "published": "2026-11-11T20:46:00+00:00",
-    "lede": "The market is dramatically underpricing the economic impact of Americans age 50 and older.",
+    "published": "2026-11-11T21:55:00+00:00",
+    "lede": "Pack-ripping apps are changing the way people buy and sell cards. But analysts say their “slot-like payoff” raises risks.",
     "lang": "en"
    },
    {
-    "title": "Bloom Energy’s stock is rallying as data-center jitters subside",
-    "url": "https://www.marketwatch.com/story/bloom-energys-stock-is-soaring-as-data-center-jitters-subside-5fda5689?mod=mw_rss_topstories",
+    "title": "Paccar Inc. stock outperforms competitors on strong trading day",
+    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNcFFjOWh6alBUb09CTnpjQWtuQktSMlpFbmJ0dVRqa1ZJbHdLWEtkMnNYWDFrSHlmR3NoQ2VFRHZJRmg5QzZBcFA2bjlzQlR4S1FlOXlWSWE5NU5CMFpYNl85ZVBDTUthUGNUakJCU3dtbnh0bENrQUEta1Zjemdadk8wT09WY19vSi04cDhEQzUyLVdmOFZZTEhreGMyY1lKeWNKdW92NjZya1FQV2kxdmZUNWFNZG1rNHhYSHBmTUZmMHd1NTBSX3hiMHkzX3FmMFZIOXNDZw?oc=5",
     "source": "MarketWatch",
-    "published": "2026-11-11T20:43:00+00:00",
-    "lede": "CoreWeave’s upbeat outlook helped calm nerves around the energy company.",
-    "lang": "en"
-   },
-   {
-    "title": "Reed’s: A Beloved Brand Standing on a Trapdoor",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMzZyQmxwN0g3cTk2c3J6bFRlX3lQdHpNQkFRc0otZWNqUFF1TzZtM1lDSnBmZDBwT3A4NUMwRXBCYXZsOTRyYjFPNXAtLXZnRG9GMVdJWGZ3WEVsVnlJSDdGT1JOMUZEOGhpaDBYa2RFSUdzTjdfSGxBWlcxUkpmUkZMWWJpbkM4WGFVaUE2Q1ZMUEdpS01JakdMTnJFZHVtMHJ3?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-11T20:42:34+00:00",
+    "published": "2026-11-11T21:49:00+00:00",
     "lede": null,
     "lang": "en"
+   },
+   {
+    "title": "Garmin Ltd. stock underperforms Wednesday when compared to competitors despite daily gains",
+    "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQclZEejh3RXk3YXEtUUxjaVFMdHM4VGNWemU0Y0RwY0dIbXZKUUZ5bEhnNDJKQWhwOTB6ZWYzQ3cyM3ROWkFtRU9JYlVmMWZiMWVZX0ZoQzk2cExpWWgyQURKcTA0Z1ZxRGQwNnJXaktmV1NpN183LXF6ZTA2NEVEUy1vNmNMYzAwd0o3Qnk2Vm5VbkowWHBYYWFkek56RFlfYWhPMEo1Nmw4SF9ubl9YN2traHNHSVN0SVA4cWdkWk9VbWtnQmVnVnJEOHR5Y0drWGhGczB5eWdHbUJKSEVsc1JxNWlrUEcxU01lWW1fRjJ1VjBYYlF6Snl2SQ?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-11-11T21:49:00+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Hedge Funds Just Turned Against AI Stocks for the First Time Since 2023. Should You Follow Them?",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOTTgtR1FyeDI3MFUzRGYtdFJyUmZFcHpCVDdURF9Uak8wZGw1Z0RYX1p4V3J5aFpDS051YjFGVzI2ejlGeGNWQUh1ZnlIdnhabjBLQm5xZDJUTXRWeENDODlkTEg4Y2x4UFNfRDlWNkJFZzUyMDZOd3ZQVmlRaVJ6UGxzOFliWmtrdUotUG1zN0Q4RzV1MXV3QkQwYWg?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-11T21:43:38+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Falling oil prices are no longer enough to bring down borrowing costs in the world’s most important bond market",
+    "url": "https://www.marketwatch.com/story/falling-oil-prices-are-no-longer-enough-to-bring-down-borrowing-costs-in-the-worlds-most-important-bond-market-3176d25a?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-11T21:42:00+00:00",
+    "lede": "The tight trading relationship between oil prices and Treasury yields has broken down. It’s a sign that inflation concerns are extending beyond the energy shock.",
+    "lang": "en"
+   },
+   {
+    "title": "Nvidia shares rebound as Jensen Huang faces scrutiny ahead of earnings",
+    "url": "https://www.cnbc.com/2026/11/11/nvidia-stock-jensen-huang-affair-china.html",
+    "source": "CNBC",
+    "published": "2026-11-11T21:04:36+00:00",
+    "lede": "Investors are assessing whether CEO Jensen Huang's affair will have spillover effects on Nvidia's business.",
+    "lang": "en"
+   },
+   {
+    "title": "US tech stocks rally as AI trade revives",
+    "url": "https://www.ft.com/content/639de881-6017-454f-abfa-cfb191d1e7cd?syn-25a6b1a6=1",
+    "source": "Financial Times",
+    "published": "2026-11-11T21:04:17+00:00",
+    "lede": "Nasdaq erases last week’s losses as CoreWeave results and prospect of higher Anthropic IPO valuation boost sentiment",
+    "lang": "en"
+   },
+   {
+    "title": "מניית ה-AI שהמריאה אחרי הדוחות והקפיצה את נאסד\"ק",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562923#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-11T21:04:00+00:00",
+    "lede": "קורוויב, אחת השחקניות המרכזיות בתחום הניאו-קלאוד, שספג לחצים משמעותיים לאחרונה בוול סטריט, פרסמה דוחות חיוביים וזינקה בחדות",
+    "lang": "he"
+   },
+   {
+    "title": "וול סטריט ננעלה בעליות חדות: קורוויב ומניות השבבים הציתו מחדש את ראלי ה-AI",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562761#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-11T21:00:00+00:00",
+    "lede": "נאסד\"ק זינק ב-1.7% בהובלת מניות השבבים • אנבידיה התאוששה, מייקל ברי: היא עשויה להפוך בקרוב ל\"עסקה מצוינת\" בטווח הקצר • חברת מחשוב הענן קורוויב זינקה לאחר שפרסמה דוחות חזקים והקלה את החששות מפני החובות העצומים של חברות…",
+    "lang": "he"
    },
    {
     "title": "Canada’s ambassador warns Trump tariffs are driving up costs, threatening U.S. investment",
@@ -98,38 +130,6 @@
     "published": "2026-11-11T20:30:23+00:00",
     "lede": "U.S.-Canada trade tensions persist as Trump's tariffs drive up costs, threaten investment and complicate negotiations between the two countries.",
     "lang": "en"
-   },
-   {
-    "title": "עליות חדות בוול סטריט: קורוויב מזנקת ב-25%, אנבידיה מתאוששת",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562761#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-11T20:09:00+00:00",
-    "lede": "נאסד\"ק מזנק ב-2% בהובלת מניות השבבים • אנבידיה מתאוששת, מייקל ברי: אנבידיה עשויה להפוך בקרוב ל\"עסקה מצוינת\" בטווח הקצר • חברת מחשוב הענן קורוויב מזנקת לאחר שפרסמה דוחות חזקים והקלה את החששות מפני החובות העצומים של חברות…",
-    "lang": "he"
-   },
-   {
-    "title": "Social Security could pay full benefits until 2059 if taxable payroll kept pace with GDP: AARP report",
-    "url": "https://www.cnbc.com/2026/11/11/social-security-benefits-taxable-payroll-gdp.html",
-    "source": "CNBC",
-    "published": "2026-11-11T19:54:27+00:00",
-    "lede": "An aging work force is not the only reason Social Security's trust funds now have a looming shortfall, according to AARP Public Policy Institute research.",
-    "lang": "en"
-   },
-   {
-    "title": "Prediction markets tied to clinical trials and drug approvals draw lawmakers' ire",
-    "url": "https://www.cnbc.com/2026/11/11/kalsi-polymarket-prediction-market-senators-hhs-drug-approval.html",
-    "source": "CNBC",
-    "published": "2026-11-11T19:16:23+00:00",
-    "lede": "Sens. Angela Alsobrooks and Ron Wyden are asking what steps the Department of Health and Human Services has taken to mitigate risks from the markets.",
-    "lang": "en"
-   },
-   {
-    "title": "עורך הדין שהרשיע מאפיונרים: החוקר שיבדוק את פרשת הרומן של מנכ\"ל אנבידיה",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001563064#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-11T19:00:00+00:00",
-    "lede": "ג'ון ה. קים הביא להרשעת ראש משפחת פשע ידועה לשמצה, חקר את מושל ניו יורק לשעבר אנדרו קואומו ופיקח על תיקים נגד בנקאי שהורשע בעקיפת הסנקציות על איראן",
-    "lang": "he"
    }
   ],
   "il": [
@@ -203,15 +203,15 @@
     "title": "Oil production nears pre-Iran war levels, OPEC says",
     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNWVl4QjNFcFhZd1N4V2ZIQlM0ejAwcEVmbUxqXzdmamFJeUE0QXBNU3FoQW9ldGNYdF95QnU2MVZxTGlMX1NiYWZrUVY0S2hKTFlVSGJBZTExY0xfWGl1Q2RobDlQa0M5a1ozU1VYSlBNd2lDYzQwS2FKV0pNNnpJUnNUNDV1RmJYZENBNWVXcVM0R0MyVWfSAZsBQVVfeXFMTVdoNlkwaFM0R0ZuOExoUHowckk2eFNRejVwY1NUM1pnZEp1RDdMdVdGLXM3ZFFCeEJIOE5zdWJZeXJwcTlHLVk5azdLUTV2R0EtaGJ1VHMyb0tiTmp3MHhJVzBZSjBJRURLcF8yWkJvcXhHY2UwTS1wd1JFbkZGMkY1eXcwNk9LTlBkNDh6clNWSUlRRXppdG5QelE?oc=5",
     "source": "Al Jazeera",
-    "published": "2026-11-11T20:45:52+00:00",
+    "published": "2026-11-11T21:13:47+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Analysis • Netanyahu is desperate to stay in power, and eyes Iran war as potential lifeline",
-    "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxORVMzdkxYalJVQjFEUnV1NHZLQmlSbXVGUEpSZHlpSm1TTnpxOHEwWnZLMXhCeTVBMjFjdTR5c1RHTURtZzRsVno1eHJfWllDamNJaUpVRmdEUDhtUVQtZTM0aElPQ0dYZllJMHo2MjhITkJvQkFpaWtITEN2TUVJcVRDRUtFbVJxVVFuQ0tHRVpRbnRmNDZsZ1NOMkt0a28wNDNzSllqVFlra3BPUms1WGZyeE9odkVaSzZIUWVpWGdzbjJiU1lKZnpfOGZ1NmJLRnN6SXhZZXlWTk5lbjlDZ3BiTTRhY2podnZoS1d4UTFnbmN1LWY4UlUzUEVCVnRiZW5mWmc0ZUYzek5McHFTTS00OUhrZWxmaG54V19ma0JpUFRwc0E?oc=5",
-    "source": "Haaretz",
-    "published": "2026-11-11T20:05:00+00:00",
+    "title": "Hormuz Strait will ‘never return’ to pre-war status, Iran’s Ghalibaf says",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQWGxvd2hwTGtyaGlUa3hIS3BUSkdPYXJVNUd2Wnl1V0M1enhlSVdnUU9UN091S0JPLThfTTk3QVkwUmhPR212enhUWDUxRGdqZ0RtVXVJY3Ruc0podzdET0QtX0VCbGMwRzY5ZHMtTEQtMHNSaGtVQmVueGdCWTJ1SXFTVUlZRzVzZXdDUTZwcXo3cHdyTzlfS3gyTzMySDBmNlctcHNR0gGrAUFVX3lxTE9ETk94YXFQVXpLTFZnMUFLWDJEYWlLR2pDSkkyUTdtSFNKcXdfQUtHUkNTcnBNc05LYk4xR09nZ0ctUDVvakxYejhwT18xVURRUHA3TUdWLWpIOUVpTnFkQmRFWXhaaWpadTNOLVpxdTMzUUl6OVhuQ25sSmRUMXJfMmJiTEtHbFpMSzVaNXpTU1lRTlkwWmFyUHZQb2Q5TENUMUh1ejZVZS1jVQ?oc=5",
+    "source": "Al Jazeera",
+    "published": "2026-11-11T21:06:03+00:00",
     "lede": null,
     "lang": "en"
    }
