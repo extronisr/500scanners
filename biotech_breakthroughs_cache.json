@@ -1,5 +1,5 @@
 {
- "fetched_at": "11.11.2026, 3:04",
+ "fetched_at": "11.11.2026, 3:34",
  "items": [
   {
    "title": "FDA approves new stroke drug after 26% drop in recurrent events - Ynetnews",
@@ -3681,6 +3681,42 @@
    "ncts": []
   },
   {
+   "title": "FDA approves generic Fluticasone Propionate (Teva Pharms Usa Inc)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=209917",
+   "pub_ts": 1793664000.0,
+   "date": "3.11.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=209917"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA approves generic Hydroxyurea (Esjay Pharma)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220300",
+   "pub_ts": 1793664000.0,
+   "date": "3.11.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220300"
+    }
+   ],
+   "ncts": []
+  },
+  {
    "title": "FDA approves generic Propofol (Baxter Hlthcare Corp)",
    "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=203421",
    "pub_ts": 1793664000.0,
@@ -3722,42 +3758,6 @@
     {
      "source": "FDA · openFDA",
      "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=214747"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "FDA approves generic Fluticasone Propionate (Teva Pharms Usa Inc)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=209917",
-   "pub_ts": 1793664000.0,
-   "date": "3.11.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=209917"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "FDA approves generic Hydroxyurea (Esjay Pharma)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220300",
-   "pub_ts": 1793664000.0,
-   "date": "3.11.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220300"
     }
    ],
    "ncts": []
@@ -4044,6 +4044,42 @@
    "ncts": []
   },
   {
+   "title": "FDA approves generic Carbidopa And Levodopa (Actavis Labs Fl)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=208522",
+   "pub_ts": 1793577600.0,
+   "date": "2.11.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=208522"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA approves generic Carbamazepine (Adaptis)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=218447",
+   "pub_ts": 1793577600.0,
+   "date": "2.11.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=218447"
+    }
+   ],
+   "ncts": []
+  },
+  {
    "title": "FDA approves generic Methylprednisolone Acetate (Gland)",
    "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219662",
    "pub_ts": 1793577600.0,
@@ -4077,42 +4113,6 @@
     {
      "source": "FDA · openFDA",
      "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=210890"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "FDA approves generic Carbidopa And Levodopa (Actavis Labs Fl)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=208522",
-   "pub_ts": 1793577600.0,
-   "date": "2.11.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=208522"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "FDA approves generic Carbamazepine (Adaptis)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=218447",
-   "pub_ts": 1793577600.0,
-   "date": "2.11.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=218447"
     }
    ],
    "ncts": []
