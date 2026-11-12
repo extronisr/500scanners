@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-12T19:01:08.214739+02:00",
+ "generated_at": "2026-11-12T20:01:07.284092+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -42,54 +42,86 @@
     "lang": "he"
    },
    {
-    "title": "NVDA Stock Rout: Another Analyst Slashes Rating, Beijing Warns US Against Tech Curbs",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNVc4amE3bzV1cWF4SGlwOVd4UnNZVTZ6c09GZE42VDZiMGRkTXhiMDN6MS1lYzlfRzVHWlF2eVA4R0VlVlBBakREZ3hzSy1PVjBXWFdhSzEzbkVqdUtOc2tMUUN1eXJLNmhlNnJhSWE1Yk9PS2FhemlWalE2clE4aHB4T1NGcEJyeFVKNUdSbUY0UmMtMTh6aEIyR18?oc=5",
+    "title": "Rivian Just Earned a Buy Rating. Is Wall Street Seeing a Turning Point?",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOSmZDcERNOVNMdElWVVdYVUxrWkdqaHl3Tk9yNHlLWjM1SS1aYWM1dm9obnRqZ05HUER0bGFkTVhqY0hJcVJ5NGlzaTJCRzVSSW9rYTA3V28tUEdGSTloRUhjU3JUX1hJOWZIY1J4d1JRUWU3Skg5d09WSjBGbHI2WUlsY3oyaUQ2VmpNQWZjODNMMFlsWkNFSHlR?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-12T09:16:25+00:00",
+    "published": "2026-11-12T17:05:02+00:00",
     "lede": null,
     "lang": "en"
    }
   ],
   "us": [
    {
-    "title": "Nvidia stock pares morning losses after CEO Jensen Huang announces resignation",
-    "url": "https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html",
+    "title": "Oil prices rise after Trump says no Iran deal needed: 'We've got their Strait'",
+    "url": "https://www.cnbc.com/2026/11/12/oil-prices-jump-after-trump-says-no-iran-deal-needed-weve-got-their-strait.html",
     "source": "CNBC",
-    "published": "2026-11-12T16:59:15+00:00",
-    "lede": "Chief Financial Officer Colette Kress will serve as interim CEO until a new leader is appointed.",
+    "published": "2026-11-12T17:59:26+00:00",
+    "lede": "Oil prices were mixed on Thursday, after the latest comments from President Donald Trump raised worries that an end to the U.S.-Iran war was not in sight.",
     "lang": "en"
    },
    {
-    "title": "Analysis: Nvidia’s leadership crisis tests the chipmaker’s role as the ‘central bank of AI’",
-    "url": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-ai-financial-system-risk.html",
+    "title": "The trillion-dollar mistake corporate America is making about retirement",
+    "url": "https://www.marketwatch.com/story/corporate-america-is-making-a-trillion-dollar-mistake-about-retirement-234c8996?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-12T17:59:00+00:00",
+    "lede": "The market is dramatically underpricing the economic impact of Americans age 50 and older.",
+    "lang": "en"
+   },
+   {
+    "title": "In a policy switch, the Fed says its October 2027 meeting will not see a vote on interest rates",
+    "url": "https://www.cnbc.com/2026/11/12/in-policy-switch-fed-says-its-october-2028-meeting-will-not-see-a-vote-on-interest-rates.html",
     "source": "CNBC",
-    "published": "2026-11-12T16:43:06+00:00",
-    "lede": "The tech giant's web of ties to other companies is raising the possibility that it could do far-reaching economic and financial damage.",
-    "lang": "en"
-   },
-   {
-    "title": "Alphabet vs. Broadcom: the best AI stocks for risk and reward",
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWDVQLTBZRE9CU051Z1N6NXVtQ2d2dlJJMW1DYmF0UXFBY0tVTWFfT3praUZYUjhCRWJON1F1R3I3Q3IzelZNbVFWekdhWEl4dXE1YTl4a3Vqa3l2M1ZlVmRLSFAwVjhZS2UzWlREVmlkNk5TeWtwdU1hRkk2MF9NZGp1QWtWRk1veEVfTnNSV3dONktjVHlVdg?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-12T16:38:18+00:00",
+    "published": "2026-11-12T17:58:29+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "What $10,000 in Silver on Jan. 1 Is Worth Today",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUDBUVms1aG1PVEpjUG8ySUpVWHRjU25FelpqU3VwUVpEMG5NcW03NEJNWHlFN2tfQTl6dmZEN0dDeGl2RkF3ZnRUZjVzRDFfYXh4VHlVV3A0bUdCUkljNjAtbFFHQ2QxWU12aExQNGFpU2tzNEpmNjg5dW1EWUU5NC03SlZsTFE0aTBHNmRKdTdQYjA?oc=5",
+    "title": "Bain Capital’s head of real estate uses this strategy to counter the economy’s ‘cocktail of disruption'",
+    "url": "https://www.cnbc.com/2026/11/12/bain-capitals-head-of-real-estate-on-the-cocktail-of-disruption.html",
+    "source": "CNBC",
+    "published": "2026-11-12T17:50:59+00:00",
+    "lede": "Ryan Cotton, Bain Capital's head of real estate, sits for an interview with the Property Play video podcast.",
+    "lang": "en"
+   },
+   {
+    "title": "Wall Street Models Lag Structural Reality, Prompting Me To Add an ‘Overvalued’ Apple",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQbU9NZTNnN3FGRElnU2M3UEVLVFRDb1lwalYyZUdLWDJPNHVHSHBFV1FJYXV0YmpkYnJuRXZQeTBNR1RDUWlYN0xxc0dmMDdLdWdzMUk5UGlYbVFhZ05sUEY0bVFCUFA4SzlnaXJVYXZUZ1dlcUlTbHNvbGF6a2lQQ0VQcF9iMTh1OHBqVl9DRGt0bWwxTVplczdZVDY1bHM?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-12T16:35:00+00:00",
+    "published": "2026-11-12T17:45:33+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "The Big Short Investor Is Buying This Stock At a 50% Discount",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNWl90eGloWml4dEF2dlloaG5xcnVYRGRuem5SZkwyQmdwcVhfN011ZFhkTGhFSlUwdERMeDMtZXMwdU5hV1B0ZDNZT0pLb1hjOXcwQkozcmxFVXg0VHphTEJ0WnpqbHpsRmFjUXBNWnZ0VUJYcWRVYU95cmF0XzI5czBibTliTDNOREFoRGRKSnRjdlUxVU5ldHZTdG4?oc=5",
+    "title": "Transcontinental Realty: Q3 Earnings Snapshot",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUXJBaGFIOW5oamV1cDhvNG5kT002QlhXZmxPWnU0eUxmcEZjSmJlNWFNWXBVY20tcU1oQ011a3UxSC05b2NFc3dqdUlVeExYeUYxX3RLVmZDVmFaNDZwSmlvVmxXQksxM2xZZ1N3X0NsREhKaVl0VnBVTDlkNFU1QU5wWDhpczVwdXRGM2dCemxTdlVoOEJkQ3BSQjU2QWtiaDFNYXAwdDdPWVdLdHc?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-12T16:34:17+00:00",
+    "published": "2026-11-12T17:45:16+00:00",
     "lede": null,
     "lang": "en"
+   },
+   {
+    "title": "Nine Listings Transfer to the NYSE in 2026 Amounting to $500B in Market Cap",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPTEtUc3I5SWN6cllqVUFCMTI3bFpZQXltN2RzQWoxdTNWSEhuQTRhV1JzY2lOSkhNdTJTRUF3c2tWNFRpdG45SmJHQmJZdzQ5ZWN1cEJoNHVIYW01dTNqT0d1RzVvMWhUWEQxSUVCdkVLQTh3U2R6Slc5MDFrbHJTemt1c3lQbXNQVDZ4UE9rSFFmS1JHQl9rcF9Db3NTZw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-12T17:45:00+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "The scandal at Nvidia is exactly what’s wrong with the S&P 500",
+    "url": "https://www.marketwatch.com/story/the-scandal-at-nvidia-is-exactly-whats-wrong-with-the-s-p-500-7307457e?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-12T17:42:00+00:00",
+    "lede": "A big chunk of your retirement is likely invested in the computer-chip giant.",
+    "lang": "en"
+   },
+   {
+    "title": "וול סטריט עברה לעליות; אנבידיה יורדת ב-6%, המתחרות שלה מזנקות",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001563101#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-12T17:37:00+00:00",
+    "lede": "מייסד אנבידיה והמנכ\"ל ג'נסן הואנג התפטר מתפקידיו כנשיא, מנכ\"ל וחבר דירקטוריון, באופן מיידי",
+    "lang": "he"
    },
    {
     "title": "UK car industry to press EU for two-year delay to Brexit EV tariffs",
@@ -98,55 +130,23 @@
     "published": "2026-11-12T16:30:27+00:00",
     "lede": "‘Rules of origin’ on vehicle batteries due to come into force on 1 January if deal on new delay is not reached Business live – latest updates The UK car industry is preparing to push for a two-year delay to Brexit…",
     "lang": "en"
-   },
-   {
-    "title": "חצי מיליארד דולר נעלמו ונכסיו של המייסד הוקפאו",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001563183#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-12T16:30:00+00:00",
-    "lede": "פסק דין בלונדון קובע שחברות־בנות של ענקית קרנות הגידור מאן מעורבות בפרשת שוחד",
-    "lang": "he"
-   },
-   {
-    "title": "טראמפ ממליץ לאנבידיה: זה צריך להיות המנכ\"ל הבא",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001563309#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-12T16:25:00+00:00",
-    "lede": "נשיא ארה\"ב המליץ למנות את מנכ\"ל אפל לשעבר לתפקיד, זמן קצר לאחר התפטרותו של הואנג בעקבות חשיפת שתי מערכות יחסים שניהל מחוץ לנישואים",
-    "lang": "he"
-   },
-   {
-    "title": "Bain Capital’s head of real estate uses this strategy to counter the economy’s ‘cocktail of disruption'",
-    "url": "https://www.cnbc.com/2026/11/12/bain-capitals-head-of-real-estate-on-the-cocktail-of-disruption.html",
-    "source": "CNBC",
-    "published": "2026-11-12T16:17:44+00:00",
-    "lede": "Ryan Cotton, Bain Capital's head of real estate, sits for an interview with the Property Play video podcast.",
-    "lang": "en"
-   },
-   {
-    "title": "Nvidia is spending more than ever on Washington lobbying. It may not stop Congress from limiting China chip sales now.",
-    "url": "https://www.marketwatch.com/story/nvidia-is-spending-more-than-ever-on-washington-lobbying-it-still-may-not-be-able-to-stop-congress-from-limiting-its-china-chip-sales-now-d4c34c66?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-12T15:55:00+00:00",
-    "lede": "‘There’s no question that Congress is going to push for a complete ban on the sale of advanced semiconductors into China,’ says a former U.S. ambassador to Beijing",
-    "lang": "en"
    }
   ],
   "il": [
+   {
+    "title": "מכירת ארקיע: הרוכשים, האחים נקש והמדינה, יזרימו 45 מיליון דולר",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001563241#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-12T17:25:00+00:00",
+    "lede": "משפחת נקש מוכרת את השליטה בחברת התעופה ארקיע",
+    "lang": "he"
+   },
    {
     "title": "רק בנק אחד מתברג השבוע בדירוג הפרסומות, והוא גם כובש את פסגת הזכירות",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001563263#utm_source=RSS",
     "source": "גלובס",
     "published": "2026-11-12T17:00:00+00:00",
     "lede": "הפרסומת הזכורה ביותר שייכת לבנק מזרחי טפחות והאהובה ביותר שייכת לביטוח 9, כך עולה מדירוג הפרסומות הזכורות והאהובות של גלובס וגיאוקרטוגרפיה",
-    "lang": "he"
-   },
-   {
-    "title": "וול סטריט עברה לעליות; אנבידיה יורדת ב-6%, המתחרות שלה מזנקות",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001563101#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-12T16:59:00+00:00",
-    "lede": "מייסד אנבידיה והמנכ\"ל ג'נסן הואנג התפטר מתפקידיו כנשיא, מנכ\"ל וחבר דירקטוריון, באופן מיידי",
     "lang": "he"
    },
    {
@@ -166,11 +166,11 @@
     "lang": "he"
    },
    {
-    "title": "מכירת ארקיע: המחיר צפוי לעמוד על כ-50-40 מיליון דולר",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001563241#utm_source=RSS",
+    "title": "רשות המסים הציעה להחיל מס חדש בישראל. מהו?",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001562935#utm_source=RSS",
     "source": "גלובס",
-    "published": "2026-11-12T16:10:00+00:00",
-    "lede": "משפחת נקש מוכרת את השליטה בחברת התעופה ארקיע",
+    "published": "2026-11-12T16:00:00+00:00",
+    "lede": "לפי החשד, מה עשתה חברת Megaspeed של המאהבת של מנכ\"ל אינדביה?",
     "lang": "he"
    },
    {
@@ -184,18 +184,18 @@
   ],
   "geo": [
    {
-    "title": "Pentagon backs war memorial guard who reprimanded Hegseth's group",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4xS1l3eVdMTDdpeVFYejJObnEzZ1JHYjRVckdPbXdSRjJLdGV2SHlQZzRpcklOWlZSZS14dFlHRUp0aW91VDNsOU9iNWpKRGYxQkJ0a1lWam5SZ28?oc=5",
-    "source": "BBC",
-    "published": "2026-11-12T16:52:53+00:00",
+    "title": "Trump Says He’s Pulling Vance Off Iran Talks to Focus on Fraud Campaign",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9GVkpKYjhub0lKY3JLamNqdW91aWl4YnAwbVZZV3J5YWR6b1k4SnBXcWRkOWJSOUdFcXlLUHl5WlNuYU1tNlF2TFF4bkxudVVtYUVIWG0wb2RRR0J4YkQ2eWRpMUxOdzFldHRfT0hPMGpSVEhHcFRTT1QwSENIckk?oc=5",
+    "source": "The New York Times",
+    "published": "2026-11-12T17:36:10+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "The Gaza War Divided New York Nightlife. An Israeli Scene Grew in Its Wake",
-    "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPeWJRMWhlQmcyUUVjclRIZng2OGIteTZIOEw2dzZQNFU0RVROSmU4QV9hZ0xwdjVwNDBLeWxjUlUyeHhWb3dqWU1aeUo3UUZvMGxqa1BxdUxXY3daTGY3NVdmS1A0MVVMZzNKbmFxVWdfeWp3azBKTTh2Tm55V0FFbm9LWExJUG9zX3lTUFVFZzNBZlo2ZU9GVmd3MzljdUpOUmRWbE5PS0IzYnlZUUJyejIxNVFkWDJOc241MnhMV2NYYTFQNTdHY1FTVHI2dXpCRC1IUEZMS1kwRWtDdGcxU0lfYUNLQzAtSDJtUGxzYkstRVNpTnFDTDFKcC13R3QxRlNvZkJ4NWFnVUVZZDVJ?oc=5",
-    "source": "Haaretz",
-    "published": "2026-11-12T16:32:00+00:00",
+    "title": "Finland bars Russian athletes from entering country over Ukraine war",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOSEFpZk5sZzZ5dEJJNjdNN2hhWll3ODV6QXU1N0RsWnNveUQyVXZfRXJKc3dNTFp0TXZScUQ1X1FiT1VXaG9kZHg1aE10OWQ0Y1dFWHZDWi1PRk5ybFNyamYxajdwVFdHYl9zOXFRZnpLdGNhNnQ3RFdyTGF2MHBGZzZTdlFHSzZpTl9R?oc=5",
+    "source": "The Guardian",
+    "published": "2026-11-12T17:23:00+00:00",
     "lede": null,
     "lang": "en"
    }
