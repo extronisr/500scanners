@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-12T07:01:05.217015+02:00",
+ "generated_at": "2026-11-12T08:01:43.640662+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -8,72 +8,31 @@
   "analysts": 72
  },
  "sections": {
-  "analysts": [
-   {
-    "title": "Halozyme stock downgraded at Morgan Stanley (HALO:NASDAQ)",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWjI3MDFtTkpkbWZnR29KdEtVWUhUTlRjVTFaOWFRN1U0UjdtRldyTXAtVXBQZWN0b256cTktZ194MGNfdWs2bjBJYXBOVGFyRzlYUGNIa0drV2xIUGFoWlhRbllqVHp4TS1kVHVybDIzUmhKS0J3dFAySnFsMGpXSUk1UDg?oc=5",
-    "source": "Seeking Alpha",
-    "published": "2026-11-11T17:09:25+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Liquidia stock upgraded at Raymond James (LQDA:NASDAQ)",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOZE5UemJ1c0dZMUgxRGl1bUtFS1ZaeVZoWEFjYWFlODVqSFNxU3QtVGd6VGJpV1k1bFhTbW5OUW50WHYySUZ5SndwRGUtWjczaHFvQ25CRVhxZkoxWTRuTXdOR2JUSGl3RUpsYWlHT21yNnNuTFhXb0NmblhUTG84OA?oc=5",
-    "source": "Seeking Alpha",
-    "published": "2026-11-11T15:46:32+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "WMT Stock Gets A Price Target Boost From BofA Ahead Of Q3 Earnings – Analyst Sees More Market Share Gains",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNYjJzWlk4ei1EX2lSbGFFT05kV2FYTXJPLVNNNlFZS0lMUjlFZllYMWhXQmhPdjVDa2JaTFl0cjhyTVFUR0N0T2VqeUdIU1FPNVdjUnpyZDJJYkJsaFk0Wk5EUkVURnZoNmp4VkYxbjZndHpMNlFnSnhMOUJ1emFXUWZlN1h3TU1ZYTIzaWI3RkR5RUs0Nk1z?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-11T13:22:37+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Can The S&P 500 Keep Rising In 2027? UBS Bets On 8,900, But BofA Warns Of Crowded Trades",
-    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQLWtfZy15cy0tWm0yVU9mRVRzR0dadkViYXJUY3RNWmR4dkFWRWZ0QmtpZ29Edml5blp1bGRjNjhIX2FxUVhyUHRJbEZna1VGUHJGZFVWTGhGdkVJX0Z1LThzTl9xdUlBNVhVYVk3czdzWGxXd3pjaU01T0Yzb1RpLVI0SDRpeTBteFlLMElPaGc?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-11T02:51:00+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "The market’s correction is entering its final phase — but wait before buying the dip, says Morgan Stanley chief strategist",
-    "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPcnNXMDMwNzFabjg0UDdwNVFSdE10SW9nWThUaXJTbGFaTFFlRjBsamtUN19FTUhBa3ZHQ0Vtem11NkZpb1pyOWdMR21TaklYR2R2ZjdHZmpyVDV5NmpjRExRbEhURDNJSjc2YnNCdERiS0VqV2VRUG9uazBqd0lNV3NEdnZYckpxbE9qV0UxRmlMNm9xdnFoR1lEb1ZoMThYLVZ3cDM1UGpDeDRvT3BzRjdvX3lhdnlvSjlycVZ0TUdaelF2WHJlSVRiR0NqSWNKZ0R3UHF4U0FwaGVmd3JaV2o4ZXlZaUhUWVRkV3hhdnQyMW8?oc=5",
-    "source": "MarketWatch",
-    "published": "2026-11-09T10:26:00+00:00",
-    "lede": null,
-    "lang": "en"
-   }
-  ],
+  "analysts": [],
   "us": [
    {
-    "title": "דיווח דרמטי: דירקטוריון אנבידיה נערך להדיח את המנכ\"ל והמייסד ג'נסן הואנג",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001563130#utm_source=RSS",
+    "title": "מגיבוי להדחה דרמטית בתוך שלושה ימים: איך תתקבל ההחלטה הגורלית באנבידיה?",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001563139#utm_source=RSS",
     "source": "גלובס",
-    "published": "2026-11-12T04:52:00+00:00",
-    "lede": "דיווחים כי חברי דירקטוריון אנבידיה נערכים להדחתו של הואנג, לאחר הגילוי על שתי מערכות יחסים שניהל מחוץ לנישואין - האחת עם אליס הואנג, שהממשל האמריקאי מייחס לה מעמד של סוכנת מודיעין סינית; ומערכת יחסים נוספת שהתגלתה…",
+    "published": "2026-11-12T05:51:00+00:00",
+    "lede": "רק ביום ראשון הביע הדירקטוריון אמון בג’נסן הואנג, וכעת הוא דן בהדחתו",
     "lang": "he"
    },
    {
-    "title": "Asia stocks hold up as Nvidia leadership crisis clouds AI trade",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQeEhYMU5Wc0tPZGhyZXU3Wnk3NVJlbWNmOVNBX281ZG16d2ZES3B2VHhsZnBXMWFxUHBRZ1dXNWpQYUw5bFFEdFNJTUQ0MTM1NVQ0WjdzeUlNUnlUVEF4c2szZVRPOXVtWjM4TVFUNHlra2xwSi1NSld5S3Y1Ung5LTRuWWlBY2FmcE1FMmhJdE9FX3dBZ1ZzSzBwWVM1MVFN?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-12T04:50:02+00:00",
-    "lede": null,
+    "title": "אסון בניו יורק: בניין קרס בברוקלין, מאמצים רבים לחלץ לכודים מההריסות",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001563138#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-12T05:35:00+00:00",
+    "lede": "לפחות שני הרוגים ו-12 פצועים דווחו הלילה בקריסת בניין בן 3 קומות",
+    "lang": "he"
+   },
+   {
+    "title": "EU and UK set to delay 10% tariff on electric cars",
+    "url": "https://www.ft.com/content/b6c31ee9-0837-4fb0-83d9-a0e70100d0a3?syn-25a6b1a6=1",
+    "source": "Financial Times",
+    "published": "2026-11-12T05:00:21+00:00",
+    "lede": "European carmakers had warned the levy would make them more vulnerable to Chinese competition",
     "lang": "en"
-   },
-   {
-    "title": "בפולימרקט מתמחרים: מה הסיכויים להדחת מנכ\"ל אנבידיה?",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001563135#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-12T04:42:00+00:00",
-    "lede": "החוזים בשוק ההימורים משקפים סיכוי גבוה לכך שג'נסן הואנג יסיים בקרוב את תפקידו",
-    "lang": "he"
    },
    {
     "title": "Nasdaq futures fall as Nvidia sinks 8% after hours on report board may oust Huang",
@@ -81,22 +40,6 @@
     "source": "MarketWatch",
     "published": "2026-11-12T04:41:00+00:00",
     "lede": "Stock futures were sliding Wednesday evening as a selloff in shares of Nvidia after the closing bell weighed on the Nasdaq-100 and dragged down shares of other chip makers.",
-    "lang": "en"
-   },
-   {
-    "title": "Howmet Aerospace (HWM) Stock May Be Fully Priced As Buyback And Guidance Rise",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQc2c4U21QdlZwS09aSmVmMkp2RTAxcF82SHdDRHhKYkVKdTVHTk9Ya0dEX19XYlNqY1VjbFVGc1FiNGJjRlIweHV3S3BFQzJWQzRhMks1ODFxaHVHenp3cDVhNG5NenIzS3lhcmM0dEVyeGFPeDdmT181VEJEOGVPaHRnMG9qeGJrbHJTODJIWWltWWt0ZDhFUnFrSQ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-12T04:30:00+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Why CoreWeave Stock Skyrocketed Today",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNX0ZPZjl3MW5LQmhZZTJMRUtpX0NKTVY5OVJaNUpjcURaY01LdUVNRk1mclA2eWtLVWJRVTVhQ0lNWXUydDZaeHoxS015QVY0UmE3SjJsR3dzbDBMU1NPdGdHMXpTODZJSTRSMlQyaEZfX3JEdExLU1REWGs5clplckZkOTJDVlVsMlI2ZUJ4dzVCUGhUeVprX1FBbGs3R09qa1BfbA?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-12T04:25:00+00:00",
-    "lede": null,
     "lang": "en"
    },
    {
@@ -116,10 +59,10 @@
     "lang": "en"
    },
    {
-    "title": "Market Concentration At A 40-Year High: Why The Value Cycle May Still Be In Its Early Innings",
-    "url": "https://seekingalpha.com/article/4966786-market-concentration-at-a-40-year-high-why-the-value-cycle-may-still-be-in-its-early-innings?source=feed_all_articles",
+    "title": "Bread Financial: Newly Issued Series C Enhances Yields Across All Preferred Shares",
+    "url": "https://seekingalpha.com/article/4966787-bread-financial-newly-issued-series-c-enhances-yields-across-all-preferred-shares?source=feed_all_articles",
     "source": "Seeking Alpha",
-    "published": "2026-11-11T23:45:00-05:00",
+    "published": "2026-11-12T00:43:40-05:00",
     "lede": null,
     "lang": "en"
    },
@@ -130,47 +73,55 @@
     "published": "2026-11-11T22:30:57+00:00",
     "lede": "U.S.-Canada trade tensions persist as Trump's tariffs drive up costs, threaten investment and complicate negotiations between the two countries.",
     "lang": "en"
+   },
+   {
+    "title": "Social Security could pay full benefits until 2059 if taxable payroll kept pace with GDP: AARP report",
+    "url": "https://www.cnbc.com/2026/11/11/social-security-benefits-taxable-payroll-gdp.html",
+    "source": "CNBC",
+    "published": "2026-11-11T19:54:27+00:00",
+    "lede": "An aging work force is not the only reason Social Security's trust funds now have a looming shortfall, according to AARP Public Policy Institute research.",
+    "lang": "en"
+   },
+   {
+    "title": "Prediction markets tied to clinical trials and drug approvals draw lawmakers' ire",
+    "url": "https://www.cnbc.com/2026/11/11/kalsi-polymarket-prediction-market-senators-hhs-drug-approval.html",
+    "source": "CNBC",
+    "published": "2026-11-11T19:16:23+00:00",
+    "lede": "Sens. Angela Alsobrooks and Ron Wyden are asking what steps the Department of Health and Human Services has taken to mitigate risks from the markets.",
+    "lang": "en"
    }
   ],
   "il": [
+   {
+    "title": "רעידת האדמה באנבידיה מפילה את החוזים בוול סטריט, ואילו מניות מטפסות בעקבות הסערה?",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001563101#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-12T05:03:00+00:00",
+    "lede": "גלובס מגיש עדכון ראשון לגבי מצב השווקים מסביב לעולם",
+    "lang": "he"
+   },
+   {
+    "title": "דיווח דרמטי: דירקטוריון אנבידיה נערך להדיח את המנכ\"ל והמייסד ג'נסן הואנג",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001563130#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-12T04:52:00+00:00",
+    "lede": "דיווחים כי חברי דירקטוריון אנבידיה נערכים להדחתו של הואנג, לאחר הגילוי על שתי מערכות יחסים שניהל מחוץ לנישואין - האחת עם אליס הואנג, שהממשל האמריקאי מייחס לה מעמד של סוכנת מודיעין סינית; ומערכת יחסים נוספת שהתגלתה…",
+    "lang": "he"
+   },
+   {
+    "title": "בפולימרקט מתמחרים: מה הסיכויים להדחת מנכ\"ל אנבידיה?",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001563135#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-12T04:42:00+00:00",
+    "lede": "החוזים בשוק ההימורים משקפים סיכוי גבוה לכך שג'נסן הואנג יסיים בקרוב את תפקידו",
+    "lang": "he"
+   },
    {
     "title": "יותר מ־80 אלף שקל לחודש: כמה עולה השומר בלובי ועל מה משלמים?",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001561847#utm_source=RSS",
     "source": "גלובס",
     "published": "2026-11-12T04:13:00+00:00",
     "lede": "במגדלי מגורים רבים, מי שמכונה \"שומר\" הוא למעשה פקיד קבלה שמקבל משלוחים, מסייע לדיירים ונותן מענה ראשוני לתקלות",
-    "lang": "he"
-   },
-   {
-    "title": "כשהמניות יורדות והריבית נשחקת: איפה ניתן להרוויח יותר מאשר בקרנות כספיות?",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001563090#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-12T04:09:00+00:00",
-    "lede": "למרות ירידת הריבית, רווחי ההון המיוחלים באג\"ח לא הגיעו, וקרנות אג\"ח רבות הניבו בשנה החולפת פחות מהקרנות הכספיות",
-    "lang": "he"
-   },
-   {
-    "title": "לאחר הנפקת הענק: \"ברזאני בדרך לצבר עבודות של 3.5 מיליארד שקל\"",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001563080#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-12T04:04:00+00:00",
-    "lede": "השלמת הנפקת חברת התשתיות הפכה את האחים יוסי ברזאני ודיין בר לבעלי הון של מעל מיליארד שקל כ\"א",
-    "lang": "he"
-   },
-   {
-    "title": "הסטודנט לרפואה שפרש כדי ללמד תכנון פיננסי: \"הכסף נועד לשרת אותנו בעתיד\"",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001563088#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-12T03:58:00+00:00",
-    "lede": "תומר אליהו נחשף למשבר כלכלי בגיל 3, שחידד אצלו תובנה לגבי החשיבות של ידע פיננסי",
-    "lang": "he"
-   },
-   {
-    "title": "שי שניצר נבחר לנשיא הבורסה ליהלומים בצל ירידה של כ-22% ביצוא",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5ZdVBwRm51WVl3ZFVlZHhRaC03cHU1S2lJVU5saE10RmRwYzVoZldvc3J0TEhVUFl4LXVRTmdJWDQ3TXlZYW1aajlQYkQyZzh5RGYxVHVhYUNHZzYxT0c5ZUoyZENHdm1YNFVTSVFTSXc?oc=5",
-    "source": "ביזפורטל",
-    "published": "2026-11-11T20:56:00+00:00",
-    "lede": null,
     "lang": "he"
    },
    {
@@ -190,24 +141,7 @@
     "lang": "he"
    }
   ],
-  "geo": [
-   {
-    "title": "Iran warns of expanded retaliation as Israel reportedly readies to attack",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNaGV6WFJxeUNSa0ZVZFFWdC1mUGJUbEtIZldwSjJDWGQxUnFodTZ5akhnY010WTRLMXYtNjh5akpyczZkNjg1LXlUUnlQakJ5WmxORm9xQ0M4ck81WU9WWlhHU0x5WU1neXJrbTU0ZDRtd0JWa01TUTdRNjN1SDZfUkRObDg1dmJySkR3THpuaWh1TU94NVVMSHBJbEZ6VHNWUTlCNC1tTklKWFZlLXBvTHJWVkRtZ9IBuwFBVV95cUxPNmpBLWlIVTN1aUhtZ3R0amt5bWlCWGliV19MV2x5WExRRndaY2o0Nmc3cjVnZnFhX0Y3ZzVRMzBoQV9lZnctRWNiSlZ4LUtMV0JYVEVqaWpwSHo0STQ5Qzc0V0ZmMGlEZDBDNlduRVp2TUx1TjhURlRKYXdzS1N3Z1FKZ3ZJQjBTbGxyOW9tVHJaWXpDZkFqY0pEbVNEaDVkOUNmVmdoUFpQQTJTQnktZU94d3JMVm1iNFVR?oc=5",
-    "source": "Al Jazeera",
-    "published": "2026-11-12T04:05:13+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Trump’s fossil fuel drive comes as war prompts energy security worries",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRDVSQ1Q2WWY5Uk81UjV3ZHBVUXA3VXNnUzM1TUxrRmFlMUFWeVltODRsR0JSelRLQUhCSWFHcnVyVmNlNEZYbUxFSW5SclJIV2paQXhadjg0ZGczRTcxRnRCRXZzc1p1RGEyVXRLREpoWnltY0RCRmlRWVdEYlRYSWxuV3U?oc=5",
-    "source": "Financial Times",
-    "published": "2026-11-12T03:51:48+00:00",
-    "lede": null,
-    "lang": "en"
-   }
-  ]
+  "geo": []
  },
  "sources_ok": [
   "CNBC",
@@ -217,15 +151,16 @@
   "The Guardian",
   "Seeking Alpha",
   "גלובס",
-  "Google News",
   "גלובס",
   "גלובס",
-  "וואלה",
-  "Google News",
-  "Google News",
-  "Google News",
-  "Google News",
-  "Google News"
+  "וואלה"
  ],
- "sources_failed": []
+ "sources_failed": [
+  "https://news.google.com/rss/search?q=stock%20market%20when%3A1d&hl=en-US&gl=US&ceid=US:en: HTTP Error 503: Service Unavailable",
+  "https://news.google.com/rss/search?q=%D7%91%D7%95%D7%A8%D7%A1%D7%94%20when%3A2d&hl=he&gl=IL&ceid=IL:he: HTTP Error 503: Service Unavailable",
+  "https://news.google.com/rss/search?q=geopolitical%20OR%20war%20OR%20sanctions%20OR%20%22middle%20east%22%20when%3A2d&hl=en-US&gl=US&ceid=US:en: HTTP Error 503: Service Unavailable",
+  "https://news.google.com/rss/search?q=analyst%20%28%22price%20target%22%20OR%20upgraded%20OR%20downgraded%20OR%20%22initiated%20coverage%22%20OR%20rating%29%20when%3A3d&hl=en-US&gl=US&ceid=US:en: HTTP Error 503: Service Unavailable",
+  "https://news.google.com/rss/search?q=%28strategist%20OR%20analyst%20OR%20%22investment%20bank%22%29%20%28says%20OR%20warns%20OR%20predicts%20OR%20expects%20OR%20sees%20OR%20forecast%29%20%28stocks%20OR%20%22S%26P%20500%22%20OR%20market%20OR%20nasdaq%20OR%20%22wall%20street%22%29%20when%3A3d&hl=en-US&gl=US&ceid=US:en: HTTP Error 503: Service Unavailable",
+  "https://news.google.com/rss/search?q=%28%D7%90%D7%A0%D7%9C%D7%99%D7%A1%D7%98%20OR%20%D7%90%D7%A0%D7%9C%D7%99%D7%A1%D7%98%D7%99%D7%9D%29%20%28%22%D7%9E%D7%97%D7%99%D7%A8%20%D7%99%D7%A2%D7%93%22%20OR%20%D7%94%D7%9E%D7%9C%D7%A6%D7%94%20OR%20%D7%A9%D7%93%D7%A8%D7%92%20OR%20%D7%94%D7%95%D7%A8%D7%99%D7%93%20OR%20%D7%AA%D7%97%D7%96%D7%99%D7%AA%20OR%20%D7%91%D7%95%D7%A8%D7%A1%D7%94%29%20when%3A4d&hl=he&gl=IL&ceid=IL:he: HTTP Error 503: Service Unavailable"
+ ]
 }
