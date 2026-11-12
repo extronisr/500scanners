@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-12T14:01:04.749097+02:00",
+ "generated_at": "2026-11-12T15:01:08.609199+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -14,14 +14,6 @@
     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQa0ZBa3NwZjhNSWFGanh5SFViem5JOFVVLTd0V1RxaUpQNGRwZTJJOEgxOERXdjJCS3NSZDdpRE9sZUphVFYwNDFWblB3OWhhREM3c2ZxNzJISzhDM3p5ZGVCdTJTSlBxM3BhSEh2b2hNZjJ0bjREVXhtT0RlTmM2Y05vdVh0QkNGUW8wZnI3NkFiZDMyS25SMmhiY3VobFhrYXVuMVlmVEVSVGpUSjUxS2VXXzJiMk5Sb3FaZWR4QXJQMkloX3FHMFNMSm00NDNET0J2MnVYSFJ0UQ?oc=5",
     "source": "MarketWatch",
     "published": "2026-11-12T11:34:00+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Halozyme stock downgraded at Morgan Stanley (HALO:NASDAQ)",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWjI3MDFtTkpkbWZnR29KdEtVWUhUTlRjVTFaOWFRN1U0UjdtRldyTXAtVXBQZWN0b256cTktZ194MGNfdWs2bjBJYXBOVGFyRzlYUGNIa0drV2xIUGFoWlhRbllqVHp4TS1kVHVybDIzUmhKS0J3dFAySnFsMGpXSUk1UDg?oc=5",
-    "source": "Seeking Alpha",
-    "published": "2026-11-11T17:09:25+00:00",
     "lede": null,
     "lang": "en"
    },
@@ -42,6 +34,14 @@
     "lang": "en"
    },
    {
+    "title": "Raymond James upgrades Mid Penn Bancorp stock rating on growth outlook",
+    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOZUYxc0tQRV95c2VwYWNKcWpzODZnZldjaFpFdFlBZk50dE5PR2lYRDRTN1VBRmUtVUhpTzFKYkN6eEttS2ZPMjVvS2RBcS0tRno3T3N0T2Jkc2JHbGtLckJIaVlRa0Nfc24ydXN1YW9idmRqTXRfQ2xRZDYzWlBfNUJWMTNjVmVrQk5oQU1zQ0hfRVZFNWduYy04MGV5MUkwQ0EyVWxPTTFnSU4wZnVKY240T1F5bS05TFNuQVhqS2M2SDlWUFlUT3pR?oc=5",
+    "source": "Investing.com",
+    "published": "2026-11-12T11:10:28+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
     "title": "Forgent Power Solutions Gears Up For Q1 Print; Here Are The Recent Forecast Changes From Wall Street's Mo",
     "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxPd2M2QUI3ZVBjN25USEl1dVVLVFBHa0NjZ3FxRFdRaDJLUXd6cEpUeWJaUC1HNWxxNWZLYTV5ai1XQkZMSUw5MThSMEdLOG8zRU9tSmNfQkJ4S2ljREJKaWNyNDlCZWNBQmEwVk1yUWREbEg4VU93TXJlU2RvUE9pc1NZbW9YRmdNYjB1bWdTOXBSQTc5UFNzb3RJa282UjdJZ3ZKVU1EZkRBTlItTC1tU1dxMmZfRUVmYnR5eFdJTDRoY0JidUhoYlhqdWQxRENHa3YxRTBBMVVTM1U3dXFHRXpOVTZqSFplUWp0akYwTlo4UHpHWFNqUF84azd6YkVBTGxnN0lwNE5oaUVWMWRyX29lRS1TSDhSNUlqdHZQR183WjE5?oc=5",
     "source": "Benzinga",
@@ -52,34 +52,50 @@
   ],
   "us": [
    {
-    "title": "Cramer's stance on Nvidia's stock amid reports that CEO Jensen Huang may be ousted",
-    "url": "https://www.cnbc.com/investingclub/2026/11/11/jim-cramer-jensen-huang-nvidia-stock-advice.html",
-    "source": "CNBC",
-    "published": "2026-11-12T11:57:14+00:00",
-    "lede": "Jim Cramer said Wednesday night that he was saddened by a news report that indicated Nvidia's board of directors is preparing to fire Huang.",
-    "lang": "en"
-   },
-   {
-    "title": "Vista Gold Announces Third Quarter 2026 Financial Results and Corporate Update",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONVoxbnRnSU1XQVVlVUNVZ20zVVpuMlY0VlZmajBJTE5ndTlxVUZ6MTRaUkJfdkN6QmJvdTI1UmN0bERDMlBmcU9iV2h3YWNUTmI1U2FQMzBkLTVDMEkzTW5FWEl1WlAzYUtkVkZoQnlsbjJzdVpnazQ1MEh5SXp6QXV6dTctZXc3aDBDNXM3eFZLYzNFeVNzUEo0c09LYXpZ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-12T11:45:00+00:00",
+    "title": "3 Big Questions for the Stock Market If Huang Exits Nvidia",
+    "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNajhpekVycGM0NWotRkQ2QWZ5TDI4ZkhyQjZXblNkY0pMNDBxYXh6U04wOERPSHNSclhiMFdCQ2NtUWFfSnNZTkx5LVFfOGNtMjFxOUpzanFxT3hfRW9MNWNDWU1BN2JqcV9BaGhnQlZiOGc3TUFfM0cxS0pZYWEwVE9NbTZ5ZXRtRDg0aktKWGR5aDI2UjJWQjBmSWNiNWJ6bF96Y2hEZWNFWGxmcmkyTjdqdkRrVTdzSkRhOXNLanF2RGFMU1B3MWtEeUt3cFQyZDlTaXk5dWJMVDVrZUI5emVmSEM5Qk84emYwS0VPVlRqSFZsRVctSndmOE5kbjQxajR3VTF3?oc=5",
+    "source": "Barron's",
+    "published": "2026-11-12T12:45:00+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Forgent Power: Fiscal Q1 Earnings Snapshot",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQeDlFeHd2bi1qYTZIY3NfYnZreGpnaWgxZ3YzZzNVLXJJR2I0cHdLLU5fVVJTY2hzdmNYdk5yZXhlZzFyUkVWREl3YzJnYVZmRXU0LWlXVzAzUUVoSXotc0xZRUhBZHpRaG90YkZQemVXVVVFNzdHN0Z2WDQ2WXF5QWZEWWprWjgtZ3VnUlJsUHVURkRueS10emdRR3FxUQ?oc=5",
+    "title": "Metro Bank up for sale, with billionaire investor in line for £420m windfall",
+    "url": "https://www.theguardian.com/business/2026/nov/12/metro-bank-up-for-sale-billionaire-investor-in-line-420m-windfall",
+    "source": "The Guardian",
+    "published": "2026-11-12T12:43:49+00:00",
+    "lede": "Shares up 7% after announcement as Jaime Gilinski Bacal seeks exit three years after helping to rescue bank Metro Bank is putting itself up for sale three years after its near-collapse, in a move that could hand a £420m…",
+    "lang": "en"
+   },
+   {
+    "title": "Nvidia board reportedly meets to decide CEO Jensen Huang’s future as chip giant’s share price plunges – follow live",
+    "url": "https://www.theguardian.com/technology/live/2026/nov/12/nvidia-ceo-jensen-huang-affairs-share-price-plunges-live-latest",
+    "source": "The Guardian",
+    "published": "2026-11-12T12:39:29+00:00",
+    "lede": "Nvidia shares fall in pre-market trading after report of Huang’s second affair Nvidia board reportedly deciding whether to oust CEO Jensen Huang Too big – and too well-connected – to sack? Huang does not enjoy the…",
+    "lang": "en"
+   },
+   {
+    "title": "Spectrum Brands beats Q4 earnings but revenue falls short",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNOV9DR1pfSVpWem5LM1NibUZhZlI3UXd1c2QwNzl2N2h4ZnJNcl9TdW8wQkd3QVJVc1B0WG5LcDd3Z3Npdk5vcl8tVGxBSnpjTTFUYmpOSG04V3VEWlU5UTNKaF9xa0o2U0plOWt2V1ZMeUs5QjA1MjFfVGtjdzFVVU1OXzVzTThPa2xkTnhkMDJsbkJFX002a0VBcXZyMXM?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-12T11:42:20+00:00",
+    "published": "2026-11-12T12:38:31+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "מניית אנבידיה מתרסקת ב-5% במסחר המוקדם; המתחרות עולות",
+    "title": "Wall Street backs away from Nvidia as Jensen Huang uncertainty unfolds: What analysts are saying",
+    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQUC1IaEJjQTJ5ZS1BVElXQWFobUFQSjE4SEg3U3lrQUZHdkRtYzd6Y3lNOVc1SUVxSVZVcmM0M3JGejE4c2UtcmJWNEpDc3NCbjQxaTJaamF2dEt3SFF0R1U0RDBsclFZMHdRZzB0U3NjbDN2LWQtSk0zd2JoY1dnZDJxaFRhSzgxT1ZQc3dnYmdFazlidmVzb3JyRzVKUGdjRzAxNHVfS1p1N2J5QzVJQThheVdWVTV2bTV5azFVaUFHZFNiZ2NKbWtNNFpjT1R0U3EzMGp4UnZWWUpSRnNPNEI0Qm8tYVU?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-12T12:36:26+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "מניית אנבידיה מתרסקת בכ-8% במסחר המוקדם; המתחרות עולות",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001563101#utm_source=RSS",
     "source": "גלובס",
-    "published": "2026-11-12T11:39:00+00:00",
+    "published": "2026-11-12T12:27:00+00:00",
     "lede": "מניית אנבידיה צוללת במסחר המוקדם המשקיעים נוהרים למתחרות שמתחזקות",
     "lang": "he"
    },
@@ -92,27 +108,11 @@
     "lang": "he"
    },
    {
-    "title": "Where Will IonQ Stock Be in 5 Years?",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPaktjSUJlZ3E1di1DZ1JpZ3o2Zkc2QTJjc09Kc2lubk9GMTdpM18zMWk3LWctdjNHZEd2Q1QwVFVUUXZZdHcxT1RDMkw4eWc4MGx5b2UtYU84V05OaEFGcHBiVTVMaFZzYS1rY29oYUhvMjFDZGcteWFaMVJfSWU3MV9ZMUxaVVFENHdiUjNleXlhWVU?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-12T11:35:00+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
     "title": "UK economy grows at fastest rate for more than two years",
     "url": "https://www.bbc.co.uk/news/articles/ck3rgd429zd5o?at_medium=RSS&at_campaign=rss",
     "source": "BBC",
     "published": "2026-11-12T11:20:25+00:00",
     "lede": "﻿The UK economy grew by 0.7% in the three months to September, according to official figures.",
-    "lang": "en"
-   },
-   {
-    "title": "Billions lost and markets roiled by one man’s indiscretion. Isn’t it now clear that these tech bros are too powerful? | Aditya Chakrabortty",
-    "url": "https://www.theguardian.com/commentisfree/2026/nov/12/billions-lost-markets-roiled-one-man-indiscretion-tech-bro-jensen-huang-affair-nvidia",
-    "source": "The Guardian",
-    "published": "2026-11-12T11:17:51+00:00",
-    "lede": "Nvidia CEO Jensen Huang’s affair must be the costliest fling in human history – and a preview of what awaits when the tech bubble bursts One thing we all know about the tech billionaires is they are super-smart. We know…",
     "lang": "en"
    },
    {
@@ -124,11 +124,11 @@
     "lang": "en"
    },
    {
-    "title": "Argentina threatens UK oil firm CEO with jail over Falklands drilling",
-    "url": "https://www.theguardian.com/uk-news/2026/nov/12/argentina-threatens-uk-oil-firm-ceo-with-jail-over-falklands-drilling",
-    "source": "The Guardian",
-    "published": "2026-11-12T09:11:09+00:00",
-    "lede": "Exclusive: Legal notice comes as Buenos Aires ramps up rhetoric over UK territory and seeks to halt Sea Lion project The Argentinian government threatened a British businessman involved in an offshore Falkland Islands…",
+    "title": "Ukrainian defense tech startup hits $6 billion valuation as investors bet on battle-tested drones",
+    "url": "https://www.cnbc.com/2026/11/12/uforce-defense-tech-drones-warfare-ukraine.html",
+    "source": "CNBC",
+    "published": "2026-11-12T09:05:22+00:00",
+    "lede": "UFORCE's NEMESIS drones have completed 300,000 combat flights, and its MAGURA naval vessels have contributed to the destruction of Russian warships.",
     "lang": "en"
    }
   ],
@@ -137,8 +137,8 @@
     "title": "עליות בתל אביב בהובלת מניות הבנקים; נקסט ויז'ן קופצת",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001563097#utm_source=RSS",
     "source": "גלובס",
-    "published": "2026-11-12T11:55:00+00:00",
-    "lede": "מדד ת\"א עולה בכ-0.8% • נקסט ויז'ן קופצת לאחר שדיווחה על הזמנה חדשה ומשלימה זינוק של מעל 20% מתחילת השבוע • דוחות חזקים מקפיצים את דלתא גליל • קבלת פנים חמה למניית ברזאני: קופצת בכ-9% ביום הבכורה שלה • אנבידיה צוללת ברקע…",
+    "published": "2026-11-12T12:35:00+00:00",
+    "lede": "מדד ת\"א עולה בכ-1.1% • נקסט ויז'ן קופצת לאחר שדיווחה על הזמנה חדשה ומשלימה זינוק של מעל 20% מתחילת השבוע • דוחות חזקים מקפיצים את דלתא גליל • קבלת פנים חמה למניית ברזאני: קופצת בכ-9% ביום הבכורה שלה • אנבידיה צוללת ברקע…",
     "lang": "he"
    },
    {
@@ -200,18 +200,18 @@
   ],
   "geo": [
    {
-    "title": "Can a new US Congress mean an end to the Iran war?",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNdmRaejBnMHp1QkhibDEzU1hQLVhZZWlaeXV2d1dGcHF5OU1CbGUzTWtVYXpLT1hFcUh5SzVJbWg2eHZpRy1oU1IxZzByY2hhQmpyTDNHTUh4U1NVVE1DWktWMlU1ZUMtNy1xZk1TN3dXVzBXY1dXVDV2aFhuNURkTWpteWpUblljY3p0QjN3?oc=5",
-    "source": "Reuters",
-    "published": "2026-11-12T11:42:53+00:00",
+    "title": "War Requiem review – in the cathedral where it premiered, Britten’s masterpiece has lost none of its power",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZ0dMVFdBZFdzdGxNc29qdjhSNjdVOTVVN0JUZTV0YmtmRUNIa0paVDZ4NWlselVPM3FvSkNUNzVqdXJiY1FadEo3XzhxeUJRVXlpcEpiYVdoUGFUX0JwTlBPLTBYSVZzY0FZellPYlBWbXBvSEZsOFVNcUNMM2NncTVKNmVBRE9jZkNZS2NhME5YWVN3UDN1YkxOXzMxOWNVLTVlSVlR?oc=5",
+    "source": "The Guardian",
+    "published": "2026-11-12T12:42:00+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Trump ran on a platform of peace. His war may have cost Republicans the midterms | Mohamad Bazzi",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPMkp3M2Vsc1lacjEzbVJOOVhnRXIybVgxZktUOUNZQU5LQkJ2elYzZWlmRXdIN2pmVlBPekZPZ1M1ZFNrY1BSYi1mQ3JTam9aSVZibG5Ienh5RHNydmQyXzJSRXRxZUhDVS1NUjZfdjFJY2ZJejRKY094eU4tb2wza2dBMzR2QjlVOEZMSw?oc=5",
-    "source": "The Guardian",
-    "published": "2026-11-12T11:08:00+00:00",
+    "title": "COMMENTARY: Just like the US, Iran has squandered its good options to end the war",
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNbjNkU1dtRi1ZR0lyQmplWGZON1QwakF5Wk82UzhRSzR6ZlJfVFlpTkJLWEVBdGFsc21GbEVNMURkRDhaWm9tRHhwZGhUclFxXzdzUlZUU0VUYi10U1MtVzF5djhHNFVCSEhUa1dMN0pvWjktV2JQVGJTa01lSl9lM1RkY1RGdmJmOWVGUkd6MUw2WjBDZ0NPQ3pfYzh2ZXkwNDF3YXppNlBIcEhIUWlQcVhoZXpEOUZpNXYzZHVrdlVybVYz?oc=5",
+    "source": "Reuters",
+    "published": "2026-11-12T12:25:09+00:00",
     "lede": null,
     "lang": "en"
    }
