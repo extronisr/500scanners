@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-12T06:01:02.640871+02:00",
+ "generated_at": "2026-11-12T07:01:05.217015+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -52,26 +52,50 @@
   ],
   "us": [
    {
-    "title": "Erasca Stock In Focus As Combination Trial Begins",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNQ09iTDIyc3dOeU5OMXJraHpDckJyZUNXcDg3YnlZUTVib0taNFB1MHMycl8yMkZ6cl83RjdEdl9zV1EteDY5WW51OUREYTItbWVmRGJQQjFyR1lDS0Z4RWJadGJoVTc3QVE1X2NqY3oySXpSUG1yQjhMZ1gxN21pZms1V3BndXhBYVo3LXhybGNUcVJBazkxUG5Wa2s3dzVLdVNV?oc=5",
+    "title": "דיווח דרמטי: דירקטוריון אנבידיה נערך להדיח את המנכ\"ל והמייסד ג'נסן הואנג",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001563130#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-12T04:52:00+00:00",
+    "lede": "דיווחים כי חברי דירקטוריון אנבידיה נערכים להדחתו של הואנג, לאחר הגילוי על שתי מערכות יחסים שניהל מחוץ לנישואין - האחת עם אליס הואנג, שהממשל האמריקאי מייחס לה מעמד של סוכנת מודיעין סינית; ומערכת יחסים נוספת שהתגלתה…",
+    "lang": "he"
+   },
+   {
+    "title": "Asia stocks hold up as Nvidia leadership crisis clouds AI trade",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQeEhYMU5Wc0tPZGhyZXU3Wnk3NVJlbWNmOVNBX281ZG16d2ZES3B2VHhsZnBXMWFxUHBRZ1dXNWpQYUw5bFFEdFNJTUQ0MTM1NVQ0WjdzeUlNUnlUVEF4c2szZVRPOXVtWjM4TVFUNHlra2xwSi1NSld5S3Y1Ung5LTRuWWlBY2FmcE1FMmhJdE9FX3dBZ1ZzSzBwWVM1MVFN?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-12T03:47:25+00:00",
+    "published": "2026-11-12T04:50:02+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "How Investors May Respond To TE Connectivity (TEL) Strong Quarterly Growth",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOV0VSZUhxVEJwYVZGTVJxMmxkMUNHVUsyc2cwakFkOURzRGV4bkV1cWR5RldUcVZuZHJCcXZhMjJrNUZjQi1kN05sVV9ybVB1ODNOZURfckRSZ3FzWE5PQkJESmNaQmV5aFJCUFE5YWFPZkp6T3g5Y0JFdl9SSXdSbFpEdG8zWVVUZFdhWi16d2lacThqSEIzWk02dzFDZEluQUJsMw?oc=5",
+    "title": "בפולימרקט מתמחרים: מה הסיכויים להדחת מנכ\"ל אנבידיה?",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001563135#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-12T04:42:00+00:00",
+    "lede": "החוזים בשוק ההימורים משקפים סיכוי גבוה לכך שג'נסן הואנג יסיים בקרוב את תפקידו",
+    "lang": "he"
+   },
+   {
+    "title": "Nasdaq futures fall as Nvidia sinks 8% after hours on report board may oust Huang",
+    "url": "https://www.marketwatch.com/story/nasdaq-futures-fall-as-nvidia-sinks-8-after-hours-on-report-board-may-oust-huang-e99b898d?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-12T04:41:00+00:00",
+    "lede": "Stock futures were sliding Wednesday evening as a selloff in shares of Nvidia after the closing bell weighed on the Nasdaq-100 and dragged down shares of other chip makers.",
+    "lang": "en"
+   },
+   {
+    "title": "Howmet Aerospace (HWM) Stock May Be Fully Priced As Buyback And Guidance Rise",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQc2c4U21QdlZwS09aSmVmMkp2RTAxcF82SHdDRHhKYkVKdTVHTk9Ya0dEX19XYlNqY1VjbFVGc1FiNGJjRlIweHV3S3BFQzJWQzRhMks1ODFxaHVHenp3cDVhNG5NenIzS3lhcmM0dEVyeGFPeDdmT181VEJEOGVPaHRnMG9qeGJrbHJTODJIWWltWWt0ZDhFUnFrSQ?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-12T03:45:45+00:00",
+    "published": "2026-11-12T04:30:00+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Cboe Global Markets (CBOE) Earnings Strength Keeps Valuation Debate In Focus",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQY2VjUGx6OTBoUWluMlhyNWVJLWJ5Rl9DU1ItN1c1cXYxTW44Ri1KeE1Va3hSU0lnaEppa2ZoRmRMX0pCalE0T3F0R0plRXp2YjVBczAzUTBzd2lfQmtIUzRoSnU5Q3RMTUdMXzhKTlFNUzlON1g1aXpxWVRlZkptdkF6NjNmZmZ2SW9Ma0JVajgzT1dyMVhwNGl4ck5ubzQ?oc=5",
+    "title": "Why CoreWeave Stock Skyrocketed Today",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNX0ZPZjl3MW5LQmhZZTJMRUtpX0NKTVY5OVJaNUpjcURaY01LdUVNRk1mclA2eWtLVWJRVTVhQ0lNWXUydDZaeHoxS015QVY0UmE3SjJsR3dzbDBMU1NPdGdHMXpTODZJSTRSMlQyaEZfX3JEdExLU1REWGs5clplckZkOTJDVlVsMlI2ZUJ4dzVCUGhUeVprX1FBbGs3R09qa1BfbA?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-12T03:41:32+00:00",
+    "published": "2026-11-12T04:25:00+00:00",
     "lede": null,
     "lang": "en"
    },
@@ -84,42 +108,18 @@
     "lang": "en"
    },
    {
-    "title": "הדחת מנכ\"ל אנבידיה עשויה להוביל לתרחיש אימה בשווקים",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001563132#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-12T03:08:00+00:00",
-    "lede": "האנליסט דן אייבס מעריך כי הדחת ג'נסן הואנג עלולה להפיל את מניית אנבידיה ב־25%–30%, ולמחוק יותר מטריליון דולר משוויה",
-    "lang": "he"
-   },
-   {
-    "title": "דילמת הירושה באנבידיה: מי יוכל להחליף את המנכ\"ל הוותיק?",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001563131#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-12T02:57:00+00:00",
-    "lede": "מנכ\"לית המתחרה AMD, מנכ\"ל גוגל לשעבר, סמנכ\"לית הכספים ואפילו ילדיו של המייסד: על רקע הדיווחים על הדחה אפשרית, בעולם תוהים מי יכול להחליף את האיש שמנהל את ענקית השבבים כבר 33 שנה",
-    "lang": "he"
-   },
-   {
     "title": "Nvidia’s stock drops as the board reportedly prepares to remove CEO Jensen Huang",
     "url": "https://www.marketwatch.com/story/nvidias-stock-drops-as-the-board-reportedly-prepares-to-remove-ceo-jensen-huang-9edee58d?mod=mw_rss_topstories",
     "source": "MarketWatch",
     "published": "2026-11-12T02:52:00+00:00",
-    "lede": "Nvidia’s board of directors reportedly could meet as soon as today to determine the CEO’s fate.",
+    "lede": "Nvidia’s board of directors reportedly met late Wednesday to determine the CEO’s fate.",
     "lang": "en"
    },
    {
-    "title": "Nasdaq futures fall as Nvidia sinks 8% after hours on report board may oust Huang",
-    "url": "https://www.marketwatch.com/story/nasdaq-futures-fall-as-nvidia-sinks-8-after-hours-on-report-board-may-oust-huang-e99b898d?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-12T01:12:00+00:00",
-    "lede": "Stock futures were sliding Wednesday evening as a selloff in shares of Nvidia after the closing bell weighed on the Nasdaq-100 and dragged down shares of other chip makers.",
-    "lang": "en"
-   },
-   {
-    "title": "Corporación Inmobiliaria Vesta, S.A.B. de C.V. (VTMX) Analyst/Investor Day Transcript",
-    "url": "https://seekingalpha.com/article/4966702-corporacion-inmobiliaria-vesta-s-a-b-de-c-v-vtmx-analyst-investor-day-transcript?source=feed_all_articles",
+    "title": "Market Concentration At A 40-Year High: Why The Value Cycle May Still Be In Its Early Innings",
+    "url": "https://seekingalpha.com/article/4966786-market-concentration-at-a-40-year-high-why-the-value-cycle-may-still-be-in-its-early-innings?source=feed_all_articles",
     "source": "Seeking Alpha",
-    "published": "2026-11-11T22:58:52-05:00",
+    "published": "2026-11-11T23:45:00-05:00",
     "lede": null,
     "lang": "en"
    },
@@ -134,35 +134,35 @@
   ],
   "il": [
    {
-    "title": "רבולוט יוצאת בבליץ גיוסים לקראת הקמת הבנק החדש. מה היא מחפשת?",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001563048#utm_source=RSS",
+    "title": "יותר מ־80 אלף שקל לחודש: כמה עולה השומר בלובי ועל מה משלמים?",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001561847#utm_source=RSS",
     "source": "גלובס",
-    "published": "2026-11-12T03:54:00+00:00",
-    "lede": "רבולוט הבריטית, שקיבלה רישיון בנקאי מותנה מבנק ישראל, מעוניינת לאשר שורה של משרות לקראת הקמתו",
+    "published": "2026-11-12T04:13:00+00:00",
+    "lede": "במגדלי מגורים רבים, מי שמכונה \"שומר\" הוא למעשה פקיד קבלה שמקבל משלוחים, מסייע לדיירים ונותן מענה ראשוני לתקלות",
     "lang": "he"
    },
    {
-    "title": "\"לחברה בגודלנו לא כדאי להיות ציבורית\": היזמת שמוכרת עסק שהקימה לפני 30 שנה",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001563076#utm_source=RSS",
+    "title": "כשהמניות יורדות והריבית נשחקת: איפה ניתן להרוויח יותר מאשר בקרנות כספיות?",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001563090#utm_source=RSS",
     "source": "גלובס",
-    "published": "2026-11-12T03:51:00+00:00",
-    "lede": "מוניקה ינקו ייסדה את ספקית פתרונות הבילינג מאינד CTI ביקנעם, הנפיקה בנאסד\"ק בשנת 2000, ומוכרת אותה כעת תמורת 25 מיליון דולר: \"המשבר הנוכחי בשוק התקשורת לא חד־פעמי, אלא משקף דעיכה מתמשכת של השקעות בתחום. סייבר יותר…",
+    "published": "2026-11-12T04:09:00+00:00",
+    "lede": "למרות ירידת הריבית, רווחי ההון המיוחלים באג\"ח לא הגיעו, וקרנות אג\"ח רבות הניבו בשנה החולפת פחות מהקרנות הכספיות",
     "lang": "he"
    },
    {
-    "title": "דיווח דרמטי: דירקטוריון אנבידיה נערך להדיח את המנכ״ל; רומן חדש נחשף",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001563130#utm_source=RSS",
+    "title": "לאחר הנפקת הענק: \"ברזאני בדרך לצבר עבודות של 3.5 מיליארד שקל\"",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001563080#utm_source=RSS",
     "source": "גלובס",
-    "published": "2026-11-12T02:26:00+00:00",
-    "lede": "דיווחים כי חברי דירקטוריון אנבידיה נערכים להדחתו של הואנג, לאחר הגילוי על שתי מערכות יחסים שניהל מחוץ לנישואין - האחת עם אליס הואנג, שהממשל האמריקאי מייחס לה מעמד של סוכנת מודיעין סינית; ומערכת יחסים נוספת שהתגלתה…",
+    "published": "2026-11-12T04:04:00+00:00",
+    "lede": "השלמת הנפקת חברת התשתיות הפכה את האחים יוסי ברזאני ודיין בר לבעלי הון של מעל מיליארד שקל כ\"א",
     "lang": "he"
    },
    {
-    "title": "מניית ה-AI שהמריאה אחרי הדוחות והקפיצה את נאסד\"ק",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562923#utm_source=RSS",
+    "title": "הסטודנט לרפואה שפרש כדי ללמד תכנון פיננסי: \"הכסף נועד לשרת אותנו בעתיד\"",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001563088#utm_source=RSS",
     "source": "גלובס",
-    "published": "2026-11-11T21:04:00+00:00",
-    "lede": "קורוויב, אחת השחקניות המרכזיות בתחום הניאו-קלאוד, שספג לחצים משמעותיים לאחרונה בוול סטריט, פרסמה דוחות חיוביים וזינקה בחדות",
+    "published": "2026-11-12T03:58:00+00:00",
+    "lede": "תומר אליהו נחשף למשבר כלכלי בגיל 3, שחידד אצלו תובנה לגבי החשיבות של ידע פיננסי",
     "lang": "he"
    },
    {
@@ -192,18 +192,18 @@
   ],
   "geo": [
    {
-    "title": "Kazakhstan's Air Astana plans further China expansion after Middle East crisis-driven shift",
-    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQSlZjNWY2dkd4bm1KencxSFlpZFVSQUdLak1feHByckhTbERwYUs1SUVfOGJVeUw1UmZ2dEUxR20tODBZN3lFMVdsZlFjT3pLeHRPaWRkQUZFRVVTSXlBckRUanRRMzNoaERhcHRWUzZFSjhyOHU0enAzQzZGR3cxbEVJNWNjX3dUdFVEY01WaTdKeFNGNUVGY3Nsd3NQbTNpM21DSW4wRXhIZG5kUy1jeEk4czFSZ3UtcHZpcmdBZFZieXphempPb1p5TjM?oc=5",
-    "source": "Reuters",
-    "published": "2026-11-12T02:29:00+00:00",
+    "title": "Iran warns of expanded retaliation as Israel reportedly readies to attack",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNaGV6WFJxeUNSa0ZVZFFWdC1mUGJUbEtIZldwSjJDWGQxUnFodTZ5akhnY010WTRLMXYtNjh5akpyczZkNjg1LXlUUnlQakJ5WmxORm9xQ0M4ck81WU9WWlhHU0x5WU1neXJrbTU0ZDRtd0JWa01TUTdRNjN1SDZfUkRObDg1dmJySkR3THpuaWh1TU94NVVMSHBJbEZ6VHNWUTlCNC1tTklKWFZlLXBvTHJWVkRtZ9IBuwFBVV95cUxPNmpBLWlIVTN1aUhtZ3R0amt5bWlCWGliV19MV2x5WExRRndaY2o0Nmc3cjVnZnFhX0Y3ZzVRMzBoQV9lZnctRWNiSlZ4LUtMV0JYVEVqaWpwSHo0STQ5Qzc0V0ZmMGlEZDBDNlduRVp2TUx1TjhURlRKYXdzS1N3Z1FKZ3ZJQjBTbGxyOW9tVHJaWXpDZkFqY0pEbVNEaDVkOUNmVmdoUFpQQTJTQnktZU94d3JMVm1iNFVR?oc=5",
+    "source": "Al Jazeera",
+    "published": "2026-11-12T04:05:13+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Ukraine war briefing: Zelenskyy sees ‘window of opportunity’ for peace as US envoys to meet Putin",
-    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPaUloTmRZUVdRTnN4czkwSHA4cDF5aFdfcVgxNlg2N3djQjRNMEN1VDA2ejJXZDlFdUZremp3ZG5WS3FWWmN6QURJSVItdzUtYzFySFdPcEZVVWNvX3Fva3JLYzdpWUFWd0V4UF9sVG5YdjRmYW9mUW53MUxBc2E5eklpeTBKX05ZdXcyM1ZPRENCeGgxUTZ2bTBkWGh1VU12VDVFSlR5cUtYSTFYd2FOZGtSenpaV2JNa3IzN3NFbUhrSFVZaEpxdzdYcnFpNVdDRzFNTjJEbw?oc=5",
-    "source": "The Guardian",
-    "published": "2026-11-12T02:00:00+00:00",
+    "title": "Trump’s fossil fuel drive comes as war prompts energy security worries",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRDVSQ1Q2WWY5Uk81UjV3ZHBVUXA3VXNnUzM1TUxrRmFlMUFWeVltODRsR0JSelRLQUhCSWFHcnVyVmNlNEZYbUxFSW5SclJIV2paQXhadjg0ZGczRTcxRnRCRXZzc1p1RGEyVXRLREpoWnltY0RCRmlRWVdEYlRYSWxuV3U?oc=5",
+    "source": "Financial Times",
+    "published": "2026-11-12T03:51:48+00:00",
     "lede": null,
     "lang": "en"
    }
