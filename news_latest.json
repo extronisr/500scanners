@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-12T22:01:05.987321+02:00",
+ "generated_at": "2026-11-12T23:01:05.181542+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -52,6 +52,54 @@
   ],
   "us": [
    {
+    "title": "Stock market has a 'worrisome' focus on Anthropic IPO, Ariel Investments' Mellody Hobson says",
+    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPWUV4bFVxeVp5WDlQVVM4dTZqNVVDbDhSUTQ2YS1LMzBZQkhTemxaRndvSngxU3FueXg0TTNBOFRTU3hoNUdnakdhanMxUnpsODl3MnFwZkY4VzVNLXhEclNzX25OZS1STm1MZDVJMXdNcm02SkNWeXJkaE1NZnFmQUNVa3ZvTEF3dTlRbGRyU3ZaeFVrSFNEUnhfS0t3WnhJWWljSk1wT2d3YzZpRzh0M2ZYR3k4ODc2YVZseEFOQmRhNW5aN1FPd0xxWlMzeEtVZ0dXNlNFOFdxeGR3dU1r?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-12T20:47:15+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Team: 3 Key Takeaways for Long-Term Investors",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQcld0SUJZYmI0ck9xVkh4SWs1bkRVWi1WaDNINks1YTV1SFo5YWFJYVNDMHloYmg5R0hNY0FHR0t3c3NDTHl5dXhvd0Vyby11VzM3RXl4ODN6THFfT0o4dlNxTUVTaDQzSXlCMXRVdlV4V1VqdEZNa0ZXTVNDWHBjUzQ1eXBvZ19ZaF9mdkVKZDlnSnZO?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-12T20:46:33+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "The bond market now has an even bigger fear than AI fallout",
+    "url": "https://www.marketwatch.com/story/the-bond-market-now-has-an-even-bigger-fear-than-the-ai-fallout-b6401b54?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-12T20:44:00+00:00",
+    "lede": "Carnage in tech stocks made Treasurys look more attractive in recent weeks, but fears of more Fed rate hikes are now driving yields higher",
+    "lang": "en"
+   },
+   {
+    "title": "Can USA Rare Earth Stock Jump 10X?",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPcGQ2NEdQQmJYUG5pYUpPandEeUVVWEdWYktVbHNRTEtWeHVhbkNxOXpGc09taXplUmQtRTUzMS1YNTVXd1Y5ZWpybXNMRGJnNVZQQy13bHJUMlJlSVRSekhrb2xyM2U2SWhtdFBjZ0VSaFd0RWdib0VpSFhBdmlCQUt0RTlGaVppV1MxVGpTT25MY3p1?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-12T20:41:02+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Donald Trump Jr. exits advisory role at Kalshi prediction market",
+    "url": "https://www.cnbc.com/2026/11/12/donald-trump-jr-exits-kalshi-advisory-role.html",
+    "source": "CNBC",
+    "published": "2026-11-12T20:03:57+00:00",
+    "lede": "The president's son will no longer serve as an advisor at Kalshi.",
+    "lang": "en"
+   },
+   {
+    "title": "Jensen Huang is out and Nvidia stock is down—what market pros say about buying dips",
+    "url": "https://www.cnbc.com/make-it/2026/11/12/nvidia-what-market-pros-say-about-buying-dips.html",
+    "source": "CNBC",
+    "published": "2026-11-12T20:01:29+00:00",
+    "lede": "Nvidia stock fell 5% on Thursday following the departure of CEO Jensen Huang. Some see it as a signal to sell, others an opportunity to buy.",
+    "lang": "en"
+   },
+   {
     "title": "יציבות בוול סטריט; אנבידיה יורדת ב-5%, המתחרות שלה מזנקות",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001563101#utm_source=RSS",
     "source": "גלובס",
@@ -60,51 +108,11 @@
     "lang": "he"
    },
    {
-    "title": "Donald Trump Jr. exits advisory role at Kalshi prediction market",
-    "url": "https://www.cnbc.com/2026/11/12/donald-trump-jr-exits-kalshi-advisory-role.html",
-    "source": "CNBC",
-    "published": "2026-11-12T19:53:26+00:00",
-    "lede": "The president's son will no longer serve as an advisor at Kalshi.",
-    "lang": "en"
-   },
-   {
     "title": "The S&P 500 is shrugging off Nvidia’s selloff. Here’s what’s keeping the rest of the market afloat.",
     "url": "https://www.marketwatch.com/story/the-s-p-500-is-shrugging-off-nvidias-selloff-heres-whats-keeping-the-rest-of-the-market-afloat-7cdf2f05?mod=mw_rss_topstories",
     "source": "MarketWatch",
     "published": "2026-11-12T19:52:00+00:00",
     "lede": "Investors have been forced to look up from the poster child of the artificial-intelligence trade and remember the other stocks on the board.",
-    "lang": "en"
-   },
-   {
-    "title": "Pimco CEO Warns: AI Companies Risk Borrowing \"Too Much\" ($10 Trillion)",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTlNLc2dFc3lCQXZoSld6cC1PbElnbHRXVGg3TGlKQ3RfbXVyVk5mTVNFMnA1MEhKQi14NS1nOTM5R1ZXUFRLaXFJR3ljSm5SdXpoOVRRVnU1Qm8yU21rRHBkc1pXYmNmdVp3R2JvWWpMbnVqQmJSRkZtMGt5U1BVUWlXdTRGeTllb0lUU3ZWNy1XcEtDVjN3?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-12T19:50:00+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Elon Musk gives SpaceX stock investors something new to consider",
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcElCWDZRdWJ5U2RRbFMwMXVQTE5NNkhKd29aQ3lFN0ZleG9LbVhUbTVxNHNtME9SUjQ0NHVpV0dqa0FCaHlEZDdWczlwM1N6ZXdNdXVYZTdzVjR6V2xFMVJ5NUN3ZldQcFktR2g2ekRmM3JJV0tjSzAxSGo4VFlkckNCbXc1RV9qOGRRZFhydGwybkctREJFSg?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-12T19:47:00+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Samsung Stocks Rise as Foreign Buyers Step In Despite NVIDIA Turmoil",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVzdFajZ5UFpYOU5OTlFBckJUR212SGI3T0llWVU2YmhIVk5XTF9yaXhMRm9VbjdTLU85ZUNCOU1IMFJVR2o1RXRVbE1pQlRrR0Q0QlNnZmZ1c1cyZ284R1RheF9ZWE0xOGsyRFFCQ0JlbUlNaTlQdkxNREt4eWdPbnpxYnh0akUwUmpaQXRzWlFNRnk0bkd0MF9BNk5wbkNR?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-12T19:45:45+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Nvidia stock pares morning losses after CEO Jensen Huang announces resignation",
-    "url": "https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html",
-    "source": "CNBC",
-    "published": "2026-11-12T19:42:56+00:00",
-    "lede": "Chief Financial Officer Colette Kress will serve as interim CEO until a new leader is appointed.",
     "lang": "en"
    },
    {
@@ -121,14 +129,6 @@
     "source": "CNBC",
     "published": "2026-11-12T19:33:50+00:00",
     "lede": "Nvidia's leadership crisis threatens to spill over into the AI financing boom.",
-    "lang": "en"
-   },
-   {
-    "title": "The bond market now has an even bigger fear than AI fallout",
-    "url": "https://www.marketwatch.com/story/the-bond-market-now-has-an-even-bigger-fear-than-the-ai-fallout-b6401b54?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-12T19:29:00+00:00",
-    "lede": "Carnage in tech stocks made Treasurys look more attractive in recent weeks, but fears of more Fed rate hikes are now driving yields higher",
     "lang": "en"
    }
   ],
