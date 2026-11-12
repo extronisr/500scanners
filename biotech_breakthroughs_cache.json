@@ -1,5 +1,5 @@
 {
- "fetched_at": "12.11.2026, 8:09",
+ "fetched_at": "12.11.2026, 8:34",
  "items": [
   {
    "title": "FDA approves new stroke drug aimed at preventing repeat attacks - cbs19.tv",
@@ -398,6 +398,24 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNcHdhSWR2QndVMnN0SjlHX2FVcFhuM2RmV1p5RGRvc1p3cGZpSTZEQXZhVUItdzhIR3ExbXVHUDhYMElJZ2JTSDZ4eVV2TmRxQnFFNVFSR1ppNkdnX3ZlWVg4OVp2bjJDYS1TWm9ZRlNQekpOR0xxOHhVcHN4djJhZWJENlg2ZGRiN1hPX2xhaw?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA Approves Pimicotinib for Tenosynovial Giant Cell Tumors - CancerNetwork",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWWQ4R3lwQk5ZalJwai03a2c3S1dSUThmeHE2MDFxdS1JQTJzQ2lUNUQwSkE1MXQyLVNvSjBRbEpnbDlyWVBVeDcxcnhiZ2FYS2VsMVlOSnowbDdDdDc3UWkzc3RjV1U4Z2xEQzAzejVjdEUta0dORW1nTTJ3YkItdmRTTnRyeHh3N1NRZXZQSDlfSTZWR0I3TA?oc=5",
+   "pub_ts": 1794334693.0,
+   "date": "10.11.2026, 20:18",
+   "cat": "fda",
+   "sev": 4,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWWQ4R3lwQk5ZalJwai03a2c3S1dSUThmeHE2MDFxdS1JQTJzQ2lUNUQwSkE1MXQyLVNvSjBRbEpnbDlyWVBVeDcxcnhiZ2FYS2VsMVlOSnowbDdDdDc3UWkzc3RjV1U4Z2xEQzAzejVjdEUta0dORW1nTTJ3YkItdmRTTnRyeHh3N1NRZXZQSDlfSTZWR0I3TA?oc=5"
     }
    ],
    "ncts": []
@@ -2989,7 +3007,7 @@
   },
   {
    "title": "PepGen stock soars over 100% on positive Phase 2 trial data for DM1 drug - StreetInsider",
-   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOQlFnTHU0d0gyazl3eGdLOWRCYXBBUnp4WFd5NWk1VUxvM0d2MU1neS1IaTNoYmx0ZDBNcVM0Y2xLc3B4ZnR3cjE0Y1dVbkdkZGFMbEc1U2l5SHBuNS1WWjBBN1JSWXNrNGtwNkxNUkRRTTdRNXJPbmkzVnl2S2hMTkFNeGRhWXZ4YVBFbjdIcHpyUkdUUzI4?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQd1hQMGl2WlRSLWNTNmNaV1lsQTJES2ZicTJmOEI2MDJ0dkI2NGpHaHQwY3c5VEtpUUd3Q3hJQjQ3VzR2STItbi1KcHRjZmlKcUxWTmdYM1FYOEhCVVU3RWt5QTF2bDBXTXF3OWtUYkJOWlc3bDVXaUxrVFhkQmRLWUpmZk1icUkxNkZJZWhuZlBiSFhyY3VjRFpaTS1xQUpEQV9QaGZfTjNKSWpISEpWaWd5SjNpay1lclVPNkVrbGdEM3VIR1M4?oc=5",
    "pub_ts": 1794318293.0,
    "date": "10.11.2026, 15:44",
    "cat": "phase2",
