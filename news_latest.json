@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-12T12:01:03.828762+02:00",
+ "generated_at": "2026-11-12T13:01:10.484339+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -42,61 +42,69 @@
     "lang": "en"
    },
    {
-    "title": "The market’s correction is entering its final phase — but wait before buying the dip, says Morgan Stanley chief strategist",
-    "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPcnNXMDMwNzFabjg0UDdwNVFSdE10SW9nWThUaXJTbGFaTFFlRjBsamtUN19FTUhBa3ZHQ0Vtem11NkZpb1pyOWdMR21TaklYR2R2ZjdHZmpyVDV5NmpjRExRbEhURDNJSjc2YnNCdERiS0VqV2VRUG9uazBqd0lNV3NEdnZYckpxbE9qV0UxRmlMNm9xdnFoR1lEb1ZoMThYLVZ3cDM1UGpDeDRvT3BzRjdvX3lhdnlvSjlycVZ0TUdaelF2WHJlSVRiR0NqSWNKZ0R3UHF4U0FwaGVmd3JaV2o4ZXlZaUhUWVRkV3hhdnQyMW8?oc=5",
-    "source": "MarketWatch",
-    "published": "2026-11-09T10:26:00+00:00",
+    "title": "Forgent Power Solutions Gears Up For Q1 Print; Here Are The Recent Forecast Changes From Wall Street's Mo",
+    "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxPd2M2QUI3ZVBjN25USEl1dVVLVFBHa0NjZ3FxRFdRaDJLUXd6cEpUeWJaUC1HNWxxNWZLYTV5ai1XQkZMSUw5MThSMEdLOG8zRU9tSmNfQkJ4S2ljREJKaWNyNDlCZWNBQmEwVk1yUWREbEg4VU93TXJlU2RvUE9pc1NZbW9YRmdNYjB1bWdTOXBSQTc5UFNzb3RJa282UjdJZ3ZKVU1EZkRBTlItTC1tU1dxMmZfRUVmYnR5eFdJTDRoY0JidUhoYlhqdWQxRENHa3YxRTBBMVVTM1U3dXFHRXpOVTZqSFplUWp0akYwTlo4UHpHWFNqUF84azd6YkVBTGxnN0lwNE5oaUVWMWRyX29lRS1TSDhSNUlqdHZQR183WjE5?oc=5",
+    "source": "Benzinga",
+    "published": "2026-11-12T06:17:06+00:00",
     "lede": null,
     "lang": "en"
    }
   ],
   "us": [
    {
-    "title": "Why you should expect an AI crash",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNdjc1ZHRjSlp2bmc3RGpjQVZad1I1cmdvOWxNYUJwRU13SmhXaHdQUW9Dd1hXTmxOQ1BGNGg3anN4UlpsWGxfZktEc3hESXRDR1BMVkN2RmJhSVpDMmRfM1I1MHlpdGNCRnFqMmN5c2JaVWxCWGZEckl0YllKOEJuMWJDSWQ?oc=5",
-    "source": "The Economist",
-    "published": "2026-11-12T09:54:50+00:00",
+    "title": "Nvidia stock falls 6% as investors await Jensen Huang’s fate",
+    "url": "https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html",
+    "source": "CNBC",
+    "published": "2026-11-12T10:59:52+00:00",
+    "lede": "Nvidia's board met on Wednesday to discuss whether to oust Jensen Huang as CEO.",
+    "lang": "en"
+   },
+   {
+    "title": "Nvidia shares slide as board considers Huang’s future",
+    "url": "https://www.ft.com/content/a93307a7-e2cd-4abd-bd89-c38832d8c40e?syn-25a6b1a6=1",
+    "source": "Financial Times",
+    "published": "2026-11-12T10:49:47+00:00",
+    "lede": "Stock down almost 6% ahead of Wall Street open as chief executive’s fate hangs in balance",
+    "lang": "en"
+   },
+   {
+    "title": "Bitcoin Price Slides Toward $73K as Nvidia Plunges 9% and MSCI Drops Saylor’s Strategy",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNOHNsRWw5N2ZFRzF2U1BNUWZaaHhSWkRTTVFITHhueFRQc3ZDVGlmSllwV1JyUkoyLVZYX0k0TTlyb2tzRWswTnljSjFSM0ZoTlpCZnJJNl9Pa0VrR0FCVUVGSnZCUTlxLXZ5TXVXX21VZEgzeWYyME5EWmoybDAzV1E0RWg1NWNXUXRMT3l1QkN5SUJ6YnJ2dzhyNDc?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-12T10:40:44+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Nvidia stock falls 6% as investors await Jensen Huang’s fate",
-    "url": "https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html",
-    "source": "CNBC",
-    "published": "2026-11-12T09:49:21+00:00",
-    "lede": "Nvidia's board met on Wednesday to discuss whether to oust Jensen Huang as CEO.",
+    "title": "Where to find the anti-AI trade",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNTTh6Um93cnVTaEZhQVlrTnVVQUotT0tNVEJtUUpmZ3NwQ2RjNkN5d1lra1AwejJDaG5uWG5oR05HWUdfNklsMjByczRSQVVIRFBuak4zWm5IU3c3YW11LXkzRWdnMTVDT1NkZDRSSmJpN1RsanNsR3gteldiQWEza1J4ZjV6YVVRMjlkQXN5Z1Rvblox?oc=5",
+    "source": "The Economist",
+    "published": "2026-11-12T10:38:28+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Eli Lilly stock rises after China approves weight-loss pill",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOM3dpUmdEWHJKd29GaHNnLXhjcnZnd1A2NFV1dWRyRnk2QkFTQUVhVG1qYWkxNGxfRGxCSkhIbWQ1cGdnY1lTWVdib3VZQW11Y2NvQXROdUFDTHBUa0ExRTVMekV2dDlwVFlROGFsVnpNeXJTVHFCYkFnaE5PSndQRUVQajJrNVR2YTJkUFBOQXdXYTJGOVNF?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-12T10:37:09+00:00",
+    "lede": null,
     "lang": "en"
    },
    {
     "title": "UK economy grows at fastest rate for more than two years",
     "url": "https://www.bbc.co.uk/news/articles/ck3rgd429zd5o?at_medium=RSS&at_campaign=rss",
     "source": "BBC",
-    "published": "2026-11-12T09:43:03+00:00",
+    "published": "2026-11-12T10:35:05+00:00",
     "lede": "﻿The UK economy grew by 0.7% in the three months to September, according to official figures.",
     "lang": "en"
    },
    {
-    "title": "Nasdaq futures fall as Nvidia turmoil rattles AI stocks",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNVWJOVUNfczJuRFhCMUJkNHMtMWplYV8zdDN3ZXdNaVotam9MOTZHY3lFWVpLbzc5Qm9uOFpaaXF2bmVBNjVseEdYQmV2aUJCaEJVT3JNaTJneTB4TVpRUFVlcGZReTFST0YtYXZHOGdFNXFYZEVDR3dwTXNPUmdZX0d4X2ppTE9DTGpDNWFNU3hHVGdwbjFQYlB0OHUweF9s?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-12T09:39:10+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "2 Quantum Computing Stocks That Could Help Set You Up for Life",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNTGZubmlreGJJeVZKTS1HMHNObm9fQmNvR0xKNTJiNjNyblMwUWRoWHB5NnFUR3I4bnlxdG9Cbk9WR0JILUFzbnMzZ3VzRk1FRG1mcDA0X1FFS2x5bTM0SUl3VGRaTjFheFNZYUVTSUpOZXBwTENSbWUtZ05ZUVYwUWFSS1ZvWndPU2lQYm5lRHVmRzFvSkM4ejMzOWhYQQ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-12T09:34:00+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "מניית אנבידיה מתרסקת ב-7% במסחר המקדים; המתחרות עולות",
+    "title": "מניית אנבידיה מתרסקת ב-5% במסחר המוקדם; המתחרות עולות",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001563101#utm_source=RSS",
     "source": "גלובס",
-    "published": "2026-11-12T09:30:00+00:00",
-    "lede": "מניית אנבידיה צוללת במסחר המוקדם המשקיעים נוהרים למתחרות, ברודקום ו-AMD מתחזקות",
+    "published": "2026-11-12T10:35:00+00:00",
+    "lede": "מניית אנבידיה צוללת במסחר המוקדם המשקיעים נוהרים למתחרות שמתחזקות",
     "lang": "he"
    },
    {
@@ -113,14 +121,6 @@
     "source": "The Guardian",
     "published": "2026-11-12T09:11:09+00:00",
     "lede": "Exclusive: Legal notice comes as Buenos Aires ramps up rhetoric over UK territory and seeks to halt Sea Lion project The Argentinian government threatened a British businessman involved in an offshore Falkland Islands…",
-    "lang": "en"
-   },
-   {
-    "title": "Nvidia shares slide as board considers Huang’s future",
-    "url": "https://www.ft.com/content/a93307a7-e2cd-4abd-bd89-c38832d8c40e?syn-25a6b1a6=1",
-    "source": "Financial Times",
-    "published": "2026-11-12T09:09:28+00:00",
-    "lede": "Stock down more than 7 per cent ahead of Wall Street open as chief executive’s fate hangs in balance",
     "lang": "en"
    },
    {
@@ -142,6 +142,14 @@
     "lang": "he"
    },
    {
+    "title": "המפץ בגמל: הכשרה מאשרת את חשיפת גלובס - מגישה בקשה לרשות שוק ההון",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001563169#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-12T10:46:00+00:00",
+    "lede": "החברה דיווחה שהיא מעוניינת להגיע בשנים הקרובות להיקף נכסים של 50 מיליארד שקל",
+    "lang": "he"
+   },
+   {
     "title": "השווקים רועדים: יותר מ-2 טריליון דולר נמחקו, אנבידיה ממשיכה לצנוח",
     "url": "https://finance.walla.co.il/item/3875956",
     "source": "וואלה",
@@ -150,39 +158,31 @@
     "lang": "he"
    },
    {
-    "title": "עליות בתל אביב בהובלת מניות הבנקים; דלתא גליל קופצת אחרי הדוחות",
+    "title": "מהם הכוחות שמשפיעים על התחזקות הדולר?",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001563072#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-12T09:59:00+00:00",
+    "lede": "שער השקל מול הדולר ידע טלטלות דרמטיות, שהושפעו מפערי ריביות, חוסר ודאות ושינויים דרמטיים בגידור של המשקיעים המוסדיים",
+    "lang": "he"
+   },
+   {
+    "title": "יפית גריאני נפגשה אתמול עם מנכ\"ל האוצר. על הפרק: דחיית מכירת כאל",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001563163#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-12T09:30:00+00:00",
+    "lede": "בתחילת החודש הניע מחדש בנק דיסקונט את הליך המכירה של כאל, לאחר שפקע הההסכם המקורי למכירתה לידי קבוצת יוניון-הראל לפי שווי של עד 4 מיליארד שקל. במקביל מבקשים בדיסקונט לדחות את הדד ליין לעסקה",
+    "lang": "he"
+   },
+   {
+    "title": "עליות בתל אביב בהובלת מניות הבנקים; נקסט ויז'ן קופצת",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001563097#utm_source=RSS",
     "source": "גלובס",
     "published": "2026-11-12T09:25:00+00:00",
-    "lede": "מדד ת\"א עולה בכ-0.6% • דוחות חזקים מקפיצים את מניות דלתא גליל ואפי נכסים • מניית בראזני תיסחר לראשונה בבורסה המקומית • אנבידיה צוללת ברקע לדיווחים שדריקטוריון החברה שוקל לפטר את המנכ\"ל • מחירי הנפט מתאוששים: איראן מסרבת…",
+    "lede": "מדד ת\"א עולה בכ-0.8% • דוחות חזקים מקפיצים את מניות דלתא גליל ואפי נכסים • מניית בראזני תיסחר לראשונה בבורסה המקומית • אנבידיה צוללת ברקע לדיווחים שדריקטוריון החברה שוקל לפטר את המנכ\"ל • מחירי הנפט מתאוששים: איראן מסרבת…",
     "lang": "he"
    },
    {
-    "title": "בשוק כבר מסמנים את שתי המניות שירוויחו בגדול מהמפלה של ג'נסן הואנג",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001563151#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-12T09:12:00+00:00",
-    "lede": "הסערה בצמרת אנבידיה פותחת הזדמנויות עבור מתחרותיה, בראשן AMD וברודקום עולות במסחר המוקדם",
-    "lang": "he"
-   },
-   {
-    "title": "אם אתם בחברת הביטוח הזו, הפנסיה שלכם תהיה הנפגעת הראשונה מנפילה של אנבידיה",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001563160#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-12T09:03:00+00:00",
-    "lede": "אנבידיה מהווה חלק משמעותי במדדים המובילים בוול סטריט ונהנית מסחירות גבוהה מאוד",
-    "lang": "he"
-   },
-   {
-    "title": "אפי נכסים מכרה רק 4 דירות בלנדמרק ברבעון, אך הרווח הנקי טיפס ב-15%",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001563153#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-12T08:15:00+00:00",
-    "lede": "בחברת הנדל\"ן המניב מסבירים כי הגידול נבע בעיקר משיפור בתוצאות של נכסים קיימים ומפרויקטים חדשים באירופה שהחלו להניב",
-    "lang": "he"
-   },
-   {
-    "title": "עליות קלות בת\"א; דלתא גליל עולה 6%, ורידיס 4%, ונקסט ויז'ן ב-3%",
+    "title": "מדדי הטכנולוגיה, הבנקים וקלינטק מובילים בעליות מעל 1%, רימון וורידיס עולות 4% לאור כניסה למדד MSCI",
     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE51SEljeTZrVlNtUGhZRFptTVdrUVJadjNUZ2NObXMtVTVMZE16NjBUbGEwODhYR05BRnpzbFFqR1lIU1JJSjFtNV9OZFM3TzZhRDRqOUxfMUduaXpfUTdkU2k5OTRTVGtNejJsZFNrSkI?oc=5",
     "source": "ביזפורטל",
     "published": "2026-11-12T04:13:00+00:00",
@@ -208,10 +208,10 @@
     "lang": "en"
    },
    {
-    "title": "EU to approve more sanctions on Russia on Monday, France says",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNbGRJY0NscW1XVmJrX1VJR1JWZW1fVVhXaTdKeXN6aVFEMGJueGdSeTE1SlpGQVVpYjZIN0VOb2RpSmlqVGdmMDhsSVlHSWltYWoyOTBPZkpoVTZVV2V6SG42LUJRcTFIb1Z2TzByT19USElvV1g3eXYyU0ZQVEVfc191ZWl0ZDVLeUJ5c3VlUUhHWTViUDl2REFwQmxZNDNvZkE?oc=5",
-    "source": "Reuters",
-    "published": "2026-11-12T08:55:44+00:00",
+    "title": "Lieberman Says Netanyahu Must Consult Knesset Before Any War-Related Decision",
+    "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxQMnBESXN1ZEFTRTZrNlNDNXFoUnFwTldUaE94c2oxc25uLXIxLW54RjkweWY2WW9QaTBlN0pxeWc3RkZLSHlzWWloQkxsUVpYNl9TVnFoeEw5Tmd6djVKSmZ6cFJiYzJGWEJZSTI4bjdrTmI1cm1xS2h3T3I1WlRhalZpVFh3STNnS1FiMm5nZTNnTnRWWnFEVklPSTNvZDdfXzJySVZrNmMzbkZuZ1RFUlU0Rjh3ajAzTFh5cVFTcDhMdmxsSDdzdEJNbUx5QWFlU2tVSFBnSmxWd2JKTlBPZXRDOUtLQWIybWl3VW5YSXYxNXk0czlGckxzT0drQnVueEtqUlZaQnJKckNhYUlZZGJjV3d4ZE91anotX3hrMG5wSms?oc=5",
+    "source": "Haaretz",
+    "published": "2026-11-12T09:25:00+00:00",
     "lede": null,
     "lang": "en"
    }
