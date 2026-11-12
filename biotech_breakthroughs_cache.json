@@ -1,5 +1,5 @@
 {
- "fetched_at": "12.11.2026, 11:04",
+ "fetched_at": "12.11.2026, 11:34",
  "items": [
   {
    "title": "AbbVie (ABBV) Reports Positive Phase 3 QULIPTA Migraine Trial Results - Yahoo Finance",
@@ -3203,15 +3203,15 @@
    "sources": [
     {
      "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE93cVk0SVJ6R1pfNWQyWmppUHBFR2RXdTBoTVdEUlpwdnpvNXhIZy16clEwNkl4OHJIYUVERWxaR1lwZVBIUUI2ZjFrdU1aZVlBWmJxRnlFTUU1WDUxMFZsNDVlNnpjTG1JTlFsczVGZGJWZm51?oc=5"
+    },
+    {
+     "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNb0szWVpyOW5CenVoQnZxMy1BODBURmZ4RnNNWmptY2tRek5NY0dELTd5RHNIOXR4VUMyLU9ueVlKMkNFNTlEMjZyLVVoaVpaRUZZcXNKTk80V3pSalltQlhzRk9WV3pIcWNJYmx3eXNQalNSX1lGbVdhWlF5bkdnb29fVkdWRnhrS1N1RmJJbXBPWVVmU3NvZjZQSWZmNERD?oc=5"
     },
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSTNveUhLZnlpZGdDWGpZM0VCeDRLdU9kakVXeUtzT3pjRmRocUZIMXY0X09QdjQybDNXRTlaTDUzaXpNRHV5dU50UVBKcGE0MS0wb0pFSjVPM21DQzh1aUdsOUFGQWdJRGpjektURnNFcjFZZ0RjYWNUdDJHaGxjMloxQUo2M0FNQUlvMFFJVkE5SW8wMTJMb21xZUJwakd1cjJKeGl6U2JfUGVHYVgyTDJxRHowejVBMEp3Tg?oc=5"
-    },
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQMXphU2tCY0ZrdFQtY0U5QV9yZWVfaVBYUEFPRk1QbXhIMG5nUEJIZWphNlIwNHRtRmw4WHN6UDJ0czNFR24yNWZWQU9fdkV3eXIwR1llV0o5Nm5LRVFESE9kbTQ4SXZLeUY4NUZhbk1zem5URmk5X0xSZmVCVERmUnpHRTZGSFY0SFlvV2Fkb08xNHJ6UVZ5NXV3dXBaWXljaG5oQXZnUHFsQ21Pd3FHR1lCNkdaOEhDUWtjaTU1QUQtYVFfNDZPNU52SGYxZw?oc=5"
     }
    ],
    "ncts": []
@@ -4295,26 +4295,6 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPeF9ucGVXUEc2VmppME5uc2ZhTlN4a3pKTWt5RXUzZnVsa2tadERfVkNIQXBNVm53LTdTWkVvV2dad3BZZl92MjRpTlhfQ1oyUjFid082d005blRpSlZMWVVOM042dXoxcmd0SXE2SHBlZHJlcHlNVXZPcUllakdPZlFuQUxYZE5FZWZDSmJ2OA?oc=5"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "Oculis highlights Privosegtor's neuroprotective potential for optic neuritis with positive Phase 2 trial data. - Pluang",
-   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNclZIVS0tdHpLb3lRZjA1U1pOYjZMTUJOck5MOTNweVdlbEdIYW9PM1RrQi10MlRNZGVjTXJBaERzSm96YnZNdHlNX0JEOWZMeG9lT0xxRjFmeC1HVFlDSzRpS21jMTBQbjNlY1ZPODM0SEpNeFBoeDRaVzFWVkVieHZzNnFtbnNNeHlNNnNmQ1hxbVE?oc=5",
-   "pub_ts": 1793265830.0,
-   "date": "29.10.2026, 11:23",
-   "cat": "phase2",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [
-    "OCS"
-   ],
-   "sources": [
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNclZIVS0tdHpLb3lRZjA1U1pOYjZMTUJOck5MOTNweVdlbEdIYW9PM1RrQi10MlRNZGVjTXJBaERzSm96YnZNdHlNX0JEOWZMeG9lT0xxRjFmeC1HVFlDSzRpS21jMTBQbjNlY1ZPODM0SEpNeFBoeDRaVzFWVkVieHZzNnFtbnNNeHlNNnNmQ1hxbVE?oc=5"
     }
    ],
    "ncts": []
