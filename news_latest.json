@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-12T13:01:10.484339+02:00",
+ "generated_at": "2026-11-12T14:01:04.749097+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -10,18 +10,18 @@
  "sections": {
   "analysts": [
    {
-    "title": "Halozyme stock downgraded at Morgan Stanley (HALO:NASDAQ)",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWjI3MDFtTkpkbWZnR29KdEtVWUhUTlRjVTFaOWFRN1U0UjdtRldyTXAtVXBQZWN0b256cTktZ194MGNfdWs2bjBJYXBOVGFyRzlYUGNIa0drV2xIUGFoWlhRbllqVHp4TS1kVHVybDIzUmhKS0J3dFAySnFsMGpXSUk1UDg?oc=5",
-    "source": "Seeking Alpha",
-    "published": "2026-11-11T17:09:25+00:00",
+    "title": "Tech stocks may soon enjoy a ‘violent bounce’ — but one strategist warns investors not to take the bait",
+    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQa0ZBa3NwZjhNSWFGanh5SFViem5JOFVVLTd0V1RxaUpQNGRwZTJJOEgxOERXdjJCS3NSZDdpRE9sZUphVFYwNDFWblB3OWhhREM3c2ZxNzJISzhDM3p5ZGVCdTJTSlBxM3BhSEh2b2hNZjJ0bjREVXhtT0RlTmM2Y05vdVh0QkNGUW8wZnI3NkFiZDMyS25SMmhiY3VobFhrYXVuMVlmVEVSVGpUSjUxS2VXXzJiMk5Sb3FaZWR4QXJQMkloX3FHMFNMSm00NDNET0J2MnVYSFJ0UQ?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-11-12T11:34:00+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Liquidia stock upgraded at Raymond James (LQDA:NASDAQ)",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOZE5UemJ1c0dZMUgxRGl1bUtFS1ZaeVZoWEFjYWFlODVqSFNxU3QtVGd6VGJpV1k1bFhTbW5OUW50WHYySUZ5SndwRGUtWjczaHFvQ25CRVhxZkoxWTRuTXdOR2JUSGl3RUpsYWlHT21yNnNuTFhXb0NmblhUTG84OA?oc=5",
+    "title": "Halozyme stock downgraded at Morgan Stanley (HALO:NASDAQ)",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWjI3MDFtTkpkbWZnR29KdEtVWUhUTlRjVTFaOWFRN1U0UjdtRldyTXAtVXBQZWN0b256cTktZ194MGNfdWs2bjBJYXBOVGFyRzlYUGNIa0drV2xIUGFoWlhRbllqVHp4TS1kVHVybDIzUmhKS0J3dFAySnFsMGpXSUk1UDg?oc=5",
     "source": "Seeking Alpha",
-    "published": "2026-11-11T15:46:32+00:00",
+    "published": "2026-11-11T17:09:25+00:00",
     "lede": null,
     "lang": "en"
    },
@@ -52,42 +52,50 @@
   ],
   "us": [
    {
-    "title": "Nvidia stock falls 6% as investors await Jensen Huang’s fate",
-    "url": "https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html",
+    "title": "Cramer's stance on Nvidia's stock amid reports that CEO Jensen Huang may be ousted",
+    "url": "https://www.cnbc.com/investingclub/2026/11/11/jim-cramer-jensen-huang-nvidia-stock-advice.html",
     "source": "CNBC",
-    "published": "2026-11-12T10:59:52+00:00",
-    "lede": "Nvidia's board met on Wednesday to discuss whether to oust Jensen Huang as CEO.",
+    "published": "2026-11-12T11:57:14+00:00",
+    "lede": "Jim Cramer said Wednesday night that he was saddened by a news report that indicated Nvidia's board of directors is preparing to fire Huang.",
     "lang": "en"
    },
    {
-    "title": "Nvidia shares slide as board considers Huang’s future",
-    "url": "https://www.ft.com/content/a93307a7-e2cd-4abd-bd89-c38832d8c40e?syn-25a6b1a6=1",
-    "source": "Financial Times",
-    "published": "2026-11-12T10:49:47+00:00",
-    "lede": "Stock down almost 6% ahead of Wall Street open as chief executive’s fate hangs in balance",
-    "lang": "en"
-   },
-   {
-    "title": "Bitcoin Price Slides Toward $73K as Nvidia Plunges 9% and MSCI Drops Saylor’s Strategy",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNOHNsRWw5N2ZFRzF2U1BNUWZaaHhSWkRTTVFITHhueFRQc3ZDVGlmSllwV1JyUkoyLVZYX0k0TTlyb2tzRWswTnljSjFSM0ZoTlpCZnJJNl9Pa0VrR0FCVUVGSnZCUTlxLXZ5TXVXX21VZEgzeWYyME5EWmoybDAzV1E0RWg1NWNXUXRMT3l1QkN5SUJ6YnJ2dzhyNDc?oc=5",
+    "title": "Vista Gold Announces Third Quarter 2026 Financial Results and Corporate Update",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONVoxbnRnSU1XQVVlVUNVZ20zVVpuMlY0VlZmajBJTE5ndTlxVUZ6MTRaUkJfdkN6QmJvdTI1UmN0bERDMlBmcU9iV2h3YWNUTmI1U2FQMzBkLTVDMEkzTW5FWEl1WlAzYUtkVkZoQnlsbjJzdVpnazQ1MEh5SXp6QXV6dTctZXc3aDBDNXM3eFZLYzNFeVNzUEo0c09LYXpZ?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-12T10:40:44+00:00",
+    "published": "2026-11-12T11:45:00+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Where to find the anti-AI trade",
-    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNTTh6Um93cnVTaEZhQVlrTnVVQUotT0tNVEJtUUpmZ3NwQ2RjNkN5d1lra1AwejJDaG5uWG5oR05HWUdfNklsMjByczRSQVVIRFBuak4zWm5IU3c3YW11LXkzRWdnMTVDT1NkZDRSSmJpN1RsanNsR3gteldiQWEza1J4ZjV6YVVRMjlkQXN5Z1Rvblox?oc=5",
-    "source": "The Economist",
-    "published": "2026-11-12T10:38:28+00:00",
+    "title": "Forgent Power: Fiscal Q1 Earnings Snapshot",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQeDlFeHd2bi1qYTZIY3NfYnZreGpnaWgxZ3YzZzNVLXJJR2I0cHdLLU5fVVJTY2hzdmNYdk5yZXhlZzFyUkVWREl3YzJnYVZmRXU0LWlXVzAzUUVoSXotc0xZRUhBZHpRaG90YkZQemVXVVVFNzdHN0Z2WDQ2WXF5QWZEWWprWjgtZ3VnUlJsUHVURkRueS10emdRR3FxUQ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-12T11:42:20+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Eli Lilly stock rises after China approves weight-loss pill",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOM3dpUmdEWHJKd29GaHNnLXhjcnZnd1A2NFV1dWRyRnk2QkFTQUVhVG1qYWkxNGxfRGxCSkhIbWQ1cGdnY1lTWVdib3VZQW11Y2NvQXROdUFDTHBUa0ExRTVMekV2dDlwVFlROGFsVnpNeXJTVHFCYkFnaE5PSndQRUVQajJrNVR2YTJkUFBOQXdXYTJGOVNF?oc=5",
+    "title": "מניית אנבידיה מתרסקת ב-5% במסחר המוקדם; המתחרות עולות",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001563101#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-12T11:39:00+00:00",
+    "lede": "מניית אנבידיה צוללת במסחר המוקדם המשקיעים נוהרים למתחרות שמתחזקות",
+    "lang": "he"
+   },
+   {
+    "title": "\"מצדדים בחמאס\": בארה\"ב דורשים מהולנד לחזור בה מהחרם על ישראל",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001563166#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-12T11:37:00+00:00",
+    "lede": "כותרות העיתונים בעולם: 13 מדינות רפובליקניות בארה\"ב קוראות להולנד לוותר על החרם נגד ההתנחלויות, פרטים חדשים על ניסיון הפיגוע האיראני בבסיס פיירפורד בבריטניה, וארדואן מאשים את ישראל ב\"רצח סביבתי\"",
+    "lang": "he"
+   },
+   {
+    "title": "Where Will IonQ Stock Be in 5 Years?",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPaktjSUJlZ3E1di1DZ1JpZ3o2Zkc2QTJjc09Kc2lubk9GMTdpM18zMWk3LWctdjNHZEd2Q1QwVFVUUXZZdHcxT1RDMkw4eWc4MGx5b2UtYU84V05OaEFGcHBiVTVMaFZzYS1rY29oYUhvMjFDZGcteWFaMVJfSWU3MV9ZMUxaVVFENHdiUjNleXlhWVU?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-12T10:37:09+00:00",
+    "published": "2026-11-12T11:35:00+00:00",
     "lede": null,
     "lang": "en"
    },
@@ -95,25 +103,25 @@
     "title": "UK economy grows at fastest rate for more than two years",
     "url": "https://www.bbc.co.uk/news/articles/ck3rgd429zd5o?at_medium=RSS&at_campaign=rss",
     "source": "BBC",
-    "published": "2026-11-12T10:35:05+00:00",
+    "published": "2026-11-12T11:20:25+00:00",
     "lede": "﻿The UK economy grew by 0.7% in the three months to September, according to official figures.",
     "lang": "en"
    },
    {
-    "title": "מניית אנבידיה מתרסקת ב-5% במסחר המוקדם; המתחרות עולות",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001563101#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-12T10:35:00+00:00",
-    "lede": "מניית אנבידיה צוללת במסחר המוקדם המשקיעים נוהרים למתחרות שמתחזקות",
-    "lang": "he"
+    "title": "Billions lost and markets roiled by one man’s indiscretion. Isn’t it now clear that these tech bros are too powerful? | Aditya Chakrabortty",
+    "url": "https://www.theguardian.com/commentisfree/2026/nov/12/billions-lost-markets-roiled-one-man-indiscretion-tech-bro-jensen-huang-affair-nvidia",
+    "source": "The Guardian",
+    "published": "2026-11-12T11:17:51+00:00",
+    "lede": "Nvidia CEO Jensen Huang’s affair must be the costliest fling in human history – and a preview of what awaits when the tech bubble bursts One thing we all know about the tech billionaires is they are super-smart. We know…",
+    "lang": "en"
    },
    {
-    "title": "החזית המשותפת של טראמפ וטייקוני הטק להגנת ג'נסן הואנג",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001563164#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-12T09:28:00+00:00",
-    "lede": "עם פרוץ הפרשה באנבידיה השבוע, שורת בכירים בפוליטיקה ובתעשיית הטק האמריקאית מיהרו לגבות את מנכ\"ל ענקית הטכנולוגיה",
-    "lang": "he"
+    "title": "Maga architects blame Big Tech and AI data centres for midterms rout",
+    "url": "https://www.ft.com/content/43da75e5-e8fd-4aea-8afb-e3d75c9f176f?syn-25a6b1a6=1",
+    "source": "Financial Times",
+    "published": "2026-11-12T11:00:04+00:00",
+    "lede": "Head of Heritage Foundation admits Republicans’ embrace of Silicon Valley and the effect of Donald Trump’s Iran war cost them votes",
+    "lang": "en"
    },
    {
     "title": "Argentina threatens UK oil firm CEO with jail over Falklands drilling",
@@ -122,17 +130,17 @@
     "published": "2026-11-12T09:11:09+00:00",
     "lede": "Exclusive: Legal notice comes as Buenos Aires ramps up rhetoric over UK territory and seeks to halt Sea Lion project The Argentinian government threatened a British businessman involved in an offshore Falkland Islands…",
     "lang": "en"
-   },
-   {
-    "title": "Ukrainian defense tech startup hits $6 billion valuation as investors bet on battle-tested drones",
-    "url": "https://www.cnbc.com/2026/11/12/uforce-defense-tech-drones-warfare-ukraine.html",
-    "source": "CNBC",
-    "published": "2026-11-12T09:05:22+00:00",
-    "lede": "UFORCE's NEMESIS drones have completed 300,000 combat flights, and its MAGURA naval vessels have contributed to the destruction of Russian warships.",
-    "lang": "en"
    }
   ],
   "il": [
+   {
+    "title": "עליות בתל אביב בהובלת מניות הבנקים; נקסט ויז'ן קופצת",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001563097#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-12T11:55:00+00:00",
+    "lede": "מדד ת\"א עולה בכ-0.8% • נקסט ויז'ן קופצת לאחר שדיווחה על הזמנה חדשה ומשלימה זינוק של מעל 20% מתחילת השבוע • דוחות חזקים מקפיצים את דלתא גליל • קבלת פנים חמה למניית ברזאני: קופצת בכ-9% ביום הבכורה שלה • אנבידיה צוללת ברקע…",
+    "lang": "he"
+   },
    {
     "title": "דיווח: המאהבת של מנכ\"ל אנבידיה נמלטה לבייג'ינג",
     "url": "https://finance.walla.co.il/item/3875969",
@@ -174,14 +182,6 @@
     "lang": "he"
    },
    {
-    "title": "עליות בתל אביב בהובלת מניות הבנקים; נקסט ויז'ן קופצת",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001563097#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-12T09:25:00+00:00",
-    "lede": "מדד ת\"א עולה בכ-0.8% • דוחות חזקים מקפיצים את מניות דלתא גליל ואפי נכסים • מניית בראזני תיסחר לראשונה בבורסה המקומית • אנבידיה צוללת ברקע לדיווחים שדריקטוריון החברה שוקל לפטר את המנכ\"ל • מחירי הנפט מתאוששים: איראן מסרבת…",
-    "lang": "he"
-   },
-   {
     "title": "מדדי הטכנולוגיה, הבנקים וקלינטק מובילים בעליות מעל 1%, רימון וורידיס עולות 4% לאור כניסה למדד MSCI",
     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE51SEljeTZrVlNtUGhZRFptTVdrUVJadjNUZ2NObXMtVTVMZE16NjBUbGEwODhYR05BRnpzbFFqR1lIU1JJSjFtNV9OZFM3TzZhRDRqOUxfMUduaXpfUTdkU2k5OTRTVGtNejJsZFNrSkI?oc=5",
     "source": "ביזפורטל",
@@ -200,18 +200,18 @@
   ],
   "geo": [
    {
-    "title": "Ukraine’s ex foreign minister Kuleba on prospects for peace in Russia-Ukraine war",
-    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxON0tVb3Q4MWFGVzF6X2FFX00yb3BlSXJ5WDhKVWhkZHM0NDJ3Z1FtMk9rNGdpRi14NXUyMXVrd2w2bjVRdHZYX1E1ZWx5NnMtN2dqTzdhNldHMDJJekpzTVJlRkZyM3JUV1l2NHFzRWhTRmp2dHlwNjA1a3pweW8tbk5CSEQ5bTBvNHZDaEtNYXBsWXV0MjZPWU9uaHQ0ZlFOM0t2N1hqMGNuSTBJY2NpTWw0dlBmSFh0Y040WmNDWmptekU?oc=5",
-    "source": "NPR",
-    "published": "2026-11-12T09:40:31+00:00",
+    "title": "Can a new US Congress mean an end to the Iran war?",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNdmRaejBnMHp1QkhibDEzU1hQLVhZZWlaeXV2d1dGcHF5OU1CbGUzTWtVYXpLT1hFcUh5SzVJbWg2eHZpRy1oU1IxZzByY2hhQmpyTDNHTUh4U1NVVE1DWktWMlU1ZUMtNy1xZk1TN3dXVzBXY1dXVDV2aFhuNURkTWpteWpUblljY3p0QjN3?oc=5",
+    "source": "Reuters",
+    "published": "2026-11-12T11:42:53+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Lieberman Says Netanyahu Must Consult Knesset Before Any War-Related Decision",
-    "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxQMnBESXN1ZEFTRTZrNlNDNXFoUnFwTldUaE94c2oxc25uLXIxLW54RjkweWY2WW9QaTBlN0pxeWc3RkZLSHlzWWloQkxsUVpYNl9TVnFoeEw5Tmd6djVKSmZ6cFJiYzJGWEJZSTI4bjdrTmI1cm1xS2h3T3I1WlRhalZpVFh3STNnS1FiMm5nZTNnTnRWWnFEVklPSTNvZDdfXzJySVZrNmMzbkZuZ1RFUlU0Rjh3ajAzTFh5cVFTcDhMdmxsSDdzdEJNbUx5QWFlU2tVSFBnSmxWd2JKTlBPZXRDOUtLQWIybWl3VW5YSXYxNXk0czlGckxzT0drQnVueEtqUlZaQnJKckNhYUlZZGJjV3d4ZE91anotX3hrMG5wSms?oc=5",
-    "source": "Haaretz",
-    "published": "2026-11-12T09:25:00+00:00",
+    "title": "Trump ran on a platform of peace. His war may have cost Republicans the midterms | Mohamad Bazzi",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPMkp3M2Vsc1lacjEzbVJOOVhnRXIybVgxZktUOUNZQU5LQkJ2elYzZWlmRXdIN2pmVlBPekZPZ1M1ZFNrY1BSYi1mQ3JTam9aSVZibG5Ienh5RHNydmQyXzJSRXRxZUhDVS1NUjZfdjFJY2ZJejRKY094eU4tb2wza2dBMzR2QjlVOEZMSw?oc=5",
+    "source": "The Guardian",
+    "published": "2026-11-12T11:08:00+00:00",
     "lede": null,
     "lang": "en"
    }
