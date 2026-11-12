@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-12T10:01:08.360531+02:00",
+ "generated_at": "2026-11-12T11:01:06.634455+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -52,7 +52,55 @@
   ],
   "us": [
    {
-    "title": "הואנג הפך את ישראל לעוגן מרכזית עבור אנבידיה: הבא אחריו עשוי להתנהג אחרת",
+    "title": "UK economy grows at fastest rate for more than two years",
+    "url": "https://www.bbc.co.uk/news/articles/ck3rgd429zd5o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC",
+    "published": "2026-11-12T08:46:52+00:00",
+    "lede": "﻿The UK economy grew by 0.7% in the three months to September, according to official figures.",
+    "lang": "en"
+   },
+   {
+    "title": "Most Gulf markets dip at open on rising Saudi-Houthi tensions",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObGNWY3AteW02UnJ1U3diVGdQLTFOUlJCU1M0UWZhQUdCbzhicnpLWXNpeWhHT1J0NkZWYzRzVm1nMUcxV2Q5MXJGOXNMTm4tT3FHM3F4d0s5VWU3UzZ0ZW1nb1YtTzh4SEIwQXExSU5DX0V3dHNvbWlvMGZKVlppZ0tib2xkOWpoWHljSXVVRnh1b2VneEd0NHhnbVNvQy1QV1pwOEVTTG9OempFYmc?oc=5",
+    "source": "Reuters",
+    "published": "2026-11-12T08:45:14+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Nvidia board reportedly meets to decide CEO Jensen Huang’s future as chip giant’s share price plunges – follow live",
+    "url": "https://www.theguardian.com/technology/live/2026/nov/12/nvidia-ceo-jensen-huang-affairs-share-price-plunges-live-latest",
+    "source": "The Guardian",
+    "published": "2026-11-12T08:42:39+00:00",
+    "lede": "Nvidia shares plunge in extended trading, sending Asian markets lower Nvidia board reportedly deciding whether to oust CEO Jensen Huang Too big – and too well-connected – to sack? Huang does not enjoy the supercharged…",
+    "lang": "en"
+   },
+   {
+    "title": "Better Tech ETF for 2027: State Street's XLK vs. Fidelity's FTEC",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPLWxoSlBLYmJ6N2gwc01Qci1Ua1hZX3lfQTY1UF9ITGltVlRoXy1WNnVPLWNoQWpwTGdGNWNuUjV5RF9VVTBnMXViOG50V21SMEU2VGlpMkxKdV84THpyQzZaREFJYjJ2TWc4REowanRxRjc3a193dWhKWTJMeFBlN0lYNGZZTFhGQkZoRVpxaG5nMi1ERUE?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-12T08:36:51+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Europe's STOXX 600 hits record high on strong earnings, easing Mideast tensions",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPM3hHQ3JOZ1N3YlZLOW9ITFVIZHBDZG8zQjJkazhnVVNJQlhER1FwUVdwdFZ5LXdIY1VYRlpKeFJSNUc3YUIzSzBHT1dqelJmc3poR3JVQVV0VXU5d1F2S0ZHclBxVUtreTY5UTE4czAxdHRNRHlMVHF3aDJmTmFBVl9vem1wZ0I1U3ZsMU55bU5LcThnSnM2U0llaWJBVzFfaXA4?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-12T08:35:33+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Nvidia shares tumble in after-market trading",
+    "url": "https://www.ft.com/content/a93307a7-e2cd-4abd-bd89-c38832d8c40e?syn-25a6b1a6=1",
+    "source": "Financial Times",
+    "published": "2026-11-12T08:10:33+00:00",
+    "lede": "Stock sinks almost 9 per cent after-market as chief executive’s fate hangs in balance following more revelations",
+    "lang": "en"
+   },
+   {
+    "title": "הואנג פרו-ישראלי כפי שאף מנכ\"ל לא היה לפניו. חשש בישראל אם יודח",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001563152#utm_source=RSS",
     "source": "גלובס",
     "published": "2026-11-12T07:41:00+00:00",
@@ -68,60 +116,12 @@
     "lang": "en"
    },
    {
-    "title": "Nvidia board reportedly meets to decide CEO Jensen Huang’s future as chip giant’s share price plunges – follow live",
-    "url": "https://www.theguardian.com/technology/live/2026/nov/12/nvidia-ceo-jensen-huang-affairs-share-price-plunges-live-latest",
-    "source": "The Guardian",
-    "published": "2026-11-12T07:35:50+00:00",
-    "lede": "Nvidia shares plunge in extended trading, sending Asian markets lower Nvidia board reportedly deciding whether to oust CEO Jensen Huang Too big – and too well-connected – to sack? Huang does not enjoy the supercharged…",
-    "lang": "en"
-   },
-   {
-    "title": "UK economy grows at fastest rate for more than two years",
-    "url": "https://www.bbc.co.uk/news/articles/ck3rgd429zd5o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC",
-    "published": "2026-11-12T07:32:41+00:00",
-    "lede": "﻿The UK economy grew by 0.7% in the three months to September, according to official figures.",
-    "lang": "en"
-   },
-   {
     "title": "אפקט אנבידיה: מי החברות שירוויחו הכי הרבה מהסערה?",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001563151#utm_source=RSS",
     "source": "גלובס",
     "published": "2026-11-12T07:26:00+00:00",
     "lede": "הסערה בצמרת אנבידיה פותחת הזדמנויות עבור מתחרותיה, בראשן AMD וברודקום שזינקו במסחר המאוחר",
     "lang": "he"
-   },
-   {
-    "title": "Strategy to be removed from MSCI indexes: What are the risks for Bitcoin?",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOekJLWGRPLWw2X20wTUpOeWl5VWNiS3pFeWl5U0hlT1BhSXhieDViNVhVNzdfbHhEbWl4YVQ1UFd4M3N1cno0d1o4d3R3OFVMMmJEeHdNVTRVTUVhUDB4MTZOVWNxYTFOYW9YUFBFNmloeWpJODZwVlZ0cGZBV0w1VlNtT2N4UHdRbFR4ajNPWlR5eERZUUdoQjhHLVBxSGw1LXc?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-12T07:18:00+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Group 1 Automotive (GPI) Stock May Be 50% Undervalued On Cash Flow",
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZHl2R2hIc2RlYmhkbWFKcDVndm5ySEZ4b2Z3NU5Iak4tV2hIU0YwMUlIMnhxempkY0ZURG5qNnpyU3FaMlN0WFNwZHp1Wl8yVW1WdHVaeEhYdzNkNTFEOG9zSGVEb1NGNnA5RU5YWG9qMjFXYlZMakNsRUhaSjV0cW9MT1p6eG80X25VSDZfZDExbnlRVWUzbQ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-12T07:17:00+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "UPM (HLSE:UPM) Stock Could Be 44% Below Fair Value Despite Joint Venture Review News",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPb2UtRk5LdEdDQTVTQXRBUHdLZk9Fc3VtbElqZG9td2tQZUwtWVE5VDZRdmU4VnNCM2xmRFRqSnJkX1NEVHNlMWdicWp6QWM2eEZId1JaWHJTMVZqVGZEaV9ZRTczSldjcmdpTDFuQ094ektHaERmM2xfanhoVUI2dFh2MzJIWEE1WHNkQUtmQzJnbE0?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-12T07:16:33+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "UK economy grows by 0.7% in third quarter despite high oil prices",
-    "url": "https://www.theguardian.com/business/2026/nov/12/uk-economy-grows-third-quarter-oil-price-ons-gdp",
-    "source": "The Guardian",
-    "published": "2026-11-12T07:07:36+00:00",
-    "lede": "ONS also says GDP rose 0.2% month on month in September, in a boost to the chancellor, John Healey The UK economy grew by 0.7% in the third quarter, as expected by City analysts, confirming that consumers and businesses…",
-    "lang": "en"
    },
    {
     "title": "Gas bills to rise as Middle East turmoil persists",
@@ -134,6 +134,14 @@
   ],
   "il": [
    {
+    "title": "דיווח: המאהבת של מנכ\"ל אנבידיה נמלטה לבייג'ינג",
+    "url": "https://finance.walla.co.il/item/3875969",
+    "source": "וואלה",
+    "published": "2026-11-12T11:17:00+00:00",
+    "lede": "אליס הואנג שבה לסין ושוהה בבירה בידיעת גורמי הביטחון, כך לפי סוכנות הידיעות בלומברג. ברקע: חקירת דירקטוריון ודרישה אמריקנית להסברים",
+    "lang": "he"
+   },
+   {
     "title": "השווקים רועדים: יותר מ-2 טריליון דולר נמחקו, אנבידיה ממשיכה לצנוח",
     "url": "https://finance.walla.co.il/item/3875956",
     "source": "וואלה",
@@ -142,35 +150,35 @@
     "lang": "he"
    },
    {
-    "title": "הדרמה שתכניס סקטור שלם למתח, והמניה שמגיעה היום לת\"א: חמישה דברים לקראת פתיחת המסחר",
+    "title": "הבורסה עוברת למגמה חיובית, מניית דלתא גליל מזנקת לאחר הדוחות",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001563097#utm_source=RSS",
     "source": "גלובס",
-    "published": "2026-11-12T07:37:00+00:00",
-    "lede": "המסחר בבורסה המקומית ייפתח ברקע גל המימושים במניות הטכנולוגיה",
+    "published": "2026-11-12T08:47:00+00:00",
+    "lede": "לאחר פתיחה מעורבת, המסחר באחוזת בית התהפך לעליות",
     "lang": "he"
    },
    {
-    "title": "עוד חוזה ענק לאלביט באירופה: תספק מערכות ארטילריה למדינת נאט\"ו ב-260 מיליון דולר",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001563148#utm_source=RSS",
+    "title": "הדרמה באנבידיה מרעידה את השווקים: ירידות באסיה ובחוזים, פתיחה חיובית באירופה",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001563101#utm_source=RSS",
     "source": "גלובס",
-    "published": "2026-11-12T07:11:00+00:00",
-    "lede": "החברה הביטחונית ממשיכה ברצף הזכיות ומדווחת על חוזה נוסף, הפעם לאספקת מערכות השיגור הרקטיות PULS למדינה אירופית בברית נאט\"ו (ששמה לא פורסם) בפריסה ל-5 שנים",
+    "published": "2026-11-12T08:27:00+00:00",
+    "lede": "מניית אנבידיה צוללת בפרנקפורט בעקבות דיווחים על הדחתו האפשרית של המנכ\"ל ג'נסן הואנג",
     "lang": "he"
    },
    {
-    "title": "ניצלה את הנפילה אחרי הדוחות: קרן כהן חזון רכשה מניות תורפז ב-11 מיליון שקל",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001562930#utm_source=RSS",
+    "title": "אפי נכסים מכרה רק 4 דירות בלנדמרק ברבעון, אך הרווח הנקי טיפס ב-15%",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001563153#utm_source=RSS",
     "source": "גלובס",
-    "published": "2026-11-12T06:54:00+00:00",
-    "lede": "מנכ\"לית ובעלת השליטה ביצרנית תמציות הטעמים ניצלה ירידה של מעל 40% מהשיא, כדי לרכוש מניות",
+    "published": "2026-11-12T08:15:00+00:00",
+    "lede": "בחברת הנדל\"ן המניב מסבירים כי הגידול נבע בעיקר משיפור בתוצאות של נכסים קיימים ומפרויקטים חדשים באירופה שהחלו להניב",
     "lang": "he"
    },
    {
-    "title": "הבינלאומי: ראש החטיבה הקמעונאית רון גריסרו יפרוש מהבנק",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001563144#utm_source=RSS",
+    "title": "מדיסקונט לביטוח ישיר: אסף אלדר ימונה למנכ\"ל החברה",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001563154#utm_source=RSS",
     "source": "גלובס",
-    "published": "2026-11-12T06:34:00+00:00",
-    "lede": "גל עזיבות הבכירים במערכת הבנקאית נמשך: רון גריסרו, ראש החטיבה הקמעונאית בבנק הבינלאומי, פורש מתפקידו לאחר כעשור בקבוצה",
+    "published": "2026-11-12T07:50:00+00:00",
+    "lede": "עזיבתו של אסף אלדר לטובת תפקיד מנכ\"ל ביטוח ישיר, מצטרפת לשורת פרישות של בכירים מהבנקים בשבועות האחרונים, על רקע טלטלות בענף והיערכות לתחרות גוברת מצד שחקנים דיגיטליים חדשים",
     "lang": "he"
    },
    {
@@ -188,30 +196,22 @@
     "published": "2026-11-11T20:56:00+00:00",
     "lede": null,
     "lang": "he"
-   },
-   {
-    "title": "המניה שזינקה ב-10% - והקפיצה את אנבידיה",
-    "url": "https://finance.walla.co.il/item/3875892",
-    "source": "וואלה",
-    "published": "2026-11-11T19:06:00+00:00",
-    "lede": "קורווייב הפתיעה את וול סטריט, הרגיעה את חששות בועת ה-AI והציתה ראלי חיובי בסקטור הניאו-קלאוד שחטף מכות קשות בתקופה האחרונה",
-    "lang": "he"
    }
   ],
   "geo": [
+   {
+    "title": "Ireland faces pressure to stop sending Russia an ingredient vital to its war on Ukraine",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQc2lvZUtOMFJMUFh0VlBpdnZObEJBZHNSSmNzOENBaDhrRElabllhNWo2bGV5QTNtbGZsZnpIQWpPSy1helVnWWxjRHB3emtzWm02bHpmS2xyM3JTM1NIc3pHQ0FZek1NQ1dLbWZJZWoteE9YYUp0SndXMFMtWlVKSlZuUWRob0RGbzZYQlpfWV8zbFBwRk1lVEdDTkoxOUxrWVdUVGgzMA?oc=5",
+    "source": "AP News",
+    "published": "2026-11-12T08:23:00+00:00",
+    "lede": null,
+    "lang": "en"
+   },
    {
     "title": "COMMENTARY: Just like the US, Iran has squandered its good options to end the war",
     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNbjNkU1dtRi1ZR0lyQmplWGZON1QwakF5Wk82UzhRSzR6ZlJfVFlpTkJLWEVBdGFsc21GbEVNMURkRDhaWm9tRHhwZGhUclFxXzdzUlZUU0VUYi10U1MtVzF5djhHNFVCSEhUa1dMN0pvWjktV2JQVGJTa01lSl9lM1RkY1RGdmJmOWVGUkd6MUw2WjBDZ0NPQ3pfYzh2ZXkwNDF3YXppNlBIcEhIUWlQcVhoZXpEOUZpNXYzZHVrdlVybVYz?oc=5",
     "source": "Reuters",
     "published": "2026-11-12T07:25:25+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Pride as Martlesham Heath war memorials are granted listed status",
-    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOZUdMamdmZ0x0ZGxkUmZkeFAtYmdjYnhqU1ZLbVZNaU1fajByWDRNZEk0LUxsS05RNFBvNHhCSEVCdFYwb3FST0k4TVN1WlBFWUE2YjBya1JQWkF4SXZfRERqQ3RVLUVSN21GWTR3Sl9uN0d3WnJRTHBkaE5PUWZpekFLbml1bmZzMVJJOTVhd0VHUHVJd0VZVkJaaTZvREdRcm5EelpOdWFDMGM1cE1qYUhfc0tlNldNVFloWXFXdHFVX1c4eGlBOVR3OURuSEc3dkxNOUdSUy1tcHVYa3FXVXhRQQ?oc=5",
-    "source": "BBC",
-    "published": "2026-11-12T06:45:15+00:00",
     "lede": null,
     "lang": "en"
    }
