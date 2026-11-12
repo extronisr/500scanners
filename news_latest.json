@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-12T02:01:00.730174+02:00",
+ "generated_at": "2026-11-12T03:01:09.405077+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -52,26 +52,34 @@
   ],
   "us": [
    {
-    "title": "Nvidia's stock dives as board weighs move to oust Jensen Huang",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOM3V6b0VlNWlnYlE5aTlJNUVKeU9WUXQyVFBxUGIwYldCd3EzczdrbFdXazVxUi1KblpZM1NTaFlmM29WWl9yV0ZSaWdGcHlVWGdyMmlnVVR4WEZVQ2pKRldibDlrTWhWVGZwbEppeEJfbmNxOENGOU00dXJVQU1xSFdGMlp2V21LYXJEZzhPRG5JeF9lZjVkbkxWMG1wQQ?oc=5",
+    "title": "Nvidia’s stock drops as the board reportedly prepares to remove CEO Jensen Huang",
+    "url": "https://www.marketwatch.com/story/nvidias-stock-drops-as-the-board-reportedly-prepares-to-remove-ceo-jensen-huang-9edee58d?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-12T00:57:00+00:00",
+    "lede": "Nvidia’s board of directors reportedly could meet as soon as today to determine the CEO’s fate.",
+    "lang": "en"
+   },
+   {
+    "title": "Nexteer Announces First Share Repurchase Program of Up to US$60 Million",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPck5kWkYyTVZhUjlyUlJkSjdNbHAxbWtLQXJkZUhJbmJ1Y0lMamlOYnhQSHdQQjZfSGJNR05SN3hIVWxsSVZ6YXBWeFRmY0VGdUFxcHRMYVRrcVViYnFtYmZvdGRnY0NDM1FQU3BVQWVmNzRPSVkwUmotTHRwSThucm5aOG5hakdoMDlNM3NiTlJOSFBCRlh6eWFJbnk3YWNCTUNvcHUxdGo?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-11T23:42:15+00:00",
+    "published": "2026-11-12T00:51:28+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Costco’s $30-per-share special dividend means just 3 shares could cover your $65 membership. But there’s a catch",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNU1XWlFxZWMyYTg0NHd3by15cjhlX3FBQXhnaFpiT2JXRXR2VVRLQmZsbUJVN2Fmd3lJMTdpRUhQNUpNcC1uLUUtYUlnS00yQVZhSVFDWHgtbm9oajE4ZlktcHFvQWZJRVlZZ1hNYmxsQmZaMHFOdHVxZUhIVkN1RmhkY05KaVRsb0lNdFdCVUNkSWI4QmNn?oc=5",
+    "title": "Novo Nordisk (CPSE:NOVO B) Stock Still Looks Undervalued As Shares Fell 56%",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQYUJpbmZ6Qzh5NXQxbTZ5dnVsZkxKdFNaU0tYY21PVThHQ2gyS3Flb1ducVhNMnBJT3Ffc0gyUXNMcUxoRGxoaGRXVTlwTHVreTJ0ZUlZRGZQQ1lOX0tvXzBsRFlBYjhrWDByV1lxRFdXYlNYd2JtUTZMdVNqU3hMbVZqT2c1U0NUMnBqSzc1bXRyUzA?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-11T23:30:00+00:00",
+    "published": "2026-11-12T00:49:41+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "What Is The True Hidden Price Of Axon Stock?",
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOdUhaZV95eHlTU3otWlhHNkV6NkwwQlNPRzlpVlY4eGZvXy0wbmlzcnZ3N0ZYVGxkYVdrYU1Gai1yblY1dG1MNUJwcmxjTGF6R0JzXzV3SmJlVHJCeVVfRGNvVGVpcE5heDRWWVoyZ2tvQUZmbE84SFZkOHRtVVVJc0lFamVVcGxXQnY3Y29CZ0xMVWxUcDZWNw?oc=5",
+    "title": "Onto Innovation (ONTO) Stock Fair Value Falls After Analysts Cut Targets On Lower Multiples",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNTXRlQ2NhUTUwa2hQZHkwR3lOeHVLd052Q2NtUXVxTmJVRVIxYWlzT2g1bEVGQUU2OEZlLWFTWkp1VGJyQ0R0TDgwQjhMenM5Z0dlY3I3UWFRTHlqZ196SjlfNHVMMGFobDRyaFdNTHZXLW8wOUloMGFpajVxSC1GbzlFTm1nMV95RXY3bTM1NFpPMW5OSElRVjBHZks?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-11T23:26:28+00:00",
+    "published": "2026-11-12T00:44:41+00:00",
     "lede": null,
     "lang": "en"
    },
@@ -89,14 +97,6 @@
     "source": "MarketWatch",
     "published": "2026-11-11T21:55:00+00:00",
     "lede": "Pack-ripping apps are changing the way people buy and sell cards. But analysts say their “slot-like payoff” raises risks.",
-    "lang": "en"
-   },
-   {
-    "title": "Falling oil prices are no longer enough to bring down borrowing costs in the world’s most important bond market",
-    "url": "https://www.marketwatch.com/story/falling-oil-prices-are-no-longer-enough-to-bring-down-borrowing-costs-in-the-worlds-most-important-bond-market-3176d25a?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-11T21:42:00+00:00",
-    "lede": "The tight trading relationship between oil prices and Treasury yields has broken down. It’s a sign that inflation concerns are extending beyond the energy shock.",
     "lang": "en"
    },
    {
@@ -124,11 +124,11 @@
     "lang": "en"
    },
    {
-    "title": "Prediction markets tied to clinical trials and drug approvals draw lawmakers' ire",
-    "url": "https://www.cnbc.com/2026/11/11/kalsi-polymarket-prediction-market-senators-hhs-drug-approval.html",
-    "source": "CNBC",
-    "published": "2026-11-11T19:16:23+00:00",
-    "lede": "Sens. Angela Alsobrooks and Ron Wyden are asking what steps the Department of Health and Human Services has taken to mitigate risks from the markets.",
+    "title": "BYD: The World Is Buying Its Cars, But The Market Isn't Buying Its Stock (Rating Upgrade)",
+    "url": "https://seekingalpha.com/article/4966714-byd-the-world-is-buying-its-cars-but-the-market-isnt-buying-its-stock-upgrade?source=feed_all_articles",
+    "source": "Seeking Alpha",
+    "published": "2026-11-11T19:18:40-05:00",
+    "lede": null,
     "lang": "en"
    }
   ],
@@ -188,22 +188,14 @@
     "published": "2026-11-11T12:16:00+00:00",
     "lede": "למרות הכנסות שיא של 96 מיליארד דולר, ענקית השבבים סופגת מכה קשה בבורסה - ומאבדת מעל 470 מיליארד דולר בתוך יומיים בלבד. ברקע: חששות ממימוני עתק סיבוביים, ירידה בתשתיות, וחקירת הדירקטוריון בעקבות פרשת הרומן של המנכ\"ל…",
     "lang": "he"
-   },
-   {
-    "title": "נעילה שלילית: ת\"א 35 ירד 1%, הבנקים נפלו 3.6%; מניית הבורסה צנחה 9.2%, נאייקס עלתה 6.3%",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBjUk1WdGtwTlNMRWJCdEw0YU9yZnZBcURzV1VRN3VzNXZKZmNXS2MtWWt1UWc0blZwbUE5ZXVqN3ZsbDE2UHl1QTJtNmdLRk4xOU1taE9NZGZISHZoMi1nblBRYUNuWFdpOUJqNkhPMHI?oc=5",
-    "source": "ביזפורטל",
-    "published": "2026-11-11T04:12:00+00:00",
-    "lede": null,
-    "lang": "he"
    }
   ],
   "geo": [
    {
-    "title": "Hegseth and team reprimanded by Army guard at solemn war memorial",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4xS1l3eVdMTDdpeVFYejJObnEzZ1JHYjRVckdPbXdSRjJLdGV2SHlQZzRpcklOWlZSZS14dFlHRUp0aW91VDNsOU9iNWpKRGYxQkJ0a1lWam5SZ28?oc=5",
-    "source": "BBC",
-    "published": "2026-11-11T22:55:55+00:00",
+    "title": "Rare IPO Bets on End of War and Economic Crisis in Myanmar",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPRXVwSFlRMDFvZUxBSGFlTEhzNHo4ckhWRFRhaklISWNYZ2x1RTVsZ2Nxa3ZjeEVnTWhFOHNDNjd5d1hyQllRQmNUb0kxZElNLU9YdWtCd2dza1ZZNWlHeWpJdEpYLXFlbl83blE5cS05QVYxVkY2dUZ3cTdPZTlZbldOLXJJNE5DRnk5ZzdzYXR5UDFtNHBlU25sUEhFREpDYlNqUGFlTWd6ekF4c0E?oc=5",
+    "source": "Bloomberg",
+    "published": "2026-11-12T00:00:00+00:00",
     "lede": null,
     "lang": "en"
    },

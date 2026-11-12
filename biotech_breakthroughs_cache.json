@@ -1,5 +1,5 @@
 {
- "fetched_at": "12.11.2026, 2:34",
+ "fetched_at": "12.11.2026, 3:04",
  "items": [
   {
    "title": "FDA approves new stroke drug aimed at preventing repeat attacks - cbs19.tv",
@@ -4025,24 +4025,6 @@
    "ncts": []
   },
   {
-   "title": "FDA approves generic Carbamazepine (Adaptis)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=218447",
-   "pub_ts": 1793577600.0,
-   "date": "2.11.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=218447"
-    }
-   ],
-   "ncts": []
-  },
-  {
    "title": "FDA approves generic Methylprednisolone Acetate (Gland)",
    "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219662",
    "pub_ts": 1793577600.0,
@@ -4094,6 +4076,24 @@
     {
      "source": "FDA · openFDA",
      "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=208522"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA approves generic Carbamazepine (Adaptis)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=218447",
+   "pub_ts": 1793577600.0,
+   "date": "2.11.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=218447"
     }
    ],
    "ncts": []
@@ -4356,6 +4356,28 @@
    "ncts": [
     "NCT00662740"
    ]
+  },
+  {
+   "title": "How Phase 2 Cancer Trial Data At Tyra Biosciences (TYRA) Has Changed Its Investment Story - Yahoo Finance Singapore",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5OS0l0WGtyVFM0M2poazlRMDhnQzhhWTdkZ1Z5aVA0dXdwSDNmUUdfcDhid0xfQUZ3TlZfcnFrTlB4dFpWWWRFU1Myb1ZTVkFMeVBjb1A4aGhtY0xnZmxFLUdsdnotMlVBWDN3Z095dUdMN01pM3lTQmFvdTJhcHc?oc=5",
+   "pub_ts": 1794442980.0,
+   "date": "12.11.2026, 2:23",
+   "cat": "phase2",
+   "sev": 1,
+   "dir": 0,
+   "tickers": [
+    "TYRA"
+   ],
+   "companies": [
+    "TYRA"
+   ],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5OS0l0WGtyVFM0M2poazlRMDhnQzhhWTdkZ1Z5aVA0dXdwSDNmUUdfcDhid0xfQUZ3TlZfcnFrTlB4dFpWWWRFU1Myb1ZTVkFMeVBjb1A4aGhtY0xnZmxFLUdsdnotMlVBWDN3Z095dUdMN01pM3lTQmFvdTJhcHc?oc=5"
+    }
+   ],
+   "ncts": []
   },
   {
    "title": "Immutep Reports Encouraging Survival Data From Phase 2 Cancer Trial - Benzinga",
