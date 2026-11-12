@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-12T03:01:09.405077+02:00",
+ "generated_at": "2026-11-12T04:01:05.705471+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -52,35 +52,43 @@
   ],
   "us": [
    {
+    "title": "3 UK Dividend Stocks Built For Sticky Inflation",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOSGJqTENpVFUtQ0xMUHE1czhaU1VoN1RsOExQU2MyX2ZzSl8wNjV0U3RGUWtMS2h4UnhvNU54NWd3X3RKMkl3bm9LQjRKTlpRTUZkQUVOUXhZU21JRFg0dmlva0RuRDF0NUlteXZkUkJZTEgzZUcwY2ROZXJaU28wSjZ2OGF3dTM5Q3I5ZVRtNjVLMGJ5Mnc?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-12T01:52:30+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Tower Semiconductor (TSEM) Stock Could Be Priced About Right On Earnings",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQdXROSExPc3hkS3V5VzZvTU9vWDBaWVpubkJJTHdDamlsLVBDMGFrTzFPQmdoUFhqa29COVlQLUtCZDNnT0RBWmUtZ3Y0N0dqTEVuYUlmMUhyYUxRZFZ0ZkNCdnZzdEZSblQ2VTBxRU1VVWNTdU9QMWNGc1ZxX2VockFUaENBaU9EdG55cmJiclcyOGY2M2ZMZktraWVyS1pZSEpn?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-12T01:51:16+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Asian Stocks Set to Gain on Renewed US Tech Rally: Markets Wrap",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPYmF2Z05ObnRwSVdvWGJrWC1XZlIzVXlYMTV3eVRwQWlScGY3TGpuamVOTEpremJZQnhJU3hkOWl2ck4xNFdzQWM1VTh2OEVBQ3FCTzNiYThfOTlzSHpqX0hHeWQ3dzZTcnRsVzYtMzFWeElmZVdVWUdQcnhIbEp1SS1lejVoM2Y1OGdScGpLbzJPVWhk?oc=5",
+    "source": "Bloomberg",
+    "published": "2026-11-12T01:41:00+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
     "title": "Nvidia’s stock drops as the board reportedly prepares to remove CEO Jensen Huang",
     "url": "https://www.marketwatch.com/story/nvidias-stock-drops-as-the-board-reportedly-prepares-to-remove-ceo-jensen-huang-9edee58d?mod=mw_rss_topstories",
     "source": "MarketWatch",
-    "published": "2026-11-12T00:57:00+00:00",
+    "published": "2026-11-12T01:35:00+00:00",
     "lede": "Nvidia’s board of directors reportedly could meet as soon as today to determine the CEO’s fate.",
     "lang": "en"
    },
    {
-    "title": "Nexteer Announces First Share Repurchase Program of Up to US$60 Million",
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPck5kWkYyTVZhUjlyUlJkSjdNbHAxbWtLQXJkZUhJbmJ1Y0lMamlOYnhQSHdQQjZfSGJNR05SN3hIVWxsSVZ6YXBWeFRmY0VGdUFxcHRMYVRrcVViYnFtYmZvdGRnY0NDM1FQU3BVQWVmNzRPSVkwUmotTHRwSThucm5aOG5hakdoMDlNM3NiTlJOSFBCRlh6eWFJbnk3YWNCTUNvcHUxdGo?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-12T00:51:28+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Novo Nordisk (CPSE:NOVO B) Stock Still Looks Undervalued As Shares Fell 56%",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQYUJpbmZ6Qzh5NXQxbTZ5dnVsZkxKdFNaU0tYY21PVThHQ2gyS3Flb1ducVhNMnBJT3Ffc0gyUXNMcUxoRGxoaGRXVTlwTHVreTJ0ZUlZRGZQQ1lOX0tvXzBsRFlBYjhrWDByV1lxRFdXYlNYd2JtUTZMdVNqU3hMbVZqT2c1U0NUMnBqSzc1bXRyUzA?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-12T00:49:41+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Onto Innovation (ONTO) Stock Fair Value Falls After Analysts Cut Targets On Lower Multiples",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNTXRlQ2NhUTUwa2hQZHkwR3lOeHVLd052Q2NtUXVxTmJVRVIxYWlzT2g1bEVGQUU2OEZlLWFTWkp1VGJyQ0R0TDgwQjhMenM5Z0dlY3I3UWFRTHlqZ196SjlfNHVMMGFobDRyaFdNTHZXLW8wOUloMGFpajVxSC1GbzlFTm1nMV95RXY3bTM1NFpPMW5OSElRVjBHZks?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-12T00:44:41+00:00",
-    "lede": null,
+    "title": "Nasdaq futures fall as Nvidia sinks 8% after hours on report board may oust Huang",
+    "url": "https://www.marketwatch.com/story/nasdaq-futures-fall-as-nvidia-sinks-8-after-hours-on-report-board-may-oust-huang-e99b898d?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-12T01:12:00+00:00",
+    "lede": "Stock futures were sliding Wednesday evening as a selloff in shares of Nvidia after the closing bell weighed on the Nasdaq-100 and dragged down shares of other chip makers.",
     "lang": "en"
    },
    {
@@ -89,14 +97,6 @@
     "source": "CNBC",
     "published": "2026-11-11T22:30:57+00:00",
     "lede": "U.S.-Canada trade tensions persist as Trump's tariffs drive up costs, threaten investment and complicate negotiations between the two countries.",
-    "lang": "en"
-   },
-   {
-    "title": "Opening trading-card packs has become a $2 billion market. New apps are trying to cash in.",
-    "url": "https://www.marketwatch.com/story/opening-trading-card-packs-has-become-a-2-billion-market-new-apps-are-trying-to-cash-in-b7ba11f5?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-11T21:55:00+00:00",
-    "lede": "Pack-ripping apps are changing the way people buy and sell cards. But analysts say their “slot-like payoff” raises risks.",
     "lang": "en"
    },
    {
@@ -116,19 +116,19 @@
     "lang": "he"
    },
    {
+    "title": "Cryptocurrencies: Bitcoin Down 5% This Week",
+    "url": "https://seekingalpha.com/article/4966730-cryptocurrencies-bitcoin-down-5-percent-this-week?source=feed_all_articles",
+    "source": "Seeking Alpha",
+    "published": "2026-11-11T20:05:00-05:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
     "title": "Social Security could pay full benefits until 2059 if taxable payroll kept pace with GDP: AARP report",
     "url": "https://www.cnbc.com/2026/11/11/social-security-benefits-taxable-payroll-gdp.html",
     "source": "CNBC",
     "published": "2026-11-11T19:54:27+00:00",
     "lede": "An aging work force is not the only reason Social Security's trust funds now have a looming shortfall, according to AARP Public Policy Institute research.",
-    "lang": "en"
-   },
-   {
-    "title": "BYD: The World Is Buying Its Cars, But The Market Isn't Buying Its Stock (Rating Upgrade)",
-    "url": "https://seekingalpha.com/article/4966714-byd-the-world-is-buying-its-cars-but-the-market-isnt-buying-its-stock-upgrade?source=feed_all_articles",
-    "source": "Seeking Alpha",
-    "published": "2026-11-11T19:18:40-05:00",
-    "lede": null,
     "lang": "en"
    }
   ],
@@ -200,10 +200,10 @@
     "lang": "en"
    },
    {
-    "title": "Iran designates Argentinian navy, air force as ‘terrorist organisations’",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPU1JnTFFmNEhBMUZqLTR2VjFZcWJ0M3JSdlktbXJtRHZ4M0NYZThVaEpET2NDejNWU3RtLXpkV1dJdUI0VEhNSjFfS2libTZFM2NJc18tOVM2Tmp2eDBTR1luYnM3N2YwbGl3T1A1T0lsS29idmR1ZllySkN1NnhRTWJKMk5jM2otaU1iNkZHS0tITW9nekJWOVFFRGlKQdIBowFBVV95cUxOaDNsQ3puN21rdG5SVmVCdllib2Y1ZEhsNld2ZkNtdkYyNWlrQm1fUkRtT2FzVjV4VTdzS09sZXYtRUFNNnhNUjBTSkxqTndiVU9hazFLX0txQ1NvQmFPSEI0OFJvQzIyWmRZUEVRSWZWSVBsVVE4akx6VW5KdW5WVHN4cE5uMlplSG9wNVI2WjhVQ3Q4NWRXdlBJSUZ1SmNVdFZF?oc=5",
-    "source": "Al Jazeera",
-    "published": "2026-11-11T22:50:47+00:00",
+    "title": "Hegseth and team reprimanded by Army guard at solemn war memorial",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4xS1l3eVdMTDdpeVFYejJObnEzZ1JHYjRVckdPbXdSRjJLdGV2SHlQZzRpcklOWlZSZS14dFlHRUp0aW91VDNsOU9iNWpKRGYxQkJ0a1lWam5SZ28?oc=5",
+    "source": "BBC",
+    "published": "2026-11-11T22:55:55+00:00",
     "lede": null,
     "lang": "en"
    }
