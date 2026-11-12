@@ -1,5 +1,5 @@
 {
- "fetched_at": "13.11.2026, 0:04",
+ "fetched_at": "13.11.2026, 0:29",
  "items": [
   {
    "title": "VeonGen on track for phase 3 Stargardt trial after FDA meeting - Glance by Eyes On Eyecare",
@@ -4345,6 +4345,27 @@
    "ncts": [
     "NCT00662740"
    ]
+  },
+  {
+   "title": "Regeneron Reports Phase 2 PINNACLE Data Show Baloncibart Improved Heart Rate Response and Symptoms in POTS - Quiver Quantitative",
+   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQWVRBSWJ3cTI2TTFyX3MxTW9ucHJYM1BnbW5MY3RTNUpOS09nV1habWdGT21ob1V4dVBFcU5iWjFSVW42NmZqQ0JCUHZtaDQyeHRvUG5wQ29JeU5mM3ZfRDluR1dHRlNTTVJpcUI0NThhOWtNOUwzbFdwNGtWbUVIaEhXVE5uRkJuS3FZVXhhcEtyUS04R1BTejdNb0RGUVFiZlVtU2tueHY4RHl3bm1zSEdLTERtX000djBGb0lSRzN4RmhPdEdZUWw1ZGJTTS1xMURMZmln?oc=5",
+   "pub_ts": 1794521460.0,
+   "date": "13.11.2026, 0:11",
+   "cat": "phase2",
+   "sev": 1,
+   "dir": 0,
+   "tickers": [],
+   "companies": [
+    "REGN",
+    "PNW"
+   ],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQWVRBSWJ3cTI2TTFyX3MxTW9ucHJYM1BnbW5MY3RTNUpOS09nV1habWdGT21ob1V4dVBFcU5iWjFSVW42NmZqQ0JCUHZtaDQyeHRvUG5wQ29JeU5mM3ZfRDluR1dHRlNTTVJpcUI0NThhOWtNOUwzbFdwNGtWbUVIaEhXVE5uRkJuS3FZVXhhcEtyUS04R1BTejdNb0RGUVFiZlVtU2tueHY4RHl3bm1zSEdLTERtX000djBGb0lSRzN4RmhPdEdZUWw1ZGJTTS1xMURMZmln?oc=5"
+    }
+   ],
+   "ncts": []
   },
   {
    "title": "Brepocitinib improved cutaneous sarcoidosis activity compared to placebo in phase II of BEACON trial. - 2 Minute Medicine",
