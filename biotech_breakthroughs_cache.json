@@ -1,5 +1,5 @@
 {
- "fetched_at": "12.11.2026, 1:34",
+ "fetched_at": "12.11.2026, 2:05",
  "items": [
   {
    "title": "FDA Approves Cancer Drugs for Head and Neck, Pancreatic Cancers - 조선일보",
@@ -2005,24 +2005,6 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOZHhYWl84M3lUNHlaNXpuYzVUU092WVhiY1c4NGFrNWNnUW5qR0hNTnBaUmlyMHFuZzBPS3RFVkdnYlUyN3pyYXlJQTFSZERfZlBnVmhodW9EUDhtLTl1ZEp2S0k4VWtNc0ZZd1M3OW1QNEhJVmdDb2M4bFFnQ29xd0VBM0czSWpIQXFHQVY5M1o5V3pfVkVWYzBBVi1oNmRHVzhXT0JaRGFyaXNxdTltRERLUGk2SDVtR1BNNVpNb2ZkXzRFcU5lbGZYMjJlTVVBVUxZb005dEc1RUstczNZ?oc=5"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "FDA approves Axycis (Avyxa Holdings, Llc.)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220748",
-   "pub_ts": 1793232000.0,
-   "date": "29.10.2026",
-   "cat": "fda",
-   "sev": 4,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220748"
     }
    ],
    "ncts": []
@@ -4318,24 +4300,6 @@
    "ncts": []
   },
   {
-   "title": "FDA approves generic Calcitonin-Salmon (Nanjing King Friend)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=216996",
-   "pub_ts": 1793232000.0,
-   "date": "29.10.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=216996"
-    }
-   ],
-   "ncts": []
-  },
-  {
    "title": "ARTEMIS: Ravulizumab to Protect Patients With CKD From CSA-AKI and MAKE",
    "link": "https://clinicaltrials.gov/study/NCT05746559",
    "pub_ts": 1793232000.0,
@@ -4373,115 +4337,6 @@
    ],
    "ncts": [
     "NCT00662740"
-   ]
-  },
-  {
-   "title": "An Extension Study to Evaluate the Long-term Safety and Efficacy of Pegcetacoplan (APL-2) in Subjects With Geographic Atrophy Secondary to AMD",
-   "link": "https://clinicaltrials.gov/study/NCT04770545",
-   "pub_ts": 1793145600.0,
-   "date": "2026-10-28",
-   "cat": "phase3",
-   "sev": 2,
-   "dir": 0,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT04770545"
-    }
-   ],
-   "ncts": [
-    "NCT04770545"
-   ]
-  },
-  {
-   "title": "Evaluation of Rifaximin SSD for Delaying Encephalopathy Decompensation in Patients With Cirrhosis",
-   "link": "https://clinicaltrials.gov/study/NCT05297448",
-   "pub_ts": 1793145600.0,
-   "date": "2026-10-28",
-   "cat": "phase3",
-   "sev": 2,
-   "dir": 0,
-   "tickers": [],
-   "companies": [
-    "BHC"
-   ],
-   "sources": [
-    {
-     "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT05297448"
-    }
-   ],
-   "ncts": [
-    "NCT05297448"
-   ]
-  },
-  {
-   "title": "Follow-up of the EPITOPE Study to Evaluate Long-term Efficacy and Safety of DBV712 in Young Children",
-   "link": "https://clinicaltrials.gov/study/NCT03859700",
-   "pub_ts": 1793145600.0,
-   "date": "2026-10-28",
-   "cat": "phase3",
-   "sev": 2,
-   "dir": 0,
-   "tickers": [],
-   "companies": [
-    "DBVT"
-   ],
-   "sources": [
-    {
-     "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT03859700"
-    }
-   ],
-   "ncts": [
-    "NCT03859700"
-   ]
-  },
-  {
-   "title": "A Study to Evaluate Astegolimab in Participants With Chronic Obstructive Pulmonary Disease",
-   "link": "https://clinicaltrials.gov/study/NCT05595642",
-   "pub_ts": 1793145600.0,
-   "date": "2026-10-28",
-   "cat": "phase3",
-   "sev": 2,
-   "dir": 0,
-   "tickers": [],
-   "companies": [
-    "RHHBY"
-   ],
-   "sources": [
-    {
-     "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT05595642"
-    }
-   ],
-   "ncts": [
-    "NCT05595642"
-   ]
-  },
-  {
-   "title": "Efficacy and Safety of Erenumab in Pediatric Subjects With Chronic Migraine",
-   "link": "https://clinicaltrials.gov/study/NCT03832998",
-   "pub_ts": 1793145600.0,
-   "date": "2026-10-28",
-   "cat": "phase3",
-   "sev": 2,
-   "dir": 0,
-   "tickers": [],
-   "companies": [
-    "AMGN",
-    "NVS"
-   ],
-   "sources": [
-    {
-     "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT03832998"
-    }
-   ],
-   "ncts": [
-    "NCT03832998"
    ]
   },
   {
@@ -5622,90 +5477,6 @@
    ],
    "ncts": [
     "NCT06341712"
-   ]
-  },
-  {
-   "title": "A Study to Assess Long-term Safety of Tazemetostat in Adult Participants of All Ages With Any Disease Treated With Tazemetostat in a Previous Clinical Study",
-   "link": "https://clinicaltrials.gov/study/NCT02875548",
-   "pub_ts": 1793145600.0,
-   "date": "2026-10-28",
-   "cat": "phase2",
-   "sev": 1,
-   "dir": 0,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT02875548"
-    }
-   ],
-   "ncts": [
-    "NCT02875548"
-   ]
-  },
-  {
-   "title": "Pegzilarginase and Pembrolizumab for Extensive Disease Small Cell Lung Cancer",
-   "link": "https://clinicaltrials.gov/study/NCT03371979",
-   "pub_ts": 1793145600.0,
-   "date": "2026-10-28",
-   "cat": "phase2",
-   "sev": 1,
-   "dir": 0,
-   "tickers": [],
-   "companies": [
-    "MRK"
-   ],
-   "sources": [
-    {
-     "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT03371979"
-    }
-   ],
-   "ncts": [
-    "NCT03371979"
-   ]
-  },
-  {
-   "title": "A Study of CT-868 in Type 1 Diabetes Mellitus",
-   "link": "https://clinicaltrials.gov/study/NCT06062069",
-   "pub_ts": 1793145600.0,
-   "date": "2026-10-28",
-   "cat": "phase2",
-   "sev": 1,
-   "dir": 0,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT06062069"
-    }
-   ],
-   "ncts": [
-    "NCT06062069"
-   ]
-  },
-  {
-   "title": "A Study to Evaluate AZD2693 in Participants Who Are Carriers of the PNPLA3 148M Risk Allele With Non-cirrhotic Non-alcoholic Steatohepatitis With Fibrosis",
-   "link": "https://clinicaltrials.gov/study/NCT05809934",
-   "pub_ts": 1793145600.0,
-   "date": "2026-10-28",
-   "cat": "phase2",
-   "sev": 1,
-   "dir": 0,
-   "tickers": [],
-   "companies": [
-    "AZN"
-   ],
-   "sources": [
-    {
-     "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT05809934"
-    }
-   ],
-   "ncts": [
-    "NCT05809934"
    ]
   }
  ]
