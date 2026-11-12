@@ -1,5 +1,5 @@
 {
- "fetched_at": "12.11.2026, 23:04",
+ "fetched_at": "12.11.2026, 23:35",
  "items": [
   {
    "title": "VeonGen on track for phase 3 Stargardt trial after FDA meeting - Glance by Eyes On Eyecare",
@@ -15,6 +15,30 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdFE5OFJNaWtDaFB0U1VvTGVyOWJpMzBzN1VqMEJiN0NoUENtVmpvbVpySU5uRWtNWEExQVdyeUEzS3Z1WElkVnZWUExORmk5TmdBTC1sMUc0ZVBFOXA2SEMxSjNzZlczOTRWeG1VR1RDMloyZnZ1a1ZNR3J0Q3JXc0w4aHU5bFRSZ0VIMWROY2xodE9iX2lDRkotNnpTbFVmWXNjbGxmSzhDWDNXQXlxODZVS3VjUQ?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "Abbott’s defibrillation lead lands FDA approval and CE mark - MedTech Dive",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQallkdDlUVHVCYnFyZ3l2R0ZIcUdUd3RROUQ2NjlUdVh5WEpOSTgwcldiNFpTVkdVXzljZE55WkYxLVhaY1lXUUhLRU1aSFhNN2UwUHVfWnhacElxbUFGT3BNOEhvT1FBV1dFWUhhM0FlOWhTcktoMkJoZDRWeldpRFBrd3RqbEJwTThJbDdBLUxOTXAtVGhRVGJiSUFmbjZs?oc=5",
+   "pub_ts": 1794498155.0,
+   "date": "12.11.2026, 17:42",
+   "cat": "fda",
+   "sev": 4,
+   "dir": 1,
+   "tickers": [],
+   "companies": [
+    "ABT"
+   ],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQallkdDlUVHVCYnFyZ3l2R0ZIcUdUd3RROUQ2NjlUdVh5WEpOSTgwcldiNFpTVkdVXzljZE55WkYxLVhaY1lXUUhLRU1aSFhNN2UwUHVfWnhacElxbUFGT3BNOEhvT1FBV1dFWUhhM0FlOWhTcktoMkJoZDRWeldpRFBrd3RqbEJwTThJbDdBLUxOTXAtVGhRVGJiSUFmbjZs?oc=5"
+    },
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPODRLLXgxVXE5ZGFFN3BtaVBSR3JaU1ExdmEtelpac05BMFEtR0FYYzJEelVEZnpzZnpWd01wUzlaT1llVjhYMEZfQWJQTWFLTFRha01pazQ4Ym9kdTFXRWhYU2F5dzY0ODNiT1RvNzVlQjRaM3pfeU9pWGJzbVJaYUZsX2J6a0c1VUZmbW82bmpqaXM2QkFVQlNaNXQ0V0E0NXVrZUFSOHAzTTFpMk5mcUxPM2llbm9kSWRtS0hub2VzaUVORGhLZTIyYlVSbnc?oc=5"
     }
    ],
    "ncts": []
@@ -181,17 +205,17 @@
    "dir": 1,
    "tickers": [],
    "companies": [
-    "AMGN",
-    "NVS"
+    "NVS",
+    "AMGN"
    ],
    "sources": [
     {
      "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOQWxtQnd4WDdyR3hXU2kzZERKd1cway05ZmlGb041aFlKcFB0ejZRTWl5azQzOFViNnVCRlFwVlZVT2RCbmFkck83WEZmajhfdVYtdHlfVXgxTXJlTTJ5RExrd1ZFZng1eVdoR294MElTUDNJY01sMlpRTEpQTkhvN0VXT0hJV0FmRVVRU2VLUGtacUJVS0t1ZDZ5cklldVNCUHdwZ2M4MEtOMHhsUFQwX2lMejdCczVfcFlzTktpZjYtSmk4UXE0Rw?oc=5"
+     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPSmdlajZaZXBJeDBOU2xlajg2RFJvMFV2UVl0cWZaWGVWSk5wV2I2WGtac2JuRlRRWVllYjVLZzJDTjlUd0ZmdTZ6MWE3Z2RxbzJocDk2Wnk2OFgzRzJWT3U3QzBPQkVQQTM4cG1rRjctaXdKTXdqNzBEZDZTZkR5T2Y1eERKQkE5RThfWmVvLW5QOVpITENmcjM3Yk94WXBvTEFHc0xzelVrR0haVjZhQ1BqSHA2SGFKYXB2Q1RwaUVqRWZI?oc=5"
     },
     {
      "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPSmdlajZaZXBJeDBOU2xlajg2RFJvMFV2UVl0cWZaWGVWSk5wV2I2WGtac2JuRlRRWVllYjVLZzJDTjlUd0ZmdTZ6MWE3Z2RxbzJocDk2Wnk2OFgzRzJWT3U3QzBPQkVQQTM4cG1rRjctaXdKTXdqNzBEZDZTZkR5T2Y1eERKQkE5RThfWmVvLW5QOVpITENmcjM3Yk94WXBvTEFHc0xzelVrR0haVjZhQ1BqSHA2SGFKYXB2Q1RwaUVqRWZI?oc=5"
+     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOQWxtQnd4WDdyR3hXU2kzZERKd1cway05ZmlGb041aFlKcFB0ejZRTWl5azQzOFViNnVCRlFwVlZVT2RCbmFkck83WEZmajhfdVYtdHlfVXgxTXJlTTJ5RExrd1ZFZng1eVdoR294MElTUDNJY01sMlpRTEpQTkhvN0VXT0hJV0FmRVVRU2VLUGtacUJVS0t1ZDZ5cklldVNCUHdwZ2M4MEtOMHhsUFQwX2lMejdCczVfcFlzTktpZjYtSmk4UXE0Rw?oc=5"
     },
     {
      "source": "Google News",
@@ -532,26 +556,6 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWWQ4R3lwQk5ZalJwai03a2c3S1dSUThmeHE2MDFxdS1JQTJzQ2lUNUQwSkE1MXQyLVNvSjBRbEpnbDlyWVBVeDcxcnhiZ2FYS2VsMVlOSnowbDdDdDc3UWkzc3RjV1U4Z2xEQzAzejVjdEUta0dORW1nTTJ3YkItdmRTTnRyeHh3N1NRZXZQSDlfSTZWR0I3TA?oc=5"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "FDA approves Abbott’s new defibrillation lead for conduction system pacing - Cardiovascular Business",
-   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPODRLLXgxVXE5ZGFFN3BtaVBSR3JaU1ExdmEtelpac05BMFEtR0FYYzJEelVEZnpzZnpWd01wUzlaT1llVjhYMEZfQWJQTWFLTFRha01pazQ4Ym9kdTFXRWhYU2F5dzY0ODNiT1RvNzVlQjRaM3pfeU9pWGJzbVJaYUZsX2J6a0c1VUZmbW82bmpqaXM2QkFVQlNaNXQ0V0E0NXVrZUFSOHAzTTFpMk5mcUxPM2llbm9kSWRtS0hub2VzaUVORGhLZTIyYlVSbnc?oc=5",
-   "pub_ts": 1794333612.0,
-   "date": "10.11.2026, 20:00",
-   "cat": "fda",
-   "sev": 4,
-   "dir": 1,
-   "tickers": [],
-   "companies": [
-    "ABT"
-   ],
-   "sources": [
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPODRLLXgxVXE5ZGFFN3BtaVBSR3JaU1ExdmEtelpac05BMFEtR0FYYzJEelVEZnpzZnpWd01wUzlaT1llVjhYMEZfQWJQTWFLTFRha01pazQ4Ym9kdTFXRWhYU2F5dzY0ODNiT1RvNzVlQjRaM3pfeU9pWGJzbVJaYUZsX2J6a0c1VUZmbW82bmpqaXM2QkFVQlNaNXQ0V0E0NXVrZUFSOHAzTTFpMk5mcUxPM2llbm9kSWRtS0hub2VzaUVORGhLZTIyYlVSbnc?oc=5"
     }
    ],
    "ncts": []
@@ -2032,6 +2036,24 @@
    "ncts": []
   },
   {
+   "title": "Phase 3 NIMBLE Trial: Cemdisiran Efficacy and Safety Results in gMG - NeurologyLive",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSUt2T3ZSUnlYYzZJbE8xTGVHcDEtYW1OTUFnOEJfa1FQdmhBZzVweEJSanZ2bl9YQTg5QkJjbWFuMHVHZ2h5WnhvTDJQWTk3UHEwU2NqVjE0OUJROEFzOHZLSVBSM3c1bnEtLXhtcmxZQUU2LU5CVmUzUWZRbFJZbldraXNTQlFKUXQzX1BSWEg3WEh5Y1lWVWlJSU1ZeG8?oc=5",
+   "pub_ts": 1794510861.0,
+   "date": "12.11.2026, 21:14",
+   "cat": "phase3",
+   "sev": 3,
+   "dir": 0,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSUt2T3ZSUnlYYzZJbE8xTGVHcDEtYW1OTUFnOEJfa1FQdmhBZzVweEJSanZ2bl9YQTg5QkJjbWFuMHVHZ2h5WnhvTDJQWTk3UHEwU2NqVjE0OUJROEFzOHZLSVBSM3c1bnEtLXhtcmxZQUU2LU5CVmUzUWZRbFJZbldraXNTQlFKUXQzX1BSWEg3WEh5Y1lWVWlJSU1ZeG8?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
    "title": "Lutikizumab Phase 3 Results: What HS Patients Should Know - NewBeauty",
    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1fMUFwSWIyaUJWYmVfT3BRdUYyTmRRR1ZiMm8zTnNPMnhibm1ObW96aVk2VXhOYW9hWWZ1bXJrMnQ2MG84bldveWgyaG1OM0JQNURXbmh4azQwaW9ES21YMlNQQ2Y3ZGVOeXNPS0JoTlBub3R0OVNN?oc=5",
    "pub_ts": 1794507189.0,
@@ -2063,24 +2085,6 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPXzFEMTlkbkluaEppR2lCVWNZT2tPNzcyNmVfeTJIVzh2MEVWbFZmYm5RQWs2dWJrYzhIc0cyUVVDVGNTRC1QMGhKSXNuUHlPZnVIZkdGUk52a1JtdzdxTEx6YlliZzV4Xzhvc0VjN2hwc1kzcEVOcWRFR2xRZ0pmZi12VnVRSEFZRWdpcFNZSmxsQWhvU2h5YVdOVzVtdi1xUWxCbGVvanBjS3diRFJnczdYS09wRjJURzNhdjRWemY5c0FN?oc=5"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "Phase 3 NIMBLE Trial: Cemdisiran Efficacy and Safety Results in gMG - NeurologyLive",
-   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSUt2T3ZSUnlYYzZJbE8xTGVHcDEtYW1OTUFnOEJfa1FQdmhBZzVweEJSanZ2bl9YQTg5QkJjbWFuMHVHZ2h5WnhvTDJQWTk3UHEwU2NqVjE0OUJROEFzOHZLSVBSM3c1bnEtLXhtcmxZQUU2LU5CVmUzUWZRbFJZbldraXNTQlFKUXQzX1BSWEg3WEh5Y1lWVWlJSU1ZeG8?oc=5",
-   "pub_ts": 1794492977.0,
-   "date": "12.11.2026, 16:16",
-   "cat": "phase3",
-   "sev": 3,
-   "dir": 0,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSUt2T3ZSUnlYYzZJbE8xTGVHcDEtYW1OTUFnOEJfa1FQdmhBZzVweEJSanZ2bl9YQTg5QkJjbWFuMHVHZ2h5WnhvTDJQWTk3UHEwU2NqVjE0OUJROEFzOHZLSVBSM3c1bnEtLXhtcmxZQUU2LU5CVmUzUWZRbFJZbldraXNTQlFKUXQzX1BSWEg3WEh5Y1lWVWlJSU1ZeG8?oc=5"
     }
    ],
    "ncts": []
