@@ -1,6 +1,24 @@
 {
- "fetched_at": "12.11.2026, 22:05",
+ "fetched_at": "12.11.2026, 22:34",
  "items": [
+  {
+   "title": "VeonGen on track for phase 3 Stargardt trial after FDA meeting - Glance by Eyes On Eyecare",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdFE5OFJNaWtDaFB0U1VvTGVyOWJpMzBzN1VqMEJiN0NoUENtVmpvbVpySU5uRWtNWEExQVdyeUEzS3Z1WElkVnZWUExORmk5TmdBTC1sMUc0ZVBFOXA2SEMxSjNzZlczOTRWeG1VR1RDMloyZnZ1a1ZNR3J0Q3JXc0w4aHU5bFRSZ0VIMWROY2xodE9iX2lDRkotNnpTbFVmWXNjbGxmSzhDWDNXQXlxODZVS3VjUQ?oc=5",
+   "pub_ts": 1794514459.0,
+   "date": "12.11.2026, 22:14",
+   "cat": "phase3",
+   "sev": 4,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdFE5OFJNaWtDaFB0U1VvTGVyOWJpMzBzN1VqMEJiN0NoUENtVmpvbVpySU5uRWtNWEExQVdyeUEzS3Z1WElkVnZWUExORmk5TmdBTC1sMUc0ZVBFOXA2SEMxSjNzZlczOTRWeG1VR1RDMloyZnZ1a1ZNR3J0Q3JXc0w4aHU5bFRSZ0VIMWROY2xodE9iX2lDRkotNnpTbFVmWXNjbGxmSzhDWDNXQXlxODZVS3VjUQ?oc=5"
+    }
+   ],
+   "ncts": []
+  },
   {
    "title": "FDA Approves PCR-Based Companion Diagnostic for Keytruda - Clinical Lab Products",
    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOTFZHdGZhUmNVOGhYcTVTbzZrc3Buc0RrRm5mdXhZbDJPNjN3ZVBxUWlTdllKc1BiTU5RVGhCOG9Dc2l5b1lTbzc3dExzeGhKV0ZNT3pXSUhCd0ZhMjdHNHlRX21HYTdRZnJrWjNFY01zVTVUc21RaHNDQVUtNHJoVlYzaVJQYUZBM1dlcmJGcldFSzhlQUZzSmI3WHlfa0dSTHRzUmw5QWtqSkg0NTh2OV9wQjhJLUxtT3RnRmdvVE9Uc3laaE10ZEpBM3NySlBUTjZCZnFR?oc=5",
@@ -155,7 +173,7 @@
   },
   {
    "title": "AMGEN ANNOUNCES POSITIVE PHASE 3 RESULTS FOR DAZODALIBEP IN SJÖGREN'S DISEASE - Amgen",
-   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPSmdlajZaZXBJeDBOU2xlajg2RFJvMFV2UVl0cWZaWGVWSk5wV2I2WGtac2JuRlRRWVllYjVLZzJDTjlUd0ZmdTZ6MWE3Z2RxbzJocDk2Wnk2OFgzRzJWT3U3QzBPQkVQQTM4cG1rRjctaXdKTXdqNzBEZDZTZkR5T2Y1eERKQkE5RThfWmVvLW5QOVpITENmcjM3Yk94WXBvTEFHc0xzelVrR0haVjZhQ1BqSHA2SGFKYXB2Q1RwaUVqRWZI?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOQWxtQnd4WDdyR3hXU2kzZERKd1cway05ZmlGb041aFlKcFB0ejZRTWl5azQzOFViNnVCRlFwVlZVT2RCbmFkck83WEZmajhfdVYtdHlfVXgxTXJlTTJ5RExrd1ZFZng1eVdoR294MElTUDNJY01sMlpRTEpQTkhvN0VXT0hJV0FmRVVRU2VLUGtacUJVS0t1ZDZ5cklldVNCUHdwZ2M4MEtOMHhsUFQwX2lMejdCczVfcFlzTktpZjYtSmk4UXE0Rw?oc=5",
    "pub_ts": 1794404711.0,
    "date": "11.11.2026, 15:45",
    "cat": "phase3",
@@ -163,17 +181,17 @@
    "dir": 1,
    "tickers": [],
    "companies": [
-    "NVS",
-    "AMGN"
+    "AMGN",
+    "NVS"
    ],
    "sources": [
     {
      "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPSmdlajZaZXBJeDBOU2xlajg2RFJvMFV2UVl0cWZaWGVWSk5wV2I2WGtac2JuRlRRWVllYjVLZzJDTjlUd0ZmdTZ6MWE3Z2RxbzJocDk2Wnk2OFgzRzJWT3U3QzBPQkVQQTM4cG1rRjctaXdKTXdqNzBEZDZTZkR5T2Y1eERKQkE5RThfWmVvLW5QOVpITENmcjM3Yk94WXBvTEFHc0xzelVrR0haVjZhQ1BqSHA2SGFKYXB2Q1RwaUVqRWZI?oc=5"
+     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOQWxtQnd4WDdyR3hXU2kzZERKd1cway05ZmlGb041aFlKcFB0ejZRTWl5azQzOFViNnVCRlFwVlZVT2RCbmFkck83WEZmajhfdVYtdHlfVXgxTXJlTTJ5RExrd1ZFZng1eVdoR294MElTUDNJY01sMlpRTEpQTkhvN0VXT0hJV0FmRVVRU2VLUGtacUJVS0t1ZDZ5cklldVNCUHdwZ2M4MEtOMHhsUFQwX2lMejdCczVfcFlzTktpZjYtSmk4UXE0Rw?oc=5"
     },
     {
      "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOQWxtQnd4WDdyR3hXU2kzZERKd1cway05ZmlGb041aFlKcFB0ejZRTWl5azQzOFViNnVCRlFwVlZVT2RCbmFkck83WEZmajhfdVYtdHlfVXgxTXJlTTJ5RExrd1ZFZng1eVdoR294MElTUDNJY01sMlpRTEpQTkhvN0VXT0hJV0FmRVVRU2VLUGtacUJVS0t1ZDZ5cklldVNCUHdwZ2M4MEtOMHhsUFQwX2lMejdCczVfcFlzTktpZjYtSmk4UXE0Rw?oc=5"
+     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPSmdlajZaZXBJeDBOU2xlajg2RFJvMFV2UVl0cWZaWGVWSk5wV2I2WGtac2JuRlRRWVllYjVLZzJDTjlUd0ZmdTZ6MWE3Z2RxbzJocDk2Wnk2OFgzRzJWT3U3QzBPQkVQQTM4cG1rRjctaXdKTXdqNzBEZDZTZkR5T2Y1eERKQkE5RThfWmVvLW5QOVpITENmcjM3Yk94WXBvTEFHc0xzelVrR0haVjZhQ1BqSHA2SGFKYXB2Q1RwaUVqRWZI?oc=5"
     },
     {
      "source": "Google News",
