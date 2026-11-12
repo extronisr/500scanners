@@ -1,5 +1,5 @@
 {
- "fetched_at": "12.11.2026, 11:34",
+ "fetched_at": "12.11.2026, 12:04",
  "items": [
   {
    "title": "AbbVie (ABBV) Reports Positive Phase 3 QULIPTA Migraine Trial Results - Yahoo Finance",
@@ -2058,6 +2058,24 @@
    "ncts": []
   },
   {
+   "title": "Brelovitug for Chronic Hepatitis D: Phase 3 AZURE-1 Results - HCPLive",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxORXFSZUJhblZTanVCXzF5X096V0I2RS1aNDBCa0pFZ2dBX1FQdTZWMFJGWW9VRExrZVFJRDlJQWtGaTdIRGxaNEV1MWpUVG50eE04dk51TWxETTNEbnF0OFE4dF9xSjhBNTc2WmlTNk03aWx6WVBNTnJiYUpLS204anE0N1luUXJHdmNpT1hPVUpJRjRNcTFkbHZBb19oRkk?oc=5",
+   "pub_ts": 1794437065.0,
+   "date": "12.11.2026, 0:44",
+   "cat": "phase3",
+   "sev": 3,
+   "dir": 0,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxORXFSZUJhblZTanVCXzF5X096V0I2RS1aNDBCa0pFZ2dBX1FQdTZWMFJGWW9VRExrZVFJRDlJQWtGaTdIRGxaNEV1MWpUVG50eE04dk51TWxETTNEbnF0OFE4dF9xSjhBNTc2WmlTNk03aWx6WVBNTnJiYUpLS204anE0N1luUXJHdmNpT1hPVUpJRjRNcTFkbHZBb19oRkk?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
    "title": "South Korea's AriBio to Unveil Phase 3 Results for Oral Alzheimer's Drug in Boston on the 16th - BigGo Finance",
    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5TTEIxLUdMN0hLRzYycUxaV3VrcDdwZzFxcXRndGYzalktTGwxWHRaeGIyZzZIQnlHZGJfamZkQzRPQ3B4Y1RRNjhYOGgtTnhEZjQ2VTBsRTBBWE5Zbk05VlV5REJ6dlpJcmM0S2hqZlpvR2dUYXc?oc=5",
    "pub_ts": 1794384360.0,
@@ -3190,7 +3208,7 @@
   },
   {
    "title": "Faeth Therapeutics reports positive Phase 2 results for endometrial cancer drug - StreetInsider",
-   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNb0szWVpyOW5CenVoQnZxMy1BODBURmZ4RnNNWmptY2tRek5NY0dELTd5RHNIOXR4VUMyLU9ueVlKMkNFNTlEMjZyLVVoaVpaRUZZcXNKTk80V3pSalltQlhzRk9WV3pIcWNJYmx3eXNQalNSX1lGbVdhWlF5bkdnb29fVkdWRnhrS1N1RmJJbXBPWVVmU3NvZjZQSWZmNERD?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE93cVk0SVJ6R1pfNWQyWmppUHBFR2RXdTBoTVdEUlpwdnpvNXhIZy16clEwNkl4OHJIYUVERWxaR1lwZVBIUUI2ZjFrdU1aZVlBWmJxRnlFTUU1WDUxMFZsNDVlNnpjTG1JTlFsczVGZGJWZm51?oc=5",
    "pub_ts": 1794225933.0,
    "date": "9.11.2026, 14:05",
    "cat": "phase2",
