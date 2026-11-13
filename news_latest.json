@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-13T14:01:56.169868+02:00",
+ "generated_at": "2026-11-13T15:01:06.201164+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -34,10 +34,10 @@
     "lang": "en"
    },
    {
-    "title": "Evercore ISI cuts Floor & Decor stock rating on weak demand outlook",
-    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQc21vVVVvY1UzMTRUWTlnczBhVGt1cGYyMDZId0t1YV9NQkV2d1c1am1nQ2d2NWkzdk5EalFqcU5nMkI4UU9Bd0xabDA1dG5KMnNvdVpKZENWZDhPamgySVpYeG13aEIzSWpDLWgtbG13aHN1ZHBUcW9IdDBXdXA5ajNrTm1WdThCZzhOZ3lDVU1yUkwxc1VXMVRNbW8yVEVFS0lnZEpwWFU1bl9vUmhUa0xtY2FOTnpRejNNRGQtajhrMUJ5?oc=5",
+    "title": "Evercore ISI cuts Tractor Supply stock rating on weak discretionary outlook",
+    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPUlpJUElQamkzd0d6ODU4NGdLM2VxTXEtaTA1cUVaMGRLcWhwamE0RnhDVHNxbnl0T0dRQTVLUi1lRUtlUmtoNU9rblB3b2IycHpWdEh1aXlRblRtMmxNWTdHaW83MXdac0ZVd1pxUUVRckc2eG1odmVjcUpDZU9fNFJjc0J6QVdOMldrOFkyQlBCT2pEQjlPVFlhRDBXdEFKS1haV0Z5S1g2U2RsMEJrTEI3VDB1RGxnU3g0Q0xNTlZyZFh4S19nLWw0cmJQRm9S?oc=5",
     "source": "Investing.com",
-    "published": "2026-11-13T10:51:40+00:00",
+    "published": "2026-11-13T12:09:05+00:00",
     "lede": null,
     "lang": "en"
    },
@@ -52,43 +52,67 @@
   ],
   "us": [
    {
-    "title": "Strategy Stocks Drop 6.83% as MSCI Confirms Removal From Its USA Index",
-    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNM2owNWZxeV9ZcHM2cXQ2c2ZhVjdTUkdtczhtSkt6SXVPMTNJRzJDSmdkSzhiSU5XNGlTUEtpSDJ3amxTb0hPWFVBcHZVbUQwTmt5STgtTVlHSHBUYzFaeHVwN3VwRExfcDlwS2otSUtjWlFLdm5FcFhlWkJkUzQ4ZDFBSVE5RmxOOWlWNmwybTIyM21h?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-13T11:54:09+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Lumentum Stocks Edge Higher as Marvell Deal Spread Widens to 19.7%",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPWC1OQWxpMVA4MkJSMUlFQTlBQnhHeEU1dWtsb3U1endxV0lFdkp2TWtveG9rX0xMN19yWm9FZGVUaHBrS3J4a2ZMUXdoV0J1VUk2UG44VVptUWJPLWFFZTdwRFo0dnh1RTk4UktfdmdEbVBhYkdFS1pmVm95blFyaTNCMWZadVpqR29sbXc3cTRVaHdHSUwzUUFZaFFwcGJveEE?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-13T11:51:30+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "A Once-in-a-Decade Opportunity: 1 Magnificent Dividend Stock Down 30% to Buy Right Now",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQc25uLU9wak9RSVFnS2VFSmh2Y2JVY19nQk4xWHloVjJpaE03MkRYOHd5RHd3MS1CRVhabUlJNFdKYUVhODFtTm5YS3pab0xNQzVUa2JQaG1mYzVsR0R2U041U05oNXZtVUpXTmgzN2dFNDVpaDZnQUhzcmc1dEtFVmJlWDh2TmQ1OWJoWjVUbFVqZmRsZkNrRU5aZDNOdHpoSWhKcw?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-13T11:50:00+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Profit surprises are normalizing — and that may signal a healthier stock market, say Citi strategists",
-    "url": "https://www.marketwatch.com/story/profit-surprises-are-normalizing-and-that-may-signal-a-healthier-stock-market-say-citi-strategists-d8cce7c2?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-13T11:41:00+00:00",
-    "lede": "Although the majority of S&P 500 companies reported earnings above analysts’ expectations, the beats were significantly lower than in more recent quarters.",
-    "lang": "en"
-   },
-   {
     "title": "The Fed expected rate cuts this year. Now it’s bracing for another inflation fight",
     "url": "https://www.cnbc.com/2026/11/13/us-inflation-outlook-federal-reserve-rate-hike.html",
     "source": "CNBC",
-    "published": "2026-11-13T11:31:10+00:00",
+    "published": "2026-11-13T12:59:36+00:00",
     "lede": "The most recent inflation reading for October was higher than expected, coming in at 0.4% for the month.",
+    "lang": "en"
+   },
+   {
+    "title": "$1,000 in Main Street Capital's 2007 IPO Is Worth About $7,300 Counting Dividends. It Has Never Cut Its Monthly Payout.",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNbWl1cGNaWGV2QndnN1ZqbFZzSG9KbnZ0YzdiTjNDaHBqSnp5TGtocDZXeWtLNEw0T0JlQ0JSSFhlRDloVEpiemkwUWpNUTlxUDlHaWxnakc2NDB3ODB1VnRDRGtTd1kwQnpXZml2VFVBanF4dThSWnRsVUlVMnJiTF94S2Ewa09RZlVIRy1sc2RJQTZDVEE?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-13T12:50:02+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Cerebras stock surges on Q3 results, outlook raise, hyperscaler deals",
+    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQa0t6YmVuQTBsSDJtRWFQQmZmc1IydkZ2UWtUUF9PRmpkWVpSanM5alQ5bzB2RXBxMl9XWjVQbXpBbndYZjZWQVktWmlXSno1R241WlpVem5zMzRGVlVfaU9kMlhfSWxkYWFwWHNPSFFSS2R0bGE4MGtfOE80TllMRUVpdUtoOWJWUExCRWJoSm44YTFHSGt3WmNRSWpqeEduRDVJNjR4X2FqbzZtYmRYU2RkWXJpaVFSSlQxN0gxa1RGdmtmRXMyNWRmX1kzM3RLblpfSTRKM0llZFdRZlI5MV9aaVpBUFE?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-13T12:47:19+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "After Nvidia’s $427B wipeout, is AMD’s 117x P/E rally a trap?",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQN05vYk15ZzYzM1Y0UmQwWlk4cGc2VFhNaTc0c2MwaVlRTjBTa3hydUd2dUlRV2Y4R284a2lGV1VHemlVUldnTjFVNnBzWk9lNkVLd3I4cWpwSTZiSG0wOFRhOU4tc2VoX2twUl9QSXd6TVdtakxsSm1EcnNKQ2w4UnJnTXR2ZnVsOGhrR1BqUWc4dnM3WEpYMA?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-13T12:42:17+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Nvidia has shed nearly $500 billion in market value this week. It’s still a $4 trillion AI behemoth.",
+    "url": "https://www.marketwatch.com/story/nvidia-has-shed-nearly-500-billion-in-market-value-this-week-its-still-a-4-trillion-ai-behemoth-2ca6eba7?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-13T12:25:00+00:00",
+    "lede": "Can Nvidia keep its lead in AI chips without Jensen Huang? Plus, what investors are watching on inflation.",
+    "lang": "en"
+   },
+   {
+    "title": "Microsoft stock slumps on outage that includes the Copilot tool it has been heavily promoting",
+    "url": "https://www.marketwatch.com/story/microsoft-stock-slumps-on-outage-that-includes-the-copilot-tool-it-has-been-heavily-promoting-4007dc4f?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-13T12:14:00+00:00",
+    "lede": "Microsoft stock fell in premarket trade Friday as the company struggled to address a worldwide outage of its popular products.",
+    "lang": "en"
+   },
+   {
+    "title": "Russian crude production rebounds after Trump diesel deal, IEA says as oil markets return to surplus",
+    "url": "https://www.cnbc.com/2026/11/13/russia-oil-exports-iea-diesel-deal.html",
+    "source": "CNBC",
+    "published": "2026-11-13T12:05:22+00:00",
+    "lede": "Russia’s crude output rose to 8.73 million barrels a day in October as recovering Gulf exports pushed global supply above demand, the IEA said.",
+    "lang": "en"
+   },
+   {
+    "title": "U.S. seizes $1.2 billion in cryptocurrency stolen from Binance",
+    "url": "https://www.cnbc.com/2026/11/13/us-seizes-binance-hack-crypto.html",
+    "source": "CNBC",
+    "published": "2026-11-13T12:03:24+00:00",
+    "lede": "The DOJ said it was taking action against the North Korean government's \"schemes to fund its regime through the massive theft of cryptocurrency.\"",
     "lang": "en"
    },
    {
@@ -100,45 +124,29 @@
     "lang": "en"
    },
    {
-    "title": "Nvidia scandal draws in Commerce Secretary Lutnick, who reportedly agrees to testify about China chip sales",
-    "url": "https://www.cnbc.com/2026/11/13/nvidia-scandal-lutnick-chip-sales.html",
-    "source": "CNBC",
-    "published": "2026-11-13T10:54:40+00:00",
-    "lede": "Commerce Secretary Lutnick will testify before the Senate Banking Committee following revelations about Jensen Huang's affair with an alleged Chinese spy.",
-    "lang": "en"
-   },
-   {
-    "title": "Earnings growth is set to peter out — but not the bull market, says Goldman Sachs. Here’s what the firm recommends.",
-    "url": "https://www.marketwatch.com/story/earnings-growth-is-set-to-peter-out-but-not-the-bull-market-says-goldman-sachs-heres-what-the-firm-recommends-bf409a6d?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-13T10:14:00+00:00",
-    "lede": "Earnings growth is almost halving across major indices in 2027 but stocks have already discounted much of that deceleration. Goldman recommends investors focus closely on those companies still delivering strong growth –…",
-    "lang": "en"
-   },
-   {
-    "title": "Nvidia stock inches higher as investors continue to weigh Jensen Huang’s departure",
-    "url": "https://www.cnbc.com/2026/11/13/nvidia-nvda-stock-jensen-huang-transition.html",
-    "source": "CNBC",
-    "published": "2026-11-13T10:00:37+00:00",
-    "lede": "Jensen Huang resigned as CEO of Nvidia on Thursday after coming under scrutiny for two extramarital affairs.",
-    "lang": "en"
-   },
-   {
-    "title": "Global oil markets swing to surplus as Gulf shipments rebound",
-    "url": "https://www.ft.com/content/20b68fe2-9d60-4c0c-b714-1f3e03015823?syn-25a6b1a6=1",
-    "source": "Financial Times",
-    "published": "2026-11-13T09:04:06+00:00",
-    "lede": "IEA analysts warn it will take months to rebuild stockpiles depleted by conflict",
-    "lang": "en"
+    "title": "אין צפי לתיקון: למה התקלה במיקרוסופט עדיין לא נפתרה",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001563336#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-13T08:58:00+00:00",
+    "lede": "התקלה שהחלה אמש בשעה שמונה וחצי בערב שעון ישראל לא נפתרה עד עתה, ולפי העדכונים השוטפים של מיקרוסופט גם אין צפי לפתרון בקרוב",
+    "lang": "he"
    }
   ],
   "il": [
    {
-    "title": "בורסת תל אביב נצבעה אדום אבל מניה אחת בולטת בעליות",
+    "title": "בזק מבקשת לחלק אופציות של 10 מיליון שקל לשני מנהלים בכירים",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001563338#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-13T12:11:00+00:00",
+    "lede": "לפי ההצעה, יוקצו כ-2.98 מיליון אופציות לא סחירות לראב\"ד וכ-4.46 מיליון אופציות לא סחירות לדוד",
+    "lang": "he"
+   },
+   {
+    "title": "ת״א ננעלה בירידות, אבל מניה אחת הצליחה לזנק",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001563287#utm_source=RSS",
     "source": "גלובס",
-    "published": "2026-11-13T11:21:00+00:00",
-    "lede": "ירידות בתל אביב, הדולר עלה מעל 3.2 שקלים",
+    "published": "2026-11-13T12:00:00+00:00",
+    "lede": "הדולר עלה מעל 3.2 שקלים • ת\"א 35 איבד 0.9% ות\"א 90 נחלש ב-1.4% • הזינוק בתשואות האג\"ח בארה\"ב מעיב על השווקים והקרין גם על תל אביב • באסיה נרשמה מגמה שלילית בצל קריסת הין היפני • וגם: \"הטכנולוגיה עשויה לזנק בחוזקה – אך…",
     "lang": "he"
    },
    {
@@ -158,14 +166,6 @@
     "lang": "he"
    },
    {
-    "title": "הרוכשים של ארקיע: הכרישה והיזמים שספרו אקזיטים של מיליונים",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001563327#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-13T08:30:00+00:00",
-    "lede": "קבוצת המשקיעים החדשה בחברת התעופה מביאה עמה ניסיון רב בשיקום חברות שנקלעו למשבר",
-    "lang": "he"
-   },
-   {
     "title": "מניות המיקרו-קאפ נסחרות במכפיל של כ-12, החברות הגדולות במכפיל של כ-28",
     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1FcFJycWk2c2VxU2lPbE04SGVsQnliTDA0OHBoS2VyTlFtRTc3cGVHQUhYLVdud0VCZ2laSURGbUEyVVhxUWh2UGs0ck1GWUp2M2thWXF1VGdDdXBkM0NZZnJJNFg5aDU0NVo2Q0U4RWM?oc=5",
     "source": "ביזפורטל",
@@ -180,30 +180,22 @@
     "published": "2026-11-13T04:12:00+00:00",
     "lede": null,
     "lang": "he"
-   },
-   {
-    "title": "רעידת אדמה: מנכ\"ל אנבידיה התפטר, המניה צונחת ב-11%",
-    "url": "https://finance.walla.co.il/item/3876034",
-    "source": "וואלה",
-    "published": "2026-11-12T16:56:00+00:00",
-    "lede": "המייסד והמנכ\"ל ג'נסן הואנג הודיע על עזיבת תפקידיו ואת הדירקטוריון באופן מיידי. סמנכ\"לית הכספים קולט קרס מונתה למנכ\"לית זמנית",
-    "lang": "he"
    }
   ],
   "geo": [
    {
-    "title": "Europe Haggles Over Who Will Represent It in Talks With Russia",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPbXZ5el9iR2VOdWd1dVNVX00zWkdWM01yQkk4WkxZZmtrNUNxUVZIQ3E0aHdrZ0NmMWlsclN0ejlhaHNvMWV3OWVBWXI4aF9aRzhPOW5pNTUwdHJNdWFSclFQckhJUDFYMXBpWDM4QjhsQ00wazRta0FVS2F3NDIwSWVBVjg5SjA?oc=5",
-    "source": "The New York Times",
-    "published": "2026-11-13T11:49:07+00:00",
+    "title": "‘Colossal mistake’: Gov. Newsom tells Iranian filmmaker about Iran war",
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQYVhnX21QeG9hRlpReUxGdGhzcnltVS1JZ2tjZHkxQi0wWHA1eUVyTVBfY3lQdER2dnhiSndmd1VhUFl3REJZQXlMTGVkUFBMLXJ5N09xYmxrdGZkTl9lQ3NFTG5mdE5kbWRCTzNtRmRqdHh0eDAtcE5FUTdKSTFvVHFB?oc=5",
+    "source": "CNN",
+    "published": "2026-11-13T12:41:00+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Lieberman vows to stop 'politically motivated' war amid Iran tensions",
-    "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNVWl4aWtWOTN3NVZ5VDVTU3N3THdLMlZISFFkQXgtN0NNVF9IbWp1WGUtbHF0Mml4UHhnSjdhM05TTW04c00zd3NITW9QdzdWWWo5azZIMlZNZl9ZOUkwa0k3bVhDYmJKZTRNelFKRG1VSHh3TTk0SXpDU1RXRmRJalNDWmJKaExfVGViMVNZN1FnMzV1ZDlHa0VaV25HVGJlOFhWVkVQTW9aYkZDRGNscmhEUVZhbWJSTWlzRldNOGRTeDFjQW91aWJtU3V2Zmx6M19XOUZ5UEZiVDNCR2NfZGlDVXpFaHlTc2pqZDRkZ1NyWmFVdHRWaHRxZURkYTRuWE1hcGxBLW5FSXpXQTNfeGFYQVdwdw?oc=5",
-    "source": "Haaretz",
-    "published": "2026-11-13T10:51:00+00:00",
+    "title": "Why is Ukraine attacking Russian warships in the Baltic Sea amid talks?",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNNlEtMW5yVGdQUktZYnZqbnlPM3lmQzVOdUtGV3lhdl9pRWl2VWtHT0pGVFkxcDhTZTVsZDJlVWlpMm1FVTVUTVhNYUhjQVAxUEgyU3hRekhVcldURE5kTThUQVZBbkRqdGFaZTFtczAteGVlT3Z3WXhoTXVReXVOalBwUEJXU09HcW85Y0lWMjgzVDZXWURBRWl5OThDckpDODQ2b0Z6Tl9kZXpFUkRtb0930gG3AUFVX3lxTFA5OVpRZ0NQa0NrV0NsQzdKQlZZTzVPc2htVjFHd19qTUZNRTBRX0RGUlF4cUJUUXNCZGtoY2pXdm1mV2QzQ1ZYVTJ1ZXZkQlFtSm5VYTBJUjVsOTdNeHdhSk9fbHRzVmViSUdDME5NbHJPbUE4WFlLeFdxVUZHN3paUUFuUTNyVVpwcF9nekQ3NDAtazlqVkVha0NoRUg3UGUxd0FiWk5JeUdWQ3ZqX3RkNU95REtvNA?oc=5",
+    "source": "Al Jazeera",
+    "published": "2026-11-13T12:10:08+00:00",
     "lede": null,
     "lang": "en"
    }
