@@ -1,5 +1,5 @@
 {
- "fetched_at": "13.11.2026, 6:04",
+ "fetched_at": "13.11.2026, 6:34",
  "items": [
   {
    "title": "VeonGen on track for phase 3 Stargardt trial after FDA meeting - Glance by Eyes On Eyecare",
@@ -3591,6 +3591,24 @@
     {
      "source": "FDA · openFDA",
      "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=217589"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA approves generic Tofacitinib Citrate (Sciegen Pharms)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220972",
+   "pub_ts": 1793923200.0,
+   "date": "6.11.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220972"
     }
    ],
    "ncts": []
