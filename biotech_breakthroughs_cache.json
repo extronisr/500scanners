@@ -1,6 +1,24 @@
 {
- "fetched_at": "13.11.2026, 22:05",
+ "fetched_at": "13.11.2026, 22:34",
  "items": [
+  {
+   "title": "FDA Approves Perioperative Durvalumab/Enfortumab Vedotin in MIBC - CancerNetwork",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNVkRXYUsybTNRalYyUlBxRkV5MGhBMnBWQ1lJM282dVQwb2JiMl84c3JPOHo4SVlRY0J3RDMtRlROT2diQUNUUmk1ZjVrX1ZIRmExcVNOLXdtQktUTDhBXzZIWVRDcWVPTXQycmdBbU9udU1hTVBsVTgzNXFDLUxETTFJWEp1UDRHMTVneDdBM25TZUl5bXhLelhNNjlMamZQ?oc=5",
+   "pub_ts": 1794596926.0,
+   "date": "13.11.2026, 21:08",
+   "cat": "fda",
+   "sev": 4,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNVkRXYUsybTNRalYyUlBxRkV5MGhBMnBWQ1lJM282dVQwb2JiMl84c3JPOHo4SVlRY0J3RDMtRlROT2diQUNUUmk1ZjVrX1ZIRmExcVNOLXdtQktUTDhBXzZIWVRDcWVPTXQycmdBbU9udU1hTVBsVTgzNXFDLUxETTFJWEp1UDRHMTVneDdBM25TZUl5bXhLelhNNjlMamZQ?oc=5"
+    }
+   ],
+   "ncts": []
+  },
   {
    "title": "FDA Approves Imfinzi Plus Padcev for Some With Muscle-Invasive Bladder Cancer - Cure Today",
    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSjE5ZGFKU2lpeEpvenZxRjB0MHB3a1dHNWRWR2thSjJLelFlN1JkUGdTaUV5ZjhLd3FRRjJURElJVTNaalJuenZDY2g1YTNpLWdXYlp3cGdIY2hrMGlTVTBBd08yX1cxRExiVWk1SURuUXpfZjcyanNtaDIzR043RE01YlMzSmJWdFh4OVE4Y2U1ejhkS045YXVnZGp4b256a2ZzMW03eFdHZ2lz?oc=5",
@@ -2163,24 +2181,6 @@
    "ncts": []
   },
   {
-   "title": "FDA Approves First Plasmid DNA-based Immunotherapy for Adults with Recurrent Respiratory Papillomatosis",
-   "link": "http://www.fda.gov/news-events/press-announcements/fda-approves-first-plasmid-dna-based-immunotherapy-adults-recurrent-respiratory-papillomatosis",
-   "pub_ts": 1793392328.0,
-   "date": "30.10.2026, 22:32",
-   "cat": "fda",
-   "sev": 4,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA",
-     "link": "http://www.fda.gov/news-events/press-announcements/fda-approves-first-plasmid-dna-based-immunotherapy-adults-recurrent-respiratory-papillomatosis"
-    }
-   ],
-   "ncts": []
-  },
-  {
    "title": "Did Phase 3 Eye Drug Results Just Shift Kodiak Sciences (KOD) Investment Narrative? - Simply Wall St",
    "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNaFlXUXFDcUVSTGluRlZWd01kR3FueTVmYlVSQmJDUl9FMV9NOGJGODBTOHJMQlVCOHkzRUFPYkwwLTlGSUdVWkh5R0NQMVR5aVF3S3hoaUk4b2xDZTN5VHZNS3N6VllJYzdxci11U2pkTGpzN2dud2FYS2ktSE1xRnJEQVRMeElwa0hKX2N1UFF5dm9uLUpSV3RkZEl0ZUQtLTByQlhpM1VuNnJnSzh4Z1dxZzdSa2RzX0FsejRCNEZBNmV0ekpQVUhoVGNCRk9FYUl0QUk4WnU1ZW9OcFQ5eNIB5gFBVV95cUxNUVA0X2YtTHlHS1haRDhzd2pISnZIN2FqamE4LXVSU2Z2Q2tNNlJLYWpQUzZXMFU3emNJdGxDaDJSU1AzNkluVjZHVlJ0UzVial92T0xxdEg2bHdiRngyZXRYRy1IdU5XbC1ERnhVTVpkbnRCTVdxVFFsOEw2NU5aRDRfbmxTb0lnNHJxSFkwazRWMHVTalBZTjl3MkluY21Od3BOMEQtTmlFckVWb3ZfeW9XSVpodzlOXzBZS3VZTkNZTHdoSUk3ZktQcVZsZkNJSHVwX2xfSlFYUjFXS3YzUmRySVUydw?oc=5",
    "pub_ts": 1794590388.0,
@@ -3398,6 +3398,24 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPcGNzeElZY2VKbGNZbXVCbXgyZ3VNaGlUUkJ5TlFzUlVwSUR5TXNsVnkxeDVnT1NJdVdTSHMxQzBrc0dnbUhhSFFpaE5LUldDZEs1NDQ2RG9rbkFaM041aGhFTVE1b210RV9aRk9aSlpNTVVJUVZGVHo4QlpTcEVoQW9n?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA approves generic Tofacitinib Citrate (Dexcel)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=218668",
+   "pub_ts": 1794268800.0,
+   "date": "10.11.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=218668"
     }
    ],
    "ncts": []
