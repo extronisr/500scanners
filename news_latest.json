@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-13T17:01:07.290704+02:00",
+ "generated_at": "2026-11-13T18:01:06.999200+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -52,43 +52,75 @@
   ],
   "us": [
    {
-    "title": "Bessent points to Lutnick’s Commerce as he slams Nvidia chip ‘leakage’ to China",
-    "url": "https://www.cnbc.com/2026/11/13/us-inflation-outlook-federal-reserve-rate-hike.html",
+    "title": "Nvidia scandal draws in Commerce Secretary Lutnick, who reportedly agrees to testify about China chip sales",
+    "url": "https://www.cnbc.com/2026/11/13/nvidia-scandal-lutnick-chip-sales.html",
     "source": "CNBC",
-    "published": "2026-11-13T14:53:35+00:00",
-    "lede": "Jensen Huang resigned as Nvidia CEO days after admitting to an affair following scrutiny of his relationship with a woman reportedly deemed a Chinese spy.",
+    "published": "2026-11-13T15:49:11+00:00",
+    "lede": "Commerce Secretary Lutnick will testify before the Senate Banking Committee following revelations about Jensen Huang's affair with an alleged Chinese spy.",
     "lang": "en"
    },
    {
-    "title": "Nvidia stock slips as investors digest CEO exit, broader chip sector falls",
-    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPT1FhU3E0MEFkQjV4aHZ4WXk5cktoTzhKbE9Sd1ZKTS11dE5raks5bXA0dk5IOGZ1bzBfT2Y5LUluVTZENml5cnBxcVEyOWh6eU9UU0lIS3FNbmdxVnpvdVUyTkdRNlU0REJGYjhaQzhpZHlpWGV1U1pfRjFLVE5wb3h3NGxWbFJmSlRJNDktSENjNVVpUFlHbnNrcW1BMk9vN2NsNzFjQURkeUtGQXBrSWRsMzctNmRzWlhvSUJVQjk5aHZkeUNtYTh3?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-13T14:48:18+00:00",
+    "title": "Looking Past Nvidia Turmoil, Stocks Set for Best Week in Months",
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQSlBrdjRTd1hzdUVoVk5qRGEwY0hjenIxSGFLUnRCdUhrdkZJNlVJUkpFanRQR3R0ajJXeGFFWE5UcWtEYkpkRHQxTXhCY3BZMDZUbnF3OUd6WDdtN015NHV6NWpJZExzZnZsV0F0ZTRGSDJOYU12d2RuZWtDWG13dHN3?oc=5",
+    "source": "The New York Times",
+    "published": "2026-11-13T15:45:36+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Red Rock Resorts (RRR) Slid in Q3 Amid Rising Rates and Inflation",
-    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPNkpzQW5BX3o5YnZqeGVHTnM0UFFVUDBvMGZrRDF5aHVKdXJlLXpMMmF5RkxsdlBWbk4tMXlkdHJqUzU2LU50TVNwSzVoQXdBYlZoTE1qOFBEcElicTMteG9IVHJxWEFVdFJQR1ZobExzU1c5SnY0RWU3STIxWjBPZlB2TS0xNEotRlNlT2c4VmRuaU9I?oc=5",
+    "title": "Forget the \"Magnificent Seven.\" Berkshire Hathaway Could Be the Better Long-Term Bet.",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPajQ5ZzJXa0RlNXlFNjNDaTNTal95TmV1SlBMdjV0V2tqZjZpSFJEVkxBZXNodzM5ck9VVjNrQ3I5UGlCNWFmQUpJNERyTlNxWm03QVpvdlB0SXlqd0hBUDNvcDVoMEI2bzBwZlp6YXg2SmZPRzQtVHRxTkV5Ui00WlhEZzRUdFpCSm9tbDM4dm5EYnVOQXF3RWxEQ2NOV1hrVktOeGQ4ZWc5dVZ0?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-13T14:42:42+00:00",
+    "published": "2026-11-13T15:43:02+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Prediction: This Data Center Stock Will Keep Sliding in 2027",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQbnJmTlRrcTNvSk9yazk1NEMtVWE1TURRT3owYjVwQXRCUVVHRnNmME1kZThIbDlhUEcwcFI5R3pud3VxUE44ZzU2SHNDOHpGSEFfNE5sYlg3OElnWGJhaUlseFByQUJUN05IcmVWWDl5OFpGZHpwMjk0UWNmOUwyNWNJcmpsNkJ4YU01ckhzc2NWZ0pXTmE4b21sTFJrNEk?oc=5",
+    "title": "Global oil markets swing to surplus as Gulf shipments rebound",
+    "url": "https://www.ft.com/content/20b68fe2-9d60-4c0c-b714-1f3e03015823?syn-25a6b1a6=1",
+    "source": "Financial Times",
+    "published": "2026-11-13T15:42:48+00:00",
+    "lede": "IEA analysts warn it will take months to rebuild stockpiles depleted by US-Iran war",
+    "lang": "en"
+   },
+   {
+    "title": "10-year Treasury yield moves to 5.15% as traders weigh producer price report",
+    "url": "https://www.cnbc.com/2026/11/13/treasury-yields-fed-rates.html",
+    "source": "CNBC",
+    "published": "2026-11-13T15:40:10+00:00",
+    "lede": "Treasury yields moved higher as investor expectations for a December rate hike by the Federal Reserve gain strength.",
+    "lang": "en"
+   },
+   {
+    "title": "Central Asia Metals plc (CAML) Opens the Market",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQQXdMQnJHdE45cC1LcjNnOWpXTXZhX05fWENCOExVUzlPWmZPN1FpUVhxbXlKYVBoVExjTXZWOU9fM09tVlJKQUFxcFlfcE53V2s1c0pOZldzRkVRVWIzV2N6Q0Y0S2JYZlI0NktCR015MzBpMVhWX3M0alNacEdEQTJKY3UycWM1NDdXLXlMa1Y1VFBOd0p3cw?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-13T14:40:02+00:00",
+    "published": "2026-11-13T15:37:00+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "מגמה מעורבת בוול סטריט; אנבידיה יורדת ב-2%, ברודקום ב-4%",
+    "title": "US Treasuries set for worst week since Trump’s ‘liberation day’",
+    "url": "https://www.ft.com/content/7bebace2-dc87-410a-ae29-ffd9f3176def?syn-25a6b1a6=1",
+    "source": "Financial Times",
+    "published": "2026-11-13T15:36:00+00:00",
+    "lede": "Higher than expected inflation and hawkish remarks by Fed officials have stung investors who bet a global bond rout was over",
+    "lang": "en"
+   },
+   {
+    "title": "Home sales plummet to lowest level since ‘Great Recession’ as prices hit all-time high",
+    "url": "https://www.marketwatch.com/story/home-sales-plummet-to-lowest-level-since-the-great-recession-as-buyers-flee-the-market-624e6270?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-13T15:08:00+00:00",
+    "lede": "Home sales fell in October to a 16-year low as buyers bolted from the housing market in the face of 7% mortgage rates.",
+    "lang": "en"
+   },
+   {
+    "title": "מניות השבבים מעיבות על וול סטריט, אנבידיה שוב יורדת",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001563339#utm_source=RSS",
     "source": "גלובס",
-    "published": "2026-11-13T14:31:00+00:00",
-    "lede": "למרות הטלטלה בסקטור השבבים, המדדים המרכזיים בדרך לרשום את השבוע הטוב ביותר שלהם מאז אוגוסט",
+    "published": "2026-11-13T15:04:00+00:00",
+    "lede": "נאסד\"ק עבר לירידה של 0.7% • למרות הטלטלה, המדדים המרכזיים בדרך לרשום את השבוע הטוב ביותר שלהם מאז אוגוסט • מחירי הנפט נסחרים ביציבות יחסית, לאחר שרשמו זינוק חד אמש בעקבות איתותיו של טראמפ על המשך המצור הכלכלי על איראן",
     "lang": "he"
    },
    {
@@ -98,41 +130,33 @@
     "published": "2026-11-13T14:26:04+00:00",
     "lede": "Cisco is trying to become a bigger player in AI after missing out on the early years of the boom.",
     "lang": "en"
-   },
-   {
-    "title": "Opening trading-card packs has become a $2 billion market",
-    "url": "https://www.marketwatch.com/story/opening-trading-card-packs-has-become-a-2-billion-market-new-apps-are-trying-to-cash-in-b7ba11f5?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-13T14:16:00+00:00",
-    "lede": "Pack-ripping apps are changing the way people buy and sell cards. But analysts say their “slot-like payoff” raises risks.",
-    "lang": "en"
-   },
-   {
-    "title": "Jim Cramer's top 10 things to watch in the stock market Friday",
-    "url": "https://www.cnbc.com/investingclub/2026/11/13/jim-cramers-top-10-things-to-watch-in-the-stock-market-friday.html",
-    "source": "CNBC",
-    "published": "2026-11-13T14:12:16+00:00",
-    "lede": "Stock futures picked up some steam this morning.",
-    "lang": "en"
-   },
-   {
-    "title": "אחרי כמעט 20 שעות: המייל של מיקרוסופט מתחיל לחזור",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001563336#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-13T13:56:00+00:00",
-    "lede": "התקלה שהחלה אמש בשעה שמונה וחצי בערב שעון ישראל קרובה לסיום, ו-Outlook מתחיל לחזור לשימוש",
-    "lang": "he"
-   },
-   {
-    "title": "Global oil supply returns to surplus for first time since start of Iran war, says IEA",
-    "url": "https://www.theguardian.com/business/2026/nov/13/global-oil-supply-returns-to-surplus-for-first-time-since-start-of-iran-war-says-iea",
-    "source": "The Guardian",
-    "published": "2026-11-13T13:35:45+00:00",
-    "lede": "Supplies outstripped demand by almost 2m barrels a day in October as market shows ‘tentative signs of rebalancing’ The world’s oil supply is swinging back to a surplus for the first time since the start of the…",
-    "lang": "en"
    }
   ],
   "il": [
+   {
+    "title": "המרד באנבידיה: עובדים דורשים את חזרתו של המנכ\"ל המודח",
+    "url": "https://finance.walla.co.il/item/3876126",
+    "source": "וואלה",
+    "published": "2026-11-13T18:06:00+00:00",
+    "lede": "\"החזירו את הבוס\": למרות התפטרותו על רקע שערוריות וצניחה של טריליון דולר בשווי החברה, פוסט פנימי זוכה לאלפי תגובות הדורשות מהדירקטוריון להשיב את המייסד לתפקידו",
+    "lang": "he"
+   },
+   {
+    "title": "הרכב שלא מנסה להרשים אבל ב-183 אלף שקל ממלא את ייעודו",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001563245#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-13T15:04:00+00:00",
+    "lede": "סקודה אלרוק, הקרוס־אובר החשמלי של סקודה, לא מנסה להרשים אבל ממלא את ייעודו המשפחתי היטב עם תא נוסעים מרווח ומאובזר, התנהגות נעימה ומוניטין סולידי",
+    "lang": "he"
+   },
+   {
+    "title": "מגמה מעורבת בוול סטריט; אנבידיה יורדת ב-2%, ברודקום ב-4%",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001563339#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-13T14:31:00+00:00",
+    "lede": "למרות הטלטלה בסקטור השבבים, המדדים המרכזיים בדרך לרשום את השבוע הטוב ביותר שלהם מאז אוגוסט",
+    "lang": "he"
+   },
    {
     "title": "בזק מבקשת לחלק אופציות של 10 מיליון שקל לשני מנהלים בכירים",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001563338#utm_source=RSS",
@@ -150,22 +174,6 @@
     "lang": "he"
    },
    {
-    "title": "עובדי ארקיע מנסים לבלום את העסקה: ינסו להביא משקיע חדש בתוך שלושה ימים",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001563337#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-13T10:33:00+00:00",
-    "lede": "אחרי שהאחים נקש חתמו על עסקה למכירת השליטה בארקיע, תאגיד העובדים מנסה לאתר משקיעים שיגישו הצעה מתחרה",
-    "lang": "he"
-   },
-   {
-    "title": "מהלך לריסוק השורה התחתונה: הרווחים הכלואים הרגו את הנדל\"ן המניב",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001563204#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-13T10:31:00+00:00",
-    "lede": "הדיבורים על העלאת מס הרווחים הכלואים הם מסמר אחרון בארון הקבורה של יזמי המשרדים הקטנים",
-    "lang": "he"
-   },
-   {
     "title": "מניות המיקרו-קאפ נסחרות במכפיל של כ-12, החברות הגדולות במכפיל של כ-28",
     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1FcFJycWk2c2VxU2lPbE04SGVsQnliTDA0OHBoS2VyTlFtRTc3cGVHQUhYLVdud0VCZ2laSURGbUEyVVhxUWh2UGs0ck1GWUp2M2thWXF1VGdDdXBkM0NZZnJJNFg5aDU0NVo2Q0U4RWM?oc=5",
     "source": "ביזפורטל",
@@ -176,18 +184,18 @@
   ],
   "geo": [
    {
-    "title": "Can Netanyahu launch a strike on Iran before he leaves?",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPTDVpZXM0aE93SXF5aVY4RzJ0VWpkdExxa09ab0VsdEpkUWVLRDJWZk9QbzJ1ZDRRRXRTaHBxYUlPcEp4VlhqY1JnVlVEaTU3UFBaVk0yajY4MWlkZm1kSmZIOWVSampraEd5TnZ1TnlNVWJER2g5R0p3cl8ycmRraEg5S2ktaTV4OTFQaGJlbTVta21SYlpPM1BnUzLSAaIBQVVfeXFMTS1nUFo2cWt1eGhEcG9uNTQ3R05sMzZzSU9seGsweFlYMFRlNXBQS21uRU44SEtrczhpekRVaW11Uk15N0tkbzhMcENKWk5FOXdLcmh0MGhwaEdRbGVkdzFINUo4MjNyVld1ZXVXQWQ2c3lvWUFoZlY2ZFgtcEJUSjREVFpZZDdoUnFwNGc0bGlSZXAyWHluNEJDTC1DZjNlRDFn?oc=5",
-    "source": "Al Jazeera",
-    "published": "2026-11-13T14:21:35+00:00",
+    "title": "Tête à tête - UN refugee chief Barham Salih slams 'shameful' war in Sudan, urges 'political solution'",
+    "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNSmIyeGpXTWtwbGhNVG1ibnc0cHBpWE1lblJvU1pXdDFzZGtyQmFldHVHU04ydVhmdzBEZ2JDZlloREVuWGphZlJ2TFgtVV9ndm9BTVdGYVdRSEM4TUhfWC10cGpvRUV1RGpPdDF3WjU4Vi04ZmtYRkdLRU5WTVVsb1FBR3RfZTItdWhwRXlSakNyVWFfcFBud0MzOUdJV056ZV9DQVJIdktENjhpS0FPSXQ2U2NONlNKNFhiYXZad2FwNXUzY0UzQUk0Qld6R3dyQmZJd2liWndkODlxSmhHQ2R0dW5hVmozZlA0?oc=5",
+    "source": "France 24",
+    "published": "2026-11-13T15:56:30+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Ukraine claims record 3,000 Russian casualties in one day as war drags on",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNTWk2V05hQVJ1VFBPdFFySGw4SU4tZGlNT3JYdDl4akdMQUJVQmhDeVZkR0VOSV9TN0tsaGZnZlJPYTJvZGRGc19KOU1aOFlHTlkzZG5qMFdjSjhXQk5xd1pLdkdlUHdkcFRTcnNSUVM5a2F1S0p6OTd0WjR6dUE4VGpqWHVLbVZYZHc5MkNESjhSdjN6bEh6TmZXYnY2a2EtN21SUXhRX1R2Tkw1QVRZ0gG0AUFVX3lxTE9OYXAyaC1NazBMTk5GdVYyeV9ZU1lmUTFGbFRkWTdHM1hEa3I0VDE5VXQtVkVjR2xuUkUxTWVMc0lLeEMxYW1fWFlSeE1aMnNoVkNjM2hBRE5OREE2QU93Z0JJeURrNHgxVVU1QmR1Vm5jRjVJbl9XQk9UY3dBTFUwdVIwZVRaMmFOaWdIUmhDUWR1aWtLcnpzcWdsaXlzS1V3THRRSWdpR2tPZDRkUmJ5UkUySg?oc=5",
-    "source": "Al Jazeera",
-    "published": "2026-11-13T14:16:17+00:00",
+    "title": "Mossad chief meets U.S. officials to discuss Iran as Netanyahu pushes for war",
+    "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxQNGFDZ1JvbnQzdl90OXJFRGlqc2tRbEZjVWRNclpmS0NSYUZYcVNaZm5zbXhCUTkxclZtLUxJbVhoSWRmcXpOdWdhM1FvNXc4Z0FIdTgwYVhKMHp0MW1mMEtJNkE0a2E0QmdkbEV0OXREQlpCcmxhOXE2QlV6LUo0b3hyb2hON2hFVUY3ZTJGdFdXM1RqT2FfRWM2LW83X0gtVW1SRi05N05Pa0hscTk3cWdiNy1tcENBNGpKUEZHQVdPQ24wLXVOLVpxOUc5bG1RRGJiUzZPSk9DeVR6Tm80aFNjTFVWbmh0MmJIZFZsZERyb2Jlb2FOamNDa2RqTzRjWTM1UkFITHVkT1ZDa1Z6NFYwYWMzZWJZeUE?oc=5",
+    "source": "Haaretz",
+    "published": "2026-11-13T15:34:00+00:00",
     "lede": null,
     "lang": "en"
    }
