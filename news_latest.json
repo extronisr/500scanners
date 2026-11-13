@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-13T18:01:06.999200+02:00",
+ "generated_at": "2026-11-13T19:01:08.400821+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -52,27 +52,67 @@
   ],
   "us": [
    {
-    "title": "Nvidia scandal draws in Commerce Secretary Lutnick, who reportedly agrees to testify about China chip sales",
-    "url": "https://www.cnbc.com/2026/11/13/nvidia-scandal-lutnick-chip-sales.html",
+    "title": "Why the data center slowdown concern is overblown. Two stocks to buy amid the fear",
+    "url": "https://www.cnbc.com/2026/11/13/data-center-slowdown-utility-stocks.html",
     "source": "CNBC",
-    "published": "2026-11-13T15:49:11+00:00",
-    "lede": "Commerce Secretary Lutnick will testify before the Senate Banking Committee following revelations about Jensen Huang's affair with an alleged Chinese spy.",
+    "published": "2026-11-13T16:54:40+00:00",
+    "lede": "Not one utility CEO we spoke with at the EEI conference is anticipating a slowdown in electricity growth expectations.",
     "lang": "en"
    },
    {
-    "title": "Looking Past Nvidia Turmoil, Stocks Set for Best Week in Months",
-    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQSlBrdjRTd1hzdUVoVk5qRGEwY0hjenIxSGFLUnRCdUhrdkZJNlVJUkpFanRQR3R0ajJXeGFFWE5UcWtEYkpkRHQxTXhCY3BZMDZUbnF3OUd6WDdtN015NHV6NWpJZExzZnZsV0F0ZTRGSDJOYU12d2RuZWtDWG13dHN3?oc=5",
-    "source": "The New York Times",
-    "published": "2026-11-13T15:45:36+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Forget the \"Magnificent Seven.\" Berkshire Hathaway Could Be the Better Long-Term Bet.",
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPajQ5ZzJXa0RlNXlFNjNDaTNTal95TmV1SlBMdjV0V2tqZjZpSFJEVkxBZXNodzM5ck9VVjNrQ3I5UGlCNWFmQUpJNERyTlNxWm03QVpvdlB0SXlqd0hBUDNvcDVoMEI2bzBwZlp6YXg2SmZPRzQtVHRxTkV5Ui00WlhEZzRUdFpCSm9tbDM4dm5EYnVOQXF3RWxEQ2NOV1hrVktOeGQ4ZWc5dVZ0?oc=5",
+    "title": "Peer Discount Creates Compelling Opportunity at QXO (QXO)",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPT2dCZkRzMlJWRVhHU3JpVzRCNUVBdVBfWlhOVXJmNlFzbzZoaWJnY3Q1c1hSWGJ1SWpXbTZyemlXSEI3ckFkOUJrTklnN0tJM291UnlTZEJMYkIxLW1FcVp2UUhjcE9uMWw4NTZweHl6dzMyMDJHUmNyajFzUzlGZVRPMWJmRXdhanFGMGF3ZzVmQndtLUwyanIxc2pQU3UxazBldVczUUs4MUFnMEE?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-13T15:43:02+00:00",
+    "published": "2026-11-13T16:45:46+00:00",
     "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Why Virgin Galactic Stock Just Crashed",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNN1VzcXBTeXhtTXh4VDF2eHV2RnhkdVctb2wzTDJRRUE2ZTdnbXE3NWFlbE1kdFBJZi16MEpJeE5BeTVfS3VlYl9iMkhiMHZtMkN0LVdTSHJJbkpiem5sZHJpbG9XU2hjZFI3S2xndUJyOGZLVVFUY0dtdWxiRllGdmw0Q2hBTnY1dEwtRHRocXJyUmlMMUxRbHRCNA?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-13T16:41:32+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "3 Dividend Stocks That Raised Their Payouts Through Both 2008 and 2020",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWlY1TE9PT3JpbkpqY1NkUEh1R1pPZVFBNnduUkI5cndWMnZzVXFFOGExMnBJczlyRVhkNXN6Wi1JTzQ0WDAzd2NPVG4yc3RvTDZYdkhIa011MFRRMEFQVEI3aGNsMVNxcWxKNGVMSGJCNENDSlh1U21kUDFyUnpfQ2l4bEpwcWZ4cHQ4MEZ4NnZNR2cwXzJTZUFGMnB2Zw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-13T16:35:00+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "What are people emergency stockpiling?",
+    "url": "https://www.bbc.co.uk/news/videos/c6zxvg79rr9yo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC",
+    "published": "2026-11-13T16:31:22+00:00",
+    "lede": "From cider to candy canes: What people are emergency stockpiling",
+    "lang": "en"
+   },
+   {
+    "title": "Nvidia’s stock is on a losing streak not seen in 14 years. What comes next?",
+    "url": "https://www.marketwatch.com/story/nvidias-stock-is-on-a-losing-streak-not-seen-in-14-years-what-comes-next-a07e801e?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-13T16:26:00+00:00",
+    "lede": "Nvidia has wiped out $657 billion in market capitalization this week — its sixth consecutive week of stock declines.",
+    "lang": "en"
+   },
+   {
+    "title": "Bessent blames Lutnick’s Commerce as he slams Nvidia chip ‘leakage’ to China",
+    "url": "https://www.cnbc.com/2026/11/13/us-inflation-outlook-federal-reserve-rate-hike.html",
+    "source": "CNBC",
+    "published": "2026-11-13T16:03:42+00:00",
+    "lede": "Jensen Huang resigned as Nvidia CEO days after admitting to an affair following scrutiny of his relationship with a woman reportedly deemed a Chinese spy.",
+    "lang": "en"
+   },
+   {
+    "title": "14 dividend stocks selected for long-term growth",
+    "url": "https://www.marketwatch.com/story/14-dividend-stocks-selected-for-long-term-growth-0a095c0d?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-13T16:01:00+00:00",
+    "lede": "These stocks feature attractive dividend payouts and are trading low to the companies’ intrinsic value, according to John Buckingham of Value87 Investment Partners.",
     "lang": "en"
    },
    {
@@ -90,46 +130,6 @@
     "published": "2026-11-13T15:40:10+00:00",
     "lede": "Treasury yields moved higher as investor expectations for a December rate hike by the Federal Reserve gain strength.",
     "lang": "en"
-   },
-   {
-    "title": "Central Asia Metals plc (CAML) Opens the Market",
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQQXdMQnJHdE45cC1LcjNnOWpXTXZhX05fWENCOExVUzlPWmZPN1FpUVhxbXlKYVBoVExjTXZWOU9fM09tVlJKQUFxcFlfcE53V2s1c0pOZldzRkVRVWIzV2N6Q0Y0S2JYZlI0NktCR015MzBpMVhWX3M0alNacEdEQTJKY3UycWM1NDdXLXlMa1Y1VFBOd0p3cw?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-13T15:37:00+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "US Treasuries set for worst week since Trump’s ‘liberation day’",
-    "url": "https://www.ft.com/content/7bebace2-dc87-410a-ae29-ffd9f3176def?syn-25a6b1a6=1",
-    "source": "Financial Times",
-    "published": "2026-11-13T15:36:00+00:00",
-    "lede": "Higher than expected inflation and hawkish remarks by Fed officials have stung investors who bet a global bond rout was over",
-    "lang": "en"
-   },
-   {
-    "title": "Home sales plummet to lowest level since ‘Great Recession’ as prices hit all-time high",
-    "url": "https://www.marketwatch.com/story/home-sales-plummet-to-lowest-level-since-the-great-recession-as-buyers-flee-the-market-624e6270?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-13T15:08:00+00:00",
-    "lede": "Home sales fell in October to a 16-year low as buyers bolted from the housing market in the face of 7% mortgage rates.",
-    "lang": "en"
-   },
-   {
-    "title": "מניות השבבים מעיבות על וול סטריט, אנבידיה שוב יורדת",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001563339#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-13T15:04:00+00:00",
-    "lede": "נאסד\"ק עבר לירידה של 0.7% • למרות הטלטלה, המדדים המרכזיים בדרך לרשום את השבוע הטוב ביותר שלהם מאז אוגוסט • מחירי הנפט נסחרים ביציבות יחסית, לאחר שרשמו זינוק חד אמש בעקבות איתותיו של טראמפ על המשך המצור הכלכלי על איראן",
-    "lang": "he"
-   },
-   {
-    "title": "Cisco beats on earnings, says AI infrastructure revenue will double this fiscal year",
-    "url": "https://www.cnbc.com/2026/11/12/cisco-csco-q1-2027-earnings.html",
-    "source": "CNBC",
-    "published": "2026-11-13T14:26:04+00:00",
-    "lede": "Cisco is trying to become a bigger player in AI after missing out on the early years of the boom.",
-    "lang": "en"
    }
   ],
   "il": [
@@ -139,6 +139,14 @@
     "source": "וואלה",
     "published": "2026-11-13T18:06:00+00:00",
     "lede": "\"החזירו את הבוס\": למרות התפטרותו על רקע שערוריות וצניחה של טריליון דולר בשווי החברה, פוסט פנימי זוכה לאלפי תגובות הדורשות מהדירקטוריון להשיב את המייסד לתפקידו",
+    "lang": "he"
+   },
+   {
+    "title": "מניות השבבים מעיבות על וול סטריט, אנבידיה שוב יורדת",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001563339#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-13T15:50:00+00:00",
+    "lede": "נאסד\"ק עבר לירידה של 1.5% • למרות הטלטלה, המדדים המרכזיים בדרך לרשום את השבוע הטוב ביותר שלהם מאז אוגוסט • האינפלציה במחירי היצרן בארה\"ב עלתה באוקטובר לקצב שנתי של 6.5%' הרמה הגבוהה ביותר מאז נובמבר 2022. מדד הליבה של…",
     "lang": "he"
    },
    {
@@ -166,36 +174,36 @@
     "lang": "he"
    },
    {
-    "title": "ת״א ננעלה בירידות, אבל מניה אחת הצליחה לזנק",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001563287#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-13T12:00:00+00:00",
-    "lede": "הדולר עלה מעל 3.2 שקלים • ת\"א 35 איבד 0.9% ות\"א 90 נחלש ב-1.4% • הזינוק בתשואות האג\"ח בארה\"ב מעיב על השווקים והקרין גם על תל אביב • באסיה נרשמה מגמה שלילית בצל קריסת הין היפני • וגם: \"הטכנולוגיה עשויה לזנק בחוזקה – אך…",
-    "lang": "he"
-   },
-   {
     "title": "מניות המיקרו-קאפ נסחרות במכפיל של כ-12, החברות הגדולות במכפיל של כ-28",
     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1FcFJycWk2c2VxU2lPbE04SGVsQnliTDA0OHBoS2VyTlFtRTc3cGVHQUhYLVdud0VCZ2laSURGbUEyVVhxUWh2UGs0ck1GWUp2M2thWXF1VGdDdXBkM0NZZnJJNFg5aDU0NVo2Q0U4RWM?oc=5",
     "source": "ביזפורטל",
     "published": "2026-11-13T05:25:00+00:00",
     "lede": null,
     "lang": "he"
+   },
+   {
+    "title": "נעילה שלילית: הביטוח איבד 2%, עזריאלי ומנורה נפלו 3%",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1ZRl9ZWlNiZlEtWmpaX09wSU5icVh1Ym9IM016WENGam5SQjUwNGc0eXJsYXZJX3REY2JnZXhIdUVUVUFFRjNqVTlpbzVzYjRzTVAyV2c4QnNxeTM5bzJ4SGMzaWxaTVpnRVR5YlZ3ZGM?oc=5",
+    "source": "ביזפורטל",
+    "published": "2026-11-13T04:12:00+00:00",
+    "lede": null,
+    "lang": "he"
    }
   ],
   "geo": [
+   {
+    "title": "US Treasury warns against rate hikes during US-Iran war energy ‘shock’",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOY0IzNVR6Xzl2Q1NFaVdPY2xCWU11YzN4SWVTc0ZOV2FjRmV4QVZXQVctY2t4S2JJN3hKbWhfbjU5dV9qR2lxTGxZNVpFNTNlNEk3bm1PRGxOVjlrOFdMZE90cHFnU0xCMlFzci1Yc2c1SU9zMUEteUEyUjZ2YnV4M2hici1ZMmRDdzFqNjBuM05kNW1takVSYlg3Tm9NV3l3QllqdHRGRDNMUEVtYzBzbFAxb9IBuAFBVV95cUxQcDBLU1RQR0Etb2lQbm5kOEhlYVpseTJSazRLRWlWb1FIUjFLQ3YzY1p5Y0Jfbk13bU14a0Y2YVYwaW5vdkxEeTdwZ3dHMUdZSGhrNVpuSXAwWjdVTHdOSFg3MVhNMmFyZ2F4YUl3blRWbTN5SjhhcXJodVE0TjF6NlliUXlQV25kMFczalZvYmhINU00aWNNRkZNeGUwOWpLdkNOcHYxenJ5elU2dFpuRG83dW1oaGsx?oc=5",
+    "source": "Al Jazeera",
+    "published": "2026-11-13T16:25:38+00:00",
+    "lede": null,
+    "lang": "en"
+   },
    {
     "title": "Tête à tête - UN refugee chief Barham Salih slams 'shameful' war in Sudan, urges 'political solution'",
     "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNSmIyeGpXTWtwbGhNVG1ibnc0cHBpWE1lblJvU1pXdDFzZGtyQmFldHVHU04ydVhmdzBEZ2JDZlloREVuWGphZlJ2TFgtVV9ndm9BTVdGYVdRSEM4TUhfWC10cGpvRUV1RGpPdDF3WjU4Vi04ZmtYRkdLRU5WTVVsb1FBR3RfZTItdWhwRXlSakNyVWFfcFBud0MzOUdJV056ZV9DQVJIdktENjhpS0FPSXQ2U2NONlNKNFhiYXZad2FwNXUzY0UzQUk0Qld6R3dyQmZJd2liWndkODlxSmhHQ2R0dW5hVmozZlA0?oc=5",
     "source": "France 24",
     "published": "2026-11-13T15:56:30+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Mossad chief meets U.S. officials to discuss Iran as Netanyahu pushes for war",
-    "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxQNGFDZ1JvbnQzdl90OXJFRGlqc2tRbEZjVWRNclpmS0NSYUZYcVNaZm5zbXhCUTkxclZtLUxJbVhoSWRmcXpOdWdhM1FvNXc4Z0FIdTgwYVhKMHp0MW1mMEtJNkE0a2E0QmdkbEV0OXREQlpCcmxhOXE2QlV6LUo0b3hyb2hON2hFVUY3ZTJGdFdXM1RqT2FfRWM2LW83X0gtVW1SRi05N05Pa0hscTk3cWdiNy1tcENBNGpKUEZHQVdPQ24wLXVOLVpxOUc5bG1RRGJiUzZPSk9DeVR6Tm80aFNjTFVWbmh0MmJIZFZsZERyb2Jlb2FOamNDa2RqTzRjWTM1UkFITHVkT1ZDa1Z6NFYwYWMzZWJZeUE?oc=5",
-    "source": "Haaretz",
-    "published": "2026-11-13T15:34:00+00:00",
     "lede": null,
     "lang": "en"
    }

@@ -1,5 +1,5 @@
 {
- "fetched_at": "13.11.2026, 18:34",
+ "fetched_at": "13.11.2026, 19:04",
  "items": [
   {
    "title": "Rezolute gets an uplift from phase 3 tumor hyperinsulinism win ahead of FDA meeting - Fierce Biotech",
@@ -339,7 +339,7 @@
   },
   {
    "title": "AMGEN ANNOUNCES POSITIVE PHASE 3 RESULTS FOR DAZODALIBEP IN SJÖGREN'S DISEASE - Amgen",
-   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOQWxtQnd4WDdyR3hXU2kzZERKd1cway05ZmlGb041aFlKcFB0ejZRTWl5azQzOFViNnVCRlFwVlZVT2RCbmFkck83WEZmajhfdVYtdHlfVXgxTXJlTTJ5RExrd1ZFZng1eVdoR294MElTUDNJY01sMlpRTEpQTkhvN0VXT0hJV0FmRVVRU2VLUGtacUJVS0t1ZDZ5cklldVNCUHdwZ2M4MEtOMHhsUFQwX2lMejdCczVfcFlzTktpZjYtSmk4UXE0Rw?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPSmdlajZaZXBJeDBOU2xlajg2RFJvMFV2UVl0cWZaWGVWSk5wV2I2WGtac2JuRlRRWVllYjVLZzJDTjlUd0ZmdTZ6MWE3Z2RxbzJocDk2Wnk2OFgzRzJWT3U3QzBPQkVQQTM4cG1rRjctaXdKTXdqNzBEZDZTZkR5T2Y1eERKQkE5RThfWmVvLW5QOVpITENmcjM3Yk94WXBvTEFHc0xzelVrR0haVjZhQ1BqSHA2SGFKYXB2Q1RwaUVqRWZI?oc=5",
    "pub_ts": 1794404711.0,
    "date": "11.11.2026, 15:45",
    "cat": "phase3",
@@ -2120,6 +2120,24 @@
     {
      "source": "FDA",
      "link": "http://www.fda.gov/news-events/press-announcements/fda-approves-first-plasmid-dna-based-immunotherapy-adults-recurrent-respiratory-papillomatosis"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "JAMA Network Open Publishes Quality of Life and Pain Outcomes Data from Phase 3 PANOVA-3 Trial of Novocure’s Tumor Treating Fields for Pancreatic Cancer - Business Wire",
+   "link": "https://news.google.com/rss/articles/CBMisgJBVV95cUxPQkJTQThsRXNPQ2p5WDdteklHcFhQZG4xQzVTZmhDRHE4QkhQOFJaUHMxVWs3UkVIbzBJZXNxb0RxMXZmR0dwUm1yR1dvdmJock1lUTY5WEZUZUEyV09Xcm0zWWpVUGpvNXA2OV9vS1VHM3ROYVpKZHZJQ3hsclFtSDIwQXcteEdUQ2RKWTBMWlMybEl5UGU3emlYZ1FqamgzNnVMUnlQNk5Dbk52YnRnXzZJWDd0SF9HS3NLb3dKUjYtNW53UERmaEVPTVFvWWp6Q1RuektEOE1Xc29WclBnQjJpd1pNUUJJTjFvejh3Rl9ieHBqeGdDUTNBZXNFMDBteG5DWmJiWExndkdvUUhTT2JtTFJhd1RTY2FXUklIaEVfWWtuazVsSDNGR3NQclRCdWc?oc=5",
+   "pub_ts": 1794587400.0,
+   "date": "13.11.2026, 18:30",
+   "cat": "phase3",
+   "sev": 3,
+   "dir": 0,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "Google News",
+     "link": "https://news.google.com/rss/articles/CBMisgJBVV95cUxPQkJTQThsRXNPQ2p5WDdteklHcFhQZG4xQzVTZmhDRHE4QkhQOFJaUHMxVWs3UkVIbzBJZXNxb0RxMXZmR0dwUm1yR1dvdmJock1lUTY5WEZUZUEyV09Xcm0zWWpVUGpvNXA2OV9vS1VHM3ROYVpKZHZJQ3hsclFtSDIwQXcteEdUQ2RKWTBMWlMybEl5UGU3emlYZ1FqamgzNnVMUnlQNk5Dbk52YnRnXzZJWDd0SF9HS3NLb3dKUjYtNW53UERmaEVPTVFvWWp6Q1RuektEOE1Xc29WclBnQjJpd1pNUUJJTjFvejh3Rl9ieHBqeGdDUTNBZXNFMDBteG5DWmJiWExndkdvUUhTT2JtTFJhd1RTY2FXUklIaEVfWWtuazVsSDNGR3NQclRCdWc?oc=5"
     }
    ],
    "ncts": []
@@ -5777,26 +5795,6 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTGVQQ0Rvd0JIODFwRlZYYnpmWGtLdGFaQWhVVTBKUHJsbEJTbmMxVk9rN1FZeEw1cmwzVkpfa3F0YjB5SlZIR2J1R1JsaVNyaVhvcmxlMmg1MzlMOG1EbG5IdkU5Z1k1c0NmVHVfNmJnQlpnWURndWRyRzlaQ2JQZHdYbTZNeTJxYm5oRGxRcDJPWlR4bEVmX05KRGdDanVhQkJMNTd2Zm5nTGs?oc=5"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "Pfizer Reports Strong Phase 2 Data for 25-Valent Pediatric PCV - Drug Topics",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQU3NXbHU3U0hlbmx2ZElVQl9sRTNPcG52TmtRSHpTOWIweWlRODFrWjlhRXJpMHhhUGRTQnl4LVlNODkwa3U3cXFjblJXWUZBY2lQUU5wRWhPLWRtbkJ5aE9JQk03bm5EcHdWWjk1LTNOQVlPV0VFcGFMT3NVTFBOY3VaclhxcjlTOFlGemZ1ZXdlQ3JtN0dKTHpB?oc=5",
-   "pub_ts": 1793378842.0,
-   "date": "30.10.2026, 18:47",
-   "cat": "phase2",
-   "sev": 1,
-   "dir": 0,
-   "tickers": [],
-   "companies": [
-    "PFE"
-   ],
-   "sources": [
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQU3NXbHU3U0hlbmx2ZElVQl9sRTNPcG52TmtRSHpTOWIweWlRODFrWjlhRXJpMHhhUGRTQnl4LVlNODkwa3U3cXFjblJXWUZBY2lQUU5wRWhPLWRtbkJ5aE9JQk03bm5EcHdWWjk1LTNOQVlPV0VFcGFMT3NVTFBOY3VaclhxcjlTOFlGemZ1ZXdlQ3JtN0dKTHpB?oc=5"
     }
    ],
    "ncts": []
