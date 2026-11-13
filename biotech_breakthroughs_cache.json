@@ -1,5 +1,5 @@
 {
- "fetched_at": "14.11.2026, 1:04",
+ "fetched_at": "14.11.2026, 1:33",
  "items": [
   {
    "title": "FDA Approves Perioperative Durvalumab/Enfortumab Vedotin in MIBC - CancerNetwork",
@@ -413,7 +413,7 @@
   },
   {
    "title": "AMGEN ANNOUNCES POSITIVE PHASE 3 RESULTS FOR DAZODALIBEP IN SJÖGREN'S DISEASE - Amgen",
-   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOQWxtQnd4WDdyR3hXU2kzZERKd1cway05ZmlGb041aFlKcFB0ejZRTWl5azQzOFViNnVCRlFwVlZVT2RCbmFkck83WEZmajhfdVYtdHlfVXgxTXJlTTJ5RExrd1ZFZng1eVdoR294MElTUDNJY01sMlpRTEpQTkhvN0VXT0hJV0FmRVVRU2VLUGtacUJVS0t1ZDZ5cklldVNCUHdwZ2M4MEtOMHhsUFQwX2lMejdCczVfcFlzTktpZjYtSmk4UXE0Rw?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPSmdlajZaZXBJeDBOU2xlajg2RFJvMFV2UVl0cWZaWGVWSk5wV2I2WGtac2JuRlRRWVllYjVLZzJDTjlUd0ZmdTZ6MWE3Z2RxbzJocDk2Wnk2OFgzRzJWT3U3QzBPQkVQQTM4cG1rRjctaXdKTXdqNzBEZDZTZkR5T2Y1eERKQkE5RThfWmVvLW5QOVpITENmcjM3Yk94WXBvTEFHc0xzelVrR0haVjZhQ1BqSHA2SGFKYXB2Q1RwaUVqRWZI?oc=5",
    "pub_ts": 1794404711.0,
    "date": "11.11.2026, 15:45",
    "cat": "phase3",
@@ -1085,6 +1085,24 @@
    "ncts": []
   },
   {
+   "title": "FDA Approves First Factor Xla Inhibitor to Help Prevent Stroke in Certain Adults at High Risk",
+   "link": "http://www.fda.gov/news-events/press-announcements/fda-approves-first-factor-xla-inhibitor-help-prevent-stroke-certain-adults-high-risk",
+   "pub_ts": 1794262546.0,
+   "date": "10.11.2026, 0:15",
+   "cat": "fda",
+   "sev": 4,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA",
+     "link": "http://www.fda.gov/news-events/press-announcements/fda-approves-first-factor-xla-inhibitor-help-prevent-stroke-certain-adults-high-risk"
+    }
+   ],
+   "ncts": []
+  },
+  {
    "title": "After a 10-year gap, FDA approves new option for pretreated head and neck cancer - Managed Healthcare Executive",
    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOamFrWEk1V0FucGVQM29ZT0JXQ3huUEtpZ3k4U1FCX0RlR19oZHBWNXljR1JYSW9qa3owamo0Z0VtLTlkTjE0dHpsdHhOV2ZrN1dRZENTNHY1bVhpTjlLS1JSZ0xZdVo3WThEV0FVekNZUC1va3AxelpySUF5OFphUDJMLU1GMktTcXRoRGRQb2FtS0dGT1dtek5sdTZOa2puRDdUUzl3enI?oc=5",
    "pub_ts": 1794262149.0,
@@ -1659,6 +1677,24 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQRGpWQTFDcGtPZnplaTJqeXBGRHI3bC1xUFhEQ0pMeG5BMlhPTUx0cnljZU0xWVZDNmFUWmVYWWpoazlvZ1lNV255OEFDN2szdWNHRHFXbk9tb1RFaFd4M2FWX0V4RzQ4bzJxQ3BvNTJiZy1xY3BJZWJHbUZyRTVEMDJmY1hEd0JnSkpGTVI0U2FUMVJGdEluMVN4TGs2eWJ5NmlWZ0Y0bVVKWTJPSGFsVGpGVXJ1VHpnTFY4ZmZCeXJ3RVJUUXMtZGIxNXF4SzczTXl5MW1mY0FzWHkxa1RhNGFsNkZ5QWZNRUc40gHwAUFVX3lxTE02UmVhR0FIOHhjM2p2aXBCVXAzajVWcmdyTWxhNjN3YzlpbDJQWmRXV19RcmpQTUlpcHd1SE9Gd21iTFJUTjFnYlg5ZnE0VWZkTkZER2RxSlQ0RUVHTlhuQ0hodVdyeEhkZTV0RFNySlB2TjM4OHRGOEM3d25TbzZHS2Y4b2ZjV3o1Sm9VektqcjJJNVBISHJiWVpRT3FLaW1kSHJ2Q2NoeXpqS3BfNzFQeWtmRTVoSG1ObGw1MnFiM3kwT0syT1g4UV9lNEozSGxUekJVcWkxQUVyUGNvczVwNGFhQ0Y5Rk5DOUg0VUVSTA?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA Grants Accelerated Approval to a New Treatment for Head and Neck Squamous Cell Carcinoma",
+   "link": "http://www.fda.gov/news-events/press-announcements/fda-grants-accelerated-approval-new-treatment-head-and-neck-squamous-cell-carcinoma",
+   "pub_ts": 1793917838.0,
+   "date": "6.11.2026, 0:30",
+   "cat": "fda",
+   "sev": 4,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA",
+     "link": "http://www.fda.gov/news-events/press-announcements/fda-grants-accelerated-approval-new-treatment-head-and-neck-squamous-cell-carcinoma"
     }
    ],
    "ncts": []
@@ -3403,24 +3439,6 @@
    "ncts": []
   },
   {
-   "title": "FDA approves generic Tofacitinib Citrate (Dexcel)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=218668",
-   "pub_ts": 1794268800.0,
-   "date": "10.11.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=218668"
-    }
-   ],
-   "ncts": []
-  },
-  {
    "title": "Pegcetacoplan Long Term Safety and Efficacy Extension Study",
    "link": "https://clinicaltrials.gov/study/NCT03531255",
    "pub_ts": 1794268800.0,
@@ -3504,6 +3522,24 @@
    ]
   },
   {
+   "title": "FDA approves generic Tofacitinib Citrate (Dexcel)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=218668",
+   "pub_ts": 1794268800.0,
+   "date": "10.11.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=218668"
+    }
+   ],
+   "ncts": []
+  },
+  {
    "title": "BeOne Medicines (ONC) Priority Review And Earnings Put Valuation Back In Focus - Simply Wall St",
    "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNUnU5QnY2aGNnOFUwSUhncDFVOG1TSDdVUU92cERueWFhR0tXMHd1WmptTDJTRzd3S1hCUUN6VkpyMENrR1NzalRpdXhHUVpuYVdzcG1DWTdyZDNwZmV5c1JyLWk5aVFESlVVblEyYk9ZbVV1NkJjazNXNldNaERIZzJmUDdRRExWUmtrSkM5TzBEdVBUbElldjV2LXJmSm9tbDVNdkZvYmpkNXdMVGxYWDVBSUhWbVZFRHVMeS1hZmFncWF5R3Y0NHJoUnZHbGp4cW9ldHZxLWpzU0lqY0hVLXZn0gHnAUFVX3lxTE91REFLVG02VG5NMy1Fak5yNnZlS2JiaEdNTmpSck1famw5RE1BNjNBb05LRTFXUHNHOENNWk9IYjY3REtyNjU5V0hKeXh3Y3VJZE1PS3hMempQbXVyajR2YU1UVkw0MmhETVpXZ3RMaVVmRjVhU09TVjJGZ1dQbHRyVVgtSUplaGZGRXR1NVhBMzNKeGlHX2QxWG9jVFl4M2RuaUh0bjdvNnVVUUVCTEtVMGFLc2xZTkZvOC03bGEwZHcwd1hMaFR4MmcwYXBsLUhvT0MyRHdmSm5ydW9qZk5KMHVPbGNfQQ?oc=5",
    "pub_ts": 1794230751.0,
@@ -3582,28 +3618,6 @@
    "ncts": []
   },
   {
-   "title": "FDA approves generic Tofacitinib Citrate (Apotex)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220458",
-   "pub_ts": 1794182400.0,
-   "date": "9.11.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220458"
-    },
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220972"
-    }
-   ],
-   "ncts": []
-  },
-  {
    "title": "A Study of Tiragolumab in Combination With Atezolizumab Compared With Placebo in Combination With Atezolizumab in Patients With Previously Untreated Locally Advanced Unresectable or Metastatic PD-L1-Selected Non-Small Cell Lung Cancer",
    "link": "https://clinicaltrials.gov/study/NCT04294810",
    "pub_ts": 1794182400.0,
@@ -3624,6 +3638,28 @@
    "ncts": [
     "NCT04294810"
    ]
+  },
+  {
+   "title": "FDA approves generic Tofacitinib Citrate (Apotex)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220458",
+   "pub_ts": 1794182400.0,
+   "date": "9.11.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220458"
+    },
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220972"
+    }
+   ],
+   "ncts": []
   },
   {
    "title": "FDA Grants Brukinsa Priority Review After Chemo-Free Regimen Beats Standard Care in Mantle Cell Lymphoma - Tech Times",
@@ -3702,6 +3738,28 @@
     }
    ],
    "ncts": []
+  },
+  {
+   "title": "A Phase 3 Study to Assess the Immune Response and Safety of rMenB+OMV NZ in Primed Healthy Participants (10 to 20 Years Old)",
+   "link": "https://clinicaltrials.gov/study/NCT06995430",
+   "pub_ts": 1793923200.0,
+   "date": "2026-11-06",
+   "cat": "phase3",
+   "sev": 2,
+   "dir": 0,
+   "tickers": [],
+   "companies": [
+    "GSK"
+   ],
+   "sources": [
+    {
+     "source": "ClinicalTrials.gov",
+     "link": "https://clinicaltrials.gov/study/NCT06995430"
+    }
+   ],
+   "ncts": [
+    "NCT06995430"
+   ]
   },
   {
    "title": "FDA approves generic Venlafaxine Hydrochloride (Yichang Humanwell)",
@@ -3794,28 +3852,6 @@
    "ncts": []
   },
   {
-   "title": "A Phase 3 Study to Assess the Immune Response and Safety of rMenB+OMV NZ in Primed Healthy Participants (10 to 20 Years Old)",
-   "link": "https://clinicaltrials.gov/study/NCT06995430",
-   "pub_ts": 1793923200.0,
-   "date": "2026-11-06",
-   "cat": "phase3",
-   "sev": 2,
-   "dir": 0,
-   "tickers": [],
-   "companies": [
-    "GSK"
-   ],
-   "sources": [
-    {
-     "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT06995430"
-    }
-   ],
-   "ncts": [
-    "NCT06995430"
-   ]
-  },
-  {
    "title": "Altimmune presents positive Phase 2 trial data for pemvidutide in alcohol use disorder at AASLD 2026. - Pluang",
    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNTnpnNEZyQTRsemN2QUUweVFDd0E1SXVBQ3FqbnNFTTdzUDd0MDBEUUpfYWZ3WkVubk1uVXNLSnhXOFlVWll6UFJTWXhLVHFIQlBLTkV1RXRwOUNiWWZGNzR0X3N6YmVKZV9tWk16bjhUVnozV1BkWG1ITHBKTDdqNjEwc0xNeXdpdGotcmd3X01DaDJCajR3LWpoVUg5T1ZiWmxmN0NVYktLTEZ0?oc=5",
    "pub_ts": 1793891910.0,
@@ -3855,42 +3891,6 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPNU5uX3lQZHVXU3pTdXNJWHlfYnNPNWRrd0R6R183SmQ4RTNGemo1a2ZFZEU0RGl0OGQ5T2QwSldIMHRzeWFYM3JHemVpbFYyNDFZU3FrcGpUTmRRaWRRZlN3eFRzekFHZnRxdFdDN001MmowSlRDd2RVZEVUcmNWaUtLWmVpR2RoMmZGU3RJZmJaX01SLTJOWjYweWxDVVgyemQ1NWtYLVEtSFFBRVFhRzNsUHlZQWxjQnZTenkzRlhIYXBOUDc1Yw?oc=5"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "FDA approves generic Eltrombopag Olamine (Changzhou Pharm)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221019",
-   "pub_ts": 1793836800.0,
-   "date": "5.11.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221019"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "FDA approves generic Amitriptyline Hydrochloride (Cmp Dev Llc)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219639",
-   "pub_ts": 1793836800.0,
-   "date": "5.11.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219639"
     }
    ],
    "ncts": []
@@ -3938,6 +3938,42 @@
    "ncts": [
     "NCT05620836"
    ]
+  },
+  {
+   "title": "FDA approves generic Eltrombopag Olamine (Changzhou Pharm)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221019",
+   "pub_ts": 1793836800.0,
+   "date": "5.11.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221019"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA approves generic Amitriptyline Hydrochloride (Cmp Dev Llc)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219639",
+   "pub_ts": 1793836800.0,
+   "date": "5.11.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219639"
+    }
+   ],
+   "ncts": []
   },
   {
    "title": "FDA Approves Generic Lenacapavir PrEP — But Not for the U.S. - POZ",
@@ -4181,88 +4217,6 @@
    "ncts": []
   },
   {
-   "title": "FDA approves generic Olopatadine Hydrochloride (Alembic)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=217856",
-   "pub_ts": 1793664000.0,
-   "date": "3.11.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=217856"
-    },
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220602"
-    },
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=214747"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "FDA approves generic Fluticasone Propionate (Teva Pharms Usa Inc)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=209917",
-   "pub_ts": 1793664000.0,
-   "date": "3.11.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=209917"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "FDA approves generic Hydroxyurea (Esjay Pharma)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220300",
-   "pub_ts": 1793664000.0,
-   "date": "3.11.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220300"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "FDA approves generic Propofol (Baxter Hlthcare Corp)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=203421",
-   "pub_ts": 1793664000.0,
-   "date": "3.11.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [
-    "BAX"
-   ],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=203421"
-    }
-   ],
-   "ncts": []
-  },
-  {
    "title": "A Study of an Acetaminophen/Naproxen Sodium Fixed Combination, Acetaminophen and Naproxen Sodium in Postoperative Dental Pain",
    "link": "https://clinicaltrials.gov/study/NCT05761574",
    "pub_ts": 1793664000.0,
@@ -4350,6 +4304,88 @@
    "ncts": [
     "NCT04628494"
    ]
+  },
+  {
+   "title": "FDA approves generic Olopatadine Hydrochloride (Alembic)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=217856",
+   "pub_ts": 1793664000.0,
+   "date": "3.11.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=217856"
+    },
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220602"
+    },
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=214747"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA approves generic Fluticasone Propionate (Teva Pharms Usa Inc)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=209917",
+   "pub_ts": 1793664000.0,
+   "date": "3.11.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=209917"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA approves generic Hydroxyurea (Esjay Pharma)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220300",
+   "pub_ts": 1793664000.0,
+   "date": "3.11.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220300"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA approves generic Propofol (Baxter Hlthcare Corp)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=203421",
+   "pub_ts": 1793664000.0,
+   "date": "3.11.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [
+    "BAX"
+   ],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=203421"
+    }
+   ],
+   "ncts": []
   },
   {
    "title": "New Phase 2 REC-4881 Data Presented at CGA-IGC Show Deep, Durable Polyp Burden Reductions in FAP, with Activity Across the GI Tract and in Larger, Higher-Risk Polyps - The Manila Times",
@@ -4544,6 +4580,48 @@
    "ncts": []
   },
   {
+   "title": "Research Study to Look at How Well Semaglutide Works in People Living With Heart Failure, Obesity and Type 2 Diabetes",
+   "link": "https://clinicaltrials.gov/study/NCT04916470",
+   "pub_ts": 1793577600.0,
+   "date": "2026-11-02",
+   "cat": "phase3",
+   "sev": 2,
+   "dir": 0,
+   "tickers": [],
+   "companies": [
+    "NVO"
+   ],
+   "sources": [
+    {
+     "source": "ClinicalTrials.gov",
+     "link": "https://clinicaltrials.gov/study/NCT04916470"
+    }
+   ],
+   "ncts": [
+    "NCT04916470"
+   ]
+  },
+  {
+   "title": "Double-blind, Randomized, Placebo-controlled, Prospective Phase III Study Evaluating Efficacy and Safety of Panzyga in Primary Infection Prophylaxis in Patients With Chronic Lymphocytic Leukemia (\"PRO-SID\" Study)",
+   "link": "https://clinicaltrials.gov/study/NCT04502030",
+   "pub_ts": 1793577600.0,
+   "date": "2026-11-02",
+   "cat": "phase3",
+   "sev": 2,
+   "dir": 0,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "ClinicalTrials.gov",
+     "link": "https://clinicaltrials.gov/study/NCT04502030"
+    }
+   ],
+   "ncts": [
+    "NCT04502030"
+   ]
+  },
+  {
    "title": "FDA approves generic Cyclophosphamide (Amneal Pharms)",
    "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=210890",
    "pub_ts": 1793577600.0,
@@ -4616,48 +4694,6 @@
     }
    ],
    "ncts": []
-  },
-  {
-   "title": "Research Study to Look at How Well Semaglutide Works in People Living With Heart Failure, Obesity and Type 2 Diabetes",
-   "link": "https://clinicaltrials.gov/study/NCT04916470",
-   "pub_ts": 1793577600.0,
-   "date": "2026-11-02",
-   "cat": "phase3",
-   "sev": 2,
-   "dir": 0,
-   "tickers": [],
-   "companies": [
-    "NVO"
-   ],
-   "sources": [
-    {
-     "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT04916470"
-    }
-   ],
-   "ncts": [
-    "NCT04916470"
-   ]
-  },
-  {
-   "title": "Double-blind, Randomized, Placebo-controlled, Prospective Phase III Study Evaluating Efficacy and Safety of Panzyga in Primary Infection Prophylaxis in Patients With Chronic Lymphocytic Leukemia (\"PRO-SID\" Study)",
-   "link": "https://clinicaltrials.gov/study/NCT04502030",
-   "pub_ts": 1793577600.0,
-   "date": "2026-11-02",
-   "cat": "phase3",
-   "sev": 2,
-   "dir": 0,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT04502030"
-    }
-   ],
-   "ncts": [
-    "NCT04502030"
-   ]
   },
   {
    "title": "Bristol Myers Squibb (BMY) Reports Positive Phase 2 Pumitamig Lung Cancer Data - Yahoo Finance",
