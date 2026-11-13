@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-13T23:01:06.282948+02:00",
+ "generated_at": "2026-11-14T00:01:07.152675+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -52,68 +52,76 @@
   ],
   "us": [
    {
+    "title": "Xylem Inc. Announces $1.5 Billion Share Repurchase Authorization",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUmxWYkNrZUI4UTNEcDQ3Z1RpMmd4UDBkbFZ0QUNRemVzSkNhTUEtNVZJODJnQnY1azY4T25yMmJIX2c4UWF4WGU1U2hiUE9tWVdTc2E2cXNtR3RXTW5yV0tjSjBHVnVMaDNWYWU3LXZRYmtYcS0tWTR0a2JKY3doSkJDNHItQjFyVHdSQ1U0TXBwdw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-13T21:45:00+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Goldman Sachs looks to cash in on big IPOs twice. Anthropic’s historic deal is its next chance",
+    "url": "https://www.cnbc.com/investingclub/2026/11/13/goldman-sachs-looks-to-cash-in-on-anthropics-ipo-twice-heres-how-and-who-else-wants-to.html",
+    "source": "CNBC",
+    "published": "2026-11-13T21:44:07+00:00",
+    "lede": "While co-leading the offering, Goldman also wants a shot at managing the billions of dollars in new wealth that the deal creates. It's not the only one.",
+    "lang": "en"
+   },
+   {
+    "title": "Ross Stores Inc. stock underperforms Friday when compared to competitors",
+    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNTGVsZE9Ic0Q0bG94Q09MQjRwNFNLWmxhQ2JLVG1TcFVWZzRPQm0yQnV2X2tBaUR2V2xfNTBfUExPdmhNeThRZXEwSXl0ckdaOTA1OEZlUVQzcXVIYS1RaG54YTdLU2hXb25STWg2U0JEWVpvR3FhS3ZibUlHajB2NXJFREJfNzRnVFYxUlpJTGxJUHpkOTRONzZWSlFfRVJib3l0ZmlzdzlNMFdlc0Yza3RuQVktSFFGZ0lyRE5iaXN3bWxHQ0Y5dU5pMjRWOFVxWk1GcXpidUUxY1A2S1YwcVhzcw?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-11-13T21:44:00+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Better Chip Stock: Nvidia vs. AMD",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTTVvMDVuZjc0aGVFSFZkVVc4UVBCc1RnUHJhVHJBWmVoSVdvUE9jZGd4TjRGdXVVc0s5MHRmQmlETVQ2bVkxS3JLdEdiN3JBWEJKN205bzVZanFGdV9IcV8tSTZRY2RuWjkzQXpOSWFHcG5hdW1GZDVSd3M3a0FEaVpyb2xhRDVmUndld0VqRzZhMFhpZ09N?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-13T21:43:02+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Nvidia stock suffers longest weekly losing streak since 2012 as market value sinks by $1.7 trillion",
+    "url": "https://www.cnbc.com/2026/11/13/nvidia-stock-jensen-affair-ai.html",
+    "source": "CNBC",
+    "published": "2026-11-13T21:27:15+00:00",
+    "lede": "Jensen Huang's resignation added to Nvidia's market woes, with the stock already in a downward slide since early October.",
+    "lang": "en"
+   },
+   {
+    "title": "Bitcoin is now below $69,000 and could fall even further if investors cash out to buy into the Anthropic IPO",
+    "url": "https://www.marketwatch.com/story/bitcoin-could-fall-even-further-if-investors-cash-out-to-buy-into-the-anthropic-ipo-5a14f46a?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-13T21:26:00+00:00",
+    "lede": "Investors may have to sell some of their existing bets in crypto to make room in their portfolio for what could be one of the most sought-after stock offerings in history.",
+    "lang": "en"
+   },
+   {
+    "title": "AI risks are the biggest threat to the financial system, Fed survey finds",
+    "url": "https://www.cnbc.com/2026/11/13/ai-risks-financial-system-federal-reserve.html",
+    "source": "CNBC",
+    "published": "2026-11-13T21:18:30+00:00",
+    "lede": "The report comes with Wall Street on edge over high-flying AI hyperscalers, while communities are on alert for the rapid spread of data centers.",
+    "lang": "en"
+   },
+   {
     "title": "AMD and other chip stocks slide as Wall Street rethinks the AI trade without Jensen Huang",
     "url": "https://www.marketwatch.com/story/amd-and-other-chip-stocks-slide-as-wall-street-rethinks-the-ai-trade-without-jensen-huang-2fb74547?mod=mw_rss_topstories",
     "source": "MarketWatch",
-    "published": "2026-11-13T20:57:00+00:00",
+    "published": "2026-11-13T21:10:00+00:00",
     "lede": "At first, it looked like Nvidia’s pain might be the rest of the chip sector’s gain. But now, investors aren’t so sure.",
     "lang": "en"
    },
    {
-    "title": "Supreme Court agrees to hear Robinhood challenge to IPO information omission lawsuit",
-    "url": "https://www.cnbc.com/2026/11/13/robinhood-supreme-court-ipo-lawsuit.html",
-    "source": "CNBC",
-    "published": "2026-11-13T20:48:13+00:00",
-    "lede": "The Trump administration had urged the Supreme Court to hear an appeal by Robinhood of a lower-court's decision to revive an investors' lawsuit over the IPO.",
-    "lang": "en"
-   },
-   {
-    "title": "Weekly Gains Hold Up Despite a Friday Slide as Chips Lead and Yields Climb",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNdHo1dlBUQjJNTVgtNVRzY2hZSG90Q0E4b0trT29scVRUZS1MLTBNVHZIa0ZPQk9KUmItbFlManRkSzdsUnVoRnlBc0E2em9HRlZWSEZYbjZMTHppcG1YVVdIalVKaVpsck5KVTJGZzNwdngzbGNSdnJqZ1FUX1hZUVBQZmE?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-13T20:47:00+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "A Jim Cramer’s Trust Stock Is Using AI to Breaks the Defenses It Helps Protect",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOYm9UX1drRmlabXhHZlJKN0Q1TlVhV3ljRXVUSXZHZG1QaGpDSUN6R0RhQlBoTGgydzVIRlN0anVPRmg1Wm44UWFodkQ0THZyTE8wQklacUplbFM0RHczT0VYdHloVEk5a2ZHUFFRSllwak1fWVh2S1RPZnFMS0NlRjFJYXlEWEdkeEZXdm1NRnp3N0dablZB?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-13T20:41:11+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Microsoft vs. Salesforce: One Software Stock Remains a Top Pick, the Other Has Something to Prove, Says RBC",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNR2VqREVoVEVsX045b0NwSWtkaElUSFhoc3g2cmRuOTVSUlN1Tm9NZzN1TXpyRThGOGR1Y2pnaEthNWttdzEwQXFnMjMtQTRQdGwxcnR4VmRiODVMak0xTnhmc29ZOFRnVF92Zl9WdkQ4b3R1SzZvdnEyTmJhZVRQcXJWQjBlemdtdUdIMnR3MmpzQU9iZnBwTnJsYV9GU3Y0VmFv?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-13T20:39:40+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Jensen Huang was a ‘China salesman’ for Nvidia. His exit is weighing on Chinese tech stocks.",
-    "url": "https://www.marketwatch.com/story/jensen-huang-was-a-china-salesman-for-nvidia-his-exit-is-weighing-on-chinese-tech-stocks-e46351e4?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-13T20:19:00+00:00",
-    "lede": "The former Nvidia CEO was an ‘influential voice’ for selling chips to Chinese companies, but now investors are preparing for more restrictions, experts say.",
-    "lang": "en"
-   },
-   {
-    "title": "CFTC Chair Selig tells CNBC crypto industry is embracing agency rules as legislation hopes fade",
-    "url": "https://www.cnbc.com/2026/11/13/cftc-chair-selig-crypto-industry-opting-into-agencys-crypto-rules-.html",
-    "source": "CNBC",
-    "published": "2026-11-13T20:07:30+00:00",
-    "lede": "The top U.S. commodities regulator in October announced proposed crypto rules to assert its jurisdiction over the asset class.",
-    "lang": "en"
-   },
-   {
-    "title": "Goldman Sachs looks to cash in on Anthropic's IPO, twice. Here's how and who else wants to",
-    "url": "https://www.cnbc.com/investingclub/2026/11/13/goldman-sachs-looks-to-cash-in-on-anthropics-ipo-twice-heres-how-and-who-else-wants-to.html",
-    "source": "CNBC",
-    "published": "2026-11-13T19:45:35+00:00",
-    "lede": "While co-leading the offering, Goldman also wants a shot at managing the billions of dollars in new wealth that the deal creates. It's not the only one.",
-    "lang": "en"
+    "title": "מניות השבבים העיבו על וול סטריט; אנבידיה ירדה בכ-2%",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001563339#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-13T21:00:00+00:00",
+    "lede": "למרות הירידות, נאסד\"ק רשם את השבוע הטוב ביותר מאז אוגוסט",
+    "lang": "he"
    },
    {
     "title": "Anthropic’s Amodei ‘not super fussed’ about market turmoil ahead of IPO",
@@ -121,14 +129,6 @@
     "source": "Financial Times",
     "published": "2026-11-13T19:41:26+00:00",
     "lede": "AI lab’s chief executive brushes off tech stock turbulence less than a week before planned $1.5tn listing",
-    "lang": "en"
-   },
-   {
-    "title": "Trump bought Nvidia stock as he helped chipmaker with change to export rule",
-    "url": "https://www.theguardian.com/us-news/2026/nov/13/trump-nvidia-stock-jensen-huang-us-china",
-    "source": "The Guardian",
-    "published": "2026-11-13T19:09:05+00:00",
-    "lede": "President purchased up to $5m of stock before revoking Biden-era rule that limited Nvidia’s ability to sell to China Donald Trump bought Nvidia stock worth millions of dollars as he made decisions on America’s China…",
     "lang": "en"
    }
   ],
@@ -139,14 +139,6 @@
     "source": "וואלה",
     "published": "2026-11-13T18:06:00+00:00",
     "lede": "\"החזירו את הבוס\": למרות התפטרותו על רקע שערוריות וצניחה של טריליון דולר בשווי החברה, פוסט פנימי זוכה לאלפי תגובות הדורשות מהדירקטוריון להשיב את המייסד לתפקידו",
-    "lang": "he"
-   },
-   {
-    "title": "מניות השבבים מעיבות על וול סטריט, אנבידיה שוב יורדת",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001563339#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-13T17:45:00+00:00",
-    "lede": "נאסד\"ק עבר לירידה של 1.2% • למרות הטלטלה, המדדים המרכזיים בדרך לרשום את השבוע הטוב ביותר שלהם מאז אוגוסט • האינפלציה במחירי היצרן בארה\"ב עלתה באוקטובר לקצב שנתי של 6.5%' הרמה הגבוהה ביותר מאז נובמבר 2022. מדד הליבה של…",
     "lang": "he"
    },
    {
@@ -174,6 +166,14 @@
     "lang": "he"
    },
    {
+    "title": "ת״א ננעלה בירידות, אבל מניה אחת הצליחה לזנק",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001563287#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-13T12:00:00+00:00",
+    "lede": "הדולר עלה מעל 3.2 שקלים • ת\"א 35 איבד 0.9% ות\"א 90 נחלש ב-1.4% • הזינוק בתשואות האג\"ח בארה\"ב מעיב על השווקים והקרין גם על תל אביב • באסיה נרשמה מגמה שלילית בצל קריסת הין היפני • וגם: \"הטכנולוגיה עשויה לזנק בחוזקה – אך…",
+    "lang": "he"
+   },
+   {
     "title": "מניות המיקרו-קאפ נסחרות במכפיל של כ-12, החברות הגדולות במכפיל של כ-28",
     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1FcFJycWk2c2VxU2lPbE04SGVsQnliTDA0OHBoS2VyTlFtRTc3cGVHQUhYLVdud0VCZ2laSURGbUEyVVhxUWh2UGs0ck1GWUp2M2thWXF1VGdDdXBkM0NZZnJJNFg5aDU0NVo2Q0U4RWM?oc=5",
     "source": "ביזפורטל",
@@ -184,18 +184,18 @@
   ],
   "geo": [
    {
-    "title": "U.S. downs two Iranian drones as Iran says it struck U.S. radar in Bahrain",
-    "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOczBKTU1xdTBoaG9vdnRtbVd3RjF1YnlldXhOUWZHQkZvalJINTlPZUNKb0lFRG9uZ01qbjZkV1hsZlI3cDRKSUctaTZ5ZExDWVNtV0NUT0FYZzZyaGlja1lCT24yaDZlR3UxZVZNYS15aEFDMDRnLUplUzlVa0VLenliU1RYOTdRdng0QVMxeE9SekFRVE5LaENFSzJQZWxENk9KcENiZ1R6VlI5VnBBOVNmSHNhcWJtXzZSVjM4Qm16MVBMd3hGSmVBcnpqcExkTzNpN3FweGZ1Mk5uQ1pXS0JsVk1jZUJJU0x0U2E1LTh1dVA3LXJSaG8tY25vNjFBSzh5b29oTVQ?oc=5",
-    "source": "Haaretz",
-    "published": "2026-11-13T19:51:00+00:00",
+    "title": "Scoop: Israeli spy chief in D.C. as Netanyahu presses Trump to resume war",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPc0RsNzRSR3JhRUdIYkdjZ0VGRFdfeGJkUDd6NzRmV1FWMVRtSGtHYlFCQTZoRElpN2pBcmF6OXlQblJDaXlIeElKRjRXaXdvSkZNNGJTc21GaTdDTzRnUlJJcXVRZWx3N1pRYkhTSnZTNHVmc3VmQ19PdEttQ1FLV0t3dzd5VG1z?oc=5",
+    "source": "Axios",
+    "published": "2026-11-13T19:10:26+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Global oil supply returns to surplus for first time since start of Iran war, says IEA",
-    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQNndNZUdKRnhDVGRkRE85YjZfUG1pUFd5NlVkbjBhbWZaTjZqZlRCU3RmMlBzR1ZjMmJpZi1jX2FvT01wbVc0ZDNaYm9YZUFTZm4wX29QQ3NLN0VpVS1CUjRBVm1GeWlHRk8yb1R4QkMySE5HUjdMUEM3OGVXdU5XM3lORndmX1RwRFdEbkZhalpnVmdONXhJYkR6bUpDZ2xfTXB1MlNuWDNFOGtPSFh0NzF0OWFYSjFBdU1hdVNqQnNSbUdMMi1JZW9vV1UwUQ?oc=5",
-    "source": "The Guardian",
-    "published": "2026-11-13T18:46:00+00:00",
+    "title": "Europe Agrees on a Team to Represent It in Talks With Russia",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPbXZ5el9iR2VOdWd1dVNVX00zWkdWM01yQkk4WkxZZmtrNUNxUVZIQ3E0aHdrZ0NmMWlsclN0ejlhaHNvMWV3OWVBWXI4aF9aRzhPOW5pNTUwdHJNdWFSclFQckhJUDFYMXBpWDM4QjhsQ00wazRta0FVS2F3NDIwSWVBVjg5SjA?oc=5",
+    "source": "The New York Times",
+    "published": "2026-11-13T18:52:07+00:00",
     "lede": null,
     "lang": "en"
    }
