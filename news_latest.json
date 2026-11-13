@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-13T22:01:24.124137+02:00",
+ "generated_at": "2026-11-13T23:01:06.282948+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -9,6 +9,14 @@
  },
  "sections": {
   "analysts": [
+   {
+    "title": "SpaceX Starship’s First Double Catch Is ‘Massive’ For Orbital AI Data Centers, Says Market Strategist",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNMmtWY2JpYmRuY1ZrazBPYU5DMEM3SFJabDFmRnk4ajBfcWFxdklBVnRmQzFOMC0wQWF1STg3b2R1Ym9UVE8zeGVaV3pjSF9QbkZiTllJTWF2UmhkNXdzNEdpbjJDcGtZUXE5V1JkUDNvS3FIcTBZWUFIVW8ydzRGZ2ZhbDZ4UkxOWXNmWWZRY1FscXVXNTJoeE4wMmNUSnM?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-13T19:30:40+00:00",
+    "lede": null,
+    "lang": "en"
+   },
    {
     "title": "Investors are underestimating AI. But the real challenge is diversification, this strategist says.",
     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQaHBKVUxfXzhfU280dENjRmY1MlhlLWUwOEg3Tzkxd285N1hWSUp1b3BYOGFTSFJ1VDFnVXBDbWVWN2NKei1rQUlTam9DZ1VSSnZreWZ4Z09Hbm5WdjVOSC1tSXZ0Z3F1dkp4MC1PMWdYMjlydDJZY0xSUGZNcnN5eFI3NHdsSXpaWjJTYzNCRVl1cGdoRWRmRGU1cEY1WURXVDJETHJQOXFCSDJXZ2RFWnZhU1BVeWR0dU9Tak53RTlkTUF2ZV9BUDNEZnNEbDRuMncxeQ?oc=5",
@@ -40,23 +48,63 @@
     "published": "2026-11-13T12:09:05+00:00",
     "lede": null,
     "lang": "en"
-   },
-   {
-    "title": "Owlet Gears Up For Q3 Print; Here Are The Recent Forecast Changes From Wall Street's Most Accurate Analys",
-    "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNSlA3azhvZE1yZDBhRXo3VHVpbzJhZkJxMlc5LU1TRGFFWFpvb25WRWFtR0NoOHJyamJJTlpfUWVVZGYwbkc0N1RFeUpmM1JtV2tZcVZ3NHJUMl95VEoxSmI3TlRYYUpJWFJadHREUGJDV1p1NzhwT3dKZklyYTVjLUIwcmR6enBFMFl0Sk5Pdk5mV1VWWjg1LVlWUFNTOHZHVmU0MUp3TE53bTc5VzdBN3RyZVdaOFNwX0ZzSXpzRUpLdnZ0UUw5akNaQWtDenNJNGJ3cFhXbU9wY3hIbVNDQ24yRnBLOUtzNWZUVUJROXhvTzZSWnFLWGFnQzFsVnE0YTk5S3lEa1BWSTQt?oc=5",
-    "source": "Benzinga",
-    "published": "2026-11-13T06:01:05+00:00",
-    "lede": null,
-    "lang": "en"
    }
   ],
   "us": [
    {
+    "title": "AMD and other chip stocks slide as Wall Street rethinks the AI trade without Jensen Huang",
+    "url": "https://www.marketwatch.com/story/amd-and-other-chip-stocks-slide-as-wall-street-rethinks-the-ai-trade-without-jensen-huang-2fb74547?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-13T20:57:00+00:00",
+    "lede": "At first, it looked like Nvidia’s pain might be the rest of the chip sector’s gain. But now, investors aren’t so sure.",
+    "lang": "en"
+   },
+   {
     "title": "Supreme Court agrees to hear Robinhood challenge to IPO information omission lawsuit",
     "url": "https://www.cnbc.com/2026/11/13/robinhood-supreme-court-ipo-lawsuit.html",
     "source": "CNBC",
-    "published": "2026-11-13T20:00:06+00:00",
+    "published": "2026-11-13T20:48:13+00:00",
     "lede": "The Trump administration had urged the Supreme Court to hear an appeal by Robinhood of a lower-court's decision to revive an investors' lawsuit over the IPO.",
+    "lang": "en"
+   },
+   {
+    "title": "Weekly Gains Hold Up Despite a Friday Slide as Chips Lead and Yields Climb",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNdHo1dlBUQjJNTVgtNVRzY2hZSG90Q0E4b0trT29scVRUZS1MLTBNVHZIa0ZPQk9KUmItbFlManRkSzdsUnVoRnlBc0E2em9HRlZWSEZYbjZMTHppcG1YVVdIalVKaVpsck5KVTJGZzNwdngzbGNSdnJqZ1FUX1hZUVBQZmE?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-13T20:47:00+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "A Jim Cramer’s Trust Stock Is Using AI to Breaks the Defenses It Helps Protect",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOYm9UX1drRmlabXhHZlJKN0Q1TlVhV3ljRXVUSXZHZG1QaGpDSUN6R0RhQlBoTGgydzVIRlN0anVPRmg1Wm44UWFodkQ0THZyTE8wQklacUplbFM0RHczT0VYdHloVEk5a2ZHUFFRSllwak1fWVh2S1RPZnFMS0NlRjFJYXlEWEdkeEZXdm1NRnp3N0dablZB?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-13T20:41:11+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Microsoft vs. Salesforce: One Software Stock Remains a Top Pick, the Other Has Something to Prove, Says RBC",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNR2VqREVoVEVsX045b0NwSWtkaElUSFhoc3g2cmRuOTVSUlN1Tm9NZzN1TXpyRThGOGR1Y2pnaEthNWttdzEwQXFnMjMtQTRQdGwxcnR4VmRiODVMak0xTnhmc29ZOFRnVF92Zl9WdkQ4b3R1SzZvdnEyTmJhZVRQcXJWQjBlemdtdUdIMnR3MmpzQU9iZnBwTnJsYV9GU3Y0VmFv?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-13T20:39:40+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Jensen Huang was a ‘China salesman’ for Nvidia. His exit is weighing on Chinese tech stocks.",
+    "url": "https://www.marketwatch.com/story/jensen-huang-was-a-china-salesman-for-nvidia-his-exit-is-weighing-on-chinese-tech-stocks-e46351e4?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-13T20:19:00+00:00",
+    "lede": "The former Nvidia CEO was an ‘influential voice’ for selling chips to Chinese companies, but now investors are preparing for more restrictions, experts say.",
+    "lang": "en"
+   },
+   {
+    "title": "CFTC Chair Selig tells CNBC crypto industry is embracing agency rules as legislation hopes fade",
+    "url": "https://www.cnbc.com/2026/11/13/cftc-chair-selig-crypto-industry-opting-into-agencys-crypto-rules-.html",
+    "source": "CNBC",
+    "published": "2026-11-13T20:07:30+00:00",
+    "lede": "The top U.S. commodities regulator in October announced proposed crypto rules to assert its jurisdiction over the asset class.",
     "lang": "en"
    },
    {
@@ -68,59 +116,11 @@
     "lang": "en"
    },
    {
-    "title": "If the Stock Market Crashes, These Are the First 3 Dividend Stocks I Want to Buy",
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZ2dFTlhpbU9reUJyZTJjTnllOTNIT1ZBQkxWbGt2VVAzdEhsb2QtZFZoRjBmVERQSU9icGhHd0pKR2owbzB6QW1JbjV6Q2N0czRLYU1wcnNkeWVCSlhfckZQdzI2VjI0eUVZdHZid0dvZDVYWnVFRWVYRHpER2NORGMwS0hhRXV6MVZHY1hjalNOUjN0U3RiRA?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-13T19:42:02+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Anthropic’s Dario Amodei ‘not super fussed’ about market turmoil",
+    "title": "Anthropic’s Amodei ‘not super fussed’ about market turmoil ahead of IPO",
     "url": "https://www.ft.com/content/4b7b83d7-7fea-4ce2-bfe3-4f2cf75b1d82?syn-25a6b1a6=1",
     "source": "Financial Times",
     "published": "2026-11-13T19:41:26+00:00",
-    "lede": "AI lab’s chief executive brushes off tech stock turbulence less than a week before its planned $1.5tn IPO",
-    "lang": "en"
-   },
-   {
-    "title": "Can AST SpaceMobile Stock Double From Here?",
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxORFNucE5FUXItNUdGUlo2bWlnNVNTSzdKYjZuQUxsZHAzM2tIMjdOV2xJV2Y3bHBYamNqNmFDangyVTdBRkFsb2V2WlVUZGxHcW5RcktNOWd5VG5hWEsyd0xMZm1pQW9ENGtBa2l5T3lvaE0xX2NJakJFX1RwbWlFZnU4OEpQY0dtQkRyTkd3X3dhelNsNVlCRg?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-13T19:41:16+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Wall Street Is Writing Off Nvidia Stock. Here's Why That's a Mistake.",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOcmRpZTdtOHZKeW9QTERCbGQ1VjNHcW9Qdm9lVnFTZWE3Wk1oQzJ4VHdjYWFYNEpCX0c1VFhoWjh0UGFfeGkzTG9PTE1xTWZGXzZ5SHNLclA4NHFqejdjbmdxZlBGWFNHRzI3VzBhVV9HRE5CaEVLS3BBbjR1b2RzaHZDUEU3ZWF3d3ZZVnZ0WmJ0RTBYSF8tSXczYw?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-13T19:37:00+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "The scandal at Nvidia is exactly what’s wrong with the S&P 500",
-    "url": "https://www.marketwatch.com/story/the-scandal-at-nvidia-is-exactly-whats-wrong-with-the-s-p-500-7307457e?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-13T19:19:00+00:00",
-    "lede": "A big chunk of your retirement is likely invested in the computer-chip giant.",
-    "lang": "en"
-   },
-   {
-    "title": "Washington’s efforts to block Beijing’s access to Nvidia chips could spark a ‘short-lived U.S.-China trade war’ that rattles markets",
-    "url": "https://www.marketwatch.com/story/washingtons-efforts-to-block-beijings-access-to-nvidia-chips-could-spark-a-short-lived-u-s-china-trade-war-that-rattles-markets-83078d84?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-13T19:19:00+00:00",
-    "lede": "Meanwhile, top officials from Nvidia and the Commerce Department face a series of congressional hearings next month.",
-    "lang": "en"
-   },
-   {
-    "title": "Lutnick faces questions over Nvidia spy scandal. His sons’ firm has deep ties to the chipmaker",
-    "url": "https://www.cnbc.com/2026/11/13/howard-lutnick-nvidia-jensen-huang-china-cantor-fitzgerald.html",
-    "source": "CNBC",
-    "published": "2026-11-13T19:11:13+00:00",
-    "lede": "Jensen Huang’s resignation as Nvidia CEO has brought renewed scrutiny to Commerce Secretary Howard Lutnick and his family’s financial ties to the chipmaker.",
+    "lede": "AI lab’s chief executive brushes off tech stock turbulence less than a week before planned $1.5tn listing",
     "lang": "en"
    },
    {
@@ -184,18 +184,18 @@
   ],
   "geo": [
    {
-    "title": "Global oil supply returns to surplus for first time since start of Iran war, says IEA",
-    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQNndNZUdKRnhDVGRkRE85YjZfUG1pUFd5NlVkbjBhbWZaTjZqZlRCU3RmMlBzR1ZjMmJpZi1jX2FvT01wbVc0ZDNaYm9YZUFTZm4wX29QQ3NLN0VpVS1CUjRBVm1GeWlHRk8yb1R4QkMySE5HUjdMUEM3OGVXdU5XM3lORndmX1RwRFdEbkZhalpnVmdONXhJYkR6bUpDZ2xfTXB1MlNuWDNFOGtPSFh0NzF0OWFYSjFBdU1hdVNqQnNSbUdMMi1JZW9vV1UwUQ?oc=5",
-    "source": "The Guardian",
-    "published": "2026-11-13T18:46:00+00:00",
+    "title": "U.S. downs two Iranian drones as Iran says it struck U.S. radar in Bahrain",
+    "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOczBKTU1xdTBoaG9vdnRtbVd3RjF1YnlldXhOUWZHQkZvalJINTlPZUNKb0lFRG9uZ01qbjZkV1hsZlI3cDRKSUctaTZ5ZExDWVNtV0NUT0FYZzZyaGlja1lCT24yaDZlR3UxZVZNYS15aEFDMDRnLUplUzlVa0VLenliU1RYOTdRdng0QVMxeE9SekFRVE5LaENFSzJQZWxENk9KcENiZ1R6VlI5VnBBOVNmSHNhcWJtXzZSVjM4Qm16MVBMd3hGSmVBcnpqcExkTzNpN3FweGZ1Mk5uQ1pXS0JsVk1jZUJJU0x0U2E1LTh1dVA3LXJSaG8tY25vNjFBSzh5b29oTVQ?oc=5",
+    "source": "Haaretz",
+    "published": "2026-11-13T19:51:00+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Russia is ‘setting traps’ in Ukraine talks, EU foreign policy chief warns",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPWnhISG1CdGRualRiNS1jeDA2NTZUeE95VndJWkxHdDZhQVJLc1Q5YnIxSmN0OFF6eDBXZ1ZNNzJnUVdrdE11enA0TkpMQXdadW9HR0dJSGk1TDBzbUpXWUl3emt5bk0teUJndXVxaWNMX1RNR1NhOUl4UUtxZGtnRW9xNExUMkZ2bTRkRnpsV3FEVXpSVF9xQTMtTHYwUUVEUk8tZmJIS2ctb0kzQ05R?oc=5",
+    "title": "Global oil supply returns to surplus for first time since start of Iran war, says IEA",
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQNndNZUdKRnhDVGRkRE85YjZfUG1pUFd5NlVkbjBhbWZaTjZqZlRCU3RmMlBzR1ZjMmJpZi1jX2FvT01wbVc0ZDNaYm9YZUFTZm4wX29QQ3NLN0VpVS1CUjRBVm1GeWlHRk8yb1R4QkMySE5HUjdMUEM3OGVXdU5XM3lORndmX1RwRFdEbkZhalpnVmdONXhJYkR6bUpDZ2xfTXB1MlNuWDNFOGtPSFh0NzF0OWFYSjFBdU1hdVNqQnNSbUdMMi1JZW9vV1UwUQ?oc=5",
     "source": "The Guardian",
-    "published": "2026-11-13T18:38:00+00:00",
+    "published": "2026-11-13T18:46:00+00:00",
     "lede": null,
     "lang": "en"
    }
