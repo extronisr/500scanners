@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-13T04:01:08.174083+02:00",
+ "generated_at": "2026-11-13T05:01:07.833783+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -52,26 +52,42 @@
   ],
   "us": [
    {
-    "title": "Why Mobility Global Stock Gained Today",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPN0N0dHVicXEtRmZBRDlPeGc1TUlPRGQ2WmF4bWJRamluQTdHaHg2UVlaVy1jV283aTRmOTBzaV8yN2NRRnJiRVZ2dHRYb01UeEhOVkZxaXhaWGVLTWNEVXIxVzZBZXBsVXcyaUJlMi1TS1hWcERSVHczWmN5ZThoWWhkQUQxQTZCQUxhVlNXcEcxTnd0NFpKblc3cl84dw?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-13T01:35:00+00:00",
-    "lede": null,
+    "title": "Cerebras surges 17% after beating on quarterly revenue and announcing Microsoft deal",
+    "url": "https://www.cnbc.com/2026/11/12/cerebras-systems-cbrs-q3-earnings-report-2026.html",
+    "source": "CNBC",
+    "published": "2026-11-13T02:43:26+00:00",
+    "lede": "Cerebras announced a new deal with Microsoft after partnering with major cloud providers Amazon and Oracle.",
     "lang": "en"
    },
    {
-    "title": "Futures Rise After Wild Session; AMD, Arista Are Buys",
-    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPSHdBUXNwWlkwRldKTGNVWW9NWkFaSzVQaEx4RTRQYUNiVnQ2bGVPMGc0cmM4OVRGTUlmdG4yTlRXWm1QRTh1TE9lRTdLYmVsSGxaanBjUzZLOG9uQ1RNaWRodms3Zk9DTHJTVDdXV2l2aTFicWxDeXhxYXVCcFktd2VQRThkVUFkejFJUzJGb2EwazRCSVVQMFh2c3d0ZTNxeVplUVlsUHBVMm9xTlU5bVFHblVWa2ttR0RHSUN3c2ZVX1RsVlN2SkMyQTZsVlItaGZsWQ?oc=5",
-    "source": "Investor's Business Daily",
-    "published": "2026-11-13T01:30:00+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Chinese AI satellite maker Adaspace slips in Hong Kong debut",
-    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPdURZdWFJNWRNUUpQMW5LMkF5M2pMbnBiUENVX2RzUl9QYlZkN2tnNWQyRk5MWjNNTk5PXzBsMVVIVjF3Y2ROVDdhaWlORDQ2aGVFV2NiWkt0U2NmUW1WRWVrZE1CNDhCcHNveWlMeU1XazZDZnNoNDh1ZXVlSFhDbnN1LTdnZFlTc1FycWNwejBRbUc3ano3NjBZaHFqMjNhZFJhajExcjlTR1VmcHllcmdTV2RfTjl5cGE0TVFB?oc=5",
+    "title": "Indian shares likely to open flat as oil surge counters strong foreign inflows",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOX1E4QjJWZklPblVub0xweU1jNXRDdDlBdDFpbDFlZDl1d21idHhkbnAtTkZOcGEzZ3dSRnh0dWhQOFRPQXRuQVR2QkE0RFVvbnVSM2N3MmtWZjhsa0FhSGRLTlVtZUxXeTVGQUlUWTQyTjlwNm9HT2pvek1nZ0JXWkVWd0FVdEdvMFpZbkxuU2VlcHFUbDMtNzlzc09oeVB1eVVLaE12MHE1QXh6eEFIZ3lyUlUyRks0eU8tbA?oc=5",
     "source": "Reuters",
-    "published": "2026-11-13T01:30:00+00:00",
+    "published": "2026-11-13T02:42:00+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Scandal-hit Nvidia CEO Jensen Huang quits, plunging AI chipmaking giant into turmoil",
+    "url": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC",
+    "published": "2026-11-13T02:39:00+00:00",
+    "lede": "US lawmakers now want to question him over whether one of his alleged relationships was with a Chinese spy.",
+    "lang": "en"
+   },
+   {
+    "title": "NeoVolta Q1 Earnings Call Highlights",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWTF3LWVVTkxIa25TNmRNTWVUUks1MVZfcllhM1dvOE9TS2E1OVdwZ0lpbk96VmU0MXRGakY5VUo2ZVJqdTA1b3ozaG5lQi04NlNqbDZfbVFRaXRVWGo0UWtNNlJrcXpnVTlweFBZMlpYZ3dwcVNKRFJhMEg3UnlXVUs4V21TV3NNNktVWVVTSDg0TlpkOUhzWlpuNFN1UDNKUk5F?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-13T02:32:37+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Why Did AAPL, COST, JNJ Stocks Hit 52-Week Highs Today?",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZUZpZjFxRDY5M3NZMXJ3Nk9LSzhIMF9pTjh2a2szNUhCdlNkVmlpSmptS0hpTkJCclFacFlYUFNPT0xyTnVpMERjWEhxOXdVSUExMXk5b25TZEhmclpnS3FFekJFOVNEZzFWWXdUTmRRZVFsQ3NvWEo3bzNlREU2VTRNN25NYVN4a1o0Z19pUQ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-13T02:32:00+00:00",
     "lede": null,
     "lang": "en"
    },
@@ -81,14 +97,6 @@
     "source": "CNBC",
     "published": "2026-11-13T00:01:19+00:00",
     "lede": "Oil prices were mixed on Thursday, after the latest comments from President Donald Trump raised worries that an end to the U.S.-Iran war was not in sight.",
-    "lang": "en"
-   },
-   {
-    "title": "Scandal-hit Nvidia CEO Jensen Huang quits, plunging AI chipmaking giant into turmoil",
-    "url": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss",
-    "source": "BBC",
-    "published": "2026-11-12T23:34:05+00:00",
-    "lede": "US lawmakers now want to question him over whether one of his alleged relationships was with a Chinese spy.",
     "lang": "en"
    },
    {
@@ -113,14 +121,6 @@
     "source": "Financial Times",
     "published": "2026-11-12T22:50:43+00:00",
     "lede": "The risks of giving leaders free rein when AI is at the heart of the economy, national security and just about everything else are now clear",
-    "lang": "en"
-   },
-   {
-    "title": "Cerebras surges 17% after beating on quarterly revenue and announcing Microsoft deal",
-    "url": "https://www.cnbc.com/2026/11/12/cerebras-systems-cbrs-q3-earnings-report-2026.html",
-    "source": "CNBC",
-    "published": "2026-11-12T22:48:26+00:00",
-    "lede": "Cerebras announced a new deal with Microsoft after partnering with major cloud providers Amazon and Oracle.",
     "lang": "en"
    },
    {
@@ -192,18 +192,18 @@
   ],
   "geo": [
    {
-    "title": "Kushner says US working toward 'largest prisoner exchange' of Russia's war in Ukraine",
-    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPdlhsUlJGZTlJTWxfaXhsOS1kNkFrSlRMLXNVZ09uQ0RvR0dobTRXWExCRk1SckN4aDZibm5Vdm9NWDUyWWdpRFR2aExsSFdscmNSX0U3QUlmTVRDYlpERWxHeVRUX2FUZjB3WVJBb05pYy1xZ2pILWpXQlQzaEVWNjljSUsxZ2xGVTdCZXNmazBFX21ZYkh3d1RqZTFCWEw2a09oanFWS0c0LTNwZkNOQThuamJkdk5HVFNROFFXQm1GS0E?oc=5",
-    "source": "Reuters",
-    "published": "2026-11-13T01:39:00+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
     "title": "COMMENTARY: Just like the US, Iran has squandered its good options to end the war",
     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNbjNkU1dtRi1ZR0lyQmplWGZON1QwakF5Wk82UzhRSzR6ZlJfVFlpTkJLWEVBdGFsc21GbEVNMURkRDhaWm9tRHhwZGhUclFxXzdzUlZUU0VUYi10U1MtVzF5djhHNFVCSEhUa1dMN0pvWjktV2JQVGJTa01lSl9lM1RkY1RGdmJmOWVGUkd6MUw2WjBDZ0NPQ3pfYzh2ZXkwNDF3YXppNlBIcEhIUWlQcVhoZXpEOUZpNXYzZHVrdlVybVYz?oc=5",
     "source": "Reuters",
     "published": "2026-11-12T23:27:19+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Spy scandal / Hegseth’s future / Are we still at war with Iran? : Sources & Methods",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQeTk5RHpuU0s5S0tGVXp3Y1d4N25JVHU3TFJjZDh0dUNpdTExV0h0N25JeE0xeWxkY1A4VVpqTGFuaG9hMnFfNVZCNWt2dkV5aWt4eGFvMDB2Zzl6RjZ0eDBfRi1QU3JWWnpWVmdLZWRYVmJRN20wM2t4dEg0eEtSLTh4aFBzN1hWQXh5aXRUNkFSMXUwNzJkT1JlSGZrZ0RGT0ZfTg?oc=5",
+    "source": "NPR",
+    "published": "2026-11-12T23:11:15+00:00",
     "lede": null,
     "lang": "en"
    }
