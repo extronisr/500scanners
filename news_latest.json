@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-13T13:01:06.153434+02:00",
+ "generated_at": "2026-11-13T14:01:56.169868+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -9,6 +9,14 @@
  },
  "sections": {
   "analysts": [
+   {
+    "title": "Investors are underestimating AI. But the real challenge is diversification, this strategist says.",
+    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQaHBKVUxfXzhfU280dENjRmY1MlhlLWUwOEg3Tzkxd285N1hWSUp1b3BYOGFTSFJ1VDFnVXBDbWVWN2NKei1rQUlTam9DZ1VSSnZreWZ4Z09Hbm5WdjVOSC1tSXZ0Z3F1dkp4MC1PMWdYMjlydDJZY0xSUGZNcnN5eFI3NHdsSXpaWjJTYzNCRVl1cGdoRWRmRGU1cEY1WURXVDJETHJQOXFCSDJXZ2RFWnZhU1BVeWR0dU9Tak53RTlkTUF2ZV9BUDNEZnNEbDRuMncxeQ?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-11-13T11:00:00+00:00",
+    "lede": null,
+    "lang": "en"
+   },
    {
     "title": "Tech stocks may soon enjoy a ‘violent bounce’ — but one strategist warns investors not to take the bait",
     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQa0ZBa3NwZjhNSWFGanh5SFViem5JOFVVLTd0V1RxaUpQNGRwZTJJOEgxOERXdjJCS3NSZDdpRE9sZUphVFYwNDFWblB3OWhhREM3c2ZxNzJISzhDM3p5ZGVCdTJTSlBxM3BhSEh2b2hNZjJ0bjREVXhtT0RlTmM2Y05vdVh0QkNGUW8wZnI3NkFiZDMyS25SMmhiY3VobFhrYXVuMVlmVEVSVGpUSjUxS2VXXzJiMk5Sb3FaZWR4QXJQMkloX3FHMFNMSm00NDNET0J2MnVYSFJ0UQ?oc=5",
@@ -40,47 +48,63 @@
     "published": "2026-11-13T06:01:05+00:00",
     "lede": null,
     "lang": "en"
-   },
-   {
-    "title": "Analyst warns Bitcoin investors, citing gold",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQMjZmNVBSRmY3NmlPMVRlRnduMXZ0MEVMb3JwUjF3VVA3dGxwRGxmWUo2dndRVDZOcTJjcjJtTzVkanM5UWRjNml3QUYwbmVReTExX3N2TU00amJRN2JVWUZMVkhicjItOE02eVRPeG1Ba3FiSHFpVnpveHp5WDVUakRVakRwV2ZMLVVPVXpkWFM2NjFzdkVSeHZYcl9sWnRrUUE?oc=5",
-    "source": "TheStreet",
-    "published": "2026-11-13T03:31:43+00:00",
-    "lede": null,
-    "lang": "en"
    }
   ],
   "us": [
+   {
+    "title": "Strategy Stocks Drop 6.83% as MSCI Confirms Removal From Its USA Index",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNM2owNWZxeV9ZcHM2cXQ2c2ZhVjdTUkdtczhtSkt6SXVPMTNJRzJDSmdkSzhiSU5XNGlTUEtpSDJ3amxTb0hPWFVBcHZVbUQwTmt5STgtTVlHSHBUYzFaeHVwN3VwRExfcDlwS2otSUtjWlFLdm5FcFhlWkJkUzQ4ZDFBSVE5RmxOOWlWNmwybTIyM21h?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-13T11:54:09+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Lumentum Stocks Edge Higher as Marvell Deal Spread Widens to 19.7%",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPWC1OQWxpMVA4MkJSMUlFQTlBQnhHeEU1dWtsb3U1endxV0lFdkp2TWtveG9rX0xMN19yWm9FZGVUaHBrS3J4a2ZMUXdoV0J1VUk2UG44VVptUWJPLWFFZTdwRFo0dnh1RTk4UktfdmdEbVBhYkdFS1pmVm95blFyaTNCMWZadVpqR29sbXc3cTRVaHdHSUwzUUFZaFFwcGJveEE?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-13T11:51:30+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "A Once-in-a-Decade Opportunity: 1 Magnificent Dividend Stock Down 30% to Buy Right Now",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQc25uLU9wak9RSVFnS2VFSmh2Y2JVY19nQk4xWHloVjJpaE03MkRYOHd5RHd3MS1CRVhabUlJNFdKYUVhODFtTm5YS3pab0xNQzVUa2JQaG1mYzVsR0R2U041U05oNXZtVUpXTmgzN2dFNDVpaDZnQUhzcmc1dEtFVmJlWDh2TmQ1OWJoWjVUbFVqZmRsZkNrRU5aZDNOdHpoSWhKcw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-13T11:50:00+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Profit surprises are normalizing — and that may signal a healthier stock market, say Citi strategists",
+    "url": "https://www.marketwatch.com/story/profit-surprises-are-normalizing-and-that-may-signal-a-healthier-stock-market-say-citi-strategists-d8cce7c2?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-13T11:41:00+00:00",
+    "lede": "Although the majority of S&P 500 companies reported earnings above analysts’ expectations, the beats were significantly lower than in more recent quarters.",
+    "lang": "en"
+   },
+   {
+    "title": "The Fed expected rate cuts this year. Now it’s bracing for another inflation fight",
+    "url": "https://www.cnbc.com/2026/11/13/us-inflation-outlook-federal-reserve-rate-hike.html",
+    "source": "CNBC",
+    "published": "2026-11-13T11:31:10+00:00",
+    "lede": "The most recent inflation reading for October was higher than expected, coming in at 0.4% for the month.",
+    "lang": "en"
+   },
+   {
+    "title": "US Treasuries set for worst week since Trump’s ‘liberation day’",
+    "url": "https://www.ft.com/content/7bebace2-dc87-410a-ae29-ffd9f3176def?syn-25a6b1a6=1",
+    "source": "Financial Times",
+    "published": "2026-11-13T10:57:36+00:00",
+    "lede": "Higher than expected inflation and hawkish remarks by Fed officials have stung investors who bet a global bond rout was over",
+    "lang": "en"
+   },
    {
     "title": "Nvidia scandal draws in Commerce Secretary Lutnick, who reportedly agrees to testify about China chip sales",
     "url": "https://www.cnbc.com/2026/11/13/nvidia-scandal-lutnick-chip-sales.html",
     "source": "CNBC",
     "published": "2026-11-13T10:54:40+00:00",
     "lede": "Commerce Secretary Lutnick will testify before the Senate Banking Committee following revelations about Jensen Huang's affair with an alleged Chinese spy.",
-    "lang": "en"
-   },
-   {
-    "title": "Nasdaq futures dip as Nvidia tumult keeps investors on edge",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOXzBOQUVtbkVkek5raFFhaFJ3MTczWHlJdWgzZC1yZnB2TTAxbC1sUDJYeXBqcXdyYzFiTVljTDRETUNCTFhscDV6YXJJeDV4WHAzdEdUZl9IZXU5V2xPMkJfa0p6RDVqLTRFUVFCclFsOVU3LWVmNkd4Qk1GWWhMSEVLRnlDYWhpOFJUd2tSemhDV0piNkJtczdFTzV5Zw?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-13T10:39:01+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Amazon Is the Only \"Magnificent Seven\" Stock I'd Buy With $1,000 Right Now",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWTVQcjNnYlJTTmtya2p5a00yM3AtZC14NG1GOUtaa3BhWHBUNTlJdTQ1N1NOYnBrTU9VdHcyNEZnSWRNUFF4S212VzYxTGtKQVlSTE5QVGRHOEhINUw0UktxQzBsOGFjUm9KQmhrUDZOUGpaTTFmcDhfeWtaSUV0MHZDclJ3a0hQekJoSFdNcmtWMnNzZFBzZXZBVmEwcVRSdGc?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-13T10:34:00+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "The AI Trade Just Cracked. Here’s the Price at Which I’d Start Buying Nvidia.",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNaGJmcmRfZkFDU01fSjVqdUR2NjRuYUh4RklOS19zcjBHR0hWZ1hvcUdwSnBDODlYclVYbl9JcDZiaDJocTFTV1Y2ZV95NjNkTmtDYklrR2xXMmFxenhTUTgxNFA3T1NwOXRBUEgyc0s2LWpVNDlXWmJWVmlTSFlpWUptZDhDRmMtM0VGSHhDVFM5WEllLWJr?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-13T10:32:02+00:00",
-    "lede": null,
     "lang": "en"
    },
    {
@@ -100,39 +124,23 @@
     "lang": "en"
    },
    {
-    "title": "The Fed expected rate cuts this year. Now it’s bracing for another inflation fight",
-    "url": "https://www.cnbc.com/2026/11/13/us-inflation-outlook-federal-reserve-rate-hike.html",
-    "source": "CNBC",
-    "published": "2026-11-13T10:00:26+00:00",
-    "lede": "The most recent inflation reading for October had beaten expectations, coming in at 0.4% for the month.",
-    "lang": "en"
-   },
-   {
     "title": "Global oil markets swing to surplus as Gulf shipments rebound",
     "url": "https://www.ft.com/content/20b68fe2-9d60-4c0c-b714-1f3e03015823?syn-25a6b1a6=1",
     "source": "Financial Times",
     "published": "2026-11-13T09:04:06+00:00",
     "lede": "IEA analysts warn it will take months to rebuild stockpiles depleted by conflict",
     "lang": "en"
-   },
-   {
-    "title": "\"נתון חריג מאוד\": הישראלים מסתערים על מניית אנבידיה",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001563334#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-13T08:18:00+00:00",
-    "lede": "איך הגיבו המשקיעים העצמאיים לנפילה במניית אנבידיה? נראה שמשקיעי הריטייל הישראלים אופטימיים יותר מכמה אנליסטים שמסקרים את אנבידיה בוול סטריט",
-    "lang": "he"
-   },
-   {
-    "title": "ההייטקיסטים הכי נוצצים בישראל חוששים: מה יקרה לאופציות של עובדי אנבידיה?",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001563220#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-13T07:28:00+00:00",
-    "lede": "הטלטלה באנבידיה מאיימת לפגוע לא רק במעמדה של החברה, אלא גם בכיס של כ-6,000 עובדיה בישראל",
-    "lang": "he"
    }
   ],
   "il": [
+   {
+    "title": "בורסת תל אביב נצבעה אדום אבל מניה אחת בולטת בעליות",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001563287#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-13T11:21:00+00:00",
+    "lede": "ירידות בתל אביב, הדולר עלה מעל 3.2 שקלים",
+    "lang": "he"
+   },
    {
     "title": "עובדי ארקיע מנסים לבלום את העסקה: ינסו להביא משקיע חדש בתוך שלושה ימים",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001563337#utm_source=RSS",
@@ -142,19 +150,11 @@
     "lang": "he"
    },
    {
-    "title": "התשואה נמחקה: המס שהרס את החלום של קוני המשרדים",
+    "title": "מהלך לריסוק השורה התחתונה: הרווחים הכלואים הרגו את הנדל\"ן המניב",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001563204#utm_source=RSS",
     "source": "גלובס",
     "published": "2026-11-13T10:31:00+00:00",
     "lede": "הדיבורים על העלאת מס הרווחים הכלואים הם מסמר אחרון בארון הקבורה של יזמי המשרדים הקטנים",
-    "lang": "he"
-   },
-   {
-    "title": "בורסת תל אביב נצבעה אדום אבל מניה אחת בולטת בעליות",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001563287#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-13T10:25:00+00:00",
-    "lede": "ירידות בתל אביב, הדולר מתקרב ל-3.2 שקלים",
     "lang": "he"
    },
    {
@@ -174,7 +174,7 @@
     "lang": "he"
    },
    {
-    "title": "דוראל צונחת 5.2%, יוחננוף 4.6% והביטוח 2.1%: פאלו אלטו בולמת את ת\"א 35",
+    "title": "דוראל צונחת 4.8%, יוחננוף 4.1% והביטוח 2.5%: פאלו אלטו בולמת את ת\"א 35",
     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1ZRl9ZWlNiZlEtWmpaX09wSU5icVh1Ym9IM016WENGam5SQjUwNGc0eXJsYXZJX3REY2JnZXhIdUVUVUFFRjNqVTlpbzVzYjRzTVAyV2c4QnNxeTM5bzJ4SGMzaWxaTVpnRVR5YlZ3ZGM?oc=5",
     "source": "ביזפורטל",
     "published": "2026-11-13T04:12:00+00:00",
@@ -192,18 +192,18 @@
   ],
   "geo": [
    {
-    "title": "Lieberman vows to stop 'politically motivated' war amid Iran tensions",
-    "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNVWl4aWtWOTN3NVZ5VDVTU3N3THdLMlZISFFkQXgtN0NNVF9IbWp1WGUtbHF0Mml4UHhnSjdhM05TTW04c00zd3NITW9QdzdWWWo5azZIMlZNZl9ZOUkwa0k3bVhDYmJKZTRNelFKRG1VSHh3TTk0SXpDU1RXRmRJalNDWmJKaExfVGViMVNZN1FnMzV1ZDlHa0VaV25HVGJlOFhWVkVQTW9aYkZDRGNscmhEUVZhbWJSTWlzRldNOGRTeDFjQW91aWJtU3V2Zmx6M19XOUZ5UEZiVDNCR2NfZGlDVXpFaHlTc2pqZDRkZ1NyWmFVdHRWaHRxZURkYTRuWE1hcGxBLW5FSXpXQTNfeGFYQVdwdw?oc=5",
-    "source": "Haaretz",
-    "published": "2026-11-13T10:51:00+00:00",
+    "title": "Europe Haggles Over Who Will Represent It in Talks With Russia",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPbXZ5el9iR2VOdWd1dVNVX00zWkdWM01yQkk4WkxZZmtrNUNxUVZIQ3E0aHdrZ0NmMWlsclN0ejlhaHNvMWV3OWVBWXI4aF9aRzhPOW5pNTUwdHJNdWFSclFQckhJUDFYMXBpWDM4QjhsQ00wazRta0FVS2F3NDIwSWVBVjg5SjA?oc=5",
+    "source": "The New York Times",
+    "published": "2026-11-13T11:49:07+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Why is Trump saying ‘no deal necessary’ with Iran as he sidelines JD Vance?",
-    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPNlNPRDhieTNZQXhxWTRNUHg5clA4Q3B2Tm5wakhjZmdmV3poUkV3dXpJeS1oMFZaaXF0S1hYekVEVGFHZ0xMYkNZT1R3MVNPQk95ZlNMQTV0dGl2aUhCUGY1aDQyU0tfTC1fVEx0SGh2TDdoOHVyekpWMjNoS0NTUWZ5ME5hTmhCdlhnRU94SjhkVFFLTmo5VF9fbk9zaEtBT0pGbDhqRVRPRjY2OUh5dGRZYnVDY1V4TkHSAb8BQVVfeXFMTVp0bHhCSWRhZnhCQUNNSkZ6VVJFdUVDOHlPRGRkWmlzbnZ4QXJXOGk0RVlUQnRhWlNDdm1lVmI2X2pLZkRCT3ZtTFE0N0twV2VILTYtNFJhNTl3NWJCWGJXYldyT3phdUMtQUhkbnFFNFZJRjlOaG1waVRXTXlWaXZhSEkwTzJ6dlNJd0EwR0ZQLWJVR1ZIaW16QXRISFo1NTFWOThDUVZzU1liODNNeVNGTHc3RGVKS3JEMElBek0?oc=5",
-    "source": "Al Jazeera",
-    "published": "2026-11-13T10:34:03+00:00",
+    "title": "Lieberman vows to stop 'politically motivated' war amid Iran tensions",
+    "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNVWl4aWtWOTN3NVZ5VDVTU3N3THdLMlZISFFkQXgtN0NNVF9IbWp1WGUtbHF0Mml4UHhnSjdhM05TTW04c00zd3NITW9QdzdWWWo5azZIMlZNZl9ZOUkwa0k3bVhDYmJKZTRNelFKRG1VSHh3TTk0SXpDU1RXRmRJalNDWmJKaExfVGViMVNZN1FnMzV1ZDlHa0VaV25HVGJlOFhWVkVQTW9aYkZDRGNscmhEUVZhbWJSTWlzRldNOGRTeDFjQW91aWJtU3V2Zmx6M19XOUZ5UEZiVDNCR2NfZGlDVXpFaHlTc2pqZDRkZ1NyWmFVdHRWaHRxZURkYTRuWE1hcGxBLW5FSXpXQTNfeGFYQVdwdw?oc=5",
+    "source": "Haaretz",
+    "published": "2026-11-13T10:51:00+00:00",
     "lede": null,
     "lang": "en"
    }
