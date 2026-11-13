@@ -1,5 +1,5 @@
 {
- "fetched_at": "13.11.2026, 5:35",
+ "fetched_at": "13.11.2026, 6:04",
  "items": [
   {
    "title": "VeonGen on track for phase 3 Stargardt trial after FDA meeting - Glance by Eyes On Eyecare",
@@ -1123,6 +1123,42 @@
    "ncts": []
   },
   {
+   "title": "FDA approves Oxderys (Avyxa Holdings)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221093",
+   "pub_ts": 1794182400.0,
+   "date": "9.11.2026",
+   "cat": "fda",
+   "sev": 4,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221093"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA approves Multibic (Fresenius Medical Care Renal Therapies Group Llc)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219457",
+   "pub_ts": 1794182400.0,
+   "date": "9.11.2026",
+   "cat": "fda",
+   "sev": 4,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219457"
+    }
+   ],
+   "ncts": []
+  },
+  {
    "title": "Johnson & Johnson Reports Positive Phase 3 Trial Results for ICO - GuruFocus",
    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOQTZEc2VKOHRwcjdvRnFtS3dKMjN2LWlhRGRFRkpOUGpCUm5vVWp4WlRieUxrcG9LRGpDVGwyQkhXSDlobVYxSEhsWmJjdzBwWDBDNW5SLUR2SWxSbE5UdXR6QjJoczJJdFM0bV9WY0hfeGFPV0tfUVJ3TlZ2Mjk5NW8tbkdzeXRNT1ozR0ZGNkRCZFhTQ3VtMkQzUHM3VTUzTF9ROUdCVnhfOTVnSGZnbUlrTzRkMmdKNTM2U0dIakJ6RTJWelBLeWtoa0o?oc=5",
    "pub_ts": 1794172399.0,
@@ -2061,24 +2097,6 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSlVFaHk2TjNZZ3puV3Vhb05UVXlLcnA4V3FJbXl6WGV5ZUU4dnY1N1ZyQ1NWMFFBaW9MeU1VVWE0WHJ5Vl93SHRMb3ctVlgyVkZMaEs1R2Q2YlVnSEFoQzFSR19pNU53dFF6VURubUJXZ3dKVFdUcFNFN29SVXRPdE9mbUI3MDhaV1RHa3UtNVNPaGlid0FYRWVyZGhwcTJKeTNMTE1aSDZfeXlUdlJnVW5jeERLaU9kNF9Pag?oc=5"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "Sun Pharma stock in focus after US FDA approves drug for psoriatic arthritis - Business Today",
-   "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQQ0NBLWxrcXdzT3MtdXJmS3dTUk9tYk9HQTRkNFpTUnVDS25rQmZUOUdzYUpLbUZzUHY2STNrMlMweUpaWFhLbnNYQkRQZ3JqSmVoNXZ0UDdMeVFiN3RMRlBpQ0NFNFJVZGZLb196QV94TmZ0ME5oSHJOb2xrbHpJSmdXZnppbHJKYnZaSTcybDNnSVpJUTV0TFIzUS13cDE3OFdJdHZCYnEyejZNVDBNS1pteVBZQ3ZLVFFKT01HcjJLU0tPUmd5UHlWSC1tSDFsR2pOR1JuV0lqVHFNNVdz0gHkAUFVX3lxTE8wRXo3QVdsUVNGYnRkNTFUWC1wVElhb3hoUGZsckpnMHI4VnBjeGZUMHVLVXBHRlRkc3BxakxBTWJtQlh2em44RFJuUXRRN1dnQkpva2dCb0tmc1RFbnd2U1JkVmNnS2Fzb0ZIdGdDWmU0RGYyeW10ZTBlTHFWU3hpcHdEbEQ5SDA3ZTkzQ1J0NElEVC1iMHlHMFpiSzkxMjByQ1VPZXVSU0tScFZsaUlRVHk3OERLX3BiMEJPaDdQci1uZks3Q2c3M0FvYWVFeXRwTEg4SmVpVzJaWXBPSkZqN1I4UA?oc=5",
-   "pub_ts": 1793331812.0,
-   "date": "30.10.2026, 5:43",
-   "cat": "fda",
-   "sev": 4,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "Google News",
-     "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQQ0NBLWxrcXdzT3MtdXJmS3dTUk9tYk9HQTRkNFpTUnVDS25rQmZUOUdzYUpLbUZzUHY2STNrMlMweUpaWFhLbnNYQkRQZ3JqSmVoNXZ0UDdMeVFiN3RMRlBpQ0NFNFJVZGZLb196QV94TmZ0ME5oSHJOb2xrbHpJSmdXZnppbHJKYnZaSTcybDNnSVpJUTV0TFIzUS13cDE3OFdJdHZCYnEyejZNVDBNS1pteVBZQ3ZLVFFKT01HcjJLU0tPUmd5UHlWSC1tSDFsR2pOR1JuV0lqVHFNNVdz0gHkAUFVX3lxTE8wRXo3QVdsUVNGYnRkNTFUWC1wVElhb3hoUGZsckpnMHI4VnBjeGZUMHVLVXBHRlRkc3BxakxBTWJtQlh2em44RFJuUXRRN1dnQkpva2dCb0tmc1RFbnd2U1JkVmNnS2Fzb0ZIdGdDWmU0RGYyeW10ZTBlTHFWU3hpcHdEbEQ5SDA3ZTkzQ1J0NElEVC1iMHlHMFpiSzkxMjByQ1VPZXVSU0tScFZsaUlRVHk3OERLX3BiMEJPaDdQci1uZks3Q2c3M0FvYWVFeXRwTEg4SmVpVzJaWXBPSkZqN1I4UA?oc=5"
     }
    ],
    "ncts": []
@@ -3384,6 +3402,28 @@
    "ncts": []
   },
   {
+   "title": "FDA approves generic Tofacitinib Citrate (Apotex)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220458",
+   "pub_ts": 1794182400.0,
+   "date": "9.11.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220458"
+    },
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220972"
+    }
+   ],
+   "ncts": []
+  },
+  {
    "title": "A Study of Tiragolumab in Combination With Atezolizumab Compared With Placebo in Combination With Atezolizumab in Patients With Previously Untreated Locally Advanced Unresectable or Metastatic PD-L1-Selected Non-Small Cell Lung Cancer",
    "link": "https://clinicaltrials.gov/study/NCT04294810",
    "pub_ts": 1794182400.0,
@@ -3484,6 +3524,78 @@
    "ncts": []
   },
   {
+   "title": "FDA approves generic Tafamidis Meglumine (Aurobindo Pharma Ltd)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=218617",
+   "pub_ts": 1793923200.0,
+   "date": "6.11.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=218617"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA approves generic Venlafaxine Hydrochloride (Yichang Humanwell)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220619",
+   "pub_ts": 1793923200.0,
+   "date": "6.11.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220619"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA approves generic Brivaracetam (Appco)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220832",
+   "pub_ts": 1793923200.0,
+   "date": "6.11.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220832"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA approves generic Brimonidine Tartrate And Timolol Maleate (Micro Labs)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=217589",
+   "pub_ts": 1793923200.0,
+   "date": "6.11.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=217589"
+    }
+   ],
+   "ncts": []
+  },
+  {
    "title": "A Phase 3 Study to Assess the Immune Response and Safety of rMenB+OMV NZ in Primed Healthy Participants (10 to 20 Years Old)",
    "link": "https://clinicaltrials.gov/study/NCT06995430",
    "pub_ts": 1793923200.0,
@@ -3545,6 +3657,42 @@
     {
      "source": "Google News",
      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPNU5uX3lQZHVXU3pTdXNJWHlfYnNPNWRrd0R6R183SmQ4RTNGemo1a2ZFZEU0RGl0OGQ5T2QwSldIMHRzeWFYM3JHemVpbFYyNDFZU3FrcGpUTmRRaWRRZlN3eFRzekFHZnRxdFdDN001MmowSlRDd2RVZEVUcmNWaUtLWmVpR2RoMmZGU3RJZmJaX01SLTJOWjYweWxDVVgyemQ1NWtYLVEtSFFBRVFhRzNsUHlZQWxjQnZTenkzRlhIYXBOUDc1Yw?oc=5"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA approves generic Amitriptyline Hydrochloride (Cmp Dev Llc)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219639",
+   "pub_ts": 1793836800.0,
+   "date": "5.11.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219639"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA approves generic Eltrombopag Olamine (Changzhou Pharm)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221019",
+   "pub_ts": 1793836800.0,
+   "date": "5.11.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221019"
     }
    ],
    "ncts": []
