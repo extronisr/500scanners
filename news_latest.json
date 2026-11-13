@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-13T06:01:10.944560+02:00",
+ "generated_at": "2026-11-13T07:01:03.857227+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -52,27 +52,35 @@
   ],
   "us": [
    {
-    "title": "Is T-Mobile US (TMUS) Trading At A Discount To Its Earnings?",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQb3diVmdXdVQ3dGNuRjVjOVRZQ2hvWERzZXBJeFZFMEVpUGtjU1lQTzZsSXNiZlZpWk94eURxRExvcWxUUFc2dTBkR1M5VDNmamtDUk16clRsNTFUcGNTWjZqSFdfS3EyY21fTTltU0pNNEVVSlhaQzNSNXd5S2dVU3RaSllROUFVaHdlNU5uUWRLdWdCSkFFMkItVGRCSXhh?oc=5",
+    "title": "Cathie Wood Boosts Bets On 2 AI Firms Amid Nvidia’s Huang Upheaval — Here’s How Her Trading Week Unfolded",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSDlEWE91MTN1bXpUY0N0VDg2U0QyYU1aanZqbXBkYVRneEcxRkdsX3NxWno2ZC04UGh6dmhEcm12X05MMXJjN2Z3NGUzOW5VY2xOVXpaWWNqNUwzVEhXc3BSYUVTNnF2dEw5RVlnVElnUmVDRWlrb000WW4zQ0Y0eDFaaG5jWU9LUkQxa1NHNDFEU3c?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-13T03:44:20+00:00",
+    "published": "2026-11-13T04:57:08+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "NVDA Stock Heads for Worst Week In Over A Year As Jensen Huang’s CEO Saga Ends: Are Retail Traders Still Buying The Dip?",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNT01iZUhhUlJVTG1XbTlKanJKckM3TjljeDJyZlhVXzZRN0NxNmtmME1qYlUtWmQ3ZlFfVFlHaGd4NFdHOTBBdjB4ODhMV0YxZmdDcm1CbFpfc3UtNU82bmNNeUNaOENIZUthU25TdFF5ZGNOT25zOHhfdXUwX1Y0XzBucGNxNnhHSW5ocGdDelYtRFJEaVZJ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-13T03:29:00+00:00",
+    "title": "Breakingviews - COMMENTARY: China's stock backstop risks market misfire",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNS3lSbDVvNmNJNnAwYl91MDgycUlxZHVZcmtQcGZnbUtrQ0VGSFAyRC1XU3REaVJ4QXN0ZWhxYWwwYkFQaFNVQVdtMkd2Ml9fRllGQWlOdjFpQ0lQSjZHNWlhd196NXY1eDM0VGctY2hlclN3X0RhSmVyd0NSRFdUV1RyeWtkZjdkMVROOXFiT05DR1JxN0VXaHBpejhJUm5uMUgtZ0Jn?oc=5",
+    "source": "Reuters",
+    "published": "2026-11-13T04:43:00+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Is Nvidia Undervalued?",
-    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNemVMLUQ5Zmppb2FjQ3RmU3hRaGI3YTZlQnpNUExOQjVON0ExYzllUzBUTjFyUk4wSGZla25hc2g1aHRHWUg2b2t3RFQtUllsUkFCNHRhZU1KUWtQM1doTkg5TnMyRzJWMmtiX25kbzQ3SVpRS2Y5a21mMGtjc3ktaUs3R3BvbnRsZzdB?oc=5",
+    "title": "Asia stocks steady as chipmakers rebound after Nvidia leadership shock",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSzFLbzdIZjRIWUwwS3llTnVtcEJwUDRhcXZlXzFnTFJEOHNtMU1xb0RFTk5jOGNzY2tVNjdnOUR4T0g0VnJHbE9tSmQxX2VtX3FvMWdRSEc2emlxYXFjckdLZElGS2FRcnZOc1BMdWkxV1pfb09vSV9rcFJEc3JnSElIRkVtVTN0cWk2SVYwUXp3Ml9aMlppbDM1SjNrVDNmSW1HeA?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-13T03:20:00+00:00",
+    "published": "2026-11-13T04:39:25+00:00",
     "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Nscale warns it needs more cash ahead of $35bn IPO",
+    "url": "https://www.ft.com/content/8d5a8642-d0a1-458d-aaa4-c1e7d344fe47?syn-25a6b1a6=1",
+    "source": "Financial Times",
+    "published": "2026-11-13T04:10:06+00:00",
+    "lede": "Nvidia-backed ‘neocloud’ tells investors it must obtain additional financing to fulfil Anthropic contracts",
     "lang": "en"
    },
    {
@@ -92,11 +100,11 @@
     "lang": "en"
    },
    {
-    "title": "AI boom will lift Nvidia even after Huang’s exit, investors say",
-    "url": "https://www.ft.com/content/ecb2b4ed-1b61-4c8a-a2e7-a6f9c85a59ff?syn-25a6b1a6=1",
-    "source": "Financial Times",
-    "published": "2026-11-12T23:26:26+00:00",
-    "lede": "Shares largely recovered by close of market Thursday as shareholders bought the dip and looked to group’s future without CEO",
+    "title": "SoFi Technologies: Strong Q3 Earnings To Drive The Stock Higher",
+    "url": "https://seekingalpha.com/article/4967597-sofi-technologies-strong-q3-earnings-to-drive-stock-higher?source=feed_all_articles",
+    "source": "Seeking Alpha",
+    "published": "2026-11-12T23:55:05-05:00",
+    "lede": null,
     "lang": "en"
    },
    {
@@ -122,17 +130,17 @@
     "published": "2026-11-12T22:38:00+00:00",
     "lede": "Pack-ripping apps are changing the way people buy and sell cards. But analysts say their “slot-like payoff” raises risks.",
     "lang": "en"
-   },
-   {
-    "title": "Bond yields just saw their biggest surge since 2022 as expectations grow for more Fed rate hikes",
-    "url": "https://www.marketwatch.com/story/bond-yields-just-saw-their-biggest-surge-since-2022-as-expectations-grow-for-more-fed-rate-hikes-d0a4f195?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-12T22:16:00+00:00",
-    "lede": "Fed Chair Warsh’s quiet style of communicating interest-rate policy has led to more volatile markets.",
-    "lang": "en"
    }
   ],
   "il": [
+   {
+    "title": "הבוקר בת\"א: טאואר בפער חיובי של 3.3%, נובה בפער שלילי של 2.5%",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1ZRl9ZWlNiZlEtWmpaX09wSU5icVh1Ym9IM016WENGam5SQjUwNGc0eXJsYXZJX3REY2JnZXhIdUVUVUFFRjNqVTlpbzVzYjRzTVAyV2c4QnNxeTM5bzJ4SGMzaWxaTVpnRVR5YlZ3ZGM?oc=5",
+    "source": "ביזפורטל",
+    "published": "2026-11-13T04:12:00+00:00",
+    "lede": null,
+    "lang": "he"
+   },
    {
     "title": "כך תדעו איך הפנסיה שלכם תושפע מנפילת אנבידיה",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001563160#utm_source=RSS",
@@ -192,18 +200,18 @@
   ],
   "geo": [
    {
-    "title": "Iran says it targeted US radar site in Bahrain",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNay1kUVVvaTJ4b2FManZ4aVVnSDhvQzdZRDFQa3FSZlRsQlJ6cGY5bVhwMkM0TGlWQ0FwYVg3bXNORDM4ZjI3dzR3Qy14a3hBSE9lRXZUaDhydHlzOWozdUtieDl6dl9Gd3JXdHUzUUdKRWV0WXczNm1jd0RaQ21Vam1CMk5CVVF2OGx1ODUzUdIBlAFBVV95cUxQZk1ES2dVRlM4NU1ENWxJalhucE5CY1FKQXdMTXEwdFFuYmVxNkRKbnp1TDdicmh3bDk2TWNiaFhUNXhTMy1nV2JVQnFFMlFUSVViYUV6V3ZrMEJLTW96dnJ3VC1DZ29ld2ctV002aklRSWpvcWR6RFhkdFpZeFFXZ3pObjdSZG02VDZIdVc0VGZMcVBr?oc=5",
+    "title": "Iranophobia: Netanyahu’s bid to transform fear into political survival",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOWWUwQ21ocVdEWHpGUlltWmpJa0Q2ZW5IWFM4bko2SkZiTlhGZEttd3V0bmpHTkZ0WDNLODJleG5RV0JHWDkxN2tvZjFxRy1US2FlUk9vNExqOVFYQVRXd2hLQnVaWWotYnBEa2JreW1pSFplQVk5LWJFekhKeTcxWkd1TjRfM0ZORklJaEliUG1wQzd5MFlabW5hS2VzU2hNVlJjazNRWWNuNEdwUHJr0gG0AUFVX3lxTFBkV29GcTRUVnFTcHE1Vi1pSVFEVllzeGNmdVNwSkJnN2Z0akMwOWFvNEMtTHVzUVlEMGdlR0ZtMkpWeTMtYTJTWTVwTG51U2FZNUZwb2xIRjRpb2RPN1dkQmQtSXU4b09laGxacVNSQ2ljZEM4RGdVVXotTUVZVHZpcklTa0c4UjdyalhtNkpUWEs4VDlFSWJxTHJpZ2VINVNTQmIxZHpVbGtHVGJCMDF3UFc1Qg?oc=5",
     "source": "Al Jazeera",
-    "published": "2026-11-13T03:20:26+00:00",
+    "published": "2026-11-13T04:52:55+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Godzilla returns in special-effects glory in the latest movie with an anti-war message",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPQ2FGNThpbUZjMzkwSGxXLWxBUDVpNldrRGhfNHhKV29wRHlBN19LRWxDYWdUU29wUy1Wb0d4U1g2WnlZelZoa1ZiTlZQdGgzb2swNlBHVkpGNjFhTTZnWS1VT0xXQk1YamtjZ2ZEVlJjakV6ZjZTMkZxOF9YNC00Y3RmQV92a2l1QlRMcjdqNngySkFXZXdJVEluZ3lfdw?oc=5",
-    "source": "AP News",
-    "published": "2026-11-13T02:59:00+00:00",
+    "title": "Iran says it targeted US radar site in Bahrain",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNay1kUVVvaTJ4b2FManZ4aVVnSDhvQzdZRDFQa3FSZlRsQlJ6cGY5bVhwMkM0TGlWQ0FwYVg3bXNORDM4ZjI3dzR3Qy14a3hBSE9lRXZUaDhydHlzOWozdUtieDl6dl9Gd3JXdHUzUUdKRWV0WXczNm1jd0RaQ21Vam1CMk5CVVF2OGx1ODUzUdIBlAFBVV95cUxQZk1ES2dVRlM4NU1ENWxJalhucE5CY1FKQXdMTXEwdFFuYmVxNkRKbnp1TDdicmh3bDk2TWNiaFhUNXhTMy1nV2JVQnFFMlFUSVViYUV6V3ZrMEJLTW96dnJ3VC1DZ29ld2ctV002aklRSWpvcWR6RFhkdFpZeFFXZ3pObjdSZG02VDZIdVc0VGZMcVBr?oc=5",
+    "source": "Al Jazeera",
+    "published": "2026-11-13T04:29:22+00:00",
     "lede": null,
     "lang": "en"
    }
