@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-13T10:01:27.385897+02:00",
+ "generated_at": "2026-11-13T11:01:03.568099+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -52,27 +52,51 @@
   ],
   "us": [
    {
-    "title": "Do Wall Street Analysts Like Sysco Stock?",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZ3FvZnl0N21XWVFBMmJmdzlnVHNhd0tuT00zUHJmSkEwLVpEb3lVaVIzMWhmSnZRU2lldkkyRjYzQjFidFNKNVhrWktVcHo4Y2Q4S1pnMU8tMnVQZVpqenFaY0c3MEFEeUVaRDd6YjlsVGo4T3AxZVdsSzFHamdsYi1GTTJPMmEzN3BsOVBXWFRfZUpEN2Z5Y19ENHJIZw?oc=5",
+    "title": "Treasury yields rise as traders strengthen Fed rate hike bets",
+    "url": "https://www.cnbc.com/2026/11/13/treasury-yields-fed-rates.html",
+    "source": "CNBC",
+    "published": "2026-11-13T08:50:43+00:00",
+    "lede": "Treasury yields moved higher as investor expectations for a December rate hike by the Federal Reserve gain strength.",
+    "lang": "en"
+   },
+   {
+    "title": "MUFG raises annual profit target, announces 200 billion yen buyback",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQR1lpNGtUekpsTlNxV29DdUo3Q3VwNXp6ZmN2ZTBIbk0tR3BQVnFhbWNvdGthTnllbzVsbUZYOEJMRUZwcUItV21HT081VE9QeUdFVDRzNFZ0Tl9HUDJrOHhKUjBQUkRQSWZsdXBxbjJfYlFkM3RuRzJkTmluX3pwTzFhSmFMVlp4YXpVc3ZxcXNxcE93MDFIcGNvMWNwZw?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-13T07:59:36+00:00",
+    "published": "2026-11-13T08:47:06+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "1 Reason to Still Avoid Wendy's Stock, Even Though It's 10% Below Its 52-Week High",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNTTRRYlYtY2xSZGpLa0hXbG5RSlk1MnV4MFBELWRNeExmM0xaT2JXWUJmWXhkQzhpSEk5UFE4c05qdTVaSDhNOFRTLXNEMHQ4Vl9lSmEteTVzMkM2dG5ELXNKYXVQOTJjeXM5b044Zmc4TXRqWGxMUHhJdzhWWW9IYzBvZk9WM21EZ2RrTWpMX01YSWwxRTlj?oc=5",
+    "title": "CRWV vs IREN vs NBIS: Which Neocloud Stock To Bet On After Q3 Reports Allay Durability Fears",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPUUZTQU1jbzctTHFyM2FWQXV1TUhLMkE5REt3NzhWX1NGYUFvY0dFbXBVMkNmc3RqSGMyRDlDMnBQQ2ZwaVNfcjRyaHhvUUJ5Zm9hQ3hWSGlDdlY5UDZ1dEpRcXpRUGwxLWtiWEFuVmMzd0JfWkhleW43NExjc0JxZlN6Zy16S0RDZkhlTGRn?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-13T07:50:00+00:00",
+    "published": "2026-11-13T08:33:40+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Down 32% in a month, Super Micro trades at 6x P/E: Bargain or trap?",
-    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOVXQyRVVreDdIT3VqaUc0dEZzQlB2UldmTlZyU2tVVGVsZG55LUVOTnc2VVBaaGo1MDF0MTRQLU9BQ21hTXoyUUo4aG91cktCalJNRHM3V1h1YjBCTTI2bEhiUHNyaG5xRHVISEpROTlEUXM2R3dpdlJzcFlKTzdFUzVtM2VNTXRTMDFjMXNObnFyT1ZB?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-13T07:34:00+00:00",
+    "title": "European shares retreat from record highs, AI uncertainty weighs",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWm5qbFo0U2Q0eXFfdXJfMktJWjZsdnBnOHVmc1BBbWg3bjA0d0g1cGpsRnBaTlN0V2VCTkFsNjFWMmJJVnFuQnNwSFhuVE1mLU5YZWhlRXZ0b1hyczN3R3hQajFzREtZbGl2Yk5FYkNvVGMwc0ZiZUR4RXd3UE1mNEdwV1ZIajlrSGpLbXdpQWxwMUJzY0lxcEV3Vm1aaS1abEE3Q3dvUDhmdjdfSUE?oc=5",
+    "source": "Reuters",
+    "published": "2026-11-13T08:27:51+00:00",
     "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Nvidia’s turmoil is prompting a rotation across chip stocks. Here's what we know",
+    "url": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-affairs-amd-broadcom-tsmc.html",
+    "source": "CNBC",
+    "published": "2026-11-13T08:27:07+00:00",
+    "lede": "That shift comes as Nvidia grapples with the fallout from Huang's resignation, following revelations about his multiple affairs.",
+    "lang": "en"
+   },
+   {
+    "title": "Chinese AI sell-off deepens over fears of tougher Nvidia chip restrictions",
+    "url": "https://www.ft.com/content/0d4e93e4-895e-4ae0-a01b-833a3ed440a8?syn-25a6b1a6=1",
+    "source": "Financial Times",
+    "published": "2026-11-13T08:22:16+00:00",
+    "lede": "Ousted chief executive Jensen Huang had supported keeping sales open to China",
     "lang": "en"
    },
    {
@@ -92,14 +116,6 @@
     "lang": "en"
    },
    {
-    "title": "Nvidia on track for longest weekly losing streak since 2012 as market value sinks by $1.6 trillion",
-    "url": "https://www.cnbc.com/2026/11/13/nvidia-stock-jensen-affair-ai.html",
-    "source": "CNBC",
-    "published": "2026-11-13T05:51:34+00:00",
-    "lede": "Jensen Huang's resignation added to Nvidia's market woes, with the stock already in a downward slide since early October.",
-    "lang": "en"
-   },
-   {
     "title": "Nscale warns it needs more cash ahead of $35bn IPO",
     "url": "https://www.ft.com/content/8d5a8642-d0a1-458d-aaa4-c1e7d344fe47?syn-25a6b1a6=1",
     "source": "Financial Times",
@@ -108,53 +124,45 @@
     "lang": "en"
    },
    {
-    "title": "Cerebras surges 17% after beating on quarterly revenue and announcing Microsoft deal",
-    "url": "https://www.cnbc.com/2026/11/12/cerebras-systems-cbrs-q3-earnings-report-2026.html",
-    "source": "CNBC",
-    "published": "2026-11-13T02:43:26+00:00",
-    "lede": "Cerebras announced a new deal with Microsoft after partnering with major cloud providers Amazon and Oracle.",
-    "lang": "en"
-   },
-   {
-    "title": "Huang’s fall is an indictment of founder mode at Big Tech",
-    "url": "https://www.ft.com/content/83051c3a-cab4-4c66-89fc-ae7149047a25?syn-25a6b1a6=1",
-    "source": "Financial Times",
-    "published": "2026-11-12T22:50:43+00:00",
-    "lede": "The risks of giving leaders free rein when AI is at the heart of the economy, national security and just about everything else are now clear",
-    "lang": "en"
-   },
-   {
-    "title": "Opening trading-card packs has become a $2 billion market",
-    "url": "https://www.marketwatch.com/story/opening-trading-card-packs-has-become-a-2-billion-market-new-apps-are-trying-to-cash-in-b7ba11f5?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-12T22:38:00+00:00",
-    "lede": "Pack-ripping apps are changing the way people buy and sell cards. But analysts say their “slot-like payoff” raises risks.",
+    "title": "Manulife Financial: Record Core Earnings, But The Stock Is Expensive",
+    "url": "https://seekingalpha.com/article/4967671-manulife-financial-record-core-earnings-but-the-stock-is-expensive?source=feed_all_articles",
+    "source": "Seeking Alpha",
+    "published": "2026-11-13T03:49:10-05:00",
+    "lede": null,
     "lang": "en"
    }
   ],
   "il": [
+   {
+    "title": "לא שמות נוצצים אבל עם רקורד בהבראת חברות: הדמויות מאחורי קבוצת המשקיעים בארקיע",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001563327#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-13T08:30:00+00:00",
+    "lede": "קבוצת המשקיעים החדשה בחברת התעופה מביאה עמה ניסיון רב בשיקום חברות שנקלעו למשבר",
+    "lang": "he"
+   },
+   {
+    "title": "המדדים בת\"א עברו לירידות; הדואליות והביטחוניות מכבידות",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001563287#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-13T08:26:00+00:00",
+    "lede": "ת\"א 25 מאבד 0.1% ות\"א 90 נחלש ב-0.3% • הזינוק בתשואות האג\"ח בארה\"ב מעיב על השווקים ומקרין גם על תל אביב • באסיה נרשמת מגמה שלילית בצל קריסת הין היפני • בשוק המט\"ח המקומי הדולר מתקרב שוב ל-3.2 שקלים • וגם: \"הטכנולוגיה…",
+    "lang": "he"
+   },
+   {
+    "title": "\"נתון חריג מאוד\": הישראלים מסתערים על מניית אנבידיה",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001563334#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-13T08:18:00+00:00",
+    "lede": "איך הגיבו המשקיעים העצמאיים לנפילה במניית אנבידיה? נראה שמשקיעי הריטייל הישראלים אופטימיים יותר מכמה אנליסטים שמסקרים את אנבידיה בוול סטריט",
+    "lang": "he"
+   },
    {
     "title": "רשות המסים הציעה להחיל מס חדש בישראל. מהו?",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001562935#utm_source=RSS",
     "source": "גלובס",
     "published": "2026-11-13T07:45:00+00:00",
     "lede": "לפי החשד, מה עשתה חברת Megaspeed של המאהבת של מנכ\"ל אינדביה?",
-    "lang": "he"
-   },
-   {
-    "title": "הרכב שלא מנסה להרשים אבל ב-183 אלף שקל ממלא את ייעודו",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001563245#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-13T07:44:00+00:00",
-    "lede": "סקודה אלרוק, הקרוס־אובר החשמלי של סקודה, לא מנסה להרשים אבל ממלא את ייעודו המשפחתי היטב עם תא נוסעים מרווח ומאובזר, התנהגות נעימה ומוניטין סולידי",
-    "lang": "he"
-   },
-   {
-    "title": "חמישה דברים שכדאי לדעת לקראת פתיחת המסחר בבורסה",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001563287#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-13T07:41:00+00:00",
-    "lede": "המסחר בתל אביב ייפתח ברקע הזעזועים העולמיים, ובראשם התפטרותו הדרמטית של מנכ\"ל אנבידיה, התחממות המגעים למיזוג הענק בין טסלה לספייס-אקס, ואיתותי טראמפ להמשך הלחץ על איראן; המניות הדואליות יספקו תמיכה קלה בפתיחה",
     "lang": "he"
    },
    {
@@ -171,14 +179,6 @@
     "source": "ביזפורטל",
     "published": "2026-11-13T04:12:00+00:00",
     "lede": null,
-    "lang": "he"
-   },
-   {
-    "title": "כך תדעו איך הפנסיה שלכם תושפע מנפילת אנבידיה",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001563160#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-12T21:05:00+00:00",
-    "lede": "אנבידיה מהווה חלק משמעותי במדדים המובילים בוול סטריט ונהנית מסחירות גבוהה מאוד",
     "lang": "he"
    },
    {
