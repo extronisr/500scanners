@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-13T07:01:03.857227+02:00",
+ "generated_at": "2026-11-13T08:01:10.644888+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -52,26 +52,34 @@
   ],
   "us": [
    {
-    "title": "Cathie Wood Boosts Bets On 2 AI Firms Amid Nvidia’s Huang Upheaval — Here’s How Her Trading Week Unfolded",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSDlEWE91MTN1bXpUY0N0VDg2U0QyYU1aanZqbXBkYVRneEcxRkdsX3NxWno2ZC04UGh6dmhEcm12X05MMXJjN2Z3NGUzOW5VY2xOVXpaWWNqNUwzVEhXc3BSYUVTNnF2dEw5RVlnVElnUmVDRWlrb000WW4zQ0Y0eDFaaG5jWU9LUkQxa1NHNDFEU3c?oc=5",
+    "title": "Nvidia on track for longest weekly losing streak since 2012 as market value sinks by $1.6 trillion",
+    "url": "https://www.cnbc.com/2026/11/13/nvidia-stock-jensen-affair-ai.html",
+    "source": "CNBC",
+    "published": "2026-11-13T05:51:34+00:00",
+    "lede": "Jensen Huang's resignation added to Nvidia's market woes, with the stock already in a downward slide since early October.",
+    "lang": "en"
+   },
+   {
+    "title": "Intuitive Machines: 3 Key Takeaways for Long-Term Investors",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdktkT1VzYVVPMWRXMHdKV29oQ0g0eTVab1lnQjdBYkR0TzVZOVQ3NGxwaC0tYzY3U1pDeG9oZHQ4cHJMSXYtLXdtNXhabThGUVVzdFFqNzBTS2wwVkwtTHdTNjlOLXBwaXZobFhkU3p5eE5vUl9iOFFoZi1mOVpOOHBvNjBBNE5SbjhRUExPTnN6b052aHR0czdNdTFyVm5k?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-13T04:57:08+00:00",
+    "published": "2026-11-13T05:39:00+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Breakingviews - COMMENTARY: China's stock backstop risks market misfire",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNS3lSbDVvNmNJNnAwYl91MDgycUlxZHVZcmtQcGZnbUtrQ0VGSFAyRC1XU3REaVJ4QXN0ZWhxYWwwYkFQaFNVQVdtMkd2Ml9fRllGQWlOdjFpQ0lQSjZHNWlhd196NXY1eDM0VGctY2hlclN3X0RhSmVyd0NSRFdUV1RyeWtkZjdkMVROOXFiT05DR1JxN0VXaHBpejhJUm5uMUgtZ0Jn?oc=5",
-    "source": "Reuters",
-    "published": "2026-11-13T04:43:00+00:00",
+    "title": "HOOD Stock Drops Overnight Amid Bitcoin Weakness: Robinhood Reports 28.9M Funded Customers In October",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNS3dCclRYeVFWRzBrNFdhNFNaVDlzaWIyV0t1bzBRc2ZWRy04ZmlfX0ZVeHZKNWNaa0JESlktbHV2czhGajFTazloSWtTSGdnZmNCeGtORHZ0NUFCcWJTUzdqQXM2bmdDdEs5TDhMZ1RzNFlZN0MxR080dkNJV294N1ktM25hRUdqVU1CbnFjOGN2SFNMd1ViTGNUM3M?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-13T05:38:07+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Asia stocks steady as chipmakers rebound after Nvidia leadership shock",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSzFLbzdIZjRIWUwwS3llTnVtcEJwUDRhcXZlXzFnTFJEOHNtMU1xb0RFTk5jOGNzY2tVNjdnOUR4T0g0VnJHbE9tSmQxX2VtX3FvMWdRSEc2emlxYXFjckdLZElGS2FRcnZOc1BMdWkxV1pfb09vSV9rcFJEc3JnSElIRkVtVTN0cWk2SVYwUXp3Ml9aMlppbDM1SjNrVDNmSW1HeA?oc=5",
+    "title": "Asian shares are mixed as investors assess impact of Nvidia's fallout on global AI development",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOcEdIRVVLQ2EwSTczcGx0dnFDM2p4a2lsSDBjN1NKTGxHa1JjM1hILVBWZWhNd1lSanNRVVdpd3NxNy1zbGgtSFE4R2x1M0VoTnVQSVRJb0xLVEJoQ3RvUUFGYV9ZZ21sVGRMYjZwSlRDSzk0ci1IeUVnSlU2MlRrbEpCU05tZXFTRDVMZnZhd2FSVFVtX0xBUW54N0ItVER1OGc?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-13T04:39:25+00:00",
+    "published": "2026-11-13T05:37:00+00:00",
     "lede": null,
     "lang": "en"
    },
@@ -92,18 +100,10 @@
     "lang": "en"
    },
    {
-    "title": "Oil prices rise after Trump says no Iran deal needed: 'We've got their Strait'",
-    "url": "https://www.cnbc.com/2026/11/12/oil-prices-jump-after-trump-says-no-iran-deal-needed-weve-got-their-strait.html",
-    "source": "CNBC",
-    "published": "2026-11-13T00:01:19+00:00",
-    "lede": "Oil prices were mixed on Thursday, after the latest comments from President Donald Trump raised worries that an end to the U.S.-Iran war was not in sight.",
-    "lang": "en"
-   },
-   {
-    "title": "SoFi Technologies: Strong Q3 Earnings To Drive The Stock Higher",
-    "url": "https://seekingalpha.com/article/4967597-sofi-technologies-strong-q3-earnings-to-drive-stock-higher?source=feed_all_articles",
+    "title": "Nvidia Earnings Preview: Q3 2027",
+    "url": "https://seekingalpha.com/article/4967621-nvidia-earnings-preview-q3-2027?source=feed_all_articles",
     "source": "Seeking Alpha",
-    "published": "2026-11-12T23:55:05-05:00",
+    "published": "2026-11-13T00:30:00-05:00",
     "lede": null,
     "lang": "en"
    },
@@ -133,6 +133,14 @@
    }
   ],
   "il": [
+   {
+    "title": "מניות המיקרו-קאפ נסחרות במכפיל של כ-12, החברות הגדולות במכפיל של כ-28",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1FcFJycWk2c2VxU2lPbE04SGVsQnliTDA0OHBoS2VyTlFtRTc3cGVHQUhYLVdud0VCZ2laSURGbUEyVVhxUWh2UGs0ck1GWUp2M2thWXF1VGdDdXBkM0NZZnJJNFg5aDU0NVo2Q0U4RWM?oc=5",
+    "source": "ביזפורטל",
+    "published": "2026-11-13T05:25:00+00:00",
+    "lede": null,
+    "lang": "he"
+   },
    {
     "title": "הבוקר בת\"א: טאואר בפער חיובי של 3.3%, נובה בפער שלילי של 2.5%",
     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1ZRl9ZWlNiZlEtWmpaX09wSU5icVh1Ym9IM016WENGam5SQjUwNGc0eXJsYXZJX3REY2JnZXhIdUVUVUFFRjNqVTlpbzVzYjRzTVAyV2c4QnNxeTM5bzJ4SGMzaWxaTVpnRVR5YlZ3ZGM?oc=5",
@@ -182,14 +190,6 @@
     "lang": "he"
    },
    {
-    "title": "מה פרשת אנבידיה תעשה לשווקים ולכלכלה",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1fMGJwcEFYeF9DeEFLOFRhaW9MblZIYUZITkx1bFhGU1c0Z3RpN3VHbWRiTktxQWlEVW5VSTVRbzdXNUFmRHhRWndOMmxfWjVIcmFPQ3RkbmRMX3QxdWdKTmR3?oc=5",
-    "source": "Calcalist",
-    "published": "2026-11-12T15:26:00+00:00",
-    "lede": null,
-    "lang": "he"
-   },
-   {
     "title": "דיווח: המאהבת של מנכ\"ל אנבידיה נמלטה לבייג'ינג",
     "url": "https://finance.walla.co.il/item/3875969",
     "source": "וואלה",
@@ -200,10 +200,10 @@
   ],
   "geo": [
    {
-    "title": "Iranophobia: Netanyahu’s bid to transform fear into political survival",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOWWUwQ21ocVdEWHpGUlltWmpJa0Q2ZW5IWFM4bko2SkZiTlhGZEttd3V0bmpHTkZ0WDNLODJleG5RV0JHWDkxN2tvZjFxRy1US2FlUk9vNExqOVFYQVRXd2hLQnVaWWotYnBEa2JreW1pSFplQVk5LWJFekhKeTcxWkd1TjRfM0ZORklJaEliUG1wQzd5MFlabW5hS2VzU2hNVlJjazNRWWNuNEdwUHJr0gG0AUFVX3lxTFBkV29GcTRUVnFTcHE1Vi1pSVFEVllzeGNmdVNwSkJnN2Z0akMwOWFvNEMtTHVzUVlEMGdlR0ZtMkpWeTMtYTJTWTVwTG51U2FZNUZwb2xIRjRpb2RPN1dkQmQtSXU4b09laGxacVNSQ2ljZEM4RGdVVXotTUVZVHZpcklTa0c4UjdyalhtNkpUWEs4VDlFSWJxTHJpZ2VINVNTQmIxZHpVbGtHVGJCMDF3UFc1Qg?oc=5",
-    "source": "Al Jazeera",
-    "published": "2026-11-13T04:52:55+00:00",
+    "title": "Russia loses almost half a million lives in war on Ukraine",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQLTN0Y0Iwdm1YeWcwUGZZUDVKTXd0NW1XTHBqOVRhNzQzY3RMTWRYenhWcU9HazhCOS1mcWxjc29YOE1vQUdsLUxWNUtNM1kyR2lrV2ZyLUtuZ1A3LW1PLVZJeE5qUERiRGpSa3FqbzJpSmppMGpMY3ptc3BnTEdpSUVWM2o?oc=5",
+    "source": "Financial Times",
+    "published": "2026-11-13T05:01:10+00:00",
     "lede": null,
     "lang": "en"
    },
