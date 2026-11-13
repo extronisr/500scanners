@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-14T00:01:07.152675+02:00",
+ "generated_at": "2026-11-14T01:01:04.182529+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -52,11 +52,43 @@
   ],
   "us": [
    {
-    "title": "Xylem Inc. Announces $1.5 Billion Share Repurchase Authorization",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUmxWYkNrZUI4UTNEcDQ3Z1RpMmd4UDBkbFZ0QUNRemVzSkNhTUEtNVZJODJnQnY1azY4T25yMmJIX2c4UWF4WGU1U2hiUE9tWVdTc2E2cXNtR3RXTW5yV0tjSjBHVnVMaDNWYWU3LXZRYmtYcS0tWTR0a2JKY3doSkJDNHItQjFyVHdSQ1U0TXBwdw?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-13T21:45:00+00:00",
+    "title": "Stock Market Falls But Nasdaq Holds Key Level; Anthropic IPO, Nvidia Earnings Loom",
+    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOWlNKVkRyWWxPUEhTTW1lekhnU2h4anExcDZYQzlWV2VSalNTc3RwRXp0Y3VkbGFyNWRnbm5BaXNoTXc3elhvNnNoNnlNVkxZUHhfbVdjZTJKcHkyb1JVUmhDOWRmQU8xT1dHMk9RelppakJjblpyUjBjcUUyYTNXMDNEZUpsanI4NFh3LUlUTDRYUGhfdjlVVURkMEVBQjg0ZWFZellwT2Rvel9NT0hMVk5GNTg4OExUTDBSUGNSeFBmNEVhWVNpVlVCMEEzQy12NEE?oc=5",
+    "source": "Investor's Business Daily",
+    "published": "2026-11-13T22:36:00+00:00",
     "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "FRMI Stock Clocks Best Day Ever After Report Names Amazon As Project Matador Customer",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxObFdOelBIVFJIcF9Tek5HWHpxQ1VoN2kxcVJpa08yaXRma0FwX2VRZEtWcHRBdDBrS1d5UWxzQU1DMmVPU3hSbHRBRGVzQldHV2UzRjVPTnRTM09Kdlc0cXF5V2ZwUEtpQnIxWE5ySXp1RTQ1bkMtSjNZYmZ2YlBINDc1QTlaTTNCVG8zTnB4RUxHUVdoYXc?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-13T22:23:59+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "FuelCell Energy Inc. stock falls Friday, underperforms market",
+    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNVkgtMmFuZkpoZUg2TGx0cFdLMElkaGk3LXE3OFRCR0NscHBfdVFYS3g2c2YwbGV5MnNSUkVyajZkaW1fcXpzMFBFYmVqN2Z5OTZKVkprWGNTVXhGeXJkOTE3bm1ISXp2R0lRZlhjVzJadHdwQzJ3MjZ1OHMwaUVGMHFDeFktcG8tSEx5ME1RUjEyM3ZaT2FLTDdfeEZZcC1QRnZOaW9xeGN5SEhtUXFGbWRtbkRCdWZjc2lYOHlraFNLMGxndUNoRDV6eWpNTThBeGxF?oc=5",
+    "source": "MarketWatch",
+    "published": "2026-11-13T22:22:00+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Nvidia’s stock is on a losing streak not seen in 14 years. What comes next?",
+    "url": "https://www.marketwatch.com/story/nvidias-stock-is-on-a-losing-streak-not-seen-in-14-years-what-comes-next-a07e801e?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-13T22:21:00+00:00",
+    "lede": "Nvidia wiped out $573 billion in market capitalization this week — its sixth consecutive week of stock declines.",
+    "lang": "en"
+   },
+   {
+    "title": "Global oil supplies are suddenly flowing. Why a crude glut won’t mean cheaper diesel.",
+    "url": "https://www.marketwatch.com/story/global-oil-supplies-are-suddenly-flowing-why-a-crude-glut-wont-mean-cheaper-diesel-a5fa80c8?mod=mw_rss_topstories",
+    "source": "MarketWatch",
+    "published": "2026-11-13T22:04:00+00:00",
+    "lede": "It’s official: the world is expected to soon have more oil than it needs for the first time since the Iran war began in February. But more oil doesn’t automatically lead to lower diesel prices.",
     "lang": "en"
    },
    {
@@ -68,38 +100,6 @@
     "lang": "en"
    },
    {
-    "title": "Ross Stores Inc. stock underperforms Friday when compared to competitors",
-    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNTGVsZE9Ic0Q0bG94Q09MQjRwNFNLWmxhQ2JLVG1TcFVWZzRPQm0yQnV2X2tBaUR2V2xfNTBfUExPdmhNeThRZXEwSXl0ckdaOTA1OEZlUVQzcXVIYS1RaG54YTdLU2hXb25STWg2U0JEWVpvR3FhS3ZibUlHajB2NXJFREJfNzRnVFYxUlpJTGxJUHpkOTRONzZWSlFfRVJib3l0ZmlzdzlNMFdlc0Yza3RuQVktSFFGZ0lyRE5iaXN3bWxHQ0Y5dU5pMjRWOFVxWk1GcXpidUUxY1A2S1YwcVhzcw?oc=5",
-    "source": "MarketWatch",
-    "published": "2026-11-13T21:44:00+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Better Chip Stock: Nvidia vs. AMD",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTTVvMDVuZjc0aGVFSFZkVVc4UVBCc1RnUHJhVHJBWmVoSVdvUE9jZGd4TjRGdXVVc0s5MHRmQmlETVQ2bVkxS3JLdEdiN3JBWEJKN205bzVZanFGdV9IcV8tSTZRY2RuWjkzQXpOSWFHcG5hdW1GZDVSd3M3a0FEaVpyb2xhRDVmUndld0VqRzZhMFhpZ09N?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-13T21:43:02+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Nvidia stock suffers longest weekly losing streak since 2012 as market value sinks by $1.7 trillion",
-    "url": "https://www.cnbc.com/2026/11/13/nvidia-stock-jensen-affair-ai.html",
-    "source": "CNBC",
-    "published": "2026-11-13T21:27:15+00:00",
-    "lede": "Jensen Huang's resignation added to Nvidia's market woes, with the stock already in a downward slide since early October.",
-    "lang": "en"
-   },
-   {
-    "title": "Bitcoin is now below $69,000 and could fall even further if investors cash out to buy into the Anthropic IPO",
-    "url": "https://www.marketwatch.com/story/bitcoin-could-fall-even-further-if-investors-cash-out-to-buy-into-the-anthropic-ipo-5a14f46a?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-13T21:26:00+00:00",
-    "lede": "Investors may have to sell some of their existing bets in crypto to make room in their portfolio for what could be one of the most sought-after stock offerings in history.",
-    "lang": "en"
-   },
-   {
     "title": "AI risks are the biggest threat to the financial system, Fed survey finds",
     "url": "https://www.cnbc.com/2026/11/13/ai-risks-financial-system-federal-reserve.html",
     "source": "CNBC",
@@ -108,11 +108,11 @@
     "lang": "en"
    },
    {
-    "title": "AMD and other chip stocks slide as Wall Street rethinks the AI trade without Jensen Huang",
-    "url": "https://www.marketwatch.com/story/amd-and-other-chip-stocks-slide-as-wall-street-rethinks-the-ai-trade-without-jensen-huang-2fb74547?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-13T21:10:00+00:00",
-    "lede": "At first, it looked like Nvidia’s pain might be the rest of the chip sector’s gain. But now, investors aren’t so sure.",
+    "title": "10-year Treasury yield moves to 5.17% as traders weigh producer price report",
+    "url": "https://www.cnbc.com/2026/11/13/treasury-yields-fed-rates.html",
+    "source": "CNBC",
+    "published": "2026-11-13T21:08:20+00:00",
+    "lede": "Treasury yields moved higher as investor expectations for a December rate hike by the Federal Reserve gain strength.",
     "lang": "en"
    },
    {
@@ -184,18 +184,18 @@
   ],
   "geo": [
    {
-    "title": "Scoop: Israeli spy chief in D.C. as Netanyahu presses Trump to resume war",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPc0RsNzRSR3JhRUdIYkdjZ0VGRFdfeGJkUDd6NzRmV1FWMVRtSGtHYlFCQTZoRElpN2pBcmF6OXlQblJDaXlIeElKRjRXaXdvSkZNNGJTc21GaTdDTzRnUlJJcXVRZWx3N1pRYkhTSnZTNHVmc3VmQ19PdEttQ1FLV0t3dzd5VG1z?oc=5",
-    "source": "Axios",
-    "published": "2026-11-13T19:10:26+00:00",
+    "title": "Russia Revives Demand That NATO Retrench to Secure Ukraine Deal",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNejhEQXBBR0FQS3VnT01VYUsxOTVLejRFTm1WMGtzQUc5OER5dW5yZ3ZOQUdCRFFaVXRjNVotNkNNc2hLSTR5Q0V2MGV5REJZQ2RRRE1yaXRXbGxscGhub3F1dVBueTR2dVViNlkxN1hRNC1iczRQSlNpSGdmelhxai1SLUw?oc=5",
+    "source": "The New York Times",
+    "published": "2026-11-13T20:05:56+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Europe Agrees on a Team to Represent It in Talks With Russia",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPbXZ5el9iR2VOdWd1dVNVX00zWkdWM01yQkk4WkxZZmtrNUNxUVZIQ3E0aHdrZ0NmMWlsclN0ejlhaHNvMWV3OWVBWXI4aF9aRzhPOW5pNTUwdHJNdWFSclFQckhJUDFYMXBpWDM4QjhsQ00wazRta0FVS2F3NDIwSWVBVjg5SjA?oc=5",
-    "source": "The New York Times",
-    "published": "2026-11-13T18:52:07+00:00",
+    "title": "Scoop: Israeli spy chief in D.C. as Netanyahu presses Trump to resume war",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPc0RsNzRSR3JhRUdIYkdjZ0VGRFdfeGJkUDd6NzRmV1FWMVRtSGtHYlFCQTZoRElpN2pBcmF6OXlQblJDaXlIeElKRjRXaXdvSkZNNGJTc21GaTdDTzRnUlJJcXVRZWx3N1pRYkhTSnZTNHVmc3VmQ19PdEttQ1FLV0t3dzd5VG1z?oc=5",
+    "source": "Axios",
+    "published": "2026-11-13T19:10:26+00:00",
     "lede": null,
     "lang": "en"
    }
