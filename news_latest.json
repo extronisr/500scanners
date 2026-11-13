@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-13T15:01:06.201164+02:00",
+ "generated_at": "2026-11-13T16:01:04.104061+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -52,84 +52,84 @@
   ],
   "us": [
    {
-    "title": "The Fed expected rate cuts this year. Now it’s bracing for another inflation fight",
+    "title": "עליות בחוזים בניו יורק; אינפלציית מחירי היצרן הפתיעה לטובה",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001563339#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-13T14:00:00+00:00",
+    "lede": "למרות הטלטלה בסקטור השבבים, המדדים המרכזיים בדרך לרשום את השבוע הטוב ביותר שלהם מאז תחילת אוגוסט",
+    "lang": "he"
+   },
+   {
+    "title": "Bessent: Treasury has wanted Megaspeed restrictions for months, but Commerce is in charge",
     "url": "https://www.cnbc.com/2026/11/13/us-inflation-outlook-federal-reserve-rate-hike.html",
     "source": "CNBC",
-    "published": "2026-11-13T12:59:36+00:00",
-    "lede": "The most recent inflation reading for October was higher than expected, coming in at 0.4% for the month.",
-    "lang": "en"
-   },
-   {
-    "title": "$1,000 in Main Street Capital's 2007 IPO Is Worth About $7,300 Counting Dividends. It Has Never Cut Its Monthly Payout.",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNbWl1cGNaWGV2QndnN1ZqbFZzSG9KbnZ0YzdiTjNDaHBqSnp5TGtocDZXeWtLNEw0T0JlQ0JSSFhlRDloVEpiemkwUWpNUTlxUDlHaWxnakc2NDB3ODB1VnRDRGtTd1kwQnpXZml2VFVBanF4dThSWnRsVUlVMnJiTF94S2Ewa09RZlVIRy1sc2RJQTZDVEE?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-13T12:50:02+00:00",
+    "published": "2026-11-13T13:58:11+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Cerebras stock surges on Q3 results, outlook raise, hyperscaler deals",
-    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQa0t6YmVuQTBsSDJtRWFQQmZmc1IydkZ2UWtUUF9PRmpkWVpSanM5alQ5bzB2RXBxMl9XWjVQbXpBbndYZjZWQVktWmlXSno1R241WlpVem5zMzRGVlVfaU9kMlhfSWxkYWFwWHNPSFFSS2R0bGE4MGtfOE80TllMRUVpdUtoOWJWUExCRWJoSm44YTFHSGt3WmNRSWpqeEduRDVJNjR4X2FqbzZtYmRYU2RkWXJpaVFSSlQxN0gxa1RGdmtmRXMyNWRmX1kzM3RLblpfSTRKM0llZFdRZlI5MV9aaVpBUFE?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-13T12:47:19+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "After Nvidia’s $427B wipeout, is AMD’s 117x P/E rally a trap?",
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQN05vYk15ZzYzM1Y0UmQwWlk4cGc2VFhNaTc0c2MwaVlRTjBTa3hydUd2dUlRV2Y4R284a2lGV1VHemlVUldnTjFVNnBzWk9lNkVLd3I4cWpwSTZiSG0wOFRhOU4tc2VoX2twUl9QSXd6TVdtakxsSm1EcnNKQ2w4UnJnTXR2ZnVsOGhrR1BqUWc4dnM3WEpYMA?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-13T12:42:17+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Nvidia has shed nearly $500 billion in market value this week. It’s still a $4 trillion AI behemoth.",
-    "url": "https://www.marketwatch.com/story/nvidia-has-shed-nearly-500-billion-in-market-value-this-week-its-still-a-4-trillion-ai-behemoth-2ca6eba7?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-13T12:25:00+00:00",
-    "lede": "Can Nvidia keep its lead in AI chips without Jensen Huang? Plus, what investors are watching on inflation.",
-    "lang": "en"
-   },
-   {
-    "title": "Microsoft stock slumps on outage that includes the Copilot tool it has been heavily promoting",
-    "url": "https://www.marketwatch.com/story/microsoft-stock-slumps-on-outage-that-includes-the-copilot-tool-it-has-been-heavily-promoting-4007dc4f?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-13T12:14:00+00:00",
-    "lede": "Microsoft stock fell in premarket trade Friday as the company struggled to address a worldwide outage of its popular products.",
-    "lang": "en"
-   },
-   {
-    "title": "Russian crude production rebounds after Trump diesel deal, IEA says as oil markets return to surplus",
-    "url": "https://www.cnbc.com/2026/11/13/russia-oil-exports-iea-diesel-deal.html",
-    "source": "CNBC",
-    "published": "2026-11-13T12:05:22+00:00",
-    "lede": "Russia’s crude output rose to 8.73 million barrels a day in October as recovering Gulf exports pushed global supply above demand, the IEA said.",
-    "lang": "en"
-   },
-   {
-    "title": "U.S. seizes $1.2 billion in cryptocurrency stolen from Binance",
-    "url": "https://www.cnbc.com/2026/11/13/us-seizes-binance-hack-crypto.html",
-    "source": "CNBC",
-    "published": "2026-11-13T12:03:24+00:00",
-    "lede": "The DOJ said it was taking action against the North Korean government's \"schemes to fund its regime through the massive theft of cryptocurrency.\"",
-    "lang": "en"
-   },
-   {
-    "title": "US Treasuries set for worst week since Trump’s ‘liberation day’",
-    "url": "https://www.ft.com/content/7bebace2-dc87-410a-ae29-ffd9f3176def?syn-25a6b1a6=1",
-    "source": "Financial Times",
-    "published": "2026-11-13T10:57:36+00:00",
-    "lede": "Higher than expected inflation and hawkish remarks by Fed officials have stung investors who bet a global bond rout was over",
-    "lang": "en"
-   },
-   {
-    "title": "אין צפי לתיקון: למה התקלה במיקרוסופט עדיין לא נפתרה",
+    "title": "אחרי כמעט 20 שעות: המייל של מיקרוסופט מתחיל לחזור",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001563336#utm_source=RSS",
     "source": "גלובס",
-    "published": "2026-11-13T08:58:00+00:00",
-    "lede": "התקלה שהחלה אמש בשעה שמונה וחצי בערב שעון ישראל לא נפתרה עד עתה, ולפי העדכונים השוטפים של מיקרוסופט גם אין צפי לפתרון בקרוב",
+    "published": "2026-11-13T13:56:00+00:00",
+    "lede": "התקלה שהחלה אמש בשעה שמונה וחצי בערב שעון ישראל קרובה לסיום, ו-Outlook מתחיל לחזור לשימוש",
     "lang": "he"
+   },
+   {
+    "title": "CuriosityStream: 3 Key Takeaways for Long-Term Investors",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQRjNQbGhESWJPQnRWaFhNMnFsN0EzYTlpMHZMU2dPYVc1UlVPdGEzaE9uM1laYy1FZ2ZXQmFtU1NSNXdmaWtxU281eFNRdGV0bkxVM3JFQWVocEVsUXFjUlRaSnF0NThucmpCT051ZG9hb1ZZUTFHWFRJdzJTTkxYcDhnVk50anI3Mzh1WEgwQU16aVluMFZSbEwxZzhUMlZmTjIw?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-13T13:48:05+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "3 Legacy Financial Dividend Stocks That Never Go Out of Style",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZ2QxQUVyZW1GZDdGMFVBREs2UGR2NEE0ZUg3NjMxYnlmOUcxbFIzSUxGekYwZkRFTW9GMDlkbDFlVlNKaU9KUEpHZjdJNk5uYnI1ZkJUeUQ5V0RTa19EcTB2Y2VTVUtQbV82NUJXYjE1QndqZ0RwLTBXZlRUMms4bjNpb2VqN3JueW5seE1ELUpLYlhDTm81VHZVMWx3ekVW?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-13T13:47:59+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "The bull market in stocks is being put to the test. 2027 may not be any easier.",
+    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNbGw0NGRFeU56OXRVV2hGcHVESVlnX0d4NWQzVkM0LTJaZDVscVBDaEdJY3VqQTJMRWxsenFzY3VxSGR6R2QzVENNUFdoMXMyNEt4eWI0bFpOaWhXN2luNF8wRFA3MmxJeUduTjhOdURWcEdfS0E1ZDJFR0MzOWtKLTVLQjB0N0RjTWRxVlRIeWhhSG9xQVFVYmNvaE9hRE5YMl84QTRYcHNRdUUxc3B4eWNveWU5OFNjMWV0VEd1WGt0LTZWQkk0X3NlRFJLbFk?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-13T13:47:13+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Nvidia stock inches higher as investors continue to weigh Jensen Huang’s departure",
+    "url": "https://www.cnbc.com/2026/11/13/nvidia-nvda-stock-jensen-huang-transition.html",
+    "source": "CNBC",
+    "published": "2026-11-13T13:41:03+00:00",
+    "lede": "Jensen Huang resigned as CEO of Nvidia on Thursday after coming under scrutiny for two extramarital affairs.",
+    "lang": "en"
+   },
+   {
+    "title": "Global oil supply returns to surplus for first time since start of Iran war, says IEA",
+    "url": "https://www.theguardian.com/business/2026/nov/13/global-oil-supply-returns-to-surplus-for-first-time-since-start-of-iran-war-says-iea",
+    "source": "The Guardian",
+    "published": "2026-11-13T13:35:45+00:00",
+    "lede": "Supplies outstripped demand by almost 2m barrels a day in October as market shows ‘tentative signs of rebalancing’ The world’s oil supply is swinging back to a surplus for the first time since the start of the…",
+    "lang": "en"
+   },
+   {
+    "title": "Will Jensen Huang sell his $135bn of stock?",
+    "url": "https://www.ft.com/content/7a1ee00c-ddbd-4ae2-8323-e4dc603d7a41?syn-25a6b1a6=1",
+    "source": "Financial Times",
+    "published": "2026-11-13T13:22:54+00:00",
+    "lede": "Any attempt by Nvidia co-founder to offload his shares would unnerve investors but is fraught with legal and price risks",
+    "lang": "en"
+   },
+   {
+    "title": "CFTC Chair Selig tells CNBC crypto industry is embracing agency rules as legislation hopes fade",
+    "url": "https://www.cnbc.com/2026/11/13/cftc-chair-selig-crypto-industry-opting-into-agencys-crypto-rules-.html",
+    "source": "CNBC",
+    "published": "2026-11-13T13:15:35+00:00",
+    "lede": "The top U.S. commodities regulator in October announced proposed crypto rules to assert its jurisdiction over the asset class.",
+    "lang": "en"
    }
   ],
   "il": [
@@ -184,18 +184,18 @@
   ],
   "geo": [
    {
-    "title": "‘Colossal mistake’: Gov. Newsom tells Iranian filmmaker about Iran war",
-    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQYVhnX21QeG9hRlpReUxGdGhzcnltVS1JZ2tjZHkxQi0wWHA1eUVyTVBfY3lQdER2dnhiSndmd1VhUFl3REJZQXlMTGVkUFBMLXJ5N09xYmxrdGZkTl9lQ3NFTG5mdE5kbWRCTzNtRmRqdHh0eDAtcE5FUTdKSTFvVHFB?oc=5",
-    "source": "CNN",
-    "published": "2026-11-13T12:41:00+00:00",
+    "title": "Scoop: Israeli spy chief in D.C. as Netanyahu presses Trump to resume war",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPc0RsNzRSR3JhRUdIYkdjZ0VGRFdfeGJkUDd6NzRmV1FWMVRtSGtHYlFCQTZoRElpN2pBcmF6OXlQblJDaXlIeElKRjRXaXdvSkZNNGJTc21GaTdDTzRnUlJJcXVRZWx3N1pRYkhTSnZTNHVmc3VmQ19PdEttQ1FLV0t3dzd5VG1z?oc=5",
+    "source": "Axios",
+    "published": "2026-11-13T13:47:49+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Why is Ukraine attacking Russian warships in the Baltic Sea amid talks?",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNNlEtMW5yVGdQUktZYnZqbnlPM3lmQzVOdUtGV3lhdl9pRWl2VWtHT0pGVFkxcDhTZTVsZDJlVWlpMm1FVTVUTVhNYUhjQVAxUEgyU3hRekhVcldURE5kTThUQVZBbkRqdGFaZTFtczAteGVlT3Z3WXhoTXVReXVOalBwUEJXU09HcW85Y0lWMjgzVDZXWURBRWl5OThDckpDODQ2b0Z6Tl9kZXpFUkRtb0930gG3AUFVX3lxTFA5OVpRZ0NQa0NrV0NsQzdKQlZZTzVPc2htVjFHd19qTUZNRTBRX0RGUlF4cUJUUXNCZGtoY2pXdm1mV2QzQ1ZYVTJ1ZXZkQlFtSm5VYTBJUjVsOTdNeHdhSk9fbHRzVmViSUdDME5NbHJPbUE4WFlLeFdxVUZHN3paUUFuUTNyVVpwcF9nekQ3NDAtazlqVkVha0NoRUg3UGUxd0FiWk5JeUdWQ3ZqX3RkNU95REtvNA?oc=5",
-    "source": "Al Jazeera",
-    "published": "2026-11-13T12:10:08+00:00",
+    "title": "Iran says it destroyed US military radar in Bahrain in retaliatory strike",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOejhqODA1c1hwY0NTYTVMYzJleE56MnNCSlkyb09lcDRkcUZEXzRRbmtReWJjLWlrUDlNak94OXZIUjYwZ21YMS1OZlJ2ZzFIeUNYRWJLMk93RUVYV3ltMnBGcVFlNzJGRDhOMHZ5cnZ0eTV1VUlFdHlBMnUwN0FwX2FFdkpCVFE?oc=5",
+    "source": "The Guardian",
+    "published": "2026-11-13T13:30:00+00:00",
     "lede": null,
     "lang": "en"
    }
