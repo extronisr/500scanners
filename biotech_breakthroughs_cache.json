@@ -1,5 +1,5 @@
 {
- "fetched_at": "13.11.2026, 14:05",
+ "fetched_at": "13.11.2026, 14:33",
  "items": [
   {
    "title": "Regeneron posts positive phase 2 data for baloncibart in nervous system disorder, eyes pivotal trial - Fierce Biotech",
@@ -3552,24 +3552,6 @@
    "ncts": []
   },
   {
-   "title": "FDA approves generic Tafamidis Meglumine (Aurobindo Pharma Ltd)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=218617",
-   "pub_ts": 1793923200.0,
-   "date": "6.11.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=218617"
-    }
-   ],
-   "ncts": []
-  },
-  {
    "title": "FDA approves generic Venlafaxine Hydrochloride (Yichang Humanwell)",
    "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220619",
    "pub_ts": 1793923200.0,
@@ -3642,6 +3624,24 @@
    "ncts": []
   },
   {
+   "title": "FDA approves generic Tafamidis Meglumine (Aurobindo Pharma Ltd)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=218617",
+   "pub_ts": 1793923200.0,
+   "date": "6.11.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=218617"
+    }
+   ],
+   "ncts": []
+  },
+  {
    "title": "A Phase 3 Study to Assess the Immune Response and Safety of rMenB+OMV NZ in Primed Healthy Participants (10 to 20 Years Old)",
    "link": "https://clinicaltrials.gov/study/NCT06995430",
    "pub_ts": 1793923200.0,
@@ -3708,24 +3708,6 @@
    "ncts": []
   },
   {
-   "title": "FDA approves generic Amitriptyline Hydrochloride (Cmp Dev Llc)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219639",
-   "pub_ts": 1793836800.0,
-   "date": "5.11.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219639"
-    }
-   ],
-   "ncts": []
-  },
-  {
    "title": "FDA approves generic Eltrombopag Olamine (Changzhou Pharm)",
    "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221019",
    "pub_ts": 1793836800.0,
@@ -3739,6 +3721,24 @@
     {
      "source": "FDA · openFDA",
      "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=221019"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA approves generic Amitriptyline Hydrochloride (Cmp Dev Llc)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219639",
+   "pub_ts": 1793836800.0,
+   "date": "5.11.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219639"
     }
    ],
    "ncts": []
@@ -4029,44 +4029,6 @@
    "ncts": []
   },
   {
-   "title": "FDA approves generic Hydroxyurea (Esjay Pharma)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220300",
-   "pub_ts": 1793664000.0,
-   "date": "3.11.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220300"
-    }
-   ],
-   "ncts": []
-  },
-  {
-   "title": "FDA approves generic Propofol (Baxter Hlthcare Corp)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=203421",
-   "pub_ts": 1793664000.0,
-   "date": "3.11.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [
-    "BAX"
-   ],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=203421"
-    }
-   ],
-   "ncts": []
-  },
-  {
    "title": "FDA approves generic Olopatadine Hydrochloride (Alembic)",
    "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=217856",
    "pub_ts": 1793664000.0,
@@ -4106,6 +4068,44 @@
     {
      "source": "FDA · openFDA",
      "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=209917"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA approves generic Hydroxyurea (Esjay Pharma)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220300",
+   "pub_ts": 1793664000.0,
+   "date": "3.11.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220300"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA approves generic Propofol (Baxter Hlthcare Corp)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=203421",
+   "pub_ts": 1793664000.0,
+   "date": "3.11.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [
+    "BAX"
+   ],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=203421"
     }
    ],
    "ncts": []
@@ -4392,24 +4392,6 @@
    "ncts": []
   },
   {
-   "title": "FDA approves generic Methylprednisolone Acetate (Gland)",
-   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219662",
-   "pub_ts": 1793577600.0,
-   "date": "2.11.2026",
-   "cat": "fda",
-   "sev": 2,
-   "dir": 1,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "FDA · openFDA",
-     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219662"
-    }
-   ],
-   "ncts": []
-  },
-  {
    "title": "FDA approves generic Cyclophosphamide (Amneal Pharms)",
    "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=210890",
    "pub_ts": 1793577600.0,
@@ -4461,6 +4443,24 @@
     {
      "source": "FDA · openFDA",
      "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=218447"
+    }
+   ],
+   "ncts": []
+  },
+  {
+   "title": "FDA approves generic Methylprednisolone Acetate (Gland)",
+   "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219662",
+   "pub_ts": 1793577600.0,
+   "date": "2.11.2026",
+   "cat": "fda",
+   "sev": 2,
+   "dir": 1,
+   "tickers": [],
+   "companies": [],
+   "sources": [
+    {
+     "source": "FDA · openFDA",
+     "link": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219662"
     }
    ],
    "ncts": []
