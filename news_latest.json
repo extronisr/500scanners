@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-13T11:01:03.568099+02:00",
+ "generated_at": "2026-11-13T12:01:05.475363+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -52,35 +52,51 @@
   ],
   "us": [
    {
+    "title": "Nvidia stock inches higher as investors continue to weigh Jensen Huang’s departure",
+    "url": "https://www.cnbc.com/2026/11/13/nvidia-nvda-stock-jensen-huang-transition.html",
+    "source": "CNBC",
+    "published": "2026-11-13T10:00:37+00:00",
+    "lede": "Jensen Huang resigned as CEO of Nvidia on Thursday after coming under scrutiny for two extramarital affairs.",
+    "lang": "en"
+   },
+   {
+    "title": "After a 3.9% Raise, Here's How Many Shares of ExxonMobil You'd Now Need for $1,000 a Month in Dividends",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOWmZQXzRhSjFJdl85dHh1VEVFVy16cU5xblpPOEV6Q3VXdlhmODN1VWlVWS16VWsyZzJUazdZR2k3a3JTNjI4T21UN3ltSk1zeW1FNjNTblZxMDMtcXZlVVNBYlJWdWl3U1hqa0Y0YTl6M1NxdzRLVkJvV09XUGNxZTBJZjd5U0IyRWp5c0lR?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-13T09:50:00+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Crypto Exchange Gemini Shrank in Q3. So Why Did Its Stock Rise?",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQcUFlYnN4Wi1NbHpLbDd1c3FDcjJWRnZjc2VrLWVVT3otaEJGMkFUTmRRc2J2Vk5tQmhFdWI1STBxRHhkc0xpc3ppOHBveDZFSUZNV1d4MEc1Rnp4amhRVTNMdWFrYTFwU29BT2pKSHBJcTFmdXU3OUhzbnplbXBpbVdZYS01T0pxeHBSekNZcVF6T3F3dUg4WnNUT1Z4UQ?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-13T09:45:21+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Huang ouster fallout; Cisco, Applied Materials outlooks - what’s moving markets",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPbC1iWEVobEsyMWh1ZHVySW1tUmhiNzN6ZXo4VGtoWUo2d0lNdUYtRWdIUlpDWEc2dUN4VEVpLVR2SmRMNmdnazRpQW5jaWNudmRva0FPZzk1b2xlcUZkQWpHZnplT2xmMWpHbExfOTZaNms3OHM5TjNmcEg5LVRGZUFjZGI1OVdDODJIZ1hKS2hDRTNoVUVQSnhJVHdoTzU2?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-13T09:35:48+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Global oil markets swing to surplus as Gulf shipments rebound",
+    "url": "https://www.ft.com/content/20b68fe2-9d60-4c0c-b714-1f3e03015823?syn-25a6b1a6=1",
+    "source": "Financial Times",
+    "published": "2026-11-13T09:04:06+00:00",
+    "lede": "IEA analysts warn it will take months to rebuild stockpiles depleted by conflict",
+    "lang": "en"
+   },
+   {
     "title": "Treasury yields rise as traders strengthen Fed rate hike bets",
     "url": "https://www.cnbc.com/2026/11/13/treasury-yields-fed-rates.html",
     "source": "CNBC",
     "published": "2026-11-13T08:50:43+00:00",
     "lede": "Treasury yields moved higher as investor expectations for a December rate hike by the Federal Reserve gain strength.",
-    "lang": "en"
-   },
-   {
-    "title": "MUFG raises annual profit target, announces 200 billion yen buyback",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQR1lpNGtUekpsTlNxV29DdUo3Q3VwNXp6ZmN2ZTBIbk0tR3BQVnFhbWNvdGthTnllbzVsbUZYOEJMRUZwcUItV21HT081VE9QeUdFVDRzNFZ0Tl9HUDJrOHhKUjBQUkRQSWZsdXBxbjJfYlFkM3RuRzJkTmluX3pwTzFhSmFMVlp4YXpVc3ZxcXNxcE93MDFIcGNvMWNwZw?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-13T08:47:06+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "CRWV vs IREN vs NBIS: Which Neocloud Stock To Bet On After Q3 Reports Allay Durability Fears",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPUUZTQU1jbzctTHFyM2FWQXV1TUhLMkE5REt3NzhWX1NGYUFvY0dFbXBVMkNmc3RqSGMyRDlDMnBQQ2ZwaVNfcjRyaHhvUUJ5Zm9hQ3hWSGlDdlY5UDZ1dEpRcXpRUGwxLWtiWEFuVmMzd0JfWkhleW43NExjc0JxZlN6Zy16S0RDZkhlTGRn?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-13T08:33:40+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "European shares retreat from record highs, AI uncertainty weighs",
-    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWm5qbFo0U2Q0eXFfdXJfMktJWjZsdnBnOHVmc1BBbWg3bjA0d0g1cGpsRnBaTlN0V2VCTkFsNjFWMmJJVnFuQnNwSFhuVE1mLU5YZWhlRXZ0b1hyczN3R3hQajFzREtZbGl2Yk5FYkNvVGMwc0ZiZUR4RXd3UE1mNEdwV1ZIajlrSGpLbXdpQWxwMUJzY0lxcEV3Vm1aaS1abEE3Q3dvUDhmdjdfSUE?oc=5",
-    "source": "Reuters",
-    "published": "2026-11-13T08:27:51+00:00",
-    "lede": null,
     "lang": "en"
    },
    {
@@ -92,12 +108,12 @@
     "lang": "en"
    },
    {
-    "title": "Chinese AI sell-off deepens over fears of tougher Nvidia chip restrictions",
-    "url": "https://www.ft.com/content/0d4e93e4-895e-4ae0-a01b-833a3ed440a8?syn-25a6b1a6=1",
-    "source": "Financial Times",
-    "published": "2026-11-13T08:22:16+00:00",
-    "lede": "Ousted chief executive Jensen Huang had supported keeping sales open to China",
-    "lang": "en"
+    "title": "\"נתון חריג מאוד\": הישראלים מסתערים על מניית אנבידיה",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001563334#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-13T08:18:00+00:00",
+    "lede": "איך הגיבו המשקיעים העצמאיים לנפילה במניית אנבידיה? נראה שמשקיעי הריטייל הישראלים אופטימיים יותר מכמה אנליסטים שמסקרים את אנבידיה בוול סטריט",
+    "lang": "he"
    },
    {
     "title": "ההייטקיסטים הכי נוצצים בישראל חוששים: מה יקרה לאופציות של עובדי אנבידיה?",
@@ -108,31 +124,23 @@
     "lang": "he"
    },
    {
-    "title": "Why Singapore keeps turning up in the fight over Nvidia chips and China",
-    "url": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-alice-spy-megaspeed-.html",
-    "source": "CNBC",
-    "published": "2026-11-13T07:15:01+00:00",
-    "lede": "Singapore said it had barred Alice Huang from re-entering the country and that U.S. authorities had provided limited help with its yearlong investigations.",
-    "lang": "en"
-   },
-   {
-    "title": "Nscale warns it needs more cash ahead of $35bn IPO",
-    "url": "https://www.ft.com/content/8d5a8642-d0a1-458d-aaa4-c1e7d344fe47?syn-25a6b1a6=1",
-    "source": "Financial Times",
-    "published": "2026-11-13T04:10:06+00:00",
-    "lede": "Nvidia-backed ‘neocloud’ tells investors it must obtain additional financing to fulfil Anthropic contracts",
-    "lang": "en"
-   },
-   {
-    "title": "Manulife Financial: Record Core Earnings, But The Stock Is Expensive",
-    "url": "https://seekingalpha.com/article/4967671-manulife-financial-record-core-earnings-but-the-stock-is-expensive?source=feed_all_articles",
+    "title": "Magnite: CTV Growth Is Solid, But The Stock Is Expensive",
+    "url": "https://seekingalpha.com/article/4967683-magnite-ctv-growth-is-solid-but-stock-is-expensive?source=feed_all_articles",
     "source": "Seeking Alpha",
-    "published": "2026-11-13T03:49:10-05:00",
+    "published": "2026-11-13T04:37:59-05:00",
     "lede": null,
     "lang": "en"
    }
   ],
   "il": [
+   {
+    "title": "בורסת תל אביב נצבעה אדום אבל מניה אחת בולטת בעליות",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001563287#utm_source=RSS",
+    "source": "גלובס",
+    "published": "2026-11-13T09:41:00+00:00",
+    "lede": "ת\"א 35 מאבד 0.3% ות\"א 90 נחלש ב-0.8% • הזינוק בתשואות האג\"ח בארה\"ב מעיב על השווקים ומקרין גם על תל אביב • באסיה נרשמת מגמה שלילית בצל קריסת הין היפני • בשוק המט\"ח המקומי הדולר מתקרב שוב ל-3.2 שקלים • וגם: \"הטכנולוגיה…",
+    "lang": "he"
+   },
    {
     "title": "לא שמות נוצצים אבל עם רקורד בהבראת חברות: הדמויות מאחורי קבוצת המשקיעים בארקיע",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001563327#utm_source=RSS",
@@ -147,14 +155,6 @@
     "source": "גלובס",
     "published": "2026-11-13T08:26:00+00:00",
     "lede": "ת\"א 25 מאבד 0.1% ות\"א 90 נחלש ב-0.3% • הזינוק בתשואות האג\"ח בארה\"ב מעיב על השווקים ומקרין גם על תל אביב • באסיה נרשמת מגמה שלילית בצל קריסת הין היפני • בשוק המט\"ח המקומי הדולר מתקרב שוב ל-3.2 שקלים • וגם: \"הטכנולוגיה…",
-    "lang": "he"
-   },
-   {
-    "title": "\"נתון חריג מאוד\": הישראלים מסתערים על מניית אנבידיה",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001563334#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-13T08:18:00+00:00",
-    "lede": "איך הגיבו המשקיעים העצמאיים לנפילה במניית אנבידיה? נראה שמשקיעי הריטייל הישראלים אופטימיים יותר מכמה אנליסטים שמסקרים את אנבידיה בוול סטריט",
     "lang": "he"
    },
    {
@@ -192,18 +192,18 @@
   ],
   "geo": [
    {
-    "title": "Iran's top negotiator says U.S. asked Putin to mediate talks to end war",
-    "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNTHdTU0VScTcwYjg1bHRWYlViQndOcF9Md0FFay0yQlhPWENaT1dBRUlIelhlUnFsbHFJbnF1SmJvdkkyb0RLN3BSWWdxQkJ1MkQ0M1VUT3NSeVo0aDFvS1MxVjhEZnRINC03M19XV1dlWTZqR3Zhb2tlUGFYYnM2Um9lY0FNMzZsM3ZYdmNVU2p5Rmh6SWlMTldXMEFsY2xheU9LVE54LS1kdFNyNXMyamMzaDBXb1JjbTlxdmFmbTBSeml3bjEzQTdFMTF5ZnZTbjRONVRfdFhmb3hvRXJHSXFCZUpPQjlERkZuVFJYUzAteW5QeEM1cnNlT1VPZDA5R3BsYQ?oc=5",
-    "source": "Haaretz",
-    "published": "2026-11-13T07:53:00+00:00",
+    "title": "‘We will sue them’: Canada threatens Stellantis as Trump trade war reshapes Jeep production plans",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMFRLX3NsenJzNmtnMmVMUXhtakFGcEU2RFRRZEk1NUl4aF8wWEtZQ1RuVG1oZ0ZJRmJqc3N3VnpfQjhLcV80UGxTTFc5Q0Z1Z01YNXJTNXZYZUhsRjhNWWx5bXdMTlI5dGF3VUJNQUR4VFNnb3pLLXFXY1dmUnJXVFVoaVTSAYoBQVVfeXFMTmVzVXVTOFZDV2VKVzM3T2NsVF9xSmtfcFNscWJNYTNZV3RtNExYMWRjQUM5bmxxOXk1eU8zR09iZVRlNXctTWlROVlQWEcwY3FnYy1scjRuZU5RbS1EUDNuMWI5d1hvTXpURENab1A4eURib3BqYjFaRXlXVFJXRHBsYU5NSG5QZktR?oc=5",
+    "source": "CNBC",
+    "published": "2026-11-13T09:44:38+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Opinion | Danger ahead! Netanyahu must be stopped from provoking a war with Iran",
-    "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQUnpxYnQ1NmFCcEdGeVNNTGdFd0FKSERoOVNTb0V0Q1JuVEZWZDJVVkpNZ3l4clpZN0xNX25jcDB2YzNNNXRFcW10UzhPdkVKcHlPWmVfMTFhWVZIdnFLQW5UYVluZlBPSXU5OEIwY0ZYMnVSOFNsZmk0VkxCZm9MMzAyQVlybWFoZlBra08xQXVYSkJVRW5HaWhzQllKM1hYejVwckVCWnNFQmhEQmVQQkIxM2Q4RjJRWUhhci1tSUZiVWgycl82ZGpqWUpGQnpvOEl5QXlaZXZuWXlxWEpDNUNhYVFaVE54Q3FLa2tjbndzTzNSS2JUSlNLRzkxSWFJcWNhQjZhYXo?oc=5",
+    "title": "Iran's top negotiator says U.S. asked Putin to mediate talks to end war",
+    "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNTHdTU0VScTcwYjg1bHRWYlViQndOcF9Md0FFay0yQlhPWENaT1dBRUlIelhlUnFsbHFJbnF1SmJvdkkyb0RLN3BSWWdxQkJ1MkQ0M1VUT3NSeVo0aDFvS1MxVjhEZnRINC03M19XV1dlWTZqR3Zhb2tlUGFYYnM2Um9lY0FNMzZsM3ZYdmNVU2p5Rmh6SWlMTldXMEFsY2xheU9LVE54LS1kdFNyNXMyamMzaDBXb1JjbTlxdmFmbTBSeml3bjEzQTdFMTF5ZnZTbjRONVRfdFhmb3hvRXJHSXFCZUpPQjlERkZuVFJYUzAteW5QeEM1cnNlT1VPZDA5R3BsYQ?oc=5",
     "source": "Haaretz",
-    "published": "2026-11-13T07:25:00+00:00",
+    "published": "2026-11-13T07:53:00+00:00",
     "lede": null,
     "lang": "en"
    }
