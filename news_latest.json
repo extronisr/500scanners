@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-13T01:01:05.884168+02:00",
+ "generated_at": "2026-11-13T02:01:32.405462+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -52,11 +52,67 @@
   ],
   "us": [
    {
-    "title": "e.l.f. Beauty vs. lululemon athletica: Which Consumer Goods Stock Is a Better Buy for 2027?",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNNjZXSEVKT045QXQ5WDNCRWNZbHAyV1BMZ2tSNHd4VHRIQ1UtcmlvZ3lxRUY3alFPenplWFdySnlORENmZzlaaTlDNzJSamRzcjBkcmc4QWpqb2xnQW1CbGhWQkNlc0NHdkUtMmpzWVRra3ZLeDMzWVp6ZDMtUDdaaUxaNjU5SEE?oc=5",
+    "title": "Nvidia-backed AI cloud stock sinks 18% despite record quarter",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOX3YxUXVxZzJaLW5fZWFrMlFkb0pNUHctUHJod2xxdThlOVFCU3doTFlxeXljMjgtYlNlRGhPSUM3LWJVVzBEQkRZYXVwamhGWlQ0aDRCU3NyX2xoZkxKbXpyV20waDIzaVQzRndoWmV1QVZnWWlzdmhMRzJxZUM3N3RMUzYwTEo0MTBpaU5xV3FrRlh4ZW84Sg?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-12T22:53:38+00:00",
+    "published": "2026-11-12T23:45:54+00:00",
     "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Applied Materials Inc. Q4 2026 Earnings Call: Live Updates of $AMAT Earnings, Stock Forecast",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPOElUY09hZXlENnFCOVM3SWpYSXNEVFgwTC14eWlPaWd3ZElubmNDcVdTTF9xZDJ1TjhHb1RURTN3OEJITVI2VHVWYUozLUF4MjBISGhCNVM4cW81dUpqd0E1alRGWXpRbE5YZ1NSRlRXSm1UVXpWQl9rQzhjNFE1X0FkYzRvRFFKNi1lcEwzS25XRUJ3QjRMZEN3?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-12T23:40:04+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Scandal-hit Nvidia CEO Jensen Huang quits, plunging AI chipmaking giant into turmoil",
+    "url": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC",
+    "published": "2026-11-12T23:34:05+00:00",
+    "lede": "US lawmakers now want to question Huang over whether one of his alleged relationships was with a Chinese spy.",
+    "lang": "en"
+   },
+   {
+    "title": "Oil prices rise after Trump says no Iran deal needed: 'We've got their Strait'",
+    "url": "https://www.cnbc.com/2026/11/12/oil-prices-jump-after-trump-says-no-iran-deal-needed-weve-got-their-strait.html",
+    "source": "CNBC",
+    "published": "2026-11-12T23:29:45+00:00",
+    "lede": "Oil prices were mixed on Thursday, after the latest comments from President Donald Trump raised worries that an end to the U.S.-Iran war was not in sight.",
+    "lang": "en"
+   },
+   {
+    "title": "Is Ondas (ONDS) Pricing In Too Much Earnings Hope?",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZVl2aTNjV2pxQS0wandKcEtkS1ZiR2gzdW85OHNlM1IxLWM3UGhVYVRqMWw4UUZxaUJPblRoZ0ZpSkt6aXR4QTVSZno4cDRSR29SUzBvak9vVjRrczRUczhxYXJoTFVRRkpQcmNQLUlRb2ozSEc5REdsOVR5Q2dQamZEYTN2Wm9GVlNvX1Q0YzFrY1RUdU1Z?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-12T23:28:11+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "AI boom will lift Nvidia even after Huang’s exit, investors say",
+    "url": "https://www.ft.com/content/ecb2b4ed-1b61-4c8a-a2e7-a6f9c85a59ff?syn-25a6b1a6=1",
+    "source": "Financial Times",
+    "published": "2026-11-12T23:26:26+00:00",
+    "lede": "Shares largely recovered by close of market Thursday as shareholders bought the dip and looked to group’s future without CEO",
+    "lang": "en"
+   },
+   {
+    "title": "Analysis: Nvidia’s leadership crisis tests the chipmaker’s role as the ‘central bank of AI’",
+    "url": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-ai-financial-system-risk.html",
+    "source": "CNBC",
+    "published": "2026-11-12T23:08:50+00:00",
+    "lede": "The tech giant's web of ties to other companies is raising the possibility that it could do far-reaching economic and financial damage.",
+    "lang": "en"
+   },
+   {
+    "title": "Huang’s fall is an indictment of founder mode at Big Tech",
+    "url": "https://www.ft.com/content/83051c3a-cab4-4c66-89fc-ae7149047a25?syn-25a6b1a6=1",
+    "source": "Financial Times",
+    "published": "2026-11-12T22:50:43+00:00",
+    "lede": "The risks of giving leaders free rein when AI is at the heart of the economy, national security and just about everything else are now clear",
     "lang": "en"
    },
    {
@@ -68,68 +124,12 @@
     "lang": "en"
    },
    {
-    "title": "Stock Market Today, Nov. 12: Nvidia CEO's Stunning Exit Sends Wall Street Lower as Rivals Surge",
-    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOWkpfcFVLcldhSU9fWS1VTHB2NGJqTFZ1am9kTzlnRldXaHlwRXhmaGxoYjNiMlJSZEEzUlNPSGRXMlJtd1lBeXZJc1ZHN1BTcVlVR0hERGhnN0x5dkNwcGYxT0Rwa194MEZMZHdDWmdkdTRvdGZqM3dUV1JSX1V5YjBqTEJlVmlhMElFSTRGSllTd2E0?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-12T22:45:02+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
     "title": "Opening trading-card packs has become a $2 billion market",
     "url": "https://www.marketwatch.com/story/opening-trading-card-packs-has-become-a-2-billion-market-new-apps-are-trying-to-cash-in-b7ba11f5?mod=mw_rss_topstories",
     "source": "MarketWatch",
     "published": "2026-11-12T22:38:00+00:00",
     "lede": "Pack-ripping apps are changing the way people buy and sell cards. But analysts say their “slot-like payoff” raises risks.",
     "lang": "en"
-   },
-   {
-    "title": "5 Unrivaled Stocks to Buy for the Next Decade",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSnlSdFpxNDY0bW1fVGgycmQwNWFyc3VKY3EyR3BUWkh1RHpIcnZ6QzlQdFJFRXBwb1hESG1DTC1yM0tzYjBfb041UDRpOFF6cXJ2RkpxcnJHZ1Utb0FBV3dWS1g0dWM0dUNyYVg4UzJaMTNMQXdiLUVUY1dYTjZfWWNPcTQ1QVo0QkxicERGWlJ4QVhxSHFZ?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-12T22:33:21+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Bond yields just saw their biggest surge since 2022 as expectations grow for more Fed rate hikes",
-    "url": "https://www.marketwatch.com/story/bond-yields-just-saw-their-biggest-surge-since-2022-as-expectations-grow-for-more-fed-rate-hikes-d0a4f195?mod=mw_rss_topstories",
-    "source": "MarketWatch",
-    "published": "2026-11-12T22:16:00+00:00",
-    "lede": "Fed Chair Warsh’s quiet style of communicating interest-rate policy has led to more volatile markets.",
-    "lang": "en"
-   },
-   {
-    "title": "Nvidia turmoil continues as Jensen Huang resigns over affairs scandal and company appoints interim CEO – as it happened",
-    "url": "https://www.theguardian.com/technology/live/2026/nov/12/nvidia-ceo-jensen-huang-affairs-share-price-plunges-live-latest",
-    "source": "The Guardian",
-    "published": "2026-11-12T21:33:08+00:00",
-    "lede": "This live blog is now closed. Analysis: Jensen Huang built an AI kingdom. What now? Full report: Jensen Huang resigns as Nvidia CEO Too big – and too well-connected – to sack? Huang does not enjoy the supercharged…",
-    "lang": "en"
-   },
-   {
-    "title": "Cisco beats on earnings, says AI infrastructure revenue will double this fiscal year",
-    "url": "https://www.cnbc.com/2026/11/12/cisco-csco-q1-2027-earnings.html",
-    "source": "CNBC",
-    "published": "2026-11-12T21:20:35+00:00",
-    "lede": "Cisco is trying to become a bigger player in AI after missing out on the early years of the boom.",
-    "lang": "en"
-   },
-   {
-    "title": "Donald Trump Jr. exits advisory role at Kalshi prediction market",
-    "url": "https://www.cnbc.com/2026/11/12/donald-trump-jr-exits-kalshi-advisory-role.html",
-    "source": "CNBC",
-    "published": "2026-11-12T20:03:57+00:00",
-    "lede": "The president's son will no longer serve as an advisor at Kalshi.",
-    "lang": "en"
-   },
-   {
-    "title": "יציבות בוול סטריט; אנבידיה יורדת ב-5%, המתחרות שלה מזנקות",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001563101#utm_source=RSS",
-    "source": "גלובס",
-    "published": "2026-11-12T19:55:00+00:00",
-    "lede": "נאסד\"ק ללא שינוי כעת • מייסד אנבידיה והמנכ\"ל ג'נסן הואנג התפטר מתפקידיו כנשיא, מנכ\"ל וחבר דירקטוריון, באופן מיידי • מאסק הגיב בציוץ ברשת X לפוסט שקרא לו להעסיק את הואנג: \"זה יהיה כבוד\" • טראמפ ממליץ על היורש של הואנג…",
-    "lang": "he"
    }
   ],
   "il": [
@@ -192,18 +192,18 @@
   ],
   "geo": [
    {
-    "title": "US envoys and Putin agree to continue Russia-Ukraine peace talks",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRG45T2R4UmFjWjFib21RZmdqMFNSNmc4VlM5SDhnSFNkOWU3WElJTHczOEhnSG5hc05KQ3BHdUV3R1RYeXRMVkQ0SlJmbkMxRWhkTVFDOEQ1N013VnhGdW1ENzlIR21VREJYUmk1SklrWEYyWUg1NTMtMDU3VFVaeTA0dkMtWFM1c0ZwUkNMNlE4VUd6Mm5CY1pESVZVdkw0SzZXNkVMMNIBrAFBVV95cUxPYThFUTlZR1BIaUZKVFdOcFlqbi1DR0FEUlV1d1UyMGNvRG5oa0ZtRnJsN0FoRW9GeUFyTGlsVkZtcS1HTmdoRGt1bmlvYmR0aEtuQ0pWT0NjdXBwRG1NSXY5RnRtQkx3MHR2WjRaQmkxMmxmRHBORnI1aXBrSnNvSGN6SHE4ODRsWlFLWGxraURmajBZc2daN20ycFY3SFRpOVVmQ3JEVVZvNmFz?oc=5",
-    "source": "Al Jazeera",
-    "published": "2026-11-12T21:31:57+00:00",
+    "title": "Spy scandal / Hegseth’s future / Are we still at war with Iran? : Sources & Methods",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQeTk5RHpuU0s5S0tGVXp3Y1d4N25JVHU3TFJjZDh0dUNpdTExV0h0N25JeE0xeWxkY1A4VVpqTGFuaG9hMnFfNVZCNWt2dkV5aWt4eGFvMDB2Zzl6RjZ0eDBfRi1QU3JWWnpWVmdLZWRYVmJRN20wM2t4dEg0eEtSLTh4aFBzN1hWQXh5aXRUNkFSMXUwNzJkT1JlSGZrZ0RGT0ZfTg?oc=5",
+    "source": "NPR",
+    "published": "2026-11-12T23:11:15+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Across Africa: Tunisians drawn into Russia's war with Ukraine",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOdWZEb2REZm10aVBNWkFwUjBhb3l1dVB0Nk5aNWxic2hxNXc0dGtVUkE1VUlTVjhrYkpPczBDU054bTFiVDFXUktUQjFBMTlMWmpvb0RQRkxEYnBxRTR5VEo2bjNTSGstSjV0YndCcF9SbWV4aE1oX0lMMG8yYTgwWmNseDB3bjRsZ3dEVllZcmRCZw?oc=5",
-    "source": "France 24",
-    "published": "2026-11-12T21:26:17+00:00",
+    "title": "US envoys and Putin agree to continue Russia-Ukraine peace talks",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRG45T2R4UmFjWjFib21RZmdqMFNSNmc4VlM5SDhnSFNkOWU3WElJTHczOEhnSG5hc05KQ3BHdUV3R1RYeXRMVkQ0SlJmbkMxRWhkTVFDOEQ1N013VnhGdW1ENzlIR21VREJYUmk1SklrWEYyWUg1NTMtMDU3VFVaeTA0dkMtWFM1c0ZwUkNMNlE4VUd6Mm5CY1pESVZVdkw0SzZXNkVMMNIBrAFBVV95cUxPYThFUTlZR1BIaUZKVFdOcFlqbi1DR0FEUlV1d1UyMGNvRG5oa0ZtRnJsN0FoRW9GeUFyTGlsVkZtcS1HTmdoRGt1bmlvYmR0aEtuQ0pWT0NjdXBwRG1NSXY5RnRtQkx3MHR2WjRaQmkxMmxmRHBORnI1aXBrSnNvSGN6SHE4ODRsWlFLWGxraURmajBZc2daN20ycFY3SFRpOVVmQ3JEVVZvNmFz?oc=5",
+    "source": "Al Jazeera",
+    "published": "2026-11-12T21:31:57+00:00",
     "lede": null,
     "lang": "en"
    }
@@ -216,7 +216,6 @@
   "BBC",
   "The Guardian",
   "Seeking Alpha",
-  "גלובס",
   "Google News",
   "גלובס",
   "גלובס",
@@ -227,5 +226,7 @@
   "Google News",
   "Google News"
  ],
- "sources_failed": []
+ "sources_failed": [
+  "גלובס: The read operation timed out"
+ ]
 }

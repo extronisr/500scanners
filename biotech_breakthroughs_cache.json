@@ -1,5 +1,5 @@
 {
- "fetched_at": "13.11.2026, 1:34",
+ "fetched_at": "13.11.2026, 2:05",
  "items": [
   {
    "title": "VeonGen on track for phase 3 Stargardt trial after FDA meeting - Glance by Eyes On Eyecare",
@@ -4423,46 +4423,6 @@
    ]
   },
   {
-   "title": "ARTEMIS: Ravulizumab to Protect Patients With CKD From CSA-AKI and MAKE",
-   "link": "https://clinicaltrials.gov/study/NCT05746559",
-   "pub_ts": 1793232000.0,
-   "date": "2026-10-29",
-   "cat": "phase3",
-   "sev": 2,
-   "dir": 0,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT05746559"
-    }
-   ],
-   "ncts": [
-    "NCT05746559"
-   ]
-  },
-  {
-   "title": "Tiotropium/Salmeterol Inhalation Powder (Spiriva Handihaler and Salmeterol Polyethylene (PE) Capsule) in Chronic Obstructive Pulmonary Disease (COPD)",
-   "link": "https://clinicaltrials.gov/study/NCT00662740",
-   "pub_ts": 1793232000.0,
-   "date": "2026-10-29",
-   "cat": "phase3",
-   "sev": 2,
-   "dir": 0,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT00662740"
-    }
-   ],
-   "ncts": [
-    "NCT00662740"
-   ]
-  },
-  {
    "title": "Regeneron Reports Phase 2 PINNACLE Data Show Baloncibart Improved Heart Rate Response and Symptoms in POTS - Quiver Quantitative",
    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQWVRBSWJ3cTI2TTFyX3MxTW9ucHJYM1BnbW5MY3RTNUpOS09nV1habWdGT21ob1V4dVBFcU5iWjFSVW42NmZqQ0JCUHZtaDQyeHRvUG5wQ29JeU5mM3ZfRDluR1dHRlNTTVJpcUI0NThhOWtNOUwzbFdwNGtWbUVIaEhXVE5uRkJuS3FZVXhhcEtyUS04R1BTejdNb0RGUVFiZlVtU2tueHY4RHl3bm1zSEdLTERtX000djBGb0lSRzN4RmhPdEdZUWw1ZGJTTS1xMURMZmln?oc=5",
    "pub_ts": 1794521460.0,
@@ -5677,70 +5637,6 @@
    ],
    "ncts": [
     "NCT06215261"
-   ]
-  },
-  {
-   "title": "PRO1107 in Patients With Advanced Solid Tumors",
-   "link": "https://clinicaltrials.gov/study/NCT06171789",
-   "pub_ts": 1793232000.0,
-   "date": "2026-10-29",
-   "cat": "phase2",
-   "sev": 1,
-   "dir": 0,
-   "tickers": [],
-   "companies": [
-    "GMAB"
-   ],
-   "sources": [
-    {
-     "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT06171789"
-    }
-   ],
-   "ncts": [
-    "NCT06171789"
-   ]
-  },
-  {
-   "title": "KEYMAKER-U01 Substudy 2: Efficacy and Safety Study of Pembrolizumab (MK-3475) When Used With Investigational Agents in Treatment-naïve Participants With Anti-programmed Cell Death Receptor Ligand 1 (PD-L1) Positive Advanced Non-small Cell Lung Cancer (NSCLC) (MK-3475-01B/KEYMAKER-U01B)",
-   "link": "https://clinicaltrials.gov/study/NCT04165083",
-   "pub_ts": 1793232000.0,
-   "date": "2026-10-29",
-   "cat": "phase2",
-   "sev": 1,
-   "dir": 0,
-   "tickers": [],
-   "companies": [
-    "MRK"
-   ],
-   "sources": [
-    {
-     "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT04165083"
-    }
-   ],
-   "ncts": [
-    "NCT04165083"
-   ]
-  },
-  {
-   "title": "Effects of Maintenance Cabozantinib+BSC Versus BSC in Children and AYA With Osteosarcoma",
-   "link": "https://clinicaltrials.gov/study/NCT06341712",
-   "pub_ts": 1793232000.0,
-   "date": "2026-10-29",
-   "cat": "phase2",
-   "sev": 1,
-   "dir": 0,
-   "tickers": [],
-   "companies": [],
-   "sources": [
-    {
-     "source": "ClinicalTrials.gov",
-     "link": "https://clinicaltrials.gov/study/NCT06341712"
-    }
-   ],
-   "ncts": [
-    "NCT06341712"
    ]
   }
  ]
