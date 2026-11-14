@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-14T17:01:07.784645+02:00",
+ "generated_at": "2026-11-14T18:01:06.472380+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -52,11 +52,43 @@
   ],
   "us": [
    {
-    "title": "SpaceX Just Announced 2 New AI Supercomputing Campuses. I'd Wait Before Buying the Stock.",
-    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOR2txb3FFN1ZfZTZad1FDb0NBWlRacy1EZGJ1QWg4Sjl5Nkw1SU9vRE5FbjYtRmQzQ2ZzYmUxN2ZHOUhKblN1OUdndEUxWHNLQkxNaFJPMDFCSEVhTkt5eG9sQ1NkY0tPQllwamxxckpRSmx6cWIybzV3OFF0bHlSY3BwdU5MN3RSRm5aYW92Y1JqTmxf?oc=5",
+    "title": "How Nvidia turmoil and a Democratic Congress could reshape the AI trade, according to ETF experts",
+    "url": "https://www.cnbc.com/2026/11/14/nvidia-ai-trade-data-centers-congress.html",
+    "source": "CNBC",
+    "published": "2026-11-14T15:50:43+00:00",
+    "lede": "ETF experts say Nvidia’s leadership turmoil and Democratic control of Congress could shift AI demand to the benefit of other Big Tech stocks, rival chipmakers.",
+    "lang": "en"
+   },
+   {
+    "title": "AMD Just Crushed Nvidia by 32 Points After Scandal. Here’s How NVDA Can Come Back",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOSjMwR3Z2UENUSFFhWktnMFdqSkNoTTFCVmYzd2xNdXFjbUlEVzh5QXRSU1NsVVQ5ZzVzU3VwOGFYOXByOHpaU3hzdTE4NE9UaE9MRG9GbTY1cGZydUMzbXVKcWtySDVKN1I0VkJPazVVcFNDOWQzeXRNTW5rSjNTc29jNVd4UHNPeWxqVTlFTTNRbFNIdVE?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-14T14:46:02+00:00",
+    "published": "2026-11-14T15:41:51+00:00",
     "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "CoreWeave Stock Surges as Revenue Soars. Is It Too Late to Buy the Stock?",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPNjJVU0Ywa0tXbmJITWcweXdncWp4WkhSOENORmxBQlp0bGluNU5DdGlfcjVvY19OSmJUNVZnSEJ2MnFZYUdsaHZGZlpmTjhmamg1bTRZT2lvY2RMM3J6UDAxTHJPYTJHTlVxWGtYTkNHcGZGZ1c3OWU5VmN3RWJyc0Fmd0lsU29JenRUekRxa3luQVhORm9ZTmY2R05XVnp3RW4w?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-14T15:35:01+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "MercadoLibre vs. Uber Technologies: Which Consumer Network Stock Is a Better Buy for 2027?",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVnM0bnlaRGJRX0pyZUFRdjAwTm9RNmtIVzgwZmJyR3NTUFlYc2w1MUY3b0JKamNGNTRGRzE3TzBUTmhjTGZvMy0wSVduOVRQNzZpQjBJUFFPblRpMlUyb0ZQc0M4MVRfY2RkbkJNUkZ6QlgzX1BTc0I0YTdzc29KUW5heWZoNUtub1lFUEN0Nkd3WW1zeHpmbjlVcm1mVUlhMnF6dzJFNm45WkU?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-14T15:32:02+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "Rising rents draw Wall Street money to industrial outdoor storage lot investments across the U.S.",
+    "url": "https://www.cnbc.com/2026/11/14/real-estate-rental-income-industrial-storage-market.html",
+    "source": "CNBC",
+    "published": "2026-11-14T15:14:57+00:00",
+    "lede": "A real estate investment in markets across the U.S. called 'industrial outdoor storage' is attracting Wall Street giants including Brookfield and Blackstone.",
     "lang": "en"
    },
    {
@@ -64,23 +96,7 @@
     "url": "https://www.theguardian.com/business/2026/nov/14/interest-rate-rises-inflation-bank-of-england-chief-economist",
     "source": "The Guardian",
     "published": "2026-11-14T14:42:27+00:00",
-    "lede": "‘We have further to go,’ says Huw Pill after increase to 4% last month as Bank seeks to tackle rising inflation The Bank of England will probably need to raise interest rates next month and again in early 2027 to combat…",
-    "lang": "en"
-   },
-   {
-    "title": "Harvard Cut Nvidia by a Third and Bought AMD",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOVFJrN3FEZ3ZDX2N0S1IzdG1FaFVCQWpuT0hrUzRDMFREaGw3dk55VXdTNTBydU5VN05pQVo2aWhad0prejVENTluemE1R2tNMTR0MGNLd2NXYnAxd004WjdBaENDQk1yMGhEU1hJb2ZFcVhUdndGRkVwNGtFeGpCc3hROFRsR3RTWVVJRGhQdlk4WWxsNDZFWXFETjg?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-14T14:38:00+00:00",
-    "lede": null,
-    "lang": "en"
-   },
-   {
-    "title": "Walmart just took another step to beat Costco that could backfire",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPMHk4VEJoUllSaU1vbXo5bW4xX25WeUtTVEJTTy1VaUZING8zeUpBTlAtY3UwVmVZSFZ1ZjZwSl91ZFVaZmEwSGRSZlFkUWhtV3Bubk5rZUoxWGtJQzRuQ2VOSEI5algzZFFyeERpZFdGc19OS19OWFlQeFZ0aUFTaXpBck1IVHhwSHFIQzFucVpvM3NJbmp2TURndw?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-14T14:33:00+00:00",
-    "lede": null,
+    "lede": "‘We have further to go,’ says Huw Pill after increase to 4% this month as Bank seeks to tackle rising inflation The Bank of England will probably need to raise interest rates next month and again in early 2027 to combat…",
     "lang": "en"
    },
    {
@@ -89,14 +105,6 @@
     "source": "CNBC",
     "published": "2026-11-14T14:30:01+00:00",
     "lede": "With household budgets already squeezed by persistent inflation, some residents are seeking emergency help with heating oil bills before winter begins.",
-    "lang": "en"
-   },
-   {
-    "title": "Berkshire breaks out to record high with fourth-quarter rally reaching 19%",
-    "url": "https://www.cnbc.com/2026/11/14/berkshire-breaks-out-to-record-high-with-fourth-quarter-rally-reaching-19percent.html",
-    "source": "CNBC",
-    "published": "2026-11-14T14:02:39+00:00",
-    "lede": "Berkshire Hathaway's red-hot shares are ending a strong week with four consecutive fresh record high closes.",
     "lang": "en"
    },
    {
@@ -121,14 +129,6 @@
     "source": "MarketWatch",
     "published": "2026-11-14T13:00:00+00:00",
     "lede": "The postelection panic over data centers has led to a widespread tech selloff, but some stocks are more insulated than they seem, according to Bernstein.",
-    "lang": "en"
-   },
-   {
-    "title": "Health is wealth? Polymarket and Kalshi now host bets on measles and other US health crises",
-    "url": "https://www.theguardian.com/world/2026/nov/14/measles-kalshi-polymarket-betting",
-    "source": "The Guardian",
-    "published": "2026-11-14T12:00:44+00:00",
-    "lede": "Experts warn of risks of platforms hosting bets tied to US public health – including vaccine mandates and drug trials The sign was pasted on a construction fence next to an elementary school in the Brooklyn borough of…",
     "lang": "en"
    }
   ],
