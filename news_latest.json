@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated_at": "2026-11-14T01:01:04.182529+02:00",
+ "generated_at": "2026-11-14T02:01:04.956987+02:00",
  "windows_h": {
   "us": 14,
   "il": 20,
@@ -9,14 +9,6 @@
  },
  "sections": {
   "analysts": [
-   {
-    "title": "SpaceX Starship’s First Double Catch Is ‘Massive’ For Orbital AI Data Centers, Says Market Strategist",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNMmtWY2JpYmRuY1ZrazBPYU5DMEM3SFJabDFmRnk4ajBfcWFxdklBVnRmQzFOMC0wQWF1STg3b2R1Ym9UVE8zeGVaV3pjSF9QbkZiTllJTWF2UmhkNXdzNEdpbjJDcGtZUXE5V1JkUDNvS3FIcTBZWUFIVW8ydzRGZ2ZhbDZ4UkxOWXNmWWZRY1FscXVXNTJoeE4wMmNUSnM?oc=5",
-    "source": "Yahoo Finance",
-    "published": "2026-11-13T19:30:40+00:00",
-    "lede": null,
-    "lang": "en"
-   },
    {
     "title": "Investors are underestimating AI. But the real challenge is diversification, this strategist says.",
     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQaHBKVUxfXzhfU280dENjRmY1MlhlLWUwOEg3Tzkxd285N1hWSUp1b3BYOGFTSFJ1VDFnVXBDbWVWN2NKei1rQUlTam9DZ1VSSnZreWZ4Z09Hbm5WdjVOSC1tSXZ0Z3F1dkp4MC1PMWdYMjlydDJZY0xSUGZNcnN5eFI3NHdsSXpaWjJTYzNCRVl1cGdoRWRmRGU1cEY1WURXVDJETHJQOXFCSDJXZ2RFWnZhU1BVeWR0dU9Tak53RTlkTUF2ZV9BUDNEZnNEbDRuMncxeQ?oc=5",
@@ -48,30 +40,54 @@
     "published": "2026-11-13T12:09:05+00:00",
     "lede": null,
     "lang": "en"
+   },
+   {
+    "title": "Owlet Gears Up For Q3 Print; Here Are The Recent Forecast Changes From Wall Street's Most Accurate Analys",
+    "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNSlA3azhvZE1yZDBhRXo3VHVpbzJhZkJxMlc5LU1TRGFFWFpvb25WRWFtR0NoOHJyamJJTlpfUWVVZGYwbkc0N1RFeUpmM1JtV2tZcVZ3NHJUMl95VEoxSmI3TlRYYUpJWFJadHREUGJDV1p1NzhwT3dKZklyYTVjLUIwcmR6enBFMFl0Sk5Pdk5mV1VWWjg1LVlWUFNTOHZHVmU0MUp3TE53bTc5VzdBN3RyZVdaOFNwX0ZzSXpzRUpLdnZ0UUw5akNaQWtDenNJNGJ3cFhXbU9wY3hIbVNDQ24yRnBLOUtzNWZUVUJROXhvTzZSWnFLWGFnQzFsVnE0YTk5S3lEa1BWSTQt?oc=5",
+    "source": "Benzinga",
+    "published": "2026-11-13T06:01:05+00:00",
+    "lede": null,
+    "lang": "en"
    }
   ],
   "us": [
    {
-    "title": "Stock Market Falls But Nasdaq Holds Key Level; Anthropic IPO, Nvidia Earnings Loom",
-    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOWlNKVkRyWWxPUEhTTW1lekhnU2h4anExcDZYQzlWV2VSalNTc3RwRXp0Y3VkbGFyNWRnbm5BaXNoTXc3elhvNnNoNnlNVkxZUHhfbVdjZTJKcHkyb1JVUmhDOWRmQU8xT1dHMk9RelppakJjblpyUjBjcUUyYTNXMDNEZUpsanI4NFh3LUlUTDRYUGhfdjlVVURkMEVBQjg0ZWFZellwT2Rvel9NT0hMVk5GNTg4OExUTDBSUGNSeFBmNEVhWVNpVlVCMEEzQy12NEE?oc=5",
-    "source": "Investor's Business Daily",
-    "published": "2026-11-13T22:36:00+00:00",
-    "lede": null,
+    "title": "Lutnick faces questions over Nvidia spy scandal. His sons' firm has deep ties to the chipmaker",
+    "url": "https://www.cnbc.com/2026/11/13/howard-lutnick-nvidia-jensen-huang-china-cantor-fitzgerald.html",
+    "source": "CNBC",
+    "published": "2026-11-13T23:42:18+00:00",
+    "lede": "Jensen Huang’s resignation as Nvidia CEO has brought renewed scrutiny to Commerce Secretary Howard Lutnick and his family's financial ties to the chipmaker.",
     "lang": "en"
    },
    {
-    "title": "FRMI Stock Clocks Best Day Ever After Report Names Amazon As Project Matador Customer",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxObFdOelBIVFJIcF9Tek5HWHpxQ1VoN2kxcVJpa08yaXRma0FwX2VRZEtWcHRBdDBrS1d5UWxzQU1DMmVPU3hSbHRBRGVzQldHV2UzRjVPTnRTM09Kdlc0cXF5V2ZwUEtpQnIxWE5ySXp1RTQ1bkMtSjNZYmZ2YlBINDc1QTlaTTNCVG8zTnB4RUxHUVdoYXc?oc=5",
+    "title": "Sam Bankman-Fried would have made nearly $40bn in Anthropic IPO",
+    "url": "https://www.ft.com/content/0ef40ac9-6d01-428f-98c8-a52bf5b9a787?syn-25a6b1a6=1",
+    "source": "Financial Times",
+    "published": "2026-11-13T23:39:26+00:00",
+    "lede": "Jailed cryptocurrency mogul loses out on windfall from early investment in the AI lab",
+    "lang": "en"
+   },
+   {
+    "title": "S&P 500, Dow, Nasdaq End Lower Amid Nvidia Turmoil, But Record Best Week Since August — SPCX, NVDA, ARM, AZN In Focus",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPWUpjR2Y4OTNkb290ZEs3VzNwNWlSRW5zQ19LYVJwRXQ1OTdtbUZadkdQUmNPZ0RaTHQ5VnVVXzA1VWp6VEJjQlkyeGFFNjJwVmdnU2dKM3J2WXpsYVVqRjRCZ0poOUhUWnRTbDZQX0tBbUo3QXlMVTdEV1BxQ0FGcWItZWZpcEZTd2dpZVRR?oc=5",
     "source": "Yahoo Finance",
-    "published": "2026-11-13T22:23:59+00:00",
+    "published": "2026-11-13T23:37:29+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "FuelCell Energy Inc. stock falls Friday, underperforms market",
-    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNVkgtMmFuZkpoZUg2TGx0cFdLMElkaGk3LXE3OFRCR0NscHBfdVFYS3g2c2YwbGV5MnNSUkVyajZkaW1fcXpzMFBFYmVqN2Z5OTZKVkprWGNTVXhGeXJkOTE3bm1ISXp2R0lRZlhjVzJadHdwQzJ3MjZ1OHMwaUVGMHFDeFktcG8tSEx5ME1RUjEyM3ZaT2FLTDdfeEZZcC1QRnZOaW9xeGN5SEhtUXFGbWRtbkRCdWZjc2lYOHlraFNLMGxndUNoRDV6eWpNTThBeGxF?oc=5",
-    "source": "MarketWatch",
-    "published": "2026-11-13T22:22:00+00:00",
+    "title": "Why Newsmax Stock Popped on Friday",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOdzNfNi0tRmlGUGhvMWphSEpnSF9VcHFtMjZOSldmQ1Z3YVZpWEhXOEl2bWl5YUt4OFN4VnBTSjdKRUZtM2s1aTRxM2xRTkZJTEwwSDNXRUpmSHd5aExlQmQ2M1FfMU82S1k5RlNESzFIV1Z0QWE2REZudzZaVmNxaElDeEVNeGhhN0FhZ211b3p2QXo5SGVlZDIyVHI?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-13T23:22:02+00:00",
+    "lede": null,
+    "lang": "en"
+   },
+   {
+    "title": "3 US Bank Stocks With Prime Brokerage Exposure to AI Funding Risk",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPVmwxMFZ0TmFOVFpPNHhTVkhidTU3NFE4dEIta0tYWFFpS3BxTGZDMlVmb0k1TUwwaUZHV3liS2d3Mlk4ME5wdXlSNlZMZ25QVkVrZFlidFNsU1M0V3F0eDVXN3IwWkNkQXJPLUYwU3BRQU16S19iV1pYZHYzN2JXaDhiWWJoWjd1STJEZ0h2eVA?oc=5",
+    "source": "Yahoo Finance",
+    "published": "2026-11-13T23:15:24+00:00",
     "lede": null,
     "lang": "en"
    },
@@ -108,28 +124,12 @@
     "lang": "en"
    },
    {
-    "title": "10-year Treasury yield moves to 5.17% as traders weigh producer price report",
-    "url": "https://www.cnbc.com/2026/11/13/treasury-yields-fed-rates.html",
-    "source": "CNBC",
-    "published": "2026-11-13T21:08:20+00:00",
-    "lede": "Treasury yields moved higher as investor expectations for a December rate hike by the Federal Reserve gain strength.",
-    "lang": "en"
-   },
-   {
     "title": "מניות השבבים העיבו על וול סטריט; אנבידיה ירדה בכ-2%",
     "url": "https://www.globes.co.il/news/article.aspx?did=1001563339#utm_source=RSS",
     "source": "גלובס",
     "published": "2026-11-13T21:00:00+00:00",
     "lede": "למרות הירידות, נאסד\"ק רשם את השבוע הטוב ביותר מאז אוגוסט",
     "lang": "he"
-   },
-   {
-    "title": "Anthropic’s Amodei ‘not super fussed’ about market turmoil ahead of IPO",
-    "url": "https://www.ft.com/content/4b7b83d7-7fea-4ce2-bfe3-4f2cf75b1d82?syn-25a6b1a6=1",
-    "source": "Financial Times",
-    "published": "2026-11-13T19:41:26+00:00",
-    "lede": "AI lab’s chief executive brushes off tech stock turbulence less than a week before planned $1.5tn listing",
-    "lang": "en"
    }
   ],
   "il": [
@@ -184,18 +184,18 @@
   ],
   "geo": [
    {
-    "title": "Russia Revives Demand That NATO Retrench to Secure Ukraine Deal",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNejhEQXBBR0FQS3VnT01VYUsxOTVLejRFTm1WMGtzQUc5OER5dW5yZ3ZOQUdCRFFaVXRjNVotNkNNc2hLSTR5Q0V2MGV5REJZQ2RRRE1yaXRXbGxscGhub3F1dVBueTR2dVViNlkxN1hRNC1iczRQSlNpSGdmelhxai1SLUw?oc=5",
+    "title": "Europe Agrees on a Team to Represent It in Talks With Russia",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPbXZ5el9iR2VOdWd1dVNVX00zWkdWM01yQkk4WkxZZmtrNUNxUVZIQ3E0aHdrZ0NmMWlsclN0ejlhaHNvMWV3OWVBWXI4aF9aRzhPOW5pNTUwdHJNdWFSclFQckhJUDFYMXBpWDM4QjhsQ00wazRta0FVS2F3NDIwSWVBVjg5SjA?oc=5",
     "source": "The New York Times",
-    "published": "2026-11-13T20:05:56+00:00",
+    "published": "2026-11-13T22:47:13+00:00",
     "lede": null,
     "lang": "en"
    },
    {
-    "title": "Scoop: Israeli spy chief in D.C. as Netanyahu presses Trump to resume war",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPc0RsNzRSR3JhRUdIYkdjZ0VGRFdfeGJkUDd6NzRmV1FWMVRtSGtHYlFCQTZoRElpN2pBcmF6OXlQblJDaXlIeElKRjRXaXdvSkZNNGJTc21GaTdDTzRnUlJJcXVRZWx3N1pRYkhTSnZTNHVmc3VmQ19PdEttQ1FLV0t3dzd5VG1z?oc=5",
-    "source": "Axios",
-    "published": "2026-11-13T19:10:26+00:00",
+    "title": "Russia Revives Demand That NATO Retrench to Secure Ukraine Deal",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNejhEQXBBR0FQS3VnT01VYUsxOTVLejRFTm1WMGtzQUc5OER5dW5yZ3ZOQUdCRFFaVXRjNVotNkNNc2hLSTR5Q0V2MGV5REJZQ2RRRE1yaXRXbGxscGhub3F1dVBueTR2dVViNlkxN1hRNC1iczRQSlNpSGdmelhxai1SLUw?oc=5",
+    "source": "The New York Times",
+    "published": "2026-11-13T20:05:56+00:00",
     "lede": null,
     "lang": "en"
    }
